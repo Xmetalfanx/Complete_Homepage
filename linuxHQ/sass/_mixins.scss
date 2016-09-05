@@ -1,0 +1,60 @@
+@mixin autoMargin($margin-left: auto, $margin-right: auto) {
+  margin-right : $margin-right;
+  margin-left  : $margin-left;
+}
+
+@mixin LRMargin($margin-left: 1%, $margin-right: 1%) {
+  margin-right : $margin-right;
+  margin-left  : $margin-left;
+}
+
+
+@mixin NoMargin($margin-left: 0%, $margin-right: 0%) {
+  margin-right : $margin-right;
+  margin-left  : $margin-left;
+}
+@mixin borderRad($radius: 8px) {
+  -moz-border-radius    : $radius;
+  -ms-border-radius     : $radius;
+  -o-border-radius      : $radius;
+  -webkit-border-radius : $radius;
+  border-radius         : $radius;
+}
+
+@mixin single-box-shadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black) {
+  -moz-box-shadow    : $horz $vert $depth $color;
+  -webkit-box-shadow : $horz $vert $depth $color;
+  box-shadow         : $horz $vert $depth $color;
+}
+
+@mixin leftIcon($width: 48px, $height: 48px) {
+  width         : $width;
+  height        : $height;
+  float         : left;
+  padding-right : 10px;
+}
+
+@mixin softwareCols($colCount: 2, $colWidth: 40%, $colGap: 10px) {
+  @include        inline-block();
+  @include        column-gap($colGap);
+  @include        column-width($colWidth);
+  @include        column-count($colCount);
+  @include        boxShadow();
+  float         : left;
+  clear         : both;
+  margin-top    : 20px;
+  margin-bottom : 20px;
+  border-top    : $solidBorder;
+  border-left   : $solidBorder;
+  a:hover,
+  a:link,
+  a:visited {
+    text-decoration : none;
+  }
+}
+
+
+@mixin arcBlack {
+  background-color: $arcBlack;
+  background-image: $ArcBlackImage;
+}

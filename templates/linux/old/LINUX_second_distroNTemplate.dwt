@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="linux/baseTemplate.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+
+<!-- InstanceBeginEditable name="title" -->
+<!-- InstanceEndEditable -->
+
+   <meta name="Keywords" content="Xmetalfanx, Xmetalfanx's Homepage, Linux, GNU, Debian, OpenSuse, Fedora, Manjaro, Arch Linux, New Linux Users">
+    <meta name="Description" content="Xmetafanx's LinuxHQ site is a page for ..">
+
+
+   <link rel="index" href="../windowsHQ/index.php">
+   <link rel="home" href="../windowsHQ/index.php">
+
+
+
+    <link href="../linuxHQ/styles/layout.css" rel="stylesheet" type="text/css" media="(min-width: 640px)">
+    <link href="../linuxHQ/layoutMed.css" rel="stylesheet" type="text/css" media="(max-width: 639px)">
+    <link href="../linuxHQ/layoutSmall.css" rel="stylesheet" type="text/css" media="(max-width: 450px)">
+
+</head>
+<body>
+<header>Xmetal's Linux HQ </header>
+
+
+
+<nav>
+        <a href="linux/baseWideTemplate.dwt.php">New User HQ</a>
+        <a href="distros/distroHome.php">Distributions </a>
+        <a href="linux/baseWideTemplate.dwt.php">Desktops (DE's) </a>
+        <a href="linux/TutorialNTemplate.dwt.php">Tutorial</a>
+        <a href="linux/baseWideTemplate.dwt.php">Resources</a>
+</nav>
+<div id="mainBody">
+	
+
+<!-- InstanceBeginEditable name="mainBody" -->
+  <div id="col1">
+    @@(" ")@@ 
+    <div class="familyHeader">Arch Family</div>
+    <span class="family">
+    <a href="linux/TutorialNTemplate.dwt.php">Arch Linux </a><br />
+    <a href="linux/TutorialNTemplate.dwt.php">Antergos</a><br />
+    <a href="linux/TutorialNTemplate.dwt.php">Bridge Linux </a><br />
+    <a href="distros/arch/archBang.php">Archbang</a><br /> 
+    <a href="distros/arch/manjaro.php">Manjaro</a><br />
+    <a href="distros/arch/mmManjaro.php">Matthew Moore's  Manjaro Respin </a><br />
+    Spatry's Respin<br />
+    
+    </span>
+    
+    
+    <div class="familyHeader">Debian Family</div>
+    <span class="family"><a href="distros/debian/debian.php">Debian</a><br />
+    <a href="distros/debian/lmde.php">Linux Mint<br/>
+    Debian Edition</a><br />
+    <a href="distros/debian/crunchBang.php">Crunchbang</a><br />
+    <a href="distros/debian/makulu.php">Makulu Linux </a><br />
+    <a href="distros/debian/pointLinux.php">Point Linux </a><br />
+    <a href="distros/debian/kwheezy.php">KWheezy</a><br />
+    </span>
+   
+    <div class="familyHeader">Ubuntu Family </div>
+    <span class="family">
+    <a href="distros/ubuntu/ubuntu.php">Ubuntu</a><br />
+    <a href="distros/ubuntu/linuxMint.php">Linux Mint</a><br />
+    <a href="distros/ubuntu/elementaryOS.php">Elementary OS</a><br />
+    <a href="distros/ubuntu/linuxLite.php">Linux Lite</a><br />
+    <a href="distros/ubuntu/deepn.php">Deepin</a><br />
+    <a href="distros/ubuntu/LXLE.php">LXLE</a><br />
+    <a href="distros/ubuntu/pinguyOS.php">PinGuyOS</a><br />
+    <a href="distros/ubuntu/zorin.php">Zorin</a></span>
+    
+    <div class="familyHeader">RPM Based </div>
+    <span class="family">
+    <a href="distros/rpm/centOS.php">CentOS</a><br />
+    <a href="distros/rpm/fedora.php">Fedora</a><br />
+    <a href="distros/rpm/korora.php">Korora</a></span>
+    
+    <div class="familyHeader">Mandriva </div>
+    <span class="family">
+    <a href="distros/mandriva/mageia.php">Mageia</a> <br />
+    <a href="distros/mandriva/PCLinuxOS.php">PCLinuxOS</a><br /> 
+    <a href="distros/mandriva/openMandriva.php">OpenMandriva</a></span>
+    
+    <div class="familyHeader">Other</div>
+    <span class="family"><a href="distros/rpm/openSuse.php">OpenSuse</a><br />
+    <a href="distros/independent/puppyLinux.php">Puppy Linux </a><br />
+    <a href="distros/independent/evolveOS.php">EvolveOS (Still ALPHA)</a></span> </div>
+    
+    
+    
+  <div id="col2"><!-- End of distroTable DIV -->
+    <!-- TemplateBeginEditable name="main" -->main<!-- TemplateEndEditable --></div> <!-- end of Col2 DIV -->
+  <!-- InstanceEndEditable -->
+
+
+
+	<div id="bottomLinks">
+        <a href="../windowsHQ/index.php">Home</a> | 
+        <a href="../linuxHQ/thankyou.php">About Me</a> | 
+        Credits |
+        <a href="thankyou.php"> Thank Yous</a>  | 
+        <a href="http://www.cupoflinux.com" target="_blank">Cup of Linux</a> 
+        
+            <div id="valIcons">
+            <img src="graphics/w3ccss.gif"  alt="" width="88" height="31" class="right"/>
+    <a href="https://www.totalvalidator.com/" target="_blank">
+    <img src="linux/TutorialNTemplate.dwt.php"  alt="Total Validator Icon" width="35" height="33" class="right"/> </a>
+    </div>
+        
+        
+    </div>
+</div> <!-- End of Main Body Tag -->
+
+
+
+
+<footer>
+Copyright Xmetalfanx@yahoo.com 2014 -
+
+</footer>
+</body>
+<!-- InstanceEnd --></html>

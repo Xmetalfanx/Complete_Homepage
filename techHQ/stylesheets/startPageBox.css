@@ -1,0 +1,115 @@
+#softwareSection #browsersprite li {
+  display: block;
+  list-style-type: none; }
+#softwareSection #browsersprite .firefox {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -90px 0;
+  width: 59px;
+  height: 32px; }
+#softwareSection #browsersprite .gchrome {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -54px 0;
+  width: 32px;
+  height: 34px; }
+#softwareSection #mpSprite .aimp {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -284px -4px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .foobar {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -179px 0;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .vlc {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -337px -6px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .clem {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -55px 0;
+  width: 32px;
+  height: 32px; }
+
+/* Images */
+/* Border variables */
+/* Colors */
+/* new Scheme test */
+/* Fonts */
+/* Images */
+#StartPageStyle {
+  background-color: #ffffff;
+  color: #000000;
+  padding-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  clear: both;
+  width: 95%; }
+
+input.searchBox {
+  background-color: #ffffff;
+  color: #660000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 23px;
+  outline: none;
+  padding: 0px 6px;
+  padding-bottom: 1px !important;
+  padding-top: 1px !important;
+  width: 260px; }
+
+input.SPSearchBoxWIDE {
+  border: #3371d8 1px solid;
+  max-height: 20px;
+  margin-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px !important;
+  width: 45%;
+  min-width: 45%;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  clear: none;
+  box-shadow: 2px 2px 3px #000000;
+  vertical-align: middle; }
+
+.SPSubmitButton {
+  border-bottom: #3371d8 1px solid;
+  border-left: #3371d8 0px solid;
+  border-right: #3371d8 1px solid;
+  border-top: #3371d8 1px solid;
+  vertical-align: middle;
+  padding-top: 0px;
+  max-height: 20px;
+  margin-left: 3px; }
+
+td.SPGraphic {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px; }
+
+.SPSearchButton {
+  max-height: 28px;
+  margin-right: 1px;
+  border: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 2px;
+  padding-top: 0px;
+  clear: right;
+  vertical-align: middle; }
+
+#wrapper {
+  clear: both;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #ffffff;
+  padding-top: 10px;
+  color: #000000; }
+
+form.SPForm {
+  width: 40%;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%; }

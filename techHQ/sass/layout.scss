@@ -1,0 +1,902 @@
+@import "_sassHeader";
+
+a:link,
+a:visited {
+  color            : inherit;
+  background-color : transparent;
+}
+
+#body,
+body {
+  @include                display-flex;
+  @include                flex-direction(column);
+  @include                align-content(space-around);
+
+  margin           			: 0px;
+  color                 : $black;
+  background-color      : $darkGray;
+  font-family           : $Tahoma;
+  font-size             : 13px;
+  letter-spacing        : 0px;
+
+}
+
+
+#bottomHeader {
+  @include           display-flex;
+  @include           flex-direction(column);
+  z-index          : 990;
+  clear            : both;
+  padding-top      : 3px;
+  padding-bottom   : 2px;
+  padding-left     : 2px;
+  color            : $black;
+  border-top       : 1px solid rgba(204, 204, 153, 0.95);
+  background-color : $white;
+  text-align       : left;
+  font-family      : $SegoeUI;
+  font-size        : 11px;
+  order            : 6;
+  a:link {
+    text-decoration : none;
+    font-family     : "Segoe UI",
+                      Arial,
+                      Helvetica,
+                      sans-serif;
+    font-size       : 11px;
+  }
+  a:hover {
+    color            : #660000;
+    background-color : transparent;
+  }
+}
+
+img {
+  margin-top    : 0px;
+  margin-right  : 0px;
+  margin-bottom : 0px;
+  border        : 0px;
+}
+
+h3,
+h5 {
+  clear      : both;
+  margin-top : 5px;
+}
+
+p {
+  color            : black;
+  background-color : inherit;
+  text-align       : justify;
+  font-family      : "Helvetica Neue",
+                     Helvetica,
+                     sans-serif;
+  font-size        : 16px;
+  direction        : ltr;
+}
+
+table {
+  .leftSmallTable,
+  .virtSmallLTable {
+    display      : block;
+    float        : left;
+    clear        : right;
+    margin-right : auto;
+    margin-left  : auto;
+    padding      : 5px;
+    border       : $solidBorder;
+    text-align   : justify;
+  }
+  .leftTable td,
+  .rightTable td {
+    border-spacing : 20px;
+  }
+  .leftTable,
+  .virtLTable {
+    display      : block;
+    float        : left;
+    clear        : right;
+    margin-right : auto;
+    margin-left  : 50px;
+    padding      : 2px;
+    border       : $solidBorder;
+    font-weight  : bold;
+  }
+  .rightSmallTable,
+  .virtSmallRTable {
+    display      : block;
+    float        : right;
+    clear        : none;
+    margin-right : 50px;
+    margin-left  : auto;
+    padding      : 5px;
+    border       : $solidBorder;
+    text-align   : justify;
+  }
+  .rightTable,
+  .virtRTable {
+    display     : block;
+    float       : right;
+    clear       : none;
+    margin-left : auto;
+    padding     : 2px;
+    border      : $solidBorder;
+    font-weight : bold;
+        /*margin-right: 50px;*/
+  }
+  .tableNoBorderCenteredFiftyPercent {
+    @include   autoMargin();
+    width    : auto;
+    border   : none;
+  }
+}
+
+td {
+  color            : $black;
+  background-color : white;
+  text-align       : left;
+  vertical-align   : top;
+  font-family      : "Segoe UI",
+                     Arial,
+                     Helvetica,
+                     sans-serif;
+  font-size        : 13px;
+  font-weight      : normal;
+  a:link {
+    color            : blue;
+    background-color : transparent;
+    text-decoration  : none;
+    vertical-align   : top;
+  }
+}
+
+td.fiftyPercent,
+th.fiftyPercent {
+  width : 50%;
+}
+
+/*Three Column Tables*/
+
+td.progDecription {
+  width : 75%;
+}
+
+th,
+th a:link {
+  color            : white;
+  background-image : url(../graphics/navbar_trials/christmas/darkgreen1.png);
+  background-color : #009900;
+  font-size        : 9pt;
+  font-weight      : bold;
+}
+
+/*Test for CSS relplacements for tables in software Section*/
+
+.centerTables {
+  display       : block;
+  width         : 60%;
+  clear         : none;
+  margin-right  : auto;
+  margin-bottom : 100px;
+  margin-left   : auto;
+  font-weight   : bold;
+}
+
+.col1Indent {
+  margin-bottom    : 0;
+  padding-top      : 0;
+  padding-left     : 25px;
+  color            : $black;
+  background-color : white;
+}
+
+.dropShadow {
+  @include   boxShadow();
+  @include   border-radius();
+}
+
+.dropShadowIMGPadB {
+  @include        boxShadow();
+  @include        border-radius();
+  margin-bottom : 15px;
+}
+
+.dropShadowIMGPadB a:hover {
+  @include   scale(1.07, 1.07);
+  @include   perspective(1000px);
+  margin   : 1%;
+}
+
+.fiftyPX {
+  padding-bottom : 50px;
+}
+
+.generalTxt {
+  font-family : "Segoe UI",
+                Arial,
+                Helvetica,
+                sans-serif;
+  font-size   : 11pt;
+}
+
+.header {
+  a:link {
+    color            : white;
+    background-color : transparent;
+    text-decoration  : none;
+  }
+  a:hover {
+    color            : #ffcc99;
+    background-color : #660000;
+  }
+}
+
+.header,
+a:link .header,
+h2 {
+  /* @include           boxShadow(1px, 2px, 2px, #000000); */
+  clear            : both;
+  margin-bottom    : 0px;
+  padding-top      : 2px;
+  padding-right    : 2px;
+  padding-bottom   : 0;
+  color            : $tanL;
+  overflow         : visible;
+  border-top       : $solidBorder;
+  border-right     : $solidBorder;
+  border-bottom    : 1px ridge $black;
+  border-left      : $solidBorder;
+  background-color : $darkGray;
+  text-align       : left;
+  font-family      : $Verdana;
+  font-size        : 14px;
+  font-weight      : bold;
+    /*background-image: url(../graphics/navbar_trials/tan/tan2.jpg);*/
+}
+
+.progtableColL {
+  width : 49%;
+  float : left;
+  clear : right;
+}
+
+.progtableColR {
+  width : 49%;
+  float : right;
+}
+
+.progTableDesc {
+  position         : relative;
+  clear            : both;
+  padding-right    : 3%;
+  padding-bottom   : 2px;
+  padding-left     : 3%;
+  color            : $black;
+  background-color : inherit;
+  line-height      : 133%;
+}
+
+.progTables {
+  @include           boxShadow(8px, 6px, 10px, #000000);
+  @include           borderRad(4px);
+  display          : block;
+  width            : 80%;
+  float            : left;
+  clear            : both;
+  margin-right     : 3%;
+  margin-bottom    : 20px;
+  margin-left      : 10%;
+  padding-bottom   : 0;
+  color            : black;
+  border           : 2px solid $black;
+  background-color : $white;
+}
+
+.progTablesName {
+  display          : block;
+  width            : 100%;
+  float            : left;
+  margin-bottom    : 0;
+  padding-bottom   : 0;
+  color            : $black;
+  border           : $solidBorder;
+  background-image : url(../graphics/navbar_trials/tan/tan3.png);
+  background-color : #ffffcc;
+  vertical-align   : middle;
+  font-family      : Arial,
+                     Helvetica,
+                     sans-serif;
+  font-size        : 15px;
+  font-weight      : bold;
+}
+
+#mainBody .progTablesName a:link,
+.progTablesName a:link {
+  color            : #000099;
+  background-color : transparent;
+  text-decoration  : none;
+    /*vertical-align: middle;*/
+}
+
+/*
+  same as the original (sort of) ... for Items that do not have a decription
+  under it
+*/
+
+.progTablesName2 {
+  display          : block;
+  width            : 78%;
+  float            : left;
+  margin-right     : auto;
+  margin-bottom    : 4px;
+  margin-left      : auto;
+  padding-bottom   : 0;
+  color            : $black;
+  border           : $solidBorder;
+  background-color : inherit;
+  font-family      : "Times New Roman",
+                     Times,
+                     serif;
+  font-size        : 18px;
+  font-weight      : bold;
+}
+
+.progTableVer {
+  display          : block;
+  width            : 99%;
+  float            : right;
+  clear            : both;
+  margin-top       : 0px;
+  padding-top      : 0px;
+  padding-right    : 1%;
+  color            : $black;
+  overflow         : visible;
+  border           : $solidBorder;
+  background-color : transparent;
+  text-align       : right;
+  font-family      : Verdana,
+                     Geneva,
+                     Arial,
+                     Helvetica,
+                     sans-serif;
+  font-size        : 85%;
+  font-weight      : bold;
+}
+
+.sevenFiveTable {
+  width : 70%;
+}
+
+.TDLeft {
+  display        : block;
+  float          : left;
+  clear          : none;
+  padding-top    : 10px;
+  padding-bottom : 10px;
+  padding-left   : 2px;
+  border         : $solidBorder;
+  text-align     : center;
+}
+
+.TDRight {
+  float          : right;
+  clear          : none;
+  padding-top    : 10px;
+  padding-bottom : 10px;
+  border         : $solidBorder;
+  text-align     : center;
+}
+
+.thirtyThreePercent {
+  width : 33%;
+}
+
+.topBanner {
+  width          : 600px;
+  height         : 90px;
+  margin-right   : auto;
+  margin-left    : auto;
+  padding-bottom : 10px;
+}
+
+.updateDate {
+  @include           border-radius(8px, 8px);
+  display          : block;
+  float            : right;
+  clear            : left;
+  margin-bottom    : 0px;
+  margin-left      : 20px;
+  padding-left     : 5px;
+  color            : #660000;
+  border           : $solidBorder;
+  background-color : transparent;
+  font-family      : Arial,
+                     Helvetica,
+                     sans-serif;
+  font-size        : 14px;
+  font-weight      : normal;
+  line-height      : 100%;
+  letter-spacing   : 2px;
+}
+
+/*
+  UpdateSummary is intended to Give a short Update so the main page's
+  Description does not Run Too long
+*/
+
+.UpdateSummary {
+  @include           boxShadow();
+  @include           border-radius(8px, 8px);
+  clear            : right;
+  margin-top       : 5px;
+  margin-bottom    : 5px;
+  padding-top      : 5px;
+  padding-bottom   : 2px;
+  padding-left     : 2px;
+  color            : #660000;
+  border           : $solidBorder;
+  background-color : #ffffcc;
+  font-size        : 16px;
+  font-weight      : bold;
+}
+
+.virtSmallLTable a:link,
+.virtSmallRTable a:link {
+  text-decoration : none;
+}
+
+#bannerText {
+  text-shadow      : 1px 1px 5px rgba(0, 0, 0, 0.85);
+  font-family      : $SegoeUI;
+  font-size        : 40px;
+  font-weight      : bold;
+  order            : 1;
+  letter-spacing   : 2px;
+  float			 :  left;
+}
+
+footer {
+
+  margin-bottom     : 0px;
+  padding-top       : 10px;
+  padding-right     : 0px;
+  padding-bottom    : 0px;
+  padding-left      : 0px;
+  overflow          : hidden;
+  border-bottom     : $solidBorder;
+  border-left       : $solidBorder;
+  background-color  : $darkGray;
+  background-repeat : repeat-x;
+  text-decoration   : none;
+  font-family       : $Arial;
+  order             : 7;
+
+
+    /*background-image: url(../graphics/navbar_trials/tan/tan3.png);*/
+  a:link {
+    color : $white;
+  }
+}
+
+#col1 {
+  z-index          : 500;
+  margin-bottom    : 15px;
+  padding-right    : 3px;
+  padding-left     : 5px;
+  color            : $black;
+  background-color : $white;
+  font-size        : 14px;
+  order            : 4;
+  flex-basis       : 15%;
+
+
+  .header {
+    margin-top : 100px;
+  }
+
+  h2 a:link, a:link {
+    color            : #FFFFCC;
+    background-color : inherit;
+    text-decoration  : none;
+    font-family      : $SegoeUI;
+    font-size        : inherit;
+    line-height      : 18px;
+
+  }
+
+  img {
+    clear          : both;
+    padding-bottom : 25px;
+  }
+
+  li {
+    margin-left  : 1px;
+    padding-left : 20px;
+    text-align   : left;
+  }
+
+  .header a:link
+  {
+	color: $yellow;
+	background-color: $navy;
+  }
+
+}
+
+#col2 {
+  z-index          : 500;
+  height           : 100%;
+  margin-left      : 3px;
+  padding-right    : 1%;
+  padding-left     : 2%;
+  color            : rgb(153, 0, 0);
+  background-color : $white;
+  text-align       : left;
+  vertical-align   : top;
+  font-family      : $SegoeUI;
+  font-size        : 13px;
+  order            : 5;
+
+  li {
+    margin-left  : 1px;
+    padding-left : 20px;
+    text-align   : left;
+  }
+}
+
+#col3 {
+  z-index          : 500;
+  display          : inline-block;
+  position         : relative;
+  width            : 16%;
+  height           : 100%;
+  float            : right;
+  margin-left      : 0px;
+  padding-right    : 2%;
+  color            : black;
+  background-color : $white;
+  vertical-align   : top;
+  order            : 3;
+  img {
+    @include   autoMargin();
+    height   : auto;
+    overflow : hidden;
+  }
+  .col3table {
+    @include   boxShadow();
+    @include   border-radius(8px, 8px);
+    border   : $solidBorder;
+  }
+}
+
+#copyrightFooter {
+
+  margin-top       : 0px;
+  padding-top      : 1px;
+  color            : $white;
+  background-color : transparent;
+  text-align       : right;
+  text-decoration  : none;
+  white-space      : nowrap;
+  a:link {
+    color : #FFFFCC;
+  }
+}
+
+#ga_text img:hover {
+  @include            boxShadow(1px, 2px, 3px, $black);
+  clear             : both;
+  margin            : 1%;
+  -moz-transform    : scale(1.1);
+  -webkit-transform : scale(1.1);
+  transform         : scale(1.1);
+}
+
+#googleImage {
+  @include         autoMargin();
+  vertical-align : bottom;
+}
+
+#HorzSubMenu {
+  @include           autoMargin();
+  display          : block;
+  width            : 94%;
+  clear            : both;
+  margin-top       : 0;
+  padding-top      : 5px;
+  padding-left     : 5px;
+  color            : #660000;
+  border           : 1px dashed #660000;
+  background-image : url(../graphics/navbar_trials/tan/tan1.jpg);
+  background-color : #ffff99;
+  vertical-align   : bottom;
+  font-size        : 12px;
+  font-weight      : bold;
+  a:link {
+    color               : #ffff99;
+    border-bottom-color : cyan;
+    background-color    : transparent;
+  }
+  a:link,
+  a:visited {
+    color            : $black;
+    background-color : transparent;
+    font-family      : $TNR;
+    font-size        : 12px;
+    font-weight      : bold;
+    font-variant     : small-caps;
+  }
+}
+
+#justify,
+.justify,
+p.justify {
+  text-align : justify;
+}
+
+#LBottomIcons {
+  width            : 25%;
+  float            : left;
+  margin-left      : 0;
+  padding-left     : 10px;
+  color            : #000000;
+  overflow         : visible;
+  background-color : transparent;
+  vertical-align   : baseline;
+}
+
+#left,.left,p.left
+{
+  text-align : left;
+}
+
+#mainBody {
+
+  @include                display-flex;
+  @include                flex-direction(row);
+
+  z-index          : 99;
+  padding-top      : 3px;
+  color            : #990000;
+  border-color     : $black;
+  background-color : $white;
+  font-family      : $SegoeUI;
+  font-size        : 14px;
+  font-weight      : normal;
+  order            : 3;
+  direction        : ltr;
+  padding-right: 1%;
+
+      .iconCenter {
+        width  : 32px;
+        height : 32px;
+      }
+      .iconsLeft {
+        width        : 32px;
+        height       : 32px;
+        float        : left;
+        clear        : right;
+        margin-right : 14px;
+        margin-left  : 0;
+        padding      : 0;
+            /*padding-right: 10px;*/
+      }
+      .imgCentWrapBoth {
+        @include   autoMargin();
+        display  : block;
+        clear    : none;
+      }
+
+      a:link {
+        color            : #000099;
+        background-color : transparent;
+        text-decoration  : none;
+      }
+
+      a:visited {
+        color               : #990000;
+        border-bottom-color : #660000;
+        border-bottom-width : 1px;
+        border-bottom-style : dotted;
+        background-color    : transparent;
+        font-family         : "Segoe UI",
+                              "Courier New",
+                              Courier,
+                              monospace;
+        font-size           : 13px;
+      }
+
+      img.imgleft {
+        float         : left;
+        clear         : right;
+        margin-right  : 14px;
+        margin-left   : 0;
+        padding-right : 10px;
+      }
+      img.imgRight {
+        float         : right;
+        margin-right  : 140px;
+        padding-right : 10px;
+      }
+        /*New way for the Software Section*/
+      .leftIcon {
+        @include   leftIcon();
+        @include   autoMargin();
+      }
+}
+
+nav {
+  color            : $tanL;
+  /*  border           : 1px dotted rgba( 255, 255, 255, .80); */
+  background-color : $darkGray;
+  order            : 2;
+  text-align	   	 : right;
+  padding		: 10px;
+
+  a:link, a:visited
+  {
+    display         : inline-block;
+    padding-top     : 5px;
+    padding-right   : 1%;
+    padding-bottom  : 5px;
+    padding-left    : 1%;
+    color           : $white;
+    margin-bottom   : 5px;
+
+    text-decoration : none;
+    font-family     : $SegoeUI;
+    font-size       : 17px;
+    font-weight     : bold;
+
+
+  }
+  a:hover {
+    background-color:   transparent;
+    color : lemonchiffon;
+  }
+}
+
+#navButton {
+  display : none;
+}
+
+#SearchForm {
+  @include           autoMargin();
+  display          : block;
+  width            : 520px;
+  clear            : both;
+  margin-top       : 0;
+  padding-top      : 10px;
+  padding-bottom   : 2px;
+  color            : black;
+  border           : 0;
+  background-color : $white;
+  white-space      : nowrap;
+  img {
+    padding-right  : 15px;
+    vertical-align : baseline;
+  }
+}
+
+#siteInfo {
+  clear            : right;
+  margin-top       : 15px;
+  margin-bottom    : 15px;
+  padding-bottom   : 5px;
+  padding-left     : 3px;
+  color            : #000099;
+  background-color : $white;
+  font-size        : inherit;
+  order            : 5;
+    /*border-left: 1px solid #cccccc;*/
+  a:link {
+    color            : #660000;
+    background-color : transparent;
+    text-align       : left;
+    text-decoration  : none;
+    font-family      : Arial,
+                       Helvetica,
+                       sans-serif;
+    font-size        : 13px;
+    font-size        : inherit;
+  }
+  a:hover {
+    text-decoration : underline;
+    font-size       : inherit;
+  }
+}
+
+#textHeader {
+  width          : 100%;
+  margin-right   : auto;
+  margin-left    : auto;
+  padding-top    : 1%;
+  padding-bottom : 1%;
+  vertical-align : middle;
+}
+
+#valRight {
+  z-index        : 999;
+  display        : block;
+  position       : static;
+  width          : 99%;
+  float          : right;
+  clear          : none;
+  padding-top    : 10px;
+  padding-right  : 10px;
+  padding-bottom : 10px;
+
+
+  img {
+    float         : right;
+    padding-right : 10px;
+  }
+
+
+}
+
+#wideCol2 {
+  padding-left     : 10px;
+  color            : $black;
+  background-color : $white;
+  font-family      : $Hevl;
+  order            : 5;
+  line-height      : 18px;
+  flex-basis: 600px;
+  flex              : 3;
+
+  a:link {
+    padding-bottom : 5px;
+  }
+  a:hover {
+    color            : #660000;
+    background-color : transparent;
+    text-shadow      : 2px 2px 2px rgba(255, 255, 255, 0.5);
+  }
+  img {
+    display  : block;
+    opacity  : 1.0;
+    overflow : hidden;
+  }
+  p {
+    padding-left   : 1%;
+    vertical-align : baseline;
+    line-height    : 18px;
+  }
+  ul {
+    color            : black;
+    background-color : transparent;
+    line-height      : 18px;
+    list-style-type  : circle;
+  }
+}
+
+#bottomHeaders a:link {
+  color            : black;
+  background-color : white;
+}
+
+.iconCenter,
+center,
+img.center,
+table.center {
+  @include   autoMargin();
+  display  : block;
+}
+
+h3,
+h4 {
+  margin-top    : 10px;
+  margin-bottom : 3px;
+}
+
+
+#top
+{
+	background-color  : $darkGray;
+	color: $white;
+	padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 1%;
+
+}

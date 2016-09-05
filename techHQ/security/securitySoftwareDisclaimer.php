@@ -1,0 +1,23 @@
+<?php
+
+  $the_title = 'Xmetalfanx Security Section - Security Software Disclaimer';  
+  $the_content = <<<<EOD
+    
+    <p>Ok Ok, I know alot of hackers (and I will be honest ... script kiddies) are going to have an issue that I say &quot;this software firewall will secure your computer&quot;. Some items I want to make clear
+    </p>      
+    <ol>        
+      <li>I KNOW that all software firewalls can be bypassed by people who truly want to get into a system. NO SOFTWARE FIREWALL is 100% ...           
+      <ul>            
+        <li> of course you may say &quot;why use a software firewall at all, then?&quot; .... well just cause you dont have huge security system on your home, doesn't mean you don't lock your doors?... (geez i hope not) .... even for application access control only i'd say a firewall is worth it
+        </li>          
+      </ul>        
+      </li>        
+      <li>I know alot of people using firewalls, that have TONS of spyware and/or viruses on their computer. So &quot;This will software will &quot;secure your computer&quot; &quot; may be a bad choice of words, but ... most viewers of my site, get my point
+      </li>        
+      <li>I work for no software company, all notes (as always) on security pages are strictly my opinion... if you disagree with me .... . get your security software advice elsewhere.
+      </li>      
+    </ol> 
+    
+EOD;
+?>
+<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/windows/baseWinSecurityTemplate.php"); ?>

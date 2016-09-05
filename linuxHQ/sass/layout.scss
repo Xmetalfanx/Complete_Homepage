@@ -1,0 +1,905 @@
+@import "_sassHeader";
+@import "_sassHeader";
+
+#mainBody a:link,
+a:link {
+  text-decoration : none;
+}
+
+
+body {
+  @include                background-size(cover);
+  z-index               : 1;
+  margin-top            : 0px;
+  color                 : $white;
+  overflow              : auto;
+  background-color      : $arcBlack;
+  background-repeat     : no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  font-size             : 13px;
+  letter-spacing        : 0px;
+  @include        NoMargin();
+
+
+  display: flex;
+  flex-direction: column;
+  flex-basis       : 650px;
+
+}
+
+footer {
+  color            : $white;
+  background-color : transparent;
+  order            : 9;
+  z-index           : 100;
+  @include LRMargin();
+
+	.fMessage
+	{
+		font-size: 		15px;
+		width: 50%;
+		float: left;
+    padding-top: 10px;
+    padding-left: 5px;
+     }
+}
+
+header {
+
+  color            : $white;
+  background-color : transparent;
+  text-align       : left;
+  text-shadow      : 1px 1px 5px rgba(0, 0, 0, 0.85);
+  font-family      : $SegoeUI;
+  font-size        : 40px;
+  font-weight      : bold;
+  order            : 1;
+  letter-spacing   : 2px;
+  float			 :  left;
+  padding-bottom		: 0px;
+}
+
+nav {
+  padding-bottom   : 2px;
+  padding-left     : 0px;
+  text-align       : right;
+  order            : 3;
+
+    /*background-image: $blackNav;*/
+  a:link,
+  a:visited {
+    display          : inline-block;
+    padding-top      : 5px;
+    padding-right    : 20px;
+    padding-bottom   : 5px;
+    padding-left     : 10px;
+    color            : $white;
+    background-color : transparent;
+    font-family      : $SegoeUI;
+    font-size        : 17px;
+    font-weight      : bold;
+	  margin-top       : 5px;
+
+  }
+  a:hover {
+    color            : rgb(255, 255, 227);
+    background-color : $navy;
+  }
+}
+
+.bold {
+  font-weight : bold;
+}
+
+#col1 .familyHeader,
+.boldUnderline {
+  clear           : both;
+  text-decoration : underline;
+  font-weight     : bold;
+}
+
+.bottomBorderDotted {
+  border-bottom : $dottedBorder;
+}
+
+.code {
+  margin-left      : 2%;
+  color            : $white;
+  background-color : $black;
+  text-align       : left;
+  font-family      : $Courier;
+  line-height      : 25px;
+  font-weight	   : bold;
+}
+
+.col1SubSectionHeaders {
+  border : rgb(0, 0, 0) 1px dotted;
+}
+
+.col2SectionHeaders {
+  border           : $solidBorder;
+  background-color : rgb(255, 255, 153);
+  font-weight      : bold;
+}
+
+.distReview {
+  @include        autoMargin();
+  width         : 99%;
+  clear         : none;
+  margin-top    : 2px;
+  padding-top   : 2px;
+  padding-right : 2px;
+  padding-left  : 5px;
+  color         : $black;
+  border-right  : $solidBorder;
+  border-bottom : $solidBorder;
+  border-left   : $solidBorder;
+  text-align    : left;
+  font-family   : $Courier;
+  line-height   : 25px;
+}
+
+.distRevTitle {
+  clear       : both;
+  padding     : 1px;
+  padding-top : 0px;
+  border      : $solidBorder;
+  font-size   : 20px;
+  font-weight : bold;
+    /*background-image: $tanImage2;*/
+}
+
+.distroHeader {
+  clear            : right;
+  color            : #FFFFCC;
+  border           : $solidBorder;
+  background-color : $black;
+  font-weight      : bold;
+    /*background-image: $tanImage2;*/
+}
+
+.distroSshot {
+  @include         autoMargin();
+  width          : 98%;
+  margin-top     : 30px;
+  margin-bottom  : 2px;
+  padding-top    : 3px;
+  padding-bottom : 3px;
+  border         : $solidBorder;
+  text-align     : center;
+}
+
+.distroTitle {
+  display          : block;
+  width            : 70%;
+  height           : 70px;
+  margin-bottom    : 20px;
+  color            : $black;
+  background-color : $white;
+  font-size        : 40px;
+  font-weight      : bold;
+}
+
+.icon {
+  float         : left;
+  padding-right : 75px;
+  padding-left  : 13px;
+}
+
+.italics {
+  font-style : italic;
+}
+
+.italicsUnderline {
+  text-decoration : underline;
+  font-style      : italic;
+}
+
+.justified,
+.rss-item {
+  color      : $black;
+  text-align : justify;
+}
+
+.right {
+  float : right;
+}
+
+.rss-item li {
+  margin-right   : 4px;
+  padding-top    : 1px;
+  padding-bottom : 2px;
+}
+
+.rss-title {
+  font-weight : normal;
+}
+
+.terminal {
+  display          : block;
+  margin-right     : 5px;
+  margin-left      : 5px;
+  padding-left     : 1px;
+  color            : $black;
+  background-color : $black;
+}
+
+.terms {
+  color            : rgb(0, 0, 255);
+  background-color : transparent;
+  font-style       : italic;
+  font-weight      : bold;
+}
+
+.wide {
+  width       : 99%;
+  clear       : both;
+  margin-top  : 5px;
+  padding-top : 5px;
+  border-top  : 1px dotted $black;
+    /*border-bottom: 1px solid rgb(0, 0, 0);*/
+}
+
+.wideBody {
+  width            : 96%;
+  background-color : $white;
+}
+
+#bottomLinks {
+  padding-top      : 10px;
+  padding-bottom   : 1px;
+  padding-left     : 1%;
+  padding-bottom   : 10px;
+  color            : $black;
+  border-top       : 1px dotted $white;
+  background-color : $white;
+  font-size        : 11pt;
+  order            : 6;
+}
+
+#col1 {
+  z-index          : 1000;
+  width            : 18%;
+  float            : left;
+  margin-top       : 0px;
+  margin-right     : 0px;
+  margin-left      : 0px;
+
+  padding-left     : 0px;
+  color            : $black;
+  border           : $solidBorder;
+  background-color : rgba(255, 255, 255, .85);
+  order            : 4;
+  overflow		 : hidden;
+  padding-right: 0px;
+
+
+
+  .family {
+    display          : block;
+
+    margin-top       : 0px;
+    padding-bottom   : 10px;
+    padding-left     : 20px;
+    color            : $black;
+    background-color : rgb(255, 255, 227);
+    font-size        : 14px;
+    font-weight      : bold;
+    line-height      : 20px;
+    font-family       :   $Hevl;
+        /*font-family: $SegoeUI*/
+
+    a:link,
+    a:visited {
+      clear            : both;
+      margin-top       : 10px;
+      margin-bottom    : 10px;
+      color            : $navy;
+      background-color : transparent;
+      font-family      : $Hevl;
+      font-weight      : bold;
+    }
+  }
+
+  .familyHeader {
+    @include          box-shadow(1px 2px 3px);
+
+    padding          : 2px;
+    color            : rgb(255, 255, 102);
+    overflow         : visible;
+    border           : $solidBorder;
+    background-color : #000055;
+    text-align       : left;
+    text-decoration  : none;
+    font-family      : $SegoeUI;
+    font-size        : 14px;
+    font-weight      : bold;
+
+  }
+  li,
+  ul li {
+    padding-left     : 1px;
+    color            : $black;
+    background-color : $white;
+  }
+  .indent {
+    margin-left : 10px;
+  }
+}
+
+#col2 {
+    /*text-align: justify;*/
+  z-index          : 1000;
+  width            : 80%;
+  float            : right;
+  margin-left      : 1%;
+  padding-right    : 10px;
+  color            : $black;
+  background-color : rgba(255, 255, 255, .85);
+  font-family      : Arial,
+                     san-serif;
+  font-family      : $Hevl;
+  justify-content  : space-between;
+  order            : 5;
+
+
+
+
+  h5 {
+    margin-bottom : 10px;
+  }
+  pre {
+    margin  : 0px;
+    padding : 0px;
+  }
+  code {
+    display          : block;
+    padding-top      : 4px;
+    padding-bottom   : 2px;
+    padding-left     : 3px;
+    color            : $white;
+    background-color : $black;
+  }
+  p {
+    color : $black;
+  }
+}
+
+#distroTables {
+    /*border: $solidBorder;*/
+  display          : inline-block;
+  width            : 97%;
+  clear            : both;
+  margin-top       : 5px;
+  margin-bottom    : 5px;
+  padding-top      : 5px;
+  padding-right    : 1%;
+  padding-left     : 1%;
+  background-color : $white;
+  a:link {
+    margin         : 2px;
+    padding-top    : 3px;
+    padding-bottom : 3px;
+    overflow       : auto;
+    font-family    : $Arial;
+  }
+}
+
+.infoLeft {
+  width         : 49%;
+  float         : left;
+  margin-bottom : 15px;
+  border        : $solidBorder;
+  line-height   : 25px;
+}
+
+.infoRight {
+  width         : 49%;
+  float         : right;
+  margin-bottom : 15px;
+  border        : $solidBorder;
+  line-height   : 25px;
+}
+
+.descript {
+  display        : block;
+  clear          : both;
+  margin-top     : 10px;
+  margin-bottom  : 10px;
+  padding-bottom : 6px;
+  padding-left   : 2px;
+  border         : 1px solid $black;
+  line-height    : 25px;
+}
+
+#distroList li {
+  font-size   : 13pt;
+  line-height : 16px;
+}
+
+#distrowatch {
+  width            : 50%;
+  height           : 200px;
+  margin-top       : 3px;
+  padding-right    : 1%;
+  @include autoMargin();
+  padding-left     : 1%;
+  overflow         : auto;
+  border           : $black 2px solid;
+  background-color : $white;
+  font-family      : $TNR;
+  font-size        : 14px;
+  order            : 3;
+    /*margin-left: 50px;*/
+  rss-item-full {
+    color : rgb(255, 0, 0);
+  }
+  a:link {
+    color            : $red;
+    background-color : transparent;
+  }
+}
+
+#mainBody,
+#mainBodyw {
+
+ @include             display-flex;
+  @include           align-content(space-around);
+	@include       flex-direction(row);
+
+  border-bottom     : $solidBorder;
+  padding           : 1%;
+  color            : $black;
+  background-color : $white;
+  font-size        : 17px;
+  order            : 3;
+  z-index          : 99;
+
+  li {
+    padding-top    : 5px;
+    padding-bottom : 2px;
+  }
+  li ul li {
+    padding-top : 2px;
+  }
+}
+
+
+
+#linuxAboutMe {
+  @include        autoMargin();
+  width         : 90%;
+  padding-right : 10px;
+  padding-left  : 25px;
+  border        : 2px solid #000000;
+}
+
+#personalExp {
+  @include           autoMargin();
+  width            : 100%;
+  margin-top       : 15px;
+  padding-bottom   : 10px;
+  color            : $black;
+  border           : $solidBorder;
+  background-color : $white;
+  blockquote {
+    margin-top    : 0px;
+    margin-bottom : 0px;
+    font-family   : "MS Sans Serif",
+                    Geneva,
+                    sans-serif;
+    font-weight   : bold;
+  }
+}
+
+#socialIcons {
+  float          : right;
+  padding-bottom : 10px;
+  order          : 7;
+}
+
+#Software {
+  font-size : 15px;
+  .code {
+    display          : block;
+    margin-bottom    : 0px;
+    padding-bottom   : 0px;
+    color            : $black;
+    background-color : transparent;
+    font-family      : "Courier New",
+                       Courier,
+                       monospace;
+    font-size        : 14px;
+    font-weight      : normal;
+  }
+  .code ul {
+    margin-left  : 0px;
+    padding-left : 0px;
+  }
+  .CodeHeader {
+    padding-top    : 0px;
+    padding-bottom : 0px;
+    color          : navy;
+    font-size      : 12px;
+  }
+  .commandTask {
+    padding-top    : 0px;
+    padding-bottom : 0px;
+    padding-bottom : 1px;
+    font-size      : 13px;
+    font-weight    : bold;
+  }
+  .distroName {
+    padding-top    : 0px;
+    padding-bottom : 0px;
+    border-bottom  : 1px dotted $black;
+    font-size      : 14px;
+    font-weight    : bold;
+  }
+  .mainTitles {
+    border-bottom : $solidBorder;
+    font-size     : 14px;
+    font-weight   : bold;
+  }
+}
+
+#totalBody {
+  width        : 96%;
+  margin-right : 2%;
+  margin-left  : 2%;
+}
+
+#valIcons {
+  margin-top       : 10px;
+  background-color : transparent;
+  order            : 10;
+  width 		   : 40%;
+  float			: right;
+
+	 img {
+		  margin-right : 10px;
+		}
+
+
+}
+
+
+
+#mainBody .ExpTitle {
+  margin-right : 25px;
+  color        : #FF0000;
+  font-weight  : bold;
+}
+
+#distroShots {
+  @include   display-flex;
+  @include   flex-wrap(wrap);
+  @include   justify-content(space-around);
+  padding  : 5px;
+  overflow : auto;
+  border   : 2px dotted $black;
+  .left img,
+  img {
+    width         : 400px;
+    height        : 250px;
+    margin-top    : 7px;
+    margin-bottom : 5px;
+    padding       : 3px;
+    border        : $solidBorder;
+  }
+  .left {
+    width : 50%;
+    float : left;
+  }
+}
+
+#DE {
+  .title {
+    text-align  : center;
+    font-size   : 20px;
+    font-weight : bold;
+  }
+  .SShotCol img {
+    width         : 70%;
+    height        : 90%;
+    margin-top    : 7px;
+    margin-bottom : 5px;
+    border        : $solidBorder;
+  }
+  .headers {
+    @include           box-shadow(1px 2px 3px);
+    clear            : right;
+    margin-top       : 20px;
+    margin-bottom    : 10px;
+    border           : $solidBorder;
+    background-image : url(../graphics/navbar/tan/2tan3.png);
+    background-color : #ffff99;
+    font-weight      : bold;
+  }
+  #SShotCol {
+    width : 30%;
+    float : left;
+  }
+  .code {
+    clear            : both;
+    margin-top       : 5px;
+    margin-bottom    : 5px;
+    padding-left     : 10px;
+    color            : $white;
+    border           : $solidBorder;
+    background-color : $black;
+    font-size        : 16px;
+    font-weight      : bold;
+  }
+  .code a:link,
+  a:hover,
+  a:visited {
+    color            : #FFFF00;
+    background-color : inherit;
+  }
+  #infoCol {
+    width : 70%;
+    float : right;
+  }
+  #infoCol .row {
+    clear      : both;
+    margin-top : 10px;
+  }
+  #SShotCol img {
+    width         : 70%;
+    height        : 90%;
+    float         : left;
+    margin-top    : 7px;
+    margin-bottom : 5px;
+  }
+  #SShotCol a:link {
+    clear : both;
+  }
+}
+
+.boldCenter {
+  text-align  : center;
+  font-weight : bold;
+}
+
+.boldItalics {
+  font-style  : italic;
+  font-weight : bold;
+}
+
+.mainSiteUList {
+  line-height : 24px;
+}
+
+#topBody {
+  @include   display-flex;
+  @include   flex-direction(column);
+}
+
+.icon {
+  width  : 32px;
+  height : 32px;
+}
+
+#usb {
+  display        : flex;
+  margin-top     : 15px;
+  padding-bottom : 10px;
+  .linux,
+  .windows {
+    display         : flex;
+    width           : 80%;
+    margin-top      : 10px;
+    margin-bottom   : 10px;
+    border          : $solidBorder;
+    flex-direction  : column;
+    justify-content : center;
+  }
+}
+
+#footer1 {
+  order : 8;
+}
+
+#YTReviewer {
+  clear          : both;
+  padding-bottom : 10px;
+  padding-left   : 10px;
+  overflow       : auto;
+  border         : $solidBorder;
+  line-height    : 20px;
+  .left {
+    width : 40%;
+    float : left;
+  }
+  .right {
+    width : 40%;
+  }
+}
+
+.distroMainSection {
+  @include        autoMargin();
+  margin-bottom : 20px;
+  padding       : 7px;
+  border        : $solidBorder;
+  overflow		: auto;
+
+  .distroName {
+    padding-left : 10px;
+    font-size    : 20px;
+    font-weight  : bold;
+    margin-bottom : 20px;
+  }
+  .distroSS img {
+    width         : 700px;
+    height        : 550px;
+    margin-top    : 5px;
+    margin-bottom : 5px;
+  }
+  .distroHome {
+    border    : $solidBorder;
+    margin    : 20px;
+    padding   : 10px;
+    width     : 35%;
+    font-family: $TNR;
+    float: left;
+    @include     single-box-shadow();
+     @include    border-radius(8px, 8px);
+  }
+  .dwHome {
+    border    :$solidBorder;
+    padding   :10px;
+    margin    :10px;
+    @include    single-box-shadow();
+    width     :35%;
+    font-family: $TNR;
+     @include         border-radius(8px, 8px);
+    float     : right;
+
+  }
+  .specs
+  {
+		clear: both;
+  }
+}
+
+#DESection
+{
+  @include        autoMargin();
+  margin-bottom : 20px;
+  padding       : 7px;
+  border        : $solidBorder;
+  overflow		: auto;
+
+
+	.DEName
+	{
+		font-size: 20px;
+	}
+
+	.DEs, .home
+	{
+		margin-bottom: 20px;
+		clear: both;
+		font-size: 18px;
+	}
+
+	.DEs img
+	{
+
+		width: 40%;
+		height: 40%;
+		padding: 15px;
+		float: left;
+	}
+
+	.DEFeature, .DESpecs
+	{
+		clear			        : both;
+		border     		    : $solidBorder;
+		padding			      : 10px;
+		margin-bottom		  : 20px;
+		width			        : 85%;
+ 		 @include        	single-box-shadow();
+     @include   	    border-radius(8px, 8px);
+ 		@include        	autoMargin();
+ }
+		.title
+		{
+		   font-weight:  bold;
+		}
+	}
+
+#top
+
+{
+	 padding                 : 10px;
+   color                    : $white;
+   background-color        : $arcBlack;
+    padding-bottom          : 15px;
+    z-index                 : 100;
+    /* transform               : translateY(10%); */
+    top                       : 40%;
+    position              : relative;
+    padding-left              : 2%;
+}
+
+#TIC
+{
+
+     .TICName
+     {
+		font-size: 30px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+
+
+
+     .TICHomepage, .TICUsage, .TICSShot, .TICInstructs
+    	{
+    		clear			        : both;
+    		border     		    : $solidBorder;
+    		padding			      : 10px;
+    		margin-bottom		  : 20px;
+    		width			        : 85%;
+     	  @include        	single-box-shadow();
+        @include   	    border-radius(8px, 8px);
+     		@include        	autoMargin();
+     		overflow: hidden;
+
+
+     		img
+     		{
+				width: 65%;
+				height: 65%;
+     		}
+     }
+
+
+}
+
+#AppSection
+{
+
+	h1, h2, h3, h4, h5
+	{
+		margin-top: 0px;
+
+	}
+
+
+	h1
+	{
+		margin-bottom: 20px;
+		text-decoration: underline;
+		padding-top: 20px;
+	}
+
+	h2
+	{
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	h3
+	{
+		margin-left: 15px;
+		margin-bottom: 15px;
+	}
+
+	h4
+	{
+		margin-left: 15px;
+		margin-bottom: 0px;
+
+	}
+
+	h5
+	{
+		padding: 10px;
+		margin-left: 50px;
+	}
+
+}

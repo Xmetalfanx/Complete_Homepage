@@ -1,0 +1,110 @@
+#softwareSection #browsersprite li {
+  display: block;
+  list-style-type: none; }
+#softwareSection #browsersprite .firefox {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -90px 0;
+  width: 59px;
+  height: 32px; }
+#softwareSection #browsersprite .gchrome {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -54px 0;
+  width: 32px;
+  height: 34px; }
+#softwareSection #mpSprite .aimp {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -284px -4px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .foobar {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -179px 0;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .vlc {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -337px -6px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .clem {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -55px 0;
+  width: 32px;
+  height: 32px; }
+
+/* Images */
+/* Border variables */
+/* Colors */
+/* new Scheme test */
+/* Fonts */
+/* Images */
+.addonTable {
+  background-color: transparent;
+  border: 1px solid black;
+  border-collapse: collapse;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  overflow: visible;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: left;
+  width: 98%; }
+
+#programs .title img {
+  width: 32px;
+  height: 32px;
+  padding-bottom: 10px; }
+#programs ul li {
+  border: 2px #000000 solid;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  list-style-type: none;
+  padding-top: 3px;
+  padding-left: 2px;
+  padding-right: 4px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 3px 5px #000000;
+  -moz-box-shadow: 4px 3px 5px #000000;
+  box-shadow: 4px 3px 5px #000000; }
+#programs img {
+  width: 32px;
+  height: 32px;
+  float: left;
+  padding-right: 15px; }
+#programs .description {
+  /* border: 1px dotted #000000; */
+  text-align: justify;
+  margin-bottom: 10px;
+  background-color: #FFFFCC;
+  font-weight: normal;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 13px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px; }
+#programs .description ul, #programs .description li {
+  border-bottom: 0px; }
+#programs .title, #programs p.title {
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px #000000 solid;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 4px;
+  width: 98%;
+  padding-top: 2px;
+  margin-top: 0px;
+  clear: both;
+  padding-bottom: 20px;
+  height: 25px; }
+
+#programs ul li ul li, #browser ul {
+  border: 0px;
+  list-style-type: circle;
+  -webkit-box-shadow: 0px 0px 0px #000000;
+  -moz-box-shadow: 0px 0px 0px #000000;
+  box-shadow: 0px 0px 0px #000000; }

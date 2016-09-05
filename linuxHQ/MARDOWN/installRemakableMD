@@ -1,0 +1,15 @@
+###How to install Remarkable Markdown Editor in Linux Mint 17.1 
+
+1. Go to @[Remarkable's Homepage](http://remarkableapp.net/index.html) and go to the download section, getting the DEB file 
+
+2. Get needed Dependences (ones I didn't have anyway) 
+
+		sudo apt-get install wkhtmltopdf python3-markdown python3-bs4
+
+3.  Open the Terminal and navigate to where you have the downloaded deb and type the following 
+
+*(edit if needed)*
+
+ 		sudo dpkg -i remakable_1.25_all.deb 
+
+4, Open Remarkable 

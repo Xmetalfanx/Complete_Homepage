@@ -1,0 +1,23 @@
+
+#navButton
+{
+    width: 50%;
+    height: 35px;
+    border: 1px solid $black;
+    background-color: navy;
+
+    .hide
+    {
+
+        transform: translateY(-100%);
+    }
+
+    div
+    {
+        width: 20px;
+        height: 40%;
+        backgound-color: $black;
+        margin: 3px 0px;
+
+    }
+}

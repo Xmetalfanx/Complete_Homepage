@@ -1,0 +1,7 @@
+   // Start Test 
+              echo $display[name] . " <br /><br />" . $display[homepage];
+            
+              echo "<p>Icon Test2 ... Test 1 was sucessful</p>";
+              echo $distroIcon;  
+              // End Test 
+              

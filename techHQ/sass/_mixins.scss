@@ -1,0 +1,53 @@
+@mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: rgba(0, 0, 0, 1))
+{
+  -webkit-box-shadow: $horz $vert $depth $color;
+  -moz-box-shadow: $horz $vert $depth $color;
+  box-shadow: $horz $vert $depth $color;
+}
+
+@mixin borderRad($radius: 8px)
+{
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin autoMargin($margin-left: auto, $margin-right: auto)
+{
+	margin-left: $margin-left;
+	margin-right: $margin-right;
+}
+
+@mixin leftIcon($width: 48px, $height: 48px)
+{
+	float: left;
+	width: $width;
+	height: $height;
+	padding-right: 10px;
+
+}
+
+@mixin softwareCols($colCount: 2, $colWidth: 40%, $colGap: 10px)
+{
+	float: left;
+	clear: both;
+
+    @include boxShadow();
+	border-top: $solidBorder;
+	border-left: $solidBorder;
+	@include column-count($colCount);
+	@include column-width($colWidth);
+	@include column-gap($colGap);
+    margin-bottom: 20px;
+	margin-top: 20px;
+	@include inline-block();
+
+	a:link, a:visited, a:hover
+    {
+		text-decoration:none;
+	}
+
+}
+

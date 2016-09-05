@@ -1,0 +1,1088 @@
+@mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: rgba(0, 0, 0, 1))
+{
+  -webkit-box-shadow: $horz $vert $depth $color;
+  -moz-box-shadow: $horz $vert $depth $color;
+  box-shadow: $horz $vert $depth $color;
+}
+
+@mixin borderRadEight($radius: 8px)
+{
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+	border-radius: $radius;
+}
+
+$solidBorder: 1px solid rgba(0, 0, 0, 1);
+$green: #006400;
+$black: rgba(0, 0, 0, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+
+table 
+{
+
+		.leftSmallTable {
+			border: 1px solid rgb(0, 0, 0);
+			clear: right;
+			display: block;
+			float: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 5px;
+			text-align: justify;
+		}
+		
+		.leftTable td, .rightTable td {
+			border-spacing: 20px;
+		}
+		
+		.leftTable
+		{
+			border: 1px solid rgb(0, 0, 0);
+			clear: right;
+			display: block;
+			float: left;
+			font-weight: bold;
+			margin-left: 50px;
+			margin-right: auto;
+			padding: 2px;
+		}
+		
+		.rightSmallTable {
+			border: 1px solid rgb(0, 0, 0);
+			clear: none;
+			display: block;
+			float: right;
+			margin-left: auto;
+			margin-right: 50px;
+			padding: 5px;
+			text-align: justify;
+		}
+		
+		.rightTable
+		{
+			border: 1px solid rgb(0, 0, 0);
+			clear: none;
+			display: block;
+			float: right;
+			font-weight: bold;
+			margin-left: auto;
+			padding: 2px;
+		}
+		
+		.tableNoBorderCenteredFiftyPercent{
+			border: none;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+
+
+}
+
+
+.virtSmallLTable{
+			border: 1px solid rgb(0, 0, 0);
+			clear: right;
+			display: block;
+			float: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 5px;
+			text-align: justify;
+		}
+.virtRTable {
+			border: 1px solid rgb(0, 0, 0);
+			clear: none;
+			display: block;
+			float: right;
+			font-weight: bold;
+			margin-left: auto;
+			padding: 2px;
+		}
+
+.virtLTable{
+			border: 1px solid rgb(0, 0, 0);
+			clear: right;
+			display: block;
+			float: left;
+			font-weight: bold;
+			margin-left: 50px;
+			margin-right: auto;
+			padding: 2px;
+		}		
+		
+.virtSmallRTable {
+			border: 1px solid rgb(0, 0, 0);
+			clear: none;
+			display: block;
+			float: right;
+			margin-left: auto;
+			margin-right: 50px;
+			padding: 5px;
+			text-align: justify;
+		}		
+		
+		
+
+td{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family: "Segoe UI",Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	
+			/* Three Column Tables */
+			.progDecription
+			{
+				width: 75%;
+			}
+	
+			a:link
+			{
+			background-color: transparent;
+			color: rgb(0, 153, 0);
+			text-decoration: none;
+			vertical-align: top;
+			}
+	
+  }
+
+td.fiftyPercent,th.fiftyPercent{
+	width: 50%;
+}
+
+th,th a:link{
+	background-color: rgb(255, 255, 255);
+	background-image: url(../graphics/navbar_trials/christmas/darkgreen1.png);
+	color: rgb(0, 0, 0);
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+
+
+
+/* Test for CSS relplacements for tables in software Section */
+.centerTables{
+	clear: none;
+	display: block;
+	font-weight: bold;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+.col1Indent{
+	margin-bottom: 0px;
+	padding-left: 25px;
+	padding-top: 0px;
+}
+.fiftyPX{
+	padding-bottom: 50px;
+}
+.generalTxt{
+	font-family: "Segoe UI","Courier New",Courier,monospace;
+	font-size: 11pt;
+}
+.header a:link{
+	background-color: inherit;
+	color: rgb(102, 0, 0);
+	text-decoration: none;
+}
+.header a:hover{
+	background-color: rgb(102, 0, 0);
+	color: rgb(255, 204, 153);
+}
+.header, #col1 .header,a:link .header{
+	background-color: rgb(255, 255, 102);
+	background-image: url(../graphics/navbar_trials/tan/tan3.jpg);
+	border-bottom: 1px ridge rgb(0, 0, 153);
+	border-left: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
+	border-top: 1px solid rgb(0, 0, 0);
+	color: rgb(102, 0, 0);
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	overflow: visible;
+	padding-bottom: 0px;
+	padding-right: 2px;
+	padding-top: 2px;
+	text-align: left;
+	width: 98%;
+}
+
+
+
+
+
+
+
+
+.progTableDesc {
+	padding-left: 8%;
+	padding-right: 6%;
+
+}
+
+
+
+
+
+
+
+
+
+.progTables {
+
+
+	
+
+	clear: both;
+	color: rgb(0, 0, 0);
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.progTablesName {
+	
+
+	background-color: rgb(255, 255, 102);
+
+	font-size: 16px;
+	font-weight: bolder;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.progTablesName a:link, #mainBody .progTablesName a:link {
+	
+
+	
+	vertical-align: middle;
+	font-weight: bolder;
+}
+
+/* same as the original (sort of) ... for Items that do not have a decription under it */
+.progTablesName2 {
+	
+
+
+
+
+
+
+
+
+
+
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TDRight{
+	border: 1px solid rgb(0, 0, 0);
+	clear: none;
+	float: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topBanner{
+	display: none;
+	
+	padding-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.updateDate{
+
+
+
+	color: rgb(102, 0, 0);
+
+
+
+	font-size: 11px;
+
+
+
+
+
+
+	line-height: 20px;
+
+
+
+}
+
+
+/* UpdateSummary is intended to Give a short Update so the main page's Description does not Run Too long */
+.UpdateSummary{
+
+
+
+	color: rgb(102, 0, 0);
+
+
+	margin-bottom: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bannerText {
+	
+	
+	
+	font-size: 40px;
+	
+	
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+	overflow: hidden;
+	text-align: center;
+	text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+#bottomHeader{
+	background-color: #ffff99;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	/* border-left: 1px solid #000000; */
+	border-right: 1px solid rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding-left: 0;
+	width: 100%;
+	border-top: 1px solid rgb(0, 0, 0);
+  	background-image: url(../graphics/navbar_trials/tan/tan3.jpg);
+
+}
+
+
+#col1{
+	background-color: white;
+	clear: both;
+	color: rgb(102, 0, 0);
+	float: left;
+	font-family: "Times New Roman",Times,serif;
+	font-size: 12px;
+	margin-top: 0;
+	overflow: hidden;
+	padding-right: 3px;
+	position: relative;
+	vertical-align: top;
+	width: 18%;
+
+		.header
+		{
+			margin-top: 0;
+		}
+		
+		a:link
+		{
+			background-color: white;
+			color: inherit;
+			font-family: inherit;
+			font-size: inherit;
+			font-weight: bold;
+			text-decoration: none;
+			margin-bottom: 200px;
+		}
+
+		a:hover
+		{
+			background-color: #ffffcc;
+			color: #660000;
+		}
+		
+		li
+		{
+			margin-left: 1px;
+			padding-left: 20px;
+			text-align: left;
+		}
+
+}
+
+
+
+#col2{
+	
+
+	color: rgb(153, 0, 0);
+	margin-right: 10px;
+	/* font-family:"MS Sans Serif",Geneva,sans-serif; */
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 70%;
+}
+
+
+		
+#col2 li
+		{
+			margin-left: 1px;
+			padding-left: 20px;
+			text-align: left;
+		}
+}
+
+#col3 img {
+	display: none;
+	overflow: hidden;
+}
+
+
+
+
+#copyrightFooter{
+	background-color: #ffffcc;
+	clear: none;
+	color: rgb(0, 0, 153);
+	float: right;
+	font-size: 11px;
+
+	margin-bottom: 2px;
+
+	padding-right: 5px;
+	padding-top: 3px;
+	/* position: static; */
+	text-align: right;
+	vertical-align: baseline;
+	background-image: url(../graphics/navbar_trials/tan/tan3.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+#footer
+{
+	background-color: rgb(255, 255, 255);
+	border-top: 1px solid rgb(204, 204, 153);
+	clear: both;
+	color: rgb(0, 0, 0);
+	font-family: "Segoe UI","Courier New",Courier,monospace;
+	font-size: 11px;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-top: 15px;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	text-align: left;
+	z-index: 990;
+
+		a:link
+		{
+			font-family: "Segoe UI","Courier New",Courier,monospace;
+			font-size: 11px;
+			text-decoration: none;
+		}
+		
+		a:hover
+		{
+			background-color: transparent;
+			color: rgb(102, 0, 0);
+			font-family: Verdana,Arial,Helvetica,sans-serif;
+		}	
+	
+}
+
+
+#googleImage{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+}
+
+
+
+
+#HorzSubMenu{
+	background-color: rgb(255, 255, 153);
+	background-image: url(../graphics/navbar_trials/tan/tan1.jpg);
+	border: 1px dashed rgb(102, 0, 0);
+	color: rgb(102, 0, 0);
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding-left: 5px;
+	padding-top: 5px;
+	vertical-align: bottom;
+	width: 93%;
+	
+	
+		a:link, a:visited
+		{
+			background-color: transparent;
+			color: rgb(0, 0, 0);
+			font-family: "Times New Roman",Times,serif;
+			font-size: 12px;
+			font-variant: small-caps;
+			font-weight: bold;
+		}
+	
+	
+	
+	
+}
+#HorzSubMenu .header a:link{
+	background-color: transparent;
+	border-bottom-color: rgb(0, 255, 255);
+	color: rgb(255, 255, 153);
+}
+
+
+
+
+#justify,p.justify,.justify{
+	text-align: justify;
+}
+#LBottomIcons, form.StartPageStyle, #StartPageStyle, #mainPageSupportIMG img, #GAOTD, .StartPageStyle, #col2 img, #col3 {
+	display: none;
+}
+#left,p.left,.left{
+	text-align: left;
+}
+
+
+#mainBody{
+	background-color: rgba(255, 255, 255, 0.95);
+	border-color: rgb(0, 0, 0);
+	border-left: 1px solid rgb(0, 0, 0);
+	border-right: 1px solid rgb(0, 0, 0);
+	color: rgb(153, 0, 0);
+	direction: ltr;
+	display: block;
+	font-family: "Segoe UI","Courier New",Courier,monospace;
+	/* font-family:"Helvetica Neue",Helvetica,sans-serif; */
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0;
+	/* padding-left: 7px; */
+	padding-top: 5px;
+	vertical-align: top;
+	width: 92%;
+	z-index: 99;
+	
+	
+		.iconsLeft
+		{
+		clear: right;
+		float: left;
+		height: 32px;
+		/* padding-right: 10px; */
+		margin-left: 0;
+		margin-right: 14px;
+		padding: 0;
+		width: 32px;
+		}
+	
+		.imgCentWrapBoth
+		{
+			clear: none;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+		a:visited
+		{
+			background-color: transparent;
+			border-bottom-color: rgb(102, 0, 0);
+			border-bottom-style: dotted;
+			border-bottom-width: 1px;
+			color: rgb(153, 0, 0);
+			font-family: "Segoe UI","Courier New",Courier,monospace;
+			font-size: 13px;
+		}
+		
+		img.imgleft
+		{
+			clear: right;
+			float: left;
+			margin-left: 0;
+			margin-right: 14px;
+			padding-right: 10px;
+		}
+		
+		img.imgRight{
+			float: right;
+			margin-right: 140px;
+			padding-right: 10px;
+		}
+	
+}
+#mainBody .iconCenter,center,img.center,table.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainBody a:link,#col1 .header a:link{
+	background-color: transparent;
+	color: rgb(0, 0, 153);
+}
+
+
+
+
+
+
+nav
+{
+	background-color: #660000;
+	border-bottom-color: rgb(0, 0, 0);
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+	border-left-color: rgb(0, 0, 0);
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: rgb(0, 0, 0);
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: rgb(0, 0, 0);
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #ffffcc;
+
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 4px;
+	padding-top: 2px;
+	text-align: left;
+	width: 93%;
+	z-index: 999;
+	
+
+	    a:link
+		{
+			background-color: #660000;
+			color: white;
+			padding-right: 3px;
+			margin-right: 3px;
+			padding-left: 2px;
+			font-family: "Segoe UI Semibold","Segoe WP Semibold","Segoe WP","Segoe UI",Arial,sans-serif;
+			font-size: inherit;
+			border-right: 1px solid rgb( 0, 0, 0);
+			text-decoration: none;
+		}
+		
+		a:visited
+		{
+			background-color: inherit;
+			color: inherit;
+			font-family: "MS Serif","New York",serif;
+			font-size: 11px;
+			line-height: 16px;
+			text-decoration: underline;
+		}
+
+
+		ul
+		{
+			display: inline-block;
+			text-align: left;
+			padding-left: 0px;
+			margin-left: 0px;
+			clear: both;
+			
+		}
+	
+}
+
+
+
+
+
+#mainNavTable a:hover{
+	background-color: transparent;
+	color: rgb(255, 255, 153);
+	cursor: crosshair;
+	text-shadow: 2px 1px 2px rgb(102, 0, 0);
+}
+
+
+
+
+#mainNavTable ul li  {
+	list-style: none;
+	display: inline-block;
+	padding-right: 1%;
+	border-right: 1px solid rgba(0, 0, 0, .65);
+
+
+
+}
+
+
+#SearchForm{
+	background-color: rgb(255, 255, 255);
+	border: 0;
+	clear: both;
+	color: rgb(0, 0, 0);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding-bottom: 2px;
+	padding-top: 10px;
+	white-space: nowrap;
+	width: 520px;
+	
+	
+		img{
+			padding-right: 15px;
+			vertical-align: baseline;
+		}
+}
+
+
+
+#siteInfo{
+	background-color: rgb(255, 255, 255);
+	color: rgb(102, 0, 0);
+	padding-bottom: 20px;
+	
+	
+		a:link{
+		background-color: transparent;
+		clear: both;
+		color: rgb(102, 0, 0);
+		padding-bottom: 10px;
+		text-decoration: none;
+		}
+	
+		a:hover{
+			font-size: inherit;
+			text-decoration: underline;
+		}
+}
+
+
+
+#valRight{
+	display: block;
+	float: left;
+	margin-right: 10%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 50%;
+	z-index: 999;
+
+		img{
+			float: right;
+			padding-right: 10px;
+		}	
+}
+
+
+
+
+/* New CSS for 2 Column layout */
+#wideCol2{
+	
+	margin-left: 2%;
+	margin-right: 4%;
+
+	padding-right: 5%;
+
+
+
+
+
+
+
+
+
+
+
+		img{
+			display: block;
+			overflow: hidden;
+		}
+	  
+		p{
+			font-size: 13px;
+			vertical-align: baseline;
+		}
+		
+		ul{
+			background-color: transparent;
+			color: rgb(0, 0, 0);
+			list-style-type: circle;
+		}
+
+}
+
+
+
+#mainSupportIcons
+{
+	display: none;
+}
+
+
+/* Adblocker list Section */
+#adblockList li
+{
+	padding-top: 7px;
+	margin-bottom: 7px;
+	clear: both;
+	
+}
+
+
+#adblockList h4
+{
+	clear: both;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+
+.green
+{
+	background-color: transparent;
+	color: $green;
+	
+}

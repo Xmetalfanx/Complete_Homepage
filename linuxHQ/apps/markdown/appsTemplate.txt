@@ -1,0 +1,6 @@
+ <h1 id="mintupdater"></h1>
+ 	 <h2> :</h2>
+	    <h3>Ubuntu-based</h3>
+		 <h4>For: </h4>
+		 <h5><code>sudo add-apt-repository </code></h5>
+

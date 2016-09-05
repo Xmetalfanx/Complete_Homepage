@@ -1,0 +1,51 @@
+sudo add-apt-repository ppa:/costales/anoise #
+sudo add-apt-repository ppa:/danielrichter2007/grub-customizer # Grub Customizer PPA for customizing the Grub Boot Loader 
+sudo add-apt-repository ppa:/dimula73/krita # Krita Editor 
+sudo add-apt-repository ppa:/gnumdk/lollypop # Lollypop Music Player 
+sudo add-apt-repository ppa:/heyarje/makemkv-beta #  ?? Newer MakeMKV? 
+
+sudo add-apt-repository ppa:/kubuntu-ppa/backports #
+
+sudo add-apt-repository ppa:/kvibes/mediaelch #for assisting naming files for Kodi
+sudo add-apt-repository ppa:/libreoffice/ppa # PPA for the LATEST Libre Office version 
+sudo add-apt-repository ppa:/linvinus/altyo #  ?? guake drop down terminal alternative? 
+
+sudo add-apt-repository ppa:/nathandyer/vocal-daily #
+
+sudo add-apt-repository ppa:/noobslab/noobslab-conky #
+
+sudo add-apt-repository ppa:/noobslab/noobslab-conkypeterlevi/ppa # for "Variety WP changer" ... needed anymore? 
+
+# Conky-manager, aptik, timeshift 
+sudo add-apt-repository ppa:/teejee2008/ppa 
+
+# Veracrypt 
+sudo add-apt-repository ppa:/unit193/encryption
+
+sudo add-apt-repository ppa:/webupd8team/atom 
+sudo add-apt-repository ppa:/webupd8team/brackets 
+-------
+
+Theme PPAs 
+
+sudo add-apt-repository ravefinity-project/ppa && sudo add-apt-repository moka/stable && sudo add-apt-repository noobslab/icons &&
+sudo add-apt-repository noobslab/icons2 && sudo add-apt-repository noobslab/nitrux-os && sudo add-apt-repository noobslab/potenza && sudo add-apt-repository noobslab/themes && sudo add-apt-repository numix/ppa && sudo add-apt-repository noobslab/evolvere && sudo add-apt-repository snwh/pulp 
+
+
+----
+
+MASS PPA 
+
+sudo add-apt-repository costales/anoise && sudo add-apt-repository danielrichter2007/grub-customizer && sudo add-apt-repository gnumdk/lollypop && sudo add-apt-repository heyarje/makemkv-beta && sudo add-apt-repository kvibes/mediaelch && sudo add-apt-repository libreoffice/ppa && sudo add-apt-repository linvinus/altyo && sudo add-apt-repository nathandyer/vocal-daily && sudo add-apt-repository noobslab/noobslab-conky 
+
+
+
+sudo add-apt-repository noobslab/noobslab-conkypeterlevi/ppa 
+
+sudo add-apt-repository teejee2008/ppa && sudo add-apt-repository unit193/encryption && sudo add-apt-repository webupd8team/atom && sudo add-apt-repository webupd8team/brackets 
+
+sudo add-apt-repository ppa:ravefinity-project/ppa && sudo add-apt-repository ppa:moka/stable && sudo add-apt-repository ppa:noobslab/icons && sudo add-apt-repository ppa:noobslab/icons2 && sudo add-apt-repository ppa:noobslab/nitrux-os && sudo add-apt-repository ppa:noobslab/potenza && sudo add-apt-repository ppa:noobslab/themes && sudo add-apt-repository ppa:numix/ppa && sudo add-apt-repository ppa:noobslab/evolvere && sudo add-apt-repository ppa:snwh/pulp 
+
+
+
+

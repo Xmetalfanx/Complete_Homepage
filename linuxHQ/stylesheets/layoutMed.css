@@ -1,0 +1,270 @@
+/* Images */
+/* Border variables */
+/* Colors */
+/* new Scheme test */
+/* Fonts */
+body {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  min-height: 100%;
+  width: 99%;
+}
+
+footer {
+  font-size: 15px;
+}
+
+nav {
+  list-style-type: none;
+  order: 1;
+}
+nav a:link, nav a:visited {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 2%;
+  text-decoration: none;
+  display: block;
+}
+
+#bottomLinks {
+  border-top: 1px dotted black;
+  font-size: 12px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#col1 {
+  margin-right: 2px;
+  width: 18%;
+}
+#col1 h1 {
+  font-size: 26px;
+}
+#col1 .family {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  padding-left: 2px;
+  overflow: auto;
+}
+#col1 .family a:link {
+  background-color: transparent;
+  color: navy;
+  /* text-shadow: 5px 2px 1px rgb(0, 0, 0); */
+}
+#col1 li, #col1 ul li {
+  background-color: white;
+  color: black;
+  padding-left: 1px;
+}
+#col1 a:link, #col1 a:visited {
+  font-size: 14px;
+  margin-bottom: 3px;
+  padding-top: 3px;
+}
+
+#col2 {
+  padding-left: 20px;
+  /* text-align: justify; */
+  -webkit-align-content: space-between;
+  align-content: space-between;
+}
+
+.distroTitle {
+  font-size: 24px;
+}
+
+.icon img {
+  float: left;
+  clear: both;
+}
+
+#distroTables .distroHeader {
+  border: 1px solid black;
+  font-weight: bold;
+  clear: right;
+  padding: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#distroTables .infoLeft {
+  word-wrap: break-word;
+}
+#distroTables .infoRight {
+  word-wrap: break-word;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#distroTables .distRevTitle {
+  text-decoration: underline;
+  font-weight: bold;
+  background-image: url(../graphics/navbar/tan/2tan3.png);
+  font-size: 16px;
+  border: 1px solid black;
+  clear: both;
+  margin-bottom: 4px;
+}
+#distroTables .wide {
+  /* border-bottom: 1px solid rgb(0, 0, 0); */
+  border-top: 1px dotted black;
+  clear: both;
+  width: 99%;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+#distroTables a:link {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#distroTables .distReview {
+  clear: none;
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px dotted black;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+#distroTables #descript {
+  padding-left: 2px;
+  margin-top: 10px;
+  clear: both;
+  border: 1px solid black;
+  padding-bottom: 2px;
+  text-align: justify;
+  line-height: 25px;
+  padding-right: 10px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-top: 2%;
+}
+#distroTables .distroSshot {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 98%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+}
+
+.justified {
+  text-align: justify;
+}
+
+#distros {
+  overflow: auto;
+  clear: both;
+}
+#distros .distroHeader {
+  border: 1px solid black;
+  font-weight: bold;
+  background-image: url(/techHQ/graphics/navbar/tan/2tan3.png);
+  clear: right;
+}
+#distros .infoLeft {
+  padding-right: 5px;
+  clear: right;
+  width: 50%;
+  max-width: 50%;
+  float: left;
+}
+#distros .infoRight {
+  padding-right: 10px;
+  width: 50%;
+  margin-top: 10px;
+  float: right;
+}
+
+#mainBody, #mainBodyw {
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#mainBody .ExpTitle {
+  color: #FF0000;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.terms {
+  color: blue;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.bottomBorderDotted {
+  border-bottom: 1px dotted black;
+}
+
+#mainBody .content {
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+#distroTables #personalExp {
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  border: 1px dotted black;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  text-align: justify;
+}
+#distroTables #personalExp blockquote {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "MS Sans Serif", Geneva, sans-serif;
+}
+
+#distrowatch, #valIcons, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header {
+  display: none;
+}
+
+#socialIcons {
+  float: right;
+  clear: left;
+}
+
+#DESection .DEs {
+  font-size: 14px;
+}
+
+#DE #infoCol {
+  width: auto;
+}
+
+.DEs img {
+  display: none;
+}
+
+.distroSS {
+  display: none;
+}
+
+#top {
+  position: relative;
+  padding: 0px;
+  transform: none;
+}
+
+#distroMainSection .distroName {
+  margin-bottom: 0px;
+}
+#distroMainSection .distroName img {
+  width: 40px;
+  height: 40px;
+}

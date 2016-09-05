@@ -1,0 +1,170 @@
+/* Border variables */
+/* Colors */
+/* Fonts */
+/* Images */
+/* line 4, ../sass/layout.scss */
+body {
+  background-color: navy;
+  color: white;
+  font-family: "Segoe UI Semibold","Segoe WP Semibold","Segoe WP","Segoe UI",Arial,sans-serif;
+  font-size: 16px;
+  background-image: url(/graphics/bg/01451_majesty_1920x1200.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 16, ../sass/layout.scss */
+a:link {
+  text-decoration: none;
+}
+
+/* line 21, ../sass/layout.scss */
+#MainHeader {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.35);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+}
+
+/* line 39, ../sass/layout.scss */
+#main {
+  clear: both;
+}
+
+/* line 45, ../sass/layout.scss */
+.dropShadow {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+}
+
+/* line 50, ../sass/layout.scss */
+.message {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: block;
+  clear: both;
+  color: black;
+  font-size: 15px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  padding-right: 2%;
+  padding-left: 1%;
+  padding-bottom: 2%;
+  text-align: justify;
+  text-decoration: none;
+}
+
+/* line 67, ../sass/layout.scss */
+nav {
+  color: white;
+  margin-bottom: 2px;
+  width: 100%;
+  margin-top: 2px;
+  clear: both;
+  float: left;
+}
+
+/* line 78, ../sass/layout.scss */
+nav a:link, nav a:visited {
+  border: 1px solid #000000;
+  font-size: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 4%;
+  padding-bottom: 3px;
+  background-color: maroon;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
+}
+
+/* line 96, ../sass/layout.scss */
+nav a:hover {
+  color: #ffff33;
+}
+
+/* line 101, ../sass/layout.scss */
+.menuImage {
+  vertical-align: top;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  margin-bottom: 10px;
+}
+
+/* line 116, ../sass/layout.scss */
+img.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 120, ../sass/layout.scss */
+.boxShadow {
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+}
+
+/* line 126, ../sass/layout.scss */
+#homepageImage {
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  clear: both;
+  width: 500px;
+  height: 300px;
+}
+
+/* line 135, ../sass/layout.scss */
+#homepageImage .hpImageMargins {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* line 142, ../sass/layout.scss */
+.header1 {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 16px;
+}

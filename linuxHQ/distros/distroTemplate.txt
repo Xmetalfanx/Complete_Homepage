@@ -1,0 +1,13 @@
+<div id="distroMainSection">
+  
+  <div class="distroName">     </div>
+
+  <div class="distroSS">    </div>
+
+  <div class="distroHome">    </div>
+
+  <div class="dwHome">     </div>
+
+  <div class="specs">     </div>
+
+</div>

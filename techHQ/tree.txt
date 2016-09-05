@@ -1,0 +1,317 @@
+\
+├── browsers
+│   ├── adblocking
+│   │   ├── adblockBasics.php
+│   │   ├── adblocker.php
+│   │   ├── adblockingOutline.txt
+│   │   ├── BLANK.php
+│   │   ├── enableAdsOnCertainYTChannelsMD.backup
+│   │   ├── enableAdsOnCertainYTChannelsMD.html
+│   │   ├── enableAdsOnCertainYTChannelsMD.MD
+│   │   ├── noopExplained.php
+│   │   ├── ublockConfusion.php
+│   │   ├── ublockDynFilterLevels.php
+│   │   ├── UblockTutorial.php
+│   │   ├── umatrix_legend.php
+│   │   └── umatrix_mainLayout.php
+│   ├── addons
+│   │   ├── adblockingAddonsMD.md
+│   │   ├── contentManagerAddons.php
+│   │   ├── downloadRelatedAddons.php
+│   │   ├── generalAddons.php
+│   │   ├── interfaceAddons.php
+│   │   ├── passwordAddon.php
+│   │   ├── topAddonsNonSecurity.php
+│   │   ├── topSecurityAddons.php
+│   │   └── webMasterAddons.php
+│   ├── browserIndex.php
+│   ├── favoritesBackup.php
+│   ├── prevent_crashing_browsers.php
+│   ├── tinyurl.php
+├── contact.php
+├── index.php
+├── link.php
+├── modules
+│   ├── icons.php
+│   ├── oldModules
+│   │   ├── techCenter.php
+│   │   ├── techMainCol1.php
+│   │   ├── WIin_OptANDTweakCol1.php
+│   │   ├── WIinTweaksCol1.php
+│   │   ├── WINDOWS_FAQN_Col1php
+│   │   ├── WinFAQNCol1.dwt.php
+│   │   ├── winMaintenceCol1.php
+│   │   ├── WinSecurityCol1.php
+│   │   └── winSoftwareCol1.php
+│   ├── programs.php
+│   ├── techBrowsersCol1.php
+│   ├── techCenterCol1.php
+│   ├── techKodiCol1.php
+│   ├── techMainCol1.php
+│   ├── techMainCol3.php
+│   ├── techPersonalCol1.php
+│   ├── techSecurityCol1.php
+│   ├── techSoftwareCol1.php
+│   └── Win_pdfGuidesCol1.dwt.php
+
+
+
+
+│   ├── indexMD.md
+│   ├── markDown_Edit.ods
+│   ├── markDown_Edit.xlsx
+│   ├── preview.bak
+│   └── preview.php
+
+├── references.php
+├── security
+│   ├── ads
+│   │   ├── blockers1.rar
+│   │   ├── christmas.txt
+│   │   ├── popupAdExample.php
+│   │   ├── popups.php
+│   ├── encryptSoftware.php
+│   ├── firewall
+│   │   ├── comodo_rules.php
+│   │   ├── firewallIndex.php
+│   │   └── softFirewalls.php
+│   ├── infections
+│   │   ├── rogueScanners
+│   │   │   ├── reflection.txt
+│   │   │   ├── Rogue_ScannersMD.md
+│   │   │   ├── rogueScanner_SoftwareMD.md
+│   │   │   ├── rogueScanner_Software.php
+│   │   │   ├── rogueScanner_sources.php
+│   │   │   └── Rogue_Scanners.php
+│   │   ├── spyware
+│   │   │   ├── march2k9_scanners.php
+│   │   │   ├── spywareIndex.php
+│   │   │   ├── spyware.php
+│   │   │   └── spyware_removal.php
+│   │   ├── spyware_and_Virus_scanners.php
+│   │   └── virus
+│   │       ├── OLD
+│   │       │   ├── avChart.php
+│   │       │   ├── avCompartiveDisclaimer.php
+│   │       │   ├── avCompartiveResults.php
+│   │       │   ├── AVScanners.php
+│   │       │   ├── bit defender
+│   │       │   │   └── bitDefender8.jpg
+│   │       │   ├── fakeAV_2009.php
+│   │       │   ├── virus_info.php
+│   │       │   └── virusPrevention.php
+│   │       ├── reflection.txt
+│   │       ├── virusRemovalSummaryMD.md
+│   │       └── virusRemovalSummary.php
+│   ├── internet
+│   │   ├── accessNet.php
+│   │   ├── blockWebTracking.php
+│   │   ├── cookieBlocking.php
+│   │   ├── host_manager.php
+│   │   ├── InternetThreats.php
+│   │   ├── ipBlockers.php
+│   │   ├── netbios.php
+│   │   ├── searchEngines.php
+│   │   └── secureBrowsing
+│   │       ├── secureFirefox.md
+│   │       ├── secureFirefox.php
+│   │       ├── securezBrowseIndex.php
+│   │       └── securingSummary.php
+│   ├── keepass
+│   │   ├── autoTypeSequence1.jpg
+│   │   ├── autoTypeSequence_Change.jpg
+│   │   ├── autoTypeSolutions.md
+│   │   ├── editAutoTypeCustom.jpg
+│   │   ├── editAutoTypeDefault.jpg
+│   │   ├── editConfigUserName.jpg
+│   │   ├── editGroup.jpg
+│   │   ├── keyPassTips.html
+│   │   ├── keyPassTips.md
+│   │   ├── kpIntro.md
+│   │   ├── mainLevelDB.jpg
+│   │   └── overrideDefaultSequence.jpg
+│   ├── Secofig.php
+│   ├── secureDeleting.php
+│   ├── secureWindows.php
+│   ├── secureWindowsPrograms.php
+│   ├── securityIndex.php
+│   ├── SecurityLinks.php
+│   ├── SecurityProgramReviews.php
+│   ├── securitySoftwareDisclaimer.php
+│   └── Xmetalfanx_Security_Tweaks.reg
+├── software
+│   ├── christmas.txt
+│   ├── driveImagesAndPartitions.php
+│   ├── file_managers.php
+│   ├── internet
+│   │   ├── firefoxClones.php
+│   │   ├── IEClone.php
+│   │   ├── markdown
+│   │   │   ├── firefoxCloneMD.md
+│   │   │   └── thunderbirdMD.md
+│   │   ├── reflection.txt
+│   │   ├── thunderbird.php
+│   │   ├── web_browsers_chart.php
+│   │   └── web_browsers.php
+│   ├── internetRelated.php
+│   ├── losingDataMyth.php
+│   ├── multimedia
+│   │   ├── audio.php
+│   │   ├── graphics.php
+│   │   ├── id3MD.md
+│   │   ├── media_players_audio.php
+│   │   ├── media_players_video.php
+│   │   ├── metaDataMD.md
+│   │   ├── reflection.txt
+│   │   ├── videoProgs.php
+│   │   ├── winampPlugins.php
+│   │   └── xatMessage.php
+│   ├── multimedia.php
+│   ├── newSoftIndexMD.md
+│   ├── newSoftIndexMD.md.html
+│   ├── notes.txt
+│   ├── product
+│   │   ├── educationalMD.md
+│   │   └── educational.php
+│   ├── productivity.php
+│   ├── programsInLinux.php
+│   ├── reflection.txt
+│   ├── RogueScanner_software_removal.php
+│   ├── rss.php
+│   ├── security
+│   │   ├── AVDatabaseBackupBat.php
+│   │   ├── cleaners.php
+│   │   ├── firewalls.php
+│   │   ├── html
+│   │   │   ├── cleaner.html
+│   │   │   ├── firewall.html
+│   │   │   └── virusANDMalwareScanners.html
+│   │   ├── markdown
+│   │   │   ├── blocklistMD.md
+│   │   │   ├── cleanersMD.md
+│   │   │   ├── firewallsMD.md
+│   │   │   └── virusANDMalwareScannersMD.md
+│   │   └── virusANDMalwareScanners.php
+│   ├── softwareIndex.php
+│   ├── softwareIndexspritesphp
+│   ├── sprites.php
+│   ├── sTools
+│   │   ├── archivers.bak
+│   │   ├── archiversMD.md
+│   │   ├── archivers.php
+│   │   ├── backupSoftwareMD.md
+│   │   ├── backupSoftware.php
+│   │   ├── burnersMD.md
+│   │   ├── burners.php
+│   │   ├── defragMD.md
+│   │   ├── defrag.php
+
+│   │   ├── nirsoft.php
+│   │   ├── reflection.txt
+
+│   │   ├── registryTools.php
+│   │   ├── startupMangersMD.md
+│   │   ├── startupMangers.php
+│   │   ├── sysinternalsMD.md
+│   │   ├── sysinternals.php
+│   │   ├── systemSuitesMD.md
+│   │   ├── systemSuites.php
+│   │   ├── taskManagersMD.md
+│   │   └── taskManagers.php
+│   ├── systemTools.php
+│   └── websiteProgs.php
+├── stylesheets
+│   ├── browserSection.css
+│   ├── GAOTD.css
+│   ├── general.css
+
+│   ├── layout.css
+│   ├── layout.css.map
+│   ├── markdown.css
+│   ├── Mgeneral.css
+│   ├── Mlayout.css
+│   ├── smallGeneral.css
+│   ├── smallLayout.css
+│   ├── softwareSection.css
+│   └── startPageBox.css
+├── techcenter
+│   ├── backup
+│   │   ├── backup
+│   │   │   ├── backupIndex.php
+│   │   │   ├── driveImages.php
+│   │   │   └── reflection.txt
+│   │   ├── bookmarks.rar
+│   │   ├── driveImageSoftware.php
+│   │   ├── driveImages.php
+│   │   ├── reflection.txt
+│   │   ├── Step1.php
+│   │   ├── Step2.php
+│   │   ├── Step3.php
+│   │   └── SummaryOfSteps.php
+│   ├── christmas.txt
+│   ├── graphics
+│   │   ├── eventViewer1.jpg
+│   │   ├── fail.gif
+│   │   ├── logos
+│   │   │   ├── logodfx003.gif
+│   │   │   ├── logomix001.gif
+│   │   │   ├── mj_button.jpg
+│   │   │   ├── mMatch.gif
+│   │   │   ├── mMatch.jpg
+│   │   │   ├── real.gif
+│   │   │   ├── real.jpg
+│   │   │   ├── sonique.gif
+│   │   │   ├── winamp.gif
+│   │   │   └── wmp.gif
+│   │   ├── logProp.jpg
+│   │   ├── noentry.gif
+│   │   ├── pass.gif
+│   │   ├── sysocinf.jpg
+│   │   ├── thumbnails
+│   │   │   └── tn_sysocinf.jpg
+│   │   └── tn
+│   │       ├── tn_eventViewer1.jpg
+│   │       └── tn_logProp.jpg
+│   ├── guideSummary.php
+│   ├── MARKDOWN
+│   │   ├── pcTroublesMD.md
+│   │   ├── techCenterIndexMD.html
+│   │   ├── techCenterIndexMD.md
+│   │   └── windowsUpdateMD.md
+│   ├── multimedia
+│   │   ├── audioEnhanceMD.md
+│   │   ├── audioEnhance.php
+│   │   ├── audioMD.md
+│   │   ├── audio.php
+│   │   ├── id3TagLookupMD.md
+│   │   ├── id3TagLookup.php
+│   │   └── id3tags.php
+│   ├── OTHER
+│   │   ├── graphicsOpt.7z
+│   │   └── oldIndexPHP_files
+│   │       ├── faqindex.php
+│   │       ├── maintenceIndex.php
+│   │       ├── OptAndTweakIndex.php
+│   │       └── optindex.php
+│   ├── pcTroublesMD.html
+│   ├── pcTroubles.php
+│   ├── reflection.txt
+│   ├── system
+│   │   ├── bad_uninstalls.php
+│   │   ├── fileCleaners.php
+│   │   ├── fileConverting.php
+│   │   ├── reflection.txt
+│   │   ├── regCleaners.php
+│   │   ├── regDefrag.php
+│   │   ├── restorePointsPrune.php
+│   │   ├── startups.php
+│   │   ├── systemLog.php
+│   │   ├── tweaks
+│   │   │   ├── tweakIndex.php
+│   │   │   └── unhide_windows_comps.php
+│   │   └── win10featuresWin7.html
+│   ├── techCenterIndex.php
+│   ├── windowsUpdateMD.html
+│   └── windowsUpdateMD.php
+
+

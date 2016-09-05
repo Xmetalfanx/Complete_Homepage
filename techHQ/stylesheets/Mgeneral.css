@@ -1,0 +1,99 @@
+#softwareSection #browsersprite li {
+  display: block;
+  list-style-type: none; }
+#softwareSection #browsersprite .firefox {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -90px 0;
+  width: 59px;
+  height: 32px; }
+#softwareSection #browsersprite .gchrome {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -54px 0;
+  width: 32px;
+  height: 34px; }
+#softwareSection #mpSprite .aimp {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -284px -4px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .foobar {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -179px 0;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .vlc {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -337px -6px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .clem {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -55px 0;
+  width: 32px;
+  height: 32px; }
+
+/* Images */
+/* Border variables */
+/* Colors */
+/* new Scheme test */
+/* Fonts */
+/* Images */
+.mainProgCat {
+  background-color: #660000;
+  color: white;
+  clear: both; }
+
+.noBottomBorder {
+  border-bottom: 0px;
+  margin-bottom: 0px; }
+
+/* Each section/Headline for the leftbar of the main page */
+.section {
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 20px;
+  overflow-x: auto; }
+  .section a:link {
+    margin-top: 100px;
+    margin-bottom: 20px; }
+
+.shading {
+  background-color: #cccccc;
+  color: black; }
+
+td.paddingTwo {
+  padding: 2px; }
+
+td.paddingFive {
+  padding: 5px; }
+
+#leftUpdateTable td {
+  font-family: Arial, Helvetica, san-serif; }
+
+.ul {
+  background-color: transparent;
+  color: black;
+  padding-left: 40px; }
+
+li {
+  background-color: transparent;
+  color: black;
+  padding-left: 10px;
+  list-style-position: outside;
+  list-style-type: disc; }
+
+#wideCol2 .programSection {
+  border: 1px solid black; }
+  #wideCol2 .programSection .TwoColumns {
+    column-count: 2;
+    column-gap: 10px; }
+    #wideCol2 .programSection .TwoColumns img {
+      display: none; }
+  #wideCol2 .programSection .ThreeColumns {
+    column-count: 3;
+    column-gap: 10px; }
+    #wideCol2 .programSection .ThreeColumns img {
+      display: none; }
+    #wideCol2 .programSection .ThreeColumns li {
+      list-style-type: none;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    #wideCol2 .programSection .ThreeColumns h1 {
+      font-size: 18px; }
+    #wideCol2 .programSection .ThreeColumns h2 {
+      font-size: 16px; }

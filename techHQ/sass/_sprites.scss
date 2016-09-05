@@ -1,0 +1,64 @@
+
+#softwareSection
+{
+	
+	#browsersprite 
+	{
+		li
+		{
+			display: block;
+			list-style-type: none;
+		}
+	
+		.firefox
+		{
+			background: url('/techHQ/progIcons/browsers/browserSprite.png') no-repeat -90px 0;
+			width: 59px;
+			height: 32px;
+		}
+
+		.gchrome
+		{
+			background: url('/techHQ/progIcons/browsers/browserSprite.png') no-repeat -54px 0;
+			width: 32px;
+			height: 34px;
+		}
+	}
+	
+	
+	#mpSprite
+	{
+		.aimp
+		{
+			background: url('/techHQ/progIcons/browsers/browserSprite.png') no-repeat -284px -4px;
+			width: 32px;
+			height: 32px;
+		}
+		
+		.foobar
+		{
+			background: url('/techHQ/progIcons/browsers/browserSprite.png')	no-repeat -179px 0;
+			width: 32px;
+			height: 32px;
+		}
+		
+		
+		.vlc
+		{
+			background: url('/techHQ/progIcons/browsers/browserSprite.png') no-repeat -337px -6px;
+			width: 32px;
+			height: 32px;
+			
+		}
+		
+		.clem
+		{
+			background: url('/techHQ/progIcons/browsers/browserSprite.png') no-repeat -55px 0;
+			width: 32px;
+			height: 32px;
+			
+		}
+	
+	}
+	
+}

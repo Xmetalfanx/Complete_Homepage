@@ -1,0 +1,812 @@
+#softwareSection #browsersprite li {
+  display: block;
+  list-style-type: none; }
+#softwareSection #browsersprite .firefox {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -90px 0;
+  width: 59px;
+  height: 32px; }
+#softwareSection #browsersprite .gchrome {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -54px 0;
+  width: 32px;
+  height: 34px; }
+#softwareSection #mpSprite .aimp {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -284px -4px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .foobar {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -179px 0;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .vlc {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -337px -6px;
+  width: 32px;
+  height: 32px; }
+#softwareSection #mpSprite .clem {
+  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -55px 0;
+  width: 32px;
+  height: 32px; }
+
+/* Images */
+/* Border variables */
+/* Colors */
+/* new Scheme test */
+/* Fonts */
+/* Images */
+a:link,
+a:visited {
+  color: inherit;
+  background-color: transparent; }
+
+#body,
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: space-around;
+  align-content: space-around;
+  margin: 0px;
+  color: black;
+  background-color: #323232;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0px; }
+
+#bottomHeader {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  z-index: 990;
+  clear: both;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  color: black;
+  border-top: 1px solid rgba(204, 204, 153, 0.95);
+  background-color: white;
+  text-align: left;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  order: 6; }
+  #bottomHeader a:link {
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 11px; }
+  #bottomHeader a:hover {
+    color: #660000;
+    background-color: transparent; }
+
+img {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  border: 0px; }
+
+h3,
+h5 {
+  clear: both;
+  margin-top: 5px; }
+
+p {
+  color: black;
+  background-color: inherit;
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  direction: ltr; }
+
+table .leftSmallTable,
+table .virtSmallLTable {
+  display: block;
+  float: left;
+  clear: right;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: justify; }
+table .leftTable td,
+table .rightTable td {
+  border-spacing: 20px; }
+table .leftTable,
+table .virtLTable {
+  display: block;
+  float: left;
+  clear: right;
+  margin-right: auto;
+  margin-left: 50px;
+  padding: 2px;
+  border: 1px solid black;
+  font-weight: bold; }
+table .rightSmallTable,
+table .virtSmallRTable {
+  display: block;
+  float: right;
+  clear: none;
+  margin-right: 50px;
+  margin-left: auto;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: justify; }
+table .rightTable,
+table .virtRTable {
+  display: block;
+  float: right;
+  clear: none;
+  margin-left: auto;
+  padding: 2px;
+  border: 1px solid black;
+  font-weight: bold;
+  /*margin-right: 50px;*/ }
+table .tableNoBorderCenteredFiftyPercent {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border: none; }
+
+td {
+  color: black;
+  background-color: white;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: normal; }
+  td a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+    vertical-align: top; }
+
+td.fiftyPercent,
+th.fiftyPercent {
+  width: 50%; }
+
+/*Three Column Tables*/
+td.progDecription {
+  width: 75%; }
+
+th,
+th a:link {
+  color: white;
+  background-image: url(../graphics/navbar_trials/christmas/darkgreen1.png);
+  background-color: #009900;
+  font-size: 9pt;
+  font-weight: bold; }
+
+/*Test for CSS relplacements for tables in software Section*/
+.centerTables {
+  display: block;
+  width: 60%;
+  clear: none;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-left: auto;
+  font-weight: bold; }
+
+.col1Indent {
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-left: 25px;
+  color: black;
+  background-color: white; }
+
+.dropShadow {
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+.dropShadowIMGPadB {
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px; }
+
+.dropShadowIMGPadB a:hover {
+  -moz-transform: scale(1.07, 1.07);
+  -ms-transform: scale(1.07, 1.07);
+  -webkit-transform: scale(1.07, 1.07);
+  transform: scale(1.07, 1.07);
+  -moz-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  margin: 1%; }
+
+.fiftyPX {
+  padding-bottom: 50px; }
+
+.generalTxt {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 11pt; }
+
+.header a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none; }
+.header a:hover {
+  color: #ffcc99;
+  background-color: #660000; }
+
+.header,
+a:link .header,
+h2 {
+  /* @include           boxShadow(1px, 2px, 2px, #000000); */
+  clear: both;
+  margin-bottom: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 0;
+  color: lemonchiffon;
+  overflow: visible;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px ridge black;
+  border-left: 1px solid black;
+  background-color: #323232;
+  text-align: left;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  /*background-image: url(../graphics/navbar_trials/tan/tan2.jpg);*/ }
+
+.progtableColL {
+  width: 49%;
+  float: left;
+  clear: right; }
+
+.progtableColR {
+  width: 49%;
+  float: right; }
+
+.progTableDesc {
+  position: relative;
+  clear: both;
+  padding-right: 3%;
+  padding-bottom: 2px;
+  padding-left: 3%;
+  color: black;
+  background-color: inherit;
+  line-height: 133%; }
+
+.progTables {
+  -webkit-box-shadow: 8px 6px 10px #000000;
+  -moz-box-shadow: 8px 6px 10px #000000;
+  box-shadow: 8px 6px 10px #000000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  display: block;
+  width: 80%;
+  float: left;
+  clear: both;
+  margin-right: 3%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  padding-bottom: 0;
+  color: black;
+  border: 2px solid black;
+  background-color: white; }
+
+.progTablesName {
+  display: block;
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: black;
+  border: 1px solid black;
+  background-image: url(../graphics/navbar_trials/tan/tan3.png);
+  background-color: #ffffcc;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold; }
+
+#mainBody .progTablesName a:link,
+.progTablesName a:link {
+  color: #000099;
+  background-color: transparent;
+  text-decoration: none;
+  /*vertical-align: middle;*/ }
+
+/*
+  same as the original (sort of) ... for Items that do not have a decription
+  under it
+*/
+.progTablesName2 {
+  display: block;
+  width: 78%;
+  float: left;
+  margin-right: auto;
+  margin-bottom: 4px;
+  margin-left: auto;
+  padding-bottom: 0;
+  color: black;
+  border: 1px solid black;
+  background-color: inherit;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold; }
+
+.progTableVer {
+  display: block;
+  width: 99%;
+  float: right;
+  clear: both;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 1%;
+  color: black;
+  overflow: visible;
+  border: 1px solid black;
+  background-color: transparent;
+  text-align: right;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 85%;
+  font-weight: bold; }
+
+.sevenFiveTable {
+  width: 70%; }
+
+.TDLeft {
+  display: block;
+  float: left;
+  clear: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  border: 1px solid black;
+  text-align: center; }
+
+.TDRight {
+  float: right;
+  clear: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  text-align: center; }
+
+.thirtyThreePercent {
+  width: 33%; }
+
+.topBanner {
+  width: 600px;
+  height: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px; }
+
+.updateDate {
+  -moz-border-radius: 8px / 8px;
+  -webkit-border-radius: 8px 8px;
+  border-radius: 8px / 8px;
+  display: block;
+  float: right;
+  clear: left;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-left: 5px;
+  color: #660000;
+  border: 1px solid black;
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 100%;
+  letter-spacing: 2px; }
+
+/*
+  UpdateSummary is intended to Give a short Update so the main page's
+  Description does not Run Too long
+*/
+.UpdateSummary {
+  -webkit-box-shadow: 4px 3px 5px black;
+  -moz-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  -moz-border-radius: 8px / 8px;
+  -webkit-border-radius: 8px 8px;
+  border-radius: 8px / 8px;
+  clear: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  color: #660000;
+  border: 1px solid black;
+  background-color: #ffffcc;
+  font-size: 16px;
+  font-weight: bold; }
+
+.virtSmallLTable a:link,
+.virtSmallRTable a:link {
+  text-decoration: none; }
+
+#bannerText {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  order: 1;
+  letter-spacing: 2px;
+  float: left; }
+
+footer {
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  background-color: #323232;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  font-family: Arial, Helvetica, san-serif;
+  order: 7;
+  /*background-image: url(../graphics/navbar_trials/tan/tan3.png);*/ }
+  footer a:link {
+    color: white; }
+
+#col1 {
+  z-index: 500;
+  margin-bottom: 15px;
+  padding-right: 3px;
+  padding-left: 5px;
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  order: 4;
+  flex-basis: 15%; }
+  #col1 .header {
+    margin-top: 100px; }
+  #col1 h2 a:link, #col1 a:link {
+    color: #FFFFCC;
+    background-color: inherit;
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    line-height: 18px; }
+  #col1 img {
+    clear: both;
+    padding-bottom: 25px; }
+  #col1 li {
+    margin-left: 1px;
+    padding-left: 20px;
+    text-align: left; }
+  #col1 .header a:link {
+    color: #ffff00;
+    background-color: navy; }
+
+#col2 {
+  z-index: 500;
+  height: 100%;
+  margin-left: 3px;
+  padding-right: 1%;
+  padding-left: 2%;
+  color: #990000;
+  background-color: white;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  order: 5; }
+  #col2 li {
+    margin-left: 1px;
+    padding-left: 20px;
+    text-align: left; }
+
+#col3 {
+  z-index: 500;
+  display: inline-block;
+  position: relative;
+  width: 16%;
+  height: 100%;
+  float: right;
+  margin-left: 0px;
+  padding-right: 2%;
+  color: black;
+  background-color: white;
+  vertical-align: top;
+  order: 3; }
+  #col3 img {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow: hidden; }
+  #col3 .col3table {
+    -webkit-box-shadow: 4px 3px 5px black;
+    -moz-box-shadow: 4px 3px 5px black;
+    box-shadow: 4px 3px 5px black;
+    -moz-border-radius: 8px / 8px;
+    -webkit-border-radius: 8px 8px;
+    border-radius: 8px / 8px;
+    border: 1px solid black; }
+
+#copyrightFooter {
+  margin-top: 0px;
+  padding-top: 1px;
+  color: white;
+  background-color: transparent;
+  text-align: right;
+  text-decoration: none;
+  white-space: nowrap; }
+  #copyrightFooter a:link {
+    color: #FFFFCC; }
+
+#ga_text img:hover {
+  -webkit-box-shadow: 1px 2px 3px black;
+  -moz-box-shadow: 1px 2px 3px black;
+  box-shadow: 1px 2px 3px black;
+  clear: both;
+  margin: 1%;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+#googleImage {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: bottom; }
+
+#HorzSubMenu {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 94%;
+  clear: both;
+  margin-top: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  color: #660000;
+  border: 1px dashed #660000;
+  background-image: url(../graphics/navbar_trials/tan/tan1.jpg);
+  background-color: #ffff99;
+  vertical-align: bottom;
+  font-size: 12px;
+  font-weight: bold; }
+  #HorzSubMenu a:link {
+    color: #ffff99;
+    border-bottom-color: cyan;
+    background-color: transparent; }
+  #HorzSubMenu a:link,
+  #HorzSubMenu a:visited {
+    color: black;
+    background-color: transparent;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-variant: small-caps; }
+
+#justify,
+.justify,
+p.justify {
+  text-align: justify; }
+
+#LBottomIcons {
+  width: 25%;
+  float: left;
+  margin-left: 0;
+  padding-left: 10px;
+  color: #000000;
+  overflow: visible;
+  background-color: transparent;
+  vertical-align: baseline; }
+
+#left, .left, p.left {
+  text-align: left; }
+
+#mainBody {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  z-index: 99;
+  padding-top: 3px;
+  color: #990000;
+  border-color: black;
+  background-color: white;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  order: 3;
+  direction: ltr;
+  padding-right: 1%;
+  /*New way for the Software Section*/ }
+  #mainBody .iconCenter {
+    width: 32px;
+    height: 32px; }
+  #mainBody .iconsLeft {
+    width: 32px;
+    height: 32px;
+    float: left;
+    clear: right;
+    margin-right: 14px;
+    margin-left: 0;
+    padding: 0;
+    /*padding-right: 10px;*/ }
+  #mainBody .imgCentWrapBoth {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: none; }
+  #mainBody a:link {
+    color: #000099;
+    background-color: transparent;
+    text-decoration: none; }
+  #mainBody a:visited {
+    color: #990000;
+    border-bottom-color: #660000;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    background-color: transparent;
+    font-family: "Segoe UI", "Courier New", Courier, monospace;
+    font-size: 13px; }
+  #mainBody img.imgleft {
+    float: left;
+    clear: right;
+    margin-right: 14px;
+    margin-left: 0;
+    padding-right: 10px; }
+  #mainBody img.imgRight {
+    float: right;
+    margin-right: 140px;
+    padding-right: 10px; }
+  #mainBody .leftIcon {
+    float: left;
+    width: 48px;
+    height: 48px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto; }
+
+nav {
+  color: lemonchiffon;
+  /*  border           : 1px dotted rgba( 255, 255, 255, .80); */
+  background-color: #323232;
+  order: 2;
+  text-align: right;
+  padding: 10px; }
+  nav a:link, nav a:visited {
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 1%;
+    padding-bottom: 5px;
+    padding-left: 1%;
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold; }
+  nav a:hover {
+    background-color: transparent;
+    color: lemonchiffon; }
+
+#navButton {
+  display: none; }
+
+#SearchForm {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 520px;
+  clear: both;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  color: black;
+  border: 0;
+  background-color: white;
+  white-space: nowrap; }
+  #SearchForm img {
+    padding-right: 15px;
+    vertical-align: baseline; }
+
+#siteInfo {
+  clear: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  color: #000099;
+  background-color: white;
+  font-size: inherit;
+  order: 5;
+  /*border-left: 1px solid #cccccc;*/ }
+  #siteInfo a:link {
+    color: #660000;
+    background-color: transparent;
+    text-align: left;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-size: inherit; }
+  #siteInfo a:hover {
+    text-decoration: underline;
+    font-size: inherit; }
+
+#textHeader {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  vertical-align: middle; }
+
+#valRight {
+  z-index: 999;
+  display: block;
+  position: static;
+  width: 99%;
+  float: right;
+  clear: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px; }
+  #valRight img {
+    float: right;
+    padding-right: 10px; }
+
+#wideCol2 {
+  padding-left: 10px;
+  color: black;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  order: 5;
+  line-height: 18px;
+  flex-basis: 600px;
+  flex: 3; }
+  #wideCol2 a:link {
+    padding-bottom: 5px; }
+  #wideCol2 a:hover {
+    color: #660000;
+    background-color: transparent;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5); }
+  #wideCol2 img {
+    display: block;
+    opacity: 1.0;
+    overflow: hidden; }
+  #wideCol2 p {
+    padding-left: 1%;
+    vertical-align: baseline;
+    line-height: 18px; }
+  #wideCol2 ul {
+    color: black;
+    background-color: transparent;
+    line-height: 18px;
+    list-style-type: circle; }
+
+#bottomHeaders a:link {
+  color: black;
+  background-color: white; }
+
+.iconCenter,
+center,
+img.center,
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+h3,
+h4 {
+  margin-top: 10px;
+  margin-bottom: 3px; }
+
+#top {
+  background-color: #323232;
+  color: white;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 1%; }

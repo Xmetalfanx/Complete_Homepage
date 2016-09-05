@@ -1,0 +1,20 @@
+
+
+<h2>How To Add the AUR to Arch</h2>
+<ul>
+<li>Information gathered from the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository">Arch Wiki page</a>   AS
+well as <a href="https://drive.google.com/file/d/0B3DsklBZ0EX0a19QdnI3SmNIXzA/view">Matthew Moore’s “Arch install Guide”</a></li>
+</ul>
+<h3>Install Yaourt from source ( recommended method)</h3>
+<ul>
+<li>
+<p>Replace <strong>user</strong> with your user name in the commands below</p>
+</li>
+<li>
+<p>Do each “line” one at a time</p>
+</li>
+</ul>
+<pre class="editor-colors lang-text">
+<div class="line"><span class="text plain">
+<span class="meta paragraph text"><span>sudo&nbsp;pacman&nbsp;-S&nbsp;git</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;</span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;git&nbsp;clone&nbsp;</span><span class="markup underline link https hyperlink"><span>https://aur.archlinux.org/package-query.git</span></span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text">
+<span>cd&nbsp;package-query</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;</span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;chown&nbsp;-R&nbsp;$(whoami)&nbsp;/home/user/package-query</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;chmod&nbsp;775&nbsp;/home/user/package-query</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>makepkg&nbsp;-si</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>cd&nbsp;..</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;</span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;git&nbsp;clone&nbsp;</span><span class="markup underline link https hyperlink"><span>https://aur.archlinux.org/yaourt.git</span></span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>cd&nbsp;yaourt</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;</span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;chown&nbsp;-R&nbsp;$(whoami)&nbsp;/home/user/yaourt</span></span></span></div><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;chmod&nbsp;775&nbsp;/home/user/yaourt</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>makepkg&nbsp;-si</span></span></span></div><div class="line"><span class="text plain"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta paragraph text"><span>cd&nbsp;..</span></span></span></div></pre>
