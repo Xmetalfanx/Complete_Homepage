@@ -7,13 +7,20 @@
 	  <link href="/stylesheets/layout.css" rel="stylesheet" type="text/css" media="all">
 	 <link href="/stylesheets/smallerLayout.css" rel="stylesheet" type="text/css" media="(max-width: 700px)">
 
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha
+
+
  </head>
 
  <body>
 
   <div id="top">
     	<div id="MainHeader">Xmetal's Homepage</div><br/>
-    			<nav>
+    	 	<nav>
     				<a href="/techHQ/index.php">Tech HQ</a>
     				<a href="/linuxHQ/index.php">Linux HQ</a>
     			</nav>
@@ -22,30 +29,15 @@
 
       	<div id="message">
          	 <h1> Introduction </h1>
-      		<p>
-      		   <span class="bold">TechHQ </span> - This section contains cross platform programs (Linux, Windows), Windows Security tips,
-      			Browser tips/addon information, and some general tech information
-      		</p>
 
-          		<p>
-      			<span class="bold">LinuxHQ </span> - This section contains descriptions of different Linux distrobutions, Desktop Envirnment
-      			 Options, How-to's for New users, as well as useful tutorials (not all geared for new users to Linux).  Another idea I have that
-      			 I will add to the section at some point is a Theme/Icons/Cursor section of items I find from my use of Linux.
-      			 I have screenshots and detailed information of the Distrobutions and Desktops that I mentioned so ALL users can take
-      			 a look at see what the differences (in most cases) are and what the differences in the looks, system requirements are for each
-      			 one.
-          		 </p>
+          <p> <img src="/graphics/midfngr.jpg" alt="midfngr thumbnail" /> </p>
+           <p>R.I.P. Midfngr - Please visit <a href="https://www.youtube.com/user/midfingr/undefined" target="_blank">Midfngr's Youtube Channel </a> </p>
+
+           <hr />
 
 
-        	<h1>Last Updated: Sat., 14. May 2016</h1>
-
-      		<p>I have updated/added some sections of the LinuxHQ section, as well as have some pages almost ready to be
-      			added to the LinuxHQ that I  just have not gotten them "converted" yet.</p>
-
-      		<p>I have also tried to do what I can to remove/optimize some older code that I did not need.</p>
-
-		      <p>Pages, will be <strong>CONSTANTLY</strong> updated </p>
-
+          <h1> ATTENTION! </h1>
+          <p> Most of the site is broken at the moment ... I have a big idea on my side of things how to redo a few items to make it easier to manage and fix a few things that have been annoying me ... bottom line is I KNOW ITS BROKEN </p>
 
         	<div id="socialIcons">
                  <a href="https://plus.google.com/+Xmetalfanx2014/about" target="_blank" class="icon">
@@ -66,6 +58,7 @@
 		<div id="copyright"> Xmetal/Xmetalfanx - 2016	</div>
 
 	  </footer>
-
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

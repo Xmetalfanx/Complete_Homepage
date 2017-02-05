@@ -13,21 +13,27 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
    </div>
 
 
-
     <h1> Cross Platform </h1>
-        <h2>Graphics Applications</h2>
-           <div class="programSection">
-              <div class="TwoColumns">
-                  <div>$kritaIcon  $kritaHome <br />Krita is a graphics editor is an open source graphics/illustrator program, which some users compare to
+
+  <h2>Graphics Applications</h2>
+
+       <div class="programSection">
+
+            <div class="TwoColumns">
+                <div>$kritaIcon  $kritaHome <br />Krita is a graphics editor is an open source graphics/illustrator program, which some users compare to
                        Adobe Photoshop </div>
 
-                  <div> $gimpIcon  $gimpHome <br /> GIMP is a well known and widely used Graphics editor that some
+                <div> $gimpIcon  $gimpHome <br /> GIMP is a well known and widely used Graphics editor that some
                           (not all though) compare to Photoshop</div>
-                </div>
-             </div>
+              </div>
+           </div>
 
-        <h2>Internet Related</h2>
+
+       <h2>Internet Related</h2>
+
              <div class="programSection">
+
+
                    <div class="TwoColumns">
                       <div>$pidginIcon $pidginHome - Instant Messaging Client </div>
                       <div>$thunderbirdIcon $thunderbirdHome - Email Client</div>
@@ -36,8 +42,10 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
 
 
 
-      <h2> Multimedia Programs </h2>
-           <div class="programSection">
+
+
+  <h2> Multimedia Programs </h2>
+     <div class="programSection">
               <h3>Audio Players</h3>
                  <div> $clemIcon $clemHome <br />
                     <p>Clementine is a music player and organizer that can not only play your music collection, organize your
@@ -53,13 +61,14 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
                 </div>
           </div>
 
-          <h2>Productivity/Office Programs</h2>
+<h2>Productivity/Office Programs</h2>
              <div class="programSection">
-                <h3>Office Suite</h3>
-                     <div> $libreOIcon $libreOHome </div>
+
+
+                 <div> $libreOIcon $libreOHome </div>
             </div>
 
-        <h2>Security Programs</h2>
+    <h2>Security Programs</h2>
           <div class="programSection">
             <img src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg" alt="Bleachbit Icon">
                 <a href="http://bleachbit.sourceforge.net/">Bleachbit</a>
@@ -100,6 +109,7 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
   <div class="programSection">
       	   <h3>Linux</h3>
       		 <a href="http://audacious-media-player.org/">Audacious</a>
+           Deadbeef
 
       	   <h3>Windows</h3>
       		   <div class="TwoColumns">
@@ -108,10 +118,10 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
       		   </div>
         </div>
 
-   <h2>Security Programs</h2>
-     <div class="programSection">
-       <h3>Windows</h3>
+<h2>Security Programs</h2>
+<div class="programSection">
 
+       <h3>Windows</h3>
           <div class="ThreeColumns">
               <div>
                  <img src="/techHQ/progIcons/security/AVs/1589__Avast!FreeAntivirus5_icon.png" alt="Avast Icon">
@@ -127,8 +137,8 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
           </div>
      </div>
 
-
      <h3>Cache/Temp File Cleaners</h3>
+
         <div class="programSection">
             <div class="TwoColumns">
                <div> $ccleanerIcon $ccleanerHome  </div>
@@ -139,10 +149,12 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
 
         </div>
 
-   <h2>System Tools</h2>
-   <h3>Windows</h3>
+<h2>System Tools</h2>
+<div class="programSection">
 
-      <div class="programSection">
+
+      <h3>Windows</h3>
+
         <div>
            <a href="https://www.partitionwizard.com/free-partition-manager.html">Minitools Partition Manager Freeware Edition</a>
         </div>
@@ -152,7 +164,7 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
     		      <div>$glaryIcon $glaryHome </div>
               <div> $wiseCareIcon $wiseCareHome</div>
           </div>
-      </div>
+    </div>
 
 EOD;
 ?>

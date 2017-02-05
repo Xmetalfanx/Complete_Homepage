@@ -1096,9 +1096,7 @@ pre {
   padding-bottom   : 6px;
   padding-left     : 2px;
   color            : $black;
-  border-right     : $solidBorder;
-  border-bottom    : $solidBorder;
-  border-left      : $solidBorder;
+  outline          : $solidBorder;
   background-color : transparent;
   text-align       : justify;
   font-weight      : bold;
@@ -1115,7 +1113,7 @@ pre {
   @include   flex-wrap(wrap);
   @include   justify-content(space-around);
   @include   autoMargin();
-  border   : $solidBorder;
+  outline   : $solidBorder;
 
   .KKing {
     @include           boxShadow(5px, 2px, 10px, #000000);
@@ -1123,7 +1121,7 @@ pre {
     padding-right    : 5px;
     padding-bottom   : 10px;
     padding-left     : 5px;
-    border           : $solidBorder;
+    outline           : $solidBorder;
     background-color : white;
 
     img {
@@ -1196,9 +1194,13 @@ pre {
 }
 
 .programSection {
-  padding-left : 5px;
-  overflow     : auto;
-  border       : $solidBorder;
+  padding-left   : 5px;
+  overflow       : auto;
+  outline        : $solidBorder;
+  margin-bottom  : 16px;
+  width          :  80%;
+  @include       autoMargin();
+
 
   div {
     @include        break-inside(avoid);
@@ -1208,11 +1210,14 @@ pre {
   }
 
   h2 {
-    color            : black;
     border           : 0px;
-    background-color : transparent;
     font-size        : 18px;
     font-weight      : bold;
+    padding-top      : 0px;
+    padding-left     : 0px;
+    margin-left      : 0px;
+    margin-top       : 0px;
+    width: 100%;
   }
 
   h3 {
@@ -1222,8 +1227,8 @@ pre {
   }
 
   img {
-    width  : 38px;
-    height : 38px;
+   /*  width  : 38px;
+    height : 38px; */
     float  : left;
   }
 

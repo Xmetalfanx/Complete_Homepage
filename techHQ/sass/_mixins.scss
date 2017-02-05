@@ -40,7 +40,7 @@
 	@include column-count($colCount);
 	@include column-width($colWidth);
 	@include column-gap($colGap);
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 	margin-top: 20px;
 	@include inline-block();
 
@@ -50,4 +50,3 @@
 	}
 
 }
-

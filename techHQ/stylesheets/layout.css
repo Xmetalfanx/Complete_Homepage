@@ -104,7 +104,7 @@ table .virtSmallLTable {
   margin-right: auto;
   margin-left: auto;
   padding: 5px;
-  border: 1px solid black;
+  outline: 1px solid black;
   text-align: justify; }
 table .leftTable td,
 table .rightTable td {
@@ -245,16 +245,16 @@ h2 {
   padding-bottom: 0;
   color: lemonchiffon;
   overflow: visible;
-  border-top: 1px solid black;
-  border-right: 1px solid black;
-  border-bottom: 1px ridge black;
-  border-left: 1px solid black;
+  outline: 1px solid black;
   background-color: #323232;
   text-align: left;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  /*background-image: url(../graphics/navbar_trials/tan/tan2.jpg);*/ }
+  padding-left: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; }
 
 .progtableColL {
   width: 49%;
@@ -293,7 +293,7 @@ h2 {
   margin-left: 10%;
   padding-bottom: 0;
   color: black;
-  border: 2px solid black;
+  outline: 2px solid black;
   background-color: white; }
 
 .progTablesName {
@@ -540,7 +540,8 @@ footer {
   background-color: transparent;
   text-align: right;
   text-decoration: none;
-  white-space: nowrap; }
+  white-space: nowrap;
+  margin-right: 1%; }
   #copyrightFooter a:link {
     color: #FFFFCC; }
 

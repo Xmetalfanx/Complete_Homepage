@@ -1,6 +1,9 @@
 <?php
     $the_title = 'Xmetalfanxs Homepage';
-    $the_content = <<<EOD
+?>
+
+<?php include $_SERVER['DOCUMENT_ROOT'].("modules/tech/baseTechHeadTag.php"); ?>
+
 
 	<h2>Last Update: </h2>
 
@@ -57,8 +60,3 @@
             </a>
           </noscript>
         </div>  <!-- End of GAOTD DIV -->
-
-
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/templates/tech/baseTechMAINTemplate.php'); ?>

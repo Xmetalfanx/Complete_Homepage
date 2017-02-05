@@ -1,13 +1,7 @@
- <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/tech/baseTechHeadTag.php'; ?>
+<!-- what about the $title variable?  --> 
 
+<?php include $_SERVER['DOCUMENT_ROOT'].'/modules/tech/baseTechHeader.php'; ?>
 
-<body>
-
-	  <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/tech/baseTechHeader.php'; ?>
-
-		<div id="mainBody">
-
-		   <div id="col1">
 			<?php include $_SERVER['DOCUMENT_ROOT'].'/techHQ/modules/techMainCol1.php'; ?>
 			</div>
 
