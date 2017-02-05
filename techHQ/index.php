@@ -1,13 +1,17 @@
+<?php $the_title = 'Xmetalfanxs Homepage'; ?>
 <?php
-    $the_title = 'Xmetalfanxs Homepage';
+
+      $path = $_SERVER['DOCUMENT_ROOT'];
+      $path .= "/modules/tech/baseTechHeader.tpl";
+      include_once($path);
+
+      $path = $_SERVER['DOCUMENT_ROOT'];
+      $path .= "/templates/tech/baseTechMAINTemp.tpl";
+      include_once($path);
+
 ?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("modules/tech/baseTechHeadTag.php"); ?>
-
-
-	<h2>Last Update: </h2>
-
-
+  <!-- mainBody Tag is opened -->
+<div id="col2">
 	<h3>Educations Sites </h3>
 	<div id="support">
 
@@ -32,31 +36,16 @@
 				(or Her Channel on Youtube) </a></p>
 
 	</div>
+</div> <!-- ends Col2 -->
 
+  <?php
 
-	<ul>
+      $path = $_SERVER['DOCUMENT_ROOT'];
+      $path .= "/techHQ/modules/GAOTD.tpl";
+      include_once($path);
 
-	<li><a href="https://www.dropbox.com/s/oanv531a57zgatt/Xmetalfanx_Computer_Security_Guide.pdf">Security Guide</a>  - @511 KB</li>
-	<li>Computer Optimization Guide - @600 KB</li>
-</ul>
+      $path = $_SERVER['DOCUMENT_ROOT'];
+     $path .= "/modules/tech/baseTechFooter.tpl";
+     include_once($path);
 
-<p>** I will be Updating these guides to be more useful and putting the final touches on a few I have had in the &quot;works&quot; for awhile.</p>
-
-		<div id="GAOTD">
-			<p class="header">Give-away of the Day</p>
-
-			<script type="text/javascript">var gaotd_SiteName = "Give Away of The Day"; </script>
-            <noscript>
-              <a href="http://www.giveawayoftheday.com" target="_blank">
-                  Giveaway of the Day - Site that gives away free licenses to participating software on a daily
-                 basis
-             </a>
-            </noscript>
-
-		  <script type="text/javascript" src="http://www.giveawayoftheday.com/ticker/"> </script>
-          <noscript>
-             <a href="http://www.giveawayoftheday.com" target="_blank">
-                Giveaway of the Day - Site that gives away free licenses to participating software on a daily basis
-            </a>
-          </noscript>
-        </div>  <!-- End of GAOTD DIV -->
+?>
