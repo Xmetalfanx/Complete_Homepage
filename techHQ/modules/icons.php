@@ -1,8 +1,11 @@
 <?php
+		 $browsIconPath = "<img src=\"/techHQ/browsers/adblocking/icons\" ";
+
 
 		$UblockFFicon = '<a href="https://addons.mozilla.org/en-us/firefox/addon/ublock-origin/">
-		  <img src="/techHQ/browsers/adblocking/icons/ublockO.png" alt="Ublock Origins Icon" />
+		echo $browsIconPath/ublockO.png" alt="Ublock Origins Icon" />
 		  Ublock Origin</a>';
+
 		$UblockOperaicon = '<a href="https://addons.opera.com/en/extensions/details/ublock/?display=en">Ublock Origin</a>';
 		$UblockChromeicon = '<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en">
 				<img src="/techHQ/browsers/adblocking/icons/ublockO.png" alt="Ublock Origins Icon" class="iconsLeft">Ublock Origin</a>';
@@ -25,3 +28,6 @@
 			</a>';
 
 ?>
+
+
+<?php echo $browsIconPath; ?>

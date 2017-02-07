@@ -5,8 +5,8 @@
         <a href="/techHQ/personal/personalIndex.php">About Me | </a>
         <a href="/techHQ/credit.php">Credits | </a>
         <a href="http://xmetalfanx.x10.mx/phpbb/" target="_blank">Forums</a> |
-        <a href="/references.php">References | </a>
-        <a href="/techHQ/references.php">Site Map | </a>
+        <a href="/techHQ/references.php">References | </a>
+        <a href="#">Site Map | </a>
         <a href="/link.php"> Links | </a>
         <a href="#">Contact Me</a>
     </div><!-- Ends SiteInfo -->
@@ -29,7 +29,7 @@
       </form>
     </div><!-- Ends Search DIV -->
 
-</div>
+</div> <!-- ends MainBody DIV opened in Template Header -->
 
 
 <footer>
@@ -47,3 +47,8 @@
 	</div> <!--ends copyright footer  -->
 
 </footer>
+
+<!-- For BootStrap ... not sure if this is the best place to put this line below -->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

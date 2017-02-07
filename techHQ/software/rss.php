@@ -1,13 +1,12 @@
 <?php
 
   $the_title = 'Xmetalfanx Useful Programs Section - RSS'
-  
-    $the_content = <<<EOD
+?>
 
     <p class="justify">So you have seen me add and comment on RSS, and do not know what it is or how to use it...</p>
     <p class="header">What are RSS Feeds, How do I read them? Do I need a special program for it? </p>
     <p class="justify">
-    <img src="../smiles/funny/creator.gif" alt="Creator Smilie" width="65" height="82" class="centerImage" />You need a RSS reader, such as 
+    <img src="../smiles/funny/creator.gif" alt="Creator Smilie" width="65" height="82" class="centerImage" />You need a RSS reader, such as
     <a href="http://www.genghisgroup.com/" target="_blank">GreatNews</a> or <a href="http://www.genghisgroup.com/" target="_blank">&quot;Sharp Reader&quot; (Freeware)</a> .... </p>
     <blockquote>
       <p class="mainProgDescript">Most web-browsers that I have seen have added RSS &quot;support&quot; to read the content in say a sidebar (IE 7 I know, as well as Firefox 2.0x can read RSS feeds the way they are suppose to be seen). Personally I just like these freewares as they provide a little bit of increased &quot;control&quot; over how you can manage and view the feeds.</p>
@@ -29,6 +28,4 @@
       <li>and others.</li>
     </ul>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -11,20 +11,17 @@
   <meta name="robots" content="index,follow,noodp">
     <meta name="googlebot" content="index,follow">
 
-    <base href="http://xmetal.x10.mx" />
-
-
     <link rel="alternate" href="xml/site_updates.xml" type="application/rss+xml"
       title="Xmetalfanx Site Updates and Information">
-    <link rel="alternate" href="security/securityIndex.php" type="application/rss+xml"
-      title="Xmetalfanx Must Have Programs">
+
     <link rel="alternate" href="xml/program_updates.xml" type="application/rss+xml"
       title="Xmetalfanx Recently Added Programs">
 
     <link rel="index" href="/index.php">
     <link rel="home" href="/index.php">
 
-    <!-- Link to a Cumlative Javascript file -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <!-- Link to External Style Sheet -->
     <link href="/techHQ/stylesheets/layout.css" rel="stylesheet" type="text/css">
@@ -32,8 +29,13 @@
     <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css">
 
 
-	<!--  script type="text/javascript" src="/scripts/snow.js"></script> -->
-</head>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+
+ </head>
 <!-- what USE TO BE in a seperate Head module is what is above this line -->
 <body>
 
@@ -53,7 +55,5 @@
 </div>
 
 
-<!-- no clue if these lines below here are a good idea -- >
+<!-- no clue if these lines below here are a good idea -->
 		<div id="mainBody">
-
-		   <div id="col1">

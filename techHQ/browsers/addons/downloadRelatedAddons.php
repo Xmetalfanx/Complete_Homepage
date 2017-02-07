@@ -109,6 +109,4 @@
 		</div>
 
 EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+?><?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

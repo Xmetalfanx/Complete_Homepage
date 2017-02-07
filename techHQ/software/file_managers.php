@@ -2,8 +2,7 @@
 
   $title = 'Xmetalfanx Useful Programs Section - File Managers';
 
-    $the_content = <<<EOD
-
+?>
         <p class="header">&quot;What is a &quot;file manager&quot; and why do I care, Xmetal?&quot;</p>
         <p>Good question: A File Manager controls how you interact with the folders and files on your computer. I (just my opinion) find Microsoft's Windows Explorer (some know this as the &quot;My Computer&quot; program they see when pressing the &quot;My Computer&quot; icon). Here you can see the hierarchy of folders and files on your computer. Some people think that what comes with the Windows Operating System is the only choice. NOT TRUE.  </p>
         <p>All of these choice, have positives and negatives, and I advice you to look at each and after awhile, you can see which one works best for you. I think that the way (example) the way Windows Explorer is setup in a bit confusing for new users, in say Vista compared to XP. Some of these file managers I list, solve issues and make navigating your files much easier.        </p>
@@ -16,7 +15,7 @@
               <li>Both of these I have used regularly and they make my life alot easier than with the file/folder manager that comes with Windows</li>
             </ul>
           </li>
-          <li>Directory Opus 
+          <li>Directory Opus
             <ul>
               <li>(not free and to be honest, many of the freewares that lacked some Directory Opus &quot;features&quot; are gaining those features version by version (update)</li>
             </ul>
@@ -29,7 +28,7 @@
           <img src="../progIcons/system_tools/fileManagers/dopus_100.png" alt="Directory Opus Icon" width="36" height="36" class="iconsLeft" /> Directory Opus
           </a></div>
           <div class="progTableVer"> Latest Version : </div>
-          <div class="progTableDesc"><span class="justify">This (though not free)r, is MY FAVORITE... The GUI (Graphic Interface) is just a tad nicer then other file managers, and like I said before, although it doesn't have any <img src="../smiles/shock/shocked10.gif" alt="Shocked Smile" width="25" height="30" />'wow' features&quot;, though, the way it packages common features of a 
+          <div class="progTableDesc"><span class="justify">This (though not free)r, is MY FAVORITE... The GUI (Graphic Interface) is just a tad nicer then other file managers, and like I said before, although it doesn't have any <img src="../smiles/shock/shocked10.gif" alt="Shocked Smile" width="25" height="30" />'wow' features&quot;, though, the way it packages common features of a
           file manager together just looks (and more importantly... WORKS ) really well in this application </span></div>
       </div>
         <p>&nbsp;</p>
@@ -48,10 +47,10 @@
           <div class="progTableDesc"></div>
         </div>
         <div class="progTables">
-          
+
          <div class="progTablesName"> Free Commander </div>
             <div class="progTableVer"> Latest Version : </div>
-          <div class="progTableDesc"><span class="boldText">Comment: </span>I have known about Explorer++, XYPlorer, 
+          <div class="progTableDesc"><span class="boldText">Comment: </span>I have known about Explorer++, XYPlorer,
           Total Commander, Directory Opus, and even Xplorer2 for awhile now, though this one is new to me. I have to say that I love it</div>
         </div>
         <p>&nbsp;</p>
@@ -80,13 +79,9 @@
             <p>There IS a free (very good) version and a Pro version</p>
           </div>
       </div>
-   
+
         <p>&nbsp;</p>
         <p>&nbsp;</p>
     </div>
-    
-    
-    
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+
+    <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

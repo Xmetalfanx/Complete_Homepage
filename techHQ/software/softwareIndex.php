@@ -1,10 +1,9 @@
-
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
+  include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
+    $the_title = 'Xmetals TechHQ Section - Software';
 
-  $the_title = 'Xmetals TechHQ Section - Software';
-  $the_content = <<<EOD
+?>
 
 
   <div class="TwoColumns">
@@ -30,15 +29,12 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
 
 
        <h2>Internet Related</h2>
-
-             <div class="programSection">
-
-
-                   <div class="TwoColumns">
-                      <div>$pidginIcon $pidginHome - Instant Messaging Client </div>
-                      <div>$thunderbirdIcon $thunderbirdHome - Email Client</div>
-                   </div>
-             </div>
+          <div class="programSection">
+            <div class="TwoColumns">
+                <div>$pidginIcon $pidginHome - Instant Messaging Client </div>
+                <div>$thunderbirdIcon $thunderbirdHome - Email Client</div>
+            </div>
+         </div>
 
 
 
@@ -166,7 +162,4 @@ include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
           </div>
     </div>
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

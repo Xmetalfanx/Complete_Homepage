@@ -1,7 +1,7 @@
 <?php
   $the_title = "Xmetalfanx Useful Programs Section - Internet Related Software";
-  $the_content = <<<EOD
 
+?>
 
 		<div id="programs">
 
@@ -147,19 +147,17 @@
 
 		<h2>Weather Related</h2>
 		<li>
-		  	<div class="title">
-				<a href="http://www.softpedia.com/get/Internet/Weather-Home/Weather-Pulse.shtml">Weather Pulse</a>
-			</div>
+    		  <div class="title">
+    				<a href="http://www.softpedia.com/get/Internet/Weather-Home/Weather-Pulse.shtml">Weather Pulse</a>
+    			</div>
 
 
-	<div class="description">
-			<p>Looking for a free (and spyware free of course) alternative to Weather Bug?.... Here is Your answer!... Dump Weatherbug today and switch to this program</p>
-			<p>Personal Comment: The latest versions has trouble getting data on my PC ... Try to see if they have an updated version, but if this program doesn\'t work.... try Weather Watcher (listed above)</p>
-		</div>
-</li>
+    	<div class="description">
+    			<p>Looking for a free (and spyware free of course) alternative to Weather Bug?.... Here is Your answer!... Dump Weatherbug today and switch to this program</p>
+    			<p>Personal Comment: The latest versions has trouble getting data on my PC ... Try to see if they have an updated version, but if this program doesn\'t work.... try Weather Watcher (listed above)</p>
+    		</div>
+    </li>
 		</ul>
 		</div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

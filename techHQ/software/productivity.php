@@ -1,38 +1,37 @@
 <?php
 
   $title = 'Xmetalfanx Software Section - Productivity/Office Programs';
+?>
 
-    $the_content = <<<EOD
-   
 		<div id="programs">
 		<h3>Text Editors (more Basic)</h3>
 		<ul>
 		  <li>
-			
+
 			<p class="title">
 			<img src="../progIcons/product/txtEditorIcons/AbiWord_10000.png" alt="AbiWord Icon" /> <a href="http://www.abisource.com/">AbiWord</a>
 			</p>
-			
+
 			<p>Good word processor that is a great option for someone who wants more than &quot;Notepad&quot; but may not want a full office suite. Definitely worth a look, if you ask me.</p>
 		  </li>
-		 
+
 		 <li>
 			<p class="title">
-			<img src="../progIcons/product/txtEditorIcons/EditPad-Lite.gif" alt="Editpad Lite Icon" /> <a href="http://www.editpadlite.com/">Editpad Lite</a> 
+			<img src="../progIcons/product/txtEditorIcons/EditPad-Lite.gif" alt="Editpad Lite Icon" /> <a href="http://www.editpadlite.com/">Editpad Lite</a>
 			</p>
-			
+
 			<p>(see the basic description for <a href="http://www.notetab.com/notetab-light.php">Notetab Light</a> )</p>
 		  </li>
 		  <li>
 			<p class="title">
 			<a href="http://www.notetab.com">Notetab Lite</a>
 			</p>
-			
+
 			<p>This is an Old program that hasn't been updated much over the years, but like Notepad++, it adds tabs (useful for those that don't want 100's of Notepad windows open) and many other useful text tools, that definitely makes this program worth a look.</p>
 		  </li>
 		  <li>
 			<p class="title">
-			<img src="../progIcons/product/txtEditorIcons/notepad++_100.png" alt="Notepad_PlusPlus Icon" /> 
+			<img src="../progIcons/product/txtEditorIcons/notepad++_100.png" alt="Notepad_PlusPlus Icon" />
 			<a href="http://notepad-plus.sourceforce.net">Notepad++</a></p>
 			<p>
 			<a href="http://notepad-plus.sourceforce.net" target="_blank">
@@ -44,7 +43,7 @@
 		<h3>PDF Creators</h3>
 		<ul>
 		  <li>
-			<p class="title"><img src="../progIcons/product/pdf/bullzip_PDF.png" alt="Bullzip PDF Creator Icon" /> 
+			<p class="title"><img src="../progIcons/product/pdf/bullzip_PDF.png" alt="Bullzip PDF Creator Icon" />
 			<a href="http://www.bullzip.com/products/pdf/info.php">Bullzip PDF Printer</a>
 			</p>
 
@@ -53,12 +52,12 @@
 		  <li>
 			<p class="title">
 			<img src="http://www.dopdf.com" alt="doPDF Icon" /> <a href="../progIcons/product/pdf/dopdf_105.png">doPDF</a></p>
-			
+
 			<p>This one doesn't have a ton of options, though I find sometimes SIMPLE is better.  It is very fast on both of my laptops <span class="maroonText">(2.2GHz Dual core win7 64bit with 4GB of RAM,AND a &quot;2002&quot; XP 1.7GHZ with 768MB of RAM) </span>Some of the others can take a few seconds (about 10 I would say) to load and though that doesn't seem like much (and isn't a reason NOT to try the other options I list) and when you have a number of files to convert .. those seconds add up.</p>
 			<ul>
 			  <li><img src="../progIcons/product/pdf/PDFCreator.gif" alt="PDF Creator Icon" /> <a href="http://www.pdfforge.org/">PDF Creator</a> </li>
 			</ul>
-			
+
 			<p>This is a recent find (as in the past 12 hours) ... Its open source and so far I like this best. Its a printer driver (like many other free PDF Creators) HOWEVER, I had <span class="redtext">PDF955 Free PDF Printer driver</span> which was &quot;OK&quot; but displayed a popup add for a few seconds every time you used it. Functional but annoying if you ask me ....</p>
 			<p>This IS A HEFTY 16MB which I believe includes GhostScript ( Even I am not sure what this is) and is needed to run this program. I rather this be the case then to have a @ 2MB download and have to go hunt down GhostScript manually.</p>
 		  </li>
@@ -85,7 +84,7 @@
 		  <li>
 			<p class="title">
 			<img src="../progIcons/product/pdf/SumatraPDF_1.png" alt="SumatraPDF Reader" /> <a href="http://blog.kowalczyk.info/software/sumatrapdf">SumatraPDF</a> </p>
-			
+
 			<div class="progTableDesc">
 			  <p>SumatraPDF is  even smaller than Foxit's Reader and one I have found myself using all the time. I do not think there is any reason to not have (or at least try) both Foxit Reader and SumatraPDF</p>
 			  <p> I love this program</p>
@@ -98,9 +97,9 @@
 		<h3>Office Suites</h3>
 		<ul>
 		  <li>
-			<p><img src="../progIcons/product/soffice_25.png" alt="Open Office Icon" /> 
+			<p><img src="../progIcons/product/soffice_25.png" alt="Open Office Icon" />
 			<a href="http://www.openoffice.org">(Apache) Open Office</a></p>
-			
+
 			<p class="title"><a href="http://www.openoffice.org">
 			<img src="../graphics/programs/OOo_logo_snowing.gif" alt="Open Office Logo" width="184" height="50" class="left" />
 			</a></p>
@@ -119,12 +118,12 @@
 			<p>The speed of both programs and the functioning have GREATLY improved in recent releases.</p>
 			<p>I can not say how they open and look like IN Microsoft Office 2010 and above, though many of the new formats (DOCX for example) can now be read/written with the newest versions of Open/Libre Office and they seem to work fine, but I can't confirm.</p>
 		  </li>
-		 
+
 
 		 <li>
 			<p class="title">
 			<a href="http://wps.com/wps-office-personal/">Kingsoft Office/ WPS Office</a></p>
-			
+
 			<p>This is a recent (Oct 2012) find and a fine alternative to Microsoft Office. The Pro version has a Ribbon style interface, though the Free version does not.</p>
 			<p>Kingsoft Office (currently) is (Free edition) 39.x MB and it contains a:</p>
 			<ul>
@@ -137,14 +136,16 @@
 		  <li>
 			<p class="title">
 			<img src="../progIcons/product/libreIcons/LibO_3_103.png" alt="Libre Office Icon" /> <a href="http://www.libreoffice.org/">Libre Office</a></p>
-			
-			
+
+
 			<p>Libre Office while not as well known as Open Office, was programmed by the same developers as the original Open Office (pre-Oracle .. 3.1 is the number, if I am not mistaking)  it seems to have had to do with Oracle buying Sun Microsystem who &quot;own the rights&quot; to Open Office and wanting (Oracle) more control of Open Office and wanting to do away with (I cant confirm this 100% at the time i am typing this) all future free versions to make it a commercial program.</p>
 			<p>The whole idea of Open Source is NOT to have one company in control of the project � former Open Office developers branched out again using the code they made for the last &quot; pre-Oracle &quot; Open Office and made Libre Office, which is always being updated.</p>
 			<p><strong><em>Notes on 3.60 and the latest, 3.61 (at the time this is being typed up)</em></strong>: I am amazed at how fast this program seems to be getting. There are (read the official changelog/release notes for more information) a few added features (support to read/write .docx files, I believe is one) in newer versions, though THE MOST NOTICEABLE TO ME, <span class="blue">[same as new releases of &quot;The GIMP&quot; Graphics Program]</span> is the speed. The first time (even if installing over an existing install of Libre Office) may take a few extra seconds to load, though, after that Libre Office developers have focused on PERFORMANCE.</p>
 			<p>The developers of Libre (and to be honest Apache developers of &quot;Open Office&quot;) have focused on adding needed features, and mainly from what I see, on performances and I am amazed at how fast Libre and Open Office have gotten in recent releases. </p>
 			<p>This (the fact these two office suites were &quot;too slow&quot; for some people) was one of the only criticism </p>
 
+
+      <!-- For widths and Heights below, use CSS in the future and remove that code in this HTML -->
 			<p>-------------------------------------------</p>
 			<p>Free Office Suite, featuring: </p>
 			<table class="center" style="width:55%;border:0;">
@@ -167,15 +168,15 @@
 			<p>I can not say how they open and look like IN Microsoft Office 2010 and above, though many of the new formats (DOCX for example) can now be read/written with the newest versions of Open/Libre Office and they seem to work fine, but I cant confirm.</p>
 		  </li>
 		</ul>
-		
+
 		<h3>&quot;Misc&quot; Office/Productivity Programs</h3>
-		
-		
+
+
 		<ul>
 		  <li>
 			<p class="title">
 			<img src="../progIcons/product/calibre_1.png" alt="Calibre Ebook icon" /> <a href="http://www.calibre-ebook.com">Calibre E-Book 	  Manager/Converter</a></p>
-			
+
 			<p>E-book Manager and Converter Program for Multiple Operating System and a must have for anyone who has many e-books.</p>
 		  </li>
 		  <li>
@@ -183,11 +184,11 @@
 			<p>&quot;Have you ever wondered what hidden information might be lurking inside your Word documents? Have you ever wondered how to access that information, and if it is possible to remove it?</p>
 			<p>Well now there's a solution - Doc Scrubber.</p>
 			<p>Doc Scrubber can quickly and easily discover hidden data inside Word documents and can allow the painless removal of such information, sometimes referred to as &quot;metadata&quot;.  &quot; <span class="mainSiteUpdates">(Doc scrubber help file)</span></p>
-			<p class="center"> 
-				<a href="../screenshots/System/doc_scrubber.jpg" target="_blank">Click here for a Screenshot</a> 
+			<p class="center">
+				<a href="../screenshots/System/doc_scrubber.jpg" target="_blank">Click here for a Screenshot</a>
 			</p>
 		  </li>
-		  
+
 		  <li>
 			<p class="title"><img src="../progIcons/media/EMDB_128.png" alt="EMDB ICon" /> <a href="http://www.emdbonlinehelp.tk">EMDB</a> </p>
 			<p>Movie Database program that is 100% free</p>
@@ -195,7 +196,7 @@
 		  <li>
 			<p class="title">
 			<img src="../progIcons/product/TextCrawler_32512.png" alt="Text Crawler Icon" /> <a href="http://www.digitalvolcano.co.uk/">Text Crawler</a></p>
-			
+
 			<p>GREAT tool to search and perform various functions on large amounts of text files. Here are just some of the things you can do with Text Crawler</p>
 			<ul>
 			  <li> Finding and Replacing text in even as much as a directory (or certain files in a directory) </li>
@@ -203,22 +204,21 @@
 			</ul>
 		  </li>
 		  <li>
-			<p class="title"><a href="http://atorg.net.ru/universal_viewer/">Universal Viewer</a></p>
+			         <p class="title"><a href="http://atorg.net.ru/universal_viewer/">Universal Viewer</a></p>
 			<p>This program is a context menu (right click on an icon) option that allows you to view many application's files without having to have that program be installed ... I DON'T THINK this would work on many audio/video formats (an alternative to codecs) ... but it may work for graphics formats.</p>
 		  </li>
 		  <li>
-			<p class="title"><a href="http://www.yankee-clipper.net/">Yankee Clipper</a></p>
+			       <p class="title"><a href="http://www.yankee-clipper.net/">Yankee Clipper</a></p>
 		  </li>
 		</ul>
 
 
 		<pre>
-		  <code>**Xmetal's Personal Comments: ** ... alot more useful then it may sound like ... trust me 
+		  <code>**Xmetal's Personal Comments: ** ... alot more useful then it may sound like ... trust me
 		  </code>
 		</pre>
 
-		</div>   
-    
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+		</div>
+
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

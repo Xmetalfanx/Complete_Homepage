@@ -41,7 +41,7 @@
                 <div class="description">
         				<p>Adds some features and little tweaks to the Gmail Interface that improves a user’s experience using the Gmail Mail Service	&#8230;</p>
         				<p>Uses alot of scripts from Userscript.org (for Greasemonkey) &#8230; if i remember correctly</p>
-                
+
                 </li>
         			</ul>
 
@@ -340,4 +340,4 @@
 
 EOD;
 ?>
-     <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

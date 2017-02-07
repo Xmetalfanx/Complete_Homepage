@@ -1,8 +1,7 @@
 <?php
 
   $the_title = 'Xmetalfanx Security Section - Common Software to remove Rogue AV and Malware Scanners'
-    
-	$the_content = <<<EOD
+?>
 
     <p class="header">Common Programs needed to remove these infections</p>
     <p>(If you don't beleive me, go to the BleepingComputer's page that I link to below and you will see they generally all recommend the same programs/apps. Unless noted, all of these programs/tools are 100% free.</p>
@@ -11,7 +10,7 @@
       <li>
 	<span class="progName">
 	<img src="../progIcons/security/malware/mbam_IDI_MAIN.png" alt="Malware Bytes Logo" width="36" height="36" class="iconsLeft" />
-	<a href="http://www.malwarebytes.org"> MalwareBytes</a></span> - 
+	<a href="http://www.malwarebytes.org"> MalwareBytes</a></span> -
 	I am sure I have not seen a tutorial yet that DOESN'T include Malwarebytes.<br />
         <br />
       </li>
@@ -50,6 +49,4 @@
     </blockquote>
     </div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

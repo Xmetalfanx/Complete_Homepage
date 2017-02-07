@@ -1,12 +1,11 @@
 <?php
 
   $the_title ='Xmetalfanx - TechHQ - Guide Summary';
-  	$the_content = <<<EOD
+?>
 
-	<p> 
+	<p>
 		<img src="/techHQ/graphics/computer/ordinateur-26.gif" />
 	</p>
-
 
   <p>
 			Well, This is what all the hub-bub was about.   I have decided to merge a few of the sections of my old WindowsHQ main section to form a TechCenter
@@ -19,6 +18,4 @@
 			I know its confusing to have an OS based Main section (LinuxHQ) and a non-OS based section, but alot of these tips and tricks are not specific to Windows or Linux (I have not uploaded ... say the content on ID3 tag lookup under Linux ... YET) ... THE SAME concept is going to be applied to the Software Section ... I will be weeding out old programs that "are no longer useful" and I will be adding (in each catagory) some of my favorite programs for each task... many are already cross platform (Works in Linux AND Windows).
    </p>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechCenterTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,8 +1,6 @@
 <?php
 	$the_title = 'Xmetalfanx Security Section - Main Index Page ';
-  	$the_content = <<<EOD
-
-
+?>
 
     <h1>Security Related Items</h1>
     <p>
@@ -79,6 +77,4 @@
     </ul>
 
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSecurityTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
