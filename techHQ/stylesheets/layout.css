@@ -608,10 +608,6 @@ p.justify {
   text-align: left; }
 
 #mainBody {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
   z-index: 99;
   padding-top: 3px;
   color: #990000;
@@ -811,3 +807,6 @@ h4 {
   padding-bottom: 3px;
   padding-top: 3px;
   padding-left: 1%; }
+
+#GAOTD {
+  order: 7; }

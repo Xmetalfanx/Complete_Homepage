@@ -1,8 +1,11 @@
-<?php 
+<?php
 
-    	$the_title = 'Xmetalfanx\'s Homepage - Contact Information ';
-  	$the_content = <<<EOD
- 
+    $sitePath = "/home/xmetalx1/public_html";
+    $the_title = 'Xmetalfanxs Contact Page';
+    include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+
+?>
+
 
   <p class="header">Contacts</p>
   <script type="text/javascript">
@@ -13,7 +16,5 @@ var jglgbva = ['l','a','o','e','r','c','"','t','e','.','"','@','o',' ','m','a','
   <noscript>Please enable Javascript to see the email address</noscript>
 </div>
 
-EOD;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseWinMAINTemplate.php"); ?>
+  <?php  include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

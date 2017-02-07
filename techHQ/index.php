@@ -1,16 +1,11 @@
-<?php $the_title = 'Xmetalfanxs Homepage'; ?>
 <?php
 
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/modules/tech/baseTechHeader.tpl";
-      include_once($path);
-
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/templates/tech/baseTechMAINTemp.tpl";
-      include_once($path);
+    $sitePath = "/home/xmetalx1/public_html";
+    $the_title = 'Xmetalfanxs Homepage';
+    include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
 ?>
-  <!-- mainBody Tag is opened -->
+
 <div id="col2">
 	<h3>Educations Sites </h3>
 	<div id="support">
@@ -36,16 +31,12 @@
 				(or Her Channel on Youtube) </a></p>
 
 	</div>
-</div> <!-- ends Col2 -->
+
 
   <?php
+    include $sitePath . "/techHQ/modules/GAOTD.tpl";
+    include $sitePath . "/modules/tech/baseTechFooter.tpl";
 
-      $path = $_SERVER['DOCUMENT_ROOT'];
-      $path .= "/techHQ/modules/GAOTD.tpl";
-      include_once($path);
+  ?>
 
-      $path = $_SERVER['DOCUMENT_ROOT'];
-     $path .= "/modules/tech/baseTechFooter.tpl";
-     include_once($path);
-
-?>
+</div> <!-- ends Col2 -->

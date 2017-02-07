@@ -4,4 +4,4 @@ Media Scraper Apps (multiplatforms)
 
 Preparing Media for Kodi
 
-Addons 
+Addons
