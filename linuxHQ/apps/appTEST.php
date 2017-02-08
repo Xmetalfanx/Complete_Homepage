@@ -45,9 +45,6 @@
 
 			 <h3 id="arch-based">Arch-based</h3>
 
-
 			 </div>
-EOD;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNAPPBlank.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

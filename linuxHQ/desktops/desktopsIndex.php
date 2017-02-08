@@ -182,7 +182,4 @@
 			are from this site ... all credit goes to this website, linked here</a>
 		</p>
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDEBlank.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

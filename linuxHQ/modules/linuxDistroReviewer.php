@@ -42,7 +42,7 @@
 		$AJ = '<a href="https://www.youtube.com/user/freedomredux"  target="_blank">   AJ Reissig\'s  Youtube Homepage </a> ';
 
 		$CH = ' <a href="https://www.youtube.com/user/microfreaks1"  target="_blank"  >  Charlie Henson\'s Homepage </a> ';
-    
+
   	  $FLL = '<a href="https://www.youtube.com/channel/UCV3xEKiVBnVe_v5pSZ-iwlA" target="_blank"> Fishman Love Linux </a> ';
 
 	$ttech = '<a href="https://www.youtube.com/channel/UCD2Zf2yWOwtaJ0SFV35OGVQ" target="_blank"> Terrys Tech </a>';
@@ -58,19 +58,17 @@
 <div id="YTReviewer" >
 	<div class="left" >
 			Mathew  Moore -	<?php echo $mm; ?>	<br />
-			Spatry - <?php echo $spatry; ?><br />	
+			Spatry - <?php echo $spatry; ?><br />
 			DasGregor -<?php echo $dasGregor; ?>  <br />
 			Jeff Linux Turner -	<?php echo $JLT; ?>	<br />
-		  	quidsup  	-   	<?php echo $quidsup; ?> <br />
-		  	InfinitelyGalactic -    <?php echo $IG; ?>   	<br />
-		  	tostoday  - <?php echo $tos; ?>    	<br />
-	  		Fishman Loves Linux -     <?php echo $FLL; ?>      <br />
+		  quidsup  	-   	<?php echo $quidsup; ?> <br />
+		  InfinitelyGalactic -    <?php echo $IG; ?>   	<br />
+		  tostoday  - <?php echo $tos; ?>    	<br />
+	  	Fishman Loves Linux -     <?php echo $FLL; ?>      <br />
 			Terry's Tech - <?php echo $ttech; ?> <br />
 			Ghost SixtySeven - <? echo $ghost; ?>
-			
 
-
-	 </div>
+</div>
 	 <div class="right">
 		    midfingr - <?php echo $midfingr; ?>     <br />
 		  	OhHeyItsLou  - <?php echo $OhHeyItsLou; ?>	<br />
@@ -79,10 +77,10 @@
 		    Jupitor Broadcasting  -  <?php echo $JB; ?> <br />
 		    AJ Reissig -    <?php echo $AJ; ?>        <br />
 		    Charlie Henson -  <?php echo $CH; ?>        <br />
-		Joe Collins - <?php echo $JC; ?><br />
-		GrahamLinux - <?php echo $graham; ?>
-			
-		   
+	      Joe Collins - <?php echo $JC; ?><br />
+	     	GrahamLinux - <?php echo $graham; ?>
+
+
 	</div>
 
 </div>

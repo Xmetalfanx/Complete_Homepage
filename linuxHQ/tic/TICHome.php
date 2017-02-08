@@ -1,10 +1,6 @@
-
 <?php
 
 		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
-
-	$content = <<<EOD
-
 
 	<img src="/linuxHQ/graphics/mac_win_lin.jpg" alt="Mac Windows and  Linux with Tux Graphic" /><br />
 	This section will contain Themes, Icon pack, and cursor information.
@@ -42,9 +38,4 @@
 	<p><code>sudo add-apt-repository -y ppa:ravefinity-project/ppa &amp;&amp; sudo add-apt-repository -y ppa:moka/stable &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons2 &amp;&amp; sudo add-apt-repository -y ppa:noobslab/nitrux-os &amp;&amp; sudo add-apt-repository -y ppa:noobslab/potenza &amp;&amp; sudo add-apt-repository -y ppa:noobslab/themes &amp;&amp; sudo add-apt-repository -y ppa:numix/ppa &amp;&amp; sudo add-apt-repository -y ppa:noobslab/evolvere &amp;&amp; sudo add-apt-repository -y ppa:snwh/pulp</code></p>
 
 
-
-
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTICBlank.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

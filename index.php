@@ -8,7 +8,7 @@
 	 <link href="/stylesheets/smallerLayout.css" rel="stylesheet" type="text/css" media="(max-width: 700px)">
 
    <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
    <!-- Optional theme -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha
@@ -35,9 +35,11 @@
 
            <hr />
 
-
           <h1> ATTENTION! </h1>
           <p> Most of the site is broken at the moment ... I have a big idea on my side of things how to redo a few items to make it easier to manage and fix a few things that have been annoying me ... bottom line is I KNOW ITS BROKEN </p>
+
+          <p> Feb 7 2017 Update - I have been working on the templates and converting stuff over so i can then just go into the individual pages and apply the new way I am doing things all at once.  Think of it like before I get all the furnature in and setup just right ... I have to get the framework of the house setup the way I want/need first. </p>
+
 
         	<div id="socialIcons">
                  <a href="https://plus.google.com/+Xmetalfanx2014/about" target="_blank" class="icon">

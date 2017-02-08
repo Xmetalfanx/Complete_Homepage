@@ -10,7 +10,7 @@
 					  <li>Ubuntu/Mint  Software Center </li>
 					  <li>Muon Discover </li>
 				</ul>
-    
+
 					<p class="mainTitles"> Graphical (GUI) Package Managers</p>
 					<ul>
 					  <li>muon </li>
@@ -21,9 +21,9 @@
 
 					<p class="mainTitles"> CLI Package Managers </p>
 					<ul>
-					  <li class="distroName" >Arch based 
+					  <li class="distroName" >Arch based
 						<ul>
-						  <li class="CodeHeader" > pacman 
+						  <li class="CodeHeader" > pacman
 							<ul>
 							  <li class="commandTask">Searching
 								<ul>
@@ -60,7 +60,7 @@
                 </ul>
               </li>
               <li>
-                <p class="P4" style="margin-left:0cm;">  (Installing)  <span class="T1">type number of</span> 
+                <p class="P4" style="margin-left:0cm;">  (Installing)  <span class="T1">type number of</span>
                   <span class="T2">package,</span> <span class="T3">after doing the   search</span>
                 </p>
               </li>
@@ -69,13 +69,13 @@
         </ul>
       </li>
       <li>
-        
-        
+
+
         <p class="distroName" >Debian / Ubuntu  Based  </p>
         <ul>
-          <li class="CodeHeader" >apt-get 
+          <li class="CodeHeader" >apt-get
             <ul>
-              <li class="commandTask" > Searching 
+              <li class="commandTask" > Searching
                 <ul>
                   <li class="code" > sudo apt-get search packageName</li>
                 </ul>
@@ -124,8 +124,8 @@
 				  <li><p class="P14">&nbsp;  </p></li>
         </ul>
       </li>
-     
-     <li class="distroName" > Fedora 
+
+     <li class="distroName" > Fedora
         <ul>
           <li> <p class="P15" > yum </p></li>
           <li class="commandTask" > Searching </li>
@@ -138,9 +138,5 @@
       </li>
     </ul>
 </div>
-	
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

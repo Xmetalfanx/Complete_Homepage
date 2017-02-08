@@ -103,10 +103,5 @@
     </ul>
   <p>If nothing went wrong, You are now done ... You are now on Debian &quot;Testing&quot;/&quot;Wheezy&quot; depending on what you picked </p>
   <p>&nbsp;</p>
-  
-EOD;
 
- ?>
-  
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
-
+	<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
