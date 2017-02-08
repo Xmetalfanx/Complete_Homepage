@@ -1,10 +1,9 @@
 <?php
 
-  $title = 'Xmetal TechHQ - Browser Section - Top Security Related Addons';
-
-    $the_content = <<<EOD
-
-
+  $title = 'Browser Section - Top Security Related Addons';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+ ?>
 			<div id="browser">
 					<h2>Cache (Temp Internet Files) and Cookie Related</h2>
 					 <ul>
@@ -96,12 +95,7 @@
 						  </li>
 						</ul>
 								<p>Modifying Sent and Requested information by websites to your browser</p>
-
-
-
 					<ul>
-
-
 					  <li>
 						<div class="title">
 								<img src="" alt="HTTPS finder icon"> <a href=""> HTTPS Finder</a>
@@ -158,10 +152,6 @@
 					  </li>
 					</ul>
 					</div>
-
-
-
-
 
 					<h2>MY # 1 MUST HAVE ADDON</h2>
 
@@ -259,5 +249,4 @@
 					</ul>
 			</div>
 
-EOD;
-?><?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

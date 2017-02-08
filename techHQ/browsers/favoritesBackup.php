@@ -1,13 +1,15 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section - Favorites Backup';
-  	  $the_content = <<<EOD
+	 $the_title = 'Browser Section - Favorites Backup';
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+?>
 
-    <p>
+<p>
     <span class="boldText"> Maxthon, Avant or Internet   Explorer</span>
-    </p>
+</p>
 
-    <p>Generally its the same for all 3... </p>
+<p>Generally its the same for all 3... </p>
     <ol>
 		  <li> Go to File and then Export, or Import and Export </li>
 		  <li> if there is a submenu go to &quot;export
@@ -16,7 +18,8 @@
 		  <li>Select the location of the backup folder. <br />
 		  </li>
     </ol>
-<p><img src="/techHQ/progIcons/browsers/firefox_1.png" alt="Firefox Icon" width="36" height="36" class="imgleft" />
+ <p>
+ <img src="/techHQ/progIcons/browsers/firefox_1.png" alt="Firefox Icon" width="36" height="36" class="imgleft" />
       <span class="boldText">Mozilla&#39;s &quot;Firefox&quot; - Method 1</span>
     </p>
 <ol>
@@ -58,6 +61,4 @@
       goes down... all partitions will be lost too)
 </div>
 
-EOD;
-?>
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

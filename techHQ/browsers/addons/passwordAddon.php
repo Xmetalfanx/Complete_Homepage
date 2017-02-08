@@ -1,8 +1,10 @@
 <?php
 
   $title = 'Xmetal TechHQ - Browser Section - Password Related Addons';
+	$sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+ ?>
 
-    $the_content = <<<EOD
 
 	<h3>Password Related Addons</h3>
 
@@ -32,6 +34,4 @@
 		</ul>
 
 
-EOD;
-?>
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

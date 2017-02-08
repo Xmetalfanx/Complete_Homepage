@@ -1,6 +1,4 @@
-
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/aboutme/experience.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/common.php'); ?>
+# Include CumlativeInclude.php line here
 
 <!doctype html>
 <html lang="en">

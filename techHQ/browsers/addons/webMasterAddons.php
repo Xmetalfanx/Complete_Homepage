@@ -1,8 +1,9 @@
 <?php
 
   $the_title = 'Xmetal TechHQ - Browser Section - WebMaster/ Development Related Addons';
-
-    $the_content = <<<EOD
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+ ?>
 
 		<h3>Web Mastering Related</h3>
 		<div id="browser">
@@ -41,6 +42,4 @@
 		</div>
 
 
-EOD;
-?>
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,14 +1,11 @@
 <?php
-  $the_title = 'Xmetalfanxs Homepage';
 
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+    include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
  ?>
 
-
-	<h2>Last Update: </h2>
-
+<div id="wideCol2">
 	<h3>Educations Sites </h3>
 	<div id="support">
 
@@ -32,8 +29,7 @@
 				<a href="https://www.youtube.com/channel/UCUDlvPp1MlnegYXOXzj7DEQ">
 				(or Her Channel on Youtube) </a></p>
 
-
-
+</div>
 <?php
     include $sitePath . "/techHQ/modules/GAOTD.tpl";
     include $sitePath . "/modules/tech/baseTechFooter.tpl";

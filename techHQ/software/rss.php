@@ -1,6 +1,8 @@
 <?php
 
-  $the_title = 'Xmetalfanx Useful Programs Section - RSS'
+  $the_title = 'Useful Programs Section - RSS'
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
 ?>
 
     <p class="justify">So you have seen me add and comment on RSS, and do not know what it is or how to use it...</p>

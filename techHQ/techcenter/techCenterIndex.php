@@ -1,7 +1,9 @@
 <?php
 
   $the_title ='Xmetalfanx - TechHQ - Guide Summary';
-?>
+  include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
+
+  ?>
 
 	<p>
 		<img src="/techHQ/graphics/computer/ordinateur-26.gif" />

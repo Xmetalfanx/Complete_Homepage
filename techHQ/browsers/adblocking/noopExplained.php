@@ -1,9 +1,10 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section - Ad/Content Blocking - Noop Filters Explained';
-  	  $the_content = <<<EOD
+	 $the_title = 'Browser Section - Ad/Content Blocking - Noop Filters Explained';
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
-
+?>
 		<h3>Noop Filters </h3>
 
 		<p>What happens is when you set a domain to <span class="green"> <em>Allow</em> (Green) </span>, it will bypass the static (filter-list) filters.  (Found in the "3rd Party Filter" section of Ublock Origin's Dashboard)
@@ -24,7 +25,5 @@
 
 		<p>THAT is how NOOP RULES work... no matter what is in the static blocklists, the content that got flagged (in my example) would still be display/sen
 
-EOD;
-?>
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

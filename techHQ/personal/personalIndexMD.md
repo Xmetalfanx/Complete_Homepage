@@ -1,33 +1,16 @@
-<?php
-
-  	$the_title ='Xmetalfanx Personal Section - Personal Section Index';
-?>
-
-
- <p class="center">
-
-
-   <a href="myPics/me/2006me/Xmetal_atBocaGrande_Nov08_2006_2.jpg" target="_blank">
-      <img src="myPics/me/2006me/tn_Xmetal_atBocaGrande_Nov08_2006_2.jpg" alt="Picture of Me in Mid 2006" class="center" height="237" width="213">        </a>
-    <br>
-    <br>
-    <a href="nov2006pics.php" title="morePicsOfMe">Click Here for more           pictures of me</a>
-  </p>
-
 ###Favorite Quotes
 
 - "I Don't have an anger problem !,... I have an idiot Problem" - Hank Hill on King of the Hill
 
--	 "Politians are like diapers .. they need to be changed frequently and ... for the same reasons" - Robin Williams in the movie "Man of the year"
+-	 "Politicians are like diapers .. they need to be changed frequently and ... for the same reasons" - Robin Williams in the movie "Man of the year"
 
     ![Laughing Smile](../smiles/funny/24.GIF)
 ---
 ##Welcome to my Homepage
 
+I like many different types of music; although, I like Hard Rock and what some call "smooth" or "tropical" (with         Hawaiian instruments) jazz, the most.
 
-   I like many different types of music; although, I           like Hard Rock and what some call "smooth" or "tropical" (with         Hawaiian instruments) jazz, the most.
-
-I am often on sites like Yahoo Answers, helping  anyone I can, to the best of my ability ... At the time I am writing  this, I have over 9000 points (I really do not care about "points" but           it does mean the higher the number of points, the more people I   helped)... This really makes me feel good when I get messages and  emails thanking me for what I told that individual.
+I am often on sites like Yahoo Answers, helping  anyone I can, to the best of my ability ... At the time I am writing  this, I have over 9000 points (I really do not care about "points" but it does mean the higher the number of points, the more people I   helped)... This really makes me feel good when I get messages and  emails thanking me for what I told that individual.
 
  I am now re-kindling my love for studying Sciences  [including Astrology, Astronomy, and studying Physics which I had  "trouble" with) before] and Maths (in large part to Mr. Jason Gibson           and MathTutorDVD.com] such as Trigonometry and Calculus 1 and even         "Calculus 3", as well as sciences such as Physics and courses  pertaining to Electricity and Circuitry
 
@@ -35,24 +18,23 @@ I am often on sites like Yahoo Answers, helping  anyone I can, to the best of my
 
 ####Studies
 
- I graduated Stafford Senior High School. I have taken courses in Unix, Visual Basic, C, and C++, and am continuing my studies in (partly) programming,networking, and electronics (circuits,         .wiring, ..etc etc)
-
+I graduated Stafford Senior High School. I have taken courses in Unix, Visual Basic, C, and C++, and am continuing my studies in (partly) programming,networking, and electronics (circuits, .wiring, ..etc etc)
 
 Point being ... I never want to stop learning ... even if its just a hobby, there is always something new and interesting to learn
 
-Besides "IT" and Electronics .. some of my favorite         subjects to learn/subjects I am in some way sudying are:
+Besides "IT" and Electronics .. some of my favorite subjects to learn/subjects I am in some way studying are:
 
  -  ** History**
 (basically this is my second favorite subject)...  I am always a fan of learning about the past and "what really  happened", and not just what one textbook said or what "one side  of the arguement/confict's point of view is"
 
-	I like to possibly get all sides of an   "arguement"/"stuation" and see where both sides are coming from.
+	I like to possibly get all sides of an   "argument"/"situation" and see where both sides are coming from.
 
 -    ** Maths **
    -  (refreshing myself on) Algebra 1 and 2
    -   Geometry
    -   Trigonometry
        - (mainly what I know of this so far is thanks to
-          <a  href="http://www.mathtutordvd.com" target="_blank">Mr. Jason Gibson and his tutorials</a>) Calculus
+          -[Mr. Jason Gibson and his tutorials](http://www.mathtutordvd.com) Calculus
 
 
 - **Sciences**
@@ -119,23 +101,20 @@ My Favorite Author
 
 -   *Band of  Brothers*  - HBO / History Channel Miniseries about the men of the 101st airbourne in WWII
 
-
   -  	Godfather - Part 1 and 2
     - 	Harry Potter Series
     - 	Gone in 60 Seconds
     - 	Jurassic Park (the first one)
     - 	National Treasure (1 and 2)
-     - 	Salt
+    - 	Salt
     - 	Office Space
-     -  Terminator 2
+    -   Terminator 2
     -   The Bourne Series with Matt Damon
-     -  The Crow (Original)
-     -   The Fast and the Furious
-     -   The Perfect Storm
-     -   Star Wars Series
-
+    -   The Crow (Original)
+    -   The Fast and the Furious
+    -   The Perfect Storm
+    -   Star Wars Series
 
 [Some TV Shows I enjoy are:](/windowsHQ/personal/interests/tvShows.php)
-
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

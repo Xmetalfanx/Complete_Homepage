@@ -1,6 +1,6 @@
-<?php
-		$sitePath = "/home/xmetalx1/public_html";
+<?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
+<div id="col1">
+	 <?php	include $sitePath . "/techHQ/modules/techMainCol1.tpl"; ?>
+</div
 
-		include $sitePath . '/modules/tech/baseTechHeader.php';
-
-?>
+<div id="col2">

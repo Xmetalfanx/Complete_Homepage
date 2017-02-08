@@ -1,7 +1,7 @@
 <?php
 
   $the_title = 'Xmetalfanx\'s Homepage - Google Privacy and Alternatives Search Engines';
-  $the_content = <<<EOD
+?>
 
       <p class="justify"><a href="security/searchEngines.php"></a>      </p>
       <p class="header">Imtroduction</p>
@@ -15,9 +15,9 @@
 <p class="header">Google tracking and &quot;profiling&quot; users?</p>
     <p>Even I do not know the full details at the time I am typing this; however, there has been an uproar over Google admitting to tracking searches and creating a &quot;profile&quot; on users ... Esxpecially, if you search after logging into your Google Account (which also includes Youtube now, IF i am not mistaken), I COULD see this to raise many security red-flags. </p>
     <p>I HAVE TO ADMIT RIGHT HERE, THAT GOOGLE IS NOT THE ONLY ONE THAT CAN and probably does do things like this. Bing is Microsoft's Search engine and if you search after logging into Hotmail, I (despite what Microsoft may say) suspect them of it to. I AM NOT picking on Google alone. </p>
-    <p>Below I hope to list some alternatives to Google and my results using them (along with links to sites of others who do the same &quot;search engine comparison&quot;). PLEASE NOTE, these listed are not the only search engines out there, and I am open to finding new sites and adding to the list. I am always &quot;Open&quot; to new ideas and suggestions that work better.   
+    <p>Below I hope to list some alternatives to Google and my results using them (along with links to sites of others who do the same &quot;search engine comparison&quot;). PLEASE NOTE, these listed are not the only search engines out there, and I am open to finding new sites and adding to the list. I am always &quot;Open&quot; to new ideas and suggestions that work better.
     </p>
-    
+
 	<p class="header">Alternatives to Google </p>
     <ul>
       <li>(Same Company)
@@ -55,12 +55,12 @@
           <li><span class="interestsTitles">Startpage</span>
             <ul>
               <li>This uses Google's search engine apparently. (&quot;But wait .. .isn't the point of this to get &quot;away&quot; from Google?&quot;.... yes ... read the next point)</li>
-              <li>This uses the same security features (not tracking your IP address, ...etc etc) AS IxQuick does (Same company) 
+              <li>This uses the same security features (not tracking your IP address, ...etc etc) AS IxQuick does (Same company)
                 <ul>
                   <li>If IxQuick doesn't provide great results for me, I may switch the search engine &quot;link&quot; on the bottom of this site, again (From Google to IxQuick to Startpage). Google + no privacy issues (if search results are the same for Google and Startpage) .... well this sounds PERFECT. </li>
                 </ul>
               </li>
-              <li><span class="boldText">Pros: </span> Supposedly Google results without &quot;tracking&quot;/&quot;Profiling&quot; you. Doesn't track your IP and APPARENTLY independant sources have verified this and continue to do so every so often. 
+              <li><span class="boldText">Pros: </span> Supposedly Google results without &quot;tracking&quot;/&quot;Profiling&quot; you. Doesn't track your IP and APPARENTLY independant sources have verified this and continue to do so every so often.
                     <p>Same Company as IxQuick (listed below)                  </p>
               </li>
               <li><span class="boldText">Cons: </span> Search Results not the best, but still decent. Despite what it says, I find Google results to be a bit better then Startpage ... now IxQuick is alot more like Google Results... I am not sure whats going on here to cause that.</li>
@@ -69,8 +69,8 @@
         </ul>
       </li>
     </ul>
-    
-	
+
+
 	<br />
     <blockquote>
       <img src="../graphics/search/logo_icon60_v101.png" width="42" height="45" alt="duckDuckGo Icon" />
@@ -94,7 +94,7 @@
           </li>
         </ul>
       </li>
-     
+
 
 	 <li><span class="boldText">Others</span>
         <blockquote>
@@ -115,7 +115,4 @@
     <p>I know some will go after me for not saying &quot;Boycott Google&quot;; though, Google is not all that bad. </p>
     <p> Some people say it's loaded with Advertised results and not showing what your actually looking for. I have to say I have found that not to be the case. Having said that, I am not claiming Google is &quot;perfect&quot;.</p>
 
- 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSecurityTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,8 +1,8 @@
 <?php
 
   $the_title = 'Xmetalfanx Security Section - Seconfig Information';
-  $the_content = <<<EOD
-   
+?>
+
     <p class="boldTitles">Seconfig XP
     </p>
     <p class="center">
@@ -56,10 +56,7 @@
     </p>
     <p class="quoted"><strong>For VPN</strong><br />  This Button loads/generates settings best suited for average standalone computer which via VPN acts as Microsoft Networks workstation.
     </p>
-    <p class="mainProgDescript">(This was all taken from the help section of Seconfig.. I reformatted the text to fit my site ... the CONTENT of the text belongs to the author and not me ... I take no credit for writing it) 
+    <p class="mainProgDescript">(This was all taken from the help section of Seconfig.. I reformatted the text to fit my site ... the CONTENT of the text belongs to the author and not me ... I take no credit for writing it)
     </p>
 
- 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/windows/baseWinSecurityTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

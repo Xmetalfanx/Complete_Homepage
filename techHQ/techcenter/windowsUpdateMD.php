@@ -1,7 +1,11 @@
 <?php
-		$the_title = 'Xmetalfanx - TechCenter - How to Update Windows without connecting to Microsoft';
-?>
+		$the_title = 'TechCenter - How to Update Windows without connecting to Microsoft';
+		$sitePath = "/home/xmetalx1/public_html";
 
+
+		include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
+
+?>
       <p class="boldCenter">
       <a href="#m1">Method 1 of Updating (Firefox and free plugin) </a>|
       <a href="#M2">Method 2 of Updating (Belarc)</a></p>

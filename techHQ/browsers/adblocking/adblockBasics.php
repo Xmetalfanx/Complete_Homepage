@@ -1,7 +1,9 @@
 <?php
 
 	 $the_title = 'Xmetalfanx Browser Section - Ad/Content Blocking - Ad/Content Blocking Basics ';
-  	  $the_content = <<<EOD
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+?>
 
 		<h1>Ad/Tracker Blocking Basics</h1>
 
@@ -142,8 +144,5 @@
 		  height="350px" />
 		  <br />Ublock Disabled - Greyed out "circile"</li>
 		</ul>
-
-EOD;
-?>
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

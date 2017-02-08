@@ -1,6 +1,8 @@
 <?php
 
-  $title = 'Xmetalfanx Software Section - Productivity/Office Programs';
+  $title = 'Software Section - Productivity/Office Programs';
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
 ?>
 
 		<div id="programs">

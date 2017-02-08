@@ -4,19 +4,17 @@
         <div class="title"> <?php echo $deName; ?> </div>
         <div id="SShotCol"><?php echo $deSShot; ?> </div>
 
-
-        <div id="infoCol">
+     <div id="infoCol">
 
 			<div class="row">
 				<div class="headers" >Desktop Catagory: </div>
 				<?php echo $deClass; ?>
 			</div>
-        
+
 			<div class="row">
 				<div class="headers">General Requirements: </div>
 				<?php echo $deReq; ?>
 			</div>
-
 
 			<div class="row">
 				<div class="headers">Distros that Feature: </div>
@@ -48,14 +46,12 @@
 
                      <br />
                      On Fedora 21 and prior (with yum ... before the switch to dnf):
-                     <div class="code" ><?php echo $installFedora; ?></div>
+                     <div class="code" ><?php echo $installFedora; ?></div> <br />
 
-                    <br />
-                    On PCLinuxOS:
-                    <div class="code" > <?php echo $installPCLOS; ?></div>
+                     On PCLinuxOS:
+                    <div class="code" > <?php echo $installPCLOS; ?></div><br />
 
-                     <br />
-                     On Gentoo:
+                      On Gentoo:
                      <div class="code" > <?php echo $installGentoo; ?></div>
               </div>
           </div>  <!-- end of Row div -->
@@ -68,12 +64,12 @@
 
     <br />
   </div>
-  
+
    <div style="margin-top: 20px; clear:both; font-size: 10pt;">
     * "Distros that feature" means distrobutions that have an official ISO or offically supported verison with the DE in question.
     That is not to say that you can not install this DE on other distros.<br /><br />
-    
-    Please note I have to double check any content about PCLinuxOS ...not saying its not accurate... just that I am not 100% sure of the line of code... when i check 
-    all of the package names (which is the only thing that WOULD be different if I got it wrong) .. I will remove this notation 
+
+    Please note I have to double check any content about PCLinuxOS ...not saying its not accurate... just that I am not 100% sure of the line of code... when i check
+    all of the package names (which is the only thing that WOULD be different if I got it wrong) .. I will remove this notation
   </div>
 </div>

@@ -2,7 +2,6 @@
 
 		<a href="/techHQ/security/encryptSoftware.php">Encrpytion</a> <br />
 
-
 <h3 id="internetSecurity">Internet Security</h3>
 			<a href="/techHQ/security/internet/InternetThreats.php">Internet Threats</a><br />
 			<a href="/techHQ/security/host_manager.php">Blocking ads and spyware with Host File</a><br />
@@ -16,24 +15,17 @@
 		<li>Opera </li>
 </ul>
 
-
-
-
 <h4 id="windows">Windows</h4>
 
 		<a href="/techHQ/security/secureDeleting.php">Securely Removing Data from your computer</a><br />
-
 		<a href="/techHQ/security/spyware/spyware.php">Spyware Related</a><br />
 		<a href="/techHQ/security/firewall/softFirewalls.php">Firewalls</a><br />
 		<a href="/techHQ/security/infections/spyware_and_Virus_scanners.php">Virus and Malware Removal</a><br />
 		<a href="/techHQ/security/secureWindowsPrograms.php">Small Freewares to Secure your PC</a><br />
 
-			<a href="http://browsehappy.com/why/">"Why IE could be Dangerous?"</a><br />
-
+		<a href="http://browsehappy.com/why/">"Why IE could be Dangerous?"</a><br />
 
 <h3><a href="/techHQ/security/secureBrowsing/securezBrowseIndex.php">Secure Web Browsing</a></h3>
-
-
 
 <h2>
 		<a href="#online-scan-sites"></a>

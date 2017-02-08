@@ -1,9 +1,4 @@
-
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/distros.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/aboutme/experience.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/common.php'); ?>
+# Include CumlativeInclude.php line here
 
 <!doctype html>
 <html lang="en">

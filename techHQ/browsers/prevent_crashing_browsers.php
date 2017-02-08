@@ -1,9 +1,10 @@
 <?php
 
-  $title = 'Xmetal TechHQ - Browser Section - Prevent Browser Crashes and Hangups';
+  $title = 'TechHQ - Browser Section - Prevent Browser Crashes and Hangups';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
-    $the_content = <<<EOD
-
+?>
 	<h1 id="browsers">Browsers</h1>
 
 		<ul>
@@ -41,8 +42,5 @@
 			<p>  A very customizable and cross-browser ad and malware URL blocker </p>
 			</li>
 			</ul>
-
-EOD;
-?>
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

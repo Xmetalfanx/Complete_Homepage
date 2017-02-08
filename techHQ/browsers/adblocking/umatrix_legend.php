@@ -1,12 +1,13 @@
 <?php
 
 	 $the_title = 'Xmetalfanx Browser Section - ';
-  	  $the_content = <<<EOD
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+
+?>
 
   <h2>Location in UMatrix menu</h2>
-    <hr />
-
-
+  <hr />
 
 	<h3>The top bar all the way on the left -</h3>
 
@@ -128,7 +129,4 @@
 
 
 
-
-EOD;
-?>
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

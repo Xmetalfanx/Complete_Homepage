@@ -1,7 +1,10 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section ';
-   $the_content = <<<EOD
+	 $the_title = '- Browser Section ';
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+
+?>
 
 		<h2 id="browser-section-intro">	Browser Section Intro</h2>
 
@@ -12,6 +15,4 @@
 			<p>This will not just Firefox as it use to be on my site, but will also contain Opera, Chrom* (Chromium and Google Chrome) browser info as well as new
 			browsers such as Vivadi </p>
 
-EOD;
-?>
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,9 +1,13 @@
 <?php
 
       $the_title = 'Xmetalfanx Browser Section -  Ad/Content Blocking - Dynamic Filters in Ublock Explained';
-      $the_content = <<<EOD
+      $sitePath = "/home/xmetalx1/public_html";
+      include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
-    <h2>What are the red, green and black settings and what do they mean?</h2>
+?>
+
+
+<h2>What are the red, green and black settings and what do they mean?</h2>
 
 	<p>First lets “name” the levels</p>
     <ul>
@@ -53,8 +57,5 @@
       </li>
     </ul>
 
-
-EOD;
-?>
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

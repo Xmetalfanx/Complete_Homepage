@@ -1,7 +1,8 @@
 <?php
 
-  include $_SERVER['DOCUMENT_ROOT'].('/techHQ/modules/programs.php');
-    $the_title = 'Xmetals TechHQ Section - Software';
+    include $sitePath . '/techHQ/modules/programs.php' ;
+    $the_title = 'TechHQ Section - Software';
+    include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 

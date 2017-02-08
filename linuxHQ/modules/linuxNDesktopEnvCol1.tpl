@@ -11,8 +11,6 @@
 		<a href="/linuxHQ/desktops/XFCE.php">XFCE</a><br />
 		<a href="#"></a><br />
 
-
-
 		<a href="/linuxHQ/newUserHQ/DesktopE.php">Desktop Environment FAQs</a><br />
 		<a href="/linuxHQ/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion) </a>
 	</div>

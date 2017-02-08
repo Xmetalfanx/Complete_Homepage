@@ -1,8 +1,8 @@
 <?php
-  $the_title = "Xmetalfanx Useful Programs Section - Internet Related Software";
+  $the_title = "Useful Programs Section - Internet Related Software";
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
-
 		<div id="programs">
 
 		<h2>Off-line Browsers</h2>

@@ -1,8 +1,4 @@
-
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/aboutme/experience.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/common.php'); ?>
+# Include CumlativeInclude.php line here
 
 <!doctype html>
 <html>
@@ -125,7 +121,7 @@
 
 	</div>
 			 <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter.php'); ?>
-			 
+
 		<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter2.php'); ?>
 </body>
 </html>

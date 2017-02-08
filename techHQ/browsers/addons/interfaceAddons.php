@@ -1,12 +1,13 @@
 <?php
 
-  $the_title = 'Xmetal TechHQ - Browser Section - Interface Related Addons';
-    $the_content = <<<EOD
+  $the_title = 'Browser Section - Interface Related Addons';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+?>
 
+<h3>Interface Tweaking Addons</h3>
 
-            <h3>Interface Tweaking Addons</h3>
-
-        			<div id="browser">
+<div id="browser">
         			<ul>
         			  <li>
         				  <div class="title">
@@ -337,7 +338,7 @@
         			  </li>
         			</ul>
         		</div>
+</div>
 
-EOD;
-?>
+
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

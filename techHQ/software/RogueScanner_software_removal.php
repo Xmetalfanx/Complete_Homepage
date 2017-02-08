@@ -1,6 +1,8 @@
 <?php
 
-  $the_title = 'Xmetalfanx Security Section - Common Software to remove Rogue AV and Malware Scanners'
+  $the_title = 'Security Section - Common Software to remove Rogue AV and Malware Scanners'
+  include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+
 ?>
 
     <p class="header">Common Programs needed to remove these infections</p>

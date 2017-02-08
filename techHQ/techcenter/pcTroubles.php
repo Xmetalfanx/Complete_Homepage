@@ -1,8 +1,9 @@
  <?php
 
-		$the_title =  'Xmetalfanx FAQ Section - What to do when your computer is acting up';
-?>
+		$the_title =  '- FAQ Section - What to do when your computer is acting up';
+    include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
 
+    ?>
       <p>Things to check when, your system seems to be acting strange. (In order ... somewhat... but not necessarily) </p>
       <ol>
         <li><u>Check for Viruses/Trojans/Worms

@@ -1,6 +1,8 @@
 <?php
 
-  $the_title = 'Xmetalfanx Software Section - System Tools';
+  $the_title = 'Software Section - System Tools';
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
 ?>
 
 <p>These are more of a variety of &quot;System Tools&quot; freewares.  The list was getting too long, so I moved many of them to the System Tools &quot;Subpages&quot;, listed to the left.  If there is a well known freeware not listed on this page, odds are its in one of the subpages. </p>

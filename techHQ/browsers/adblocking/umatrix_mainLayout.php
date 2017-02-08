@@ -1,11 +1,12 @@
 <?php
 
 	 $the_title = 'Xmetalfanx Browser Section - Umatrix Layout ';
-  	  $the_content = <<<EOD
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
+?>
 
 	<h1>Umatrix Layout</h1>
-
    <h3>The top bar all the way on the left -</h3>
 
 	<p>
@@ -74,9 +75,5 @@
       <strong>Explanation:</strong> These are global rules that (considering how all of these rules, interact of course) can let
       you manage the content in question block or all) globally. That is across EVERY site/domain.</li>
     </ul>
-
-
-EOD;
-?>
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

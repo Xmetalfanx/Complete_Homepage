@@ -1,8 +1,9 @@
 <?php
 
-  $title = 'Xmetalfanx Software Section - Drive Imaging and Partitioning';
-?>
+  $title = 'Software Section - Drive Imaging and Partitioning';
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
+?>
 
   <p class="justify">
   <span class="boldText"> </span>
