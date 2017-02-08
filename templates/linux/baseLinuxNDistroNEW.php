@@ -1,16 +1,14 @@
-# Include CumlativeInclude.php line here
+<?php
+    $sitePath = "/home/xmetalx1/public_html";
+	  include $sitePath . "/templates/linux/massLinuxIncludes.tpl"
+    include $sitePath . '/modules/linux/linuxBaseHeader.php';
+?>
 
-<!doctype html>
-<html>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeadTag.php'); ?>
-<body>
+## Look over this to slim it down
 
-    <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeader.php'); ?>
-
-    <div id="mainBody">
-        <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
-        <div id="col2">
+<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
+  <div id="col2">
 			<?php
 
 			   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/database/dbconnect.php');
@@ -85,8 +83,6 @@
 						echo "<div id=\"personalExp\">" ;
 						echo "<div class=\"distRevTitle\">My Experience: </div>";
 
-
-
 				   echo $EXP "<br />";
 				   echo $experience "<br /><br />";
 
@@ -120,8 +116,3 @@
 
 
 	</div>
-			 <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter.php'); ?>
-
-		<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter2.php'); ?>
-</body>
-</html>
