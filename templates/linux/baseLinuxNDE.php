@@ -1,16 +1,13 @@
 # Include CumlativeInclude.php line here
+<?php
 
-<!doctype html>
-<html lang="en">
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/linux/massLinuxIncludes.tpl";
+    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeadTag.php'); ?>
-<body>
-
-    <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeader.php'); ?>
+?>
 
 	  <div id="mainBody">
         <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDesktopEnvCol1.php'); ?>
         <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDEContent.php'); ?>
     </div>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter.php'); ?>

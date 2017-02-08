@@ -2,10 +2,10 @@
 
   $sitePath = "/home/xmetalx1/public_html";
 
-  include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
-  include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
-  include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/aboutme/experience.php');
-  include $_SERVER['DOCUMENT_ROOT'].('/modules/common.php');
-  include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/ticVars.php')
+  include $sitePath . '/linuxHQ/modules/sshots.php';
+  include $sitePath . '/linuxHQ/modules/homepage.php';
+  include $sitePath . '/linuxHQ/aboutme/experience.php';
+  include $sitePath . '/modules/common.php';
+  include $sitePath . '/linuxHQ/modules/ticVars.php';
 
 ?>

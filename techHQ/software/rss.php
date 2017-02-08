@@ -1,9 +1,12 @@
 <?php
 
   $the_title = 'Useful Programs Section - RSS'
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
+
 
     <p class="justify">So you have seen me add and comment on RSS, and do not know what it is or how to use it...</p>
     <p class="header">What are RSS Feeds, How do I read them? Do I need a special program for it? </p>

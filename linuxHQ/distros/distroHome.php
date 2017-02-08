@@ -1,11 +1,15 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/distros.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php'); ?>
-
-
 <?php
 
-	$title = 'Linux Distribution (AKA Version) Section';
+		$title = 'Linux Distribution (AKA Version) Section';
 
+		$sitePath = "/home/xmetalx1/public_html";
+
+		include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/distros.php');
+		include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
+
+?>
+
+<?php
   $content = <<<EOD
 
     <h1>Top Linux Distributions for new users</h1>
@@ -146,8 +150,6 @@
 
 	</div>
 
-
-
 		 <div id="distroMainSection">
 			  <div class="distroName">
 				 <a href="http://xmetal.x10.mx/linuxHQ/distros/ubuntu/zorin.php">Zorin</a>
@@ -163,9 +165,4 @@
 
 		 </div>
 
-
-EOD;
-?>
-
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistroBlank.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

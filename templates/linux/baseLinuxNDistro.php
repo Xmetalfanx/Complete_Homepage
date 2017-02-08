@@ -4,5 +4,5 @@
     include $sitePath . '/modules/linux/linuxBaseHeader.php';
 ?>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
-    <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxDistroContent.php'); ?>
+    <?php include $sitePath . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
+    <?php include $sitePath . ('/linuxHQ/modules/linuxDistroContent.php'); ?>

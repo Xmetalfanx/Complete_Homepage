@@ -1,11 +1,14 @@
 <?php
 
         $the_title= 'Xmetalfanx Useful Progs Section - Security Software - Cleaners';
-         $the_content = <<<EOD
 
+        $sitePath = "/home/xmetalx1/public_html";
+        include $sitePath . "/techHQ/modules/programs.php" ;
+        include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+      ?>
 
-    <h2> My Personal Choices for the Top Cleanup Related (System/Cache/Cookies/...etc)</h2>
-    
+<h2> My Personal Choices for the Top Cleanup Related (System/Cache/Cookies/...etc)</h2>
+
 	<div id="softwareSection">
 	<ul>
       <li>
@@ -74,8 +77,8 @@
 			I am just commenting on this since I could see some &quot;new&quot; users getting frustrated with the way it is setup and
 			to be honest, even I am getting use to all the different aspects of the interface.</p>
 			<p><em>Features:</em></p>
-			
-			
+
+
 			<ul>
 			  <li>Temp/MRU Cleaning</li>
 			  <li>
@@ -90,7 +93,7 @@
 				<p>Apparently this works for Mp3 Players, Ipods, Flash (USB) drives and more</p>
 			  </li>
           </div>
-      
+
       </li>
 
 
@@ -115,7 +118,7 @@
       </li>
    </ul>
 
- 
+
  <h3>Additional Choices for the Top Cleanup Related (System/Cache/Cookies/...etc)</h3>
     <ul>
       <li>
@@ -153,7 +156,7 @@
         <p>FCleaner is not bad, but it&#39;s far from perfect. Keep in mind that FCleaner is quot;new&quot; and CCleaner though
         being updated all the time for say .. .new Firefox versions ... HAS BEEN AROUND for awhile .. so give FCLeaner time
 		</p>
-        
+
 		</div>
       </li>
 
@@ -190,23 +193,23 @@
 			<a href="http://www.heidi.ie/eraser/">Eraser</a>
         </div>
 
-		
+
         <div class="progDesc">
 			<p>This is the newer version, that has some changes and less options it seems. It also has some changes for Vista/Windows 7
 			(though 5.x versions, work just great on Vista and Windows 7)</p>
 				<pre>
-					<code>  
+					<code>
 					<img src="/techHQ/screenshots/Security/Eraser6_main.jpg" alt="Eraser 6.x Main Window Screenshot " />
 
-					<img src="/techHQ/screenshots/Security/Eraser6_settings1.jpg " alt="Eraser 6 Settings Part 1 Screenshot" />		 
-					
+					<img src="/techHQ/screenshots/Security/Eraser6_settings1.jpg " alt="Eraser 6 Settings Part 1 Screenshot" />
+
 					<img src="/techHQ/screenshots/Security/Eraser6settings2.jpg" alt="Eraser 6 Settings Part 2 Screenshot " />
-					
+
 					</code>
 				</pre>
 		</div>
 	   </li>
-       
+
 
       <li>
         <div class="progTitles">
@@ -235,7 +238,4 @@
 
 	</div>
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+  <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

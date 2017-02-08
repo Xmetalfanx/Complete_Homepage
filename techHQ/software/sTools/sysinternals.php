@@ -1,7 +1,11 @@
 <?php
 
   $the_title = 'Xmetalfanx Software Section - SysInternals Programs';
-  $the_content = <<<EOD
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
+?>
 
 <div id="softwareSection">
     <p>
@@ -53,7 +57,7 @@
         <p>
           <span class="mainSiteUpdates">(Copied from the Help File for Process Explorer)</span>
         </p>
-      
+
         <pre>
             <code>&lt;a href=&quot;http://www.sysinternals.com/&quot; target=&quot;_blank&quot;&gt;Process Explorer Screenshot&lt;/a&gt;
             </code>

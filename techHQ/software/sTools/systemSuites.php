@@ -1,8 +1,11 @@
 <?php
 
   $the_title = 'Xmetalfanx Software Section - System Tools - System Suites';
-  $the_content = <<<EOD
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
+?>
     <p>These are the tools I like that fall under the &quot;Overall System Suite&quot; Category. Some of the overall tools (all in
     one place) these programs have include: Invalid Shortcut Fixer/Remover, Temp File Remover (scans whole HDD), Trace remover,
     Registry Cleaner, Start-up Manager, and more.</p>
@@ -123,6 +126,4 @@
     </ul>
    </div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+   <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

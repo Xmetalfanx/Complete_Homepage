@@ -1,8 +1,11 @@
 <?php
 
-  $the_title ='Xmetalfanx Software Section - Startup Managers';
-  $the_content = <<<EOD
+  $the_title ='Software Section - Startup Managers';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
+?>
 <div id="softwareSection">
     <h2>Startup Control Programs</h2>
 
@@ -40,6 +43,4 @@
     </ul>
 </div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -36,7 +36,5 @@
 		THINGS WITHOUT READING WHAT THEY ARE DOING ... YOU WILL NOT HAVE ISSUES ... IT'S (IN MY OPINION) THE PEOPLE WHO STOP WATCHING WHAT
 		THEY ARE DOING, THAT RUN INTO PROBLEMS/HEADACHES </p>
 
-EOD;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

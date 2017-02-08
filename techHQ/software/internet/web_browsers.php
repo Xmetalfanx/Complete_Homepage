@@ -1,12 +1,15 @@
 <?php
 
   $title = ' '
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-    $the_content = <<<EOD
-    
-      <p class="header"> Introduction</p>
-      
-	  <p class="justify"><a href="#progList">Go Straight to Program List </a>(skipping the Comments) </p>
+?>
+
+<p class="header"> Introduction</p>
+
+<p class="justify"><a href="#progList">Go Straight to Program List </a>(skipping the Comments) </p>
       <p><span class="justify">Many People are sticking with <strong>Internet Explorer</strong>, which comes with Windows to do their web browsing... Just note that, there are other choices and almost all of them are much better than Microsoft's default web browser </span></p>
       <img src="../../smiles/sad/sadbye.gif" alt="Crying Smile" style="width:54px; height:41px; padding-bottom:10px;"/>
       <div style="clear:both; padding-left:4%;">
@@ -44,6 +47,7 @@
 <p class="header"> <a id="progList">_</a>Here are some &quot;non&quot; Internet Explorer , choices for a web browser</p>
 <p><span class="mainProgDescript"><a href="#ie_clone">Internet Explorer Clones</a> | <a href="#mozilla">Gecko-based Browsers</a> | <a href="#chrome">Chrome</a> <a href="#opera">| Opera</a></span></p>
 <p class="lightBGHeader"><span class="boldText">Gecko</span> (some know these as &quot;Firefox-type&quot; browsers ... Gecko is the &quot;engine&quot; Firefox uses) <span class="boldText">Basd Browsers</span></p>
+
 <div class="progTables">
   <div class="progTablesName"> <a href="http://www.getfirefox.com"> <img src="../../progIcons/browsers/firefox_1.png" alt="Firefox Icon" class="iconsLeft" /> Firefox</a></div>
   <div class="progTableVer"> Latest Version : 25.x</div>
@@ -64,7 +68,7 @@
   <div class="progTableVer"> Latest Version : 24.0x</div>
   <div class="progTableDesc">
     <p> My Browser of choice</p>
-    <p>&quot;Optimized&quot; Firefox (32 or 64bit available) .. This is like Waterfox as I have not noticed a big improvement (Granted I am not &quot;benchmarking&quot;), 
+    <p>&quot;Optimized&quot; Firefox (32 or 64bit available) .. This is like Waterfox as I have not noticed a big improvement (Granted I am not &quot;benchmarking&quot;),
       though I still think it's worth a try.</p>
   </div>
 </div>
@@ -131,7 +135,7 @@
       <ol>
         <li>First they may be calling it the &quot;Addon bar&quot; ... follow thes steps above, changing &quot;Menu Bar&quot; to &quot;Addon bar&quot; according, though it
           is the same process</li>
-        <li>Check out the addon <a href="http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965" class="boldText">Status-4-Evar</a> to add the statusbar back and add 
+        <li>Check out the addon <a href="http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=2001965" class="boldText">Status-4-Evar</a> to add the statusbar back and add
           some other useful customizations <br />
           <br />
         </li>
@@ -144,7 +148,7 @@
             <li><span class="boldText"><a href="http://barisderin.com/?p=286" target="_blank">Theme Font &amp; Size </a> <a href="http://barisderin.com/?p=286" target="_blank">Change</a></span><a href="http://barisderin.com/?p=286" target="_blank">r</a> - to change the font size, and even the font itself </li>
             <li><a href="https://addons.mozilla.org/en-US/firefox/addon/slim-add-ons-manager/?src=api" class="boldText">Slim Add-ons Manager</a>- Slims down the addons listed</li>
             <li><a href="https://addons.mozilla.org/en-US/firefox/addon/cam/" class="boldText">Cleanest Addon Manager</a>?
-              
+
               - Very similar to Slim Addon Manager, though having both, really slims the addon manager down </li>
           </ol>
         </li>
@@ -166,7 +170,7 @@
     <p>Good Alternative to IE, with many addons available, a nice slim interface, and decent speed</p>
     <p>Chrome is becoming some people's non-IE Browser of choice.</p>
     <p>Has Addons that are quickly becoming to similar to well known Firefox Addons (though many do not seem as good, they are close)</p>
-    <p>Many love it compared to Firefox, however, (I am not saying I don't like it) I just happen to think it seens to be lacking features (even with addons, 
+    <p>Many love it compared to Firefox, however, (I am not saying I don't like it) I just happen to think it seens to be lacking features (even with addons,
       it seems incomplete in some areas.... but that is just my opinion)</p>
     <p>Like I said, Many people love i</p>
   </div>
@@ -178,7 +182,7 @@
   <div class="progTableVer"> Latest Version : </div>
   <div class="progTableDesc">
     <p class="justify"><span class="boldText">NOTE ABOUT THE ENTERPISE VERSION:</span> SOME SOFTWARE &quot;PRO&quot; OR &quot;ENTERPISE&quot; VERSIONS MEAN YOU HAVE TO PAY FOR IT. ... NOT THE CASE WITH AVANT. The big difference other than the 3 browser engines in the Enterpise version, is the fact the &quot;regular&quot; Avant versions are about 4 to 5MB to download ... Enterprise is about 40MB (at the time i am typing this)... BOTH ARE 100% SPYWARE/ADWARE FREE AND WELL ... JUST PLAN 100% FREE. </p>
-    <p class="justify">If you want to stick with an IE based browser, but want more options, try Avant. It has Skins, 
+    <p class="justify">If you want to stick with an IE based browser, but want more options, try Avant. It has Skins,
       popup blockers (much better then the SP2  popup blocker in XP Service Pack 2, plugins, and much more</p>
     <p class="justify">I have only just found the 40MB version (40MB Download), that is obviously much bigger than the 4MB version found on software portals, though it contains a very new (Example the current Firefox version out is 19.02, and the version of Avant I have has the 19.0x engine) version of Chromium's Browser Engine and Firefox's engine (in addition to IE's which is the only engine you get with the 4MB version)</p>
     <p class="justify">This very of Avant is called Avant Enterprise Edition, and while I am against bloated software.... I have to say that Firefox is able 20 or so MB to download now ... Chrome is about 20 to 25MB last I checked, so a total of 40-ish MB for Avant with all 3 (Firefox, Chrome and IE) browser engines, is NOT bloated in anyway if you ask me. I will be playing with the engines and how they work in the coming days. </p>
@@ -192,7 +196,7 @@
   <div class="progTablesName"><a href="http://www.maxthon.com/" target="_blank"><img src="../../progIcons/browsers/Maxthon_128.png" alt="Maxthon" width="32" height="32" class="iconsLeft" /><span class="progName">Maxthon</span></a></div>
   <div class="progTableVer"> Latest Version : </div>
   <div class="progTableDesc">
-    <p>If you want to stick with an IE based browser, but want more options, try <a href="http://www.maxthon.com" target="_blank">Maxthon Homepage</a>. 
+    <p>If you want to stick with an IE based browser, but want more options, try <a href="http://www.maxthon.com" target="_blank">Maxthon Homepage</a>.
       It has Skins, popup blockers (much better then the SP2 popup blocker in XP Service Pack 2,
       plugins, and much more</p>
     <blockquote>
@@ -213,8 +217,8 @@
   <div class="progTablesName"> <a href="http://home.slimbrowser.net/" target="_blank"> <img src="../../progIcons/browsers/slimBrowse.png" alt="Slim Browser Icon" width="36" height="36" class="iconsLeft" />Slim Browser </a></div>
   <div class="progTableVer"> Latest Version : </div>
   <div class="progTableDesc"> This is a new light browser, which  is IE-based. I like it so far and it has many great features. It does remind me of earleir 1.x versions of Maxthon,
-    which do not have alot of extra &quot;flashy graphics&quot; though I have to say that is not a complaint. Sometimes (just my opinion), when these programs change too much and 
-    become &quot;too flashy&quot;, they lose functionality and become a pain to use.  I could almost say that this is more along the lines of what &quot;Internet Explorer should 
+    which do not have alot of extra &quot;flashy graphics&quot; though I have to say that is not a complaint. Sometimes (just my opinion), when these programs change too much and
+    become &quot;too flashy&quot;, they lose functionality and become a pain to use.  I could almost say that this is more along the lines of what &quot;Internet Explorer should
     be&quot;.</div>
 </div>
 <p>&nbsp;</p>
@@ -229,12 +233,10 @@
   <div class="progTablesName"> <a href="http://www.opera.com"> <img src="../../progIcons/browsers/opera_OPERA.png" alt="Opera Icon" width="32" height="30" class="iconsLeft" /> Opera </a></div>
   <div class="progTableVer"> Latest Version : </div>
   <div class="progTableDesc">
-    <p>Good Fast Internet Explorer alternative that has been overlooked by some; though the speed of the browser makes me think it warrants a look at 
+    <p>Good Fast Internet Explorer alternative that has been overlooked by some; though the speed of the browser makes me think it warrants a look at
       this one. </p>
     <p>Despite what I said before .. I can now COMFIRM, that Roboform (newer versions.. post 7.5.x at least) WORK with Opera</p>
   </div>
 </div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,6 +1,8 @@
 <?php
 
-	$the_title = 'Xmetalfanx\'s Homepage - Security Section -  Securing Windows - Programs';
+	$the_title = 'Security Section -  Securing Windows - Programs';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechSecurityTemp.tpl";
 ?>
 
   <p class="justify">

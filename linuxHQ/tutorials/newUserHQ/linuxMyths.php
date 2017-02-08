@@ -18,7 +18,5 @@
   <p>IF YOU WANT to install the distribution  at that point, there is usually a &quot;Install &lt;distribution name here&gt;&quot;
    icon right on the desktop to get the install started.</p>
 
-EOD;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

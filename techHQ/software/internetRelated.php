@@ -1,8 +1,11 @@
 <?php
   $the_title = "Useful Programs Section - Internet Related Software";
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
+
 		<div id="programs">
 
 		<h2>Off-line Browsers</h2>

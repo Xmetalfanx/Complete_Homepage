@@ -1,10 +1,12 @@
 <?php
 
   $title = ' Linux Section - Programs in Linux'
-
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
+
 
 
        <p class="header">I am worried  about being confused by &ldquo;new&rdquo; software I am not familiar with.</p>
@@ -47,6 +49,4 @@
       <p><BR>
       </p>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

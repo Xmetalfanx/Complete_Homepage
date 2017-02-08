@@ -1,17 +1,17 @@
 <?php
     $sitePath = "/home/xmetalx1/public_html";
-	  include $sitePath . "/templates/linux/massLinuxIncludes.tpl"
+	  include $sitePath . "/templates/linux/massLinuxIncludes.tpl";
     include $sitePath . '/modules/linux/linuxBaseHeader.php';
 ?>
 
 
 ## Look over this to slim it down
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
+<?php include $sitePath . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
   <div id="col2">
 			<?php
 
-			   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/database/dbconnect.php');
+			   include $sitePath . ('/linuxHQ/database/dbconnect.php');
 
 			   //Variables
 			   $distroTitle = $display["name"];
@@ -78,7 +78,7 @@
 
 						echo "<div style=\"clear:both; margin-top: 15px;\" class=\"distRevTitle\">Reviews</div>";
 
-						include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxDistroReviewer.php');
+						include $sitePath . ('/linuxHQ/modules/linuxDistroReviewer.php');
 
 						echo "<div id=\"personalExp\">" ;
 						echo "<div class=\"distRevTitle\">My Experience: </div>";
@@ -104,15 +104,11 @@
 				   echo "<div id=\"personalExp\">";
 				   echo "<div class=\"distRevTitle\"> USB Drive Creation Experience </div> <br />";
 
-				   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/usb.php');
+				   include $sitePath . ('/linuxHQ/modules/usb.php');
 
 				   echo "</div>";
 			   };
 
 			 ?>
 		</div>
-
-
-
-
 	</div>

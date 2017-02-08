@@ -1,8 +1,6 @@
 <?php
 		$the_title = 'TechCenter - How to Update Windows without connecting to Microsoft';
 		$sitePath = "/home/xmetalx1/public_html";
-
-
 		include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
 
 ?>

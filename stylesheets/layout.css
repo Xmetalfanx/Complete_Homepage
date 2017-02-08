@@ -20,12 +20,12 @@ body {
   flex-direction: column;
 }
 
-/* line 21, ../sass/layout.scss */
+/* line 20, ../sass/layout.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 25, ../sass/layout.scss */
+/* line 24, ../sass/layout.scss */
 #MainHeader {
   width: 40%;
   margin-bottom: 10px;
@@ -39,7 +39,7 @@ a:link {
   padding-left: 20px;
 }
 
-/* line 40, ../sass/layout.scss */
+/* line 39, ../sass/layout.scss */
 .dropShadow {
   -webkit-box-shadow: 4px 3px 5px black;
   -moz-box-shadow: 4px 3px 5px black;
@@ -51,7 +51,7 @@ a:link {
   border-radius: 8px;
 }
 
-/* line 45, ../sass/layout.scss */
+/* line 44, ../sass/layout.scss */
 #message {
   -webkit-box-shadow: 4px 3px 5px black;
   -moz-box-shadow: 4px 3px 5px black;
@@ -65,22 +65,21 @@ a:link {
   overflow: auto;
   font-size: 15px;
   width: 70%;
-  position: fixed;
   bottom: 20px;
   margin-bottom: 1%;
 }
-/* line 62, ../sass/layout.scss */
+/* line 61, ../sass/layout.scss */
 #message h1 {
   border-bottom-color: black;
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
-/* line 67, ../sass/layout.scss */
+/* line 66, ../sass/layout.scss */
 #message p {
   margin-top: 10px;
 }
 
-/* line 72, ../sass/layout.scss */
+/* line 71, ../sass/layout.scss */
 nav {
   display: -webkit-flex;
   display: flex;
@@ -90,7 +89,7 @@ nav {
   color: white;
   order: 2;
 }
-/* line 79, ../sass/layout.scss */
+/* line 78, ../sass/layout.scss */
 nav a:link,
 nav a:visited {
   padding-top: 10px;
@@ -99,37 +98,37 @@ nav a:visited {
   padding-left: 20px;
   color: white;
   background-color: #323232;
-  border: 1px solid black;
+  outline: 1px solid black;
   text-align: center;
   text-shadow: 1px 1px 5px black;
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   font-weight: bold;
 }
-/* line 95, ../sass/layout.scss */
+/* line 94, ../sass/layout.scss */
 nav a:hover {
   color: #ffff33;
 }
 
-/* line 100, ../sass/layout.scss */
+/* line 99, ../sass/layout.scss */
 img.center {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 105, ../sass/layout.scss */
+/* line 104, ../sass/layout.scss */
 .bold {
   font-weight: bold;
 }
 
-/* line 112, ../sass/layout.scss */
+/* line 111, ../sass/layout.scss */
 .header1 {
   text-decoration: underline;
   font-size: 16px;
   font-weight: bold;
 }
 
-/* line 119, ../sass/layout.scss */
+/* line 118, ../sass/layout.scss */
 #top {
   background-color: #323232;
   color: white;
@@ -139,7 +138,7 @@ img.center {
   box-shadow: 4px 3px 5px black;
 }
 
-/* line 128, ../sass/layout.scss */
+/* line 127, ../sass/layout.scss */
 footer {
   background-color: #323232;
   color: white;
@@ -149,22 +148,22 @@ footer {
   display: block;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 5px;
-  height: 25px;
+  padding-bottom: 10px;
+  height: 40px;
   padding-top: 10px;
 }
-/* line 142, ../sass/layout.scss */
+/* line 141, ../sass/layout.scss */
 footer #val {
   float: left;
 }
-/* line 148, ../sass/layout.scss */
+/* line 147, ../sass/layout.scss */
 footer #copyright {
   float: right;
   padding-right: 30px;
   font-size: 14px;
 }
 
-/* line 157, ../sass/layout.scss */
+/* line 156, ../sass/layout.scss */
 #socialIcons {
   float: right;
   margin-right: 3px;
@@ -172,24 +171,24 @@ footer #copyright {
   padding-bottom: 10px;
   order: 7;
 }
-/* line 164, ../sass/layout.scss */
+/* line 163, ../sass/layout.scss */
 #socialIcons img {
   width: 32px;
   height: 32px;
 }
 
-/* line 173, ../sass/layout.scss */
+/* line 170, ../sass/layout.scss */
 #backgroundImage {
   background-image: url(/graphics/bg/beach/Carp_Island_Resort.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 185, ../sass/layout.scss */
+/* line 182, ../sass/layout.scss */
 #AppSection h1 {
   border-top: 1px solid black;
 }
-/* line 195, ../sass/layout.scss */
+/* line 192, ../sass/layout.scss */
 #AppSection h3 {
   margin-left: 20px;
 }

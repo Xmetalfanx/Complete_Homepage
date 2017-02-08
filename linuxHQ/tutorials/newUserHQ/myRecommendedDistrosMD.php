@@ -38,8 +38,4 @@
 		<p>**(summary: Think of having a number of different ways to interact via the Interface.... not just where on the screen the start menu is, or the color of the menu, but how everything looks and operates … don't worry .. there is not that big of a difference and its not confusing once you have it in front of you )</p>
 
 
-
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

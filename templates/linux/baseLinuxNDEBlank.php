@@ -5,7 +5,7 @@
 ?>
 
 <div id="mainBody">
-  <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDesktopEnvCol1.php'); ?>
+  <?php include $sitePath . ('/linuxHQ/modules/linuxNDesktopEnvCol1.php'); ?>
 
     <div id="col2">
     	<?php echo $content; ?>

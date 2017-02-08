@@ -1,10 +1,13 @@
 <?php
 
   $the_title = 'Xmetalfanx Software Section - System Tools - Backup Software';
-  $the_content = <<<EOD
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
+?>
 
-   <h2>Backup Software - All 3 of these are FREEWARE</h2>
+<h2>Backup Software - All 3 of these are FREEWARE</h2>
 
 	<div id="softwareSection">
 	<ul>
@@ -51,6 +54,4 @@
     </ul>
 	</div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+  <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

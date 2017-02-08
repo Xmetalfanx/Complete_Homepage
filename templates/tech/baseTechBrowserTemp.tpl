@@ -1,6 +1,10 @@
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
- <div id="col1">
-	      <?php include $sitePath . ('/techHQ/modules/techBrowsersCol1.php'); ?>
- </div>
- <div id="col2">
+   <div class="panel panel-default col-sm-2">
+   	<div class="panel-body">
+      <?php include $sitePath . ('/techHQ/modules/techBrowsersCol1.php'); ?>
+    </div>
+   </div>
+
+   <div class="panel panel-default col-lg-10">
+     	<div class="panel-body">

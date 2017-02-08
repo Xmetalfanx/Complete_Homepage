@@ -16,7 +16,5 @@
       <p>I also plan to show the pros and cons of Linux, proving even I know Linux &quot;is not perfect&quot; </p>
     </div>
 
-EOD;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+    <?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

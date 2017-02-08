@@ -1,9 +1,10 @@
 <?php
 
   $title ='TechHQ - Guide Summary'
+  $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
 
-  ?>
+?>
 
   <p>This is a short (hopefully) guide with the tips I list to the left, all in one location. This would be the steps I would take (assuming its not infected with
    Malware or a Virus and that is the cause of the slowdown) to optimize a computer.  I am not going to list every program that can perform a task, but just

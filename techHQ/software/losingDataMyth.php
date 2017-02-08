@@ -2,10 +2,12 @@
 
   $title = 'Losing My Data Myth'
 
-  $the_content = <<<EOD
-	
-	<div id="HorzSubMenu"> 
- 
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
+?>
+	<div id="HorzSubMenu">
+
 	  Pre-Linux Install/Install | 'Buntu | General | Slackware | Links
 	   </div>
 
@@ -45,9 +47,9 @@
             </li>
             <li><span class="maroonText">(Optional though I think its a good idea) Another NTFS partition where you can put your  personal data. </span>
               <ul>
-                <li>This should be  		formatted as NTFS.  
+                <li>This should be  		formatted as NTFS.
                   <ul>
-                    <li>THE POINT is Linux has no issue and is gladly  		able to read NTFS &ldquo;Windows/Microsoft&rdquo; Partitions, though  		Microsoft,  (while there are some ways that are not the best .. it  		is possible) goes &ldquo;Cross-eyed&rdquo; if you wanted it to read Linux  		Partitions. 
+                    <li>THE POINT is Linux has no issue and is gladly  		able to read NTFS &ldquo;Windows/Microsoft&rdquo; Partitions, though  		Microsoft,  (while there are some ways that are not the best .. it  		is possible) goes &ldquo;Cross-eyed&rdquo; if you wanted it to read Linux  		Partitions.
                     </li>
                     <li>Leave this partition  as NTFS and both Linux and Windows will be able to see the data  		just fine
                     </li>
@@ -57,7 +59,7 @@
             </li>
         </ul>
       </UL>
- 
+
 
 EOD;
 ?>
