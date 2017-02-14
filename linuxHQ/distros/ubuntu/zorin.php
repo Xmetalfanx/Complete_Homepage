@@ -9,7 +9,7 @@
       $distroWatch = ' ' ;
       $DE = '(Custom) ';
       $distroSshot = &$zorinSShot1;
-      
+
       $target = 'New User';
         $type = '';
      $software = 'Based on Ubuntu\'s Release Cycle';
@@ -26,7 +26,7 @@ DES;
 
       // Multi-lines
       $myComments = 'Zorin has a free and paid version which adds features not found in the free version ';
-      
+
       $EXP = &$zorinExp;
       $experience = ' ';
       $recComments = ' ';
@@ -47,7 +47,11 @@ DES;
 
   $title = 'Distribution Section -Zorin ';
 
-?>
 
+  $sitePath = "/home/xmetalx1/public_html";
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+  include $sitePath . '/linuxHQ/modules/distros.php';
+  include $sitePath . '/linuxHQ/modules/sshots.php';
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+  ?>

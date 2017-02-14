@@ -572,7 +572,6 @@ p.justify {
 #mainBody {
   z-index: 99;
   padding-top: 3px;
-  color: #990000;
   border-color: black;
   background-color: white;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
@@ -634,11 +633,20 @@ nav {
   /*  border           : 1px dotted rgba( 255, 255, 255, .80); */
   background-color: #323232;
   order: 2;
+  text-align: right;
   padding: 10px; }
   nav a:link, nav a:visited {
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 1%;
+    padding-bottom: 5px;
+    padding-left: 1%;
     color: white;
+    margin-bottom: 5px;
     text-decoration: none;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold; }
   nav a:hover {
     background-color: transparent;
     color: lemonchiffon; }

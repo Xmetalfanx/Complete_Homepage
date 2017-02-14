@@ -17,7 +17,7 @@
   // Multi-lines
   $myComments = ' ';
   $EXP = &$centExp;
-  
+
   $experience = 'Not enough to really form an educated opinion ' ;
   $recComments = ' While Fedora or Korora provide a more complete &quot;out of the box&quot; experience.... I\'d recommend CentOS ' ;
   $newbRecComments = 'Basically a new user would be better off with a more &quot;complete out of the box&quot; experience... like
@@ -38,6 +38,11 @@
 
   $title = 'Distribution Section - CentOS ';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+	$sitePath = "/home/xmetalx1/public_html";
+
+	include $sitePath . '/linuxHQ/modules/distros.php';
+	include $sitePath . '/linuxHQ/modules/sshots.php';
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+	?>

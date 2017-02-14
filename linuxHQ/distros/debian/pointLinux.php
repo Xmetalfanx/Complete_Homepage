@@ -32,8 +32,8 @@
 			$UrAvgLinuxUser = ' ';
 
        $EXP = &$pointLinuxExp;
-      
-      
+
+
        $otherComments = <<<COM
 
         Nice Debian based distro though the issue I do have with it is that if
@@ -45,10 +45,16 @@ COM;
 
 
       $description = <<<DES
-        Point Linux is a preconfigued Debian based distrobution that uses the Mate Desktop OR Gnomeshell in 
+        Point Linux is a preconfigued Debian based distrobution that uses the Mate Desktop OR Gnomeshell in
         newer versions.
 
 DES;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+
+$sitePath = "/home/xmetalx1/public_html";
+
+include $sitePath . '/linuxHQ/modules/distros.php';
+include $sitePath . '/linuxHQ/modules/sshots.php';
+include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+?>

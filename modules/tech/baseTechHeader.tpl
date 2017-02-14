@@ -15,7 +15,7 @@
     <!--
     <link rel="alternate" href="xml/site_updates.xml" type="application/rss+xml" title="Xmetalfanx Site Updates and Information">
     <link rel="alternate" href="xml/program_updates.xml" type="application/rss+xml" title="Xmetalfanx Recently Added Programs">
-  --> 
+  -->
 
     <link rel="index" href="/index.php">
     <link rel="home" href="/index.php">
@@ -32,7 +32,7 @@
  </head>
 <body>
 
-<?php include "nav.tpl"; ?>
+<?php include "techNavMenu.tpl"; ?>
 
 <div id="mainBody">
   <div class="container">

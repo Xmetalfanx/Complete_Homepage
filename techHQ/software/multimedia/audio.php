@@ -1,12 +1,19 @@
 <?php
 
-  $the_title = 'Xmetalfanx Useful Programs Section - Audio Programs';
-    $the_content = <<<EOD
+  $the_title = 'Useful Programs Section - Audio Programs';
+
+  $sitePath = "/home/xmetalx1/public_html";
+
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
+?>
 
 
-    <h1>Audio Programs - Freewares</h1>
 
-	<div id="softwareSection">
+<h1>Audio Programs - Freewares</h1>
+
+<div id="softwareSection">
 	<ul>
       <li>
        <div class="progTitles">
@@ -24,7 +31,7 @@
 
 
 	  <li>
-        <div class="progTitles">
+      <div class="progTitles">
 			<a href="http://www.littlelan.com/mp3nity">Mp3nity</a>
 		</div>
 

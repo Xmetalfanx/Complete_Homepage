@@ -22,39 +22,38 @@
 </div>
 
 
-	 <div class="panel panel-default">
-	   <div class="panel-heading"><a href="/techHQ/software/productivity.php">Office/Productivity Programs</a><br /> </div>
-	 </div>
+<div class="panel panel-default">
+	   <div class="panel-heading">
+			 <a href="/techHQ/software/productivity.php">Office/Productivity Programs</a><br /> </div>
+</div>
 
 
- <div class="panel panel-default">
-   <div class="panel-heading">
-		 <a href="/techHQ/software/securityPrograms.php">Security Related</a><br>
+<div class="panel panel-default">
+   <div class="panel-heading">Security Related<br>
 	 </div>
    <div class="panel-body">
-
 		 <a href="/techHQ/software/security/virusANDMalwareScanners.php">Antivirus and Antimalware</a><br>
 		 <a href="/techHQ/software/security/cleaners.php">System Cleaners</a><br>
 		 <a href="/techHQ/software/security/firewalls.php">Firewalls</a><br>
-
    </div>
- </div>
+</div>
 
 
- <div class="panel panel-default">
-   <div class="panel-heading"><a href="/techHQ/software/systemTools.php">System Tools</a><br> </div>
+<div class="panel panel-default">
+   <div class="panel-heading">
+		 <a href="/techHQ/software/systemTools.php">System Tools</a><br>
+	 </div>
    <div class="panel-body">
 		 <a href="/techHQ/software/sTools/archivers.php">Archivers</a><br>
 		 <a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a><br>
 		 <a href="/techHQ/software/sTools/burners.php">CD/DVD/Blue Ray Burners</a><br>
-		 <a href="/techHQ/software/defrag.php">Defragmenters</a><br>
+		 <a href="/techHQ/software/sTools/defrag.php">Defragmenters</a><br>
 		 [File Managers]<br>
-		 <a href="/techHQ/software/sTools/registryTools.php">Registry Tools</a><br>
-		 <a href="/techHQ/software/sTools/startupManangers.php">Startup Managers</a><br>
-		 <a href="/techHQ/software/sTools/sysInternals">SysInternels</a><br>
+		 <a href="/techHQ/software/sTools/startupManagers.php">Startup Managers</a><br>
+		 <a href="/techHQ/software/sTools/sysInternals.php">SysInternels</a><br>
 		 <a href="/techHQ/software/sTools/taskManagers.php">Task Manager</a><br>
 	 </div>
- </div>
+</div>
 
 
 <div class="panel panel-default">

@@ -44,10 +44,8 @@
 	</div>
 
 	<div class="panel-body">
-				Online Scan Sites</h2><p class="sideNav"><br />
-				<a href="http://www.pcflank.com/" target="_blank">PCFlank</a><br />
-				<a href="http://scan.sygate.com/" target="_blank">Sygate Online Scan</a><br />
-				<a href="http://hackerwhacker.com/newindex.dyn" target="_blank">HackerWhacker</a><br />
+				Online Scan Sites</h2>
+				<p class="sideNav"><br />
 				<a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a><br />
 	</div>
 </div>

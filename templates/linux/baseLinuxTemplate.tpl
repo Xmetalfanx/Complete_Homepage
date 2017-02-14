@@ -1,5 +1,10 @@
 <?php
     $sitePath = "/home/xmetalx1/public_html";
-	  include $sitePath . "/templates/linux/massLinuxIncludes.tpl";
-    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
+
 ?>
+
+<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
+
+<!-- At THIS point the mainBody <DIV> should be open -->
+
+<div class="col-lg-12">

@@ -1,4 +1,4 @@
- <?php 
+ <?php
 	$name = 'Linux Lite ';
   $family = 'Ubuntu';
   $icon = '<img src="../../graphics/icons/lite.png" width="90" height="90"  alt="Linux Lite Icon"/>';
@@ -15,20 +15,20 @@
 <p>
 		<a href="http://www.linuxliteos.com/screenshots/">http://www.linuxliteos.com/screenshots/</a></p> ';
 	$similar = 'Linux Mint + XFCE, Xubuntu';
-	
-	
-	
+
+
+
 	$recommend = ' ';
 	$newbRecommend = ' ' ;
-	
-  // Multi-lines 
+
+  // Multi-lines
   $myComments = ' ';
-  
+
   $EXP = &$lliteExp;
   $experience = ' ' ;
   $recComments = ' ' ;
   $newbRecComments = ' ' ;
-  
+
 	$mm = ' ' ;
 	$kaddy = ' ' ;
 	$dasGregor = ' ' ;
@@ -41,10 +41,14 @@
 	$OhHeyItsLou = ' ' ;
 	$midFingr = ' ' ;
 	$UrAvgLinuxUser = ' ';
-  
+
   $title = 'Distribution Section - Linux Lite';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
-    
+  $sitePath = "/home/xmetalx1/public_html";
+
+  include $sitePath . '/linuxHQ/modules/distros.php';
+  include $sitePath . '/linuxHQ/modules/sshots.php';
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+  ?>

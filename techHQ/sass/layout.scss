@@ -616,40 +616,36 @@ p.justify {
 
   z-index          : 99;
   padding-top      : 3px;
-  color            : #990000;
   border-color     : $black;
   background-color : $white;
   font-family      : $SegoeUI;
   font-size        : 14px;
   font-weight      : normal;
 
-
-
-    .container
+  .container
     {
       width: 90%;
 
     }
 
-
-      .iconCenter {
+  .iconCenter {
         width  : 32px;
         height : 32px;
       }
 
-      .imgCentWrapBoth {
+  .imgCentWrapBoth {
         @include   autoMargin();
         display  : block;
         clear    : none;
       }
 
-      a:link {
+   a:link {
         color            : #000099;
         background-color : transparent;
         text-decoration  : none;
       }
 
-      a:visited {
+    a:visited {
         color               : #990000;
         border-bottom-color : #660000;
         border-bottom-width : 1px;
@@ -698,14 +694,23 @@ nav {
   /*  border           : 1px dotted rgba( 255, 255, 255, .80); */
   background-color : $darkGray;
   order            : 2;
+  text-align	   	 : right;
   padding		: 10px;
 
   a:link, a:visited
   {
-   color           : $white;
+    display         : inline-block;
+    padding-top     : 5px;
+    padding-right   : 1%;
+    padding-bottom  : 5px;
+    padding-left    : 1%;
+    color           : $white;
+    margin-bottom   : 5px;
+
     text-decoration : none;
     font-family     : $SegoeUI;
-
+    font-size       : 17px;
+    font-weight     : bold;
 
 
   }
@@ -714,7 +719,6 @@ nav {
     color : lemonchiffon;
   }
 }
-
 #navButton {
   display : none;
 }

@@ -1,7 +1,11 @@
 <?php
 
-	$title = 'Xmetal LinuxHQ Section - Apps - Main Page';
+	$title = 'App Section - Favorite';
+	$sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . '/templates/linux/massLinuxInclude.tpl';
+  include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
 
+?>
 
 	<h1>MASS PPA</h1>
 	<ul>

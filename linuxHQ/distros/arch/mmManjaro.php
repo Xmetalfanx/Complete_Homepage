@@ -1,5 +1,5 @@
 <?php
-        
+
 	$title = 'Distribution Section -  Matthew Moore\'s Manjaro';
 
         $name = 'Manjaro by Matthew Moore';
@@ -11,7 +11,7 @@
         $forum = ' <a href="http://www.cupoflinux.com/SBB/index.php/board,29.0.html">http://www.cupoflinux.com/SBB/index.php/board,29.0.html</a>';
         $distroWatch = 'N/A';
         $DE = 'XFCE ';
-        $distroSshot = ' '; 
+        $distroSshot = ' ';
         $target = 'All Users';
     	$type = '';
     	$software = 'Slightly behind bleeding edge (same as stock Manjaro';
@@ -20,10 +20,10 @@
 
         $recommend = ' ';
         $newbRecommend = ' ';
-  
+
   $EXP = &$manjaroExp;
 	$experience = <<<EXP
-    	
+
 	<p>.89 and .8.10</p>
 	<p>mainly in XFCE</p>
 
@@ -40,7 +40,7 @@ EXP;
 	  <p>This is one of my favorites, to be honest.</p>
 
 COM;
-        
+
         $mm                = ' ';
         $kaddy             = ' ';
         $dasGregor         = ' ';
@@ -54,6 +54,13 @@ COM;
         $midFingr          = ' ';
         $UrAvgLinuxUser    = ' ';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+
+
+        $sitePath = "/home/xmetalx1/public_html";
+
+        include $sitePath . '/linuxHQ/modules/distros.php';
+        include $sitePath . '/linuxHQ/modules/sshots.php';
+        include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+        ?>

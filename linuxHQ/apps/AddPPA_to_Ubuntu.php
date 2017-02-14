@@ -1,23 +1,26 @@
 <?php
 
-	$title = 'Tutorial Section - Adding PPAs to any Ubuntu Based Distro';
-	$content = <<<EOD
+	$title = 'App Section - Adding PPAs to any Ubuntu Based Distro';
+
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . '/templates/linux/massLinuxInclude.tpl';
+	include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
+
+?>
+
+  <h1>PPA&#39;s</h1>
+  <p>A PPA = A &quot;repository&quot; or &quot;repo&quot; (for short)</p>
+  <p>*I do not take any responsibility if you break</p>
 
 
-
-    <h1>PPA&#39;s</h1>
-    <p>A PPA = A &quot;repository&quot; or &quot;repo&quot; (for short)</p>
-    <p>*I do not take any responsibility if you break</p>
-
-
-    <h2>Introduction</h2>
-    <p>A PPA is a way to add even more sources to your package manager database. Though some PPAs may not be trust-worthy, and
-    although I do agree that if you add too many or &quot;the wrong ones&quot; your system may become unstable. (No worse than what
-    I have seen out of a typical Microsoft Windows install)</p>
-    <p>Most PPA&#39;s I use are trustworthy and programs like apt-get, aptitude (both terminal based), or even software centers and
-    Synaptic Package Manager all check dependencies so that adding a piece of software from a new repo, it will not break your
-    system. I can not claim that if you add every single piece of software from every repo I have listed, that your system will be
-    stable, though I would never suggest anything that may harm anyone&#39;s system.</p>
+  <h2>Introduction</h2>
+  <p>A PPA is a way to add even more sources to your package manager database. Though some PPAs may not be trust-worthy, and
+  although I do agree that if you add too many or &quot;the wrong ones&quot; your system may become unstable. (No worse than what
+  I have seen out of a typical Microsoft Windows install)</p>
+  <p>Most PPA&#39;s I use are trustworthy and programs like apt-get, aptitude (both terminal based), or even software centers and
+  Synaptic Package Manager all check dependencies so that adding a piece of software from a new repo, it will not break your
+  system. I can not claim that if you add every single piece of software from every repo I have listed, that your system will be
+  stable, though I would never suggest anything that may harm anyone&#39;s system.</p>
 
 
     <h2>Adding a PPA syntax:</h2>

@@ -5,19 +5,22 @@
 /* Images */
 /* line 3, ../sass/layout.scss */
 body {
-  color: white;
-  background-image: url(/graphics/bg/beach/Carp_Island_Resort.jpg);
-  background-repeat: no-repeat;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  -webkit-background-size: 100%;
-  background-size: 100%;
-  background-color: navy;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  margin: 0px;
   display: flex;
   flex-direction: column;
+
+  margin: 0px;
+
+  color: white;
+  background-color: navy;
+  background-image: url(/graphics/bg/beach/Carp_Island_Resort.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 /* line 20, ../sass/layout.scss */
@@ -27,52 +30,62 @@ a:link {
 
 /* line 24, ../sass/layout.scss */
 #MainHeader {
+  float: left;
+
   width: 40%;
   margin-bottom: 10px;
+  padding-left: 20px;
+
   color: white;
   text-shadow: 1px 1px 5px black;
+
   font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   font-weight: bold;
+
   order: 1;
-  float: left;
-  padding-left: 20px;
 }
 
 /* line 39, ../sass/layout.scss */
 .dropShadow {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   -webkit-box-shadow: 4px 3px 5px black;
   -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
+
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  border-radius: 8px;
 }
 
 /* line 44, ../sass/layout.scss */
 #message {
+  bottom: 20px;
+
+  overflow: auto;
+
+  width: 70%;
+  margin-bottom: 1%;
+  padding-right: 2%;
+  padding-left: 1%;
+
+  text-align: justify;
+
+  opacity: 0.90;
+  color: black;
+  background-color: white;
   -webkit-box-shadow: 4px 3px 5px black;
   -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
-  opacity: 0.90;
-  padding-right: 2%;
-  padding-left: 1%;
-  color: black;
-  background-color: white;
-  text-align: justify;
-  overflow: auto;
+
   font-size: 15px;
-  width: 70%;
-  bottom: 20px;
-  margin-bottom: 1%;
 }
 /* line 61, ../sass/layout.scss */
 #message h1 {
-  border-bottom-color: black;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  border-bottom-color: black;
 }
 /* line 66, ../sass/layout.scss */
 #message p {
@@ -83,10 +96,13 @@ a:link {
 nav {
   display: -webkit-flex;
   display: flex;
+
+  margin: 0 auto;
+
+  color: white;
+
   -webkit-justify-content: center;
   justify-content: center;
-  margin: 0 auto;
-  color: white;
   order: 2;
 }
 /* line 78, ../sass/layout.scss */
@@ -96,11 +112,14 @@ nav a:visited {
   padding-right: 20px;
   padding-bottom: 10px;
   padding-left: 20px;
-  color: white;
-  background-color: #323232;
-  outline: 1px solid black;
+
   text-align: center;
+
+  color: white;
+  outline: 1px solid black;
+  background-color: #323232;
   text-shadow: 1px 1px 5px black;
+
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   font-weight: bold;
@@ -112,8 +131,8 @@ nav a:hover {
 
 /* line 99, ../sass/layout.scss */
 img.center {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 /* line 104, ../sass/layout.scss */
@@ -124,15 +143,17 @@ img.center {
 /* line 111, ../sass/layout.scss */
 .header1 {
   text-decoration: underline;
+
   font-size: 16px;
   font-weight: bold;
 }
 
 /* line 118, ../sass/layout.scss */
 #top {
-  background-color: #323232;
-  color: white;
   padding-bottom: 10px;
+
+  color: white;
+  background-color: #323232;
   -webkit-box-shadow: 4px 3px 5px black;
   -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
@@ -140,17 +161,20 @@ img.center {
 
 /* line 127, ../sass/layout.scss */
 footer {
-  background-color: #323232;
-  color: white;
   position: fixed;
   bottom: 0;
-  width: 100%;
+
   display: block;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+
+  width: 100%;
   height: 40px;
   padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  color: white;
+  background-color: #323232;
 }
 /* line 141, ../sass/layout.scss */
 footer #val {
@@ -159,16 +183,20 @@ footer #val {
 /* line 147, ../sass/layout.scss */
 footer #copyright {
   float: right;
+
   padding-right: 30px;
+
   font-size: 14px;
 }
 
 /* line 156, ../sass/layout.scss */
 #socialIcons {
   float: right;
+
   margin-right: 3px;
   padding-right: 3px;
   padding-bottom: 10px;
+
   order: 7;
 }
 /* line 163, ../sass/layout.scss */

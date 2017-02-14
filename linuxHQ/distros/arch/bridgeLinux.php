@@ -1,6 +1,6 @@
 <?php
-     $title = 'Distribution Section - Bridge Linux'; 
-        
+     $title = 'Distribution Section - Bridge Linux';
+
         $name = 'Bridge Linux';
         $family = 'Arch';
         $icon = '<img src="../../graphics/icons/bridge.png" width="90" height="88"  alt="Bridge Linux Icon"/>';
@@ -14,14 +14,14 @@
         $target = 'Any User';
         $type = 'Rolling Release';
         $software = '';
-     
-        
+
+
         $recommend = 'Yes';
         $newbRecommend = 'No';
-        
+
         $EXP = &$bridgeExp;
         $experience = <<<EXP
-    	
+
     	Version from early 2014
 
 EXP;
@@ -30,7 +30,7 @@ EXP;
 
 COM;
 
- 
+
         $mm                = ' ';
         $kaddy             = ' ';
         $dasGregor         = ' ';
@@ -45,7 +45,11 @@ COM;
         $UrAvgLinuxUser    = ' ';
 
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+        $sitePath = "/home/xmetalx1/public_html";
 
+        include $sitePath . '/linuxHQ/modules/distros.php';
+        include $sitePath . '/linuxHQ/modules/sshots.php';
+        include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+        ?>

@@ -12,15 +12,15 @@
 	$distroWatch = '<a href="http://distrowatch.com/makulu" target="_blank">&lt; Coming Soon&gt;</a>';
 	$DE = 'XFCE';
 	$distroSshot = '<a href="http://www.makululinux.com/apps/photos/">http://www.makululinux.com/apps/photos/</a> ';
-  
-     $YTPlaylist =   '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJfUVDJsAyJ2EObf_sSPrclh" target="_blank"> 
-                        Makuku Youtobe Playlist </a>'; 
-  
-  
+
+  $YTPlaylist =   '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJfUVDJsAyJ2EObf_sSPrclh" target="_blank">
+                        Makuku Youtobe Playlist </a>';
+
+
 	$recommend = 'No';
 	$newbRecommend = 'No';
-  
-  
+
+
   $EXP = &$makuluExp;
 	$experience = <<<EXP
 
@@ -58,6 +58,11 @@ NUC;
 		$midFingr 			= ' ';
 		$UrAvgLinuxUser = ' ';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+		$sitePath = "/home/xmetalx1/public_html";
+
+		include $sitePath . '/linuxHQ/modules/distros.php';
+		include $sitePath . '/linuxHQ/modules/sshots.php';
+		include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+?>

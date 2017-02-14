@@ -1,6 +1,6 @@
 <?php
 
-  $the_title = 'Xmetalfanx Software Section - System Tools - System Suites';
+  $the_title = 'Software Section - System Tools - System Suites';
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";

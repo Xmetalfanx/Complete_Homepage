@@ -1,10 +1,10 @@
 <?php
 
-		$the_title= 'Xmetalfanx Security Section - Software Firewall';
+		$the_title= 'Security Section - Software Firewall';
 		$sitePath = "/home/xmetalx1/public_html";
 	  include $sitePath . "/techHQ/modules/programs.php" ;
 	  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
-	?>
+?>
 
 <div id="softwareSection">
     <p>In this section, I list &quot;how good&quot; a product is and that is based on a few of the following factors</p>

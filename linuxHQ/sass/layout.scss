@@ -49,22 +49,16 @@ header {
 
   color            : $white;
   background-color : transparent;
-  text-align       : left;
   text-shadow      : 1px 1px 5px rgba(0, 0, 0, 0.85);
   font-family      : $SegoeUI;
   font-size        : 40px;
   font-weight      : bold;
-  order            : 1;
   letter-spacing   : 2px;
-  float			 :  left;
-  padding-bottom		: 0px;
+  float			       :  left;
 }
 
 nav {
-  padding-bottom   : 2px;
-  padding-left     : 0px;
   text-align       : right;
-  order            : 3;
 
     /*background-image: $blackNav;*/
   a:link,
@@ -85,6 +79,7 @@ nav {
   a:hover {
     color            : rgb(255, 255, 227);
     background-color : $navy;
+    text-decoration: none;
   }
 }
 
@@ -419,19 +414,16 @@ nav {
 }
 
 #distrowatch {
-  width            : 50%;
   height           : 200px;
-  margin-top       : 3px;
   padding-right    : 1%;
-  @include autoMargin();
+  @include          autoMargin();
   padding-left     : 1%;
   overflow         : auto;
   border           : $black 2px solid;
   background-color : $white;
   font-family      : $TNR;
-  font-size        : 14px;
-  order            : 3;
-    /*margin-left: 50px;*/
+  /*margin-left: 50px;*/
+
   rss-item-full {
     color : rgb(255, 0, 0);
   }
@@ -444,17 +436,12 @@ nav {
 #mainBody,
 #mainBodyw {
 
- @include             display-flex;
-  @include           align-content(space-around);
-	@include       flex-direction(row);
-
   border-bottom     : $solidBorder;
-  padding           : 1%;
-  color            : $black;
-  background-color : $white;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 0px;
   font-size        : 17px;
-  order            : 3;
-  z-index          : 99;
 
   li {
     padding-top    : 5px;
@@ -553,14 +540,10 @@ nav {
 #valIcons {
   margin-top       : 10px;
   background-color : transparent;
-  order            : 10;
-  width 		   : 40%;
-  float			: right;
 
 	 img {
 		  margin-right : 10px;
 		}
-
 
 }
 
@@ -718,12 +701,12 @@ nav {
   }
 }
 
+
 .distroMainSection {
-  @include        autoMargin();
   margin-bottom : 20px;
   padding       : 7px;
   border        : $solidBorder;
-  overflow		: auto;
+  overflow	  	: auto;
 
   .distroName {
     padding-left : 10px;
@@ -764,64 +747,57 @@ nav {
   }
 }
 
+.panel-default
+{
+  border        : $solidBorder;
+
+}
+
+
+
+/* Note: Do not remove UNTIL the remaining code is moved to custom BootStrap */
 #DESection
 {
-  @include        autoMargin();
   margin-bottom : 20px;
   padding       : 7px;
-  border        : $solidBorder;
   overflow		: auto;
 
-
-	.DEName
-	{
-		font-size: 20px;
 	}
 
-	.DEs, .home
-	{
-		margin-bottom: 20px;
-		clear: both;
-		font-size: 18px;
-	}
+/* moved out of #DESection to remove need for that DIV ID */
+.DEName
+  {
+    font-size: 20px;
+  }
 
-	.DEs img
-	{
+  .DEs, .home
+  {
+    margin-bottom: 20px;
+    clear: both;
+    font-size: 18px;
+  }
 
-		width: 40%;
-		height: 40%;
-		padding: 15px;
-		float: left;
-	}
+  .DEs img
+  {
 
-	.DEFeature, .DESpecs
-	{
-		clear			        : both;
-		border     		    : $solidBorder;
-		padding			      : 10px;
-		margin-bottom		  : 20px;
-		width			        : 85%;
- 		 @include        	single-box-shadow();
-     @include   	    border-radius(8px, 8px);
- 		@include        	autoMargin();
- }
-		.title
-		{
-		   font-weight:  bold;
-		}
-	}
+    width: 40%;
+    height: 40%;
+    padding: 15px;
+    float: left;
+  }
+
+    .title
+    {
+       font-weight:  bold;
+    }
 
 #top
 
 {
-	 padding                 : 10px;
-   color                    : $white;
-   background-color        : $arcBlack;
-    padding-bottom          : 15px;
-    z-index                 : 100;
-    /* transform               : translateY(10%); */
-    top                       : 40%;
-    position              : relative;
+	 padding                   : 10px;
+   color                     : $white;
+   background-color           : $arcBlack;
+    padding-bottom            : 15px;
     padding-left              : 2%;
 }
 
@@ -901,5 +877,26 @@ nav {
 		padding: 10px;
 		margin-left: 50px;
 	}
+
+}
+
+/* New idea for desktop Section */
+#desktopInfo
+{
+  width             : 85%;
+  @include        	autoMargin();
+  clear: both;
+
+  .dePanel
+  {
+    border           : $solidBorder;
+    padding          : 10px;
+    @include        	single-box-shadow();
+    @include   	      border-radius(8px, 8px);
+   @include        	  autoMargin();
+     clear            :  both;
+     padding-bottom: 20px;
+
+  }
 
 }

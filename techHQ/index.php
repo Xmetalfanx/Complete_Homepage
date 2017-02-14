@@ -1,7 +1,7 @@
 <?php
 
-  $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
  ?>
 

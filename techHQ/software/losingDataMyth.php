@@ -6,7 +6,8 @@
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
-	<div id="HorzSubMenu">
+
+<div id="HorzSubMenu">
 
 	  Pre-Linux Install/Install | 'Buntu | General | Slackware | Links
 	   </div>

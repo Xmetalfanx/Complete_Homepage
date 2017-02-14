@@ -10,17 +10,17 @@
 	$distroWatch = '<a href="http://distrowatch.com/suse" target="_blank">http://distrowatch.com/suse</a> ' ;
 	$DE 				= 'Gonme, KDE, XFCE';
 	$distroSshot = &$suseKDE1;
-	
-	
+
+
 	$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJdhnxr60T_scRoV7Oc3N9f_"  target="_blank">OpenSuse Review Playlist</a>    ';
-		$TweakPL = '   '; 
+		$TweakPL = '   ';
 
 
 	$recommend = ' ';
 	$newbRecommend = ' ' ;
 
   $EXP = &$suseExp;
-  
+
   $myComments = ' ';
   $experience = 'My first real (not count failed attempts at getting Red Hat 6 to work) was Suse 9.3 and I used it for a year or
 				so and liked it ... I recently tried OpenSuse 13.1 again on one of my partitions and I still think it\'s a nice distro ' ;
@@ -41,10 +41,15 @@
 	$OhHeyItsLou 		= ' ';
 	$midFingr 			= ' ';
 	$UrAvgLinuxUser = ' ';
-	
+
 
   $title = 'Distribution Section -OpenSUSE ';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+	$sitePath = "/home/xmetalx1/public_html";
+
+	include $sitePath . '/linuxHQ/modules/distros.php';
+	include $sitePath . '/linuxHQ/modules/sshots.php';
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+	?>

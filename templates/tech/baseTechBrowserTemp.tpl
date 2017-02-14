@@ -2,7 +2,7 @@
 
    <div class="panel panel-default col-sm-2">
    	<div class="panel-body">
-      <?php include $sitePath . ('/techHQ/modules/techBrowsersCol1.php'); ?>
+      <?php include $sitePath . ('/techHQ/modules/techBrowsersCol1.tpl'); ?>
     </div>
    </div>
 

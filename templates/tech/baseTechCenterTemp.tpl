@@ -1,4 +1,4 @@
-<?php $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
+<?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
 <div class="panel panel-default col-sm-2">
   <div class="panel-body">

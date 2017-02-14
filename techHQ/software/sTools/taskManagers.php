@@ -1,13 +1,13 @@
 <?php
 
-  $the_title ='Xmetalfanx Software Section - System Tools - Task Managers';
+  $the_title =' Software Section - System Tools - Task Managers';
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 
-    <h2>Process Managers/Task Manager Alternatives</h2>
+<h2>Process Managers/Task Manager Alternatives</h2>
     <div id="softwareSection">
 
     	<ul>

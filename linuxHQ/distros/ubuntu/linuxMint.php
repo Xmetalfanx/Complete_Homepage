@@ -13,8 +13,8 @@
 	$distroWatch = '<a href=http://distrowatch.com/mint">Linux Mint on Distrowatch</a> ' ;
 	$DE = 'KDE, XFCE, Mate, Cinnamon ';
 	$distroSshot =  $mintCin1 . $mintMate1  . $mintMate2;
-  
-	$similar = 'Linux Mint KDE is comparible to Netrunner KDE, and' . $kubuntuHP . 
+
+	$similar = 'Linux Mint KDE is comparible to Netrunner KDE, and' . $kubuntuHP .
 			 '<br /> Linux Mint Cinnamon is like Ubuntu with Cinnamon PPA\'s added and packages installed ';
 
        $description = <<<DES
@@ -50,6 +50,11 @@ DES;
 
   $title = 'Distribution Section - Linux Mint';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+  $sitePath = "/home/xmetalx1/public_html";
+
+  include $sitePath . '/linuxHQ/modules/distros.php';
+  include $sitePath . '/linuxHQ/modules/sshots.php';
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+?>

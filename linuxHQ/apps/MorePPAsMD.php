@@ -1,8 +1,14 @@
 <?php
 
-	$title = 'Tutorial Section - Adding PPAs to any Ubuntu Based Distro';
+    $title = 'App Section - Adding PPAs to any Ubuntu Based Distro';
 
-    <h2>
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . '/templates/linux/massLinuxInclude.tpl';
+  include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
+
+?>
+
+<h2>
     <a href="#more-ppas"></a>More PPAs</h2>
     <ul>
       <li>
