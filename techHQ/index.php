@@ -5,29 +5,23 @@
 
  ?>
 
-	<h3>Educations Sites </h3>
-	<div id="support">
-
-			<p class="khanAcaImage">
-				<a href="https://www.khanacademy.org/" target="_blank">
-				<img src="/techHQ/graphics/khan-logo-vertical-transparent.png" alt="Khan Academy Graphic" class="center" /> </a>
-			</p>
-
-			<p class="linuxAcad">
-				<a href="https://linuxacademy.com/" target="_blank">
-				<img src="/techHQ/graphics/linuxAcad.png" alt="Linux Academy Graphics" />	</a>
-			</p>
-
-			<p class="KKing">
-				<a href="http://www.kristakingmath.com/" target="_blank">
-				<img src="/techHQ/graphics/kking.png" alt="Krista King Math Site graphics" />
-					Krista King Math </a>
-
-				<br /><br />
-
-				<a href="https://www.youtube.com/channel/UCUDlvPp1MlnegYXOXzj7DEQ">
-				(or Her Channel on Youtube) </a></p>
-</div>
+ <div class="card hidden-sm-down col-lg-8">
+   <div class="card-block">
+     <h2 class="card-title">Educational Sites        </h2>
+     <p class="card-text">
+       <div class="graphics">
+         <a href="https://www.khanacademy.org/" target="_blank">
+           <img src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic"/></a>
+        </div>
+       <div><a href="https://linuxacademy.com/" target="_blank">
+         <img src="/techHQ/graphics/linuxAcad.png" alt="Linux Academy Graphic"/></a>
+       </div>
+       <div><a href="http://www.kristakingmath.com/" target="_blank">Krista King Math</a>
+         <img src="/techHQ/graphics/kking.png" alt="Krista King Math Site graphics"/><br/><br/>
+         <a href="https://www.youtube.com/channel/UCUDlvPp1MlnegYXOXzj7DEQ">(or Her Channel on Youtube)</a></div>
+     </p>
+   </div>
+ </div>
 
 <?php
     include $sitePath . "/techHQ/modules/GAOTD.tpl";

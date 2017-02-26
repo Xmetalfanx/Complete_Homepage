@@ -1,197 +1,133 @@
-@import "_sassHeader";
+@import '_sassHeader';
 
-body {
-		color               : $white;
-		background-image    : $beachBG2;
-		background-repeat   : no-repeat;
-		@include background-size(100%);
-
-	 background-color    : rgb(0, 0, 128);
-
-		font-family         : $SegoeUI;
-		font-size           : 16px;
-		margin  					  : 0px;
-		display								: flex;
-		flex-direction			: column;
-
-}
-
-
-a:link {
-	text-decoration : none;
-}
-
-#MainHeader {
-
-	width         : 40%;
-	margin-bottom : 10px;
-	color         : $white;
-
-	text-shadow   : 1px 1px 5px $black;
-	font-family   : $TNR;
-	font-size     : 50px;
-	font-weight   : bold;
-	order         : 1;
-	float: left;
-	padding-left: 20px;
-}
-
-.dropShadow {
-	@include   boxShadow();
-	@include   borderRad();
-}
-
-#message {
-
-	@include           boxShadow();
-
-  opacity:            0.90;
-	padding-right    : 2%;
-	padding-left     : 1%;
-	color            : $black;
-	background-color : $white;
-	text-align       : justify;
-	overflow					: auto;
-	font-size        : 15px;
-	width							: 70%;
-
-	bottom: 						20px;
-	margin-bottom: 			1%;
-
-	h1 {
-		border-bottom-color : $black;
-		border-bottom-width : 1px;
-		border-bottom-style : solid;
-	}
-	p {
-		margin-top : 10px;
-	}
-}
-
-nav {
-	@include   display-flex;
-	@include   justify-content(center);
-	margin   : 0 auto;
-	color    : $white;
-	order    : 2;
-
-	a:link,
-	a:visited {
-		padding-top      : 10px;
-		padding-right    : 20px;
-		padding-bottom   : 10px;
-		padding-left     : 20px;
-		color            : $white;
-		background-color:  $darkGrey;
-		outline           : $solidBorder;
-
-		text-align       : center;
-		text-shadow      : 1px 1px 5px $black;
-		font-family      : $TNR;
-		font-size        : 25px;
-		font-weight      : bold;
-	}
-	a:hover {
-		color : rgb(255, 255, 51);
-	}
-}
-
-img.center {
-	@include autoMargin();
-}
-
-
-.bold
+body
 {
-	font-weight: bold;
+    font-size: 16px;
 
+    margin: 0;
 
+    background-image: $beachBG2;
+    background-repeat: no-repeat;
+
+    @include background-size(100%);
 }
 
-.header1 {
-	text-decoration : underline;
-	font-size       : 16px;
-	font-weight     : bold;
-}
-
-
-#top
+a:link
 {
-  background-color		: $darkGrey;
-	color								: $white;
-	padding-bottom			: 10px;
-	@include           boxShadow();
+    text-decoration: none;
+}
+
+
+.dropShadow
+{
+    @include   boxShadow();
+    @include   borderRad();
+}
+
+.btn-link
+{
+    color: white;
+    background-color: blue;
+
+    font-family: $TNR;
+    font-size: 25px;
+    font-weight: bold;
+
+
+    text-align: center;
+    color: $white;
+    outline: $solidBorder;
+
+    text-shadow: 1px 1px 5px $black;
+
+
 
 }
+
+
+nav
+{
+
+    order: 2;
+
+    a:link,
+    a:visited
+    {
+
+
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+
+
+        background-color: $darkGrey;
+
+    }
+    a:hover
+    {
+        color: rgb(255, 255, 51);
+    }
+}
+
 
 footer
 {
-	background-color: #323232;
-	color: $white;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	display: block;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-  height: 40px;
-  padding-top: 10px;
+    position: fixed;
+    bottom: 0;
 
-	#val
-	{
-		float: left;
+    display: block;
 
-	}
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 
-	#copyright
-	{
-		float: right;
-		padding-right: 30px;
-		font-size: 14px;
-	}
+    color: $white;
+    background-color: #323232;
 
+    #val
+    {
+        float: left;
+    }
+
+    #copyright
+    {
+        font-size: 14px;
+
+        float: right;
+
+        padding-right: 30px;
+    }
 }
 
-#socialIcons {
-  float          : right;
-  margin-right   : 3px;
-  padding-right  : 3px;
-  padding-bottom : 10px;
-  order          : 7;
+#socialIcons
+{
+    float: right;
 
-	img
-	{
-			width: 32px;
-			height: 32px;
-	}
+    margin-right: 3px;
+    padding-right: 3px;
+    padding-bottom: 10px;
+
+    order: 7;
+
+    img
+    {
+        width: 32px;
+        height: 32px;
+    }
 }
 
 #backgroundImage
 {
-
-	background-image    : $beachBG2;
-	background-repeat   : no-repeat;
-	background-size: cover;
-
+    background-image: $beachBG2;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#AppSection
+.card-block
 {
-
-		h1
-		{
-				border-top: $solidBorder;
-		}
-
-		h2
-		{
-
-		}
-
-		h3
-		{
-			margin-left: 20px;
-		}
-
+    padding: 0;
 }

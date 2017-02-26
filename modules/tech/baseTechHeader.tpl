@@ -23,10 +23,10 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
 
-    <!-- Link to External Style Sheet -->
+    <!-- Link to External Style Sheet
     <link href="/techHQ/stylesheets/layout.css" rel="stylesheet" type="text/css">
     <link href="/techHQ/stylesheets/general.css" rel="stylesheet" type="text/css" >
-    <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css">
+    <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css"> -->
 
 
  </head>

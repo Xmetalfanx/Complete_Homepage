@@ -213,17 +213,12 @@ h2 {
   padding-top      : 2px;
   padding-right    : 2px;
   padding-bottom   : 0;
-  color            : $tanL;
   overflow         : visible;
   outline         : $solidBorder;
-  background-color : $darkGray;
   text-align       : left;
   font-family      : $Verdana;
-  font-size        : 14px;
   font-weight      : bold;
   padding-left     : 5px;
-  @include   autoMargin();
-
 }
 
 .progtableColL {
@@ -419,10 +414,7 @@ h2 {
 
 #bannerText {
   text-shadow      : 1px 1px 5px rgba(0, 0, 0, 0.85);
-  font-family      : $SegoeUI;
   font-size        : 40px;
-  font-weight      : bold;
-  order            : 1;
   letter-spacing   : 2px;
   float			 :  left;
 }
@@ -616,7 +608,6 @@ p.justify {
 
   z-index          : 99;
   padding-top      : 3px;
-  border-color     : $black;
   background-color : $white;
   font-family      : $SegoeUI;
   font-size        : 14px;

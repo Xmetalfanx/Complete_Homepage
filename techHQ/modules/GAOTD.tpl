@@ -1,4 +1,4 @@
-<div id="GAOTD" class="hidden-xs hidden-sm hidden-md">
+<div id="GAOTD" class="hidden-md-down">
   <p class="header">Give-away of the Day</p>
 
 <script type="text/javascript">var gaotd_SiteName = "Give Away of The Day"; </script>

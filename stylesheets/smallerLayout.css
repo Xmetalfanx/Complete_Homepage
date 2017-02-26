@@ -3,7 +3,7 @@
 /* Colors */
 /* Fonts */
 /* Images */
-/* line 4, ../sass/smallerLayout.scss */
+/* line 3, ../sass/smallerLayout.scss */
 body {
   background-color: navy;
   color: white;
@@ -12,22 +12,22 @@ body {
   background-image: none;
 }
 
-/* line 14, ../sass/smallerLayout.scss */
+/* line 13, ../sass/smallerLayout.scss */
 a:link {
   text-decoration: none;
 }
 
-/* line 19, ../sass/smallerLayout.scss */
+/* line 18, ../sass/smallerLayout.scss */
 #MainHeader {
   display: none;
 }
 
-/* line 27, ../sass/smallerLayout.scss */
+/* line 24, ../sass/smallerLayout.scss */
 #main {
   clear: both;
 }
 
-/* line 33, ../sass/smallerLayout.scss */
+/* line 30, ../sass/smallerLayout.scss */
 .dropShadow {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -40,37 +40,6 @@ a:link {
 }
 
 /* line 38, ../sass/smallerLayout.scss */
-.message {
-  background-color: rgba(255, 255, 255, 0.9);
-  display: block;
-  clear: both;
-  color: black;
-  font-size: 15px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
-  box-shadow: 4px 3px 5px black;
-  padding-right: 2%;
-  padding-left: 1%;
-  padding-bottom: 2%;
-  text-align: justify;
-  text-decoration: none;
-}
-
-/* line 55, ../sass/smallerLayout.scss */
-nav {
-  color: white;
-  margin-bottom: 2px;
-  width: 100%;
-  margin-top: 2px;
-  clear: both;
-  float: left;
-}
-/* line 65, ../sass/smallerLayout.scss */
 nav a:link, nav a:visited {
   border: 1px solid black;
   font-size: 25px;
@@ -86,12 +55,12 @@ nav a:link, nav a:visited {
   font-family: "Times New Roman", Times, serif;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
 }
-/* line 82, ../sass/smallerLayout.scss */
+/* line 55, ../sass/smallerLayout.scss */
 nav a:hover {
   color: #ffff33;
 }
 
-/* line 91, ../sass/smallerLayout.scss */
+/* line 64, ../sass/smallerLayout.scss */
 .menuImage {
   vertical-align: top;
   background-color: rgba(255, 255, 255, 0.9);
@@ -111,43 +80,43 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-/* line 106, ../sass/smallerLayout.scss */
+/* line 79, ../sass/smallerLayout.scss */
 img.center {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 112, ../sass/smallerLayout.scss */
+/* line 85, ../sass/smallerLayout.scss */
 .boxShadow {
   -webkit-box-shadow: 4px 3px 5px black;
   -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
 }
 
-/* line 118, ../sass/smallerLayout.scss */
+/* line 91, ../sass/smallerLayout.scss */
 #homepageImage {
   display: none;
 }
 
-/* line 124, ../sass/smallerLayout.scss */
+/* line 97, ../sass/smallerLayout.scss */
 .header1 {
   font-weight: bold;
   text-decoration: underline;
   font-size: 16px;
 }
 
-/* line 131, ../sass/smallerLayout.scss */
+/* line 104, ../sass/smallerLayout.scss */
 #socialIcons {
   margin-bottom: 10px;
 }
-/* line 136, ../sass/smallerLayout.scss */
+/* line 109, ../sass/smallerLayout.scss */
 #socialIcons a:link img {
   margin-right: 100px;
   width: 48px;
   height: 48px;
 }
 
-/* line 144, ../sass/smallerLayout.scss */
+/* line 117, ../sass/smallerLayout.scss */
 #message {
   position: absolute;
   display: block;
