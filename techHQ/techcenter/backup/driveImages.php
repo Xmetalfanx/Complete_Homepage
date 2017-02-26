@@ -1,8 +1,7 @@
 <?php
 
 	$the_title ='Xmetalfanx\'s Homepage - Tech Center - Drive Imaging';
-	$the_content = <<<EOD
-	
+?>
       <p class="center">
 		  <a href="driveImageSoftware.php" class="boldCenter">List of Software Needed on other page </a></p>
 <p class="header">Drive Image FAQ's</p>
@@ -45,31 +44,31 @@
             <li>
             <div class="sevenFiveTable">
             	<blockquote>
-                <div class="thirty">  
+                <div class="thirty">
             		<a href="http://www.runtime.org/dixml.htm">
                   		<img src="../../progIcons/system_tools/backup/1579__DriveImage_XML.png" alt="DriveXML Icon"  class="icon" />
                   		<span class="progName">DriveImageXML</span></a><br /><br />
-                        
+
                 </div>
-                <div class="thirty">  
+                <div class="thirty">
             		<a href="http://www.paragon-software.com/home/db-express/" target="_blank">
                     	<img src="../../progIcons/system_tools/backup/paragonBackup.png" alt="Paragon Icon" width="36" height="36" class="iconsLeft" />
                         <span class="progName">Paragon Backup and Recovery (Advanced) Free Edition</span></a><br /><br />
-                        
-                </div>  	
-                <div class="thirty">  
+
+                </div>
+                <div class="thirty">
            <img src="../../progIcons/system_tools/backup/reflect_128.gif" alt="Reflect Image Icon" width="38" height="38" class="iconsLeft" /><span class="progName">
                   Reflect</span>
-           
+
                 </div></blockquote>
-            
+
             </div>
             </li>
           </ul>
           <blockquote>
-				<p>IN THESE PROGRAMS, DO REMEMBER (I know Paragon reminds you with popup ads/notifications on your first run) to create a backup of 
+				<p>IN THESE PROGRAMS, DO REMEMBER (I know Paragon reminds you with popup ads/notifications on your first run) to create a backup of
 				Paragon, so you can ACTUALLY GET TO your drive images later.</p>
-			   
+
 				<p>This can be an an:   </p>
 				<blockquote>
 				  <p>USB Flash Drive, </p>
@@ -83,32 +82,32 @@
       <p>This one I am just &quot;throwing out there&quot; .. I WANT TO NOTE THAT, Programs like Paragon and Reflect (listed above) both not only create bootable image CD's for you, but reminds you in case you forget .. after all ... what good is an image if you have to restore &quot;everything&quot; to ... do the restore?
   </p>
       <blockquote>
-        <p>A Bootable Partition Program... I like Linux based <a href="http://gparted.sourceforge.net/" target="_blank">GParted</a><span class="italics">(many sites have it.. 
-          I know Softpedia.com and SourceForge.net does)</span> , which can be downloaded seperately OR it is included with Boot CDs like 
+        <p>A Bootable Partition Program... I like Linux based <a href="http://gparted.sourceforge.net/" target="_blank">GParted</a><span class="italics">(many sites have it..
+          I know Softpedia.com and SourceForge.net does)</span> , which can be downloaded seperately OR it is included with Boot CDs like
           <a href="http://www.ubcd4win.com/" target="_blank">UBCD4Win</a>
           . which include Gparted as well as many other tools and programs.</p>
       </blockquote>
 
 <p class="header">What are Drive Images</p>
-    <p>Drive Images in basic terms are files that can be backed up via several forms of media (USB stick, CD-R, DVD-R(W, ..etc) that when restored, 
-    can revert your system back to an earlier time (sort of like a restore point that (A) ACTUALLY WORKS and (B) is on removable media (although it 
+    <p>Drive Images in basic terms are files that can be backed up via several forms of media (USB stick, CD-R, DVD-R(W, ..etc) that when restored,
+    can revert your system back to an earlier time (sort of like a restore point that (A) ACTUALLY WORKS and (B) is on removable media (although it
     CAN BE on a second hard drive partition). </p>
-    
+
     <p>DO NOT CONFUSE &quot;DRIVE IMAGES&quot; WITH &quot;Image files&quot; like JPG's or GIFs, by the way.</p>
     <p class="header">
-    <img src="../../smiles/yahoo_Smiles/huh2.GIF" alt="Huh2 Smile" width="20" height="18" class="imgleft" />&quot;Wait, ISN'T 
+    <img src="../../smiles/yahoo_Smiles/huh2.GIF" alt="Huh2 Smile" width="20" height="18" class="imgleft" />&quot;Wait, ISN'T
     THAT like what those pre-included backup cds that come with the computer that you JUST SAID you did not like?&quot;</p>
-    
-    <p>Well, mostly.. yes it is ... <span class="boldItalics">however</span>, there are some advantages over the pre-existing CDs/DVDs. 
+
+    <p>Well, mostly.. yes it is ... <span class="boldItalics">however</span>, there are some advantages over the pre-existing CDs/DVDs.
     Some questions to remember are: </p>
-    
+
     <ul>
-      <li>What Happens to your customiizations (Firefox and Firefox add-ons, browser backups,...etc) ? 
+      <li>What Happens to your customiizations (Firefox and Firefox add-ons, browser backups,...etc) ?
         <ul>
           <li>All gone, while you do a system recovery with the pre-installed Discs</li>
         </ul>
       </li>
-      <li>What happens to my personal files? 
+      <li>What happens to my personal files?
         <ul>
           <li>(not counting those who do backups of all their personal data to various forms of external media)</li>
           <li>Gone too. </li>
@@ -118,6 +117,5 @@
     <p class="center"><strong><a href="Step1.php">TO STEP 1 ~~~~~~~~~~~&gt;</a></strong></p>
   <!-- InstanceEndEditable -->
     </div>
- 
-       
-      
+
+		<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

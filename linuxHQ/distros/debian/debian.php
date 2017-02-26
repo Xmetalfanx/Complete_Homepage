@@ -11,15 +11,15 @@
 	$version = ' 7.5 &quot;Wheezy&quot; ';
 	$forum = ' <a href="http://forums.debian.net/" target="_blank">http://forums.debian.net/</a>';
 	$distroWatch = '<a href="http://distrowatch.com/debian" target="_blank">http://distrowatch.com/debian</a> ';
-	$DE = 'Various  '; 
+	$DE = 'Various  ';
 	$distroSshot = &$debianSshot1;
-	
+
 	$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ" target="_blank">Debian Review Playlist</a>    ';
-		$TweakPL = ' '; 
-  
-  
+		$TweakPL = ' ';
+
+
   $EXP = &$debianExp;
-  
+
 	$recommend = ' ';
 	$newbRecommend = ' ';
 
@@ -36,6 +36,11 @@
 	$midFingr		= ' ';
 	$UrAvgLinuxUser	 = ' ';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+	$sitePath = "/home/xmetalx1/public_html";
+
+	include $sitePath . '/linuxHQ/modules/distros.php';
+	include $sitePath . '/linuxHQ/modules/sshots.php';
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+	?>

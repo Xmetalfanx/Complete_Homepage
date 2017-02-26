@@ -1,10 +1,12 @@
 <?php
 
   $the_title = 'Xmetalfanx Software Section - Winamp Plugins';
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-    $the_content = <<<EOD
-    
-    
+?>
+
+
     <p>There are many good Winamp plugins ... too many to list to be honest These are two of my favorites and I HAVE TRIED alot of them. </p>
     <p>These two enhance sound in sound files... Granted that if its a poor quality recording, neighter can perform &quot;Miracles&quot; </p>
     <p class="header"><a href="http://www.winamp.com/plugin/enhancer-017/81361" target="_blank">Enhancer 0.17</a></p>
@@ -21,6 +23,5 @@
     <p align="center">This is the one use all the time ... it makes audio sound GREAT.  It can add reverb sound effects, as well as Treble and Bass. </p>
     <p align="center">There are tons of presets, and plenty of options to tweak for those that want to </p>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+
+    <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

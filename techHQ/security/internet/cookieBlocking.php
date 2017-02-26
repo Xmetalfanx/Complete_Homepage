@@ -1,8 +1,8 @@
 <?php
 
 	$the_title = 'Xmetalfanx Security Section - Cookie Blocking';
-	$the_content = <<<EOD
-    
+?>
+
 	<p class="header">
     <a id="cookies"> </a>
     How to setup Blocking all Cookies by Default: Cookie Safe  AND Cookie Monster</p>
@@ -16,7 +16,5 @@
 <p>--------------------------------------------------------------------------------------------------------------------</p>
 <p>Cookie Monster's set to block all cookies (not &quot;allowed&quot;) by default</p>
 
- 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/windows/baseWinSecurityTemplate.php"); ?>
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

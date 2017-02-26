@@ -11,7 +11,7 @@
 
 	// installs
 	$installUbuntu = 'sudo apt-get install xfce4 xfce4-goodies';
-$installMint =	'sudo apt-get install mint-meta-xfce xfce4-goodies'; 
+$installMint =	'sudo apt-get install mint-meta-xfce xfce4-goodies';
 $installDebian = ' ';
 $installArch = 'sudo pacman -S xfce4 xfce-goodies ';
 $installFedora = ' ';
@@ -22,5 +22,4 @@ $installGentoo = 'yum install @xfce-desktop ';
 $title = 'DE/WM Section - XFCE ';
 
 ?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDE.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

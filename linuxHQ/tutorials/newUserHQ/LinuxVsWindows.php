@@ -166,7 +166,4 @@
       </ul>
     </blockquote>
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

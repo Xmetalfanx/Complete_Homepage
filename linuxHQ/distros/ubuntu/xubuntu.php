@@ -10,13 +10,13 @@
 	$DE = 'XFCE';
 	$distroSshot = '';
 	$similar = 'SolydX, Linux Mint if you add XFCE, Linux Lite ';
-  
+
        $description = <<<DES
 
 DES;
-  
+
   $EXP = &$ubuntuExp;
-  
+
 	$recommend = 'No ';
 	$newbRecommend = 'No ' ;
 
@@ -42,5 +42,11 @@ DES;
 
   $title = 'Distribution Section - Xubuntu';
 
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+
+	$sitePath = "/home/xmetalx1/public_html";
+
+	include $sitePath . '/linuxHQ/modules/distros.php';
+	include $sitePath . '/linuxHQ/modules/sshots.php';
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+	?>

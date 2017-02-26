@@ -9,22 +9,22 @@
 	$distroWatch = ' <a href="http://distrowatch.com/deepin" target="_blank">http://distrowatch.com/deepin</a> ' ;
 	$DE = 'Deepin Desktop Environment (DDE) ';
 	$distroSshot = &$deepinSShot1;
-  
+
   $EXP = &$deepinExp;
-  
+
   $software = 'Based on Ubuntu\'s Release Cycle';
-	
+
   $recommend = 'No ';
  $recComments = 'Too buggy right now' ;
-  
-  $newbRecommend = 'No ' ;    
+
+  $newbRecommend = 'No ' ;
   $newbRecComments = 'Too buggy for me to recommend ';
 
   // Multi-lines
   $myComments = ' ';
   $experience = 'A Few days with Zorin 8 ' ;
- 
-  
+
+
 
 	$mm = ' ' ;
 	$kaddy = ' ' ;
@@ -41,6 +41,11 @@
 
   $title = 'Distribution Section - Deepin (Linux)';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+  $sitePath = "/home/xmetalx1/public_html";
+
+  include $sitePath . '/linuxHQ/modules/distros.php';
+  include $sitePath . '/linuxHQ/modules/sshots.php';
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+  ?>

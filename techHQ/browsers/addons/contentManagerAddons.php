@@ -1,17 +1,16 @@
 <?php
 
   $title = 'Xmetal TechHQ - Browser Section - Content Management Addons';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+ ?> 
 
-    $the_content = <<<EOD
-
-        <h2>Content "Manager" Addons</h2>
+  <h2>Content "Manager" Addons</h2>
 
 				<p>This does not include a few of my "Must have addons" in the first table on the page</p>
 
 				<div id="browser">
-
 				<ul>
-
 
 				  <li>
 					<p class="title">
@@ -22,7 +21,7 @@
 
 				  <li>
 					<p class="title">
-          <img src="/techHQ/graphics/ffox/greasemonkey.png" alt="GreaseMonkey Icon" class="icon"> 
+          <img src="/techHQ/graphics/ffox/greasemonkey.png" alt="GreaseMonkey Icon" class="icon">
 								<a href="http://www.greasespot.net/">Greasemonkey</a></p>
 
 					<div  class="description">
@@ -108,8 +107,5 @@
 				  </li>
 				</ul>
 			</div>
-
-EOD;
-?>
 
  <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>

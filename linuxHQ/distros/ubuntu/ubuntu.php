@@ -9,17 +9,17 @@
 	$distroWatch = ' ';
 	$DE = 'Unity';
 	$distroSshot = &$ubuntuSShot1;
-  
+
        $description = <<<DES
-        Ubuntu is one of the most popular versions of Linux and sometimes distribution that sparks strong opinions (for and against it).  
-		
+        Ubuntu is one of the most popular versions of Linux and sometimes distribution that sparks strong opinions (for and against it).
+
         Some like the Ubuntu default &amp;Unity &amp; desktop, while others do not.  Lucky for all user there are respins of Ubuntu that
-         include the Gnome, KDE, LXDE, and XFCE Desktops 
+         include the Gnome, KDE, LXDE, and XFCE Desktops
 
 DES;
-  
+
   $EXP = &$ubuntuExp;
-  
+
 	$recommend = 'No ';
 	$newbRecommend = 'No ' ;
 
@@ -45,5 +45,11 @@ DES;
 
   $title = 'Distribution Section - Ubuntu';
 
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+
+	$sitePath = "/home/xmetalx1/public_html";
+
+	include $sitePath . '/linuxHQ/modules/distros.php';
+	include $sitePath . '/linuxHQ/modules/sshots.php';
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+	?>

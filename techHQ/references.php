@@ -1,9 +1,14 @@
 <?php
 
+<<<<<<< HEAD
     $sitePath = "/home/xmetalx1/public_html";
     $the_title = 'Xmetalfanx\'s Book References - What books did I use to get some information on my site?';
     include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
+=======
+    $the_title="Book References - What books did I use to get some information on my site?";
+    include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
 ?>
 
     <p>Despite the fact that I do not copy from any book or website (if i do, I try to clearly mark that segment of my site is a quote and where it came from; i do want to link to books and references that have helped me with recent information. Some of these sources you can find on my links page, or at the bottom of that particular page with a (Information on this page came from <span class="italics">location here.</span></p>
@@ -23,6 +28,10 @@
 	<img src="smiles/funny/nut.gif" alt="going crazy smile" width="19" height="19" /></p>
     <p>Alot of the books I list (although not all) put most of the concepts in &quot;Plain English&quot; </p>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
    <table width="99%" border="1">
 	<caption>Network Related</caption>
       <tr>
@@ -48,7 +57,15 @@
       </tr>
     </table>
     <p>&nbsp;</p>
+<<<<<<< HEAD
      </div>
 <!-- End Three Columns -->
 
 <?php  include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+=======
+    </div>
+<!-- End Three Columns -->
+EOD;
+?>
+<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseWinMAINTemplate.php"); ?>
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e

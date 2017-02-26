@@ -14,7 +14,7 @@
 	$distroSshot = ' ';
 
   $EXP = &$oMandrivaExp;
-  
+
 	$recommend = ' ';
 	$newbRecommend = ' ';
 
@@ -35,6 +35,11 @@
 
     $title = 'Distribution Section - Open Mandriva ';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+		$sitePath = "/home/xmetalx1/public_html";
+
+		include $sitePath . '/linuxHQ/modules/distros.php';
+		include $sitePath . '/linuxHQ/modules/sshots.php';
+		include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+		?>

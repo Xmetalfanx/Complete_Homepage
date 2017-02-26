@@ -1,42 +1,44 @@
 <?php
-	 $the_title = 'Xmetal - Links';
-	$the_content = <<EOD
+	 $the_title = ' Links';
+	 include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+
+ ?>
 
 
-          <a href="#support">Support</a> | 
-          <a href="link.php#portals" target="_self">Portals</a> | 
-          <a href="#search"> Search Engines</a> | 
-          <a href="#dvd">DVD-Related</a> | 
+          <a href="#support">Support</a> |
+          <a href="link.php#portals" target="_self">Portals</a> |
+          <a href="#search"> Search Engines</a> |
+          <a href="#dvd">DVD-Related</a> |
           <a href="#webmasters">Website (coding)</a> |
-          <a href="#p2p"> File Sharing Links</a>| 
+          <a href="#p2p"> File Sharing Links</a>|
           <a href="#security">Security Sites</a>
-       
+
         <p></p>
       <p><a href="http://www.npr.org" target="_blank" ><img src="graphics/support/npr.gif" alt="NPR Icon" width="60" height="21" class="dropShadowIMGPadB" />  </a>Not saying I support Everything on NPR, I just appreciate the programming I hear and the fact that they are not just doing the same stories the main stream media is doing and treats it's listeners with respect and &quot;gives them a story or information&quot; and lets you come to your own conclusion .. This may seem like common sense to must people, but it's not the way I see the main-stream media. </p>
-    
+
 	<p><a href="http://www.ricksteves.com/" target="_blank">
     <img src="graphics/logo1.gif" alt="Rick Steves Link" width="250" height="70" class="dropShadowIMGPadB" /> </a> Depsite being able to checkout Mr. Steves' programs anytime I want on DVD from the local library, I still stop and watch them on PBS, anytime I see they are on. I could go on and on about all the things I like about these programs and the way Mr. Steves' hosts them, though I will not waste anyones time.. just check them out for yourself and you'll see what I mean.</p>
- 
+
  <p><a href="http://www.mathtutordvd.com" target="_blank"><img src="graphics/portals/mathportallogo.jpg" alt="Math Portal Logo" width="658" height="82" class="dropShadowIMGPadB" /></a></p>
- 
+
  <p>I have recently found Mr. Jason Gibson's &quot;DVD Classes&quot; and I must say how interesting I find them. Some of the items he covers are these programs are things I had trouble with back in high school (or at least I didn't &quot;completely and clearly&quot; understand them). Watching these programs, I think &quot;Oh ... is that what they were trying to explain?... that's EASY&quot;. To me (and the way I like learning) this is perfect. It's just the right &quot;speed&quot; while not &quot;dumbing&quot; anything down. He not only shows one way, but multiple different ways of getting to a solution AND how to get there. </p>
   <p>Many of the subjects I had &quot;trouble with&quot; (and still do in my studys) are related to &quot;i know the 'question' and 'solution'... its the ' How the heck do I get there?' &quot; that was the problem. HIGHLY RECOMMEND these  </p>
   <p>&nbsp;</p>
   <p><a href="http://www.integralcalc.com" target="_blank"><img src="graphics/support/integralCalcDotCom.png"  alt="" width="464" height="86" class="dropShadowIMGPadB"/></a></p>
   <p>&nbsp;</p>
-  
+
   <p><a href="http://www.InternetTrafficReport.com/" target="_blank">
 <img src="http://www.InternetTrafficReport.com/itr-clean.gif" alt="The Internet Traffic Report Graphic" width="147" height="110" /></a></p>
-    
+
     	<p class="header">Links I support<a id="support"></a>  </p>
-       
+
         <p class="center">
         <a href="http://www.stopfcc.com" target="_blank">
         <img src="graphics/support/stopfcc.gif" alt="stop FCC censoring everything" width="468" height="60" class="dropShadowIMGPadB" /></a></p>
-       
+
         <p class="center"><a href="http://www.factcheck.org" target="_blank">
         <img src="graphics/support/headlogo.gif" alt="Fact Check.org" width="475" height="91" class="dropShadowIMGPadB" /></a> </p>
-      	
+
         <p class="header">Books and Authors I enjoy</p>
         <ul>
           <li><a href="http://www.jamesrollins.com/" target="_blank">James Rolins</a> (My Favorite Author )</li>
@@ -51,7 +53,7 @@
         </ul>
     <p class="header">Programming and other Portals
       <a id="portals"></a></p>
-    
+
     <p> <img src="graphics/portals/nirsoft.png" alt="Nirsoft Graphics" width="176" height="44" />     - Great site with some useful freewares    </p>
     <p class="horizontalLineBottom">&nbsp;</p>
     <p class="center">&nbsp;</p>
@@ -64,39 +66,39 @@
 		  <img src="graphics/portals/imglogo.gif" alt="Ur I.T. Mate Group" width="160" height="114" />
 		  </a></p>
           <p><img src="graphics/portals/logo4.gif" alt="Download 3000" width="386" height="87" /></p>
-         
+
           <p><a href="http://www.snapfiles.com" target="_blank">
 		  <img src="graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" width="88" height="32" /></a>	      </p>
-        
+
           <p><a href="http://www.majorgeek.com">Majorgeek</a> </p>
           <p class="center"><img src="graphics/portals/softpedia_logo.gif" alt="SoftPedia" width="200" height="36" /></p>
-         
+
           <p class="center"><a href="http://www.sixfiles.com" target="_blank">
           <img src="graphics/portals/sixfiles.jpg" alt="SixFiles.com" width="170" height="41" /></a></p>
-      
+
           <p class="center">
           <img src="graphics/portals/tweakxp_button.jpg" alt="TweakXP Portal Icon" width="111" height="38" /></p>
-         
+
           <p class="center"><a href="http://neowin.net/">
             <img src="graphics/portals/neowin.jpg" alt="Neowin.net" width="88" height="31" /></a></p>
-         
+
           <p class="center"><img src="graphics/portals/SOSTopGray2_edit.jpg" alt="Son of Spyware" width="355" height="79" /></p>
-          
+
           <p>
           <a href="http://freewarearena.com/html/index.php?name=Forums&amp;file=viewtopic&amp;t=3" target="_blank">
           <img src="graphics/support/freeware_rev_logo.gif" alt="Freeware Revolution Site" width="170" height="57" class="center" /></a>
           </p>
       </div>
-  
+
         <p class="header">
           <a id="program">Program Links</a> </p>
         <p class="center">
           <a href="http://www.gpsoft.com.au/" target="_blank">
 		  <img src="graphics/programs/DO8BannerAnimSm.gif" alt="Directory Opus Graphics" width="260" height="60" class="dropShadowIMGPadB" /></a>        </p>
-        
+
         <p class="maroonText"><span class="italics"> GREAT Windows Explorer Alternative (alot better than &quot;Total
         Commander&quot; .. if you ask me)</span></p>
-      
+
       <div class="center">
         <ul><li>
 		<img src="graphics/programs/securityProgs/bigger_link.gif" alt="CCleaner Link" width="110" height="32" /> </li>
@@ -124,12 +126,12 @@
          being updated, some BRAND NEW DVDs may have issues, ... I have found that DVD Decrypter add-ons and &quot;hacks&quot; may be available if you do a Google Search on the
     DVD your having trouble with </p>
         <p class="center"><img src="graphics/programs/dvdshrink.gif" alt="DVD Shrink" width="106" height="45" /></p>
-        <p class="center">This is the program you use to shrink down and  remove items you don't need (say French subtitles, or Spanish Audio (so you can watch an entire movie 
-        in another language). Here is where alot of the trouble with new copy protection might happen. I have experienced a DVD that &quot;copy&quot; fine with Decrypter, but then 
+        <p class="center">This is the program you use to shrink down and  remove items you don't need (say French subtitles, or Spanish Audio (so you can watch an entire movie
+        in another language). Here is where alot of the trouble with new copy protection might happen. I have experienced a DVD that &quot;copy&quot; fine with Decrypter, but then
       can not open in DVD Shrink. </p>
-     
-     
-     
+
+
+
     <p class="header"><a id="virus">Virus, trojans and worms &amp; hoaxes</a>        </p>
         <div class="center">
         <ul>
@@ -157,21 +159,21 @@
           Housecall</a></li>
         </ul>
       </div>
-        
+
         <p class="header">
         Window Themes/Visual Style and ...etc pages </p>
-        
+
         <p class="center">
 	  <a href="http://www.beltchfire.net" target="_blank">
 		<img src="graphics/portals/belchfire.gif" alt="belchfire graphic" width="301" height="68" class="dropShadowIMGPadB" />
 	  </a>
 	</p>
-     
-     
-     
+
+
+
         <p class="header"><a id="p2p">File Sharing Links
       </a></p>
-        
+
         <div class="center">
           <ul>
             <li>
@@ -202,12 +204,12 @@
             <li>
               <a href="http://www.shareaza.com" target="_blank">Shareaza</a>
               <ul>
-                <li> 
+                <li>
                   <a href=
                     "http://forums.shareaza.com/showthread.php?s=&amp;threadid=14796&amp;highlight=discovery">
                   Shareaza Forums - Argggh! unable to connect to G1 or 2</a>                </li>
-                <li> 
-                  <a href="http://forums.shareaza.com/showthread.php?s=&amp;threadid=14019&amp;highlight=discovery"> Shareaza Forums - can&#39;t connect to the network</a>               
+                <li>
+                  <a href="http://forums.shareaza.com/showthread.php?s=&amp;threadid=14019&amp;highlight=discovery"> Shareaza Forums - can&#39;t connect to the network</a>
                 </li>
               </ul>
             </li>
@@ -257,17 +259,17 @@
           <a href="http://www.w3.org/">World Wide Web Consortium</a></li>
         </ul>
       </div>
-       
+
         <p class="header">
          <a id="search"> Search Engines
          </a> </p>
-       
+
         <p class="mainSiteUpdates">
           These I find very good and DO NOT return a ton of results that have
           nothing to do with, what you started the search for...        </p>
         <p class="center">
           <a href="http://www.webcrawler.com">
-          <img src="graphics/portals/webcrawler.gif" alt="WebCrawler.com" width="320" height="63" /></a>       
+          <img src="graphics/portals/webcrawler.gif" alt="WebCrawler.com" width="320" height="63" /></a>
         </p>
         <div class="center">
           <ul>
@@ -275,8 +277,8 @@
               <a href="http://www.alltheweb.com" target="_blank">AlltheWeb</a>            </li>
             <li>
               <a href="http://www.teoma.com" target="_blank">Teoma</a></li>
-            <li>NEW - <a href="http://www.dogpile.com" target="_blank">Dogpile</a> - 
-            This is suppose to have Google and a few others all in one... Google seems more accurate by itself, but so far, Dogpile seems very good. 
+            <li>NEW - <a href="http://www.dogpile.com" target="_blank">Dogpile</a> -
+            This is suppose to have Google and a few others all in one... Google seems more accurate by itself, but so far, Dogpile seems very good.
             <img src="smiles/happy/ok.gif" alt="&quot;OK&quot; Smile" width="40" height="26" /></li>
           </ul>
         </div>
@@ -285,7 +287,7 @@
         <div class="center">
           <p>
             <a href="http://computercops.biz/" target="_blank">
-            <img src="graphics/support/ccsp.gif" alt="Computer Cops" width="88" height="31" /></a>  
+            <img src="graphics/support/ccsp.gif" alt="Computer Cops" width="88" height="31" /></a>
          </p>
           <ul>
             <li>
@@ -377,9 +379,7 @@
             <li><a href="http://neuron2.net/">Filters for Avisynth and
               VirtualDub</a><a href="http://www.eeye.com/html/Research/Upcoming/index.html" target="_blank"><img src="/graphics/support/eEyeLogo2.gif" alt="EEye's Site for Security Problems still unfixed by Microsoft" width="85" height="41" class="center" /></a></li>
           </ul>
-    </div><!-- InstanceEndEditable --> </div>
+    </div> </div>
 <!-- End Three Columns -->
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseWinMAINTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

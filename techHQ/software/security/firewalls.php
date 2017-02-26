@@ -1,7 +1,10 @@
 <?php
 
-		$the_title= 'Xmetalfanx Security Section - Software Firewall';
-    $the_content = <<<EOD
+		$the_title= 'Security Section - Software Firewall';
+		$sitePath = "/home/xmetalx1/public_html";
+	  include $sitePath . "/techHQ/modules/programs.php" ;
+	  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+?>
 
 <div id="softwareSection">
     <p>In this section, I list &quot;how good&quot; a product is and that is based on a few of the following factors</p>
@@ -151,13 +154,10 @@
       <a href="https://www.techsupportalert.com/best-free-firewall.htm" target="_blank">*** PLEASE CHECK OUT GIZMO&#39;S SITE AND
       COMMENTS ON FIREWALLS, for more information and reviews on firewalls</a> ***</p>
 			</div>
-			
+
 			</li>
     </ul>
 	</div>
 
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+	<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

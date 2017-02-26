@@ -1,9 +1,11 @@
 <?php
 
   $title = 'Xmetalfanx Software Section - System Tools - Archivers';
-	$the_content = <<<EOD
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-	
+?>
 		<p>The more free programs I find, the more I wonder why people bother paying for programs like Winzip. I DO SUPPORT
 		&quot;donating&quot; when you can to help the development of your favorite open source/free choice, AS WELL AS the fact that I
 		am a big supporter of WinRar. IF there was a commercial (not free) program I&#39;d advice people buy in this category, it would
@@ -43,14 +45,14 @@
 					<ul>
 						<li>7zip and Zip files </li>
 						<li>Doesn't edit existing (add/remove files from ... ) 7zip files. I have tried the latest alpha (test of a
-							test version, in layman&#39;s terms) and it still doesn&#39;t seem to work, though the developer is taking 
+							test version, in layman&#39;s terms) and it still doesn&#39;t seem to work, though the developer is taking
 							user feedback, and is hard at work on it
 						</li>
 					</ul>
-				
+
 					<ul>
 						<li>reading:</li>
-						<li>Bz2, Gzip, Zip, 7zip, Rar, Rpm, Tgz, xar, deb, and cabs ... JUST TO NAME a few of the most popular 
+						<li>Bz2, Gzip, Zip, 7zip, Rar, Rpm, Tgz, xar, deb, and cabs ... JUST TO NAME a few of the most popular
 						formats<li>
 					</ul>
 			   </ul>
@@ -139,17 +141,17 @@
 
         <div class="progDesc">
 			<p class="boldCourier">Reads most common archive formats</p>
-        
+
 			<p class="boldCourier">Writes Zip and 7zip files AND .Kz which is a format only used in this program and it is SUPPOSE to
 			be more compressed then zip and 7zip files.</p>
-        
+
 			<p>Comments: I have to say that I am not knocking .kz&#39;s format though it is NOT common and from the tests (just compressing	random items in  <span class="redtext">.zip, .7zip, and .kz</span> ... , .kz seemed to be about the same as either of the other	two formats  (speed compressing, AND size of compressed file).</p>
 
 			<p>You DO NOT HAVE to use the .kz format, and I personally would advice against it, as almost all compression programs nowadays
 			can read
 			<span class="redtext">7zip and Zip</span> files, you can (whether your sending the files to someone else or you decide to
 			switch compression/archiving programs later, you will save yourself some headaches.</p>
-		 
+
 			<p>
 				<em>Ex - you have all your files in .kz compression files and then switch
 				programs (to use everyday ... To find out that, the "new" program can not read .kz files.
@@ -158,20 +160,20 @@
 
 			<p>
 				<em>
-				
+
 					With 7Zip or Zip, you may even switch/try new compression programs to
 					your &amp;quot;heart&#39;s content&amp;quot; and none of them should have any
 					issues reading or writing ZIP or 7ZIP files.
 				</em>
 			</p>
 
-		
-		
-		
+
+
+
 		</div>
 
       </li>
- 
+
       <li>
         <div class="progTitles">
           <img src="http://www.peazip.org/index.html" />
@@ -187,7 +189,7 @@
 			</ul>
 			</div>
 
-        
+
 			<p>Comments: This is an old freeware I have known about for years, though I never really gave it a chance (I had chosen to
 			use Power Archiver or Winrar). The more I mess around with it, the more I like it. I do have to say I like HaoZip best now
 			(seems like a Winrar clone, though Winrar writes .RAR and .ZIP files ... HaoZip (and Peazip, for that matter) write .ZIP,
@@ -221,24 +223,22 @@
 
         <div class="progDesc">
 			<p class="boldItalics">** NOT FREEWARE**</p>
-			
+
 			<p>One of the fastest programs to handle archives, that I have tried. This is the only program that can create RAR files.
 			<em>(The freewares would have to pay WinRar for the right to create Rar files in their programs ... licencing/legal issues,
 			in other words)</em></p>
-			
+
 			<p>This is not free, as I have stated, though I like it so much, i feel the need to mention it here</p>
-			
-			
+
+
 			<p class="center">
 			<a href="../../screenshots/System/Winrar.jpg" target="_blank"> WinRar Screenshot </a>
 			</p>
-			
+
         </div>
       </li>
     </ul>
 
 	</div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+  <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

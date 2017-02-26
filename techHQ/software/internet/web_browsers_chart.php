@@ -1,9 +1,14 @@
 <?php
 
   $title = 'Xmetalfan\'s Software Section - Web Browser Chart';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-    $the_content = <<<EOD
-    <table width="60%" border="1" align="center" class="center" style="width:60%;margin-left:auto,margin-right:auto;border:1px;">
+?>
+
+
+<table width="60%" border="1" align="center" class="center" style="width:60%;margin-left:auto,margin-right:auto;border:1px;">
       <tr>
         <td width="37%" scope="col"><p>&nbsp;</p></td>
         <td width="34%" scope="col"><p class="boldUnderline">&nbsp;</p>
@@ -54,11 +59,11 @@
         <td height="425" class="progName"><p>Chromium/</p>
           <p><img src="../../progIcons/browsers/chrome.png" alt="Google Chrome Icon" width="36" height="36" class="iconsLeft" />Google Chrome</p></td>
         <td><p>I must say it does seem to be improving, though it seems &quot;incomplete&quot; to me. </p>
-          <p>Before I go on, <span class="boldUnderline">Chromium</span> is the one I'd recommend and is the project that Google takes, adds a few minor adjustments and 
-          slaps &quot;Google&quot; on it and calls it their own. Usually (feature wise/security wise). An example of the sort of concept I mean can generally be reflected 
+          <p>Before I go on, <span class="boldUnderline">Chromium</span> is the one I'd recommend and is the project that Google takes, adds a few minor adjustments and
+          slaps &quot;Google&quot; on it and calls it their own. Usually (feature wise/security wise). An example of the sort of concept I mean can generally be reflected
           by the fact that when Cromium updates,  a few days later Chrome updates with the same patch.</p>
-          
-          <p>What I am saying is that <span class="boldUnderline">Chromium</span> is what Google Chrome is based on and doesn't have some &quot;features&quot; that 
+
+          <p>What I am saying is that <span class="boldUnderline">Chromium</span> is what Google Chrome is based on and doesn't have some &quot;features&quot; that
           Google Chrome has (one of which I am thinking of is how Google has admitted (it's site) to Tracking users) .. </p>
           <p class="boldText">Advantages to Chrome: </p>
           <ul>
@@ -80,12 +85,12 @@
             </ul>
           </ul>
           <p class="header">Scripts in Chromium-based browsers</p>
-          <p>I have found (Thanks to <a href="http://www.ghack.net" target="_blank">Ghack.net</a>), 
-          <a href="http://code.google.com/p/scriptno/" target="_blank" class="boldUnderline">ScriptNo</a>, that while different and not the same programmer as 
+          <p>I have found (Thanks to <a href="http://www.ghack.net" target="_blank">Ghack.net</a>),
+          <a href="http://code.google.com/p/scriptno/" target="_blank" class="boldUnderline">ScriptNo</a>, that while different and not the same programmer as
           NoScript (a &quot;famous&quot; add-on for Firefox). I have used ScriptNo and think its a great addon to any Chrome-based browser</p>
           <p class="header">Chrome More secure than Firefox?</p>
-          <p>Some say that Chrome is ALOT more secure than Firefox , but that is <span class="boldText">NOT TRUE</span>. Both Browsers have plenty of bugs; however, one thing 
-          I think that fans of both browsers can agree, ... both have less than Internet Explorer 
+          <p>Some say that Chrome is ALOT more secure than Firefox , but that is <span class="boldText">NOT TRUE</span>. Both Browsers have plenty of bugs; however, one thing
+          I think that fans of both browsers can agree, ... both have less than Internet Explorer
           from Microsoft<img src="../../smiles/happy/happy_dance.gif" alt="Dancing Smile" width="40" height="35" class="left" /></p></td>
       </tr>
       <tr>
@@ -93,7 +98,7 @@
         <a href="http://www.moonchildproductions.info/">
         	<img src="../../progIcons/browsers/palemoon_1.png" alt="Pale Moon Icon" width="64" height="64" class="iconsLeft" />
             <span class="boldText">Pale Moon </span></a></td>
-        
+
         <td><ul>
             <li>32-bit or 64-bit</li>
             <li>Installer or Portable</li>
@@ -106,6 +111,4 @@
       </tr>
     </table>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

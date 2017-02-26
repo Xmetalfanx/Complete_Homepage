@@ -1,8 +1,11 @@
 <?php
 
   $the_title = 'Xmetalfanx Software Section - System Tools - CD and DVD Burning Programs';
-  $the_content = <<<EOD
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
+?>
  <div id="softwareSection">
     <ul>
       <li>
@@ -13,18 +16,18 @@
 
         <div class="progDesc">
 			<p>(There are Pro versions availble, though my comments and review are on the free version)</p>
-			
+
 			<p>It has the same bullet points I list in CDBurneXP and InfraRecorder, and it is simple. Not &quot;dumbed down&quot; but
 			&quot;Burning a disc is not &quot;that complicated, so why make it so?&quot; simple. It seems pretty fast (reaction time
 			and burning) too. As I said I like programs that are lite, do what they are suppose to do and do it well.</p>
-			
+
 			<p>In my list of recommended burning software, I will include BurnAware 100% from now on.</p>
-			
+
 			<p>FOR &quot;NEW&quot; USERS, I am not saying CDBurnerXP OR InfraRecoreder are &quot;complicated&quot; or difficult to use,
 			by any means, though I have to say if you are a new (computer) user, then BurnAware Free would by my first recommendation.
 			It has a &quot;lite&quot; GUI-&quot;Wizard&quot; (advanced users, please do not get scared off by this), though (in my
 			opinion) its enough of an Interface to help some users, WITHOUT getting in the way of some more advanced users</p>
-       
+
 	   </div>
 
       </li>
@@ -119,6 +122,4 @@
  </div>
 
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+ <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

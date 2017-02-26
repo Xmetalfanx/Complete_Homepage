@@ -13,4 +13,4 @@
 		$TICUsage = $ArcThemeUsage;
 ?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTIC.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

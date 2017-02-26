@@ -54,22 +54,16 @@ footer .fMessage {
 header {
   color: white;
   background-color: transparent;
-  text-align: left;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: bold;
-  order: 1;
   letter-spacing: 2px;
   float: left;
-  padding-bottom: 0px;
 }
 
 nav {
-  padding-bottom: 2px;
-  padding-left: 0px;
   text-align: right;
-  order: 3;
   /*background-image: $blackNav;*/
 }
 nav a:link,
@@ -89,6 +83,7 @@ nav a:visited {
 nav a:hover {
   color: #ffffe3;
   background-color: navy;
+  text-decoration: none;
 }
 
 .bold {
@@ -288,6 +283,7 @@ nav a:hover {
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   /*font-family: $SegoeUI*/
 }
 #col1 .family a:link,
@@ -411,9 +407,7 @@ nav a:hover {
 }
 
 #distrowatch {
-  width: 50%;
   height: 200px;
-  margin-top: 3px;
   padding-right: 1%;
   margin-right: auto;
   margin-left: auto;
@@ -422,8 +416,6 @@ nav a:hover {
   border: black 2px solid;
   background-color: white;
   font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  order: 3;
   /*margin-left: 50px;*/
 }
 #distrowatch rss-item-full {
@@ -436,19 +428,12 @@ nav a:hover {
 
 #mainBody,
 #mainBodyw {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-content: space-around;
-  align-content: space-around;
-  -webkit-flex-direction: row;
-  flex-direction: row;
   border-bottom: 1px solid black;
-  padding: 1%;
-  color: black;
-  background-color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 0px;
   font-size: 17px;
-  order: 3;
-  z-index: 99;
 }
 #mainBody li,
 #mainBodyw li {
@@ -544,9 +529,6 @@ nav a:hover {
 #valIcons {
   margin-top: 10px;
   background-color: transparent;
-  order: 10;
-  width: 40%;
-  float: right;
 }
 #valIcons img {
   margin-right: 10px;
@@ -710,8 +692,6 @@ nav a:hover {
 }
 
 .distroMainSection {
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 20px;
   padding: 7px;
   border: 1px solid black;
@@ -761,44 +741,36 @@ nav a:hover {
   clear: both;
 }
 
+.panel-default {
+  border: 1px solid black;
+}
+
+/* Note: Do not remove UNTIL the remaining code is moved to custom BootStrap */
 #DESection {
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 20px;
   padding: 7px;
-  border: 1px solid black;
   overflow: auto;
 }
-#DESection .DEName {
+
+/* moved out of #DESection to remove need for that DIV ID */
+.DEName {
   font-size: 20px;
 }
-#DESection .DEs, #DESection .home {
+
+.DEs, .home {
   margin-bottom: 20px;
   clear: both;
   font-size: 18px;
 }
-#DESection .DEs img {
+
+.DEs img {
   width: 40%;
   height: 40%;
   padding: 15px;
   float: left;
 }
-#DESection .DEFeature, #DESection .DESpecs {
-  clear: both;
-  border: 1px solid black;
-  padding: 10px;
-  margin-bottom: 20px;
-  width: 85%;
-  -moz-box-shadow: 4px 3px 5px black;
-  -webkit-box-shadow: 4px 3px 5px black;
-  box-shadow: 4px 3px 5px black;
-  -moz-border-radius: 8px / 8px;
-  -webkit-border-radius: 8px 8px;
-  border-radius: 8px / 8px;
-  margin-right: auto;
-  margin-left: auto;
-}
-#DESection .title {
+
+.title {
   font-weight: bold;
 }
 
@@ -807,10 +779,6 @@ nav a:hover {
   color: white;
   background-color: #323232;
   padding-bottom: 15px;
-  z-index: 100;
-  /* transform               : translateY(10%); */
-  top: 40%;
-  position: relative;
   padding-left: 2%;
 }
 
@@ -863,4 +831,26 @@ nav a:hover {
 #AppSection h5 {
   padding: 10px;
   margin-left: 50px;
+}
+
+/* New idea for desktop Section */
+#desktopInfo {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+}
+#desktopInfo .dePanel {
+  border: 1px solid black;
+  padding: 10px;
+  -moz-box-shadow: 4px 3px 5px black;
+  -webkit-box-shadow: 4px 3px 5px black;
+  box-shadow: 4px 3px 5px black;
+  -moz-border-radius: 8px / 8px;
+  -webkit-border-radius: 8px 8px;
+  border-radius: 8px / 8px;
+  margin-right: auto;
+  margin-left: auto;
+  clear: both;
+  padding-bottom: 20px;
 }

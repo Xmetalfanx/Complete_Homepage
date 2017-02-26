@@ -15,12 +15,12 @@
 	$similar = 'Debian with Cinnamon or Mate installed OR Point Linux  OR a "Cross between Linux Mint (Ubuntu based) and Debian';
 
     $EXP = &$lmdeExp;
-    
+
     $recommend = 'Yes';
     $recComments = ' With Debian, I try to stay with stock debian, though for Linux Mint Debian Editoon
 		(and SoyldXK which are &quot;unoffical editions&quot; or forks of LMDE) ... I can make an exception to that ...
 		LMDE is a GREAT distro if you ask me ';
-    
+
     $experience = 'Since the March 2014 Release, including that version\'s RC\'s';
 
        $description = <<<DES
@@ -50,6 +50,11 @@ DES;
     $UrAvgLinuxUser = ' ';
 
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+    $sitePath = "/home/xmetalx1/public_html";
+
+    include $sitePath . '/linuxHQ/modules/distros.php';
+    include $sitePath . '/linuxHQ/modules/sshots.php';
+    include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+    ?>

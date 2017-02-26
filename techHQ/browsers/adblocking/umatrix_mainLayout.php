@@ -1,13 +1,14 @@
 <?php
 
 	 $the_title = 'Xmetalfanx Browser Section - Umatrix Layout ';
-  	  $the_content = <<<EOD
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
+?>
 
 	<h1>Umatrix Layout</h1>
-   
    <h3>The top bar all the way on the left -</h3>
-    
+
 	<p>
       <img src="/techHQ/browsers/adblocking/screenshots/umatrix/globalRulesBlack.jpg"
       alt="Umatrix Global Rule" />
@@ -22,7 +23,7 @@
         radar page.</li>
       </ul></li>
     </ul>
-   
+
    <h3>The Main Layout - Spreadsheet Metaphor</h3>
     <p>Think of the the main layout like a spreadsheet.</p>
     <ul>
@@ -47,12 +48,12 @@
         </ul>
       </li>
     </ul>
-    
+
 	<h3>Two Types of Global Rules</h3>
     <hr class="section" />
-    
+
 	<h4>Global filters based on DOMAIN</h4>
-   
+
    <ul>
       <li>
       <strong>Location:</strong> The left hand side, going down…one column
@@ -65,7 +66,7 @@
       hand side</li>
     </ul>
     <hr class="section" />
-   
+
    <h4>Global Filters based on CONTENT</h4>
     <ul>
       <li>
@@ -75,7 +76,4 @@
       you manage the content in question block or all) globally. That is across EVERY site/domain.</li>
     </ul>
 
-
-EOD;
-?>
- <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

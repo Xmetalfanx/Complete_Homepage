@@ -6,12 +6,12 @@
   <p class="col2SectionHeaders">Introduction</p>
   <p>I am not going to go into any kind of details explaining things about Debian, though I will mention some points I want to clear up  </p>
   <ul>
-    <li>There are four Debian branches (listed below) ...Packages or even just Package Versions filter down from the most &quot;bleeding edge, but maybe unstable branch&quot; to the &quot;stable&quot; branch ... 
+    <li>There are four Debian branches (listed below) ...Packages or even just Package Versions filter down from the most &quot;bleeding edge, but maybe unstable branch&quot; to the &quot;stable&quot; branch ...
       <ul>
         <li>IF THERE IS ONE DISTRO team of developers that really test thing and make sure its ROCK-SOLID/STABLE for the users, before a package goes into the &quot;Stable&quot; branch, its the Debian developers.</li>
         </ul>
     </li>
-    <li>Now ... the branch names ... NOT TO BE CONFUSED WITH &quot;CODENAMES&quot; .... WHICH I WILL LIST BELOW 
+    <li>Now ... the branch names ... NOT TO BE CONFUSED WITH &quot;CODENAMES&quot; .... WHICH I WILL LIST BELOW
       <ul>
         <li><span class="terms">Experiemental</span> - The MOST BLEEDING EDGE.. I am not saying dont poke around this one ... I choose not to though this is the branch that would be most likely to break your system</li>
         <li class="terms">Unstable </li>
@@ -28,7 +28,7 @@
     <li>&quot;Wheezy&quot;, &quot;Jessie&quot;, &quot;sid&quot; (just three examples thar are used at the time I am typing this are (Based on Toy Story characters) just what branch is currently in the </li>
   </ul>
   <ul>
-    <li>METAPHOR .. PLEASE IGNORE THIS IF YOU ALREADY UNDERSTAND WHAT i AM SAYING. 
+    <li>METAPHOR .. PLEASE IGNORE THIS IF YOU ALREADY UNDERSTAND WHAT i AM SAYING.
       <ul>
         <li>The ACTUAL BRANCHES are like chairs with labels on them ... the chairs with the four labels are ALWAYS there and in the same place... </li>
         <li>The &quot;Codenames&quot; as I call them are like people in those chairs .... (You make thank me for this metaphor in a second)
@@ -36,7 +36,7 @@
             <li>When you decide to change up to another branch .... you have two choices (Say upgrading the from the STABLE BRANCH)
               <ul>
                 <li>You can then upgrade/&quot;choose to follow&quot; the TESTING BRANCH OR</li>
-                <li>You can follow (current testing branch at the time I am typing this, (codename Jessie) </li> 
+                <li>You can follow (current testing branch at the time I am typing this, (codename Jessie) </li>
                 </ul>
               </li>
             </ul><br /><br />
@@ -56,7 +56,5 @@
   <p>CONFUSED YET? </p>
   <p>&quot;  What should I do?&quot;... HONESTLY it doesn't matter either way ... its a piece of cake to change, as you will find out further in this section</p>
 
-EOD;
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+	<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

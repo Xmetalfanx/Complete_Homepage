@@ -1,23 +1,17 @@
+<?php
+    $sitePath = "/home/xmetalx1/public_html";
+	  include $sitePath . "/templates/linux/massLinuxIncludes.tpl";
+    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
+?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/aboutme/experience.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/common.php'); ?>
 
-<!doctype html>
-<html>
+## Look over this to slim it down
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeadTag.php'); ?>
-<body>
-
-    <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeader.php'); ?>
-
-    <div id="mainBody">
-        <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
-        <div id="col2">
+<?php include $sitePath . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
+  <div id="col2">
 			<?php
 
-			   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/database/dbconnect.php');
+			   include $sitePath . ('/linuxHQ/database/dbconnect.php');
 
 			   //Variables
 			   $distroTitle = $display["name"];
@@ -25,7 +19,7 @@
 			   $distroIcon = '<img src=" ' . $display["icons"] . ' " alt=" ' . $display[distroName] . ' \'s Homepage" />';
 			   $homepage = '<a href=" ' . $display[homepage] . ' " > '  . $display[distroName] . ' \'s Icon " > ';
 			   $forum = '<a href=" ' . $display[forum] . ' " > '  . $display[distroName] . ' \'s Forum " > ';
-			  	$ytReview = '<a href=" ' . $display[ytplaylist] . ' " > '  . $display[distroName] . ' \'s Youtube Review Playlist \" > ';
+			  $ytReview = '<a href=" ' . $display[ytplaylist] . ' " > '  . $display[distroName] . ' \'s Youtube Review Playlist \" > ';
 			 	$download = '<a href=" ' . $display[download] .  ' " > '  . $display[distroName] . ' \'s Downloads \" > ';
 				$distroWatch = '<a href=" ' . $display[distroWatch] . ' " > '  . $display[distroName] . ' \'s Distrowatch Page" > ';
 				$tweakPL = '<a href=" ' . $display[tweakPL] . ' " > '  . $display[distroName] . ' \'s Youtube Tweak Playlist \" > ';
@@ -84,12 +78,10 @@
 
 						echo "<div style=\"clear:both; margin-top: 15px;\" class=\"distRevTitle\">Reviews</div>";
 
-						include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxDistroReviewer.php');
+						include $sitePath . ('/linuxHQ/modules/linuxDistroReviewer.php');
 
 						echo "<div id=\"personalExp\">" ;
 						echo "<div class=\"distRevTitle\">My Experience: </div>";
-
-
 
 				   echo $EXP "<br />";
 				   echo $experience "<br /><br />";
@@ -112,20 +104,11 @@
 				   echo "<div id=\"personalExp\">";
 				   echo "<div class=\"distRevTitle\"> USB Drive Creation Experience </div> <br />";
 
-				   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/usb.php');
+				   include $sitePath . ('/linuxHQ/modules/usb.php');
 
 				   echo "</div>";
 			   };
 
 			 ?>
 		</div>
-
-
-
-
 	</div>
-			 <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter.php'); ?>
-			 
-		<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter2.php'); ?>
-</body>
-</html>

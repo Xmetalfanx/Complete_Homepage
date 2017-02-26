@@ -1,11 +1,12 @@
 <?php
 
-  $title = 'Xmetal TechHQ - Browser Section - Prevent Browser Crashes and Hangups';
-  
-    $the_content = <<<EOD
-	
+  $title = 'TechHQ - Browser Section - Prevent Browser Crashes and Hangups';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+
+?>
 	<h1 id="browsers">Browsers</h1>
-	
+
 		<ul>
 			<li>
 				<p>Firefox - Alot of people love Firefox, alot of people hate it.. I am one of those who love it despite even I have had it freeze on me, recently. </p>
@@ -29,7 +30,7 @@
 				<p>  Blocks Javascript (with a whitelist for those that you want to allow), and some other malicious code that can auto "run" when you visit a website</p>
 			</li>
 			<li>
-				<p><a href="http://flashblock.mozdev.org/">Flashblock</a><br> 
+				<p><a href="http://flashblock.mozdev.org/">Flashblock</a><br>
 			 Like NoScript, it blocks Flash from auto playing … may not make a difference for high speed internet users, but especially dialup users can benefits from
 			  this add-on.<br>This of course also has a whitelist that can allow sites you know are ok and want to see the flash for.</p>
 			</li>
@@ -42,7 +43,4 @@
 			</li>
 			</ul>
 
-EOD;
-?>
- 
- <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -6,8 +6,8 @@ include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
     $deSShot = $lxleSShot1;
     $deFeatured = 'Lubuntu, LXLE';
     $deClass = 'Lightweight';
-   
-   
+
+
     // installs
 	$installUbuntu = '  apt-get install lxde or apt-get install lubuntu-core lubuntu-icon-theme lubuntu-restricted-extras';
 	$installMint =	'apt-get install lxde or apt-get install lubuntu-core lubuntu-icon-theme lubuntu-restricted-extras  ';
@@ -19,8 +19,7 @@ include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
 	$installGentoo = '  ';
 
 $title = 'DE/WM Section - LXDE ';
-	
+
 
 ?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDE.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

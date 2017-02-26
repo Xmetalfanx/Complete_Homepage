@@ -1,9 +1,11 @@
-<?php 
-		$the_title = 'Xmetalfanx - TechCenter - How to Update Windows without connecting to Microsoft';
-		$the_content = <<<EOD
+<?php
+		$the_title = 'TechCenter - How to Update Windows without connecting to Microsoft';
+		$sitePath = "/home/xmetalx1/public_html";
+		include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
 
+?>
       <p class="boldCenter">
-      <a href="#m1">Method 1 of Updating (Firefox and free plugin) </a>| 
+      <a href="#m1">Method 1 of Updating (Firefox and free plugin) </a>|
       <a href="#M2">Method 2 of Updating (Belarc)</a></p>
       <hr />
       <p class="boldTitles"><a name="m1" id="m1"></a>Method 1</p>
@@ -34,7 +36,7 @@
       <ol>
         <li>Just run Belarc by clicking the Belarc Icon on your Start Menu OR Desktop </li>
         <li>Your Browser will open with &quot;Profile&quot; of your PC and look for where it says <span class="redtext">System Security Scanner</span> and look at where it says <span class="redtext">&quot;Microsoft Security Updates&quot;</span> (This screenshot was taken from a PC with all patches, but you may have a red X
-          and a message like &quot;3 patches/hotfixes missing) 
+          and a message like &quot;3 patches/hotfixes missing)
           <ul>
             <li><img src="UPDATE/SSS.jpg" alt="Belarc Summary Screenshot" width="518" height="76" /></li>
           </ul>
@@ -43,7 +45,6 @@
         <li>go to the MS link and download the patches manually or go to a site like <a href="http://windowsupdate.62nds.com/" target="_blank">WindizUpdate Plugin / Addon</a> (Listed above) and go to the &quot;search&quot; menu on the left ... copy and paste the patch you need (AKA &quot;<span class="redtext">Q22423</span>&quot;) into that and manually get the exe of the patch from <a href="http://windowsupdate.62nds.com/" target="_blank">WindizUpdate Plugin / Addon</a> ... this way you can back those exe's up onto a CD-R and install them in other computers or just plain know what updates you need if you reformat so that you do not have to waste a ton of time re-downloading the updates you previously had already :D </li>
       </ol>
     </div>
-    
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechCenterTemplate.php"); ?>
+
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

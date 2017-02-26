@@ -1,6 +1,6 @@
  <?php
     $title = 'Distribution Section - ArchBang';
-    
+
     $name = 'ArchBang';
     $family = 'Arch';
     $icon = '<img src="../../graphics/icons/archbang.png" width="90" height="89"  alt="Archbang Icon"/>';
@@ -10,19 +10,19 @@
     $forum = '<span class="Info"><a href="http://bbs.archbang.org/">http://bbs.archbang.org/</a></span> ';
     $distroWatch = ' <a href="http://distrowatch.com/archbang" target="_blank">http://distrowatch.com/archbang</a> ';
     $DE = 'Openbox ';
-    $distroSshot = ' '; 
+    $distroSshot = ' ';
     $target = 'Moderate to Advanced Users';
     $type = 'Rolling Release';
     $software = 'Bleeding Edge';
     $similar = 'Like the Arch family version of Chrunchbang ';
-    
-    
+
+
     $recommend = '';
     $recComments = ' ';
-  
+
     	$newbRecommend = ' ';
 		$newbRecComments = ' Basically &quot;No&quot;, just because I wouldn\'t recommend an Arch based Distro to any new user ';
-    	
+
        $mm 			= ' ';
         $kaddy 			= ' ';
         $dasGregor 		= ' ';
@@ -36,29 +36,34 @@
         $midFingr 		= ' ';
         $UrAvgLinuxUser = ' ';
 
-    
+
 
 	$experience = <<<EXP
-    	
-		Running a version from early 2014 for a few weeks 
+
+		Running a version from early 2014 for a few weeks
 
 EXP;
 
    $description = <<<DES
-       Archbang is an Arch Spin with the $DE Desktop preinstalled and preconfigured.  Archbang is geared for Arch users and users who want 
+       Archbang is an Arch Spin with the $DE Desktop preinstalled and preconfigured.  Archbang is geared for Arch users and users who want
        a desktop experienece that puts speed and eviencie above so called flash.
-   
+
 DES;
 
 
 	$otherComments = <<<COM
 
-	Only reason I removed it, was to get my hands dirty installing &quot;stock Arch Linux &quot; from scratch ... 
-	and if you do that (which I did) and add Openbox to Arch ... you (basically) have Arch Bang 
+	Only reason I removed it, was to get my hands dirty installing &quot;stock Arch Linux &quot; from scratch ...
+	and if you do that (which I did) and add Openbox to Arch ... you (basically) have Arch Bang
 
 COM;
 
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+$sitePath = "/home/xmetalx1/public_html";
+
+include $sitePath . '/linuxHQ/modules/distros.php';
+include $sitePath . '/linuxHQ/modules/sshots.php';
+include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+?>

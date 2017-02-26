@@ -16,11 +16,11 @@
 
 	  $recommend = ' Yes';
 	  $newbRecommend = ' ';
-     
+
     $EXP = &$cruchbangExp;
-    
+
       $description = <<<DES
-        Crunchbang is a Debian Based distro that works great on older (any hardware for that matter) Hardware and 
+        Crunchbang is a Debian Based distro that works great on older (any hardware for that matter) Hardware and
         is compatible with most of the Debian packages (That makes for a very stable system).  The lightweight
         Openbox is the window manager used in Crunchbang by default.
 DES;
@@ -38,12 +38,16 @@ DES;
 	  $midFingr = ' ';
 	  $UrAvgLinuxUser = ' ';
 
-
-
 	$otherComments = '<p>Crunchbang is basically Debian with Openbox as the default Window Manager. Crunchbang DOES have its own software
 						repositiories, though I am saying &quot;basically&quot; what it is	</p>'
 
 
-?>
+?
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+$sitePath = "/home/xmetalx1/public_html";
+
+include $sitePath . '/linuxHQ/modules/distros.php';
+include $sitePath . '/linuxHQ/modules/sshots.php';
+include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+?>

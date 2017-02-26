@@ -10,9 +10,9 @@
 	$DE = ' ';
 	$distroSshot = &$pclosKDE1;
 
-	
+
 	$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJcmkhysmXDXLmlmRvM3I8BZ" target="_blank">PCLinuxOS Review Playlist</a>    ';
-		$TweakPL = '   '; 
+		$TweakPL = '   ';
 
    $EXP = &$PCLOSExp;
 
@@ -40,6 +40,11 @@
 
   $title = 'Distribution Section - PCLinuxOS';
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+  $sitePath = "/home/xmetalx1/public_html";
+
+  include $sitePath . '/linuxHQ/modules/distros.php';
+  include $sitePath . '/linuxHQ/modules/sshots.php';
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+  ?>

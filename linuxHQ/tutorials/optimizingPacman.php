@@ -1,8 +1,6 @@
 <?php
 
 	$title = 'Tutorial Section - Adding PPAs to any Ubuntu Based Distro';
-	$content = <<<EOD
-
 
 		<h1>Optimizing Pacman Mirrors</h1>
 		<h2>References</h2>
@@ -69,10 +67,4 @@
 
 <p><em>Updating via pacman is planned for an entirely other section, by the way</em></p>
 
-
-
-
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

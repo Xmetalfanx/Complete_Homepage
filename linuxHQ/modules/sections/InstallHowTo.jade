@@ -1,0 +1,27 @@
+//output:installHowToJade.tpl
+div.row
+  div.headers How to install (command line instructions) :
+    div(style="clear:both;")
+    p On Ubuntu-based Systems: #
+        span.italics(Ubuntu, elementaryOS, Deepin, Linux Lite, any *buntu distro, LXLE, ...etc )
+      div.code <?php echo $installUbuntu; ?>
+    p On Linux Mint:
+      div.code <?php echo $installMint; ?>
+
+    p On Debian:
+      div.code <?php echo $installDebian; ?>
+        <br /><br /><br />
+        p  On Arch based Systems:
+          div.code <?php echo $installArch; ?>
+          <br />
+        p  On OpenSuse
+          div.code  <?php echo $installSuse; ?>
+            <br />
+        p  On Fedora 21 and prior (with yum ... before the switch to dnf):
+          div.code <?php echo $installFedora; ?> <br />
+
+        p  On PCLinuxOS:
+          div.code <?php echo $installPCLOS; ?><br />
+
+        p  On Gentoo:
+          div.code <?php echo $installGentoo; ?>

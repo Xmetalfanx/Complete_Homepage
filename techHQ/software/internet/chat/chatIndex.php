@@ -1,11 +1,13 @@
 <?php
 
   $title = ' ';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-    $the_content = <<<EOD
- 
- 
-    <h1>Multi Clients/ Varied Network Clients</h1>
+?>
+
+<h1>Multi Clients/ Varied Network Clients</h1>
     <ul>
       <li>
         <img src="/techHQ/progIcons/internet/chatIcons/854__pidgin.gif" alt="Pidgin Icon" width="32" height="32"
@@ -127,7 +129,7 @@
         complicated for some users, like MIRC may be.</p>
       </li>
     </ul>
- 
+
 
 EOD;
 ?>

@@ -1,28 +1,31 @@
 <?php
 
-	$title = 'Tutorial Section - Adding PPAs to any Ubuntu Based Distro';
-	$content = <<<EOD
+    $title = 'App Section - Adding PPAs to any Ubuntu Based Distro';
 
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . '/templates/linux/massLinuxInclude.tpl';
+  include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
 
+?>
 
-    <h2>
+<h2>
     <a href="#more-ppas"></a>More PPAs</h2>
     <ul>
       <li>
         <h5>Streaming audio recorder - Can record streaming audio</h5>
 			<code>sudo add-apt-repository ppa:audio-recorder/ppa </code>
       </li>
-      
+
       <li>
         <h5>Installing a few tweak tools for Ubuntu/Unity</h5>
 			<code>sudo apt-get install unsesttings unity-tweak-tool</code>
       </li>
-      
+
       <li>
         <h5>Grub Customizer PPA</h5>
 			<code>sudo add-apt-repository ppa:danielrichter2007/grub-customizer</code>
       </li>
-     
+
       <li>
         <p>
           <strong>Webmin on Ubuntu 14.04</strong>
@@ -48,12 +51,12 @@
       <br />
       <img src="http://www.webmin.com/screens2/firewall-edit.png" alt="Firewall Rule Creation" />
     </p>
-  
-  
+
+
     <ul>
       <li>
         <h5>Deepin Linux PPA - With the Deepin Software Center</h5>
-    
+
 			<code>sudo add-apt-repository ppa:noobslab/deepin-sc</code>
 
       </li>
@@ -67,7 +70,7 @@
           </li>
         </ul>
       </li>
-    
+
       <li>
         <h5>Y PPA Manager - Search, Purge, and Manage PPA’s</h5>
 			<code>sudo add-apt-repository ppa:webupd8team/y-ppa-manager</code>
@@ -88,9 +91,4 @@
       </li>
     </ul>
 
-
-
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNTutorials.php"); ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

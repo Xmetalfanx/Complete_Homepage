@@ -1,8 +1,10 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section - ';
-  	  $the_content = <<<EOD
+	 $the_title = 'Browser Section - uBlock Confusion';
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
+?>
   <h2>“Ublock” vs “Ublock Origin” confusion</h2>
    <img src="/techHQ/browsers/adblocking/icons/ublockO.png" alt="Ublock Origins Icon" class="iconsLeft">
 
@@ -72,6 +74,4 @@
       </li>
     </ul>
 
-EOD;
-?>
- <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

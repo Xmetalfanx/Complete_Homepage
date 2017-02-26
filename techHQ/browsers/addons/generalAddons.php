@@ -1,8 +1,9 @@
 <?php
 
     $the_title = 'Xmetal TechHQ - Browser Section - General Purpose Addons';
-    $the_content = <<<EOD
-
+    $sitePath = "/home/xmetalx1/public_html";
+ 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+ ?>
 
 			<h2><a href="https://addons.mozilla.org/?application=firefox">Main Firefox Addon Homepage</a></h2>
 			<h3>Overall Add-on Comments</h3>
@@ -468,7 +469,4 @@
 
 			</div>
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

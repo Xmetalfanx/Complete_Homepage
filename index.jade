@@ -1,0 +1,64 @@
+//output:jadeTest.php
+
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+
+    title  Xmetal&apos;s Homepage
+    
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css', integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ', crossorigin='anonymous')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn', crossorigin='anonymous')
+
+    // link(href='/stylesheets/layout.css', rel='stylesheet', type='text/css', media='all')
+    // link(href='/stylesheets/smallerLayout.css', rel='stylesheet', type='text/css', media='(max-width: 700px)')
+
+  body
+    .container-fluid
+      .row.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-12(role="Navigation")
+        nav.navbar.navbar-dark.bg-inverse
+          button.navbar-toggler.hidden-md-up.navbar-toggler-right(type="button", data-toggle="collapse")
+            &#9776;
+          a.navbar-brand(href="") Xmetal's Homepage
+          .collapse.navbar-collapse#navbarNav
+          
+          ul.nav navbar-nav  
+            li.nav-item
+              a.nav-link(href="") Linux HQ 
+            li.nav-item
+              a.nav-link(href="") Tech HQ 
+              
+    .container   
+      .row
+        .card.hidden-md-down
+          .card-block
+            h4.card-header R.I.P. Midfngr            |     
+            p.card-text
+              p Please visit
+              img.show-for-medium(src="/graphics/midfngr.jpg", alt="midfngr thumbnail")
+              a.show-for-medium(href="https://www.youtube.com/user/midfingr/undefined", target="_blank")  Midfngr's Youtube Channel
+    
+        .card
+          .card-block
+            h3.card-header ATTENTION!
+            p.card-text
+              p Most of the site is broken at the moment ... I have a big idea on my side of things how to redo a few items to make it easier to manage and fix a few things that have been annoying me ... bottom line is I KNOW ITS BROKEN
+              
+        .card
+          .card-block
+            p.card-text
+              p Feb 7 2017 Update - I have been working on the templates and converting stuff over so i can then just go into the individual pages and apply the new way I am doing things all at once.  Think of it like before I get all the furnature in and setup just right ... I have to get the framework of the house setup the way I want/need first.  
+
+        
+        <?php include "/modules/socialMediaIcons.tpl"; ?>
+        
+    .container-fluid.fixed-bottom
+      .row.bg-inverse(role="footer")
+        .col-lg-6 
+          span Validation Gif Here 
+        .col-lg-6  
+          span Xmetal/Xmetalfanx 2013-*
+
+      
+      // jQuery (necessary for Bootstrap's JavaScript plugins)
+      script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')

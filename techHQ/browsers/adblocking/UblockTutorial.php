@@ -1,7 +1,10 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section - ';
-  	  $the_content = <<<EOD
+	 $the_title = '- Browser Section - ';
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+
+?>
 
 	<p>This is meant to cover slightly more advanced topics</p>
 		<h5>Knowing if Ublock is Enabled or not</h5>
@@ -53,10 +56,10 @@
 						</p>
 						<ul>
 							<li>
-								<p>You as a user, visits 
+								<p>You as a user, visits
 									<em>http://www.siteA.com</em>.</p>
-								<p>You may allow items from the domain 
-									<em>SiteA.com</em> (considered a first party domain since its the same as the URL/Link you are visiting), 
+								<p>You may allow items from the domain
+									<em>SiteA.com</em> (considered a first party domain since its the same as the URL/Link you are visiting),
 									<em>SiteB.com</em>, though block everything else.</p>
 								<p>OF COURSE this can be adjusted by advanced user, as you visit the site, so if something &quot;doesn&#39;t look
 									right&quot; on a site, you can allow/block domains, then refresh the page to reflect to those changes.</p>
@@ -67,7 +70,7 @@
 			</li>
 		</ul>
 		<hr />
-		
+
 		<h3>Dynamic Filtering in Ublock Explained</h3>
 		<ul>
 			<li>
@@ -82,29 +85,29 @@
 				</p>
 			</li>
 		</ul>
-		
-		
+
+
 		<h4>What is a Dynamic Filter?</h4>
 		<p>A Dynamic filter is a more advanced filter than the regular static filter</p>
 		<h4>Global Dynamic Rules</h4>
-		<p>Basically a 
+		<p>Basically a
 			<em>Global Dynamic Rule</em> is just a default rule that is a applied to any site you visit, without having to change the
 			&quot;allow/deny&quot; settings all the time, if you know you always want to take the same action with that domain</p>
 		<h5>Example of Global -vs- Per-site Dynamic Filtering</h5>
 		<p>*YOU CAN ADJUST dynamic filter settings to over-right the global settings, so if you (example) want to deny Facebook.com, on
-			everything except &quot;Facebook.com&quot;, you would set the global rule for Facebook.com do 
+			everything except &quot;Facebook.com&quot;, you would set the global rule for Facebook.com do
 			<strong>deny</strong> (red), and ON &quot;Facebook.com&quot; &#39;s per-site dynamic filtering settings, you would set the
-			dynamic filter for 
+			dynamic filter for
 			<em>Facebook.com</em>
 		</p>
-		
+
 		<h4>What are the red, green and black settings and what do they mean?</h4>
 		<p>filler</p>
-		
+
 		<h4>What is a noop-rule? (I just found this out myself)</h4>
 		<p>Filler</p>
 		<hr />
-		
+
 		<h2>Various pages such as FAQs answered by Gorhill himself</h2>
 		<ul>
 			<li>
@@ -128,8 +131,5 @@
 				</p>
 			</li>
 		</ul>
-		<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
 
-EOD;
-?>
- <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

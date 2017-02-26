@@ -22,35 +22,6 @@ body {
 }
 
 
-#bottomHeader {
-  @include           display-flex;
-  @include           flex-direction(column);
-  z-index          : 990;
-  clear            : both;
-  padding-top      : 3px;
-  padding-bottom   : 2px;
-  padding-left     : 2px;
-  color            : $black;
-  border-top       : 1px solid rgba(204, 204, 153, 0.95);
-  background-color : $white;
-  text-align       : left;
-  font-family      : $SegoeUI;
-  font-size        : 11px;
-  order            : 6;
-  a:link {
-    text-decoration : none;
-    font-family     : "Segoe UI",
-                      Arial,
-                      Helvetica,
-                      sans-serif;
-    font-size       : 11px;
-  }
-  a:hover {
-    color            : #660000;
-    background-color : transparent;
-  }
-}
-
 img {
   margin-top    : 0px;
   margin-right  : 0px;
@@ -242,18 +213,12 @@ h2 {
   padding-top      : 2px;
   padding-right    : 2px;
   padding-bottom   : 0;
-  color            : $tanL;
   overflow         : visible;
   outline         : $solidBorder;
-  background-color : $darkGray;
   text-align       : left;
   font-family      : $Verdana;
-  font-size        : 14px;
   font-weight      : bold;
   padding-left     : 5px;
-    @include   autoMargin();
-    width: 75%;
-
 }
 
 .progtableColL {
@@ -449,37 +414,21 @@ h2 {
 
 #bannerText {
   text-shadow      : 1px 1px 5px rgba(0, 0, 0, 0.85);
-  font-family      : $SegoeUI;
   font-size        : 40px;
-  font-weight      : bold;
-  order            : 1;
   letter-spacing   : 2px;
   float			 :  left;
 }
 
 footer {
 
-  margin-bottom     : 0px;
-  padding-top       : 10px;
-  padding-right     : 0px;
-  padding-bottom    : 0px;
-  padding-left      : 0px;
-  overflow          : hidden;
-  border-bottom     : $solidBorder;
-  border-left       : $solidBorder;
-  background-color  : $darkGray;
-  background-repeat : repeat-x;
-  text-decoration   : none;
   font-family       : $Arial;
-  order             : 7;
 
-
-    /*background-image: url(../graphics/navbar_trials/tan/tan3.png);*/
   a:link {
     color : $white;
   }
 }
 
+/* Do not remove UNTIL YOUR SURE you dont need it amy longer */
 #col1 {
   z-index          : 500;
   margin-bottom    : 15px;
@@ -575,7 +524,7 @@ footer {
 
   margin-top       : 0px;
   padding-top      : 1px;
-  color            : $white;
+  color            : $black;
   background-color : transparent;
   text-align       : right;
   text-decoration  : none;
@@ -659,43 +608,35 @@ p.justify {
 
   z-index          : 99;
   padding-top      : 3px;
-  color            : #990000;
-  border-color     : $black;
   background-color : $white;
   font-family      : $SegoeUI;
   font-size        : 14px;
   font-weight      : normal;
-  order            : 3;
-  direction        : ltr;
-  padding-right: 1%;
 
-      .iconCenter {
+  .container
+    {
+      width: 90%;
+
+    }
+
+  .iconCenter {
         width  : 32px;
         height : 32px;
       }
-      .iconsLeft {
-        width        : 32px;
-        height       : 32px;
-        float        : left;
-        clear        : right;
-        margin-right : 14px;
-        margin-left  : 0;
-        padding      : 0;
-            /*padding-right: 10px;*/
-      }
-      .imgCentWrapBoth {
+
+  .imgCentWrapBoth {
         @include   autoMargin();
         display  : block;
         clear    : none;
       }
 
-      a:link {
+   a:link {
         color            : #000099;
         background-color : transparent;
         text-decoration  : none;
       }
 
-      a:visited {
+    a:visited {
         color               : #990000;
         border-bottom-color : #660000;
         border-bottom-width : 1px;
@@ -727,6 +668,18 @@ p.justify {
       }
 }
 
+.iconsLeft {
+  width        : 32px;
+  height       : 32px;
+  float        : left;
+  clear        : right;
+  margin-right : 14px;
+  margin-left  : 0;
+  padding      : 0;
+      /*padding-right: 10px;*/
+}
+
+
 nav {
   color            : $tanL;
   /*  border           : 1px dotted rgba( 255, 255, 255, .80); */
@@ -757,7 +710,6 @@ nav {
     color : lemonchiffon;
   }
 }
-
 #navButton {
   display : none;
 }
@@ -903,8 +855,15 @@ h4 {
 
 }
 
+<<<<<<< HEAD
 #GAOTD
 {
   order: 7;
 
+=======
+.container
+{
+
+  width: 96%;
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
 }

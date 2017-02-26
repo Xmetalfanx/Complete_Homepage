@@ -1,0 +1,44 @@
+//output:linuxDistroContent.html
+div.container
+  div.row
+    div.col-lg-3
+      div.icon <?php echo $icon; ?>
+    div.col-lg-6
+      div.distroTitle <?php echo $name; ?> 
+    <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/distroTable.php'); ?>
+   	<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/ytsection.php'); ?>
+
+
+div.panel.panel-default
+	div.panel-heading
+		h3.panel-title Description
+	div.panel-body
+    <?php echo $description; ?>
+    
+	div.bold Screenshots
+    div#distroShots <?php echo $distroSshot; ?>
+    
+  div.distRevTitle Reviews
+		<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxDistroReviewer.php'); ?>
+
+div.panel.panel-default
+  div.panel-heading
+    h3.panel-title My Experience: 
+  div.panel-body
+    <?php echo $EXP; ?> <br />
+    <?php echo $experience; ?> <br /><br />
+    
+    div.boldUnderline Any other comments I have about this distro: 
+      <?php echo $otherComments; ?><br />
+      <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/distroRec.php'); ?>
+      
+
+// ENtire USB Section is BStrapped
+div.panel.panel-default
+  div.panel-heading
+    h3.panel-title USB Drive Creation
+  div.panel-body
+    p a(href="/linuxHQ/info.php",target="_blank") Explaination of what this section is
+      div.usb
+			     <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/usb.php'); ?>
+		

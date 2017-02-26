@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
     $sitePath = "/home/xmetalx1/public_html";
     $the_title = 'Xmetalfanxs Contact Page';
@@ -6,6 +7,12 @@
 
 ?>
 
+=======
+
+    	$the_title = 'Xmetalfanx\'s Homepage - Contact Information ';
+?>
+
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
 
   <p class="header">Contacts</p>
   <script type="text/javascript">
@@ -17,4 +24,8 @@ var jglgbva = ['l','a','o','e','r','c','"','t','e','.','"','@','o',' ','m','a','
 </div>
 
 
+<<<<<<< HEAD
   <?php  include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+=======
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e

@@ -1,24 +1,28 @@
-<?php 
+ <?php
 
-		$the_title =  'Xmetalfanx FAQ Section - What to do when your computer is acting up';
-		$the_content = <<<EOD
-	
-      <p>Things to check when, your system seems to be acting strange. (In order ... somewhat... but not necessarily) </p>
+		$the_title =  '- FAQ Section - What to do when your computer is acting up';
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
+
+  ?>
+
+
+<p>Things to check when, your system seems to be acting strange. (In order ... somewhat... but not necessarily) </p>
       <ol>
         <li><u>Check for Viruses/Trojans/Worms
           </u>
           <ul>
-            <li>The <span class="interestsTitles">Two best Scanners</span> (as mentioned many places on my site here) are 
-            <a href="http://www.kaspersky.com">Kaspersky Antivirus </a>or 
+            <li>The <span class="interestsTitles">Two best Scanners</span> (as mentioned many places on my site here) are
+            <a href="http://www.kaspersky.com">Kaspersky Antivirus </a>or
             <a href="http://www.bitdefender.com" target="_blank">Bit Defender</a></li>
-            <li>The rest (not necessarily all of them though, tend to be &quot;patchy&quot; in how good their detection actually 
+            <li>The rest (not necessarily all of them though, tend to be &quot;patchy&quot; in how good their detection actually
             is</li>
-            
+
             <li>Mcafee and Norton in my option are the two worst</li>
             <li>Some people swear by their anti-trojan scanners too (<a href="http://www.moosoft.com" target="_blank">
 				The Cleaner</a>, for instance), but any virus scanner worth anything if you ask me, will detect
 				 most trojans or worms too, if fully updated</li>
-            <li>AVAST and AVG (two freeware scanners ... although there may be more ..) 
+            <li>AVAST and AVG (two freeware scanners ... although there may be more ..)
             <span class="boldItalics">ARE IN FACT</span> better options for background scanning and detection overall ... then Mcafee or Norton.</li>
           </ul>
         </li>
@@ -32,6 +36,4 @@
         </li>
       </ol>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechCenterTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

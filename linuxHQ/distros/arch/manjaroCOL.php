@@ -17,11 +17,11 @@
       $software = 'Bleeding Edge';
 
 
-      $recommend = 'Yes';    
+      $recommend = 'Yes';
       $recComments = '   ';
-                           
-      
-      
+
+
+
       $newbRecommend = 'Yes';
       $newbRecComments = ' ';
 
@@ -31,11 +31,11 @@
 EXP;
 
 	$otherComments = <<<COM
-        I did not care for the customization, myself THOUGH I must admit .. This respin is for Spatry's fan that DO like the look of the way 
-        he has his desktop setup, so if you have seen his videos and like the way he has things setup .. .then this distro IS for you then. 
+        I did not care for the customization, myself THOUGH I must admit .. This respin is for Spatry's fan that DO like the look of the way
+        he has his desktop setup, so if you have seen his videos and like the way he has things setup .. .then this distro IS for you then.
 COM;
-        
-  
+
+
         $mm                = ' '
         $kaddy             = ' '
         $dasGregor         = ' '
@@ -49,7 +49,16 @@ COM;
         $midFingr          = ' '
         $UrAvgLinuxUser    = ' '
 
+
+
+
+
+
+
+        $sitePath = "/home/xmetalx1/public_html";
+
+    		include $sitePath . '/linuxHQ/modules/distros.php';
+    		include $sitePath . '/linuxHQ/modules/sshots.php';
+    		include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
 ?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
-

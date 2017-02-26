@@ -1,7 +1,11 @@
 <?php
 
-  $the_title ='Xmetalfanx Useful Programs Section - NIRSOFT Programs';
-  $the_content = <<<EOD
+  $the_title ='Useful Programs Section - NIRSOFT Programs';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
+?>
 
 <div id="softwareSection">
 
@@ -140,6 +144,4 @@
     </ul>
 	</div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+  <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

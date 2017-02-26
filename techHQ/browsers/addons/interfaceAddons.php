@@ -1,12 +1,13 @@
 <?php
 
-  $the_title = 'Xmetal TechHQ - Browser Section - Interface Related Addons';
-    $the_content = <<<EOD
+  $the_title = 'Browser Section - Interface Related Addons';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+?>
 
+<h3>Interface Tweaking Addons</h3>
 
-            <h3>Interface Tweaking Addons</h3>
-
-        			<div id="browser">
+<div id="browser">
         			<ul>
         			  <li>
         				  <div class="title">
@@ -41,7 +42,7 @@
                 <div class="description">
         				<p>Adds some features and little tweaks to the Gmail Interface that improves a user’s experience using the Gmail Mail Service	&#8230;</p>
         				<p>Uses alot of scripts from Userscript.org (for Greasemonkey) &#8230; if i remember correctly</p>
-                
+
                 </li>
         			</ul>
 
@@ -337,7 +338,7 @@
         			  </li>
         			</ul>
         		</div>
+</div>
 
-EOD;
-?>
-     <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

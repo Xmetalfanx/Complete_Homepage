@@ -1,27 +1,15 @@
+<?php
+    $sitePath = "/home/xmetalx1/public_html";
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/aboutme/experience.php'); ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/common.php'); ?>
+    include $sitePath . "/templates/linux/massLinuxIncludes.tpl";
+?>
 
-<!doctype html>
-<html lang="en">
+<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeadTag.php'); ?>
-<body>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseHeader.php'); ?>
+<div class="col-lg-4">
+  <?php include $sitePath . '/linuxHQ/modules/linuxNNewUserTemplateCol1.php';; ?>
+</div>
 
-     <div id="mainBody">
-	       <?php include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/linuxNNewUserTemplateCol1.php'); ?>
-
-    		<div id="col2">
-    		<?php echo $content; ?>
-    		</div>
-
-        <?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter.php'); ?>
-	   </div>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].('/modules/linux/linuxBaseFooter2.php'); ?>
-</body>
-</html>
+<div class="col-lg-4">
+  <?php include $sitePath . "/templates/linux/massLinuxIncludes.tpl"; ?>

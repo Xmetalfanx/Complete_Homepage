@@ -1,9 +1,11 @@
 <?php
 
-  $title ='Xmetalfanx Useful Programs Section - Defrag';
-$the_content = <<<EOD
+  $title =' Useful Programs Section - Defrag';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-
+?>
   <h2>Windows Third Party Defragmenters - Freeware</h2>
    <div id="softwareSection">
 
@@ -87,6 +89,4 @@ $the_content = <<<EOD
 
 </div>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

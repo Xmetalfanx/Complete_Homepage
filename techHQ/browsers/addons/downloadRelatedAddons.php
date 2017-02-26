@@ -1,13 +1,12 @@
 <?php
 
 		$the_title = 'Xmetal TechHQ - Browser Section - Download Related Addons';
-		$the_content = <<<EOD
+		$sitePath = "/home/xmetalx1/public_html";
+ 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+ ?>
 
 		<div id="browser">
-
-
 					<h2>Download Related Addons</h2>
-
 					<h4>Firefox</h4>
 					<ul>
 					  <li>
@@ -108,7 +107,4 @@
 
 		</div>
 
-EOD;
-?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

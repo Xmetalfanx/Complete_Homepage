@@ -1,9 +1,14 @@
 <?php
 
-  $title = 'Xmetalfanx Linux Section - Programs in Linux'
+  $title = ' Linux Section - Programs in Linux'
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-    $the_content = <<<EOD
-    
+?>
+
+
+
        <p class="header">I am worried  about being confused by &ldquo;new&rdquo; software I am not familiar with.</p>
       <p>First I want to say that other than an  unfamilar name for a program, the functioning of many programs (say  play, stop, &ldquo;next track&rdquo; ..etc in video or audio players) are no  different … its just the name of the program you'd use that changes</p>
       <p>Now, I have to say that many of the  (opinion here) best Windows program for a particular task, are cross  platform, so that means you can find &ldquo;familar faces&rdquo; in Linux  that you have used in Windows for years.</p>
@@ -44,6 +49,4 @@
       <p><BR>
       </p>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,7 +1,9 @@
 <?php
 
 	 $the_title = 'Xmetalfanx Browser Section - ';
-  	  $the_content = <<<EOD
+	 $sitePath = "/home/xmetalx1/public_html";
+	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+?>
 
  <h1>Ad/Popup Blockers</h1>
 
@@ -63,7 +65,7 @@
      <div  class="adblockList" >
 		$AdguardFFicon
     	$AdGuardChrome
-      
+
     </div>
 
 
@@ -95,9 +97,6 @@
            $UblockOperaicon
     </div>
 
-
-
-
 	<h3 id="palmoon">Palmoon</h3>
     <ul>
       <li>
@@ -106,6 +105,4 @@
     </ul>
 
 
-EOD;
-?>
- <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -1,9 +1,11 @@
 <?php
 
   $title = ' ';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/techHQ/modules/programs.php" ;
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-    $the_content = <<<EOD
-      
+?>
       <p class="header">Opening Comments</p>
       <p>For now I am not going into details about though these web browsers are clones (or &quot;Forks&quot;) of the popular Firefox Web Browser. In general, they are suppose to be optimized compared to  Mozilla's version. I have not seen any of them get to the level of &quot;Oh wow, its so much faster&quot;, though, even using fresh profiles, I have noticed version by version the offical Mozilla Firefox release getting slower and &quot;clunkier&quot; . While they are &quot;Optimized&quot; .. .some may say that these browsers act like Firefox should in &quot;the first place&quot;</p>
       <p class="header">Backing up your Browser Data</p>
@@ -70,6 +72,5 @@
       </ul>
       <p>&nbsp;</p>
 
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

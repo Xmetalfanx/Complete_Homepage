@@ -1,8 +1,8 @@
 <?php
 
 	$the_title = 'Xmetalfanx Security Section - IP Blocklist Updater';
-   	$the_content = <<<EOD
-	
+?> 
+
         <p class="justify">Here is a tip I have known
         for awhile, that I only recently decided to add due to a program that
         makes The host file very easy to maintain, called &quot;<a href="http://www.bluetack.co.uk/index.php" target="_blank">B.I.S.S's Host Manager</a>&quot;.
@@ -43,7 +43,5 @@
           cause many problems, so i do not do it, myself </p>
         <p class="header">**** February 2, 2006 Update *** </p>
         <p>I have found that updating with this blocklist caused my computer to slow down <u class="boldText">significantly</u> AND my connection would connect but whenever an application would try to actually communicate (I could get online, but web browsering, logging into &quot;<span class="redtext">Yahelite</span>&quot;...etc etc) all froze for about 10 minutes or so,.... after changing network settings and firewalls/fw settings, I have determined 110% that a host file that had become too large was the culprit.... I trimmed it down (to only include the &quot;Spybot hostblock list&quot; in Spybot).... I also run <span class="redtext">Ad Muncher</span> with <span class="redtext">Maxthon</span>, so many of those entries are not need at all </p>
-        
-EOD;
-?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/windows/baseWinSecurityTemplate.php"); ?>
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

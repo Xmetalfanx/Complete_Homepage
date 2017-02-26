@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <div id="GAOTD">
+=======
+<div id="GAOTD" class="hidden-md-down">
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
   <p class="header">Give-away of the Day</p>
 
 <script type="text/javascript">var gaotd_SiteName = "Give Away of The Day"; </script>

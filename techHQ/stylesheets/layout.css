@@ -52,31 +52,6 @@ body {
   font-size: 13px;
   letter-spacing: 0px; }
 
-#bottomHeader {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  z-index: 990;
-  clear: both;
-  padding-top: 3px;
-  padding-bottom: 2px;
-  padding-left: 2px;
-  color: black;
-  border-top: 1px solid rgba(204, 204, 153, 0.95);
-  background-color: white;
-  text-align: left;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  order: 6; }
-  #bottomHeader a:link {
-    text-decoration: none;
-    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-    font-size: 11px; }
-  #bottomHeader a:hover {
-    color: #660000;
-    background-color: transparent; }
-
 img {
   margin-top: 0px;
   margin-right: 0px;
@@ -253,8 +228,7 @@ h2 {
   font-weight: bold;
   padding-left: 5px;
   margin-left: auto;
-  margin-right: auto;
-  width: 75%; }
+  margin-right: auto; }
 
 .progtableColL {
   width: 49%;
@@ -441,23 +415,11 @@ h2 {
   float: left; }
 
 footer {
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  overflow: hidden;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  background-color: #323232;
-  background-repeat: repeat-x;
-  text-decoration: none;
-  font-family: Arial, Helvetica, san-serif;
-  order: 7;
-  /*background-image: url(../graphics/navbar_trials/tan/tan3.png);*/ }
+  font-family: Arial, Helvetica, san-serif; }
   footer a:link {
     color: white; }
 
+/* Do not remove UNTIL YOUR SURE you dont need it amy longer */
 #col1 {
   z-index: 500;
   margin-bottom: 15px;
@@ -536,7 +498,7 @@ footer {
 #copyrightFooter {
   margin-top: 0px;
   padding-top: 1px;
-  color: white;
+  color: black;
   background-color: transparent;
   text-align: right;
   text-decoration: none;
@@ -610,28 +572,16 @@ p.justify {
 #mainBody {
   z-index: 99;
   padding-top: 3px;
-  color: #990000;
-  border-color: black;
   background-color: white;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
-  order: 3;
-  direction: ltr;
-  padding-right: 1%;
   /*New way for the Software Section*/ }
+  #mainBody .container {
+    width: 90%; }
   #mainBody .iconCenter {
     width: 32px;
     height: 32px; }
-  #mainBody .iconsLeft {
-    width: 32px;
-    height: 32px;
-    float: left;
-    clear: right;
-    margin-right: 14px;
-    margin-left: 0;
-    padding: 0;
-    /*padding-right: 10px;*/ }
   #mainBody .imgCentWrapBoth {
     margin-left: auto;
     margin-right: auto;
@@ -666,6 +616,16 @@ p.justify {
     padding-right: 10px;
     margin-left: auto;
     margin-right: auto; }
+
+.iconsLeft {
+  width: 32px;
+  height: 32px;
+  float: left;
+  clear: right;
+  margin-right: 14px;
+  margin-left: 0;
+  padding: 0;
+  /*padding-right: 10px;*/ }
 
 nav {
   color: lemonchiffon;
@@ -808,5 +768,10 @@ h4 {
   padding-top: 3px;
   padding-left: 1%; }
 
+<<<<<<< HEAD
 #GAOTD {
   order: 7; }
+=======
+.container {
+  width: 96%; }
+>>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
