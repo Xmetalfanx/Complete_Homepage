@@ -1,44 +1,37 @@
-<?php
 
-  $title = 'Xmetal TechHQ - Browser Section - Content Management Addons';
-  $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
- ?> 
 
-  <h2>Content "Manager" Addons</h2>
+h2 Content &quot;Manager&quot; Addons
+p
+  | This does not include a few of my &quot;Must have addons&quot; in the first table on the page
+  ul
+  	li
+      p.title
+        img.icon(src='/techHQ/graphics/ffox/GreaseFire.png', alt='GreaseFire Icon')
+        |
+        a(href='http://skrul.com/blog/projects/greasefire') Greasefire
+      |
+      p.description
+        | Auto-finds Greasemonkey scripts on userscripts.org, based on the domain/website you are visiting
+    li
+      p.title
+        img.icon(src='/techHQ/graphics/ffox/greasemonkey.png', alt='GreaseMonkey Icon')
+        |
+        a(href='http://www.greasespot.net/') Greasemonkey
+      |
+      .description
+        p  A User Script Manager for Firefox
+        |
+        p
+          | User scripts add many features and even remove ads on some pages automatically ..
+    li
+      p.title
+        a(href='https://addons.mozilla.org/en-US/firefox/addon/nuke-anything-enhanced/?src=search', target='_blank')  Nuke Anything Enhanced
+      |
+      .description
+        p  Allows you to hide objects on web-pages through the context (right click) menu
+        |
+        p  Similar to RemoveIt Permanently
 
-				<p>This does not include a few of my "Must have addons" in the first table on the page</p>
-
-				<div id="browser">
-				<ul>
-
-				  <li>
-					<p class="title">
-							<img src="/techHQ/graphics/ffox/GreaseFire.png" alt="GreaseFire Icon" class="icon">
-							<a href="http://skrul.com/blog/projects/greasefire">Greasefire</a></p>
-					<p class="description"> Auto-finds Greasemonkey scripts on userscripts.org, based on the domain/website you are visiting </p>
-				  </li>
-
-				  <li>
-					<p class="title">
-          <img src="/techHQ/graphics/ffox/greasemonkey.png" alt="GreaseMonkey Icon" class="icon">
-								<a href="http://www.greasespot.net/">Greasemonkey</a></p>
-
-					<div  class="description">
-							<p> A User Script Manager for Firefox</p>
-							<p> User scripts add many features and even remove ads on some pages automatically ..</p>
-					</div>
-				  </li>
-
-				  <li>
-					<p class="title">
-							<a href="https://addons.mozilla.org/en-US/firefox/addon/nuke-anything-enhanced/?src=search" target="_blank"> Nuke Anything Enhanced</a></p>
-
-					<div  class="description">
-							<p> Allows you to hide objects on web-pages through the context (right click) menu</p>
-							<p> Similar to RemoveIt Permanently</p>
-					</div>
-				  </li>
 
 				 <div  class="description">
 				  <li>
@@ -82,30 +75,30 @@
 
 
 
-				<ul>
-			       <li>
-					<p class="title"><a href="http://SocialFixer.com">Social Fixer</a> </p>
+ul
+  li
+    p.title
+      a(href='http://SocialFixer.com') Social Fixer
+    | &#x9;&#x9;&#x9;&#x9;&#x9;
+    .description
+      p
+        | Formerly &quot;Facebook Fixer&quot;&rsquo;; This adds various extra features and enhancements to Facebook.
+      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+      ul
+        li
+          p
+            | (FOR THE RECORD), I think there is also a &quot;addition&quot; of Social Fixer for Chrome Related browsers, as well as Opera
+        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+        li
+          p Internet Explorer (and IE based Browsers are not yet supported)
+  | &#x9;&#x9;&#x9;&#x9;
+  | &#x9;&#x9;&#x9;&#x9;
+  li
+    p.title
+      a(href='http://www.pagetweak.com/') PageTweak
+      br
+      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;  &nbsp;&nbsp;&nbsp;&mdash;&nbsp;The Ultimate Webpage Enhancer!
 
-					<div  class="description">
-							<p> Formerly "Facebook Fixer"’; This adds various extra features and enhancements to Facebook.</p>
-							<ul>
-							  <li>
-								<p>(FOR THE RECORD), I think there is also a "addition" of Social Fixer for Chrome Related browsers, as well as Opera</p>
-							  </li>
-							  <li>
-								<p>Internet Explorer (and IE based Browsers are not yet supported)</p>
-							  </li>
-							</ul>
-						  </li>
-				  </div>
-
-				  <li>
-							<p class="title">
-									<a href="http://www.pagetweak.com/">PageTweak</a><br>
-									  &nbsp;&nbsp;&nbsp;—&nbsp;The Ultimate Webpage Enhancer!
-							</p>
-				  </li>
-				</ul>
 			</div>
 
  <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
