@@ -1,10 +1,5 @@
-
-      </div><!-- Ends Panel Body div for "col2" -->
-    </div> <!-- Ends TOTAL panel div for second coloum -->
-
-
-  </div> <!-- Ends Row DIV -->
-  </div> <!-- Ends Container DIV -->
+</div> <!-- Ends Second Column -->
+</div> <!-- Ends Row --> 
 
       <?php include $sitePath . "/modules/tech/bottomMenus.tpl"; ?>
 

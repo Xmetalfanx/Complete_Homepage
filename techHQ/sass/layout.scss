@@ -207,17 +207,8 @@ th a:link {
 .header,
 a:link .header,
 h2 {
-  /* @include           boxShadow(1px, 2px, 2px, #000000); */
-  clear            : both;
   margin-bottom    : 0px;
-  padding-top      : 2px;
-  padding-right    : 2px;
-  padding-bottom   : 0;
-  overflow         : visible;
-  outline         : $solidBorder;
   text-align       : left;
-  font-family      : $Verdana;
-  font-weight      : bold;
   padding-left     : 5px;
 }
 
@@ -679,37 +670,6 @@ p.justify {
       /*padding-right: 10px;*/
 }
 
-
-nav {
-  color            : $tanL;
-  /*  border           : 1px dotted rgba( 255, 255, 255, .80); */
-  background-color : $darkGray;
-  order            : 2;
-  text-align	   	 : right;
-  padding		: 10px;
-
-  a:link, a:visited
-  {
-    display         : inline-block;
-    padding-top     : 5px;
-    padding-right   : 1%;
-    padding-bottom  : 5px;
-    padding-left    : 1%;
-    color           : $white;
-    margin-bottom   : 5px;
-
-    text-decoration : none;
-    font-family     : $SegoeUI;
-    font-size       : 17px;
-    font-weight     : bold;
-
-
-  }
-  a:hover {
-    background-color:   transparent;
-    color : lemonchiffon;
-  }
-}
 #navButton {
   display : none;
 }
@@ -855,15 +815,13 @@ h4 {
 
 }
 
-<<<<<<< HEAD
-#GAOTD
-{
-  order: 7;
-
-=======
 .container
 {
-
   width: 96%;
->>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e
+}
+
+.card-warning
+{
+  background-color: $white;
+
 }

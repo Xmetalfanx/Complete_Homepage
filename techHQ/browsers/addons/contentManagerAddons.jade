@@ -1,103 +1,82 @@
 //output:contentManagerAddons.html
 
-
 h2 Content &quot;Manager&quot; Addons
 p
   | This does not include a few of my &quot;Must have addons&quot; in the first table on the page
-  ul
-    li
+
+.card.card-warning 
+  .card-header
+      img.icon(src='/techHQ/graphics/ffox/GreaseFire.png', alt='GreaseFire Icon')
+      a(href='http://skrul.com/blog/projects/greasefire') Greasefire
+    
+  .card-block
+    p.card-text
+      Auto-finds Greasemonkey scripts on userscripts.org, based on the domain/website you are visiting
+
+.card
+  .card-header
+      img.icon(src='/techHQ/graphics/ffox/greasemonkey.png', alt='GreaseMonkey Icon')
+      a(href='http://www.greasespot.net/') Greasemonkey
+  
+  .card-block
+    p.card-text
+      p  A User Script Manager for Firefox
       p
-        img.icon(src='/techHQ/graphics/ffox/GreaseFire.png', alt='GreaseFire Icon')
-        a(href='http://skrul.com/blog/projects/greasefire') Greasefire
+        | User scripts add many features and even remove ads on some pages automatically ..
+
+.card.card-warning 
+  .card-header
+      a(href='https://addons.mozilla.org/en-US/firefox/addon/nuke-anything-enhanced/?src=search', target='_blank')  Nuke Anything Enhanced
+  .card-block
+    p.card-text
+      p  Allows you to hide objects on web-pages through the context (right click) menu
+      p  Similar to RemoveIt Permanently
+    
+.card.card-error 
+  .card-header
+      img.icon(src='/techHQ/graphics/ffox/remove_it_perm.png', alt='RIP Icon')
+      a(href='http://rip.mozdev.org/') Remove It Permanently
+  
+  .card-block
+    p.card-text Highly customizable addon to remove items via the contect meux &mldr; reminds me of a cross between Aardvark and Adblock
+
+.card
+  .card-header
+    a(href='http://hemiolapei.free.fr/divers/sap/sap-en.html') StopAutoplay
+  .card-block
+    p.card-text This Plug-in stops the auto playing of various files (Quicktime and real media for instance) &mldr;
+
+.card.card-error
+  .card-header
+      a(href='http://www.tidyfox.com/') TidyFox
+    
+  .card-block
+    p.card-text
+      p This adds (where you put it can be fully customized) button icon that gives you quick acesss, based on domians.
       p
-        | Auto-finds Greasemonkey scripts on userscripts.org, based on the domain/website you are visiting
-    li
-      p.title
-        img.icon(src='/techHQ/graphics/ffox/greasemonkey.png', alt='GreaseMonkey Icon')
-        |
-        a(href='http://www.greasespot.net/') Greasemonkey
-      |
-      .description
-        p  A User Script Manager for Firefox
-        |
-        p
-          | User scripts add many features and even remove ads on some pages automatically ..
-    li
-      p.title
-        a(href='https://addons.mozilla.org/en-US/firefox/addon/nuke-anything-enhanced/?src=search', target='_blank')  Nuke Anything Enhanced
-      |
-      .description
-        p  Allows you to hide objects on web-pages through the context (right click) menu
-        |
-        p  Similar to RemoveIt Permanently
-
-    li
-      p.title
-        img.icon(src='/techHQ/graphics/ffox/redirectRemover.png', alt='redirect remover')
-        |
-        a(href='http://www.aredeye.com/addons/') Redirect Remover
-      |
-      p  Remove Redirects from websites
-
-    li
-      p.title
-        img.icon(src='/techHQ/graphics/ffox/remove_it_perm.png', alt='RIP Icon')
-        |
-        a(href='http://rip.mozdev.org/') Remove It Permanently
-      |
-      p.description
-        | Highly customizable addon to remove items via the contect meux &mldr; reminds me of a cross between Aardvark and Adblock
-
-    li
-      p.title
-        a(href='http://netticat.ath.cx/extensions.html') RightToClick
-      |
-      p.description Allows right clicks and highlighting where forbidden by javascript
-    |
-
-    li
-      p.title
-        a(href='http://hemiolapei.free.fr/divers/sap/sap-en.html') StopAutoplay
-      |
-      p.description
-        | This Plug-in stops the auto playing of various files (Quicktime and real media for instance) &mldr;
-
-
-    li
-      p.title
-        a(href='http://www.tidyfox.com/') TidyFox
-      |
-      .description
-        p
-          | This adds (where you put it can be fully customized) button icon that gives you quick acesss, based on domians.
-        |
-        p
-          | I have tried a few &quot;History in a sidebar&quot; type addons and they weren&rsquo;t bad &mldr; but they weren&rsquo;&rsquo;t what I was looking for. This adds just enough
-          | of what I wanted, without being &quot;in the way&quot;, if you ask me
-
-
-    li
-    	p.title
+        | I have tried a few &quot;History in a sidebar&quot; type addons and they weren&rsquo;t bad &mldr; but they weren&rsquo;&rsquo;t what I was looking for. This adds just enough
+        | of what I wanted, without being &quot;in the way&quot;, if you ask me
+        
+.card
+  .card-header
       a(href='http://SocialFixer.com') Social Fixer
-    |
-    .description
+    
+  .card-block
+    p.card-text
       p
         | Formerly &quot;Facebook Fixer&quot;&rsquo;; This adds various extra features and enhancements to Facebook.
-      | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
       ul
         li
-          p
-            | (FOR THE RECORD), I think there is also a &quot;addition&quot; of Social Fixer for Chrome Related browsers, as well as Opera
-        | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+          p (FOR THE RECORD), I think there is also a &quot;addition&quot; of Social Fixer for Chrome Related browsers, as well as Opera
         li
           p Internet Explorer (and IE based Browsers are not yet supported)
 
-
-  		li
-        p.title
-          a(href='http://www.pagetweak.com/') PageTweak
-          br
-          | The Ultimate Webpage Enhancer!
+.card.card-error
+  .card-header
+      a(href='http://www.pagetweak.com/') PageTweak  
+  .card-block
+    p.card-text
+      p The Ultimate Webpage Enhancer!
 
 
  <?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>

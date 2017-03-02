@@ -23,6 +23,7 @@
 	$ABEicon = '<a href="https://addons.mozilla.org/en-us/firefox/addon/adblock-edge/">
 				<img src="/techHQ/browsers/adblocking/icons/abe.png" />Adblock Edge - Discontinued/No longer
 			  developed</a>';
+				
 	$EHicon = '<a href="https://addons.mozilla.org/en-US/firefox/addon/elemhidehelper/" target="_blank">
 			<img src="/techHQ/browsers/adblocking/icons/elementHider.png" />Element Hider Add-on for Adblock Edge
 			</a>';
