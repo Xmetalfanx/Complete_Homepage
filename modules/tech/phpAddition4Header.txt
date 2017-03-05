@@ -1,0 +1,8 @@
+<?php
+
+  $mainTitle= "TechHQ - ";
+  //SubTitles controlled by sub-templates
+
+  $completeTitle= $mainTitle . $subTitle . $pageTitle;
+
+?>

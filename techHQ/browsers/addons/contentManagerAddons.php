@@ -81,4 +81,6 @@
       <p>The Ultimate Webpage Enhancer!</p>
     </p>
   </div>
-</div><?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechBrowserTemplate.php"); ?>
+</div>
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

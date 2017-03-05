@@ -40,8 +40,8 @@ p {
   background-color : inherit;
   text-align       : justify;
   font-family      : "Helvetica Neue",
-                     Helvetica,
-                     sans-serif;
+  Helvetica,
+  sans-serif;
   font-size        : 16px;
   direction        : ltr;
 }
@@ -95,7 +95,7 @@ table {
     padding     : 2px;
     border      : $solidBorder;
     font-weight : bold;
-        /*margin-right: 50px;*/
+    /*margin-right: 50px;*/
   }
   .tableNoBorderCenteredFiftyPercent {
     @include   autoMargin();
@@ -110,9 +110,9 @@ td {
   text-align       : left;
   vertical-align   : top;
   font-family      : "Segoe UI",
-                     Arial,
-                     Helvetica,
-                     sans-serif;
+  Arial,
+  Helvetica,
+  sans-serif;
   font-size        : 13px;
   font-weight      : normal;
   a:link {
@@ -186,9 +186,9 @@ th a:link {
 
 .generalTxt {
   font-family : "Segoe UI",
-                Arial,
-                Helvetica,
-                sans-serif;
+  Arial,
+  Helvetica,
+  sans-serif;
   font-size   : 11pt;
 }
 
@@ -262,8 +262,8 @@ h2 {
   background-color : #ffffcc;
   vertical-align   : middle;
   font-family      : Arial,
-                     Helvetica,
-                     sans-serif;
+  Helvetica,
+  sans-serif;
   font-size        : 15px;
   font-weight      : bold;
 }
@@ -273,12 +273,12 @@ h2 {
   color            : #000099;
   background-color : transparent;
   text-decoration  : none;
-    /*vertical-align: middle;*/
+  /*vertical-align: middle;*/
 }
 
 /*
-  same as the original (sort of) ... for Items that do not have a decription
-  under it
+same as the original (sort of) ... for Items that do not have a decription
+under it
 */
 
 .progTablesName2 {
@@ -293,8 +293,8 @@ h2 {
   border           : $solidBorder;
   background-color : inherit;
   font-family      : "Times New Roman",
-                     Times,
-                     serif;
+  Times,
+  serif;
   font-size        : 18px;
   font-weight      : bold;
 }
@@ -313,10 +313,10 @@ h2 {
   background-color : transparent;
   text-align       : right;
   font-family      : Verdana,
-                     Geneva,
-                     Arial,
-                     Helvetica,
-                     sans-serif;
+  Geneva,
+  Arial,
+  Helvetica,
+  sans-serif;
   font-size        : 85%;
   font-weight      : bold;
 }
@@ -369,8 +369,8 @@ h2 {
   border           : $solidBorder;
   background-color : transparent;
   font-family      : Arial,
-                     Helvetica,
-                     sans-serif;
+  Helvetica,
+  sans-serif;
   font-size        : 14px;
   font-weight      : normal;
   line-height      : 100%;
@@ -378,8 +378,8 @@ h2 {
 }
 
 /*
-  UpdateSummary is intended to Give a short Update so the main page's
-  Description does not Run Too long
+UpdateSummary is intended to Give a short Update so the main page's
+Description does not Run Too long
 */
 
 .UpdateSummary {
@@ -459,8 +459,8 @@ footer {
 
   .header a:link
   {
-	color: $yellow;
-	background-color: $navy;
+    color: $yellow;
+    background-color: $navy;
   }
 
 }
@@ -605,58 +605,58 @@ p.justify {
   font-weight      : normal;
 
   .container
-    {
-      width: 90%;
+  {
+    width: 90%;
 
-    }
+  }
 
   .iconCenter {
-        width  : 32px;
-        height : 32px;
-      }
+    width  : 32px;
+    height : 32px;
+  }
 
   .imgCentWrapBoth {
-        @include   autoMargin();
-        display  : block;
-        clear    : none;
-      }
+    @include   autoMargin();
+    display  : block;
+    clear    : none;
+  }
 
-   a:link {
-        color            : #000099;
-        background-color : transparent;
-        text-decoration  : none;
-      }
+  a:link {
+    color            : #000099;
+    background-color : transparent;
+    text-decoration  : none;
+  }
 
-    a:visited {
-        color               : #990000;
-        border-bottom-color : #660000;
-        border-bottom-width : 1px;
-        border-bottom-style : dotted;
-        background-color    : transparent;
-        font-family         : "Segoe UI",
-                              "Courier New",
-                              Courier,
-                              monospace;
-        font-size           : 13px;
-      }
+  a:visited {
+    color               : #990000;
+    border-bottom-color : #660000;
+    border-bottom-width : 1px;
+    border-bottom-style : dotted;
+    background-color    : transparent;
+    font-family         : "Segoe UI",
+    "Courier New",
+    Courier,
+    monospace;
+    font-size           : 13px;
+  }
 
-      img.imgleft {
-        float         : left;
-        clear         : right;
-        margin-right  : 14px;
-        margin-left   : 0;
-        padding-right : 10px;
-      }
-      img.imgRight {
-        float         : right;
-        margin-right  : 140px;
-        padding-right : 10px;
-      }
-        /*New way for the Software Section*/
-      .leftIcon {
-        @include   leftIcon();
-        @include   autoMargin();
-      }
+  img.imgleft {
+    float         : left;
+    clear         : right;
+    margin-right  : 14px;
+    margin-left   : 0;
+    padding-right : 10px;
+  }
+  img.imgRight {
+    float         : right;
+    margin-right  : 140px;
+    padding-right : 10px;
+  }
+  /*New way for the Software Section*/
+  .leftIcon {
+    @include   leftIcon();
+    @include   autoMargin();
+  }
 }
 
 .iconsLeft {
@@ -667,7 +667,7 @@ p.justify {
   margin-right : 14px;
   margin-left  : 0;
   padding      : 0;
-      /*padding-right: 10px;*/
+  /*padding-right: 10px;*/
 }
 
 #navButton {
@@ -702,15 +702,15 @@ p.justify {
   background-color : $white;
   font-size        : inherit;
   order            : 5;
-    /*border-left: 1px solid #cccccc;*/
+  /*border-left: 1px solid #cccccc;*/
   a:link {
     color            : #660000;
     background-color : transparent;
     text-align       : left;
     text-decoration  : none;
     font-family      : Arial,
-                       Helvetica,
-                       sans-serif;
+    Helvetica,
+    sans-serif;
     font-size        : 13px;
     font-size        : inherit;
   }
@@ -807,9 +807,9 @@ h4 {
 
 #top
 {
-	background-color  : $darkGray;
-	color: $white;
-	padding-bottom: 3px;
+  background-color  : $darkGray;
+  color: $white;
+  padding-bottom: 3px;
   padding-top: 3px;
   padding-left: 1%;
 

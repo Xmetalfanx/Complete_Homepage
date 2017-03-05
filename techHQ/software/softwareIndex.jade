@@ -1,67 +1,77 @@
-//output:softwareIndexJade.php 
+//output:softwareIndex.html
 
 //- Top php include removed 
-div.row 
-  div.col-lg-6 
+.row 
+  .col-lg-6 
     <?php echo $softpediaIcon; ?>
-  div.col-lg-6 
+  .col-lg-6 
     <?php echo $majorGeeksIcon; ?>s
 
-div Cross Platform
-  div.panel.panel-default
-    div.panel-heading Graphics Applications s
-    div.panel-body
-      div.row
-        div.col-lg-6 
+.card
+  .card-header Cross Platform 
+  .card-block
+    h2.card-title Graphics Applications 
+    p.card-text
+      .row 
+        .col-lg-6 
           <?php echo $kritaIcon . $kritaHome; ?>
           p Krita is a graphics editor is an open source graphics/illustrator program, which some users compare to Adobe Photoshop
           
-        div.col-lg-6
-          <?php echo $gimpIcon . echo $gimpHome; ?>
+        .col-lg-6
+          <?php echo $gimpIcon . $gimpHome; ?>
           p GIMP is a well known and widely used Graphics editor that some (not all though) compare to Photoshop
 
+      
+.card
+  .card-header Internet Related Programs 
+  .card-block
+    h2.card-title 
+    p.card-text
+      .row 
+        .col-lg-6
+        <?php echo $pidginIcon . $pidginHome; ?>
+        span Instant Messaging Client
+          
+        .col-lg-6
+        <?php echo $thunderbirdIcon . $thunderbirdHome; ?> 
+        span Email Client
 
-div.panel.panel-default
-  div.panel-heading Internet Related 
-  div.panel-body
-    div.row 
-      div.col-lg-6
-      <?php echo $pidginIcon . $pidginHome; ?>
-      span Instant Messaging Client
-        
-      div.col-lg-6
-      <?php echo $thunderbirdIcon . $thunderbirdHome; ?> 
-      span Email Client
-
-div.panel.panel-default
-  div.panel-heading Multimedia Programs
-  div.panel-body
-      div.row
-        div.col-lg-12
+      
+.card
+  .card-header Multimedia Programs 
+  .card-block
+    p.card-text
+      .row
+        .col-lg-10
           h3 Audio Players 
             <?php echo $clemIcon . $clemHome; ?>
             p Clementine is a music player and organizer that can not only play your music collection, organize your collection (including downloading artist and album information from the internet, and play media from various online sources)
 
           h3 Video Players
-            div.row
-              div.col-sm-4
+            .row
+              .col-sm-4
                 <?php echo $mpvIcon . $mpvHome; ?>
-              div.col-sm-4
+              .col-sm-4
                 <?php echo $smPlayerIcon . $smPlayerHome; ?> 
-              div.col-sm-4
+              .col-sm-4
                 <?php echo $vlcIcon . $vlcHome; ?>
              
-div.panel.panel-default
-  div.panel-heading Productivity/Office Programs 
-  div.panel-body
-    div.row 
+                
+.card
+  .card-header Productivity/Office Programs
+  .card-block
+    p.card-text
       <?php echo $libreOIcon . $libreOHome; ?>
 
-div.panel.panel-default
-  div.panel-heading Security Programs 
-  div.panel-body
-    img(src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg", alt="Bleachbit Icon")
-    a(href="http://bleachbit.sourceforge.net/") Bleachbit
+      
+.card
+  .card-header Security Programs 
+  .card-block
+    p.card-text
+      img(src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg", alt="Bleachbit Icon")
+      a(href="http://bleachbit.sourceforge.net/") Bleachbit
+
+
 
 h1 Specific Operating Systems
 
@@ -83,73 +93,80 @@ div.panel.panel-default
       <?php echo $xnviewIcon . $xnviewHome;  ?>
       p My Favorite Image editor/so-called... Basic Image editor in Windows ... VERY powerful and well-done, program
       
-div.panel.panel-default
-  div.panel-heading Productivity Programs
-  div.panel-body
-    h3 Windows 
-    
-    p PDF Readers - Adobe Acrobat Reader alternatives
-      div.row  
-        div.col-sm-4
-          <?php echo $sumPDFIcon; echo $sumPDFHome;  ?>
-        div.col-sm-8
-          <?php echo $pdfXIcon; echo $pdfXHome; ?>
-
-div.panel.panel-default
-  div.panel-heading Multimedia Programs 
-  div.panel-body
-    h2 Linux 
-    
-      div.col-lg a(href="http://audacious-media-player.org/") Audacious
-      div.col-lg DeadBeef
-    h3 Windows
       
-      div.col-lg <?php echo $aimpIcon; echo $aimpHome; ?>
-      div.col-lg <?php echo $foobarIcon; echo $foobarHome; ?>
-
-           
-div.panel.panel-default
-  div.panel-heading Security Programs 
-  div.panel-body
-    h3 Windows
       
-      div.row
-        div.col-sm-4
+      
+.card
+  .card-header Productivity Programs
+  .card-block
+    p.card-text
+      h3 Windows 
+      
+      p PDF Readers - Adobe Acrobat Reader alternatives
+        div.row  
+          div.col-sm-4
+            <?php echo $sumPDFIcon; echo $sumPDFHome;  ?>
+          div.col-sm-8
+            <?php echo $pdfXIcon; echo $pdfXHome; ?>
+
+
+.card
+  .card-header Multimedia Programs 
+  .card-block
+    p.card-text
+      h2 Linux 
+      
+        .col-lg a(href="http://audacious-media-player.org/") Audacious
+        .col-lg DeadBeef
+      h3 Windows
+        
+        .col-lg <?php echo $aimpIcon; echo $aimpHome; ?>
+        .col-lg <?php echo $foobarIcon; echo $foobarHome; ?>
+
+      
+.card
+  .card-header Security Programs 
+  .card-block
+    p.card-text
+      h3 Windows 
+      .row
+        .col-lg-4
           img(src="/techHQ/progIcons/security/AVs/1589__Avast!FreeAntivirus5_icon.png", alt="Avast Icon")
           a(href="http://www.avast.com/free-antivirus-download") Avast 
         
-        div.col-sm-4
+        .col-lg-4
           img(src="/techHQ/progIcons/security/malware/mbam_IDI_MAIN.png", alt="Malwarebytes Icon")
           a(href="http://www.malwarebytes.org/") Malwarebytes Anti-Malware
           
-        div.col-sm-4
+        .col-lg-4
           a(href="https://www.emsisoft.com/en/software/eek/") Emsisoft Emergency Toolkit
-
-      h3 Cache/Temp File Cleaners
-        
-        div.row
-          div.col-sm-6
-            <?php echo $ccleanerIcon; echo $ccleanerHome;  ?>
           
-          div.col-sm-6
-            <?php echo $CCEnhIcon; echo $CCEnhHome; ?>
-            div A sort of &quot;database&quot; of what to clean for programs that support it  (To add more removable items then the programs default)
-          
+          h2 Cache/Temp File Cleaner 
+          .row
+            .col-lg-6
+              <?php echo $ccleanerIcon; echo $ccleanerHome;  ?>
+            
+            .col-lg-6
+              <?php echo $CCEnhIcon; echo $CCEnhHome; ?>
+              p A sort of &quot;database&quot; of what to clean for programs that support it  (To add more removable items then the programs default)
+      
 
-div.panel.panel-default
-  div.panel-heading System Tools  
-  div.panel-body
-    h3 Windows
-      div.row 
-      
-        div #[a(href="https://www.partitionwizard.com/free-partition-manager.html") Minitools Partition Manager Freeware Edition]
-      
-      h4 System Suite
-        div.row
-          div.col-lg-4
-          <?php echo $glaryIcon; echo $glaryHome; ?> 
-                        
-          div.col-lg-4
-          <?php echo  $wiseCareIcon; echo $wiseCareHome; ?>
+.card
+  .card-header System Tools 
+  .card-block
+    h2.card-title Windows  
+    p.card-text
+      .row 
+        p a(href="https://www.partitionwizard.com/free-partition-manager.html") Minitools Partition Manager Freeware Edition
+
+        h4 System Suite
+          .row
+            .col-lg-4
+            <?php echo $glaryIcon . $glaryHome; ?> 
+                          
+            .col-lg-4
+            <?php echo  $wiseCareIcon . $wiseCareHome; ?>
+
+
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -24,20 +24,7 @@
    </div>
  </div>
 
-<<<<<<< HEAD
-	</div>
-
-
-  <?php
-    include $sitePath . "/techHQ/modules/GAOTD.tpl";
-    include $sitePath . "/modules/tech/baseTechFooter.tpl";
-
-  ?>
-
-</div> <!-- ends Col2 -->
-=======
 <?php
     include $sitePath . "/techHQ/modules/GAOTD.tpl";
     include $sitePath . "/modules/tech/baseTechFooter.tpl";
 ?>
->>>>>>> cdc68fb17afab013d2b2c5d2deb5d42153c2484e

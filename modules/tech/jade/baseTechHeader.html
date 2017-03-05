@@ -1,9 +1,11 @@
+<?php $completeTitle= $mainTitle . $subTitle . $pageTitle ?>
+
 <!DOCTYPE html>
 <!-- the closing HTML tag has to be removed too -->
-<html lang="en"></html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><?php echo $the_title; ?></title>
+  <title><?php echo $completeTitle; ?></title>
   <meta name="Description" content="Xmetafanx's Homepage is a site that can help you with Computer Problem, File Sharing News, Computer FAQ's, Security Information, Antivirus and Spyware Removal, and much much more..">
   <!-- Various Meta Tags-->
   <meta name="robots" content="index,follow,noodp">
@@ -21,13 +23,9 @@
   <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css">
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 </head>
-<body> 
-  <div id="top"> </div>
-  <div id="bannerText">Xmetal&apos;s TechHQ </div>
-  <!-- main site navigation-->
-  <nav><a href="/techHQ/software/softwareIndex.php" accesskey="1">Software </a><a href="/techHQ/techcenter/techCenterIndex.php" accesskey="2">Tech Center ( Tips/Tutorials/Guides )</a><a href="/techHQ/browsers/browserIndex.php" accesskey="3">Web Browser </a><a href="/techHQ/security/securityIndex.php" accesskey="4">Security</a>
-    <!-- a(href='/techHQ/guides/guidesIndex.php', accesskey='5') PDF Guides-->
-  </nav>
-</body>
+<body>
+
+  <?php include $sitePath . "/modules/tech/menus/bStrapNav.tpl"; ?>
+
 <!-- Remember to remove the closeing DIV when this jade is outputted -->
-<div id="mainBody"> </div>
+<div id="mainBody">

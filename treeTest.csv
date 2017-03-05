@@ -1,0 +1,2461 @@
+.
+├── foundation
+│   └── 630ess
+│       ├── css
+│       │   ├── app.css
+│       │   ├── foundation.css
+│       │   └── foundation.min.css
+│       ├── index.html
+│       └── js
+│           ├── app.js
+│           └── vendor
+│               ├── foundation.js
+│               ├── foundation.min.js
+│               ├── jquery.js
+│               └── what-input.js
+├── functionIdea.txt
+├── graphics
+│   ├── bg
+│   │   ├── 01451_majesty_1920x1200.jpg
+│   │   ├── 03994_bixbybridgehazydusk_1920x1200.jpg
+│   │   ├── 467763.jpg
+│   │   ├── beach
+│   │   │   ├── Carp_Island_Resort.jpg
+│   │   │   ├── Palau_Pacific_Resort2.jpg
+│   │   │   ├── Palau_Pacific_Resort.jpg
+│   │   │   ├── Palau Royal Resort, Koror, Republic of Palau.png
+│   │   │   ├── The_Rock_Islands.jpg
+│   │   │   └── Ulong Islands, Palau, Micronesia.jpg
+│   │   ├── BeachHotel1.jpg
+│   │   ├── bixbybridgehazydusk.jpg
+│   │   ├── cave.jpg
+│   │   ├── christmas
+│   │   │   ├── 01451_majesty_1920x1200.jpg
+│   │   │   ├── Christmas-Wallpaper-Hd-05.jpg
+│   │   │   └── Christmas-Wallpaper-Hd-14.jpg
+│   │   ├── Christmas-Wallpaper-Hd-05.jpg
+│   │   ├── Christmas-Wallpaper-Hd-14.jpg
+│   │   ├── CurtisPark2004.jpg
+│   │   ├── darkGrey2.png
+│   │   ├── darkGrey.png
+│   │   ├── LB_park2.jpg
+│   │   ├── LemonBayPark12.jpg
+│   │   ├── road.jpg
+│   │   ├── spaceAndPlanet1.jpg
+│   │   ├── spaceAndPlanet2.jpg
+│   │   ├── Sunset_In_Bali.jpg
+│   │   ├── Sunset_In_Bali.png
+│   │   ├── Temple_of_Olympian_Zeus.jpg
+│   │   ├── tg.jpg
+│   │   ├── The_Colosseum_Rome.jpg
+│   │   ├── tigerPool.jpg
+│   │   ├── Venice_Water_City.jpg
+│   │   └── winter1.jpg
+│   ├── gplus.png
+│   ├── midfngr.jpg
+│   ├── progIcons
+│   │   ├── adobe-lq.png
+│   │   ├── browsers
+│   │   │   ├── avant_MAINICON.png
+│   │   │   ├── chrome_101.gif
+│   │   │   ├── chrome.png
+│   │   │   ├── Cyberfox_1.png
+│   │   │   ├── firefox_1.png
+│   │   │   ├── FirefoxHolly.png
+│   │   │   ├── Maxthon_128.png
+│   │   │   ├── opera_OPERA.png
+│   │   │   ├── palemoon_1.png
+│   │   │   ├── Safari_100.png
+│   │   │   ├── slimBrowse.png
+│   │   │   └── waterfox_1.png
+│   │   ├── Capture-1.jpg
+│   │   ├── FBackup_MAINICON.png
+│   │   ├── fSharing
+│   │   │   ├── 1047__limewire3.gif
+│   │   │   ├── 1093__frostwire.gif
+│   │   │   ├── 23__emule.png
+│   │   │   ├── 752__ares2.gif
+│   │   │   ├── Skin_106.png
+│   │   │   └── utorrent_2.png
+│   │   ├── graphics
+│   │   │   ├── 116__photoshop.gif
+│   │   │   ├── 17__irfanview.png
+│   │   │   ├── 84__psp.png
+│   │   │   ├── 91__gimp.png
+│   │   │   ├── Corel Paint Shop Pro Photo_101.png
+│   │   │   ├── FSViewer_MAINICON.png
+│   │   │   ├── GIFOptimizer_1.png
+│   │   │   ├── gimp-2_1.png
+│   │   │   ├── IcoFX_MAINICON.png
+│   │   │   ├── inkscape_APPLICATION_ICON.png
+│   │   │   ├── Optimizer_304.png
+│   │   │   ├── PaintDotNet_32512.png
+│   │   │   ├── PhotoFiltre7_MAINICON.png
+│   │   │   ├── PhotoScape_128.png
+│   │   │   ├── Photoshop Elements 7_101.png
+│   │   │   ├── picasa.gif
+│   │   │   └── XnView.png
+│   │   ├── gsdll32_50.ico
+│   │   ├── internet
+│   │   │   ├── 1516__Thunderbird3_icon.png
+│   │   │   ├── 854__pidgin.gif
+│   │   │   ├── chatIcons
+│   │   │   │   ├── 1019__yahoo2.png
+│   │   │   │   ├── 854__pidgin.gif
+│   │   │   │   ├── aim.gif
+│   │   │   │   ├── ChatClient_99.png
+│   │   │   │   ├── digsby.gif
+│   │   │   │   ├── googletalk.png
+│   │   │   │   ├── ICQ.gif
+│   │   │   │   ├── miranda.gif
+│   │   │   │   ├── mirc.gif
+│   │   │   │   ├── Skype-Portable-Launcher.gif
+│   │   │   │   ├── trillian.png
+│   │   │   │   ├── xchat.gif
+│   │   │   │   ├── yahfilter.png
+│   │   │   │   ├── YEpic_MAINICON.png
+│   │   │   │   └── yhlt.png
+│   │   │   ├── cports_101.png
+│   │   │   ├── deadlink_MAINICON.png
+│   │   │   ├── download_managersr
+│   │   │   │   ├── fdm_128.png
+│   │   │   │   ├── Flashget3_110.png
+│   │   │   │   └── orbitdm_128.png
+│   │   │   ├── feedDemon.gif
+│   │   │   ├── FileZillaPortable_103.png
+│   │   │   ├── identities_101.png
+│   │   │   ├── MozBackup_MAINICON.png
+│   │   │   ├── webmail
+│   │   │   │   ├── aol.png
+│   │   │   │   ├── Gmail.png
+│   │   │   │   ├── hotmail.png
+│   │   │   │   ├── mailDOTcom.png
+│   │   │   │   ├── webmail.png
+│   │   │   │   └── webmailYahoo.png
+│   │   │   └── ww_1.png
+│   │   ├── media
+│   │   │   ├── 1202__songbird2.png
+│   │   │   ├── 123__klite.gif
+│   │   │   ├── 1278__shark007_icon.png
+│   │   │   ├── 90__audacity.png
+│   │   │   ├── converters
+│   │   │   │   ├── 1218__any-video-converter.gif
+│   │   │   │   ├── 755__dBpowerAMP.gif
+│   │   │   │   ├── FormatFactory_128.gif
+│   │   │   │   ├── FreemakeVideoConverter_134.gif
+│   │   │   │   └── XMedia Recode_128.gif
+│   │   │   ├── DVD.gif
+│   │   │   ├── dvds
+│   │   │   │   ├── 97__dvdshrink.png
+│   │   │   │   ├── AnyDVD_9.png
+│   │   │   │   ├── DVDFab_212.png
+│   │   │   │   ├── dvdstyler.png
+│   │   │   │   ├── MenuShrink_128.png
+│   │   │   │   └── VobBlanker_228.png
+│   │   │   ├── EMDB_128.png
+│   │   │   ├── Forge90_10.png
+│   │   │   ├── makemkv_0.gif
+│   │   │   ├── MediaMonkey_MAINICON.png
+│   │   │   ├── MP3GainGUI_APPICON.png
+│   │   │   ├── mp3nity_128.gif
+│   │   │   ├── mpTrim PRO_MAINICON.png
+│   │   │   ├── rippers
+│   │   │   │   └── 110__cdex.gif
+│   │   │   ├── TagRename_MAINICON.png
+│   │   │   ├── Tagscan_MAINICON.png
+│   │   │   └── videos
+│   │   │       ├── 1187__handbrake.png
+│   │   │       ├── 1191__super.png
+│   │   │       ├── 1218__any-video-converter.gif
+│   │   │       ├── avidemux2_qt4_100.gif
+│   │   │       ├── avidemux2_qt4_100.png
+│   │   │       ├── ConvertXtoDvd_2.gif
+│   │   │       ├── VideoDub2_132.gif
+│   │   │       └── VirtualDubMod_132.png
+│   │   ├── media_players
+│   │   │   ├── 1100__kmplayer.gif
+│   │   │   ├── 120__mpclassic.gif
+│   │   │   ├── 1231__itunes-icon-blue.png
+│   │   │   ├── 1296__bsplayer_icon.png
+│   │   │   ├── 1by1_ICON1.ico
+│   │   │   ├── 1by1_ICON1.png
+│   │   │   ├── 32__foobar.png
+│   │   │   ├── 435__jetAudio.gif
+│   │   │   ├── 47__wmplayer.png
+│   │   │   ├── 5__winamp.png
+│   │   │   ├── 6__real.png
+│   │   │   ├── 759__GOMplayer.gif
+│   │   │   ├── 7__quicktime.png
+│   │   │   ├── AIMP3ac_MAINICON.jpg
+│   │   │   ├── clementine_CLEMENTINE.png
+│   │   │   ├── foobar2000_v1_103.png
+│   │   │   ├── PotIcons_196.png
+│   │   │   ├── qmmp_IDI_ICON1.png
+│   │   │   ├── smplayer_logo.png
+│   │   │   ├── sonique2_222.png
+│   │   │   ├── vlc_VLC_ICON.png
+│   │   │   └── xmplay_5000.png
+│   │   ├── opera_OPERA1NEXT.ico
+│   │   ├── pc_tools_AV.png
+│   │   ├── peguin.png
+│   │   ├── product
+│   │   │   ├── AccelClip_MAINICON.png
+│   │   │   ├── calibre_1.png
+│   │   │   ├── cse90_MAINICON.png
+│   │   │   ├── datacrow_A.png
+│   │   │   ├── docscrubber-48.png
+│   │   │   ├── Dreamweaver_433.png
+│   │   │   ├── edu
+│   │   │   │   ├── geogebra_1.png
+│   │   │   │   └── MathApp_32512.png
+│   │   │   ├── eulalyzer-48.png
+│   │   │   ├── gsdll32_50.png
+│   │   │   ├── libreIcons
+│   │   │   │   ├── LibO_3_103.png
+│   │   │   │   ├── sbase_1.jpg
+│   │   │   │   ├── scalc_1.jpg
+│   │   │   │   ├── sdraw_1.jpg
+│   │   │   │   ├── soffice_2.jpg
+│   │   │   │   ├── soffice_34.jpg
+│   │   │   │   ├── soffice_39.jpg
+│   │   │   │   ├── soffice_7.jpg
+│   │   │   │   └── swriter_1.jpg
+│   │   │   ├── OOfficeIcons
+│   │   │   │   ├── sbase_1_1.png
+│   │   │   │   ├── scalc_1_1.png
+│   │   │   │   ├── sdraw_1_1.png
+│   │   │   │   ├── simpress_1_1.png
+│   │   │   │   ├── smath_1_1.png
+│   │   │   │   └── soffice_1_1.png
+│   │   │   ├── openoffice.gif
+│   │   │   ├── pdf
+│   │   │   │   ├── AcroRd32_1.png
+│   │   │   │   ├── bullzip_PDF.png
+│   │   │   │   ├── dopdf_105.png
+│   │   │   │   ├── Foxit Reader_128.png
+│   │   │   │   ├── NitroPDF_128.png
+│   │   │   │   ├── PDFCreator.gif
+│   │   │   │   ├── PDFXCview_128.png
+│   │   │   │   ├── primoPDF.gif
+│   │   │   │   ├── SumatraPDF_1.png
+│   │   │   │   └── SumatraPDF_2.png
+│   │   │   ├── soffice_25.png
+│   │   │   ├── sunbird_32512.png
+│   │   │   ├── TextCrawler_32512.png
+│   │   │   ├── TopStyle4_AAA_APP_ICON.png
+│   │   │   ├── TTSReader_123.png
+│   │   │   ├── txtEditorIcons
+│   │   │   │   ├── AbiWord_10000.png
+│   │   │   │   ├── EditPad-Lite.gif
+│   │   │   │   └── notepad++_100.png
+│   │   │   └── Universal_Viewer.png
+│   │   ├── security
+│   │   │   ├── 1025__winPatrol.gif
+│   │   │   ├── 129__truecrypt.gif
+│   │   │   ├── 1326__peerblock1_icon.png
+│   │   │   ├── 134__keepass.gif
+│   │   │   ├── 1805__nmap_icon.png
+│   │   │   ├── 808__hijackthis2.gif
+│   │   │   ├── 94__cwshredder.png
+│   │   │   ├── ad_muncher.png
+│   │   │   ├── AVs
+│   │   │   │   ├── 1085__avg2.gif
+│   │   │   │   ├── 1266__panda_icon.png
+│   │   │   │   ├── 1308__msseces.png
+│   │   │   │   ├── 1430__AntiVirPersonal9_icon.png
+│   │   │   │   ├── 1589__Avast!FreeAntivirus5_icon.png
+│   │   │   │   ├── 531__NAV.gif
+│   │   │   │   ├── 545__McAfee.gif
+│   │   │   │   ├── 585__kaspersky.gif
+│   │   │   │   ├── 960__bitDefender2.gif
+│   │   │   │   ├── branding_25.jpg
+│   │   │   │   ├── egui_20000.png
+│   │   │   │   ├── Fsecure.png
+│   │   │   │   ├── kav2011_11_103.png
+│   │   │   │   ├── sophos.jpg
+│   │   │   │   └── trendMicro.gif
+│   │   │   ├── cleaners
+│   │   │   │   ├── 959__CCv2.gif
+│   │   │   │   ├── bleachbit_1.jpg
+│   │   │   │   ├── CCEnhancer_32512.png
+│   │   │   │   ├── cleaner.png
+│   │   │   │   ├── ClearProg_AAA.png
+│   │   │   │   ├── DiskCleaner_128.png
+│   │   │   │   ├── Eraser_128.png
+│   │   │   │   ├── Eraser6.png
+│   │   │   │   ├── FCleaner.png
+│   │   │   │   ├── Moo0 DiskCleaner 1_128.png
+│   │   │   │   ├── mrublaster_large.png
+│   │   │   │   ├── WiseDiskCleaner_MAINICON.jpg
+│   │   │   │   └── Xleaner_1.png
+│   │   │   ├── DS_NTFS_MAINICON.png
+│   │   │   ├── firewalls
+│   │   │   │   ├── 1286__OutpostFreeIcon.png
+│   │   │   │   ├── 22__keriopf.png
+│   │   │   │   ├── 31__sygate.png
+│   │   │   │   ├── a2d7170c.png
+│   │   │   │   ├── cavscan_PRODUCTLOGO.ICO.png
+│   │   │   │   ├── CIS6.jpg
+│   │   │   │   └── op_install32_116.png
+│   │   │   ├── malware
+│   │   │   │   ├── 10__spybot.png
+│   │   │   │   ├── 809__adaware2.gif
+│   │   │   │   ├── ComboFix_100.png
+│   │   │   │   ├── mbam_IDI_MAIN.png
+│   │   │   │   ├── rkill_100.png
+│   │   │   │   ├── spywareblaster_1.png
+│   │   │   │   └── SUPERAntiSpyware_ICONAPPLICATION.png
+│   │   │   ├── NessusClient_IDI_ICON1.png
+│   │   │   ├── PrivaZer_MAINICON.jpg
+│   │   │   ├── TDSSKiller_128.png
+│   │   │   ├── Unlocker_106.png
+│   │   │   └── WinPatrol_159.png
+│   │   ├── speedfan_MAINICON.png
+│   │   ├── system_tools
+│   │   │   ├── 1565__BeyondCompare_icon.png
+│   │   │   ├── 1833__Eventlogexplorer_icon.png
+│   │   │   ├── autorunsc_EVERYTHING.png
+│   │   │   ├── autoruns_LSASCAN.png
+│   │   │   ├── backup
+│   │   │   │   ├── 1579__DriveImage_XML.png
+│   │   │   │   ├── 736__SyncBack.gif
+│   │   │   │   ├── paragonBackup.png
+│   │   │   │   └── reflect_128.gif
+│   │   │   ├── BoostSpeed_MAINICON.jpg
+│   │   │   ├── Bulk_Rename_Utility_128.png
+│   │   │   ├── Burner
+│   │   │   │   ├── 1276__infrarecorder_icon.png
+│   │   │   │   ├── 984__CDburnerXP2.gif
+│   │   │   │   ├── 989__nero2.gif
+│   │   │   │   └── ImgBurn_MAINICON.png
+│   │   │   ├── CloneSpy_200.png
+│   │   │   ├── compression
+│   │   │   │   ├── 4__winrar.png
+│   │   │   │   ├── 51__7zip.png
+│   │   │   │   ├── 722__universalExtractor.gif
+│   │   │   │   ├── 77__izarc.png
+│   │   │   │   ├── 81__powerarc.png
+│   │   │   │   ├── Bandizip32_134.gif
+│   │   │   │   ├── freearc-installer_102.jpg
+│   │   │   │   ├── HaoZip_101.jpg
+│   │   │   │   ├── KuaiZip_128.jpg
+│   │   │   │   └── pea_MAINICON.jpg
+│   │   │   ├── defrag
+│   │   │   │   ├── 1005t__defraggler.png
+│   │   │   │   ├── DiskDefrag_MAINICON.png
+│   │   │   │   └── MyDefrag_1.png
+│   │   │   ├── DoubleKiller_MAINICON.png
+│   │   │   ├── DuplicateCleaner_setup_103.png
+│   │   │   ├── FastExplorer_DEFAULT.png
+│   │   │   ├── FEShlExt_MAINICON.png
+│   │   │   ├── File_Association_Fixer_32512.png
+│   │   │   ├── fileManagers
+│   │   │   │   ├── dopus_100.png
+│   │   │   │   ├── ExplorerXP_128.png
+│   │   │   │   ├── FreeCommander_MAINICON.png
+│   │   │   │   ├── xplorer2_64_128.png
+│   │   │   │   └── XYplorer_1.png
+│   │   │   ├── FileMenuTools_1075.png
+│   │   │   ├── Gary4.png
+│   │   │   ├── glary.png
+│   │   │   ├── GodMode_Creator_32512.png
+│   │   │   ├── jv16PT_MAINICON.png
+│   │   │   ├── logo.png
+│   │   │   ├── NIRSOFTICONS
+│   │   │   │   ├── BlueScreenView_101.png
+│   │   │   │   ├── shexview_101.png
+│   │   │   │   ├── shman_101.png
+│   │   │   │   └── SocketSniff_101.png
+│   │   │   ├── process
+│   │   │   │   ├── ProcessHacker_101.png
+│   │   │   │   ├── procexp_101.png
+│   │   │   │   └── SystemExplorer_MAINICON.png
+│   │   │   ├── QuickRestoreMaker_32512.png
+│   │   │   ├── registry
+│   │   │   │   ├── EusingRegistryCleaner.png
+│   │   │   │   ├── QRegDefrag_MAINICON.png
+│   │   │   │   ├── RegCleaner_MAINICON.png
+│   │   │   │   ├── RegEditX_102.png
+│   │   │   │   ├── RegistryDefrag_MAINICON.png
+│   │   │   │   ├── RegMagik_101.png
+│   │   │   │   ├── RegSeeker_MAINICON.png
+│   │   │   │   └── rr_MAINICON.png
+│   │   │   ├── RevoUninPro_118.png
+│   │   │   ├── SlimDrivers_1.png
+│   │   │   ├── System Restore Manager_32512.png
+│   │   │   ├── TeraCopy_2COPY.png
+│   │   │   ├── TeraCopy_3MOVE.png
+│   │   │   ├── TrayIt!_101.png
+│   │   │   ├── TreeSize_MAINICON.png
+│   │   │   ├── TweaksLogon_32512.png
+│   │   │   ├── VistaStartMenu_AINICON.png
+│   │   │   ├── whocrashed_MAINICON.png
+│   │   │   ├── WinBootInfo_128.png
+│   │   │   ├── WindowsErrorLookupToolPortable_103.png
+│   │   │   ├── WiseCare365_MAINICON.png
+│   │   │   ├── WiseRegCleaner_MAINICON.jpg
+│   │   │   ├── world_time_server_logo.png
+│   │   │   ├── xp-AntiSpy_256.png
+│   │   │   ├── xqdc_MAINICON.png
+│   │   │   └── xqdcXSPApplet_MY_MAINICON.png
+│   │   └── TapeManager_128.png
+│   ├── twitter.jpg
+│   ├── twitter.png
+│   └── val
+│       ├── checkanim.gif
+│       ├── cse_val
+│       │   ├── cse6blue.gif
+│       │   ├── cse9black.gif
+│       │   ├── cse9blue.gif
+│       │   ├── cse9gray.gif
+│       │   ├── cse9lime.gif
+│       │   ├── cse9orange.gif
+│       │   ├── cse9red.gif
+│       │   ├── csegray1.gif
+│       │   ├── csered1.gif
+│       │   ├── htmlvalredanim.gif
+│       │   ├── redani2.gif
+│       │   └── sideroll1.gif
+│       ├── css-valid.gif
+│       ├── downloadfree.gif
+│       ├── HTML5_Badge_32.png
+│       ├── HTML5_Badge_64.png
+│       ├── html5_graphic.jpg
+│       ├── HTML5_Logo_32.png
+│       ├── HTML5_Logo_64.png
+│       ├── HTML5_sticker.png
+│       ├── html-valid.gif
+│       ├── madecss.gif
+│       ├── th.jpg
+│       ├── tidy.gif
+│       ├── tValIcons
+│       │   ├── access
+│       │   │   ├── valid_n_us508.gif
+│       │   │   ├── valid_n_wcag2_aaa.gif
+│       │   │   ├── valid_n_wcag2_aa.gif
+│       │   │   ├── valid_n_wcag2_a.gif
+│       │   │   ├── valid_n_wcag_aaa.gif
+│       │   │   ├── valid_n_wcag_aa.gif
+│       │   │   ├── valid_n_wcag_a.gif
+│       │   │   ├── valid_sn_us508.gif
+│       │   │   ├── valid_sn_wcag2_aaa.gif
+│       │   │   ├── valid_sn_wcag2_aa.gif
+│       │   │   ├── valid_sn_wcag2_a.gif
+│       │   │   ├── valid_sn_wcag_aaa.gif
+│       │   │   ├── valid_sn_wcag_aa.gif
+│       │   │   ├── valid_sn_wcag_a.gif
+│       │   │   ├── valid_s_us508.gif
+│       │   │   ├── valid_s_wcag2_aaa.gif
+│       │   │   ├── valid_s_wcag2_aa.gif
+│       │   │   ├── valid_s_wcag2_a.gif
+│       │   │   ├── valid_s_wcag_aaa.gif
+│       │   │   ├── valid_s_wcag_aa.gif
+│       │   │   ├── valid_s_wcag_a.gif
+│       │   │   ├── valid_us508.gif
+│       │   │   ├── valid_wcag2_aaa.gif
+│       │   │   ├── valid_wcag2_aa.gif
+│       │   │   ├── valid_wcag2_a.gif
+│       │   │   ├── valid_wcag_aaa.gif
+│       │   │   ├── valid_wcag_aa.gif
+│       │   │   └── valid_wcag_a.gif
+│       │   ├── css
+│       │   │   ├── valid_css_1.gif
+│       │   │   ├── valid_css_21.gif
+│       │   │   ├── valid_n_css_1.gif
+│       │   │   ├── valid_n_css_21.gif
+│       │   │   ├── valid_s_css_1.gif
+│       │   │   ├── valid_s_css_21.gif
+│       │   │   ├── valid_sn_css_1.gif
+│       │   │   └── valid_sn_css_21.gif
+│       │   ├── html
+│       │   │   ├── valid_html_20.gif
+│       │   │   ├── valid_html_32.gif
+│       │   │   ├── valid_html_401.gif
+│       │   │   ├── valid_html_40.gif
+│       │   │   ├── valid_html_5.gif
+│       │   │   ├── valid_html_iso.gif
+│       │   │   ├── valid_n_html_20.gif
+│       │   │   ├── valid_n_html_32.gif
+│       │   │   ├── valid_n_html_401.gif
+│       │   │   ├── valid_n_html_40.gif
+│       │   │   ├── valid_n_html_5.gif
+│       │   │   ├── valid_n_html_iso.gif
+│       │   │   ├── valid_s_html_20.gif
+│       │   │   ├── valid_s_html_32.gif
+│       │   │   ├── valid_s_html_401.gif
+│       │   │   ├── valid_s_html_40.gif
+│       │   │   ├── valid_s_html_5.gif
+│       │   │   ├── valid_s_html_iso.gif
+│       │   │   ├── valid_sn_html_20.gif
+│       │   │   ├── valid_sn_html_32.gif
+│       │   │   ├── valid_sn_html_401.gif
+│       │   │   ├── valid_sn_html_40.gif
+│       │   │   ├── valid_sn_html_5.gif
+│       │   │   └── valid_sn_html_iso.gif
+│       │   └── xhtml
+│       │       ├── valid_n_xhtml_10.gif
+│       │       ├── valid_n_xhtml_11.gif
+│       │       ├── valid_n_xhtml_5.gif
+│       │       ├── valid_sn_xhtml_10.gif
+│       │       ├── valid_sn_xhtml_11.gif
+│       │       ├── valid_sn_xhtml_5.gif
+│       │       ├── valid_s_xhtml_10.gif
+│       │       ├── valid_s_xhtml_11.gif
+│       │       ├── valid_s_xhtml_5.gif
+│       │       ├── valid_xhtml_10.gif
+│       │       ├── valid_xhtml_11.gif
+│       │       └── valid_xhtml_5.gif
+│       ├── tvheader2.gif
+│       ├── valid-xhtml.jpg
+│       ├── vcss.jpg
+│       ├── w3ccss.gif
+│       ├── w3xhtml.gif
+│       └── xhtml1_0.gif
+├── Homepage.geany
+├── html
+│   └── todo.html
+├── includes
+│   ├── BSAndJQScripts.php
+│   ├── config.php
+│   ├── jquery-3.1.1.min.js
+│   ├── jqueryTest.php
+│   └── menuaction.js
+├── index.jade
+├── index.php
+├── jade
+│   ├── index.html
+│   ├── index.jade
+│   └── testing
+│       ├── test.html
+│       └── test.jade
+├── jadeTest.php
+├── linuxHQ
+│   ├── aboutme
+│   │   ├── experience.php
+│   │   ├── linuxAboutMe.php
+│   │   └── markdown
+│   │       ├── aboutmeMD.md
+│   │       └── experienceMD.md
+│   ├── apps
+│   │   ├── AddPPA_to_Ubuntu.php
+│   │   ├── appIndex.php
+│   │   ├── favoritePPAs.php
+│   │   ├── html
+│   │   │   └── mainAppPageeMD.md.html
+│   │   ├── markdown
+│   │   │   ├── appsTemplate.txt
+│   │   │   ├── commonPPAMD.md
+│   │   │   ├── commonPPAMD.md.html
+│   │   │   ├── favoriteApps.md
+│   │   │   ├── mainAppPageeMD.md
+│   │   │   ├── MASSPPAListMD.md
+│   │   │   ├── MASSPPAListMD.md.html
+│   │   │   └── MASSPPAList.txt
+│   │   ├── MorePPAsMD.php
+│   │   └── others
+│   │       └── appTEST.php
+│   ├── config.rb
+│   ├── credit.php
+│   ├── database
+│   │   ├── dbconnect.php
+│   │   ├── distros.odb
+│   │   ├── distros.ods
+│   │   └── reviews.ods
+│   ├── desktops
+│   │   ├── budgie.php
+│   │   ├── cinnamon.php
+│   │   ├── desktopsIndex.php
+│   │   ├── KDE.php
+│   │   ├── LXDE.php
+│   │   ├── mate.php
+│   │   ├── more
+│   │   │   ├── DEindex.html
+│   │   │   ├── DE.odt
+│   │   │   ├── desktopsMD.html
+│   │   │   ├── desktopsMD.md
+│   │   │   ├── desktopsMD.md.html
+│   │   │   ├── DEs.txt
+│   │   │   ├── distroSectionTestLayout.html
+│   │   │   └── newDEHomeMD.md
+│   │   ├── openbox.php
+│   │   └── XFCE.php
+│   ├── distros
+│   │   ├── arch
+│   │   │   ├── antergos.php
+│   │   │   ├── archBang.php
+│   │   │   ├── archLinux.php
+│   │   │   ├── bridgeLinux.php
+│   │   │   ├── manjaroCOL.php
+│   │   │   ├── manjaro.php
+│   │   │   └── mmManjaro.php
+│   │   ├── blank.php
+│   │   ├── debian
+│   │   │   ├── crunchBang.php
+│   │   │   ├── debian.php
+│   │   │   ├── kwheezy.php
+│   │   │   ├── lmde.php
+│   │   │   ├── makulu.php
+│   │   │   ├── pointLinux.php
+│   │   │   └── solydxk.php
+│   │   ├── distroHome.jade
+│   │   ├── distroHome.php
+│   │   ├── gentoo
+│   │   │   ├── calculate.php
+│   │   │   ├── gentoo.php
+│   │   │   └── sabayon.php
+│   │   ├── independent
+│   │   │   ├── puppyLinux.php
+│   │   │   ├── solus.php
+│   │   │   └── solus.png
+│   │   ├── mandriva
+│   │   │   ├── mageia.php
+│   │   │   ├── openMandriva.php
+│   │   │   ├── PCLinuxOS.php
+│   │   │   └── ROSA.php
+│   │   ├── others
+│   │   │   ├── distroTemplate.txt
+│   │   │   ├── multiline_code.txt
+│   │   │   ├── myrankings.md
+│   │   │   ├── myViewDistros.odt
+│   │   │   ├── newDistroHomepageMD.md
+│   │   │   └── newDistroHomepageMD.md.html
+│   │   ├── rpm
+│   │   │   ├── centOS.php
+│   │   │   ├── fedora.php
+│   │   │   ├── korora.php
+│   │   │   └── openSuse.php
+│   │   └── ubuntu
+│   │       ├── deepn.php
+│   │       ├── elementaryOS.php
+│   │       ├── kubuntu.php
+│   │       ├── linuxLite.php
+│   │       ├── linuxMint.php
+│   │       ├── lubuntu.php
+│   │       ├── LXLE.php
+│   │       ├── PinguyReason.php
+│   │       ├── test.html
+│   │       ├── ubuntuMate.php
+│   │       ├── ubuntu.php
+│   │       ├── xubuntu.php
+│   │       └── zorin.php
+│   ├── error_log
+│   ├── graphics
+│   │   ├── 12154416681507359214lemmling_Cartoon_penguin_2.svg_med.png
+│   │   ├── allDistroPeg.jpg
+│   │   ├── bg
+│   │   │   ├── 01451_majesty_1920x1200.jpg
+│   │   │   ├── Christmas-Wallpaper-Hd-05.jpg
+│   │   │   └── Christmas-Wallpaper-Hd-14.jpg
+│   │   ├── drk_drip.jpg
+│   │   ├── dwbanner.png
+│   │   ├── google2.jpg
+│   │   ├── google3.jpg
+│   │   ├── googlePlus.jpg
+│   │   ├── icons
+│   │   │   ├── antergos.png
+│   │   │   ├── archbang.png
+│   │   │   ├── arch.png
+│   │   │   ├── bridge.png
+│   │   │   ├── calculate.png
+│   │   │   ├── centos.png
+│   │   │   ├── crunchbang.png
+│   │   │   ├── debian.png
+│   │   │   ├── deepin.png
+│   │   │   ├── drawing.svg2_.png
+│   │   │   ├── elementary.png
+│   │   │   ├── fedora.png
+│   │   │   ├── korora.png
+│   │   │   ├── kwheezy.png
+│   │   │   ├── lite.png
+│   │   │   ├── lubuntu.png
+│   │   │   ├── lxle.png
+│   │   │   ├── mageia.png
+│   │   │   ├── makulu.png
+│   │   │   ├── manjaro.png
+│   │   │   ├── mint.png
+│   │   │   ├── openmandriva.png
+│   │   │   ├── pclinuxos.png
+│   │   │   ├── pinguy.png
+│   │   │   ├── point.png
+│   │   │   ├── puppy.png
+│   │   │   ├── rosa.png
+│   │   │   ├── sabayon.png
+│   │   │   ├── solydxk.png
+│   │   │   ├── suse.png
+│   │   │   ├── ubuntu.png
+│   │   │   ├── xubuntu.png
+│   │   │   └── zorin.png
+│   │   ├── linuxguitar.jpg
+│   │   ├── mac_win_lin.jpg
+│   │   ├── mint_forum.jpg
+│   │   ├── navbar
+│   │   │   ├── bargloss2.png
+│   │   │   ├── black_grey1.png
+│   │   │   ├── black.jpg
+│   │   │   ├── black.xcf
+│   │   │   ├── blue_colors
+│   │   │   │   ├── 2dkbluetop_wButtom.png
+│   │   │   │   ├── black_blue1.png
+│   │   │   │   ├── blue1.png
+│   │   │   │   ├── blue2.png
+│   │   │   │   ├── dkbluetop_wButtom.png
+│   │   │   │   ├── Image12.png
+│   │   │   │   └── lt_blue_sub1.png
+│   │   │   ├── blue_tan.png
+│   │   │   ├── christmas
+│   │   │   │   ├── darkgreen1.png
+│   │   │   │   ├── darkgreen2.png
+│   │   │   │   ├── darkgreen3.gif
+│   │   │   │   ├── darkgreen4.gif
+│   │   │   │   ├── darkgreen5.gif
+│   │   │   │   ├── greenred1.gif
+│   │   │   │   ├── lightgreen1.png
+│   │   │   │   ├── lightgreen2.png
+│   │   │   │   └── lightgreen3.gif
+│   │   │   ├── gold1.png
+│   │   │   ├── green.jpg
+│   │   │   ├── grey_main1.png
+│   │   │   ├── headbg2.png
+│   │   │   ├── lt_blue_sub2.png
+│   │   │   ├── matrix1.png
+│   │   │   ├── matrix2.png
+│   │   │   ├── neon_green.png
+│   │   │   ├── red
+│   │   │   │   ├── red1.png
+│   │   │   │   └── redSub1.png
+│   │   │   ├── redMain2.png
+│   │   │   ├── redMain3.png
+│   │   │   ├── redMain.png
+│   │   │   ├── t4_right.png
+│   │   │   └── tan
+│   │   │       ├── 2tan3.png
+│   │   │       ├── lt_tan1.jpg
+│   │   │       ├── paintdotNet_Try1.png
+│   │   │       ├── paintdotNet_Try2.png
+│   │   │       ├── tan1.jpg
+│   │   │       ├── tan2.jpg
+│   │   │       ├── tan3.jpg
+│   │   │       ├── tan3.png
+│   │   │       └── tanRed2.png
+│   │   ├── peguin
+│   │   │   └── th.jpg
+│   │   ├── penguin-md.png
+│   │   ├── support
+│   │   │   ├── integralCalcDotCom.png
+│   │   │   └── mathportallogo.jpg
+│   │   ├── th.jpg
+│   │   ├── tokyo-wallpape-11-cool-hd.jpg
+│   │   ├── Tux_Large.png
+│   │   ├── tux-penguin-clip-art.jpg
+│   │   ├── Tux_small.jpg
+│   │   ├── tvheader2.gif
+│   │   ├── w3ccss.gif
+│   │   ├── wallpapers
+│   │   │   ├── 115.jpg
+│   │   │   ├── bay.jpg
+│   │   │   └── night1.jpg
+│   │   └── Wallpaper-ST2-Black.jpg
+│   ├── html
+│   │   ├── credit.html
+│   │   └── install_remarkable.html
+│   ├── index.jade
+│   ├── index.php
+│   ├── info.php
+│   ├── lists
+│   │   └── distrobutionsMD.md
+│   ├── MARDOWN
+│   │   ├── CPUFREQ.md
+│   │   ├── distro
+│   │   │   └── distroIndex.md
+│   │   ├── favoritesMD.md
+│   │   ├── idea4NASMD.md
+│   │   ├── indexMD.md
+│   │   ├── installRemakableMD
+│   │   ├── linuxIndex.html
+│   │   ├── linuxIndex.md
+│   │   ├── MARDOWN
+│   │   │   ├── distro
+│   │   │   │   └── distroIndex.md
+│   │   │   ├── idea4NASMD.md
+│   │   │   ├── indexMD.md
+│   │   │   ├── linuxIndex.html
+│   │   │   ├── linuxIndex.md
+│   │   │   ├── routerCollectionMD.md
+│   │   │   └── todoMD.md
+│   │   ├── routerCollectionMD.md
+│   │   └── todoMD.md
+│   ├── modules
+│   │   ├── commonLinux.php
+│   │   ├── distrowatch.tpl
+│   │   ├── linuxNTICCol1.tpl
+│   │   ├── sections
+│   │   │   ├── distroRec.tpl
+│   │   │   ├── distroTable.html
+│   │   │   ├── distroTable.jade
+│   │   │   ├── distroTable.tpl
+│   │   │   ├── InstallHowTo.jade
+│   │   │   ├── installHowToJade.tpl
+│   │   │   ├── linuxDesktopEnvCol1.html
+│   │   │   ├── linuxDistroCol1.html
+│   │   │   ├── linuxDistroContent.jade
+│   │   │   ├── linuxDistroContent.tpl
+│   │   │   ├── linuxNAppCol1.tpl
+│   │   │   ├── linuxNDEContent.jade
+│   │   │   ├── linuxNDEContent.tpl
+│   │   │   ├── linuxNDesktopEnvCol1.jade
+│   │   │   ├── linuxNDesktopEnvCol1.tpl
+│   │   │   ├── linuxNDistroCol1.jade
+│   │   │   ├── linuxNDistroCol1.tpl
+│   │   │   ├── linuxNTTutor_Template_Col1.php
+│   │   │   ├── linuxNTutor_Temp_Col1.jade
+│   │   │   └── usb.tpl
+│   │   ├── TICTemplate.jade
+│   │   ├── TICTemplate.php
+│   │   ├── variables
+│   │   │   ├── dbvars.php
+│   │   │   ├── distros.php
+│   │   │   ├── homepage.php
+│   │   │   ├── linuxDistroReviewer.php
+│   │   │   ├── officalHP.php
+│   │   │   ├── sshots.php
+│   │   │   └── ticVars.php
+│   │   └── ytsection.tpl
+│   ├── otherfiles
+│   │   ├── colors.txt
+│   │   ├── dwatch_pages.zip
+│   │   ├── indexNew.php
+│   │   ├── indexOLD.php
+│   │   ├── linuxreviewers_placeholder.html
+│   │   ├── modules.zip
+│   │   ├── myExperience.txt
+│   │   ├── otherfiles
+│   │   │   ├── colors.txt
+│   │   │   ├── dwatch_pages.zip
+│   │   │   ├── linuxreviewers_placeholder.html
+│   │   │   ├── myExperience.txt
+│   │   │   ├── title.txt
+│   │   │   └── XmetalLinuxHQ.bfproject
+│   │   ├── quidsup.sh
+│   │   ├── title.txt
+│   │   ├── trial.sh
+│   │   └── XmetalLinuxHQ.bfproject
+│   ├── resources.php
+│   ├── sass
+│   │   ├── _images.scss
+│   │   ├── layoutMed.scss
+│   │   ├── layout.scss
+│   │   ├── _mixins.scss
+│   │   └── _sassHeader.scss
+│   ├── screenshots
+│   │   ├── archbased
+│   │   │   ├── antergosKDE1.jpg
+│   │   │   ├── manjaro-090p1-kde.png
+│   │   │   ├── manjaro-090p1-kde_small.jpg
+│   │   │   ├── manjaro-090p1-xfce.jpg
+│   │   │   └── manjarobyMM2.jpg
+│   │   ├── DE
+│   │   │   ├── fedoraGnome1.jpg
+│   │   │   └── suseGnome1.jpg
+│   │   ├── debian
+│   │   │   ├── crunchbang.jpg
+│   │   │   └── crunchbang-small.jpg
+│   │   ├── kaosKDE1.jpg
+│   │   ├── kaosKDE1-small.jpg
+│   │   ├── rpm
+│   │   │   ├── fedoraCinn1.jpg
+│   │   │   ├── FedoraCinnSpecs.png
+│   │   │   ├── pclinuxosKDE1.jpg
+│   │   │   ├── pclinuxosKDE1-small.jpg
+│   │   │   ├── suseKDE1.jpg
+│   │   │   └── suseKDE1-small.jpg
+│   │   ├── solus
+│   │   │   ├── budgie1.jpg
+│   │   │   ├── budgie2.jpg
+│   │   │   ├── budgie3.jpg
+│   │   │   └── small
+│   │   │       ├── budgie1_tn.jpg
+│   │   │       ├── budgie2_tn.jpg
+│   │   │       └── budgie3_tn.jpg
+│   │   ├── ubuntu
+│   │   │   ├── kubuntu.png
+│   │   │   ├── kubuntu-small.png
+│   │   │   ├── lubuntu1604.png
+│   │   │   ├── lubuntu1.png
+│   │   │   └── ubuntu.jpg
+│   │   └── ubuntubased
+│   │       ├── archvm.png
+│   │       ├── bodhi.jpg
+│   │       ├── deepin.jpg
+│   │       ├── deepin-small.jpg
+│   │       ├── elementary.png
+│   │       ├── linuxlite.jpg
+│   │       ├── lxle.jpg
+│   │       ├── lxle-small.jpg
+│   │       ├── mint.jpg
+│   │       ├── MintKDE1.png
+│   │       ├── MintKDE2.png
+│   │       ├── mintMate2.jpg
+│   │       ├── mintMateOffical.jpg
+│   │       ├── umate1.png
+│   │       ├── xubuntu1.png
+│   │       ├── zorin.jpg
+│   │       └── zorin-small.jpg
+│   ├── stylesheets
+│   │   ├── layout.css
+│   │   └── layoutMed.css
+│   ├── thankyou.php
+│   ├── tic
+│   │   ├── html
+│   │   │   ├── ppaMD.md.html
+│   │   │   └── TICPPA_LIST_MD.md.html
+│   │   ├── markdown
+│   │   │   ├── ppaMD.md
+│   │   │   └── TICPPA_LIST_MD.md
+│   │   ├── screenshots
+│   │   │   └── arc
+│   │   │       └── arc1.jpg
+│   │   ├── themes
+│   │   │   ├── ambiance.php
+│   │   │   ├── ambience.php
+│   │   │   ├── arc.php
+│   │   │   ├── paper.php
+│   │   │   └── yosembiance.php
+│   │   ├── TICHome.jade
+│   │   └── TICHome.php
+│   ├── tutorials
+│   │   ├── addingAURtoArch.php
+│   │   ├── HTML
+│   │   │   ├── addingAURtoArch.html
+│   │   │   └── optimizingPacmanMD.md.html
+│   │   ├── Markdown
+│   │   │   ├── addingAURtoArchMD.md
+│   │   │   └── optimizingPacmanMD.md
+│   │   ├── newUserHQ
+│   │   │   ├── commonTerms.php
+│   │   │   ├── DesktopE.php
+│   │   │   ├── familiarSoftware.php
+│   │   │   ├── HTML
+│   │   │   │   ├── LinuxVsWindowsMD.html
+│   │   │   │   └── myRecommendedDistrosMD.html
+│   │   │   ├── linuxCons.php
+│   │   │   ├── linuxMyths.php
+│   │   │   ├── linuxPros.php
+│   │   │   ├── LinuxVsWindows.php
+│   │   │   ├── liveVersion.php
+│   │   │   ├── markdown
+│   │   │   │   ├── DesktopMD.md
+│   │   │   │   ├── linuxConsMD.md
+│   │   │   │   ├── LinuxVsWindowsMD.md
+│   │   │   │   ├── liveVersionMD.md
+│   │   │   │   ├── myRecommendedDistrosMD.md
+│   │   │   │   └── WhatisLinuxMD.md
+│   │   │   ├── myRecommendedDistrosMD.php
+│   │   │   ├── myRecommendedDistros.php
+│   │   │   ├── newuserHQIndex.php
+│   │   │   ├── partitions.php
+│   │   │   ├── usingISOs.php
+│   │   │   └── WhatIsLinux.php
+│   │   ├── optimizingPacman.php
+│   │   ├── Software.jade
+│   │   ├── Software.php
+│   │   ├── tutorialIndex.php
+│   │   ├── upgradingDebianBranches.php
+│   │   ├── upgradingFromDebianStable.php
+│   │   └── various
+│   │       ├── install_UbuntuMate.txt~
+│   │       └── others.tar.gz
+│   └── youtubeVideos.php
+├── markdown
+│   ├── idea4NASMD.md
+│   ├── indexMD.md
+│   ├── markdown
+│   │   ├── idea4NASMD.md
+│   │   ├── indexMD.md
+│   │   ├── routerCollectionMD.md
+│   │   └── todoMD.md
+│   ├── routerCollectionMD.md
+│   └── todoMD.md
+├── modules
+│   ├── common.php
+│   ├── frontpageNav.jade
+│   ├── frontpageNav.tpl
+│   ├── linux
+│   │   ├── linuxBaseFooter.jade
+│   │   ├── linuxBaseFooter.tpl
+│   │   ├── linuxBaseHeader.tpl
+│   │   ├── linuxFooter.tpl
+│   │   ├── linuxNavMain.tpl
+│   │   └── linuxNDistroTemplateCol2Table.php
+│   ├── snow.php
+│   ├── socialMediaIcons.tpl
+│   ├── startpage.tpl
+│   ├── tech
+│   │   ├── baseTechFooter.tpl
+│   │   ├── baseTechHeader.html
+│   │   ├── baseTechHeader.jade
+│   │   ├── baseTechHeader.tpl
+│   │   ├── lowerFooter.jade
+│   │   ├── lowerFooter.tpl
+│   │   ├── menus
+│   │   │   ├── bottomMenu.html
+│   │   │   ├── bottomMenus.jade
+│   │   │   ├── bottomMenus.tpl
+│   │   │   ├── bStrapNav.html
+│   │   │   ├── bStrapNav.jade
+│   │   │   └── bStrapNav.tpl
+│   │   ├── phpAddition4Header.txt
+│   │   └── techNavMenu.tpl
+│   └── title.php
+├── notes.txt
+├── others
+│   ├── css.ods
+│   ├── css.txt
+│   ├── flex.txt
+│   ├── general_Flexbox_idea.txt
+│   ├── idea.php
+│   ├── index.htm
+│   ├── index.html
+│   ├── list.txt
+│   ├── scrap.txt
+│   └── validation.ods
+├── sass
+│   ├── _images.scss
+│   ├── layout.scss
+│   ├── _mixins.scss
+│   ├── _sassHeader.scss
+│   └── smallerLayout.scss
+├── scripts
+│   └── snow.js
+├── stylesheets
+│   ├── __history
+│   │   ├── layout.css.~1~
+│   │   ├── layout.css.~2~
+│   │   └── layout.css.~3~
+│   ├── layout.css
+│   └── smallerLayout.css
+├── techHQ
+│   ├── 404.php
+│   ├── adblock
+│   │   ├── adv
+│   │   │   ├── domains
+│   │   │   └── urls
+│   │   ├── socialnet
+│   │   │   ├── domains
+│   │   │   └── urls
+│   │   ├── spyware
+│   │   │   ├── domains
+│   │   │   └── urls
+│   │   ├── tracker
+│   │   │   ├── domains
+│   │   │   └── urls
+│   │   └── warez
+│   │       ├── domains
+│   │       └── urls
+│   ├── browsers
+│   │   ├── adblocking
+│   │   │   ├── adblockBasics.html
+│   │   │   ├── adblockBasics.jade
+│   │   │   ├── adblockBasics.php
+│   │   │   ├── adblocker.php
+│   │   │   ├── BLANK.php
+│   │   │   ├── HTML
+│   │   │   │   ├── adblockBasicsMD.html
+│   │   │   │   ├── adblockerMD.html
+│   │   │   │   ├── enableAdsOnCertainYTChannelsMD.html
+│   │   │   │   ├── menusMD.html
+│   │   │   │   ├── noopExplainedMD.html
+│   │   │   │   ├── ublockConfusionMD.html
+│   │   │   │   ├── ublockDynFilterLevelsMD.html
+│   │   │   │   └── UblockTutorialMD.html
+│   │   │   ├── icons
+│   │   │   │   ├── abe.png
+│   │   │   │   ├── adguard.jpg
+│   │   │   │   ├── adguard.png
+│   │   │   │   ├── elementHiderpng
+│   │   │   │   └── ublockO.png
+│   │   │   ├── markdown
+│   │   │   │   ├── adblockBasicsMD.md
+│   │   │   │   ├── adblockerMD.md
+│   │   │   │   ├── adblockingOutline.txt
+│   │   │   │   ├── advancedTasksMD.md
+│   │   │   │   ├── enableAdsOnCertainYTChannelsMD.backup
+│   │   │   │   ├── enableAdsOnCertainYTChannelsMD.MD
+│   │   │   │   ├── filterTypeComparisons.md
+│   │   │   │   ├── menusMD.md
+│   │   │   │   ├── ublockConfusionMD.md
+│   │   │   │   ├── ublockDynFilterLevelsMD.md
+│   │   │   │   ├── UblockTutorialMD.md
+│   │   │   │   ├── umatrix_layout_detailMD.md
+│   │   │   │   ├── umatrix_legendMD.md
+│   │   │   │   ├── umatrix_mainLayoutMD.md
+│   │   │   │   └── umatrix_TutorialMD.md
+│   │   │   ├── noopExplained.php
+│   │   │   ├── screenshots
+│   │   │   │   ├── abe
+│   │   │   │   │   ├── abeDisablePageOnly.jpg
+│   │   │   │   │   ├── abeDisableSpecific.jpg
+│   │   │   │   │   ├── abeOff.jpg
+│   │   │   │   │   └── abeOn.jpg
+│   │   │   │   ├── adguard
+│   │   │   │   │   ├── adguardOn.jpg
+│   │   │   │   │   ├── adguardSiteOff.jpg
+│   │   │   │   │   └── adguardTotallyOFF.jpg
+│   │   │   │   ├── ublock
+│   │   │   │   │   ├── ublockDashSettingsAdvancedUser.jpg
+│   │   │   │   │   ├── ublockDashSettings.jpg
+│   │   │   │   │   ├── ublockDashthirdParty.jpg
+│   │   │   │   │   ├── ublockDisabled.jpg
+│   │   │   │   │   └── ublockEnabled.jpg
+│   │   │   │   └── umatrix
+│   │   │   │       ├── globalRulesBlack.jpg
+│   │   │   │       ├── GlobalRules_ControlImage.jpg
+│   │   │   │       ├── SiteRules_ControlImage.jpg
+│   │   │   │       ├── siteRules_leftSide.jpg
+│   │   │   │       ├── spreadsheetComparison.jpg
+│   │   │   │       └── topColumns.jpg
+│   │   │   ├── ublockConfusion.php
+│   │   │   ├── ublockDynFilterLevels.php
+│   │   │   ├── UblockTutorial.jade
+│   │   │   ├── UblockTutorial.php
+│   │   │   ├── umatrix_legend.php
+│   │   │   ├── umatrix_mainLayout.php
+│   │   │   └── variables.php
+│   │   ├── addons
+│   │   │   ├── contentManagerAddons.html
+│   │   │   ├── contentManagerAddons.jade
+│   │   │   ├── contentManagerAddons.php
+│   │   │   ├── DONE4NOW
+│   │   │   │   ├── contentManagerAddonsMD.html
+│   │   │   │   ├── contentManagerAddonsMD.md
+│   │   │   │   ├── downloadRelatedAddonsMD.html
+│   │   │   │   ├── downloadRelatedAddonsMD.md
+│   │   │   │   ├── firefox.7z
+│   │   │   │   ├── generalAddonsMD.html
+│   │   │   │   ├── generalAddonsMD.md
+│   │   │   │   ├── generalAddonsMDtest.md
+│   │   │   │   ├── interfaceAddonsMD.html
+│   │   │   │   ├── interfaceAddonsMD.md
+│   │   │   │   ├── passwordAddonMD.html
+│   │   │   │   ├── passwordAddonMD.md
+│   │   │   │   ├── topAddonsNonSecurity.html
+│   │   │   │   ├── topAddonsNonSecurity.md
+│   │   │   │   ├── topSecurityAddons.html
+│   │   │   │   ├── topSecurityAddonsMD.md
+│   │   │   │   ├── webMasterAddonsMD.html
+│   │   │   │   └── webMasterAddonsMD.md
+│   │   │   ├── downloadRelatedAddons.php
+│   │   │   ├── generalAddons.php
+│   │   │   ├── interfaceAddons.php
+│   │   │   ├── markdown
+│   │   │   │   └── adblockingAddonsMD.md
+│   │   │   ├── passwordAddon.php
+│   │   │   ├── topAddonsNonSecurity.php
+│   │   │   ├── topSecurityAddons.php
+│   │   │   └── webMasterAddons.php
+│   │   ├── browserIndex.php
+│   │   ├── DONE4NOW
+│   │   │   ├── html
+│   │   │   │   ├── browserIndex.html
+│   │   │   │   └── prevent_crashing_browsersMD.html
+│   │   │   └── markdown
+│   │   │       ├── browserIndex.md
+│   │   │       └── prevent_crashing_browsersMD.md
+│   │   ├── favoritesBackup.html
+│   │   ├── favoritesBackup.jade
+│   │   ├── favoritesBackup.php
+│   │   ├── graphics
+│   │   │   ├── Chrome_bookmark.jpg
+│   │   │   ├── FEBE_Window.jpg
+│   │   │   └── Google_Chrome_Bookmark_Man.jpg
+│   │   ├── prevent_crashing_browsers.php
+│   │   ├── pug
+│   │   │   ├── browserindex.html
+│   │   │   └── browserIndex.jade
+│   │   └── tinyurl.php
+│   ├── config.rb
+│   ├── contact.php
+│   ├── error_log
+│   ├── graphics
+│   │   ├── 1006250_10151599620808229_1016343837_n.png
+│   │   ├── 2.gif
+│   │   ├── 62238.jpg
+│   │   ├── banner
+│   │   │   └── xmetalBanner.gif
+│   │   ├── bg
+│   │   │   ├── 467763.jpg
+│   │   │   ├── BeachHotel1.jpg
+│   │   │   ├── CurtisPark2004.jpg
+│   │   │   ├── LB_park2.jpg
+│   │   │   ├── LemonBayPark12.jpg
+│   │   │   ├── road.jpg
+│   │   │   ├── spaceAndPlanet1.jpg
+│   │   │   ├── spaceAndPlanet2.jpg
+│   │   │   ├── Sunset_In_Bali.jpg
+│   │   │   ├── Temple_of_Olympian_Zeus.jpg
+│   │   │   ├── The_Colosseum_Rome.jpg
+│   │   │   ├── tigerPool.jpg
+│   │   │   ├── Venice_Water_City.jpg
+│   │   │   └── winter1.jpg
+│   │   ├── ckt1.png
+│   │   ├── comingsoon.gif
+│   │   ├── computer
+│   │   │   ├── computertyping.gif
+│   │   │   ├── ordinateur-09.gif
+│   │   │   ├── ordinateur-15.gif
+│   │   │   ├── ordinateur-16.gif
+│   │   │   ├── ordinateur-20.gif
+│   │   │   ├── ordinateur-26.gif
+│   │   │   ├── ordinateur-33.gif
+│   │   │   ├── ordinateur-34.gif
+│   │   │   ├── ordinateur-47.gif
+│   │   │   └── ordinateur-49.gif
+│   │   ├── connections.jpg
+│   │   ├── desktop
+│   │   │   └── burnDesktop.jpg
+│   │   ├── email
+│   │   │   ├── e_mails-05.gif
+│   │   │   ├── e_mails-11.gif
+│   │   │   ├── e_mails-16.gif
+│   │   │   └── e_mails-24.gif
+│   │   ├── ffox
+│   │   │   ├── aardvark.gif
+│   │   │   ├── browserProtect.png
+│   │   │   ├── certPatrol.png
+│   │   │   ├── cookie
+│   │   │   │   ├── cacheViewer.png
+│   │   │   │   ├── cMonster.png
+│   │   │   │   ├── cookieManager.png
+│   │   │   │   └── CookieSafe.gif
+│   │   │   ├── cssUsage.png
+│   │   │   ├── download
+│   │   │   │   ├── DownloadHelper.png
+│   │   │   │   ├── downloadStatus.png
+│   │   │   │   ├── DownThemAll.png
+│   │   │   │   ├── ImageDownload2.png
+│   │   │   │   └── ImageGrabber.png
+│   │   │   ├── FEBE.png
+│   │   │   ├── firebug.png
+│   │   │   ├── Ghosty.jpg
+│   │   │   ├── GreaseFire.png
+│   │   │   ├── greasemonkey.png
+│   │   │   ├── gui.png
+│   │   │   ├── hideCaptionTitlebar_Plus_Icon.png
+│   │   │   ├── IEtabs.png
+│   │   │   ├── LastPass.jpg
+│   │   │   ├── Lazarus.png
+│   │   │   ├── MAFF.png
+│   │   │   ├── MAF.png
+│   │   │   ├── ModifyHeader.png
+│   │   │   ├── moreTools.png
+│   │   │   ├── OptGoogle.png
+│   │   │   ├── QuickJava.png
+│   │   │   ├── redirectRemover.png
+│   │   │   ├── RefControl.png
+│   │   │   ├── reloadPlus.png
+│   │   │   ├── remove_it_perm.png
+│   │   │   ├── right2Click.png
+│   │   │   ├── searchEnglineSecurity.png
+│   │   │   ├── security
+│   │   │   │   ├── Adblock.jpg
+│   │   │   │   ├── Adblock.png
+│   │   │   │   ├── BetterPrivacy.jpg
+│   │   │   │   ├── elementHider.png
+│   │   │   │   ├── HTTP_E.png
+│   │   │   │   ├── https_finder.png
+│   │   │   │   ├── NoScript.jpg
+│   │   │   │   ├── Privacy_Plus.png
+│   │   │   │   ├── RequestPolicy.png
+│   │   │   │   ├── StopAutoplay.png
+│   │   │   │   ├── TrackerBlock.png
+│   │   │   │   └── WOT.jpg
+│   │   │   ├── sessionManager.png
+│   │   │   ├── shortenURL.png
+│   │   │   ├── ShowIP.png
+│   │   │   ├── socialFixer.png
+│   │   │   ├── Statusbar_4_eva_con.png
+│   │   │   ├── stopAutoPlay.png
+│   │   │   ├── tabmixPlus.png
+│   │   │   ├── TabUtilities.png
+│   │   │   ├── themeChanger.png
+│   │   │   ├── UAControl.png
+│   │   │   ├── UAEnhancer.png
+│   │   │   ├── UserAgent.png
+│   │   │   └── xpinstallItemGeneric.png
+│   │   ├── firefox_SearchMenu.jpg
+│   │   ├── flslogo.jpg
+│   │   ├── getfirefox_large2.gif
+│   │   ├── gizmoLogo.png
+│   │   ├── header
+│   │   │   ├── curtisPark1_header.jpg
+│   │   │   ├── curtisPark1.jpg
+│   │   │   ├── headerText.png
+│   │   │   └── headerText.xcf
+│   │   ├── holidays
+│   │   │   ├── 513woIaBj5L._SX500_.jpg
+│   │   │   ├── christmas04.gif
+│   │   │   ├── christmasBOTH.pdn
+│   │   │   ├── christmasBOTH.png
+│   │   │   ├── christmasBOTHsm.png
+│   │   │   ├── christmasBOTH.xcf
+│   │   │   ├── christmasLeft.png
+│   │   │   ├── christmasR.png
+│   │   │   ├── fireplace02.gif
+│   │   │   ├── fireplace03.gif
+│   │   │   ├── holly1_BR.png
+│   │   │   ├── holly1.jpg
+│   │   │   ├── holly1.png
+│   │   │   ├── sm_holly1.png
+│   │   │   └── tree02.gif
+│   │   ├── internet-options.jpg
+│   │   ├── ixquick_small_logo.gif
+│   │   ├── joke
+│   │   │   ├── 0075.jpg
+│   │   │   ├── bsod.gif
+│   │   │   ├── elvirusanie09ic.gif
+│   │   │   ├── firefox.gif
+│   │   │   ├── graphics-computers-007811.gif
+│   │   │   ├── graphics-computers-033363.gif
+│   │   │   ├── graphics-computers-112403.gif
+│   │   │   ├── graphics-computers-322588.gif
+│   │   │   ├── graphics-computers-549693.gif
+│   │   │   ├── graphics-computers-600742.gif
+│   │   │   ├── graphics-computers-617287.gif
+│   │   │   ├── graphics-computers-745577.gif
+│   │   │   ├── graphics-computers-976325.gif
+│   │   │   ├── humorsense8va.gif
+│   │   │   ├── Impish.gif
+│   │   │   ├── kitty.gif
+│   │   │   ├── madcow.gif
+│   │   │   ├── mayan2012.gif
+│   │   │   ├── mayan2012.jpg
+│   │   │   ├── mouse.gif
+│   │   │   └── safesex.gif
+│   │   ├── khan-logo.png
+│   │   ├── khan-logo-vertical-transparent.png
+│   │   ├── kking.png
+│   │   ├── linuxAcad.png
+│   │   ├── logo1.gif
+│   │   ├── logo_ativa.gif
+│   │   ├── main
+│   │   │   ├── original
+│   │   │   │   ├── Beach_Tree_Wallpapers_01.jpg
+│   │   │   │   ├── bocaGrande_Lighthouse_main.jpg
+│   │   │   │   └── happyJava.gif
+│   │   │   └── thumb
+│   │   │       ├── tn_Beach_Tree_Wallpapers_01.jpg
+│   │   │       ├── tn_bocaGrande_Lighthouse_main.jpg
+│   │   │       └── tn_happyJava.gif
+│   │   ├── navbar_trials
+│   │   │   ├── bargloss2.png
+│   │   │   ├── black_grey1.png
+│   │   │   ├── blue_colors
+│   │   │   │   ├── 2dkbluetop_wButtom.png
+│   │   │   │   ├── black_blue1.png
+│   │   │   │   ├── blue1.png
+│   │   │   │   ├── blue2.png
+│   │   │   │   ├── dkbluetop_wButtom.png
+│   │   │   │   ├── Image12.png
+│   │   │   │   └── lt_blue_sub1.png
+│   │   │   ├── blue_tan.png
+│   │   │   ├── christmas
+│   │   │   │   ├── darkgreen1.png
+│   │   │   │   ├── darkgreen2.png
+│   │   │   │   ├── darkgreen3.gif
+│   │   │   │   ├── darkgreen4.gif
+│   │   │   │   ├── darkgreen5.gif
+│   │   │   │   ├── greenred1.gif
+│   │   │   │   ├── lightgreen1.png
+│   │   │   │   ├── lightgreen2.png
+│   │   │   │   └── lightgreen3.gif
+│   │   │   ├── gold1.png
+│   │   │   ├── green.jpg
+│   │   │   ├── grey_main1.png
+│   │   │   ├── headbg2.png
+│   │   │   ├── lt_blue_sub2.png
+│   │   │   ├── matrix1.png
+│   │   │   ├── matrix2.png
+│   │   │   ├── neon_green.png
+│   │   │   ├── red
+│   │   │   │   ├── red1.png
+│   │   │   │   └── redSub1.png
+│   │   │   ├── redMain2.png
+│   │   │   ├── redMain3.png
+│   │   │   ├── redMain.png
+│   │   │   ├── t4_right.png
+│   │   │   └── tan
+│   │   │       ├── 2tan3.png
+│   │   │       ├── lt_tan1.jpg
+│   │   │       ├── paintdotNet_Try1.png
+│   │   │       ├── paintdotNet_Try2.png
+│   │   │       ├── tan1.jpg
+│   │   │       ├── tan2.jpg
+│   │   │       ├── tan3.jpg
+│   │   │       ├── tan3.png
+│   │   │       └── tanRed2.png
+│   │   ├── new
+│   │   │   ├── nouveau-08.gif
+│   │   │   ├── nouveau-11.gif
+│   │   │   └── nouveau-13.gif
+│   │   ├── noframes.gif
+│   │   ├── personalSection
+│   │   │   ├── flslogo.jpg
+│   │   │   ├── newrock99x.gif
+│   │   │   ├── scabbia.jpg
+│   │   │   ├── thumbnails
+│   │   │   │   └── bush-174x219.jpg
+│   │   │   └── xmetal_abby.jpg
+│   │   ├── portals
+│   │   │   ├── 2ghacks.jpg
+│   │   │   ├── 3ghacks.gif
+│   │   │   ├── af_jerboa_120.gif
+│   │   │   ├── AVComparatives.png
+│   │   │   ├── belchfire.gif
+│   │   │   ├── DigSolutions.gif
+│   │   │   ├── fhlogo2.gif
+│   │   │   ├── fhlogo2.png
+│   │   │   ├── filepiggy1.png
+│   │   │   ├── filePiggy2.png
+│   │   │   ├── freeware_genius.jpg
+│   │   │   ├── freeware_genius.xcf
+│   │   │   ├── ghacks.jpg
+│   │   │   ├── ghacksSmall.png
+│   │   │   ├── imglogo.gif
+│   │   │   ├── ipc.gif
+│   │   │   ├── logo24.png
+│   │   │   ├── Logo_25wht.gif
+│   │   │   ├── logo4.gif
+│   │   │   ├── logo4.jpg
+│   │   │   ├── logo_a_75 copy.gif
+│   │   │   ├── logo_a_75.jpg
+│   │   │   ├── mathportallogo.jpg
+│   │   │   ├── mg_logo_trns.gif
+│   │   │   ├── neowin.jpg
+│   │   │   ├── nirsoft1.gif
+│   │   │   ├── nirsoft1.png
+│   │   │   ├── nirsoft.png
+│   │   │   ├── piggy5.png
+│   │   │   ├── portallogo.jpg
+│   │   │   ├── sf-footer-logo.png
+│   │   │   ├── sflogo.gif
+│   │   │   ├── sixfiles.jpg
+│   │   │   ├── slyck.gif
+│   │   │   ├── snapfiles_freedlani.gif
+│   │   │   ├── softpedia_free_award_f.gif
+│   │   │   ├── softpedia_logo.gif
+│   │   │   ├── SOSTopGray2_edit.jpg
+│   │   │   ├── tweakxp_button.jpg
+│   │   │   ├── untitled.jpg
+│   │   │   ├── utc_banner.gif
+│   │   │   ├── webcrawler.gif
+│   │   │   └── winconnected.jpg
+│   │   ├── programs
+│   │   │   ├── browsers
+│   │   │   │   ├── firefox.jpg
+│   │   │   │   ├── getFirefox.gif
+│   │   │   │   ├── getopera.jpg
+│   │   │   │   ├── noscript.gif
+│   │   │   │   ├── Opera.jpg
+│   │   │   │   ├── small_link3.gif
+│   │   │   │   └── small_link.gif
+│   │   │   ├── DO8BannerAnimSm.gif
+│   │   │   ├── dvddecrypter.gif
+│   │   │   ├── dvdshrink.gif
+│   │   │   ├── firefox.gif
+│   │   │   ├── flash_get.gif
+│   │   │   ├── foxit_logo.gif
+│   │   │   ├── getjava_sm.gif
+│   │   │   ├── jv16.gif
+│   │   │   ├── notepad
+│   │   │   │   ├── npp.animated.logo.gif
+│   │   │   │   ├── npp.logo2.gif
+│   │   │   │   ├── npp.logo3.png
+│   │   │   │   ├── npp.logo6.png
+│   │   │   │   └── npp.logo.80x15.png
+│   │   │   ├── OOo_logo_snowing.gif
+│   │   │   ├── ozone2.gif
+│   │   │   ├── securityProgs
+│   │   │   │   ├── antivir.png
+│   │   │   │   ├── bigger_link.gif
+│   │   │   │   ├── clamav-logo1.png
+│   │   │   │   ├── defender
+│   │   │   │   │   ├── AntiFirewall.gif
+│   │   │   │   │   ├── awards_top.gif
+│   │   │   │   │   ├── defenderPro_top2.gif
+│   │   │   │   │   └── FiveInOne.gif
+│   │   │   │   ├── eset.gif
+│   │   │   │   ├── kaspersky_logo.gif
+│   │   │   │   ├── MalwareBytes.jpg
+│   │   │   │   └── SUPER_Antispyware.jpg
+│   │   │   ├── sys_logo.gif
+│   │   │   ├── topstyle.png
+│   │   │   ├── vlcIcon.png
+│   │   │   ├── xat.gif
+│   │   │   └── xnview.gif
+│   │   ├── RIAA
+│   │   │   ├── boycottriaa.jpg
+│   │   │   └── transparent.gif
+│   │   ├── search
+│   │   │   ├── duckDuckGo.gif
+│   │   │   ├── duckDuckGo.jpg
+│   │   │   ├── ixquick2.jpg
+│   │   │   ├── ixquick.gif
+│   │   │   ├── ixquick_small_logo.gif
+│   │   │   ├── logo_icon60_v101.png
+│   │   │   ├── mamma_icon2.jpg
+│   │   │   ├── mamma_icon.jpg
+│   │   │   ├── start2.gif
+│   │   │   ├── startpage_logo_res.gif
+│   │   │   ├── startpage_small_logo.jpg
+│   │   │   ├── stp_search_small.gif
+│   │   │   ├── www.startpage_com.gif
+│   │   │   └── www.startpage_com.ico
+│   │   ├── support
+│   │   │   ├── antidmca01.gif
+│   │   │   ├── axcel.gif
+│   │   │   ├── badge-noscript.png
+│   │   │   ├── ban-fg.png
+│   │   │   ├── ccsp.gif
+│   │   │   ├── dfalogo.gif
+│   │   │   ├── eEyeLogo2.gif
+│   │   │   ├── efforg.gif
+│   │   │   ├── freeware_rev_logo.gif
+│   │   │   ├── globalnav_pbslogo.gif
+│   │   │   ├── headlogo.gif
+│   │   │   ├── integralCalcDotCom.gif
+│   │   │   ├── integralCalcDotCom.png
+│   │   │   ├── last_Freeware_logo.gif
+│   │   │   ├── letmusicplay.jpg
+│   │   │   ├── links_badge_eff.gif
+│   │   │   ├── links_badge_lp.jpg
+│   │   │   ├── linuxMint.png
+│   │   │   ├── npr.gif
+│   │   │   ├── pbs-logosm.gif
+│   │   │   ├── pbs-logosm.jpg
+│   │   │   ├── pbs-logosm.png
+│   │   │   ├── pixel-vfl3z5WfW.gif
+│   │   │   ├── stopfcc.gif
+│   │   │   ├── stoppoliceware.gif
+│   │   │   ├── stoppoliceware.jpg
+│   │   │   ├── TCPA
+│   │   │   │   ├── AgainstTCPA.gif
+│   │   │   │   ├── AgainstTCPA-Log01Small.gif
+│   │   │   │   └── AgainstTCPA-Log01Small.jpg
+│   │   │   └── zeropaid.gif
+│   │   ├── tools-internet-options.jpg
+│   │   ├── t_portCharlottePic1.jpg
+│   │   ├── uncheck-proxy.jpg
+│   │   └── xmlgraphics
+│   │       ├── feed2js_badge.gif
+│   │       ├── rss-button.gif
+│   │       ├── rss.gif
+│   │       ├── rss_thin.jpg
+│   │       ├── untitled3.jpg
+│   │       ├── xhtml1_0.jpg
+│   │       └── xml.gif
+│   ├── index.jade
+│   ├── index.php
+│   ├── indexTest.html
+│   ├── kodi
+│   │   ├── HTML
+│   │   │   └── kodi.html
+│   │   ├── kodi.odt
+│   │   ├── kodi.pdf
+│   │   ├── markdown
+│   │   │   ├── kodiAddonsIUseMD.md
+│   │   │   ├── kodiIndexMD.md
+│   │   │   ├── KodiInfo_to_leave_Off_siteMD.md
+│   │   │   ├── kodi.md
+│   │   │   ├── libraryManagementMD.md
+│   │   │   └── todo.md
+│   │   └── XBMC-Media-Center_6.png
+│   ├── link.php
+│   ├── modules
+│   │   ├── browserAddonTemp.php
+│   │   ├── GAOTD.tpl
+│   │   ├── icons.php
+│   │   ├── jade_related
+│   │   │   ├── GAOTD.HTML
+│   │   │   ├── GAOTD.jade
+│   │   │   ├── techBrowserCol1.html
+│   │   │   └── techBrowsersCol1.jade
+│   │   ├── markdown
+│   │   │   ├── techBrowsersCol1.md
+│   │   │   ├── techCenterMD.md
+│   │   │   ├── techMainCol1MD.md
+│   │   │   ├── tech_pdfGuidesCol1MD.md
+│   │   │   ├── techSecurityCol1MD.md
+│   │   │   └── techSoftwareCol1MD.md
+│   │   ├── oldModules
+│   │   │   ├── techCenter.php
+│   │   │   ├── techMainCol1.php
+│   │   │   ├── WIin_OptANDTweakCol1.php
+│   │   │   ├── WIinTweaksCol1.php
+│   │   │   ├── WINDOWS_FAQN_Col1php
+│   │   │   ├── WinFAQNCol1.dwt.php
+│   │   │   ├── winMaintenceCol1.php
+│   │   │   ├── WinSecurityCol1.php
+│   │   │   └── winSoftwareCol1.php
+│   │   ├── programs.php
+│   │   ├── techBrowsersCol1.tpl
+│   │   ├── techCenterCol1.tpl
+│   │   ├── techKodiCol1.php
+│   │   ├── techMainCol1.tpl
+│   │   ├── techPersonalCol1.tpl
+│   │   ├── techSecurityCol1.tpl
+│   │   └── techSoftwareCol1.tpl
+│   ├── numix
+│   │   ├── numix.html
+│   │   ├── numixMD.md
+│   │   └── sshots
+│   │       ├── desktop.jpg
+│   │       ├── firefox.jpg
+│   │       ├── openDialog.jpg
+│   │       ├── vlc.jpg
+│   │       └── xyplorer.jpg
+│   ├── otherfiles
+│   │   ├── indexMD.md
+│   │   ├── markDown_Edit.ods
+│   │   ├── markDown_Edit.xlsx
+│   │   ├── preview.bak
+│   │   └── preview.php
+│   ├── personal
+│   │   ├── myPics
+│   │   │   ├── florida
+│   │   │   │   └── thumb
+│   │   │   │       ├── tn_Digital Cam Photos 066.jpg
+│   │   │   │       ├── tn_Digital Cam Photos 067.jpg
+│   │   │   │       ├── tn_Digital Cam Photos 068.jpg
+│   │   │   │       └── tn_Digital Cam Photos 069.jpg
+│   │   │   ├── jan2006
+│   │   │   │   └── thumb
+│   │   │   │       ├── me 006.jpg
+│   │   │   │       ├── t_me 001.jpg
+│   │   │   │       ├── t_me 002.jpg
+│   │   │   │       ├── t_me 003.jpg
+│   │   │   │       ├── t_me 004.jpg
+│   │   │   │       ├── t_me 005.jpg
+│   │   │   │       ├── t_me 006.jpg
+│   │   │   │       ├── t_me 008.jpg
+│   │   │   │       └── t_me 014.jpg
+│   │   │   ├── me
+│   │   │   │   ├── 2005me
+│   │   │   │   │   ├── late_april2005_me2.jpg
+│   │   │   │   │   ├── late_april2005_me.jpg
+│   │   │   │   │   └── me_2.jpg
+│   │   │   │   ├── 2006me
+│   │   │   │   │   ├── me_at_boca_grande_feb1_2006.jpg
+│   │   │   │   │   ├── Me_June20_2006.jpg
+│   │   │   │   │   ├── MidJune2006_selfPics03.jpg
+│   │   │   │   │   ├── MidJune2006_selfPics04.jpg
+│   │   │   │   │   ├── tn_Me_June20_2006.jpg
+│   │   │   │   │   ├── tnMidJune2006_selfPics03.jpg
+│   │   │   │   │   ├── tn_Xmetal_atBocaGrande_Nov08_2006_1.jpg
+│   │   │   │   │   ├── tn_Xmetal_atBocaGrande_Nov08_2006_2.jpg
+│   │   │   │   │   ├── Xmetal_atBocaGrande_Nov08_2006_1.jpg
+│   │   │   │   │   └── Xmetal_atBocaGrande_Nov08_2006_2.jpg
+│   │   │   │   └── tn.jpg
+│   │   │   └── nov2006
+│   │   │       └── thumbs
+│   │   │           ├── tn_Xmetal_atBocaGrande_Nov08_2006_1.jpg
+│   │   │           └── tn_Xmetal_atBocaGrande_Nov08_2006_2.jpg
+│   │   ├── personalIndex.jade
+│   │   ├── personalIndexMD.md
+│   │   ├── personalIndex.php
+│   │   └── thumbs
+│   │       ├── snap10.jpg
+│   │       └── snap1.jpg
+│   ├── progIcons
+│   │   ├── adobe-lq.png
+│   │   ├── browsers
+│   │   │   ├── avant_MAINICON.png
+│   │   │   ├── browserSprite.png
+│   │   │   ├── browserSprite.xcf
+│   │   │   ├── chrome_101.gif
+│   │   │   ├── chrome.png
+│   │   │   ├── Cyberfox_1.png
+│   │   │   ├── firefox_1.png
+│   │   │   ├── FirefoxHolly.png
+│   │   │   ├── Maxthon_128.png
+│   │   │   ├── opera_OPERA.png
+│   │   │   ├── palemoon_1.png
+│   │   │   ├── Safari_100.png
+│   │   │   ├── slimBrowse.png
+│   │   │   └── waterfox_1.png
+│   │   ├── Capture-1.jpg
+│   │   ├── FBackup_MAINICON.png
+│   │   ├── fSharing
+│   │   │   ├── 1047__limewire3.gif
+│   │   │   ├── 1093__frostwire.gif
+│   │   │   ├── 23__emule.png
+│   │   │   ├── 752__ares2.gif
+│   │   │   ├── Skin_106.png
+│   │   │   └── utorrent_2.png
+│   │   ├── graphics
+│   │   │   ├── 116__photoshop.gif
+│   │   │   ├── 17__irfanview.png
+│   │   │   ├── 84__psp.png
+│   │   │   ├── FSViewer_MAINICON.png
+│   │   │   ├── GIFOptimizer_1.png
+│   │   │   ├── gimp.png
+│   │   │   ├── gwenview_48.png
+│   │   │   ├── IcoFX_MAINICON.png
+│   │   │   ├── inkscape_APPLICATION_ICON.png
+│   │   │   ├── krita.png
+│   │   │   ├── Optimizer_304.png
+│   │   │   ├── PaintDotNet_32512.png
+│   │   │   ├── PhotoFiltre7_MAINICON.png
+│   │   │   ├── PhotoScape_128.png
+│   │   │   ├── Photoshop Elements 7_101.png
+│   │   │   ├── picasa.gif
+│   │   │   ├── ristretto_2.png
+│   │   │   └── XnView.png
+│   │   ├── gsdll32_50.ico
+│   │   ├── internet
+│   │   │   ├── chatIcons
+│   │   │   │   ├── 1019__yahoo2.png
+│   │   │   │   ├── 854__pidgin.gif
+│   │   │   │   ├── aim.gif
+│   │   │   │   ├── ChatClient_99.png
+│   │   │   │   ├── digsby.gif
+│   │   │   │   ├── googletalk.png
+│   │   │   │   ├── ICQ.gif
+│   │   │   │   ├── miranda.gif
+│   │   │   │   ├── mirc.gif
+│   │   │   │   ├── Skype-Portable-Launcher.gif
+│   │   │   │   ├── trillian.png
+│   │   │   │   ├── xchat.gif
+│   │   │   │   ├── yahfilter.png
+│   │   │   │   ├── YEpic_MAINICON.png
+│   │   │   │   └── yhlt.png
+│   │   │   ├── cports_101.png
+│   │   │   ├── deadlink_MAINICON.png
+│   │   │   ├── download_managersr
+│   │   │   │   ├── fdm_128.png
+│   │   │   │   ├── Flashget3_110.png
+│   │   │   │   └── orbitdm_128.png
+│   │   │   ├── feedDemon.gif
+│   │   │   ├── FileZillaPortable_103.png
+│   │   │   ├── identities_101.png
+│   │   │   ├── MozBackup_MAINICON.png
+│   │   │   ├── pidgin.png
+│   │   │   ├── thunderbird.png
+│   │   │   └── webmail
+│   │   │       ├── aol.png
+│   │   │       ├── Gmail.png
+│   │   │       ├── hotmail.png
+│   │   │       ├── mailDOTcom.png
+│   │   │       ├── webmail.png
+│   │   │       └── webmailYahoo.png
+│   │   ├── media
+│   │   │   ├── 1202__songbird2.png
+│   │   │   ├── 123__klite.gif
+│   │   │   ├── 1278__shark007_icon.png
+│   │   │   ├── 90__audacity.png
+│   │   │   ├── converters
+│   │   │   │   ├── 1218__any-video-converter.gif
+│   │   │   │   ├── 755__dBpowerAMP.gif
+│   │   │   │   ├── FormatFactory_128.gif
+│   │   │   │   ├── FreemakeVideoConverter_134.gif
+│   │   │   │   └── XMedia Recode_128.gif
+│   │   │   ├── DVD.gif
+│   │   │   ├── dvds
+│   │   │   │   ├── 97__dvdshrink.png
+│   │   │   │   ├── AnyDVD_9.png
+│   │   │   │   ├── DVDFab_212.png
+│   │   │   │   ├── dvdstyler.png
+│   │   │   │   ├── MenuShrink_128.png
+│   │   │   │   └── VobBlanker_228.png
+│   │   │   ├── EMDB_128.png
+│   │   │   ├── Forge90_10.png
+│   │   │   ├── makemkv_0.gif
+│   │   │   ├── MediaMonkey_MAINICON.png
+│   │   │   ├── MP3GainGUI_APPICON.png
+│   │   │   ├── mp3nity_128.gif
+│   │   │   ├── mpTrim PRO_MAINICON.png
+│   │   │   ├── rippers
+│   │   │   │   └── 110__cdex.gif
+│   │   │   ├── TagRename_MAINICON.png
+│   │   │   ├── Tagscan_MAINICON.png
+│   │   │   └── videos
+│   │   │       ├── 1187__handbrake.png
+│   │   │       ├── 1191__super.png
+│   │   │       ├── 1218__any-video-converter.gif
+│   │   │       ├── avidemux2_qt4_100.gif
+│   │   │       ├── avidemux2_qt4_100.png
+│   │   │       ├── ConvertXtoDvd_2.gif
+│   │   │       ├── VideoDub2_132.gif
+│   │   │       └── VirtualDubMod_132.png
+│   │   ├── media_players
+│   │   │   ├── 1100__kmplayer.gif
+│   │   │   ├── 120__mpclassic.gif
+│   │   │   ├── 1by1_ICON1.png
+│   │   │   ├── 32__foobar.png
+│   │   │   ├── 435__jetAudio.gif
+│   │   │   ├── 47__wmplayer.png
+│   │   │   ├── 5__winamp.png
+│   │   │   ├── 759__GOMplayer.gif
+│   │   │   ├── 7__quicktime.png
+│   │   │   ├── aimp.png
+│   │   │   ├── clementine.png
+│   │   │   ├── foobar2000_v1_103.png
+│   │   │   ├── mpclassic.png
+│   │   │   ├── mpSprite.png
+│   │   │   ├── mpSprite.xcf
+│   │   │   ├── mpv-logo.png
+│   │   │   ├── PotIcons_196.png
+│   │   │   ├── smplayer_logo.png
+│   │   │   ├── sonique2_222.png
+│   │   │   ├── vlc.png
+│   │   │   └── xmplay_5000.png
+│   │   ├── pc_tools_AV.png
+│   │   ├── peguin.png
+│   │   ├── product
+│   │   │   ├── AccelClip_MAINICON.png
+│   │   │   ├── calibre_1.png
+│   │   │   ├── cse90_MAINICON.png
+│   │   │   ├── datacrow_A.png
+│   │   │   ├── docscrubber-48.png
+│   │   │   ├── Dreamweaver_433.png
+│   │   │   ├── edu
+│   │   │   │   ├── geogebra_1.png
+│   │   │   │   └── MathApp_32512.png
+│   │   │   ├── eulalyzer-48.png
+│   │   │   ├── gsdll32_50.png
+│   │   │   ├── libreIcons
+│   │   │   │   ├── lofficeMain.png
+│   │   │   │   ├── sbase_1.jpg
+│   │   │   │   ├── scalc_1.jpg
+│   │   │   │   ├── sdraw_1.jpg
+│   │   │   │   ├── soffice_2.jpg
+│   │   │   │   ├── soffice_34.jpg
+│   │   │   │   ├── soffice_39.jpg
+│   │   │   │   ├── soffice_7.jpg
+│   │   │   │   └── swriter_1.jpg
+│   │   │   ├── OOfficeIcons
+│   │   │   │   ├── sbase_1_1.png
+│   │   │   │   ├── scalc_1_1.png
+│   │   │   │   ├── sdraw_1_1.png
+│   │   │   │   ├── simpress_1_1.png
+│   │   │   │   ├── smath_1_1.png
+│   │   │   │   └── soffice_1_1.png
+│   │   │   ├── openoffice.gif
+│   │   │   ├── pdf
+│   │   │   │   ├── AcroRd32_1.png
+│   │   │   │   ├── bullzip_PDF.png
+│   │   │   │   ├── dopdf_105.png
+│   │   │   │   ├── foxit.png
+│   │   │   │   ├── NitroPDF_128.png
+│   │   │   │   ├── PDFCreator.gif
+│   │   │   │   ├── PDFXCview_128.png
+│   │   │   │   ├── primoPDF.gif
+│   │   │   │   ├── SumatraPDF_1.png
+│   │   │   │   └── SumatraPDF_2.png
+│   │   │   ├── soffice_25.png
+│   │   │   ├── stellarium-64bit-_0_14_2.png
+│   │   │   ├── sunbird_32512.png
+│   │   │   ├── TextCrawler_32512.png
+│   │   │   ├── TopStyle4_AAA_APP_ICON.png
+│   │   │   ├── TTSReader_123.png
+│   │   │   ├── txtEditorIcons
+│   │   │   │   ├── AbiWord_10000.png
+│   │   │   │   ├── EditPad-Lite.gif
+│   │   │   │   └── notepad++_100.png
+│   │   │   ├── Universal_Viewer.png
+│   │   │   └── wps-office-10-business_9_1_0_5204.png
+│   │   ├── security
+│   │   │   ├── 1025__winPatrol.gif
+│   │   │   ├── 129__truecrypt.gif
+│   │   │   ├── 1326__peerblock1_icon.png
+│   │   │   ├── 134__keepass.gif
+│   │   │   ├── 1805__nmap_icon.png
+│   │   │   ├── 808__hijackthis2.gif
+│   │   │   ├── 94__cwshredder.png
+│   │   │   ├── ad_muncher.png
+│   │   │   ├── AVs
+│   │   │   │   ├── 1085__avg2.gif
+│   │   │   │   ├── 1266__panda_icon.png
+│   │   │   │   ├── 1308__msseces.png
+│   │   │   │   ├── 1430__AntiVirPersonal9_icon.png
+│   │   │   │   ├── 1589__Avast!FreeAntivirus5_icon.png
+│   │   │   │   ├── 531__NAV.gif
+│   │   │   │   ├── 545__McAfee.gif
+│   │   │   │   ├── 585__kaspersky.gif
+│   │   │   │   ├── 960__bitDefender2.gif
+│   │   │   │   ├── branding_25.jpg
+│   │   │   │   ├── egui_20000.png
+│   │   │   │   ├── Fsecure.png
+│   │   │   │   ├── kav2011_11_103.png
+│   │   │   │   ├── sophos.jpg
+│   │   │   │   └── trendMicro.gif
+│   │   │   ├── cleaners
+│   │   │   │   ├── 959__CCv2.gif
+│   │   │   │   ├── bleachbit_1.jpg
+│   │   │   │   ├── CCEnhancer_32512.png
+│   │   │   │   ├── cleaner.png
+│   │   │   │   ├── ClearProg_AAA.png
+│   │   │   │   ├── DiskCleaner_128.png
+│   │   │   │   ├── Eraser_128.png
+│   │   │   │   ├── Eraser6.png
+│   │   │   │   ├── FCleaner.png
+│   │   │   │   ├── Moo0 DiskCleaner 1_128.png
+│   │   │   │   ├── mrublaster_large.png
+│   │   │   │   ├── WiseDiskCleaner_MAINICON.jpg
+│   │   │   │   └── Xleaner_1.png
+│   │   │   ├── DS_NTFS_MAINICON.png
+│   │   │   ├── firewalls
+│   │   │   │   ├── 1286__OutpostFreeIcon.png
+│   │   │   │   ├── 22__keriopf.png
+│   │   │   │   ├── 31__sygate.png
+│   │   │   │   ├── a2d7170c.png
+│   │   │   │   ├── cavscan_PRODUCTLOGO.ICO.png
+│   │   │   │   ├── CIS6.jpg
+│   │   │   │   └── op_install32_116.png
+│   │   │   ├── malware
+│   │   │   │   ├── 10__spybot.png
+│   │   │   │   ├── 809__adaware2.gif
+│   │   │   │   ├── ComboFix_100.png
+│   │   │   │   ├── mbam_IDI_MAIN.png
+│   │   │   │   ├── rkill_100.png
+│   │   │   │   ├── spywareblaster_1.png
+│   │   │   │   └── SUPERAntiSpyware_ICONAPPLICATION.png
+│   │   │   ├── NessusClient_IDI_ICON1.png
+│   │   │   ├── PrivaZer_MAINICON.jpg
+│   │   │   ├── TDSSKiller_128.png
+│   │   │   ├── Unlocker_106.png
+│   │   │   └── WinPatrol_159.png
+│   │   ├── speedfan_MAINICON.png
+│   │   └── system_tools
+│   │       ├── 1565__BeyondCompare_icon.png
+│   │       ├── 1833__Eventlogexplorer_icon.png
+│   │       ├── autorunsc_EVERYTHING.png
+│   │       ├── backup
+│   │       │   ├── 1579__DriveImage_XML.png
+│   │       │   ├── 736__SyncBack.gif
+│   │       │   ├── paragonBackup.png
+│   │       │   └── reflect_128.gif
+│   │       ├── BoostSpeed_MAINICON.jpg
+│   │       ├── Bulk_Rename_Utility_128.png
+│   │       ├── Burner
+│   │       │   ├── 1276__infrarecorder_icon.png
+│   │       │   ├── 984__CDburnerXP2.gif
+│   │       │   ├── 989__nero2.gif
+│   │       │   └── ImgBurn_MAINICON.png
+│   │       ├── CloneSpy_200.png
+│   │       ├── compression
+│   │       │   ├── 4__winrar.png
+│   │       │   ├── 51__7zip.png
+│   │       │   ├── 722__universalExtractor.gif
+│   │       │   ├── 77__izarc.png
+│   │       │   ├── 81__powerarc.png
+│   │       │   ├── Bandizip32_134.gif
+│   │       │   ├── freearc-installer_102.jpg
+│   │       │   ├── HaoZip_101.jpg
+│   │       │   ├── KuaiZip_128.jpg
+│   │       │   └── pea_MAINICON.jpg
+│   │       ├── defrag
+│   │       │   ├── 1005t__defraggler.png
+│   │       │   ├── DiskDefrag_MAINICON.png
+│   │       │   └── MyDefrag_1.png
+│   │       ├── DoubleKiller_MAINICON.png
+│   │       ├── driver-booster_3_1_1_457.png
+│   │       ├── DuplicateCleaner_setup_103.png
+│   │       ├── FastExplorer_DEFAULT.png
+│   │       ├── FEShlExt_MAINICON.png
+│   │       ├── File_Association_Fixer_32512.png
+│   │       ├── fileManagers
+│   │       │   ├── dopus_100.png
+│   │       │   ├── ExplorerXP_128.png
+│   │       │   ├── FreeCommander_MAINICON.png
+│   │       │   ├── xplorer2_64_128.png
+│   │       │   └── XYplorer_1.png
+│   │       ├── FileMenuTools_1075.png
+│   │       ├── Gary4.png
+│   │       ├── glary.png
+│   │       ├── GodMode_Creator_32512.png
+│   │       ├── iobit-uninstaller_5_2_1_116.png
+│   │       ├── jv16PT_MAINICON.png
+│   │       ├── logo.png
+│   │       ├── NIRSOFTICONS
+│   │       │   ├── BlueScreenView_101.png
+│   │       │   ├── shexview_101.png
+│   │       │   ├── shman_101.png
+│   │       │   └── SocketSniff_101.png
+│   │       ├── process
+│   │       │   ├── ProcessHacker_101.png
+│   │       │   ├── procexp_101.png
+│   │       │   └── SystemExplorer_MAINICON.png
+│   │       ├── QuickRestoreMaker_32512.png
+│   │       ├── registry
+│   │       │   ├── EusingRegistryCleaner.png
+│   │       │   ├── QRegDefrag_MAINICON.png
+│   │       │   ├── RegCleaner_MAINICON.png
+│   │       │   ├── RegEditX_102.png
+│   │       │   ├── RegistryDefrag_MAINICON.png
+│   │       │   ├── RegMagik_101.png
+│   │       │   ├── RegSeeker_MAINICON.png
+│   │       │   └── rr_MAINICON.png
+│   │       ├── RevoUninPro_118.png
+│   │       ├── SlimDrivers_1.png
+│   │       ├── System Restore Manager_32512.png
+│   │       ├── TrayIt!_101.png
+│   │       ├── TreeSize_MAINICON.png
+│   │       ├── TweaksLogon_32512.png
+│   │       ├── VistaStartMenu_AINICON.png
+│   │       ├── whocrashed_MAINICON.png
+│   │       ├── WinBootInfo_128.png
+│   │       ├── WindowsErrorLookupToolPortable_103.png
+│   │       ├── WiseCare365_MAINICON.png
+│   │       ├── WiseRegCleaner_MAINICON.jpg
+│   │       ├── world_time_server_logo.png
+│   │       ├── xp-AntiSpy_256.png
+│   │       ├── xqdc_MAINICON.png
+│   │       └── xqdcXSPApplet_MY_MAINICON.png
+│   ├── references.php
+│   ├── sass
+│   │   ├── general.scss
+│   │   ├── _images.scss
+│   │   ├── layout.scss
+│   │   ├── Mgeneral.scss
+│   │   ├── _mixins.scss
+│   │   ├── Mlayout.scss
+│   │   ├── _sassHeader.scss
+│   │   ├── scrap.txt
+│   │   ├── smallLayout.scss
+│   │   ├── softwareSection.scss
+│   │   ├── _sprites.scss
+│   │   └── startPageBox.scss
+│   ├── scripts
+│   │   ├── ACFL_Script.js
+│   │   ├── contentTypeScript.php
+│   │   ├── expressInstall.swf
+│   │   ├── fixFlash.js
+│   │   ├── flashDetect.js
+│   │   ├── header.js
+│   │   ├── jokes.js
+│   │   ├── MassJavascripts.js
+│   │   ├── neon.js
+│   │   ├── progressbar.js
+│   │   ├── randomMainImage.js
+│   │   ├── swfobject_modified.js
+│   │   ├── TOC.js
+│   │   └── yahoo.js
+│   ├── security
+│   │   ├── ads
+│   │   │   ├── blockers1.rar
+│   │   │   ├── christmas.txt
+│   │   │   ├── popupAdExample.php
+│   │   │   ├── popups.php
+│   │   │   └── reflection.txt
+│   │   ├── encryptSoftware.php
+│   │   ├── firewall
+│   │   │   ├── comodo_rules.php
+│   │   │   ├── firewallIndex.php
+│   │   │   ├── reflection.txt
+│   │   │   └── softFirewalls.php
+│   │   ├── html
+│   │   │   └── securityIndexMD.html
+│   │   ├── infections
+│   │   │   ├── malware_and_Virus_scannersMD.md
+│   │   │   ├── malware_and_Virus_scanners.php
+│   │   │   ├── rogueScanners
+│   │   │   │   ├── reflection.txt
+│   │   │   │   ├── rogueScanner_Software.php
+│   │   │   │   ├── rogueScanner_sources.php
+│   │   │   │   └── Rogue_Scanners.php
+│   │   │   ├── spyware
+│   │   │   │   ├── christmas.txt
+│   │   │   │   ├── march2k9_scanners.php
+│   │   │   │   ├── reflection.txt
+│   │   │   │   ├── spywareIndex.md
+│   │   │   │   ├── spywareIndex.php
+│   │   │   │   ├── spyware.php
+│   │   │   │   └── spyware_removal.php
+│   │   │   └── virus
+│   │   │       ├── christmas.txt
+│   │   │       ├── OLD
+│   │   │       │   ├── avChart.php
+│   │   │       │   ├── avCompartiveDisclaimer.php
+│   │   │       │   ├── avCompartiveResults.php
+│   │   │       │   ├── AVScanners.php
+│   │   │       │   ├── bit defender
+│   │   │       │   │   └── bitDefender8.jpg
+│   │   │       │   ├── fakeAV_2009.php
+│   │   │       │   ├── virus_info.php
+│   │   │       │   └── virusPrevention.php
+│   │   │       ├── reflection.txt
+│   │   │       ├── virusRemovalSummaryMD.md
+│   │   │       └── virusRemovalSummary.php
+│   │   ├── internet
+│   │   │   ├── accessNet.php
+│   │   │   ├── blockWebTracking.php
+│   │   │   ├── cookieBlocking.php
+│   │   │   ├── host_manager.php
+│   │   │   ├── InternetThreats.php
+│   │   │   ├── ipBlockers.php
+│   │   │   ├── markdown
+│   │   │   │   ├── blockWebTrackingMD.md
+│   │   │   │   ├── cookieBlockingMD.md
+│   │   │   │   ├── host_managerMD.md
+│   │   │   │   ├── InternetThreatsMD.md
+│   │   │   │   ├── ipBlockersMD.md
+│   │   │   │   └── searchEnginesMD.md
+│   │   │   ├── netbios.php
+│   │   │   ├── searchEngines.php
+│   │   │   └── secureBrowsing
+│   │   │       ├── secureFirefox.md
+│   │   │       ├── secureFirefox.php
+│   │   │       ├── securezBrowseIndex.php
+│   │   │       └── securingSummary.php
+│   │   ├── keepass
+│   │   │   ├── autoTypeSequence1.jpg
+│   │   │   ├── autoTypeSequence_Change.jpg
+│   │   │   ├── autoTypeSolutions.md
+│   │   │   ├── editAutoTypeCustom.jpg
+│   │   │   ├── editAutoTypeDefault.jpg
+│   │   │   ├── editConfigUserName.jpg
+│   │   │   ├── editGroup.jpg
+│   │   │   ├── keyPassTips.html
+│   │   │   ├── keyPassTips.md
+│   │   │   ├── kpIntro.md
+│   │   │   ├── mainLevelDB.jpg
+│   │   │   └── overrideDefaultSequence.jpg
+│   │   ├── markdown
+│   │   │   ├── encryptSoftwareMD.md
+│   │   │   ├── SecofigMD.md
+│   │   │   ├── secureDeletingMD.md
+│   │   │   ├── secureWindowsMD.md
+│   │   │   ├── secureWindowsProgramsMD.md
+│   │   │   ├── securityIndex.md
+│   │   │   └── SecurityLinksMD.md
+│   │   ├── pictures
+│   │   │   ├── Admin.jpg
+│   │   │   ├── Control.gif
+│   │   │   ├── etf_button2.gif
+│   │   │   ├── Fake Dos Screen.gif
+│   │   │   ├── messanger.jpg
+│   │   │   ├── messangerprop.gif
+│   │   │   ├── messengerservice.gif
+│   │   │   ├── Proxomitron.jpg
+│   │   │   ├── tracking
+│   │   │   │   ├── cookieSafe_Options.jpg
+│   │   │   │   ├── cookieSafe_Options.png
+│   │   │   │   ├── cookieSafe_Options.psd
+│   │   │   │   └── cookieSafe_Options.svg
+│   │   │   └── XPAntiSpy.jpg
+│   │   ├── screenshots
+│   │   │   ├── AV_2009.jpg
+│   │   │   ├── bugoff.gif
+│   │   │   ├── Dcombob.gif
+│   │   │   ├── jv16ManRegIcon.jpg
+│   │   │   ├── jv16ManSearch.jpg
+│   │   │   ├── Mouse_Trap.gif
+│   │   │   ├── thumb
+│   │   │   │   ├── t_bugoff.jpg
+│   │   │   │   ├── t_Dcombob.jpg
+│   │   │   │   ├── t_Elite_button_Edit.jpg
+│   │   │   │   ├── t_Mouse_Trap.jpg
+│   │   │   │   └── t_WWHC.jpg
+│   │   │   └── WWHC.gif
+│   │   ├── Secofig.php
+│   │   ├── secureDeleting.php
+│   │   ├── secureWindows.php
+│   │   ├── secureWindowsPrograms.php
+│   │   ├── securityIndex.php
+│   │   ├── SecurityLinks.php
+│   │   ├── SecurityProgramReviews.php
+│   │   └── securitySoftwareDisclaimer.php
+│   ├── software
+│   │   ├── driveImagesAndPartitions.php
+│   │   ├── file_managers.jade
+│   │   ├── file_managers.php
+│   │   ├── internet
+│   │   │   ├── chat
+│   │   │   │   ├── chatIndexMD.md
+│   │   │   │   ├── chatIndex.php
+│   │   │   │   ├── graphics
+│   │   │   │   │   ├── chat_help_logo.gif
+│   │   │   │   │   ├── Elite_button_Edit.gif
+│   │   │   │   │   ├── hb_logo.jpg
+│   │   │   │   │   ├── shift_09.jpg
+│   │   │   │   │   ├── spamFilter.jpg
+│   │   │   │   │   ├── tn_spamFilter.jpg
+│   │   │   │   │   ├── WB_logo.jpg
+│   │   │   │   │   ├── yahelite_avatar.jpg
+│   │   │   │   │   └── YazakPref.jpg
+│   │   │   │   └── screenshots
+│   │   │   │       ├── yahelite
+│   │   │   │       │   ├── TN_Yahelite_mainWindowButtons.JPG
+│   │   │   │       │   ├── Yahelite_mainWindowButtons.JPG
+│   │   │   │       │   └── Yahelite_mainWindow.jpg
+│   │   │   │       └── YEpic_main.jpg
+│   │   │   ├── firefoxClones.php
+│   │   │   ├── IEClone.php
+│   │   │   ├── markdown
+│   │   │   │   ├── firefoxCloneMD.md
+│   │   │   │   └── thunderbirdMD.md
+│   │   │   ├── thunderbird.php
+│   │   │   ├── web_browsers_chart.php
+│   │   │   └── web_browsers.php
+│   │   ├── internetRelated.jade
+│   │   ├── internetRelated.php
+│   │   ├── losingDataMyth.php
+│   │   ├── markdown
+│   │   │   ├── file_managersMD.md
+│   │   │   ├── internetRelatedMD.html
+│   │   │   ├── internetRelatedMD.md
+│   │   │   ├── multimediaMD.html
+│   │   │   ├── multimediaMD.md
+│   │   │   ├── newSoftIndexMD.md
+│   │   │   ├── oooo.txt
+│   │   │   ├── productivityProgramsMD.html
+│   │   │   ├── productivityProgramsMD.md
+│   │   │   ├── securityProgramsMD.html
+│   │   │   ├── securityProgramsMD.md
+│   │   │   ├── softwareIndexMD.html
+│   │   │   ├── softwareIndexMD.md
+│   │   │   ├── systemToolsMD.html
+│   │   │   └── systemToolsMD.md
+│   │   ├── multimedia
+│   │   │   ├── audio.php
+│   │   │   ├── graphics.php
+│   │   │   ├── markdown
+│   │   │   │   ├── audioMD.md
+│   │   │   │   ├── graphicsMD.md
+│   │   │   │   ├── id3MD.md
+│   │   │   │   ├── media_players_audioMD.md
+│   │   │   │   ├── media_players_videoMD.md
+│   │   │   │   └── metaDataMD.md
+│   │   │   ├── media_players_audio.php
+│   │   │   ├── media_players_video.php
+│   │   │   ├── videoProgs.php
+│   │   │   ├── winampPlugins.php
+│   │   │   └── xatMessage.php
+│   │   ├── multimedia.jade
+│   │   ├── multimedia.php
+│   │   ├── others
+│   │   │   ├── newSoftIndexMD.md.html
+│   │   │   ├── softwareIndexspritesphp
+│   │   │   └── sprites.php
+│   │   ├── product
+│   │   │   ├── educationalMD.md
+│   │   │   └── educational.php
+│   │   ├── productivity.jade
+│   │   ├── productivity.php
+│   │   ├── programsInLinux.php
+│   │   ├── RogueScanner_software_removal.php
+│   │   ├── rss.php
+│   │   ├── security
+│   │   │   ├── AVDatabaseBackupBat.php
+│   │   │   ├── cleaners.php
+│   │   │   ├── firewalls.php
+│   │   │   ├── html
+│   │   │   │   ├── cleaner.html
+│   │   │   │   ├── firewall.html
+│   │   │   │   └── virusANDMalwareScanners.html
+│   │   │   ├── markdown
+│   │   │   │   ├── blocklistMD.md
+│   │   │   │   ├── cleanersMD.md
+│   │   │   │   ├── firewallsMD.md
+│   │   │   │   ├── html
+│   │   │   │   │   ├── cleaner.html
+│   │   │   │   │   ├── firewall.html
+│   │   │   │   │   └── virusANDMalwareScanners.html
+│   │   │   │   └── virusANDMalwareScannersMD.md
+│   │   │   └── virusANDMalwareScanners.php
+│   │   ├── softwareIndex.html
+│   │   ├── softwareIndex.jade
+│   │   ├── softwareIndex.php
+│   │   ├── sTools
+│   │   │   ├── archivers.bak
+│   │   │   ├── archivers.php
+│   │   │   ├── backupSoftware.php
+│   │   │   ├── burners.php
+│   │   │   ├── defrag.php
+│   │   │   ├── error_log
+│   │   │   ├── html
+│   │   │   │   ├── archiver.html
+│   │   │   │   ├── backupSoftware.html
+│   │   │   │   ├── burners.html
+│   │   │   │   ├── defrag.html
+│   │   │   │   ├── nirsoft.html
+│   │   │   │   ├── registryTools.html
+│   │   │   │   ├── startupMangers.html
+│   │   │   │   ├── sysinternals.html
+│   │   │   │   ├── systemSuites.html
+│   │   │   │   └── taskManager.html
+│   │   │   ├── markdown
+│   │   │   │   ├── archiversMD.md
+│   │   │   │   ├── backupSoftwareMD.md
+│   │   │   │   ├── burnersMD.md
+│   │   │   │   ├── defragMD.md
+│   │   │   │   ├── nirsoftMD.md
+│   │   │   │   ├── registryToolsMD.md
+│   │   │   │   ├── startupMangersMD.md
+│   │   │   │   ├── sysinternalsMD.md
+│   │   │   │   ├── systemSuitesMD.md
+│   │   │   │   └── taskManagersMD.md
+│   │   │   ├── nirsoft.php
+│   │   │   ├── startupManagers.php
+│   │   │   ├── sysInternals.php
+│   │   │   ├── systemSuites.php
+│   │   │   └── taskManagers.php
+│   │   ├── systemTools.jade
+│   │   ├── systemTools.php
+│   │   └── websiteProgs.php
+│   ├── stylesheets
+│   │   ├── browserSection.css
+│   │   ├── GAOTD.css
+│   │   ├── general.css
+│   │   ├── __history
+│   │   │   ├── general.css.~1~
+│   │   │   ├── layout.css.~1~
+│   │   │   ├── layout.css.~2~
+│   │   │   ├── layout.css.~3~
+│   │   │   ├── layout.css.~4~
+│   │   │   ├── layout.css.~5~
+│   │   │   ├── layout.css.~6~
+│   │   │   └── layout.css.~7~
+│   │   ├── layout.css
+│   │   ├── markdown.css
+│   │   ├── Mgeneral.css
+│   │   ├── Mlayout.css
+│   │   ├── smallGeneral.css
+│   │   ├── smallLayout.css
+│   │   ├── softwareSection.css
+│   │   └── startPageBox.css
+│   └── techcenter
+│       ├── backup
+│       │   ├── backup
+│       │   │   ├── backupIndex.php
+│       │   │   ├── bookmarks.rar
+│       │   │   ├── driveImages.php
+│       │   │   ├── FEBE_Window.jpg
+│       │   │   └── reflection.txt
+│       │   ├── bookmarks.rar
+│       │   ├── Chrome_bookmark.jpg
+│       │   ├── driveImageSoftware.php
+│       │   ├── driveImages.php
+│       │   ├── FEBE_Window.jpg
+│       │   ├── Google_Chrome_Bookmark_Man.jpg
+│       │   ├── reflection.txt
+│       │   ├── Step1.php
+│       │   ├── Step2.php
+│       │   ├── Step3.php
+│       │   └── SummaryOfSteps.php
+│       ├── error_log
+│       ├── graphics
+│       │   ├── eventViewer1.jpg
+│       │   ├── fail.gif
+│       │   ├── logos
+│       │   │   ├── logodfx003.gif
+│       │   │   ├── logomix001.gif
+│       │   │   ├── mj_button.jpg
+│       │   │   ├── mMatch.gif
+│       │   │   ├── mMatch.jpg
+│       │   │   ├── real.gif
+│       │   │   ├── real.jpg
+│       │   │   ├── sonique.gif
+│       │   │   ├── winamp.gif
+│       │   │   └── wmp.gif
+│       │   ├── logProp.jpg
+│       │   ├── noentry.gif
+│       │   ├── pass.gif
+│       │   ├── sysocinf.jpg
+│       │   ├── thumbnails
+│       │   │   └── tn_sysocinf.jpg
+│       │   └── tn
+│       │       ├── tn_eventViewer1.jpg
+│       │       └── tn_logProp.jpg
+│       ├── guideSummary.php
+│       ├── HTML
+│       │   ├── pcTroublesMD.html
+│       │   └── windowsUpdateMD.html
+│       ├── MARKDOWN
+│       │   ├── pcTroublesMD.md
+│       │   ├── techCenterIndexMD.html
+│       │   ├── techCenterIndexMD.md
+│       │   └── windowsUpdateMD.md
+│       ├── multimedia
+│       │   ├── audioEnhanceMD.md
+│       │   ├── audioEnhance.php
+│       │   ├── audioMD.md
+│       │   ├── audio.php
+│       │   ├── id3TagLookupMD.md
+│       │   ├── id3TagLookup.php
+│       │   └── id3tags.php
+│       ├── OTHER
+│       │   ├── graphicsOpt.7z
+│       │   └── oldIndexPHP_files
+│       │       ├── faqindex.php
+│       │       ├── maintenceIndex.php
+│       │       ├── OptAndTweakIndex.php
+│       │       └── optindex.php
+│       ├── pcTroubles.jade
+│       ├── pcTroubles.php
+│       ├── system
+│       │   ├── bad_uninstalls.php
+│       │   ├── christmas.txt
+│       │   ├── fileCleaners.php
+│       │   ├── fileConverting.php
+│       │   ├── markdown
+│       │   │   ├── bad_uninstallsMD.md
+│       │   │   ├── fileCleanersMD.md
+│       │   │   ├── fileConvertingMD.md
+│       │   │   ├── regCleanersMD.md
+│       │   │   ├── regDefragMD.md
+│       │   │   ├── restorePointsPruneMD.md
+│       │   │   └── win10featuresWin7.md
+│       │   ├── optWindows.php
+│       │   ├── OTHER
+│       │   │   └── win10ify_Windows7.html.7z
+│       │   ├── reflection.txt
+│       │   ├── regCleaners.php
+│       │   ├── regDefrag.php
+│       │   ├── restorePointsPrune.php
+│       │   ├── startups.php
+│       │   ├── systemLog.php
+│       │   ├── tweaks
+│       │   │   ├── christmas.txt
+│       │   │   ├── reflection.txt
+│       │   │   ├── tweakIndex.bak
+│       │   │   ├── tweakIndex.php
+│       │   │   ├── unhide_windows_comps.bak
+│       │   │   └── unhide_windows_comps.php
+│       │   └── win10featuresWin7.html
+│       ├── techCenterIndex.jade
+│       ├── techCenterIndex.php
+│       ├── windowsUpdate.html
+│       ├── windowsUpdateMD.jade
+│       └── windowsUpdateMD.php
+├── templates
+│   ├── linux
+│   │   ├── baseLinuxAPP.tpl
+│   │   ├── baseLinuxDEBlank.tpl
+│   │   ├── baseLinuxDistroBlank.tpl
+│   │   ├── baseLinuxDistro.tpl
+│   │   ├── baseLinuxNAPPBlank.php
+│   │   ├── baseLinuxNDE.tpl
+│   │   ├── baseLinuxNDistroNEW.php
+│   │   ├── baseLinuxNNewUser.php
+│   │   ├── baseLinuxNTICBlank.php
+│   │   ├── baseLinuxNTICSection.tpl
+│   │   ├── baseLinuxNTutorials.php
+│   │   ├── baseLinuxTemplate.tpl
+│   │   ├── baseLinuxTIC.tpl
+│   │   └── massLinuxIncludes.tpl
+│   └── tech
+│       ├── baseTechBrowserTemp.tpl
+│       ├── baseTechCenterTemp.tpl
+│       ├── baseTechMAINTemp.tpl
+│       ├── baseTechPersonalTemp.tpl
+│       ├── baseTechSecurityTemp.tpl
+│       ├── baseTechSoftwareTemp.tpl
+│       └── jade
+│           ├── baseTechBrowserTemp.html
+│           ├── baseTechBrowserTemp.jade
+│           ├── baseTechCenterTemp.jade
+│           ├── baseTechMAINTemp.html
+│           └── baseTechMAINTemp.jade
+└── treeTest.csv
+
+308 directories, 2150 files

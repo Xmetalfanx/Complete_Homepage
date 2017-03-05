@@ -1,10 +1,9 @@
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
-<div class="panel panel-default col-sm-2">
-  <div class="panel-body">
-        <?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?>
+<div class="card col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+  <div class="card-text">
+    <?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?>
   </div>
 </div>
-
-<div class="panel panel-default col-lg-10">
-	<div class="panel-body">
+<div class="card col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+  <div class="card-text">
