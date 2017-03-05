@@ -279,8 +279,8 @@ h2 {
   /*vertical-align: middle;*/ }
 
 /*
-  same as the original (sort of) ... for Items that do not have a decription
-  under it
+same as the original (sort of) ... for Items that do not have a decription
+under it
 */
 .progTablesName2 {
   display: block;
@@ -365,8 +365,8 @@ h2 {
   letter-spacing: 2px; }
 
 /*
-  UpdateSummary is intended to Give a short Update so the main page's
-  Description does not Run Too long
+UpdateSummary is intended to Give a short Update so the main page's
+Description does not Run Too long
 */
 .UpdateSummary {
   -webkit-box-shadow: 4px 3px 5px black;

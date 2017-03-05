@@ -263,13 +263,6 @@ nav {
     text-decoration: none;
     display: block; }
 
-#siteInfo {
-  padding-bottom: 20px; }
-  #siteInfo a:link {
-    clear: both;
-    color: #660000;
-    padding-bottom: 10px; }
-
 #valRight {
   float: left;
   margin-right: 10%;
