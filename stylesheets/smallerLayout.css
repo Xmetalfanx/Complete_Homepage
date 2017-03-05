@@ -3,123 +3,68 @@
 /* Colors */
 /* Fonts */
 /* Images */
-/* line 3, ../sass/smallerLayout.scss */
 body {
-  background-color: navy;
-  color: white;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-size: 12px;
-  background-image: none;
-}
+  color: white;
+  background-color: navy;
+  background-image: none; }
 
-/* line 13, ../sass/smallerLayout.scss */
 a:link {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 18, ../sass/smallerLayout.scss */
-#MainHeader {
-  display: none;
-}
-
-/* line 24, ../sass/smallerLayout.scss */
 #main {
-  clear: both;
-}
+  clear: both; }
 
-/* line 30, ../sass/smallerLayout.scss */
 .dropShadow {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
   border-radius: 8px;
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
-  box-shadow: 4px 3px 5px black;
-}
+  box-shadow: 4px 3px 5px black; }
 
-/* line 38, ../sass/smallerLayout.scss */
-nav a:link, nav a:visited {
-  border: 1px solid black;
-  font-size: 25px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 7px;
-  clear: both;
-  float: left;
-  margin-bottom: 2%;
-  padding-bottom: 7px;
-  font-weight: bold;
-  text-align: center;
+nav a:link,
+nav a:visited {
   font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  clear: both;
+  margin-bottom: 2%;
+  text-align: center;
+  border: 1px solid black;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
-}
-/* line 55, ../sass/smallerLayout.scss */
+  padding: 7px 10px; }
 nav a:hover {
-  color: #ffff33;
-}
+  color: #ffff33; }
 
-/* line 64, ../sass/smallerLayout.scss */
 .menuImage {
-  vertical-align: top;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: black;
   font-size: 30px;
   font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
+  vertical-align: top;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 4px 3px 5px black;
+  margin-right: auto;
   margin-bottom: 10px;
-}
+  margin-left: auto;
+  border-radius: 8px; }
 
-/* line 79, ../sass/smallerLayout.scss */
 img.center {
-  margin-left: auto;
+  margin-top: 0;
   margin-right: auto;
-}
+  margin-left: auto; }
 
-/* line 85, ../sass/smallerLayout.scss */
 .boxShadow {
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
-  box-shadow: 4px 3px 5px black;
-}
+  box-shadow: 4px 3px 5px black; }
 
-/* line 91, ../sass/smallerLayout.scss */
-#homepageImage {
-  display: none;
-}
-
-/* line 97, ../sass/smallerLayout.scss */
 .header1 {
-  font-weight: bold;
-  text-decoration: underline;
   font-size: 16px;
-}
+  font-weight: bold;
+  text-decoration: underline; }
 
-/* line 104, ../sass/smallerLayout.scss */
 #socialIcons {
-  margin-bottom: 10px;
-}
-/* line 109, ../sass/smallerLayout.scss */
-#socialIcons a:link img {
-  margin-right: 100px;
-  width: 48px;
-  height: 48px;
-}
+  margin-bottom: 10px; }
+  #socialIcons a:link img {
+    width: 48px;
+    height: 48px;
+    margin-right: 100px; }
 
-/* line 117, ../sass/smallerLayout.scss */
-#message {
-  position: absolute;
-  display: block;
-  width: auto;
-  opacity: 1.00;
-}
+/*# sourceMappingURL=smallerLayout.css.map */

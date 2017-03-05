@@ -1,18 +1,17 @@
-@mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: rgba(0, 0, 0, 1))
-{
-  -webkit-box-shadow: $horz $vert $depth $color;
-  -moz-box-shadow: $horz $vert $depth $color;
-  box-shadow: $horz $vert $depth $color;
-}
+// May not be needed anymore but do not remove just yet
 
 @mixin borderRad($radius: 8px)
 {
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
-	-ms-border-radius: $radius;
-	-o-border-radius: $radius;
 	border-radius: $radius;
 }
+
+
+@mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: rgba(0, 0, 0, 1))
+{
+  box-shadow: $horz $vert $depth $color;
+}
+
+// #############################################################################
 
 @mixin autoMargin($margin-left: auto, $margin-right: auto)
 {

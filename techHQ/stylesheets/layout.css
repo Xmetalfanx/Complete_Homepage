@@ -39,23 +39,11 @@ a:visited {
 
 #body,
 body {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -webkit-align-content: space-around;
-  align-content: space-around;
-  margin: 0px;
-  color: black;
-  background-color: #323232;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-size: 13px;
   letter-spacing: 0px; }
 
 img {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
   border: 0px; }
 
 h3,
@@ -115,8 +103,8 @@ table .virtRTable {
   font-weight: bold;
   /*margin-right: 50px;*/ }
 table .tableNoBorderCenteredFiftyPercent {
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   width: auto;
   border: none; }
 
@@ -168,30 +156,15 @@ th a:link {
   background-color: white; }
 
 .dropShadow {
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 8px; }
 
 .dropShadowIMGPadB {
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 15px; }
 
 .dropShadowIMGPadB a:hover {
-  -moz-transform: scale(1.07, 1.07);
-  -ms-transform: scale(1.07, 1.07);
-  -webkit-transform: scale(1.07, 1.07);
-  transform: scale(1.07, 1.07);
-  -moz-perspective: 1000px;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
   margin: 1%; }
 
 .fiftyPX {
@@ -236,13 +209,7 @@ h2 {
   line-height: 133%; }
 
 .progTables {
-  -webkit-box-shadow: 8px 6px 10px #000000;
-  -moz-box-shadow: 8px 6px 10px #000000;
-  box-shadow: 8px 6px 10px #000000;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  box-sizing: 8px, 6px, 10px, #000000;
   border-radius: 4px;
   display: block;
   width: 80%;
@@ -278,10 +245,6 @@ h2 {
   text-decoration: none;
   /*vertical-align: middle;*/ }
 
-/*
-same as the original (sort of) ... for Items that do not have a decription
-under it
-*/
 .progTablesName2 {
   display: block;
   width: 78%;
@@ -303,8 +266,8 @@ under it
   float: right;
   clear: both;
   margin-top: 0px;
-  padding-top: 0px;
-  padding-right: 1%;
+  padding-top: 0;
+  padding-right: 1px;
   color: black;
   overflow: visible;
   border: 1px solid black;
@@ -321,6 +284,7 @@ under it
   display: block;
   float: left;
   clear: none;
+  padding: 2px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 2px;
@@ -340,15 +304,12 @@ under it
 
 .topBanner {
   width: 600px;
-  height: 90px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 10px; }
 
 .updateDate {
-  -moz-border-radius: 8px / 8px;
-  -webkit-border-radius: 8px 8px;
-  border-radius: 8px / 8px;
+  border-radius: 8px;
   display: block;
   float: right;
   clear: left;
@@ -369,12 +330,8 @@ UpdateSummary is intended to Give a short Update so the main page's
 Description does not Run Too long
 */
 .UpdateSummary {
-  -webkit-box-shadow: 4px 3px 5px black;
-  -moz-box-shadow: 4px 3px 5px black;
   box-shadow: 4px 3px 5px black;
-  -moz-border-radius: 8px / 8px;
-  -webkit-border-radius: 8px 8px;
-  border-radius: 8px / 8px;
+  border-radius: 8px;
   clear: right;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -470,12 +427,8 @@ footer {
     height: auto;
     overflow: hidden; }
   #col3 .col3table {
-    -webkit-box-shadow: 4px 3px 5px black;
-    -moz-box-shadow: 4px 3px 5px black;
     box-shadow: 4px 3px 5px black;
-    -moz-border-radius: 8px / 8px;
-    -webkit-border-radius: 8px 8px;
-    border-radius: 8px / 8px;
+    border-radius: 8px;
     border: 1px solid black; }
 
 #copyrightFooter {
@@ -491,8 +444,6 @@ footer {
     color: #FFFFCC; }
 
 #ga_text img:hover {
-  -webkit-box-shadow: 1px 2px 3px black;
-  -moz-box-shadow: 1px 2px 3px black;
   box-shadow: 1px 2px 3px black;
   clear: both;
   margin: 1%;
@@ -733,3 +684,5 @@ h4 {
 
 .card-warning {
   background-color: white; }
+
+/*# sourceMappingURL=layout.css.map */

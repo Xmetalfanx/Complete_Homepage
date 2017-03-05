@@ -1,3 +1,11 @@
+
+// No Longer Needed but leave until i can convert the default radius calls to 8px
+// Apparently no prefixes are needed anymore
+@mixin borderRad($radius: 8px)
+{
+	border-radius: $radius;
+}
+
 @mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: rgba(0, 0, 0, 1))
 {
   -webkit-box-shadow: $horz $vert $depth $color;
@@ -5,14 +13,11 @@
   box-shadow: $horz $vert $depth $color;
 }
 
-@mixin borderRad($radius: 8px)
-{
-	-webkit-border-radius: $radius;
-	-moz-border-radius: $radius;
-	-ms-border-radius: $radius;
-	-o-border-radius: $radius;
-	border-radius: $radius;
-}
+
+
+
+// ############################################################################
+
 
 @mixin autoMargin($margin-left: auto, $margin-right: auto)
 {
@@ -33,7 +38,7 @@
 {
 	float: left;
 	clear: both;
-		  
+
     @include boxShadow();
 	border-top: $solidBorder;
 	border-left: $solidBorder;
@@ -43,7 +48,7 @@
     margin-bottom: 20px;
 	margin-top: 20px;
 	@include inline-block();
-			
+
 	a:link, a:visited, a:hover
     {
 		text-decoration:none;
@@ -55,7 +60,7 @@
 %stretched {
   $stretch-color: #4c6b99;
   border: 3px solid $stretch-color;
-  @include border-radius(8px);
+  border-radius: 8px;
   display: block;
   background-color: darken($stretch-color, 30%);
   color: white;

@@ -1,501 +1,73 @@
-#softwareSection #browsersprite li {
-  display: block;
-  list-style-type: none; }
-#softwareSection #browsersprite .firefox {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -90px 0;
-  width: 59px;
-  height: 32px; }
-#softwareSection #browsersprite .gchrome {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -54px 0;
-  width: 32px;
-  height: 34px; }
-#softwareSection #mpSprite .aimp {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -284px -4px;
-  width: 32px;
-  height: 32px; }
-#softwareSection #mpSprite .foobar {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -179px 0;
-  width: 32px;
-  height: 32px; }
-#softwareSection #mpSprite .vlc {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -337px -6px;
-  width: 32px;
-  height: 32px; }
-#softwareSection #mpSprite .clem {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -55px 0;
-  width: 32px;
-  height: 32px; }
+/*
+Error: Undefined mixin 'display-flex'.
+        on line 283 of sass/Mlayout.scss, in `display-flex'
+        from line 283 of sass/Mlayout.scss
 
-/* Images */
-/* Border variables */
-/* Colors */
-/* new Scheme test */
-/* Fonts */
-/* Images */
-/* Start of CSS */
-#footer {
-  margin-left: 18px; }
+278: 	padding-bottom: 2%;
+279: 	padding-right: 1%;
+280: 	text-align: center;
+281: 
+282: 	background-image: none;
+283: 	@include display-flex;
+284: 	@include flex-direction(row);
+285: 
+286: 	a:link, a:visited {
+287: 		font-size: 15px;
+288: 		text-align: center;
 
-p.center {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%; }
-
-table .leftSmallTable {
-  border: 1px solid black;
-  clear: right;
-  display: block;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  text-align: justify; }
-table .leftTable td, table .rightTable td {
-  border-spacing: 20px; }
-table .leftTable {
-  border: 1px solid black;
-  clear: right;
-  display: block;
-  float: left;
-  font-weight: bold;
-  margin-left: 50px;
-  margin-right: auto;
-  padding: 2px; }
-table .rightSmallTable {
-  border: 1px solid black;
-  clear: none;
-  display: block;
-  float: right;
-  margin-left: auto;
-  margin-right: 50px;
-  padding: 5px;
-  text-align: justify; }
-table .rightTable {
-  border: 1px solid black;
-  clear: none;
-  display: block;
-  float: right;
-  font-weight: bold;
-  margin-left: auto;
-  padding: 2px; }
-table .tableNoBorderCenteredFiftyPercent {
-  border: none;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%; }
-table .virtSmallLTable {
-  border: 1px solid black;
-  clear: right;
-  display: block;
-  float: left;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  text-align: justify; }
-table .virtRTable {
-  border: 1px solid black;
-  clear: none;
-  display: block;
-  float: right;
-  font-weight: bold;
-  margin-left: auto;
-  padding: 2px; }
-table .virtLTable {
-  border: 1px solid black;
-  clear: right;
-  display: block;
-  float: left;
-  font-weight: bold;
-  margin-left: 50px;
-  margin-right: auto;
-  padding: 2px; }
-table .virtSmallRTable {
-  border: 1px solid black;
-  clear: none;
-  display: block;
-  float: right;
-  margin-left: auto;
-  margin-right: 50px;
-  padding: 5px;
-  text-align: justify; }
-
-td {
-  background-color: white;
-  color: black;
-  font-family: "Segoe UI",Arial,Helvetica,sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-  text-align: left;
-  vertical-align: top; }
-  td .progDecription {
-    width: 75%; }
-  td a:link {
-    background-color: transparent;
-    color: #009900;
-    text-decoration: none;
-    vertical-align: top; }
-
-td.fiftyPercent, th.fiftyPercent {
-  width: 50%; }
-
-th, th a:link {
-  background-color: white;
-  background-image: url(../graphics/navbar_trials/christmas/darkgreen1.png);
-  color: black;
-  font-size: 9pt;
-  font-weight: bold; }
-
-/* Test for CSS relplacements for tables in software Section */
-.centerTables {
-  clear: none;
-  display: block;
-  font-weight: bold;
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%; }
-
-.col1Indent {
-  margin-bottom: 0px;
-  padding-left: 25px;
-  padding-top: 0px; }
-
-.fiftyPX {
-  padding-bottom: 50px; }
-
-.generalTxt {
-  font-family: "Segoe UI","Courier New",Courier,monospace;
-  font-size: 11pt; }
-
-.header {
-  background-color: #ffff66;
-  background-image: url(../graphics/navbar_trials/tan/tan3.jpg);
-  border-bottom: 1px ridge #000099;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  color: #660000;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  margin-bottom: 2px;
-  overflow: visible;
-  padding-bottom: 0px;
-  padding-right: 2px;
-  padding-top: 2px;
-  text-align: left;
-  width: 98%; }
-  .header a:link {
-    background-color: transparent;
-    color: #660000;
-    text-decoration: none; }
-  .header a:hover {
-    background-color: #660000;
-    color: #ffcc99; }
-
-#col1 .header, a:link .header {
-  background-color: #ffff66;
-  background-image: url(/techHQ/graphics/navbar_trials/tan/tan3.jpg);
-  border-bottom: 1px ridge #000099;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  color: #660000;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  margin-bottom: 2px;
-  overflow: visible;
-  padding-bottom: 0px;
-  padding-right: 2px;
-  padding-top: 2px;
-  text-align: left;
-  width: 98%; }
-
-.progTableDesc {
-  padding-left: 8%;
-  padding-right: 6%; }
-
-.progTables {
-  clear: both;
-  color: white;
-  display: block;
-  float: left;
-  margin-bottom: 20px; }
-
-.progTablesName {
-  background-color: #ffff66;
-  font-size: 16px;
-  font-weight: bolder; }
-  .progTablesName a:link {
-    vertical-align: middle;
-    font-weight: bolder; }
-
-/* same as the original (sort of) ... for Items that do not have a decription under it */
-.progTablesName2 {
-  width: 60%; }
-
-nav {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  margin-bottom: 1px;
-  padding-left: 1%;
-  padding-bottom: 2%;
-  padding-right: 1%;
-  text-align: center;
-  background-image: none;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row; }
-  nav a:link, nav a:visited {
-    font-size: 15px;
-    text-align: center;
-    padding-right: 2%;
-    padding-left: 2%;
-    clear: both;
-    border-right: solid 1px white;
-    height: auto;
-    color: white;
-    text-decoration: none;
-    display: block; }
-
-#valRight {
-  float: left;
-  margin-right: 10%;
-  width: 50%; }
-
-.TDRight {
-  border: 1px solid black;
-  clear: none;
-  float: right;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  text-align: center; }
-
-.topBanner {
-  display: none;
-  padding-bottom: 20px; }
-
-.updateDate {
-  color: #660000;
-  font-size: 11px;
-  line-height: 20px; }
-
-/* UpdateSummary is intended to Give a short Update so the main page's Description does not Run Too long */
-.UpdateSummary {
-  color: #660000;
-  margin-bottom: 1px; }
-
-#bottomHeader {
-  overflow: hidden;
-  padding-left: 0;
-  width: 100%;
-  border-top: 1px solid black;
-  font-size: 15px; }
-
-#col1 {
-  color: #660000;
-  font-size: 14px; }
-  #col1 .header {
-    margin-top: 0px; }
-  #col1 a:link {
-    color: inherit;
-    font-weight: bold;
-    line-height: 20px;
-    margin-bottom: 200px; }
-  #col1 a:hover {
-    background-color: #ffffcc;
-    color: #660000; }
-  #col1 li {
-    margin-left: 1px;
-    padding-left: 20px;
-    text-align: left; }
-  #col1 img {
-    display: none; }
-
-#col2 {
-  color: #990000;
-  margin-right: 10px;
-  /* font-family:"MS Sans Serif",Geneva,sans-serif; */
-  padding-left: 3%;
-  padding-right: 3%;
-  overflow-x: auto; }
-  #col2 li {
-    margin-left: 1px;
-    padding-left: 20px;
-    text-align: left; }
-
-#col3 img {
-  display: none; }
-
-#mainBody {
-  color: #990000;
-  margin-bottom: 0px;
-  padding-bottom: 0;
-  /* padding-left: 7px; */
-  padding-top: 5px;
-  vertical-align: top;
-  z-index: 99;
-  /* New way for the Software Section */ }
-  #mainBody .leftIcon {
-    float: left;
-    width: 32px;
-    height: 32px;
-    padding-right: 10px; }
-
-#copyrightFooter {
-  background-color: #ffffcc;
-  clear: none;
-  color: #000099;
-  float: right;
-  font-size: 11px;
-  margin-bottom: 2px;
-  padding-right: 5px;
-  padding-top: 3px;
-  /* position: static; */
-  text-align: right;
-  vertical-align: baseline;
-  background-image: url(/techHQ/graphics/navbar_trials/tan/tan3.jpg);
-  background-repeat: repeat-x;
-  background-position: top; }
-
-#googleImage, #mainSupportIcons, #bannerText {
-  display: none; }
-
-#HorzSubMenu {
-  background-color: #ffff99;
-  background-image: url(/techHQ/graphics/navbar_trials/tan/tan1.jpg);
-  border: 1px dashed #660000;
-  color: #660000;
-  display: block;
-  font-size: 12px;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  padding-left: 5px;
-  padding-top: 5px;
-  vertical-align: bottom;
-  width: 93%; }
-  #HorzSubMenu a:link, #HorzSubMenu a:visited {
-    background-color: transparent;
-    color: black;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 12px;
-    font-variant: small-caps;
-    font-weight: bold; }
-  #HorzSubMenu .header a:link {
-    background-color: transparent;
-    border-bottom-color: cyan;
-    color: #ffff99; }
-
-#justify, p.justify, .justify {
-  text-align: justify; }
-
-#LBottomIcons, form.StartPageStyle, #StartPageStyle, #mainPageSupportIMG img, #GAOTD, .StartPageStyle, #col2 img, #col3, #support {
-  display: none; }
-
-#left, p.left, .left {
-  text-align: left; }
-  #left #mainBody, p.left #mainBody, .left #mainBody {
-    /* New way for the Software Section */ }
-    #left #mainBody .iconCenter, #left #mainBody center, #left #mainBody img.center, p.left #mainBody .iconCenter, p.left #mainBody center, p.left #mainBody img.center, .left #mainBody .iconCenter, .left #mainBody center, .left #mainBody img.center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-    #left #mainBody .progTablesName a:link, p.left #mainBody .progTablesName a:link, .left #mainBody .progTablesName a:link {
-      vertical-align: middle;
-      font-weight: bolder; }
-    #left #mainBody .leftIcon, p.left #mainBody .leftIcon, .left #mainBody .leftIcon {
-      float: left;
-      width: 32px;
-      height: 32px;
-      padding-right: 10px; }
-    #left #mainBody .twoCols, p.left #mainBody .twoCols, .left #mainBody .twoCols {
-      clear: both;
-      -moz-column-count: 2;
-      -webkit-column-count: 2;
-      column-count: 2;
-      -moz-column-width: 400px;
-      -webkit-column-width: 400px;
-      column-width: 400px;
-      -moz-column-gap: 10px;
-      -webkit-column-gap: 10px;
-      column-gap: 10px;
-      margin-bottom: 20px;
-      display: block; }
-      #left #mainBody .twoCols ul, #left #mainBody .twoCols li, p.left #mainBody .twoCols ul, p.left #mainBody .twoCols li, .left #mainBody .twoCols ul, .left #mainBody .twoCols li {
-        list-style-type: none; }
-      #left #mainBody .twoCols a:link, #left #mainBody .twoCols a:visited, #left #mainBody .twoCols a:hover, p.left #mainBody .twoCols a:link, p.left #mainBody .twoCols a:visited, p.left #mainBody .twoCols a:hover, .left #mainBody .twoCols a:link, .left #mainBody .twoCols a:visited, .left #mainBody .twoCols a:hover {
-        text-decoration: none; }
-    #left #mainBody .threeCols, p.left #mainBody .threeCols, .left #mainBody .threeCols {
-      -moz-column-count: 3;
-      -webkit-column-count: 3;
-      column-count: 3;
-      -moz-column-width: 250px;
-      -webkit-column-width: 250px;
-      column-width: 250px;
-      margin-bottom: 20px; }
-      #left #mainBody .threeCols a:link, #left #mainBody .threeCols a:visited, #left #mainBody .threeCols a:hover, p.left #mainBody .threeCols a:link, p.left #mainBody .threeCols a:visited, p.left #mainBody .threeCols a:hover, .left #mainBody .threeCols a:link, .left #mainBody .threeCols a:visited, .left #mainBody .threeCols a:hover {
-        text-decoration: none; }
-
-img.center, table.center, center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* New way for the Software Section */ }
-  img.center #mainBody a:link, img.center #col1 .header a:link, table.center #mainBody a:link, table.center #col1 .header a:link, center #mainBody a:link, center #col1 .header a:link {
-    background-color: transparent;
-    color: #000099; }
-  img.center #mainNavTable a:hover, table.center #mainNavTable a:hover, center #mainNavTable a:hover {
-    background-color: transparent;
-    color: #ffff99;
-    cursor: crosshair;
-    text-shadow: 2px 1px 2px #660000; }
-  img.center #mainNavTable ul li, table.center #mainNavTable ul li, center #mainNavTable ul li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 1%;
-    border-right: 1px solid rgba(0, 0, 0, 0.65); }
-  img.center .leftIcon, table.center .leftIcon, center .leftIcon {
-    float: left;
-    width: 32px;
-    height: 32px;
-    padding-right: 10px; }
-
-#wideCol2 {
-  overflow-x: auto; }
-
-#navButton {
-  display: none;
-  width: 55px;
-  height: 55px;
-  border: 1px solid black;
-  background-color: navy;
-  left: 0;
-  top: 0;
-  position: fixed;
-  align-items: center;
-  color: white; }
-  #navButton div {
-    padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 7%;
-    background: white; }
-
-form.StartPageStyle, #StartPageStyle {
-  display: none; }
-
-nav {
-  border-radius: 0;
-  display: block; }
-  nav a:link {
-    border-right: 0px;
-    margin-bottom: 20px;
-    font-size: 16px; }
+Backtrace:
+sass/Mlayout.scss:283:in `display-flex'
+sass/Mlayout.scss:283
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'display-flex'.\A         on line 283 of sass/Mlayout.scss, in `display-flex'\A         from line 283 of sass/Mlayout.scss\A \A 278: 	padding-bottom: 2%;\A 279: 	padding-right: 1%;\A 280: 	text-align: center;\A 281: \A 282: 	background-image: none;\A 283: 	@include display-flex;\A 284: 	@include flex-direction(row);\A 285: \A 286: 	a:link, a:visited {\A 287: 		font-size: 15px;\A 288: 		text-align: center;"; }

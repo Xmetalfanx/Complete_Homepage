@@ -1,4 +1,5 @@
 @import "_sassHeader";
+@import 'bourbon/bourbon';
 
 a:link,
 a:visited {
@@ -8,13 +9,9 @@ a:visited {
 
 #body,
 body {
-  @include                display-flex;
-  @include                flex-direction(column);
-  @include                align-content(space-around);
 
   @include margin(null null null null);
-  color                 : $black;
-  background-color      : $darkGray;
+  // @include perspective(300px);
   font-family           : $Tahoma;
   font-size             : 13px;
   letter-spacing        : 0px;
@@ -50,7 +47,7 @@ table {
     display      : block;
     float        : left;
     clear        : right;
-    @include margin(null auto null auto)
+    @include margin(null auto null auto);
     @include padding(5px 5px 5px 5px);
 
     outline     : $solidBorder;
@@ -78,7 +75,7 @@ table {
     display      : block;
     float        : right;
     clear        : none;
-    @include margin(null 50px null auto)
+    @include margin(null 50px null auto);
     padding      : 5px;
     border       : $solidBorder;
     text-align   : justify;
@@ -97,7 +94,7 @@ table {
     /*margin-right: 50px;*/
   }
   .tableNoBorderCenteredFiftyPercent {
-    @include margin(null auto null auto)
+    @include margin(null auto null auto);
 
     width    : auto;
     border   : none;
@@ -165,19 +162,19 @@ th a:link {
 }
 
 .dropShadow {
-  @include   boxShadow();
-  @include   border-radius();
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+  border-radius: 8px;
 }
 
 .dropShadowIMGPadB {
-  @include        boxShadow();
-  @include        border-radius();
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+  border-radius: 8px;
   margin-bottom : 15px;
 }
 
 .dropShadowIMGPadB a:hover {
-  @include   scale(1.07, 1.07);
-  @include   perspective(1000px);
+
+  //@include   perspective(1000px);
   margin   : 1%;
 }
 
@@ -214,7 +211,6 @@ h2 {
 }
 
 .progtableColL {
-  @include size(49% null);
   width : 49%;
   float : left;
   clear : right;
@@ -237,15 +233,16 @@ h2 {
 }
 
 .progTables {
-  @include           boxShadow(8px, 6px, 10px, #000000);
-  @include           borderRad(4px);
+
+  box-sizing: 8px, 6px, 10px, #000000;
+  border-radius: 4px;
 
   display          : block;
   width            : 80%;
   float            : left;
   clear            : both;
 
-  @include margin(null 3% 20px 10%)
+  @include margin(null 3% 20px 10%);
 
   padding-bottom   : 0;
   color            : black;
@@ -279,17 +276,13 @@ h2 {
   /*vertical-align: middle;*/
 }
 
-/*
-same as the original (sort of) ... for Items that do not have a decription
-under it
-*/
 
 .progTablesName2 {
   display          : block;
   width            : 78%;
   float            : left;
 
-  @include margin(null auto 4px auto)
+  @include margin(null auto 4px auto);
 
   padding-bottom   : 0;
   color            : $black;
@@ -359,15 +352,13 @@ under it
 
 .topBanner {
   width          : 600px;
-  height         : 90px;
-
   @include margin(null auto null auto);
 
   padding-bottom : 10px;
 }
 
 .updateDate {
-  @include           border-radius(8px, 8px);
+  border-radius: 8px;
   display          : block;
   float            : right;
   clear            : left;
@@ -392,8 +383,9 @@ Description does not Run Too long
 */
 
 .UpdateSummary {
-  @include           boxShadow();
-  @include           border-radius(8px, 8px);
+  box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+
+  border-radius: 8px;
   clear            : right;
   margin-top       : 5px;
   margin-bottom    : 5px;
@@ -514,8 +506,10 @@ footer {
     overflow : hidden;
   }
   .col3table {
-    @include   boxShadow();
-    @include   border-radius(8px, 8px);
+
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+
+    border-radius: 8px;
     border   : $solidBorder;
   }
 }

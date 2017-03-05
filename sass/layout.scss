@@ -3,14 +3,12 @@
 
 body
 {
+    font-size: 16px;
+
     margin: 0;
 
     background-image: $beachBG2;
     background-repeat: no-repeat;
-
-    font-size: 16px;
-
-    @include background-size(100%);
 }
 
 a:link
@@ -21,12 +19,16 @@ a:link
 
 .dropShadow
 {
-    @include   boxShadow();
-    @include   borderRad();
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+    border-radius: 8px;
 }
 
 .btn-link
 {
+    font-family: $TNR;
+    font-size: 25px;
+    font-weight: bold;
+
     text-align: center;
 
     color: white;
@@ -34,11 +36,6 @@ a:link
     outline: $solidBorder;
     background-color: blue;
     text-shadow: 1px 1px 5px $black;
-
-    font-family: $TNR;
-    font-size: 25px;
-    font-weight: bold;
-
 }
 
 
@@ -52,7 +49,6 @@ nav
         background-color: $darkGrey;
 
         @include padding(10px 20px 10px 20px);
-
     }
     a:hover
     {
@@ -83,11 +79,11 @@ footer
 
     #copyright
     {
+        font-size: 14px;
+
         float: right;
 
         padding-right: 30px;
-
-        font-size: 14px;
     }
 }
 
@@ -98,7 +94,6 @@ footer
     margin-right: 3px;
 
     @include padding(null 3px 10px null);
-    order: 7;
 
     img
     {

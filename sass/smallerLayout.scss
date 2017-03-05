@@ -1,128 +1,105 @@
-@import "_sassHeader";
+@import '_sassHeader';
 @import 'bourbon/bourbon';
 
 body
 {
-	color: rgb(255, 255, 255);
-	background-color: rgb(0, 0, 128);
-	background-image: none;
+    font-family: $SegoeUI;
+    font-size: 12px;
 
-	font-family: $SegoeUI;
-	font-size: 12px;
-
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 128);
+    background-image: none;
 }
 
 a:link
 {
-	text-decoration: none;
+    text-decoration: none;
 }
-
 
 #main
 {
-	clear: both;
-
+    clear: both;
 }
 
-.dropShadow {
-  @include borderRad();
-  @include boxShadow();
+.dropShadow
+{
+    border-radius: 8px;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
 }
 
 
 nav
 {
-			a:link, a:visited
-			{
-			float: left;
-			clear:	both;
+    a:link,
+    a:visited
+    {
+        font-family: $TNR;
+        font-size: 25px;
+        font-weight: bold;
 
-			margin-bottom: 2%;
+        float: left;
+        clear: both;
 
-			text-align: center;
+        margin-bottom: 2%;
 
-			border: $solidBorder;
-			text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
+        text-align: center;
 
-			font-family: $TNR;
-			font-size: 25px;
-			font-weight: bold;
+        border: $solidBorder;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, .85);
 
-			@include padding(7px 10px 7px 10px);
-			}
+        @include padding(7px 10px 7px 10px);
+    }
 
-		   a:hover
-			{
-				color: rgb(255, 255, 51);
-			}
-
+    a:hover
+    {
+        color: rgb(255, 255, 51);
+    }
 }
 
 
 
 .menuImage
 {
-	vertical-align: top;
+    font-size: 30px;
+    font-weight: bold;
 
-	color: $black;
-	background-color: rgba( 255, 255, 255, .90);
+    vertical-align: top;
 
-	font-size: 30px;
-	font-weight: bold;
+    color: $black;
+    background-color: rgba( 255, 255, 255, .90);
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
 
-	@include margin(null auto 10px auto);
-	 @include borderRad();
-	 @include boxShadow();
-
+    @include margin(null auto 10px auto);
+    @include borderRad();
 }
 
 img.center
 {
-	margin-right: auto;
-	margin-left: auto;
-
+    @include margin(0px auto null auto);
 }
+
 .boxShadow
 {
-	@include boxShadow();
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
 }
 
-
-#homepageImage
-{
-	display: none;
-
-}
 
 .header1
 {
-	text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
 
-	font-size: 16px;
-	font-weight: bold;
+    text-decoration: underline;
 }
 
 #socialIcons
 {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 
-
-	a:link img
-	{
-		width: 48px;
-		height: 48px;
-		margin-right: 100px;
-	}
-}
-
-#message
-{
-	position: absolute;
-
-	display: block;
-
-	width: auto;
-
-	opacity: 1.00;
-
+    a:link img
+    {
+        width: 48px;
+        height: 48px;
+        margin-right: 100px;
+    }
 }
