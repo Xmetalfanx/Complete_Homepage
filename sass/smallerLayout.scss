@@ -1,12 +1,14 @@
 @import "_sassHeader";
+@import 'bourbon/bourbon';
 
 body
 {
-	background-color: rgb(0, 0, 128);
 	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 128);
+	background-image: none;
+
 	font-family: $SegoeUI;
 	font-size: 12px;
-	background-image: none;
 
 }
 
@@ -15,11 +17,6 @@ a:link
 	text-decoration: none;
 }
 
-#MainHeader
-{
-	display: none;
-
-}
 
 #main
 {
@@ -37,19 +34,21 @@ nav
 {
 			a:link, a:visited
 			{
-			border: $solidBorder;
-			font-size: 25px;
-			padding-right: 10px;
-			padding-left: 10px;
-			padding-top: 7px;
-			clear:	both;
 			float: left;
+			clear:	both;
+
 			margin-bottom: 2%;
-			padding-bottom: 7px;
-			font-weight: bold;
+
 			text-align: center;
-			font-family: $TNR;
+
+			border: $solidBorder;
 			text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
+
+			font-family: $TNR;
+			font-size: 25px;
+			font-weight: bold;
+
+			@include padding(7px 10px 7px 10px);
 			}
 
 		   a:hover
@@ -64,22 +63,23 @@ nav
 .menuImage
 {
 	vertical-align: top;
-	background-color: rgba( 255, 255, 255, .90);
+
 	color: $black;
+	background-color: rgba( 255, 255, 255, .90);
+
 	font-size: 30px;
 	font-weight: bold;
-	margin-left: auto;
-	margin-right: auto;
+
+	@include margin(null auto 10px auto);
 	 @include borderRad();
 	 @include boxShadow();
-  margin-bottom: 10px;
 
 }
 
 img.center
 {
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 
 }
 .boxShadow
@@ -96,9 +96,10 @@ img.center
 
 .header1
 {
-	font-weight: bold;
 	text-decoration: underline;
+
 	font-size: 16px;
+	font-weight: bold;
 }
 
 #socialIcons
@@ -108,17 +109,20 @@ img.center
 
 	a:link img
 	{
-		margin-right: 100px;
 		width: 48px;
 		height: 48px;
+		margin-right: 100px;
 	}
 }
 
 #message
 {
 	position: absolute;
+
 	display: block;
+
 	width: auto;
+
 	opacity: 1.00;
 
 }
