@@ -1,48 +1,26 @@
+@import "bourbon/bourbon";
 @import "_sassHeader";
-@import "_sassHeader";
+
 
 #mainBody a:link,
 a:link {
   text-decoration : none;
 }
 
-
 body {
-  @include                background-size(cover);
-  z-index               : 1;
-  margin-top            : 0px;
   color                 : $white;
   overflow              : auto;
   background-color      : $arcBlack;
   background-repeat     : no-repeat;
   background-attachment : fixed;
   background-position   : top center;
-  font-size             : 13px;
   letter-spacing        : 0px;
   @include        NoMargin();
-
 
   display: flex;
   flex-direction: column;
   flex-basis       : 650px;
 
-}
-
-footer {
-  color            : $white;
-  background-color : transparent;
-  order            : 9;
-  z-index           : 100;
-  @include LRMargin();
-
-	.fMessage
-	{
-		font-size: 		15px;
-		width: 50%;
-		float: left;
-    padding-top: 10px;
-    padding-left: 5px;
-     }
 }
 
 header {
@@ -151,7 +129,6 @@ nav {
   border           : $solidBorder;
   background-color : $black;
   font-weight      : bold;
-    /*background-image: $tanImage2;*/
 }
 
 .distroSshot {
@@ -298,7 +275,7 @@ nav {
   }
 
   .familyHeader {
-    @include          box-shadow(1px 2px 3px);
+    box-shadow       : 1px 2px 3px;
 
     padding          : 2px;
     color            : rgb(255, 255, 102);

@@ -1,4 +1,4 @@
-
+<?php include $sitePath . '/modules/variables/icons.php'; ?>
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 <div class="row">
   <div class="card col-lg-2">
@@ -9,5 +9,6 @@
       </div>
     </div>
   </div>
+
   <div class="card col-lg-10">
     <div class="card-text">

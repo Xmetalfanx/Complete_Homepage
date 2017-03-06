@@ -8,12 +8,8 @@
 
 @mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: rgba(0, 0, 0, 1))
 {
-  -webkit-box-shadow: $horz $vert $depth $color;
-  -moz-box-shadow: $horz $vert $depth $color;
   box-shadow: $horz $vert $depth $color;
 }
-
-
 
 
 // ############################################################################

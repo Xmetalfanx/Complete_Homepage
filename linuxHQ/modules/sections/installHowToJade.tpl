@@ -2,8 +2,8 @@
 <div class="row">
   <div class="headers">How to install (command line instructions) :
     <div style="clear:both;"></div>
-    <p>On Ubuntu-based Systems: #<span Ubuntu="Ubuntu" elementaryOS="elementaryOS" Deepin="Deepin" Linux="Linux" Lite="Lite" any="any" *buntu="*buntu" distro="distro" LXLE="LXLE" ...etc="...etc" class="italics"></span></p>
-    <div class="code"><?php echo $installUbuntu; ?></div>
+    <p>On Ubuntu-based Systems: #<span Ubuntu="Ubuntu" elementaryOS="elementaryOS" Deepin="Deepin" Linux="Linux" Lite="Lite" any="any" *buntu="*buntu" distro="distro" LXLE="LXLE" ...etc="...etc" class="italics">
+        <div class="code"><?php echo $installUbuntu; ?></div></span></p>
     <p>On Linux Mint:
       <div class="code"><?php echo $installMint; ?></div>
     </p>

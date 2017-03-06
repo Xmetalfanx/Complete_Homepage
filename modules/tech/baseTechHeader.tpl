@@ -19,6 +19,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Link to My External Style Sheet-->
   <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css">
+  <link href="/techHQ/stylesheets/GAOTD.css" rel="stylesheet" type="text/css">
+
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 </head>
 <body>

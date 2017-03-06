@@ -1,8 +1,6 @@
-<?php $completeTitle= $mainTitle . $subTitle . $pageTitle ?>
-
 <!DOCTYPE html>
 <!-- the closing HTML tag has to be removed too -->
-<html lang="en">
+<html lang="en"></html>
 <head>
   <meta charset="UTF-8">
   <title><?php echo $completeTitle; ?></title>
@@ -21,11 +19,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Link to My External Style Sheet-->
   <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css">
+  <link href="/techHQ/stylesheets/GAOTD.css" rel="stylesheet" type="text/css">
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 </head>
 <body>
-
-  <?php include $sitePath . "/modules/tech/menus/bStrapNav.tpl"; ?>
-
+   
+  <?php include $sitePath . "/modules/tech/menus/bStrapNav.tpl"; ?> 
+</body>
 <!-- Remember to remove the closeing DIV when this jade is outputted -->
-<div id="mainBody">
+<div id="mainBody"> </div>

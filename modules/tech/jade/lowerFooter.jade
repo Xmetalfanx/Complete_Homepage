@@ -1,15 +1,14 @@
 //output:lowerFooter.html
 
-.navbar.navbar-inverse.navbar-fixed-bottom
-  #LBottomIcons.navbar-left
-    a(href='xml/rss_feeds.php')
-      img.bottomIcons(src='/techHQ/graphics/xmlgraphics/rss.gif', alt='RSS Graphic')
-      img.bottomIcons(src='/techHQ/graphics/xmlgraphics/xml.gif', alt='Feed 2 J - RSS Feed to Javascript')
+.navbar.navbar-inverse.navbar-fixed-bottom.bg-inverse
+  .row 
+    #LBottomIcons.navbar-left.col-lg-6
+      a(href='xml/rss_feeds.php')
+        img.bottomIcons(src='/techHQ/graphics/xmlgraphics/rss.gif', alt='RSS Graphic')
+        img.bottomIcons(src='/techHQ/graphics/xmlgraphics/xml.gif', alt='Feed 2 J - RSS Feed to Javascript')
 
-
-#copyrightFooter.navbar-right
-  | 2002- Present - Xmetalfanx@yahoo.com
-  a(href='../techHQ/link.php') Website Validation Information
-
+    #copyrightFooter.navbar-right.col-lg-6
+      | 2002- Present - Xmetalfanx@yahoo.com
+      a(href='../techHQ/link.php') Website Validation Information
 
 script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.js')

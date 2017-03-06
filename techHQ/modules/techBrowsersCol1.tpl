@@ -5,15 +5,27 @@
     <h4>Basics</h4>
   </div>
   <div class="card-block">
-    <p class="card-text"></p>
-    <nav class="nav-flex-column"> <a href="/techHQ/browsers/adblocking/adblocker.php" class="nav-link">List of Ad/Content Blockers, I recommend </a><a href="/techHQ/browsers/adblocking/adblockBasics.php" class="nav-link">Basic Ad/Content blocking on various blockers</a><a href="/techHQ/browsers/adblocking/" class="nav-link">Static -vs- Dynamic Filtering</a><a href="/techHQ/browsers/adblocking/UblockConfusion.php" class="nav-link">Ublock Origin -vs - Ublock Confusion</a><a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Static Filtering -vs- Dynamic Filtering</a><a href="/techHQ/browsers/adblocking/" class="nav-link">Element Hiders</a><a href="/techHQ/browsers/adblocking/" class="nav-link">List of Common Filter lists (strong Static Filters)</a></nav>
+    <p class="card-text">
+    <nav class="nav-flex-column">
+      <a href="/techHQ/browsers/adblocking/adblocker.php" class="nav-link">List of Ad/Content Blockers, I recommend </a>
+      <a href="/techHQ/browsers/adblocking/adblockBasics.php" class="nav-link">Basic Ad/Content blocking on various blockers</a>
+      <a href="/techHQ/browsers/adblocking/" class="nav-link">Static -vs- Dynamic Filtering</a>
+      <a href="/techHQ/browsers/adblocking/UblockConfusion.php" class="nav-link">Ublock Origin -vs - Ublock Confusion</a>
+      <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Static Filtering -vs- Dynamic Filtering</a>
+      <a href="/techHQ/browsers/adblocking/" class="nav-link">Element Hiders</a>
+      <a href="/techHQ/browsers/adblocking/" class="nav-link">List of Common Filter lists (strong Static Filters)</a>
+    </nav>
+    </p>
   </div>
-</div><br/>
+</div>
+
 <div class="card">
   <div class="card-header">More Advanced Topics</div>
   <div class="card-block">
     <p class="card-text">
-      <nav class="nav flex-column"><a href="/techHQ/browsers/adblocking/UblockTutorial.php" class="nav-link">Ublock Tutorial </a><a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Dynamic Filter in Ublock</a>
+      <nav class="nav flex-column">
+        <a href="/techHQ/browsers/adblocking/UblockTutorial.php" class="nav-link">Ublock Tutorial </a>
+        <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Dynamic Filter in Ublock</a>
         <ul>
           <li> <a href="/techHQ/browsers/adblocking/noopExplained.php" class="nav-link">What on earth is a &quot;noop filter&apos;?</a></li>
           <li><a href="/techHQ/browsers/adblocking/" class="nav-link">How to &quot;use&quot; Noop Rules</a></li>
@@ -21,7 +33,8 @@
       </nav>
     </p>
   </div>
-</div><br/>
+</div>
+
 <div class="card">
   <div class="card-header">Umatrix Specific</div>
   <div class="card-block">
@@ -29,7 +42,8 @@
       <nav class="nav flex-column"><a href="/techHQ/browsers/adblocking/umatrix_legend.php" class="nav-link">Umatrix Legend</a><a href="/techHQ/browsers/adblocking/umatrix_mainLayout.php" class="nav-link">Umatrix Main Layout  </a></nav>
     </p>
   </div>
-</div><br/>
+</div>
+
 <div class="card">
   <div class="card-header">More Ublock Tasks </div>
   <div class="card-block">

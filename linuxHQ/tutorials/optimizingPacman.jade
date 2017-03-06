@@ -1,0 +1,71 @@
+//output:optimizingPacman.html
+
+h1 Optimizing Pacman Mirrors
+h2 References
+
+ul
+  li
+    p
+      a(href='https://www.archlinux.org/mirrorlist/') Pacman Mirrorlist Generator
+  li
+    p
+      a(href='https://wiki.archlinux.org/index.php/Reflector') Reflector
+      |  - Reflector can be used to grab the lastest mirrorlist and sort them by speed, also making sure they are up-to-date
+
+  li
+    p
+      a(href='https://wiki.manjaro.org/index.php/Rankmirrors_to_Set_the_Fastest_Download_Server') RankMirrors to setup the Fastest Download Server in Manjaro
+hr
+
+
+h3 STEP 1 - BACKUP your mirrorlist first
+p
+  | In case something goes wrong, you can simply restore the original list &mldr; though there ARE OTHER ways around the issue of a goofup.  Here is an example.
+
+h4 To backup
+
+  
+
+h4 To restore
+
+  
+
+hr
+
+
+h3 Reflector Examples for Arch and Antergos
+ul
+  li
+    p
+      | The dollar-sign in the commands below ARE representative of the command prompt &mldr; using the pound side would mess up my Markdown coding when typing this page. DO NOT copy that dollar-sign IF YOU are copying and pasting any of these commands
+  li
+    p
+      | Filter the first 10 mirrors, sort them by download rate and save the results to /etc/pacman.d/mirrorlist:
+  li
+    p
+      | Rate the 100 most recently synchronized HTTP servers, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
+  li
+    p
+      | Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
+hr
+
+
+h3 Manjaro
+ul
+  li
+    p
+      | Running the 
+      kbd pacman-mirrors -g
+      |  Command to Update the Mirrorlist
+
+      
+h3 Syncing your Pacman Database
+ul
+  li
+    p
+      | The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD
+
+p
+  em Updating via pacman is planned for an entirely other section, by the way
+
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

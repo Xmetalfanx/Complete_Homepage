@@ -1,0 +1,55 @@
+#ga_block
+{
+    width: 600px;
+    background-color: #FFFFFF;
+
+    img
+    {
+      display: block;
+      border: none;
+    }
+
+    #ga_title
+    {
+      font: normal 12px Verdana, sans-serif;
+      border: none;
+      margin: 4px 0 0 0;
+
+      a:link
+      {
+        text-decoration: none;
+        color: #1389B7;
+      }
+
+    #ga_text
+    {
+      font: normal 11px Arial, sans-serif;
+      border: none;
+      margin: 4px 0 0 0;
+      width: 100%;
+      overflow: auto;
+
+      a:link
+      {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      p
+      {
+        margin: 4px 0;
+      }
+
+      img
+      {
+        display: block;
+        position: relative;
+        float: left;
+        border: none;
+        margin: 0 1em 1em 0;
+
+      }
+    }
+}
+
+}

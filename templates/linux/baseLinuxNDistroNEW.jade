@@ -1,0 +1,142 @@
+<?php $sitePath = "/home/xmetalx1/public_html"; ?>
+<?php 	  include $sitePath . "/templates/linux/massLinuxIncludes.tpl"; ?>
+<?php  include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
+
+
+// Look over this to slim it down
+
+<?php include $sitePath . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
+
+
+<?php
+
+   include $sitePath . ('/linuxHQ/database/dbconnect.php');
+
+   //Variables
+   $distroTitle = $display["name"];
+   $distroBase = $display[base];
+   $distroIcon = '<img src=" ' . $display["icons"] . ' " alt=" ' . $display[distroName] . ' \'s Homepage" />';
+   $homepage = '<a href=" ' . $display[homepage] . ' " > '  . $display[distroName] . ' \'s Icon " > ';
+   $forum = '<a href=" ' . $display[forum] . ' " > '  . $display[distroName] . ' \'s Forum " > ';
+  $ytReview = '<a href=" ' . $display[ytplaylist] . ' " > '  . $display[distroName] . ' \'s Youtube Review Playlist \" > ';
+ 	$download = '<a href=" ' . $display[download] .  ' " > '  . $display[distroName] . ' \'s Downloads \" > ';
+	$distroWatch = '<a href=" ' . $display[distroWatch] . ' " > '  . $display[distroName] . ' \'s Distrowatch Page" > ';
+	$tweakPL = '<a href=" ' . $display[tweakPL] . ' " > '  . $display[distroName] . ' \'s Youtube Tweak Playlist \" > ';
+
+
+	  echo $distroTitle;
+		
+	?> 
+	
+.row
+	.col-lg-3
+		<?php echo $distroIcon ?>
+	.col-lg-9
+		<?php echo $distroTitle ?>
+
+
+############################################3
+.card
+  .card-block        
+    .card-text
+			.row 
+				.col-lg-8
+					div Homepage: <?php echo $homepage ?>
+				.col-lg-8
+					div Lastest Version:  <?php echo $display[version] ?>
+					
+			.row 
+				.col-lg-8
+					div Distro Family: <?php echo $distroBase; ?>
+				.col-lg-8
+					div Download: <?php echo $display[download]; ?>
+
+			.row 
+				.col-lg-8
+					div Forums: <?php echo $forum; ?>
+				.col-lg-8
+					div Targeted User: <?php echo $display[target]; ?> 
+
+				.row 
+					.col-lg-8
+						div Distrowatch Link: <?php echo $display[distroWatch]; ?> 
+
+					.col-lg-8
+						div Destop Options: <?php echo $display[de]; ?> 
+
+				.row 
+					.col-lg-8
+						div Xmetal\"s Youtube\"s Review Playlist: 
+						<?php echo $ytReview;  ?>
+						
+					.col-lg-8
+						div Tweaks/Fixes/...etc Video: <?php echo  $tweakPL; ?> 
+
+
+					
+
+
+
+###################################################################################
+.card
+	.card-block
+		h4.card-title Similar Distros: 
+		.card-text
+			<?php echo $display[similar]; ?>
+
+.card
+	.card-header Description 
+  .card-block
+    .card-text
+			<?php echo $display[description]; ?>
+
+
+.card
+	.card-header Screenshots
+  .card-block       
+    .card-text
+			<?php echo $display[sshots] ?> 
+			
+
+
+#######################################################################
+.card
+	.card-header Reviews 
+  .card-block       
+    .card-text
+			include $sitePath . ('/linuxHQ/modules/linuxDistroReviewer.php');
+
+##################################################################################33
+		
+			
+			
+			
+			
+			echo "<div id=\"personalExp\">" ;
+			echo "<div class=\"distRevTitle\">My Experience: </div>";
+
+	   echo $EXP "<br />";
+	   echo $experience "<br /><br />";
+
+	   echo "<span class=\"bold\"> ";
+	   echo "Would I recommend this distro to a new user (to Linux)  (Yes/No) ? </span>: " ;
+
+	   echo $newbRecommend "<br /><br />";
+
+	   echo "<blockquote>" . $recComments . "</blockquote> <br />";
+	   echo  " <span class=\"bold\">Would I recommend this distro (Yes/No) ?</span>:";
+	   echo $recommend . "<br />";
+
+	   echo "<blockquote>" . $recComments . "</blockquote><br /><br />";
+
+	   echo "<span class=\"boldUnderline\">Any other comments I have about this distro: </span>";
+
+	   echo  $otherComments . "</div>" ;
+
+	   echo "<div id=\"personalExp\">";
+	   echo "<div class=\"distRevTitle\"> USB Drive Creation Experience </div> <br />";
+		 ###############################################################
+			 
+		 
+#######################################################	 
+<?php include $sitePath . ('/linuxHQ/modules/usb.php'); ?>
