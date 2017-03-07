@@ -1,31 +1,3 @@
-#softwareSection #browsersprite li {
-  display: block;
-  list-style-type: none; }
-#softwareSection #browsersprite .firefox {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -90px 0;
-  width: 59px;
-  height: 32px; }
-#softwareSection #browsersprite .gchrome {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -54px 0;
-  width: 32px;
-  height: 34px; }
-#softwareSection #mpSprite .aimp {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -284px -4px;
-  width: 32px;
-  height: 32px; }
-#softwareSection #mpSprite .foobar {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -179px 0;
-  width: 32px;
-  height: 32px; }
-#softwareSection #mpSprite .vlc {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -337px -6px;
-  width: 32px;
-  height: 32px; }
-#softwareSection #mpSprite .clem {
-  background: url("/techHQ/progIcons/browsers/browserSprite.png") no-repeat -55px 0;
-  width: 32px;
-  height: 32px; }
-
 /* Images */
 /* Border variables */
 /* Colors */

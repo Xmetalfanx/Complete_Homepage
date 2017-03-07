@@ -40,8 +40,8 @@ footer {
   position: fixed;
   bottom: 0;
   display: block;
-  width: 100%;
   height: 40px;
+  width: 100%;
   color: white;
   background-color: #323232;
   padding: 10px; }
@@ -58,8 +58,8 @@ footer {
   padding-right: 3px;
   padding-bottom: 10px; }
   #socialIcons img {
-    width: 32px;
-    height: 32px; }
+    height: 32px;
+    width: 32px; }
 
 #backgroundImage {
   background-image: url(/graphics/bg/beach/Carp_Island_Resort.jpg);

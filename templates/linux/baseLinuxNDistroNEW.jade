@@ -35,7 +35,6 @@
 		<?php echo $distroTitle ?>
 
 
-############################################3
 .card
   .card-block        
     .card-text
@@ -57,27 +56,21 @@
 				.col-lg-8
 					div Targeted User: <?php echo $display[target]; ?> 
 
-				.row 
-					.col-lg-8
-						div Distrowatch Link: <?php echo $display[distroWatch]; ?> 
+			.row 
+				.col-lg-8
+					div Distrowatch Link: <?php echo $display[distroWatch]; ?> 
 
-					.col-lg-8
-						div Destop Options: <?php echo $display[de]; ?> 
+				.col-lg-8
+					div Destop Options: <?php echo $display[de]; ?> 
 
-				.row 
-					.col-lg-8
-						div Xmetal\"s Youtube\"s Review Playlist: 
-						<?php echo $ytReview;  ?>
-						
-					.col-lg-8
-						div Tweaks/Fixes/...etc Video: <?php echo  $tweakPL; ?> 
-
-
+			.row 
+				.col-lg-8
+					div Xmetal\"s Youtube\"s Review Playlist: 
+					<?php echo $ytReview;  ?>
 					
+				.col-lg-8
+					div Tweaks/Fixes/...etc Video: <?php echo  $tweakPL; ?> 
 
-
-
-###################################################################################
 .card
 	.card-block
 		h4.card-title Similar Distros: 
@@ -90,24 +83,25 @@
     .card-text
 			<?php echo $display[description]; ?>
 
-
 .card
 	.card-header Screenshots
   .card-block       
     .card-text
 			<?php echo $display[sshots] ?> 
 			
-
-
-#######################################################################
 .card
 	.card-header Reviews 
   .card-block       
     .card-text
-			include $sitePath . ('/linuxHQ/modules/linuxDistroReviewer.php');
+			<?php include $sitePath . ('/linuxHQ/modules/linuxDistroReviewer.php'); ?>
 
 ##################################################################################33
 		
+	.card
+		.card-header My Experience: 
+	  .card-block
+	    .card-text
+				 
 			
 			
 			

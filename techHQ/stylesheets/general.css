@@ -1,39 +1,24 @@
 /*
-Error: Undefined mixin 'perspective'.
-        on line 891 of sass/general.scss, in `perspective'
-        from line 891 of sass/general.scss
+Error: Undefined variable: "$verdana".
+        on line 363 of sass/general.scss
 
-886:   border : 1px solid maroon;
-887: }
-888: 
-889: #mainSupportIcons {
-890:   img:hover {
-891:     @include        perspective(1000px);
-892:     @include        scale(1.07, 1.5);
-893:     margin-top    : 3px;
-894:     margin-bottom : 3px;
-895:   }
-896: 
+358:   border           : 1px solid gray;
+359:   background-image : none;
+360:   background-color : #ffffcc;
+361:   text-align       : center;
+362:   text-transform   : uppercase;
+363:   font-family       : $verdana;
+364:   font-size        : 11px;
+365:   font-weight      : bold;
+366:   line-height      : 16px;
+367: }
+368: 
 
 Backtrace:
-sass/general.scss:891:in `perspective'
-sass/general.scss:891
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+sass/general.scss:363
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
 /var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
 /var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
 /var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
@@ -81,4 +66,4 @@ sass/general.scss:891
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'perspective'.\A         on line 891 of sass/general.scss, in `perspective'\A         from line 891 of sass/general.scss\A \A 886:   border : 1px solid maroon;\A 887: }\A 888: \A 889: #mainSupportIcons {\A 890:   img:hover {\A 891:     @include        perspective(1000px);\A 892:     @include        scale(1.07, 1.5);\A 893:     margin-top    : 3px;\A 894:     margin-bottom : 3px;\A 895:   }\A 896: "; }
+  content: "Error: Undefined variable: \"$verdana\".\A         on line 363 of sass/general.scss\A \A 358:   border           : 1px solid gray;\A 359:   background-image : none;\A 360:   background-color : #ffffcc;\A 361:   text-align       : center;\A 362:   text-transform   : uppercase;\A 363:   font-family       : $verdana;\A 364:   font-size        : 11px;\A 365:   font-weight      : bold;\A 366:   line-height      : 16px;\A 367: }\A 368: "; }

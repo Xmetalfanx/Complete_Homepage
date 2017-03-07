@@ -34,9 +34,7 @@ p {
   color            : black;
   background-color : inherit;
   text-align       : justify;
-  font-family      : "Helvetica Neue",
-  Helvetica,
-  sans-serif;
+  font-family: $helvetica;
   font-size        : 16px;
   direction        : ltr;
 }
@@ -309,11 +307,8 @@ h2 {
   border           : $solidBorder;
   background-color : transparent;
   text-align       : right;
-  font-family      : Verdana,
-  Geneva,
-  Arial,
-  Helvetica,
-  sans-serif;
+  font-family: $verdana;
+  
   font-size        : 85%;
   font-weight      : bold;
 }

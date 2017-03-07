@@ -533,18 +533,15 @@ nav {
 }
 
 #distroShots {
-  @include   display-flex;
-  @include   flex-wrap(wrap);
-  @include   justify-content(space-around);
   padding  : 5px;
   overflow : auto;
   border   : 2px dotted $black;
+
   .left img,
   img {
     width         : 400px;
     height        : 250px;
-    margin-top    : 7px;
-    margin-bottom : 5px;
+    @include margin(7px 0 7px 0);
     padding       : 3px;
     border        : $solidBorder;
   }
@@ -561,14 +558,14 @@ nav {
     font-weight : bold;
   }
   .SShotCol img {
-    width         : 70%;
-    height        : 90%;
+    @include size(70%, 90%);
     margin-top    : 7px;
     margin-bottom : 5px;
     border        : $solidBorder;
   }
   .headers {
-    @include           box-shadow(1px 2px 3px);
+
+    box-shadow: 1px 2px 3px;
     clear            : right;
     margin-top       : 20px;
     margin-bottom    : 10px;
@@ -630,11 +627,6 @@ nav {
 
 .mainSiteUList {
   line-height : 24px;
-}
-
-#topBody {
-  @include   display-flex;
-  @include   flex-direction(column);
 }
 
 .icon {
@@ -705,7 +697,7 @@ nav {
     font-family: $TNR;
     float: left;
     @include     single-box-shadow();
-     @include    border-radius(8px, 8px);
+    border-radius: 8px, 8px;
   }
   .dwHome {
     border    :$solidBorder;
@@ -714,9 +706,8 @@ nav {
     @include    single-box-shadow();
     width     :35%;
     font-family: $TNR;
-     @include         border-radius(8px, 8px);
+    border-radius: 8px, 8px;
     float     : right;
-
   }
   .specs
   {
@@ -729,7 +720,6 @@ nav {
   border        : $solidBorder;
 
 }
-
 
 
 /* Note: Do not remove UNTIL the remaining code is moved to custom BootStrap */
@@ -756,9 +746,7 @@ nav {
 
   .DEs img
   {
-
-    width: 40%;
-    height: 40%;
+    @include size(40%, 40%);
     padding: 15px;
     float: left;
   }
@@ -798,15 +786,13 @@ nav {
     		margin-bottom		  : 20px;
     		width			        : 85%;
      	  @include        	single-box-shadow();
-        @include   	    border-radius(8px, 8px);
+        border-radius: 8px, 8px;
      		@include        	autoMargin();
      		overflow: hidden;
 
-
      		img
      		{
-				width: 65%;
-				height: 65%;
+          @include size(65%, 65%);
      		}
      }
 
@@ -869,11 +855,10 @@ nav {
     border           : $solidBorder;
     padding          : 10px;
     @include        	single-box-shadow();
-    @include   	      border-radius(8px, 8px);
-   @include        	  autoMargin();
+    border-radius     : 8px 8px;
+   @include  autoMargin();
      clear            :  both;
-     padding-bottom: 20px;
+     padding-bottom : 20px;
 
   }
-
 }

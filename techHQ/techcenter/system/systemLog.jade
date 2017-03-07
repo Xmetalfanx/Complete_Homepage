@@ -1,0 +1,72 @@
+<?php $title = 'Xmetalfanx Maintenance Section - System Log Cleaning and Pruning'; ?>
+  
+p
+  | On a Realitive&apos;s computer running Vista, I have found over 20,000 entries in one system log, and almost 30,000 in another Log.
+  | THIS IS A MASSIVE amount of entries that are not needed. Some of them were even from over four months prior. Here, I hope to help you
+  | manage your system log as its a GREAT tool for troubleshooting, but if unmanaged, can just plan get out of hand.
+
+p
+  | If you have XP, download this program as it makes managing the log files MUCH easier
+ 
+p
+  a(href='http://www.eventlogxp.com/', target='_blank')
+    img.icon(src='/graphics/progIcons/system_tools/1833__Eventlogexplorer_icon.png', alt='Even Log Explorer')      
+    span.progName
+      | Event Log Explorer
+
+p.borderDotTop
+  | I WANT TO BE CLEAR THIS IS FOR YOUR OWN COMPUTERS ... IF IT&apos;S YOUR WORK COMPUTER AND NOT YOURS, DO NOT TRY THIS (...REALLY THE SYSTEM ADMIN SHOULD BLOCK THIS ACCESS ANYWAY) ...
+  
+p.header
+  | Saving/Clearing Log in Vista/ 7
+
+ol
+  li
+    | Go to Start and in the &quot;search box&apos; right above the start menu, start typing in &quot;eve ..&quot; and evetual &quot;Event Viewer&quot; comes up               
+    p
+      a(href='../../screenshots/System/Event_log.jpg')
+        img.imgLeftPad(src='../graphics/tn/tn_eventViewer1.jpg', alt='event_Viewer thumbnail', width='360', height='283')
+  |       
+  |     
+  li
+    | Here you see three columns ... right click the left most panel where it says &quot;Windows logs&quot;      
+    ol
+      li
+        span.boldText STEP 1:   
+        span.redBold [Optional[ Saving Application,Security, and/or System Log                    
+        ul
+          li
+            | Right Click the log you want to work on&apos;s icon in left-most panel and select &quot;Save All Events as&quot; and then select location you want to
+            | save the log file as
+      |                    
+      li
+        span.boldText STEP 2:  
+        span.redBold Clear Applications, Security, and/or System log .... 
+        
+        
+      li
+          | Select The log file you want to work with, in the left panel and right click &quot;Clear Log&quot; ... it will give you 3 options &quot;Save and Clear&quot;
+          | (you can skip saving if you did step 1, above), &quot;Clear&quot; and &quot;Cancel&quot;
+      li Here you would select Clear or Saving and Clear  
+          
+
+p.header Saving/Clearing Log in XP (and i think ELV works in Windows 2000 too)  
+
+blockquote
+  p
+    a(href='/techHQ/screenshots/System/Event_log.jpg')
+      img(src='/techHQ/screenshots/System/thumbs/tn_Event_log.jpg', width='261', height='219', alt='Event Log Viewer Screenshot')
+  
+p.header Adjusting so that logs &quot;do not get out of conttrol&quot;  
+     
+ol
+  li
+    | Right click the log you want to work with and select &quot;properties&quot;               
+    p
+      img.imgLeftPad(src='/techHQ/graphics/tn/tn_logProp.jpg', alt='Event Log Properties Screen', width='296', height='263')
+  li
+    | Lower the &quot;Maximum log size&quot; ... about 20,000KB is equal to 20 MB (I think)
+  |   
+  li
+    | You may want to reduce that number to a lower number of your choice... the system log will still function, it just will not keep as many entries,
+    | as long,  AND take up less room on your computer
