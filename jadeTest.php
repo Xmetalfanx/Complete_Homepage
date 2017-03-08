@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title> Xmetal&apos;s Homepage</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <!-- link(href='/stylesheets/layout.css', rel='stylesheet', type='text/css', media='all')-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+      <link href="/stylesheets/layout.css" rel="stylesheet" type="text/css" media="all">
+    </script>
     <!-- link(href='/stylesheets/smallerLayout.css', rel='stylesheet', type='text/css', media='(max-width: 700px)')-->
   </head>
   <body>
@@ -45,16 +46,8 @@
               <p>Feb 7 2017 Update - I have been working on the templates and converting stuff over so i can then just go into the individual pages and apply the new way I am doing things all at once.  Think of it like before I get all the furnature in and setup just right ... I have to get the framework of the house setup the way I want/need first.  </p>
             </p>
           </div>
-        </div><?php include "/modules/socialMediaIcons.tpl"; ?>
+        </div>
       </div>
-    </div>
-    <div class="container-fluid fixed-bottom">
-      <div role="footer" class="row bg-inverse">
-        <div class="col-lg-6"> <span>Validation Gif Here </span></div>
-        <div class="col-lg-6"> <span>Xmetal/Xmetalfanx 2013-*</span></div>
-      </div>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     </div>
   </body>
-</html>
+</html><?php include $sitePath . 'modules/frontFooter.php'; ?>

@@ -1,12 +1,13 @@
+@import "bourbon/bourbon";
+@import "base/base";
+
 @import '_sassHeader';
-@import 'bourbon/bourbon';
+@import 'frontFooter';
+
 
 body
 {
-    font-size: 16px;
-
     margin: 0;
-
     background-image: $beachBG2;
     background-repeat: no-repeat;
 }

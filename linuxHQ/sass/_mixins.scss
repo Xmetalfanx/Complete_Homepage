@@ -4,11 +4,9 @@
   border-radius         : $radius;
 }
 
-
 // #####################################################################
 
 // Going to try to change the Compass mixins to Bourbon Synatax
-
 @mixin autoMargin($margin-left: auto, $margin-right: auto) {
 
   @include margin(0 $margin-right 0 $margin-left);
