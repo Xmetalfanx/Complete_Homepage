@@ -10,15 +10,17 @@ html(lang="en")
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css', integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ', crossorigin='anonymous')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn', crossorigin='anonymous')
 
-     link(href='/stylesheets/layout.css', rel='stylesheet', type='text/css', media='all')
-    // link(href='/stylesheets/smallerLayout.css', rel='stylesheet', type='text/css', media='(max-width: 700px)')
+    link(href='/stylesheets/layout.css', rel='stylesheet', type='text/css', media='all')
 
   body
+    
+    <?php include $sitePath . "/modules/frontnav.php"; ?>
+    
     .container-fluid
       .row.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-12(role="Navigation")
         nav.navbar.navbar-dark.bg-inverse
           button.navbar-toggler.hidden-md-up.navbar-toggler-right(type="button", data-toggle="collapse")
-            &#9776;
+          
           a.navbar-brand(href="") Xmetal's Homepage
           .collapse.navbar-collapse#navbarNav
           
