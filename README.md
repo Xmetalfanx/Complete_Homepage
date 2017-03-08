@@ -1,14 +1,38 @@
-# Introduction
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Thanks](#thanks)
+- [Macromedia Dreamweaver Templates](#macromedia-dreamweaver-templates)
+- [Sick of Windows](#sick-of-windows)
+- [PHP Templates / SASS-SCSS](#php-templates-sass-scss)
+	- [PHP Templates - Version 1.0](#php-templates-version-10)
+	- [[SASS/SCSS](http://sass-lang.com/) for CSS Styleshets](#sassscsshttpsass-langcom-for-css-styleshets)
+- [[Compass](http://sass-lang.com/)](#compasshttpsass-langcom)
+	- [Feb/March 2017 - Where I am I now.](#febmarch-2017-where-i-am-i-now)
+		- [PHP Templates - Version 2.0](#php-templates-version-20)
+		- [Writing things in JADE first.](#writing-things-in-jade-first)
+		- [Removing Compass](#removing-compass)
+	- [This is where I am at when I am typing this, to be fair](#this-is-where-i-am-at-when-i-am-typing-this-to-be-fair)
+		- [Discovering [Bourbon](http://bourbon.io/) ,[Neat](http://neat.bourbon.io/), [Bitters](http://bitters.bourbon.io/), and [Refills](http://refills.bourbon.io/)](#discovering-bourbonhttpbourbonio-neathttpneatbourbonio-bittershttpbittersbourbonio-and-refillshttprefillsbourbonio)
+		- [Bootstrap 4 Framework](#bootstrap-4-framework)
+			- [More Framework related rambling](#more-framework-related-rambling)
+
+<!-- /TOC -->
+
+ # Introduction
 
 I plan to give a little bit of a history of how my site came to be, here
 
 I am just typing this ASAP, so please excuse the grammar for now
 
+# Thanks
+
+SO many thanks go to [Dev Tips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ), as I learned about SASS, Compass, Bourbons, Bootstrap, Foundation, Neat, Bitters, and Refills THANKS to his great videos
+
 # Macromedia Dreamweaver Templates
 
-Dreamweaver and it's templates and nested-template system to allow me to change the content though have the same header, footer, left-hand menus (this is where the submenus come in)
+Dreamweaver and it's templates and nested-template system to allow me to change the content though have the same header, footer, left-hand menus (this is where the sub-menus come in)
 
-I liked some of the checks (does X work on browsers F00 and/or BAR ... and what versions of FOO and/or BAR DOES it work on) ...... are there (thoughout the site) any dead links?... if its the same deadlink ... "do you want me ...(Dreamweaver) to correct all of those links to point to the new location of the file you specified?"
+I liked some of the checks (does X work on browsers F00 and/or BAR ... and what versions of FOO and/or BAR DOES it work on) ...... are there (throughout the site) any dead links?... if its the same dead-link ... "do you want me ...(Dreamweaver) to correct all of those links to point to the new location of the file you specified?"
 
 # Sick of Windows
 
@@ -24,7 +48,7 @@ I have no clue where I found the tutorials for PHP templates and the way I had i
 
 I also have sub-templates in a sense.
 
-Bascially there are .php files with snippets of code that I call from other files ... instead of having say each page of the site with a header ... THEN if I add or remove a menu, I have to do it on TONS AND TONS of pages ... I have one "Header.php" and I change that to make any adjustments and each "page" calls that "header.php".
+Basically there are .php files with snippets of code that I call from other files ... instead of having say each page of the site with a header ... THEN if I add or remove a menu, I have to do it on TONS AND TONS of pages ... I have one "Header.php" and I change that to make any adjustments and each "page" calls that "header.php".
 
 The only reason, that I put "version 1.0" here you will see later on.
 
@@ -72,6 +96,10 @@ I am removing/redoing Compass items as it is no longer actively developed. I ran
 
 ### Bootstrap 4 Framework
 
-Changing things to [Bootstrap 4](https://v4-alpha.getbootstrap.com/) (I know, still Alpha) .... really no reason that I didn't pick [Bootstrap 3](http://getbootstrap.com/) or [Foundation](https://foundation.zurb.com/)....I just sort of picked Bootstrap 4\.
+Changing things to [Bootstrap 4](https://v4-alpha.getbootstrap.com/) (I know, still Alpha) .... really no reason that I didn't pick [Bootstrap 3](http://getbootstrap.com/) or [Foundation](https://foundation.zurb.com/)....I just sort of picked Bootstrap 4.
+
+I want to slim my CUSTOM CSS down as much as possible without making the site feel "too templately.."... as in .. Someone else did all the styling (which I guess is true )... and have my site look like "every other" site on the Internet.
+
+#### More Framework related rambling
 
 I do plan on possibly even make a mock site or a redo of my site in a different local folder using Foundation just to learn about it and how it works and possibly change my main site to Foundation, if down the road I feel its better than Bootstrap for my needs. With Jade/Pug that shouldn't be too difficult to do at all.
