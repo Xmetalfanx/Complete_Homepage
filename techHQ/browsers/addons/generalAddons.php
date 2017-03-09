@@ -5,40 +5,54 @@
  	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
  ?>
 
-			<h2><a href="https://addons.mozilla.org/?application=firefox">Main Firefox Addon Homepage</a></h2>
-			<h3>Overall Add-on Comments</h3>
 
-			<h4>Shortcut to the Actual Addons</h4>
 
-			<p>Despite that fact that I love many of these addons,  some people may read what some of these add-ons do and they will go cross-eyed. Add-ons enhance Firefox and I have to say that the great part about Firefox, is that you don’t need any add-ons .,.. nor do you need all of these. Firefox lets you customize (even if addons are needed to do it) almost all aspects of the browser, though if you are a new user, or just do not like addon’s, leave Firefox alone without <br /> any add-ons and you will still have a great browsing experience</p>
+<h2><a href="https://addons.mozilla.org/?application=firefox">Main Firefox Addon Homepage</a></h2>
+	<h3>Overall Add-on Comments</h3>
 
-			<p>It should be noted that the more add-ons you add, the slower Firefox will take to start and in some cases operate (do anything that is) … just keep that in mind when adding … addons</p>
+		<h4>Shortcut to the Actual Addons</h4>
 
-			<p>I can not guarantee that the add-ons are working for the newest version of Firefox or that ‘new" versions (of the add-on) work with older (3.x branch or prior)
+		<p>Despite that fact that I love many of these addons,  some people may read what some of these add-ons do and they will go cross-eyed. Add-ons enhance Firefox and I have to say that the great part about Firefox, is that you don’t need any add-ons .,.. nor do you need all of these. Firefox lets you customize (even if addons are needed to do it) almost all aspects of the browser, though if you are a new user, or just do not like addon’s, leave Firefox alone without <br /> any add-ons and you will still have a great browsing experience</p>
+
+		<p>It should be noted that the more add-ons you add, the slower Firefox will take to start and in some cases operate (do anything that is) … just keep that in mind when adding … addons</p>
+
+		<p>I can not guarantee that the add-ons are working for the newest version of Firefox or that ‘new" versions (of the add-on) work with older (3.x branch or prior)
 			versions of Firefox.</p>
 
-			<p>The one major downfall for the 4.x and above Firefox "rapid release" cycle … is the fact that plugin’s who’s developers do not update them often  "break"
+		<p>The one major downfall for the 4.x and above Firefox "rapid release" cycle … is the fact that plugin’s who’s developers do not update them often  "break"
 			 … other times though .. Developers will "bump up 2 or 3 versions" (say at the time I am typing this Firefox 8 Final is the new version….</p>
 
-			<p>Roboform for example reportedly bumped up support to version 10 of Firefox) … I can not comment on the underlying code; though the add-on WOULD HAVE "supported" versions 9 and 10…. the add-on needed to be "upgraded" or "told" that it could work on the higher versions</p>
+		<p>Roboform for example reportedly bumped up support to version 10 of Firefox) … I can not comment on the underlying code; though the add-on WOULD HAVE "supported" versions 9 and 10…. the add-on needed to be "upgraded" or "told" that it could work on the higher versions</p>
 
-			<p>By the way, Add-on Compatibility Reporter (described below) can also help with this "issue"</p>
+		<p>By the way, Add-on Compatibility Reporter (described below) can also help with this "issue"</p>
 
 
 
-			<h2 id="firefox">Firefox</h2>
-			<h4 id="performance-addons">Performance Addons</h4>
-
-			<div id="browser">
+	<h2 id="firefox">Firefox</h2>
+	<h4 id="performance-addons">Performance Addons</h4>
+		  <div id="browser">
 			<ul>
 
-			  <li>
-				<div class="title">
-          <a href="http://placescleaner.googlecode.com/"> PlaceCleaner</a>
-          </div>
+	
+	
+.card.card-error
+  .card-header
+      <a href="http://placescleaner.googlecode.com/"> PlaceCleaner</a>
+  .card-block
+    p.card-text
+		Defragment your Firefox places.sqlite database to speed-up Firefox"
+			  
 
-        <p class="description">Defragment your Firefox places.sqlite database to speed-up Firefox"</p>
-			  </li>
+
+
+.card.card-error
+  .card-header
+      
+  .card-block
+    p.card-text
+    
+
+
 
 			  <li>
 				<div class="title">
@@ -81,22 +95,37 @@
 				 <div class="description">
           Makes managing and switching profiles easy … This is a little more GUI oriented, then ProfileSwitcher
          </div>
-			  </li>
-			</ul>
+		
 
 
 
-			<h4 id="http-header-related-addons">HTTP Header Related  Addons</h4>
-			<ul>
-			  <li>
-				    <div class="title">
-                <a href="http://livehttpheaders.mozdev.org/"> Live HTTP headers</a>
-            </div>
-            <div class="description">
-				        This allows you to view http header data while viewing websites</p>
+	<h4 id="http-header-related-addons">HTTP Header Related  Addons</h4>
+
+	
+	
+.card.card-error
+  .card-header
+      <a href="http://livehttpheaders.mozdev.org/"> Live HTTP headers</a>
+  .card-block
+    .card-text
+		This allows you to view http header data while viewing websites
+
+	
+            
+				        
 			      </div>
-        </li>
-			  <li>
+   
+
+
+.card.card-error
+  .card-header
+      
+  .card-block
+    p.card-text
+    
+
+
+
 				<div class="title">
         <a href="http://code.google.com/p/headertool/"> HeaderTool</a></div>
 

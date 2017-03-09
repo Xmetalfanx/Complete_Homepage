@@ -10,18 +10,17 @@
   border-collapse: collapse;
   color: black;
   font-weight: bold;
-  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
   overflow: visible;
   padding: 0;
+  margin: 0;
   text-align: left;
   width: 98%; }
 
 #programs .title img {
-  width: 32px;
   height: 32px;
+  width: 32px;
   padding-bottom: 10px; }
 #programs ul li {
   border: 2px #000000 solid;
@@ -34,8 +33,8 @@
   border-radius: 8px;
   box-shadow: 4px, 3px, 5px, black; }
 #programs img {
-  width: 32px;
   height: 32px;
+  width: 32px;
   float: left;
   padding-right: 15px; }
 #programs .description {

@@ -90,8 +90,7 @@ header {
 
 .distRevTitle {
   clear       : both;
-  padding     : 1px;
-  padding-top : 0px;
+  @include padding(1px 1px 1px 1px);
   border      : $solidBorder;
   font-size   : 20px;
   font-weight : bold;
@@ -238,8 +237,7 @@ header {
     a:link,
     a:visited {
       clear            : both;
-      margin-top       : 10px;
-      margin-bottom    : 10px;
+      @include margin(10px 0 10px 0);
       color            : $navy;
       background-color : transparent;
       font-family      : $Hevl;
@@ -347,10 +345,8 @@ header {
 .descript {
   display        : block;
   clear          : both;
-  margin-top     : 10px;
-  margin-bottom  : 10px;
-  padding-bottom : 6px;
-  padding-left   : 2px;
+  @include margin(10px 0 10px 0);
+  @include padding(0 0 6px 2px);
   border         : 1px solid $black;
   line-height    : 25px;
 }
@@ -389,10 +385,11 @@ header {
 
   font-size        : 17px;
 
-  li {
-    padding-top    : 5px;
-    padding-bottom : 2px;
+  li
+  {
+      @include padding(5px 0 2px 0);
   }
+
   li ul li {
     padding-top : 2px;
   }
@@ -451,20 +448,17 @@ header {
     padding-left : 0px;
   }
   .CodeHeader {
-    padding-top    : 0px;
-    padding-bottom : 0px;
+    @include padding(0 0 0 0);
     color          : navy;
     font-size      : 12px;
   }
   .commandTask {
-    padding-top    : 0px;
-    padding-bottom : 0px;
+    @include padding(0 0 0 0);
     font-size      : 13px;
     font-weight    : bold;
   }
   .distroName {
-    padding-top    : 0px;
-    padding-bottom : 0px;
+    @include padding(0 0 0 0);
     border-bottom  : 1px dotted $black;
     font-size      : 14px;
     font-weight    : bold;
@@ -533,8 +527,7 @@ header {
 
     box-shadow: 1px 2px 3px;
     clear            : right;
-    margin-top       : 20px;
-    margin-bottom    : 10px;
+    @include margin(20px 0 10px 0);
     border           : $solidBorder;
     background-image : url(../graphics/navbar/tan/2tan3.png);
     background-color : #ffff99;
@@ -569,13 +562,14 @@ header {
     clear      : both;
     margin-top : 10px;
   }
-  #SShotCol img {
-    width         : 70%;
-    height        : 90%;
+  #SShotCol img
+  {
+    @include size(70%, 90%);
     float         : left;
-    margin-top    : 7px;
-    margin-bottom : 5px;
+
+    @include margin(7px 0 5px 0);
   }
+
   #SShotCol a:link {
     clear : both;
   }
@@ -596,8 +590,7 @@ header {
 }
 
 .icon {
-  width  : 32px;
-  height : 32px;
+  @include size(32px, 32px);
 }
 
 #usb {
@@ -608,8 +601,8 @@ header {
   .windows {
     display         : flex;
     width           : 80%;
-    margin-top      : 10px;
-    margin-bottom   : 10px;
+
+    @include margin(10px 0 10px 0);
     border          : $solidBorder;
     flex-direction  : column;
     justify-content : center;
@@ -622,8 +615,8 @@ header {
 
 #YTReviewer {
   clear          : both;
-  padding-bottom : 10px;
-  padding-left   : 10px;
+
+  @include padding(0 0 10px 10px);
   overflow       : auto;
   border         : $solidBorder;
   line-height    : 20px;
@@ -636,10 +629,9 @@ header {
   }
 }
 
-
 .distroMainSection {
   margin-bottom : 20px;
-  padding       : 7px;
+  @include padding(7px);
   border        : $solidBorder;
   overflow	  	: auto;
 
@@ -650,17 +642,14 @@ header {
     margin-bottom : 20px;
   }
   .distroSS img {
-
     @include size(700px, 558px);
-    width         : 700px;
-    height        : 550px;
-    margin-top    : 5px;
-    margin-bottom : 5px;
+    @include margin(5px 0 5px 0);
   }
   .distroHome {
     border    : $solidBorder;
-    margin    : 20px;
-    padding   : 10px;
+    @include margin( 20px 20px 20px 20px);
+    @include padding(10px 10px 10px 10px);
+
     width     : 35%;
     font-family: $TNR;
     float: left;
@@ -669,8 +658,9 @@ header {
   }
   .dwHome {
     border    :$solidBorder;
-    padding   :10px;
-    margin    :10px;
+    @include margin(10px 10px 10px 10px);
+    @include padding(10px 10px 10px 10px);
+
     @include    single-box-shadow();
     width     :35%;
     font-family: $TNR;
@@ -686,7 +676,6 @@ header {
 .panel-default
 {
   border        : $solidBorder;
-
 }
 
 
@@ -696,7 +685,6 @@ header {
   margin-bottom : 20px;
   padding       : 7px;
   overflow		: auto;
-
 	}
 
 /* moved out of #DESection to remove need for that DIV ID */
@@ -725,26 +713,21 @@ header {
     }
 
 #top
-
 {
 	 padding                   : 10px;
    color                     : $white;
    background-color           : $arcBlack;
-    padding-bottom            : 15px;
-    padding-left              : 2%;
+   @include padding(0 0 15px 2%);
 }
 
 #TIC
 {
-
-     .TICName
-     {
+   .TICName
+  {
 		font-size: 30px;
 		margin-bottom: 10px;
 		font-weight: bold;
 	}
-
-
 
      .TICHomepage, .TICUsage, .TICSShot, .TICInstructs
     	{
@@ -763,18 +746,14 @@ header {
           @include size(65%, 65%);
      		}
      }
-
 }
 
 #AppSection
 {
-
 	h1, h2, h3, h4, h5
 	{
-		margin-top: 0px;
-
+		@include margin(0 0 0 0 );
 	}
-
 
 	h1
 	{
@@ -822,12 +801,10 @@ header {
     border           : $solidBorder;
     padding          : 10px;
     @include        	single-box-shadow();
-    
     border-radius     : 8px 8px;
 
     @include  autoMargin();
      clear            :  both;
      padding-bottom : 20px;
-
   }
 }
