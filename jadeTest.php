@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php $sitePath="http://xmetal.x10.mx"; ?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,19 +7,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link href="/stylesheets/layout.css" rel="stylesheet" type="text/css" media="all">
   </head>
-  <body><?php include $sitePath . "/modules/frontnav.php"; ?>
-    <div class="container-fluid">
-      <div role="Navigation" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <nav class="navbar navbar-dark bg-inverse">
-          <button type="button" data-toggle="collapse" class="navbar-toggler hidden-md-up navbar-toggler-right"></button><a href="" class="navbar-brand">Xmetal's Homepage</a>
-          <div id="navbarNav" class="collapse navbar-collapse"></div>
-          <ul class="nav">navbar-nav  
-            <li class="nav-item"><a href="" class="nav-link">Linux HQ </a></li>
-            <li class="nav-item"><a href="" class="nav-link">Tech HQ </a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
+  <body><?php include $sitePath . "/modules/frontnav.php"; ?
     <div class="container">  
       <div class="row">
         <div class="card hidden-md-down">

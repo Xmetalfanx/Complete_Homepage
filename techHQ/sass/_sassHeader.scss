@@ -1,63 +1,12 @@
-@import "_mixins";
-@import "_images";
-
 $defaultHShadow: 4px;
 $defaultVShadow: 3px;
 $defaultDepth: 5px;
-$defaultShadowColor: rgb(0, 0, 0);
-
-
-/* Border variables */
-$solidBorder: 1px solid rgba(0, 0, 0, 1);
-$dottedBorder: 1px dotted rgba(0, 0, 0, 1);
-
-/* Colors */
-$green							: #006400;
-$black							: rgba(0, 0, 0, 1);
-$white							: rgba(255, 255, 255, 1);
-$lightMaroon				: rgb(153, 0, 0);
-$maroon							: rgb(102, 0, 0);
-$darkGreen					: rgb( 0, 153, 0);
-$red								: rgb( 255, 0, 0);
-$tanL								: rgb( 255, 250, 205);
-$tanD								: rgb( 238, 233, 191);
-$navy								: rgb( 0, 0, 128);
-$midnightBlue				: rgb( 25, 25, 112);
-$yellow							: #ffff00;
-$darkGray						: #323232;
-
-/* new Scheme test */
-$schemeTan          : rgb(255, 246, 215);
-$schemeGreen        : rgb(40, 48, 24);
-$schemeRed          : #330000;
-
 
 /* Fonts */
-$Verdana          : 	Verdana, Geneva, Arial, Helvetica, sans-serif;
 $TNR              :  	"Times New Roman", Times, serif;
 $SegoeUI          : 	"Segoe UI",Arial,Helvetica,sans-serif;
 $Courier          : 	"Courier New", Courier, monospace;
-$Hevl             : 	"Helvetica Neue",Helvetica,sans-serif;
 $MSSans           : 	"MS Sans Serif", Geneva, sans-serif;
 $SegoeUI          :	 "Segoe UI", Arial, Helvetica, sans-serif;
 $Tahoma           : 	Tahoma, Verdana, Segoe, sans-serif;
 $Arial            : 	Arial, Helvetica, san-serif;
-
-
-/* Images */
-$tanImage1: url(/techHQ/graphics/navbar_trials/tan/tan1.jpg);
-$tanImage3: url(/techHQ/graphics/navbar_trials/tan/tan3.jpg);
-
-$blackNav:	url(/techHQ/graphics/navbar/black.jpg);
-
-$christmasBG1: url(/linuxHQ/graphics/bg/01451_majesty_1920x1200.jpg);
-$christmasBG2: url(/linuxHQ/graphics/bg/Christmas-Wallpaper-Hd-14.jpg);
-$christmasBG3: url(/linuxHQ/graphics/bg/Christmas-Wallpaper-Hd-05.jpg);
-
-$christmasGreen: url(/linuxHQ/graphics/navbar/christmas/darkgreen3.gif);
-$bg1: url(/graphics/bg/BeachHotel1.jpg);
-$bg2: url(/graphics/bg/bixbybridgehazydusk.jpg);
-
-
-
-$blackNav: url(/techHQ/graphics/navbar/black.jpg);

@@ -1,6 +1,0 @@
-[07-Mar-2017 20:49:37 America/New_York] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/xmetalx1/public_html/index.php on line 13
-[07-Mar-2017 20:49:37 America/New_York] PHP Warning:  include(http://xmetal.x10.mx/modules/frontHeader.php): failed to open stream: no suitable wrapper could be found in /home/xmetalx1/public_html/index.php on line 13
-[07-Mar-2017 20:49:37 America/New_York] PHP Warning:  include(): Failed opening 'http://xmetal.x10.mx/modules/frontHeader.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/index.php on line 13
-[07-Mar-2017 20:49:37 America/New_York] PHP Warning:  include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/xmetalx1/public_html/index.php on line 44
-[07-Mar-2017 20:49:37 America/New_York] PHP Warning:  include(http://xmetal.x10.mxmodules/frontFooter.php): failed to open stream: no suitable wrapper could be found in /home/xmetalx1/public_html/index.php on line 44
-[07-Mar-2017 20:49:37 America/New_York] PHP Warning:  include(): Failed opening 'http://xmetal.x10.mxmodules/frontFooter.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/index.php on line 44

@@ -1,4 +1,5 @@
 //output:jadeTest.php
+<?php $sitePath="http://xmetal.x10.mx"; ?>
 
 doctype html
 html(lang="en")
@@ -14,21 +15,7 @@ html(lang="en")
 
   body
     
-    <?php include $sitePath . "/modules/frontnav.php"; ?>
-    
-    .container-fluid
-      .row.col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-12(role="Navigation")
-        nav.navbar.navbar-dark.bg-inverse
-          button.navbar-toggler.hidden-md-up.navbar-toggler-right(type="button", data-toggle="collapse")
-          
-          a.navbar-brand(href="") Xmetal's Homepage
-          .collapse.navbar-collapse#navbarNav
-          
-          ul.nav navbar-nav  
-            li.nav-item
-              a.nav-link(href="") Linux HQ 
-            li.nav-item
-              a.nav-link(href="") Tech HQ 
+    <?php include $sitePath . "/modules/frontnav.php"; ?
               
     .container   
       .row

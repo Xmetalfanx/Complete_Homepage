@@ -1,7 +1,5 @@
-@import "_mixins";
-@import "_images";
 @import "2-variables/variables-dir";
 
 /* Border variables */
-$solidBorder: 1px solid rgba(0, 0, 0, 1);
-$dottedBorder: 1px dotted rgba(0, 0, 0, 1);
+$solidBorder: 1px solid $black;
+$dottedBorder: 1px dotted $black;

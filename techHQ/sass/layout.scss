@@ -1,5 +1,5 @@
+@import "includes";
 @import "_sassHeader";
-@import '01-plugins/plugins-dir';
 
 #body,
 body {
@@ -24,7 +24,7 @@ Description does not Run Too long
 */
 
 .UpdateSummary {
-  box-shadow: 4px 3px 5px rgba(0, 0, 0, 1);
+  box-shadow: 4px 3px 5px $black;
 
   border-radius: 8px;
   clear            : right;
@@ -39,9 +39,6 @@ Description does not Run Too long
   font-size        : 16px;
   font-weight      : bold;
 }
-
-
-
 
 
 #mainBody {
@@ -59,7 +56,6 @@ Description does not Run Too long
 
   }
 
-
   a:link {
     color            : #000099;
     background-color : transparent;
@@ -72,10 +68,7 @@ Description does not Run Too long
     border-bottom-width : 1px;
     border-bottom-style : dotted;
     background-color    : transparent;
-    font-family         : "Segoe UI",
-    "Courier New",
-    Courier,
-    monospace;
+    font-family         : $SegoeUI;
     font-size           : 13px;
   }
 

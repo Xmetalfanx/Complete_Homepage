@@ -1,73 +1,185 @@
-/*
-Error: Undefined mixin 'align-content'.
-        on line 86 of sass/layoutMed.scss, in `align-content'
-        from line 86 of sass/layoutMed.scss
+/* Images */
+/* Colors */
+/* new Scheme test */
+/* Images */
+/* Colors */
+/* new Scheme test */
+/* Border variables */
+/* Fonts */
+body {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  min-height: 100%;
+  width: 99%; }
 
-81: 
-82: #col2 {
-83: 
-84: 	padding-left: 20px;
-85: 	/* text-align: justify; *\/
-86:   @include align-content(space-between);
-87: }
-88: 
-89: .distroTitle{
-90: 	font-size: 24px;
-91: }
+footer {
+  font-size: 15px; }
 
-Backtrace:
-sass/layoutMed.scss:86:in `align-content'
-sass/layoutMed.scss:86
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `with_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/var/lib/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'align-content'.\A         on line 86 of sass/layoutMed.scss, in `align-content'\A         from line 86 of sass/layoutMed.scss\A \A 81: \A 82: #col2 {\A 83: \A 84: 	padding-left: 20px;\A 85: 	/* text-align: justify; */\A 86:   @include align-content(space-between);\A 87: }\A 88: \A 89: .distroTitle{\A 90: 	font-size: 24px;\A 91: }"; }
+nav {
+  list-style-type: none;
+  order: 1; }
+  nav a:link, nav a:visited {
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 2%;
+    text-decoration: none;
+    display: block; }
+
+.distroTitle {
+  font-size: 24px; }
+
+.icon img {
+  float: left;
+  clear: both; }
+
+#distroTables .distroHeader {
+  border: 1px solid black;
+  font-weight: bold;
+  clear: right;
+  padding: 2px;
+  margin-top: 3px;
+  margin-bottom: 3px; }
+#distroTables .infoLeft {
+  word-wrap: break-word; }
+#distroTables .infoRight {
+  word-wrap: break-word;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+#distroTables .distRevTitle {
+  text-decoration: underline;
+  font-weight: bold;
+  background-image: url(../graphics/navbar/tan/2tan3.png);
+  font-size: 16px;
+  border: 1px solid black;
+  clear: both;
+  margin-bottom: 4px; }
+#distroTables .wide {
+  /* border-bottom: 1px solid rgb(0, 0, 0); */
+  border-top: 1px dotted black;
+  clear: both;
+  width: 99%;
+  margin-top: 5px;
+  padding-top: 5px; }
+#distroTables a:link {
+  font-family: Arial, Helvetica, san-serif; }
+#distroTables .distReview {
+  clear: none;
+  color: black;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  border: 1px dotted black;
+  word-wrap: break-word;
+  font-size: 15px; }
+#distroTables #descript {
+  margin-top: 10px;
+  clear: both;
+  border: 1px solid black;
+  text-align: justify;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 2% 10px 2px 2px; }
+#distroTables .distroSshot {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  width: 98%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 2px;
+  border: 1px solid black; }
+
+.justified {
+  text-align: justify; }
+
+#distros {
+  overflow: auto;
+  clear: both; }
+  #distros .distroHeader {
+    border: 1px solid black;
+    font-weight: bold;
+    background-image: url(/techHQ/graphics/navbar/tan/2tan3.png);
+    clear: right; }
+  #distros .infoLeft {
+    padding-right: 5px;
+    clear: right;
+    width: 50%;
+    max-width: 50%;
+    float: left; }
+  #distros .infoRight {
+    padding-right: 10px;
+    width: 50%;
+    margin-top: 10px;
+    float: right; }
+
+#mainBody, #mainBodyw {
+  font-size: 18px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+#mainBody .ExpTitle {
+  color: red;
+  font-weight: bold;
+  margin-right: 25px; }
+
+.terms {
+  color: blue;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: italic; }
+
+.bottomBorderDotted {
+  border-bottom: 1px dotted black; }
+
+#mainBody .content {
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 0px;
+  margin-bottom: 0px; }
+
+#distroTables #personalExp {
+  width: 96%;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  border: 1px dotted black;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  text-align: justify; }
+#distroTables #personalExp blockquote {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "MS Sans Serif", Geneva, sans-serif; }
+
+#distrowatch, #valIcons, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header, .DEs img {
+  display: none; }
+
+#socialIcons {
+  float: right;
+  clear: left; }
+
+#DESection .DEs {
+  font-size: 14px; }
+
+#DE #infoCol {
+  width: auto; }
+
+.distroSS {
+  display: none; }
+
+#top {
+  position: relative;
+  padding: 0px;
+  transform: none; }
+
+#distroMainSection .distroName {
+  margin-bottom: 0px; }
+  #distroMainSection .distroName img {
+    height: 40px;
+    width: 40px; }
+
+/*# sourceMappingURL=layoutMed.css.map */

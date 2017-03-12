@@ -27,8 +27,7 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=99;HTML;0;EUTF-8;1;1;0;%2Fmedia%2Fxmetal%2Fpersonal%2FHomepage%2FtechHQ%2Fmodules%2FtechPersonalCol1.jade;0;4
+current_page=-1
 
 [VTE]
 last_dir=/home/xmetal

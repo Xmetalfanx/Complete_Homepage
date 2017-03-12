@@ -1,31 +1,11 @@
-@import "bourbon/bourbon";
-@import "_mixins";
-@import "_images";
+@import "01-plugins/plugins-dir.scss";
+@import "03-variables/variables-dir.scss";
 
 
 /* Border variables */
 $solidBorder: 1px solid rgba(0, 0, 0, 1);
 $dottedBorder: 1px dotted rgba(0, 0, 0, 1);
 
-/* Colors */
-$green: #006400;
-$black: rgba(0, 0, 0, 1);
-$white: rgba(255, 255, 255, 1);
-$lightMaroon: rgb(153, 0, 0);
-$maroon: rgb(102, 0, 0);
-$darkGreen: rgb( 0, 153, 0);
-$red: rgb( 255, 0, 0);
-$tanL: rgb( 255, 250, 205);
-$tanD: rgb( 238, 233, 191);
-$navy: rgb( 0, 0, 128);
-$midnightBlue: ( 25, 25, 112);
-$arcBlack:  #323232;
-
-
-/* new Scheme test */
-$schemeTan: rgb(255, 246, 215);
-$schemeGreen: rgb(40, 48, 24);
-$schemeRed: rgb(51,0,0);
 
 /* Fonts */
 $Verdana: Verdana, Geneva, Arial, Helvetica, sans-serif;

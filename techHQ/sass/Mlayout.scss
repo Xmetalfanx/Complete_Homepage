@@ -1,22 +1,13 @@
+@import "includes";
 @import "sassHeader";
-
-/* UpdateSummary is intended to Give a short Update so the main page's Description does not Run Too long */
-.UpdateSummary{
-
-	color: $maroon;
-	margin-bottom: 1px;
-}
 
 
 #mainBody
 {
-	color: rgb(153, 0, 0);
 	margin-bottom: 0px;
-	padding-bottom: 0;
-	/* padding-left: 7px; */
-	padding-top: 5px;
 	vertical-align: top;
 	z-index: 99;
 
+	@include padding(5px null 0 null);
 
 }
