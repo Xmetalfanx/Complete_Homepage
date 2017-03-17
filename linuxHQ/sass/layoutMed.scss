@@ -52,8 +52,8 @@ nav {
 
 			clear: right;
 			padding: 2px;
-			margin-top: 3px;
-			margin-bottom: 3px;
+
+			@include margin(3px null 3px null);
 		}
 
 		.infoLeft
@@ -115,7 +115,8 @@ nav {
 			border: $solidBorder;
 			text-align: justify;
 			line-height: 25px;
-			font-family: $Verdana;
+			font-family: $verdana;
+
 			font-size: 14px;
 			@include padding(2% 10px 2px 2px);
 
@@ -203,15 +204,6 @@ nav {
 	border-bottom: $dottedBorder;
 }
 
-#mainBody .content
-{
-	padding-left: 1%;
-	padding-right: 1%;
-	margin-left: 0px;
-	margin-bottom: 0px;
-
-}
-
 #distroTables
 {
 
@@ -237,10 +229,12 @@ nav {
 
 }
 
-#distrowatch, #valIcons, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header, .DEs img
+// Use Bootstrap to do this in the future
+#distrowatch, #valIcons, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header, .DEs img, .distroSS
 {
 	display: none;
 }
+
 
 #socialIcons
 {
@@ -266,9 +260,7 @@ nav {
 
 
 
-.distroSS {
-	display: none;
-}
+
 
 #top
 {

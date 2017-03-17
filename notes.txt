@@ -4,17 +4,24 @@
 // Optional theme for bootstrap
 // link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp', crossorigin='anonymous')
 
-
+-----------------------------------------------------
 
 link(rel="stylesheet",href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css")
 
 script(src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js")
 
-
-navbarSupportedConten
-
-
-
+----------------------------------------------------------------------------------------
 bs 4
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+-------------------------------------------------------------
+
+for main Menus
+
+color: white
+text-shadow: 1px 1px 5px black;
+background-color: transparent;
+font size: 40px;
+font-weight: bold;
+letter-spacing: 2px; 

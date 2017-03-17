@@ -1,5 +1,4 @@
 @import "includes";
-
 @import "_sassHeader";
 
 
@@ -11,10 +10,8 @@ a:link {
 body {
   color                 : $white;
   overflow              : auto;
-  background-color      : $arcBlack;
-  background-repeat     : no-repeat;
-  background-attachment : fixed;
-  background-position   : top center;
+
+
   letter-spacing        : 0px;
   @include        NoMargin();
 
@@ -24,17 +21,6 @@ body {
 
 }
 
-header {
-
-  color            : $white;
-  background-color : transparent;
-  text-shadow      : 1px 1px 5px rgba(0, 0, 0, 0.85);
-  font-family      : $SegoeUI;
-  font-size        : 40px;
-  font-weight      : bold;
-  letter-spacing   : 2px;
-  float			       :  left;
-}
 
 
 .bold {
@@ -81,7 +67,8 @@ header {
   @include padding(2px 2px null 5px);
 
   color         : $black;
-  @include border(1px solid #000000);
+
+  border       : 1px solid #000000;
   text-align    : left;
   font-family   : $Courier;
   line-height   : 25px;
@@ -89,11 +76,13 @@ header {
 
 .distRevTitle {
   clear       : both;
+
   @include padding(1px 1px 1px 1px);
+
   border      : $solidBorder;
   font-size   : 20px;
   font-weight : bold;
-    /*background-image: $tanImage2;*/
+
 }
 
 .distroHeader {
@@ -109,16 +98,17 @@ header {
   width          : 98%;
   margin-top     : 30px;
   margin-bottom  : 2px;
-  padding-top    : 3px;
-  padding-bottom : 3px;
+
+  @include padding(3px null 3px null);
   border         : $solidBorder;
   text-align     : center;
 }
 
 .distroTitle {
   display          : block;
-  width            : 70%;
-  height           : 70px;
+
+  @include size(70%, 70px);
+
   margin-bottom    : 20px;
   color            : $black;
   background-color : $white;
@@ -201,108 +191,7 @@ header {
   order            : 6;
 }
 
-#col1 {
-  z-index          : 1000;
-  width            : 18%;
-  float            : left;
 
-  @include margin (0 0 0 0);
-
-  padding-left     : 0px;
-  color            : $black;
-  border           : $solidBorder;
-  background-color : rgba(255, 255, 255, .85);
-  order            : 4;
-  overflow		 : hidden;
-  padding-right: 0px;
-
-
-
-  .family {
-    display          : block;
-
-    margin-top       : 0px;
-    padding-bottom   : 10px;
-    padding-left     : 20px;
-    color            : $black;
-    background-color : rgb(255, 255, 227);
-    font-size        : 14px;
-    font-weight      : bold;
-    line-height      : 20px;
-    font-family       :   $Hevl;
-        /*font-family: $SegoeUI*/
-
-    a:link,
-    a:visited {
-      clear            : both;
-      @include margin(10px 0 10px 0);
-      color            : $navy;
-      background-color : transparent;
-      font-family      : $Hevl;
-      font-weight      : bold;
-    }
-  }
-
-  .familyHeader {
-    box-shadow       : 1px 2px 3px;
-
-    padding          : 2px;
-    color            : rgb(255, 255, 102);
-    overflow         : visible;
-    border           : $solidBorder;
-    background-color : #000055;
-    text-align       : left;
-    text-decoration  : none;
-    font-family      : $SegoeUI;
-    font-size        : 14px;
-    font-weight      : bold;
-
-  }
-  li,
-  ul li {
-    padding-left     : 1px;
-    color            : $black;
-    background-color : $white;
-  }
-  .indent {
-    margin-left : 10px;
-  }
-}
-
-#col2 {
-    /*text-align: justify;*/
-  z-index          : 1000;
-  width            : 80%;
-  float            : right;
-  margin-left      : 1%;
-  padding-right    : 10px;
-  color            : $black;
-  background-color : rgba(255, 255, 255, .85);
-  font-family      : Arial,
-                     san-serif;
-  font-family      : $Hevl;
-  justify-content  : space-between;
-  order            : 5;
-
-  h5 {
-    margin-bottom : 10px;
-  }
-  pre {
-    margin  : 0px;
-    padding : 0px;
-  }
-  code {
-    display          : block;
-
-    @include padding(4px null 2px 3px);
-
-    color            : $white;
-    background-color : $black;
-  }
-  p {
-    color : $black;
-  }
-}
 
 #distroTables {
     /*border: $solidBorder;*/
@@ -435,9 +324,7 @@ header {
     padding-bottom   : 0px;
     color            : $black;
     background-color : transparent;
-    font-family      : "Courier New",
-                       Courier,
-                       monospace;
+    font-family      : $Courier;
     font-size        : 14px;
     font-weight      : normal;
   }
@@ -486,7 +373,7 @@ header {
 
 #mainBody .ExpTitle {
   margin-right : 25px;
-  color        : #FF0000;
+  color        : rgb(255, 0, 0);
   font-weight  : bold;
 }
 
@@ -573,15 +460,7 @@ header {
   }
 }
 
-.boldCenter {
-  text-align  : center;
-  font-weight : bold;
-}
 
-.boldItalics {
-  font-style  : italic;
-  font-weight : bold;
-}
 
 .mainSiteUList {
   line-height : 24px;
@@ -710,8 +589,8 @@ header {
 #top
 {
 	 padding                   : 10px;
-   color                     : $white;
-   background-color           : $arcBlack;
+   color                     : rgb(255, 255, 255);
+   background-color           : rgb(50, 50, 50);
    @include padding(0 0 15px 2%);
 }
 
@@ -765,15 +644,12 @@ header {
 
 	h3
 	{
-		margin-left: 15px;
-		margin-bottom: 15px;
+    @include margin(null null 15px 15px);
 	}
 
 	h4
 	{
-		margin-left: 15px;
-		margin-bottom: 0px;
-
+    @include margin(null null 0 15px);
 	}
 
 	h5
@@ -795,6 +671,7 @@ header {
   {
     border           : $solidBorder;
     padding          : 10px;
+    font-family       : $Courier;
     @include        	single-box-shadow();
     border-radius     : 8px 8px;
 

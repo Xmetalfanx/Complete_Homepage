@@ -1,185 +1,81 @@
-/* Images */
-/* Colors */
-/* new Scheme test */
-/* Images */
-/* Colors */
-/* new Scheme test */
-/* Border variables */
-/* Fonts */
-body {
-  color: white;
-  font-size: 13px;
-  letter-spacing: 0px;
-  margin-top: 0px;
-  min-height: 100%;
-  width: 99%; }
+/*
+Error: Undefined variable: "$verdana".
+        on line 118 of sass/layoutMed.scss
 
-footer {
-  font-size: 15px; }
+113: 			margin-top: 10px;
+114: 			clear: both;
+115: 			border: $solidBorder;
+116: 			text-align: justify;
+117: 			line-height: 25px;
+118: 			font-family: $verdana;
+119: 
+120: 			font-size: 14px;
+121: 			@include padding(2% 10px 2px 2px);
+122: 
+123: 		}
 
-nav {
-  list-style-type: none;
-  order: 1; }
-  nav a:link, nav a:visited {
-    font-size: 15px;
-    text-align: center;
-    padding-bottom: 2%;
-    text-decoration: none;
-    display: block; }
-
-.distroTitle {
-  font-size: 24px; }
-
-.icon img {
-  float: left;
-  clear: both; }
-
-#distroTables .distroHeader {
-  border: 1px solid black;
-  font-weight: bold;
-  clear: right;
-  padding: 2px;
-  margin-top: 3px;
-  margin-bottom: 3px; }
-#distroTables .infoLeft {
-  word-wrap: break-word; }
-#distroTables .infoRight {
-  word-wrap: break-word;
-  margin-top: 5px;
-  margin-bottom: 5px; }
-#distroTables .distRevTitle {
-  text-decoration: underline;
-  font-weight: bold;
-  background-image: url(../graphics/navbar/tan/2tan3.png);
-  font-size: 16px;
-  border: 1px solid black;
-  clear: both;
-  margin-bottom: 4px; }
-#distroTables .wide {
-  /* border-bottom: 1px solid rgb(0, 0, 0); */
-  border-top: 1px dotted black;
-  clear: both;
-  width: 99%;
-  margin-top: 5px;
-  padding-top: 5px; }
-#distroTables a:link {
-  font-family: Arial, Helvetica, san-serif; }
-#distroTables .distReview {
-  clear: none;
-  color: black;
-  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
-  text-align: left;
-  margin: 0 auto;
-  border: 1px dotted black;
-  word-wrap: break-word;
-  font-size: 15px; }
-#distroTables #descript {
-  margin-top: 10px;
-  clear: both;
-  border: 1px solid black;
-  text-align: justify;
-  line-height: 25px;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding: 2% 10px 2px 2px; }
-#distroTables .distroSshot {
-  margin: 0 auto;
-  margin-top: 30px;
-  text-align: center;
-  width: 98%;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  margin-bottom: 2px;
-  border: 1px solid black; }
-
-.justified {
-  text-align: justify; }
-
-#distros {
-  overflow: auto;
-  clear: both; }
-  #distros .distroHeader {
-    border: 1px solid black;
-    font-weight: bold;
-    background-image: url(/techHQ/graphics/navbar/tan/2tan3.png);
-    clear: right; }
-  #distros .infoLeft {
-    padding-right: 5px;
-    clear: right;
-    width: 50%;
-    max-width: 50%;
-    float: left; }
-  #distros .infoRight {
-    padding-right: 10px;
-    width: 50%;
-    margin-top: 10px;
-    float: right; }
-
-#mainBody, #mainBodyw {
-  font-size: 18px;
-  padding-right: 15px;
-  padding-left: 15px; }
-
-#mainBody .ExpTitle {
-  color: red;
-  font-weight: bold;
-  margin-right: 25px; }
-
-.terms {
-  color: blue;
-  background-color: transparent;
-  font-weight: bold;
-  font-style: italic; }
-
-.bottomBorderDotted {
-  border-bottom: 1px dotted black; }
-
-#mainBody .content {
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-left: 0px;
-  margin-bottom: 0px; }
-
-#distroTables #personalExp {
-  width: 96%;
-  margin: 0 auto;
-  margin-top: 15px;
-  background-color: white;
-  color: black;
-  border: 1px dotted black;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  text-align: justify; }
-#distroTables #personalExp blockquote {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-family: "MS Sans Serif", Geneva, sans-serif; }
-
-#distrowatch, #valIcons, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header, .DEs img {
-  display: none; }
-
-#socialIcons {
-  float: right;
-  clear: left; }
-
-#DESection .DEs {
-  font-size: 14px; }
-
-#DE #infoCol {
-  width: auto; }
-
-.distroSS {
-  display: none; }
-
-#top {
-  position: relative;
-  padding: 0px;
-  transform: none; }
-
-#distroMainSection .distroName {
-  margin-bottom: 0px; }
-  #distroMainSection .distroName img {
-    height: 40px;
-    width: 40px; }
-
-/*# sourceMappingURL=layoutMed.css.map */
+Backtrace:
+sass/layoutMed.scss:118
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `map'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/usr/lib64/ruby/gems/2.2.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$verdana\".\A         on line 118 of sass/layoutMed.scss\A \A 113: 			margin-top: 10px;\A 114: 			clear: both;\A 115: 			border: $solidBorder;\A 116: 			text-align: justify;\A 117: 			line-height: 25px;\A 118: 			font-family: $verdana;\A 119: \A 120: 			font-size: 14px;\A 121: 			@include padding(2% 10px 2px 2px);\A 122: \A 123: 		}"; }
