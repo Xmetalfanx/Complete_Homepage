@@ -1,0 +1,25 @@
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.4);
+  max-width: 500px;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px; }
+
+footer {
+  bottom: 0;
+  position: absolute;
+  background-color: #333333;
+  color: white; }
+  footer .footer2 {
+    background-color: #333333; }
+
+header .navigation-wrapper .logo a:link {
+  color: white;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black; }
+header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
+  font-size: 20px;
+  font-weight: normal; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,12 +1,3 @@
-$defaultHShadow: 4px;
-$defaultVShadow: 3px;
-$defaultDepth: 5px;
-
-/* Fonts */
-$TNR              :  	"Times New Roman", Times, serif;
-$SegoeUI          : 	"Segoe UI",Arial,Helvetica,sans-serif;
-$Courier          : 	"Courier New", Courier, monospace;
-$MSSans           : 	"MS Sans Serif", Geneva, sans-serif;
-$SegoeUI          :	 "Segoe UI", Arial, Helvetica, sans-serif;
-$Tahoma           : 	Tahoma, Verdana, Segoe, sans-serif;
-$Arial            : 	Arial, Helvetica, san-serif;
+/* Border variables */
+$solidBorder: 1px solid $black;
+$dottedBorder: 1px dotted $black;

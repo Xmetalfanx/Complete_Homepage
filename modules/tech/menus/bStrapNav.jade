@@ -1,19 +1,18 @@
 //output:bStrapNav.html
-
-nav.navbar.navbar-static-top.bg-inverse
-    .navbar-header.hidden-md-down
-      .col-lg-6
-        a.navbar-brand(href='#') Xmetal&apos;s Homepage 
-      .col-lg-6
-        nav.nav.hidden-md-down.justify-content-end
+          
+header.navigation
+  .navigation-wrapper
+    a.logo.hidden-md-down(href='http://xmetal.x10.mx/techHQ/index.php') Tech HQ
+    |     
+    a#js-mobile-menu.navigation-menu-button(href='http://xmetal.x10.mx/techHQ/index.php') Tech HQ
+    |     
+    nav
+      ul#js-navigation-menu.navigation-menu.show
+        li.nav-link
           a.nav-link(href='/techHQ/software/softwareIndex.php', accesskey='1') Software
+        li.nav-link
           a.nav-link(href='/techHQ/techcenter/techCenterIndex.php', accesskey='2') Tech Center ( Tips/Tutorials )
+        li.nav-link
           a.nav-link(href='/techHQ/browsers/browserIndex.php', accesskey='3') Web Browser 
-          a.nav-link(href='/techHQ/security/securityIndex.php', accesskey='4') Security 
-        .dropdown-divider.hidden-md-up 
-        .dropdown-menu.hidden-md-up Bleh 
-          a.dropdown-item(href="/techHQ/software/softwareIndex.php") Software
-          a.dropdown-item(href="/techHQ/techcenter/techCenterIndex.php") Tech Center ( Tips/Tutorials )
-          a.dropdown-item(href="/techHQ/browsers/browserIndex.php") Web Browser
-          a.dropdown-item(href="/techHQ/security/securityIndex.php") Security
-      
+        li.nav-link
+          a.nav-link(href='/techHQ/security/securityIndex.php', accesskey='4') Security

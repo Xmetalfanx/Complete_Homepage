@@ -1,0 +1,3 @@
+
+[16-Mar-2017 21:45:34 America/New_York] PHP Warning:  include(/home/xmetalx1/public_html/scripts/nav.js): failed to open stream: No such file or directory in /home/xmetalx1/public_html/techHQ/index.php on line 6
+[16-Mar-2017 21:45:34 America/New_York] PHP Warning:  include(): Failed opening '/home/xmetalx1/public_html/scripts/nav.js' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/techHQ/index.php on line 6

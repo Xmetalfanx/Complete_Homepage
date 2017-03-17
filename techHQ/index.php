@@ -2,7 +2,9 @@
 
     $the_title = 'Xmetalfanxs Homepage';
     $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/scripts/nav.js";
     include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+
 
 ?>
 

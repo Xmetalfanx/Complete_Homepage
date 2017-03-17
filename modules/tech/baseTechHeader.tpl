@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><?php echo $the_title; ?></title>
+  <title><?php echo $completeTitle; ?></title>
   <meta name="Description" content="Xmetafanx's Homepage is a site that can help you with Computer Problem, File Sharing News, Computer FAQ's, Security Information, Antivirus and Spyware Removal, and much much more..">
   <!-- Various Meta Tags-->
   <meta name="robots" content="index,follow,noodp">
@@ -15,16 +15,18 @@
   <link rel="index" href="/index.php">
   <link rel="home" href="/index.php">
   <!-- Bootstrap 4 -->
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script scr="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Link to My External Style Sheet-->
-  <link href="/techHQ/stylesheets/startPageBox.css" rel="stylesheet" type="text/css">
-  <link href="/techHQ/stylesheets/GAOTD.css" rel="stylesheet" type="text/css">
-
+  <link href="/techHQ/stylesheets/layout.css" rel="stylesheet" type="text/css">
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 </head>
 <body>
 
   <?php include $sitePath . "/modules/tech/menus/bStrapNav.tpl"; ?>
+
 <!-- Remember to remove the closeing DIV when this jade is outputted -->
 <div id="mainBody">
