@@ -1,46 +1,8 @@
 @import "includes";
 @import "_sassHeader";
 
-body {
-	color: $white;
-	font-size: 13px;
-	letter-spacing: 0px;
-	margin-top: 0px;
-	min-height: 100%;
-	width: 99%;
-}
-
-footer {
-
-	font-size: 15px;
-}
-
-nav {
-
-	list-style-type: none;
-
-	order: 1;
-
-			a:link, a:visited
-			{
-				font-size: 15px;
-				text-align: center;
-				padding-bottom: 2%;
-				text-decoration: none;
-				display: block;
-			}
-
-}
-
-
 .distroTitle{
 	font-size: 24px;
-}
-
-.icon img
-{
-	float: left;
-	clear: both;
 }
 
 #distroTables
@@ -54,17 +16,6 @@ nav {
 			padding: 2px;
 
 			@include margin(3px null 3px null);
-		}
-
-		.infoLeft
-		{
-			word-wrap: break-word;
-		}
-
-		.infoRight
-		{
-			word-wrap: break-word;
-			@include margin(5px null 5px null);;
 		}
 
 		.distRevTitle
@@ -115,7 +66,8 @@ nav {
 			border: $solidBorder;
 			text-align: justify;
 			line-height: 25px;
-			font-family: $verdana;
+			font-family: $font-stack-verdana;
+
 
 			font-size: 14px;
 			@include padding(2% 10px 2px 2px);
@@ -156,47 +108,9 @@ nav {
 			clear: right;
 		}
 
-		 .infoLeft
-		{
-			padding-right: 5px;
-			clear: right;
-			width: 50%;
-
-			max-width: 50%;
-			float: left;
-		}
-
-		.infoRight
-		{
-			padding-right: 10px;
-			width: 50%;
-			margin-top: 10px;
-			float: right;
-		}
-
-}
-
-#mainBody, #mainBodyw
-{
-	font-size: 18px;
-	@include padding(null 15px null 15px);
-}
-
-#mainBody .ExpTitle
-{
-	color: $red;
-	font-weight: bold;
-	margin-right: 25px;
 }
 
 
-.terms
-{
-	color: $blue;
-	background-color: transparent;
-	font-weight: bold;
-	font-style: italic;
-}
 
 .bottomBorderDotted
 
@@ -230,7 +144,7 @@ nav {
 }
 
 // Use Bootstrap to do this in the future
-#distrowatch, #valIcons, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header, .DEs img, .distroSS
+#distrowatch, #distroShots, #linuxAboutMe, #DE #SShotCol img, #SShotCol, header, .DEs img, .distroSS
 {
 	display: none;
 }

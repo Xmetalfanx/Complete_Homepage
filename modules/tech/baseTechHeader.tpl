@@ -6,17 +6,24 @@
   <title><?php echo $completeTitle; ?></title>
   <meta name="Description" content="Xmetafanx's Homepage is a site that can help you with Computer Problem, File Sharing News, Computer FAQ's, Security Information, Antivirus and Spyware Removal, and much much more..">
   <!-- Various Meta Tags-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow,noodp">
   <meta name="googlebot" content="index,follow">
   <base href="http://xmetal.x10.mx">
+
   <link rel="alternate" href="xml/site_updates.xml" type="application/rss+xml" title="Xmetalfanx Site Updates and Information">
   <link rel="alternate" href="security/securityIndex.php" type="application/rss+xml" title="Xmetalfanx Must Have Programs">
   <link rel="alternate" href="xml/program_updates.xml" type="application/rss+xml" title="Xmetalfanx Recently Added Programs">
+
   <link rel="index" href="/index.php">
   <link rel="home" href="/index.php">
   <!-- Bootstrap 4 -->
   <script src="http://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script scr="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
+  <script src="/scripts/nav.js" type="text/javascript"></script>
+
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
@@ -26,7 +33,7 @@
 </head>
 <body>
 
-  <?php include $sitePath . "/modules/tech/menus/bStrapNav.tpl"; ?>
+  <?php include $sitePath . '/modules/tech/techNavMenu.tpl'; ?>
 
 <!-- Remember to remove the closeing DIV when this jade is outputted -->
 <div id="mainBody">

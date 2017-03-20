@@ -2,6 +2,9 @@
 
 	$title = 'Tutorial Section - Tutorial Index Page';
 
+
+  ?>
+
   <img src="/linuxHQ/graphics/Tux_small.jpg" alt="Tux Peguin Clipart"  />
   <br />
 

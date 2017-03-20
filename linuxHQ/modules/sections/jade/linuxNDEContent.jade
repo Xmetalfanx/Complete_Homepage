@@ -1,31 +1,30 @@
 //output:linuxDEContentJade.html
 
 // I need to see this before BS"ing any of it 
-div.col2
-  div.DE 
-    div.title <?php echo $deName; ?> 
-    div.SShotCol <?php echo $deSShot; ?>
-  div.infoCol
+.DE 
+  .title <?php echo $deName; ?> 
+  .SShotCol <?php echo $deSShot; ?>
+.infoCol
   
-  div.row
-    div.headers Desktop Catagory: 
+  .row
+    .headers Desktop Catagory: 
     <?php echo $deClass; ?>
     
-  div.row
-    div.headers General Requirements: 
+  .row
+    .headers General Requirements: 
       <?php echo $deClass; ?>
       
 
-div.row
-  div.headers Distros that Feature: 
+.row
+  .headers Distros that Feature: 
   <?php echo $deFeatured; ?>
-          
+
   <?php include $sitePath . "/linuxHQ/modules/installHowTo.tpl"; ?><br />
     
-		//<div style="margin-top: 30px; clear:both;" class="headers">Description</div>
+  //<div style="margin-top: 30px; clear:both;" class="headers">Description</div>
     <br />
     
-    div.style( margin-top: 20px; clear:both; font-size: 10pt;)
+    .style( margin-top: 20px; clear:both; font-size: 10pt;)
    
     p * "Distros that feature" means distrobutions that have an official ISO or offically supported verison with the DE in question. That is not to say that you can not install this DE on other distros.<br /><br />
 

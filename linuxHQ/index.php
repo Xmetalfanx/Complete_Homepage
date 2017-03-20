@@ -1,13 +1,19 @@
 <?php
-        $title = 'Homepage';
-        $sitePath = "/home/xmetalx1/public_html";
-        include $sitePath . "/templates/linux/baseLinuxTemplate.tpl";
+
+    $title = 'Homepage';
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/linux/baseLinuxTemplate.tpl";
 ?>
 
 <div class="row hidden-xs hidden-sm hidden-md">
-  <div class="col-lg-6"><img src="graphics/tux-penguin-clip-art.jpg" width="119" height="117" alt="Tux Peguin Graphic"/></div>
-  <div class="col-lg-6"><?php include $sitePath . "/linuxHQ/modules/distrowatch.tpl"; ?></div>
+  <div class="col-lg-6">
+    <img src="graphics/tux-penguin-clip-art.jpg" width="119" height="117" alt="Tux Peguin Graphic"/>
+  </div>
+  <div class="col-lg-6">
+    <?php include '/linuxHQ/modules/distrowatch.tpl'; ?>
+  </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title">Introduction</h4>
@@ -23,4 +29,4 @@
   </div>
 </div>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . '/modules/linux/linuxBaseFooter.tpl'; ?>

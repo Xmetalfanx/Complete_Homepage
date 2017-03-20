@@ -1,0 +1,40 @@
+
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: icon in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 4
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: name in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 8
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/distroTable.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 13
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/distroTable.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 13
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/ytsection.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 14
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/ytsection.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 14
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: description in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 21
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: distroSshot in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 27
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/linuxDistroReviewer.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 30
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/linuxDistroReviewer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 30
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: EXP in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 40
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: experience in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 41
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: otherComments in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 44
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/distroRec.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 45
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/distroRec.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 45
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/usb.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 59
+[18-Mar-2017 00:01:33 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/usb.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDistroContent.tpl on line 59
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: fedoraHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 36
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: archHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 54
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: fedoraHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 54
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: suseHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 54
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Use of undefined constant Lubuntu - assumed 'Lubuntu' in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 72
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Use of undefined constant LXLE - assumed 'LXLE' in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 72
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Use of undefined constant PepperMint - assumed 'PepperMint' in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 72
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: archHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 72
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: mintMate1 in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 91
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: UMateHome in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 94
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: fedoraHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 94
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: mintHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 94
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Use of undefined constant Antergos - assumed 'Antergos' in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 114
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: archHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 114
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: suseHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 114
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: fedoraHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 114
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Use of undefined constant Kubuntu - assumed 'Kubuntu' in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 114
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: mintHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 114
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Use of undefined constant Xubuntu - assumed 'Xubuntu' in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 141
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: mintHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 141
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: fedoraHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 141
+[18-Mar-2017 00:01:33 America/New_York] PHP Notice:  Undefined variable: suseHOME in /home/xmetalx1/public_html/linuxHQ/desktops/desktopsIndex.php on line 141

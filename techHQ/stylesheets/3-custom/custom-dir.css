@@ -12,12 +12,13 @@ footer {
   footer .footer2 {
     background-color: #333333; }
 
-header .navigation-wrapper .logo a:link {
+.logo {
   color: white;
   background-color: transparent;
   font-size: 28px;
   font-weight: bold;
   text-shadow: 2px 2px 2px black; }
+
 header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
   font-size: 20px;
   font-weight: normal; }

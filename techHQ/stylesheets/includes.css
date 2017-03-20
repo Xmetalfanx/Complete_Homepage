@@ -1,44 +1,4 @@
 @charset "UTF-8";
-.bullets {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1em;
-  margin-bottom: 1.5em;
-  overflow: auto;
-  padding: 0; }
-  .bullets .bullet {
-    flex-basis: 20em;
-    flex-grow: 1; }
-  .bullets .bullet-icon {
-    background: #477DCA;
-    border-radius: 50%;
-    float: left;
-    height: 3.5em;
-    padding: 0.875em;
-    width: 3.5em; }
-  .bullets .bullet-icon-1 {
-    background: #477DCA; }
-  .bullets .bullet-icon-2 {
-    background: #47caaa; }
-  .bullets .bullet-icon-3 {
-    background: #a9ca47; }
-  .bullets .bullet-content {
-    margin-bottom: 2em;
-    margin-left: 4.9em; }
-  .bullets h2 {
-    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
-    display: inline-block;
-    font-size: 1.4em;
-    margin: 0 0 0.58333em 0;
-    padding-top: 0.5em; }
-  .bullets li {
-    list-style: none; }
-  .bullets p {
-    color: #333;
-    line-height: 1.5em; }
-  .bullets img {
-    max-width: 100%; }
-
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -449,6 +409,52 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.bullets {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  margin-bottom: 1.5em;
+  overflow: auto;
+  padding: 0; }
+  .bullets .bullet {
+    flex-basis: 20em;
+    flex-grow: 1; }
+  .bullets .bullet-icon {
+    background: #477DCA;
+    border-radius: 50%;
+    float: left;
+    height: 3.5em;
+    padding: 0.875em;
+    width: 3.5em; }
+  .bullets .bullet-icon-1 {
+    background: #477DCA; }
+  .bullets .bullet-icon-2 {
+    background: #47caaa; }
+  .bullets .bullet-icon-3 {
+    background: #a9ca47; }
+  .bullets .bullet-content {
+    margin-bottom: 2em;
+    margin-left: 4.9em; }
+  .bullets h2 {
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 0 0 0.58333em 0;
+    padding-top: 0.5em; }
+  .bullets li {
+    list-style: none; }
+  .bullets p {
+    color: #333;
+    line-height: 1.5em; }
+  .bullets img {
+    max-width: 100%; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 .hero {
   align-items: center;
   background-image: url(01540_driftwood_1280x720.jpg);
@@ -471,6 +477,12 @@ html {
         text-align: left; } }
   .hero .hero-logo {
     margin: auto; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 .footer-2 {
   background: #40526b;
@@ -533,6 +545,12 @@ html {
       padding: 1px; }
       .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
         opacity: 1; }
+
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 header.navigation {
   background-color: #333;
@@ -757,85 +775,6 @@ header.navigation {
           box-sizing: border-box;
           display: block; } }
 
-#StartPageStyle {
-  background-color: #ffffff;
-  color: #000000;
-  padding-bottom: 1px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10px;
-  clear: both;
-  width: 95%; }
-
-input.searchBox {
-  background-color: #ffffff;
-  color: #660000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  height: 23px;
-  outline: none;
-  padding: 0px 6px;
-  padding-bottom: 1px !important;
-  padding-top: 1px !important;
-  width: 260px; }
-
-input.SPSearchBoxWIDE {
-  border: #3371d8 1px solid;
-  max-height: 20px;
-  margin-right: 10px;
-  padding-bottom: 0px;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-top: 6px !important;
-  width: 45%;
-  min-width: 45%;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  clear: none;
-  box-shadow: 2px 2px 3px #000000;
-  vertical-align: middle; }
-
-.SPSubmitButton {
-  border-bottom: #3371d8 1px solid;
-  border-left: #3371d8 0px solid;
-  border-right: #3371d8 1px solid;
-  border-top: #3371d8 1px solid;
-  vertical-align: middle;
-  padding-top: 0px;
-  max-height: 20px;
-  margin-left: 3px; }
-
-td.SPGraphic {
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 0px; }
-
-.SPSearchButton {
-  max-height: 28px;
-  margin-right: 1px;
-  border: 0px;
-  padding-bottom: 0px;
-  padding-left: 10px;
-  padding-right: 2px;
-  padding-top: 0px;
-  clear: right;
-  vertical-align: middle; }
-
-#wrapper {
-  clear: both;
-  padding: 10px;
-  background: #ffffff;
-  color: #000000; }
-
-form.SPForm {
-  width: 40%;
-  clear: both;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 5%; }
-
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
 #GAOTD {
   width: 50%;
@@ -901,12 +840,13 @@ footer {
   footer .footer2 {
     background-color: #333333; }
 
-header .navigation-wrapper .logo a:link {
+.logo {
   color: white;
   background-color: transparent;
   font-size: 28px;
   font-weight: bold;
   text-shadow: 2px 2px 2px black; }
+
 header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
   font-size: 20px;
   font-weight: normal; }

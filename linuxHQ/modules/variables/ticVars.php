@@ -1,26 +1,28 @@
 <?php
 
-        $ArcThemeName = 'Arc-Theme';
-        $ArcThemeSShot = '<img src="/linuxHQ/tic/screenshots/arc/arc1.jpg" alt="Noobslab Arc-Theme screenshot" /> <br />
+    $ArcThemeName = 'Arc-Theme';
+    $ArcThemeSShot = '<img src="/linuxHQ/tic/screenshots/arc/arc1.jpg" alt="Noobslab Arc-Theme screenshot" /> <br />
 						  Image courtesy of <a href="http://www.noobslab.com/2016/06/arc-theme-light-dark-versions-and-icons.html"
 						  target="_blank"> Noobslab </a> ';
 
-        $ArcThemeGHHome = '<a href="https://github.com/horst3180/Arc-theme"
+
+    $ArcThemeGHHome = '<a href="https://github.com/horst3180/Arc-theme"
                            target="_blank">Arc Theme</a>';
-		    $ArcThemeNSHome = '<a href="http://www.noobslab.com/2016/06/arc-theme-light-dark-versions-and-icons.html" target="_blank">Arch Theme on Noobslab</a>';
-        $ArcThemeUsage = 'GTK2,  GTK3, Gnome-shell';
+		$ArcThemeNSHome = '<a href="http://www.noobslab.com/2016/06/arc-theme-light-dark-versions-and-icons.html" target="_blank">Arch Theme on Noobslab</a>';
+    $ArcThemeUsage = 'GTK2,  GTK3, Gnome-shell';
 
 
-		      $AmbThemeName = '<a href="http://www.ravefinity.com/p/download-ambiance-radiance-colors.html" target="_blank">Ambiance-Theme</a>';
-		      $AmbThemeSShot = '<img src="/linuxHQ/tic/screenshots/arc/arc1.jpg" alt="Noobslab Arc-Theme screenshot" /> <br />
+		$AmbThemeName = '<a href="http://www.ravefinity.com/p/download-ambiance-radiance-colors.html" target="_blank">Ambiance-Theme</a>';
+		$AmbThemeSShot = '<img src="/linuxHQ/tic/screenshots/arc/arc1.jpg" alt="Noobslab Arc-Theme screenshot" /> <br />
 								  Image courtesy of <a href="http://www.noobslab.com/2016/06/arc-theme-light-dark-versions-and-icons.html"
 								  target="_blank"> Noobslab </a> ';
-		      $AmbThemeGHHome = '';
-		      $AmbThemeNSHome = '<a href="http://www.noobslab.com/2016/03/ambiance-radiance-colors-theme-suite.html" target="_blank">Ambience Theme on Noobslab</a>';
-		      $AmbThemeUsage = '';
+
+		$AmbThemeGHHome = '';
+		$AmbThemeNSHome = '<a href="http://www.noobslab.com/2016/03/ambiance-radiance-colors-theme-suite.html" target="_blank">Ambience Theme on Noobslab</a>';
+		$AmbThemeUsage = '';
 
 
-	   $PaperThemeName = '<a href="https://snwh.org/paper" target="_blank"> Paper GTK Theme</a>';
+	  $PaperThemeName = '<a href="https://snwh.org/paper" target="_blank"> Paper GTK Theme</a>';
 		$PaperThemeSShot = '<img src="#" alt="Noobslab Arc-Theme screenshot" /> <br />
 								  Image courtesy of <a href="http://www.noobslab.com/2016/06/arc-theme-light-dark-versions-and-icons.html"
 								  target="_blank"> </a> ';
@@ -29,7 +31,6 @@
 		$PaperThemeNSHome = '<a href="http://www.noobslab.com/2015/11/material-design-suite-offers-theme-and.html" target="_blank">Paper GTK Theme on Noobslab</a>';
 
 		$PaperThemeUsage = '';
-
 
 
     $YosThemeName = '<a href="http://www.sundman.ca/themes/yosembiance/" target="_blank"> Yosembiance Theme</a>';

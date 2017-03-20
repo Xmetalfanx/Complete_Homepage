@@ -6,29 +6,15 @@
 
 // #####################################################################
 
-// Going to try to change the Compass mixins to Bourbon Synatax
-@mixin autoMargin($margin-left: auto, $margin-right: auto) {
-
-  @include margin(0 $margin-right 0 $margin-left);
-
-}
-
 @mixin NoMargin() {
   @include margin(0 0 0 0);
 
 }
 
-
 @mixin single-box-shadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black) {
   box-shadow         : $horz $vert $depth $color;
 }
 
-@mixin leftIcon($width: 48px, $height: 48px) {
-  width         : $width;
-  height        : $height;
-  float         : left;
-  padding-right : 10px;
-}
 
 @mixin softwareCols($colCount: 2, $colWidth: 40%, $colGap: 10px) {
   @include        inline-block();
@@ -47,10 +33,4 @@
   a:visited {
     text-decoration : none;
   }
-}
-
-
-@mixin arcBlack {
-  background-color: $arcBlack;
-  background-image: $ArcBlackImage;
 }

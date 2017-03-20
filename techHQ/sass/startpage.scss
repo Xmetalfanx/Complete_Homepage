@@ -1,0 +1,82 @@
+@import "includes";
+
+$powderblue: rgb(51, 113, 216);
+
+#StartPageStyle {
+	background-color: #ffffff;
+	color: #000000;
+	padding-bottom: 1px;
+
+	@include margin(10px auto null auto);
+    clear: both;
+		width:  95%;
+
+
+}
+input.searchBox {
+	background-color: rgb(255, 255, 255);
+	color: rgb(102, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 23px;
+	outline: none;
+	padding: 0px 6px;
+	padding-bottom: 1px !important;
+	padding-top: 1px !important;
+	width: 260px;
+}
+input.SPSearchBoxWIDE {
+	border: $powderblue 1px solid;
+	max-height: 20px;
+	@include padding(6px 6px 0 6px);
+	margin-right: 10px;
+	width: 45%;
+	min-width: 45%;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+    clear: none;
+    box-shadow: 2px 2px 3px #000000;
+	vertical-align: middle;
+	}
+.SPSubmitButton {
+	@include border-color($powderblue $powderblue $powderblue $powderblue);
+	@include border-style(solid solid solid solid);
+	@include border-width(1px 1px 1px 0);
+	vertical-align: middle;
+    padding-top: 0px;
+     max-height: 20px;
+    margin-left: 3px;
+}
+
+td.SPGraphic {
+	@include padding(0 0 0 0);
+}
+
+.SPSearchButton {
+	max-height: 28px;
+	margin-right: 1px ;
+	border: 0px;
+	@include padding(0 2px 0 10px);
+    clear: right;
+    vertical-align: middle;
+}
+
+
+#wrapper
+{
+	clear: both;
+	padding: 10px;
+	background: #ffffff;
+	color: #000000;
+}
+
+form.SPForm
+{
+  width: 40%;
+  clear: both;
+	margin-right: auto;
+	margin-left: auto;
+
+  padding-left: 5%;
+}

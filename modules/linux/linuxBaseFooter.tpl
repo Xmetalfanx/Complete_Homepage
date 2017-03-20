@@ -1,15 +1,16 @@
+<?php include $sitePath .  "/modules/linux/linuxBottomMenu.tpl"; ?>
+</div>  <!-- This ends the main Body div opened in the Header Template -->
+
 <div class="row">
-  <div id="bottomLinks">
-         <a href="/linuxHQ/index.php">Home</a> |
-         <a href="/linuxHQ/credit.php">  Credits </a> |
-         <a href="/linuxHQ/thankyou.php"> Thank Yous</a>  |
-         <a href="http://www.cupoflinux.com" target="_blank">Cup of Linux</a> |
-  		   <a href="/linuxHQ/resources.php">Resources</a>
+  <div class="col-lg-6">
+    <p>Xmetalfanx@yahoo.com 2014 - Present</p>
+  </div>
+  <div class="col-lg-6">
+    <img src="/graphics/val/w3ccss.gif" alt="w3css icon" class="right"/>
 
-      <?php include $sitePath . "/modules/socialMediaIcons.tpl"; ?>
+    <a href="https://www.totalvalidator.com/" target="_blank">
+    <img src="/techHQ/graphics/val/tValIcons/xhtml/valid_n_xhtml_5.gif" alt="Total Validator Icon" />
+  </a>
 
-  </div> <!-- End BottomLinks -->
-
+  </div>
 </div>
-
-<?php include $sitePath . "/modules/linux/linuxFooter.tpl"; ?>
