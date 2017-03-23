@@ -5,10 +5,16 @@
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
 .row 
-  .card.col-lg-2
-    .card-block
-      .card-title Software Catagories 
-        <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
+  .card.col-lg-2.col-xl-2.hidden-md-down
+      .card-block
+        .card-title
+          
+          .hidden-md-down
+            <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
+            
+          .hidden-md-up
+            <?php include $sitePath . '/techHQ/modules/mobile/techMobileSoftCol1.php'; ?>
         
+          
   .card.col-lg-10
     .card-text

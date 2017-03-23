@@ -6,11 +6,6 @@
 @import "bstrap";
 
 
-.panel-default
-{
-  border        : $solidBorder;
-}
-
 .dePanel
   {
     border           : $solidBorder;
@@ -20,8 +15,8 @@
 
     @include   margin(null auto null auto);
 
-    clear            :  both;
-    padding-bottom : 20px;
+    clear             : both;
+    padding-bottom    : 20px;
 }
 
 .navigation
@@ -33,5 +28,4 @@ header ul
 {
   position: absolute;
   right: 0;
-
 }

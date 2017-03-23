@@ -16,8 +16,6 @@
   <link rel="alternate" href="security/securityIndex.php" type="application/rss+xml" title="Xmetalfanx Must Have Programs">
   <link rel="alternate" href="xml/program_updates.xml" type="application/rss+xml" title="Xmetalfanx Recently Added Programs">
 
-  <link rel="index" href="/index.php">
-  <link rel="home" href="/index.php">
   <!-- Bootstrap 4 -->
   <script src="http://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script scr="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
