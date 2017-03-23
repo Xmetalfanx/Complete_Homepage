@@ -3,7 +3,7 @@
   $ubuntuHP = '<a href="/linuxHQ/distros/ubuntu/ubuntu.php" > Ubuntu </a>';
   $ubuntuMateHP = '<a href="https://ubuntu-mate.org/">Ubuntu Mate</a>';
   $kubuntuHP = '<a href="/linuxHQ/distros/ubuntu/kubuntu.php" > Kubuntu </a>';
-  
+
   $mintHP = '<a href="/linuxHQ/distros/ubuntu/linuxMint.php"> Mint </a> (<a href="http://www.linuxmint.com" target="_blank"> Linux Mint Homepage</a>)';
   $eOSHP = '/linuxHQ/distros/ubuntu/elementaryOS.php';
   $linuxLiteHP = '/linuxHQ/distros/ubuntu/linuxLite.php';

@@ -8,3 +8,10 @@
   </div>
 
 </div>
+
+
+.card
+  .card-block
+    h4.card-title
+    |
+    .card-text

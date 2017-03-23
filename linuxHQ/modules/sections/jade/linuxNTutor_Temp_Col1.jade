@@ -1,53 +1,75 @@
-//output:linuxTutorTempCol1.html
+//output:linuxNTutor_Temp_Col1.html
 
 h2	NEW USER HEADQUATERS
 
-div.familyHeader FAQ&apos;s
-  div.family
-a(href='/linuxHQ/tutorials/newUserHQ/WhatIsLinux.php') What is Linux?
-		a(href='/linuxHQ/tutorials/newUserHQ/liveVersion.php') What is a &quot;Live Version&quot;?
-		a(href='/linuxHQ/tutorials/newUserHQ/partitions.php') Partitions Explained
-		a(href='/linuxHQ/tutorials/newUserHQ/commonTerms.php') Common Terms, in Linux
-		a(href='/linuxHQ/tutorials/newUserHQ/familiarSoftware.php') Familiar Software
-		|  &#x9;&#x9;&#x9;&#x9;&#x9;What is a &quot;Rolling Release&quot;?
-		|  &#x9;&#x9;&#x9;&#x9;&#x9;Linux &quot;Myths&quot; /
-		|  &#x9;&#x9;&#x9;&#x9;&#x9;Misconceptions
-		|  &#x9;&#x9;&#x9;&#x9;&#x9;What does LTS mean?
-		a(href='/linuxHQ/tutorials/newUserHQ/DesktopE.php') Desktop Environment FAQs
-		a(href='/linuxHQ/tutorials/newUserHQ/myRecommendedDistros.php') My Recommended Distros (Opinion)
+.card
+  .card-block
+    h4.card-title
+    | FAQ&apos;s    
+    .card-text
+      a(href='/linuxHQ/tutorials/newUserHQ/WhatIsLinux.php') What is Linux?
+      a(href='/linuxHQ/tutorials/newUserHQ/liveVersion.php') What is a &quot;Live Version&quot;?
+      a(href='/linuxHQ/tutorials/newUserHQ/partitions.php') Partitions Explained
+      a(href='/linuxHQ/tutorials/newUserHQ/commonTerms.php') Common Terms, in Linux
+      a(href='/linuxHQ/tutorials/newUserHQ/familiarSoftware.php') Familiar Software
+      |  &#x9;&#x9;&#x9;&#x9;&#x9;What is a &quot;Rolling Release&quot;?
+      |  &#x9;&#x9;&#x9;&#x9;&#x9;Linux &quot;Myths&quot; /
+      |  &#x9;&#x9;&#x9;&#x9;&#x9;Misconceptions
+      |  &#x9;&#x9;&#x9;&#x9;&#x9;What does LTS mean?
+      a(href='/linuxHQ/tutorials/newUserHQ/DesktopE.php') Desktop Environment FAQs
+      a(href='/linuxHQ/tutorials/newUserHQ/myRecommendedDistros.php') My Recommended Distros (Opinion)
 
-div.familyHeader  Linux vs Windows 
-  div.family
-    a(href='/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php') MS Windows vs Linux - Pros and Cons 
-    a(href='/linuxHQ/tutorials/newUserHQ/linuxPros.php') Linux Pros 
-    a(href='/linuxHQ/tutorials/newUserHQ/linuxCons.php') Linux Cons 
+.card
+  .card-block
+    h4.card-title
+    | Linux vs Windows     
+    .card-text
+      a(href='/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php') MS Windows vs Linux - Pros and Cons 
+      a(href='/linuxHQ/tutorials/newUserHQ/linuxPros.php') Linux Pros 
+      a(href='/linuxHQ/tutorials/newUserHQ/linuxCons.php') Linux Cons 
 
-div.familyHeader Tutorials 
-  div.familyHeader Overall
-    span.family How to Update any Linux System
+.card
+  .card-block
+    h4.card-title
+    | Tutorials     
+    .card-text
+    h5 Overall 
+    | How to Update any Linux System
+
 
 h2 MORE ADVANCED TOPICS
 
-div.familyHeader Arch Based Tutorials
-span.family
-  a(href='/linuxHQ/tutorials/addingAURtoArch.php ')  Adding AUR Support 
-  a(href='/linuxHQ/tutorials/optimizingPacman.php')
-    | Optimizing Pacman
-    | (Manjaro or Arch)
+.card
+  .card-block
+    h4.card-title
+    | Arch Based Tutorials    
+    .card-text
+      a(href='/linuxHQ/tutorials/addingAURtoArch.php ')  Adding AUR Support 
+      a(href='/linuxHQ/tutorials/optimizingPacman.php')
+      | Optimizing Pacman
+      | (Manjaro or Arch)
 
+.card
+  .card-block
+    h4.card-title
+    | Debian based    
+    .card-text
+      a(href='http://debgen.simplylinux.ch/', target='_blank') Source List Generator
+      a(href='https://sites.google.com/site/mydebiansourceslist', target='_blank') Additional Sources
+      a(href='upgradingDebianBranches.php') Upgrading Debian Branches
+      a(href='upgradingFromDebianStable.php') Upgrading from Stable Branch
 
-div.familyHeader Debian based
-span.family
-	a(href='http://debgen.simplylinux.ch/', target='_blank') Source List Generator
-	a(href='https://sites.google.com/site/mydebiansourceslist', target='_blank') Additional Sources
-	a(href='upgradingDebianBranches.php') Upgrading Debian Branches
-	a(href='upgradingFromDebianStable.php') Upgrading from Stable Branch
+.card
+  .card-block
+    h4.card-title
+    | Ubuntu based    
+    .card-text
+       | &quot;Dirty&quot; Upgrading
 
-div.familyHeader Ubuntu based
-span.family
-	| &quot;Dirty&quot; Upgrading
-
-div.familyHeader Command Line Package Management
-	span.family
-		| Searching for Package
-		| Installing Package
+.card
+  .card-block
+    h4.card-title
+    | Command Line Package Management    
+    .card-text
+    | Searching for Package
+    | Installing Package
