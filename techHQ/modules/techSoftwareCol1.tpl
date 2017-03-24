@@ -25,13 +25,44 @@
 <div class="card">
   <div class="card-header"> <a href="/techHQ/software/systemTools.php">System Tools</a></div>
   <div class="card-block">
-    <div class="card-text"><a href="/techHQ/software/sTools/archivers.php">Archivers</a><br/><a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a><br/><a href="/techHQ/software/sTools/burners.php">CD/DVD/Blue Ray Burners</a><br/><a href="/techHQ/software/defrag.php">Defragmenters</a><br/>[File Managers]<br/><a href="/techHQ/software/sTools/registryTools.php">Registry Tools</a><br/><a href="/techHQ/software/sTools/startupManangers.php">Startup Managers</a><br/><a href="/techHQ/software/sTools/sysInternals">SysInternels</a><br/><a href="/techHQ/software/sTools/taskManagers.php">Task Manager</a><br/></div>
+    <div class="card-text">
+      <a href="/techHQ/software/sTools/archivers.php">Archivers</a><br/>
+
+      <a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a><br/>
+
+      <a href="/techHQ/software/sTools/burners.php">CD/DVD/Blue Ray Burners</a><br/>
+
+      <a href="/techHQ/software/defrag.php">Defragmenters</a><br/>[File Managers]<br/>
+
+      <a href="/techHQ/software/sTools/registryTools.php">Registry Tools</a><br/>
+
+      <a href="/techHQ/software/sTools/startupManangers.php">Startup Managers</a><br/>
+
+      <a href="/techHQ/software/sTools/sysInternals">SysInternels</a><br/>
+
+      <a href="/techHQ/software/sTools/taskManagers.php">Task Manager</a><br/>
+    </div>
   </div>
 </div>
 
 <div class="card">
   <div class="card-header">External Linux </div>
   <div class="card-block">
-    <p class="card-text"><a href="http://www.majorgeek.com" target="_blank"><img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com Link"/></a><br/><a href="http://www.snapfiles.com"><img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" style="width: 88px; height: 32px;" class="centerImage"/></a><br/><a href="http://www.softpedia.com" target="_blank"><img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="Soft Pedia" style="width: 175px; height: 32px;" class="centerImage"/></a><br/><a href="http://www.neowin.net/">NeoWin</a><br/><a href="http://www.nonags.com/">NoNags</a><br/></p>
-  </div>
+    <div class="card-text">
+      <a href="http://www.majorgeek.com" target="_blank">
+      <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com Link"/></a><br/>
+
+      <a href="http://www.snapfiles.com">
+        <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" style="width: 88px; height: 32px;" /></a>
+
+        <br/>
+      <a href="http://www.softpedia.com" target="_blank">
+        <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="Soft Pedia" style="width: 175px; height: 32px;" /></a>
+        <br/>
+
+        <a href="http://www.neowin.net/">NeoWin</a><br/>
+
+        <a href="http://www.nonags.com/">NoNags</a><br/>
+    </div>
+</div>
 </div>

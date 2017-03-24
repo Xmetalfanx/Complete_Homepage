@@ -5,8 +5,8 @@
   margin-right     : 5px;
   margin-left      : 5px;
   padding-left     : 1px;
-  color            : $black;
-  background-color : $black;
+  color            : rgb(0, 0, 0);
+  background-color : rgb(0, 0, 0);
 }
 
 .terms {
@@ -24,9 +24,9 @@
 
   @include padding(2px 2px null 5px);
 
-  color         : $black;
+  color         : rgb(0, 0, 0);
 
-  border       : 1px solid #000000;
+  border       : 1px solid rgb(0, 0, 0);
   text-align    : left;
   font-family   : $Courier;
   line-height   : 25px;
@@ -45,9 +45,9 @@
 
 .distroHeader {
   clear            : right;
-  color            : #FFFFCC;
+  color            : rgb(255, 255, 204);
   border           : $solidBorder;
-  background-color : $black;
+  background-color : rgb(0, 0, 0);
   font-weight      : bold;
 }
 
@@ -74,7 +74,7 @@
 
   @include padding(5px 1% null 1%);
 
-  background-color : $white;
+  background-color : rgb(255, 255, 255);
   a:link {
     margin         : 2px;
     @include padding(3px null 3px null);
@@ -91,8 +91,8 @@
 
   padding-left     : 1%;
   overflow         : auto;
-  border           : $black 2px solid;
-  background-color : $white;
+  border           : rgb(0, 0, 0) 2px solid;
+  background-color : rgb(255, 255, 255);
   font-family      : $TNR;
   /*margin-left: 50px;*/
 
@@ -100,7 +100,7 @@
     color : rgb(255, 0, 0);
   }
   a:link {
-    color            : $red;
+    color            : rgb(255, 0, 0);
     background-color : transparent;
   }
 }
@@ -119,9 +119,9 @@
   width            : 100%;
   margin-top       : 15px;
   padding-bottom   : 10px;
-  color            : $black;
+  color            : rgb(0, 0, 0);
   border           : $solidBorder;
-  background-color : $white;
+  background-color : rgb(255, 255, 255);
   blockquote {
 
     @include margin(0 0 0 0 );
@@ -137,7 +137,7 @@
     display          : block;
     margin-bottom    : 0px;
     padding-bottom   : 0px;
-    color            : $black;
+    color            : rgb(0, 0, 0);
     background-color : transparent;
     font-family      : $Courier;
     font-size        : 14px;
@@ -159,7 +159,7 @@
   }
   .distroName {
     @include padding(0 0 0 0);
-    border-bottom  : 1px dotted $black;
+    border-bottom  : 1px dotted rgb(0, 0, 0);
     font-size      : 14px;
     font-weight    : bold;
   }
@@ -174,7 +174,7 @@
 #distroShots {
   padding  : 5px;
   overflow : auto;
-  border   : 2px dotted $black;
+  border   : 2px dotted rgb(0, 0, 0);
 
   .left img,
   img {
@@ -209,7 +209,7 @@
     @include margin(20px 0 10px 0);
     border           : $solidBorder;
     background-image : url(../graphics/navbar/tan/2tan3.png);
-    background-color : #ffff99;
+    background-color : rgb(255, 255, 153);
     font-weight      : bold;
   }
   #SShotCol {
@@ -221,16 +221,16 @@
     margin-top       : 5px;
     margin-bottom    : 5px;
     padding-left     : 10px;
-    color            : $white;
+    color            : rgb(255, 255, 255);
     border           : $solidBorder;
-    background-color : $black;
+    background-color : rgb(0, 0, 0);
     font-size        : 16px;
     font-weight      : bold;
   }
   .code a:link,
   a:hover,
   a:visited {
-    color            : #FFFF00;
+    color            : rgb(255, 255, 0);
     background-color : inherit;
   }
   #infoCol {

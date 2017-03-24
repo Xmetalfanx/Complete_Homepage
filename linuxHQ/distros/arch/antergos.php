@@ -2,7 +2,6 @@
 
       $title = 'Distribution Section -  Antergos';
 
-
     $name = 'Antergos (formerly Cinnarch)';
     $family = 'Arch';
     $icon = '<img src="/graphics/icons/antergos.png" width="90" height="90"  alt="Antergos Icon"/>';
@@ -55,7 +54,9 @@ COM;
         a pre-configured Arch System that is completely compatible with the Arch User Repository (AUR).
 
 DES;
+?>
 
+<?php 
 
 $sitePath = "/home/xmetalx1/public_html";
 

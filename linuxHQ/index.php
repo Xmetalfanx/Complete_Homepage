@@ -10,7 +10,7 @@
     <img src="graphics/tux-penguin-clip-art.jpg" width="119" height="117" alt="Tux Peguin Graphic"/>
   </div>
   <div class="col-lg-6">
-    <?php include '/linuxHQ/modules/distrowatch.tpl'; ?>
+    <?php include $sitePath . '/linuxHQ/modules/distrowatch.tpl'; ?>
   </div>
 </div>
 

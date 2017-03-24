@@ -1,20 +1,17 @@
 //output:baseTechSoftwareTemp.html 
 
 <?php include $sitePath . '/modules/variables/icons.php'; ?>
-
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
-.row 
-  .card.col-lg-2.col-xl-2.hidden-md-down
-      .card-block
-        .card-title
+.row.
+  .col-xl-2.col-sm-2.col-md-2.col-lg-2.col-xl-2 
+| .hidden-md-down
+
+      <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
+      
+    .hidden-md-up
+      <?php include $sitePath . '/techHQ/modules/mobile/techMobileSoftCol1.php'; ?>
+
           
-          .hidden-md-down
-            <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
-            
-          .hidden-md-up
-            <?php include $sitePath . '/techHQ/modules/mobile/techMobileSoftCol1.php'; ?>
-        
-          
-  .card.col-lg-10
-    .card-text
+  .col-xs-12.col-sm-12.col-md-12.col-lg-12.col-xl-12
+  

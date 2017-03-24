@@ -1,6 +1,5 @@
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
-
 <div class="row">
   <div class="hidden-xs col-sm-2 col-md-4 col-lg-2 col-xl-2">
     <div class="card">

@@ -27,6 +27,4 @@
 
 <?php include $sitePath . '/modules/linux/linuxNavMain.tpl'; ?>
 
-
-
-<div id="mainBody">
+<!-- <div id="mainBody"> -->

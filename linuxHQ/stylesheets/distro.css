@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$black".
-        on line 8 of sass/distro.scss
+Error: Undefined mixin 'margin'.
+        on line 20 of sass/distro.scss, in `margin'
+        from line 20 of sass/distro.scss
 
-3: .terminal {
-4:   display          : block;
-5:   margin-right     : 5px;
-6:   margin-left      : 5px;
-7:   padding-left     : 1px;
-8:   color            : $black;
-9:   background-color : $black;
-10: }
-11: 
-12: .terms {
-13:   color            : rgb(0, 0, 255);
+15:   font-style       : italic;
+16:   font-weight      : bold;
+17: }
+18: 
+19: .distReview {
+20:   @include margin(null auto null auto);
+21:   width         : 99%;
+22:   clear         : none;
+23:   margin-top    : 2px;
+24: 
+25:   @include padding(2px 2px null 5px);
 
 Backtrace:
-sass/distro.scss:8
-/usr/lib/ruby/vendor_ruby/sass/script/tree/variable.rb:49:in `_perform'
-/usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:50:in `perform'
-/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:395:in `visit_prop'
+sass/distro.scss:20:in `margin'
+sass/distro.scss:20
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `with_mixin'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:347:in `visit_mixin'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:158:in `block in visit'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
@@ -57,16 +61,16 @@ sass/distro.scss:8
 /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
 /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:471:in `on_file_changed'
 /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:328:in `block in watch'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/config.rb:23:in `call'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:115:in `_process_changes'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:19:in `block in loop_for'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:15:in `loop'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/processor.rb:15:in `loop_for'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/loop.rb:84:in `_wait_for_changes'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/event/loop.rb:42:in `block in setup'
-/var/lib/gems/2.3.0/gems/listen-3.1.5/lib/listen/internals/thread_pool.rb:6:in `block in add'
+/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
+/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 8 of sass/distro.scss\A \A 3: .terminal {\A 4:   display          : block;\A 5:   margin-right     : 5px;\A 6:   margin-left      : 5px;\A 7:   padding-left     : 1px;\A 8:   color            : $black;\A 9:   background-color : $black;\A 10: }\A 11: \A 12: .terms {\A 13:   color            : rgb(0, 0, 255);"; }
+  content: "Error: Undefined mixin 'margin'.\A         on line 20 of sass/distro.scss, in `margin'\A         from line 20 of sass/distro.scss\A \A 15:   font-style       : italic;\A 16:   font-weight      : bold;\A 17: }\A 18: \A 19: .distReview {\A 20:   @include margin(null auto null auto);\A 21:   width         : 99%;\A 22:   clear         : none;\A 23:   margin-top    : 2px;\A 24: \A 25:   @include padding(2px 2px null 5px);"; }

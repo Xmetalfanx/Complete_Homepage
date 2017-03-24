@@ -1,7 +1,2 @@
-
-[18-Mar-2017 22:45:24 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/templates/linux/baseLinuxTemplate.tpl): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/index.php on line 3
-[18-Mar-2017 22:45:24 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/templates/linux/baseLinuxTemplate.tpl' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/index.php on line 3
-[18-Mar-2017 22:45:24 America/New_York] PHP Warning:  include(/linuxHQ/modules/distrowatch.tpl): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/index.php on line 11
-[18-Mar-2017 22:45:24 America/New_York] PHP Warning:  include(): Failed opening '/linuxHQ/modules/distrowatch.tpl' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/index.php on line 11
-[18-Mar-2017 22:45:24 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/modules/linux/linuxBaseFooter.tpl): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/index.php on line 29
-[18-Mar-2017 22:45:24 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/modules/linux/linuxBaseFooter.tpl' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/index.php on line 29
+[24-Mar-2017 19:36:40 America/New_York] PHP Warning:  include(/linuxHQ/modules/distrowatch.tpl): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/index.php on line 13
+[24-Mar-2017 19:36:40 America/New_York] PHP Warning:  include(): Failed opening '/linuxHQ/modules/distrowatch.tpl' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/index.php on line 13

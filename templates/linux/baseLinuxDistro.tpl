@@ -8,3 +8,7 @@
     <?php include $sitePath . '/linuxHQ/modules/sections/linuxNDistroCol1.tpl';  ?>
   </div>
   <div class="col-lg-9">
+    <?php include $sitePath . '/linuxHQ/modules/linuxDistroContent.tpl'; >
+  </div>
+  
+</div>
