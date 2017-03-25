@@ -1830,11 +1830,13 @@ form.SPForm {
 .navigation {
   max-height: 80px; }
 
-header ul {
-  position: absolute;
-  right: 0; }
-
 .footer-2 {
   background-color: #333333; }
+
+header nav .navigation-menu {
+  text-align: right; }
+
+.nav-link {
+  padding-bottom: 2px; }
 
 /*# sourceMappingURL=layout.css.map */

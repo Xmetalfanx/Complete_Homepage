@@ -3,6 +3,7 @@
 @import "GAOTD";
 @import "startpage";
 
+
 .container
 {
   width: 96%;
@@ -14,20 +15,26 @@
 
 }
 
+
+// For Top content
 .navigation
 {
   max-height: 80px;
 }
 
-header ul
-{
-  position: absolute;
-  right: 0;
-
-}
 .footer-2
 {
   background-color: rgb(51, 51, 51);
+}
 
+header nav .navigation-menu
+{
+  text-align: right;
+
+}
+
+.nav-link
+{
+  padding-bottom: 2px;
 
 }
