@@ -23,4 +23,17 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
   font-size: 20px;
   font-weight: normal; }
 
+.navigation {
+  max-height: 80px; }
+
+.footer-2 {
+  background-color: #333333;
+  position: relative; }
+
+header nav .navigation-menu {
+  text-align: right; }
+
+.nav-link {
+  padding-bottom: 2px; }
+
 /*# sourceMappingURL=main.css.map */

@@ -851,6 +851,19 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
   font-size: 20px;
   font-weight: normal; }
 
+.navigation {
+  max-height: 80px; }
+
+.footer-2 {
+  background-color: #333333;
+  position: relative; }
+
+header nav .navigation-menu {
+  text-align: right; }
+
+.nav-link {
+  padding-bottom: 2px; }
+
 /* Border variables */
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
 #GAOTD {
@@ -1752,6 +1765,19 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
   font-size: 20px;
   font-weight: normal; }
 
+.navigation {
+  max-height: 80px; }
+
+.footer-2 {
+  background-color: #333333;
+  position: relative; }
+
+header nav .navigation-menu {
+  text-align: right; }
+
+.nav-link {
+  padding-bottom: 2px; }
+
 #StartPageStyle {
   background-color: #ffffff;
   color: #000000;
@@ -1827,16 +1853,4 @@ form.SPForm {
 .card-warning {
   background-color: white; }
 
-.navigation {
-  max-height: 80px; }
-
-.footer-2 {
-  background-color: #333333; }
-
-header nav .navigation-menu {
-  text-align: right; }
-
-.nav-link {
-  padding-bottom: 2px; }
-
-/*# sourceMappingURL=layout.css.map */
+/*# sourceMappingURL=customcss.css.map */
