@@ -4,18 +4,26 @@ doctype html
 html(lang="en")
   head
     meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
 
     title  Xmetal&apos;s Homepage
   
-    script(src='http://code.jquery.com/jquery-3.1.1.min.js', type='text/javascript')
-  
-    script(scr="/scripts/nav.js", type="text/javascript")
+    // For Navigation Menu from Bourbon.io and it's Refills section   
+    script(src="http://xmetal.x10.mx/scripts/nav.js", type="text/javascript")
     
-    
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css', integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ', crossorigin='anonymous')
-    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', integrity='sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn', crossorigin='anonymous')
+    // JQuery
+    script(src='http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js')
 
-    link(href='/stylesheets/layout.css', rel='stylesheet', type='text/css', media='all')
+    // Tether
+    script(src="http://xmetal.x10.mx/tether133/js/tether.min.js")
+
+    // Bootstrap 4 alpha 6 
+    link(rel='stylesheet', href='http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css')
+    
+    script(src='http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js' )
+  
+
+    link(href='/stylesheets/customCSS.css', rel='stylesheet', type='text/css', media='all')
 
   body  
   
@@ -37,4 +45,4 @@ html(lang="en")
             p Feb 7 2017 Update - I have been working on the templates and converting stuff over so i can then just go into the individual pages and apply the new way I am doing things all at once.  Think of it like before I get all the furnature in and setup just right ... I have to get the framework of the house setup the way I want/need first.  
 
 
-  <?php include 'modules/frontFooter.tpl'; ?>
+  <?php include '/modules/frontFooter.tpl'; ?>

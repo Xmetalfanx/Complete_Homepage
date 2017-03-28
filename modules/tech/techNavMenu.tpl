@@ -1,4 +1,3 @@
-
 <header class="navigation">
   <div class="navigation-wrapper">
     <a href="http://xmetal.x10.mx/techHQ/index.php" class="logo hidden-md-down">Tech HQ</a>

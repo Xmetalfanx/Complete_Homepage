@@ -856,12 +856,18 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
 
 .footer-2 {
   background-color: #333333;
-  position: relative; }
+  position: absolute; }
 
 header nav .navigation-menu {
   text-align: right; }
 
 .nav-link {
   padding-bottom: 2px; }
+
+.container {
+  width: 96%; }
+
+.card-warning {
+  background-color: white; }
 
 /*# sourceMappingURL=includes.css.map */

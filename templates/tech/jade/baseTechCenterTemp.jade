@@ -3,9 +3,12 @@
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
 .row
-  .card.col-lg-2.col-xl-2.hidden-md-down
-    .card-text
-        <?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?>
+    .hidden-sm-down.col-md-2.col-lg-2.col-xl-2
+      <?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?>
+      
+    .hidden-md-up.col-xl-12.col-md-12
+      <?php include $sitePath . '/techHQ/modules/mobile/techTechCenterMob.tpl'; ?>
 
-    .card.col-xs-12.col-sm-12.col-md-12.col-lg-10.col-xl-10
-      .card-text
+          
+    .col-xs-12.col-sm-12.col-md-12.col-lg-10.col-xl-10
+  

@@ -2,15 +2,12 @@
 
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
 
-.row
-  .card.col-sm-12.col-xl-12
-    .card-text
-      
-      .hidden-md-down
-        <?php include $sitePath . ('/techHQ/modules/techBrowsersCol1.tpl'); ?>
-      .hidden-md-up
-        <?php include $sitePath . ('/modules//techBrowsersCol1.tpl'); ?>
-      
 
-  .card.col-xs-10.col-sm-10.col-md-10.col-lg-10.col-xl-10
-      .card-text
+.row
+  .hidden-sm-down.col-md-2.col-lg-2.col-xl-2
+    <?php include $sitePath . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
+
+  .hidden-md-up.col-xl-12.col-md-12
+    <?php include $sitePath . '/modules//techBrowsersCol1.tpl'; ?>
+        
+  .col-xs-12.col-sm-12.col-md-12.col-lg-10.col-xl-10

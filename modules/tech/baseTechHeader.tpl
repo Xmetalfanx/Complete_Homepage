@@ -20,19 +20,19 @@
   <link rel="index" href="/index.php">
   <link rel="home" href="/index.php">
 
-  <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
-  <script src="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
-
   <!-- JQuery-->
   <script src="http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js"></script>
-  <script src="http://xmetal.x10.mx/tether133/tether.min.js"></script>
+  <script src="http://xmetal.x10.mx/tether133/js/tether.min.js"></script>
 
   <!-- Bootstrap 4 alpha 6 -->
   <link rel="stylesheet" href="http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css">
   <script src="http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js"></script>
 
+  <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
+  <script src="http://xmetal.x10.mx/scripts/nav.js"></script>
+
   <!-- Link to My External Style Sheet-->
-  <link rel="stylesheet" href="http://xmetal.x10.mx/techHQ/stylesheets/customcss.css">
+  <link rel="stylesheet" href="http://xmetal.x10.mx/techHQ/stylesheets/customCSS.css">
 
   <link href="/techHQ/stylesheets/startpage.css" rel="stylesheet" type="text/css">
   <link href="/techHQ/stylesheets/GAOTD.css" rel="stylesheet" type="text/css">
@@ -40,4 +40,4 @@
 </head>
 <body>
 
-  <?php include $sitePath . "/modules/tech/menus/techNavMenu.tpl"; ?>
+  <?php include $sitePath . "/modules/tech/techNavMenu.tpl"; ?>

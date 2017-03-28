@@ -61,7 +61,7 @@ header
 .footer-2
 {
   background-color: rgb(51, 51, 51);
-  position: relative;
+  position: absolute;;
 }
 
 header nav .navigation-menu
@@ -73,5 +73,16 @@ header nav .navigation-menu
 .nav-link
 {
   padding-bottom: 2px;
+
+}
+
+.container
+{
+  width: 96%;
+}
+
+.card-warning
+{
+  background-color: rgb(255, 255, 255);
 
 }

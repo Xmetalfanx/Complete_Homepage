@@ -132,13 +132,16 @@
       <h4>Linux</h4>
         <ul class="bullets">
           <li class="bullet">
-            <div class="bullet-content"><a href="https://www.kde.org/applications/graphics/gwenview/">Gwenview</a></div>
+            <div class="bullet-content">
+              <a href="https://www.kde.org/applications/graphics/gwenview/">Gwenview</a></div>
           </li>
           <li class="bullet">
-            <div class="bullet-content"><a href="http://docs.xfce.org/apps/ristretto/start">Ristretto</a></div>
+            <div class="bullet-content">
+              <a href="http://docs.xfce.org/apps/ristretto/start">Ristretto</a></div>
           </li>
           <li class="bullet">
-            <div class="bullet-content"><a href="https://pinta-project.com/pintaproject/pinta/">Pinta </a></div>
+            <div class="bullet-content">
+              <a href="https://pinta-project.com/pintaproject/pinta/">Pinta </a></div>
           </li>
         </ul>
 
@@ -188,10 +191,14 @@
       <h3>Windows</h3>
       <ul class="bullets">
         <li class="bullet">
-          <div class="bullet-content"><?php echo $aimpIcon; echo $aimpHome; ?></div>
+          <div class="bullet-content">
+            <?php echo $aimpIcon; echo $aimpHome; ?>
+          </div>
         </li>
         <li class="bullet">
-          <div class="bullet-content"></div><?php echo $foobarIcon; echo $foobarHome; ?>
+          <div class="bullet-content">
+            <?php echo $foobarIcon; echo $foobarHome; ?>
+          </div>
         </li>
       </ul>
 
@@ -208,14 +215,20 @@
       <h3>Windows</h3>
         <ul class="bullets">
           <li class="bullet">
-            <div class="bullet-content"><img src="/techHQ/progIcons/security/AVs/1589__Avast!FreeAntivirus5_icon.png" alt="Avast Icon"/><a href="http://www.avast.com/free-antivirus-download">Avast </a></div>
+            <div class="bullet-content">
+              <img src="/techHQ/progIcons/security/AVs/1589__Avast!FreeAntivirus5_icon.png" alt="Avast Icon"/>
+              <a href="http://www.avast.com/free-antivirus-download">Avast </a>
+            </div>
           </li>
           <li class="bullet">
-            <div class="bullet-content"><img src="/techHQ/progIcons/security/malware/mbam_IDI_MAIN.png" alt="Malwarebytes Icon"/><a href="http://www.malwarebytes.org/">Malwarebytes Anti-Malware  </a></div>
+            <div class="bullet-content">
+              <img src="/techHQ/progIcons/security/malware/mbam_IDI_MAIN.png" alt="Malwarebytes Icon"/>
+              <a href="http://www.malwarebytes.org/">Malwarebytes Anti-Malware  </a></div>
           </li>
           <li class="bullet">
-            <div class="bullet-content"><a href="https://www.emsisoft.com/en/software/eek/">Emsisoft Emergency Toolkit    </a></div>
-          </li><a href="https://www.emsisoft.com/en/software/eek/">Emsisoft Emergency Toolkit</a>
+            <div class="bullet-content">
+              <a href="https://www.emsisoft.com/en/software/eek/">Emsisoft Emergency Toolkit    </a></div>
+          </li>
         </ul>
 
 

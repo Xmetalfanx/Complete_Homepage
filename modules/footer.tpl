@@ -3,6 +3,8 @@
   <ul>
     <li><span>Validation Gif Here</span></li>
   </ul>
+
+  
   <div class="footer-secondary-links">
     <ul>
       <li><a href="javascript:void(0)">Xmetal/Xmetalfanx 2013-*</a></li>
@@ -24,16 +26,5 @@
         </a>
       </li>
     </ul>
-
-  <!--
-  <div class="container-fluid fixed-bottom">
-    <div class="row bg-inverse">
-      <div class="col-lg-6"></div>
-      <div class="col-lg-6"></div>
-    </div>
   </div>
--->
   </footer>
-  
-  </body>
-</html>

@@ -13,14 +13,14 @@
   <script src="http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js"></script>
 
   <!-- Tether-->
-  <script src="http://xmetal.x10.mx/tether133/tether.min.js"></script>
+  <script src="http://xmetal.x10.mx/tether133/js/tether.min.js"></script>
 
   <!-- Bootstrap 4 alpha 6 -->
   <link rel="stylesheet" href="http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css">
   <script src="http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js"></script>
 
 
-  <link href="/linuxHQ/stylesheets/layout.css" rel="stylesheet" type="text/css">    
+  <link href="/linuxHQ/stylesheets/layout.css" rel="stylesheet" type="text/css">
   <link href="/linuxHQ/stylesheets/layoutMed.css" rel="stylesheet" type="text/css" media="(max-width: 800px) and (max-height: 500px)">
 </head>
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->

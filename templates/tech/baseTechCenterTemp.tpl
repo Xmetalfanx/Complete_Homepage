@@ -1,13 +1,6 @@
 <?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
-
 <div class="row">
-  <div class="hidden-xs col-sm-2 col-md-4 col-lg-2 col-xl-2">
-    <div class="card">
-      <div class="card-text">
-        <?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?>
-      </div>
-    </div>
-  </div>
-  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-    <div class="card">
-      <div class="card-text">
+  <div class="hidden-sm-down col-md-2 col-lg-2 col-xl-2"><?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?></div>
+  <div class="hidden-md-up col-xl-12 col-md-12"><?php include $sitePath . '/techHQ/modules/mobile/techTechCenterMob.tpl'; ?></div>
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10"></div>
+</div>

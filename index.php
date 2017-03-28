@@ -2,28 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Xmetal&apos;s Homepage</title>
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
-
-    <script src="/scripts/nav.js" type="text/javascript"></script>
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
-
-
-
-
-    <link href="/stylesheets/layout.css" rel="stylesheet" type="text/css" media="all">
-
+    <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
+    <script src="http://xmetal.x10.mx/scripts/nav.js"></script>
+    <!-- JQuery-->
+    <script src="http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js"></script>
+    <!-- Tether-->
+    <script src="http://xmetal.x10.mx/tether133/js/tether.min.js"></script>
+    <!-- Bootstrap 4 alpha 6 -->
+    <link rel="stylesheet" href="http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css">
+    <script src="http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js"></script>
+    <link href="/stylesheets/customCSS.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
 
     <?php include 'modules/frontnav.php'; ?>
     <div class="hero">
       <div class="hero-content">
-        <p>Please visit</p><img src="/graphics/midfngr.jpg" alt="midfngr thumbnail" class="show-for-medium"><a href="https://www.youtube.com/user/midfingr/undefined" target="_blank" class="show-for-medium"> Midfngr's Youtube Channel</a>
+        <p>Please visit</p><img src="/graphics/midfngr.jpg" alt="midfngr thumbnail" class="show-for-medium">
+        <a href="https://www.youtube.com/user/midfingr/undefined" target="_blank" class="show-for-medium"> Midfngr's Youtube Channel</a>
       </div>
     </div>
     <ul class="bullets">
@@ -38,6 +36,8 @@
         </div>
       </li>
     </ul>
-    <?php include 'modules/footer.tpl'; ?>
   </body>
+
+<?php include $sitePath . "modules/footer.tpl"; ?>
+
 </html>
