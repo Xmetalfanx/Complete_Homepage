@@ -1,0 +1,73 @@
+
+// REALLY not sure if this container-type ID is needed
+#linuxSection
+{
+    @include margin(null auto null auto);
+
+    // Whether DE, Distro, TIC or whatnot ... this is the title
+    .name
+    {
+        // Info is a guess for now
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+
+
+        // put the name class at the start of the line and this is for the icon
+        // both icon and name will be on the same line
+          img
+          {
+            height: 40px;
+            width: 40px;
+          }
+
+    }
+
+    .screenshot
+    {
+      // Values are a guess for now
+      height: 500px;
+      width: 500px;
+
+    }
+
+
+    // DO things like YTREviews and say the USB section even need custom CSs or will
+    // say Bootstrap 4 Cards do?
+    // Same thing with the description section.
+
+    // if "Yes" ... what do i name the class ?
+
+    .linuxContainer
+    {
+        border: 1px solid #000000;
+
+        include padding(2px 2px 2px 2px);
+
+
+    }
+
+
+}
+
+
+#distrowatch {
+  height           : 200px;
+  padding-right    : 1%;
+  @include margin(null auto null auto);
+
+  padding-left     : 1%;
+  overflow         : auto;
+  border           : rgb(0, 0, 0) 2px solid;
+  background-color : rgb(255, 255, 255);
+  font-family      : $TNR;
+  /*margin-left: 50px;*/
+
+  rss-item-full {
+    color : rgb(255, 0, 0);
+  }
+  a:link {
+    color            : rgb(255, 0, 0);
+    background-color : transparent;
+  }
+}
