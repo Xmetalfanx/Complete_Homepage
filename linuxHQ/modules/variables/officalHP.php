@@ -1,3 +1,5 @@
+// Use FooBarHOME for HOMEPAGES  throughout site
+
 <?php
 	// Start Arch Based Distros
 	$antergosHOME = '<a href="http://www.antergos.com" target="_blank">Antergos Homepage</a>';
@@ -7,8 +9,10 @@
 
 	// Start Ubuntu Based
 	$mintHOME = '<a href="http://www.linuxmint.com" target="_blank">Linux Mint Homepage</a>';
-	$ubuntu = '<a href="http://www.ubuntu.com" target="_blank">Ubuntu Homepage</a>';
-	$UMateHome = '<a href="https://ubuntu-mate.org/" target="_blank">Ubuntu Mate Homepage';
+	$ubuntuHOME = '<a href="http://www.ubuntu.com" target="_blank">Ubuntu Homepage</a>';
+	$UMateHOME = '<a href="https://ubuntu-mate.org/" target="_blank">Ubuntu Mate Homepage </a>';
+
+	 $xubuntuHOME = '<a href="http://www.xubuntu.com" target="_blank">Xubuntu Homepage</a>';
 
 	// End of Ubuntu Based
 

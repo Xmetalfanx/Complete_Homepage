@@ -1,3 +1,5 @@
+@import "01-plugins/plugins-dir";
+@import "03-variables/variables-dir";
 
 // REALLY not sure if this container-type ID is needed
 #linuxSection
@@ -26,7 +28,6 @@
     .screenshot
     {
       // Values are a guess for now
-      height: 500px;
       width: 500px;
 
     }
@@ -40,16 +41,12 @@
 
     .linuxContainer
     {
-        border: 1px solid #000000;
-
-        include padding(2px 2px 2px 2px);
-
+      border: 1px solid #000000;
+      @include padding(2px 2px 2px 2px);
 
     }
 
-
 }
-
 
 #distrowatch {
   height           : 200px;

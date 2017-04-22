@@ -4,7 +4,7 @@
     <li><span>Validation Gif Here</span></li>
   </ul>
 
-  
+
   <div class="footer-secondary-links">
     <ul>
       <li><a href="javascript:void(0)">Xmetal/Xmetalfanx 2013-*</a></li>
@@ -28,3 +28,6 @@
     </ul>
   </div>
   </footer>
+
+</body>
+</html>

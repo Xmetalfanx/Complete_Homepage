@@ -1,11 +1,11 @@
 <?php
 
-      $title = 'Distribution Section -  Antergos';
+    $title = 'Distribution Section -  Antergos';
 
     $name = 'Antergos (formerly Cinnarch)';
     $family = 'Arch';
     $icon = '<img src="/graphics/icons/antergos.png" width="90" height="90"  alt="Antergos Icon"/>';
-    $homepage = '<a href="http://www.antergos.com/" target="new">http://www.antergos.com/</a> ';
+    $homepage = ' <?php echo $antergosHOME; ?> ';
     $download = '<a href="http://www.antergos.com/try-it/" target="_blank">http://www.antergos.com/try-it/</a> ';
     $version = 'May 2014 ';
     $forum = '<span class="Info"> <a href="http://forum.antergos.com/">http://forum.antergos.com/</a></span> ';
@@ -21,8 +21,8 @@
     $recommend = 'Yes';
     $newbRecommend = 'No';
 
-
     $EXP = &$antergosExp;
+
     $experience = <<<EXP
 
     Downloaded in June 2014, and have only tried the KDE edition. This may be the BEST (and I am not a KDE fan) I have ever seen KDE ..
@@ -35,8 +35,8 @@ EXP;
 
 COM;
 
-        $mm 			          = ' ';
-        $kaddy 			        = ' ';
+        $mm 			        = ' ';
+        $kaddy 			       = ' ';
         $dasGregor 		      = ' ';
         $RLZ        	      = ' ';        // Run Level Zero
         $JLT     		        = ' ';                         // Jeff Linux Turner
@@ -54,9 +54,7 @@ COM;
         a pre-configured Arch System that is completely compatible with the Arch User Repository (AUR).
 
 DES;
-?>
 
-<?php 
 
 $sitePath = "/home/xmetalx1/public_html";
 

@@ -1,3 +1,5 @@
+// Includes both a link to my page and the Homepages back to back ... I could use variable to make THESE variables but that could get messy 
+
 <?php
 	// Start Arch Based Distros
 
@@ -10,19 +12,19 @@
 	$manjaroMM = '<a href="/linuxHQ/distros/arch/mmManjaro.php" >Manjaro by MM<a>
 		     <a href="http://www.manjaro.com" target="_blank">Manjaro by MM Homepage</a>';
 
-	$arch = '<a href="/linuxHQ/distros/arch/mmManjaro.php" >Arch Linux <a>
-		     <a href="http://www.manjaro.com" target="_blank">Manjaro by MM Homepage</a>';
+	$arch = '<a href="/linuxHQ/distros/arch/arch.php" >Arch Linux <a>
+		     <a href="http://www.manjaro.com" target="_blank">Arch Linux</a>';
 	// End Arch Based
 
 
 	// Start Ubuntu Based
-	$mint = '<a href="/linuxHQ/distros/ubuntu/linuxMint.php" >Linux Mint<a>
+	$mintPage = '<a href="/linuxHQ/distros/ubuntu/linuxMint.php" >Linux Mint<a>
 		     <a href="http://www.linuxmint.com" target="_blank">Linux Mint Homepage</a>';
 
-	$deepin = '<a href="/linuxHQ/distros/ubuntu/deepin.php" >Deepin<a>
+	$deepinPage = '<a href="/linuxHQ/distros/ubuntu/deepin.php" >Deepin<a>
 		     <a href="http://www.deepin.com" target="_blank">Deepin Homepage</a>';
 
-	$ubuntu = '<a href="/linuxHQ/distros/ubuntu/ubuntu.php" >Ubuntu<a>
+	$ubuntuPage = '<a href="/linuxHQ/distros/ubuntu/ubuntu.php" >Ubuntu<a>
 		     <a href="http://www.ubuntu.com" target="_blank">Ubuntu Homepage</a>';
 
 	// End of Ubuntu Based
