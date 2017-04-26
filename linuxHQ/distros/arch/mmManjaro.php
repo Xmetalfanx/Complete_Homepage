@@ -38,7 +38,8 @@ EXP;
 	  .though for me, using this distribution, is like using Manjaro that has already had the
 	  customizations I personally like to do, ALREADY DONE.</p>
 	  <p>This is one of my favorites, to be honest.</p>
-
+        include $sitePath . '/linuxHQ/modules/distros.php';
+        include $sitePath . '/linuxHQ/modules/sshots.php';
 COM;
 
         $mm                = ' ';
@@ -55,12 +56,7 @@ COM;
         $UrAvgLinuxUser    = ' ';
 
 
-
-
-        $sitePath = "/home/xmetalx1/public_html";
-
-        include $sitePath . '/linuxHQ/modules/distros.php';
-        include $sitePath . '/linuxHQ/modules/sshots.php';
-        include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+      $sitePath = "/home/xmetalx1/public_html";
+      include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
         ?>

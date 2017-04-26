@@ -33,8 +33,11 @@
         $midFingr = ' ' ;
         $UrAvgLinuxUser = ' ';
 
-         $title = 'Distribution Section -Rosa ';
+       $title = 'Distribution Section - Rosa ';
+
+
+       $sitePath = "/home/xmetalx1/public_html";
+
+       include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>

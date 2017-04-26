@@ -40,11 +40,8 @@
 
   $title = 'Distribution Section - Solus';
 
-
   $sitePath = "/home/xmetalx1/public_html";
 
-  include $sitePath . '/linuxHQ/modules/distros.php';
-  include $sitePath . '/linuxHQ/modules/sshots.php';
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>

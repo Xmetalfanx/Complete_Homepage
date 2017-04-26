@@ -10,9 +10,9 @@
       $DE = '(Custom) ';
       $distroSshot = &$zorinSShot1;
 
-      $target = 'New User';
-        $type = '';
-     $software = 'Based on Ubuntu\'s Release Cycle';
+    $target = 'New User';
+    $type = '';
+    $software = 'Based on Ubuntu\'s Release Cycle';
 
      $description = <<<DES
        Zorin OS while not for everyone (mainly .. .advanced Linux users), it is perhaps (other than Linux Mint) one of my top
@@ -50,8 +50,7 @@ DES;
 
   $sitePath = "/home/xmetalx1/public_html";
 
-  include $sitePath . '/linuxHQ/modules/distros.php';
-  include $sitePath . '/linuxHQ/modules/sshots.php';
+
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
   ?>

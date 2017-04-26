@@ -48,6 +48,9 @@ COM;
 DES;
 
 
-?>
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
+$sitePath = "/home/xmetalx1/public_html";
+
+include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
+?>

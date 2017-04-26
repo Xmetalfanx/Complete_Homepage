@@ -12,7 +12,7 @@
     $distroWatch = ' ';
     $DE = 'Mate, Cinnamon';
     $distroSshot = ' ';
-	$similar = 'Debian with Cinnamon or Mate installed OR Point Linux  OR a "Cross between Linux Mint (Ubuntu based) and Debian';
+	   $similar = 'Debian with Cinnamon or Mate installed OR Point Linux  OR a "Cross between Linux Mint (Ubuntu based) and Debian';
 
     $EXP = &$lmdeExp;
 
@@ -53,8 +53,6 @@ DES;
 
     $sitePath = "/home/xmetalx1/public_html";
 
-    include $sitePath . '/linuxHQ/modules/distros.php';
-    include $sitePath . '/linuxHQ/modules/sshots.php';
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
     ?>

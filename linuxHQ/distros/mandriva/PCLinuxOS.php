@@ -12,9 +12,9 @@
 
 
 	$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJcmkhysmXDXLmlmRvM3I8BZ" target="_blank">PCLinuxOS Review Playlist</a>    ';
-		$TweakPL = '   ';
+	$TweakPL = '   ';
 
-   $EXP = &$PCLOSExp;
+  $EXP = &$PCLOSExp;
 
 	$recommend = ' ';
 	$newbRecommend = ' ' ;
@@ -40,11 +40,8 @@
 
   $title = 'Distribution Section - PCLinuxOS';
 
-
   $sitePath = "/home/xmetalx1/public_html";
 
-  include $sitePath . '/linuxHQ/modules/distros.php';
-  include $sitePath . '/linuxHQ/modules/sshots.php';
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
   ?>

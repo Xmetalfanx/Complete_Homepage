@@ -43,5 +43,9 @@ DES;
 
   $title = 'Distribution Section - Kubuntu';
 
+
+	$sitePath = "/home/xmetalx1/public_html";
+
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+
 ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDistro.php"); ?>
