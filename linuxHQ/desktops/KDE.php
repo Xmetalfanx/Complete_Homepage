@@ -6,17 +6,17 @@
 
     $deName = 'KDE';
     $deSShot = $manjaroKDE5 . $suseKDE1 . $antergosKDE1 . $kaosKDE1;
-    $deFeatured =  '<ul> 
+    $deFeatured =  '<ul>
 											<li>' . $mintHP  . '</li>
 											<li> '. $fedoraHP . '</li>
 											<li>' . $suseHP . '</li>
-											
+
 											<li>Kubuntu </li>';
-    
+
     $deReq = ' ';
     $deClass = 'Heavyweight';
-    	
-    	
+
+
     	// installs
 	$installUbuntu = 'sudo apt-get install kde-standard OR sudo apt-get install kde-full';
 $installMint =	' sudo apt-get install mint-meta-kde';
@@ -30,6 +30,7 @@ $installGentoo = ' ';
 
 $title = 'DE/WM Section - KDE4 ';
 
-?>
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDE.php"); ?>
+?>

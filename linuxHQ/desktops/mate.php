@@ -1,7 +1,4 @@
 <?php
-   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
-   include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
-
 
    $deName = 'Mate';
     $deSShot = $mintMateOff . $mintMate1 . $mintMate2;
@@ -27,6 +24,10 @@
 
 		$title = 'DE/WM Section - Mate ';
 
+
+		$sitePath = "/home/xmetalx1/public_html";
+  	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+
 ?>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -21,5 +21,7 @@ $installGentoo = 'yum install @xfce-desktop ';
 
 $title = 'DE/WM Section - XFCE ';
 
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+
 ?>
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

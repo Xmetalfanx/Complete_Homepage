@@ -1,13 +1,9 @@
 <?php
 
-include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
-include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
-
-
     $deName = 'Openbox';
     $deSShot = '';
     $deFeatured = 'Archbang, Crunchbang';
-	$deClass = 'Lightweight'; 
+	$deClass = 'Lightweight';
 
    // installs
     $installUbuntu = 'sudo apt-get install openbox';
@@ -21,7 +17,7 @@ include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
 
     $title = 'DE/WM Section - KDE4 ';
 
+		$sitePath = "/home/xmetalx1/public_html";
+  	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
-
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDE.php"); ?>

@@ -1,9 +1,5 @@
 <?php
 
-		include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
-		include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
-
-
     $deName = 'Cinnamon';
     $deSShot = $mintCin1 . $fedoraCinn1;
     $deFeatured = '<ul>
@@ -45,6 +41,7 @@
 		$title = 'DE/WM Section - Cinnamon ';
 
 
-?>
+				$sitePath = "/home/xmetalx1/public_html";
+				include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/linux/baseLinuxNDE.php"); ?>
+		?>

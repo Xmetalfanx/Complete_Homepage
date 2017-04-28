@@ -4,7 +4,7 @@
 		$title = 'Linux Desktop (AKA Version) Section';
 
 		$sitePath = "/home/xmetalx1/public_html";
-		include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+		include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
 
@@ -21,6 +21,7 @@
     </div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><a href="http://developer.linuxmint.com/">Cinnamon</a></h4>
@@ -33,6 +34,7 @@
     </div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><a href="https://www.gnome.org/">Gnomeshell/Gnome 3</a></h4>
@@ -44,6 +46,7 @@
     </div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><a href="http://lxde.org/">LXDE/LXQT</a></h4>
@@ -55,6 +58,8 @@
     </div>
   </div>
 </div>
+
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><a href="http://xmetal.x10.mx/linuxHQ/desktops/mate.php" target="_blank">Mate</a></h4>
@@ -68,6 +73,8 @@
     </div>
   </div>
 </div>
+
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><a href="/linuxHQ/desktops/KDE.php">Plasma 5 (aka &apos;KDE 5&apos;)</a></h4>
@@ -79,6 +86,7 @@
     </div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"><a href="http://www.xfce.org/">XFCE</a></h4>
@@ -91,11 +99,14 @@
       </div>
     </div>
   </div>
+
   <div class="card">
     <div class="card-block">
       <div class="card-text"><a href="https://renewablepcs.wordpress.com/about-linux/kde-gnome-or-xfce/?_utm_source=1-2-2" target="_blank">GOOD SITE with default app info and spec information about Desktop Envirnoments.. much of the info the specs (not counting my thoughts) are from this site ... all credit goes to this website, linked here</a></div>
     </div>
   </div>
-</div>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+
+</div></div>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

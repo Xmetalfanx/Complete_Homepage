@@ -1,0 +1,52 @@
+//output:linuxDistroContent.html
+
+.container
+	.row
+		.col-lg-3
+			<?php echo $icon; ?>
+		.col-lg-9
+			<?pep echo $name; ?>
+
+	<?php echo $sitePath . '/linuxHQ/modules/distroTable.php'; ?>
+	<?php echo $sitePath . '/linuxHQ/modules/ytsection.php'; ?>
+
+	.card
+		.card-block
+			h4.card-title Description
+			.card-text
+				<?php echo $description; ?>
+
+
+	.bold Screenshots
+	#distroShots
+		<?php echo $distroSshot; ?>
+		br 
+
+	.card
+		.card-block
+			h3.card-title Reviews
+				<?php echo $sitePath . '/linuxHQ/modules/linuxDistroReviewer.php' ; ?>
+
+.card
+	.card-block
+		h4.card-title My Experience: 
+		.card-text
+			<?php echo $EXP; ?> 
+			br
+			<?php echo $experience; ?> 
+			br
+			br
+
+			.boldUnderline Any other comments I have about this distro:
+				<?php echo $otherComments; ?>
+				br 
+				<?php echo . '/linuxHQ/modules/distroRec.php'; ?>
+
+.card
+	.card-block
+		h4.card-title USB Drive Creation Experience
+		.card-text
+			p <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
+
+		#usb
+		<?php include $sitePath . '/linuxHQ/modules/usb.php'; ?>

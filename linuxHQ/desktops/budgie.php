@@ -13,7 +13,11 @@
     						sudo apt-get update <br />
     						sudo apt-get install budgie-desktop <br />
     						Reference: AJ Reissig https://www.youtube.com/watch?v=MKFkHD6kbU4';
-          $installMint =	'??? ATM';
+
+		$sitePath = "/home/xmetalx1/public_html";
+		include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+
+?>  $installMint =	'??? ATM';
           $installDebian = ' ';
           $installArch = '(via <a href="https://aur.archlinux.org/packages/budgie-desktop-git/ target="_blank">Arch Unoffical Repo </a>  ';
           $installFedora = 'Fedora 22/23 <br />
@@ -39,4 +43,4 @@
 
 ?>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -27,12 +27,15 @@ Desktops
 	</li>
 </ul>
 
-
-
-
-<div class="family">
-
+<br />
+Misc.
+<ul class="list-group">
+	<li class="list-group-item">
 		<a href="/linuxHQ/newUserHQ/DesktopE.php">Desktop Environment FAQs</a><br />
-		<a href="/linuxHQ/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion) </a>
-	</div>
+	</li>
 
+	<li class="list-group-item">
+		<a href="/linuxHQ/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion) </a>
+	</li>
+
+</ul>

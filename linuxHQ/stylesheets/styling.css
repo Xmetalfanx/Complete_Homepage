@@ -2906,6 +2906,7 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
 .navigation {
   max-height: 80px; }
 
+
 header ul {
   position: absolute;
   right: 0; }
@@ -2930,6 +2931,6 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
 .footer-2 {
   background-color: #333333;
   bottom: 0;
-  position: absolute; }
+   }
 
 /*# sourceMappingURL=styling.css.map */
