@@ -1,6 +1,6 @@
+<?php
 // Use FooBarHOME for HOMEPAGES  throughout site
 
-<?php
 	// Start Arch Based Distros
 	$antergosHOME = '<a href="http://www.antergos.com" target="_blank">Antergos Homepage</a>';
 	$manjaroHOME = '<a href="http://www.manjaro.com" target="_blank">Manjaro Homepage</a>';
@@ -11,8 +11,12 @@
 	$mintHOME = '<a href="http://www.linuxmint.com" target="_blank">Linux Mint Homepage</a>';
 	$ubuntuHOME = '<a href="http://www.ubuntu.com" target="_blank">Ubuntu Homepage</a>';
 	$UMateHOME = '<a href="https://ubuntu-mate.org/" target="_blank">Ubuntu Mate Homepage </a>';
-
-	 $xubuntuHOME = '<a href="http://www.xubuntu.com" target="_blank">Xubuntu Homepage</a>';
+	$lubuntuHOME = '<a href="http://lubuntu.net targe="_blank"> Lubuntu Homepage</a>';
+	$xubuntuHOME = '<a href="http://www.xubuntu.com" target="_blank">Xubuntu Homepage</a>';
+	$linuxLiteHOME = '<a href="http://www.linuxliteos.com" target="_blank">Linux Lite Homepage</a>';
+	$elementaryHOME = '<a href="http://elementary.io target="_blank">ElementaryOS </a>';
+	$pepperMintHome = 'Peppermint Homepage';
+	$LXLEHOME = 'LXLE Homepage';
 
 	// End of Ubuntu Based
 

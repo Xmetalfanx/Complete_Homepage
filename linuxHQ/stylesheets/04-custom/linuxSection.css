@@ -601,17 +601,21 @@ hr {
   margin-right: auto;
   margin-left: auto; }
   #linuxSection .name {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: underline; }
     #linuxSection .name img {
       height: 40px;
       width: 40px; }
-  #linuxSection .screenshot {
-    width: 500px; }
-  #linuxSection .linuxContainer {
-    border: 1px solid #000000;
-    padding: 2px; }
+
+.screenshots img {
+  width: 500px; }
+.screenshots .linuxContainer {
+  border: 1px solid #000000;
+  padding: 2px;
+  box-shadow: 2px 2px 2px #000000;
+  margin-right: 2px;
+  margin-left: 2px; }
 
 #distrowatch {
   height: 200px;

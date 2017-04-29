@@ -1,6 +1,8 @@
-<?php   $sitePath = "/home/xmetalx1/public_html"; ?>
-<?php   include $sitePath . "/templates/linux/massLinuxIncludes.tpl"; ?>
-<?php   include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
+<?php
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
+
+?>
 
 
 <div class="row">

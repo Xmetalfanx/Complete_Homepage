@@ -1,5 +1,8 @@
 <?php
 
+
+	$test = 'Testing SS files';
+
 	// Mint Screenshots Start
 	$mintCinSS1 = '<a href="/linuxHQ/screenshots/ubuntubased/mint.jpg">
 					<img src="/linuxHQ/screenshots/ubuntubased/mint.jpg" alt="Mint Cinnamon screenshot" /></a>';
@@ -35,8 +38,8 @@ $UMateSS1 = '<a href="/linuxHQ/screenshots/ubuntubased/umate1.jpg">
 $lliteSS1 = ' <a href="/linuxHQ/screenshots/ubuntubased/linuxlite.jpg">
 							<img src="/linuxHQ/screenshots/ubuntubased/linuxlite.jpg" alt="Linux Lite screenshot"/></a>   ';
 
-$xubuntuSS1 = '<a href="/linuxHQ/screenshots/ubuntubased/xubuntu1.png">
-							<img src="/linuxHQ/screenshots/ubuntubased/xubuntu1.png" alt="Xubuntu Screenshot"/></a> ';
+$xubuntuSS1 = '<a href="/linuxHQ/screenshots/ubuntu/xubuntu1.png">
+							<img src="/linuxHQ/screenshots/ubuntu/xubuntu1.png" alt="Xubuntu Screenshot"/></a> ';
 
 $lubuntuSS1 = '<a href="/linuxHQ/screenshots/ubuntu/lubuntu1.png">
 							<img src="/linuxHQ/screenshots/ubuntu/lubuntu1.png" alt="Lubuntu Screenshot"/></a> ';
@@ -84,7 +87,7 @@ $budgieSS3 = ' <a href="/linuxHQ/screenshots/solus/budgie3.jpg">
 
 
 // Fedora Based Screenshots
-$fedoraGnomeSS1 = '<a href="/linuxHQ/screenshots/DE/fedoraGnome1.jpg">
+$fedoraGnome_SS1 = '<a href="/linuxHQ/screenshots/DE/fedoraGnome1.jpg">
  								<img src="/linuxHQ/screenshots/DE/fedoraGnome1.jpg" alt="Fedora Gnome Screenshot"/>	</a> ';
 
 $fedoraCinnSS1 =	 '<a href=" https://spins.fedoraproject.org/cinnamon/ " target="_blank">

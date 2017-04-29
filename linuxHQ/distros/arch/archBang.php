@@ -20,7 +20,7 @@
     $recommend = '';
     $recComments = ' ';
 
-    	$newbRecommend = ' ';
+    $newbRecommend = ' ';
 		$newbRecComments = ' Basically &quot;No&quot;, just because I wouldn\'t recommend an Arch based Distro to any new user ';
 
        $mm 			= ' ';

@@ -1,145 +1,156 @@
 //output:desktopIndex.html
 
-// Note to Self: div Home IS needed ... i GOOFED .... the title tag should be a link to MY PAGE on the DE while the Home DIV tag is a link to the Desktop's Homepage
+#LinuxSection
+	.card
+		.card-block
+			h4.card-title
+				a(href='https://solus-project.com/budgie/') Budgie
 
-.card
-	.card-block
-		h4.card-title
-			a(href='https://solus-project.com/budgie/') Budgie
+			.card-text.hidden-xs.hidden-sm
+					.screenshots
+						<?php echo $budgieSS1 . $budgieSS2 . $budgieSS3; ?>
 
-		.card-text
-			.DEs.hidden-xs.hidden-sm
-				<?php echo $budgie1 . $budgie3 . $budgie3; ?>
-				// Plan, so I dont forget: desktopInfo contains both panels, dePanel will be the same for both panels AND DEFeatures and DESpecs SHOULD be removable -->
-				.dePanel
-					span.title Distros that feature:
+					div.font-weight-bold Distros that feature:
 					| Solus (Main distro), Budgie Remix (Budgie on Ubuntu base)
 
-				.dePanel
-					span.title CPU speed:
-					span.title Memory for Comfortable USE:
-					span.title My Comments:
+					div.font-weight-bold CPU speed:
+					div.font-weight-bold Memory for Comfortable USE:
+					div.font-weight-bold My Comments:
 
-.card
-	.card-block
-		h4.card-title
-			a(href='http://developer.linuxmint.com/') Cinnamon
-		.card-text
-			.DEs.hidden-xs.hidden-sm
-				<?php echo $mintCin1 . $fedoraCinn1; ?>
-				// Plan, so I dont forget: desktopInfo contains both panels, dePanel will be the same for both panels AND DEFeatures and DESpecs SHOULD be removable
+	.card
+		.card-block
+			h4.card-title
+				a(href='http://developer.linuxmint.com/') Cinnamon
+			.card-text.hidden-xs.hidden-sm
+				.screenshots
+					<?php echo $mintCinSS1 . $fedoraCinnSS1; ?>
 
-			.dePanel
-				span.title Distros that feature:
+				div.font-weight-bold Distros that feature:
 				<?php echo "Linux Mint" . $fedoraHOME . "Arch"; ?>
-			.dePanel
-				span.title CPU speed:
+
+			.linuxContainer Requirenments
+			
+				div.font-weight-bold CPU speed:
 				| 512MB
-				span.title Memory:
+				div.font-weight-bold Memory:
 				| 1GHz
-				span.title My Comments:
+				div.font-weight-bold My Comments:
 				| I would say a MINIMUM OF maybe in the 1.8GHz+ for the processor (guessing there) ... and at least 2GB of RAM for COMFORTABLE usage, myself
 
 
-.card
-	.card-block
-		h4.card-title
-			a(href='https://www.gnome.org/') Gnomeshell/Gnome 3
-		.card-text
-			.DEs
-				<?php echo $fedoraGnome1 . $suseGnome1; ?>
-				.dePanel
-					span.title Distros that Feature:
+	.card
+		.card-block
+			h4.card-title
+				a(href='https://www.gnome.org/') Gnomeshell/Gnome 3
+
+			.card-text
+				.screenshots
+				<?php echo $fedoraGnome_SS1 . $suseGnome_SS1; ?>
+
+				.linuxContainer
+					div.font-weight-bold Distros that Feature:
 					<?php echo $archHOME . $fedoraHOME . $suseHOME ?>
-				.dePanel
-						span.title CPU speed:
+
+				.linuxContainer
+						div.font-weight-bold CPU speed:
 						| 768MB
-						span.title Memory for Comfortable USE:
+						div.font-weight-bold Memory for Comfortable USE:
 						| 400MHz
-						span.title My Comments:
+						div.font-weight-bold My Comments:
 						| There is NO WAY I can respectfully agree with this...  My 2.2Ghz dualcore, 4GB Toshiba from 2009, would be an indicator OF THE MINIMUM I would even think of .. these specs have to be an UN-updated spec for Gnome2 but not Gnome3/Gnomeshell .. see "Mate" for the so called continuation of Gnome2, below
 
-.card
-	.card-block
-		h4.card-title
-			a(href='http://lxde.org/') LXDE/LXQT
-		.card-text
-			.DEs
-				<?php	echo $lxleSShot1; ?>
-				.dePanel
-					span.title Distros that Feature:
-					<?php echo Lubuntu . LXLE . PepperMint . $archHOME; ?>
-				.dePanel
-					span.title CPU speed:
+	.card
+		.card-block
+			h4.card-title
+				a(href='http://lxde.org/') LXDE/LXQT
+
+			.card-text
+				.screenshots
+
+					<?php	echo $lxleSS1; ?>
+
+				.linuxContainer
+					div.font-weight-bold Distros that Feature:
+					<?php echo $lubuntuHOME . $LXLEHOME . $PepperMintHOME . $archHOME; ?>
+
+				.linuxContainer
+					div.font-weight-bold CPU speed:
 					| 128MB
-					span.title Memory:
+					div.font-weight-bold Memory:
 					| 266MHz
-					span.title My Comments:
+					div.font-weight-bold My Comments:
 					| I am not 100% sure on these recommendations, though if there is one option listed for "lower end specs" that may be fine  with specs like these... LXDE/LXQT (note to self: put in link to explain LXDE-vs-LXQT here) would be the option that works good on lower end hardware.
 
-.card
-	.card-block
-		h4.card-title
-			a(href='http://xmetal.x10.mx/linuxHQ/desktops/mate.php', target='_blank') Mate
-		.card-text
-			p Updated DE that some &#39;consider&#39; a continuation of &#39;Gnome 2&#39; and it’s look and feel
-			.DEs
-				<?php echo $mintMate1 . $mintMate2; ?>
-			.home
-				a(href='http://mate-desktop.org/', target='_blank') Mate Homepage
-				.dePanel
-					span.title Distros that Feature:
-					<?php echo $UMateHome . $fedoraHOME . $mintHOME; ?>
-				.dePanel
-					span.title CPU speed:
-					| 512MB
-					span.title Memory:
-					| 800MHz
-					span.title My Comments:
-					| I am not sure what I would say for "Comfortable" usage daily, though I have the Ubuntu Mate Pi2 version here, and while not perfect at times ... consider the cost of the Pi2 + accessories (for an example) ... it is REALLY not too bad
+	.card
+		.card-block
+			h4.card-title
+				a(href='http://xmetal.x10.mx/linuxHQ/desktops/mate.php', target='_blank') Mate
+			.card-text
+				p Updated DE that some &#39;consider&#39; a continuation of &#39;Gnome 2&#39; and it’s look and feel
 
-.card
-	.card-block
-		h4.card-title
-			a(href='/linuxHQ/desktops/KDE.php') Plasma 5 (aka &apos;KDE 5&apos;)
-		.card-text
-		.DEs
-			<?php echo $antergosKDE1 . $manjaroKDE5 . $kaosKDE1; ?>
-			.home
-				span.title Home
-					a(href='https://www.kde.org/workspaces/plasmadesktop/', target='_blank')
-					| Plasma 5 (aka &apos;KDE 5&apos;)
-					.dePanel
-						span.title Distros that feature:
-						<?php echo Antergos, $archHOME, $suseHOME , $fedoraHOME , Kubuntu , $mintHOME; ?>
+				.screenshots
+					<?php echo $mintMateSS1 . $mintMateSS2; ?>
 
-					.dePanel
-						span.title CPU speed:
-						| 1GHz
-						span.title Memory:
-						| 615MB
+				.home
+					a(href='http://mate-desktop.org/', target='_blank') Mate Homepage
+					.linuxContainer
+						div.font-weight-bold Distros that Feature:
+						<?php echo $UMateHome . $fedoraHOME . $mintHOME; ?>
+
+					.linuxContainer
+						div.font-weight-bold CPU speed:
+						| 512MB
+						div.font-weight-bold Memory:
+						| 800MHz
+						div.font-weight-bold My Comments:
+						| I am not sure what I would say for "Comfortable" usage daily, though I have the Ubuntu Mate Pi2 version here, and while not perfect at times ... consider the cost of the Pi2 + accessories (for an example) ... it is REALLY not too bad
+
+
+	.card
+		.card-block
+			h4.card-title
+				a(href='/linuxHQ/desktops/KDE.php') Plasma 5 (aka &apos;KDE 5&apos;)
+			.card-text
+
+				.screenshots
+					<?php echo $antergosKDE1 . $manjaroKDE5 . $kaosKDE_SS1; ?>
+
+					div.font-weight-bold
+						a(href='https://www.kde.org/workspaces/plasmadesktop/', target='_blank')
+						| Plasma 5 (aka &apos;KDE 5&apos;)
+
+						.linuxContainer
+							span.title Distros that feature:
+							<?php echo $antergosHOME, $archHOME, $suseHOME , $fedoraHOME , $kubuntuHOME , $mintHOME; ?>
+
+						.linuxContainer
+							span.title CPU speed:
+							| 1GHz
+							span.title Memory:
+							| 615MB
+							span.title My Comments:
+							| I am not sure if these are KDE4 or Plasma 5 specs listed above though I would say at LEAST 2GB of RAM and 1.7GHZ+ for the processor.
+
+	.card
+		.card-block
+			h4.card-title
+				a(href='http://www.xfce.org/') XFCE
+			.card-text
+				.screenshots
+					<?php echo $manjaroXFCE1 . $xubuntuSS1; ?>
+
+					.linuxContainer
+						div.font-weight-bold Distros that feature:
+							<?php $mintHOME . $xubuntuHOME . $fedoraHOME . $suseHOME; ?>
+
+					.linuxContainer
+						div.font-weight-bold CPU speed:
+						| 192 MB
+						div.font-weight-bold Memory for Comfortable USE:
+						| 300Mhz
+
 						span.title My Comments:
-						| I am not sure if these are KDE4 or Plasma 5 specs listed above though I would say at LEAST 2GB of RAM and 1.7GHZ+ for the processor.
-
-.card
-	.card-block
-		h4.card-title
-			a(href='http://www.xfce.org/') XFCE
-		.card-text
-			.DEs
-				<?php echo $manjaroXFCE1 . $xubuntu1; ?>
-				.dePanel
-					span.title Distros that feature:
-						<?php $mintHOME . Xubuntu . $fedoraHOME . $suseHOME; ?>
-
-				.dePanel
-					span.title CPU speed:
-					| 192 MB
-					span.title Memory for Comfortable USE:
-					| 300Mhz
-
-					span.title My Comments:
-					| I'd say it may run at those specs above, though my thinking is at least 512MB of RAM to 768MB MINIMUM and maybe oh ...  1GHz for "regular" usage of what you'd probably want to do
+						| I'd say it may run at those specs above, though my thinking is at least 512MB of RAM to 768MB MINIMUM and maybe oh ...  1GHz for "regular" usage of what you'd probably want to do
 
 
 	.card
@@ -148,4 +159,4 @@
 				a(href='https://renewablepcs.wordpress.com/about-linux/kde-gnome-or-xfce/?_utm_source=1-2-2', target='_blank')
 					| GOOD SITE with default app info and spec information about Desktop Envirnoments.. much of the info the specs (not counting my thoughts) are from this site ... all credit goes to this website, linked here
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

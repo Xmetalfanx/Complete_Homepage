@@ -1,31 +1,30 @@
 //output:linuxDistroContent.html
 
-.container
-	.row
-		.col-lg-3
-			<?php echo $icon; ?>
-		.col-lg-9
-			<?pep echo $name; ?>
+.row
+	.col-lg-1
+		<?php echo $icon; ?>
+	.col-lg-11.name
+		<?php echo $name; ?>
 
-	<?php echo $sitePath . '/linuxHQ/modules/distroTable.php'; ?>
-	<?php echo $sitePath . '/linuxHQ/modules/ytsection.php'; ?>
+<?php include $sitePath . '/linuxHQ/modules/sections/distroSection/distroTable.tpl'; ?>
+<?php include $sitePath . '/linuxHQ/modules/ytsection.tpl'; ?>
 
-	.card
-		.card-block
-			h4.card-title Description
-			.card-text
-				<?php echo $description; ?>
+.card
+	.card-block
+		h4.card-title Description
+		.card-text
+			<?php echo $description; ?>
 
 
-	.bold Screenshots
-	#distroShots
-		<?php echo $distroSshot; ?>
-		br 
+.bold Screenshots
+.screenshots
+	<?php echo $distroSshot; ?>
+	br 
 
-	.card
-		.card-block
-			h3.card-title Reviews
-				<?php echo $sitePath . '/linuxHQ/modules/linuxDistroReviewer.php' ; ?>
+.card
+	.card-block
+		h3.card-title Reviews
+			<?php include $sitePath . '/linuxHQ/modules/section/linuxDistroReviewer.php' ; ?>
 
 .card
 	.card-block
@@ -40,7 +39,7 @@
 			.boldUnderline Any other comments I have about this distro:
 				<?php echo $otherComments; ?>
 				br 
-				<?php echo . '/linuxHQ/modules/distroRec.php'; ?>
+				<?php include $sitePath . '/linuxHQ/modules/distroRec.tpl'; ?>
 
 .card
 	.card-block
@@ -49,4 +48,4 @@
 			p <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
 
 		#usb
-		<?php include $sitePath . '/linuxHQ/modules/usb.php'; ?>
+		<?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>

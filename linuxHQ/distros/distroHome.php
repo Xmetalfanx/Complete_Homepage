@@ -2,6 +2,7 @@
 
 		$title = 'Linux Distribution (AKA Version) Section';
 	  $sitePath = "/home/xmetalx1/public_html";
+
 		include $sitePath . "/templates/linux/blankTemplates/baseLinuxDistroBlank.tpl";
 ?>
 
@@ -10,24 +11,25 @@
 <div id="linuxSection">
   <div class="card">
     <div class="card-block">
-      <h4 class="card-title">
-				<img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/><?php echo $mintHP; ?></h4>
+      <h4 class="card-title">    <img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/><?php echo $mintMP; ?></h4>
       <div class="card-text">
-        <div class="screenshots"> <?php echo $mintCin1; ?></div>
-        <div class="distroHome"><? echo $mintHOME; ?></div>
-        <div class="dwHome"><?php echo $mintDW; ?></div>
-        <div class="specs"></div>
+        <div class="screenshots">
+
+          <?php echo $mintCinSS1; ?>
+        </div>
+        <div class="linuxContainer"><? echo $mintHOME; ?></div>
+        <div class="linuxContainer"><?php echo $mintDW; ?></div>
       </div>
     </div>
   </div>
   <div class="card">
     <div class="card-block">
-      <h4 class="card-title"><?php echo $ubuntuMateHP; ?></h4>
+      <h4 class="card-title"><?php echo $ubuntuMateMP; ?></h4>
       <div class="card-text">
-        <div class="screenshots">  <?php echo $UMateSS1; ?></div>
-        <div class="distroHome"><?php echo $UMateHOME;  ?></div>
-        <div class="dwHome"><?php echo UMateDW; ?></div>
-        <div class="specs">
+        <div class="screenshots"> <?php echo $UMateSS1; ?></div>
+        <div class="linuxContainer"><?php echo $UMateHOME;  ?></div>
+        <div class="linuxContainer"><?php echo $UMateDW; ?></div>
+        <div class="linuxContainer">
           <p>Minimum Requirements</p>
           <ul>
             <li>Pentium III 750 megahertz</li>
@@ -46,20 +48,27 @@
   </div>
   <div class="card">
     <div class="card-block">
-      <h4 class="card-title">a(href='http://xmetal.x10.mx/linuxHQ/distros/ubuntu/xubuntu.php', target='_blank') Xubuntu</h4>
+      <h4 class="card-title"><?php echo $xubuntuMP; ?></h4>
       <div class="card-text">
-        <div class="screenshot"><?php echo $xubuntu1; ?></div>
-        <div class="distroHome"><?php echo $xubuntuHOME; ?></div>
-        <div class="dwHome"><?php echo xubuntuDW; ?></div>
-        <div class="specs"></div>
+        <div class="screenshots"><?php echo $xubuntuSS1; ?></div>
+        <div class="linuxContainer"><?php echo $xubuntuHOME; ?></div>
+        <div class="linuxContainer"><?php echo $xubuntuDW; ?></div>
       </div>
     </div>
   </div>
-  <div id="linuxSection">
-    <div class="name"><a href="/linuxHQ/distros/ubuntu/linuxLite.php" target="_blank">Linux Lite</a> <?php echo $lliteSS1; ?></div>
-    <div class="distroHome"><a href="http://www.linuxliteos.com/" target="_blank">Linux Lite Homepage</a></div>
-    <div class="dwHome"><?php echo $lliteDW; ?></div>
-    <div class="specs">
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title"> <?php echo $linuxLiteMP; ?></h4>
+  </div>
+  <div class="card-text">
+    <div class="screenshots">
+
+      <?php echo $lliteSS1; ?>
+    </div>
+    <div class="linuxContainer"><?php echo $linuxLiteHOME; ?></div>
+    <div class="linuxContainer"><?php echo $lliteDW; ?></div>
+    <div class="linuxContainer">
       <ul>
         <li>
           <p>MINIMUM RECOMMENDED SPECIFICATIONS:</p>
@@ -80,47 +89,48 @@
       </ul>
     </div>
   </div>
-  <div class="card">
-    <div class="card-block">
-      <h4 class="card-title"> a(href='http://xmetal.x10.mx/linuxHQ/distros/ubuntu/lubuntu.php', target='_blank') Lubuntu</h4>
-      <div class="card-text">
-        <div class="screenshot">  <?php echo $lubuntu1; ?></div>
-        <div class="distroHome"><a href="http://lubuntu.net/" target="_blank">Lubuntu Homepage</a></div>
-        <div class="dwHome"><?php echo lubuntuDW; ?></div><a href="http://distrowatch.com/table.php?distribution=lubuntu" target="_blank">Lubuntu on Distrowatch</a>
-        <div class="specs">
-          <ul>
-            <li>
-              <p>Requirements</p>
-              <ul>
-                <li>Memory (RAM): 1 GB of RAM.</li>
-                <li>Processor (CPU): The minimum specification for CPU is Pentium 4 or Pentium M or AMD K8.</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+</div>
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title"> <?php echo $lubuntuMP; ?></h4>
+    <div class="card-text">
+      <div class="screenshots">  <?php echo $lubuntu1; ?></div>
+      <div class="linuxContainer"><?php echo $lubuntuHOME; ?></div>
+      <div class="linuxContainer"><?php echo $lubuntuDW; ?></div>
+      <div class="linuxContainer">
+        <ul>
+          <li>
+            <p>Requirements</p>
+            <ul>
+              <li>Memory (RAM): 1 GB of RAM.</li>
+              <li>Processor (CPU): The minimum specification for CPU is Pentium 4 or Pentium M or AMD K8.</li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-block">
-      <h4 class="card-title"><?php echo $eOSHP; ?></h4>
-      <div class="card-text">
-        <div class="screenshot">  <?php echo $eosSShot1; ?></div>
-        <div class="diections/featuredstroHome"><a href="http://elementary.io/" target="_blank">ElementaryOS Homepage</a></div>
-        <div class="dwHome"><?php echo $elementaryDW; ?></div>
-        <div class="specs">
-          <ul>
-            <li>Intel i3 or comparable dual-core 64-bit processor</li>
-            <li>1 GB of system memory (RAM)</li>
-            <li>15 GB of disk space</li>
-          </ul>
-        </div>
+</div>
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title"><?php echo $eOSMP; ?></h4>
+    <div class="card-text">
+      <div class="screenshots">  <?php echo $eosSS1; ?></div>
+      <div class="linuxContainer"><?php echo $elementaryHOME; ?></div>
+      <div class="linuxContainer"><?php echo $elementaryDW; ?></div>
+      <div class="linuxContainer">
+        <ul>
+          <li>Intel i3 or comparable dual-core 64-bit processor</li>
+          <li>1 GB of system memory (RAM)</li>
+          <li>15 GB of disk space</li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
+</div>
 
-</div>
-</div>
+</div></div>
+
 <?php include $sitePath . "/modules/footer.tpl"; ?>

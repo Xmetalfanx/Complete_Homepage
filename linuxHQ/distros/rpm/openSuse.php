@@ -5,7 +5,7 @@
   $homepage 	= ' <a href="http://www.opensuse.org/" target="_blank">http://www.opensuse.org/</a>' ;
 	$download 	= '<a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a><br>
       <a href="http://mirrors.opensuse.org/list/all.html" target="_blank">http://mirrors.opensuse.org/list/all.html</a> ' ;
-	$version 		= '13.2 ' ;
+	$version 		= 'Leap 42.2, Tumbleweed (Rolling) ' ;
 	$forum 			= '<a href="http://forums.opensuse.org/" target="_blank">http://forums.opensuse.org/</a> ' ;
 	$distroWatch = '<a href="http://distrowatch.com/suse" target="_blank">http://distrowatch.com/suse</a> ' ;
 	$DE 				= 'Gonme, KDE, XFCE';
@@ -43,7 +43,7 @@
 	$UrAvgLinuxUser = ' ';
 
 
-  $title = 'Distribution Section -OpenSUSE ';
+  $title = 'Distribution Section - OpenSUSE ';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

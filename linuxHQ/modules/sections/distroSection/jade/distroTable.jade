@@ -1,28 +1,32 @@
-//output:distroTable.tpl
+//output:distroTable.html
 
-.row
-  .col-lg-6
-    .distroHeader Homepage:
-    |  <?php echo $homepage; ?> <br />
+.card 
+  .card-block 
+  .card-text 
+    .row
+      .col-lg-6
+        div Homepage:
+        |  <?php echo $homepage; ?> <br />
 
-    .distroHeader Distro &quot;Family&quot;:
-    |  <?php echo $family; ?>
-    .distroHeader Forums:
-    |  <?php echo $forum; ?>
-    .distroHeader Destop Options:
-    |  <?php echo $DE; ?>
-    .distroHeader Software Based:
-    |  <?php echo $software; ?>
-.col-lg-6
-  .distroHeader Lastest Version:
-  |  <?php echo $version; ?>
-  br
-  .distroHeader Download:
-  | <?php echo $download; ?>
-  br
-  .distroHeader Distrowatch Link:
-  |  <?php echo $distroWatch; ?>
-  .distroHeader Targeted User:
-  |  <?php echo $target; ?>
-  .distroHeader  Similar Distros:
-  |  <?php echo $similar; ?>
+        div Distro &quot;Family&quot;:
+        |  <?php echo $family; ?>
+        div Forums:
+        |  <?php echo $forum; ?>
+        div Destop Options:
+        |  <?php echo $DE; ?>
+        div Software Based:
+        |  <?php echo $software; ?>
+      
+      .col-lg-6
+        div Lastest Version:
+        |  <?php echo $version; ?>
+        
+        div Download:
+        | <?php echo $download; ?>
+        
+        div Distrowatch Link:
+        |  <?php echo $distroWatch; ?>
+        div Targeted User:
+        |  <?php echo $target; ?>
+        div  Similar Distros:
+        |  <?php echo $similar; ?>

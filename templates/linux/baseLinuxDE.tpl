@@ -1,4 +1,3 @@
-
 <?php
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/linuxHQ/modules/variables/varInclude.php";
@@ -10,8 +9,8 @@
     <?php include $sitePath . '/linuxHQ/modules/sections/linuxDECol1.tpl'; ?>
   </div>
 
-  <div class="col-lg-10">
-    <?php include $sitePath . '/linuxHQ/modules/sections/linuxNDEContent.tpl'; ?>
+  <div class="col-xm-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+    <?php include $sitePath . '/linuxHQ/modules/sections/linuxDEContent.tpl'; ?>
   </div>
 
 </div>

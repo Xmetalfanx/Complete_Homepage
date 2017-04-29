@@ -1,11 +1,13 @@
 <?php
 
     $deName = 'Cinnamon';
-    $deSShot = $mintCin1 . $fedoraCinn1;
+
+    $deSShot = '<?php include $mintCinSS1 . $fedoraCinnSS1; ?>';
     $deFeatured = '<ul>
-											<li>' . $mintHP . '</li>
-											<li>'. $kororaHP . '</li>
-											<li> Linux Mint Cinnamon (Debian Edition) </li> </ul>';
+											<li>' . $mintMP . '</li>
+											<li>'. $kororaMP . '</li>
+											<li> Linux Mint Cinnamon (Debian Edition) </li>
+                    </ul>';
 
 
     $deReq = '
@@ -18,16 +20,12 @@
 		';
 
 		// installs
-		$installUbuntu = '
-
-					(from <a href="http://sourcedigit.com/11091-install-cinnamon-ppa-ubuntu-14-04/" target="_blank">
+		$installUbuntu = '(from <a href="http://sourcedigit.com/11091-install-cinnamon-ppa-ubuntu-14-04/" target="_blank">
 														how to install Cinnamon on Ubuntu 14.04 LTS	- Noobslab Link 1</a>) <br /><br />
 
 
 											(from <a href="http://www.noobslab.com/2014/06/cinnamon-desktop-is-available-for.html" target="_blank">
 											how to install Cinnamon on Ubuntu 14.04 LTS	- Noobslab Link 2</a>) <br /><br />';
-
-
 
 
 		$installMint =	'sudo apt-get cinnamon';
@@ -41,7 +39,7 @@
 		$title = 'DE/WM Section - Cinnamon ';
 
 
-				$sitePath = "/home/xmetalx1/public_html";
-				include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+			$sitePath = "/home/xmetalx1/public_html";
+			include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
-		?>
+?>

@@ -601,17 +601,21 @@ hr {
   margin-right: auto;
   margin-left: auto; }
   #linuxSection .name {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     text-decoration: underline; }
     #linuxSection .name img {
       height: 40px;
       width: 40px; }
-  #linuxSection .screenshot {
-    width: 500px; }
-  #linuxSection .linuxContainer {
-    border: 1px solid #000000;
-    padding: 2px; }
+
+.screenshots img {
+  width: 500px; }
+.screenshots .linuxContainer {
+  border: 1px solid #000000;
+  padding: 2px;
+  box-shadow: 2px 2px 2px #000000;
+  margin-right: 2px;
+  margin-left: 2px; }
 
 #distrowatch {
   height: 200px;
@@ -718,16 +722,6 @@ hr {
   color: white;
   background-color: transparent; }
 
-.dePanel {
-  border: 1px solid black;
-  padding: 10px;
-  box-shadow: 4px 3px 5px black;
-  border-radius: 8px 8px;
-  margin-right: auto;
-  margin-left: auto;
-  clear: both;
-  padding-bottom: 20px; }
-
 .navigation {
   max-height: 80px; }
 
@@ -756,43 +750,9 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
   background-color: #333333;
   bottom: 0; }
 
-.dePanel {
-  border: 1px solid black;
-  padding: 10px;
-  box-shadow: 4px 3px 5px black;
-  border-radius: 8px 8px;
-  margin-right: auto;
-  margin-left: auto;
-  clear: both;
-  padding-bottom: 20px; }
-
-.navigation {
-  max-height: 80px; }
-
-header ul {
-  position: absolute;
-  right: 0; }
-
-.hero-content {
-  background-color: rgba(255, 255, 255, 0.4);
-  max-width: 500px;
-  box-shadow: 2px 2px 2px black;
-  padding: 10px; }
-
-.logo {
-  color: white;
-  background-color: transparent;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px black; }
-
-header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
-  font-size: 20px;
-  font-weight: normal; }
-
-.footer-2 {
-  background-color: #333333;
-  bottom: 0;
-  position: absolute; }
+ul {
+  margin-left: 10px; }
+  ul li {
+    list-style-type: disc; }
 
 /*# sourceMappingURL=custom-dir.css.map */

@@ -1,11 +1,7 @@
 <?php
 
-    include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
-    include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
-
-
     $deName = 'KDE';
-    $deSShot = $manjaroKDE5 . $suseKDE1 . $antergosKDE1 . $kaosKDE1;
+    $deSShot = $manjaroKDE5 . $suseKDE_SS1 . $antergosKDE_SS1 . $kaosKDE1 . $manjaroKDE5_SS1;
     $deFeatured =  '<ul>
 											<li>' . $mintHP  . '</li>
 											<li> '. $fedoraHP . '</li>

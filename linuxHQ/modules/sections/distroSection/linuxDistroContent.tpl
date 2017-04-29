@@ -1,10 +1,11 @@
+
 <div class="row">
-  <div class="col-lg-3"><?php echo $icon; ?></div>
-  <div class="col-lg-9"><?php echo $name; ?></div>
+  <div class="col-lg-1"><?php echo $icon; ?></div>
+  <div class="col-lg-11 name"><?php echo $name; ?></div>
 </div>
 
-<?php echo $sitePath . '/linuxHQ/modules/distroTable.php'; ?>
-<?php echo $sitePath . '/linuxHQ/modules/ytsection.php'; ?>
+<?php include $sitePath . '/linuxHQ/modules/sections/distroSection/distroTable.tpl'; ?>
+<?php include $sitePath . '/linuxHQ/modules/ytsection.tpl'; ?>
 
 <div class="card">
   <div class="card-block">
@@ -13,29 +14,27 @@
   </div>
 </div>
 
-  <div class="bold">Screenshots</div>
+<div class="bold">Screenshots</div>
+<div class="screenshots"><?php echo $distroSshot; ?><br/></div>
 
-  <div id="distroShots"><?php echo $distroSshot; ?><br/></div>
 
-  <div class="card">
-    <div class="card-block">
-      <h3 class="card-title">
-        Reviews
-
-      </h3>
-        <?php echo $sitePath . '/linuxHQ/modules/linuxDistroReviewer.php' ; ?>
-    </div>
+<div class="card">
+  <div class="card-block">
+    <h3 class="card-title">
+      Reviews
+      <?php include $sitePath . '/linuxHQ/modules/section/linuxDistroReviewer.php' ; ?>
+    </h3>
   </div>
+</div>
 
 
 <div class="card">
   <div class="card-block">
     <h4 class="card-title">My Experience: </h4>
-    <div class="card-text">
-			<?php echo $EXP; ?> <br/><?php echo $experience; ?> <br/><br/>
+    <div class="card-text"><?php echo $EXP; ?> <br/><?php echo $experience; ?> <br/><br/>
       <div class="boldUnderline">
         Any other comments I have about this distro:
-        <?php echo $otherComments; ?><br/><?php echo . '/linuxHQ/modules/distroRec.php'; ?>
+        <?php echo $otherComments; ?><br/><?php include $sitePath . '/linuxHQ/modules/distroRec.tpl'; ?>
       </div>
     </div>
   </div>
@@ -46,10 +45,8 @@
   <div class="card-block">
     <h4 class="card-title">USB Drive Creation Experience</h4>
     <div class="card-text">
-      <p><a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a></p>
+      <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
     </div>
-    <div id="usb">
-				<?php include $sitePath . '/linuxHQ/modules/usb.php'; ?>
-		</div>
+    <?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>
   </div>
 </div>
