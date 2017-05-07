@@ -2,6 +2,9 @@
 
 	$title = 'Tutorial Section - Tutorial Index Page';
 
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
 
   ?>
 
@@ -14,5 +17,7 @@
   <p>This section is probably for the moderate to advanced user, with more than just "what is a
   partition/how to partition" type tutorials ... at least that is my plan at the moment</p>
 
+</div> <!-- Closes second column -->
+</div> <!-- Closes the row ... what use to be mainBody in my CSS--> 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

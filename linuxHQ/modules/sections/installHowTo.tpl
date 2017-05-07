@@ -2,6 +2,7 @@
 
   <h3>How to Install (command-line instructions):</h3>
 
+<div class="container">
   <ul class="default">
     <li> On Ubuntu based systems (Ubuntu other than Mint - including elementaryOS, Deepin, Linux Lite, any of the *buntu releases, and LXLE to name a few)<?php echo $installUbuntu; ?></li>
 
@@ -13,3 +14,4 @@
     <li>On PCLinuxOS:<kbd><?php echo $installPCLOS; ?></kbd><br/></li>
     <li>On Gentoo:<kbd><?php echo $installGentoo; ?></kbd></li>
 </ul>
+</div>

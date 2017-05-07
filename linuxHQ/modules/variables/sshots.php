@@ -1,16 +1,15 @@
 <?php
 
-
-	$test = 'Testing SS files';
-
+	
+ 
 	// Mint Screenshots Start
-	$mintCinSS1 = '<a href="/linuxHQ/screenshots/ubuntubased/mint.jpg">
-					<img src="/linuxHQ/screenshots/ubuntubased/mint.jpg" alt="Mint Cinnamon screenshot" /></a>';
+	$mintCinSS1 = '<a href="http://xmetal.x10.mx/linuxHQ/screenshots/ubuntubased/mint.jpg">
+					<img src="http://xmetal.x10.mx/linuxHQ/screenshots/ubuntubased/mint.jpg" alt="Mint Cinnamon screenshot" /></a>';
 
 	$mintMateSS2 = '<a href="/linuxHQ/screenshots/ubuntubased/mintMate2.jpg">
 					<img src="/linuxHQ/screenshots/ubuntubased/mintMate2.jpg" alt="My Mint Mate Screenshot2" /></a>';
 
-  $mintMateOffSS = '<a href="/linuxHQ/screenshots/ubuntubased/mintMateOffical.jpg">
+	$mintMateOffSS = '<a href="/linuxHQ/screenshots/ubuntubased/mintMateOffical.jpg">
 								<img src="/linuxHQ/screenshots/ubuntubased/mintMateOffical_small.jpg" />
 								<div style="clear:both">My Custom Mint Mate 2 </div></a>';
 
@@ -64,7 +63,7 @@ $pclosKDESS1 = '<a href="/linuxHQ/screenshots/rpm/pclinuxosKDE1.jpg">
      			     <img src="/linuxHQ/screenshots/rpm/pclinuxosKDE1-small.jpg" alt="PCLinuxOS KDE "  /> </a>    ';
 
 $suseKDE_SS1 = ' <a href="/linuxHQ/screenshots/rpm/suseKDE1.jpg">
-     			 		<img src="/linuxHQ/screenshots/rpm/suseKDE1-small.jpg" alt="OpenSuse KDE" /> </a>         ';
+     			 		<img src="/linuxHQ/screenshots/rpm/suseKDE1-small.jpg" alt="OpenSuse KDE" /> </a>  ';
 
 $suseGnome_SS1 = '<a href="/linuxHQ/screenshots/DE/suseGnome1.jpg">
 							<img src="/linuxHQ/screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome Screenshot"/>

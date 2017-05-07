@@ -10,12 +10,14 @@
       <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a><br/></div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h2 class="card-title">Debian Family</h2>
-    <div class="card-text"> <a href="/linuxHQ/distros/debian/debian.php">Debian</a><br/
+    <div class="card-text">
+      <a href="/linuxHQ/distros/debian/debian.php">Debian</a><br/
       ><a href="/linuxHQ/distros/debian/lmde.php">Linux Mint<br/></a>
-      <Debian>Edition</Debian><br/>
+      Debian Edition Debian <br/>
       <a href="/linuxHQ/distros/debian/crunchBang.php">Crunchbang</a><br/>
       <a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a><br/>
       <a href="/linuxHQ/distros/debian/pointLinux.php">Point Linux</a><br/>
@@ -24,6 +26,7 @@
     </div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h2 class="card-title">Ubuntu</h2>
@@ -34,6 +37,7 @@
     </div>
   </div>
 </div>
+
 <div class="card">
   <div class="card-block">
     <h2 class="card-title">Ubuntu Based</h2>

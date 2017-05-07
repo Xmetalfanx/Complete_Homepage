@@ -4,5 +4,6 @@
   include 'sshots.php';
   include 'officalHP.php';
   include 'ticVars.php';
+  include 'linuxFunct.php';
 
 ?>

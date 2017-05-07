@@ -11,18 +11,19 @@
     .card-block 
       .card-text
         .font-weight-bold Desktop Catagory:
-          div.font-weight-normal <?php echo $deClass; ?>
+          .font-weight-normal <?php echo $deClass; ?>
 
         .font-weight-bold General Requirements:
-          div.font-weight-normal <?php echo $deClass; ?>
+          .font-weight-normal <?php echo $deClass; ?>
           
         .font-weight-bold Distros that Feature:
-          div.font-weight-normal <?php echo $deFeatured; ?>
+          .font-weight-normal <?php echo $deFeatured; ?>
         
   .card
     .card-block
       .card-text 
-        <?php include $sitePath . "/linuxHQ/modules/sections/installHowTo.tpl"; ?>
+        .container
+          <?php include $sitePath . "/linuxHQ/modules/sections/installHowTo.tpl"; ?>
 
   .card
     .card-block 

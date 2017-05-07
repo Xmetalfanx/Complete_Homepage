@@ -1,26 +1,29 @@
 <?php
 
-    $deName = 'Cinnamon';
-
-    $deSShot = '<?php include $mintCinSS1 . $fedoraCinnSS1; ?>';
-    $deFeatured = '<ul>
-											<li>' . $mintMP . '</li>
-											<li>'. $kororaMP . '</li>
-											<li> Linux Mint Cinnamon (Debian Edition) </li>
-                    </ul>';
+    include "http://xmetal.x10.mx/linuxHQ/modules/variables/varInclude.php";
 
 
-    $deReq = '
-						<ul>
-							<li> 1GB Recommended (Xmetal Comment: 2GB Minimum ... maybe even 4GB
-							for comfortable use) </li>
-							<li> Graphics card capable of 800×600 resolution (1024×768 recommended). </li>
-							<li> ?? HDD Space </li>
-		</ul>
-		';
+    $deName = "Cinnamon";
 
-		// installs
-		$installUbuntu = '(from <a href="http://sourcedigit.com/11091-install-cinnamon-ppa-ubuntu-14-04/" target="_blank">
+    $deSShot = "$mintCinSS1 ";
+
+    $deFeatured = "<ul>
+						<li>  ${mintMP} </li>
+						<li> $kororaMP  </li>
+						<li> Linux Mint Cinnamon (Debian Edition) </li>
+                    </ul>";
+
+    $deCat = "Heavy-Weight";
+
+    $deReq = "<ul>
+  					<li> 1GB Recommended (Xmetal Comment: 2GB Minimum ... maybe even 4GB
+  							for comfortable use) </li>
+  					<li> Graphics card capable of 800×600 resolution (1024×768 recommended). </li>
+  					<li> ?? HDD Space </li>
+          	</ul>";
+
+	// installs
+	$installUbuntu = '(from <a href="http://sourcedigit.com/11091-install-cinnamon-ppa-ubuntu-14-04/" target="_blank">
 														how to install Cinnamon on Ubuntu 14.04 LTS	- Noobslab Link 1</a>) <br /><br />
 
 
@@ -39,7 +42,7 @@
 		$title = 'DE/WM Section - Cinnamon ';
 
 
-			$sitePath = "/home/xmetalx1/public_html";
-			include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+		$sitePath = "/home/xmetalx1/public_html";
+		include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

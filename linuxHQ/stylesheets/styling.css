@@ -2747,11 +2747,13 @@ hr {
 
 .screenshots img {
   width: 500px; }
-.screenshots .linuxContainer {
+
+.linuxContainer {
   border: 1px solid #000000;
-  padding: 2px;
+  padding: 2px 2px 2px 5px;
   box-shadow: 2px 2px 2px #000000;
   margin-right: 2px;
+  margin-bottom: 20px;
   margin-left: 2px; }
 
 #distrowatch {
