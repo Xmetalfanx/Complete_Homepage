@@ -3,7 +3,6 @@
     $title = 'App Section - App Index';
 
         $sitePath = "/home/xmetalx1/public_html";
-        include $sitePath . '/templates/linux/massLinuxInclude.tpl';
         include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>

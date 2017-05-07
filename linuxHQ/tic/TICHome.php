@@ -1,5 +1,6 @@
 <?php
-		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
+		$title = 'Theme/Icon/Cursor Section - ';
+
 		$sitePath = "/home/xmetalx1/public_html";
 		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
 	?>
@@ -38,4 +39,13 @@
 	<p><code>sudo add-apt-repository -y ppa:ravefinity-project/ppa &amp;&amp; sudo add-apt-repository -y ppa:moka/stable &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons2 &amp;&amp; sudo add-apt-repository -y ppa:noobslab/nitrux-os &amp;&amp; sudo add-apt-repository -y ppa:noobslab/potenza &amp;&amp; sudo add-apt-repository -y ppa:noobslab/themes &amp;&amp; sudo add-apt-repository -y ppa:numix/ppa &amp;&amp; sudo add-apt-repository -y ppa:noobslab/evolvere &amp;&amp; sudo add-apt-repository -y ppa:snwh/pulp</code></p>
 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+
+
+
+</div>
+
+</div>
+
+
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

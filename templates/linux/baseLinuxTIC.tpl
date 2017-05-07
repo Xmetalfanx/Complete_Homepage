@@ -1,14 +1,14 @@
 <?php
     $sitePath = "/home/xmetalx1/public_html";
 
-    include $sitePath . "/templates/linux/massLinuxIncludes.tpl";
+    include $sitePath . "/linuxHQ/modules/variables/varInclude.php";
+    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
+
 ?>
 
-<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
+<div class="row">
+  <div class="col-lg-2">
+      <?php include $sitePath . '/linuxHQ/modules/sections/linuxTICCol1.tpl'; ?>
+  </div>
 
-
-<div class="col-lg-4">
-    <?php include $sitePath . '/linuxHQ/modules/linuxNTICCol1.php'; ?>
-<div>
-  
-<div class="col-lg-8">
+  <div class="col-lg-9">
