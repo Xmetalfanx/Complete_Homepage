@@ -1,7 +1,12 @@
 <?php
 
 	$title = 'Tutorial Section - Upgrading Debian Stable';
-	$content = <<<EOD
+
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+
+  ?>
 
   <p class="col2SectionHeaders">Upgrading Debian Stable (What you have to start with)</p>
   <p class="col1SubSectionHeaders">. *** DO THESE IN ORDER ***</p>
@@ -104,4 +109,4 @@
   <p>If nothing went wrong, You are now done ... You are now on Debian &quot;Testing&quot;/&quot;Wheezy&quot; depending on what you picked </p>
   <p>&nbsp;</p>
 
-	<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

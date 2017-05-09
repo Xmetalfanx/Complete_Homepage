@@ -2,8 +2,13 @@
 
   $title = 'New User Section - Using ISOs'
 
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
-$content = <<<EOD
+
+  ?>
+
+
 <p class="boldUnderline">Windows</p>
 <p class="col2SectionHeaders">Programs to put ISOs on USB sticks</p>
 <ul>

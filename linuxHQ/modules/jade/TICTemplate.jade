@@ -1,21 +1,27 @@
 //output:TICTemplate.php
-#TIC
-  .TICName <?php echo $TICName; ?>
-  .TICSShot <?php echo $TICSShot; ?>
 
-  .TICHomepage
-    div
-      | DeviantArt Page:
-      span.DAHome <?php echo $DAHome; ?>
-    div
-      | Github Page:
-      span.GHHome <?php echo $GHHome; ?>
-    div
-      | Gnome-look.org Page:
-      span.GLHome <?php echo $GLHome; ?>
-    div
-      | Noobslab Page:
-      span.NSHome <?php echo $NSHome; ?>
-  .TICUsage Usable in: <?php echo $TICUsage; ?>
-  .TICInstructs Instructions for Ubuntu based distros:
-  .TICInstructs Instructions for Arch-based distros:
+.card
+	.card-block
+		.card-title
+			<?php echo $TICName; ?>
+		
+		.card-text
+			<?php echo $TICSShot; ?>
+
+ 
+			div DeviantArt Page:
+			  .DAHome <?php echo $DAHome; ?>
+			
+			div Github Page:
+			  .GHHome <?php echo $GHHome; ?>
+		   
+			div Gnome-look.org Page:
+			  .GLHome <?php echo $GLHome; ?>
+			
+			div Noobslab Page:
+			  .NSHome <?php echo $NSHome; ?>
+			  
+			.linuxContainer  
+			  .TICUsage Usable in: <?php echo $TICUsage; ?>
+			  .TICInstructs Instructions for Ubuntu based distros:
+			  .TICInstructs Instructions for Arch-based distros:

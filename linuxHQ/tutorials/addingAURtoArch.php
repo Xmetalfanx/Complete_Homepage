@@ -1,9 +1,12 @@
 <?php
 
 	$title = 'Tutorial Section - Adding PPAs to any Ubuntu Based Distro';
-	$content = <<<EOD
+
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
+  ?>
 		<h2>How To Add the AUR to Arch</h2>
 
 		Information gathered from the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository">Arch Wiki page</a>   AS

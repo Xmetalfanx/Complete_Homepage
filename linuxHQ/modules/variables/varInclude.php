@@ -1,9 +1,9 @@
 <?php
-  include 'distroWatchVar.php';
-  include 'myDistroPages.php';
-  include 'sshots.php';
-  include 'officalHP.php';
-  include 'ticVars.php';
-  include 'linuxFunct.php';
+  include $sitePath . '/linuxHQ/modules/variables/distroWatchVar.php';
+  include $sitePath . '/linuxHQ/modules/variables/myDistroPages.php';
+  include $sitePath . '/linuxHQ/modules/variables/sshots.php';
+  include $sitePath . '/linuxHQ/modules/variables/officalHP.php';
+  include $sitePath . '/linuxHQ/modules/variables/ticVars.php';
+  include $sitePath . '/linuxHQ/modules/variables/linuxFunct.php';
 
 ?>

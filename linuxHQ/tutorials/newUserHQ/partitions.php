@@ -2,8 +2,12 @@
 
 	  $title = 'New User Section - Partitions... What are they?';
 
-	  $content = <<<EOD
+	
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+
+  ?>
 		<p><U><strong>What is a Partition</strong></U></p>
 		<UL>
 		  <LI>

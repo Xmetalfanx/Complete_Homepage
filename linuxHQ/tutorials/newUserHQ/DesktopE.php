@@ -2,8 +2,11 @@
 
   $title = 'New User Section - Desktop Envirnoments';
 
-$content = <<<EOD
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+
+  ?>
   <p class="boldUnderline">&ldquo;What  on earth is this &ldquo;Desktop Environment&rdquo;?..  I had a hard enough time with &ldquo;Distros-vs-versions...etc etc &rdquo; &quot;</p>
   <p>There is a reason I left this for later  (<span class="italics">to not over-confuse people )</span>.  </p>
   <p>The <span class="terms">Desktop Environment</span>, <span class="italics">or &quot;D.E.&quot;, as some people  call it</span>, is like the start menu, context (right-click on the mouse)  menu and much more in Windows &hellip; it controls HOW you interact with  the Operating System. </p>

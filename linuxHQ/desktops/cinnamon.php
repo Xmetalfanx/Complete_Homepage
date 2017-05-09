@@ -1,17 +1,16 @@
 <?php
 
-    include "http://xmetal.x10.mx/linuxHQ/modules/variables/varInclude.php";
-
+    include $sitePath . '//linuxHQ/modules/variables/sshots.php';
 
     $deName = "Cinnamon";
 
-    $deSShot = "$mintCinSS1 ";
+    $deSShot = $mintCinSS1;
 
     $deFeatured = "<ul>
-						<li>  ${mintMP} </li>
-						<li> $kororaMP  </li>
+						<li>" .  $mintMP . " </li>
+						<li>" .  $kororaMP ."</li>
 						<li> Linux Mint Cinnamon (Debian Edition) </li>
-                    </ul>";
+            </ul>";
 
     $deCat = "Heavy-Weight";
 

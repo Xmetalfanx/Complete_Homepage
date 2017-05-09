@@ -1,8 +1,12 @@
 <?php
 
 	$title = 'New User Section - Linux versus Windows';
-	$content = <<<EOD
+	
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+
+  ?>
     <p><img src="../graphics/peguin/th.jpg" width="160" height="170"  alt="linux peguin clipart"/></p>
     <p>
         The Linux versus Windows debate has supporters on both sides, though I tend to see <span class="italics">(granted everyone

@@ -2,8 +2,11 @@
 
 	$title = 'New User Section - My Recommended Distros for New Users';
 
-	$content = <<<EOD
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+
+  ?>
 		<p><em>THESE ARE ALL BASED ON MY OPINIONS</em></p>
 		<p>I WANT TO BE CLEAR TO SEPARATE &quot;FACT&quot; PARTS OF THIS SITE WITH MY OPINIONS</p>
 		<h2>Which distribution do you recommend?</h2>

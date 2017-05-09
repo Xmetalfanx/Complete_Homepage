@@ -1,7 +1,12 @@
 <?php
 
 	$title = 'Tutorial Section - Software and Package Management in Linux';
-	$content = <<<EOD
+
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+
+  ?>
 
 			  <div id="Software">
 			  <p class="mainTitles">Graphical (GUI) Software Centers</p>

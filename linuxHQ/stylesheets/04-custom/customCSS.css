@@ -31,4 +31,7 @@ ul {
   ul li {
     list-style-type: disc; }
 
+kbd {
+  display: block; }
+
 /*# sourceMappingURL=customCSS.css.map */

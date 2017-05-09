@@ -1,7 +1,12 @@
 <?php
 
 	$title = 'New User Section - Linux Myths';
-	$content = <<<EOD
+
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+
+  ?>
 
   <p>You have to be a &quot;programmer&quot; or &quot;computer expert&quot; to use and understand Linux </p>
   <p>FALSE</p>

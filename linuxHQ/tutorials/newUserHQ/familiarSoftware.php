@@ -1,7 +1,12 @@
 <?php
 
 	$title = 'New User Section - Familiar Software that you may use in Window';
-	$content = <<<EOD
+
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+
+  ?>
 
   <p class="boldUnderline">I am  worried about being confused by &ldquo;new&rdquo; software I am not familiar  with.  </p>
   <p> Before I even begin, I will say some new users are under the  impression that they will have to re-learn basic tasks, such as  copying, pasting, saving a file, just to name a few &hellip; that is NOT  THE CASE.   These tasks (while you may be doing them in a different  program than what your use to),  are the same in Windows and Linux.  </p>

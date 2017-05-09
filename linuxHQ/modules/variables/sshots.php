@@ -1,7 +1,7 @@
 <?php
 
-	
- 
+
+
 	// Mint Screenshots Start
 	$mintCinSS1 = '<a href="http://xmetal.x10.mx/linuxHQ/screenshots/ubuntubased/mint.jpg">
 					<img src="http://xmetal.x10.mx/linuxHQ/screenshots/ubuntubased/mint.jpg" alt="Mint Cinnamon screenshot" /></a>';
@@ -48,8 +48,7 @@ $antergosKDE_SS1 = '<a href="/linuxHQ/screenshots/archbased/antergosKDE1.jpg">
 					 <img src="/linuxHQ/screenshots/archbased/antergosKDE1.jpg" alt=" Antergos KDE " /> </a>';
 
 $manjaroKDE5_SS1 = '<a href="/linuxHQ/screenshots/archbased/manjaro-090p1-kde.jpg">
-							<img src="/linuxHQ/screenshots/archbased/manjaro-090p1-kde_small.jpg" alt="Manjaro KDE screenshot" />
-							</a>';
+							<img src="/linuxHQ/screenshots/archbased/manjaro-090p1-kde_small.jpg" alt="Manjaro KDE screenshot" />	</a>';
 
 $manjaroXFCE_SS1 = '<a href="/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg">
 								<img src="/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg" alt=" Manjaro XFCE  " /> </a> ';

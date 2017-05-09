@@ -1,3 +1,5 @@
+@import "01-plugins/plugins-dir";
+@import "03-variables/variables-dir";
 
 .distReview {
   @include margin(null auto null auto);
@@ -13,6 +15,8 @@
   font-family   : $Courier;
   line-height   : 25px;
 }
+
+
 
 .distRevTitle {
   clear       : both;
@@ -84,20 +88,13 @@
 
 #TIC
 {
-     .TICHomepage, .TICUsage, .TICInstructs
+     .TICHomepage, .TICUsage
     	{
-    		clear			        : both;
     		border     		    : $solidBorder;
-
-     	  @include        	single-box-shadow();
-        border-radius: 8px, 8px;
-        @include   margin(null auto null auto);
-
-     		overflow: hidden;
 
      		img
      		{
-          @include size(65%, 65%);
+				@include size(65%, 65%);
      		}
      }
 }

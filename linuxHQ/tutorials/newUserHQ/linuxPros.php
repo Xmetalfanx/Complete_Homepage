@@ -1,8 +1,12 @@
 <?php
 
 	$title = 'New User Section - Linux Pros/Positives things about Linux';
-	$content = <<<EOD
+	
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+
+  ?>
   <p class="boldUnderline">Advantages to Linux </p>
   <UL>
     <LI>

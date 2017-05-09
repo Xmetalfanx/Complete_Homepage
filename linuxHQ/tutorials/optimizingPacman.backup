@@ -2,6 +2,11 @@
 
 	$title = 'Tutorial Section - Adding PPAs to any Ubuntu Based Distro';
 
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+
+  ?>
 		<h1>Optimizing Pacman Mirrors</h1>
 		<h2>References</h2>
 		<ul>

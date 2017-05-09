@@ -1,8 +1,12 @@
 <?php
 
 	$title = 'Tutorial Section - Upgrading Debian Branches';
-	$content = <<<EOD
+	
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+
+  ?>
   <p class="col2SectionHeaders">Introduction</p>
   <p>I am not going to go into any kind of details explaining things about Debian, though I will mention some points I want to clear up  </p>
   <ul>
@@ -57,4 +61,4 @@
   <p>&quot;  What should I do?&quot;... HONESTLY it doesn't matter either way ... its a piece of cake to change, as you will find out further in this section</p>
 
 
-	<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

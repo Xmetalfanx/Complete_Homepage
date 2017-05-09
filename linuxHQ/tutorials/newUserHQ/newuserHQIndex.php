@@ -2,9 +2,11 @@
 
   $title = 'New User Section - New User Section Index Page';
 
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
-    $content = <<<EOD
-      <p>&nbsp; </p>
+
+  ?>
 
       <p>
         <img src="../graphics/mac_win_lin.jpg"  alt="" width="250" height="150"/>

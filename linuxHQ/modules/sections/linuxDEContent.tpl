@@ -1,58 +1,45 @@
 
 <div id="LinuxSection">
+
+
   <div class="row">
     <div class="col-lg-2"><?php echo $deName; ?></div>
 
     <div class="screenshots col-lg-8">
-
       <div class="font-weight-bold">Screenshots </div>
-      <?php
-
-        echo "test 1";
-        echo "$$deSShot;";
-        echo "test 2";
-        echo $$deShots;
-        echo "test 3";
-        echo "${deSShot}";
-        echo "Test 4";
-        echo ${deSShot}
-
-
-
-      ?>
+      <?php echo $$deShot; ?>
     </div>
   </div>
 
-  <div class="card">
-    <div class="card-block">
-      <div class="card-text">
+<div class="card">
+  <div class="card-block">
+    <div class="card-text">
 
-        <div class="font-weight-bold">Desktop Catagory:
-          <div class="font-weight-normal"><?php echo $deCat; ?></div>
-        </div>
+      <div class="font-weight-bold">Desktop Catagory:
+        <div class="font-weight-normal"><?php echo $deCat; ?></div>
+      </div>
 
-        <div class="font-weight-bold">General Requirements:
-          <div class="font-weight-normal"><?php echo $deClass; ?></div>
-        </div>
+      <div class="font-weight-bold">General Requirements:
+        <div class="font-weight-normal"><?php echo $deReq; ?></div>
+      </div>
 
-        <div class="font-weight-bold">Distros that Feature:
-          <div class="font-weight-normal"><?php echo $deFeatured; ?></div>
-        </div>
+      <div class="font-weight-bold">Distros that Feature:
+        <div class="font-weight-normal"><?php echo $deFeatured; ?></div>
       </div>
     </div>
   </div>
+</div>
 
 
+<div class="card">
+  <div class="card-block">
+    <div class="card-text">
 
-  <div class="card">
-    <div class="card-block">
-      <div class="card-text">
+		<?php include $sitePath . "/linuxHQ/modules/sections/installHowTo.tpl"; ?>
 
-			<?php include $sitePath . "/linuxHQ/modules/sections/installHowTo.tpl"; ?>
-
-      </div>
     </div>
   </div>
+</div>
 
 
   <div class="card">
@@ -64,4 +51,5 @@
       </div>
     </div>
   </div>
+
 </div>

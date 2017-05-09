@@ -1,8 +1,12 @@
 <?php
 
 	$title = 'New User Section - Live Version Information';
-	$content = <<<EOD
 
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+
+  ?>
 	<h2>“OK, you have me curious, but I do not want to do anything to my system just yet”</h2>
 
 	<p>A-ha !... This is one of the many places where a “ Live Version ” comes in. You can try Linux and see how you like it before you commit to anything.  IN FACT, I recommend playing with a distro for awhile and seeing if you like it before you do anything to your system. </p>
