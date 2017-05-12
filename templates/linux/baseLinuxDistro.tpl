@@ -6,7 +6,7 @@
 
 ?>
 
-<div class="row">
+<div class="row mainBody">
 
   <div class="col-xm-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
     <?php include $sitePath . '/linuxHQ/modules/sections/linuxNDistroCol1.tpl';  ?>

@@ -1,3 +1,6 @@
+body {
+  overflow: hidden; }
+
 .navigation {
   max-height: 80px; }
 

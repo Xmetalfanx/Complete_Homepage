@@ -1,3 +1,6 @@
+body{overflow: hidden;}
+
+
 .navigation
 {
   max-height: 80px;
@@ -57,7 +60,7 @@ header
 
 
 
-  ul
+ul
   {
     margin-left: 10px;
 
@@ -68,9 +71,8 @@ header
 
   }
 
+
 kbd
 {
   display:block;
-
-
 }

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="index" href="/index.php">
+  
   <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
   <script src="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
   <!-- JQuery-->
@@ -20,4 +21,5 @@
   <!-- link(href='/linuxHQ/stylesheets/layoutMed.css', rel='stylesheet', type='text/css', media='(max-width: 800px) and (max-height: 500px)')-->
 </head>
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
+
 <?php include $sitePath . '/modules/linux/linuxNavMain.tpl'; ?>

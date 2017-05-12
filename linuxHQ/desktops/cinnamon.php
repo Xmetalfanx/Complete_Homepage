@@ -1,25 +1,23 @@
 <?php
 
-    include $sitePath . '//linuxHQ/modules/variables/sshots.php';
+    $deName = 'Cinnamon';
 
-    $deName = "Cinnamon";
+    $deSShot = '$mintCinnSS1';
 
-    $deSShot = $mintCinSS1;
-
-    $deFeatured = "<ul>
-						<li>" .  $mintMP . " </li>
-						<li>" .  $kororaMP ."</li>
+    $deFeatured = '<ul>
+						<li> . $mintMP .  </li>
+						<li> .  $kororaMP . </li>
 						<li> Linux Mint Cinnamon (Debian Edition) </li>
-            </ul>";
+            </ul>';
 
-    $deCat = "Heavy-Weight";
+    $deCat = 'Heavy-Weight';
 
-    $deReq = "<ul>
+    $deReq = '<ul>
   					<li> 1GB Recommended (Xmetal Comment: 2GB Minimum ... maybe even 4GB
   							for comfortable use) </li>
   					<li> Graphics card capable of 800×600 resolution (1024×768 recommended). </li>
   					<li> ?? HDD Space </li>
-          	</ul>";
+          	</ul>';
 
 	// installs
 	$installUbuntu = '(from <a href="http://sourcedigit.com/11091-install-cinnamon-ppa-ubuntu-14-04/" target="_blank">

@@ -7,7 +7,7 @@
 
     <div class="screenshots col-lg-8">
       <div class="font-weight-bold">Screenshots </div>
-      <?php echo $$deShot; ?>
+      <?php echo $deSShot; ?>
     </div>
   </div>
 
