@@ -1318,7 +1318,7 @@ hr {
   background-color: transparent; }
 
 body {
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 .navigation {
   max-height: 80px; }

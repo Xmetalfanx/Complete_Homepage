@@ -3,7 +3,6 @@
   <div class="col-lg-1"><?php echo $icon; ?></div>
   <div class="col-lg-11 name"><?php echo $name; ?></div>
 </div>
-
 <?php include $sitePath . '/linuxHQ/modules/sections/distroSection/distroTable.tpl'; ?>
 <?php include $sitePath . '/linuxHQ/modules/ytsection.tpl'; ?>
 
@@ -14,9 +13,9 @@
   </div>
 </div>
 
-<div class="bold">Screenshots</div>
-<div class="screenshots"><?php echo $distroSshot; ?><br/></div>
-
+<div class="screenshots hide-md-down">
+  <div class="bold">Screenshots</div><?php echo $distroSshot; ?><br/>
+</div>
 
 <div class="card">
   <div class="card-block">
@@ -26,7 +25,6 @@
     </h3>
   </div>
 </div>
-
 
 <div class="card">
   <div class="card-block">
@@ -40,13 +38,12 @@
   </div>
 </div>
 
-
 <div class="card">
   <div class="card-block">
     <h4 class="card-title">USB Drive Creation Experience</h4>
     <div class="card-text">
-      <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
+      <p><a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a></p>
     </div>
-    <?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>
+    <div id="usb"></div><?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>
   </div>
 </div>
