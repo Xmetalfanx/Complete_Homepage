@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/xmetal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://xmetal.x10.mx
+  * I am xmetal (https://keybase.io/xmetal) on keybase.
+  * I have a public key with fingerprint F9AD 2A58 C6DD CA4C BE06  9439 3C9A 972C 55ED DB37
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120047a09191dea990bfdb366b017e6dffedea358f3e883d4987453251e6068691f0a",
+            "fingerprint": "f9ad2a58c6ddca4cbe0694393c9a972c55eddb37",
+            "host": "keybase.io",
+            "key_id": "3c9a972c55eddb37",
+            "kid": "0101a46e4dc482a8de413b0fb0e1cd4faec716927da1cc1337b23cedf067e475eeaa0a",
+            "uid": "a5b61f218a3012599e3db86c0b417a19",
+            "username": "xmetal"
+        },
+        "revoke": {
+            "sig_ids": [
+                "6847d8055d5e3b2659f0d5ed0f648b45e094eb9d26db2b556457ff88c3f71edb0f"
+            ]
+        },
+        "service": {
+            "hostname": "xmetal.x10.mx",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1496275082,
+    "expire_in": 157680000,
+    "prev": "531b284e5c0134092f49c26a11b44aa648ce86b0c282a9b57905cc188e63014e",
+    "seqno": 23,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFtUmtsVEUUbhesPNSWYgkkDaXXUhU227n3zsy9s1QrkQZFBRSLJaa0c+/M3V7b
+fbC7XRZLtYqWd2x4FZoKGAEJ5aEgCaYNhUSrfQgiDY/SAK2hBChYIEAD0TrbyA8T
+58/MnPnOd77zzal+elicIz67tsaZd/OCFt92zYhbkJVfWy4ZfrZEcpdLJXxo46WM
+h8KFJTaT3BKQFQCgRgGRicw4JQQYFjNUjA0gaxwzy+IirCLdUrmuqwwSXYNIVZDM
+McA6JrIFqOSULNvn4cFA0PaFBa1FKFMo0k3MmEmhaXCACVSJahJKNMVEiDNRRROJ
+xf5QLEOIM2iIu2y/iIlL4ZC8/8E/1g1kCjGHzIS6QnXGoawawDIAl00GLcpNTcZE
+0RiVTVNWVc1QVJMzC2CNQw1xTumQ7rIhOooMLFuKrFNVOIII4SozdGwCA8oalUkM
+GOJBH/VygY56eZiWShVOKcgj/hIeczVke4TkkOR+X8I61JgOEGKIq4aCEbGAODJg
+YagbEHFAIDcIUzAzFAMhDJFmWbpuqpYmcya6kAoEt6gXsc0h8phH/6ntisrA5Y0K
+WYGgP+w3/aXiqTgcDrhjqsJLAjHoocXcKPyXpdCwfUx8kciI8GDI9vsktyygZtiO
+0cqQYEVDQFecEo8G7CAvtGMIpGEdiBWrwyOCE6myoeiQIxPIKgREsSAxFUxl2YCQ
+UtGgyXUxO6YifoUYSCMACf91nWPhLORSrK9FPr/kVlQhlHoEp7DOR8NlQS5VjFrp
+SB0eF++IS3jCERveuFEjkx5PdP/SxMHo6x+erzRfWLN+4PhbI7Z/WT++6/nvfk0b
+sWPKpu67FU31q7++T7uL9u3AqQUHqt2p5WV/JWRWg5H3vt3UFdm7YFLfwkDDiXn7
+eqseVRsDy+p68Oxx8w83V700Weta3Fx9aBf3bGjePmas3ZFW91r5LNc0v5nlunkq
+Wr21Jr9g4jV+a/2pvqSTn5rrDmVnzDy8ce6Ws1tSnktaPmf+OJDzoOzEb54ljVeX
+rh5zsTt9Kr7j+yS7qTPx1dx5ey5Eku4X17ul2gmb+h6pP6gtg8em3ao8f/WO3ROc
+mncx6L3V27GzxBqTk9UEn2yYfXL0jDVFnpVXpHDuOK9rY9UbNcHvb7ROmn67s6Iq
++cX+zHcXfLPL2dZzrrehEeX8NPnOJdcHzqT0pAHQt859unfO0oGx0ZkNd4H/76dc
+DY5nD3a3z21vSniwYfSZl/Wjb6/Znbfzz6r0lWnwzYyJ3T3pqYuMYu6+aP3M6lJq
+D6SsXbXnXOfMzd4jx05fzl/ev+xgzs5ZHg9Y0dJ14cDD5htze9Outxy9/nv2qvJt
+z1ypi++oX/hO9mAnChfs+WjrH7n5kcEzGV+tTcyuV0pHF47v78h0VB3MvH07wwE/
+3jujcULovd3+/U3OX7zDK/G2HxMefNZaMr01Oc9MDoc2b2vfPmzK/S9SKy87W5dl
+NbZ83nbk3v7gpUR8PON6YNIrRckPSQ05W/8P
+=3i38
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xmetal
+
+==================================================================
