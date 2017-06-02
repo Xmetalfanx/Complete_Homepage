@@ -35,9 +35,7 @@
   display          : inline-block;
   width            : 97%;
   clear            : both;
-  margin-top       : 5px;
-  margin-bottom    : 5px;
-
+  @include margin(5px null 5px null);
   @include padding(5px 1% null 1%);
 
   background-color : rgb(255, 255, 255);
@@ -76,6 +74,7 @@
   overflow       : auto;
   border         : $solidBorder;
   line-height    : 20px;
+
   .left {
     width : 40%;
     float : left;
@@ -90,7 +89,7 @@
 {
      .TICHomepage, .TICUsage
     	{
-    		border     		    : $solidBorder;
+    		border: $solidBorder;
 
      		img
      		{
