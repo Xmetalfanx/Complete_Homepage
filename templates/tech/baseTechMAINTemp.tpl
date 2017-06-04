@@ -4,9 +4,12 @@
   <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
     <div class="card">
       <div class="card-block">
+        
         <h4 class="card-title"> News and Headlines </h4>
         <div class="card-text">
+        
           <?php include $sitePath . '/techHQ/modules/techMainCol1.tpl'; ?>
+        
         </div>
       </div>
     </div>
