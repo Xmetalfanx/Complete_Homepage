@@ -12,7 +12,6 @@
     <!-- JQuery-->
     <script src="http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js"></script>
 
-
     <!-- Tether-->
     <script src="http://xmetal.x10.mx/tether133/js/tether.min.js"></script>
 
