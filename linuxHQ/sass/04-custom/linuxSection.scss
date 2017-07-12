@@ -19,7 +19,6 @@
           img
           {
             @include size(40px);
-
           }
 
     }
@@ -50,7 +49,7 @@
 
 #distrowatch {
   height           : 200px;
-  @include padding(2% 2% 1% 1%);
+  @include padding(2% 2% 1% 25px);
   @include margin(null auto null auto);
 
   overflow         : auto;

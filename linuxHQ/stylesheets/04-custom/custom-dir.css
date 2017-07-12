@@ -621,7 +621,7 @@ hr {
 
 #distrowatch {
   height: 200px;
-  padding: 2% 2% 1% 1%;
+  padding: 2% 2% 1% 25px;
   margin-right: auto;
   margin-left: auto;
   overflow: auto;
@@ -1345,7 +1345,8 @@ header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
 
 .footer-2 {
   background-color: #333333;
-  bottom: 0; }
+  bottom: 0;
+  position: absolute; }
 
 ul {
   margin-left: 10px; }

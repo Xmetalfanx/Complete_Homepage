@@ -621,7 +621,7 @@ hr {
 
 #distrowatch {
   height: 200px;
-  padding: 2% 2% 1% 1%;
+  padding: 2% 2% 1% 25px;
   margin-right: auto;
   margin-left: auto;
   overflow: auto;
