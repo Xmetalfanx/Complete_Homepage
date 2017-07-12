@@ -366,6 +366,9 @@ header.navigation {
 /* Fonts */
 /* Images */
 /* Border variables */
+nav {
+  float: right; }
+
 .hero-content {
   background-color: rgba(255, 255, 255, 0.4);
   max-width: 500px;
@@ -390,8 +393,5 @@ ul.navigation-menu {
   font-weight: bold;
   right: 4px;
   top: 50px; }
-
-nav {
-  float: right; }
 
 /*# sourceMappingURL=customCSS.css.map */
