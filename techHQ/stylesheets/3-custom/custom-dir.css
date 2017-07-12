@@ -39,7 +39,10 @@ header nav .navigation-menu {
 .container {
   width: 96%; }
 
-.card-warning {
+.card .card-warning {
   background-color: white; }
+.card .card-header {
+  color: #ffffff;
+  background-color: #333333; }
 
 /*# sourceMappingURL=custom-dir.css.map */
