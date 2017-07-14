@@ -10,11 +10,6 @@
   <meta name="googlebot" content="index,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="http://xmetal.x10.mx">
-
-  <!-- link(rel='alternate', href='xml/site_updates.xml', type='application/rss+xml', title='Xmetalfanx Site Updates and Information')-->
-  <!-- link(rel='alternate', href='security/securityIndex.php', type='application/rss+xml', title='Xmetalfanx Must Have Programs') -->
-  <!-- link(rel='alternate', href='xml/program_updates.xml', type='application/rss+xml', title='Xmetalfanx Recently Added Programs')-->
-
   <link rel="index" href="/index.php">
   <link rel="home" href="/index.php">
 
@@ -22,21 +17,38 @@
   <script src="http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js"></script>
 
   <!-- Tether-->
-  <script src="http://xmetal.x10.mx/frameworks/tether133/tether.min.js"></script>
-  <!-- Bootstrap 4 alpha 6 -->
+  <script src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js"></script>
 
-  <link rel="stylesheet" href="http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css">
-  <script src="http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Bootstrap 4 alpha 6 -->
+  <link rel="stylesheet" href="http://xmetal.x10.mx/frameworks/bootstrap/css/bootstrap.min.css">
+  <script src="http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js"></script>
 
   <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
   <script src="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
 
   <!-- Link to My External Style Sheet-->
-  <link rel="stylesheet" href="http://xmetal.x10.mx/techHQ/stylesheets/customcss.css">
-  <link href="/techHQ/stylesheets/startpage.css" rel="stylesheet" type="text/css">
-  <link href="/techHQ/stylesheets/GAOTD.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://xmetal.x10.mx/techHQ/stylesheets/customCSS.css">
+
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 </head>
+
 <body>
 
-  <?php include $sitePath . "/modules/tech/techNavMenu.tpl"; ?>
+  <header class="navigation">
+    <div class="navigation-wrapper">
+      <a href="http://xmetal.x10.mx/techHQ/index.php" class="logo hidden-md-down">Tech HQ</a>
+      <a id="js-mobile-menu" href="http://xmetal.x10.mx/techHQ/index.php" class="navigation-menu-button">Tech HQ</a>
+      <nav>
+        <ul id="js-navigation-menu" class="navigation-menu show">
+          <li class="nav-link">
+            <a href="/techHQ/software/softwareIndex.php" class="nav-link">Software</a></li>
+          <li class="nav-link">
+            <a href="/techHQ/techcenter/techCenterIndex.php" class="nav-link">Tech Center ( Tips/Tutorials )</a></li>
+          <li class="nav-link">
+            <a href="/techHQ/browsers/browserIndex.php" class="nav-link">Web Browser </a></li>
+          <li class="nav-link">
+            <a href="/techHQ/security/securityIndex.php" class="nav-link">Security</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>

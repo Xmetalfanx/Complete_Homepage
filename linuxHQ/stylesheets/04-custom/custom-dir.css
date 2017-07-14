@@ -1306,16 +1306,12 @@ header ul {
   box-shadow: 2px 2px 2px black;
   padding: 10px; }
 
-.logo {
+.logo, .logo a:link, .logo a:visited {
   color: white;
   background-color: transparent;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
   text-shadow: 2px 2px 2px black; }
-
-header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
-  font-size: 20px;
-  font-weight: normal; }
 
 .footer-2 {
   background-color: #333333;
@@ -1329,5 +1325,11 @@ ul {
 
 kbd {
   display: block; }
+
+.navigation-menu, .navigation-menu a:link, .navigation-menu a:visited {
+  font-size: 24px;
+  font-weight: normal;
+  text-shadow: 2px 2px 2px black;
+  right: 5px; }
 
 /*# sourceMappingURL=custom-dir.css.map */

@@ -362,13 +362,7 @@ header.navigation {
 /* Colors */
 /* Fonts */
 /* Images */
-/* Colors */
-/* Fonts */
-/* Images */
 /* Border variables */
-nav {
-  float: right; }
-
 .hero-content {
   background-color: rgba(255, 255, 255, 0.4);
   max-width: 500px;
@@ -384,18 +378,16 @@ nav {
 .logo {
   color: white;
   background-color: transparent;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
   text-shadow: 2px 2px 2px black; }
 
 ul.navigation-menu {
-  font-size: 20px;
-  font-weight: bold;
-  right: 4px;
-  top: 50px; }
-
-nav {
-  text-shadow: 1px 1px 2px black;
-  font-size: 24px; }
+  text-align: right; }
+  ul.navigation-menu a:link, ul.navigation-menu a:visited {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 2px; }
 
 /*# sourceMappingURL=customCSS.css.map */

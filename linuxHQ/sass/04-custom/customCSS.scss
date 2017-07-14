@@ -25,35 +25,16 @@ header ul
 
 }
 
-.logo
+.logo, .logo a:link, .logo a:visited
 {
   // Main Text in Title
   color: rgb(255, 255, 255);
   background-color: transparent;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: bold;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
 
 }
-
-
-header
-{
-   .navigation-wrapper
-    {
-
-      // The menus
-      nav .navigation-menu-button
-      {
-        ul li.nav-link a:link
-        {
-          font-size: 20px;
-          font-weight: normal;
-        }
-      }
-    }
-}
-
 
 .footer-2
 {
@@ -61,8 +42,6 @@ header
   bottom: 0;
   position: absolute;
 }
-
-
 
 ul
   {
@@ -77,4 +56,23 @@ ul
 kbd
 {
   display:block;
+}
+
+
+
+ul.navigation-menu
+{
+  text-align: right;
+
+
+  a:link, a:visited
+  {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding-bottom: 2px;
+
+
+  }
+
 }

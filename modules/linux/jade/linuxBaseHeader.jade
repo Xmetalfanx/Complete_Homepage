@@ -18,17 +18,32 @@ head
   script(src='http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js')
 
   // Tether
-  script(src="http://xmetal.x10.mx/tether133/js/tether.min.js")
+  script(src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js")
 
   // Bootstrap 4 alpha 6 
-  link(rel='stylesheet', href='http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css')
-  script(src='http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js' )
+  link(rel='stylesheet', href='http://xmetal.x10.mx/frameworks/bootstrap/css/bootstrap.min.css')
+  script(src='http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js' )
 
 
   link(href='/linuxHQ/stylesheets/styling.css', rel='stylesheet', type='text/css')
-  |     
-  // link(href='/linuxHQ/stylesheets/layoutMed.css', rel='stylesheet', type='text/css', media='(max-width: 800px) and (max-height: 500px)')
-
+    
 // script type="text/javascript" src="/scripts/snow.js"></script>
-
-<?php include $sitePath . '/modules/linux/linuxNavMain.tpl'; ?>
+body 
+  header.navigation
+    .navigation-wrapper
+    a.logo.hidden-md-down(href='http://xmetal.x10.mx/linuxHQ/index.php') Linux HQ
+    |     
+    a#js-mobile-menu.navigation-menu-button(href='http://xmetal.x10.mx/linuxHQ/index.php') Linux HQ
+    |     
+    nav
+    ul#js-navigation-menu.navigation-menu.show
+      li.nav-link
+        a.nav-link(href='/linuxHQ/distros/distroHome.php')  Distributions
+      li.nav-link
+        a.nav-link(href='/linuxHQ/desktops/desktopsIndex.php') Desktops
+      li.nav-link
+        a.nav-link(href='/linuxHQ/tutorials/tutorialIndex.php') Tutorial
+      li.nav-link
+        a.nav-link(href='/linuxHQ/apps/appIndex.php') Linux Apps
+      li.nav-link
+        a.nav-link(href='/linuxHQ/tic/TICHome.php') Theme/Icons/Cursors

@@ -1,3 +1,16 @@
+
+
+.navigation
+{
+  max-height: 80px;
+}
+
+header ul
+{
+  position: absolute;
+  right: 0;
+}
+
 .hero-content
 {
 
@@ -34,28 +47,17 @@ footer
 }
 
 
-header
-{
-   .navigation-wrapper
-    {
-
-      // The menus
-      nav .navigation-menu-button
-      {
-          ul li.nav-link a:link
-          {
-            font-size: 20px;
-            font-weight: normal;
-
-          }
-      }
-    }
-}
-
 // For Top content
 .navigation
 {
   max-height: 80px;
+
+  nav
+  {
+    text-align: right;
+
+  }
+
 }
 
 .footer-2
@@ -64,17 +66,6 @@ header
   position: absolute;;
 }
 
-header nav .navigation-menu
-{
-  text-align: right;
-
-}
-
-.nav-link
-{
-  padding-bottom: 2px;
-
-}
 
 .container
 {
@@ -96,5 +87,23 @@ header nav .navigation-menu
     background-color: #333333;
   }
 
+
+}
+
+
+ul.navigation-menu
+{
+  text-align: right;
+
+
+  a:link, a:visited
+  {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding-bottom: 2px;
+
+
+  }
 
 }

@@ -18,10 +18,6 @@ head
 
   base(href='http://xmetal.x10.mx')
 
-  // link(rel='alternate', href='xml/site_updates.xml', type='application/rss+xml', title='Xmetalfanx Site Updates and Information')
-  // link(rel='alternate', href='security/securityIndex.php', type='application/rss+xml', title='Xmetalfanx Must Have Programs') 
-  // link(rel='alternate', href='xml/program_updates.xml', type='application/rss+xml', title='Xmetalfanx Recently Added Programs')
-
   link(rel='index', href='/index.php')
   link(rel='home', href='/index.php')
   
@@ -29,24 +25,35 @@ head
   script(src='http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js')
 
   // Tether
-  script(src="http://xmetal.x10.mx/frameworks/tether133/tether.min.js")
+  script(src='http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js')
 
   // Bootstrap 4 alpha 6 
-  link(rel='stylesheet', href='http://xmetal.x10.mx/bootstrap/css/bootstrap.min.css')
-  script(src='http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js' )
+  link(rel='stylesheet', href='http://xmetal.x10.mx/frameworks/bootstrap/css/bootstrap.min.css')
+  script(src='http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js' )
 
   // For Navigation Menu from Bourbon.io and it's Refills section   
   script(src="http://xmetal.x10.mx/scripts/nav.js", type="text/javascript")
 
   // Link to My External Style Sheet
-  link(rel='stylesheet', href='http://xmetal.x10.mx/techHQ/stylesheets/customcss.css')
- 
-  link(href='/techHQ/stylesheets/startpage.css', rel='stylesheet', type='text/css')
-  link(href="/techHQ/stylesheets/GAOTD.css" rel="stylesheet" type="text/css")
-
+  link(rel='stylesheet', href='http://xmetal.x10.mx/techHQ/stylesheets/customCSS.css')
 
   // script type="text/javascript" src="/scripts/snow.js"></script>
 
 body 
 
-  <?php include $sitePath . "/modules/tech/menus/techNavMenu.tpl"; ?> 
+  header.navigation
+    .navigation-wrapper
+      a.logo.hidden-md-down(href='http://xmetal.x10.mx/techHQ/index.php') Tech HQ
+      |     
+      a#js-mobile-menu.navigation-menu-button(href='http://xmetal.x10.mx/techHQ/index.php') Tech HQ
+      |     
+      nav
+        ul#js-navigation-menu.navigation-menu.show
+          li.nav-link
+            a.nav-link(href='/techHQ/software/softwareIndex.php', accesskey='1') Software
+          li.nav-link
+            a.nav-link(href='/techHQ/techcenter/techCenterIndex.php', accesskey='2') Tech Center ( Tips/Tutorials )
+          li.nav-link
+            a.nav-link(href='/techHQ/browsers/browserIndex.php', accesskey='3') Web Browser 
+          li.nav-link
+            a.nav-link(href='/techHQ/security/securityIndex.php', accesskey='4') Security

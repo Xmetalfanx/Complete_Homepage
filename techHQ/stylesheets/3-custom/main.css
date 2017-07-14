@@ -1,3 +1,10 @@
+.navigation {
+  max-height: 80px; }
+
+header ul {
+  position: absolute;
+  right: 0; }
+
 .hero-content {
   background-color: rgba(255, 255, 255, 0.4);
   max-width: 500px;
@@ -19,22 +26,14 @@ footer {
   font-weight: bold;
   text-shadow: 2px 2px 2px black; }
 
-header .navigation-wrapper nav .navigation-menu-button ul li.nav-link a:link {
-  font-size: 20px;
-  font-weight: normal; }
-
 .navigation {
   max-height: 80px; }
+  .navigation nav {
+    text-align: right; }
 
 .footer-2 {
   background-color: #333333;
   position: absolute; }
-
-header nav .navigation-menu {
-  text-align: right; }
-
-.nav-link {
-  padding-bottom: 2px; }
 
 .container {
   width: 96%; }
@@ -44,5 +43,13 @@ header nav .navigation-menu {
 .card .card-header {
   color: #ffffff;
   background-color: #333333; }
+
+ul.navigation-menu {
+  text-align: right; }
+  ul.navigation-menu a:link, ul.navigation-menu a:visited {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 2px; }
 
 /*# sourceMappingURL=main.css.map */
