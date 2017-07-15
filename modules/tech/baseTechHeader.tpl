@@ -14,7 +14,7 @@
   <link rel="home" href="/index.php">
 
   <!-- JQuery-->
-  <script src="http://xmetal.x10.mx/scripts/jquery-3.2.0.min.js"></script>
+  <script src="http://xmetal.x10.mx/scripts/jquery-3.2.1.min.js"></script>
 
   <!-- Tether-->
   <script src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js"></script>

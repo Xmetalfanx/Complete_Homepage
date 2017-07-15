@@ -13,24 +13,41 @@
     color: rgb(255, 255, 255);
 }
 
+
 .logo
 {
-    // Main Text in Title
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    font-size: 36px;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  // Main Text in Title
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
 }
 
-// For Top content
+
+// This class is the top most in the hierarchy of the top menus
 .navigation
 {
   max-height: 80px;
 
-  nav
-  {
-    text-align: right;
+ nav
+ {
+   float: right;
 
+ }
+
+  li a:link, li a:visited
+  {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding-bottom: 2px;
   }
+
+}
+header ul
+{
+  position: absolute;
+  right: 0;
 }

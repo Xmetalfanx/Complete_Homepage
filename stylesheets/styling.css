@@ -385,6 +385,15 @@ header.navigation {
 .navigation {
   max-height: 80px; }
   .navigation nav {
-    text-align: right; }
+    float: right; }
+  .navigation li a:link, .navigation li a:visited {
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 2px; }
 
-/*# sourceMappingURL=customCSS.css.map */
+header ul {
+  position: absolute;
+  right: 0; }
+
+/*# sourceMappingURL=styling.css.map */
