@@ -46,7 +46,9 @@
 
 </div> <!-- Closes card -->
 
+
 </div> <!-- ends Row -->
 
+<?php include $sitePath . "/modules/tech/startpage.tpl"; ?>
 
 <?php  include $sitePath . "/modules/footer.tpl"; ?>

@@ -810,9 +810,91 @@ header.navigation {
   display: block;
   border: none; }
 
+#StartPageStyle {
+  background-color: #ffffff;
+  color: #000000;
+  padding-bottom: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  clear: both;
+  width: 95%; }
+
+input.searchBox {
+  background-color: #ffffff;
+  color: #660000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  height: 23px;
+  outline: none;
+  padding: 0px 6px;
+  padding-bottom: 1px !important;
+  padding-top: 1px !important;
+  width: 260px; }
+
+input.SPSearchBoxWIDE {
+  border: #3371d8 1px solid;
+  max-height: 20px;
+  margin-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px !important;
+  width: 45%;
+  min-width: 45%;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  clear: none;
+  box-shadow: 2px 2px 3px #000000;
+  vertical-align: middle; }
+
+.SPSubmitButton {
+  border-bottom: #3371d8 1px solid;
+  border-left: #3371d8 0px solid;
+  border-right: #3371d8 1px solid;
+  border-top: #3371d8 1px solid;
+  vertical-align: middle;
+  padding-top: 0px;
+  max-height: 20px;
+  margin-left: 3px; }
+
+td.SPGraphic {
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px; }
+
+.SPSearchButton {
+  max-height: 28px;
+  margin-right: 1px;
+  border: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 2px;
+  padding-top: 0px;
+  clear: right;
+  vertical-align: middle; }
+
+#wrapper {
+  clear: both;
+  padding: 10px;
+  background: #ffffff;
+  color: #000000; }
+
+form.SPForm {
+  width: 40%;
+  clear: both;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5%; }
+
 /* Colors */
 /* Fonts */
 /* Images */
+body {
+  overflow-x: hidden; }
+
 .navigation {
   max-height: 80px; }
 
@@ -866,124 +948,5 @@ ul.navigation-menu {
     font-weight: normal;
     text-shadow: 2px 2px 2px black;
     padding-bottom: 2px; }
-
-#StartPageStyle {
-  background-color: #ffffff;
-  color: #000000;
-  padding-bottom: 1px;
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  clear: both;
-  width: 95%; }
-
-input.searchBox {
-  background-color: white;
-  color: #660000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  height: 23px;
-  outline: none;
-  padding: 0px 6px;
-  padding-bottom: 1px !important;
-  padding-top: 1px !important;
-  width: 260px; }
-
-input.SPSearchBoxWIDE {
-  border: #3371d8 1px solid;
-  max-height: 20px;
-  padding: 6px 6px 0;
-  margin-right: 10px;
-  width: 45%;
-  min-width: 45%;
-  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  clear: none;
-  box-shadow: 2px 2px 3px #000000;
-  vertical-align: middle; }
-
-.SPSubmitButton {
-  border-color: #3371d8;
-  border-style: solid;
-  border-width: 1px 1px 1px 0;
-  vertical-align: middle;
-  padding-top: 0px;
-  max-height: 20px;
-  margin-left: 3px; }
-
-td.SPGraphic {
-  padding: 0; }
-
-.SPSearchButton {
-  max-height: 28px;
-  margin-right: 1px;
-  border: 0px;
-  padding: 0 2px 0 10px;
-  clear: right;
-  vertical-align: middle; }
-
-#wrapper {
-  clear: both;
-  padding: 10px;
-  background: #ffffff;
-  color: #000000; }
-
-form.SPForm {
-  width: 40%;
-  clear: both;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 5%; }
-
-/* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
-#GAOTD {
-  width: 50%;
-  padding-top: 3px; }
-
-#ga_block {
-  width: 60%;
-  background-color: #ffffff;
-  color: #000000; }
-
-#ga_block #ga_text {
-  font: normal 11px Arial, sans-serif;
-  border: none;
-  margin: 4px 0 0 0;
-  width: 60%;
-  overflow: auto;
-  text-align: justify; }
-
-#ga_block #ga_text a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 13px;
-  background-color: transparent; }
-
-#ga_block #ga_text img {
-  display: block;
-  position: relative;
-  float: left;
-  border: none;
-  margin: 0 1em 1em 0; }
-
-#ga_block #ga_text p {
-  margin: 4px 0; }
-
-#ga_block #ga_title {
-  font: normal 11px Verdana, sans-serif;
-  border: none;
-  margin: 4px 0 0 0; }
-
-#ga_block #ga_title a {
-  text-decoration: none;
-  color: #0099ff;
-  background-color: transparent; }
-
-#ga_block img {
-  display: block;
-  border: none; }
-
-/* Border variables */
 
 /*# sourceMappingURL=customCSS.css.map */

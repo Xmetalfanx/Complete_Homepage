@@ -1,5 +1,3 @@
-
-
 .hero-content {
     background-color: rgba(255, 255, 255,.40);
     max-width: 500px;
@@ -25,20 +23,14 @@
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
-// The Menus that should be right-aligned
-ul.navigation-menu
+// For Top content
+.navigation
 {
-  text-align: right;
+  max-height: 80px;
 
-
-  a:link, a:visited
+  nav
   {
-    font-size: 24px;
-    font-weight: normal;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-    padding-bottom: 2px;
-
+    text-align: right;
 
   }
-
 }

@@ -9,12 +9,6 @@ body
   max-height: 80px;
 }
 
-header ul
-{
-  position: absolute;
-  right: 0;
-}
-
 .hero-content
 {
 
@@ -33,6 +27,20 @@ header ul
   font-size: 36px;
   font-weight: bold;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+
+
+// For Top content
+.navigation
+{
+  max-height: 80px;
+
+  nav
+  {
+    text-align: right;
+
+  }
 
 }
 
@@ -62,7 +70,7 @@ kbd
 
 ul.navigation-menu
 {
-  text-align: right;
+  float: right;
 
 
   a:link, a:visited
@@ -75,4 +83,170 @@ ul.navigation-menu
 
   }
 
+}
+// ##########################################################################3
+
+.distReview {
+  @include margin(null auto null auto);
+  width         : 99%;
+  clear         : none;
+  margin-top    : 2px;
+
+  @include padding(2px 2px null 5px);
+
+  color         : rgb(0, 0, 0);
+  border       : 1px solid rgb(0, 0, 0);
+  text-align    : left;
+  font-family   : $Courier;
+  line-height   : 25px;
+}
+
+
+
+.distRevTitle {
+  clear       : both;
+
+  @include padding(1px 1px 1px 1px);
+
+  border      : $solidBorder;
+  font-size   : 20px;
+  font-weight : bold;
+
+}
+
+
+#distroTables {
+    /*border: $solidBorder;*/
+  display          : inline-block;
+  width            : 97%;
+  clear            : both;
+  @include margin(5px null 5px null);
+  @include padding(5px 1% null 1%);
+
+  background-color : rgb(255, 255, 255);
+  a:link {
+    margin         : 2px;
+    @include padding(3px null 3px null);
+
+    overflow       : auto;
+    font-family    : $Arial;
+  }
+}
+
+
+
+#personalExp {
+  @include   margin(null auto null auto);
+
+  width            : 100%;
+  margin-top       : 15px;
+  padding-bottom   : 10px;
+  color            : rgb(0, 0, 0);
+  border           : $solidBorder;
+  background-color : rgb(255, 255, 255);
+  blockquote {
+
+    @include margin(0 0 0 0 );
+    font-family   : $MSSans;
+    font-weight   : bold;
+  }
+}
+
+#YTReviewer {
+  clear          : both;
+
+  @include padding(0 0 10px 10px);
+  overflow       : auto;
+  border         : $solidBorder;
+  line-height    : 20px;
+
+  .left {
+    width : 40%;
+    float : left;
+  }
+  .right {
+    width : 40%;
+  }
+}
+
+
+#TIC
+{
+     .TICHomepage, .TICUsage
+    	{
+    		border: $solidBorder;
+
+     		img
+     		{
+				@include size(65%, 65%);
+     		}
+     }
+}
+// #####################################################################
+
+
+// REALLY not sure if this container-type ID is needed
+#linuxSection
+{
+    @include margin(null auto null auto);
+
+    // Whether DE, Distro, TIC or whatnot ... this is the title
+    .name
+    {
+        // Info is a guess for now
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: underline;
+
+        // put the name class at the start of the line and this is for the icon
+        // both icon and name will be on the same line
+          img
+          {
+            @include size(40px);
+          }
+
+    }
+
+}
+
+.screenshots
+{
+
+  img
+    // Values are a guess for now
+    {
+    width: 500px;
+    }
+
+}
+
+.linuxContainer
+{
+  border: 1px solid #000000;
+  @include padding(2px 2px 2px 5px);
+  box-shadow: 2px 2px 2px #000000;
+  @include margin(null 2px 20px 2px);
+
+}
+
+
+
+#distrowatch {
+  height           : 200px;
+  @include padding(2% 2% 1% 25px);
+  @include margin(null auto null auto);
+
+  overflow         : auto;
+  border           : rgb(0, 0, 0) 2px solid;
+  background-color : rgb(255, 255, 255);
+  font-family      : $TNR;
+  /*margin-left: 50px;*/
+
+  rss-item-full {
+    color : rgb(255, 0, 0);
+  }
+  a:link {
+    color            : rgb(255, 0, 0);
+    background-color : transparent;
+  }
 }
