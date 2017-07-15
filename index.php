@@ -19,7 +19,7 @@
 
     <script src="http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js"></script>
 
-    <link href="/stylesheets/customCSS.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/stylesheets/styling.css" rel="stylesheet" type="text/css" media="all">
 
   </head>
   <body>
