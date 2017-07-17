@@ -363,37 +363,47 @@ header.navigation {
 /* Fonts */
 /* Images */
 /* Border variables */
-.hero-content {
-  background-color: rgba(255, 255, 255, 0.4);
-  max-width: 500px;
-  box-shadow: 2px 2px 2px black;
-  padding: 10px; }
+.accordion-tabs-minimal {
+  line-height: 1.5;
+  padding: 0; }
+  .accordion-tabs-minimal::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .accordion-tabs-minimal .tab-header-and-content {
+    list-style: none; }
+    @media screen and (min-width: 40em) {
+      .accordion-tabs-minimal .tab-header-and-content {
+        display: inline; } }
+  .accordion-tabs-minimal .tab-link {
+    background-color: #fff;
+    border-top: 1px solid #dcdcdc;
+    color: #333;
+    display: block;
+    padding: 0.75em 1.618em;
+    text-decoration: none; }
+    @media screen and (min-width: 40em) {
+      .accordion-tabs-minimal .tab-link {
+        border-top: 0;
+        display: inline-block; } }
+    .accordion-tabs-minimal .tab-link:hover {
+      color: #477dca; }
+    .accordion-tabs-minimal .tab-link:focus {
+      outline: none; }
+    .accordion-tabs-minimal .tab-link.is-active {
+      border-bottom: 0; }
+      @media screen and (min-width: 40em) {
+        .accordion-tabs-minimal .tab-link.is-active {
+          border: 1px solid #dcdcdc;
+          border-bottom-color: #fff;
+          margin-bottom: -1px; } }
+  .accordion-tabs-minimal .tab-content {
+    display: none;
+    padding: 1.5em 1.618em;
+    width: 100%; }
+    @media screen and (min-width: 40em) {
+      .accordion-tabs-minimal .tab-content {
+        border-top: 1px solid #dcdcdc;
+        float: left; } }
 
-.footer-2 {
-  bottom: 0;
-  position: absolute;
-  background: #333333;
-  color: white; }
-
-.logo {
-  color: white;
-  background-color: transparent;
-  font-size: 36px;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px black; }
-
-.navigation {
-  max-height: 80px; }
-  .navigation nav {
-    float: right; }
-  .navigation li a:link, .navigation li a:visited {
-    font-size: 24px;
-    font-weight: normal;
-    text-shadow: 2px 2px 2px black;
-    padding-bottom: 2px; }
-
-header ul {
-  position: absolute;
-  right: 0; }
-
-/*# sourceMappingURL=styling.css.map */
+/*# sourceMappingURL=tabRefills.css.map */

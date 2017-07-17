@@ -6,21 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="index" href="/index.php">
 
-  <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
-  <script src="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
 
-  <!-- JQuery-->
-  <script src="http://xmetal.x10.mx/scripts/jquery-3.2.1.min.js"></script>
+    <!-- JQuery-->
+    <script src="/scripts/jquery-3.2.1.min.js"></script>
 
-  <!-- Tether-->
-  <script src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js"></script>
+    <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
+    <script src="/scripts/nav.js" type="text/javascript"></script>
 
-  <!-- Bootstrap 4 alpha 6 -->
-  <link rel="stylesheet" href="http://xmetal.x10.mx/frameworks/bootstrap/css/bootstrap.min.css">
-  <script src="http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Tether-->
+    <script src="/frameworks/tether133/js/tether.min.js"></script>
+
+    <!-- Bootstrap 4 alpha 6 -->
+    <link rel="stylesheet" href="/frameworks/bootstrap/css/bootstrap.min.css">
+    <script src="/frameworks/bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="/linuxHQ/stylesheets/styling.css" rel="stylesheet" type="text/css">
+
+    <!-- Universal CSS file-->
+    <link href="../universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
 
 
-  <link href="/linuxHQ/stylesheets/styling.css" rel="stylesheet" type="text/css">
 </head>
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 <body>
@@ -29,8 +34,8 @@
 
     <header class="navigation">
       <div class="navigation-wrapper">
-      <a href="http://xmetal.x10.mx/linuxHQ/index.php" class="logo hidden-md-down">Linux HQ</a>
-      <a id="js-mobile-menu" href="http://xmetal.x10.mx/linuxHQ/index.php" class="navigation-menu-button">Linux HQ</a>
+      <a href="/linuxHQ/index.php" class="logo hidden-md-down">Linux HQ</a>
+      <a id="js-mobile-menu" href="/linuxHQ/index.php" class="navigation-menu-button">Linux HQ</a>
       <nav>
         <ul id="js-navigation-menu" class="navigation-menu show">
           <li class="nav-link">

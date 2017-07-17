@@ -10,20 +10,21 @@ head
   meta(name='viewport', content='width=device-width, initial-scale=1')
   link(rel='index', href='/index.php')
   
-  
-  // For Navigation Menu from Bourbon.io and it's Refills section   
-  script(src="http://xmetal.x10.mx/scripts/nav.js", type="text/javascript")
-  
   // JQuery
-  script(src='http://xmetal.x10.mx/scripts/jquery-3.2.1.min.js')
+  script(src='/scripts/jquery-3.2.1.min.js')
 
+  // For Navigation Menu from Bourbon.io and it's Refills section   
+  script(src="/scripts/nav.js", type="text/javascript")
+  
   // Tether
-  script(src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js")
+  script(src="/frameworks/tether133/js/tether.min.js")
 
   // Bootstrap 4 alpha 6 
-  link(rel='stylesheet', href='http://xmetal.x10.mx/frameworks/bootstrap/css/bootstrap.min.css')
-  script(src='http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js' )
+  link(rel='stylesheet', href='/frameworks/bootstrap/css/bootstrap.min.css')
+  script(src='/frameworks/bootstrap/js/bootstrap.min.js' )
 
+  // Universal CSS file
+  link(href='../universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
 
   link(href='/linuxHQ/stylesheets/styling.css', rel='stylesheet', type='text/css')
     
@@ -31,9 +32,9 @@ head
 body 
   header.navigation
     .navigation-wrapper
-    a.logo.hidden-md-down(href='http://xmetal.x10.mx/linuxHQ/index.php') Linux HQ
+    a.logo.hidden-md-down(href='/linuxHQ/index.php') Linux HQ
     |     
-    a#js-mobile-menu.navigation-menu-button(href='http://xmetal.x10.mx/linuxHQ/index.php') Linux HQ
+    a#js-mobile-menu.navigation-menu-button(href='/linuxHQ/index.php') Linux HQ
     |     
     nav
     ul#js-navigation-menu.navigation-menu.show

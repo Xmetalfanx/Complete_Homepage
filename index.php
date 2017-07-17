@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Xmetal&apos;s Homepage</title>
 
-    <!-- For Navigation Menu from Bourbon.io and it's Refills section-->
-    <script src="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
-
     <!-- JQuery-->
     <script src="http://xmetal.x10.mx/scripts/jquery-3.2.1.min.js"></script>
+
+    <!-- For Navigation Menu from Bourbon.io and it's Refills section-->
+    <script src="http://xmetal.x10.mx/scripts/nav.js" type="text/javascript"></script>
 
     <!-- Tether-->
     <script src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js"></script>
@@ -19,7 +19,7 @@
 
     <script src="http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js"></script>
 
-    <link href="/stylesheets/styling.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
 
   </head>
   <body>
