@@ -32,6 +32,7 @@
 
   <!-- Link to My External Style Sheet - Specific for tech HQ -->
   <link rel="stylesheet" href="/stylesheets/styling.css">
+  
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 
 </head>

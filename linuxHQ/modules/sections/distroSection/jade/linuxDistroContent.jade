@@ -7,7 +7,7 @@
 		<?php echo $name; ?>
 
 <?php include $sitePath . '/linuxHQ/modules/sections/distroSection/distroTable.tpl'; ?>
-<?php include $sitePath . '/linuxHQ/modules/ytsection.tpl'; ?>
+
 
 .card
 	.card-block
@@ -16,37 +16,15 @@
 			<?php echo $description; ?>
 
 
+			<?php include $sitePath . '/linuxHQ/modules/sections/distroSection/tabDistro.tpl'; ?>
 
-.screenshots.hide-md-down
-	.bold Screenshots
-	<?php echo $distroSshot; ?>
+
 	br 
 
 .card
 	.card-block
 		h3.card-title Reviews
 			<?php include $sitePath . '/linuxHQ/modules/section/linuxDistroReviewer.php' ; ?>
-
-.card
-	.card-block
-		h4.card-title My Experience: 
-		.card-text
-			<?php echo $EXP; ?> 
-			br
-			<?php echo $experience; ?> 
-			br
-			br
-
-			.boldUnderline Any other comments I have about this distro:
-				<?php echo $otherComments; ?>
-				br 
-				<?php include $sitePath . '/linuxHQ/modules/distroRec.tpl'; ?>
-
-.card
-	.card-block
-		h4.card-title USB Drive Creation Experience
-		.card-text
-			p <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
-
-		#usb
-		<?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>
+			
+			
+<?php include $sitePath . '/linuxHQ/modules/section/distroSection/tabDisto.tpls' ; ?>

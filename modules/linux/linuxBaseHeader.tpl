@@ -13,6 +13,9 @@
     <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
     <script src="/scripts/nav.js" type="text/javascript"></script>
 
+    <!-- Needed for tab'd layout options I am trying -->
+    <script src="/scripts/tabRefills.js" type="text/javascript"></script>
+
     <!-- Tether-->
     <script src="/frameworks/tether133/js/tether.min.js"></script>
 
@@ -20,10 +23,8 @@
     <link rel="stylesheet" href="/frameworks/bootstrap/css/bootstrap.min.css">
     <script src="/frameworks/bootstrap/js/bootstrap.min.js"></script>
 
-    <link href="/linuxHQ/stylesheets/styling.css" rel="stylesheet" type="text/css">
-
     <!-- Universal CSS file-->
-    <link href="../universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
 
 
 </head>

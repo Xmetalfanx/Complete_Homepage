@@ -791,6 +791,10 @@ footer {
   box-shadow: 2px 2px 2px black;
   padding: 10px; }
 
+header {
+  background-color: #333333;
+  max-height: 100px; }
+
 ul.navigation-menu {
   text-align: right; }
   ul.navigation-menu a:link, ul.navigation-menu a:visited {
