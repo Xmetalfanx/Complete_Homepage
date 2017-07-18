@@ -11,8 +11,8 @@
 		$distroWatch = '<a href="http://distrowatch.com/fedora" target="_blank">http://distrowatch.com/fedora</a> ' ;
 		$DE = 'Gnome(Shell), XFCE, Mate, Cinnamon ';
 		$distroSshot = '<a href="/linuxHQ/screenshots/DE/fedoraGnome1.jpg">
-										<img src="/linuxHQ/screenshots/DE/fedoraGnome1.jpg" alt="Fedora Gnome Screenshot"/>	</a>';
-
+										<img src="/linuxHQ/screenshots/DE/fedoraGnome1.jpg" alt="Fedora Gnome Screenshot"/>	</a>' . '<a href=" https://spins.fedoraproject.org/cinnamon/ " target="_blank">
+																			<img src="/linuxHQ/screenshots/rpm/fedoraCinn1.jpg" alt="Fedora Cinnamon Screenshot"/>	</a>';
 
 
 		$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm">Fedora Review Playlist</a>    ';

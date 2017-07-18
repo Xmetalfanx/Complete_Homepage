@@ -8,8 +8,9 @@
 	$forum = '<a href="http://ubuntuforums.org/">Ubuntu Forums</a> ' ;
 	$distroWatch = ' ';
 	$DE = 'XFCE';
-	$distroSshot = '';
-	$similar = 'SolydX, Linux Mint if you add XFCE, Linux Lite ';
+	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntu/xubuntu1.png">
+								<img src="/linuxHQ/screenshots/ubuntu/xubuntu1.png" alt="Xubuntu Screenshot"/></a>';
+	$similar = 'SolydX, Linux Mint XFCE, Linux Lite ';
 
        $description = <<<DES
 

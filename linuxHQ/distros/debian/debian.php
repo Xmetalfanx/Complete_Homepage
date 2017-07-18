@@ -12,7 +12,8 @@
 	$forum = ' <a href="http://forums.debian.net/" target="_blank">http://forums.debian.net/</a>';
 	$distroWatch = '<a href="http://distrowatch.com/debian" target="_blank">http://distrowatch.com/debian</a> ';
 	$DE = 'Various  ';
-	$distroSshot = &$debianSshot1;
+	$distroSshot = '<a href="/linuxHQ/screenshots/debian/debian.jpg">
+							<img src="/linuxHQ/screenshots/debian/debian-small.jpg" /></a>';
 
 	$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ" target="_blank">Debian Review Playlist</a>    ';
 		$TweakPL = ' ';

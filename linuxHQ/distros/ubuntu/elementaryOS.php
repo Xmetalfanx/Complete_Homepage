@@ -8,7 +8,8 @@
 	$forum = '<a href="https://elementaryforums.com/index.php"> https://elementaryforums.com/index.php </a>' ;
 	$distroWatch = '<a href="http://distrowatch.com/elementary" target="_blank">ElementaryOS on DIstrowatch</a>' ;
 	$DE = ' Pantheon';
-	$distroSshot = &$eosSShot1;
+	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/elementary.jpg">
+								<img src="/linuxHQ/screenshots/ubuntubased/elementary.png" alt= "ElementaryOS Screenshot"/>	</a>';
 
   $target = 'Any User/ New User';
    $type = '';

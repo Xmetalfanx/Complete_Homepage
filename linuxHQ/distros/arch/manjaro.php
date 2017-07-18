@@ -12,8 +12,9 @@ include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
         $forum = '<a href="http://forum.manjaro.org/">http://forum.manjaro.org/</a> ';
         $distroWatch = '<a href="http://distrowatch.com/manjaro">http://distrowatch.com/manjaro</a> ';
         $DE = ' ';
-        $distroSshot = '<div class="left">' . $manjaroKDE5 . '</div> <div class="right">' . $manjaroXFCE1 . '</div>';
-		$similar = '(with the same DE..) Antergos';
+        $distroSshot = '<a href="/linuxHQ/screenshots/archbased/manjaro-090p1-kde.jpg">
+      								<img src="/linuxHQ/screenshots/archbased/manjaro-090p1-kde_small.jpg" alt="Manjaro KDE screenshot" />	</a>'  . '<a href="/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg"><img src="/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg" alt=" Manjaro XFCE  " /> </a>';
+		    $similar = '(with the same DE..) Antergos';
 
         $target = 'Any User';
         $type = 'Rolling Release';

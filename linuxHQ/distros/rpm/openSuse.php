@@ -9,7 +9,10 @@
 	$forum 			= '<a href="http://forums.opensuse.org/" target="_blank">http://forums.opensuse.org/</a> ' ;
 	$distroWatch = '<a href="http://distrowatch.com/suse" target="_blank">http://distrowatch.com/suse</a> ' ;
 	$DE 				= 'Gonme, KDE, XFCE';
-	$distroSshot = &$suseKDE1;
+	$distroSshot = '<a href="/linuxHQ/screenshots/rpm/suseKDE1.jpg">
+							<img src="/linuxHQ/screenshots/rpm/suseKDE1-small.jpg" alt="OpenSuse KDE" /> </a> ' . '<a href="/linuxHQ/screenshots/DE/suseGnome1.jpg">
+														<img src="/linuxHQ/screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome Screenshot"/>
+														</a> ';
 
 
 	$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJdhnxr60T_scRoV7Oc3N9f_"  target="_blank">OpenSuse Review Playlist</a>    ';

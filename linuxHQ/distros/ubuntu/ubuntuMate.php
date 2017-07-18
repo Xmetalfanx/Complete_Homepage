@@ -8,7 +8,8 @@
 	$forum = '<a href="https://ubuntu-mate.community/">Ubuntu Mate Community</a> ' ;
 	$distroWatch = '<a href="http://distrowatch.com/table.php?distribution=ubuntumate" target="_blank" >Ubuntu Mate</a>';
 	$DE = 'Mate';
-	$distroSshot = '';
+	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/umate1.jpg">
+								<img src="/linuxHQ/screenshots/ubuntubased/umate1.png" alt="Ubuntu Mate Screenshot"/></a>';
 	$similar = '';
 
 

@@ -8,7 +8,8 @@
 	$forum = '<a href="http://ubuntuforums.org/">http://ubuntuforums.org/</a> ' ;
 	$distroWatch = ' ';
 	$DE = 'Unity';
-	$distroSshot = &$ubuntuSShot1;
+	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntu/ubuntu.jpg">
+										<img src="/linuxHQ/screenshots/ubuntu/ubuntu.jpg" alt="ubuntu screenshot" />	</a>';
 
        $description = <<<DES
         Ubuntu is one of the most popular versions of Linux and sometimes distribution that sparks strong opinions (for and against it).

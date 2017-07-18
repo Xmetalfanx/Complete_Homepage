@@ -8,7 +8,8 @@
 	$forum = '<a href="http://ubuntuforums.org/">http://ubuntuforums.org/</a> ' ;
 	$distroWatch = ' ';
 	$DE = 'LXDE';
-	$distroSshot = '';
+	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntu/lubuntu1.png">
+								<img src="/linuxHQ/screenshots/ubuntu/lubuntu1.png" alt="Lubuntu Screenshot"/></a>';
 	$similar = 'Lubuntu';
 
        $description = <<<DES
