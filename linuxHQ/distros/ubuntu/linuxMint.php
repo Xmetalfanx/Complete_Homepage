@@ -12,7 +12,10 @@
 	$forum = '<a href="http://linuxmint.com/forum/">http://linuxmint.com/forum/</a> ' ;
 	$distroWatch = '<a href=http://distrowatch.com/mint">Linux Mint on Distrowatch</a> ' ;
 	$DE = 'KDE, XFCE, Mate, Cinnamon ';
-	$distroSshot =  $mintCin1 . $mintMate1  . $mintMate2;
+	$distroSshot =  '
+  <a href="/linuxHQ/screenshots/ubuntubased/mint.jpg">
+    <img src="/linuxHQ/screenshots/ubuntubased/mint.jpg" alt="Mint Cinnamon screenshot" /></a>' . '<a href="/linuxHQ/screenshots/ubuntubased/mintMate2.jpg"> <img src="/linuxHQ/screenshots/ubuntubased/mintMate2.jpg" alt="My Mint Mate Screenshot2" /></a>'  . '<a href="/linuxHQ/screenshots/ubuntubased/mintMate2.jpg">
+  					<img src="/linuxHQ/screenshots/ubuntubased/mintMate2.jpg" alt="My Mint Mate Screenshot2" /></a>';
 
 	$similar = 'Linux Mint KDE is comparible to Netrunner KDE, and' . $kubuntuHP .
 			 '<br /> Linux Mint Cinnamon is like Ubuntu with Cinnamon PPA\'s added and packages installed ';

@@ -1,0 +1,19 @@
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/sshots.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/distros/ubuntu/linuxMint.php on line 3
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/sshots.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/distros/ubuntu/linuxMint.php on line 3
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(/usr/local/apache/htdocs/linuxHQ/modules/homepage.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/distros/ubuntu/linuxMint.php on line 4
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(): Failed opening '/usr/local/apache/htdocs/linuxHQ/modules/homepage.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/distros/ubuntu/linuxMint.php on line 4
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: kubuntuHP in /home/xmetalx1/public_html/linuxHQ/distros/ubuntu/linuxMint.php on line 20
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(/home/xmetalx1/public_html/linuxHQ/modules/sections/linuDistroCol1.tpl): failed to open stream: No such file or directory in /home/xmetalx1/public_html/templates/linux/baseLinuxDistro.tpl on line 11
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(): Failed opening '/home/xmetalx1/public_html/linuxHQ/modules/sections/linuDistroCol1.tpl' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/templates/linux/baseLinuxDistro.tpl on line 11
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(/linuxHQ/modules/variables/varInclude.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/templates/linux/baseLinuxDistro.tpl on line 16
+[18-Jul-2017 16:42:44 America/New_York] PHP Warning:  include(): Failed opening '/linuxHQ/modules/variables/varInclude.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/templates/linux/baseLinuxDistro.tpl on line 16
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: software in /home/xmetalx1/public_html/linuxHQ/modules/sections/distroSection/distroTable.tpl on line 11
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: target in /home/xmetalx1/public_html/linuxHQ/modules/sections/distroSection/distroTable.tpl on line 17
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: YTPlaylist in /home/xmetalx1/public_html/linuxHQ/modules/ytsection.tpl on line 9
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: TweakPL in /home/xmetalx1/public_html/linuxHQ/modules/ytsection.tpl on line 19
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: rufus in /home/xmetalx1/public_html/linuxHQ/modules/sections/usb.tpl on line 7
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: imageUSB in /home/xmetalx1/public_html/linuxHQ/modules/sections/usb.tpl on line 8
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: yumi in /home/xmetalx1/public_html/linuxHQ/modules/sections/usb.tpl on line 9
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: ddCommand in /home/xmetalx1/public_html/linuxHQ/modules/sections/usb.tpl on line 13
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: mintUSB in /home/xmetalx1/public_html/linuxHQ/modules/sections/usb.tpl on line 14
+[18-Jul-2017 16:42:44 America/New_York] PHP Notice:  Undefined variable: suseWriter in /home/xmetalx1/public_html/linuxHQ/modules/sections/usb.tpl on line 15

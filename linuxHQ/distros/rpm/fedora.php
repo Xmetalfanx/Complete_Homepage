@@ -10,7 +10,8 @@
 		$forum = '<a href="http://forums.fedoraforum.org/">Fedora\'s Forum</a> ';
 		$distroWatch = '<a href="http://distrowatch.com/fedora" target="_blank">http://distrowatch.com/fedora</a> ' ;
 		$DE = 'Gnome(Shell), XFCE, Mate, Cinnamon ';
-		$distroSshot = &$fedoraSShot1;
+		$distroSshot = '<a href="/linuxHQ/screenshots/DE/fedoraGnome1.jpg">
+										<img src="/linuxHQ/screenshots/DE/fedoraGnome1.jpg" alt="Fedora Gnome Screenshot"/>	</a>';
 
 
 

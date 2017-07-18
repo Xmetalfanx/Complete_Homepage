@@ -4,14 +4,15 @@
 
     $name = 'Antergos (formerly Cinnarch)';
     $family = 'Arch';
-    $icon = '<img src="/graphics/icons/antergos.png" width="90" height="90"  alt="Antergos Icon"/>';
+    $icon = '<img src="/linuxHQ/graphics/icons/antergos.png" width="90" height="90"  alt="Antergos Icon"/>';
     $homepage = ' <?php echo $antergosHOME; ?> ';
     $download = '<a href="http://www.antergos.com/try-it/" target="_blank">http://www.antergos.com/try-it/</a> ';
     $version = 'May 2014 ';
     $forum = '<span class="Info"> <a href="http://forum.antergos.com/">http://forum.antergos.com/</a></span> ';
     $distroWatch = '<a href="http://distrowatch.com/antergos" target="_blank">http://distrowatch.com/antergos</a> ';
     $DE = 'Gnome(Shell), KDE ';
-    $distroSshot = &$antergosKDE1;
+    $distroSshot = '<a href="/linuxHQ/screenshots/archbased/antergosKDE1.jpg">
+  						 <img src="/linuxHQ/screenshots/archbased/antergosKDE1.jpg" alt=" Antergos KDE " /> </a>';
     $similar = ' (with the same DE) Manjaro';
 
     $target = 'Any User';

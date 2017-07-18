@@ -13,6 +13,7 @@
     <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
     <script src="/scripts/nav.js" type="text/javascript"></script>
 
+
     <!-- Needed for tab'd layout options I am trying -->
     <script src="/scripts/tabRefills.js" type="text/javascript"></script>
 
@@ -26,6 +27,7 @@
     <!-- Universal CSS file-->
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
 
+    <link href="/linuxHQ/stylesheets/styling.css" rel="stylesheet" type="text/css">
 
 </head>
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->

@@ -8,7 +8,8 @@
       $forum = ' <a href="http://lxle.net/forum/">http://lxle.net/forum/</a>' ;
       $distroWatch = ' ' ;
       $DE = 'LXDE ';
-      $distroSshot = &$lxleSShot1;
+      $distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/lxle.jpg">
+    						 <img src="/linuxHQ/screenshots/ubuntubased/lxle-small.jpg" alt="LXLE 14.04" /></a> ';
 	  $similar = 'Lubuntu or any other Ubuntu based distro with LXDE installed';
 
         $target = 'Any User';

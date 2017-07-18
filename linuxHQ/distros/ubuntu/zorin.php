@@ -8,7 +8,8 @@
       $forum = '<a href="http://www.zoringroup.com/forum/viewforum.php?f=3">http://www.zoringroup.com/forum/viewforum.php?f=3</a> ' ;
       $distroWatch = ' ' ;
       $DE = '(Custom) ';
-      $distroSshot = &$zorinSShot1;
+      $distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/zorin.jpg">
+    									<img src="/linuxHQ/screenshots/ubuntubased/zorin.jpg" alt="Zorin Screenshot" /></a>';
 
     $target = 'New User';
     $type = '';

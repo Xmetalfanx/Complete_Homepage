@@ -2774,7 +2774,8 @@ kbd {
       width: 40px; }
 
 .screenshots img {
-  width: 500px; }
+  width: 500px;
+  height: 40px; }
 
 .linuxContainer {
   border: 1px solid #000000;

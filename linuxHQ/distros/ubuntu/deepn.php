@@ -8,7 +8,8 @@
 	$forum = ' <a href="http://www.linuxdeepin.com/forum/8" target="_blank">http://www.linuxdeepin.com/forum/8</a> ' ;
 	$distroWatch = ' <a href="http://distrowatch.com/deepin" target="_blank">http://distrowatch.com/deepin</a> ' ;
 	$DE = 'Deepin Desktop Environment (DDE) ';
-	$distroSshot = &$deepinSShot1;
+	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/deepin.jpg">
+									<img src="/linuxHQ/screenshots/ubuntubased/deepin-small.jpg" /></a>';
 
   $EXP = &$deepinExp;
 
