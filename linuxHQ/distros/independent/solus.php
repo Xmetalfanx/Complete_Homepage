@@ -9,9 +9,9 @@
   	$distroWatch = '<a href="http://distrowatch.com/table.php?distribution=solus" target="_blank">http://distrowatch.com/table.php?distribution=solus</a> ' ;
   	$DE = '&quot;Budgie Desktop&quot; ';
   	$distroSshot = '<a href="/linuxHQ/screenshots/solus/budgie1.jpg">
-  					 <img src="/linuxHQ/screenshots/solus/small/budgie1_tn.jpg" /></a>'  .  '<a href="/linuxHQ/screenshots/solus/budgie2.jpg">
+  					       <img src="/linuxHQ/screenshots/solus/small/budgie1_tn.jpg" /></a>'  .  '<a href="/linuxHQ/screenshots/solus/budgie2.jpg">
            					<img src="/linuxHQ/screenshots/solus/small/budgie2_tn.jpg" /></a>'  .  '<a href="/linuxHQ/screenshots/solus/budgie3.jpg">
-                  					<img src="/linuxHQ/screenshots/solus/small/budgie3_tn.jpg" /></a>';
+                  	<img src="/linuxHQ/screenshots/solus/small/budgie3_tn.jpg" /></a>';
 
   	 $EXP = &$evolveOSExp;
      $experience = 'Alpha 3, Alpha 4, Solus 1.0 pre-releases, Solus 1.0, Solus 1.1';
@@ -48,3 +48,4 @@
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

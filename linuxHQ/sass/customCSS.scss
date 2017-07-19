@@ -144,8 +144,10 @@ kbd
   img
     // Values are a guess for now
     {
-    width: 400px;
+    width: 500px;
     height: 400px;
+    box-shadow: 1px 1px 10px #000000;
+    @include margin(null 10px 10px null);
     }
 
 }

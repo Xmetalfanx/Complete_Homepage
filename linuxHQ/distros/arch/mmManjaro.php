@@ -60,3 +60,7 @@ COM;
       include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
         ?>
+
+
+
+	<?php include $sitePath . "/modules/footer.tpl"; ?>

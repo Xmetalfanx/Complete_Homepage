@@ -7,15 +7,15 @@
 	$version = '14.04 LTS, 16.04 LTS ';
 	$forum = '<a href="http://ubuntuforums.org/">http://ubuntuforums.org/</a> ' ;
 	$distroWatch = ' ';
-	$DE = 'Unity';
+	$DE = 'Unity up until 17.04 ... Now going to Gnomeshell/Gnome 3';
 	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntu/ubuntu.jpg">
 										<img src="/linuxHQ/screenshots/ubuntu/ubuntu.jpg" alt="ubuntu screenshot" />	</a>';
 
-       $description = <<<DES
-        Ubuntu is one of the most popular versions of Linux and sometimes distribution that sparks strong opinions (for and against it).
+   $description = <<<DES
+    Ubuntu is one of the most popular versions of Linux and sometimes distribution that sparks strong opinions (for and against it).
 
-        Some like the Ubuntu default &amp;Unity &amp; desktop, while others do not.  Lucky for all user there are respins of Ubuntu that
-         include the Gnome, KDE, LXDE, and XFCE Desktops
+    Some like the Ubuntu default &amp;Unity &amp; desktop, while others do not.  Lucky for all user there are respins of Ubuntu that
+     include the Gnome, KDE, LXDE, and XFCE Desktops
 
 DES;
 
@@ -52,3 +52,4 @@ DES;
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 	?>
+	<?php include $sitePath . "/modules/footer.tpl"; ?>

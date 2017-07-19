@@ -14,8 +14,8 @@
         $target  = 'Moderate to Advanced Users';
         $type = 'Rolling Release';
         $software = 'Bleeding Edge';
-		$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm">Arch Review Playlist</a>    ';
-		$TweakPL = '<a href=" https://www.youtube.com/playlist?list=PL67B5FFD9848E5DD6  ">Midfingr\'s Arch install Playlist </a>   ';
+		     $YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm">Arch Review Playlist</a>    ';
+		       $TweakPL = '<a href=" https://www.youtube.com/playlist?list=PL67B5FFD9848E5DD6  ">Midfingr\'s Arch install Playlist </a>   ';
 
 
         $recommend = 'Yes';
