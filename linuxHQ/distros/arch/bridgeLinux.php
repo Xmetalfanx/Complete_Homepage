@@ -4,10 +4,10 @@
         $name = 'Bridge Linux';
         $family = 'Arch';
         $icon = '<img src="../../graphics/icons/bridge.png" width="90" height="88"  alt="Bridge Linux Icon"/>';
-        $homepage = '<a href="http://millertechnologies.net/bridge.html">http://millertechnologies.net/bridge.html</a> ';
-        $download = '<a href="http://millertechnologies.net/downloads">http://millertechnologies.net/downloads</a> ';
+        $homepage = '<a href="http://bridgelinux.org">Bridge Linux</a> ';
+        $download = '<a href="#">N/A</a> ';
         $version = 'Feb 2014 ';
-        $forum = '<a href="http://millertechnologies.net/forum">http://millertechnologies.net/forum</a> ';
+        $forum = '<a href="#">N/A</a> ';
         $distroWatch = '<a href="http://distrowatch.com/bridge" target="_blank">http://distrowatch.com/bridge</a> ';
         $DE = 'Gnome-shell, KDE, XFCE, LXDE ';
         $distroSshot = ' ';
