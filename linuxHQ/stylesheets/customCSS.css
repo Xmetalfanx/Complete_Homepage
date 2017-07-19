@@ -2762,16 +2762,13 @@ kbd {
     height: 65%;
     width: 65%; }
 
-#linuxSection {
-  margin-right: auto;
-  margin-left: auto; }
-  #linuxSection .name {
-    font-size: 24px;
-    font-weight: bold;
-    text-decoration: underline; }
-    #linuxSection .name img {
-      height: 40px;
-      width: 40px; }
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline; }
+  .name img {
+    height: 40px;
+    width: 40px; }
 
 .screenshots img {
   width: 500px;

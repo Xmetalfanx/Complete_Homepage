@@ -793,7 +793,8 @@ footer {
 
 header {
   background-color: #333333;
-  max-height: 100px; }
+  max-height: 100px;
+  margin-bottom: 2px; }
 
 ul.navigation-menu {
   text-align: right; }

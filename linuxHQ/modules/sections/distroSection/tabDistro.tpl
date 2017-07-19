@@ -4,18 +4,20 @@
     <a href="#screeshot" class="tab-link is-active">Screenshots</a>
     <div class="tab-content">
       <div class="screenshots hide-md-down">
-      <div class="bold">Screenshots</div><?php echo $distroSshot; ?></div>
+        <?php echo $distroSshot; ?>
+    </div>
     </div>
   </li>
 
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link">Another Tab</a>
+    <a href="#" class="tab-link">My Thoughts/Recommendations</a>
     <div class="tab-content"></div>
   </li>
 
   <li class="tab-header-and-content">
     <a href="#youtube" class="tab-link">Youtube Reviews</a>
-    <div class="tab-content"></div>
+    <div class="tab-content">
+      <?php include $sitePath . '/linuxHQ/modules/section/variables/linuxDistroReviewer.php' ; ?></div>
   </li>
 
   <li class="tab-header-and-content">

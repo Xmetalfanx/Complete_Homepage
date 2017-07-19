@@ -1,3 +1,4 @@
+<?php include $sitePath . '/linuxHQ/modules/variables/ytRevHomepages.php'; ?>
 
 <div id="YTReviewer">
   <div class="row">

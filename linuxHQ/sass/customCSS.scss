@@ -119,42 +119,38 @@ kbd
 // #####################################################################
 
 
-// REALLY not sure if this container-type ID is needed
-#linuxSection
+
+.name
 {
-    @include margin(null auto null auto);
+    // Info is a guess for now
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
 
-    // Whether DE, Distro, TIC or whatnot ... this is the title
-    .name
-    {
-        // Info is a guess for now
-        font-size: 24px;
-        font-weight: bold;
-        text-decoration: underline;
-
-        // put the name class at the start of the line and this is for the icon
-        // both icon and name will be on the same line
-          img
-          {
-            @include size(40px);
-          }
-
-    }
+    // put the name class at the start of the line and this is for the icon
+    // both icon and name will be on the same line
+      img
+      {
+        @include size(40px);
+      }
 
 }
 
+
+// This is still needed
 .screenshots
 {
 
   img
     // Values are a guess for now
     {
-    width: 500px;
-    height: 40px;
+    width: 400px;
+    height: 400px;
     }
 
 }
 
+ /// I have no idea what this is for anymore ... I will keep it for now
 .linuxContainer
 {
   border: 1px solid #000000;

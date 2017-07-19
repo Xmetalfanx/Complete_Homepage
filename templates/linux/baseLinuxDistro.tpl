@@ -8,7 +8,7 @@
 <div class="row mainBody">
 
   <div class="col-xm-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
-    <?php include $sitePath . '/linuxHQ/modules/sections/linuDistroCol1.tpl';  ?>
+    <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
   </div>
   <div class="col-xm-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
     <?php
