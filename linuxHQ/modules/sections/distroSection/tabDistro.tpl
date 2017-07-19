@@ -11,14 +11,34 @@
 
   <li class="tab-header-and-content">
     <a href="#" class="tab-link">My Thoughts/Recommendations</a>
-    <div class="tab-content"></div>
+    <div class="tab-content">
+
+      <div class="card">
+        <div class="card-block">
+          <h4 class="card-title">My Experience: </h4>
+          <div class="card-text">
+            <?php echo $EXP; ?> <br/>
+            <?php echo $experience; ?> <br/><br/>
+            <div class="boldUnderline">
+              Any other comments I have about this distro:
+              <?php echo $otherComments; ?><br/>
+
+              <?php include $sitePath . '/linuxHQ/modules/distroRec.tpl'; ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </li>
 
   <li class="tab-header-and-content">
     <a href="#youtube" class="tab-link">Youtube Reviews</a>
     <div class="tab-content">
-      <?php include $sitePath . '/linuxHQ/modules/section/variables/linuxDistroReviewer.php' ; ?></div>
+      <?php include '/linuxHQ/modules/section/variables/linuxDistroReviewer.php' ; ?>
+    </div>
   </li>
+
+
 
   <li class="tab-header-and-content">
     <a href="#usb" class="tab-link">USB Creation </a>

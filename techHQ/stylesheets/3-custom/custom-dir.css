@@ -892,46 +892,6 @@ form.SPForm {
 /* Colors */
 /* Fonts */
 /* Images */
-body {
-  overflow-x: hidden; }
-
-.navigation {
-  max-height: 80px; }
-
-header ul {
-  position: absolute;
-  right: 0; }
-
-.hero-content {
-  background-color: rgba(255, 255, 255, 0.4);
-  max-width: 500px;
-  box-shadow: 2px 2px 2px black;
-  padding: 10px; }
-
-footer {
-  bottom: 0;
-  position: absolute;
-  background-color: #333333;
-  color: white; }
-  footer .footer2 {
-    background-color: #333333; }
-
-.logo {
-  color: white;
-  background-color: transparent;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px black; }
-
-.navigation {
-  max-height: 80px; }
-  .navigation nav {
-    text-align: right; }
-
-.footer-2 {
-  background-color: #333333;
-  position: absolute; }
-
 .container {
   width: 96%; }
 
@@ -939,14 +899,6 @@ footer {
   background-color: white; }
 .card .card-header {
   color: #ffffff;
-  background-color: #333333; }
-
-ul.navigation-menu {
-  text-align: right; }
-  ul.navigation-menu a:link, ul.navigation-menu a:visited {
-    font-size: 24px;
-    font-weight: normal;
-    text-shadow: 2px 2px 2px black;
-    padding-bottom: 2px; }
+  background-color: #333333 !important; }
 
 /*# sourceMappingURL=custom-dir.css.map */

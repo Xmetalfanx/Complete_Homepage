@@ -1,8 +1,5 @@
  <?php
 
-  include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
-  include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/homepage.php');
-
 	$name = 'Linux Mint';
   $family = 'Ubuntu';
   $icon = '<img src="/linuxHQ/graphics/icons/mint.png" width="90" height="90"  alt="Linux Mint Icon"/>';
@@ -10,7 +7,7 @@
 	$download = '<a href="http://www.linuxmint.com/download.php">http://www.linuxmint.com/download.php</a> ' ;
 	$version = '17.3 (based on Ubuntu 14.04) ' ;
 	$forum = '<a href="http://linuxmint.com/forum/">http://linuxmint.com/forum/</a> ' ;
-	$distroWatch = '<a href=http://distrowatch.com/mint">Linux Mint on Distrowatch</a> ' ;
+	$distroWatch = '<a href="http://distrowatch.com/mint">Linux Mint on Distrowatch</a> ' ;
 	$DE = 'KDE, XFCE, Mate, Cinnamon ';
 	$distroSshot =  '
   <a href="/linuxHQ/screenshots/ubuntubased/mint.jpg">
@@ -59,3 +56,5 @@ DES;
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
+
+<?php include $sitePath . '/modules/footer.tpl'; ?>

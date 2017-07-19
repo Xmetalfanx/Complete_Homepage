@@ -32,9 +32,7 @@
 </head>
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 <body>
-
-  <body>
-
+  
     <header class="navigation">
       <div class="navigation-wrapper">
       <a href="/linuxHQ/index.php" class="logo hidden-md-down">Linux HQ</a>
