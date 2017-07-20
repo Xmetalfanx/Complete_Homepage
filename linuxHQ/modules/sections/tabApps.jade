@@ -1,0 +1,52 @@
+//output:tabApp.html
+
+.vertical-tabs-container
+  .vertical-tabs
+    a.js-vertical-tab.vertical-tab.is-active(href='javascript:void(0)', rel='tab1') Graphics Programs
+    |     
+    a.js-vertical-tab.vertical-tab(href='#tab2', rel='tab2') Internet Programs
+    |     
+    a.js-vertical-tab.vertical-tab(href='#tab3', rel='tab3') Multimedia Programs
+    |     
+    a.js-vertical-tab.vertical-tab(href='javascript:void(0)', rel='tab4') Item 4
+  |   
+  .vertical-tab-content-container
+    a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading.is-active(href='', rel='tab1') Item 1
+    |     
+    #tab1.js-vertical-tab-content.vertical-tab-content
+      h3 Editors
+      | 
+      ul
+        li
+          a(href='https://www.gimp.org/') GIMP
+        li
+          a(href='https://pinta-project.com/pintaproject/pinta/') Pinta
+      h3 Viewers
+    |     
+    a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading(href='', rel='tab2') Item 2
+    |     
+    #tab2.js-vertical-tab-content.vertical-tab-content
+      h3 Chat Programs
+      ul
+        li Hexchat
+        li Pidgin
+      h3 Emails Programs
+      ul
+        li Thunderbird
+      h3 Web Browsers
+      ul
+        li Chromium
+        li Google Chrome
+        li Mozilla Firefox
+        li Pale Moon
+        li Vivaldi
+    |     
+    a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading(href='', rel='tab3') Item 3
+    |     
+    #tab3.js-vertical-tab-content.vertical-tab-content
+      p Donec  turpis.
+    |     
+    a.js-vertical-tab-accordion-heading.vertical-tab-accordion-heading(href='', rel='tab4') Item 4
+    |     
+    #tab4.js-vertical-tab-content.vertical-tab-content
+      p Sociis sapien.

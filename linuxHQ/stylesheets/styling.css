@@ -2730,31 +2730,8 @@ kbd {
     overflow: auto;
     font-family: Arial, Helvetica, san-serif; }
 
-#personalExp {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  margin-top: 15px;
-  padding-bottom: 10px;
-  color: black;
-  border: 1px solid black;
-  background-color: white; }
-  #personalExp blockquote {
-    margin: 0;
-    font-family: "MS Sans Serif", Geneva, sans-serif;
-    font-weight: bold; }
-
 #YTReviewer {
-  clear: both;
-  padding: 0 0 10px 10px;
-  overflow: auto;
-  border: 1px solid black;
-  line-height: 20px; }
-  #YTReviewer .left {
-    width: 40%;
-    float: left; }
-  #YTReviewer .right {
-    width: 40%; }
+  padding: 0 0 10px 10px; }
 
 #TIC .TICHomepage, #TIC .TICUsage {
   border: 1px solid black; }
@@ -2763,7 +2740,7 @@ kbd {
     width: 65%; }
 
 .name {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   text-decoration: underline; }
   .name img {
@@ -2788,11 +2765,8 @@ kbd {
 #distrowatch {
   height: 200px;
   padding: 2% 2% 1% 25px;
-  margin-right: auto;
-  margin-left: auto;
   overflow: auto;
   border: black 2px solid;
-  background-color: white;
   font-family: "Times New Roman", Times, serif;
   /*margin-left: 50px;*/ }
   #distrowatch rss-item-full {

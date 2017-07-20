@@ -19,105 +19,48 @@
 
 </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Graphics Programs</h3>
-  </div>
-  <div class="panel-body">
-		<h3>Editors</h3>
-		<ul>
-		<li><a href="https://www.gimp.org/">GIMP</a></li>
-		<li><a href="https://pinta-project.com/pintaproject/pinta/">Pinta</a></li>
-		</ul>
+<div class="vertical-tabs-container">
+  <div class="vertical-tabs">
+    <a href="#tab1" rel="tab1" class="js-vertical-tab vertical-tab is-active">Graphics Programs</a>
+    <a href="#tab2" rel="tab2" class="js-vertical-tab vertical-tab">Internet Programs</a>    
+    <a href="#tab3" rel="tab3" class="js-vertical-tab vertical-tab">Multimedia Programs</a>
+    <a href="javascript:void(0)" rel="tab4" class="js-vertical-tab vertical-tab">Item 4</a></div>
 
-		<h3>Viewers</h3>
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Internet Programs</h3>
-  </div>
-  <div class="panel-body">
-		<h3>Chat Programs</h3>
-			<ul>
-							<li>Hexchat</li>
-							<li>Pidgin</li>
-						</ul>
-		<h3>Emails Programs</h3>
-			<ul>
-							<li>Thunderbird</li>
-						</ul>
-		<h3>Web Browsers</h3>
-			<ul>
-							<li>Chromium</li>
-							<li>Google Chrome</li>
-							<li>Mozilla Firefox</li>
-							<li>Pale Moon</li>
-							<li>Vivaldi</li>
-						</ul>
-  </div>
-</div>
-
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Multimedia Programs</h3>
-  </div>
-  <div class="panel-body">
-    <h3>Audio Programs</h3>
-			<ul>
-							<li><a href="http://audacious-media-player.org/">Audacious</a> - Audio Media Player</li>
-							<li><a href="https://www.clementine-player.org/">Clementine</a>- Audio Media Player and Organizer</li>
-							</ul>
-		<h3>ID3 Tag Editor</h3>
-			<ul>
-					<li><a href="https://wiki.gnome.org/Apps/EasyTAG">EasyTag</a></li>
-					</ul>
-		<h3>Video Programs</h3>
-						<ul>
-							<li><a href="https://mpv.io/">MPV</a> - Video Player that is cross platform and Open Source</li>
-							<li><a href="http://smplayer.sourceforge.net/">SMPlayer</a></li>
-							<li>VLC</li>
-						</ul>
-  </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Productivity Programs</h3>
-  </div>
-  <div class="panel-body">
-		<ul>
-			<li><a href="https://atom.io/">Atom</a> - A Haxable Text Editor</li>
-			<li><a href="https://www.geany.org/">Geany</a></li>
-		</ul>
-	<h3>Office Suites</h3>
-		<ul>
-			<li><a href="https://www.libreoffice.org/">Libre Office</a></li>
-			<li><a href="http://wps.com/">WPS Office</a></li>
-		</ul>
-  </div>
-</div>
-
-
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">System Tools Programs</h3>
-  </div>
-  <div class="panel-body">
-		<ul>
-			<li><a href="http://www.teejeetech.in/">Aptik</a> - Backup and Restorer Program for Ubuntu-based distros</li>
-			<li><a href="https://www.bleachbit.org/">Bleachbit</a> -  Cache, and Temp file Cleaner</li>
-			<li>Synapse -  Keyboard App Launcher</li>
-			<li><a href="http://peterlevi.com/variety/how-to-install/">Variety</a></li>
-			<li><a href="https://veracrypt.codeplex.com/">Veracrypt</a></li>
-		</ul>
-	<h3>Docks</h3>
-	<ul>
-	<li><a href="http://wiki.go-docky.com/index.php?title=Welcome_to_the_Docky_wiki">Docky</a></li>
-	<li>Plank</li>
-	</ul>
+  <div class="vertical-tab-content-container">
+    <a href="" rel="tab1" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active">Item 1</a>
+    <div id="tab1" class="js-vertical-tab-content vertical-tab-content">
+      <h3>Editors</h3>
+      <ul>
+        <li><a href="https://www.gimp.org/">GIMP</a></li>
+        <li><a href="https://pinta-project.com/pintaproject/pinta/">Pinta</a></li>
+      </ul>
+      <h3>Viewers</h3>
+    </div>    <a href="" rel="tab2" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading">Item 2</a>
+    <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+      <h3>Chat Programs</h3>
+      <ul>
+        <li>Hexchat</li>
+        <li>Pidgin</li>
+      </ul>
+      <h3>Emails Programs</h3>
+      <ul>
+        <li>Thunderbird</li>
+      </ul>
+      <h3>Web Browsers</h3>
+      <ul>
+        <li>Chromium</li>
+        <li>Google Chrome</li>
+        <li>Mozilla Firefox</li>
+        <li>Pale Moon</li>
+        <li>Vivaldi</li>
+      </ul>
+    </div>    <a href="" rel="tab3" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading">Item 3</a>
+    <div id="tab3" class="js-vertical-tab-content vertical-tab-content">
+      <p>Donec  turpis.</p>
+    </div>    <a href="" rel="tab4" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading">Item 4</a>
+    <div id="tab4" class="js-vertical-tab-content vertical-tab-content">
+      <p>Sociis sapien.</p>
+    </div>
   </div>
 </div>
 

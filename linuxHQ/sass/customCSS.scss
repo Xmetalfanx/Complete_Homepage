@@ -68,39 +68,8 @@ kbd
 }
 
 
-
-#personalExp {
-  @include   margin(null auto null auto);
-
-  width            : 100%;
-  margin-top       : 15px;
-  padding-bottom   : 10px;
-  color            : rgb(0, 0, 0);
-  border           : $solidBorder;
-  background-color : rgb(255, 255, 255);
-  blockquote {
-
-    @include margin(0 0 0 0 );
-    font-family   : $MSSans;
-    font-weight   : bold;
-  }
-}
-
 #YTReviewer {
-  clear          : both;
-
   @include padding(0 0 10px 10px);
-  overflow       : auto;
-  border         : $solidBorder;
-  line-height    : 20px;
-
-  .left {
-    width : 40%;
-    float : left;
-  }
-  .right {
-    width : 40%;
-  }
 }
 
 
@@ -123,7 +92,7 @@ kbd
 .name
 {
     // Info is a guess for now
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     text-decoration: underline;
 
@@ -167,11 +136,9 @@ kbd
 #distrowatch {
   height           : 200px;
   @include padding(2% 2% 1% 25px);
-  @include margin(null auto null auto);
-
+  
   overflow         : auto;
   border           : rgb(0, 0, 0) 2px solid;
-  background-color : rgb(255, 255, 255);
   font-family      : $TNR;
   /*margin-left: 50px;*/
 

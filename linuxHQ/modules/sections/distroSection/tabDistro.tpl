@@ -34,7 +34,7 @@
   <li class="tab-header-and-content">
     <a href="#youtube" class="tab-link">Youtube Reviews</a>
     <div class="tab-content">
-      <?php include '/linuxHQ/modules/section/variables/linuxDistroReviewer.php' ; ?>
+      <?php include $sitePath .  '/linuxHQ/modules/variables/linuxDistroReviewer.php' ; ?>
     </div>
   </li>
 

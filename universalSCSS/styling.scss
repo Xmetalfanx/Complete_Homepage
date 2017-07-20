@@ -1,9 +1,10 @@
-@import "tabRefills";
+;
 @import "0-plugins/plugins-dir";
 @import "1-modules/modules-dir";
 @import "2-variables/variables-dir";
 @import "3-custom/custom-dir";
-
+@import "tabRefills";
+@import "vertTabs";
 
 
 $headerBGColor: rgba(51, 51, 51, 1);
