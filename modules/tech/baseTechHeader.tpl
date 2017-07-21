@@ -35,7 +35,7 @@
   <link href="../universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
 
   <!-- Link to My External Style Sheet - Specific for tech HQ -->
-  <link rel="stylesheet" href="/stylesheets/styling.css">
+  <link rel="stylesheet" href="/techHQ/stylesheets/styling.css">
 
   <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 
