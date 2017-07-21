@@ -14,15 +14,13 @@
   <div class="panel-body">
 		<p>This section will contain PPA information and other linux program information not suitable for the
 		TechHQ Software section which contains main cross platform </p>
-
   </div>
-
 </div>
 
 <div class="vertical-tabs-container">
   <div class="vertical-tabs">
-    <a href="javascript:void(0)" rel="tab1" class="js-vertical-tab vertical-tab is-active">Graphics Programs</a>
-    <a href="javascript:void(0)" rel="tab2" class="js-vertical-tab vertical-tab">Internet Programs</a>
+    <a href="#graphics" rel="tab1" class="js-vertical-tab vertical-tab is-active">Graphics Programs</a>
+    <a href="#internet" rel="tab2" class="js-vertical-tab vertical-tab">Internet Programs</a>
     <a href="javascript:void(0)" rel="tab3" class="js-vertical-tab vertical-tab">Multimedia Programs</a>
     <a href="javascript:void(0)" rel="tab4" class="js-vertical-tab vertical-tab">Item 4</a>
   </div>
@@ -30,6 +28,7 @@
   <div class="vertical-tab-content-container">
     <a href="" rel="tab1" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active">Graphics Programs</a>
     <div id="graphics" class="js-vertical-tab-content vertical-tab-content">
+      <a name="graphics"></a>
       <h3>Editors</h3>
       <ul>
         <li><a href="https://www.gimp.org/">GIMP</a></li>
@@ -40,6 +39,7 @@
 
     <a href="" rel="tab2" class="js-vertical-tab-accordion-heading vertical-tab-accordion-heading">Item 2</a>
     <div id="tab2" class="js-vertical-tab-content vertical-tab-content">
+      <a name="internet"></a>
       <h3>Chat Programs</h3>
       <ul>
         <li>Hexchat</li>
