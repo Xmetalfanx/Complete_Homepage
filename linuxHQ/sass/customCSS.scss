@@ -120,11 +120,11 @@ kbd
 
 }
 
- /// I have no idea what this is for anymore ... I will keep it for now
+ /// This appears to be the box around item in different sections on the main subpages
 .linuxContainer
 {
   border: 1px solid #000000;
-  @include padding(2px 2px 2px 5px);
+  @include padding(10px 10px 10px 10px);
   box-shadow: 2px 2px 2px #000000;
   @include margin(null 2px 20px 2px);
 

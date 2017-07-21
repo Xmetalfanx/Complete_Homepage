@@ -1026,7 +1026,7 @@ kbd {
 
 .linuxContainer {
   border: 1px solid #000000;
-  padding: 2px 2px 2px 5px;
+  padding: 10px;
   box-shadow: 2px 2px 2px #000000;
   margin-right: 2px;
   margin-bottom: 20px;
