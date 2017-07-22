@@ -21,9 +21,12 @@
     </div>
   </div>
 </div>
+
+
 <h3>Cross Platform </h3>
 <ul class="accordion-tabs-minimal">
-  <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Graphics Programs</a>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link is-active">Graphics Programs</a>
     <div class="tab-content">
       <div class="card">
         <div class="card-block">
@@ -76,24 +79,21 @@
       <div class="card">
         <div class="card-block">
           <div class="card-text">
-            <h4>Audio Player
-              <h2><?php echo $clemIcon . $clemHome; ?>
+            <h4>Audio Player  </h4>
+              <p><?php echo $clemIcon . $clemHome; ?></p>
                 <p>Clementine is a music player and organizer that can not only play your music collection, organize your collection (including downloading artist and album information from the internet, and play media from various online sources)</p>
-              </h2>
-            </h4>
-            <h4>Video Players
-              <ul class="bullets">
-                <li class="bullet">
-                  <div class="bullet-content"><?php echo $mpvIcon . $mpvHome; ?></div>
-                </li>
-                <li class="bullet">
-                  <div class="bullet-content"><?php echo $smPlayerIcon . $smPlayerHome; ?> </div>
-                </li>
-                <li class="bullet">
-                  <div class="bullet-content"> <?php echo $vlcIcon . $vlcHome; ?>   </div>
-                </li>
-              </ul>
-            </h4>
+
+
+            <h4>Video Players</h4>
+              <div class="row">
+                <div class="col-lg-3 col-md-3"><?php echo $mpvIcon . $mpvHome; ?></div>
+                <div class="col-lg-3 col-md-3"><?php echo $smPlayerIcon . $smPlayerHome; ?> </div>
+                <div class="col-lg-3 col-md-3">
+
+                  <?php echo $vlcIcon . $vlcHome; ?>
+                </div>
+              </div>
+
           </div>
         </div>
       </div>
@@ -102,7 +102,6 @@
   <li class="tab-header-and-content"><a href="#" class="tab-link">Productivity Programs</a>
     <div class="tab-content">
       <div class="card">
-        <div class="card-header">Productivity/Office Programs</div>
         <div class="card-block">
           <div class="card-text"><?php echo $libreOIcon . $libreOHome; ?></div>
         </div>
@@ -111,12 +110,9 @@
   </li>
   <li class="tab-header-and-content"><a href="#" class="tab-link">Security Programs</a>
     <div class="tab-content">
-      <div class="card">
-        <div class="card-header">Security Programs </div>
-        <div class="card-block">
-          <div class="card-text"><img src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg" alt="Bleachbit Icon"/><a href="http://bleachbit.sourceforge.net/">Bleachbit</a></div>
-        </div>
-      </div>
+
+      <img src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg" alt="Bleachbit Icon"/><a href="http://bleachbit.sourceforge.net/">Bleachbit</a>
+
     </div>
   </li>
 </ul>
@@ -154,12 +150,13 @@
 
 <ul class="accordion-tabs-minimal">
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link is-active">Graphics Programs</a>    
+    <a href="#" class="tab-link is-active">Graphics Programs</a>
     <div class="tab-content"><?php echo $xnviewIcon . $xnviewHome;  ?>
       <p>My Favorite Image editor/so-called... Basic Image editor in Windows ... VERY powerful and well-done, program</p>
     </div>
   </li>
-  <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Multimedia Programs</a>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link is-active">Multimedia Programs</a>
     <div class="tab-content">
       <ul class="bullets">
         <li class="bullet">

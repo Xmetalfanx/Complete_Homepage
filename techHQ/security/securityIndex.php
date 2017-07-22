@@ -63,7 +63,7 @@
             <li>http://www.theregister.co.uk/2012/11/30/microsoft<em>security</em>essentials
                           <em>loses</em>avtestcertification/
             </li>
-          </ul>
+          </ul>r
         </li>
       </ul>
     </p>

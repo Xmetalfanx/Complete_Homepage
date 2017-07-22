@@ -11,9 +11,6 @@
         .col-lg-5
           <?php echo $majorGeeksIcon; ?>s
 
-
-
-
 h3 Cross Platform 
 
 ul.accordion-tabs-minimal
@@ -76,21 +73,18 @@ ul.accordion-tabs-minimal
                 p Clementine is a music player and organizer that can not only play your music collection, organize your collection (including downloading artist and album information from the internet, and play media from various online sources)
 
             h4 Video Players
+              
+              .row 
+                .col-lg-3.col-md-3
+                  <?php echo $mpvIcon . $mpvHome; ?>
                 
-              ul.bullets
-                li.bullet      
-                  .bullet-content
-                    | <?php echo $mpvIcon . $mpvHome; ?>
+                .col-lg-3.col-md-3
+                  <?php echo $smPlayerIcon . $smPlayerHome; ?> 
+                  
+                .col-lg-3.col-md-3  
+                  <?php echo $vlcIcon . $vlcHome; ?> 
                 |   
-                li.bullet
-                  .bullet-content
-                    | <?php echo $smPlayerIcon . $smPlayerHome; ?> 
-                    
-                li.bullet
-                  .bullet-content
-                    |  <?php echo $vlcIcon . $vlcHome; ?>   
-
-
+    
   |   
   li.tab-header-and-content
     a.tab-link(href='#') Productivity Programs
@@ -106,16 +100,9 @@ ul.accordion-tabs-minimal
     a.tab-link(href='#') Security Programs
     |     
     .tab-content
-      .card
-        .card-header Security Programs 
-        .card-block
-          .card-text
-            img(src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg", alt="Bleachbit Icon")
-            a(href="http://bleachbit.sourceforge.net/") Bleachbit
+      img(src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg", alt="Bleachbit Icon")
+      a(href="http://bleachbit.sourceforge.net/") Bleachbit
 
-      
-          
-         
 
 h3 Linux 
 ul.accordion-tabs-minimal

@@ -1,7 +1,0 @@
-
-[25-Mar-2017 14:59:19 America/New_York] PHP Warning:  include(/home/xmetalx1/public_htmlmodules/variables/icons.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/templates/tech/baseTechSoftwareTemp.tpl on line 2
-[25-Mar-2017 14:59:19 America/New_York] PHP Warning:  include(): Failed opening '/home/xmetalx1/public_htmlmodules/variables/icons.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/templates/tech/baseTechSoftwareTemp.tpl on line 2
-[25-Mar-2017 14:59:19 America/New_York] PHP Notice:  Undefined variable: completeTitle in /home/xmetalx1/public_html/modules/tech/baseTechHeader.tpl on line 6
-[25-Mar-2017 14:59:19 America/New_York] PHP Warning:  include(/home/xmetalx1/public_html/techHQ/modules/mobile/techMobileSoftCol1.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/templates/tech/baseTechSoftwareTemp.tpl on line 10
-[25-Mar-2017 14:59:19 America/New_York] PHP Warning:  include(): Failed opening '/home/xmetalx1/public_html/techHQ/modules/mobile/techMobileSoftCol1.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/templates/tech/baseTechSoftwareTemp.tpl on line 10
-

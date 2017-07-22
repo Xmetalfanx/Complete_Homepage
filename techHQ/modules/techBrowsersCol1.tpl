@@ -56,7 +56,18 @@
   <div class="card-header">Browser Addons </div>
   <div class="card-block">
     <p class="card-text">
-      <nav class="nav flex-column"><a href="/techHQ/browsers/addons/topAddonsNonSecurity.php" class="nav-link">Top Overall Addons</a><a href="/techHQ/browsers/addons/topSecurityAddons.php" class="nav-link">Top Security Addons</a><a href="/techHQ/browsers/addons/contentManagerAddons.php" class="nav-link">Content Management</a><a href="/techHQ/browsers/addons/downloadRelatedAddons.php" class="nav-link">Download Related</a><a href="/techHQ/browsers/addons/generalAddons.php" class="nav-link">General Addons</a><a href="/techHQ/browsers/addons/interfaceAddons.php" class="nav-link">Interface Related</a><a href="/techHQ/browsers/addons/passwordAddon.php" class="nav-link">Password Related</a><a href="/techHQ/browsers/addons/webMasterAddons.php" class="nav-link">Webmaster Related</a><a href="/techHQ/browsers/#" class="nav-link">Backing up Browser Data</a><a href="/techHQ/browsers/prevent_crashing_browsers" class="nav-link">Prevent Browser Crashes/Hang-ups</a><a href="/techHQ/browsers/tinyurl.php" class="nav-link">URL Shortening</a></nav>
+      <nav class="nav flex-column">
+        <a href="/techHQ/browsers/addons/topAddonsNonSecurity.php" class="nav-link">Top Overall Addons</a>
+        <a href="/techHQ/browsers/addons/topSecurityAddons.php" class="nav-link">Top Security Addons</a>
+        <a href="/techHQ/browsers/addons/contentManagerAddons.php" class="nav-link">Content Management</a>
+        <a href="/techHQ/browsers/addons/downloadRelatedAddons.php" class="nav-link">Download Related</a>
+        <a href="/techHQ/browsers/addons/generalAddons.php" class="nav-link">General Addons</a>
+        <a href="/techHQ/browsers/addons/interfaceAddons.php" class="nav-link">Interface Related</a>
+        <a href="/techHQ/browsers/addons/passwordAddon.php" class="nav-link">Password Related</a>
+        <a href="/techHQ/browsers/addons/webMasterAddons.php" class="nav-link">Webmaster Related</a>
+        <a href="/techHQ/browsers/#" class="nav-link">Backing up Browser Data</a>
+        <a href="/techHQ/browsers/prevent_crashing_browsers" class="nav-link">Prevent Browser Crashes/Hang-ups</a>
+        <a href="/techHQ/browsers/tinyurl.php" class="nav-link">URL Shortening</a></nav>
     </p>
   </div>
 </div>

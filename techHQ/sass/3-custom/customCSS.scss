@@ -1,3 +1,5 @@
+@import "1-modules/modules-dir";
+
 @import "2-variables/variables-dir";
 
 .container
@@ -14,9 +16,18 @@
 
   }
 
-  .card-header
+  .card-header a:link a:visited a:hover
   {
     color: #ffffff;
     background-color: #333333 !important;
   }
+}
+
+
+.accordion-tabs-minimal
+{
+  border: 1px solid $black;
+  box-shadow: 2px 2px 2px;
+  @include margin( null null 15px null);
+
 }
