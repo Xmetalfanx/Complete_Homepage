@@ -7,7 +7,8 @@
       <a href="/linuxHQ/distros/arch/antergos.php">Antergos</a><br/>
       <a href="/linuxHQ/distros/arch/bridgeLinux.php">Bridge Linux</a><br/>
       <a href="/linuxHQ/distros/arch/archBang.php">Archbang</a><br/>
-      <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a><br/></div>
+      <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a><br/>
+    </div>
   </div>
 </div>
 
@@ -41,7 +42,8 @@
         <a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a><br/>
         <a href="/linuxHQ/distros/ubuntu/xubuntu.php">Xubuntu</a><br/>
         <a href="#">Ubuntu Budgie </a><br/>
-        <a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a><br/></div>
+        <a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a><br/>
+      </div>
     </div>
   </div>
 </div>
@@ -57,7 +59,8 @@
       <a href="/linuxHQ/distros/ubuntu/linuxLite.php">Linux Lite</a><br/>
       <a href="/linuxHQ/distros/ubuntu/linuxMint.php">Linux Mint</a><br/>
       <a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a><br/>
-      <a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a></div>
+      <a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a>
+    </div>
   </div>
 </div>
 
@@ -65,7 +68,12 @@
 <div class="card">
   <div class="card-block">
     <h2 class="card-title">RPM Based</h2>
-    <div class="card-text"> <a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a><br/><a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a><br/><a href="/linuxHQ/distros/rpm/korora.php">Korora</a><br/><a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a><br/></div>
+    <div class="card-text">
+      <a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a><br/>
+      <a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a><br/>
+      <a href="/linuxHQ/distros/rpm/korora.php">Korora</a><br/>
+      <a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a><br/>
+    </div>
   </div>
 </div>
 
@@ -82,9 +90,13 @@
 <div class="card">
   <div class="card-block">
     <h2 class="card-title">Mandriva Family </h2>
-    <div class="card-text"><a href="/linuxHQ/distros/mandriva/mageia.php">Mageia</a><br/><a href="/linuxHQ/distros/mandriva/ROSA.php">ROSA</a><br/>
-      <a href="/linuxHQ/distros/mandriva/openMandriva.php">OpenMandriva</a></div>
+    <div class="card-text">
+      <a href="/linuxHQ/distros/mandriva/mageia.php">Mageia</a><br/>
+      <a href="/linuxHQ/distros/mandriva/ROSA.php">ROSA</a><br/>
+      <a href="/linuxHQ/distros/mandriva/openMandriva.php">OpenMandriva</a>
+    </div>
   </div>
+</div>
 
   <div class="card">
     <div class="card-block">
@@ -92,8 +104,6 @@
       <div class="card-text"><a href="/linuxHQ/distros/gentoo/calculate.php">Calculate Linux</a><br/><a href="/linuxHQ/distros/gentoo/gentoo.php">Gentoo</a><br/><a href="/linuxHQ/distros/gentoo/sabayon.php">Sabayon</a></div>
     </div>
   </div>
-</div>
-
 
 <div class="card">
   <div class="card-block">
@@ -104,4 +114,3 @@
       <a href="/linuxHQ/distros/independent/puppyLinux.php">Puppy Linux</a>
     </div>
   </div>
-</div>
