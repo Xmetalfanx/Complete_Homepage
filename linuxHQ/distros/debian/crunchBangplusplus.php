@@ -1,13 +1,13 @@
 <?php
 
-		$title = 'Distribution Section -  Crunchbang';
+		$title = 'Distribution Section - Crunchbang++';
 
-		$name = 'Crunchbang';
+		$name = 'Crunchbang++';
 		$family = 'Debian ';
-		$icon = '<img src="#" width="90" height="79"  alt="Crunchbang Icon"/>';
-		$homepage = '<a href="https://www.crunchbangplusplus.org" target="_blank">Crunchbang ++ Homepage/</a> ';
+		$icon = '<img src="#" width="90" height="79" alt="Crunchbang Icon"/>';
+		$homepage = '<a href="https://www.crunchbangplusplus.org" target="_blank">Crunchbang++ Homepage</a> ';
 		$download = '<a href="https://crunchbangplusplus.org/download/" target="_blank">Downloads</a> ';
-		$version = '11';
+		$version = '';
 		$forum = '<a href="https://www.reddit.com/r/crunchbangplusplus/" target="_blank">Forum like page on Reddit </a>';
 		$distroWatch = '<a href="#" target="_blank">N/A</a> ';
 		$DE = 'Openbox';
@@ -35,11 +35,8 @@ DES;
 	  $OhHeyItsLou = ' ';
 	  $midFingr = ' ';
 	  $UrAvgLinuxUser = ' ';
-
 	$otherComments = '';
 
-
-?
 
 $sitePath = "/home/xmetalx1/public_html";
 

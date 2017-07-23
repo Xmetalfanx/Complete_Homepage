@@ -1,4 +1,5 @@
  <?php
+ 
   	$name = 'Solus';
     $family = 'Independant';
     $icon = '<img src="/linuxHQ/distros/independent/solus.png" alt="Solus Icon"/>';
@@ -7,7 +8,7 @@
   	$version = '1.1 ' ;
   	$forum = '<a href="https://solus-project.com/forums/" target="_blank">https://solus-project.com/forums/</a> ' ;
   	$distroWatch = '<a href="http://distrowatch.com/table.php?distribution=solus" target="_blank">http://distrowatch.com/table.php?distribution=solus</a> ' ;
-  	$DE = '&quot;Budgie Desktop&quot; ';
+  	$DE = '&quot;Budgie Desktop&quot; Gnome Shell, and/or Mate ';
   	$distroSshot = '<a href="/linuxHQ/screenshots/solus/budgie1.jpg">
   					       <img src="/linuxHQ/screenshots/solus/small/budgie1_tn.jpg" /></a>'  .  '<a href="/linuxHQ/screenshots/solus/budgie2.jpg">
            					<img src="/linuxHQ/screenshots/solus/small/budgie2_tn.jpg" /></a>'  .  '<a href="/linuxHQ/screenshots/solus/budgie3.jpg">
@@ -48,4 +49,5 @@
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
+
 <?php include $sitePath . "/modules/footer.tpl"; ?>
