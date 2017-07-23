@@ -3,14 +3,15 @@
   <li class="tab-header-and-content">
     <a href="#screeshot" class="tab-link is-active">Screenshots</a>
     <div class="tab-content">
-      <div class="screenshots hide-md-down">
+      <div class="screenshots hidden-md-down">
         <?php echo $distroSshot; ?>
     </div>
     </div>
   </li>
 
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link">My Thoughts/Recommendations</a>
+    <a href="#" class="tab-link">
+      My Thoughts/Recommendations</a>
     <div class="tab-content">
 
       <div class="card">
@@ -19,6 +20,7 @@
           <div class="card-text">
             <?php echo $EXP; ?> <br/>
             <?php echo $experience; ?> <br/><br/>
+
             <div class="boldUnderline">
               Any other comments I have about this distro:
               <?php echo $otherComments; ?><br/>
