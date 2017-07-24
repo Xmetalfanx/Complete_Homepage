@@ -12,16 +12,17 @@
     <div class="card-text">
       <div class="graphics">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-3">
             <a href="https://www.khanacademy.org/" target="_blank">
-            <img src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic" /></a>
-          </div>
-
-          <div class="col-lg-5">
+              <img src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic"/></a></div>
+          <div class="col-lg-3">
             <a href="https://linuxacademy.com/" target="_blank">
-            <img src="/techHQ/graphics/linuxAcad.png" alt="Linux Academy Graphic" /></a>
-          </div>
+              <img src="/techHQ/graphics/linuxAcad.png" alt="Linux Academy Graphic"/></a></div>
+          <div class="col-lg-3">
+            <a href="https://www.digitalocean.com/community/" target="_blank">
+              <img src="/graphics/digitalOcean.jpg" alt="Digital Ocean Graphic"/></a></div>
         </div>
+
 
         <div class="row">
           <a href="http://www.kristakingmath.com/" target="_blank">

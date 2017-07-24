@@ -1083,12 +1083,15 @@ form.SPForm {
 .card .card-warning {
   background-color: white; }
 .card .card-header a:link a:visited a:hover {
-  color: #ffffff;
+  color: white;
   background-color: #333333 !important; }
 
 .accordion-tabs-minimal {
   border: 1px solid black;
   box-shadow: 2px 2px 2px;
+  margin-bottom: 15px; }
+
+header {
   margin-bottom: 15px; }
 
 /*# sourceMappingURL=customCSS.css.map */

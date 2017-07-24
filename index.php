@@ -37,12 +37,7 @@
     <ul class="bullets">
       <li class="bullet">
         <div class="bullet-content">
-          <p>Most of the site is broken at the moment ... I have a big idea on my side of things how to redo a few items to make it easier to manage and fix a few things that have been annoying me ... bottom line is I KNOW ITS BROKEN</p>
-        </div>
-      </li>
-      <li class="bullet">
-        <div class="bullet-content">
-          <p>Feb 7 2017 Update - I have been working on the templates and converting stuff over so i can then just go into the individual pages and apply the new way I am doing things all at once.  Think of it like before I get all the furnature in and setup just right ... I have to get the framework of the house setup the way I want/need first.  </p>
+          <p>July 20, 2017 - Site under construction... I hope to make things look alot better on mobile devices .. this is part of the reason for the big change from alot of custom CSS Styles to "Bourbon.io" and Bootstrap (though Foundation looks like a good Bootstrap alternative)</p>
         </div>
       </li>
 

@@ -1,5 +1,4 @@
 @import "1-modules/modules-dir";
-
 @import "2-variables/variables-dir";
 
 .container
@@ -13,21 +12,24 @@
   .card-warning
   {
     background-color: rgb(255, 255, 255);
-
   }
 
   .card-header a:link a:visited a:hover
   {
-    color: #ffffff;
-    background-color: #333333 !important;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51) !important;
   }
 }
 
 
 .accordion-tabs-minimal
 {
-  border: 1px solid $black;
+  border: 1px solid rgb(0, 0, 0);
   box-shadow: 2px 2px 2px;
   @include margin( null null 15px null);
+}
 
+header
+{
+  @include margin(null null 15px null);
 }

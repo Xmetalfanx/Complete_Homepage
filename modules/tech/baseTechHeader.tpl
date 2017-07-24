@@ -17,9 +17,8 @@
   <!-- JQuery-->
   <script src="/scripts/jquery-3.2.1.min.js"></script>
 
-  <!-- Needed for tab'd layout options I am trying -->
   <script src="/scripts/tabRefills.js" type="text/javascript"></script>
-
+  <script src="/scripts/vertTabs.js" type="text/javascript"></script>
 
   <!-- Tether-->
   <script src="/frameworks/tether133/js/tether.min.js"></script>
