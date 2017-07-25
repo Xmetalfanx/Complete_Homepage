@@ -1,7 +1,6 @@
 
 #StartPageStyle {
-	background-color: #ffffff;
-	color: #000000;
+
 	padding-bottom: 1px;
 
     margin-right: auto;
@@ -9,12 +8,11 @@
     margin-top: 10px;
     clear: both;
 		width:  95%;
-
-
 }
+
 input.searchBox {
-	background-color: #ffffff;
-	color: #660000;
+	background-color: rgb(255, 255, 255);
+	color: rgb(102, 0, 0);
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	height: 23px;
@@ -24,6 +22,7 @@ input.searchBox {
 	padding-top: 1px !important;
 	width: 260px;
 }
+
 input.SPSearchBoxWIDE {
 	border: #3371d8 1px solid;
 
@@ -39,9 +38,10 @@ input.SPSearchBoxWIDE {
 	font-size: 14px;
 	letter-spacing: 1px;
     clear: none;
-    box-shadow: 2px 2px 3px #000000;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
 	vertical-align: middle;
 	}
+
 .SPSubmitButton {
 	border-bottom: #3371d8 1px solid;
 	border-left: #3371d8 0px solid;
@@ -76,8 +76,8 @@ td.SPGraphic {
 {
 	clear: both;
 	padding: 10px;
-	background: #ffffff;
-	color: #000000;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 
 form.SPForm

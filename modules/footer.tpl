@@ -1,7 +1,7 @@
 
 <footer class="footer-2">
   <ul>
-    <li><span>Validation Gif Here</span></li>
+    <li>Validation Gif Here</li>
   </ul>
 
 

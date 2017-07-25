@@ -1,5 +1,5 @@
 
-<div class="card">
+<div class="card hidden-sm-down">
   <div class="card-block">
     <div class="card-text">
       <div id="distrowatch">

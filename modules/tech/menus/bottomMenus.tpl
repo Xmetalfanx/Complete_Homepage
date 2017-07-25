@@ -1,4 +1,5 @@
-<nav class="nav">
+
+<nav id="bottomLinks" class="navbar">
   <a href="/tecHQ/index.php" class="nav-link">Home</a>
   <a href="/techHQ/personal/personalIndex.php" class="nav-link">About Me</a>
   <a href="/techHQ/credit.php" class="nav-link">Credits</a>

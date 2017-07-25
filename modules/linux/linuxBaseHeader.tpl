@@ -3,7 +3,7 @@
   <meta name="Description" content="Xmetafanx's LinuxHQ site is a page for ..">
   <title>Xmetal&apos;s LinuxHQ Section -</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="index" href="/index.php">
 
 

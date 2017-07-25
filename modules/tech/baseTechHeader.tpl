@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <title><?php echo $completeTitle; ?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <meta name="Description" content="Xmetafanx's Homepage is a site that can help you with Computer Problem, File Sharing News, Computer FAQ's, Security Information, Antivirus and Spyware Removal, and much much more..">
 
   <!-- Various Meta Tags-->

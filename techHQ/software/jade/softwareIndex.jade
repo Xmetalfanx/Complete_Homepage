@@ -18,47 +18,30 @@ ul.accordion-tabs-minimal
     a.tab-link.is-active(href='#') Graphics Programs
     |     
     .tab-content
-      .card
-        .card-block  
-          .card-text
+      .row
+        .col-lg-5
+          h2 <?php echo $kritaIcon . $kritaHome; ?>
 
-            ul.bullets
-              li.bullet      
-                .bullet-content
-                  h2 <?php echo $kritaIcon . $kritaHome; ?>
-                  |       
-                  p Krita is a graphics editor is an open source graphics/illustrator program, which some users compare to Adobe Photoshop
-              |   
-              li.bullet
-                .bullet-content
-                  h2 <?php echo $gimpIcon . $gimpHome; ?>
-                  |       
-                  p GIMP is a well known and widely used Graphics editor that some (not all though) compare to Photoshop
-
-
-  |   
+          p Krita is a graphics editor is an open source graphics/illustrator program, which some users compare to Adobe Photoshop
+        .col-lg-5 
+          h2 <?php echo $gimpIcon . $gimpHome; ?>
+          
+          p GIMP is a well known and widely used Graphics editor that some (not all though) compare to Photoshop
+    
   li.tab-header-and-content
     a.tab-link(href='#') Internet Programs
     |     
     .tab-content
-      .card
-        .card-block
-          .card-text
-            
-            ul.bullets
-              li.bullet      
-                .bullet-content
-                  h2 <?php echo $pidginIcon . $pidginHome; ?>
-                  |       
-                  p
-                    | Instant Messaging Client
-              |   
-              li.bullet
-                .bullet-content
-                  h2 <?php echo $thunderbirdIcon . $thunderbirdHome; ?> 
-                  |       
-                  p
-                    | Email Client
+      .row
+        .col-lg-5 
+            h2 <?php echo $pidginIcon . $pidginHome; ?>
+            p
+              | Instant Messaging Client
+
+        .col-lg-5 
+              h2 <?php echo $thunderbirdIcon . $thunderbirdHome; ?> 
+              p
+                | Email Client
           
   |   
   li.tab-header-and-content
@@ -69,7 +52,7 @@ ul.accordion-tabs-minimal
         .card-block        
           .card-text
             h4 Audio Player
-              h2 <?php echo $clemIcon . $clemHome; ?>
+              div <?php echo $clemIcon . $clemHome; ?>
                 p Clementine is a music player and organizer that can not only play your music collection, organize your collection (including downloading artist and album information from the internet, and play media from various online sources)
 
             h4 Video Players
@@ -91,7 +74,6 @@ ul.accordion-tabs-minimal
     |     
     .tab-content
       .card
-        .card-header Productivity/Office Programs
         .card-block
           .card-text
             <?php echo $libreOIcon . $libreOHome; ?>
@@ -110,38 +92,25 @@ ul.accordion-tabs-minimal
     a.tab-link.is-active(href='#') Graphics Programs
     |     
     .tab-content
-      ul.bullets
-        li.bullet      
-          .bullet-content
-            a(href="https://www.kde.org/applications/graphics/gwenview/") Gwenview
-        |   
-        li.bullet
-          .bullet-content
-            a(href="http://docs.xfce.org/apps/ristretto/start") Ristretto
-        |     
-        li.bullet
-          .bullet-content
-            a(href="https://pinta-project.com/pintaproject/pinta/") Pinta 
+      .row
+        .col-lg-5 
+          a(href="https://www.kde.org/applications/graphics/gwenview/") Gwenview
+        .col-lg-5 
+          a(href="http://docs.xfce.org/apps/ristretto/start") Ristretto
+        .col-lg-5 
+          a(href="https://pinta-project.com/pintaproject/pinta/") Pinta 
 
   li.tab-header-and-content
     a.tab-link.is-active(href='#') Multimedia Programs
     |     
     .tab-content
-      ul.bullets
-        li.bullet      
-          .bullet-content
-            a(href="http://audacious-media-player.org/") Audacious
-        |   
-        li.bullet
-          .bullet-content
-          |  DeadBeef
+      .row
+        .col-lg-5 
+          a(href="http://audacious-media-player.org/") Audacious
+        .col-lg-5 
+          div DeadBeef
 
 
-
-      
-
-
-    
 h3 Windows 
 ul.accordion-tabs-minimal
   li.tab-header-and-content
@@ -155,12 +124,10 @@ ul.accordion-tabs-minimal
     a.tab-link.is-active(href='#') Multimedia Programs
     |     
     .tab-content
-      ul.bullets
-        li.bullet      
-          .bullet-content
+      .row
+        .col-lg-5 
             <?php echo $aimpIcon; echo $aimpHome; ?>
-        li.bullet
-          .bullet-content
+        .col-lg-5 
             <?php echo $foobarIcon; echo $foobarHome; ?>
             
   li.tab-header-and-content
@@ -169,13 +136,11 @@ ul.accordion-tabs-minimal
     .tab-content
       p PDF Readers - Adobe Acrobat Reader alternatives
       
-      ul.bullets
-        li.bullet      
-          .bullet-content
-            | <?php echo $sumPDFIcon; echo $sumPDFHome;  ?>
-        |   
-        li.bullet
-          .bullet-content
+      .row 
+        .col-lg-5 
+              | <?php echo $sumPDFIcon; echo $sumPDFHome;  ?>
+          |   
+        .col-lg-5 
             |  <?php echo $pdfXIcon; echo $pdfXHome; ?>
 
   |   
@@ -183,24 +148,18 @@ ul.accordion-tabs-minimal
     a.tab-link(href='#') Security Programs
     |     
     .tab-content
-      ul.bullets
-        li.bullet      
-          .bullet-content
+      .row
+        .col-lg-5 
             img(src="/techHQ/progIcons/security/AVs/1589__Avast!FreeAntivirus5_icon.png", alt="Avast Icon")
             a(href="http://www.avast.com/free-antivirus-download") Avast 
         |   
-        li.bullet
-          .bullet-content
+        .col-lg-5 
             img(src="/techHQ/progIcons/security/malware/mbam_IDI_MAIN.png", alt="Malwarebytes Icon")
             a(href="http://www.malwarebytes.org/") Malwarebytes Anti-Malware  
               
-        li.bullet
-          .bullet-content
+        .col-lg-5 
             a(href="https://www.emsisoft.com/en/software/eek/") Emsisoft Emergency Toolkit    
         
-        
-      
-        a(href="https://www.emsisoft.com/en/software/eek/") Emsisoft Emergency Toolkit
         
         h2 Cache/Temp File Cleaner 
           .row
@@ -221,16 +180,13 @@ ul.accordion-tabs-minimal
           a(href="https://www.partitionwizard.com/free-partition-manager.html") Minitools Partition Manager Freeware Edition
 
           h4 System Suite
-            
-          ul.bullets
-            li.bullet
-              .bullet-content
+
+          .row
+            .col-lg-5 
                 | <?php echo $glaryIcon . $glaryHome; ?>
             |   
-            li.bullet
-              .bullet-content
+            .col-lg-5
                 |   <?php echo  $wiseCareIcon . $wiseCareHome; ?>    
         
-
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
