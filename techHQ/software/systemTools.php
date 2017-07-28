@@ -8,7 +8,6 @@
 ?>
 
 
-
 <ul class="accordion-tabs-minimal">
   <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Various Tools</a>
     <div class="tab-content">
@@ -171,35 +170,35 @@
           </div>
         </li>
       </ul>
-    </div>
-    <div class="tab-content">
-      <li>
+      <div class="tab-content">
+        <li>
 
-        jv16 Power Tools Lite
-        <div class="progDesc">
-          <p>
-            This is a very lite version of Jv16 Power tools that I found to be decent, while not having some &quot;advanced&quot;
-            features the regular paid version of Jv16 Power tools has.
-          </p>
-        </div>
-      </li>
-      <li>
-        <div class="progTitles"><img src="../../progIcons/system_tools/WiseCare365_MAINICON.png" alt="wise care 360 icon"/><a href="">Wise Care 360</a></div>
-        <div class="progDesc">
-          <p>Has multiple program from &quot;Wise&quot; all in one freeware) to help</p>
-          <ul>
-            <li>Clear Temperary Files,</li>
-            <li>Slim down Windows by clearing out un-wanted/un-needed items</li>
-            <li>Disk and Registry Cleaning,</li>
-            <li>Registry Defragmenting&lt;</li>
-            <li>Disk Defragmenting
-              <ul>
-                <li>and much more</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </li>
+          jv16 Power Tools Lite
+          <div class="progDesc">
+            <p>
+              This is a very lite version of Jv16 Power tools that I found to be decent, while not having some &quot;advanced&quot;
+              features the regular paid version of Jv16 Power tools has.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="progTitles"><img src="../../progIcons/system_tools/WiseCare365_MAINICON.png" alt="wise care 360 icon"/><a href="">Wise Care 360</a></div>
+          <div class="progDesc">
+            <p>Has multiple program from &quot;Wise&quot; all in one freeware) to help</p>
+            <ul>
+              <li>Clear Temperary Files,</li>
+              <li>Slim down Windows by clearing out un-wanted/un-needed items</li>
+              <li>Disk and Registry Cleaning,</li>
+              <li>Registry Defragmenting&lt;</li>
+              <li>Disk Defragmenting
+                <ul>
+                  <li>and much more</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </div>
     </div>
   </li>
   <li class="tab-header-and-content"><a href="#" class="tab-link">Defragmenters </a>
@@ -231,8 +230,7 @@
         <p>
           Just remember if you defrag with one and then scan with another (say defrag with MyDefrag, and then scan with Defraggler)
           you may notice the second says its not &quot;perfect&quot;. You then defrag with the second defragmenter, and analyze the
-          partition with the first defragmenter you used and find the FIRST now says its fragmented ... point is, I would stick with one
-          defragmenter.
+          partition with the first defragmenter you used and find the FIRST now says its fragmented ... point is, I would stick with one defragmenter.
         </p>
       </ul>
       <p><strong>My Opinion:</strong><span class="redBold">I use Auslogic Defrag</span></p>
@@ -240,6 +238,6 @@
   </li>
 </ul>
 <h2>Program Updaters
-  <p><span>scans for available updates to installed programs </span></p>
+  <p>scans for available updates to installed programs </p>
   <p>Add PatchMyPC Here (Note to Self)</p>
 </h2><?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
