@@ -17,7 +17,6 @@
           </div>
       </li>
 
-
       <div class="progDesc">
         <p>This program has the most comprehensive knowledge of auto-starting locations of any startup monitor (A starting list of
         auto-run locations was obtained from David Solomon&#39;s &quot;Windows Internals&quot; seminar), shows you what programs are
@@ -25,21 +24,10 @@
         include ones in your startup folder, Run, RunOnce, and other Registry keys. A &quot;Hide Signed Microsoft Entries&quot; option
         helps you to zoom in on third-party auto-starting images that have been added to your system.</p>
         <p>
-          <span class="redtext">Autoruns works on all versions of Windows.</span>
+          Autoruns works on all versions of Windows.
         </p>
         </div>
 
-
-      <li>
-        <div class="progTitles">
-          <a href="http://www.Windowsstartup.com">Startup Inspector</a>
-        </div>
-
-        <div class="progDesc">
-          <p>Very Similar to Startup Mechanic, although you can create profiles with this programs, and the &quot;database&quot; that
-          tells you what Items are, is on the net so you have to run it while your connected.</p>
-        </div>
-      </li>
     </ul>
 </div>
 
