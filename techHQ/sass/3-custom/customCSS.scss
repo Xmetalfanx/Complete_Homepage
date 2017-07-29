@@ -38,6 +38,13 @@ header
 {
   display: flex;
   flex-direction: row;
+}
 
+
+.card-text
+{
+  @include padding( 10px 20px null 10px);
+  font-size: 17px;
+  text-align: justify;
 
 }

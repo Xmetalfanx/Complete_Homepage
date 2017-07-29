@@ -1,1 +1,1 @@
-git rebase --exec 'git commit --append --no-edit -n -S' -i development
+git filter-branch --commit-filter 'git commit-tree -S "$@";' -- --all

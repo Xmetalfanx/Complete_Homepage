@@ -11,19 +11,19 @@ ul.accordion-tabs-minimal
     
       .card
         .card-block
-        h3.panel-title         
+          h3         
           img(src='/techHQ/progIcons/system_tools/VistaStartMenu_AINICON.png', alt='Vista Start Menu ')
           a(href='http://www.startmenu7.com') 7 Start Menu
-      .card-text
-        | Changes to a better looking and more manageable Start Menu in Windows 7 ... there are also &quot;Classic Start Menu&quot; and &quot;Vista Start Menu&quot;  programs available from the same developer.
+          .card-text
+            | Changes to a better looking and more manageable Start Menu in Windows 7 ... there are also &quot;Classic Start Menu&quot; and &quot;Vista Start Menu&quot;  programs available from the same developer.
 
       .card
         .card-block
-        h3.panel-title 
+        h3
           img(src='/techHQ/progIcons/system_tools/world_time_server_logo.png', alt='World TIme Sync Icon ')
           a(href='http://www.worldtimeserver.com/atomic-clock/') Atomic Clock Sync
-      .card-text
-        | A Simple (one that actually works) Time Sync Program. I have tried many other options, but this is the only one that I found to really work ... grant it, that you\&apos;ll (if your PC is not having trouble) only use it one time every say .. 8-12 months maybe, but still ... it works
+          .card-text
+            | A Simple (one that actually works) Time Sync Program. I have tried many other options, but this is the only one that I found to really work ... grant it, that you\&apos;ll (if your PC is not having trouble) only use it one time every say .. 8-12 months maybe, but still ... it works
       
       .card
         .card-block
@@ -37,24 +37,28 @@ ul.accordion-tabs-minimal
 
         img(src='/techHQ/progIcons/system_tools/DuplicateCleaner_setup_103.png', alt='Duplicate Cleaner Icon ')
         a(href='http://www.digitalvolcano.co.uk/content/duplicate-cleaner') Duplicate Cleaner 
-      p
+        p
         | Great tool for Finding duplicate files of any type ... on my data hard drives (no programs or Operating Systems), I find myself using this often.
 
-
-
-        img(src='/techHQ/progIcons/system_tools/1833__Eventlogexplorer_icon.png', alt='Event Log Explorer ')
-        a(href='http://www.eventlogxp.com/') Event Log Explorer
-        p
-          | A simple program that has some filtering features for Administrators to view Window 2000 (and higher) \&apos;s Event log.
-        p
-          | Not to say &quot;Oh my God, the viewer, built into Windows is SO HARD to use&quot;; however, little additions (like right clicking an error and being able to:
-        p
-          | A) search Google for that error/fix for that error or
-          | B) Go directly to the MS Knowledge base for a description (hey .. its an error being reported by MS anyway, eh?) have made this program catch my eye, the moment I tried it
-        
+      .card
+        .card-block
+          img(src='/techHQ/progIcons/system_tools/1833__Eventlogexplorer_icon.png', alt='Event Log Explorer ')
+          a(href='http://www.eventlogxp.com/') Event Log Explorer
+        .card-text
+          p
+            | A simple program that has some filtering features for Administrators to view Window 2000 (and higher) \&apos;s Event log.
+          p
+            | Not to say &quot;Oh my God, the viewer, built into Windows is SO HARD to use&quot;; however, little additions (like right clicking an error and being able to:
+          p
+            | A) search Google for that error/fix for that error or
+            | B) Go directly to the MS Knowledge base for a description (hey .. its an error being reported by MS anyway, eh?) have made this program catch my eye, the moment I tried it
+          
         p.center
           a(href='../screenshots/System/Event_log.jpg', target='_blank') Event Log Explorer Screenshot 
 
+
+      .card
+        .card-block
         img(src='/techHQ/progIcons/system_tools/FastExplorer_DEFAULT.png', alt='Fast Explorer Icon ')
         a(href='http://www.softpedia.com/get/System/OS-Enhancements/Fast-Explorer.shtml')  Fast Explorer &quot;2008&quot;
         p
@@ -62,6 +66,9 @@ ul.accordion-tabs-minimal
         p
           | I would look in the program (in &quot;question&quot; &apos;s ) preferences or Options menu first .. but even with that ... I have found this program to be very useful.
 
+        
+      .card
+        .card-block
         img(src='/techHQ/progIcons/system_tools/File_Association_Fixer_32512.png', alt='File Association Fixer Icon ')
         a(href='http://www.thewindowsclub.com/file-association-fixer-for-windows-7-vista-released') File Association Fixer (for Windows 7)
         | Fixes problems with common file associates with a simple click.
@@ -96,8 +103,8 @@ ul.accordion-tabs-minimal
       .card
         .card-block
         .card-title
-          h3
             img(alt='SRN Icon', src='/techHQ/progIcons/systemtools/System Restore Manager32512.png')
+          h3 
           a(href='http://www.thewindowsclub.com/system-restore-manager-for-windows-released')  System Restore Manager
         .card-text
           p  Great little program that allows for better management of System Restore Points.
@@ -139,7 +146,7 @@ ul.accordion-tabs-minimal
       .card
         .card-block
           .card-title
-            h3.panel-title 
+            h3
               img(src='/techHQ/progIcons/system_tools/whocrashed_MAINICON.png', alt='WhoCrashed Icon ')
               a(href='http://www.resplendence.com/whocrashed')  WhoCrashed
           .card-text
@@ -169,51 +176,60 @@ ul.accordion-tabs-minimal
         | reading this) call. None of the programs I list are shareware/spyware.
       
 
-      img(src='/techHQ/progIcons/system_tools/File_Association_Fixer_32512.png', alt='File Association Fixer Icon')
-      a(href='http://www.thewindowsclub.com/file-association-fixer-for-windows-7-vista-released')
-        | File Association Fixer (for WIndows 7)
-      .progDesc
-        p Fixes problems with common file associates with a simple click
+      .card
+        .card-block
+          img(src='/techHQ/progIcons/system_tools/File_Association_Fixer_32512.png', alt='File Association Fixer Icon')
+          a(href='http://www.thewindowsclub.com/file-association-fixer-for-windows-7-vista-released')
+            | File Association Fixer (for WIndows 7)
+       
+        .card-text
+            p Fixes problems with common file associates with a simple click
 
         
-      .progTitles
-        img(src='../../progIcons/system_tools/glary.png', alt='Glary Utilities Icon')
-        a(href='http://www.glarysoft.com/') Glary Ultilites
-      .progDesc
-        p
+      .card
+        .card-block
+          img(src='/techHQ/progIcons/system_tools/glary.png', alt='Glary Utilities Icon')
+          a(href='http://www.glarysoft.com/') Glary Ultilites
+
+        .card-text
+          p
           | (FREE) Some of the tasks this program can perform, are: Invalid
           | Shortcut Fixer/Remover, Temp File Remover (scans whole HDD), Trace remover, Registry Cleaner, Startup Manager, and most
           | useful a new user (if you ask me) a 1-Click Maintenance feature that performs selected tasks automatically for the user.
       
-      .progTitles
-        img(src='../../progIcons/system_tools/jv16PT_MAINICON.png', alt='Jv16 power tools icon')
+      .card
+        .card-block
+        img(src='/techHQ/progIcons/system_tools/jv16PT_MAINICON.png', alt='Jv16 power tools icon')
         a(href='http://www.macecraft.com/') jv16 Power Tools
-      .progDesc
-        p.redtext
-          | *** NO LONG FREEWARE; however, one of the few non-free programs i recommend 100% ***
-        p
-          | This is by far the best registry cleaner I have come across. I will post a full epinion (opinion) at epinion.com, as
-          | soon as they are done with the maintenance on their site. (I cant not post it until then). It will have details on this program there.
+      
+        .card-text
+          p.redtext
+            | *** NO LONG FREEWARE; however, one of the few non-free programs i recommend 100% ***
+          p
+            | This is by far the best registry cleaner I have come across. I will post a full epinion (opinion) at epinion.com, as
+            | soon as they are done with the maintenance on their site. (I cant not post it until then). It will have details on this program there.
 
-        p
-          | This is an overall system Tools program with start menu cleaner, registry cleaner, registry compactor (I have run into
-          | ALOT OF issues with this on Vista and Windows 7, but Reg Compactor works 100% no issues on Windows XP), and many many more options.
-        p
-          | THIS IS THE ONLY REGISTRY &quot;CLEANER&quot; I recommend. (Although its really not a complete reg cleaner ...
-          | Ccleaner&apos;s reg cleaner is not bad) ... alot of other reg cleaners have caused more problems then there worth. That is
-          | NOT THE CASE with JV16 Power Tools
-        p.maroonText
-          | HAVING SAID ALL THAT .. I wouldn&apos;t use this program if you are really new to computers and dont
-          | know what your doing (unless your like me, years ago, and accept you can mess things up .. .but want to learn and test stuff anyway)
+          p
+            | This is an overall system Tools program with start menu cleaner, registry cleaner, registry compactor (I have run into
+            | ALOT OF issues with this on Vista and Windows 7, but Reg Compactor works 100% no issues on Windows XP), and many many more options.
+          p
+            | THIS IS THE ONLY REGISTRY &quot;CLEANER&quot; I recommend. (Although its really not a complete reg cleaner ...
+            | Ccleaner&apos;s reg cleaner is not bad) ... alot of other reg cleaners have caused more problems then there worth. That is
+            | NOT THE CASE with JV16 Power Tools
+          p.maroonText
+            | HAVING SAID ALL THAT .. I wouldn&apos;t use this program if you are really new to computers and dont
+            | know what your doing (unless your like me, years ago, and accept you can mess things up .. .but want to learn and test stuff anyway)
 
-          | jv16 Power Tools Lite
-            
-          | This is a very lite version of Jv16 Power tools that I found to be decent, while not having some &quot;advanced&quot; features the regular paid version of Jv16 Power tools has.
-        
-          .progTitles
-            img(src='../../progIcons/system_tools/WiseCare365_MAINICON.png', alt='wise care 360 icon')
+            | jv16 Power Tools Lite
+              
+            | This is a very lite version of Jv16 Power tools that I found to be decent, while not having some &quot;advanced&quot; features the regular paid version of Jv16 Power tools has.
+          
+        .card
+          .card-block
+            img(src='/techHQ/progIcons/system_tools/WiseCare365_MAINICON.png', alt='wise care 360 icon')
             a(href='') Wise Care 360
-          .progDesc
+        
+          .card-text
             p Has multiple program from &quot;Wise&quot; all in one freeware) to help
             ul
               li Clear Temperary Files,
@@ -225,51 +241,93 @@ ul.accordion-tabs-minimal
                 ul
                   li and much more
 
+
   li.tab-header-and-content
     a.tab-link(href='#') Defragmenters 
     |     
     .tab-content
 
-      img(src='../../progIcons/system_tools/defrag/DiskDefrag_MAINICON.png', alt='Auslogic Defrag Icon')
-      |  [Auslogics Disk Defrag
-      a(href='http://www.auslogics.com/redirect.php?referer=dd30v1&redirect=en', target='_blank')
-      | Auslogic Defrag
+      .card
+        .card-block
+          img(src='/techHQ/progIcons/system_tools/defrag/DiskDefrag_MAINICON.png', alt='Auslogic Defrag Icon')
+          |  [Auslogics Disk Defrag
+          a(href='http://www.auslogics.com/redirect.php?referer=dd30v1&redirect=en', target='_blank')
+          | Auslogic Defrag
         
-      p This may be my personal favorite.
+        .card-text  
+          p This may be my personal favorite.
 
-      img(src='../defrag/icon_MyDefragGUI.png', alt='MyDefragGUI screenshot')
-      a(href='http://www.mydefrag.net') MyDefrag/MyDefragGUI
+      .card
+        .card-block
+          img(src='../defrag/icon_MyDefragGUI.png', alt='MyDefragGUI screenshot')
+          a(href='http://www.mydefrag.net') MyDefrag/MyDefragGUI
 
-      p (New name for the new versions of JKDefrag)
-        
-      img(src='../../progIcons/system_tools/defrag/1005t__defraggler.png', alt='DeFraggler Icon')
-      a(href='http://www.pinform.com') Piriform&apos;s Defraggler
+        .card-text
+          p (New name for the new versions of JKDefrag)
+          
+          
+      .card
+        .card-block
+        img(src='/techHQ/progIcons/system_tools/defrag/1005t__defraggler.png', alt='DeFraggler Icon')
+        a(href='http://www.pinform.com') Piriform&apos;s Defraggler
 
-      ul
-        li This defrags file by file
-        li Creator of CCleaner makes this
-        li Does a decent job
-        
-      a(href='http://ultradefrag.sourceforge.net/') UltraDefrag
+        ul
+          li This defrags file by file
+          li Creator of CCleaner makes this
+          li Does a decent job
+          
+        a(href='http://ultradefrag.sourceforge.net/') UltraDefrag
 
-      | Defragmenter that has a Simple Interface, but powerful defragmenting capabilities
-      hr
-      p
-        | Just remember if you defrag with one and then scan with another (say defrag with MyDefrag, and then scan with 
-        | Defraggler) you may notice the second says its not &quot;perfect&quot;. You then defrag with the second defragmenter,
-        | and analyze the partition with the first defragmenter you used and find the FIRST now says its f
-        | ragmented ... point is, I would stick with one defragmenter.
-        
-    p
-      strong My Opinion:
-      span.redBold I use Auslogic Defrag
+        .card-text
+          | Defragmenter that has a Simple Interface, but powerful defragmenting capabilities
+          hr
+          p
+            | Just remember if you defrag with one and then scan with another (say defrag with MyDefrag, and then scan with 
+            | Defraggler) you may notice the second says its not &quot;perfect&quot;. You then defrag with the second defragmenter,
+            | and analyze the partition with the first defragmenter you used and find the FIRST now says its f
+            | ragmented ... point is, I would stick with one defragmenter.
+            
+          p
+            strong My Opinion:
+            span.redBold I use Auslogic Defrag
 
 
+      li.tab-header-and-content
+        a.tab-link(href='#') Process Managers
+        |     
+        .tab-content
 
+          img(src='/techHQ/progIcons/system_tools/process/procexp_101.png', alt='Process Explorer Icon')
+          a(href='http://www.sysinternals.com/') Process Explorer
+          p
+            | SysInternal&apos;s Process Explorer is the one I have used for years and
+            | install on most systems I work on.
 
-h2 Program Updaters
+          img(src='/techHQ/progIcons/system_tools/process/ProcessHacker_101.png', alt='Process Hacker 2')
+          a(href='http://sourceforge.net/projects/processhacker') Process Hacker 2 Icon
+          p Task Manager Replacement that I install on most systems I work on.
 
-  p scans for available updates to installed programs 
-  p Add PatchMyPC Here (Note to Self)
+          img(src='/techHQ/progIcons/system_tools/process/SystemExplorer_MAINICON.png', alt='System Explorer Icon')
+          a(href='http://systemexplorer.net/') System Explorer
+
+      li.tab-header-and-content
+        a.tab-link(href='#') Program Updaters 
+        |     
+        .tab-content
+          p scans for available updates to installed programs 
+          p Add PatchMyPC Here (Note to Self)
+
+      li.tab-header-and-content
+        a.tab-link(href='#') Startup Managers
+        |   
+        .tab-content 
+        img(src='/techHQ/progIcons/system_tools/autorunsc_EVERYTHING.png', alt='autoruns icon')
+        a(href='http://www.sysinternals.com/') Autoruns
+        |     
+        | This program has the most comprehensive knowledge of auto-starting locations of any startup monitor (A starting list of
+        | auto-run locations was obtained from David Solomon&apos;s &quot;Windows Internals&quot; seminar), shows you what programs are
+        | configured to run during system boot-up or login, and shows you the entries in the order Windows processes them. These programs
+        | include ones in your startup folder, Run, RunOnce, and other Registry keys. A &quot;Hide Signed Microsoft Entries&quot; option
+        | helps you to zoom in on third-party auto-starting images that have been added to your system.
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
