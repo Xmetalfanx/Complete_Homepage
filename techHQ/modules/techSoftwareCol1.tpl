@@ -9,7 +9,7 @@
   <div class="card-block">
     <div class="card-text"><a href="/techHQ/software/multimedia/audio.php">Audio</a><br/>
       <a href="/techHQ/software/multimedia/graphics.php">Graphics</a><br/>
-      <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players <em>Audio</em></a>
+      <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players <em>Audio</em></a><br/>
       <a href="/techHQ/software/multimedia/media_players_video.php">Media Players <em>Video </em></a><br/>
       <a href="/techHQ/software/multimedia/videoPrograms">Video Related Programs</a><br/></div>
   </div>
@@ -44,8 +44,6 @@
       <a href="/techHQ/software/defrag.php">Defragmenters</a><br/>[File Managers]<br/>
 
       <a href="/techHQ/software/sTools/registryTools.php">Registry Tools</a><br/>
-
-      <a href="/techHQ/software/sTools/startupManangers.php">Startup Managers</a><br/>
 
       <a href="/techHQ/software/sTools/sysInternals">SysInternels</a><br/>
 

@@ -680,12 +680,15 @@ header.navigation {
         display: none; } }
 
 body {
-  overflow-x: hidden !important; }
+  overflow-x: hidden; }
 
 footer {
-  bottom: 0 !important;
   background-color: #333333 !important;
-  color: white; }
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; }
 
 .logo, .logo a:link, .logo a:visited {
   color: white;
@@ -708,6 +711,12 @@ header {
   max-height: 100px;
   padding-bottom: 2px; }
 
+.card-header {
+  background-color: #333333 !important;
+  color: white; }
+  .card-header a:link a:visited a:hover a:focus {
+    color: white !important; }
+
 ul.navigation-menu {
   text-align: right; }
   ul.navigation-menu a:link, ul.navigation-menu a:visited {
@@ -715,5 +724,14 @@ ul.navigation-menu {
     font-weight: normal;
     text-shadow: 2px 2px 2px black;
     padding-bottom: 2px; }
+
+.row {
+  overflow: auto; }
+
+.media {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #333333; }
 
 /*# sourceMappingURL=styling.css.map */
