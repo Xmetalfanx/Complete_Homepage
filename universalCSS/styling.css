@@ -733,5 +733,8 @@ ul.navigation-menu {
   margin-top: 5px;
   margin-bottom: 5px;
   border: 1px solid #333333; }
+  .media img {
+    height: 42px;
+    width: 42px; }
 
 /*# sourceMappingURL=styling.css.map */

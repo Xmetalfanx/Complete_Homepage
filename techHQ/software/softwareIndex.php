@@ -16,6 +16,7 @@
     </div>
   </div>
 </div>
+
 <h3>Cross Platform </h3>
 <ul class="accordion-tabs-minimal">
   <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Graphics Programs</a>
@@ -32,7 +33,9 @@
       </div>
     </div>
   </li>
-  <li class="tab-header-and-content"><a href="#" class="tab-link">Internet Programs</a>
+  
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Internet Programs</a>
     <div class="tab-content">
       <div class="row">
         <div class="col-lg-5">

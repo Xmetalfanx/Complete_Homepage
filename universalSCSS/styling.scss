@@ -88,11 +88,11 @@ ul.navigation-menu
 
 // Test to fix footer issue
 // THIS MAY have goofy results if it goes bad
-
 .row
 {
   overflow: auto;
 }
+// End footer fix idea
 
 
 .media
@@ -101,5 +101,14 @@ ul.navigation-menu
    @include padding( 10px 10px 10px 10px);
    @include margin( 5px null 5px null);
    border: 1px solid $headerBGColor;
+
+   // Focussed on Icons ... Don't see there being other graphics in this spot
+   img
+   {
+     height: 42px;
+     width: 42px;
+
+
+   }
 
 }
