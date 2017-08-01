@@ -1,12 +1,9 @@
-Some Kodi Addons I use 
-
-Music: 
-	- JazzRadio.com 
+Some Kodi Addons I use
 
 
 Videos
-- Youtube 
-- Jupiter Broadcasting 
+- Youtube
+- Jupiter Broadcasting
 - Twit
-- Khan Academy 
-- 
+- Khan Academy
+-
