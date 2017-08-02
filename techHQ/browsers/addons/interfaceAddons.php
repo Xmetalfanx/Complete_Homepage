@@ -1,18 +1,53 @@
+<?php
 
+  $the_title = 'Browser Section - Interface Related Addons';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+?>
 
 h3 Interface Tweaking Addons
 
 .card
   .card-header
-    img(src='techHQ/graphics/ffox/gui.png', alt='GUI:CONFI ICON')
-    a(href='https://addons.mozilla.org/en-us/firefox/addon/guiconfig/') GUI::Config
-
+      <a href="http://gophernet.org/projects/rmannoy/">AnnoyanceRemover</a>
   .card-block
     .card-text
-    p Access a GUI that helps you control advanced features of Firefox
-    p
-      | Many of these (with alot of searching) tweaks can be adjusted via about:config; though this add-on makes it easier to not only tweak them but tweak a number of settings at the same time
+	  <p> Some Features of this add-on are: </p>
+        <ul>
+						  <li>Disabling all Meta-Redirects</li>
+						  <li>Disabling auto complete for (all individual configurations)
+								<ul>
+									<li>Searchbar</li>
+									<li>Location bar (Address bar) </li>
+									<li>Forms</li>
+									<li> &#8230; &#8230; &#8230; and more &#8230; &#8230; &#8230; </li>
+							  </ul>
+			        </li>
+			    </ul>
 
+.card
+  .card-header
+      <a href="http://www.ginatrapani.org/workshop/firefox/bettergmail/">BetterGmail</a>
+  .card-block
+    .card-text
+    <p>Adds some features and little tweaks to the Gmail Interface that improves a user’s experience using the Gmail Mail Service	&#8230;</p>
+	<p>Uses alot of scripts from Userscript.org (for Greasemonkey) &#8230; if i remember correctly</p>
+
+.card
+  .card-header
+      <a href="http://netticat.ath.cx/extensions.html">GoogleEnhancer</a>
+  .card-block
+    .card-text
+      Adds a number of enhancements to Google pages
+
+.card
+  .card-header
+      	<img src="techHQ/graphics/ffox/gui.png%22" alt="GUI:CONFI ICON">
+		<a href="http://guiconfig.freedig.org">GUI::Config</a>
+  .card-block
+    .card-text
+    <p>Access a GUI that helps you control advanced features of Firefox</p>
+  	<p>Many of these (with alot of searching) tweaks can be adjusted via about:config; though this add-on makes it easier to not only tweak them but tweak a number of settings at the same time</p>
 		  
 .card
   .card-header
@@ -30,9 +65,8 @@ h3 Interface Tweaking Addons
 		
 .card
   .card-header
-    img(src='/techHQ/graphics/ffox/xpinstallItemGeneric.png', alt='Slim Addon Manager Icon')
-    a(href='https://addons.mozilla.org/en-US/firefox/addon/slim-add-ons-manager') Slim Add-ons Manager
-
+      <img src="/techHQ/graphics/ffox/xpinstallItemGeneric.png" alt="Slim Addon Manager Icon">
+	  <a href="https://addons.mozilla.org/en-US/firefox/addon/slim-add-ons-manager">Slim Add-ons Manager</a>
   .card-block
     .card-text
     Slims down the add-on manager text/box in Firefox 4 and above.
@@ -47,25 +81,29 @@ h3 Interface Tweaking Addons
 
 .card
   .card-header
-    img(src='/techHQ/graphics/ffox/themeChanger.png', alt='Theme Changer Icon')
-    a(href='http://barisderin.com/?p=286') Theme Font &amp; Size Changer
-
+      <img src="/techHQ/graphics/ffox/themeChanger.png" alt="Theme Changer Icon">
+		<a href="http://barisderin.com/?p=286">Theme Font &amp; Size Changer</a>
   .card-block
     .card-text
-       | Instantly changes the font family and size of all windows, menus, toolbars, etc within Firefox			 
+       Instantly changes the font family and size of all windows, menus, toolbars, etc within Firefox			 
 
+.card
+  .card-header
+      <a href="http://codefisher.org/toolbar_button/">Toolbar Buttons</a>
+  .card-block
+    .card-text
+	  <p> Adds many Toolbar Icons for various tasks that are not in Firefox by default</p>
+		<p> This adds 30 menu button items for the toolbar that are not normally there </p>
 			   
 .card
   .card-header
-    a(href='https://addons.mozilla.org/en-US/firefox/addon/258712/') UI Fixer
-
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/258712/">UI Fixer</a>
   .card-block
     .card-text
     Change (or just allow FOR THE CHANGE) of a number of Interface items in Firefox 4 (and above)
 				
 
-h3 Toolbar/Toolbar Related Addons and Menu Related Items
-
+<h3>Toolbar/Toolbar Related Addons and Menu Related Items	</h3>
 
 .card
   .card-header
@@ -99,32 +137,48 @@ h3 Toolbar/Toolbar Related Addons and Menu Related Items
       <a href="http://firefox.maltekraus.de/extensions/organize-search-engines">Organize Search Engines</a>
   .card-block
     .card-text
-		p
-  | Allows you to organize the Search bar in Firefox, including adding folders and sorting existing entries in a variety of ways
-p
-  span Search engine
-  | s&quot;, &quot;
-  span Torrent Search sites
-  | &quot; (to search them
-  br
-  | directly from the Firefox main GUI), and &quot;
-  span Misc
-  | &quot; for all the search &quot;items&quot; that I want
-  br
-  | to keep that do not fit into either other category (IMDB, and weather.com, as well as Youtube, for example)
-|   
-p
-  | This addon, (if you have alot of search bar items, that is) is very useful to keep things more organized
+		<p> Allows you to organize the Search bar in Firefox, including adding folders and sorting existing entries in a variety of ways </p>
 
+          <p>
+			<span class="redtext">Search engine</span>s", "<span class="redtext">Torrent Search sites</span>" (to search them<br>directly from the Firefox main GUI), and "<span class="redtext">Misc</span>" for all the search "items" that I want<br>to keep that do not fit into either other category (IMDB, and weather.com, as well as Youtube, for example)</p>
 
+            	<p> This addon, (if you have alot of search bar items, that is) is very useful to keep things more organized</p>
+			 </div>
+			</li>
 
+    	<li>
+
+.card
+  .card-header
+      <a href="http://codefisher.org/toolbar_button/">Toolbar Buttons</a>
+  .card-block
+    .card-text
+    Adds many Toolbar Icons for various tasks that are not in Firefox by default		
+
+.card
+  .card-header
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/258712/">UI Fixer</a>
+  .card-block
+    .card-text
+      Change (or just allow FOR THE CHANGE) of a number of Interface items in Firefox 4 (and above)
+
+.card
+  .card-header
+      <a href="http://www.chrisfinke.com/addons/url-fixer/">URL Fixer</a>
+  .card-block
+    .card-text
+		<p>Fixes commonly mis-typed web addresses such as:</p>
+		 <ul>
+							  <li>www.google.con</li>
+							  <li>www.youtube,com</li>
+		</ul>
 				
 .card
   .card-header
       <a href="http://www.xuldev.org/verticaltoolbar/">Vertical Toolbar</a>
   .card-block
     .card-text
-       Adds a vertical (on right or left side, you choose) Vertical toolbar to Firefox.  This looks like what I have seen in MANY OTHER browsers by default.
+       Adds a vertical (on right or left side, you choose) Vertical toolbar to Firefox
 			
 
 <h3>Tab Related</h3>
