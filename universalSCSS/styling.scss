@@ -13,12 +13,13 @@ body
 
 footer
 {
-  background-color: $headerBGColor !important;
+  background-color: $headerBGColor;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: static !important;
   left: 0;
   right: 0;
   bottom: 0;
+  margin-top: 5px;
 
 }
 

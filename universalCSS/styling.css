@@ -683,12 +683,13 @@ body {
   overflow-x: hidden; }
 
 footer {
-  background-color: #333333 !important;
+  background-color: #333333;
   color: white;
-  position: absolute;
+  position: static !important;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  margin-top: 5px; }
 
 .logo, .logo a:link, .logo a:visited {
   color: white;
