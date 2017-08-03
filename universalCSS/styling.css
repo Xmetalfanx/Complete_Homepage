@@ -683,9 +683,9 @@ body {
   overflow-x: hidden; }
 
 footer {
-  background-color: #333333;
+  background-color: #333333 !important;
   color: white;
-  position: static !important;
+  position: fixed !important;
   left: 0;
   right: 0;
   bottom: 0;

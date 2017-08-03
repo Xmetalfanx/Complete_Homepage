@@ -13,9 +13,9 @@ body
 
 footer
 {
-  background-color: $headerBGColor;
+  background-color: $headerBGColor !important;
   color: rgb(255, 255, 255);
-  position: static !important;
+  position: fixed !important;
   left: 0;
   right: 0;
   bottom: 0;
