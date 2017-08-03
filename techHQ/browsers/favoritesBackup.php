@@ -4,7 +4,7 @@
 	 $sitePath = "/home/xmetalx1/public_html";
 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 ?>
-    <p> <span class="boldText"> Maxthon, Avant or Internet   Explorer</span> </p>
+    <p> <span class="boldText"> Maxthon, Avant or Internet Explorer</span> </p>
     <p>Generally its the same for all 3... </p>
     <ol>
         <li> Go to File and then Export, or Import and Export </li>
