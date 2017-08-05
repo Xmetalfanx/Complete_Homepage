@@ -1,13 +1,6 @@
 <?php
 
 		$sitePath = "/home/xmetalx1/public_html";
-		include $sitePath . "/linuxHQ/modules/variables/varIncludes.php";
-
-		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
-
-		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
-
-
 
 	  $PaperThemeName = '<a href="https://snwh.org/paper" target="_blank"> Paper GTK Theme</a>';
 		$PaperThemeSShot = '<img src="#" alt="Noobslab Arc-Theme screenshot" /> <br />
@@ -19,13 +12,20 @@
 
 		$PaperThemeUsage = '';
 
-		$TICSShot = $PaperThemeSShot;
-		$TICName = $PaperThemeName;
-		$GHHome = $PaperThemeGHHome;
-		$NSHome = $PaperThemeNSHome;
+		$TICSShot = &$PaperThemeSShot;
+		$TICName = &$PaperThemeName;
+		$GHHome = &$PaperThemeGHHome;
+		$NSHome = &$PaperThemeNSHome;
+		$TICUsage = &$PaperThemeUsage;
 
 
-		$TICUsage = $PaperThemeUsage;
+		include $sitePath . "/linuxHQ/modules/variables/varIncludes.php";
+		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
+
+		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
+
+
+
 ?>
 
 <?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

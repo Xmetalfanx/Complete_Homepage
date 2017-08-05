@@ -1,12 +1,6 @@
 <?php
 
 		$sitePath = "/home/xmetalx1/public_html";
-		include $sitePath . "/linuxHQ/modules/variables/varIncludes.php";
-
-		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
-
-		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
-
 
 		$YosThemeName = '<a href="http://www.sundman.ca/themes/yosembiance/" target="_blank"> Yosembiance Theme</a>';
     $YosThemeSShot = '<img src="#" alt="Noobslab Arc-Theme screenshot" /> <br />
@@ -16,18 +10,23 @@
     $YosThemeGHHome = '<a href="https://github.com/bsundman/Yosembiance" target="_blank">Yosembiance Theme on Github</a>';
     $YosThemeNSHome = '<a href="http://www.noobslab.com/2016/03/ambiance-radiance-colors-theme-suite.html" target="_blank">Yosembiance Theme on Noobslab</a>';
     $YosThemeGLHome = '<a href="https://www.gnome-look.org/content/show.php/Yosembiance?content=167293" target="_blank"> Yosembiance Theme on Gnome-look</a>';
-
     $YosThemeUsage = 'GTK3';
 
 
+		$TICSShot = &$YosThemeSShot;
+		$TICName = &$YosThemeName;
+		$GHHome = &$YosThemeGHHome;
+		$NSHome = &$YosThemeNSHome;
+		$TICUsage = &$YosThemeUsage;
 
-		$TICSShot = $YosThemeSShot;
-		$TICName = $YosThemeName;
-		$GHHome = $YosThemeGHHome;
-		$NSHome = $YosThemeNSHome;
+		include $sitePath . "/linuxHQ/modules/variables/varIncludes.php";
+		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
+
+		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
 
 
-		$TICUsage = $YosThemeUsage;
+
+
 ?>
 
 <?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
