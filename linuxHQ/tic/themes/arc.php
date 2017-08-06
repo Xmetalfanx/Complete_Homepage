@@ -26,7 +26,6 @@
 		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
 
 
-
 ?>
 
 <?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>

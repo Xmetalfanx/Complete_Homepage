@@ -109,8 +109,9 @@
   <div class="card-block">
     <h2 class="card-title">Misc. Distros </h2>
     <div class="card-text">
-      <a href="/linuxHQ/distros/independent/kaOS.php">KaOS</div><br/>
+      <a href="/linuxHQ/distros/independent/kaOS.php">KaOS<br/>
       <a href="/linuxHQ/distros/mandriva/PCLinuxOS.php">PCLinuxOS</a><br/>
       <a href="/linuxHQ/distros/independent/puppyLinux.php">Puppy Linux</a>
+      </div>
     </div>
   </div>
