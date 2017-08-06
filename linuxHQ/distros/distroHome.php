@@ -3,15 +3,17 @@
 		$title = 'Linux Distribution (AKA Version) Section';
 	  $sitePath = "/home/xmetalx1/public_html";
 
+		include $sitePath . '/linuxHQ/modules/variables/varinclude.php';
 		include $sitePath . "/templates/linux/blankTemplates/baseLinuxDistroBlank.tpl";
 ?>
 
 
 <h1>Top Linux Distributions for new users</h1>
-<div id="linuxSection">
+<div>
   <div class="card">
     <div class="card-block">
-      <h4 class="card-title">    <img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/><?php echo $mintMP; ?></h4>
+      <h4 class="card-title">
+				<img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/><?php echo $mintMP; ?></h4>
       <div class="card-text">
         <div class="screenshots">
 

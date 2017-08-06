@@ -710,7 +710,7 @@ footer {
 header {
   background-color: #333333;
   max-height: 100px;
-  padding-bottom: 2px; }
+  margin-bottom: 5px; }
 
 .card-header {
   background-color: #333333 !important;

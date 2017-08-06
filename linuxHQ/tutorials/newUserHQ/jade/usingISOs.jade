@@ -1,68 +1,70 @@
-
+//output:usingISOs.html
 
 p Programs to put ISOs on USB sticks
 
 h3 Creating ISOs to USBs 
 
-	p.font-weight-bold Cross Platform 
 
-	ul
-		li 
-			a(href="" target="_blank") Etcher
-		li
+ul.accordion-tabs-minimal
+  li.tab-header-and-content
+    a.tab-link.is-active(href='#') Cross-Platform 
+    .tab-content
+      ul
+        li 
+          a(href="http://etcher.io" target="_blank") Etcher.io
 
-		li 
-			a(href="http://sourceforge.net/projects/unetbootin/" target="_blank") Unetbootin 
-			- I have had nothing but problems with USBS MADE correctly ... not booting correctly when, using Unetbootin ... this seems to happen over and over again 
-
-
-hr 
-
-	p.font-weight-bold Linux 
-
-	ul 
-		li
-			Linux Mint Image Writer
-
-		li 
-			a(href="http://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/" target="_blank") Multisystem
-
-hr 
-
-	p.font-weight-bold Windows SPECIFC
-	
-	ul
-		li 
-			a(href="http://www.osforensics.com/tools/write-usb-images.html" target="_blank") ImageUSB
-		
-		li 
-			a(href="#" target="_blank") Rufus
-		
-		li
-			a(href="http://sourceforge.net/projects/win32diskimager/" target="_blank") Win32 Disk Imager			
-
-		li 
-			a(href="http://www.pendrivelinux.com/yumi-multiboot-usb-creator/" target="_blank") YUMI 
-	
+        li 
+          a(href="http://sourceforge.net/projects/unetbootin/" target="_blank") Unetbootin 
+          | - I have had nothing but problems with USBS MADE correctly ... not booting correctly when, using Unetbootin ... this seems to happen over and over again 
 
 
-hr 
+
+  |   
+  li.tab-header-and-content
+    a.tab-link(href='#') Windows Specific 
+    |     
+    .tab-content
+			ul
+				li 
+					a(href="http://www.osforensics.com/tools/write-usb-images.html" target="_blank") ImageUSB
+				li 
+					a(href="#" target="_blank") Rufus
+				li
+					a(href="http://sourceforge.net/projects/win32diskimager/" target="_blank") Win32 Disk Imager
+				li 
+					a(href="http://www.pendrivelinux.com/yumi-multiboot-usb-creator/" target="_blank") YUMI
+
+  |   
+  li.tab-header-and-content
+    a.tab-link(href='#') Linux Specific 
+    |     
+    .tab-content
+      ul 
+        li
+          | Linux Mint Image Writer
+
+        li
+          a(href="http://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/" target="_blank") Multisystem
 
 
-h3 ISOs to CDs/DVDs
 
-	ul
-	  li 
-		img(src="../../graphics/progIcons/system_tools/Burner/ImgBurn_MAINICON.png" width="48" height="48"  alt="ImgBurn Icon)
-		a(href="http://www.imgburn.com/" target="_blank") ImgBurn
 
-	  li 
-		img(src="../../graphics/progIcons/system_tools/Burner/984__CDburnerXP2.gif" src="" width="32" height="32" alt="CDBurnerXP")
 
-		a(href="http://www.cdburnerxp.se/" target="_blank") CDBurnerXP 
-		 
 
-	  li 
-		a(href="http://www.burnaware.com/" target="_blank") Burn Aware 		
-	
 
+	li.tab-header-and-content
+		a.tab-link(href='#') ISOs to CDs/DVDs
+		|     
+		.tab-content
+			ul
+			  li 
+				img(src="../../graphics/progIcons/system_tools/Burner/ImgBurn_MAINICON.png" width="48" height="48"  alt="ImgBurn Icon)
+				a(href="http://www.imgburn.com/" target="_blank") ImgBurn
+
+			  li 
+				img(src="../../graphics/progIcons/system_tools/Burner/984__CDburnerXP2.gif" width="32" height="32" alt="CDBurnerXP")
+				a(href="http://www.cdburnerxp.se/" target="_blank") CDBurnerXP 
+				 
+			  li 
+				a(href="http://www.burnaware.com/" target="_blank") Burn Aware 		
+			

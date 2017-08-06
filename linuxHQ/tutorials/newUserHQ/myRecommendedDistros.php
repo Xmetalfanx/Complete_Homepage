@@ -15,7 +15,10 @@
 	<div>(insert graphics and links here)</div>
 	<div class="card">
 	  <div class="card-block">
-	    <div class="card-title"> <img src="/linuxHQ/graphics/icons/mint.png" width="90px" height="90px" alt="Linux Mint Graphic"/><?php echo $mintMP; ?></div>
+	    <div class="card-title">
+				<img src="/linuxHQ/graphics/icons/mint.png" width="90px" height="90px" alt="Linux Mint Graphic"/>
+				<?php echo $mintMP; ?>
+			</div>
 	    <div class="card-text">
 
 	      Linux Mint is based on  Ubuntu with a few additions such as codecs used for Mp3s and Video files easily installable &ldquo;out of the box&rdquo;....  Granted that Mint and any Ubuntu based distrobution I have seen have both come to a sort of common ground with a "Install codecs" option being present, during the install; though, even if you miss that, there will be a menu entry on your installed system to do the same thing ... no big deal

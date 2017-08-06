@@ -1,1 +1,0 @@
-[05-Aug-2017 19:22:20 America/New_York] PHP Fatal error:  Cannot redeclare img() (previously declared in /home/xmetalx1/public_html/linuxHQ/modules/variables/linuxFunct.php:3) in /home/xmetalx1/public_html/linuxHQ/modules/variables/linuxFunct.php on line 6
