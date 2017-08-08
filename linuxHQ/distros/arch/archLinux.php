@@ -6,7 +6,7 @@
         $icon = '<img src="../../graphics/icons/arch.png" width="90" height="84"  alt="Arch Linux Icon"/>';
         $homepage = '<span class="Info"><a href="http://www.archlinux.org/" target="_blank">http://www.archlinux.org/</a></span> ';
         $download = '<a href="http://www.archlinux.org/download/" target="_blank">http://www.archlinux.org/download/</a> ';
-        $version = 'Mid 2014 ';
+        $version = ' ';
         $forum = '<a href="http://bbs.archlinux.org/" target="_blank">http://bbs.archlinux.org/</a> ';
         $distroWatch = 'http://distrowatch.com/arch ';
         $DE = ' Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce';

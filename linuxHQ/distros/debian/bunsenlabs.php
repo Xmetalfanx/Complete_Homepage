@@ -4,9 +4,9 @@
 
 		$name = 'Bunsenlabs';
 		$family = 'Debian ';
-		$icon = '<img src="#" width="90" height="79"  alt="Crunchbang Icon"/>';
+		$icon = '<img src="#" width="90" height="79" alt="Crunchbang Icon"/>';
 		$homepage = '<a href="https://www.bunsenlabs.org" target="_blank">Bunsenlabs Homepage</a> ';
-		$download = '<a href="http://crunchbang.org/download/" target="_blank">Bunsenlabs Download</a> ';
+		$download = '<a href="#" target="_blank">Bunsenlabs Download</a> ';
 		$version = '';
 		$forum = '<a href="https://forums.bunsenlabs.org" target="_blank">Bunsenlabs Forums</a>';
 		$distroWatch = '<a href="http://distrowatch.com/crunchbang" target="_blank">Bunsenlabs</a> ';

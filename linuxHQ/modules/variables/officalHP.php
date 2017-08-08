@@ -14,7 +14,7 @@
 	$lubuntuHOME = '<a href="http://lubuntu.net targe="_blank"> Lubuntu Homepage</a>';
 	$xubuntuHOME = '<a href="http://www.xubuntu.com" target="_blank">Xubuntu Homepage</a>';
 	$linuxLiteHOME = '<a href="http://www.linuxliteos.com" target="_blank">Linux Lite Homepage</a>';
-	$elementaryHOME = '<a href="http://elementary.io target="_blank">ElementaryOS </a>';
+	$elementaryHOME = '<a href="http://elementary.io" target="_blank">ElementaryOS </a>';
 	$pepperMintHome = 'Peppermint Homepage';
 	$LXLEHOME = 'LXLE Homepage';
 

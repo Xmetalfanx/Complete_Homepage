@@ -7,7 +7,7 @@
     $icon = '<img src="/linuxHQ/graphics/icons/antergos.png" width="90" height="90"  alt="Antergos Icon"/>';
     $homepage = ' <?php echo $antergosHOME; ?> ';
     $download = '<a href="http://www.antergos.com/try-it/" target="_blank">http://www.antergos.com/try-it/</a> ';
-    $version = 'May 2014 ';
+    $version = '17.5 ..though Rolling ISOs';
     $forum = '<span class="Info"> <a href="http://forum.antergos.com/">http://forum.antergos.com/</a></span> ';
     $distroWatch = '<a href="http://distrowatch.com/antergos" target="_blank">http://distrowatch.com/antergos</a> ';
     $DE = 'Gnome(Shell), KDE ';
