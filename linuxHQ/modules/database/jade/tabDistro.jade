@@ -1,0 +1,36 @@
+//output:tabDistro.html
+
+ul.accordion-tabs-minimal
+  li.tab-header-and-content
+    a.tab-link.is-active(href='#') Screenshots
+    |     
+    .tab-content
+      .screenshots.hidden-md-down
+      .bold Screenshots
+      <?php echo $distroSshot; ?>
+
+  |   
+  li.tab-header-and-content
+    a.tab-link(href='#') Another Tab
+    |     
+    .tab-content
+      
+  |   
+  li.tab-header-and-content
+    a.tab-link(href='#') Youtube Reviews
+    |     
+    .tab-content
+      
+  |   
+  li.tab-header-and-content
+    a.tab-link(href='#') USB Creation 
+    |     
+    .tab-content
+      .card
+        .card-block
+          h4.card-title USB Drive Creation Experience
+        .card-text
+          p <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
+
+          #usb
+          <?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>

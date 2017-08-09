@@ -1,0 +1,29 @@
+//output:linuxDistroContent.html
+
+.row
+	.col-lg-1
+		<?php echo $icon; ?>
+	.col-lg-11.name
+		<?php echo $name; ?>
+
+<?php include $sitePath . '/linuxHQ/modules/sections/distroSection/distroTable.tpl'; ?>
+
+
+.card
+	.card-block
+		h4.card-title Description
+		.card-text
+			<?php echo $description; ?>
+
+			<?php include $sitePath . '/linuxHQ/modules/sections/distroSection/tabDistro.tpl'; ?>
+
+
+	br 
+
+.card
+	.card-block
+		h3.card-title Reviews
+			<?php include $sitePath . '/linuxHQ/modules/section/linuxDistroReviewer.php' ; ?>
+			
+			
+<?php include $sitePath . '/linuxHQ/modules/section/distroSection/tabDisto.tpls' ; ?>

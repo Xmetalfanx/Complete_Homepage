@@ -5,7 +5,7 @@
 		$name = 'SolydXK (X = Xfce, K = KDE)';
 		$family = '';
 		$icon = '<img src="../../graphics/icons/solydxk.png" width="90" height="94"  alt="SolydXK Icon"/> ';
-		$homepage = '   <a href="#" target="_blank">http://solydxk.com/</a> ';
+		$homepage = '   <a href="#" target="_blank">Gentoo Homepage</a> ';
 		$download = '	<a href="#" target="_blank">http://downloads.solydxk.com/</a> ';
 		$version = 'July 2014 ';
 		$forum = ' ';
