@@ -1,12 +1,13 @@
 <?php
   require('connect.php');
 
+  $localName='solus';
+
   // Creates Query
-  $query = "SELECT * FROM linuxtest WHERE distroName = 'arch' ";
+  $query = "SELECT * FROM linuxtest WHERE distroName = '$localName' ";
 
   // Get Results
   $result = mysqli_query($conn, $query) or ('Error querying database');
-
 
 ?>
 
@@ -32,17 +33,22 @@
         <?php
             foreach($result as $row)
             {
-              echo ($result["distroTitle"] . " <br /> ");
+              foreach($row as $field)
+              {
+                echo "<strong>Distro Name: </strong> ";
+                echo ($row['distroTitle'] . " <br /> ");
+                echo "<em>Homepage:</em> <a href=\" " .  ($row['homepage'] . "\" target=\"_blank\" > <br />" );
 
-                foreach($result as $row)
-                {
-                  echo "<em>Homepage: </em>";
-                  echo ($row['homepage'] . " <br />" );
-                }
-                
+              }
             }
         ?>
 
+
+        </div>
+
+
+        <div>
+            Test2:
 
         </div>
 
