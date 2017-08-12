@@ -1,15 +1,6 @@
 <?php
-		$name = 'CentOS';
-	  $family = 'Redhat/ RPM';
+
 	  $icon = '<img src="../../graphics/icons/centos.png" width="90" height="84"  alt="CentOS Icon"/>';
-		 $homepage = '<a href="http://www.centos.org/" target="_blank">http://www.centos.org/</a> ' ;
-		$download = '<a href="http://www.centos.org/download/" target="_blank">http://www.centos.org/download/</a> <br />
-		              <a href="http://www.centos.org/download/mirrors/" target="_blank">http://www.centos.org/download/mirrors/</a> <br />    ' ;
-		$version = '7.0 ' ;
-		$forum = '<a href="https://www.centos.org/forums/" target="_blank">https://www.centos.org/forums/</a> ' ;
-		$distroWatch = '<a href="http://distrowatch.com/centos" target="_blank">http://distrowatch.com/centos</a>' ;
-		$DE = 'Gnome-shell, KDE ';
-		$distroSshot = ' ';
 
 	$recommend = 'Yes ';
 	$newbRecommend = 'No ' ;

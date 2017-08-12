@@ -1,17 +1,11 @@
  <?php
-	$name = 'Linux Lite ';
-  $family = 'Ubuntu';
+
   $icon = '<img src="../../graphics/icons/lite.png" width="90" height="90"  alt="Linux Lite Icon"/>';
-  $homepage = '<a href="http://www.linuxliteos.com/">http://www.linuxliteos.com/</a> ' ;
-	$download = '<a href="http://sourceforge.net/projects/linuxlite/files/">http://sourceforge.net/projects/linuxlite/files/</a> ' ;
-	$version = ' ' ;
-	$forum = '<a href="https://www.linuxliteos.com/forums/">https://www.linuxliteos.com/forums/</a> ' ;
-	$distroWatch = ' ' ;
-	$DE = 'XFCE ';
-	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/linuxlite.jpg">
+
+
+  $distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/linuxlite.jpg">
 								<img src="/linuxHQ/screenshots/ubuntubased/linuxlite.jpg" alt="Linux Lite screenshot"/></a>' . '<p>
 		<a href="http://www.linuxliteos.com/screenshots/">http://www.linuxliteos.com/screenshots/</a></p> ';
-	$similar = 'Linux Mint + XFCE, Xubuntu';
 
 
 

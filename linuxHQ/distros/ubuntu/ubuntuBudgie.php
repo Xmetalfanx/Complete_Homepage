@@ -7,14 +7,8 @@
 	$version = '16.04.2 LTS and 17.04';
 	$forum = '<a href="#"></a> ' ;
 	$distroWatch = '<a href="http://distrowatch.com/table.php?distribution=ubuntubudgie" target="_blank" >Ubuntu Budgie</a>';
-	$DE = 'Budgie';
-	$distroSshot = '';
-	$similar = 'Budgie-wise .. Solus ';
 
 
-  $description = <<<DES
-
-DES;
 
   $EXP = &$ubuntuExp;
 

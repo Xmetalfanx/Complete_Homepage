@@ -2,17 +2,9 @@
 
     $title = 'Distribution Section - Linux Mint Debian Edition ';
 
-    $name = 'Linux Mint Debian Edition';
-    $family = 'Debian';
     $icon = '<img src="../../graphics/icons/mint.png" width="90" height="90"  alt="LMDE Icon"/>';
-    $homepage = '<a href="http://www.linuxmint.com/download_lmde.php" target="_blank">http://www.linuxmint.com/download_lmde.php</a> ';
-    $download = '<a href="http://www.linuxmint.com/download_lmde.php" target="_blank">http://www.linuxmint.com/download_lmde.php</a> ';
-    $version = ' 2014';
-    $forum = ' ';
-    $distroWatch = ' ';
-    $DE = 'Mate, Cinnamon';
-    $distroSshot = ' ';
-	   $similar = 'Debian with Cinnamon or Mate installed OR Point Linux  OR a "Cross between Linux Mint (Ubuntu based) and Debian';
+
+
 
     $EXP = &$lmdeExp;
 
@@ -56,5 +48,5 @@ DES;
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
     ?>
-    
+
     <?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -1,26 +1,14 @@
 <?php
         $title = 'Distribution Section - Arch Linux';
 
-        $name = 'Arch Linux ';
-        $family = 'Arch';
         $icon = '<img src="../../graphics/icons/arch.png" width="90" height="84"  alt="Arch Linux Icon"/>';
-        $homepage = '<span class="Info"><a href="http://www.archlinux.org/" target="_blank">http://www.archlinux.org/</a></span> ';
-        $download = '<a href="http://www.archlinux.org/download/" target="_blank">http://www.archlinux.org/download/</a> ';
-        $version = ' ';
         $forum = '<a href="http://bbs.archlinux.org/" target="_blank">http://bbs.archlinux.org/</a> ';
-        $distroWatch = 'http://distrowatch.com/arch ';
-        $DE = ' Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce';
-        $distroSshot = ' ';
-        $target  = 'Moderate to Advanced Users';
-        $type = 'Rolling Release';
-        $software = 'Bleeding Edge';
-		     $YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm">Arch Review Playlist</a>    ';
-		       $TweakPL = '<a href=" https://www.youtube.com/playlist?list=PL67B5FFD9848E5DD6  ">Midfingr\'s Arch install Playlist </a>   ';
 
+		     $YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm">Arch Review Playlist</a>    ';
+		     $TweakPL = '<a href=" https://www.youtube.com/playlist?list=PL67B5FFD9848E5DD6  ">Midfingr\'s Arch install Playlist </a>   ';
 
         $recommend = 'Yes';
         $newbRecommend = 'Basically "No", just because I wouldn\'t recommend an Arch based Distro to any new user';
-
 
         $mm 			= ' ';
         $kaddy 			= ' ';

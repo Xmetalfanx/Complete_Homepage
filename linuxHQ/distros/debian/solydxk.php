@@ -2,17 +2,8 @@
 
 		$title = 'Distribution Section -  SolydXK';
 
-		$name = 'SolydXK (X = Xfce, K = KDE)';
-		$family = 'Debian';
 		$icon = '<img src="../../graphics/icons/solydxk.png" width="90" height="94"  alt="SolydXK Icon"/> ';
-		$homepage = '   <a href="http://solydxk.com/" target="_blank">http://solydxk.com/</a> ';
-		$download = '	<a href="http://downloads.solydxk.com/" target="_blank">http://downloads.solydxk.com/</a> ';
-		$version = 'July 2014 ';
-		$forum = ' ';
-		$distroWatch = '<a href="http://distrowatch.com/solydxk" target="_blank">http://distrowatch.com/solydxk</a> ';
-		$DE = 'KDE, XFCE ';
-		$distroSshot = ' ';
-
+		
 		$recommend = 'yes ';
 		$newbRecommend = 'yes ';
 

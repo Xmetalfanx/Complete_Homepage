@@ -1,13 +1,7 @@
  <?php
-	$name = 'PCLinuxOS';
-  $family = 'Mandriva';
+
   $icon = '<img src="../../graphics/icons/pclinuxos.png" width="90" height="81"  alt="PCLinuxOS Icon"/>';
-  $homepage = '<a href="http://www.pclinuxos.com/" target="_blank">http://www.pclinuxos.com/</a> ' ;
-	$download = ' <a href="http://pclinuxos.com/?page_id=10" target="_blank">http://pclinuxos.com/?page_id=10</a> ' ;
-	$version = ' ' ;
-	$forum = '<a href="http://www.pclinuxos.com/forum">http://www.pclinuxos.com/forum</a> ' ;
-	$distroWatch = '<a href="http://distrowatch.com/PCLinuxOS" target="_blank">http://distrowatch.com/PCLinuxOS</a> ';
-	$DE = ' ';
+
 	$distroSshot = &$pclosKDE1;
 
 

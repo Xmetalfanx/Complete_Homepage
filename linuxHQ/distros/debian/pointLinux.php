@@ -2,18 +2,9 @@
 
 			$title = 'Distribution Section -  Point Linux'
 
-			$name = 'Point Linux'
-			$family = 'Debian'
 			$icon = '<img src="../../graphics/icons/point.png" width="90" height="78"  alt="Point Linux Icon"/>'
-			$homepage = ' <a href="http://pointlinux.org/" target="_blank">http://pointlinux.org/</a> '
-			$download = '	<a href="http://pointlinux.org/download.html" target="_blank">http://pointlinux.org/download.html</a> '
-			$version = 'May 2014 '
-			$forum = '<a href="http://forums.pointlinux.org/" target="_blank">http://forums.pointlinux.org/</a> '
-			$distroWatch = '<a href="http://distrowatch.com/point" target="_blank">http://distrowatch.com/point</a> '
-			$DE = 'Mate  '
-			$distroSshot = '<a href="http://pointlinux.org/screenshots.html" target="_blank">http://pointlinux.org/screenshots.html</a> '
-			$similar = 'Debian with Mate installed ';
 
+			$distroSshot = '<a href="http://pointlinux.org/screenshots.html" target="_blank">http://pointlinux.org/screenshots.html</a> '
 
 			$recommend = ' '
 			$newbRecommend = ' '

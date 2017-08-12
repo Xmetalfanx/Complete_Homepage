@@ -6,12 +6,9 @@ include $_SERVER['DOCUMENT_ROOT'].('/linuxHQ/modules/sshots.php');
         $name = 'Manjaro';
         $family = 'Arch';
         $icon = '<img src="../../graphics/icons/manjaro.png" width="90" height="85" alt="Manjaro Icon" />';
-        $homepage = '<a href="https://manjaro.github.io">https://manjaro.github.io</a> ';
         $download = '<a href="http://manjaro.org/get-manjaro/">http://manjaro.org/get-manjaro/</a> ';
-        $version = '15';
-        $forum = '<a href="http://forum.manjaro.org/">http://forum.manjaro.org/</a> ';
         $distroWatch = '<a href="http://distrowatch.com/manjaro">http://distrowatch.com/manjaro</a> ';
-        $DE = ' ';
+
         $distroSshot = '<a href="/linuxHQ/screenshots/archbased/manjaro-090p1-kde.jpg">
       								<img src="/linuxHQ/screenshots/archbased/manjaro-090p1-kde_small.jpg" alt="Manjaro KDE screenshot" />	</a>'  . '<a href="/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg"><img src="/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg" alt=" Manjaro XFCE  " /> </a>';
 		    $similar = '(with the same DE..) Antergos';

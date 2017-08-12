@@ -1,6 +1,6 @@
 <?php
-        $name = 'Rosa (Fresh)';
-  		   $family = 'Mandrake';
+
+
   		   $icon = '<img src="../../graphics/icons/rosa.png" width="90" height="91"  alt="ROSA Icon"/>';
   		  $homepage = '<a href="http://www.rosalab.com/" target="_blank">http://www.rosalab.com/</a> ' ;
         $download = '<a href="http://wiki.rosalab.ru/en/index.php/ROSA_Release" target="_blank">;

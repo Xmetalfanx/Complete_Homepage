@@ -1,20 +1,7 @@
 <?php
-	$name = 'Kubuntu';
-  $family = 'Ubuntu';
+
   $icon = '<img src="/linuxHQ/graphics/icons/kubuntu.png" width="90" height="91"  alt="Ubuntu Icon"/>';
-  $homepage = '<a href="http://www.kubuntu.org/"> Kubuntu Homepage</a> ' ;
-	$download = '<a href="http://www.ubuntu.com/desktop/get-ubuntu/download">Kubuntu Downloads</a> ';
-	$version = '14.04 LTS, 16.04 LTS';
-	$forum = '<a href="http://ubuntuforums.org/">http://ubuntuforums.org/</a> ' ;
-	$distroWatch = '<a href="http://distrowatch.com/table.php?distribution=kubuntu">Kubuntu</a>';
-	$DE = 'KDE';
-	$distroSshot = '';
-	$similar = ' Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)';
 
-
-       $description = <<<DES
-
-DES;
 
   $EXP = &$ubuntuExp;
 

@@ -1,15 +1,12 @@
 <?php
-		$name = 'Fedora';
-	  $family = 'Red Hat';
+
 	  $icon = '<img src="../../graphics/icons/fedora.png" width="90" height="90"  alt="Fedora Icon"/>';
-	  $homepage = '<a href="http://fedoraproject.org/" target="_blank">http://fedoraproject.org/</a> ' ;
+
 		$download = '  <a href="http://fedoraproject.org/get-fedora.html" target="_blank">http://fedoraproject.org/get-fedora.html</a><br>
 	                  <a href="http://torrent.fedoraproject.org/" target="_blank">http://torrent.fedoraproject.org/</a><br>
 	                  <a href="http://mirrors.fedoraproject.org/publiclist" target="_blank">http://mirrors.fedoraproject.org/publiclist</a> ' ;
-		$version = ' 21 ' ;
-		$forum = '<a href="http://forums.fedoraforum.org/">Fedora\'s Forum</a> ';
-		$distroWatch = '<a href="http://distrowatch.com/fedora" target="_blank">http://distrowatch.com/fedora</a> ' ;
-		$DE = 'Gnome(Shell), XFCE, Mate, Cinnamon ';
+
+		
 		$distroSshot = '<a href="/linuxHQ/screenshots/DE/fedoraGnome1.jpg">
 										<img src="/linuxHQ/screenshots/DE/fedoraGnome1.jpg" alt="Fedora Gnome Screenshot"/>	</a>' . '<a href=" https://spins.fedoraproject.org/cinnamon/ " target="_blank">
 																			<img src="/linuxHQ/screenshots/rpm/fedoraCinn1.jpg" alt="Fedora Cinnamon Screenshot"/>	</a>';

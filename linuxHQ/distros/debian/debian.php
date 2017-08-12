@@ -2,16 +2,12 @@
 
 	$title = 'Distribution Section -  Debian';
 
-	$name = 'Debian ';
-	$family = 'Debian ';
 	$icon = '<img src="../../graphics/icons/debian.png" width="93" height="114"  alt="Debian Icon"/> ';
-	$homepage = ' <a href="http://www.debian.org/" target="_blank">http://www.debian.org/</a>';
+
 	$download = '<a href="http://www.debian.org/distrib/ftplist" target="_blank">http://www.debian.org/distrib/ftplist</a> <br />
       <a href="http://www.debian.org/CD/" target="_blank">Debian on CD</a> ';
-	$version = ' 7.5 &quot;Wheezy&quot; ';
-	$forum = ' <a href="http://forums.debian.net/" target="_blank">http://forums.debian.net/</a>';
-	$distroWatch = '<a href="http://distrowatch.com/debian" target="_blank">http://distrowatch.com/debian</a> ';
-	$DE = 'Various  ';
+
+
 	$distroSshot = '<a href="/linuxHQ/screenshots/debian/debian.jpg">
 							<img src="/linuxHQ/screenshots/debian/debian-small.jpg" /></a>';
 

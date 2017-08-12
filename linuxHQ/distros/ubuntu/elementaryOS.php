@@ -1,19 +1,9 @@
 <?php
-	$name = 'Elementary OS';
-  $family = 'Ubuntu';
+
   $icon = '<img src="../../graphics/icons/elementary.png" width="90" height="83"  alt="ElementaryOS Icon"/>';
-  $homepage = '<a href="http://elementaryos.org/">http://elementaryos.org/</a> ' ;
-	$download = '<a href="http://sourceforge.net/projects/elementaryos/files/"> http://sourceforge.net/projects/elementaryos/files/</a> ' ;
-	$version = 'Luna (based on Ubuntu 12.04)' ;
-	$forum = '<a href="https://elementaryforums.com/index.php"> https://elementaryforums.com/index.php </a>' ;
-	$distroWatch = '<a href="http://distrowatch.com/elementary" target="_blank">ElementaryOS on DIstrowatch</a>' ;
-	$DE = ' Pantheon';
+
 	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/elementary.jpg">
 								<img src="/linuxHQ/screenshots/ubuntubased/elementary.png" alt= "ElementaryOS Screenshot"/>	</a>';
-
-  $target = 'Any User/ New User';
-   $type = '';
-   $software = 'Based on Ubuntu\'s LTS Release Cycle';
 
 		$recommend = 'Yes ';
 	 $recComments = ' ' ;

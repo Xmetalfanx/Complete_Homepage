@@ -1,14 +1,9 @@
 <?php
-	$name 			= 'OpenSuse';
-  $family 		= 'Independant';
   $icon 			= '<img src="../../graphics/icons/suse.png" width="90" height="54"  alt="OpenSuse Icon"/>';
-  $homepage 	= ' <a href="http://www.opensuse.org/" target="_blank">http://www.opensuse.org/</a>' ;
+
 	$download 	= '<a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a><br>
       <a href="http://mirrors.opensuse.org/list/all.html" target="_blank">http://mirrors.opensuse.org/list/all.html</a> ' ;
-	$version 		= 'Leap 42.2, Tumbleweed (Rolling) ' ;
-	$forum 			= '<a href="http://forums.opensuse.org/" target="_blank">http://forums.opensuse.org/</a> ' ;
-	$distroWatch = '<a href="http://distrowatch.com/suse" target="_blank">http://distrowatch.com/suse</a> ' ;
-	$DE 				= 'Gonme, KDE, XFCE';
+	
 	$distroSshot = '<a href="/linuxHQ/screenshots/rpm/suseKDE1.jpg">
 							<img src="/linuxHQ/screenshots/rpm/suseKDE1-small.jpg" alt="OpenSuse KDE" /> </a> ' . '<a href="/linuxHQ/screenshots/DE/suseGnome1.jpg">
 														<img src="/linuxHQ/screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome Screenshot"/>

@@ -1,25 +1,13 @@
 <?php
 
-	$title = 'Distribution Section -  Matthew Moore\'s Manjaro';
+		$title = 'Distribution Section -  Matthew Moore\'s Manjaro';
 
-        $name = 'Manjaro by Matthew Moore';
-        $family = 'Arch / Manjaro';
-        $icon = '<img src="../../graphics/icons/manjaro.png" width="90" height="85"  alt="Manjaro by MM Icon"/>';
-        $homepage = '<a href="https://sourceforge.net/projects/manjarobymm/">https://sourceforge.net/projects/manjarobymm/</a> ';
-        $download = '<a href="https://sourceforge.net/projects/manjarobymm/files/manjarobymm/">https://sourceforge.net/projects/manjarobymm/files/manjarobymm/</a> ';
-        $version = '0.8.11 ';
-        $forum = ' <a href="http://www.cupoflinux.com/SBB/index.php/board,29.0.html">http://www.cupoflinux.com/SBB/index.php/board,29.0.html</a>';
-        $distroWatch = 'N/A';
-        $DE = 'XFCE ';
-        $distroSshot = ' ';
-        $target = 'All Users';
-    	$type = '';
-    	$software = 'Slightly behind bleeding edge (same as stock Manjaro';
+    $icon = '<img src="../../graphics/icons/manjaro.png" width="90" height="85"  alt="Manjaro by MM Icon"/>';
+
 		$YTPlaylist = '<a href="https://www.youtube.com/playlist?list=PLrh2y86lvcJcy08E10KjszvKf-gSmLcag">Manjaro Review Playlist</a>  ';
 
-
-        $recommend = ' ';
-        $newbRecommend = ' ';
+    $recommend = ' ';
+    $newbRecommend = ' ';
 
   $EXP = &$manjaroExp;
 	$experience = <<<EXP

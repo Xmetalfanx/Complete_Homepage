@@ -1,14 +1,7 @@
  <?php
-	$name = 'Deepin';
-  $family = 'Ubuntu';
   $icon = ' <img src="../../graphics/icons/deepin.png" width="90" height="94"  alt="Deepin Linux Icon"/> ';
-  $homepage = '<a href="http://linuxdeepin.com/" target="_blank">http://linuxdeepin.com/</a> ' ;
-	$download = '<a href="http://www.linuxdeepin.com/download" target="_blank">http://www.linuxdeepin.com/download</a> ' ;
-	$version = '2014 ' ;
-	$forum = ' <a href="http://www.linuxdeepin.com/forum/8" target="_blank">http://www.linuxdeepin.com/forum/8</a> ' ;
-	$distroWatch = ' <a href="http://distrowatch.com/deepin" target="_blank">http://distrowatch.com/deepin</a> ' ;
-	$DE = 'Deepin Desktop Environment (DDE) ';
-	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/deepin.jpg">
+
+  $distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/deepin.jpg">
 									<img src="/linuxHQ/screenshots/ubuntubased/deepin-small.jpg" /></a>';
 
   $EXP = &$deepinExp;
