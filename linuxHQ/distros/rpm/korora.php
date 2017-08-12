@@ -1,6 +1,8 @@
 <?php
 
-	$icon = '<img src="../../graphics/icons/korora.png" width="90" height="90"  alt="Korora Icon"/>';
+$localName = 'korora';
+
+
 
  $description = <<<DES
      Korora is an easy to use Linux distribution based on Fedora that has RPM Fusion repositories (a well known source
@@ -11,39 +13,12 @@
 DES;
 
 
-	$recommend = 'Yes ';
-	$newbRecommend = ' ' ;
-
   // Multi-lines
-  $myComments = 'Korora is a Fedora respin that contains many of the common &quot;tweaks&quot;/Additions that are done to fully customize
-								Fedora... all &quot;out of the box&quot; and done for the user ';
-
-
-  $EXP = &$kororaExp;
-  $experience = ' ' ;
-  $recComments = ' ' ;
-  $newbRecComments = ' '   ;
-
-	$mm 						= ' ';
-	$kaddy 					= ' ';
-	$dasGregor 			= ' ';
-	$RLZ						= ' ' ;		// Run Level Zero
-	$JLT 	 					= ' '; 				// Jeff Linux Turner
-	$IG		 					= ' '; 				// InfinitelyGalactic
-	$tos 						= ' ';
-	$spatry 				= ' ';
-	$quidsup 				= ' ';
-	$OhHeyItsLou 		= ' ';
-	$midFingr 			= ' ';
-	$UrAvgLinuxUser = ' ';
-
+  $myComments = 'Korora is a Fedora respin that contains many of the common &quot;tweaks&quot;/Additions that are done to fully customize Fedora... all &quot;out of the box&quot; and done for the user ';
 
   $title = 'Distribution Section - Korora';
 
-
 	$sitePath = "/home/xmetalx1/public_html";
-
-
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>

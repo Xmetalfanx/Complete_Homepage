@@ -1,10 +1,8 @@
 <?php
 
+  $title = 'Distribution Section - Peppermint';
 
-  $title = 'Distribution Section - Xubuntu';
-
-  $localName = 'xubuntu';
-
+  $localName = 'peppermint';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

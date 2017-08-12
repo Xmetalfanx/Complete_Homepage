@@ -1000,14 +1000,14 @@ kbd {
     overflow: auto;
     font-family: Arial, Helvetica, san-serif; }
 
-#YTReviewer {
-  padding: 0 0 10px 10px; }
-
 #TIC .TICHomepage, #TIC .TICUsage {
   border: 1px solid black; }
   #TIC .TICHomepage img, #TIC .TICUsage img {
     height: 65%;
     width: 65%; }
+
+.icons {
+  margin-right: 10px; }
 
 .name {
   font-size: 28px;
@@ -1023,6 +1023,14 @@ kbd {
   box-shadow: 1px 1px 10px black;
   margin-right: 10px;
   margin-bottom: 10px; }
+
+#screenshots {
+  border: 1px #000000 dotted;
+  padding: 10px; }
+  #screenshots img[src=''] {
+    display: none; }
+  #screenshots a[href=''] {
+    display: none; }
 
 .linuxContainer {
   border: 1px solid black;
@@ -1044,5 +1052,8 @@ kbd {
   #distrowatch a:link {
     color: red;
     background-color: transparent; }
+
+#usb li {
+  padding-left: 15px; }
 
 /*# sourceMappingURL=styling.css.map */

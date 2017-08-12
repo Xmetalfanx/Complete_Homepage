@@ -1,10 +1,8 @@
 <?php
   require('connect.php');
 
-  $localName='mint';
-
   // Creates Query
-  $query = "SELECT * FROM linuxtest WHERE distroName = '$localName' ";
+  $query = "SELECT * FROM commonData";
 
   // Get Results
   $result = mysqli_query($conn, $query) or ('Error querying database');
@@ -23,34 +21,40 @@
   </head>
   <body>
     <div class="container">
-      <p>
-        The result that should be displayed is <strong> <?php echo $localName; ?> </strong> related.
-      </p>
 
-        <?php
-            foreach($result as $row)
-            {
-              foreach($row as $field)
-              {
-              }
-            }
-        ?>
-
-
-      <hr />
-      <p>Could this be the fix below</p>
-
-      <div class="well">
         <?php
             foreach($result as $field)
             {
+              echo "<div class=\"well\">";
+
+                echo "<img src=\"" . ($field['iconURL']) . " \" alt=\"" . ($field['distroTitle']) . " Icon\" /> <br />"   ;
+
                 echo "<strong>Distro Name: </strong> ";
-                echo ($row['distroTitle'] . " <br /> ");
-                echo "<em>Homepage:</em> <a href=\" " . ($row['homepage'] . "\" target=\"_blank\" >" . ($row['distroTitle']) . " Homepage </a> <br />" );
+                echo ($field['distroTitle'] . " <br /> ");
+
+                echo "<em>Homepage:</em> <a href=\" " . ($field['homepage']) . "\" target=\"_blank\" >" . ($field['distroTitle']) . " Homepage </a> <br />";
+
+                echo "<em> Download: </em> <a href=\"" . ($field['download']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . " Downloads </a><br />";
+
+                echo "<em> Forums </em> <a href=\"" . ($field['forum']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . "'s Forums </a> <br />";
+
+                echo "Version: " . ($field['version'])  . "<br />";
+
+                echo "<em>Distrowatch: <a href=\"" . ($field['distrowatch']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . " on Distrowatch </a><br />";
+
+                echo "Desktops: " . ($field['desktops']) . "<br />";
+
+                echo "Distros that are similar: " . ($field['similar']) . "<br />";
+
+                echo "<br /> Target Users: " . ($field['target']) . "<br />";
+
+                echo "Software Type: " . ($field['software']) . "<br />";
+                
+                echo "</div>";
 
             }
         ?>
-      </div>
+
 
   </div>
 

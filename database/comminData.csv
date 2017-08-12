@@ -1,0 +1,44 @@
+distroName,distroTitle,iconURL,homepage,family,Download,forum,version,similar,desktop,distrowatch,type,software,target
+antergos,Antergos,,,arch,http://www.antergos.com/try-it/,http://forum.antergos.com/,17.5 ..though Rolling ISOs,,,http://distrowatch.com/antergos,Rolling Distro,Bleeding Edge,Any user
+arch,Arch,,http://www.archlinux.org,arch,http://www.archlinux.org/download/,http://bbs.archlinux.org/,Rolling Distro,Arch with Openbox,"Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",http://distrowatch.com/arch ,Rolling Distro,Bleeding Edge,Moderate to Advanced Users
+archbang,Archbang,,http://bbs.archbang.org,arch,http://sourceforge.net/projects/archbang/files/,http://bbs.archbang.org/,,,Openbox,http://distrowatch.com/archbang,,Bleeding Edge,Moderate to Advanced Users
+bunsenlabs,Bunsenlabs,,https://www.bunsenlabs.org,debian,https://forums.bunsenlabs.org,https://forums.bunsenlabs.org,,The Debian family\'s version of Archbang OR Debian with Openbox installed,Openbox,,,,
+calculate,Calculate,,http://www.calculate-linux.org/,gentoo,http://www.calculate-linux.org/main/en/download,http://www.calculate-linux.org/projects/en/boards,,"Gentoo, Sabayon",Various,http://distrowatch.com/table.php?distribution=calculate,,,
+cbangplusplus,Crunchbang++ ,,https://www.crunchbangplusplus.org,debian,https://crunchbangplusplus.org/download/,https://www.reddit.com/r/crunchbangplusplus/,,BunsenLabs and Crunchbang;<br /> The Debian family\'s version of Archbang OR Debian with Openbox installed,Openbox,,,Follows Debian,
+centOS,Cent OS,,http://www.centos.org/,rpm,,,,,,,,,
+debian,Debian,,http://www.debian.org/,debian,,http://forums.debian.net/,9.x,,Various,http://distrowatch.com/debian,,,
+deepin,Deepin,,http://linuxdeepin.com/,Ubuntu,http://www.linuxdeepin.com/download,http://www.linuxdeepin.com/forum/8,,Deepin Desktop Environment (DDE),,http://distrowatch.com/deepin,,Based on Ubuntu\'s Release Cycle,
+elementaryOS,ElementaryOS,,http://elementary.io,Ubuntu,http://sourceforge.net/projects/elementaryos/files/,https://elementaryforums.com/index.php,,,Patheon,http://distrowatch.com/elementary,,Based on Ubuntu\'s LTS Release Cycle,Any User/ New Use
+fedora,Fedora,,http://www.fedora.com,rpm,,http://forums.fedoraforum.org/,26,,Various,http://distrowatch.com/fedora,,,
+gentoo,Gentoo,,http://www.gentoo.org/,gentoo,,,,,Various,,,,
+kaos,KaOS,,https://kaosx.us,independent,https://kaosx.us/pages/download/,http://forum.kaosx.us/,,,Plasma 5,http://distrowatch.com/table.php?distribution=kaos,,,
+kdeneon,kdeneon,,https://neon.kde.org,Ubuntu,https://neon.kde.org/download,https://forum.kde.org,"User Edition (more bleeding edge), User LTS (Long Term Support ) Edition",Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release),Plasma 5,http://distrowatch.com/table.php?distribution=kdeneon,,,
+korora,Korora ,,https://kororaproject.org/,rpm,https://kororaproject.org/download,https://kororaproject.org/support/engage,25,,"Cinnamon, Xfce, Mate, ..etc ",http://distrowatch.com/korora,,,
+kubuntu,kubuntu,,http://www.kubuntu.org/,Ubuntu,http://www.ubuntu.com/desktop/get-ubuntu/download,http://ubuntuforums.org/,"14.04 LTS, 16.04 LTS",Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release),Plasma 5,http://distrowatch.com/table.php?distribution=kubuntu,,,
+linuxlite,Linux Lite,,http://www.linuxliteos.com,Ubuntu,http://sourceforge.net/projects/linuxlite/files,https://www.linuxliteos.com/forums/,,"Linux Mint + XFCE, Xubuntu",XFCE,,,,
+lmdb,Linux Mint Debian Edition,,http://www.linuxmint.com/download_lmde.php,debian,http://www.linuxmint.com/download_lmde.php,,2,"Debian with Cinnamon or Mate installed OR Point Linux  OR a ""Cross between Linux Mint (Ubuntu based) and Debian","Mate, Cinnamon",,,,
+lubuntu ,lubuntu ,,http://lubuntu.net,Ubuntu,http://ubuntuforums.org/tags.php?tag=lubuntu,http://ubuntuforums.org/,"14.04 LTS, 16.04 LTS",,"LXDE, LXQT",,,,
+lxle,LXLE,,http://www.lxle.net,Ubuntu,http://www.lxle.net/download,http://lxle.net/forum/,,Lubuntu or any other Ubuntu based distro with LXDE installed,LXDE,,,Based on Ubuntu\'s Release Cycle,Any Use
+mageia,Mageia,,http://mageia.org,mandriva,http://mageia.org/en/downloads/,https://forums.mageia.org/,,,"Cinnamon, GNOME, IceWM, KDE, MATE, LXDE, Openbox, Razor-qt, WMaker, Xfce","http://distrowatch.com/magiea""",,,
+makulu,Makulu,,http://www.makululinux.com/,debian,http://www.makululinux.com/download.htm,http://www.makululinux.com/apps/forums/,,,Various (some highly customized),http://distrowatch.com/makulu,,,
+manjaro,Manjaro,,https://manjaro.github.io,arch,http://manjaro.org/get-manjaro/,http://forum.manjaro.org/,15,(with the same DE..) Antergos or Arch,"Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",,,Slightly behind bleeding edge,Any User
+mint,Linux Mint,,http://www.linuxmint.com,Ubuntu,http://www.linuxmint.com/download.php,http://linuxmint.com/forum/,18.2 (based on Ubuntu 16.04),"Cinnamon, Mate, Plasma 5, XFCE","Mate, XFCE, Cinnamon, Plasma 5",http://distrowatch.com/min,,,
+mmManjaro,Manjaro by Matthew Moore,,https://sourceforge.net/projects/manjarobymm/,arch,https://sourceforge.net/projects/manjarobymm/,"http://www.cupoflinux.com/SBB/index.php/board,29.0.html",,,XFCE,N/A,,Slightly behind bleeding edge (same as stock Manjaro),All Users (though maybe not super newbies)
+openmandriva,Open Mandriva,,http://openmandriva.org,mandriva,http://openmandriva.org/en/download_lx,http://forums.openmandriva.org/,,,KDE,http://distrowatch.com/OpenMandriva,,,
+opensuse,Open Suse,,http://www.opensuse.org,rpm,,http://forums.opensuse.org/,"Leap 42.3, Tumbleweed (Rolling)",,Various,http://distrowatch.com/suse,,,
+pclinuxos,PCLinuxOS,,http://www.pclinuxos.com/,mandriva,http://pclinuxos.com/?page_id=10,http://www.pclinuxos.com/forum,,,,http://distrowatch.com/PCLinuxOS,,,
+peppermint,Peppermint,,http://peppermintos.com/,Ubuntu,,,,,,,,,
+pointlinux,Point Linux,,http://pointlinux.org/,debian,http://pointlinux.org/download.htm,http://forums.pointlinux.org/,,Debian with Mate installed ,Mate,http://distrowatch.com/point,,,
+puppy,Puppy Linux,,http://www.puppylinux.com/,independent,http://www.puppylinux.com/download,http://www.murga-linux.com/puppy,,,"JWM, Openbox, LXDE, XFCE",http://distrowatch.com/puppy,,,
+rosa,ROSA,,http://www.rosalab.com/,mandriva,,,,,"Gnome-shell, KDE ",http://distrowatch.com/ROSA,,,
+sabayon,Sabayon,,http://www.sabayon.org/,gentoo,http://www.sabayon.org/download,http://forum.sabayon.org/,,"Gentoo, Calculate Linux",Various,http://distrowatch.com/table.php?distribution=sabayon,,,
+salix,,,,slackware,,,,,,,,,
+slackware,,,,slackware,,,,,,,,,
+solus,Solus,,https://solus-project.com/,independent,https://solus-project.com/download/,https://solus-project.com/forums/,1.1,,"Budgie, Mate, and Gnomeshell",http://distrowatch.com/table.php?distribution=solus,,,
+solyd,SoyldXK,,http://solydxk.com/,debian,http://downloads.solydxk.com/,,,Debian with XFCE or KDE/Plasma 5 installed I suppose,KDE aka Plama 5 / XFCE ,http://distrowatch.com/solydxk,,,
+sparky,Sparky Linux,,,debian,,,,Various,,,,,
+ubuntu,ubuntu,,http://www.ubuntu.com,Ubuntu,http://www.ubuntu.com/desktop/get-ubuntu/download,http://ubuntuforums.org/,"16.04 LTS, 17.04",,"Gnome2, Unity, Gnomeshell",,,,any users / new users
+ubuntubudgie,ubuntubudgie,,https://ubuntubudgie.org,Ubuntu,https://ubuntubudgie.org/downloads,,16.04.2 LTS and 17.04,Budgie,Budgie,http://distrowatch.com/table.php?distribution=ubuntubudgie,,,
+umate,Ubuntu Mate,,http://ubuntu-mate.org,Ubuntu,,,"16.04.x LTS, 17.04 ",Linux Mint Mate ,Mate,,,,
+xubuntu,xubuntu,,http://www.xubuntu.com,Ubuntu,http://xubuntu.org/getxubuntu/,,,"SolydX, Linux Mint XFCE, Linux Lite",XFCE,,,,
+zorin,Zorin,,http://www.zorin-os.com/,ubuntu,"http://zorin-os.com/free.html""",http://www.zoringroup.com/forum/viewforum.php?f=3,12,,,,,Based on Ubuntu\'s Release Cycle,new users

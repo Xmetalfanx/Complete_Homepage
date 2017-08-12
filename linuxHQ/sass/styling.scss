@@ -66,11 +66,6 @@ kbd
 }
 
 
-#YTReviewer {
-  @include padding(0 0 10px 10px);
-}
-
-
 #TIC
 {
    .TICHomepage, .TICUsage
@@ -84,6 +79,11 @@ kbd
    }
 }
 // #####################################################################
+
+.icons
+{
+    @include margin(null 10px null null);
+}
 
 .name
 {
@@ -115,7 +115,30 @@ kbd
     @include margin(null 10px 10px null);
     }
 
+
 }
+
+#screenshots
+{
+
+  border: 1px #000000 dotted;
+  padding: 10px;
+
+
+  img[src='']
+      {
+        display: none;
+      }
+
+  a[href='']
+      {
+        display: none;
+      }
+
+}
+
+
+
 
  /// This appears to be the box around item in different sections on the main subpages
 .linuxContainer
@@ -145,4 +168,21 @@ kbd
     color            : rgb(255, 0, 0);
     background-color : transparent;
   }
+}
+
+
+#usb
+{
+
+
+  li
+  {
+
+padding-left: 15px;
+
+  }
+
+
+
+
 }

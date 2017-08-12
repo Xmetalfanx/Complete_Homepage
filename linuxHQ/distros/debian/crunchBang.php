@@ -11,13 +11,10 @@
 		$forum = '<a href="http://crunchbanglinux.org/forums/" target="_blank">http://crunchbanglinux.org/forums/</a>';
 		$distroWatch = '<a href="http://distrowatch.com/crunchbang" target="_blank">http://distrowatch.com/crunchbang</a> ';
 		$DE = 'Openbox';
-		$distroSshot = ' ';
 		$similar = 'The Debian family\'s version of Archbang OR Debian with Openbox installed';
 
 	  $recommend = ' Yes';
 	  $newbRecommend = ' ';
-
-    $EXP = &$cruchbangExp;
 
       $description = <<<DES
         Crunchbang is a Debian Based distro that works great on older (any hardware for that matter) Hardware and
@@ -25,18 +22,6 @@
         Openbox is the window manager used in Crunchbang by default.
 DES;
 
-	  $mm = ' ';
-	  $kaddy = ' ';
-	  $dasGregor = ' ';
-	  $RLZ			 = ' ';		// Run Level Zero
-	  $JLT 	 = ' ';				// Jeff Linux Turner
-	  $IG		 = ' ';				// InfinitelyGalactic
-	  $tos = ' ';
-	  $spatry = ' ';
-	  $quidsup = ' ';
-	  $OhHeyItsLou = ' ';
-	  $midFingr = ' ';
-	  $UrAvgLinuxUser = ' ';
 
 	$otherComments = '<p>Crunchbang is basically Debian with Openbox as the default Window Manager. Crunchbang DOES have its own software
 						repositiories, though I am saying &quot;basically&quot; what it is	</p>'
