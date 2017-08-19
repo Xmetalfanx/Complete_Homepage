@@ -3,6 +3,8 @@
 
     // Creates Query
 
+    // localName is located in each individual distro page and it is the name
+
     $commonData = "SELECT * FROM commonData WHERE distroName = '$localName' ";
     $usb = "SELECT * FROM usb WHERE distroName = '$localName' ";
     $sshot = "SELECT * FROM sshots WHERE distroName = '$localName' ";
@@ -13,6 +15,9 @@
     $conmondataResults = mysqli_query($conn, $commonData) or ('Error querying database');
 
     $usbResults = mysqli_query($conn, $usb) or ('Error querying database');
+
+    $sshotResults = mysqli_query($conn, $sshot) or ('Error querying database');
+
 
     mysqli_close($conn);
 

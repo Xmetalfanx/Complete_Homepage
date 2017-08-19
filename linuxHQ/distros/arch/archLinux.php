@@ -6,7 +6,7 @@
 
   $description = <<<DES
 
-   Arch Linux is a very custmizable distro that a user can build from the ground up and install any Desktop Environment they choose and have tons of control over their system
+
 
 DES;
 

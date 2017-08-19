@@ -10,7 +10,7 @@ $localName = 'opensuse';
 	$distroSshot = '<a href="/linuxHQ/screenshots/rpm/suseKDE1.jpg">
 			<img src="/linuxHQ/screenshots/rpm/suseKDE1-small.jpg" alt="OpenSuse KDE" /> </a> ' . '<a href="/linuxHQ/screenshots/DE/suseGnome1.jpg">
 				<img src="/linuxHQ/screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome Screenshot"/>
-														</a> ';
+				</a> ';
 
 
   $title = 'Distribution Section - OpenSUSE ';

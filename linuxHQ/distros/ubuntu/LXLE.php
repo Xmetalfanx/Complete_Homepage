@@ -1,9 +1,6 @@
 <?php
 
-$localName = 'lxle';
-
-
-    $icon = '<img src="/linuxHQ/graphics/icons/lxle.png" width="90" height="94"  alt="LXLE Icon"/>';
+  $localName = 'lxle';
 
     $distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/lxle.jpg">
     						 <img src="/linuxHQ/screenshots/ubuntubased/lxle-small.jpg" alt="LXLE 14.04" /></a> ';

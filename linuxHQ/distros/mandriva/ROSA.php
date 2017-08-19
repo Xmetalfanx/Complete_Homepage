@@ -1,13 +1,9 @@
 <?php
 
-$localName = 'rosa';
+  $localName = 'rosa';
 
 
-
-  $distroWatch = '<a href="http://distrowatch.com/ROSA" target="_blank">http://distrowatch.com/ROSA</a> ';
-
-
-  $DE = 'KDE ';
+    $DE = 'KDE ';
 
    $title = 'Distribution Section - Rosa ';
 
