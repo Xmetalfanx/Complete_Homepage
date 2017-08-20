@@ -1,8 +1,8 @@
 <?php
 
-			$title = 'Distribution Section -  Point Linux'
+	$title = 'Distribution Section -  Point Linux';
 
-			$localName = 'pointlinux';
+	$localName = 'pointlinux';
 
 
 $sitePath = "/home/xmetalx1/public_html";

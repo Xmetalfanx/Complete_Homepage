@@ -1,5 +1,5 @@
-
 <?php
+
     foreach($conmondataResults as $field)
     {
       echo "<div class=\"well\">";
@@ -8,39 +8,44 @@
 
         echo "<div  class=\"card-text\">";
 
-          echo "<div class=\"row\"> <div class=\"icons\"> <img src=\"" . ($field['iconURL']) . " \" alt=\"" . ($field['distroTitle']) . " Icon\" /> </div><br /> "   ;
+          echo "<div class=\"row\"> ";
+            echo "<div class=\"icons\"> ";
+              echo "<img src=\" " . ($field['iconURL']) . " \" alt=\"" . ($field['distroTitle']) . " Icon\" />";
+            echo "</div>"; // Ends Icon class
 
-          echo "<h2><strong> ";
-          echo ($field['distroTitle'] . "</strong></h2> <br /> </div>");
+              echo "<h2> " . ($field['distroTitle']) . "</h2>";
+            echo "</div> <br />";   // Ends Row Class
 
-          echo "<em>Homepage:</em> <a href=\" " . ($field['homepage']) . "\" target=\"_blank\" >" . ($field['distroTitle']) . " Homepage </a> <br />";
+          echo "<strong>Homepage: </strong> <a href=\" " . ($field['homepage']) . "\" target=\"_blank\" >" . ($field['distroTitle']) . " Homepage </a> <br />";
 
-          echo "<em> Download: </em> <a href=\"" . ($field['download']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . " Downloads </a><br />";
+          echo "<strong> Download: </strong> <a href=\"" . ($field['download']) . "\" target=\"_blank\" > " . ($field['distroTitle']) . " Downloads </a><br />";
 
-          echo "<em> Forums </em> <a href=\"" . ($field['forum']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . "'s Forums </a> <br />";
+          echo "<strong> Forums </strong> <a href=\"" . ($field['forum']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . "'s Forums </a> <br />";
 
-          echo "Version: " . ($field['version'])  . "<br />";
+          echo "<strong> Version: </strong>" . ($field['version'])  . "<br />";
 
-          echo "<em>Distrowatch:</em> <a href=\"" . ($field['distrowatch']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . " on Distrowatch </a><br />";
+          echo "<strong>Distrowatch:</strong> <a href=\"" . ($field['distrowatch']) . "\" target=\"_blank\"> " . ($field['distroTitle']) . " on Distrowatch </a><br />";
 
-          echo "Desktops: " . ($field['desktops']) . "<br />";
+          echo "<strong>Desktops: </strong>" . ($field['desktops']) . "<br />";
 
-          echo "Distros that are similar: " . ($field['similar']) . "<br />";
+          echo "<strong>Distros that are similar: </strong>" . ($field['similar']) . "<br /><br />";
 
-          echo "<br /> Target Users: " . ($field['target']) . "<br />";
+          echo "<strong>Target Users:</strong> " . ($field['target']) . "<br />";
 
-          echo "Software Type: " . ($field['software']) . "<br />";
+          echo "<strong>Software Type: </strong> " . ($field['software']) . "<br />";
 
-          echo "</div><br /><br />";
+          // echo "</div><br />";
+          echo "<strong>Youtube Playlists</strong>";
 
-          include $sitePath . '/linuxHQ/modules/database/ytdbtable.php'; ;
+            include $sitePath . '/linuxHQ/modules/database/ytplaylist.php';
 
           echo "<br /> <hr />";
 
-        echo "</div>";
+        echo "</div>"; // Ends Card Text
 
-      echo "</div>";
+      echo "</div>"; // Ends Card
 
+      echo "</div>"; // Ends Well Class
 
-    }
+}
 ?>

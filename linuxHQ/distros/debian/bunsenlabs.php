@@ -1,8 +1,8 @@
 <?php
 
-		$title = 'Distribution Section - Bunsenlabs';
+	$title = 'Distribution Section - Bunsenlabs';
 
-		$localName = 'bunsenlabs';
+	$localName = 'bunsenlabs';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

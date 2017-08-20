@@ -1,10 +1,10 @@
 <?php
 
-		$title = 'Distribution Section - Crunchbang++';
+$title = 'Distribution Section - Crunchbang++';
 
-		$distroSshot = '<img href="https://www.crunchbangplusplus.org/#screenshots" target="_blank"> Screenshots </a> ';
+$distroSshot = '<img href="https://www.crunchbangplusplus.org/#screenshots" target="_blank"> Screenshots </a> ';
 
-		$localName = 'cbangplusplus';
+$localName = 'cbangplusplus';
 
 
 $sitePath = "/home/xmetalx1/public_html";

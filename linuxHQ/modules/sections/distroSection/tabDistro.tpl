@@ -1,28 +1,25 @@
 
 <ul class="accordion-tabs-minimal">
 
-<li class="tab-header-and-content">
-  <a href="#screeshot" class="tab-link is-active">Description</a>
-  <div class="tab-content">
-      <div class="card hidden-md-down">
-        <div class="card-block">
-          <div class="card-text">
-            Description
+  <li class="tab-header-and-content">
+    <a href="#screeshot" class="tab-link is-active">Description</a>
+    <div class="tab-content">
+        <div class="card hidden-md-down">
+          <div class="card-block">
+            <div class="card-text">
+              NOTHING should appear here yet ...
+            </div>
           </div>
         </div>
-      </div>
-  </div>
-</li>
+    </div>
+  </li>
 
 
-  <li class="tab-header-and-content">
+  <li class="tab-header-and-content hidden-sm-down">
     <a href="#screeshot" class="tab-link">Screenshots</a>
-    <div class="tab-content">
-      <div class="screenshots hidden-md-down">
-        <!-- Grabs Screenshot info from online database table -->
-        <?php
-          include $sitePath . '/linuxHQ/modules/database/sshotsdb.php';
-        ?>
+    <div class="tab-content hidden-md-down">
+      <div id="screenshots">
+        <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb.php'; ?>
       </div>
     </div>
   </li>
@@ -32,15 +29,8 @@
       My Thoughts/Recommendations</a>
     <div class="tab-content">
 
-      <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">My Experience: </h4>
-          <div class="card-text">
+          <h4>My Experience: </h4>
             <?php include $sitePath . '/linuxHQ/modules/database/recExpDB.php'; ?>
-
-            </div>
-          </div>
-        </div>
       </div>
 
   </li>
@@ -48,9 +38,8 @@
   <li class="tab-header-and-content">
     <a href="#youtube" class="tab-link">Youtube Reviews</a>
     <div class="tab-content">
-      <!-- think removed this
-      <?php include $sitePath .  '/linuxHQ/modules/variables/linuxDistroReviewer.php' ; ?>
-    -->
+      <?php include $sitePath .  '/linuxHQ/modules/database/ytreviewer.php'; ?>
+
     </div>
   </li>
 
@@ -59,6 +48,7 @@
   <li class="tab-header-and-content">
     <a href="#usb" class="tab-link">USB Creation </a>
     <div class="tab-content">
+
       <div class="card">
         <div class="card-block">
           <h4 class="card-title">USB Drive Creation Experience</h4>

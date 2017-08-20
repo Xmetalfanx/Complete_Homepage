@@ -960,27 +960,9 @@ ul {
 kbd {
   display: block; }
 
-.distReview {
-  margin-right: auto;
-  margin-left: auto;
-  width: 99%;
-  clear: none;
-  margin-top: 2px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-left: 5px;
-  color: black;
-  border: 1px solid black;
-  text-align: left;
-  font-family: "Courier New", Courier, monospace;
-  line-height: 25px; }
-
-.distRevTitle {
-  clear: both;
-  padding: 1px;
-  border: 1px solid black;
-  font-size: 20px;
-  font-weight: bold; }
+nav {
+  float: right;
+  margin-right: 10px; }
 
 #distroTables {
   /*border: $solidBorder;*/
@@ -992,6 +974,7 @@ kbd {
   padding-top: 5px;
   padding-right: 1%;
   padding-left: 1%;
+  #
   background-color: white; }
   #distroTables a:link {
     margin: 2px;
@@ -1006,8 +989,14 @@ kbd {
     height: 65%;
     width: 65%; }
 
+#distroList .card-title {
+  margin: 0;
+  padding: 0; }
+
 .icons {
-  margin-right: 10px; }
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative; }
 
 .name {
   font-size: 28px;
@@ -1017,13 +1006,6 @@ kbd {
     height: 40px;
     width: 40px; }
 
-.screenshots img {
-  width: 500px;
-  height: 400px;
-  box-shadow: 1px 1px 10px black;
-  margin-right: 10px;
-  margin-bottom: 10px; }
-
 #screenshots {
   border: 1px #000000 dotted;
   padding: 10px; }
@@ -1031,6 +1013,12 @@ kbd {
     display: none; }
   #screenshots a[href=''] {
     display: none; }
+  #screenshots img {
+    box-shadow: 1px 1px 10px black;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    height: 70%;
+    width: 70%; }
 
 .linuxContainer {
   border: 1px solid black;

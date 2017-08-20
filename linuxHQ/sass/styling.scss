@@ -16,33 +16,10 @@ kbd
   display:block;
 }
 
-// ##########################################################################
-
-.distReview {
-  @include margin(null auto null auto);
-  width         : 99%;
-  clear         : none;
-  margin-top    : 2px;
-
-  @include padding(2px 2px null 5px);
-
-  color         : rgb(0, 0, 0);
-  border       : 1px solid rgb(0, 0, 0);
-  text-align    : left;
-  font-family   : $Courier;
-  line-height   : 25px;
-}
-
-
-
-.distRevTitle {
-  clear       : both;
-
-  @include padding(1px 1px 1px 1px);
-
-  border      : $solidBorder;
-  font-size   : 20px;
-  font-weight : bold;
+nav
+{
+  float: right;
+  @include margin(null 10px null null);
 
 }
 
@@ -54,7 +31,7 @@ kbd
   clear            : both;
   @include margin(5px null 5px null);
   @include padding(5px 1% null 1%);
-
+#
   background-color : rgb(255, 255, 255);
   a:link {
     margin         : 2px;
@@ -64,7 +41,6 @@ kbd
     font-family    : $Arial;
   }
 }
-
 
 #TIC
 {
@@ -78,13 +54,25 @@ kbd
    		}
    }
 }
+
+#distroList
+{
+  .card-title
+  {
+    @include margin(0 0 0 0);
+    @include padding(0 0 0 0);
+  }
+}
+
 // #####################################################################
 
 .icons
 {
-    @include margin(null 10px null null);
+    @include margin(null 20px null 20px);
+    position: relative;
 }
 
+// This is for the Icon and name section of say the Diustro Section
 .name
 {
     // Info is a guess for now
@@ -98,23 +86,6 @@ kbd
       {
         @include size(40px);
       }
-
-}
-
-
-// This is still needed
-.screenshots
-{
-
-  img
-    // Values are a guess for now
-    {
-    width: 500px;
-    height: 400px;
-    box-shadow: 1px 1px 10px rgb(0, 0, 0);
-    @include margin(null 10px 10px null);
-    }
-
 
 }
 
@@ -135,8 +106,14 @@ kbd
         display: none;
       }
 
-}
+  img
+  {
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    @include margin(null 10px 100px null);
+    @include size(70%, 70%);
+  }
 
+}
 
 
 
@@ -149,8 +126,6 @@ kbd
   @include margin(null 2px 20px 2px);
 
 }
-
-
 
 #distrowatch {
   height           : 200px;
@@ -170,7 +145,7 @@ kbd
   }
 }
 
-
+// Make this where its no SO SPECIFIC but can help multple sections
 #usb
 {
   position: relative;

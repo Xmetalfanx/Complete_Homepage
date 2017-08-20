@@ -1,4 +1,10 @@
 <?php
+    // require connection file to database below
+
+    // connect to mypages table and run query 
+
+    // Variable for general
+    $distropagePath = $sitePath . "/linuxHQ/distros/";
 
   // MP stands for My Page ... HP and HOME ... HP being for HomePage was too confusing and caused name colissions (in my head)
   $ubuntuMP = '<a href="/linuxHQ/distros/ubuntu/ubuntu.php" > Ubuntu </a>';

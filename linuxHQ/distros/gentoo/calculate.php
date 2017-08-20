@@ -1,13 +1,13 @@
 <?php
 
-		$title = 'Distribution Section -  Calculate Linux';
+	$title = 'Distribution Section -  Calculate Linux';
 
-		$localName = 'calculate';
+	$localName = 'calculate';
 
 
-$sitePath = "/home/xmetalx1/public_html";
+	$sitePath = "/home/xmetalx1/public_html";
 
-include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
 <?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -52,7 +52,7 @@ header
 {
   background-color: $headerBGColor;
   max-height: 100px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 
 }
 
@@ -61,7 +61,6 @@ header
 {
   background-color: $headerBGColor !important;
   color: rgba(255, 255, 255, 1);
-
 
      a:link a:visited a:hover a:focus
     {
@@ -98,14 +97,11 @@ ul.navigation-menu
    {
      height: 42px;
      width: 42px;
-
    }
 
 }
 
 .smallText
 {
-  font-size: 10px;
-
-
+  font-size: 11px;
 }

@@ -2,7 +2,6 @@
 
   $localName = 'korora';
 
-
   $title = 'Distribution Section - Korora';
 
 	$sitePath = "/home/xmetalx1/public_html";
