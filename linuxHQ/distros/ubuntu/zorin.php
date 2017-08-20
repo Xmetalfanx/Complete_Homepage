@@ -2,10 +2,6 @@
 
 $localName = 'zorin';
 
-      $distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/zorin.jpg">
-    									<img src="/linuxHQ/screenshots/ubuntubased/zorin.jpg" alt="Zorin Screenshot" /></a>';
-                      
-
   $title = 'Distribution Section -Zorin ';
 
 

@@ -9,11 +9,6 @@ $localName = 'fedora';
       <a href="http://mirrors.fedoraproject.org/publiclist" target="_blank">http://mirrors.fedoraproject.org/publiclist</a> ' ;
 
 
-		$distroSshot = '<a href="/linuxHQ/screenshots/DE/fedoraGnome1.jpg">
-				<img src="/linuxHQ/screenshots/DE/fedoraGnome1.jpg" alt="Fedora Gnome Screenshot"/>	</a>' . '<a href=" https://spins.fedoraproject.org/cinnamon/ " target="_blank">
-						<img src="/linuxHQ/screenshots/rpm/fedoraCinn1.jpg" alt="Fedora Cinnamon Screenshot"/>	</a>';
-
-
   $title = 'Distribution Section -Fedora ';
 
 	$sitePath = "/home/xmetalx1/public_html";

@@ -2,10 +2,6 @@
  $localName = 'linuxlite';
 
 
-  $distroSshot = '
-		<a href="http://www.linuxliteos.com/screenshots/">http://www.linuxliteos.com/screenshots/</a></p> ';
-
-
   $title = 'Distribution Section - Linux Lite';
 
 

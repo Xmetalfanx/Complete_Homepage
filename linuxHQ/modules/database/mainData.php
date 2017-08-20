@@ -31,9 +31,9 @@
 
           echo "Software Type: " . ($field['software']) . "<br />";
 
-          echo "</div><br />";
+          echo "</div><br /><br />";
 
-          echo "<?php include $sitePath . '/linuxHQ/modules/database/ytdbtable.php'; ?>";
+          include $sitePath . '/linuxHQ/modules/database/ytdbtable.php'; ;
 
           echo "<br /> <hr />";
 

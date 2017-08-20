@@ -4,13 +4,13 @@
 <li class="tab-header-and-content">
   <a href="#screeshot" class="tab-link is-active">Description</a>
   <div class="tab-content">
-    <div class="screenshots hidden-md-down">
-      <div class="card">
+      <div class="card hidden-md-down">
         <div class="card-block">
-          <div class="card-text"><?php echo $description; ?></div>
+          <div class="card-text">
+            Description
+          </div>
         </div>
       </div>
-  </div>
   </div>
 </li>
 
@@ -21,19 +21,9 @@
       <div class="screenshots hidden-md-down">
         <!-- Grabs Screenshot info from online database table -->
         <?php
-            foreach($ssResults as $field)
-            {
-
-                echo "<div id=\"screenshots\"> ";
-
-                  echo "<img src=\"" . ($field['src']) . "\" alt=\" whatever alt tag here \" /> ";
-
-                  echo "<a href=\"" . ($field['href']) . "\" > LINK TO PAGE WITH SCREENSHOTS HERE </a>";
-
-              echo "</div>";
-            }
+          include $sitePath . '/linuxHQ/modules/database/sshotsdb.php';
         ?>
-    </div>
+      </div>
     </div>
   </li>
 
@@ -46,20 +36,13 @@
         <div class="card-block">
           <h4 class="card-title">My Experience: </h4>
           <div class="card-text">
-            <?php echo $EXP; ?> <br/>
-            <?php echo $experience; ?> <br/><br/>
-
-            <div class="boldUnderline">
-              Any other comments I have about this distro:
-              <?php echo $otherComments; ?>
-              <br/>
-              SECTION UNDER CONSTRUCTION
+            <?php include $sitePath . '/linuxHQ/modules/database/recExpDB.php'; ?>
 
             </div>
           </div>
         </div>
       </div>
-    </div>
+
   </li>
 
   <li class="tab-header-and-content">
@@ -84,7 +67,6 @@
           <p>
             <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
           </p>
-
 
             <?php include $sitePath . '/linuxHQ/modules/database/usbdb.php'; ?>
 

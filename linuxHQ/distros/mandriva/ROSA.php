@@ -2,9 +2,6 @@
 
   $localName = 'rosa';
 
-
-    $DE = 'KDE ';
-
    $title = 'Distribution Section - Rosa ';
 
 

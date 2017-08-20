@@ -1053,7 +1053,8 @@ kbd {
     color: red;
     background-color: transparent; }
 
-#usb li {
-  padding-left: 15px; }
+#usb {
+  position: relative;
+  left: 20px; }
 
 /*# sourceMappingURL=styling.css.map */
