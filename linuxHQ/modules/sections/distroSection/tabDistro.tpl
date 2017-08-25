@@ -7,7 +7,7 @@
         <div class="card hidden-md-down">
           <div class="card-block">
             <div class="card-text">
-              NOTHING should appear here yet ...
+              <?php include $sitePath . '/linuxHQ/modules/database/description.php'; ?>
             </div>
           </div>
         </div>

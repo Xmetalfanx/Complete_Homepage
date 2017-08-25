@@ -1,0 +1,44 @@
+distroName2,description
+antergos,
+arch,Arch Linux is a very custmizable distro that a user can build from the ground up and install any Desktop Environment they choose and have tons of control over their system
+archbang,
+bunsenlabs,
+calculate,
+cbangplusplus,
+centOS,
+debian,
+deepin,
+elementaryOS,
+fedora,
+gentoo,
+kaos,
+kdeneon,
+korora,Korora is an easy to use Linux distribution based on Fedora that has RPM Fusion repositories (a well known source for addition software in Fedora) configured and Codecs working out of the box.  Another plus is that some spins (different Desktops that is) of Korora seem to come with Numix Icons which are thought of by many to be the best looking icon sets out for Linux.
+kubuntu,
+linuxlite,
+lmdb,"Linux Mint Debian Edition is the version of Linux Mint based on Debian (versus  Linux Mint, which is based on Ubuntu).  Linux Mint Debian edition use to follow the Debian Testing branch (Slighly more updated packages), though it has been said they will follow Debian \""Stable\"" for increased stability."
+lubuntu ,
+lxle,
+mageia,
+makulu,
+manjaro,
+mint,"Linux Mint is a great distribution for any user experience level, that comes with a number of default supported desktop environments, is easy to setup, and has a large community of support IF help is needed."
+mmManjaro,
+openmandriva,
+opensuse,
+pclinuxos,
+peppermint,
+pointlinux,Point Linux is a preconfigued Debian based distrobution that uses the Mate Desktop OR Gnomeshell in newer versions.
+puppy,
+rosa,
+sabayon,
+salix,
+slackware,
+solus,
+solyd,
+sparky,
+ubuntu,"Ubuntu is one of the most popular versions of Linux and sometimes distribution that sparks strong opinions (for and against it).  Some like the Ubuntu default &amp;Unity &amp; desktop, while others do not.  Lucky for all user there are respins of Ubuntu that include the Gnome, KDE, LXDE, and XFCE Desktops"
+ubuntubudgie,
+umate,
+xubuntu,
+zorin,"Zorin OS while not for everyone (mainly ... advanced Linux users), it is perhaps (other than Linux Mint) one of my top choices for new Linux users, that should make anyone who is use to Windows, feel more comfortable in Linux."

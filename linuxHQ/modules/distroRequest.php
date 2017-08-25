@@ -10,6 +10,7 @@
     $sshot = "SELECT * FROM sshots WHERE distroName = '$localName' ";
     $recexp = "SELECT * FROM recexp WHERE distroName = '$localName' ";
     $youtube = "SELECT * FROM youtube WHERE distroName = '$localName' ";
+    $description = "SELECT * FROM description WHERE distroName = '$localName' ";
 
 
     // Do I need two connections? ... or does the connection open the DB and the individual statements (say SELECT or Mysqli_query) not need more tham one connection
@@ -24,6 +25,8 @@
     $recexpResults = mysqli_query($conn, $recexp) or ('Error querying database');
 
     $ytResult = mysqli_query($conn, $youtube) or ('Error querying database');
+
+    $descriptResult = mysqli_query($conn, $description) or ('Error querying database');
 
 
     mysqli_close($conn);
