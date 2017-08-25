@@ -1,0 +1,37 @@
+// the equals to on the right are the field names in the database
+
+// the query should change to only display the FIELD that is needed for that distro base
+  // The SELECT would be different ... aka not a "*" ... though a few fields may be selected
+  // "distroName" has nothing to do with it.
+
+
+
+if ($deinstallname == arch)
+{
+
+
+}
+
+if ($deinstallname == fedora)
+{
+
+
+}
+
+if ($deinstallname == openSuse)
+{
+
+
+}
+
+if ($deinstallname == ubuntu)
+{
+
+
+}
+
+if ($deinstallname == mint)
+{
+
+
+}

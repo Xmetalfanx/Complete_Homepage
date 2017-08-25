@@ -3,17 +3,21 @@
 
 
   <div class="row">
-    <div class="col-lg-2"><?php echo $deName; ?></div>
-
-    <div class="screenshots col-lg-8">
-      <div class="font-weight-bold">Screenshots </div>
-      <?php echo $deSShot; ?>
+    <div class="col-lg-2"><
+      <h2>Desktop Name Goes Here</h2>
     </div>
   </div>
 
 <div class="card">
   <div class="card-block">
     <div class="card-text">
+
+
+      <div class="screenshots col-lg-8">
+        <div class="font-weight-bold">Screenshots </div>
+        <?php echo $deSShot; ?>
+      </div>
+
 
       <div class="font-weight-bold">Desktop Catagory:
         <div class="font-weight-normal"><?php echo $deCat; ?></div>

@@ -2,7 +2,7 @@
 		$title = 'Theme/Icon/Cursor Section - ';
 
 		$sitePath = "/home/xmetalx1/public_html";
-		include $sitePath . "/templates/linux/blank/baseLinuxTICBlank.tpl";
+		include $sitePath . "/templates/linux/blankTemplates/baseLinuxTICBlank.tpl";
 ?>
 
 <img src="/linuxHQ/graphics/mac_win_lin.jpg" alt="Mac Windows and  Linux with Tux Graphic"/><br/>This section will contain Themes, Icon pack, and cursor information.
@@ -37,12 +37,15 @@
 <br />
 <ul class="accordion-tabs-minimal">
   <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Without per-PPA Confirmation </a>
-    <div class="tab-content"><kbd>sudo add-apt-repository -y ppa:ravefinity-project/ppa &amp;&amp; sudo add-apt-repository -y ppa:moka/stable &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons2 &amp;&amp; sudo add-apt-repository -y ppa:noobslab/nitrux-os &amp;&amp; sudo add-apt-repository -y ppa:noobslab/potenza &amp;&amp; sudo add-apt-repository -y ppa:noobslab/themes &amp;&amp; sudo add-apt-repository -y ppa:numix/ppa &amp;&amp; sudo add-apt-repository -y ppa:noobslab/evolvere &amp;&amp; sudo add-apt-repository -y ppa:snwh/pulp</kbd></div>
+    <div class="tab-content">
+			<kbd>sudo add-apt-repository -y ppa:ravefinity-project/ppa &amp;&amp; sudo add-apt-repository -y ppa:moka/stable &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons &amp;&amp; sudo add-apt-repository -y ppa:noobslab/icons2 &amp;&amp; sudo add-apt-repository -y ppa:noobslab/nitrux-os &amp;&amp; sudo add-apt-repository -y ppa:noobslab/potenza &amp;&amp; sudo add-apt-repository -y ppa:noobslab/themes &amp;&amp; sudo add-apt-repository -y ppa:numix/ppa &amp;&amp; sudo add-apt-repository -y ppa:noobslab/evolvere &amp;&amp; sudo add-apt-repository -y ppa:snwh/pulp</kbd>
+		</div>
   </li>
   <li class="tab-header-and-content"><a href="#" class="tab-link">With per-PPA Confirmation </a>
     <div class="tab-content"><kbd>
 
-        sudo add-apt-repository ppa:ravefinity-project/ppa &amp;&amp; sudo add-apt-repository ppa:moka/stable &amp;&amp; sudo add-apt-repository ppa:noobslab/icons &amp;&amp; sudo add-apt-repository ppa:noobslab/icons2 &amp;&amp; sudo add-apt-repository ppa:noobslab/nitrux-os &amp;&amp; sudo add-apt-repository ppa:noobslab/potenza &amp;&amp; sudo add-apt-repository ppa:noobslab/themes &amp;&amp; sudo add-apt-repository ppa:numix/ppa &amp;&amp; sudo add-apt-repository ppa:noobslab/evolvere &amp;&amp; sudo add-apt-repository ppa:snwh/pulp</kbd></div>
+        sudo add-apt-repository ppa:ravefinity-project/ppa &amp;&amp; sudo add-apt-repository ppa:moka/stable &amp;&amp; sudo add-apt-repository ppa:noobslab/icons &amp;&amp; sudo add-apt-repository ppa:noobslab/icons2 &amp;&amp; sudo add-apt-repository ppa:noobslab/nitrux-os &amp;&amp; sudo add-apt-repository ppa:noobslab/potenza &amp;&amp; sudo add-apt-repository ppa:noobslab/themes &amp;&amp; sudo add-apt-repository ppa:numix/ppa &amp;&amp; sudo add-apt-repository ppa:noobslab/evolvere &amp;&amp; sudo add-apt-repository ppa:snwh/pulp</kbd>
+			</div>
   </li>
 </ul>
 
