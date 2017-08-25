@@ -8,14 +8,9 @@
     $deSShot = $budgie1 . $budgie2 . $budgie3;
 
     // installs
-	  $installUbuntu = '** for 15.10 or higher (?? Lubuntu, Xubuntu ???)<br />
-    						sudo add-apt-repository ppa:fossfreedom/budgie-desktop <br />
-    						sudo apt-get update <br />
-    						sudo apt-get install budgie-desktop <br />
-    						Reference: AJ Reissig https://www.youtube.com/watch?v=MKFkHD6kbU4';
+	  $installUbuntu = '
 
 
-    $installMint =	'Not Available';
     $installDebian = ' ';
     $installArch = '(via <a href="https://aur.archlinux.org/packages/budgie-desktop-git/ target="_blank">Arch Unoffical Repo </a>  ';
 
@@ -31,8 +26,6 @@
     					<a href="https://build.opensuse.org/package/show?project=home%3Aikeydoherty%3Asolus-project&package=budgie-desktop">More Specifically</a>
     					';
 
-
-    $installPCLOS = 'PROBABLY N/A ';
     $installGentoo = ' ';
 
     $title = 'DE/WM Section - Budgie-Desktop ';
