@@ -13,7 +13,7 @@
     <div class="card-text">
 
 
-      <div class="screenshots col-lg-8">
+      <div id="screenshots">
         <div class="font-weight-bold">Screenshots </div>
         <?php
 
@@ -22,7 +22,7 @@
 
               echo "<a href=\"" . ($field['src']) . " \" target=\"_blank\" >";
                 echo "<img src=\" " . ($field['src']) . " \" alt=\" whatever alt tag here \" /> ";
-              echo "</a> <br /><br />";
+              echo "</a>";
 
             }
         ?>
