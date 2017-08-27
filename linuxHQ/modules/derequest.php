@@ -1,4 +1,3 @@
-// Stuff kept in for example, for now
 
 <?php
     // Connects to Database
@@ -10,13 +9,15 @@
 
     // Idea: localDEName is in each DE file and assigned there
 
-    $ubuntuInstall = "SELECT ubuntuInstall FROM installDE WhERE deName = '$localDEName' ";
+    $ubuntuInstall = "SELECT ubuntuInstall FROM installDE WhERE deName = '$localdename' ";
+    $sshotDE = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
 
 
     // Do I need two connections? ... or does the connection open the DB and the individual statements (say SELECT or Mysqli_query) not need more tham one connection
 
     // Get Results
     $ubuntuInstallResult = mysqli_query($conn, $ubuntuInstall) or ('Error querying database');
+    $sshotDEResults = mysqli_query($conn, $sshotDE) or ('Error querying database');
 
 
     mysqli_close($conn);

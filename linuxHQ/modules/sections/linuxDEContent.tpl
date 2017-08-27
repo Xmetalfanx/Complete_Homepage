@@ -3,7 +3,7 @@
 
 
   <div class="row">
-    <div class="col-lg-2"><
+    <div class="col-lg-2">
       <h2>Desktop Name Goes Here</h2>
     </div>
   </div>
@@ -15,7 +15,17 @@
 
       <div class="screenshots col-lg-8">
         <div class="font-weight-bold">Screenshots </div>
-        <?php echo $deSShot; ?>
+        <?php
+
+            foreach($sshotDEResults as $field)
+            {
+
+              echo "<a href=\"" . ($field['src']) . " \" target=\"_blank\" >";
+                echo "<img src=\" " . ($field['src']) . " \" alt=\" whatever alt tag here \" /> ";
+              echo "</a> <br /><br />";
+
+            }
+        ?>
       </div>
 
 

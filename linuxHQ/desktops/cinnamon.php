@@ -1,6 +1,6 @@
 <?php
 
-    $deName = 'Cinnamon';
+    $localdeName = 'Cinnamon';
 
     $deSShot = '$mintCinnSS1';
 
@@ -27,7 +27,7 @@
 
 		$installMint =	'sudo apt-get cinnamon';
 		$installFedora = ' yum install @cinnamon-desktop';
-	
+
 
 		$title = 'DE/WM Section - Cinnamon ';
 

@@ -1,5 +1,7 @@
 <?php
     $sitePath = "/home/xmetalx1/public_html";
+
+    require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
     include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
     include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 ?>

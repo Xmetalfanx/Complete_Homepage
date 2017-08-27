@@ -1,7 +1,9 @@
 <?php
 
+    $localdename = "plasma5";
+
+    // Old Info
     $deName = 'KDE';
-    $deSShot = $manjaroKDE5 . $suseKDE_SS1 . $antergosKDE_SS1 . $kaosKDE1 . $manjaroKDE5_SS1;
     $deFeatured =  '<ul>
 											<li>' . $mintHP  . '</li>
 											<li> '. $fedoraHP . '</li>
