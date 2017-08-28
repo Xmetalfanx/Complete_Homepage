@@ -17,17 +17,11 @@
 
     // Get Results
     $conmondataResults = mysqli_query($conn, $commonData) or ('Error querying database');
-
     $usbResults = mysqli_query($conn, $usb) or ('Error querying database');
-
     $sshotResults = mysqli_query($conn, $sshot) or ('Error querying database');
-
     $recexpResults = mysqli_query($conn, $recexp) or ('Error querying database');
-
     $ytResult = mysqli_query($conn, $youtube) or ('Error querying database');
-
     $descriptResult = mysqli_query($conn, $description) or ('Error querying database');
-
 
     mysqli_close($conn);
 

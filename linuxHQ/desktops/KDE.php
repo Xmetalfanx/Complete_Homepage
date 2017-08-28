@@ -16,14 +16,11 @@
 	$installUbuntu = 'sudo apt-get install kde-standard OR sudo apt-get install kde-full';
 
   $installMint =	' sudo apt-get install mint-meta-kde';
-  $installDebian = ' ';
-
-  $installArch = ' sudo pacman -S kde OR <br />sudo pacman -S kde-meta<br /> see <a href="https://wiki.archlinux.org/index.php/KDE_Packages " >
-  	KDE package for the differences</a>';
-
 
   $installFedora = 'yum install @kde-desktop ';
 
+
+  // Not used now since its plasma 5 
   $installSuse = 'zypper install -t pattern kde4 kde4_basis ';
 
 $title = 'DE/WM Section - KDE4 ';

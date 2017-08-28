@@ -1,0 +1,19 @@
+desktopName,category,currentVersion,pclinuxos,gentoo,install,leap22,repoLeap422,leap423,repo423,tumbleweed,tw,reference
+mate,,,task-mate,mate,,1.16.0,zypper ar -r http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_Leap_42.2/X11:MATE:Current.repo,1.18.0,N/A,1.18.0,zypper ar -r http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_Tumbleweed/X11:MATE:Current.repo,https://en.opensuse.org/Portal:MATE/Install
+plasma5,Heavy,,,,sudo zypper in -t pattern kde kde_plasma,5.8.2,,5.8.7.1,,5.10.4,,
+xfce,Light,,,,,,,,,4.12,,
+lxqt,Light,,N/A,N/A,N/A,,,,,,,
+lxde,Light,,,,"<a href=""https://en.opensuse.org/LXDE_repositories"" >LXDE Repos for Suse</a>",,,,,,,"<a href=""https://en.opensuse.org/LXDE_repositories"" >LXDE Repos for Suse</a>"
+cinnamon,Heavy,,task-cinnamon,,,3.0.7,,3.4.4,,3.4.4,zypper ref && zypper in -y cinnamon cinnamon-screensaver,"<a href=""https://en.opensuse.org/Portal:Cinnamon"" target=""_blank""> Install Cinnamon on OpenSuse </a>"
+gnomeshell,Heavy,,,,,3.20.4,,3.20.4,,3.24.2,,
+budgie,,,,,,not listed,,,,10.4.2.1,,
+openbox,,,N/A,,openbox,,,,,3.6.1-3.7,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+even with TW .. versions are default in repo … that is not counting the seperate Plasma 5 or Cinnamon repos,,,,,,,,,,,,
+,,,,,,,,,,,,
+Since these were taken from the Suse page these MAY NOT be what the ISO shipped with but what the current version is at the time I am doing this research,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Current Cinnamon in Cinnamon repo,,,,,,,,,,,,
+Current Plasma 5 in Plasma5 specific repo ,,,,,,,,,,,,

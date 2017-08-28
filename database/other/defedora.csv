@@ -1,0 +1,10 @@
+desktopName,fedora,pclinuxos,gentoo,f25version,f26version,frhversion
+mate,sudo dnf groupinstall mate-desktop mate-applications,task-mate,mate,1.18.0-2,1.18.0-5,1.19.0
+plasma5,,,,5.9.5.1-1,5.10.4-1,5.10.5
+xfce,dnf groupinstall xfce-desktop,,,4.12,4.12,4.12
+lxqt,N/A,N/A,N/A,.11.2,.11.2,.11.2
+lxde,,,,.99.2,.99.2,.99.2
+cinnamon,sudo dnf groupinstall cinnamon-desktop,task-cinnamon,,3.4.4-1,3.4.6.1,3.4.6.3
+gnomeshell,,,,3.22.3-1,3.24.3,3.25.91-1
+budgie,,,,2-7,none,none
+openbox,,N/A,,3.61,3.61,3.61

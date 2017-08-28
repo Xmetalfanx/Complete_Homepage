@@ -1,0 +1,14 @@
+desktopName,install,pclinuxos,gentoo,archVersion
+mate,sudo pacman -S mate mate-extra,task-mate,mate,1.18.0-1
+plasma5,sudo pacman -S kde OR sudo pacman kde-meta,,,5.10.5-1
+xfce,sudo pacman -S xfce4 xfce-goodies,,,
+lxqt,,N/A,N/A,
+lxde,sudo pacman -S lxde-common lxsession openbox,,,
+cinnamon,sudo pacman -S cinnamon,task-cinnamon,,3.4.4-1
+gnomeshell,sudo pacman -S gnome AND (Optional) sudo pacman -S gnome-extras,,,3.24.3-1
+budgie,sudo pacman -S budgie-desktop,,,10.3.1-2
+openbox,,N/A,,
+,,,,
+,,,,
+,,,,
+**Check the arch package name to see if it changed to plasma-desktop ,,,,

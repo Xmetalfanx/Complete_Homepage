@@ -1,7 +1,6 @@
 
 <div id="LinuxSection">
 
-
   <div class="row">
     <div class="col-lg-2">
       <h2>Desktop Name Goes Here</h2>
@@ -25,6 +24,8 @@
               echo "</a>";
 
             }
+
+            $localdeName="";
         ?>
       </div>
 
