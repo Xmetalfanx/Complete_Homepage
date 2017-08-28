@@ -69,10 +69,7 @@
   <li class="tab-header-and-content hidden-sm-down">
     <a href="#screeshot" class="tab-link">Arch</a>
     <div class="tab-content ">
-
-			<p>Current Version in Arch:  </p>
-
-			<p>How to install DE in Arch goes here </p>
+        <?php include $sitePath . '/linuxHQ/modules/database/dearch.php'; ?>
 
     </div>
   </li>
@@ -84,11 +81,7 @@
 
       <?php include $sitePath . '/linuxHQ/modules/database/defedora.php'; ?>
 
-      <p>Current Version in Fedora 25 + instructions on how to install it go here </p>
-
-			<p>Current Version in Fedora 26 + instructions on how to install it go here </p>
-
-			<p>?? probably will list this  Current Version in Fedora Rawhide + instructions on how to install it go here </p>
+      <p>instructions on how to install it go here </p>
 
     </div>
 

@@ -1,0 +1,4 @@
+
+[28-Aug-2017 12:57:23 America/New_York] PHP Notice:  Undefined index: pacmanversion in /home/xmetalx1/public_html/linuxHQ/modules/database/dearch.php on line 6
+[28-Aug-2017 12:57:23 America/New_York] PHP Notice:  Undefined index: f25version in /home/xmetalx1/public_html/linuxHQ/modules/database/dearch.php on line 8
+[28-Aug-2017 12:57:23 America/New_York] PHP Notice:  Undefined index: f26version in /home/xmetalx1/public_html/linuxHQ/modules/database/dearch.php on line 9

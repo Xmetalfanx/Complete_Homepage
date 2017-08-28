@@ -12,11 +12,6 @@
 				</ul>';
 
     // Keep to check something out concerning Fedora
-		$installFedora = 'dnf install @mate-desktop';
-
-
-
-		$installSuse = ' <a href="http://en.opensuse.org/Portal:MATE" target="_blank">Suse Mate Portal</a> ';
 
 		$title = 'DE/WM Section - Mate ';
 

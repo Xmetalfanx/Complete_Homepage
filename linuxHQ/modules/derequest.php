@@ -12,13 +12,23 @@
     $ubuntuInstall = "SELECT ubuntuInstall FROM installDE WhERE deName = '$localdename' ";
     $sshotDE = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
 
+    // arch specific
+    $archVer = "SELECT pacmanversion FROM dearch WHERE dename = '$localdename' ";
+    $archInstall = "SELECT install FROM dearch WHERE dename = '$localdename' ";
 
-    // Do I need two connections? ... or does the connection open the DB and the individual statements (say SELECT or Mysqli_query) not need more tham one connection
+    // fedora specific
+    $fedoraVersion = "SELECT f25version,f26version,rawhideversion FROM defedora WHERE dename = '$localdename' ";
 
-    // Get Results
+    //  Results
     $ubuntuInstallResult = mysqli_query($conn, $ubuntuInstall) or ('Error querying database');
     $sshotDEResults = mysqli_query($conn, $sshotDE) or ('Error querying database');
 
+    #arch results
+    $archVerResult = mysqli_query($conn, $archVer) or ('Error querying database');
+    $archinstallResult = mysqli_query($conn, $archInstall) or ('Error querying database');
+
+    #fedora results
+    $fedoraVerResults = mysqli_query($conn, $fedoraVersion) or ('Error querying database');
 
     mysqli_close($conn);
 

@@ -5,6 +5,8 @@
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
+
+
     $deName = '<a href="http://lxde.org/" target="_blank">LXDE</a>';
     $deFeatured = 'Lubuntu, LXLE';
 
