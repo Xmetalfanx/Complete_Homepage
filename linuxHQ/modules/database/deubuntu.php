@@ -1,6 +1,6 @@
 <?php
 
-foreach($ubuntuVerResults as $field)
+foreach($ubunturesult as $field)
   {
       echo "<table>";
       echo "<tr>";

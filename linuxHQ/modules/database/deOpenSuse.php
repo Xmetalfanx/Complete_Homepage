@@ -1,6 +1,6 @@
 <?php
 
-  foreach($suseVerResults as $field)
+  foreach($suseresult as $field)
   {
 
     echo "Version Comparision Chart";

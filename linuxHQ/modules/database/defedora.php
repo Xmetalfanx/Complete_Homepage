@@ -1,6 +1,6 @@
 <?php
 
-  foreach($fedoraVerResults as $field)
+  foreach($fedoraresult as $field)
   {
 
     echo "Version Comparision Chart";
