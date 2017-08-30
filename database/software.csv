@@ -1,0 +1,12 @@
+desktopName,category,distrosFeature,filemanager,texteditor,archive,imageviewer
+mate,,,caja,pluma,engrampa,eye of mate
+plasma5,Heavy,,dolphin,kate/kwrite,Ark,gwenview
+xfce,Light,,thunar,,,
+lxqt,Light,,,,,
+lxde,Light,,,,,
+cinnamon,Heavy,,nemo,,,
+gnomeshell,Heavy,,,,,
+budgie,,,,,,
+openbox,,,,,,
+enlightenment,,,,,,
+pantheon,,,,,,

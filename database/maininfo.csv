@@ -1,0 +1,13 @@
+desktopName,latestVersion,homepage,category,distrosFeature,pclinuxos,gentoo
+mate,1.18,http://mate-desktop.org,Medium-Lite,"Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",task-mate,mate
+plasma5,5.10,https://www.kde.org,Heavy,"Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",,
+xfce,4.12,https://xfce.org,Light,"$mintHP . 'Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent",,
+lxqt,,,Light,,N/A,N/A
+lxde,,,Light,"Lubuntu, LXLE",,
+cinnamon,3.4.6,https://github.com/linuxmint/Cinnamon,Heavy,"Linux Mint, Korora/Fedora, Arch/Antergos ",task-cinnamon,
+gnomeshell,3.24,,Heavy,"Antergos, Ubuntu, OpenSuse, Fedora",,
+budgie,,https://budgie-desktop.org/home/,,"Solus, Ubuntu Budgie",,
+openbox,N/A,,Light,"Crunchbang++, Bunsenlabs, Arch",N/A,
+,,,,,,
+,,,,,,
+Link the currentVersion field in some of the subtables back to this table as a foreign key … maybe … not sure … the deName TOO ,,,,,,

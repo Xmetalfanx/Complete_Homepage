@@ -1,0 +1,20 @@
+desktopName,ubuntuinstall,lts16040ver,lts16043ver,1704ver,1704framework,1710kubuntu,mintver,mintinstall
+mate,sudo apt install mate-desktop-environment,N/A,,N/A,,,1.18.0,sudo apt install mint-meta-mate
+xfce,sudo apt install xfce4 xfce4-goodies,4.12,4.12,4.12,,,,sudo apt install mint-meta-xfce
+lxqt,sudo apt install lxqt,,,13,,,,
+lxde,sudo apt install lxde,,,9,,,,
+cinnamon,PPA NEEDED (info coming later),,,3.27.3,,,,sudo apt install mint-meta-cinnamon
+gnomeshell,"sudo apt install gnome-shell (more may be needed, but thats what I know for now) ",,,3.24.2,,,,… not a good idea .. especiallly if you have cinnamon 
+budgie,budgie-desktop,,,10.2.9,,,,
+openbox,openbox,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+note to self ,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+"EXCEPT for Kubuntu vs Neon and Plasma …. Ubuntu Mate, Lubuntu and Xubuntu will be considered the “Ubuntu version” ",,,,,,,,
+,,,,,,,,
+currentVersion here MEANS THE LATEST IN ANY DISTRO .. THE LATEST RELEASED that is ,,,,,,,,
+,,,,,,,,
+https://launchpad.net/~budgie-remix/+archive/ubuntu/ppa,,,,,,,,

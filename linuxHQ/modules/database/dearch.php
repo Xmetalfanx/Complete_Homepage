@@ -3,7 +3,7 @@
   foreach($archVerResult as $field)
   {
 
-    echo "Current Pacman Version in Arch: " . ($field['pacmanversion']);
+    echo "<strong>Current Pacman Version in Arch: </strong>" . ($field['pacmanversion']);
 
     echo "<p>How to Install: </p>";
 

@@ -1,18 +1,23 @@
 <?php
 
-  echo "Version Comparision Chart";
+  foreach($suseVerResults as $field)
+  {
 
-  echo "<table>";
-  echo "<tr>";
-      echo "<th>Leap 42.2 </th>";
-      echo "<th>Leap 42.3 </th>";
-      echo "<th>Tumbleweed </th>";
-    echo "</tr>";
+    echo "Version Comparision Chart";
+
+    echo "<table>";
     echo "<tr>";
-      echo "<td> </td>";
-      echo "<td> </td>";
-      echo "<td> </td>";
-  echo "</tr>";
-  echo "</table>";
+        echo "<th>Leap 42.2 </th>";
+        echo "<th>Leap 42.3 </th>";
+        echo "<th>Tumbleweed </th>";
+      echo "</tr>";
+      echo "<tr>";
+        echo "<td>" . ($field['leap422version']) . "</td>";
+        echo "<td>" . ($field['leap423version']) . "</td>";
+        echo "<td>" . ($field['tumbleweedversion'])  . "</td>";
+    echo "</tr>";
+    echo "</table>";
 
-?> 
+  }
+
+?>

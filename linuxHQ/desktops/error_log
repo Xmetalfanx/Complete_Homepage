@@ -1,4 +1,9 @@
 
-[28-Aug-2017 12:57:23 America/New_York] PHP Notice:  Undefined index: pacmanversion in /home/xmetalx1/public_html/linuxHQ/modules/database/dearch.php on line 6
-[28-Aug-2017 12:57:23 America/New_York] PHP Notice:  Undefined index: f25version in /home/xmetalx1/public_html/linuxHQ/modules/database/dearch.php on line 8
-[28-Aug-2017 12:57:23 America/New_York] PHP Notice:  Undefined index: f26version in /home/xmetalx1/public_html/linuxHQ/modules/database/dearch.php on line 9
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: pacmanversion in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 17
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: f25version in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 18
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: f25version in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 19
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: leap422version in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 20
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: leap423version in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 21
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: lts16040ver in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 22
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: 1704ver in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 23
+[30-Aug-2017 00:21:02 America/New_York] PHP Notice:  Undefined index: tumbleweedversion in /home/xmetalx1/public_html/linuxHQ/modules/database/deOpenSuse.php on line 17

@@ -3,7 +3,7 @@
   $mysql_host='localhost';
   $mysql_user='xmetalx1_view';
   $mysql_password='+1P.hdn5bu}^';
-  $database='xmetalx1_distro';
+  $database='xmetalx1_linux';
 
   $conn = mysqli_connect($mysql_host, $mysql_user, $mysql_password, $database);
 

@@ -1,0 +1,10 @@
+desktopName,reqmemory,pclinuxos,gentoo,reqhddspace,reqprocessor
+mate,,task-mate,mate,,
+plasma5,,,,,
+xfce,,,,,
+lxqt,,N/A,N/A,,
+lxde,512MB of Ram (Min),,,6GB Minimum,512Mhz or faster; 32bit or 64bit
+cinnamon,1GB Recommended (Xmetal’s comment: I would say 2GB to 4GB for COMFORTABLE usage,task-cinnamon,,10GB (Min),32bit or 64bit processor (Xmetal Comment: I’d say dualcore … about from 2009 on should be ok for LOWEST I’d recommend
+gnomeshell,,,,,
+budgie,,,,,
+openbox,,N/A,,,

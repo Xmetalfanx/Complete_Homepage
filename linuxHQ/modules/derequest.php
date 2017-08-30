@@ -9,26 +9,36 @@
 
     // Idea: localDEName is in each DE file and assigned there
 
-    $ubuntuInstall = "SELECT ubuntuInstall FROM installDE WhERE deName = '$localdename' ";
     $sshotDE = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
 
     // arch specific
-    $archVer = "SELECT pacmanversion FROM dearch WHERE dename = '$localdename' ";
+    $archversion = "SELECT pacmanversion FROM dearch WHERE dename = '$localdename' ";
     $archInstall = "SELECT install FROM dearch WHERE dename = '$localdename' ";
 
     // fedora specific
-    $fedoraVersion = "SELECT f25version,f26version,rawhideversion FROM defedora WHERE dename = '$localdename' ";
+    $fedoraversion = "SELECT f25version,f26version,rawhideversion FROM defedora WHERE dename = '$localdename' ";
 
-    //  Results
-    $ubuntuInstallResult = mysqli_query($conn, $ubuntuInstall) or ('Error querying database');
+    // opensuse specific
+    $opensuseversion = "SELECT * FROM deopensuse WHERE dename = '$localdename' ";
+
+    // Ubuntu Specific
+    $ubuntuversion = "SELECT lts16040ver,lts16043ver,1704ver,1710ver FROM deubuntu WHERE dename = '$localdename' ";
+
+
+    // Results
     $sshotDEResults = mysqli_query($conn, $sshotDE) or ('Error querying database');
 
     #arch results
-    $archVerResult = mysqli_query($conn, $archVer) or ('Error querying database');
+    $archVerResult = mysqli_query($conn, $archversion) or ('Error querying database');
     $archinstallResult = mysqli_query($conn, $archInstall) or ('Error querying database');
 
     #fedora results
-    $fedoraVerResults = mysqli_query($conn, $fedoraVersion) or ('Error querying database');
+    $fedoraVerResults = mysqli_query($conn, $fedoraversion) or ('Error querying database');
+
+    # Opensuse Result
+    $suseVerResults = mysqli_query($conn, $opensuseversion) or ('Error querying database');
+
+    $ubuntuVerResults = mysqli_query($conn, $ubuntuversion) or ('Error querying database');
 
     mysqli_close($conn);
 

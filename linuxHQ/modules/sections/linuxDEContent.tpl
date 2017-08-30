@@ -3,7 +3,7 @@
 
   <div class="row">
     <div class="col-lg-2">
-      <h2>Desktop Name Goes Here</h2>
+      <h2>Distro Title goes Here</h2>
     </div>
   </div>
 
@@ -30,17 +30,24 @@
       </div>
 
 
-      <div class="font-weight-bold">Desktop Catagory:
-        <div class="font-weight-normal"><?php echo $deCat; ?></div>
+      <div class="font-weight-bold">Desktop Catagory: </div>
+
+      <div class="font-weight-bold">General Requirements:</div>
+
+      <div classs="card">
+        <div class="card-block">
+          <div class="card-text">
+            Hard-drive space: <br />
+            Memory: <br />
+            Processor: <br />
+
+          </div>
+        </div>
+
       </div>
 
-      <div class="font-weight-bold">General Requirements:
-        <div class="font-weight-normal"><?php echo $deReq; ?></div>
-      </div>
 
-      <div class="font-weight-bold">Distros that Feature:
-        <div class="font-weight-normal"><?php echo $deFeatured; ?></div>
-      </div>
+      <div class="font-weight-bold">Distros that Feature:  </div>
     </div>
   </div>
 </div>
@@ -49,8 +56,9 @@
 <div class="card">
   <div class="card-block">
     <div class="card-text">
+        <span class="font-bold">How to Install and Version Information</span>    
 
-		<?php include $sitePath . "/linuxHQ/modules/sections/installHowTo.tpl"; ?>
+		    <?php include $sitePath . "/linuxHQ/modules/sections/installHowTo.tpl"; ?>
 
     </div>
   </div>

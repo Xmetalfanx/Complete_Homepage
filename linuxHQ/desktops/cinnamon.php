@@ -1,6 +1,6 @@
 <?php
 
-    $localdename = 'Cinnamon';
+    $localdename = 'cinnamon';
 
 
 		$title = 'DE/WM Section - Cinnamon ';
