@@ -1,5 +1,5 @@
 <?php
-{
+
 
   echo "<table>";
     echo "<caption>Desktop version comparision chart</caption>";
@@ -14,21 +14,17 @@
     echo "</tr>";
 
     echo "<tr>";
-      echo "<td>" . ($field['pacmanversion']) . "</td>";
-      echo "<td>" . ($field['f25version']) . "</td>";
-      echo "<td>" . ($field['f25version']) . "</td>";
-      echo "<td>" . ($field['leap422version']) . "</td>";
+      echo "<td>" . $archVerDisplay["pacmanversion"] . "</td>";
+
+        echo "<td>" . $row['f25version'] . "</td>";
+        echo "<td>" . $row['f26version'] . "</td>";
+
+      echo "<td>" . $suserow['leap422version'] . "</td>";
       echo "<td>" . ($field['leap423version']) . "</td>";
       echo "<td>" . ($field['lts16040ver']) . "</td>";
       echo "<td>" . ($field['1704ver']) . "</td>";
     echo "</tr>";
 
   echo "</table>";
-
-
-
-
-
-}
 
 ?>

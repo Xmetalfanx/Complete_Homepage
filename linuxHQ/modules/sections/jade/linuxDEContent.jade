@@ -3,27 +3,32 @@
 #LinuxSection
 
     // Call Distro Title Here 
-  
-  .card
-    .card-block 
-      .card-text
-        .font-weight-bold Desktop Catagory:
-          .font-weight-normal <?php echo $deClass; ?>
+  .row
+    <?php echo ($field['distroname']); ?>
+          
+  .row
+    .card.col-lg-7
+      .card-block
+        .card-text
+          .screenshots
+            div.font-weight-bold Screenshots   
+              <?php include . '/linuxHQ/modules/database/sshotsdb.php'; ?> 
 
-        .font-weight-bold General Requirements:
-          .font-weight-normal <?php echo $deClass; ?>
+    
+    .card.col-lg-5
+      .card-block
+        .card-text
+          .font-weight-bold Desktop Catagory:
+            .font-weight-normal <?php echo $deClass; ?>
+
+          .font-weight-bold General Requirements:
+            .font-weight-normal <?php echo $deClass; ?>
+            
+          .font-weight-bold Distros that Feature:
+            .font-weight-normal <?php echo $deFeatured; ?>
+            
+
           
-        .font-weight-bold Distros that Feature:
-          .font-weight-normal <?php echo $deFeatured; ?>
-          
-          
-  .card
-    .card-block
-      .card-text
-        .screenshots.col-lg-8
-          div.font-weight-bold Screenshots 
-          div $deSShot;
-        
   .card
     .card-block
       .card-text 

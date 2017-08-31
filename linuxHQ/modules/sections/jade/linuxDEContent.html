@@ -2,27 +2,32 @@
 <div id="LinuxSection">
   <!-- Call Distro Title Here -->
 </div>
-<div class="card">
-  <div class="card-block"> 
-    <div class="card-text">
-      <div class="font-weight-bold">Desktop Catagory:
-        <div class="font-weight-normal"><?php echo $deClass; ?></div>
-      </div>
-      <div class="font-weight-bold">General Requirements:
-        <div class="font-weight-normal"><?php echo $deClass; ?></div>
-      </div>
-      <div class="font-weight-bold">Distros that Feature:
-        <div class="font-weight-normal"><?php echo $deFeatured; ?></div>
+<div class="row"><?php echo ($field['distroname']); ?></div>
+<div class="row">
+  <div class="card col-lg-7">
+    <div class="card-block">
+      <div class="card-text">
+        <div class="screenshots">
+          <div class="font-weight-bold">
+            Screenshots   
+            <?php include . '/linuxHQ/modules/database/sshotsdb.php'; ?> 
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="card">
-  <div class="card-block">
-    <div class="card-text">
-      <div class="screenshots col-lg-8">
-        <div class="font-weight-bold">Screenshots </div>
-        <div>$deSShot;</div>
+  <div class="card col-lg-5">
+    <div class="card-block">
+      <div class="card-text">
+        <div class="font-weight-bold">Desktop Catagory:
+          <div class="font-weight-normal"><?php echo $deClass; ?></div>
+        </div>
+        <div class="font-weight-bold">General Requirements:
+          <div class="font-weight-normal"><?php echo $deClass; ?></div>
+        </div>
+        <div class="font-weight-bold">Distros that Feature:
+          <div class="font-weight-normal"><?php echo $deFeatured; ?></div>
+        </div>
       </div>
     </div>
   </div>

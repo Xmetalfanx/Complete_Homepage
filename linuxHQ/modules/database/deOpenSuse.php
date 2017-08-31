@@ -14,7 +14,7 @@
       echo "<tr>";
         echo "<td>" . ($field['leap422version']) . "</td>";
         echo "<td>" . ($field['leap423version']) . "</td>";
-        echo "<td>" . ($field['tumbleweedversion'])  . "</td>";
+        echo "<td>" . ($field['twversion'])  . "</td>";
     echo "</tr>";
     echo "</table>";
 
