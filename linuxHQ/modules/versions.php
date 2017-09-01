@@ -13,5 +13,8 @@
     $archVerResult = mysqli_query($conn, $archVer);
     $archVerDisplay=mysqli_fetch_assoc($archVerResult);
 
+    $fedoraVerResult = mysqli_query($conn, $fedoraVer);
+    $fedoraVerDisplay=mysqli_fetch_assoc($fedoraVerResult);
+
 
 ?>

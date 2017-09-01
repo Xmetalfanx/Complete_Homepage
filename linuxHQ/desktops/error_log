@@ -1,13 +1,14 @@
 
+[31-Aug-2017 20:35:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 18
 
-[31-Aug-2017 19:04:24 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 15
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 8
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 9
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 10
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 11
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 12
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 13
-[31-Aug-2017 19:04:24 America/New_York] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, array given in /home/xmetalx1/public_html/linuxHQ/modules/mainDEInfoResults.php on line 7
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined index: href in /home/xmetalx1/public_html/linuxHQ/modules/database/sshotsdb.php on line 7
-[31-Aug-2017 19:04:24 America/New_York] PHP Notice:  Undefined index: category in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDEContent.tpl on line 31
-[31-Aug-2017 19:04:24 America/New_York] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 20
+[31-Aug-2017 20:35:34 America/New_York] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, null given in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 20
+
+
+[31-Aug-2017 20:35:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/linuxHQ/modules/versions.php on line 17
+[31-Aug-2017 20:35:34 America/New_York] PHP Warning:  mysqli_free_result() expects parameter 1 to be mysqli_result, array given in /home/xmetalx1/public_html/linuxHQ/modules/mainDEInfoResults.php on line 7
+[31-Aug-2017 20:35:34 America/New_York] PHP Notice:  Undefined index: href in /home/xmetalx1/public_html/linuxHQ/modules/database/sshotsdb.php on line 7
+[31-Aug-2017 20:35:34 America/New_York] PHP Notice:  Undefined index: category in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDEContent.tpl on line 31
+[31-Aug-2017 20:35:34 America/New_York] PHP Notice:  Undefined variable: ubunuresult in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 41
+
+[31-Aug-2017 20:35:34 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/xmetalx1/public_html/linuxHQ/modules/database/mainDistroVer.php on line 41
+[31-Aug-2017 20:35:34 America/New_York] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/xmetalx1/public_html/linuxHQ/modules/database/deubuntu.php on line 12
