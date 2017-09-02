@@ -18,6 +18,10 @@
     echo "</tr>";
     echo "</table>";
 
+    echo "<strong> How to install: </strong>" . $field['install'];
+
   }
+
+
 
 ?>

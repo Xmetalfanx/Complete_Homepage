@@ -18,6 +18,16 @@
       echo "</tr>";
       echo "</table>";
 
+      echo "<em>put code here to check if its plasma 5 and if its not a plasma5 page, do not show this.... this will eventually be in the table above</em><br /><br /> ";
+
+      echo "KDE Neon version:" . $field['neonversion'] . "<br />";
+
+      echo "<strong>How to Install: </strong>" . $field['install'] . "<br />";
+
+      echo "<strong>How to install specifically in Linux Mint: </strong>" . $field['mintinstall'] . "<br />";
+
+
+
     }
 
 ?>

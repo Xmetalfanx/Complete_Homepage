@@ -3,23 +3,28 @@
     // Connects to Database
     require $sitePath . '/database/connect.php';
 
-    // Idea: localDEName is in each DE file and assigned there
+    $mainInfo = "SELECT * FROM mainDEInfo WHERE dename = '$localdename' ";
+    $mainInfoResult = mysqli_query($conn, $mainInfo) or ('Error querying database');
+    $mainInfoDisplay = mysqli_fetch_assoc($mainInfoResult);
+
+    // mysqli_free_result($mainInfoDisplay);
+
+    $reqInfo = "SELECT * FROM dereq WHERE dename = '$localdename' ";
+    $reqResult = mysqli_query($conn, $reqInfo) or ('Error querying database');
+    $reqInfoDisplay = mysqli_fetch_assoc($reqResult);
+
+    // mysqli_free_result($reqInfoDisplay);
 
     $sshotDE = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
     $sshotDEResult = mysqli_query($conn, $sshotDE) or ('Error querying database');
-    $sshotDisplay=mysqli_fetch_assoc($sshotDEResult);
+    $sshotDisplay = mysqli_fetch_assoc($sshotDEResult);
 
-    mysqli_free_result($sshotDEResult);
+    // mysqli_free_result($sshotDEResult);
 
-    // mysqli_close($conn);
+    $softwareInfo = "SELECT * FROM desoftware WHERE dename = '$localdename' ";
+    $softwareResult = mysqli_query($conn, $softwareInfo) or ('Error querying database');
+    $softwareDisplay = mysqli_fetch_assoc($softwareResult);
 
-     $mainInfo = "SELECT * FROM mainDEInfo WHERE ssde = '$localdename' ";
-     $mainInfoResult = mysqli_query($conn, $mainInfo) or ('Error querying database');
-     $mainInfoDisplay =mysqli_fetch_assoc($mainInfoResult);
-
-     mysqli_free_result($mainInfoResult);
-
-     // mysqli_close($conn);
 
      $archdb = "SELECT * FROM dearch WHERE dename = '$localdename' ";
      $fedoradb = "SELECT * FROM defedora WHERE dename = '$localdename' ";

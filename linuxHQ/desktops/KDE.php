@@ -7,21 +7,17 @@
     $deFeatured =  '<ul>
 											<li>' . $mintHP  . '</li>
 											<li> '. $fedoraHP . '</li>
-											<li>' . $suseHP . '</li>
-
-											<li>Kubuntu </li>';
+											<li>' . $suseHP . '</li>';
 
 
-    	// installs
+    // installs
 	$installUbuntu = 'sudo apt-get install kde-standard OR sudo apt-get install kde-full';
 
-  $installMint =	' sudo apt-get install mint-meta-kde';
+  $installMint =	'sudo apt-get install mint-meta-kde';
 
   $installFedora = 'yum install @kde-desktop ';
 
 
-  // Not used now since its plasma 5 
-  $installSuse = 'zypper install -t pattern kde4 kde4_basis ';
 
 $title = 'DE/WM Section - KDE4 ';
 

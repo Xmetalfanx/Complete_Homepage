@@ -41,20 +41,14 @@
     <div class="tab-content">
       <?php include $sitePath . '/linuxHQ/modules/database/deOpenSuse.php'; ?>
 
-			<p>instructions on how to install it go here </p>
-
-
     </div>
   </li>
-
 
 
   <li class="tab-header-and-content">
     <a href="#ubuntu" class="tab-link">Ubuntu </a>
     <div class="tab-content">
       <?php include $sitePath . '/linuxHQ/modules/database/deubuntu.php'; ?>
-
-      <p> instructions on how to install it go here </p>
 
     </div>
   </li>

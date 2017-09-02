@@ -18,7 +18,7 @@
       echo "</tr>";
       echo "</table>";
 
-      echo "<p>How to Install: </p>";
+      echo "<strong>How to Install: </strong>" . $field['install'];
 
   }
 

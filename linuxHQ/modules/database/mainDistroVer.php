@@ -1,6 +1,6 @@
 <?php
 
-echo "<p>Current Released Version </p>:";
+  echo "<p>Current Released Version: <strong>" . $mainInfoDisplay['currentversion'] . " </strong></p>"; 
 
   echo "<table>";
     echo "<caption>Desktop version comparision chart</caption>";
