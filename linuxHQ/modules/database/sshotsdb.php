@@ -1,9 +1,10 @@
   <?php
 
-        echo "<a href=\"" . $sshotDisplay['src'] . " \" target=\"_blank\" >";
-          echo "<img src=\" " . $sshotDisplay['src'] . " \" alt=\" whatever alt tag here \" /> ";
-        echo "</a> <br />";
-
-        echo "<a href=\" " . $sshotDisplay['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
+  foreach($sshottestresult as $field)
+  {
+    echo "<a href=\"" . $field['src'] . " \" target=\"_blank\" >";
+    echo "<img class=\"img-fluid\" src=\" " . $field['src'] . " \" alt=\" whatever alt tag here \" /> ";
+    echo "</a> <br />";
+  }
 
   ?>
