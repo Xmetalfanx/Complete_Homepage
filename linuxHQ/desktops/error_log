@@ -1,14 +1,11 @@
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 6
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 12
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 18
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 23
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 23
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 30
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 35
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 36
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 37
-[02-Sep-2017 19:16:44 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/derequest.php on line 38
-
-
-[02-Sep-2017 19:16:44 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/linuxHQ/modules/versions.php on line 17
-
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: mintHP in /home/xmetalx1/public_html/linuxHQ/desktops/KDE.php on line 8
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: fedoraHP in /home/xmetalx1/public_html/linuxHQ/desktops/KDE.php on line 9
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: suseHP in /home/xmetalx1/public_html/linuxHQ/desktops/KDE.php on line 10
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 8
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 9
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 10
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 11
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 12
+[02-Sep-2017 22:33:48 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 13
+[02-Sep-2017 22:33:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/linuxHQ/modules/versions.php on line 17
+[02-Sep-2017 22:33:48 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/xmetalx1/public_html/linuxHQ/modules/database/sshotsdb.php on line 35
