@@ -27,43 +27,20 @@
 
 
 
-
  <h2>Firefox</h2>
 
    <h4>Performance Addons</h4>
-
- <div class="card card-warning">
-   <div class="card-header"><a href="http://placescleaner.googlecode.com/">PlaceCleaner</a></div>
-   <div class="card-block">
-     <div class="card-text">Defragment your Firefox places.sqlite database to speed-up Firefox"</div>
-   </div>
- </div>
- <div class="card">
-   <div class="card-header"><a href="https://addons.mozilla.org/en-US/firefox/addon/preferences-cleaner">Preferences Cleaner</a></div>
-   <div class="card-block">
-     <div class="card-text">Clear preferences (in About:config> Preferences Cleaner from removed addons. Even I was shocked that there were a good number of preferences saved from addons I had removed a long time ago.</div>
-   </div>
- </div>
 
 
 
  <h4>Profile-related</h4>
 
- <div class="card card-warning">
-   <div class="card-header">
-     <a href="https://nic-nac-project.org/~kaosmos/index-en.html">ProfileSwitcher</a></div>
-   <div class="card-block">
-     <div class="card-text">
-       Last update seems like awhile ago
-       Nothing Fancy, … just adds a way to easily get to the profile manager AND switch Firefox Profiles in the File Menu….Very Handy, if you ask me
-     </div>
-   </div>
- </div>
-
 
 
  <div class="card">
-   <div class="card-header"><a href="http://www.autistici.org/bakunin/switchy/">Switchy</a></div>
+   <div class="card-header">
+	   <a href="http://www.autistici.org/bakunin/switchy/">Switchy</a>
+   </div>
    <div class="card-block">
      <div class="card-text">
        Note: Not Updated since 2015
@@ -75,26 +52,8 @@
 
 
 
- <h4>HTTP Header Related Addons</h4>
- <div class="card">
-   <div class="card-header">
-     <a href="https://addons.mozilla.org/en-US/firefox/addon/live-http-headers-clone/?src=api" target="_blank">Live HTTP Headers (clone)</a></div>
-   <div class="card-block">
-     <div class="card-text">
-       This replaces the original which hasn't been updated in over 7 years
-       This allows you to view http header data while viewing websites
-     </div>
-   </div>
- </div>
-
-
  <h4>Misc. Firefox Extentions</h4>
- <div class="card">
-   <div class="card-header"><a href="http://www.cusser.net">Context Search</a></div>
-   <div class="card-block">
-     <div class="card-text">Context Search via the context (Right click) menu, making searching alot easier.  While Firefox NOW HAS searching in your default search engine, like this.. this addon expands out, allowing you to right click and search any search tool you have installed (Amazon, Ebay, <your favorite search engine>...etc etc)</div>
-   </div>
- </div>
+
 
 
  <div class="card">
@@ -106,15 +65,7 @@
 
 
 
- <div class="card">
-   <div class="card-header"><img src="/techHQ/graphics/ffox/FEBE.png" alt="FEBE Icon" class="icon"/><a href="http://customsoftwareconsult.com/extension">FEBE</a></div>
-   <div class="card-block">
-     <div class="card-text">
-       This will backup various aspects of your Firefox "profile/install" … also it can create a list of your currently
-       installed Themes and Plugins …  backup cookies, preferences, and searchbar entries … VERY VERY USEFUL
-     </div>
-   </div>
- </div>
+
 
 
 
@@ -204,7 +155,8 @@
 
  <div class="card">
    <div class="card-header">
-     <img src="/techHQ/graphics/ffox/reloadPlus.png" alt="Reload Plus"/><a href="https://addons.mozilla.org/en-US/firefox/addon/reload-plus">Reload Plus</a>
+     <img src="/techHQ/graphics/ffox/reloadPlus.png" alt="Reload Plus"/>
+     <a href="">Reload Plus</a>
    </div>
    <div class="card-block">
      <div class="card-text">
@@ -219,6 +171,7 @@
      </div>
    </div>
  </div>
+
 
 
  <div class="card">
@@ -236,12 +189,15 @@
 
  <div class="card">
    <div class="card-header">
-     <img src="#" alt="Icon"/><a href="https://addons.mozilla.org/en-US/firefox/addon/shortly-url-shortener/?src=collection&amp;collection_id=1e168743-04ef-e0f0-9d1f-2f01da8422f0">Shortly URL Shortener</a>
+     <a href="https://addons.mozilla.org/en-US/firefox/addon/shortly-url-shortener/?src=collection&amp;collection_id=1e168743-04ef-e0f0-9d1f-2f01da8422f0">Shortly URL Shortener</a>
    </div>
    <div class="card-block">
      <div class="card-text">Shortens Long URls (Website Links)</div>
    </div>
  </div>
+ 
+ 
+ 
  <div class="card">
    <div class="card-header">
      <img src="/techHQ/graphics/ffox/ShowIP.png" alt="ShowIP" class="icon"/><a href="http://code.google.com/p/firefox-showip/"> ShowIP</a>
@@ -251,19 +207,28 @@
    </div>
  </div>
 
+
+
  <div class="card">
-   <div class="card-header"><a href="http://www.unshorten.it/">Unshorten.It!</a></div>
+   <div class="card-header">
+	   <a href="http://www.unshorten.it/">Unshorten.It!</a></div>
    <div class="card-block">
      <div class="card-text">Unshortens shorten (say <span class="redtext"><a href="http://tinyurl.com/blah">http://tinyurl.com/blah</a></span> ) URLs so you can see wherethey redirect to</div>
    </div>
  </div>
 
+
+
  <div class="card">
    <div class="card-header">
-     <img src="/techHQ/graphics/ffox/UserAgent.png" alt="User Agent Switcher Icon"/><a href="">User Agent Switcher</a></div>
+     <img src="/techHQ/graphics/ffox/UserAgent.png" alt="User Agent Switcher Icon"/>
+     <a href="">User Agent Switcher</a></div>
    <div class="card-block">
      <div class="card-text">
        <p>Allows you to change the User Agent information sent by Firefox. This includes &ldquo;what browser&rdquo; you are using, and what version of that browser,with some other information</p>
      </div>
    </div>
- </div><?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+ </div>
+ 
+ 
+ <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

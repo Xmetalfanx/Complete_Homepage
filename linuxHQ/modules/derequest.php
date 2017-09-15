@@ -19,12 +19,6 @@
     $sshotDEResult = mysqli_query($conn, $sshotDE) or ('Error querying database');
     $sshotDisplay = mysqli_fetch_assoc($sshotDEResult);
 
-
-    $sshottest = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
-    $sshottestresult = mysqli_query($conn, $sshottest) or ('Error querying database');
-    $sshotmanydisplay = mysqli_fetch_assoc($sshottestresult);
-
-
     // mysqli_free_result($sshotDEResult);
 
     $softwareInfo = "SELECT * FROM desoftware WHERE dename = '$localdename' ";

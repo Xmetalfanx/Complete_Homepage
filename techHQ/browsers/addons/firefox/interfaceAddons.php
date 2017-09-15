@@ -14,14 +14,14 @@ h3 Interface Tweaking Addons
     .card-text
 	  <p> Some Features of this add-on are: </p>
         <ul>
-						  <li>Disabling all Meta-Redirects</li>
-						  <li>Disabling auto complete for (all individual configurations)
-								<ul>
-									<li>Searchbar</li>
-									<li>Location bar (Address bar) </li>
-									<li>Forms</li>
-									<li> &#8230; &#8230; &#8230; and more &#8230; &#8230; &#8230; </li>
-							  </ul>
+			  <li>Disabling all Meta-Redirects</li>
+			  <li>Disabling auto complete for (all individual configurations)
+					<ul>
+						<li>Searchbar</li>
+						<li>Location bar (Address bar) </li>
+						<li>Forms</li>
+						<li> &#8230; &#8230; &#8230; and more &#8230; &#8230; &#8230; </li>
+				  </ul>
 			        </li>
 			    </ul>
 

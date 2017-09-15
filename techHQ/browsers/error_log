@@ -1,0 +1,10 @@
+
+[16-Sep-2017 22:43:42 America/New_York] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'xmetalx1_view'@'localhost' to database 'xmetalx1_techHQ' in /home/xmetalx1/public_html/database/techdbconnect.php on line 8
+[16-Sep-2017 22:43:42 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 7
+[16-Sep-2017 22:43:42 America/New_York] PHP Notice:  Undefined variable: mainInfoResult in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 8
+[16-Sep-2017 22:43:42 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 8
+
+[16-Sep-2017 22:43:42 America/New_York] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 12
+
+
+[16-Sep-2017 22:43:42 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/xmetalx1/public_html/techHQ/modules/database/browser.php on line 7
