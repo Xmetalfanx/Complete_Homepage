@@ -1,6 +1,17 @@
 
-<?php include $sitePath . '/techHQ/modules/variables/icons.php'; ?>
-<?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
+<?php 
+
+	include $sitePath . '/techHQ/modules/variables/icons.php'; 
+	include $sitePath . '/modules/tech/baseTechHeader.tpl'; 
+	include $sitePath . '/techHQ/modules/techderequest.php';
+
+	
+?>
+
+
+
+
+
 <div class="row col-md-12">
   <div class="hidden-sm-down col-md-2 col-lg-2 col-xl-2">
     <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>

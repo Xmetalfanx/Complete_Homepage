@@ -5,9 +5,20 @@
 
     $browserdata = "SELECT * FROM mainBrowser ORDER BY addontitle ";
     $browserMainResult = mysqli_query($conn, $browserdata) or ('Error querying database');
-    $browerMainDisplay = mysqli_fetch_assoc($mainInfoResult);
+    $browserMainDisplay = mysqli_fetch_assoc($browserMainResult);
 
-    // mysqli_free_result($mainInfoDisplay);
+
+	// Specific to the addons in the download catagory 
+	$browserAddonsDownload = "SELECT * FROM mainBrowser ORDER BY addontitle GROUP BY catagory";
+	$browserDownloadsResult = mysqli_query($conn, $browserAddonsDownload) or ('Error querying database');
+    $browserDownloadDisplay = mysqli_fetch_assoc($browserDownloadsResult);
+
+
+	// Software db table 
+    $totalSoftwareData = "SELECT * FROM overallsoftware ORDER BY `appmaincat` ";
+    $totalSoftwareResult = mysqli_query($conn, $totalSoftwareData) or ('Error querying database');
+    $browserMainDisplay = mysqli_fetch_assoc($totalSoftwareResult);
+
 
     mysqli_close($conn);
 

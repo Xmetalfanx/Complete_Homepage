@@ -1,0 +1,6 @@
+
+[17-Sep-2017 17:04:33 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 14
+[17-Sep-2017 17:04:33 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 20
+
+
+[17-Sep-2017 17:04:33 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/xmetalx1/public_html/techHQ/modules/database/software.php on line 5

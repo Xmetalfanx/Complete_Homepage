@@ -6,7 +6,12 @@
 
 ?>
 	
-<?php include $sitePath . '/techHQ/modules/database/browser.php'; ?>
+<?php 
+
+	echo "Download Related Addons: "; 
+	include $sitePath . '/techHQ/modules/database/browserDownloadAddons.php'; 
+
+?>
 
 
 <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
