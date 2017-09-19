@@ -5,7 +5,7 @@ foreach($browserDownloadsResult as $field)
   echo "<div class=\"card\" >";
 	echo "<div class=\"card-block\" >";
   
-	  echo "<div class=\"card-title\">";
+	  echo "<div class= \"card-title bg-ligh \" > ";
 		echo "<div class=\"col-lg-3\" > ";
 			echo $field['iconurl'];
 		echo "</div>";	

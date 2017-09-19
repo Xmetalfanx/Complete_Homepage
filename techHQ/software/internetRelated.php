@@ -5,8 +5,19 @@
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
+    
+      
+        // Assign localquery to sort by the main catagory
+        localmainquery = 'internet';
+        
+        
+    
+    
+    
+    
     <ul class="accordion-tabs-minimal">
-        <li class="tab-header-and-content"> <a href="#" class="tab-link is-active">Offline Browsers </a>
+        <li class="tab-header-and-content"> 
+			<a href="#" class="tab-link is-active">Offline Browsers </a>
             <div class="tab-content"> <a href="http://www.metaproducts.com/mp/offline_explorer.htm">Offline Explorer</a>
                 <p>Licence: not freeware</p>
                 <p>Offline Explorer is the next generation of off-line browser. It combines flexibility, power and ease of ''use'' in a tightly-coded package with all the features needed in an off-line browser.</p>
@@ -21,13 +32,18 @@
                 </ul>
             </div>
         </li>
-        <li class="tab-header-and-content"> <a href="#" class="tab-link">Download Managers</a>
-            <div class="tab-content"> <a href="http://www.orbitdownloader.com/">Orbit</a>
+        
+        <li class="tab-header-and-content"> 
+			<a href="#" class="tab-link">Download Managers</a>
+            <div class="tab-content"> 
+				<a href="http://www.orbitdownloader.com/">Orbit</a>
                 <p> These are all good choices, and free (no spyware or any of that) Note: these are more to &quot;manage&quot; downloads and although these are good for &quot;resuming&quot; downloads if you need it too ... These will not &quot;double your download speed&quot; </p>
             </div>
         </li>
-        <li class="tab-header-and-content"> <a href="#" class="tab-link">Email Related</a>
-            <div class="tab-content"> <img src="/techHQ/progIcons/internet/thunderbird.png" alt="Mozilla Thunderbird Icon " /> <a href="https://www.mozilla.org/en-US/thunderbird/" target="_blank">Mozilla Thunderbird</a>
+        <li class="tab-header-and-content"> 
+			<a href="#" class="tab-link">Email Related</a>
+            <div class="tab-content"> 
+				<img src="/techHQ/progIcons/internet/thunderbird.png" alt="Mozilla Thunderbird Icon " /> <a href="https://www.mozilla.org/en-US/thunderbird/" target="_blank">Mozilla Thunderbird</a>
                 <p>Email client by the makers of Firefox </p>
             </div>
         </li>
@@ -42,4 +58,6 @@
             </div>
         </li>
     </ul>
-    <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+    
+    
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -6,7 +6,14 @@
 
 ?>
 
-<?php include $sitePath . '/techHQ/modules/database/software.php'; ?>
+<?php
+
+  $localmainquery = 'internet';
+  include $sitePath . '/techHQ/modules/database/softwaretest.php';
+
+
+
+?>
 
 
 
