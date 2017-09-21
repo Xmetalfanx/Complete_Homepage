@@ -8,7 +8,15 @@
 
 <?php
 
-  $localmainquery = 'internet';
+
+  // function call test
+  // echo "calling sortApps function";
+  $localmaincat = 'security';
+
+  sortAppsMain($localmaincat);
+
+
+
   include $sitePath . '/techHQ/modules/database/softwaretest.php';
 
 

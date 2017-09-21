@@ -7,9 +7,25 @@
 
 ?>
 
+
+<?php
+
+
+  $localmaincat = 'systemtools';
+  sortAppsMain($localmaincat);
+
+
+  include $sitePath . '/techHQ/modules/database/softwaretest.php';
+
+?>
+
+
+
 <ul class="accordion-tabs-minimal">
-  <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Various Tools</a>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link is-active">Various Tools</a>
     <div class="tab-content">
+
       <h3>General System Tools</h3>These are more of a variety of &quot;System Tools&quot; freewares.  The list was getting too long, so I moved many of
       them to the System Tools &quot;Subpages&quot;, listed to the left.  If there is a well known freeware not listed on this | page, odds are its in one of the subpages.
       <ul class="list-unstyled">
@@ -27,7 +43,7 @@
           <div class="media-body">
             <h5 class="mt-0"><a href="http://www.dexpot.de/">Dexpot</a>This is the program (type) I have been looking for. It is a FREEware that allows you to have multiple virtual desktops that you can switch between. This program is HIGHLY customizable, and to be honest, I am still playing with all the options.
               There HAVE BEEN free programs like this in the past that didn&apos;t offer all the features, that I had been looking for. Also there have been programs (I can not recall the name) that had the functions and features, though were  priced at $29.99 or higher. This is a great little tool I plan to mess around with more in the coming days.
-            </h5>
+            </h5>productivity
           </div>
         </div>
         <div class="media"><img src="/techHQ/progIcons/system_tools/DuplicateCleaner_setup_103.png" alt="Duplicate Cleaner" class="d-flex mr-3"/>
@@ -73,7 +89,8 @@
             </h5>
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/QuickRestoreMaker.png" alt="Quick Restore Maker" class="d-flex mr-3"/>
+        <div class="media"
+        ><img src="/techHQ/progIcons/system_tools/QuickRestoreMaker.png" alt="Quick Restore Maker" class="d-flex mr-3"/>
           <div class="media-body">
             <h5 class="mt-0"></h5><a href="http://www.thewindowsclub.com/create-a-system-restore-point-in-1-click-with-quick-restore-maker"></a>Make System Restore points on command with one click (works on Windows XP, Vista, and Windows 7)
           </div>
@@ -187,41 +204,11 @@
   </li>
   <li class="tab-header-and-content"><a href="#" class="tab-link">Defragmenters </a>
     <div class="tab-content">
-      <div class="media"><img src="/techHQ/progIcons/system_tools/defrag/DiskDefrag_MAINICON.png" alt="Auslogic Defrag Icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="http://www.auslogics.com/redirect.php?referer=dd30v1&amp;redirect=en" target="_blank">Auslogic Defrag</a></h5>
-        </div>
-      </div>
-      <div class="media"><img src="/techHQ/progIcons/system_tools/defrag/MyDefrag_1.png" alt="MyDefragGUI screenshot" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="http://www.mydefrag.net">MyDefrag/MyDefragGUI</a></h5>(New name for the new versions of JKDefrag)
-        </div>
-      </div>
-      <div class="media"><img src="/techHQ/progIcons/system_tools/defrag/1005t__defraggler.png" alt="DeFraggler Icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="https://www.piriform.com/defraggler" target="_blank">Piriform&apos;s Defraggler</a></h5>
-          <ul>
-            <li>This defrags file by file</li>
-            <li>Creator of CCleaner makes this</li>
-            <li>Does a decent job</li>
-          </ul>
-        </div>
-      </div>
-      <div class="media"><img src="" alt="" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="http://ultradefrag.sourceforge.net/">UltraDefrag</a></h5>Defragmenter that has a Simple Interface, but powerful defragmenting capabilities
-          <hr/>
-          <p>
-            Just remember if you defrag with one and then scan with another (say defrag with MyDefrag, and then scan with
-            Defraggler) you may notice the second says its not &quot;perfect&quot;. You then defrag with the second defragmenter,
-            and analyze the partition with the first defragmenter you used and find the FIRST now says its fragmented
-             ... point is, I would stick with one defragmenter.
-          </p>
-        </div>
-      </div>
-      <p><strong>My Opinion:</strong><span class="redBold">I use Auslogic Defrag</span></p>
+      Sub-sorted Defrag programs will go here
+
     </div>
   </li>
+
   <li class="tab-header-and-content"><a href="#" class="tab-link">Process Managers</a>
     <div class="tab-content">
       <div class="media"><img src="/techHQ/progIcons/system_tools/process/procexp_101.png" alt="Process Explorer Icon" class="d-flex mr-3"/>
@@ -230,38 +217,40 @@
           install on most systems I work on.
         </div>
       </div>
-      <div class="media"><img src="/techHQ/progIcons/system_tools/process/ProcessHacker_101.png" alt="Process Hacker 2" class="d-flex mr-3"/>
+      <div class="media">
+        <img src="/techHQ/progIcons/system_tools/process/ProcessHacker_101.png" alt="Process Hacker 2" class="d-flex mr-3"/>
         <div class="media-body">
-          <h5 class="mt-0"><a href="http://sourceforge.net/projects/processhacker">Process Hacker 2</a></h5>Task Manager Replacement that I install on most systems I work on.
+          <h5 class="mt-0">
+            <a href="http://sourceforge.net/projects/processhacker">Process Hacker 2</a></h5>Task Manager Replacement that I install on most systems I work on.
         </div>
       </div>
-      <div class="media"><img src="/techHQ/progIcons/system_tools/process/SystemExplorer_MAINICON.png" alt="System Explorer Icon" class="d-flex mr-3"/>
+      <div class="media">
+        <img src="/techHQ/progIcons/system_tools/process/SystemExplorer_MAINICON.png" alt="System Explorer Icon" class="d-flex mr-3"/>
         <div class="media-body">
           <h5 class="mt-0"><a href="http://systemexplorer.net/">System Explorer</a></h5>
         </div>
       </div>
     </div>
   </li>
-  <li class="tab-header-and-content"><a href="#" class="tab-link">Program Updaters </a>
+
+
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Program Updaters </a>
     <div class="tab-content">
-      <div class="media"><img src="#" alt="PatchMyPC Icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"></h5>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-text">
-          <p>scans for available updates to installed programs </p>
-          <p>Add PatchMyPC Here (Note to Self)</p>
-        </div>
-      </div>
+      Sub-Sorted Application updaters will go here
+
     </div>
   </li>
+
+
+
   <li class="tab-header-and-content"><a href="#" class="tab-link">Startup Managers</a>
     <div class="tab-content">
-      <div class="media"><img src="/techHQ/progIcons/system_tools/autoRuns.png" alt="autoruns icon" class="d-flex mr-3"/>
+      <div class="media">
+        <img src="/techHQ/progIcons/system_tools/autoRuns.png" alt="autoruns icon" class="d-flex mr-3"/>
         <div class="media-body">
-          <h5 class="mt-0"><a href="http://www.sysinternals.com/">Autoruns</a></h5>
+          <h5 class="mt-0">
+            <a href="http://www.sysinternals.com/">Autoruns</a></h5>
           This program has the most comprehensive knowledge of auto-starting locations of any startup monitor (A starting list of
           auto-run locations was obtained from David Solomon&apos;s &quot;Windows Internals&quot; seminar), shows you what programs | are configured to run during system boot-up or login, and shows you the entries in the order Windows processes them.
           These programs include ones in your startup folder, Run, RunOnce, and other Registry keys. A &quot;Hide Signed Microsoft

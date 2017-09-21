@@ -16,7 +16,7 @@
 
 }
 
-
+light
 .accordion-tabs-minimal
 {
   border: 1px solid rgb(0, 0, 0);
@@ -41,5 +41,13 @@ header
   @include padding( 10px 20px null 10px);
   font-size: 17px;
   text-align: justify;
+
+}
+
+.card-block
+{
+  padding-top: 0px;
+  margin-top: 10px;
+
 
 }

@@ -39,7 +39,6 @@
         <p>&nbsp;</p>
         <div class="progTables">
           <div class="progTablesName"><a href="http://www.explorerplusplus.com" target="_blank">Explorer++</a></div>
-          <div class="progTableVer"> Latest Version : </div>
           <div class="progTableDesc">A good freeware choice that is getting better/adding features version by version. </div>
         </div>
         <p>&nbsp;</p>
@@ -48,13 +47,11 @@
 
           <a href="http://www.explorerxp.com/" target="_blank">
           <img src="../progIcons/system_tools/fileManagers/ExplorerXP_128.png" alt="ExplorerXP Icon" class="iconsLeft" />ExplorerXP</a></div>
-          <div class="progTableVer"> Latest Version : </div>
           <div class="progTableDesc"></div>
         </div>
         <div class="progTables">
 
          <div class="progTablesName"> Free Commander </div>
-            <div class="progTableVer"> Latest Version : </div>
           <div class="progTableDesc"><span class="boldText">Comment: </span>I have known about Explorer++, XYPlorer,
           Total Commander, Directory Opus, and even Xplorer2 for awhile now, though this one is new to me. I have to say that I love it</div>
         </div>
@@ -63,13 +60,11 @@
         <p>&nbsp;</p>
         <div class="progTables">
           <div class="progTablesName"><span class="progName_header">Total Commander </span></div>
-          <div class="progTableVer"> Latest Version : </div>
           <div class="progTableDesc"> LOTS of plugins, but still it looks a bit &quot;Windows 3.1ish&quot; to me... Alot of people love that about it and find this to be better than Directory Opus <img src="../smiles/various/dont-know.gif" alt="&quot;Dont Know&quot;" width="30" height="20" /></div>
         </div>
         <p>&nbsp;</p>
         <div class="progTables">
           <div class="progTablesName"><a href="http://www.zabkat.com/" target="_blank"><img src="../progIcons/system_tools/fileManagers/xplorer2_64_128.png" alt="Xplorer2" width="48" height="48" class="iconsLeft" />Xplorer2</a></div>
-          <div class="progTableVer"> Latest Version : </div>
           <div class="progTableDesc">
             <p class="justify">(Note: comments here are based on the Free version) </p>
             <p class="justify">This may be one of the nicer free file managers that makes navigating your computer very easy, though many advanced features are in the pro version only. This is one of the top picks (Free version) if you ask me.</p>
@@ -77,8 +72,8 @@
         </div>
         <p>&nbsp;</p>
         <div class="progTables">
-          <div class="progTablesName"><a href="http://www.xyplorer.com/" target="_blank"><img src="../progIcons/system_tools/fileManagers/XYplorer_1.png" alt="XYPlorer ICon" width="32" height="32" class="iconsLeft" />XYPlorer</a></div>
-          <div class="progTableVer"> Latest Version : </div>
+          <div class="progTablesName">
+            <a href="http://www.xyplorer.com/" target="_blank"><img src="../progIcons/system_tools/fileManagers/XYplorer_1.png" alt="XYPlorer ICon" width="32" height="32" class="iconsLeft" />XYPlorer</a></div>
           <div class="progTableDesc">
             <p><span class="boldText">Comments</span>: This has always been &quot;OK&quot; to me, though XYPlorer is one I recently upgraded and BOY WAS I SHOCKED. The minor issues (really just &quot;I wish it had this or .. did that&quot;, not problems) I had with it, are one hundred percent GONE now. I use to think Directory Opus was so much better, .. .now I can not say that any longer.</p>
             <p>There IS a free (very good) version and a Pro version</p>

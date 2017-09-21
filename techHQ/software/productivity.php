@@ -6,47 +6,32 @@
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
+
+<?php
+
+
+  $localmaincat = 'productivity';
+  sortAppsMain($localmaincat);
+
+
+  include $sitePath . '/techHQ/modules/database/softwaretest.php';
+
+?>
+
+
+
     <ul class="accordion-tabs-minimal">
-        <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Text Editors (more Basic)</a>
-            <div class="tab-content">
-                <div class="panel panel-default">
-                    <div class="panel-header"><img src="../progIcons/product/txtEditorIcons/AbiWord_10000.png" alt="AbiWord Icon" /> <a href="http://www.abisource.com/">AbiWord</a></div>
-                    <div class="panel-body">Good word processor that is a great option for someone who wants more than &quot;Notepad&quot; but may not want a full office suite. Definitely worth a look, if you ask me.</div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-header">
-                        <img src="../progIcons/product/txtEditorIcons/EditPad-Lite.gif" alt="Editpad Lite Icon" /> 
-                        <a href="http://www.editpadlite.com/">Editpad Lite</a>
-                    </div>
-                    <div class="panel-body">(see the basic description for <a href="http://www.notetab.com/notetab-light.php">Notetab Light</a> )</div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-header"><a href="http://www.notetab.com">Notetab Lite</a></div>
-                    <div class="panel-body">
-                        <p>This is an Old program that hasn&apos;t been updated much over the years, but like Notepad++, it adds tabs (useful for those that don&apos;t want 100&apos;s of Notepad windows open) and many other useful text tools, that definitely makes this program worth a look.</p>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-header"><img src="../progIcons/product/txtEditorIcons/notepad++_100.png" alt="Notepad_PlusPlus Icon" /><a href="http://notepad-plus.sourceforce.net">Notepad++</a></div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-header">
-                        <a href="http://notepad-plus.sourceforce.net" target="_blank"></a><img src="../graphics/programs/notepad/npp.logo.80x15.png" alt="Notepad++" width="80" height="15" /></div>
-                    <div class="panel-body">
-                        <p>This is a Notepad replacement that will color code MANY types of code for easier readability. Many programmers would appreciate this, as its not a bloated Notepad replacement, but it just adds enough features that makes it more useful.</p>
-                    </div>
-                </div>
-            </div>
-        </li>
-        <li class="tab-header-and-content"><a href="#" class="tab-link">PDF Creators</a>
+
+        <li class="tab-header-and-content">
+          <a href="#" class="tab-link">PDF Creators</a>
             <div class="tab-content">
                 <ul>
+
                     <li>
-                        <p class="title"><img src="../progIcons/product/pdf/bullzip_PDF.png" alt="Bullzip PDF Creator Icon" /><a href="http://www.bullzip.com/products/pdf/info.php">Bullzip PDF Printer</a></p>
-                        <p>This one I found via <a href="http://www.techsupportalert.com" target="_blank">TechSupport Alert&apos;s Site </a>and it does have a number of options, ... I still like doPDF alot but this is very nice and I see why they (though I do not agree with them 100%, I find they have good suggestions and in many many cases(program category wise) I do agree with the order of the list.. .so when they mention a &quot;program&quot; like this one and say its better than the ones I know about and use, ... I think the programs are worth a look.</p>
-                    </li>
-                    <li>
-                        <p class="title"><img src="http://www.dopdf.com" alt="doPDF Icon" /> <a href="../progIcons/product/pdf/dopdf_105.png">doPDF</a></p>
+                        <p class="title">
+                          <img src="http://www.dopdf.com" alt="doPDF Icon" />
+                          <a href="../progIcons/product/pdf/dopdf_105.png">doPDF</a></p>
+
                         <p>This one doesn&apos;t have a ton of options, though I find sometimes SIMPLE is better. It is very fast on both of my laptops <span class="maroonText">(2.2GHz Dual core win7 64bit with 4GB of RAM,AND a &quot;2002&quot; XP 1.7GHZ with 768MB of RAM)</span>Some of the others can take a few seconds (about 10 I would say) to load and though that doesn&apos;t seem like much (and isn&apos;t a reason NOT to try the other options I list) and when you have a number of files to convert .. those seconds add up.</p>
                         <ul>
                             <li><img src="../progIcons/product/pdf/PDFCreator.gif" alt="PDF Creator Icon" /><a href="http://www.pdfforge.org/">PDF Creator</a></li>
@@ -57,35 +42,19 @@
                 </ul>
             </div>
         </li>
-        <li class="tab-header-and-content"><a href="#" class="tab-link">PDF Viewers/readers</a>
+        <li class="tab-header-and-content">
+          <a href="#" class="tab-link">PDF Viewers/Readers</a>
             <div class="tab-content">
-                <ul>
-                    <li>
-                        <p class="title">![Foxit Icon](../progIcons/product/pdf/Foxit Reader_128.png) <a href="http://www.foxitsoftware.com/">FoxIT Reader</a></p>
-                        <p>**
-                            <a href="http://www.foxitsoftware.com/" target="_blank"><img src="../graphics/programs/foxit_logo.gif" alt="Foxit PDF Reader" width="141" height="45" class="imgleft" /></a>&#x9;&#x9;** This is a free PDF Reading Program that overall, I believe is about 2 MB as opposed to Adobe Reader&apos;s 10-30 MB ..</p>&#x9;&#x9;
-                        <p>This has many features a program like SumatraPDF does NOT HAVE, however, it seems to have gotten &quot;bloated&quot;</p>
-                    </li>
-                    <li>
-                        <p class="title"><img src="../progIcons/product/pdf/PDFXCview_128.png" alt="PDF-XChange Viewer" /><a href="http://www.pdfxviewer.com/">PDF-XChange Viewer</a></p>&#x9;&#x9;
-                        <ul>
-                            <li>This one I just started using and I am shocked by how useful it is. </li>&#x9;&#x9;
-                            <li>Although you can save the original PDF (Over-write it) ... I choose to make a copy ... its simple to undo a highlight or other form of edit (just basically click the highlighted area... a box comes up and you can right click and hit &quot;delete&quot; ... but I don&apos;t want to mess with the original ... just in case &quot;something goes wrong&quot;</li>&#x9;&#x9;
-                            <li>THIS DOESN&apos;T ALLOW YOU TO TYPE A DOCUMENT AND SAFE THAT AS A PDF... Freeware Print drivers (document ~~&gt; PDF) are available as well as some functionality to save PDF files in Open Office</li>
-                        </ul>
-                    </li>
-                </ul>
-                <p class="title"><img src="../progIcons/product/pdf/SumatraPDF_1.png" alt="SumatraPDF Reader" /> <a href="http://blog.kowalczyk.info/software/sumatrapdf">SumatraPDF</a>
-                    <p>SumatraPDF is even smaller than Foxit&apos;s Reader and one I have found myself using all the time. I do not think there is any reason to not have (or at least try) both Foxit Reader and SumatraPDF</p>&#x9;&#x9;&#x9;
-                    <p> I love this program</p>&#x9;&#x9;&#x9;
-                    <p>I just found out that it not only reads PDF files, but also MODI, and EPUB E-book format files too ... AND its just as light on resources as ever.</p>
-                </p>
+              subsorted PDF content goes here
+
+
             </div>
         </li>
         <li class="tab-header-and-content"><a href="#" class="tab-link">Office Suites </a>
             <div class="tab-content">
                 <div class="panel panel-default">
-                    <div class="panel-header"><a href="http://wps.com/wps-office-personal/">WPS Office</a></div>
+                    <div class="panel-header">
+                      <a href="http://wps.com/wps-office-personal/">WPS Office</a></div>
                     <div class="panel-body">
                         <p>This is a recent (Oct 2012) find and a fine alternative to Microsoft Office. The Pro version has a Ribbon style interface, though the Free version does not.</p>
                         <p>Kingsoft Office (currently) is (Free edition) 39.x MB and it contains a:</p>
@@ -98,7 +67,9 @@
                     </div>
                 </div>
                 <div class="panel panel-default">
-                    <div class="panel-header"><img src="../progIcons/product/libreIcons/LibO_3_103.png" alt="Libre Office Icon" /> <a href="http://www.libreoffice.org/">Libre Office</a></div>
+                    <div class="panel-header">
+                      <img src="../progIcons/product/libreIcons/LibO_3_103.png" alt="Libre Office Icon" />
+                      <a href="http://www.libreoffice.org/">Libre Office</a></div>
                     <div class="panel-body">
                         <p>Libre Office while not as well known as Open Office, was programmed by the same developers as the original Open Office (pre-Oracle .. 3.1 is the number, if I am not mistaking) it seems to have had to do with Oracle buying Sun Microsystem who &quot;own the rights&quot; to Open Office and wanting (Oracle) more control of Open Office and wanting to do away with (I cant confirm this 100% at the time i am typing this) all future free versions to make it a commercial program.</p>
                         <p>The whole idea of Open Source is NOT to have one company in control of the project &#xFFFD; former Open Office developers branched out again using the code they made for the last &quot; pre-Oracle &quot; Open Office and made Libre Office, which is always being updated.</p>
@@ -136,49 +107,43 @@
                     </div>
                 </div>
             </div>
-            <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Misc Office Product </a>
+
+
+            <li class="tab-header-and-content">
+              <a href="#" class="tab-link is-active">Misc Office Product </a>
                 <div class="tab-content">
+
+
                     <h3>&quot;Misc&quot; Office/Productivity Programs</h3>
+
                     <div class="panel panel-default">
-                        <div class="panel-header"><img src="../progIcons/product/calibre_1.png" alt="Calibre Ebook icon" /> <a href="http://www.calibre-ebook.com">Calibre E-Book &#x9;  Manager/Converter</a></div>
+                        <div class="panel-header"><img src="../progIcons/product/docscrubber-48.png" alt="Doc Scrubber Icon" />
+                          <a href="http://www.brightfort.com/docscrubber.html">Doc Scrubber</a></div>
                         <div class="panel-body">
-                            <p>E-book Manager and Converter Program for Multiple Operating System and a must have for anyone who has many e-books.</p>
+                          
+                            <p class="center">
+                              <a href="../screenshots/System/doc_scrubber.jpg" target="_blank">Click here for a Screenshot</a></p>
                         </div>
                     </div>
+
+
                     <div class="panel panel-default">
-                        <div class="panel-header"><img src="../progIcons/product/docscrubber-48.png" alt="Doc Scrubber Icon" /><a href="http://www.javacoolsoftware.com/index.html">Doc Scrubber</a></div>
-                        <div class="panel-body">
-                            <p>&quot;Have you ever wondered what hidden information might be lurking inside your Word documents? Have you ever wondered how to access that information, and if it is possible to remove it?</p>
-                            <p>Well now there&apos;s a solution - Doc Scrubber.</p>
-                            <p>Doc Scrubber can quickly and easily discover hidden data inside Word documents and can allow the painless removal of such information, sometimes referred to as &quot;metadata&quot;. &quot; <span class="mainSiteUpdates">(Doc scrubber help file)</span></p>
-                            <p class="center"><a href="../screenshots/System/doc_scrubber.jpg" target="_blank">Click here for a Screenshot</a></p>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-header"><img src="../progIcons/media/EMDB_128.png" alt="EMDB ICon" /><a href="http://www.emdbonlinehelp.tk">EMDB</a></div>
+                        <div class="panel-header">
+                          <img src="../progIcons/media/EMDB_128.png" alt="EMDB ICon" />
+                          <a href="http://www.emdbonlinehelp.tk">EMDB</a></div>
                         <div class="panel-body">
                             <p>Movie Database program that is 100% free</p>
                         </div>
                     </div>
+
                     <div class="panel panel-default">
-                        <div class="panel-header"><img src="../progIcons/product/TextCrawler_32512.png" alt="Text Crawler Icon" /><a href="http://www.digitalvolcano.co.uk/">Text Crawler</a></div>
-                        <div class="panel-body">
-                            <p>GREAT tool to search and perform various functions on large amounts of text files. Here are just some of the things you can do with Text Crawler</p>
-                            <ul>
-                                <li>Finding and Replacing text in even as much as a directory (or certain files in a directory)</li>
-                                <li>Searching an entire subdirectory for a set pattern (including regular expressions)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-header"><a href="http://atorg.net.ru/universal_viewer/">Universal Viewer</a></div>
+                        <div class="panel-header">
+                          <a href="http://atorg.net.ru/universal_viewer/">Universal Viewer</a></div>
                         <div class="panel-body">
                             <p>This program is a context menu (right click on an icon) option that allows you to view many application&apos;s files without having to have that program be installed ... I DON&apos;T THINK this would work on many audio/video formats (an alternative to codecs) ... but it may work for graphics formats.</p>
                         </div>
                     </div>
-                    <div class="panel panel-default">
-                        <div class="panel-header"><a href="http://www.intelexual.com/products/yc3/">Yankee Clipper</a></div>
-                    </div>
+
                 </div>
             </li>
         </li>
