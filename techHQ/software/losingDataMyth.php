@@ -14,7 +14,7 @@
 
 		<!-- Start of Main White Body for site Content -->
 
-        <p class="header">I don't 	want to lose my data (no matter what it is) by trying Linux</p>
+        <p class="header">I don't want to lose my data (no matter what it is) by trying Linux</p>
       <p>This I have to address in multiple  	parts to cover everything </p>
       <UL>
         <LI>

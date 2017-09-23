@@ -21,39 +21,36 @@
     $totalSoftwareDisplay = mysqli_fetch_assoc($totalSoftwareResult);
 
 
-
-
-
-
-
-
     #TESTING
 
-	function sortAppsMain($sortmaincatagory)
+	function sortApps($sortmaincatagory, $sortsubcatagory)
 	{
 
 		global $localmaincat;
-		global $conn2;
+    global $localsubcat;
+    global $conn2;
 		global $sitePath;
 
-		// echo "<hr /><br />Inside sorting function";
+    // If there is no value in localsubcat - Sub catagory
+    if (empty($localsubcat))
+    {
+      $localmaincatquery = "SELECT * FROM `overallsoftware` WHERE appmaincat = '$sortmaincatagory'";
+      $localmaincatresult = mysqli_query($conn2, $localmaincatquery) or ('Error querying database');
 
-		// query attempt
-		// $localmaincatquery = "SELECT appmaincat FROM overallsoftware WHERE appmaincat = $sortmaincatagory ";
-    // $localmaincatquery = "SELECT appmaincat FROM overallsoftware WHERE appmaincat = internet ";
+    }
 
-
-    $localmaincatquery = "SELECT * FROM `overallsoftware` WHERE appmaincat = '$sortmaincatagory'";
-
-    // JUST A TEST for the output
-		// echo "<br /><br />localmaincatquery is: $localmaincatquery";
-
-		$localmaincatresult = mysqli_query($conn2, $localmaincatquery) or ('Error querying database');
-
-    // Just a test for the output
-    // echo "<br />localmaincatresult:  $localmaincatresult ";
+    // If the subcatagory variable contains a value that was passed from the webpage
+    if (isset($localsubcat))
+    {
+      $localmaincatquery = "SELECT * FROM `overallsoftware` WHERE appmaincat = '$sortmaincatagory' AND appsubcat = '$sortsubcatagory'";
+      $localmaincatresult = mysqli_query($conn2, $localmaincatquery) or ('Error querying database');
+    }
 
 		include $sitePath . '/techHQ/modules/database/softwaretest.php';
+
+
+    // Clearing Variables
+    $localsubcat='';
 
 		}
 

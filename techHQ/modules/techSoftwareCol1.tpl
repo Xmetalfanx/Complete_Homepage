@@ -1,22 +1,26 @@
 
 <h2><a href="/techHQ/software/softwareIndex.php">Software Home:</a></h2>
 <div class="card">
-  <div class="card-header"><a href="/techHQ/software/internetRelated.php">Internet Related</a></div>
+  <div class="card-header">
+    <a href="/techHQ/software/internetRelated.php">Internet Related</a></div>
 </div>
 <div class="card">
-  <div class="card-header">Multimedia Related
+  <div class="card-header">
+    <a href="/techHQ/software/multimedia.php">
+    Multimedia Related
+  </a>
   </div>
   <div class="card-block">
-    <div class="card-text"><a href="/techHQ/software/multimedia/audio.php">Audio</a><br/>
+    <div class="card-text">
+      <a href="/techHQ/software/multimedia/audio.php">Audio</a><br/>
       <a href="/techHQ/software/multimedia/graphics.php">Graphics</a><br/>
-      <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players <em>Audio</em></a><br/>
-      <a href="/techHQ/software/multimedia/media_players_video.php">Media Players <em>Video </em></a><br/>
       <a href="/techHQ/software/multimedia/videoPrograms">Video Related Programs</a><br/></div>
   </div>
 </div>
 
 <div class="card">
-  <div class="card-header"> <a href="/techHQ/software/productivity.php">Office/Productivity Programs</a></div>
+  <div class="card-header">
+    <a href="/techHQ/software/productivity.php">Office/Productivity Programs</a></div>
 </div>
 
 <div class="card">

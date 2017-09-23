@@ -11,7 +11,7 @@
 
 
   $localmaincat = 'productivity';
-  sortAppsMain($localmaincat);
+  sortApps($localmaincat);
 
 
   include $sitePath . '/techHQ/modules/database/softwaretest.php';
@@ -120,7 +120,7 @@
                         <div class="panel-header"><img src="../progIcons/product/docscrubber-48.png" alt="Doc Scrubber Icon" />
                           <a href="http://www.brightfort.com/docscrubber.html">Doc Scrubber</a></div>
                         <div class="panel-body">
-                          
+
                             <p class="center">
                               <a href="../screenshots/System/doc_scrubber.jpg" target="_blank">Click here for a Screenshot</a></p>
                         </div>

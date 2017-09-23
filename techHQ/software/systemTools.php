@@ -2,20 +2,10 @@
 
   $pageTitle = 'Software Section - System Tools';
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
-?>
-
-
-<?php
-
-
   $localmaincat = 'systemtools';
-  sortAppsMain($localmaincat);
 
-
-  include $sitePath . '/techHQ/modules/database/softwaretest.php';
 
 ?>
 
@@ -25,63 +15,156 @@
   <li class="tab-header-and-content">
     <a href="#" class="tab-link is-active">Various Tools</a>
     <div class="tab-content">
-
       <h3>General System Tools</h3>These are more of a variety of &quot;System Tools&quot; freewares.  The list was getting too long, so I moved many of
       them to the System Tools &quot;Subpages&quot;, listed to the left.  If there is a well known freeware not listed on this | page, odds are its in one of the subpages.
+
+      <?php
+        $localsubcat = 'various';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+
+    </div>
+  </li>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Overall System Suites </a>
+    <div class="tab-content">
+      <?php
+        $localsubcat = 'systemsuite';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+    </div>
+  </li>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">CD/DVD Burners </a>
+    <div class="tab-content">
+      <?php
+        $localsubcat = 'burner';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+
+    </div>
+  </li>
+
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Defragmenters </a>
+    <div class="tab-content">
+      <?php
+        $localsubcat = 'defrag';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+
+    </div>
+  </li>
+
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Process Managers</a>
+    <div class="tab-content">
+      <?php
+        $localsubcat = 'processmanager';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+    </div>
+  </li>
+
+
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Program Updaters </a>
+    <div class="tab-content">
+      <?php
+        $localsubcat = 'installer/updater';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+    </div>
+  </li>
+
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Startup Managers</a>
+    <div class="tab-content">
+      <?php
+        $localsubcat = 'startup';
+        sortApps($localmaincat, $localsubcat);
+        include $sitePath . '/techHQ/modules/database/softwaretest.php';
+      ?>
+    </div>
+  </li>
+
+    <li class="tab-header-and-content">
+      <a href="#" class="tab-link">Various Tools</a>
+      <div class="tab-content">
+        <?php
+          $localsubcat = 'various';
+          sortApps($localmaincat, $localsubcat);
+          include $sitePath . '/techHQ/modules/database/softwaretest.php';
+        ?>
+
+      </div>
+    </li>
+</ul>
+
+
+
+
+
+
+<br /><br /><br /><br />
+
+
+
+
+<h2> KEEP BELOW FOR LATER </H2>
+
+<ul class="accordion-tabs-minimal">
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link is-active">Various Tools</a>
+    <div class="tab-content">
+
+
       <ul class="list-unstyled">
-        <div class="media"><img src="/techHQ/progIcons/system_tools/VistaStartMenu_AINICON.png" alt="Generic placeholder image" class="d-flex mr-3"/>
+
+
+
+        <div class="media">
+          <img src="/techHQ/progIcons/system_tools/1833__Eventlogexplorer_icon.png" alt="Event Log Explorer " class="d-flex mr-3"/>
           <div class="media-body">
-            <h5 class="mt-0">7 Start Menu</h5>Changes to a better looking and more manageable Start Menu in Windows 7 ... there are also &quot;Classic Start Menu&quot; and &quot;Vista Start Menu&quot;  programs available from the same developer.
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/world_time_server_logo.png" alt="World TIme Sync Icon" class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"> <a href="http://www.worldtimeserver.com/atomic-clock/">Atomic Clock Sync</a></h5>A Simple (one that actually works) Time Sync Program. I have tried many other options, but this is the only one that I found to really work ... grant it, that you\&apos;ll (if your PC is not having trouble) only use it one time every say .. 8-12 months maybe, but still ... it works
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/dexpot_en.png" alt="Dexpot Icon" class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.dexpot.de/">Dexpot</a>This is the program (type) I have been looking for. It is a FREEware that allows you to have multiple virtual desktops that you can switch between. This program is HIGHLY customizable, and to be honest, I am still playing with all the options.
-              There HAVE BEEN free programs like this in the past that didn&apos;t offer all the features, that I had been looking for. Also there have been programs (I can not recall the name) that had the functions and features, though were  priced at $29.99 or higher. This is a great little tool I plan to mess around with more in the coming days.
-            </h5>productivity
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/DuplicateCleaner_setup_103.png" alt="Duplicate Cleaner" class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.digitalvolcano.co.uk/content/duplicate-cleaner">Duplicate Cleaner </a></h5>Great tool for Finding duplicate files of any type ... on my data hard drives (no programs or Operating Systems), I find myself using this often.
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/1833__Eventlogexplorer_icon.png" alt="Event Log Explorer " class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"> <a href="http://www.eventlogxp.com/">Event Log Explorer</a>
+            <h5 class="mt-0">
+              <a href="http://www.eventlogxp.com/">Event Log Explorer</a></h5>
+
+
               <p>A simple program that has some filtering features for Administrators to view Window 2000 (and higher) \&apos;s Event log.</p>
               <p>Not to say &quot;Oh my God, the viewer, built into Windows is SO HARD to use&quot;; however, little additions (like right clicking an error and being able to:</p>
               <p>
                 A) search Google for that error/fix for that error or
                 B) Go directly to the MS Knowledge base for a description (hey .. its an error being reported by MS anyway, eh?) have made this program catch my eye, the moment I tried it
               </p>
-            </h5>
-            <p class="center"><a href="../screenshots/System/Event_log.jpg" target="_blank">Event Log Explorer Screenshot </a></p>
+
+            <p class="center">
+              <a href="../screenshots/System/Event_log.jpg" target="_blank">Event Log Explorer Screenshot </a></p>
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/FastExplorer_DEFAULT.png" alt="Fast Explorer Icon" class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.softpedia.com/get/System/OS-Enhancements/Fast-Explorer.shtml"> Fast Explorer &quot;2008&quot;</a></h5>
-            <p>Allows you to manage the context (right click) menu better and to remove un-wanted entries that are sometimes hard to remove (even if you want to KEEP the actual program).</p>
-            <p>I would look in the program (in &quot;question&quot; &apos;s ) preferences or Options menu first .. but even with that ... I have found this program to be very useful.</p>
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/File_Association_Fixer_32512.png" alt="File Association Fixer Icon" class="d-flex mr-3"/><a href="http://www.thewindowsclub.com/file-association-fixer-for-windows-7-vista-released">File Association Fixer (for Windows 7)</a>
+
+
+
+
+
+        <div class="media">
+          <img src="/techHQ/progIcons/system_tools/File_Association_Fixer_32512.png" alt="File Association Fixer Icon" class="d-flex mr-3"/>
+          <a href="http://www.thewindowsclub.com/file-association-fixer-for-windows-7-vista-released">File Association Fixer (for Windows 7)</a>
           <div class="media-body">
             <h5 class="mt-0"></h5>Fixes problems with common file associates with a simple click.
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/FileMenuTools_1075.png" alt="FileMenu Tools Icon " class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.lopesoft.com/" target="_blank">File-Menu Tools</a>Adds many needed entries to the Windows Context Menu. There are many tools like this; however, I consider this one the best one I have tried so far.</h5>
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/GodMode_Creator_32512.png" alt="God Mode Creator" class="d-flex mr-3"/>
+
+
+
+
+        <div class="media">
+          <img src="/techHQ/progIcons/system_tools/GodMode_Creator_32512.png" alt="God Mode Creator" class="d-flex mr-3"/>
           <div class="media-body">
             <h5 class="mt-0"><a href="http://www.thewindowsclub.com/godmode-creator-windows-7-vista-released" target="_blank">Godmode Creator</a>
               <p>This allows you to access &quot;God Mode&quot; (a mode that gives you access to changing specific settings, options, and information &quot;hidden&quot; by Microsoft.</p>
@@ -89,29 +172,38 @@
             </h5>
           </div>
         </div>
-        <div class="media"
-        ><img src="/techHQ/progIcons/system_tools/QuickRestoreMaker.png" alt="Quick Restore Maker" class="d-flex mr-3"/>
+
+        <div class="media">
+          <img src="/techHQ/progIcons/system_tools/QuickRestoreMaker.png" alt="Quick Restore Maker" class="d-flex mr-3"/>
           <div class="media-body">
-            <h5 class="mt-0"></h5><a href="http://www.thewindowsclub.com/create-a-system-restore-point-in-1-click-with-quick-restore-maker"></a>Make System Restore points on command with one click (works on Windows XP, Vista, and Windows 7)
+            <a href="http://www.thewindowsclub.com/create-a-system-restore-point-in-1-click-with-quick-restore-maker"></a>
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/systemtools/SRM_icon.png" alt="SRN Icon" class="d-flex mr-3"/>
+
+
+        <div class="media">
+          <img src="/techHQ/progIcons/systemtools/SRM_icon.png" alt="SRN Icon" class="d-flex mr-3"/>
           <div class="media-body">
-            <h5 class="mt-0"> </h5><a href="http://www.thewindowsclub.com/system-restore-manager-for-windows-released"> System Restore Manager</a>Great little program that allows for better management of System Restore Points.
+
+            <a href="http://www.thewindowsclub.com/system-restore-manager-for-windows-released"> System Restore Manager</a>Great little program that allows for better management of System Restore Points.
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/teraCopy.jpg" alt="TeraCopy Icon" class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.codesector.com/teracopy">TeraCopy</a></h5>
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/TrayIt!_101.png" alt="TrayIT Icon" class="d-flex mr-3"/>
+
+
+
+
+
+        <div class="media">
+          <img src="/techHQ/progIcons/system_tools/TrayIt!_101.png" alt="TrayIT Icon" class="d-flex mr-3"/>
           <div class="media-body">
             <h5 class="mt-0"><a href="http://www.majorgeeks.com/files/details/trayit.html">TrayIt </a></h5>The best &quot;Send to the system tray&quot; program I have found so far. Small and Effective. Works fine on my Windows 7 64bit OS too.
             Note: it appears the Homepage is down though portals (not just MajorGeeks which I link to, here) still have downloads for it ... i think ...
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/TreeSize_MAINICON.png" alt="TreeView Free" class="d-flex mr-3"/>
+
+
+        <div class="media">
+          <img src="/techHQ/progIcons/system_tools/TreeSize_MAINICON.png" alt="TreeView Free" class="d-flex mr-3"/>
           <div class="media-body">
             <h5 class="mt-0"><a href="http://www.jam-software.com/freeware/">Tree View Freeware Ed.</a></h5>
           </div>
@@ -121,19 +213,13 @@
             <h5 class="mt-0"><a href="http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml">Unlocker </a></h5>Frustrated by &quot;Can not delete&quot; and &quot;File Currently in use&quot; even though you are sure it shouldn&apos;t be?... this is a freeware, that in my opinion, the best program for unlocking the file, or cancelling the specific process that says its using that file.
           </div>
         </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/whocrashed_MAINICON.png" alt="WhoCrashed Icon" class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.resplendence.com/whocrashed"> WhoCrashed</a></h5>Crash Dump Analyzer
-          </div>
-        </div>
-        <div class="media"><img src="/techHQ/progIcons/system_tools/WindowsErrorLookupToolPortable_103.png" alt="WindowErrorLookup Tool Icons " class="d-flex mr-3"/>
-          <div class="media-body">
-            <h5 class="mt-0"><a href="http://www.gunnerinc.com/weltinfo.htm">Windows Error Lookup Tool</a></h5>Helps you look-up errors found in the Event Log that may be hard for novice users to look-up on their own
-          </div>
-        </div>
+
+
       </ul>
     </div>
   </li>
+
+
   <li class="tab-header-and-content"><a href="#" class="tab-link">Overall System Suites </a>
     <div class="tab-content">
       <p>
@@ -145,19 +231,15 @@
         As with all programs on my site, these are safe to use... if you find them useful... well that is your (the person "
         reading this) call. None of the programs I list are shareware/spyware.
       </p>
+
+
       <div class="media"><img src="/techHQ/progIcons/system_tools/File_Association_Fixer_32512.png" alt="File Association Fixer Icon" class="d-flex mr-3"/>
         <div class="media-body">
           <h5 class="mt-0"><a href="http://www.thewindowsclub.com/file-association-fixer-for-windows-7-vista-released">File Association Fixer (for WIndows 7)</a>Fixes problems with common file associates with a simple click</h5>
         </div>
       </div>
-      <div class="media"><img src="/techHQ/progIcons/system_tools/glary.png" alt="Glary Utilities Icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="http://www.glarysoft.com/">Glary Ultilites</a>(FREE) Some of the tasks this program can perform, are: Invalid
-            Shortcut Fixer/Remover, Temp File Remover (scans whole HDD), Trace remover, Registry Cleaner, Startup Manager, and most
-            useful a new user (if you ask me) a 1-Click Maintenance feature that performs selected tasks automatically for the user.
-          </h5>
-        </div>
-      </div>
+
+
       <div class="media"><img src="/techHQ/progIcons/system_tools/jv16PT_MAINICON.png" alt="Jv16 power tools icon" class="d-flex mr-3"/>
         <div class="media-body">
           <h5 class="mt-0"><a href="http://www.macecraft.com/">jv16 Power Tools</a></h5>
@@ -183,7 +265,8 @@
           </p>
         </div>
       </div>
-      <div class="media"><img src="/techHQ/progIcons/system_tools/WiseCare365_MAINICON.png" alt="wise care 360 icon" class="d-flex mr-3"/>
+      <div class="media">
+        <img src="/techHQ/progIcons/system_tools/WiseCare365_MAINICON.png" alt="wise care 360 icon" class="d-flex mr-3"/>
         <div class="media-body">
           <h5 class="mt-0"><a href="">Wise Care 360</a></h5>
           <p>Has multiple program from &quot;Wise&quot; all in one freeware) to help</p>
@@ -202,36 +285,7 @@
       </div>
     </div>
   </li>
-  <li class="tab-header-and-content"><a href="#" class="tab-link">Defragmenters </a>
-    <div class="tab-content">
-      Sub-sorted Defrag programs will go here
 
-    </div>
-  </li>
-
-  <li class="tab-header-and-content"><a href="#" class="tab-link">Process Managers</a>
-    <div class="tab-content">
-      <div class="media"><img src="/techHQ/progIcons/system_tools/process/procexp_101.png" alt="Process Explorer Icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="http://www.sysinternals.com/">Process Explorer</a></h5>SysInternal&apos;s Process Explorer is the one I have used for years and
-          install on most systems I work on.
-        </div>
-      </div>
-      <div class="media">
-        <img src="/techHQ/progIcons/system_tools/process/ProcessHacker_101.png" alt="Process Hacker 2" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0">
-            <a href="http://sourceforge.net/projects/processhacker">Process Hacker 2</a></h5>Task Manager Replacement that I install on most systems I work on.
-        </div>
-      </div>
-      <div class="media">
-        <img src="/techHQ/progIcons/system_tools/process/SystemExplorer_MAINICON.png" alt="System Explorer Icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0"><a href="http://systemexplorer.net/">System Explorer</a></h5>
-        </div>
-      </div>
-    </div>
-  </li>
 
 
   <li class="tab-header-and-content">
@@ -242,21 +296,6 @@
     </div>
   </li>
 
+</ul>
 
-
-  <li class="tab-header-and-content"><a href="#" class="tab-link">Startup Managers</a>
-    <div class="tab-content">
-      <div class="media">
-        <img src="/techHQ/progIcons/system_tools/autoRuns.png" alt="autoruns icon" class="d-flex mr-3"/>
-        <div class="media-body">
-          <h5 class="mt-0">
-            <a href="http://www.sysinternals.com/">Autoruns</a></h5>
-          This program has the most comprehensive knowledge of auto-starting locations of any startup monitor (A starting list of
-          auto-run locations was obtained from David Solomon&apos;s &quot;Windows Internals&quot; seminar), shows you what programs | are configured to run during system boot-up or login, and shows you the entries in the order Windows processes them.
-          These programs include ones in your startup folder, Run, RunOnce, and other Registry keys. A &quot;Hide Signed Microsoft
-          Entries&quot; option helps you to zoom in on third-party auto-starting images that have been added to your system.
-        </div>
-      </div>
-    </div>
-  </li>
-</ul><?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

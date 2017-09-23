@@ -13,7 +13,7 @@
   // echo "calling sortApps function";
   $localmaincat = 'security';
 
-  sortAppsMain($localmaincat);
+  sortApps($localmaincat);
 
 
 

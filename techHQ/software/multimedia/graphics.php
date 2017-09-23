@@ -11,11 +11,8 @@
 <?php
 
 
-  // function call test
-  // echo "calling sortApps function";
   $localmaincat = 'graphics';
-
-  sortAppsMain($localmaincat);
+  sortApps($localmaincat);
 
   include $sitePath . '/techHQ/modules/database/softwaretest.php';
 

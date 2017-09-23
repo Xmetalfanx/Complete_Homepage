@@ -9,20 +9,10 @@
 
 <h2> My Personal Choices for the Top Cleanup Related (System/Cache/Cookies/...etc)</h2>
 
-	<div id="softwareSection">
 	<ul>
-      <li>
-        <div class="progTitles">
-        <img src="/techHQ/progIcons/security/cleaners/bleachbit_1.jpg" alt="bleachbit icon" />
-        <a href="http://bleachbit.sourceforge.net/">Bleachbit</a>
-        </div>
 
-        <div class="progDesc">
-          <p>This is a great program and my &quot;#2 choice&quot; (first being CCleaner) for a temp File/System Cleaner</p>
-          <p>Like CCleaner this also supports &quot;winapp2.ini&quot; (The constantly updating &quot;CCEnhancer&quot; file that is
-          sort of like an updating &quot;Database&quot; of folders/files/ MRU registry entries&quot; to clean.</p>
-        </div>
-      </li>
+
+
 
       <li>
         <div class="progTitles">
@@ -40,16 +30,10 @@
       </li>
 
       <li>
-        <div class="progTitles">
-          <img src="/techHQ/progIcons/security/cleaners/959__CCv2.gif" alt="CCleaner Icon" />
-          <a href="http://www.ccleaner.com">CCleaner</a>
-        </div>
+
 
         <div class="progDesc">
-          <p>This program is a little tool I have always seen, but I was never sure if it worked... Turns out it does, and works
-          great tool. Might be one of my Must have programs very soon.</p>
-          <p>This will clean your Browser Cache, temp files, cookies (Opera, Mozilla (suite), Firefox, and IE), among MANY MRU
-          settings for common programs.</p>
+
         </div>
       </li>
 
@@ -136,30 +120,6 @@
 
       </li>
 
-      <li>
-        <div class="progTitles">
-			<img src="/techHQ/progIcons/security/cleaners/FCleaner.png" alt="FCleaner Icon" />
-			<a href="http://www.fcleaner.com">FCleaner</a>
-        </div>
-
-        <div class="progDesc">
-        <p>A recent find, ... and it seems decent though some fans of it say its better then CCleaner I disagree so far. I am NOT
-        saying its not any good, but rather I prefer CCleaner better... just a personal opinion. FCleaner is still worth a
-        look.</p>
-
-        <p>*UPDATE: The more I use this program, the more I think this needs work. I am not attacking the programmer or saying it
-        has a bad interface, but from my own experience like an article (will have URL for this later) &quot;FCleaner vs
-        CCleaner&quot; ... I found FCleaner listing cookies it removed from Opera (though installed, I never use Opera) and it left
-        almost ALL of my Firefox (my primary browser) items even though I told FCleaner to remove everything. I can CONFIRM (at the
-        time I am typing this) that, the article the says the same thing is correct.</p>
-
-        <p>FCleaner is not bad, but it&#39;s far from perfect. Keep in mind that FCleaner is quot;new&quot; and CCleaner though
-        being updated all the time for say .. .new Firefox versions ... HAS BEEN AROUND for awhile .. so give FCLeaner time
-		</p>
-
-		</div>
-      </li>
-
 
       <li>
         <div class="progTitles">
@@ -178,7 +138,7 @@
           <p>This seems to also remove un-necessary (to have removed) items, which I do NOT like [Example, all of my Pidgin account
           info, plugins and etc etc were removed completely with Slim Cleaner]. I am not saying &quot;STAY AWAY FROM THIS, THIS IS
           HORRIBLE&quot;, but ... more less
-          <span class="redtext">&quot;Your better off with CCleaner + CCEnhancer OR Bleachbit + CCEnhancer&quot;</span></p>
+          <span>&quot;Your better off with CCleaner + CCEnhancer OR Bleachbit + CCEnhancer&quot;</span></p>
         </div>
       </li>
     </ul>
@@ -189,53 +149,13 @@
     <ul>
       <li>
         <div class="progTitles">
-			<img src="/techHQ/progIcons/security/cleaners/Eraser6.png" alt="Eraser Icon" />
 			<a href="http://www.heidi.ie/eraser/">Eraser</a>
         </div>
 
 
-        <div class="progDesc">
-			<p>This is the newer version, that has some changes and less options it seems. It also has some changes for Vista/Windows 7
-			(though 5.x versions, work just great on Vista and Windows 7)</p>
-				<pre>
-					<code>
-					<img src="/techHQ/screenshots/Security/Eraser6_main.jpg" alt="Eraser 6.x Main Window Screenshot " />
-
-					<img src="/techHQ/screenshots/Security/Eraser6_settings1.jpg " alt="Eraser 6 Settings Part 1 Screenshot" />
-
-					<img src="/techHQ/screenshots/Security/Eraser6settings2.jpg" alt="Eraser 6 Settings Part 2 Screenshot " />
-
-					</code>
-				</pre>
-		</div>
 	   </li>
 
-
-      <li>
-        <div class="progTitles">
-          <a href="http://www.heidi.ie/eraser/">Eraser 5.x</a>
-        </div>
-
-        <div class="progDesc">
-          <p>This Program is a highly configurable and FREE file wiper. This can do both simple for new users, and complicated wipes,
-          that experts can customize to their liking. ..</p>
-          <p>
-            <span class="redtext">One of my Must Haves</span>
-          </p>
-
-          <p class="center">
-            <a href="/techHQ/screenshots/Security/eraser.gif" target="_blank">Eraser 5.x Main Window screenshot</a>
-          </p>
-
-          <p>
-          <span class="center">Currect URL coming soon</span> for where to download the 5.x versions
-          </p>
-       </div>
-
-
-      </li>
     </ul>
 
-	</div>
 
   <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
