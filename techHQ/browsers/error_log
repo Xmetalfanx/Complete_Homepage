@@ -1,3 +1,0 @@
-
-[17-Sep-2017 02:58:35 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 14
-[17-Sep-2017 02:58:35 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/xmetalx1/public_html/techHQ/modules/database/browserDownloadAddons.php on line 3

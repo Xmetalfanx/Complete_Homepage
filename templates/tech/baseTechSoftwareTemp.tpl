@@ -1,13 +1,16 @@
 <?php
 
+
 	include $sitePath . '/techHQ/modules/variables/icons.php';
 	include $sitePath . '/modules/tech/baseTechHeader.tpl';
 	include $sitePath . '/techHQ/modules/techderequest.php';
 
+	$sectionTitle = 'Software Section ';
+
 ?>
 
-<div class="row col-md-12">
-  <div class="hidden-sm-down col-md-3 col-lg-2 col-xl-2">
+<div class="row">
+  <div class="hidden-sm-down col-md-12 col-md-3 col-lg-2 col-xl-2">
     <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
   </div>
 

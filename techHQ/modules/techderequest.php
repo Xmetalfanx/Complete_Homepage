@@ -11,9 +11,8 @@
   	# Specific to the addons in the download catagory
   	$browserAddonsDownload = "SELECT * FROM mainBrowser ORDER BY addontitle";
 
-	$browserDownloadsResult = mysqli_query($conn2, $browserAddonsDownload) or ('Error querying database');
+	  $browserDownloadsResult = mysqli_query($conn2, $browserAddonsDownload) or ('Error querying database');
     $browserDownloadDisplay = mysqli_fetch_assoc($browserDownloadsResult);
-
 
     # Software db table
     $totalSoftwareData = "SELECT * FROM overallsoftware ";

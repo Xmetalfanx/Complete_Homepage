@@ -1,20 +1,21 @@
 
-<h2><a href="/techHQ/software/softwareIndex.php">Software Home:</a></h2>
+<h2>
+  <a href="/techHQ/software/softwareIndex.php">Software Home:</a>
+</h2>
+
 <div class="card">
   <div class="card-header">
     <a href="/techHQ/software/internetRelated.php">Internet Related</a></div>
 </div>
+
 <div class="card">
-  <div class="card-header">
-    <a href="/techHQ/software/multimedia.php">
-    Multimedia Related
-  </a>
-  </div>
-  <div class="card-block">
-    <div class="card-text">
-      <a href="/techHQ/software/multimedia/audio.php">Audio</a><br/>
-      <a href="/techHQ/software/multimedia/graphics.php">Graphics</a><br/>
-      <a href="/techHQ/software/multimedia/videoPrograms">Video Related Programs</a><br/></div>
+    <div class="card-header">
+      <a href="/techHQ/software/multimedia.php">Multimedia Related</a>
+    </div>
+    <div class="card-block">
+      <div class="card-text">
+        <a href="/techHQ/software/multimedia/graphics.php">Graphics</a><br/>
+    </div>
   </div>
 </div>
 
@@ -39,19 +40,14 @@
     <a href="/techHQ/software/systemTools.php">System Tools</a></div>
   <div class="card-block">
     <div class="card-text">
-      <a href="/techHQ/software/sTools/archivers.php">Archivers</a><br/>
 
       <a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a><br/>
-
       <a href="/techHQ/software/sTools/burners.php">CD/DVD/Blue Ray Burners</a><br/>
 
-      <a href="/techHQ/software/defrag.php">Defragmenters</a><br/>[File Managers]<br/>
-
-      <a href="/techHQ/software/sTools/registryTools.php">Registry Tools</a><br/>
+      [File Managers]<br/>
 
       <a href="/techHQ/software/sTools/sysInternals">SysInternels</a><br/>
 
-      <a href="/techHQ/software/sTools/taskManagers.php">Task Manager</a><br/>
     </div>
   </div>
 </div>

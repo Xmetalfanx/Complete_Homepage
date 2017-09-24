@@ -1,4 +1,9 @@
-<?php include $sitePath . '/modules/common.php'; ?>
+<?php
+  include $sitePath . '/modules/common.php';
+  $mainTitle = 'Xmetal TechHQ Section - ';
+
+
+?>
 
 <!DOCTYPE html>
 <!-- the closing HTML tag has to be removed too -->

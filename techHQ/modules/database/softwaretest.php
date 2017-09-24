@@ -25,15 +25,18 @@
 
 
 					echo "<div class=\"row\">";
-						echo "<div class=\"col-lg-6\"> ";
-							echo "Main Catagory: " . $field['appmaincat'] . "<br />";
-						echo "</div>";
+						#echo "<div class=\"col-lg-6\"> ";
+							#echo "Main Catagory: " . $field['appmaincat'] . "<br />";
+						#echo "</div>";
 
 						echo "<div class=\"col-lg-6\"> ";
-							echo "Sub Catagory: " . $field['appsubcat'] . "<br /><br />";
+							echo "Sub Catagory: " . $field['appsubcat'] . "<br />";
 						echo "</div>";
 					echo "</div>";
 
+
+					echo "<br />Platform: ";
+				  include 'platform.php';
 
 					#echo "This is only to show whats on the Database .. .This will be used to sort data and will not be displayed on final pages <br /><br />";
 					#echo "<div class=\"row\">";
@@ -53,7 +56,7 @@
 						#echo "Works (Well) in WINE: " . $field['worksonwine'] . "<br />";
 					#echo "</div>";  // Ends Platform and WINE DIV
 
-					echo "<br />Description: " . $field['appdescription']  . "<br />";
+					echo "<br /><br />Description: " . $field['appdescription']  . "<br />";
 
 				echo "</div>"; 		// Ends Card-block DIV
 
