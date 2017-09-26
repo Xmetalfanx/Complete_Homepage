@@ -36,16 +36,32 @@ header
 }
 
 
-.card-text
-{
-  @include padding( 10px 20px null 10px);
-  font-size: 17px;
-  text-align: justify;
-
-}
 
 .card-block
 {
-  padding-top: 0px;
+
+  padding: 0px;
 
 }
+
+.card-text
+  {
+    @include padding( 0 0 0 0);
+    @include margin ( 0 0 0 0);
+    width: 99%;
+
+    font-size: 17px;
+    text-align: justify;
+
+    a:link
+    {
+      color: lightgrey; 
+
+    }
+  }
+
+  .card-header a:link 
+  { 
+
+    color: lightgrey;
+  }

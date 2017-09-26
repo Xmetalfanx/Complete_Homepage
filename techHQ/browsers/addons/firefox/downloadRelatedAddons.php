@@ -13,41 +13,41 @@
 		
 		
 		
-		<ul>
-		  <li>
-			<div class="title">
-				<img src="" alt="Ant Video Downloader Icon" class="icon">
-				<a href="http://www.ant.com/video-downloader/">Ant Video Downloader</a>
-			</div>
+<ul>
+  <li>
+	<div class="title">
+		<img src="" alt="Ant Video Downloader Icon" class="icon">
+		<a href="http://www.ant.com/video-downloader/">Ant Video Downloader</a>
+	</div>
 
-			<div class="description">
-			This has become my website video downloader of Choice… it does have info being sent back to  the developer, though simply unselecting that "option" in the Addon’s Option screen, stops that problem.
-			 </div>
-		  </li>
+	<div class="description">
+	This has become my website video downloader of Choice… it does have info being sent back to  the developer, though simply unselecting that "option" in the Addon’s Option screen, stops that problem.
+	 </div>
+  </li>
 
-		  <li>
-			<div class="title">
-					<img src="/techHQ/graphics/ffox/download/DownloadHelper.png" alt="Download Helper Icon">
-					<a href="http://www.downloadhelper.net"> Download Helper </a>
-			 </div>
+  <li>
+	<div class="title">
+			<img src="/techHQ/graphics/ffox/download/DownloadHelper.png" alt="Download Helper Icon">
+			<a href="http://www.downloadhelper.net"> Download Helper </a>
+	 </div>
 
-			<div class="description">
-				<p> Videos and images download assistant for many site such as Youtube</p>
+	<div class="description">
+		<p> Videos and images download assistant for many site such as Youtube</p>
 
-				<p> SOMETIMES Youtube changes the code to make DownloadHelper not be able to download anymore … 99% of the time I’d say update
-				DownloadHelper to it’s newest version and that will solve that problem</p>
-		  </div>
+		<p> SOMETIMES Youtube changes the code to make DownloadHelper not be able to download anymore … 99% of the time I’d say update
+		DownloadHelper to it’s newest version and that will solve that problem</p>
+  </div>
 
-		  </li>
+  </li>
 
 
-		  <li>
-			<div class="title">
-				<a href="http://dmextension.mozdev.org/">DownloadManagerTweak</a>
-			</div>
+  <li>
+	<div class="title">
+		<a href="http://dmextension.mozdev.org/">DownloadManagerTweak</a>
+	</div>
 
-			
-		  </li>
+	
+  </li>
 
   <li>
 	<div class="title">

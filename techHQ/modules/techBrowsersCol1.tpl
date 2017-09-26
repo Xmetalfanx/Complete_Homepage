@@ -1,4 +1,18 @@
 
+<div class="card">
+  <div class="card-header">Browser Addons </div>
+  <div class="card-block">
+    <p class="card-text">
+      <nav class="nav flex-column">
+        <a href="/techHQ/browsers/addons/downloadaddons.php" class="nav-link">Download Related</a>
+        <a href="/techHQ/browsers/addons/firefox/generalAddons.php" class="nav-link">General Addons</a>
+        <a href="/techHQ/browsers/addons/firefox/interfaceAddons.php" class="nav-link">Interface Related</a>
+      </nav>
+    </p>
+  </div>
+</div>
+
+
 <h3>Ad/Content Blocking </h3>
 <br/>
 
@@ -13,8 +27,8 @@
       <a href="/techHQ/browsers/adblocking/UblockConfusion.php" class="nav-link">Ublock Origin -vs - Ublock Confusion</a>
       <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Static Filtering -vs- Dynamic Filtering</a>
       <a href="/techHQ/browsers/adblocking/" class="nav-link">Element Hiders</a>
-      <a href="/techHQ/browsers/adblocking/" class="nav-link">List of Common Filter lists (strong Static Filters)</a></nav>
-
+      <a href="/techHQ/browsers/adblocking/" class="nav-link">List of Common Filter lists (strong Static Filters)</a>
+    </nav>
   </div>
 
 </div>
@@ -58,15 +72,6 @@
 </div>
 
 
-<div class="card">
-  <div class="card-header">Browser Addons </div>
-  <div class="card-block">
-    <p class="card-text">
-      <nav class="nav flex-column">
-        <a href="/techHQ/browsers/addons/firefox/downloadRelatedAddons.php" class="nav-link">Download Related</a>
-        <a href="/techHQ/browsers/addons/firefox/generalAddons.php" class="nav-link">General Addons</a>
-        <a href="/techHQ/browsers/addons/firefox/interfaceAddons.php" class="nav-link">Interface Related</a>
-      </nav>
-    </p>
-  </div>
-</div><a href="/techHQ/browsers/#" class="nav-link">Backing up Browser Data</a><a href="/techHQ/browsers/tinyurl.php" class="nav-link">URL Shortening</a>
+
+<a href="/techHQ/browsers/#" class="nav-link">Backing up Browser Data</a>
+<a href="/techHQ/browsers/tinyurl.php" class="nav-link">URL Shortening</a>

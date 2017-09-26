@@ -1,0 +1,4 @@
+
+[25-Sep-2017 16:31:52 America/New_York] PHP Notice:  Undefined variable: sitePath in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 59
+[25-Sep-2017 16:31:52 America/New_York] PHP Warning:  include(/techHQ/modules/database/browser.php): failed to open stream: No such file or directory in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 59
+[25-Sep-2017 16:31:52 America/New_York] PHP Warning:  include(): Failed opening '/techHQ/modules/database/browser.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/techHQ/modules/techderequest.php on line 59
