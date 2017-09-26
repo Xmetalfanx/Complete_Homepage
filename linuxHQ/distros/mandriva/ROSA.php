@@ -1,6 +1,6 @@
 <?php
 
-  $localName = 'rosa';
+  $localdistroName = 'rosa';
 
    $title = 'Distribution Section - Rosa ';
 

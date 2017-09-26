@@ -55,13 +55,24 @@ header
 
     a:link
     {
-      color: lightgrey; 
+      color: navy; 
+      background-color: transparent;
 
     }
   }
 
-  .card-header a:link 
-  { 
+.card-header 
+{
+  
+  @include margin(null auto null auto);
+  width: 100%;
 
-    color: lightgrey;
-  }
+    a:link, a:visited, a:hover 
+      { 
+        color: lightgrey;
+      }
+
+}
+
+
+  

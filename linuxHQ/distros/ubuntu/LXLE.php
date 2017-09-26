@@ -1,6 +1,6 @@
 <?php
 
-  $localName = 'lxle';
+  $localdistroName = 'lxle';
 
     $title = 'Distribution Section -LXLE ';
 

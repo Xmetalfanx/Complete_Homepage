@@ -2,7 +2,7 @@
 
 	$distroSshot = &$pclosKDE1;
 
-  $localName = 'pclinuxos';
+  $localdistroName = 'pclinuxos';
 
 
   $title = 'Distribution Section - PCLinuxOS';

@@ -2,7 +2,7 @@
 
 	$title = 'Distribution Section -  Calculate Linux';
 
-	$localName = 'calculate';
+	$localdistroName = 'calculate';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

@@ -2,7 +2,7 @@
 
  $title = 'Distribution Section - KaOS';
 
- $localName = 'kaos';
+ $localdistroName = 'kaos';
 
 
  $sitePath = "/home/xmetalx1/public_html";

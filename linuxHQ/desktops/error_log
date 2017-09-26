@@ -1,12 +1,6 @@
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: mintHP in /home/xmetalx1/public_html/linuxHQ/desktops/KDE.php on line 8
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: fedoraHP in /home/xmetalx1/public_html/linuxHQ/desktops/KDE.php on line 9
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: suseHP in /home/xmetalx1/public_html/linuxHQ/desktops/KDE.php on line 10
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 8
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 9
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 10
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 11
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 12
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 13
-[04-Sep-2017 04:27:32 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/xmetalx1/public_html/linuxHQ/modules/versions.php on line 17
-[04-Sep-2017 04:27:32 America/New_York] PHP Notice:  Undefined variable: sshotresult in /home/xmetalx1/public_html/linuxHQ/modules/database/sshotsdb.php on line 5
-[04-Sep-2017 04:27:32 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/xmetalx1/public_html/linuxHQ/modules/database/sshotsdb.php on line 5
+[26-Sep-2017 16:14:49 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 9
+[26-Sep-2017 16:14:49 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 10
+[26-Sep-2017 16:14:49 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 11
+[26-Sep-2017 16:14:49 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 12
+[26-Sep-2017 16:14:49 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 13
+[26-Sep-2017 16:14:49 America/New_York] PHP Notice:  Undefined variable: localName in /home/xmetalx1/public_html/linuxHQ/modules/distrorequest.php on line 14

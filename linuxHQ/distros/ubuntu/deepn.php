@@ -1,6 +1,6 @@
  <?php
 
-  $localName = 'deepin';
+  $localdistroName = 'deepin';
 
   $title = 'Distribution Section - Deepin (Linux)';
 

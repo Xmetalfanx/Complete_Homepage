@@ -1,6 +1,6 @@
 <?php
 
-  $localName = 'kubuntu';
+  $localdistroName = 'kubuntu';
 
   $title = 'Distribution Section - Kubuntu';
 

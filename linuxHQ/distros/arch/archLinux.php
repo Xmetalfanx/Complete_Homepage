@@ -2,7 +2,7 @@
 
   $title = 'Distribution Section - Arch Linux';
 
-  $localName = 'arch';
+  $localdistroName = 'arch';
 
 $sitePath = "/home/xmetalx1/public_html";
 

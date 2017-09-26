@@ -1,5 +1,5 @@
 
-<?php include $sitePath . '/linuxHQ/modules/database/mainData.php'; ?>
+<?php include $sitePath . '/linuxHQ/modules/database/mainDistroData.php'; ?>
 
 <br ><br />
 

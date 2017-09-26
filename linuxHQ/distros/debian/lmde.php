@@ -2,7 +2,7 @@
 
     $title = 'Distribution Section - Linux Mint Debian Edition ';
 
-    $localName = 'lmde';
+    $localdistroName = 'lmde';
 
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

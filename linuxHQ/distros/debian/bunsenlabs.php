@@ -2,7 +2,7 @@
 
 	$title = 'Distribution Section - Bunsenlabs';
 
-	$localName = 'bunsenlabs';
+	$localdistroName = 'bunsenlabs';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

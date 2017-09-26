@@ -2,7 +2,7 @@
 
 		$title = 'Distribution Section -  Matthew Moore\'s Manjaro';
 
-		$localName = 'mmManjaro';
+		$localdistroName = 'mmManjaro';
 
   	$sitePath = "/home/xmetalx1/public_html";
   	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

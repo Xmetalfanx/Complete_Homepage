@@ -2,7 +2,7 @@
 
   $title = 'Distribution Section - ElementaryOS';
 
-  $localName = 'elementary';
+  $localdistroName = 'elementary';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

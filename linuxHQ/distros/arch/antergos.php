@@ -1,6 +1,6 @@
 <?php
 
-    $localName = 'antergos';
+    $localdistroName = 'antergos';
 
     $title = 'Distribution Section -  Antergos';
 

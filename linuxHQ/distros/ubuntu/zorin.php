@@ -1,6 +1,6 @@
 <?php
 
-$localName = 'zorin';
+$localdistroName = 'zorin';
 
   $title = 'Distribution Section -Zorin ';
 

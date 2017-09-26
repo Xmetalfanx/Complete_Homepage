@@ -2,7 +2,7 @@
 
 	$title = 'Distribution Section -  Debian';
 
-	$localName = 'debian';
+	$localdistroName = 'debian';
 
 
 	$download = '<a href="http://www.debian.org/distrib/ftplist" target="_blank">http://www.debian.org/distrib/ftplist</a> <br />

@@ -1,6 +1,6 @@
 <?php
 
-$localName = 'ubuntu';
+$localdistroName = 'ubuntu';
 
   $title = 'Distribution Section - Ubuntu';
 

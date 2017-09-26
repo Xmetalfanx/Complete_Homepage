@@ -1,13 +1,13 @@
 <?php
 
-		$title = 'Distribution Section -  Gentoo';
+	$title = 'Distribution Section -  Gentoo';
 
-		$localName = 'gentoo';
+	$localdistroName = 'gentoo';
 
 
-$sitePath = "/home/xmetalx1/public_html";
+	$sitePath = "/home/xmetalx1/public_html";
 
-include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
 <?php include $sitePath . "/modules/footer.tpl"; ?>

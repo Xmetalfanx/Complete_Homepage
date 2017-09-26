@@ -1,6 +1,6 @@
 <?php
 
-	$localName = 'umate';
+	$localdistroName = 'umate';
 
 	$distroSshot = '<a href="/linuxHQ/screenshots/ubuntubased/umate1.jpg">
 			<img src="/linuxHQ/screenshots/ubuntubased/umate1.png" alt="Ubuntu Mate Screenshot"/></a>';

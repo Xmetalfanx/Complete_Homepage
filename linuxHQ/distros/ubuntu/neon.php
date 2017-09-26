@@ -2,7 +2,7 @@
 
   $title = 'Distribution Section - (KDE) Neon';
 
-  $localName = 'kdeneon';
+  $localdistroName = 'kdeneon';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

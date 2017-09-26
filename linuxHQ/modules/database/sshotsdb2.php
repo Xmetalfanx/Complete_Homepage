@@ -1,10 +1,14 @@
-  <?php
+    <?php
 
-  foreach($sshottestresult as $field)
+  foreach($sshotdistroResults as $field)
   {
     echo "<a href=\"" . $field['src'] . " \" target=\"_blank\" >";
-    echo "<img class=\"img-fluid\" src=\" " . $field['src'] . " \" alt=\" whatever alt tag here \" /> ";
+    echo "<img class=\"d-block img-fluid\" src=\" " . $field['src'] . " \" alt=\" whatever alt tag here \" /> ";
     echo "</a> <br />";
+
+
+      echo "<a href=\" " . $field['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
+
   }
 
   ?>

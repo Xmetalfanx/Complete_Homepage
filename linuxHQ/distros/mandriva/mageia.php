@@ -1,6 +1,6 @@
 <?php
 
-  $localName = 'mageia';
+  $localdistroName = 'mageia';
 
 
   $title = 'Distribution Section - Magiea ';

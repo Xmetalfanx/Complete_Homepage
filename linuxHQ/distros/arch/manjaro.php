@@ -1,7 +1,7 @@
 <?php
     $title = 'Distribution Section -  Manjaro';
 
-    $localName = 'manjaro';
+    $localdistroName = 'manjaro';
 
     $sitePath = "/home/xmetalx1/public_html";
 

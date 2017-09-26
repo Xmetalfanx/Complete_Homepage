@@ -2,7 +2,7 @@
 
 		$title = 'Distribution Section -  SolydXK';
 
-		$localName = 'solyd';
+		$localdistroName = 'solyd';
 
 		$sitePath = "/home/xmetalx1/public_html";
 

@@ -19,7 +19,7 @@
     <a href="#screeshot" class="tab-link">Screenshots</a>
     <div class="tab-content hidden-md-down">
       <div id="screenshots">
-        <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb.php'; ?>
+        <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb2.php'; ?>
       </div>
     </div>
   </li>

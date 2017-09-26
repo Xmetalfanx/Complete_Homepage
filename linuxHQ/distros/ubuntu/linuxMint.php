@@ -1,5 +1,5 @@
  <?php
-   $localName = 'mint';
+   $localdistroName = 'mint';
    
     $title = 'Distribution Section - Linux Mint';
 
