@@ -5,11 +5,11 @@ $localdename = 'openbox';
 
     $deName = 'Openbox';
     $deFeatured = 'Archbang, Crunchbang';
-	   $deClass = 'Lightweight';
+	 $deClass = 'Lightweight';
 
     $title = 'DE/WM Section - Openbox ';
 
-		$sitePath = "/home/xmetalx1/public_html";
+	$sitePath = "/home/xmetalx1/public_html";
   	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

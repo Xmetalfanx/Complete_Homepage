@@ -78,7 +78,7 @@
               echo "Image Viewer: " . $softwareDisplay["imageviewer"] . "<br />";
               echo "Archiver: " . $softwareDisplay["archiver"] . "<br />";
 
-
+/
             ?>
 
           </div>

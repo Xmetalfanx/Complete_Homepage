@@ -3,39 +3,47 @@
   <div class="card">
     <div class="card-block">
       <h2 class="card-title">Arch Family </h2>
-      <div class="card-text"><a href="/linuxHQ/distros/arch/archLinux.php">Arch Linux</a><br/><a href="/linuxHQ/distros/arch/antergos.php">Antergos</a><br/><a href="/linuxHQ/distros/arch/archBang.php">Archbang</a><br/><a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a><br/></div>
+      <div class="card-text">
+      <a href="/linuxHQ/distros/arch/archLinux.php">Arch Linux</a><br/>
+      <a href="/linuxHQ/distros/arch/antergos.php">Antergos</a><br/>
+      <a href="/linuxHQ/distros/arch/archBang.php">Archbang</a><br/>
+      <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a><br/></div>
     </div>
   </div>
   <div class="card">
     <div class="card-block">
       <h2 class="card-title">Debian Family</h2>
-      <div class="card-text"> <a href="">Anti-X</a><br/><a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs Linux (Crunchbang alternative)</a><br/>
+      <div class="card-text"> 
+        <a href="">Anti-X</a><br/>
+        <a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs Linux (Crunchbang alternative)</a><br/>
         <a href="/linuxHQ/distros/debian/crunchBang.php">Crunchbang (EOL)</a><br/>
         <a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++ (Crunchbang alternative)</a><br/>
         <a href="/linuxHQ/distros/debian/debian.php">Debian</a><br/>
         <a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition </a><br/>
-        <a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a><br/><a href="#">MX-16</a><br/>
-        <a href="/linuxHQ/distros/debian/pointLinux.php">Point Linux</a><br/><a href="/linuxHQ/distros/debian/solydxk.php">SolydXK</a><br/></div>
+        <a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a><br/>
+        <a href="#">MX-16</a><br/>
+        <a href="/linuxHQ/distros/debian/pointLinux.php">Point Linux</a><br/>
+        <a href="/linuxHQ/distros/debian/solydxk.php">SolydXK</a><br/></div>
     </div>
   </div>
   <div class="card">
     <div class="card-block">
       <h2 class="card-title">Ubuntu Related </h2>
       <div class="card-text">
-        <a href="/linuxHQ/distros/ubuntu/ubuntu.php">Ubuntu</a><br/>
-        <a href="#">KDE Neon / Neon</a><br/>
-        <a href="/linuxHQ/distros/ubuntu/kubuntu.php">Kubuntu</a><br/>
-        <a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a><br/>
-        <a href="/linuxHQ/distros/ubuntu/xubuntu.php">Xubuntu</a><br/>
-        <a href="#">Ubuntu Budgie </a><br/>
-        <a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a><br/>
         <a href="/linuxHQ/distros/ubuntu/deepn.php">Deepin</a><br/>
         <a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a><br/>
+        <a href="#">KDE Neon / Neon</a><br/>
+        <a href="/linuxHQ/distros/ubuntu/kubuntu.php">Kubuntu</a><br/>
         <a href="/linuxHQ/distros/ubuntu/linuxLite.php">Linux Lite</a><br/>
         <a href="/linuxHQ/distros/ubuntu/linuxMint.php">Linux Mint</a><br/>
         <a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a><br/>
+        <a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a><br/>
+        <a href="/linuxHQ/distros/ubuntu/uberstudent.php">Uberstudent</a>
+        <a href="/linuxHQ/distros/ubuntu/ubuntu.php">Ubuntu</a><br/>    
+        <a href="/linuxHQ/distros/ubuntu/ubuntuBudgie.php">Ubuntu Budgie </a><br/>
+        <a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a><br/>
+        <a href="/linuxHQ/distros/ubuntu/xubuntu.php">Xubuntu</a><br/>
         <a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a>
-
       </div>
     </div>
   </div>

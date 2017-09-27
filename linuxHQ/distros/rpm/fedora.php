@@ -1,6 +1,6 @@
 <?php
 
-	$localName = 'fedora';
+	$localdistroName = 'fedora';
 
 
 
