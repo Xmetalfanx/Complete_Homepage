@@ -685,10 +685,7 @@ body {
 footer {
   background-color: #333333 !important;
   color: white;
-  position: absolute !important;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: relative !important;
   margin-top: 5px; }
 
 .logo, .logo a:link, .logo a:visited {

@@ -3,7 +3,7 @@
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 
-	$addontype = 'security';
+	$addontype = 'various';
   	addontypecheck($addontype);
 
 ?>

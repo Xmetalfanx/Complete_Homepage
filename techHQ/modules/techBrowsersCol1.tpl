@@ -4,15 +4,20 @@
   <div class="card-block">
     <p class="card-text">
       <nav class="nav flex-column">
-        <a href="/techHQ/browsers/addons/downloadaddons.php" class="nav-link">Download Related</a>
-        <a href="/techHQ/browsers/addons/firefox/generalAddons.php" class="nav-link">General Addons</a>
-        <a href="/techHQ/browsers/addons/firefox/interfaceAddons.php" class="nav-link">Interface Related</a>
+        <a href="/techHQ/browsers/addons/addblockeraddons.php" class="nav-link">Ad or Content Blocking</a>
+        <a href="/techHQ/browsers/addons/profileaddons.php" class="nav-link">Profile-Related</a>
+        <a href="/techHQ/browsers/addons/downloadaddons.php" class="nav-link">Downloads</a>
+        <a href="/techHQ/browsers/addons/securityaddons.php" class="nav-link">Security</a>
+        <a href="/techHQ/browsers/addons/variousaddons.php" class="nav-link">Various Addons</a>
+
+        
       </nav>
     </p>
   </div>
 </div>
 
 
+<br/>
 <h3>Ad/Content Blocking </h3>
 <br/>
 

@@ -51,9 +51,14 @@
         global $addontype;
 
         # Specific to the addons in the download catagory
-        $browsercatquery = "SELECT * FROM mainBrowser";
+        $browsercatquery = "SELECT * FROM mainBrowser WHERE catagory = '$addontype' ORDER BY addontitle ";
         $browsercatresult = mysqli_query($conn2, $browsercatquery) or ('Error querying database');
         $browsercatdisplay = mysqli_fetch_assoc($browsercatresult);
+
+        
+        // TODO: Add code tocheck what browser the addon is for 
+        $browser
+
 
         include $sitePath . '/techHQ/modules/database/browser.php';
 
