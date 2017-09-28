@@ -2,7 +2,6 @@
 
   $title = 'Losing My Data Myth'
 
-  include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>

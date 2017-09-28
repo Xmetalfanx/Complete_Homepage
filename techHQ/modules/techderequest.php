@@ -3,29 +3,22 @@
     # Connects to Database
     require $sitePath . '/database/techdbconnect.php';
 
-    $browserdata = "SELECT * FROM mainBrowser ORDER BY addontitle ";
-    $browserMainResult = mysqli_query($conn2, $browserdata) or ('Error querying database');
-    $browserMainDisplay = mysqli_fetch_assoc($browserMainResult);
 
-
-  	# Specific to the addons in the download catagory
-  	$browserAddonsQuery = "SELECT * FROM mainBrowser ORDER BY addontitle";
-	  $browserDownloadsResult = mysqli_query($conn2, $browserAddonsQuery) or ('Error querying database');
-    $browserDownloadDisplay = mysqli_fetch_assoc($browserDownloadsResult);
 
     # Software db table
-    $totalSoftwareData = "SELECT * FROM overallsoftware ";
+    $totalSoftwareData = "SELECT * FROM overallsoftware ORDER BY appname";
     $totalSoftwareResult = mysqli_query($conn2, $totalSoftwareData) or ('Error querying database');
     $totalSoftwareDisplay = mysqli_fetch_assoc($totalSoftwareResult);
 
+
+    // function to sort main and sub catagorys in the software section 
   	function sortApps($sortmaincatagory, $sortsubcatagory)
   	{
 
   		global $localmaincat;
       global $localsubcat;
-       global $conn2;
-        global $sitePath;
-
+      global $conn2;
+      global $sitePath;
 
       // If there is no value in localsubcat - Sub catagory
       if (empty($localsubcat))
@@ -35,21 +28,19 @@
 
       }
 
-      // If the subcatagory variable contains a value that was passed from the webpage
+      // If the subcatagory variable contains a value that was passed from the webpage ... that is if its not NULL 
       if (isset($localsubcat))
       {
         $localmaincatquery = "SELECT * FROM `overallsoftware` WHERE appmaincat = '$sortmaincatagory' AND appsubcat = '$sortsubcatagory'";
         $localmaincatresult = mysqli_query($conn2, $localmaincatquery) or ('Error querying database');
       }
 
-  		include $sitePath . '/techHQ/modules/database/softwaretest.php';
+  		include $sitePath . '/techHQ/modules/database/software.php';
 
       // Clearing Variables
       $localsubcat='';
 
   		}
-
-
 
       #TESTING
       function addontypecheck($addontype)
@@ -57,10 +48,17 @@
 
         global $conn2;
         global $sitePath;
-        echo $addontype;
+        global $addontype;
+
+        # Specific to the addons in the download catagory
+        $browsercatquery = "SELECT * FROM mainBrowser";
+        $browsercatresult = mysqli_query($conn2, $browsercatquery) or ('Error querying database');
+        $browsercatdisplay = mysqli_fetch_assoc($browsercatresult);
 
         include $sitePath . '/techHQ/modules/database/browser.php';
 
+        // Clear Variable 
+        $addontype = '';
       }
 
 ?>

@@ -1,4 +1,5 @@
 <?php 
+	$subTitle="Web Browser Section - ";
 
 	include $sitePath . '/modules/tech/baseTechHeader.tpl'; 
 	include $sitePath . '/techHQ/modules/techderequest.php';

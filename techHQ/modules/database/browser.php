@@ -1,6 +1,6 @@
 <?php
 
-foreach($browserMainResult as $field)
+foreach($browsercatresult as $field)
 {
   echo "<div class=\"card\" >";
 	echo "<div class=\"card-block\" >";
@@ -10,14 +10,11 @@ foreach($browserMainResult as $field)
 			echo $field['iconurl'];
 		echo "</div>";
 
-
 		echo "<div class=\"col-lg-9 font-weight-bold\" > ";
 			echo $field['addontitle'];
 		echo "</div>";
 
-
 	  echo "</div>"; // Ends card-title
-
 
 
 	echo " <div class=\"row\" >";
@@ -28,7 +25,7 @@ foreach($browserMainResult as $field)
 		echo "<div class=\"col-lg-6\" > ";
 			echo "<strong>Last Updated: </strong> " . $field['lastupdated'];
 		echo "</div>";
-  echo "</div>"; // Ends Row
+  	echo "</div>"; // Ends Row
 
 
 		echo " <div class=\"row\" >";
@@ -37,8 +34,6 @@ foreach($browserMainResult as $field)
 		echo "</div>";
 		
   echo "</div>"; // Ends Row
-
-
 
 	 // TODO: Add code to NOT DISPLAY the N/A code .. perhaps
 	  echo "<br /><div class=\"row\" >";
@@ -58,8 +53,6 @@ foreach($browserMainResult as $field)
 	 echo "</div>"; // Ends Card-block
 
   echo "</div>"; // Ends Card
-
-
 
 
 }

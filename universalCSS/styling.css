@@ -685,7 +685,7 @@ body {
 footer {
   background-color: #333333 !important;
   color: white;
-  position: relative !important;
+  position: absolute !important;
   left: 0;
   right: 0;
   bottom: 0;
