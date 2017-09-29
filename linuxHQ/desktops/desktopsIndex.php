@@ -12,7 +12,11 @@
 
 <div class="row">
   <div class="card" style="width: 33%;padding-right: 10px;">
-    <img class="card-img-top hidden-md-down" src="../screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome" />
+    
+    <a href="../screenshots/DE/suseGnome1.jpg">
+      <img class="card-img-top hidden-md-down" src="../screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome" />
+    </a>
+
     <div class="card-body">
       <h4 class="card-title">Gnomeshell/Gnome 3</h4>
       <p class="card-text">
@@ -36,7 +40,11 @@
   </div>
 
   <div class="card" style="width: 33%;">
-    <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/mintOffCinn1.jpg" alt="Mint Cinnamon" />
+    
+    <a href="../screenshots/ubuntu/mintOffCinn1.jpg">
+      <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/mintOffCinn1.jpg" alt="Mint Cinnamon" />
+    </a>
+
     <div class="card-body">
       <h4 class="card-title">Cinnamon</h4>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -48,7 +56,11 @@
   </div>
 
   <div class="card" style="width: 33%;">
-    <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/kdeneon.png" alt="Card image cap">
+    
+    <a href="../screenshots/ubuntu/kdeneon.png">
+     <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/kdeneon.png" alt="Card image cap">
+    </a>
+
     <div class="card-body">
       <h4 class="card-title">Plasma 5/KDE</h4>
       <p class="card-text">Some Distros that feature: KDE Neon, Kubuntu,  Arch, OpenSuse, Fedora/Korora</p>
@@ -71,7 +83,11 @@
 <div class="row">
 
   <div class="card" style="width: 33%;">
-    <img class="card-img-top hidden-md-down" src="../screenshots/solus/budgie1.jpg" alt="Ubuntu Mate Screenshot" />
+    
+    <a href="../screenshots/solus/budgie1.jpg">
+      <img class="card-img-top hidden-md-down" src="../screenshots/solus/budgie1.jpg" alt="Solus Budgie Screenshot" />
+    </a>
+
     <div class="card-body">
       <h4 class="card-title">Budgie</h4>
       <p class="card-text">
@@ -96,7 +112,12 @@
 <div class="row">
 
   <div class="card" style="width: 33%;">
-    <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/umate1.png" alt="Ubuntu Mate Screenshot" />
+    
+    <a href="../screenshots/ubuntu/umate1.png">
+      <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/umate1.png" alt="Ubuntu Mate Screenshot" />
+    </a>
+    
+
     <div class="card-body">
       <h4 class="card-title">Mate</h4>
       <p class="card-text">
@@ -116,10 +137,18 @@
   </div>
 
   <div class="card" style="width: 33%;">
-    <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/xubuntu1.png" alt="Ubuntu Mate screenshot" />
+    
+
+    <a href="../screenshots/ubuntu/xubuntu1.png">
+      <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/xubuntu1.png" alt="Xubuntu screenshot" />
+    </a>
+    
+
+
     <div class="card-body">
       <h4 class="card-title">XFCE</h4>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      
       <a href="#" target="_blank" class="btn btn-primary">Xubuntu Homepage</a>
       <a href="https://manjaro.org/" target="_blank" class="btn btn-primary">
           Manjaro Homepage 
@@ -128,7 +157,12 @@
   </div>
 
   <div class="card" style="width: 33%;">
-    <img class="card-img-top" src="../screenshots/ubuntu/lubuntu1.png" alt="Card image cap" />
+    
+    <a href="../screenshots/ubuntu/lubuntu1.png">
+      <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/lubuntu1.png" alt="Card image cap" />
+    </a>
+    
+
     <div class="card-body">
       <h4 class="card-title">LXDE</h4>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -145,6 +179,8 @@
 
 
 <br /> 
+
+
 <a href="https://renewablepcs.wordpress.com/about-linux/kde-gnome-or-xfce/?_utm_source=1-2-2" target="_blank">
   GOOD SITE with default app info and spec information about Desktop Envirnoments.. much of the info the specs (not counting my thoughts) are from this site ... all credit goes to this website, linked here</a>
  
