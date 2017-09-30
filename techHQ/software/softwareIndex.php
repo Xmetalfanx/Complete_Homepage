@@ -71,11 +71,14 @@ include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
   <div class="tab-content">
     <div class="row">
       <div class="col-lg-5">
-        <h2><?php echo $pidginIcon . $pidginHome; ?></h2>
+        <h2>Pidgin </h2>
         <p>Instant Messaging Client</p>
       </div>
+      
+
+
       <div class="col-lg-5">
-        <h2><?php echo $thunderbirdIcon . $thunderbirdHome; ?> </h2>
+        <h2>Mozilla Thunderbird </h2>
         <p>Email Client</p>
       </div>
     </div>

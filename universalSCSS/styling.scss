@@ -4,19 +4,39 @@
 
 
 $headerBGColor: rgba(51, 51, 51, 1);
+$footerheight: 75px;
+
+
+body, html
+{
+  height: 100%;
+  @include margin( 0 0 0 0);
+  @include padding( 0 0 0 0);
+
+}
 
 body
 {
-  overflow-x: hidden;
+  padding-bottom: $footerheight;
+
 }
+
+#container 
+{
+  min-height: 100%;
+  position: relative;
+}
+
+
 
 footer
 {
   background-color: $headerBGColor !important;
-  color: rgb(255, 255, 255);
-  position: relative !important;
-  margin-top: 5px;
-
+  color: rgb(255, 255, 255); 
+  position: absolute;
+  height: $footerheight;
+  /* botton: 0; */ 
+  width: 100%; 
 }
 
 .logo, .logo a:link, .logo a:visited

@@ -50,7 +50,7 @@
 </head>
 
 <body>
-
+<div id="container">
   <header class="navigation">
     <div class="navigation-wrapper">
       <a href="/techHQ/index.php" class="logo hidden-md-down">Tech HQ</a>

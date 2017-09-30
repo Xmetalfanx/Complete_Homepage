@@ -28,7 +28,7 @@
         <input value="process_search" name="cmd" type="hidden"/>
         <input value="sb" name="frm" type="hidden"/>
       </form>
-    </div>
+    </div> <!-- Ends Startpage Section -->
 
   </div>
 
