@@ -13,4 +13,4 @@
     <?php include $sitePath . ('/techHQ/modules/techBrowsersCol1.tpl'); ?>
   </div>
 
-  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-10 col-xl-10">

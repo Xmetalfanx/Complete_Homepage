@@ -629,7 +629,7 @@ html {
     border-bottom: 1px solid rgba(51, 51, 51, 0.2);
     display: inline-block;
     font-size: 1.4em;
-    margin: 0 0 0.5833333333em 0;
+    margin: 0 0 0.58333em 0;
     padding-top: 0.5em; }
   .bullets li {
     list-style: none; }
@@ -875,7 +875,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation ul.submenu li {
-          line-height: 46.1538461538px; }
+          line-height: 46.15385px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -1113,5 +1113,9 @@ header {
   width: 100%; }
   .card-header a:link, .card-header a:visited, .card-header a:hover {
     color: lightgrey; }
+
+.card a:link img, .card a:visitied img, .card a:hover img {
+  height: 400px;
+  width: 600px; }
 
 /*# sourceMappingURL=styling.css.map */

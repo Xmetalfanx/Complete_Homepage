@@ -11,7 +11,7 @@
 <h3>Heavier Desktops </h3>
 
 <div class="row">
-  <div class="card" style="width: 33%;padding-right: 10px;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
     <a href="../screenshots/DE/suseGnome1.jpg">
       <img class="card-img-top hidden-md-down" src="../screenshots/DE/suseGnome1.jpg" alt="OpenSuse Gnome" />
@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 33%;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
     <a href="../screenshots/ubuntu/mintOffCinn1.jpg">
       <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/mintOffCinn1.jpg" alt="Mint Cinnamon" />
@@ -55,7 +55,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 33%;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
     <a href="../screenshots/ubuntu/kdeneon.png">
      <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/kdeneon.png" alt="Card image cap">
@@ -82,7 +82,7 @@
 
 <div class="row">
 
-  <div class="card" style="width: 33%;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
     <a href="../screenshots/solus/budgie1.jpg">
       <img class="card-img-top hidden-md-down" src="../screenshots/solus/budgie1.jpg" alt="Solus Budgie Screenshot" />
@@ -111,7 +111,7 @@
 <p> Better for older systems or systems with lower-end specs </p><br />
 <div class="row">
 
-  <div class="card" style="width: 33%;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
     <a href="../screenshots/ubuntu/umate1.png">
       <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/umate1.png" alt="Ubuntu Mate Screenshot" />
@@ -136,7 +136,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 33%;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
 
     <a href="../screenshots/ubuntu/xubuntu1.png">
@@ -156,7 +156,7 @@
     </div>
   </div>
 
-  <div class="card" style="width: 33%;">
+  <div class="card" style="width: 30%;margin-right: 20px;">
     
     <a href="../screenshots/ubuntu/lubuntu1.png">
       <img class="card-img-top hidden-md-down" src="../screenshots/ubuntu/lubuntu1.png" alt="Card image cap" />
