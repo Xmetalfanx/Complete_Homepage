@@ -1047,7 +1047,6 @@ nav {
 
 .card-img-top {
   box-shadow: 2px 2px 2px #000000;
-  margin-right: 3px;
-  margin-left: 3px; }
+  margin: 10px; }
 
 /*# sourceMappingURL=styling.css.map */

@@ -15,4 +15,4 @@
 ?>
 
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

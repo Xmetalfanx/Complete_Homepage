@@ -80,8 +80,6 @@
     </div>
   </li>
 
-
-
   <li class="tab-header-and-content">
     <a href="#" class="tab-link">Winamp/XMPlay/AIMP Plugins</a>
     <div class="tab-content">
@@ -90,3 +88,6 @@
     </div>
   </li>
 </ul>
+
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

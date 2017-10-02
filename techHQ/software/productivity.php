@@ -9,16 +9,11 @@
 
 <?php
 
-
   $localmaincat = 'productivity';
   sortApps($localmaincat);
 
 
-  include $sitePath . '/techHQ/modules/database/softwaretest.php';
-
 ?>
-
-
 
     <ul class="accordion-tabs-minimal">
 
@@ -32,12 +27,14 @@
                           <img src="http://www.dopdf.com" alt="doPDF Icon" />
                           <a href="../progIcons/product/pdf/dopdf_105.png">doPDF</a></p>
 
-                        <p>This one doesn&apos;t have a ton of options, though I find sometimes SIMPLE is better. It is very fast on both of my laptops <span class="maroonText">(2.2GHz Dual core win7 64bit with 4GB of RAM,AND a &quot;2002&quot; XP 1.7GHZ with 768MB of RAM)</span>Some of the others can take a few seconds (about 10 I would say) to load and though that doesn&apos;t seem like much (and isn&apos;t a reason NOT to try the other options I list) and when you have a number of files to convert .. those seconds add up.</p>
-                        <ul>
-                            <li><img src="../progIcons/product/pdf/PDFCreator.gif" alt="PDF Creator Icon" /><a href="http://www.pdfforge.org/">PDF Creator</a></li>
-                        </ul>
-                        <p>This is a recent find (as in the past 12 hours) ... Its open source and so far I like this best. Its a printer driver (like many other free PDF Creators) HOWEVER, I had <span class="redtext">PDF955 Free PDF Printer driver</span> which was &quot;OK&quot; but displayed a popup add for a few seconds every time you used it. Functional but annoying if you ask me ....</p>&#x9;&#x9;&#x9;
-                        <p>This IS A HEFTY 16MB which I believe includes GhostScript ( Even I am not sure what this is) and is needed to run this program. I rather this be the case then to have a @ 2MB download and have to go hunt down GhostScript manually.</p>
+                            <p>This one doesn&apos;t have a ton of options, though I find sometimes SIMPLE is better. It is very fast on both of my laptops <span class="maroonText">(2.2GHz Dual core win7 64bit with 4GB of RAM,AND a &quot;2002&quot; XP 1.7GHZ with 768MB of RAM)</span>Some of the others can take a few seconds (about 10 I would say) to load and though that doesn&apos;t seem like much (and isn&apos;t a reason NOT to try the other options I list) and when you have a number of files to convert .. those seconds add up.</p>
+                            <ul>
+                                <li><img src="../progIcons/product/pdf/PDFCreator.gif" alt="PDF Creator Icon" /><a href="http://www.pdfforge.org/">PDF Creator</a></li>
+                            </ul>
+                            
+                            <p>This is a recent find (as in the past 12 hours) ... Its open source and so far I like this best. Its a printer driver (like many other free PDF Creators) HOWEVER, I had <span class="redtext">PDF955 Free PDF Printer driver</span> which was &quot;OK&quot; but displayed a popup add for a few seconds every time you used it. Functional but annoying if you ask me ....</p>&#x9;&#x9;&#x9;
+                            
+                            <p>This IS A HEFTY 16MB which I believe includes GhostScript ( Even I am not sure what this is) and is needed to run this program. I rather this be the case then to have a @ 2MB download and have to go hunt down GhostScript manually.</p>
                     </li>
                 </ul>
             </div>
@@ -148,4 +145,6 @@
             </li>
         </li>
     </ul>
-    <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

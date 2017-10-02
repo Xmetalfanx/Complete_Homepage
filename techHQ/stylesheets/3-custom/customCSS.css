@@ -1078,8 +1078,10 @@ form.SPForm {
 .container {
   width: 96%; }
 
-.card .card-warning {
-  background-color: white; }
+.card {
+  padding: 10px; }
+  .card .card-warning {
+    background-color: white; }
 
 light
 .accordion-tabs-minimal {

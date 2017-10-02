@@ -16,4 +16,4 @@
 	to EML, HTML, or plain text files.  You can also backup the index (&quot;catalog)&quot;) of mails in a folder to a text file, or a CSV text file </p>
 
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

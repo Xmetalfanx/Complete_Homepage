@@ -9,7 +9,8 @@
 
 <p class="header"> Introduction</p>
 
-<p class="justify"><a href="#progList">Go Straight to Program List </a>(skipping the Comments) </p>
+<p class="justify">
+  <a href="#progList">Go Straight to Program List </a>(skipping the Comments) </p>
       <p><span class="justify">Many People are sticking with <strong>Internet Explorer</strong>, which comes with Windows to do their web browsing... Just note that, there are other choices and almost all of them are much better than Microsoft's default web browser </span></p>
       <img src="../../smiles/sad/sadbye.gif" alt="Crying Smile" style="width:54px; height:41px; padding-bottom:10px;"/>
       <div style="clear:both; padding-left:4%;">
@@ -49,7 +50,9 @@
 <p class="lightBGHeader"><span class="boldText">Gecko</span> (some know these as &quot;Firefox-type&quot; browsers ... Gecko is the &quot;engine&quot; Firefox uses) <span class="boldText">Basd Browsers</span></p>
 
 <div class="progTables">
-  <div class="progTablesName"> <a href="http://www.getfirefox.com"> <img src="../../progIcons/browsers/firefox_1.png" alt="Firefox Icon" class="iconsLeft" /> Firefox</a></div>
+  <div class="progTablesName"> 
+    <a href="http://www.getfirefox.com"> 
+      <img src="../../progIcons/browsers/firefox_1.png" alt="Firefox Icon" class="iconsLeft" /> Firefox</a></div>
   <div class="progTableVer"> Latest Version : 25.x</div>
   <div class="progTableDesc">
     <p>Firefox, has all the basic features you'd expect in a browser, and addons ability to add/adjust </p>

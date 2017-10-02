@@ -42,4 +42,4 @@
             <p class="header"> <a href="http://www.heidi.ie/eraser/" target="_blank">Eraser</a> - MY Favorite Drive Wiping Tool </p>
         </div>
     </div>
-    <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+ <?php include $sitePath . "/modules/footer.tpl"; ?>

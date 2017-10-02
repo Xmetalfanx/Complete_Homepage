@@ -19,8 +19,6 @@
   <p>Unless noted ... these programs are 100% free
   </p>
 
-
-
-
-
 ?>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

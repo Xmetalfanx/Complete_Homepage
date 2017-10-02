@@ -1,7 +1,7 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Thanks](#thanks)
-- [Macromedia Dreamweaver Templates](#macromedia-dreamweaver-templates)
+- [Macrome*dia Dreamweaver Templates](#macromedia-dreamweaver-templates)
 - [Sick of Windows](#sick-of-windows)
 - [PHP Templates / SASS-SCSS](#php-templates-sass-scss)
 	- [PHP Templates - Version 1.0](#php-templates-version-10)
@@ -82,7 +82,7 @@ I KNOW there are Markdown to HTML converters/addons/whatever ... but the best wa
 
 - Markdown ~> "regular" Word Processing
 
-- Jade/Pug ~~> "HTML" ```
+- Jade/Pug ~~> "HTML"
 
 Again it's more than that but I don't want to ramble on, boring people.
 

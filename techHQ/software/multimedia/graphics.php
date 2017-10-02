@@ -13,11 +13,6 @@
 
   $localmaincat = 'graphics';
   sortApps($localmaincat);
-
-  include $sitePath . '/techHQ/modules/database/softwaretest.php';
-
 ?>
 
-
-
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>
