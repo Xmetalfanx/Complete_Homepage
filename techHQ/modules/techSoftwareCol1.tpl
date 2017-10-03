@@ -26,7 +26,7 @@
 
 <div class="card">
   <div class="card-header">
-    <a href="/techHQ/software/securityPrograms.php">Security Related</a></div>
+    Security Related</div>
   <div class="card-block">
     <p class="card-text">
       <a href="/techHQ/software/security/virusANDMalwareScanners.php">Antivirus and Antimalware</a><br/>

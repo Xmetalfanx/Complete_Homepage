@@ -1,8 +1,9 @@
-<h2 id="security">Security</h2><br /><br />
+<h2 id="security">Security</h2>
+<br /><br />
 
 <div class="panel panel-default">
 	<div class="panel-heading">
-			<a href="/techHQ/security/encryptSoftware.php">Encrpytion</a> <br />
+		<a href="/techHQ/security/encryptSoftware.php">Encrpytion</a> <br />
 	</div>
 </div>
 
@@ -16,10 +17,8 @@
 			<a href="/techHQ/security/internet/ipBlockers.php">IP Blocking</a><br />
 			<p>
 			<a href="/techHQ/security/internet/secureBrowsing/securingSummary.php">Overall Summary</a>
-		</p><ul>
-		<li>Firefox </li>
-		<li>Chrome/Chromium </li>
-		<li>Opera </li>
+		</p>
+		<ul>
 	</div>
 </div>
 
@@ -40,7 +39,7 @@
 
 <div class="panel panel-default">
 	<div class="panel-heading">
-				<a href="/techHQ/security/secureBrowsing/securezBrowseIndex.php">Secure Web Browsing</a>
+		<a href="/techHQ/security/secureBrowsing/securezBrowseIndex.php">Secure Web Browsing</a>
 	</div>
 
 	<div class="panel-body">
