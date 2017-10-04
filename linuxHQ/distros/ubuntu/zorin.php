@@ -2,7 +2,7 @@
 
 $localdistroName = 'zorin';
 
-  $title = 'Distribution Section -Zorin ';
+  $pageTitle = 'Zorin';
 
 
   $sitePath = "/home/xmetalx1/public_html";

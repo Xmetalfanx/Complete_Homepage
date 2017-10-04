@@ -1,6 +1,6 @@
 <?php
 
-    $title = 'Distribution Section - Linux Mint Debian Edition ';
+    $pageTitle = 'Linux Mint Debian Edition ';
 
     $localdistroName = 'lmde';
 

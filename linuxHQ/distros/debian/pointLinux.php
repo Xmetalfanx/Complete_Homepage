@@ -1,13 +1,11 @@
 <?php
 
-	$title = 'Distribution Section -  Point Linux';
+	$pageTitle = 'Point Linux';
 
 	$localName = 'pointlinux';
 
-
-$sitePath = "/home/xmetalx1/public_html";
-
-include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
 <?php include $sitePath . "/modules/footer.tpl"; ?>

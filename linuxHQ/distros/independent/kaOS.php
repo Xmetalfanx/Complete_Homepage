@@ -1,6 +1,6 @@
 <?php
 
- $title = 'Distribution Section - KaOS';
+ $pageTitle = 'KaOS';
 
  $localdistroName = 'kaos';
 
@@ -10,4 +10,5 @@
  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
+
 <?php include $sitePath . "/modules/footer.tpl"; ?>

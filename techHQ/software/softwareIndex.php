@@ -1,10 +1,15 @@
 <?php
 
-$the_title = 'Xmetalfanxs Homepage';
-$sitePath = "/home/xmetalx1/public_html";
-include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $pageTitle = 'Software Section Main Page';
+
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
+
+
+
+
 <!-- TODO: Align Center -->
 <div class="row hidden-sm-down">
   <div class="col-md-3">
@@ -12,7 +17,6 @@ include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
   </div>
   <div class="col-md-3">
     MajorGeeks Graphic Here 
-
   </div>
 </div>
 
@@ -74,8 +78,6 @@ include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
         <h2>Pidgin </h2>
         <p>Instant Messaging Client</p>
       </div>
-      
-
 
       <div class="col-lg-5">
         <h2>Mozilla Thunderbird </h2>
@@ -258,7 +260,7 @@ include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
         </a>
         <div class="card-body">
           <h4 class="card-title">
- <a href="http://docs.xfce.org/apps/ristretto/start">
+            <a href="http://docs.xfce.org/apps/ristretto/start">
             Ristretto Homepage 
           </a>
 
@@ -295,9 +297,10 @@ include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
     <div class="row">
       <div class="col-lg-5"> 
-        <a href="https://pinta-project.com/pintaproject/pinta/">Pinta </a></div>
+        <a href="https://pinta-project.com/pintaproject/pinta/">Pinta </a>
       </div>
-    </div>
+      </div>
+    </div>  <!-- What is this closing -->
   </li>
 
 

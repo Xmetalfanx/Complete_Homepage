@@ -2,7 +2,7 @@
 
   $localdistroName = 'korora';
 
-  $title = 'Distribution Section - Korora';
+  $pageTitle = 'Korora';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

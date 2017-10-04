@@ -1,6 +1,6 @@
 <?php
 
-  $title = 'Distribution Section - (KDE) Neon';
+  $pageTitle = '(KDE) Neon';
 
   $localdistroName = 'kdeneon';
 

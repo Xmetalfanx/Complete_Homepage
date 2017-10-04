@@ -1,6 +1,6 @@
 <?php
 
-		$title= 'Xmetalfanx Useful Programs Section - Educational Section'
+		$pageTitle= 'Xmetalfanx Useful Programs Section - Educational Section';
 		include $sitePath . "/techHQ/modules/programs.php" ;
 	  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 

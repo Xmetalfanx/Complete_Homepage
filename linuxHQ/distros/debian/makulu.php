@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Distribution Section - Makulu';
+	$pageTitle = 'Makulu';
 
 	$localdistroName = 'makulu';
 
@@ -8,4 +8,5 @@
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
+
 <?php include $sitePath . "/modules/footer.tpl"; ?>

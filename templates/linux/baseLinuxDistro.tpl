@@ -1,10 +1,13 @@
 
 <?php
+  
+    $sectionTitle='Distrobution Section - ';
+
   $sitePath = "/home/xmetalx1/public_html";
 
   require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
-    include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
-    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
+  include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
+  include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 
 ?>
 

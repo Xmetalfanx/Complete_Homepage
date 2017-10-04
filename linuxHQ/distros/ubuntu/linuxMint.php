@@ -1,7 +1,7 @@
  <?php
    $localdistroName = 'mint';
    
-    $title = 'Distribution Section - Linux Mint';
+    $pageTitle = 'Linux Mint';
 
 
     $sitePath = "/home/xmetalx1/public_html";

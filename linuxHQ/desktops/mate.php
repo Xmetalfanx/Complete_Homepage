@@ -2,7 +2,7 @@
 
   $localdename = 'mate';
 
-
+\
   $deName = 'Mate';
   $deFeatured = '<ul>
 					<li> ' . $Fedora . ' Mate + Compiz </li>
@@ -13,9 +13,9 @@
 
     // Keep to check something out concerning Fedora
 
-		$title = 'DE/WM Section - Mate ';
+	$pageTitle = 'Mate';
 
-		$sitePath = "/home/xmetalx1/public_html";
+	$sitePath = "/home/xmetalx1/public_html";
   	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 
-  $title = 'Distribution Section - ElementaryOS';
+  $pageTitle = 'ElementaryOS';
 
   $localdistroName = 'elementary';
 

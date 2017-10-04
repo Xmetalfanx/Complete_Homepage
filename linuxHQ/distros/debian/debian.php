@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Distribution Section -  Debian';
+	$pageTitle = 'Debian';
 
 	$localdistroName = 'debian';
 
@@ -10,8 +10,8 @@
 
 
 	$sitePath = "/home/xmetalx1/public_html";
-
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-	?>
-	<?php include $sitePath . "/modules/footer.tpl"; ?>
+?>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

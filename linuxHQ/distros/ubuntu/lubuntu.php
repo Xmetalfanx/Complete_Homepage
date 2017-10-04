@@ -2,8 +2,7 @@
 
 $localdistroName = 'lubuntu';
 
-
-  $title = 'Distribution Section - Ubuntu';
+  $pageTitle = 'Lubuntu';
 
 	$sitePath = "/home/xmetalx1/public_html";
 

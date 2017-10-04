@@ -1080,10 +1080,30 @@ form.SPForm {
 
 .card {
   padding: 10px; }
-  .card .card-warning {
-    background-color: white; }
+  .card a:link img, .card a:visitied img, .card a:hover img {
+    height: 400px;
+    width: 600px; }
+  .card .card-header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; }
+    .card .card-header a:link, .card .card-header a:visited, .card .card-header a:hover {
+      color: lightgrey; }
+  .card .card-block {
+    padding: 0px; }
+    .card .card-block .card-text {
+      padding: 0;
+      margin: 0;
+      width: 99%;
+      font-size: 17px;
+      text-align: justify; }
+      .card .card-block .card-text a:link {
+        color: navy;
+        background-color: transparent; }
 
-light
+.card-warning {
+  background-color: white; }
+
 .accordion-tabs-minimal {
   border: 1px solid black;
   box-shadow: 2px 2px 2px;
@@ -1095,29 +1115,5 @@ header {
 #bottomLinks {
   display: flex;
   flex-direction: row; }
-
-.card-block {
-  padding: 0px; }
-
-.card-text {
-  padding: 0;
-  margin: 0;
-  width: 99%;
-  font-size: 17px;
-  text-align: justify; }
-  .card-text a:link {
-    color: navy;
-    background-color: transparent; }
-
-.card-header {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%; }
-  .card-header a:link, .card-header a:visited, .card-header a:hover {
-    color: lightgrey; }
-
-.card a:link img, .card a:visitied img, .card a:hover img {
-  height: 400px;
-  width: 600px; }
 
 /*# sourceMappingURL=customCSS.css.map */

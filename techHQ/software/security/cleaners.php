@@ -1,6 +1,6 @@
 <?php
 
-    $the_title= ' Useful Progs Section - Security Software - Cleaners';
+    $pageTitle = 'Security Software - Cleaners';
 
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/techHQ/modules/programs.php" ;

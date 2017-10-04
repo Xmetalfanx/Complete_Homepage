@@ -1,16 +1,19 @@
-<?php
-  include $sitePath . '/modules/common.php';
-  $mainTitle = 'Xmetal TechHQ Section - ';
-
-
-?>
 
 <!DOCTYPE html>
 <!-- the closing HTML tag has to be removed too -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title><?php echo $completeTitle; ?></title>
+  <title>
+    <?php 
+
+    $mainTitle = 'Xmetal TechHQ Section - ';
+    
+    global $sectiontitle;         // Allows the use of the $sectionTitle variable 
+    echo $mainTitle . $sectionTitle . $pageTitle; 
+    ?>
+      
+    </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <meta name="Description" content="Xmetafanx's Homepage is a site that can help you with Computer Problem, File Sharing News, Computer FAQ's, Security Information, Antivirus and Spyware Removal, and much much more..">

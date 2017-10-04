@@ -10,14 +10,57 @@
 {
   padding: 10px; 
 
-  .card-warning
+  a:link img, a:visitied img, a:hover img 
   {
-    background-color: rgb(255, 255, 255);
+    height: 400px; 
+    width: 600px;
+  } 
+
+
+    .card-header 
+    {
+      
+      @include margin(null auto null auto);
+      width: 100%;
+
+        a:link, a:visited, a:hover 
+          { 
+            color: lightgrey;
+          }
+
+    }
+
+
+
+  .card-block
+  {
+    padding: 0px;
+
+    .card-text
+    {
+      @include padding( 0 0 0 0);
+      @include margin ( 0 0 0 0);
+      width: 99%;
+
+      font-size: 17px;
+      text-align: justify;
+
+      a:link
+      {
+        color: navy; 
+        background-color: transparent;
+      }
+    }
   }
 
 }
 
-light
+.card-warning
+{
+  background-color: rgb(255, 255, 255);
+}
+
+
 .accordion-tabs-minimal
 {
   border: 1px solid rgb(0, 0, 0);
@@ -35,53 +78,3 @@ header
   display: flex;
   flex-direction: row;
 }
-
-
-
-.card-block
-{
-
-  padding: 0px;
-
-}
-
-.card-text
-  {
-    @include padding( 0 0 0 0);
-    @include margin ( 0 0 0 0);
-    width: 99%;
-
-    font-size: 17px;
-    text-align: justify;
-
-    a:link
-    {
-      color: navy; 
-      background-color: transparent;
-
-    }
-  }
-
-.card-header 
-{
-  
-  @include margin(null auto null auto);
-  width: 100%;
-
-    a:link, a:visited, a:hover 
-      { 
-        color: lightgrey;
-      }
-
-}
-
-
-.card a:link img, .card a:visitied img, .card a:hover img 
-{
-  
-  height: 400px; 
-  width: 600px;
-
-} 
-
-  

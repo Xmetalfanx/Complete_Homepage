@@ -1,5 +1,10 @@
 <?php
+    
+
+
     $sitePath = "/home/xmetalx1/public_html";
+
+    $sectionTitle='Desktop Envirnoment Section - ';
 
     require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
     include $sitePath . '/linuxHQ/modules/variables/varInclude.php';

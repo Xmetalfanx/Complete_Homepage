@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <head>
   <meta name="Description" content="Xmetafanx's LinuxHQ site is a page for ..">
-  <title><?php echo $completeTitle ?></title>
+  <title>
+  <?php 
+      
+    $mainTitle = 'Xmetal LinuxHQ Section - ';
+    
+    global $sectiontitle;         // Allows the use of the $sectionTitle variable 
+    
+    echo $mainTitle . $sectionTitle . $pageTitle; 
+    ?>
+   
+  </title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="index" href="/index.php">

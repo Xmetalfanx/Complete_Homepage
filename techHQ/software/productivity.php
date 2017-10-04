@@ -1,7 +1,9 @@
 <?php
 
-  $title = 'Software Section - Productivity/Office Programs';
+  $pageTitle = 'Productivity/Office Programs';
+  
   $sitePath = "/home/xmetalx1/public_html";
+  
   include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
@@ -12,11 +14,9 @@
   $localmaincat = 'productivity';
   sortApps($localmaincat);
 
-
 ?>
 
     <ul class="accordion-tabs-minimal">
-
         <li class="tab-header-and-content">
           <a href="#" class="tab-link">PDF Creators</a>
             <div class="tab-content">

@@ -1,5 +1,5 @@
 <?php
-    $title = 'Distribution Section -  Manjaro';
+    $pageTitle = 'Manjaro';
 
     $localdistroName = 'manjaro';
 

@@ -2,7 +2,7 @@
 
   $localdistroName = 'lxle';
 
-    $title = 'Distribution Section -LXLE ';
+    $pageTitle = 'LXLE ';
 
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

@@ -1,11 +1,10 @@
 <?php
 
+	$sectionTitle = 'Software Section ';
 
 	include $sitePath . '/techHQ/modules/variables/icons.php';
 	include $sitePath . '/modules/tech/baseTechHeader.tpl';
 	include $sitePath . '/techHQ/modules/techderequest.php';
-
-	$sectionTitle = 'Software Section ';
 
 ?>
 

@@ -15,8 +15,4 @@
 				echo "<img src=\" " .$src . "\" alt=\" " . $altTag . "\" width=\"88\" height=\"31\" class=\"right\" >" ;
 		}
 
-
-		$completeTitle = $mainTitle . $sectionTitle . $pageTitle;
-		$mainTitle = "Xmetal\'s";
-
 ?>

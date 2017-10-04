@@ -1,6 +1,6 @@
 <?php
 
-  $title = 'Distribution Section - Peppermint';
+  $pageTitle = 'Peppermint';
 
   $localName = 'peppermint';
 

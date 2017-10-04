@@ -1,9 +1,8 @@
 <?php
 
-  $title = 'Distribution Section - Ubuntu Budgie';
+  $pageTitle = 'Ubuntu Budgie';
 
   $localName = 'ubuntubudgie';
-
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

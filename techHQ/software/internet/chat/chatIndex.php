@@ -1,5 +1,7 @@
 <?php
 
+    // This should be moved to the main Internet page since the amount of content is so small 
+
   $title = ' ';
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;

@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Distribution Section - Bunsenlabs';
+	$pageTile = 'Bunsenlabs';
 
 	$localdistroName = 'bunsenlabs';
 

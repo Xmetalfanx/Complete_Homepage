@@ -2,7 +2,7 @@
 
     $localdistroName = 'antergos';
 
-    $title = 'Distribution Section -  Antergos';
+    $pageTitle = 'Antergos';
 
     $sitePath = "/home/xmetalx1/public_html";
 

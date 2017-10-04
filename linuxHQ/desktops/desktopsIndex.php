@@ -1,7 +1,7 @@
 
 <?php
 
-		$title = 'Linux Desktop (AKA Version) Section';
+		$pageTitle  = 'Linux Desktop (AKA Version) Section';
 
 		$sitePath = "/home/xmetalx1/public_html";
 		include $sitePath . "/templates/linux/blankTemplates/baseLinuxDEBlank.tpl";

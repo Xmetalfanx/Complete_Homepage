@@ -17,11 +17,9 @@
 
   $installFedora = 'yum install @kde-desktop ';
 
+  $pageTitle = 'KDE /Plasma 5';
 
-
-$title = 'DE/WM Section - KDE4 ';
-
-    $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

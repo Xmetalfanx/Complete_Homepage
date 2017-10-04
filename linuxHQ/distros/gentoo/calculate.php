@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Distribution Section -  Calculate Linux';
+	$pageTitle = 'Calculate Linux';
 
 	$localdistroName = 'calculate';
 

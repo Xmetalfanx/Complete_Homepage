@@ -1,8 +1,8 @@
 <?php
 
-$localdistroName = 'ubuntu';
+	$localdistroName = 'ubuntu';
 
-  $title = 'Distribution Section - Ubuntu';
+  $pageTitle = 'Ubuntu';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

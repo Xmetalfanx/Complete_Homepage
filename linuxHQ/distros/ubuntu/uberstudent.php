@@ -2,7 +2,7 @@
 
   $localdistroName = 'uberstudent';
 
-    $title = 'Distribution Section - Uberstudent ';
+    $pageTitle ='Uberstudent ';
 
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

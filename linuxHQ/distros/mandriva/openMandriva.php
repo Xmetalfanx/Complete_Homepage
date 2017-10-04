@@ -3,7 +3,7 @@
 	$localdistroName = 'openmandriva';
 
 
-    $title = 'Distribution Section - Open Mandriva ';
+    $pageTitle = 'Open Mandriva ';
 
 	$sitePath = "/home/xmetalx1/public_html";
 

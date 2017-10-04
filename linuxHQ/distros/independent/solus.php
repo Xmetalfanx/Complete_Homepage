@@ -2,8 +2,7 @@
 
  $localdistroName = 'solus';
 
-
-  $title = 'Distribution Section - Solus';
+  $pageTitle = 'Solus';
 
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

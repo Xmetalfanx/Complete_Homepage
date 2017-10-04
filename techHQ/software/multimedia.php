@@ -1,10 +1,10 @@
 <?php
-  $the_title = "Useful Programs Section - Internet Related Software";
+
+  $pageTitle = 'Multimedia Programs';
+  
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
-  $pageTitle = 'Multimedia Programs';
-
-
+  
 ?>
 
 
@@ -26,8 +26,7 @@
   <li class="tab-header-and-content">
     <a href="#" class="tab-link">Video Media Players</a>
     <div class="tab-content">
-      * These do play audio files just fine... though I think they are more for videos, there is no
-      reason you cant &quot;group these&quot; programs with the ones above, when you talking about audio.
+      * These do play audio files just fine... though I think they are more for videos, there is no reason you cant &quot;group these&quot; programs with the ones above, when you talking about audio.
 
       <?php
 

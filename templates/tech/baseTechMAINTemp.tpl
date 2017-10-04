@@ -1,4 +1,9 @@
-<?php include $sitePath . '/modules/tech/baseTechHeader.tpl'; ?>
+<?php 
+
+	$sectionTitle = "Main Section - ";
+	include $sitePath . '/modules/tech/baseTechHeader.tpl';
+
+?>
 
 <div class="row">
   <div class="col-lg-2 col-xl-2 hidden-md-down">
