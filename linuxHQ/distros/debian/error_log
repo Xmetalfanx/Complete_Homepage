@@ -1,0 +1,16 @@
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 6
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 13
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 20
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdeName in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 26
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 32
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 33
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 34
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/derequest.php on line 35
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/distrorequest.php on line 24
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/versions.php on line 8
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/versions.php on line 10
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/versions.php on line 11
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database_requests/versions.php on line 14
+
+
+[05-Oct-2017 18:59:46 America/New_York] PHP Notice:  Undefined variable: localdename in /home/xmetalx1/public_html/linuxHQ/modules/database/recExpDB.php on line 4

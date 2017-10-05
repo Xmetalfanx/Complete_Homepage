@@ -1,6 +1,6 @@
 <?php
 
-    $localdename = 'cinnamon';
+    $localdename = 'Cinnamon';
 
 	$pageTitle = 'Cinnamon ';
 

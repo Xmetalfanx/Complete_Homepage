@@ -23,25 +23,15 @@
 
       echo "<td>" . $archVerDisplay["pacmanversion"] . "</td>";
 
+      echo "<td>" . $fedoraDisplay['f25version'] . "</td>";
+      echo "<td>" . $fedoraDisplay['f26version'] . "</td>";
 
-      foreach($fedoraresult as $field)
-      {
-        echo "<td>" . $field['f25version'] . "</td>";
-        echo "<td>" . $field['f26version'] . "</td>";
-      }
+      echo "<td>" . $suseDisplay['leap422version'] . "</td>";
+      echo "<td>" . $suseDisplay['leap423version'] . "</td>";
 
-      foreach($suseresult as $field)
-      {
-
-        echo "<td>" . $field['leap422version'] . "</td>";
-        echo "<td>" . $field['leap423version'] . "</td>";
-      }
-
-      foreach($ubunturesult as $field)
-      {
-      echo "<td>" . $field['lts16040ver'] . "</td>";
-      echo "<td>" . $field['lts16043ver'] . "</td>";
-      echo "<td>" . $field['1704ver'] . "</td>";
+      echo "<td>" . $ubuntuDisplay['lts16040ver'] . "</td>";
+      echo "<td>" . $ubuntuDisplay['lts16043ver'] . "</td>";
+      echo "<td>" . $ubuntuDisplay['1704ver'] . "</td>";
       }
 
     echo "</tr>";

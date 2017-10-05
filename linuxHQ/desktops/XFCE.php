@@ -1,6 +1,6 @@
 <?php
 
-$localdename = 'xfce';
+	$localdename = 'xfce';
 
 
     $deName = '<a href="http://www.xfce.org/" target="_blank">XFCE</a>';

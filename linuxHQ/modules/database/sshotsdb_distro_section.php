@@ -1,27 +1,25 @@
   <?php
 
-  foreach($sshotDistroResult as $field)
-  {
-  	
+    // For Screenshots in the desktop section 
+    $sshotDistro = "SELECT ssde,src FROM sshots WHERE distroName = '$localdistroname' ";
+    $sshotDistroResult = mysqli_query($conn, $sshotDistro) or ('Error querying database');
+    $sshotDistroDisplay = mysqli_fetch_assoc($sshotDistroResult);
+    // mysqli_free_result($sshotDEResult);
 
-    // If src is present in the database 
-    if (isset($src))
+
+   // IF THERE ARE RESULTS 
+    if ($row = mysqli_num_rows($sshotDistroResult) > 0) 
     {
-      echo "<a href=\"" . $field['src'] . " \" target=\"_blank\" >";
-      echo "<img class=\"d-block img-fluid\" src=\" " . $field['src'] . " \" alt=\" whatever alt tag here \" /> ";
-      echo "</a> <br />";
+      while($row = mysqli_fetch_assoc($sshotDistroResult))
+      {
 
-    }
+        echo "<a href=\"" . $row['src'] . " \" target=\"_blank\" >";
+        echo "<img class=\"d-block img-fluid\" src=\" " . $row['src'] . " \" alt=\" whatever alt tag here \" /> ";
+        echo "</a> <br />";
 
+        echo "<a href=\" " . $row['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
 
-    // If href aka a link to a page with screenshots is present in the database 
-    if (isset($href))
-    {
-      echo "<a href=\" " . $field['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
-
-    }
-  
-
+      }
   }
 
   ?>

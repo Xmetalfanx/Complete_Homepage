@@ -5,9 +5,9 @@
   $mysql_password='+1P.hdn5bu}^';
   $database='xmetalx1_techHQ';
 
-  $conn2 = mysqli_connect($mysql_host, $mysql_user, $mysql_password, $database);
+  $conn2 = new mysqli($mysql_host, $mysql_user, $mysql_password, $database);
 
-  if(mysqli_connect_errno())
+  if($conn->connect_error)
   {
     // Connection Failed
     echo 'Connection to Database failed ' . mysqli_connect_errno();
