@@ -2,7 +2,7 @@
 <div class="row">
   <h2>
   <?php echo $mainInfoDisplay["detitle"]; ?>
-</h2>
+  </h2>
 
 </div>
 
@@ -13,7 +13,7 @@
         <div class="screenshots">
           <div class="font-weight-bold">Screenshots </div>
 
-            <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb.php'; ?>
+            <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_DE_section.php'; ?>
         </div>
       </div>
     </div>

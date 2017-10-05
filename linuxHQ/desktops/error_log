@@ -1,0 +1,7 @@
+
+
+
+[05-Oct-2017 14:26:19 America/New_York] PHP Notice:  Undefined variable: ubuntuMateHP in /home/xmetalx1/public_html/linuxHQ/desktops/mate.php on line 10
+
+
+[05-Oct-2017 14:26:19 America/New_York] PHP Notice:  Undefined index: mediaplayer in /home/xmetalx1/public_html/linuxHQ/modules/sections/linuxDEContent.tpl on line 77

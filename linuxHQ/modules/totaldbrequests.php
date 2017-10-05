@@ -1,6 +1,6 @@
 <?php
-    include $sitePath . '/linuxHQ/modules/derequest.php';
-    include $sitePath . '/linuxHQ/modules/distrorequest.php';
-    include $sitePath . '/linuxHQ/modules/versions.php';
+    include $sitePath . '/linuxHQ/modules/database_requests/derequest.php';
+    include $sitePath . '/linuxHQ/modules/database_requests/distrorequest.php';
+    include $sitePath . '/linuxHQ/modules/database_requests/versions.php';
 
 ?>

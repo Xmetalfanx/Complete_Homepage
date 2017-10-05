@@ -1,6 +1,6 @@
   <?php
 
-  foreach($sshotDEResult as $field)
+  foreach($sshotDistroResult as $field)
   {
   	
 

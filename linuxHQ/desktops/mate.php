@@ -2,7 +2,6 @@
 
   $localdename = 'mate';
 
-\
   $deName = 'Mate';
   $deFeatured = '<ul>
 					<li> ' . $Fedora . ' Mate + Compiz </li>

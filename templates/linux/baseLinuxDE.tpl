@@ -1,13 +1,15 @@
 <?php
     
-
-
     $sitePath = "/home/xmetalx1/public_html";
 
     $sectionTitle='Desktop Envirnoment Section - ';
-
+    
+    // Connection to DB 
     require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
+    
     include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
+    
+    // Linux Section Header 
     include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 ?>
 
