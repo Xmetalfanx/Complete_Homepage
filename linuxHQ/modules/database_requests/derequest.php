@@ -10,8 +10,8 @@
 
 
     $reqInfo = "SELECT * FROM dereq WHERE dename = '$localdename' ";
-    $reqResult = mysqli_query($conn, $reqInfo) or ('Error querying database');
-    $reqInfoDisplay = mysqli_fetch_assoc($reqResult);
+    $reqInfoResult = mysqli_query($conn, $reqInfo) or ('Error querying database');
+    $reqInfoDisplay = mysqli_fetch_assoc($reqInfoResult);
     // mysqli_free_result($reqInfoDisplay);
 
     $softwareInfo = "SELECT * FROM desoftware WHERE dename = '$localdename' ";
@@ -25,7 +25,7 @@
     $archDisplay= mysqli_fetch_assoc($archresult);
 
 
-   // Fedora 
+    // Fedora 
     $fedoradb = "SELECT * FROM defedora WHERE dename = '$localdename' ";
     $fedoraresult = mysqli_query($conn, $fedoradb) or ('Error querying database');
     $fedoraDisplay = mysqli_fetch_assoc($fedoraresult);
@@ -40,7 +40,6 @@
     $susedb = "SELECT * FROM deopensuse WHERE dename = '$localdename' ";
     $suseresult = mysqli_query($conn, $susedb) or ('Error querying database');
     $suseDisplay= mysqli_fetch_assoc($suseresult);
-
 
 
     mysqli_close($conn);

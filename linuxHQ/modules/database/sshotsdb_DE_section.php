@@ -1,11 +1,6 @@
   <?php
 
-    // For Screenshots in the desktop section 
-    $sshotDE = "SELECT * FROM sshots WHERE ssde = '$localdename' ";
-    $sshotDEResult = mysqli_query($conn, $sshotDE) or ('Error querying database');
-    $sshotDEDisplay = mysqli_fetch_assoc($sshotDEResult);
-    // mysqli_free_result($sshotDEResult);
-
+  
 
     // IF THERE ARE RESULTS 
     if (mysqli_num_rows($sshotDEResult) > 0) {
