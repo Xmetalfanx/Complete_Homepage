@@ -1,4 +1,5 @@
-.sass-cache/
-*.css.map
+**/.sass-cache/
 .git/
-/database/connect.php
+keybase.txt
+*.geany
+**/error_log

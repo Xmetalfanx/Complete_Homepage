@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;ACAZ,WAAW;ACAX,YAAY;ACaZ,sBAAsB",
+"sources": ["../../universalSCSS/2-variables/_colors.scss","../../universalSCSS/2-variables/_fonts.scss","../../universalSCSS/2-variables/_images.scss","../../universalSCSS/2-variables/_mixins.scss"],
+"names": [],
+"file": "variables-dir.css"
+}
