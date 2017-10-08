@@ -1,18 +1,22 @@
-  <?php
+<?php
 
-  
+    #Test for SRC to see if it's set 
+    $srcDETest = "SELECT * FROM sshots WHERE ssde = '$localdename' ";
+    $srcDistroQuery = mysqli_query($conn, $srcDistroTest);
 
-    // IF THERE ARE RESULTS 
-    if (mysqli_num_rows($sshotDEResult) > 0) {
-        while($row = mysqli_fetch_assoc($sshotDEResult))
-        {
 
-          echo "<a href=\"" . $row['src'] . " \" target=\"_blank\" >";
-          echo "<img class=\"d-block img-fluid\" src=\" " . $row['src'] . " \" alt=\" whatever alt tag here \" /> ";
-          echo "</a> <br />";
-     
-          echo "<a href=\" " . $row['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
+    #Test for HREF to see if it's set 
+    $hrefDETest = "SELECT * FROM sshots WHERE ssde = '$localdename' ";
+    $hrefDEQuery = mysqli_query($conn, $hrefDistroTest);
 
-        }
-    }
+
+    // THE IDEA is to pass this to the function thatchecks what variables are set in the DB table
+      // THIS SHOULD BE CRITICAL to outputting the correct data 
+          // IDEA: the same function can display data from either section if this is set correctly 
+    $shotSectionDisplay = "$sshotDEDisplay"
+
+
+    screenshotcheck($sshotSectionDisplay);
+
+ 
 ?>
