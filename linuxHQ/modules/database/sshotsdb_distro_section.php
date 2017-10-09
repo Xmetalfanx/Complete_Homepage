@@ -9,15 +9,12 @@
   	$hrefDistroTest = "SELECT href FROM sshots WHERE distroName = '$localdistroName' ";
     $hrefDistroQuery = mysqli_query($conn, $hrefDistroTest);
 
-    
-
-    // THE IDEA is to pass this to the function thatchecks what variables are set in the DB table
+  
+    // THE IDEA is to pass this to the function that checks what variables are set in the DB table
       // THIS SHOULD BE CRITICAL to outputting the correct data 
           // IDEA: the same function can display data from either section if this is set correctly 
-    $shotSectionDisplay = "$sshotDistroDisplay"
-
+    $shotSectionDisplay = "distro";
 
     screenshotcheck($sshotSectionDisplay);
-
 
 ?>

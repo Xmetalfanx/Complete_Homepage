@@ -42,6 +42,14 @@
     $suseDisplay= mysqli_fetch_assoc($suseresult);
 
 
+    
+    $sshotDE = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
+    $sshotDEResult = mysqli_query($conn, $sshotDE) or ('Error querying database');
+    $sshotDisplay = mysqli_fetch_assoc($sshotDEResult);
+    // mysqli_free_result($sshotDEResult);
+
+
+
     mysqli_close($conn);
 
 ?>

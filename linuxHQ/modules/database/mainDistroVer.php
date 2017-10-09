@@ -20,7 +20,6 @@
     echo "</tr>";
 
     echo "<tr>";
-
       echo "<td>" . $archVerDisplay["pacmanversion"] . "</td>";
 
       echo "<td>" . $fedoraDisplay['f25version'] . "</td>";
@@ -32,7 +31,6 @@
       echo "<td>" . $ubuntuDisplay['lts16040ver'] . "</td>";
       echo "<td>" . $ubuntuDisplay['lts16043ver'] . "</td>";
       echo "<td>" . $ubuntuDisplay['1704ver'] . "</td>";
-      }
 
     echo "</tr>";
 

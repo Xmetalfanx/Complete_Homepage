@@ -7,6 +7,7 @@
     // Connection to DB 
     require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
     
+    include $sitePath . '/linuxHQ/modules/linuxcommon.php';
     include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
     
     // Linux Section Header 

@@ -8,15 +8,11 @@
           <div class="card-block">
             <div class="card-text">
               <?php               
-
                 foreach($descriptResult as $field)
                   {
                     echo ($field['description']);
-
                   }           
-                
                 ?>
-
             </div>
           </div>
         </div>
@@ -28,29 +24,7 @@
     <a href="#screeshot" class="tab-link">Screenshots</a>
     <div class="tab-content hidden-md-down">
       <div id="screenshots">
-          <?php
-
-            // For Screenshots in the desktop section 
-            $sshotDE = "SELECT * FROM sshots WHERE ssde = '$localdename' ";
-            $sshotDEResult = mysqli_query($conn, $sshotDE) or ('Error querying database');
-            $sshotDEDisplay = mysqli_fetch_assoc($sshotDEResult);
-            // mysqli_free_result($sshotDEResult);
-
-
-            // IF THERE ARE RESULTS 
-            if (mysqli_num_rows($sshotDEResult) > 0) {
-                while($row = mysqli_fetch_assoc($sshotDEResult))
-                {
-
-                  echo "<a href=\"" . $row['src'] . " \" target=\"_blank\" >";
-                  echo "<img class=\"d-block img-fluid\" src=\" " . $row['src'] . " \" alt=\" whatever alt tag here \" /> ";
-                  echo "</a> <br />";
-             
-                  echo "<a href=\" " . $row['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
-
-                }
-            }
-        ?>      
+          <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section.phps'; ?>
 
       </div>
     </div>
