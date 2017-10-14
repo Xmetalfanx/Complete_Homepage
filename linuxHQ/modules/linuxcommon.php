@@ -1,37 +1,100 @@
 <?php 
 
-  // Contains common variables of functions to use 
+// Contains common variables of functions to use 
+
+// Create function that is called in the other function below
+function screenshotsDisplay($sshotTEST)
+{
+
+  global $sshotSectionDisplay;
 
 
-   // Setup function ... perhaps move this to a different file? 
-    function screenshotcheck($sshotSectionDisplay)
+  // THE DISPLAY VARIABLES BELOW INSIDE the if statements have to be the same no matter what section the request comes from 
+
+
+
+  // If the after the query, there is a value in the SRC field 
+  if ($shotSectionDisplay = "DE")
+  {
+
+    echo "<a href=\"" . $sshotSRCDisplay['src'] . " \" target=\"_blank\" >";
+    echo "<img class=\"d-block img-fluid\" src=\" " . $sshotSRCDisplay['src'] . " \" alt=\" whatever alt tag here \" /> ";
+    echo "</a> <br />";
+
+  }
+
+  // If after the query there is a value in the HREF field 
+  elseif ($shotSectionDisplay = "distro")
+  {
+    echo "<a href=\" " . $sshotSectionHREFDisplay['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
+  }
+
+}
+
+// function that checks if there is content in the src (image) field in the database 
+function srcCheck 
+{
+
+  // HOW to determine what query to run? 
+
+  // If the SRC field is set, display src data (actual screenshots)
+
+
+
+
+}
+
+// function to check if the href field isset based on the query 
+function hrefCheck
+{
+  // How to determine query? 
+
+  // If the HREF field has data in it (links to screenshots) display those links 
+
+
+
+}
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+
+// Function name seems too generic atm 
+function screenshotcheck($sshotSectionDisplay, $srcDETest, $srcDEQuery)
+{
+
+  // allows the use of the variable - This tells the function what section the request came from ... Distro or Desktop 
+
+  // This is being passed from the SS (any of them) so called DB file ... they may all become one file later on  
+  global $sshotSectionDisplay; 
+
+  // what is section is being used - told by the variable above - will determine what query to use 
+
+
+
+
+
+
+   if ($shotSectionDisplay = "DE")
     {
-   
-      // allows the use of the variable 
-      global $sshotSectionDisplay; 
 
+     
 
-      // Test to be removed later 
-      echo "<br /><br />Test from inside the check FUNCTION: " . $shotSectionDisplay;
-
-      // Determine which of the two sections in Linux HQ the request came from ... Distro or Desktop 
-
-
-      // THE ISSUE APPEARS to be here ... The alt tag is Showing and the correct if statement is being returned as true on the DE section, HOWEVER the displaying of the query is not working 
-      if ($shotSectionDisplay = "DE")
-      {
-    
-        echo "<a href=\"" . $srcDEQuery['src'] . " \" target=\"_blank\" >";
-        echo "<img class=\"d-block img-fluid\" src=\" " . $srcDEQuery['src'] . " \" alt=\" whatever alt tag here \" /> ";
-        echo "</a> <br />";
-
-      }
-
-      elseif ($shotSectionDisplay = "distro")
-      {
-        echo "<a href=\" " . $sshotSectionHREFCheck['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
-      }
 
     }
+    elseif ($shotSectionDisplay = "distro")
+    {      
 
+    }
+    // More to come later 
+
+
+
+    screenshotsDisplay($sshotTEST); 
+
+}
 ?>

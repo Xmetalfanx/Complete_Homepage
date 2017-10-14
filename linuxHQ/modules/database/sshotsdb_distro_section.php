@@ -15,6 +15,6 @@
           // IDEA: the same function can display data from either section if this is set correctly 
     $shotSectionDisplay = "distro";
 
-    screenshotcheck($sshotSectionDisplay);
+    screenshotcheck('$sshotSectionDisplay');
 
 ?>
