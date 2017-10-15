@@ -10,9 +10,7 @@
     $hrefDistroQuery = mysqli_query($conn, $hrefDistroTest);
 
   
-    // THE IDEA is to pass this to the function that checks what variables are set in the DB table
-      // THIS SHOULD BE CRITICAL to outputting the correct data 
-          // IDEA: the same function can display data from either section if this is set correctly 
+
     $shotSectionDisplay = "distro";
 
     screenshotcheck('$sshotSectionDisplay');

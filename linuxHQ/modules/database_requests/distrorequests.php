@@ -18,12 +18,6 @@
     $recexp = "SELECT * FROM recexp WHERE distroName = '$localdistroName' ";
     $recexpResults = mysqli_query($conn, $recexp) or ('Error querying database');
 
-    // For Screenshots in the desktop section 
-    $sshotDistro = "SELECT ssde,src FROM sshots WHERE distroName = '$localdistroName' ";
-    $sshotDistroResult = mysqli_query($conn, $sshotDistro) or ('Error querying database');
-    $sshotDistroDisplay = mysqli_fetch_assoc($sshotDistroResult);
-    // mysqli_free_result($sshotDEResult);
-
     // For getting USB Creation info about a distro 
     $usb = "SELECT * FROM usb WHERE distroName = '$localdistroName' ";
     $usbResult = mysqli_query($conn, $usb) or ('Error querying database');

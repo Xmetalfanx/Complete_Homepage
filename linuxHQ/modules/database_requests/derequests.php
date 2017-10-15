@@ -1,4 +1,3 @@
-
 <?php
     // Connects to Database
     require $sitePath . '/database/connect.php';
@@ -17,7 +16,6 @@
     $softwareInfo = "SELECT * FROM desoftware WHERE dename = '$localdename' ";
     $softwareResult = mysqli_query($conn, $softwareInfo) or ('Error querying database');
     $softwareDisplay = mysqli_fetch_assoc($softwareResult);
-
 
     // Arch
     $archdb = "SELECT * FROM dearch WHERE dename = '$localdename' ";
@@ -40,14 +38,6 @@
     $susedb = "SELECT * FROM deopensuse WHERE dename = '$localdename' ";
     $suseresult = mysqli_query($conn, $susedb) or ('Error querying database');
     $suseDisplay= mysqli_fetch_assoc($suseresult);
-
-
-    
-    $sshotDE = "SELECT ssde,src FROM sshots WHERE ssde = '$localdename' ";
-    $sshotDEResult = mysqli_query($conn, $sshotDE) or ('Error querying database');
-    $sshotDisplay = mysqli_fetch_assoc($sshotDEResult);
-    // mysqli_free_result($sshotDEResult);
-
 
 
     mysqli_close($conn);

@@ -1,25 +1,17 @@
 <?php
 
-
-
-    // 
-
-
-
+	// NOT SURE if these are needed anymore 
     $DETest = "SELECT src,href FROM sshots WHERE ssde = '$localdename' ";
     $DEQuery = mysqli_query($conn, $srcDETest);
 
 
+    // Seems I do need what is above this, though I have an idea that may eliminate that need later on 
 
 
 
 
 
-    // THE IDEA is to pass this to the function thatchecks what variables are set in the DB table
-      // THIS SHOULD BE CRITICAL to outputting the correct data 
-          // IDEA: the same function can display data from either section if this is set correctly 
-    $sshotSectionDisplay = "DE";
-
-    screenshotcheck('$sshotSectionDisplay');
+    // Do I need to pass the $localDE variable type variable specifically? 
+    screenshotcheck();
 
 ?>
