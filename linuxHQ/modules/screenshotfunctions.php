@@ -7,7 +7,7 @@
 	function srcCheck()
 	{
 
-	  $srcDisplay = "SELECT 
+	  $srcCheckQuery = "SELECT 
 	  *
 	  FROM 
 	  <sstable here> 
@@ -15,15 +15,18 @@
 	    	src IS NOT NULL  
 	    	AND
 	    	
-	    	# Consider using a variable here like extraCheck or something for what is below in WHERE 
+	    	# USE a variable here like extraCheck or something for what is below in WHERE 
 	    	ssde = '$localDEname'";
 
-	    
-	    
-		 	# Pass to a universal display function with the var i just declared as an arguement
-			universalSShotDisplay($srcDisplay);
 
-		 	# ALSO include a line to clear the var content 
+    $srcCheckResult = mysqli_query($conn, $srcCheckQuery) or ('Error querying database');
+    $srcCheckDisplay = mysqli_fetch_assoc($srcCheckResult);
+	
+	
+ 	# Pass to a universal display function with the var i just declared as an arguement
+	universalSShotDisplay($srcCheckQuery);
+
+ 	# ALSO include a line to clear the var content 
 
 	}
 
@@ -33,34 +36,34 @@
 	{
 	 
 
-	  $hrefDisplay = "SELECT 
-	  *
-	  FROM 
-	  <sstable here> 
-	  WHERE 
-		src IS NOT NULL
-		AND
+	  $hrefCheckQuery = "SELECT 
+		  *
+		  FROM 
+		  <sstable here> 
+		  WHERE 
+			src IS NOT NULL
+			AND
 
-		# consider if i can make this a varaible later 
-	    ssde = '$localDEname'";
+			# consider if i can make this a varaible later 
+		    ssde = '$localDEname'";
 	    
 	    
 	  	# Pass to a universal display function with the var i just declared as an arguement
-		universalSShotDisplay($srcDisplay);
+		universalSShotDisplay($hrefCheckQuery);
 
 	  	# ALSO include a line to clear the var content 
 	}
 
 
 	// Universal Display function 
-	function universalSShotDisplay($srcDisplay)
+	function universalSShotDisplay($srcCheckQuery)
 	{
 
-	  if (isset($srcDisplay))
+	  if (isset($srcCheckQuery))
 	  {
 
-	    echo "<a href=\"" . $screenshotDisplay['src'] . " \" target=\"_blank\" >";
-	    echo "<img class=\"d-block img-fluid\" src=\" " . $screenshotDisplay['src'] . " \" alt=\" whatever alt tag here \" /> ";
+	    echo "<a href=\"" . $srcCheckDisplay['src'] . " \" target=\"_blank\" >";
+	    echo "<img class=\"d-block img-fluid\" src=\" " . $srcCheckDisplay['src'] . " \" alt=\" whatever alt tag here \" /> ";
 	    echo "</a> <br />";
 	  }
 

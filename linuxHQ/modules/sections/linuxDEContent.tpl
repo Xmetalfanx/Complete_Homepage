@@ -12,7 +12,7 @@
       <div class="card-text">
         <div class="screenshots">
           <div class="font-weight-bold">Screenshots </div>
-
+            <!-- Specific Screenshot file called -->
             <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_DE_section.php'; ?>
         </div>
       </div>
