@@ -2,6 +2,8 @@
 
 
 	# Functions for screenshot functions 
+	## KEEP THIS FILE but so far I am still TRYING To get this to work ... this may not be in-use all the time until I figure out what I am doing wrong 
+
 
 
 	# function that checks if there is content in the src (image) field in the database 
