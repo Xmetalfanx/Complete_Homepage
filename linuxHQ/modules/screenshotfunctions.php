@@ -7,24 +7,22 @@
 	function srcCheck()
 	{
 
+
+		$localDEName
 	  $srcCheckQuery = "SELECT 
 	  *
 	  FROM 
-	  <sstable here> 
+	  sshots
 	  WHERE 
 	    	src IS NOT NULL  
 	    	AND
-	    	
-	    	# USE a variable here like extraCheck or something for what is below in WHERE 
-	    	ssde = '$localDEname'";
-
+	  	    ssde = '$localDEname'";
 
     $srcCheckResult = mysqli_query($conn, $srcCheckQuery) or ('Error querying database');
     $srcCheckDisplay = mysqli_fetch_assoc($srcCheckResult);
 	
-	
  	# Pass to a universal display function with the var i just declared as an arguement
-	universalSShotDisplay($srcCheckQuery);
+	universalSShotDisplay($srcCheckQuery, $srcCheckDisplay);
 
  	# ALSO include a line to clear the var content 
 
@@ -34,18 +32,14 @@
 	// function to check if the href field isset based on the query 
 	function hrefCheck()
 	{
-	 
-
 	  $hrefCheckQuery = "SELECT 
 		  *
 		  FROM 
-		  <sstable here> 
+		  sshots
 		  WHERE 
 			src IS NOT NULL
 			AND
-
-			# consider if i can make this a varaible later 
-		    ssde = '$localDEname'";
+		    ssde = '$localDEname' ";
 	    
 	    
 	  	# Pass to a universal display function with the var i just declared as an arguement
@@ -56,8 +50,11 @@
 
 
 	// Universal Display function 
-	function universalSShotDisplay($srcCheckQuery)
+	function universalSShotDisplay($srcCheckQuery, $srcCheckDisplay)
 	{
+
+		# Test
+		echo "<br />srcCheckDisplay: " . $srcCheckDisplay; 
 
 	  if (isset($srcCheckQuery))
 	  {
@@ -68,7 +65,7 @@
 	  }
 
 	   
-	  elseif (isset($srcDisplay))
+	  elseif (isset($hrefCheckQuery))
 	  {
 	    echo "<a href=\" " . $screenshotDisplay['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
 	  }

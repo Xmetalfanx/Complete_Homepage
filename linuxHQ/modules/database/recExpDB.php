@@ -1,42 +1,32 @@
 <?php
+{
 
-    // IF THERE ARE RESULTS 
-    if (mysqli_num_rows($reqResult) > 0) {
-        while($row = mysqli_fetch_assoc($reqResult))
-        {
+  echo "<div class=\"row\"> ";
+    echo "<div class=\"col-lg-6\" > ";
+      echo "<strong>Would I recommend this distrobution to anyone curious about it?: </strong> " . $recexpDisplay['anyuserRec'];
+    echo "</div>";
 
-          echo "<div class=\"row\"> ";
-            echo "<div class=\"col-lg-6\" > ";
-              echo "<strong>Would I recommend this distrobution to anyone curious about it?: </strong> " . ($field['anyuserRec']);
-            echo "</div>";
-
-            echo "<div class=\"col-lg-6\" > ";
-              echo "<strong>Any reason given: </strong> " . ($field['anyuserReason']);
-            echo "</div> ";
-          echo "</div>";
+    echo "<div class=\"col-lg-6\" > ";
+      echo "<strong>Any reason given: </strong> " . $recexpDisplay['anyuserReason'];
+    echo "</div> ";
+  echo "</div>";
 
 
-          echo "<div class=\"row\"> ";
-            echo "<div class=\"col-lg-6\"> ";
-              echo "<strong> Would I recommend this distrobution to a new user to Linux?: </strong>" . ($field['newuserRec']);
-            echo "</div>";
-            echo "<div class=\" col-lg-6\"> ";
-              echo "Reason: " . ($field['newuserReason']);
-          echo "</div> ";
+  echo "<div class=\"row\"> ";
+    echo "<div class=\"col-lg-6\"> ";
+      echo "<strong> Would I recommend this distrobution to a new user to Linux?: </strong>" . ($field['newuserRec']);
+    echo "</div>";
+    echo "<div class=\" col-lg-6\"> ";
+      echo "Reason: " . $recexpDisplay['newuserReason'];
+  echo "</div> ";
 
-              echo "</div> <br /> <br />";
+      echo "</div> <br /> <br />";
 
-              echo "<div class=\"row\"> ";
+      echo "<div class=\"row\"> ";
 
-                echo "<strong>My Experience: </strong> " . ($field['myexp']) . " <br />";
-                echo "<strong>Any Extra Comments: </strong> " . ($field['comments']);
+        echo "<strong>My Experience: </strong> " . $recexpDisplay['myexp'] . " <br />";
+        echo "<strong>Any Extra Comments: </strong> " . $recexpDisplay['comments'];
 
-              echo "</div>";
-
-        }
-        // Else clause would go here 
-    }
-
-
-
+      echo "</div>";
+}
 ?>

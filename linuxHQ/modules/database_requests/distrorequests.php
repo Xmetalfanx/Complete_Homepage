@@ -17,6 +17,7 @@
 
     $recexp = "SELECT * FROM recexp WHERE distroName = '$localdistroName' ";
     $recexpResults = mysqli_query($conn, $recexp) or ('Error querying database');
+    $recexpDisplay = mysqli_fetch_assoc($recexpResults);
 
     // For getting USB Creation info about a distro 
     $usb = "SELECT * FROM usb WHERE distroName = '$localdistroName' ";
