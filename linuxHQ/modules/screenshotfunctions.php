@@ -1,5 +1,6 @@
 <?php 
 
+
 	# Functions for screenshot functions 
 
 
@@ -7,8 +8,7 @@
 	function srcCheck()
 	{
 
-
-		$localDEName
+		global $localDEName;
 	  $srcCheckQuery = "SELECT 
 	  *
 	  FROM 
@@ -16,7 +16,7 @@
 	  WHERE 
 	    	src IS NOT NULL  
 	    	AND
-	  	    ssde = '$localDEname'";
+	  	    ssde = '$localdename' ";
 
     $srcCheckResult = mysqli_query($conn, $srcCheckQuery) or ('Error querying database');
     $srcCheckDisplay = mysqli_fetch_assoc($srcCheckResult);

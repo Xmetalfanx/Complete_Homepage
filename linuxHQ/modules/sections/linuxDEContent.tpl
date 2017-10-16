@@ -46,14 +46,13 @@
         <br />
         <div class="font-weight-bold">General Requirements:
           <div class="font-weight-normal">
-            <?php
+           <?php
 
-              echo "<em>Required Processor:</em> " . $reqInfoDisplay["reqprocessor"] . "<br />";
-              echo "<em>Required Hard Drive Space: </em>" . $reqInfoDisplay["reqhddspace"] . "<br />";
-              echo "<em>Required Memory:</em> " . $reqInfoDisplay["reqmemory"] . "<br />";
+              echo "Required Processor: " . $reqInfoDisplay['reqprocessor'] . "<br />";
+              echo "Required Hard Drive Space:" . $reqInfoDisplay['reqhddspace'] . "<br />";
+              echo "Required Memory: " . $reqInfoDisplay['reqmemory'] . "<br />";
 
-            ?>
-
+          ?>
           </div>
         </div>
 

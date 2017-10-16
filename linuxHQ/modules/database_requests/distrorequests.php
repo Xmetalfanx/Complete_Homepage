@@ -3,6 +3,7 @@
 
     // localdistroName is located in each individual distro page and it is the name
     
+    
     $youtube = "SELECT * FROM youtube WHERE distroName = '$localdistroName' ";
     $ytResult = mysqli_query($conn, $youtube) or ('Error querying database');
     $ytDisplay = mysqli_fetch_assoc($ytResult);

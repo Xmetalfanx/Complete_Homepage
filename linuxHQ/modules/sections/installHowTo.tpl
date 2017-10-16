@@ -1,4 +1,3 @@
-<?php require $sitePath . '/linuxHQ/modules/database_requests/derequest.php'; ?>
 
 <ul class="accordion-tabs-minimal">
 
@@ -26,7 +25,6 @@
 
             echo "<strong>How to Install: </strong>" . $archDisplay['install'];
           
-         
         ?>
     </div>
   </li>

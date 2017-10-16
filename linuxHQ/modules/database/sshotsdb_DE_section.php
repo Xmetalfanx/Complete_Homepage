@@ -1,7 +1,9 @@
-<?php
-
-	// Calls Screenshot function that eventually checks if SRC and HREF records are present in the database table sshots 
-    srcCheck($localDEName);
-
-
+  <?php
+  
+      echo "<a href=\"" . $sshotDESrcDisplay['src'] . " \" target=\"_blank\" >";
+      echo "<img class=\"d-block img-fluid\" src=\" " . $sshotDESrcDisplay['src'] . " \" alt=\" whatever alt tag here \" /> ";
+      echo "</a> <br />";
+ 
+      echo "<a href=\" " . $sshotDESrcDisplay['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
+  
 ?>
