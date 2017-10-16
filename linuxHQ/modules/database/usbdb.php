@@ -1,6 +1,6 @@
 <?php
 
-    echo "<div id=\"usb\" >";
+  echo "<div id=\"usb\" >";
       echo "<br /> <ul> Cross Platform: ";
       echo "<li> Etcher.io "  . $usbDisplay['etcher'] .  " </li>";
       echo "<li> UNetBootin " . $usbDisplay['unetbootin'] ." </li>";
