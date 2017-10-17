@@ -1,6 +1,6 @@
  <?php
 
-  $localdistroName = 'deepin';
+  $localdistroname = 'deepin';
 
   $pageTitle = 'Deepin (Linux)';
 

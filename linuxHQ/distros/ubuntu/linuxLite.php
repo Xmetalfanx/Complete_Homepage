@@ -1,6 +1,6 @@
  <?php
 
-  $localName = 'linuxlite';
+  $localdistroname = 'linuxlite';
 
   $pageTitle = 'Linux Lite';
 

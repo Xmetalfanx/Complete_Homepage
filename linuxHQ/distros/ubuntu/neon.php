@@ -2,7 +2,7 @@
 
   $pageTitle = '(KDE) Neon';
 
-  $localdistroName = 'kdeneon';
+  $localdistroname = 'kdeneon';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

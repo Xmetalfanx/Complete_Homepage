@@ -24,7 +24,7 @@
     <a href="#screeshot" class="tab-link">Screenshots</a>
     <div class="tab-content hidden-md-down">
       <div id="screenshots">
-          <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section.phps'; ?>
+          <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section.php'; ?>
 
       </div>
     </div>
@@ -65,6 +65,7 @@
           </p>
 
             <?php 
+
                 echo "<div id=\"usb\" >";
                   echo "<br /> <ul> Cross Platform: ";
                     echo "<li> Etcher.io "  . $usbDisplay['etcher'] .  " </li>";
@@ -82,7 +83,7 @@
                 echo "</ul>";
               echo "</div>";
 
-          ?>
+            ?>
 
         </div>
       </div>

@@ -2,6 +2,9 @@
     
     require $sitePath . '/database/connect.php';
 
+
+    ### DE Section 
+
     # Query for when the desktop matches AND SRC is set
     $sshotDESrcQuery = "SELECT * FROM sshots WHERE ssde = '$localdename' AND 'src' IS NOT NULL";
     $sshotDESrcResult = mysqli_query($conn, $sshotDESrcQuery) or ('Error querying database');
@@ -12,5 +15,22 @@
     $sshotDEHrefResult = mysqli_query($conn, $sshotDEHrefQuery) or ('Error querying database');
     $sshotDEHrefDisplay = mysqli_fetch_assoc($sshotDEHrefResult);
  
+
+
+    ## DistroSection 
+
+  	# Query for when the desktop matches AND SRC is set
+    $sshotDistroSrcQuery = "SELECT * FROM sshots WHERE distroName = '$localdistroname' AND 'src' IS NOT NULL";
+    $sshotDistroSrcResult = mysqli_query($conn, $sshotDistroSrcQuery) or ('Error querying database');
+    $sshotDistroSrcDisplay = mysqli_fetch_assoc($sshotDistroSrcResult);
+
+    # Query for when the desktop matches AND HREF is set
+    $sshotDistroHrefQuery = "SELECT * FROM sshots WHERE distroName = '$localdistroname' AND 'href' IS NOT NULL";
+    $sshotDistroHrefResult = mysqli_query($conn, $sshotDistroHrefQuery) or ('Error querying database');
+    $sshotDistroHrefDisplay = mysqli_fetch_assoc($sshotDistroHrefResult);
+ 
+
+
+
  
  ?>

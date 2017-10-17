@@ -2,7 +2,7 @@
 
 	$pageTitle = 'Sabayon Linux';
 
-	$localName = 'sabayon';
+	$localdistroname = 'sabayon';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

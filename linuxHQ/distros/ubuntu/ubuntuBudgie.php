@@ -2,7 +2,7 @@
 
   $pageTitle = 'Ubuntu Budgie';
 
-  $localName = 'ubuntubudgie';
+  $localdistroname = 'ubuntubudgie';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

@@ -2,7 +2,7 @@
 
   $pageTitle = 'Arch Linux';
 
-  $localdistroName = 'arch';
+  $localdistroname = 'arch';
 
 	$sitePath = "/home/xmetalx1/public_html";
 

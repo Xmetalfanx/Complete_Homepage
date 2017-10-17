@@ -2,7 +2,7 @@
 
   $title = 'Distribution Section - CentOS ';
 
-  $localdistroName = 'centos';
+  $localdistroname = 'centos';
 
 	$sitePath = "/home/xmetalx1/public_html";
 

@@ -1,6 +1,6 @@
 <?php
 
-  $localdistroName = 'lxle';
+  $localdistroname = 'lxle';
 
     $pageTitle = 'LXLE ';
 

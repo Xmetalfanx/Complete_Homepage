@@ -1,6 +1,6 @@
 <?php
 
-	$localdistroName = 'openmandriva';
+	$localdistroname = 'openmandriva';
 
 
     $pageTitle = 'Open Mandriva ';

@@ -2,7 +2,7 @@
 
 	$title = 'Distribution Section -  Gentoo';
 
-	$localdistroName = 'gentoo';
+	$localdistroname = 'gentoo';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

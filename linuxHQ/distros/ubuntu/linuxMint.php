@@ -1,8 +1,8 @@
  <?php
-   $localdistroName = 'mint';
+   
+   $localdistroname = 'mint';
    
     $pageTitle = 'Linux Mint';
-
 
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

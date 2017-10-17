@@ -1,6 +1,6 @@
 <?php
 
-    $localdistroName = 'antergos';
+    $localdistroname = 'antergos';
 
     $pageTitle = 'Antergos';
 

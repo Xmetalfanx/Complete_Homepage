@@ -1,6 +1,6 @@
 <?php
 
-  $localdistroName = 'uberstudent';
+  $localdistroname = 'uberstudent';
 
     $pageTitle ='Uberstudent ';
 

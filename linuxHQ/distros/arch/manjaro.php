@@ -1,7 +1,7 @@
 <?php
     $pageTitle = 'Manjaro';
 
-    $localdistroName = 'manjaro';
+    $localdistroname = 'manjaro';
 
     $sitePath = "/home/xmetalx1/public_html";
 

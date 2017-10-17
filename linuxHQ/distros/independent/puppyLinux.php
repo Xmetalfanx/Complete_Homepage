@@ -2,7 +2,7 @@
 
   $title = 'Distribution Section - Puppy Linux';
 
-  $localName = 'puppy';
+  $localdistroname = 'puppy';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

@@ -1,6 +1,6 @@
 <?php
 
-	$localdistroName = 'fedora';
+	$localdistroname = 'fedora';
 
 
 	$download = '  <a href="http://fedoraproject.org/get-fedora.html" target="_blank">http://fedoraproject.org/get-fedora.html</a><br>

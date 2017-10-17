@@ -1,7 +1,7 @@
  <?php
     $pageTitle = 'Distribution Section - ArchBang';
 
-    $localdistroName= 'archbang';
+    $localdistroname = 'archbang';
 
 	$sitePath = "/home/xmetalx1/public_html";
 

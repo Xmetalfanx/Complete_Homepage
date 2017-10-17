@@ -1,6 +1,6 @@
 <?php
 
-  $localdistroName = 'mageia';
+  $localdistroname = 'mageia';
 
 
   $pageTitle = 'Magiea ';

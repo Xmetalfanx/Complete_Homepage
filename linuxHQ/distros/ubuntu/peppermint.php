@@ -2,7 +2,7 @@
 
   $pageTitle = 'Peppermint';
 
-  $localName = 'peppermint';
+  $localdistroname = 'peppermint';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

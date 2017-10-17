@@ -1,6 +1,6 @@
 <?php
 
-  $localdistroName = 'korora';
+  $localdistroname = 'korora';
 
   $pageTitle = 'Korora';
 

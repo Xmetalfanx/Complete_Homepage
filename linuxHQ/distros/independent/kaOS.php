@@ -2,7 +2,7 @@
 
  $pageTitle = 'KaOS';
 
- $localdistroName = 'kaos';
+ $localdistroname = 'kaos';
 
 
  $sitePath = "/home/xmetalx1/public_html";

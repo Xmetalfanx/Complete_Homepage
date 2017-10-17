@@ -14,7 +14,7 @@
 
   echo "<div class=\"row\"> ";
     echo "<div class=\"col-lg-6\"> ";
-      echo "<strong> Would I recommend this distrobution to a new user to Linux?: </strong>" . ($field['newuserRec']);
+      echo "<strong> Would I recommend this distrobution to a new user to Linux?: </strong>" . ($recexpDisplay['newuserRec']);
     echo "</div>";
     echo "<div class=\" col-lg-6\"> ";
       echo "Reason: " . $recexpDisplay['newuserReason'];

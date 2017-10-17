@@ -2,7 +2,7 @@
 
 	$pageTile = 'Bunsenlabs';
 
-	$localdistroName = 'bunsenlabs';
+	$localdistroname = 'bunsenlabs';
 
 
 	$sitePath = "/home/xmetalx1/public_html";
