@@ -4,25 +4,27 @@
 	# Functions for screenshot functions 
 	## KEEP THIS FILE but so far I am still TRYING To get this to work ... this may not be in-use all the time until I figure out what I am doing wrong 
 
-
-
 	# function that checks if there is content in the src (image) field in the database 
-	function srcCheck()
+	function srcCheck($extraTest)
 	{
 
-		global $localDEName;
-	  $srcCheckQuery = "SELECT 
-	  *
-	  FROM 
-	  sshots
-	  WHERE 
-	    	src IS NOT NULL  
-	    	AND
-	  	    ssde = '$localdename' ";
+		
+		$srcCheckQuery = "SELECT 
+		*
+		FROM 
+		sshots
+		WHERE 
+		src IS NOT NULL  
+		AND
+		$extraTest ";
 
-    $srcCheckResult = mysqli_query($conn, $srcCheckQuery) or ('Error querying database');
-    $srcCheckDisplay = mysqli_fetch_assoc($srcCheckResult);
-	
+	    $srcCheckResult = mysqli_query($conn, $srcCheckQuery) or ('Error querying database');
+	    $srcCheckDisplay = mysqli_fetch_assoc($srcCheckResult);
+
+
+	    echo "SQL Query is: " . $srcCheckQuery . "<br /><br />"; 
+
+		
  	# Pass to a universal display function with the var i just declared as an arguement
 	universalSShotDisplay($srcCheckQuery, $srcCheckDisplay);
 
@@ -34,15 +36,14 @@
 	// function to check if the href field isset based on the query 
 	function hrefCheck()
 	{
-	  $hrefCheckQuery = "SELECT 
-		  *
-		  FROM 
-		  sshots
-		  WHERE 
-			src IS NOT NULL
-			AND
-		    ssde = '$localDEname' ";
-	    
+	  	$hrefCheckQuery = "SELECT 
+		*
+		FROM 
+		sshots
+		WHERE 
+		src IS NOT NULL
+		AND
+		distroname = '$localdistroname' ";
 	    
 	  	# Pass to a universal display function with the var i just declared as an arguement
 		universalSShotDisplay($hrefCheckQuery);
@@ -55,22 +56,20 @@
 	function universalSShotDisplay($srcCheckQuery, $srcCheckDisplay)
 	{
 
-		# Test
-		echo "<br />srcCheckDisplay: " . $srcCheckDisplay; 
 
-	  if (isset($srcCheckQuery))
-	  {
+		  if (isset($srcCheckQuery))
+		  {
 
-	    echo "<a href=\"" . $srcCheckDisplay['src'] . " \" target=\"_blank\" >";
-	    echo "<img class=\"d-block img-fluid\" src=\" " . $srcCheckDisplay['src'] . " \" alt=\" whatever alt tag here \" /> ";
-	    echo "</a> <br />";
-	  }
+		    echo "<a href=\"" . $srcCheckResult['src'] . " \" target=\"_blank\" >";
+		    echo "<img class=\"d-block img-fluid\" src=\" " . $srcCheckResult['src'] . " \" alt=\" whatever alt tag here \" /> ";
+		    echo "</a> <br />";
+		  }
 
 	   
-	  elseif (isset($hrefCheckQuery))
-	  {
-	    echo "<a href=\" " . $screenshotDisplay['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
-	  }
+		  elseif (isset($hrefCheckQuery))
+		  {
+		    echo "<a href=\" " . $screenshotDisplay['href'] . " \" > LINK TO PAGE WITH SCREENSHOTS </a>";
+		  }
 
 	}
 ?>

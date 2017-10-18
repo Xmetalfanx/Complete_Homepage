@@ -2,7 +2,7 @@
 
   $pageTitle = 'Xubuntu';
 
-  $localName = 'xubuntu';
+  $localdistroname = 'xubuntu';
 
 
 	$sitePath = "/home/xmetalx1/public_html";

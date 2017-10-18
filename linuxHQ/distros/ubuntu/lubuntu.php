@@ -1,6 +1,6 @@
 <?php
 
-$localdistroName = 'lubuntu';
+$localdistroname = 'lubuntu';
 
   $pageTitle = 'Lubuntu';
 
