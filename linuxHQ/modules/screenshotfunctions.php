@@ -1,26 +1,10 @@
 <?php 
 
-
-	# Functions for screenshot functions 
-	## KEEP THIS FILE but so far I am still TRYING To get this to work ... this may not be in-use all the time until I figure out what I am doing wrong 
-
 	# function that checks if there is content in the src (image) field in the database 
 	function srcCheck($extraTest)
 	{
 
-		
-		$srcCheckQuery = "SELECT 
-		*
-		FROM 
-		sshots
-		WHERE 
-		src IS NOT NULL  
-		AND
-		$extraTest ";
-
-	    $srcCheckResult = mysqli_query($conn, $srcCheckQuery) or ('Error querying database');
-	    $srcCheckDisplay = mysqli_fetch_assoc($srcCheckResult);
-
+		// SQL info is in another file 
 
 	    echo "SQL Query is: " . $srcCheckQuery . "<br /><br />"; 
 
@@ -36,17 +20,8 @@
 	// function to check if the href field isset based on the query 
 	function hrefCheck()
 	{
-	  	$hrefCheckQuery = "SELECT 
-		*
-		FROM 
-		sshots
-		WHERE 
-		src IS NOT NULL
-		AND
-		distroname = '$localdistroname' ";
-	    
-	  	# Pass to a universal display function with the var i just declared as an arguement
-		universalSShotDisplay($hrefCheckQuery);
+	  	# Variables for SQL are in a universal SQL file with all the variables 
+
 
 	  	# ALSO include a line to clear the var content 
 	}

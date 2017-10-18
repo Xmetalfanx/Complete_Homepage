@@ -1,5 +1,6 @@
  <?php
    
+
    if ($row = mysqli_num_rows($sshotDistroSrcResult) > 0) 
     {
       while($row = mysqli_fetch_assoc($sshotDistroSrcResult))

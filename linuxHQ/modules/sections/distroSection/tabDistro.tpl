@@ -7,6 +7,10 @@
         <div class="card hidden-md-down">
           <div class="card-block">
             <div class="card-text">
+              
+              <!-- This needs to be updated though I have not wrote descriptions yet ... I know this code is the old way of how i was doing things --> 
+
+
               <?php               
                 foreach($descriptResult as $field)
                   {
@@ -24,6 +28,8 @@
     <a href="#screeshot" class="tab-link">Screenshots</a>
     <div class="tab-content hidden-md-down">
       <div id="screenshots">
+         <!-- Pointing to file with 2 in the name for TEST reasons ... the one without the 2 is the original -->
+         
           <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section2.php'; ?>
 
       </div>

@@ -6,8 +6,9 @@
 
     $extraTest = " distroName = '$localdistroname' ";
 
-    srcCheck($extraTest);
- 
 
-  
+    # Function to assign variables 
+    # The end of the function calls the check functions 
+    sshotDistroSection()
+
 ?>

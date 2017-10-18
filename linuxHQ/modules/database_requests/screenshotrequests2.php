@@ -54,11 +54,9 @@
         $sshotDistroHrefDisplay = mysqli_fetch_assoc($sshotDistroHrefResult);
 
 
+        // Pass to the check function ... Display function call is INSIDE the check function 
         srcCheck($extraTest);
 
     }
-
-
-    srcCheck($extraTest);
    
 ?>
