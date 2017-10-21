@@ -2,6 +2,8 @@
 
   $localdistroname = 'lxle';
 
+  $sectionVar = "distro";
+
     $pageTitle = 'LXLE ';
 
     $sitePath = "/home/xmetalx1/public_html";

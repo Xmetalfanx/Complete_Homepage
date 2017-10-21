@@ -32,6 +32,7 @@
         $sshotDistroSrcResult = mysqli_query($conn, $sshotDistroSrcQuery) or ('Error querying database');
         $sshotDistroSrcDisplay = mysqli_fetch_assoc($sshotDistroSrcResult);
 
+        
         // Start the check for SRC to see if that field contains content 
         srcCheck($extraTest);
 

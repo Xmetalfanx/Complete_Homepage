@@ -1,6 +1,8 @@
  <?php
    
    $localdistroname = 'mint';
+
+   $sectionVar = "distro";
    
     $pageTitle = 'Linux Mint';
 

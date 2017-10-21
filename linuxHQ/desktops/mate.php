@@ -2,7 +2,10 @@
 
   $localdename = 'mate';
 
-  $deName = 'Mate';
+   $sectionVar = "DE";
+
+
+
   $deFeatured = '<ul>
 					<li> ' . $Fedora . ' Mate + Compiz </li>
 					<li>' . $mintHP . ' Mate</li>

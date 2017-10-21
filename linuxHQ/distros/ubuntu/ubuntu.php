@@ -2,6 +2,8 @@
 
 	$localdistroname = 'ubuntu';
 
+	$sectionVar = "distro";
+
   	$pageTitle = 'Ubuntu';
 
 	$sitePath = "/home/xmetalx1/public_html";

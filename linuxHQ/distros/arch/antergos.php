@@ -2,6 +2,8 @@
 
     $localdistroname = 'antergos';
 
+    $sectionVar = "distro";
+
     $pageTitle = 'Antergos';
 
     $sitePath = "/home/xmetalx1/public_html";

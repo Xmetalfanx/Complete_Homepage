@@ -2,8 +2,9 @@
 
 $localdename = 'openbox';
 
+    $sectionVar = "DE";
 
-    $deName = 'Openbox';
+
     $deFeatured = 'Archbang, Crunchbang';
 	 $deClass = 'Lightweight';
 

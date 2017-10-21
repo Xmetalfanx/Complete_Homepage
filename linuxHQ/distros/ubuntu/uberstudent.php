@@ -2,6 +2,8 @@
 
   $localdistroname = 'uberstudent';
 
+  $sectionVar = "distro";
+
     $pageTitle ='Uberstudent ';
 
     $sitePath = "/home/xmetalx1/public_html";

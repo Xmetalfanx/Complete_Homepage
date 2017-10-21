@@ -2,8 +2,9 @@
 
   $localdistroname = 'mageia';
 
-
   $pageTitle = 'Magiea ';
+ 
+  $sectionVar = "distro";
 
 	$sitePath = "/home/xmetalx1/public_html";
 

@@ -1,8 +1,10 @@
 <?php
 
-$localdistroName = 'zorin';
+	$localdistroName = 'zorin';
 
-  $pageTitle = 'Zorin';
+	$sectionVar = "distro";
+
+  	$pageTitle = 'Zorin';
 
 
   $sitePath = "/home/xmetalx1/public_html";

@@ -2,6 +2,8 @@
 
   $pageTitle = 'ElementaryOS';
 
+  $sectionVar = "distro";
+
   $localdistroname = 'elementary';
 
 	$sitePath = "/home/xmetalx1/public_html";

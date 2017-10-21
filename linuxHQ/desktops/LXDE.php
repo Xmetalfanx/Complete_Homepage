@@ -2,6 +2,9 @@
 
     $localdename = 'lxde';
 
+        $sectionVar = "DE";
+
+
     $pageTitle = 'LXDE ';
 
     $sitePath = "/home/xmetalx1/public_html";

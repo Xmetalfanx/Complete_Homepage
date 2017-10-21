@@ -2,6 +2,8 @@
 
   $localdistroname = 'linuxlite';
 
+  $sectionVar = "distro";
+
   $pageTitle = 'Linux Lite';
 
   $sitePath = "/home/xmetalx1/public_html";

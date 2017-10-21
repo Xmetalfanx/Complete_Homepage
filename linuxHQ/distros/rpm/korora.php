@@ -2,6 +2,8 @@
 
   $localdistroname = 'korora';
 
+  $sectionVar = "distro";
+
   $pageTitle = 'Korora';
 
 	$sitePath = "/home/xmetalx1/public_html";

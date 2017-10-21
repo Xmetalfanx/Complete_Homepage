@@ -1,8 +1,10 @@
 <?php
 
-$localdistroname = 'lubuntu';
+	$localdistroname = 'lubuntu';
 
-  $pageTitle = 'Lubuntu';
+	$sectionVar = "distro";
+
+ 	$pageTitle = 'Lubuntu';
 
 	$sitePath = "/home/xmetalx1/public_html";
 

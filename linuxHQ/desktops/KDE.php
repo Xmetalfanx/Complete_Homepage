@@ -2,6 +2,8 @@
 
     $localdename = "plasma5";
 
+    $sectionVar = "DE";
+
     // Old Info
   
     $deFeatured =  '<ul>

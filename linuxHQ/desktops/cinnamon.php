@@ -1,6 +1,8 @@
 <?php
 
     $localdename = 'Cinnamon';
+    $sectionVar = "DE";
+
 
 	$pageTitle = 'Cinnamon ';
 

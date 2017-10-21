@@ -1,7 +1,7 @@
 <?php 
 
 	# function that checks if there is content in the src (image) field in the database 
-	function srcCheck($extraTest)
+	function srcCheck()
 	{
 
 		// SQL info is in another file, located at /linuxHQ/modules/screenshotsfunctions.php

@@ -2,6 +2,8 @@
 
   $localdistroname = 'kubuntu';
 
+  $sectionVar = "distro";
+
   $pageTitle = 'Kubuntu';
 
 	$sitePath = "/home/xmetalx1/public_html";

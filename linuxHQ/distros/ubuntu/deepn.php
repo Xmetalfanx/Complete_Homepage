@@ -2,6 +2,8 @@
 
   $localdistroname = 'deepin';
 
+  $sectionVar = "distro";
+
   $pageTitle = 'Deepin (Linux)';
 
   $sitePath = "/home/xmetalx1/public_html";
