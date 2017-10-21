@@ -1,6 +1,5 @@
  <?php
    
-    require $sitePath . '/linuxHQ/modules/screenshotfunctions.php'; 
 
     // Call src Test Function 
 
@@ -9,6 +8,6 @@
 
     # Function to assign variables 
     # The end of the function calls the check functions 
-    sshotDistroSection()
+    srcCheck();
 
 ?>

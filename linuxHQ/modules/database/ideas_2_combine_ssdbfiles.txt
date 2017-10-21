@@ -1,0 +1,6 @@
+## Idea possibilities on how i could combine the different ssdb.php files 
+
+
+## I WOULD NEED TO KNOW (assign var?) where the request is coming from ... then use if-elif statements to assign what extraCheck (var) is? 
+
+why not just assign the extracheck var in files like linuxDEcontent.tpl or linuxdistrocontent.tpl at the top? why have extra code to run tests when simply assigning it there could be easier and follow "K I S S" ?

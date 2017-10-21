@@ -3,7 +3,7 @@
     $localdename = "plasma5";
 
     // Old Info
-    $deName = 'KDE';
+  
     $deFeatured =  '<ul>
 											<li>' . $mintHP  . '</li>
 											<li> '. $fedoraHP . '</li>
@@ -15,7 +15,7 @@
 
   $installMint =	'sudo apt-get install mint-meta-kde';
 
-  $installFedora = 'yum install @kde-desktop ';
+  $installFedora = 'dnf install @kde-desktop ';
 
   $pageTitle = 'KDE /Plasma 5';
 

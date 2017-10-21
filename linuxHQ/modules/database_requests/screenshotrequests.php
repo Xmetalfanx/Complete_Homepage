@@ -1,64 +1,76 @@
 <?php
     
     require $sitePath . '/database/connect.php';
+    require $sitePath . '/linuxHQ/modules/screenshotfunctions.php'; 
 
 
-    # The function names probably should have better names 
-
-    function sshotDESection()
-    {
-        ### DE Section 
-
-        # Query for when the desktop matches AND SRC is set
-        $sshotDESrcQuery = "SELECT * 
-                            FROM sshots 
-                            WHERE ssde = '$localdename' AND 'src' IS NOT NULL";
-        
-
-        $sshotDESrcResult = mysqli_query($conn, $sshotDESrcQuery) or ('Error querying database');
-        $sshotDESrcDisplay = mysqli_fetch_assoc($sshotDESrcResult);
-
-        # Query for when the desktop matches AND HREF is set
-        $sshotDEHrefQuery = "SELECT * 
-                            FROM sshots 
-                            WHERE ssde = '$localdename' AND 'href' IS NOT NULL";
-        
-        $sshotDEHrefResult = mysqli_query($conn, $sshotDEHrefQuery) or ('Error querying database');
-        $sshotDEHrefDisplay = mysqli_fetch_assoc($sshotDEHrefResult);
-
-
-        srcCheck($extraTest);
-
-    }
-   
-
-    function sshotDistroSection()
+    function assignSrcVars
     {
 
-     ## DistroSection 
+        ## localdename should be another variable 
+
+        ### Idea - use a var to determine the section ... what "$extraTest is will be based on that "
+        if ($sectionVar = 'DE')
+        {
+            // $sectionTest will be the var name = $localdename 
+
+        }
+        elif ($sectionVar = 'distro')
+        {
+            // $sectionTest = $distroname
+
+            // NOT 100% AT THE TIME OF TYPING THAT varname above for the distro 
+
+        }
+
 
         # Query for when the desktop matches AND SRC is set
         $sshotDistroSrcQuery = "SELECT * 
                                 FROM sshots 
-                                WHERE $extraTest AND 'src' IS NOT NULL";
+                                WHERE $sectionTest AND 'src' IS NOT NULL";
 
         $sshotDistroSrcResult = mysqli_query($conn, $sshotDistroSrcQuery) or ('Error querying database');
         $sshotDistroSrcDisplay = mysqli_fetch_assoc($sshotDistroSrcResult);
 
-        # Query for when the desktop matches AND HREF is set
-        $sshotDistroHrefQuery = "SELECT * 
-                                FROM sshots 
-                                WHERE $extraTest AND 'href' IS NOT NULL";                 
-
-        $sshotDistroHrefResult = mysqli_query($conn, $sshotDistroHrefQuery) or ('Error querying database');
-        $sshotDistroHrefDisplay = mysqli_fetch_assoc($sshotDistroHrefResult);
-
-
+        // Start the check for SRC to see if that field contains content 
         srcCheck($extraTest);
 
     }
 
 
-    srcCheck($extraTest);
+    function assignHrefVars
+    {
+
+
+        ## localdename should be another variable 
+
+        ### Idea - use a var to determine the section ... what "$extraTest is will be based on that "
+        if ($sectionVar = 'DE')
+        {
+            // $sectionTest will be the var name = $localdename 
+
+        }
+        elif ($sectionVar = 'distro')
+        {
+            // $sectionTest = $distroname
+
+            // NOT 100% AT THE TIME OF TYPING THAT varname above for the distro 
+
+        }
+
+
+        # Query for when the desktop matches AND HREF is set
+        $sshotDistroHrefQuery = "SELECT * 
+                                FROM sshots 
+                                WHERE $sectionTest AND 'href' IS NOT NULL";                 
+        $sshotDistroHrefResult = mysqli_query($conn, $sshotDistroHrefQuery) or ('Error querying database');
+        $sshotDistroHrefDisplay = mysqli_fetch_assoc($sshotDistroHrefResult);
+       
+
+
+    }
+
+
+
    
 ?>
