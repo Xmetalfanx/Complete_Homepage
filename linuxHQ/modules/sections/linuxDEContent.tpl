@@ -12,8 +12,16 @@
       <div class="card-text">
         <div class="screenshots">
           <div class="font-weight-bold">Screenshots </div>
-            <!-- Specific Screenshot file called -->
-            <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_DE_section.php'; ?>
+            <?php 
+                $sectionTest = " deName = '$localdename' ";
+
+                <!-- Call a function to start checks ... no seperate files needed for each section anymore, if i did this right --> 
+
+                sshotDESection();
+
+
+                include $sitePath . '/linuxHQ/modules/database/sshotsdb_DE_section.php'; 
+            ?>
         </div>
       </div>
     </div>

@@ -26,8 +26,7 @@
         $sshotDEHrefResult = mysqli_query($conn, $sshotDEHrefQuery) or ('Error querying database');
         $sshotDEHrefDisplay = mysqli_fetch_assoc($sshotDEHrefResult);
 
-
-        srcCheck($extraTest);
+        srcCheck($sectionTest);
 
     }
    
@@ -55,7 +54,7 @@
 
 
         // Pass to the check function ... Display function call is INSIDE the check function 
-        srcCheck($extraTest);
+        srcCheck($sectionTest);
 
     }
    

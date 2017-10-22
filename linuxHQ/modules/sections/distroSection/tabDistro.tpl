@@ -28,9 +28,17 @@
     <a href="#screeshot" class="tab-link">Screenshots</a>
     <div class="tab-content hidden-md-down">
       <div id="screenshots">
-         <!-- Pointing to file with 2 in the name for TEST reasons ... the one without the 2 is the original -->
+        
          
-          <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section2.php'; ?>
+          <?php 
+
+              $sectionTest = " distroName = '$localdistroname' ";
+
+              <!-- include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section2.php'; -->
+
+
+
+          ?>
 
       </div>
     </div>

@@ -1,5 +1,4 @@
 <?php
-    include $sitePath . '/linuxHQ/modules/database_requests/screenshotrequests.php';
 
     include $sitePath . '/linuxHQ/modules/database_requests/derequests.php';
     include $sitePath . '/linuxHQ/modules/database_requests/distrorequests.php';
