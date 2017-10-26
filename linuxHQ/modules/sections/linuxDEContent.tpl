@@ -1,3 +1,5 @@
+<?php require $sitePath . '/linuxHQ/modules/screenshotSetup.php'; ?>
+
 
 <div class="row">
   <h2>
@@ -12,16 +14,9 @@
       <div class="card-text">
         <div class="screenshots">
           <div class="font-weight-bold">Screenshots </div>
-            <?php 
-                $sectionTest = " deName = '$localdename' ";
-
-                <!-- Call a function to start checks ... no seperate files needed for each section anymore, if i did this right --> 
-
-                sshotDESection();
-
-
-                include $sitePath . '/linuxHQ/modules/database/sshotsdb_DE_section.php'; 
-            ?>
+            
+            <?php include $sitePath . '/linuxHQ/modules/screenshotSetup.php'; ?>
+            
         </div>
       </div>
     </div>
@@ -35,7 +30,7 @@
         <div class="font-weight-normal">
           <?php
             echo $mainInfoDisplay["currentversion"];
-          ?>
+            ?>
 
         </div>
         <div class="font-weight-bold">Homepage: </div>

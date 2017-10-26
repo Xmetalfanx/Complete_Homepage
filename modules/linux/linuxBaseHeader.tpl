@@ -42,6 +42,7 @@
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 <body>
 <div id="container">
+
     <header class="navigation">
       <div class="navigation-wrapper">
       <a href="/linuxHQ/index.php" class="logo hidden-md-down">Linux HQ</a>
