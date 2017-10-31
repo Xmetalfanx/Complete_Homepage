@@ -9,7 +9,4 @@
 	# $sshotDistroSrcDisplay should be getting returned
 
 	
-
-	# Displays content 
-	universalSShotDisplay($sshotDistroSrcDisplay);
 ?>
