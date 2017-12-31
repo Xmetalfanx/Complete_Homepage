@@ -16,7 +16,6 @@
       <div class="card-text"> 
         <a href="">Anti-X</a><br/>
         <a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs Linux (Crunchbang alternative)</a><br/>
-        <a href="/linuxHQ/distros/debian/crunchBang.php">Crunchbang (EOL)</a><br/>
         <a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++ (Crunchbang alternative)</a><br/>
         <a href="/linuxHQ/distros/debian/debian.php">Debian</a><br/>
         <a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition </a><br/>

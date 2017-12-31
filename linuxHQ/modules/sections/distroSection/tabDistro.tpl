@@ -1,15 +1,32 @@
 
 <ul class="accordion-tabs-minimal">
 
+
+  <li class="tab-header-and-content hidden-sm-down">
+    <a href="#screeshot" class="tab-link is-active">Screenshots</a>
+    <div class="tab-content hidden-md-down">
+      <div id="screenshots">
+        
+          <?php 
+          
+              foreach($sshotDistroSrcResult as $field)
+              {
+                echo($field['src']);
+              }
+
+          ?>
+      </div>
+    </div>
+  </li>
+
   <li class="tab-header-and-content">
-    <a href="#screeshot" class="tab-link is-active">Description</a>
+    <a href="#screeshot" class="tab-link">Description</a>
     <div class="tab-content">
         <div class="card hidden-md-down">
           <div class="card-block">
             <div class="card-text">
               
               <!-- This needs to be updated though I have not wrote descriptions yet ... I know this code is the old way of how i was doing things --> 
-
 
               <?php               
                 foreach($descriptResult as $field)
@@ -23,26 +40,6 @@
     </div>
   </li>
 
-
-  <li class="tab-header-and-content hidden-sm-down">
-    <a href="#screeshot" class="tab-link">Screenshots</a>
-    <div class="tab-content hidden-md-down">
-      <div id="screenshots">
-        
-         
-          <?php 
-
-              $sectionTest = " distroName = '$localdistroname' ";
-
-              <!-- include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section2.php'; -->
-
-
-
-          ?>
-
-      </div>
-    </div>
-  </li>
 
   <li class="tab-header-and-content">
     <a href="#" class="tab-link">
