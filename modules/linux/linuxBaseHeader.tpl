@@ -27,7 +27,7 @@
     <script src="/scripts/vertTabs.js" type="text/javascript"></script>
 
     <!-- Tether-->
-    <script src="/frameworks/tether133/js/tether.min.js"></script>
+    <script src="/frameworks/tether/js/tether.min.js"></script>
 
     <!-- Bootstrap 4 alpha 6 -->
     <link rel="stylesheet" href="/frameworks/bootstrap/css/bootstrap.min.css">
