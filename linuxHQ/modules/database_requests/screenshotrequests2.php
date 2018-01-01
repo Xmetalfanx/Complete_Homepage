@@ -45,7 +45,7 @@
     # Query for when the desktop matches AND HREF is set
     $sshotDistroHrefQuery = "SELECT * 
                             FROM 'sshots'
-                            WHERE localdistroname AND 'href' IS NOT NULL";                 
+                            WHERE distroName = $localdistroname AND 'href' IS NOT NULL";                 
 
     $sshotDistroHrefResult = mysqli_query($conn, $sshotDistroHrefQuery) or ('Error querying database');
     $sshotDistroHrefDisplay = mysqli_fetch_assoc($sshotDistroHrefResult);

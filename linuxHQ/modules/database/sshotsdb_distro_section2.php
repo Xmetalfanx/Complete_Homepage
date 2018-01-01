@@ -1,5 +1,9 @@
  <?php
   
-    $sectionTest = " distroName = '$localdistroname' ";
+    foreach($sshotDistroSrcResult as $field)
+    {
+    	echo $field;
+
+    }
 
 ?>

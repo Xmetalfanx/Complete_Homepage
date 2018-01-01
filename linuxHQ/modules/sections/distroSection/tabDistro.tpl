@@ -7,14 +7,7 @@
     <div class="tab-content hidden-md-down">
       <div id="screenshots">
         
-          <?php 
-          
-              foreach($sshotDistroSrcResult as $field)
-              {
-                echo($field['src']);
-              }
-
-          ?>
+          <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section2.php'; ?>
       </div>
     </div>
   </li>

@@ -8,7 +8,8 @@
     require $sitePath . '/database/connect.php'; 
 
     require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
-    include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
+    require $sitePath . '/linuxHQ/modules/database_requests/derequests.php';
+
     
 
     // DO NOT PUT THE SCREENSHOT FILE HERE AS THAT WILL PUT THE CONTENT ABOVE AND OUTSIDE THE BODY TAG 
