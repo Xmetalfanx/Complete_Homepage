@@ -1,9 +1,9 @@
  <?php
   
-    foreach($sshotDistroSrcResult as $field)
-    {
-    	echo $field;
 
-    }
+    echo "<a href=\"$sshotDistroSrcDisplay\" >";
+    	echo "Blah - Test";
+    echo "</a>" ;
+
 
 ?>

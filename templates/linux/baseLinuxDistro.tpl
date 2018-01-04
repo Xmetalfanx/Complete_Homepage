@@ -1,7 +1,7 @@
 
 <?php
   
-    $sectionTitle='Distrobution Section - ';
+  $sectionTitle='Distrobution Section - ';
 
   $sitePath = "/home/xmetalx1/public_html";
 

@@ -2,7 +2,6 @@
     
     require $sitePath . '/database/connect.php';
 
-
     # The function names probably should have better names 
 
    
@@ -35,17 +34,24 @@
     ## The localdistroname variable is basically the nane of the distro (or something that uniquuely ids the distro in the database)
 
     # Query for when the desktop matches AND SRC is set
-    $sshotDistroSrcQuery = "SELECT * 
-                            FROM 'sshots'
-                            WHERE distroName = $localdistroname AND 'src' IS NOT NULL";
+    $sshotDistroSrcQuery = "SELECT
+                               * 
+                            FROM
+                               sshots 
+                            WHERE
+                                distroName = '$localdistroname' ";
 
     $sshotDistroSrcResult = mysqli_query($conn, $sshotDistroSrcQuery) or ('Error querying database');
     $sshotDistroSrcDisplay = mysqli_fetch_assoc($sshotDistroSrcResult);
 
+
     # Query for when the desktop matches AND HREF is set
-    $sshotDistroHrefQuery = "SELECT * 
-                            FROM 'sshots'
-                            WHERE distroName = $localdistroname AND 'href' IS NOT NULL";                 
+    $sshotDistroHrefQuery = "SELECT 
+                                * 
+                            FROM 
+                                sshots
+                            WHERE 
+                                distroName = $localdistroname AND 'href' IS NOT NULL";                 
 
     $sshotDistroHrefResult = mysqli_query($conn, $sshotDistroHrefQuery) or ('Error querying database');
     $sshotDistroHrefDisplay = mysqli_fetch_assoc($sshotDistroHrefResult);
