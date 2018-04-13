@@ -1,7 +1,8 @@
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/643c61f16519446bbeb90a97da379303)](https://www.codacy.com/app/Xmetalfanx/website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/website&amp;utm_campaign=Badge_Grade)
+---
 - [Thanks](#thanks)
-- [Macrome*dia Dreamweaver Templates](#macromedia-dreamweaver-templates)
 - [Sick of Windows](#sick-of-windows)
 - [PHP Templates / SASS-SCSS](#php-templates-sass-scss)
 	- [PHP Templates - Version 1.0](#php-templates-version-10)
