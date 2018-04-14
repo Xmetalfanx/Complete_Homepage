@@ -1,8 +1,7 @@
-
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background-image: url(01540_driftwood_1280x720.jpg);
+  background: image-url("background-image.png");
   background-position: right;
   background-size: none;
   display: flex;

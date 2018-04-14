@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'media'.
-        on line 13 of sass/3-custom/1-modules/hero.scss, in `media'
-        from line 13 of sass/3-custom/1-modules/hero.scss
+        on line 12 of sass/3-custom/1-modules/hero.scss, in `media'
+        from line 12 of sass/3-custom/1-modules/hero.scss
 
-8:   display: flex;
-9:   justify-content: center;
-10:   min-height: 25em;
-11:   padding: 2em;
-12: 
-13:   @include media($large-screen) {
-14:     background-position: left;
-15:     background-size: cover;
-16:     justify-content: flex-end;
-17:   }
-18: 
+7:   display: flex;
+8:   justify-content: center;
+9:   min-height: 25em;
+10:   padding: 2em;
+11: 
+12:   @include media($large-screen) {
+13:     background-position: left;
+14:     background-size: cover;
+15:     justify-content: flex-end;
+16:   }
+17: 
 
 Backtrace:
-sass/3-custom/1-modules/hero.scss:13:in `media'
-sass/3-custom/1-modules/hero.scss:13
+sass/3-custom/1-modules/hero.scss:12:in `media'
+sass/3-custom/1-modules/hero.scss:12
 /usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:98:in `block in with_mixin'
 /usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
@@ -59,15 +59,18 @@ sass/3-custom/1-modules/hero.scss:13
 /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
 /usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:294:in `watch'
-/usr/lib/ruby/vendor_ruby/sass/plugin.rb:109:in `method_missing'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:356:in `watch_or_update'
-/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:52:in `parse'
-/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:19:in `parse!'
-/usr/bin/sass:8:in `<main>'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
+/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'media'.\A         on line 13 of sass/3-custom/1-modules/hero.scss, in `media'\A         from line 13 of sass/3-custom/1-modules/hero.scss\A \A 8:   display: flex;\A 9:   justify-content: center;\A 10:   min-height: 25em;\A 11:   padding: 2em;\A 12: \A 13:   @include media($large-screen) {\A 14:     background-position: left;\A 15:     background-size: cover;\A 16:     justify-content: flex-end;\A 17:   }\A 18: "; }
+  content: "Error: Undefined mixin 'media'.\A         on line 12 of sass/3-custom/1-modules/hero.scss, in `media'\A         from line 12 of sass/3-custom/1-modules/hero.scss\A \A 7:   display: flex;\A 8:   justify-content: center;\A 9:   min-height: 25em;\A 10:   padding: 2em;\A 11: \A 12:   @include media($large-screen) {\A 13:     background-position: left;\A 14:     background-size: cover;\A 15:     justify-content: flex-end;\A 16:   }\A 17: "; }
