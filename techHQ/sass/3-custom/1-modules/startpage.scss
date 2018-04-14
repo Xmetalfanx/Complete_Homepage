@@ -25,13 +25,9 @@ input.searchBox {
 
 input.SPSearchBoxWIDE {
 	border: #3371d8 1px solid;
-
 	max-height: 20px;
 	margin-right: 10px;
-	padding-bottom: 0px;
-	padding-left: 6px;
-	padding-right: 6px;
-	padding-top: 6px !important;
+	padding: 6px 6px 0px 6px;
 	width: 45%;
 	min-width: 45%;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -54,19 +50,13 @@ input.SPSearchBoxWIDE {
 
 }
 td.SPGraphic {
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
+	padding: 0px 0px 0px 0px;
 }
 .SPSearchButton {
 	max-height: 28px;
 	margin-right: 1px ;
 	border: 0px;
-	padding-bottom: 0px;
-	padding-left: 10px;
-	padding-right: 2px;
-	padding-top: 0px;
+	padding: 0 2px 0 10px;
     clear: right;
     vertical-align: middle;
 }

@@ -1,1 +1,0 @@
-AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0','width','600','height','90','src','../flash/christmas','pluginspage','http://www.macromedia.com/go/getflashplayer','scale','noborder','bgcolor','#006600','quality','high','play','false','movie','../flash/christmas' ); //end AC code
