@@ -27,7 +27,7 @@
   <link rel="home" href="/index.php">
 
   <!-- JQuery-->
-  <script src="/scripts/jquery-3.2.1.min.js"></script>
+  <script src="/scripts/jquery.min.js"></script>
 
   <script src="/scripts/tabRefills.js" type="text/javascript"></script>
   <script src="/scripts/vertTabs.js" type="text/javascript"></script>

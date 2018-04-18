@@ -18,7 +18,7 @@
 
 
     <!-- JQuery-->
-    <script src="/scripts/jquery-3.2.1.min.js"></script>
+    <script src="/scripts/jquery.min.js"></script>
 
     <!-- For Navigation Menu from Bourbon.io and it's Refills section   -->
     <script src="/scripts/nav.js" type="text/javascript"></script>
