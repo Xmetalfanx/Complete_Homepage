@@ -996,13 +996,10 @@ header.navigation {
   display: block;
   border: none; }
 
+/* Container */
 #StartPageStyle {
   padding-bottom: 1px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10px;
-  clear: both;
-  width: 95%; }
+  margin: 10px auto 0 auto; }
 
 input.searchBox {
   background-color: white;
@@ -1011,9 +1008,7 @@ input.searchBox {
   font-size: 14px;
   height: 23px;
   outline: none;
-  padding: 0px 6px;
-  padding-bottom: 1px !important;
-  padding-top: 1px !important;
+  padding: 0px 6px 0px 0px;
   width: 260px; }
 
 input.SPSearchBoxWIDE {
@@ -1031,17 +1026,11 @@ input.SPSearchBoxWIDE {
   vertical-align: middle; }
 
 .SPSubmitButton {
-  border-bottom: #3371d8 1px solid;
-  border-left: #3371d8 0px solid;
-  border-right: #3371d8 1px solid;
-  border-top: #3371d8 1px solid;
+  border: #3371d8 1px solid;
   vertical-align: middle;
   padding-top: 0px;
   max-height: 20px;
   margin-left: 3px; }
-
-td.SPGraphic {
-  padding: 0px 0px 0px 0px; }
 
 .SPSearchButton {
   max-height: 28px;
@@ -1050,12 +1039,6 @@ td.SPGraphic {
   padding: 0 2px 0 10px;
   clear: right;
   vertical-align: middle; }
-
-#wrapper {
-  clear: both;
-  padding: 10px;
-  background: white;
-  color: black; }
 
 form.SPForm {
   width: 40%;
