@@ -37,9 +37,9 @@
 
     <div class="hero">
         <div class="hero-content">
-           <p>Please visit</p> 
-           <img src="/graphics/midfngr.jpg" alt="midfngr thumbnail" class="show-for-medium"> 
-           <a href="https://www.youtube.com/user/midfingr/undefined" target="_blank" class="show-for-medium"> Midfngr's Youtube Channel</a> 
+           <p>Please visit</p>
+           <img src="/graphics/midfngr.jpg" alt="midfngr thumbnail" class="show-for-medium">
+           <a href="https://www.youtube.com/user/midfingr/undefined" target="_blank" class="show-for-medium"> Midfngr's Youtube Channel</a>
        </div>
     </div>
 

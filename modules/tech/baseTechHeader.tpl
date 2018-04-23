@@ -5,14 +5,14 @@
 <head>
   <meta charset="UTF-8">
   <title>
-    <?php 
+    <?php
 
     $mainTitle = 'Xmetal TechHQ Section - ';
-    
-    global $sectiontitle;         // Allows the use of the $sectionTitle variable 
-    echo $mainTitle . $sectionTitle . $pageTitle; 
+
+    global $sectiontitle;         // Allows the use of the $sectionTitle variable
+    echo $mainTitle . $sectionTitle . $pageTitle;
     ?>
-      
+
     </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -29,6 +29,7 @@
   <!-- JQuery-->
   <script src="/scripts/jquery.min.js"></script>
 
+  <!-- Needed since 2017 for different Bourbon and related additions -->
   <script src="/scripts/tabRefills.js" type="text/javascript"></script>
   <script src="/scripts/vertTabs.js" type="text/javascript"></script>
 
