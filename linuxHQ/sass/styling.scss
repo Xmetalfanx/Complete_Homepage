@@ -4,7 +4,6 @@
 ul
   {
     margin-left: 10px;
-
     li
     {
       list-style-type: disc;
@@ -134,7 +133,6 @@ nav
   overflow         : auto;
   border           : rgb(0, 0, 0) 2px solid;
   font-family      : $TNR;
-  /*margin-left: 50px;*/
 
   rss-item-full {
     color : rgb(255, 0, 0);
@@ -150,14 +148,11 @@ nav
 {
   position: relative;
   left: 20px;
-
 }
 
 
 .card-img-top
 {
   box-shadow: 2px 2px 2px #000000;
-
-  margin: 10px; 
-
+  @include margin(10px 10px 10px 10px);
 }

@@ -1,10 +1,4 @@
 @charset "UTF-8";
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -600,6 +594,12 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 .bullets {
   display: flex;
   flex-wrap: wrap;
@@ -642,7 +642,7 @@ hr {
 
 .hero {
   align-items: center;
-  background-image: url(01540_driftwood_1280x720.jpg);
+  background: image-url("background-image.png");
   background-position: right;
   background-size: none;
   display: flex;
@@ -662,6 +662,68 @@ hr {
         text-align: left; } }
   .hero .hero-logo {
     margin: auto; }
+
+.footer-2 {
+  background: #1c3653;
+  display: inline-block;
+  padding: 1.5em;
+  width: 100%; }
+  .footer-2 .footer-logo {
+    margin-bottom: 1em;
+    margin-right: 1em; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 .footer-logo {
+        float: left;
+        margin-bottom: 0; } }
+  .footer-2 .footer-logo img {
+    height: 1.6em; }
+  .footer-2 ul {
+    line-height: 1.5em;
+    margin: 0 0 1em 0;
+    padding: 0; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 ul {
+        float: left;
+        line-height: 1.8em;
+        margin-bottom: 0;
+        margin-left: 1em; } }
+  .footer-2 ul li {
+    list-style: none;
+    padding-right: 1em; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 ul li {
+        display: inline;
+        text-align: left; } }
+  .footer-2 ul li a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none; }
+    .footer-2 ul li a:focus, .footer-2 ul li a:hover {
+      color: white; }
+  @media screen and (min-width: 53.75em) {
+    .footer-2 .footer-secondary-links {
+      float: right; } }
+  .footer-2 .footer-secondary-links li {
+    font-size: 0.8em; }
+  .footer-2 .footer-secondary-links ul.footer-social {
+    margin: 1em 0 0 0; }
+    @media screen and (min-width: 53.75em) {
+      .footer-2 .footer-secondary-links ul.footer-social {
+        float: right;
+        margin-top: 0; } }
+    .footer-2 .footer-secondary-links ul.footer-social li {
+      float: left;
+      font-size: 1em;
+      line-height: 0;
+      margin: 0;
+      padding-right: 0.7em; }
+      .footer-2 .footer-secondary-links ul.footer-social li:last-child {
+        padding-right: 0; }
+    .footer-2 .footer-secondary-links ul.footer-social img {
+      height: 1.6em;
+      opacity: 0.7;
+      padding: 1px; }
+      .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
+        opacity: 1; }
 
 header.navigation {
   background-color: #333;
@@ -886,167 +948,128 @@ header.navigation {
           box-sizing: border-box;
           display: block; } }
 
-.footer-2 {
-  background: #1c3653;
-  display: inline-block;
-  padding: 1.5em;
-  width: 100%; }
-  .footer-2 .footer-logo {
-    margin-bottom: 1em;
-    margin-right: 1em; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 .footer-logo {
-        float: left;
-        margin-bottom: 0; } }
-  .footer-2 .footer-logo img {
-    height: 1.6em; }
-  .footer-2 ul {
-    line-height: 1.5em;
-    margin: 0 0 1em 0;
-    padding: 0; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 ul {
-        float: left;
-        line-height: 1.8em;
-        margin-bottom: 0;
-        margin-left: 1em; } }
-  .footer-2 ul li {
-    list-style: none;
-    padding-right: 1em; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 ul li {
-        display: inline;
-        text-align: left; } }
-  .footer-2 ul li a {
-    color: rgba(255, 255, 255, 0.4);
-    text-decoration: none; }
-    .footer-2 ul li a:focus, .footer-2 ul li a:hover {
-      color: white; }
-  @media screen and (min-width: 53.75em) {
-    .footer-2 .footer-secondary-links {
-      float: right; } }
-  .footer-2 .footer-secondary-links li {
-    font-size: 0.8em; }
-  .footer-2 .footer-secondary-links ul.footer-social {
-    margin: 1em 0 0 0; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 .footer-secondary-links ul.footer-social {
-        float: right;
-        margin-top: 0; } }
-    .footer-2 .footer-secondary-links ul.footer-social li {
-      float: left;
-      font-size: 1em;
-      line-height: 0;
-      margin: 0;
-      padding-right: 0.7em; }
-      .footer-2 .footer-secondary-links ul.footer-social li:last-child {
-        padding-right: 0; }
-    .footer-2 .footer-secondary-links ul.footer-social img {
-      height: 1.6em;
-      opacity: 0.7;
-      padding: 1px; }
-      .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
-        opacity: 1; }
+/* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
+#GAOTD {
+  width: 50%;
+  padding-top: 3px; }
 
-/* Images */
-/* Border variables */
-/* Colors */
-/* new Scheme test */
-/* Fonts */
-ul {
-  margin-left: 10px; }
-  ul li {
-    list-style-type: disc; }
+#ga_block {
+  width: 60%;
+  background-color: #ffffff;
+  color: #000000; }
 
-kbd {
-  display: block; }
-
-nav {
-  float: right;
-  margin-right: 10px; }
-
-#distroTables {
-  /*border: $solidBorder;*/
-  display: inline-block;
-  width: 97%;
-  clear: both;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 5px;
-  padding-right: 1%;
-  padding-left: 1%;
-  #
-  background-color: white; }
-  #distroTables a:link {
-    margin: 2px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    overflow: auto;
-    font-family: Arial, Helvetica, san-serif; }
-
-#TIC .TICHomepage, #TIC .TICUsage {
-  border: 1px solid black; }
-  #TIC .TICHomepage img, #TIC .TICUsage img {
-    height: 65%;
-    width: 65%; }
-
-#distroList .card-title {
-  margin: 0;
-  padding: 0; }
-
-.icons {
-  margin-right: 20px;
-  margin-left: 20px;
-  position: relative; }
-
-.name {
-  font-size: 28px;
-  font-weight: bold;
-  text-decoration: underline; }
-  .name img {
-    height: 40px;
-    width: 40px; }
-
-#screenshots {
-  border: 1px #000000 dotted;
-  padding: 10px; }
-  #screenshots img[src=''] {
-    display: none; }
-  #screenshots a[href=''] {
-    display: none; }
-  #screenshots img {
-    box-shadow: 1px 1px 10px black;
-    margin-right: 10px;
-    margin-bottom: 100px;
-    height: 350px;
-    width: 500px; }
-
-.linuxContainer {
-  border: 1px solid black;
-  padding: 10px;
-  box-shadow: 2px 2px 2px black;
-  margin-right: 2px;
-  margin-bottom: 20px;
-  margin-left: 2px; }
-
-#distrowatch {
-  height: 200px;
-  padding: 2% 2% 1% 25px;
+#ga_block #ga_text {
+  font: normal 11px Arial, sans-serif;
+  border: none;
+  margin: 4px 0 0 0;
+  width: 60%;
   overflow: auto;
-  border: black 2px solid;
-  font-family: "Times New Roman", Times, serif; }
-  #distrowatch rss-item-full {
-    color: red; }
-  #distrowatch a:link {
-    color: red;
-    background-color: transparent; }
+  text-align: justify; }
 
-#usb {
+#ga_block #ga_text a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  background-color: transparent; }
+
+#ga_block #ga_text img {
+  display: block;
   position: relative;
-  left: 20px; }
+  float: left;
+  border: none;
+  margin: 0 1em 1em 0; }
 
-.card-img-top {
-  box-shadow: 2px 2px 2px #000000;
-  margin: 10px; }
+#ga_block #ga_text p {
+  margin: 4px 0; }
 
-/*# sourceMappingURL=styling.css.map */
+#ga_block #ga_title {
+  font: normal 11px Verdana, sans-serif;
+  border: none;
+  margin: 4px 0 0 0; }
+
+#ga_block #ga_title a {
+  text-decoration: none;
+  color: #0099ff;
+  background-color: transparent; }
+
+#ga_block img {
+  display: block;
+  border: none; }
+
+/* Container */
+#StartPageStyle {
+  margin: 10px auto 10px auto; }
+
+input.SPSearchBoxWIDE {
+  border: #3371d8 1px solid;
+  max-height: 40px;
+  margin-right: 10px;
+  padding: 6px 6px 2px 6px;
+  width: 45%;
+  min-width: 45%;
+  letter-spacing: 1px;
+  box-shadow: 2px 2px 3px black; }
+
+img.SPSubmitButton {
+  vertical-align: middle;
+  padding-top: 0px;
+  max-height: 40px;
+  margin-left: 3px; }
+
+img.SPSearchButton {
+  max-height: 35px;
+  border: 0px;
+  padding: 0 2px 0 10px;
+  float: left; }
+
+form.SPForm {
+  width: 40%;
+  clear: both;
+  margin-right: auto;
+  margin-left: auto; }
+
+/* Colors */
+/* Fonts */
+/* Images */
+.container {
+  width: 96%; }
+
+.card {
+  padding: 10px; }
+  .card a:link img, .card a:visitied img, .card a:hover img {
+    height: 400px;
+    width: 600px; }
+  .card .card-header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%; }
+    .card .card-header a:link, .card .card-header a:visited, .card .card-header a:hover {
+      color: lightgrey; }
+  .card .card-block {
+    padding: 0px; }
+    .card .card-block .card-text {
+      padding: 0;
+      margin: 0;
+      width: 99%;
+      font-size: 17px;
+      text-align: justify; }
+      .card .card-block .card-text a:link {
+        color: navy;
+        background-color: transparent; }
+
+.card-warning {
+  background-color: white; }
+
+.accordion-tabs-minimal {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px;
+  margin-bottom: 15px; }
+
+header {
+  margin-bottom: 15px; }
+
+#bottomLinks {
+  display: flex;
+  flex-direction: row; }
+
+/*# sourceMappingURL=customCSS.css.map */
