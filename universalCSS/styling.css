@@ -275,68 +275,6 @@ html {
   .hero .hero-logo {
     margin: auto; }
 
-.footer-2 {
-  background: #1c3653;
-  display: inline-block;
-  padding: 1.5em;
-  width: 100%; }
-  .footer-2 .footer-logo {
-    margin-bottom: 1em;
-    margin-right: 1em; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 .footer-logo {
-        float: left;
-        margin-bottom: 0; } }
-  .footer-2 .footer-logo img {
-    height: 1.6em; }
-  .footer-2 ul {
-    line-height: 1.5em;
-    margin: 0 0 1em 0;
-    padding: 0; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 ul {
-        float: left;
-        line-height: 1.8em;
-        margin-bottom: 0;
-        margin-left: 1em; } }
-  .footer-2 ul li {
-    list-style: none;
-    padding-right: 1em; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 ul li {
-        display: inline;
-        text-align: left; } }
-  .footer-2 ul li a {
-    color: rgba(255, 255, 255, 0.4);
-    text-decoration: none; }
-    .footer-2 ul li a:focus, .footer-2 ul li a:hover {
-      color: white; }
-  @media screen and (min-width: 53.75em) {
-    .footer-2 .footer-secondary-links {
-      float: right; } }
-  .footer-2 .footer-secondary-links li {
-    font-size: 0.8em; }
-  .footer-2 .footer-secondary-links ul.footer-social {
-    margin: 1em 0 0 0; }
-    @media screen and (min-width: 53.75em) {
-      .footer-2 .footer-secondary-links ul.footer-social {
-        float: right;
-        margin-top: 0; } }
-    .footer-2 .footer-secondary-links ul.footer-social li {
-      float: left;
-      font-size: 1em;
-      line-height: 0;
-      margin: 0;
-      padding-right: 0.7em; }
-      .footer-2 .footer-secondary-links ul.footer-social li:last-child {
-        padding-right: 0; }
-    .footer-2 .footer-secondary-links ul.footer-social img {
-      height: 1.6em;
-      opacity: 0.7;
-      padding: 1px; }
-      .footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
-        opacity: 1; }
-
 header.navigation {
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
@@ -680,61 +618,35 @@ header.navigation {
       .vertical-tabs-container .vertical-tab-accordion-heading {
         display: none; } }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0; }
-
-body {
-  padding-bottom: 75px; }
-
-#container {
-  min-height: 100%;
-  position: relative; }
+:root {
+  overflow-x: hidden; }
 
 footer {
-  background-color: #333333 !important;
-  color: white;
-  position: absolute;
+  padding: 5px 0 2px;
+  margin: 10px 0 0;
+  bottom: 0;
   height: 75px;
-  /* botton: 0; */
-  width: 100%; }
-
-.logo, .logo a:link, .logo a:visited {
   color: white;
-  background-color: transparent;
-  font-size: 36px;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px black; }
-
-.hero {
-  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg"); }
-
-.hero-content {
-  background-color: rgba(255, 255, 255, 0.4);
-  max-width: 500px;
-  box-shadow: 2px 2px 2px black;
-  padding: 10px; }
-
-header {
-  background-color: #333333;
-  max-height: 100px;
-  padding-bottom: 5px; }
+  background-color: #333333; }
+  footer .footer-social img {
+    width: 32px;
+    height: 32px; }
 
 .card-header {
-  background-color: #333333;
-  color: white; }
+  color: white;
+  background-color: #333333; }
   .card-header a:link a:visited a:hover a:focus {
     color: white; }
 
 ul.navigation-menu {
   position: relative;
-  right: 10px; }
-  ul.navigation-menu a:link, ul.navigation-menu a:visited {
-    font-size: 24px;
-    font-weight: normal;
+  right: 50px; }
+  ul.navigation-menu a:link,
+  ul.navigation-menu a:visited {
+    padding-bottom: 2px;
     text-shadow: 2px 2px 2px black;
-    padding-bottom: 2px; }
+    font-size: 24px;
+    font-weight: normal; }
 
 .media {
   padding: 10px;
@@ -742,10 +654,35 @@ ul.navigation-menu {
   margin-bottom: 5px;
   border: 1px solid #333333; }
   .media img {
-    height: 42px;
-    width: 42px; }
+    width: 42px;
+    height: 42px; }
 
 .smallText {
   font-size: 11px; }
+
+nav {
+  background-color: #333333; }
+  nav .navbar-brand {
+    text-shadow: 2px 2px 2px black;
+    font-size: 35px;
+    font-weight: bold; }
+
+#navbarNav {
+  position: relative;
+  margin-left: auto;
+  color: white;
+  background-color: transparent;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black; }
+
+.coverImage {
+  display: block;
+  height: 40%;
+  min-height: 100px;
+  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
+  background-position: top;
+  background-size: cover; }
 
 /*# sourceMappingURL=styling.css.map */

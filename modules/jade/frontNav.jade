@@ -1,16 +1,12 @@
 //output:frontnav.html
 
-header.navigation
-  .navigation-wrapper
-    a.logo.hidden-md-down(href='http://xmetal.x10.mx') Xmetal's Homepage
-    |     
-    a#js-mobile-menu.navigation-menu-button(href='http://xmetal.x10.mx') Xmetal's Homepage
-    |     
-    nav
-      ul#js-navigation-menu.navigation-menu.show
-        li.nav-link
-          a(href='/linuxHQ/index.php') Linux HQ
-        |         
-        li.nav-link
-          a(href='/techHQ/index.php') Tech HQ
-        |         
+nav.navbar.navbar-expand-lg.navbar-dark
+  a.navbar-brand.hidden-md-down(href='http://xmetal.x10.mx') Xmetal's Homepage
+  button.navbar-toggler(type="button" data-toggle="collaspe" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+    span.navbar-toggler-icon
+  .collaspe.navbar-collaspe#navbarNav
+    ul.navbar-nav
+      li.nav-item
+        a.nav-link(href='/linuxHQ/index.php') Linux HQ
+      li.nav-item
+        a.nav-link(href='/techHQ/index.php') Tech HQ

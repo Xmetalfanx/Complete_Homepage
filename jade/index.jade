@@ -2,6 +2,7 @@
 
 doctype html
 html(lang="en")
+
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
@@ -9,52 +10,41 @@ html(lang="en")
     title  Xmetal&apos;s Homepage
 
     // JQuery
-    script(src='http://xmetal.x10.mx/scripts/jquery-3.2.1.min.js')
+    script(src='http://xmetal.x10.mx/scripts/jquery.min.js')
 
     // For Navigation Menu from Bourbon.io and it's Refills section
     script(src="http://xmetal.x10.mx/scripts/nav.js", type="text/javascript")
 
     // Tether
-    script(src="http://xmetal.x10.mx/frameworks/tether133/js/tether.min.js")
+    script(src="http://xmetal.x10.mx/frameworks/tether/js/tether.min.js")
 
-    // Bootstrap 4 alpha 6
+    // Bootstrap
     link(rel='stylesheet', href='http://xmetal.x10.mx/frameworks/bootstrap/css/bootstrap.min.css')
-
-    script(src='http://xmetal.x10.mx/bootstrap/js/bootstrap.min.js' )
+    script(src='http://xmetal.x10.mx/frameworks/bootstrap/js/bootstrap.min.js' )
 
     // Universal CSS file
     link(href='/universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
 
-  body
+      body 
+        <?php include 'modules/frontnav.tpl'; ?>
 
-    <?php include 'modules/frontnav.php'; ?>
+        div.coverImage
 
-    .hero
-        .hero-content
-          p Please visit
-          img.show-for-medium(src="/graphics/midfngr.jpg", alt="midfngr thumbnail")
-          a.show-for-medium(href="https://www.youtube.com/user/midfingr/undefined", target="_blank")  Midfngr's Youtube Channel
+          .row.clearfix
+            .col-lg-6
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-    ul.bullets
-        li.bullet
-          .bullet-content
-            p July 20, 2017 - Site under construction... I hope to make things look alot better on mobile devices .. this is part of the reason for the big change from alot of custom CSS Styles to "Bourbon.io" and Bootstrap (though Foundation looks like a good Bootstrap alternative)
-
-        li.bullet
-          .bullet-content
+            .col-lg-6
             h4 My Github Other Github project
 
-            a(href="#" target="_blank") LinuxSetup
-              | - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
-
+            a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank") LinuxSetup
+            | - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
             br
             br
 
-            a(href="#" target="_blank") LinuxThemeing
-              |  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
+            a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank") LinuxThemeing
+            |  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
 
-              | This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
+            | This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
 
-
-
-  <?php include '/modules/frontFooter.tpl'; ?>
+        <?php include 'modules/footer.tpl'; ?>

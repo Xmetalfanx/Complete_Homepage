@@ -103,6 +103,7 @@ select:focus {
   outline-offset: 2px; }
 
 html {
+  background-color: #fff;
   box-sizing: border-box; }
 
 *,
@@ -616,7 +617,7 @@ header.navigation {
     display: none; }
     @media screen and (min-width: 40em) {
       .vertical-tabs-container .vertical-tabs {
-        background-color: #fff;
+        background-color: white;
         display: inline;
         float: left;
         height: 18.75em;
@@ -658,7 +659,7 @@ header.navigation {
         border: 0;
         display: none; } }
   .vertical-tabs-container .vertical-tab-accordion-heading {
-    background-color: #fff;
+    background-color: white;
     border-top: 1px solid #ddd;
     cursor: pointer;
     display: block;
