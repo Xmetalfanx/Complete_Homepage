@@ -36,7 +36,7 @@
   <!-- Tether-->
   <script src="/frameworks/tether/js/tether.min.js"></script>
 
-  <!-- Bootstrap 4 alpha 6 -->
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="/frameworks/bootstrap/css/bootstrap.min.css">
   <script src="/frameworks/bootstrap/js/bootstrap.min.js"></script>
 
@@ -54,22 +54,5 @@
 </head>
 
 <body>
-<div id="container">
-  <header class="navigation">
-    <div class="navigation-wrapper">
-      <a href="/techHQ/index.php" class="logo hidden-md-down">Tech HQ</a>
-      <a id="js-mobile-menu" href="/techHQ/index.php" class="navigation-menu-button">Tech HQ</a>
-      <nav>
-        <ul id="js-navigation-menu" class="navigation-menu show">
-          <li class="nav-link">
-            <a href="/techHQ/software/softwareIndex.php">Software</a></li>
-          <li class="nav-link">
-            <a href="/techHQ/techcenter/techCenterIndex.php">Tech Center ( Tips/Tutorials )</a></li>
-          <li class="nav-link">
-            <a href="/techHQ/browsers/browserIndex.php">Web Browser </a></li>
-          <li class="nav-link">
-            <a href="/techHQ/security/securityIndex.php">Security</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+
+<?php include 'techHQNavMenus.tpl'; ?>
