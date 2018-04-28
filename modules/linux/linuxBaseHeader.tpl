@@ -2,15 +2,15 @@
 <head>
   <meta name="Description" content="Xmetafanx's LinuxHQ site is a page for ..">
   <title>
-  <?php 
-      
+  <?php
+
     $mainTitle = 'Xmetal LinuxHQ Section - ';
-    
-    global $sectiontitle;         // Allows the use of the $sectionTitle variable 
-    
-    echo $mainTitle . $sectionTitle . $pageTitle; 
+
+    global $sectiontitle;         // Allows the use of the $sectionTitle variable
+
+    echo $mainTitle . $sectionTitle . $pageTitle;
     ?>
-   
+
   </title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,25 +41,5 @@
 </head>
 <!-- script type="text/javascript" src="/scripts/snow.js"></script>-->
 <body>
-<div id="container">
 
-    <header class="navigation">
-      <div class="navigation-wrapper">
-      <a href="/linuxHQ/index.php" class="logo hidden-md-down">Linux HQ</a>
-      <a id="js-mobile-menu" href="/linuxHQ/index.php" class="navigation-menu-button">Linux HQ</a>
-      <nav>
-        <ul id="js-navigation-menu" class="navigation-menu show">
-          <li class="nav-link">
-            <a href="/linuxHQ/distros/distroHome.php"> Distributions</a></li>
-          <li class="nav-link">
-            <a href="/linuxHQ/desktops/desktopsIndex.php">Desktops</a></li>
-          <li class="nav-link">
-            <a href="/linuxHQ/tutorials/tutorialIndex.php">Tutorial</a></li>
-          <li class="nav-link">
-            <a href="/linuxHQ/apps/appIndex.php">Linux Apps</a></li>
-          <li class="nav-link">
-            <a href="/linuxHQ/tic/TICHome.php">Theme/Icons/Cursors</a></li>
-        </ul>
-      </nav>
-    </div>
-    </header>
+  <?php include 'linuxNavMenu.tpl'; ?>
