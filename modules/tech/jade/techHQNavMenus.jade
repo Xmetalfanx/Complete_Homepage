@@ -1,17 +1,12 @@
-//output: techHQNavMenus.html 
-  
+//output: techHQNavMenus.html
+
 nav.navbar.navbar-expand-lg.navbar-dark
-  button.navbar-toggler(type="button" data-toggle="collaspe" data-target="#techHQNav" aria-controls="techHQNav" aria-expanded="false" aria-label="Toggle navigation")
+  a.navbar-brand(href='/techHQ/index.php') Tech HQ
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#techHQNav', aria-controls='techHQNav', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
-  
-  .collaspe.navbar-collaspe#techHQNav
-    a.navbar-brand.hidden-md-down(href='/techHQ/index.php') Tech HQ
-    ul.navbar-nav.ml-auto
-      li.nav-item
-        a.nav-link(href='/techHQ/software/softwareIndex.php') Software
-      li.nav-item
-        a.nav-link(href='/techHQ/techcenter/techCenterIndex.php') Tech Center ( Tips/Tutorials )
-      li.nav-item
-        a.nav-link(href='/techHQ/browsers/browserIndex.php') Web Browser
-      li.nav-item
-        a.nav-link(href='/techHQ/security/securityIndex.php') Security
+  #techHQNav.collapse.navbar-collapse.ml-auto
+    .navbar-nav.ml-auto
+      a.nav-item.nav-link(href='/techHQ/software/softwareIndex.php') Software Home
+      a.nav-item.nav-link(href='/techHQ/techcenter/techCenterIndex.php') Tech Center ( Tips/Tutorials )
+      a.nav-item.nav-link(href='/techHQ/browsers/browserIndex.php') Web Browser
+      a.nav-item.nav-link(href='/techHQ/security/securityIndex.php') Security

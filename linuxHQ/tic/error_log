@@ -1,2 +1,0 @@
-[25-Aug-2017 02:56:19 America/New_York] PHP Warning:  include(/home/xmetalx1/public_html/templates/linux/blankTemplates/baseLinuxTICBlank.tpl): failed to open stream: No such file or directory in /home/xmetalx1/public_html/linuxHQ/tic/TICHome.php on line 5
-[25-Aug-2017 02:56:19 America/New_York] PHP Warning:  include(): Failed opening '/home/xmetalx1/public_html/templates/linux/blankTemplates/baseLinuxTICBlank.tpl' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/xmetalx1/public_html/linuxHQ/tic/TICHome.php on line 5

@@ -1,6 +1,6 @@
 @import
-  "2-variables/variables-dir",
-  "3-custom/custom-dir";
+  "0-variables/variables-dir",
+  "1-custom/custom-dir";
 
 $headerBGColor : rgba(51, 51, 51, 1);
 $footerheight  : 75px;
@@ -13,11 +13,14 @@ $footerheight  : 75px;
 
 footer {
   bottom           : 0;
+
   height           : $footerheight;
+
   color            : rgb(255, 255, 255);
   background-color : $headerBGColor;
-  @include           padding(5px 0 2px 0);
-  @include           margin(10px 0 0 0);
+
+  @include           padding(5px, 0, 2px, 0);
+  @include           margin(10px, 0, 0, 0);
 
   .footer-social img {
     width  : 32px;
@@ -39,8 +42,8 @@ footer {
 .media {
   border   : 1px solid $headerBGColor;
 
-  @include   padding(10px 10px 10px 10px);
-  @include   margin(5px null 5px null);
+  @include   padding(10px, 10px, 10px, 10px);
+  @include   margin(5px, null, 5px, null);
   // Focussed on Icons ... Don't see there being other graphics in this spot
 
   img {
@@ -53,37 +56,16 @@ footer {
   font-size : 11px;
 }
 
-nav {
-  background-color : #333333;
-
-  .navbar button
-  {
-    background-color: transparent;
-  }
-
-  .navbar-brand {
-    text-shadow : 2px 2px 2px rgb(0, 0, 0);
-    font-size   : 35px;
-    font-weight : bold;
-    float: left;
-  }
-}
-
-ul.navbar-nav
-{
-  color            : $white;
-  background-color : transparent;
-  text-shadow : 2px 2px 2px rgb(0, 0, 0);
-
-  font-family      : $font-stack-helvetica;
+  font-family      : $Helvetica;
   font-size        : 26px;
   font-weight      : bold;
 
 }
 
+=======
+>>>>>>> 465b526... Fixing Header to not rely on Bourbon.io
 .coverImage {
   display             : block;
-
   height              : 40%;
   min-height          : 100px;
 
@@ -95,7 +77,25 @@ ul.navbar-nav
 // main text div
 #mainText
 {
-  @include padding( 0 2% 0 2%);
+  @include padding( 0, 2%, 0, 2%);
+}
 
 
+nav.navbar
+{
+  background-color: $headerBGColor;
+  color: $white;
+
+  .navbar-brand
+  {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .navbar-nav
+  {
+    font-size: 22px;
+    font-weight: bold;
+
+  }
 }

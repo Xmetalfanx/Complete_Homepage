@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAY;ACAZ,WAAW;ACAX,YAAY;ACaZ,sBAAsB",
-"sources": ["_colors.scss","_fonts.scss","_images.scss","_mixins.scss"],
-"names": [],
-"file": "variables-dir.css"
-}

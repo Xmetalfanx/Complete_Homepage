@@ -1,0 +1,59 @@
+// No Longer Needed but leave until i can convert the default radius calls to 8px
+// Apparently no prefixes are needed anymore
+@mixin borderRad($radius: 8px)
+{
+	border-radius: $radius;
+}
+
+@mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black)
+{
+  box-shadow: $horz $vert $depth $color;
+}
+
+<<<<<<< HEAD:universalSCSS/2-variables/_mixins.scss
+@mixin padding($top, $right, $bottom, $left)
+{
+	padding-top:	$top;
+	padding-left: $left;
+	padding-bottom: $bottom;
+	padding-right: $right;
+
+}
+
+@mixin margin($top, $right, $bottom, $left)
+{
+	margin-top:	$top;
+	margin-left: $left;
+	margin-bottom: $bottom;
+	margin-right: $right;
+=======
+@mixin padding( $top, $right, $bottom, $left)
+ {
+	 padding-top: $top;
+	 padding-right: $right;
+	 padding-bottom: $bottom;
+	 padding-left: $left
+
+ }
+
+@mixin margin( $top, $right, $bottom, $left)
+{
+	 margin-top: $top;
+	 margin-right: $right;
+	 margin-bottom: $bottom;
+	 margin-left: $left
+>>>>>>> 462a024... removed Bourbon related code from Linux Section:universalSCSS/0-variables/_mixins.scss
+
+}
+
+
+<<<<<<< HEAD:universalSCSS/2-variables/_mixins.scss
+=======
+
+
+
+>>>>>>> 462a024... removed Bourbon related code from Linux Section:universalSCSS/0-variables/_mixins.scss
+// #############################################
+/* Border variables */
+$solidBorder: 1px solid $black;
+$dottedBorder: 1px dotted $black;

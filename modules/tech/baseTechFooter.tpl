@@ -4,7 +4,7 @@
 
   <div class="hidden-sm-down col-md-12 col-lg-12 col-xl-12">
 
-    <nav id="bottomLinks" class="navbar">
+    <nav id="bottomLinks" >
       <a href="/tecHQ/index.php" class="nav-link">Home</a>
       <a href="/techHQ/personal/personalIndex.php" class="nav-link">About Me</a>
       <a href="/techHQ/credit.php" class="nav-link">Credits</a>
