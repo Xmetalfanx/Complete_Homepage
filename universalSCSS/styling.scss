@@ -13,12 +13,9 @@ $footerheight  : 75px;
 
 footer {
   bottom           : 0;
-
   height           : $footerheight;
-
   color            : rgb(255, 255, 255);
   background-color : $headerBGColor;
-
   @include           padding(5px 0 2px 0);
   @include           margin(10px 0 0 0);
 
@@ -66,9 +63,9 @@ nav {
 
   .navbar-brand {
     text-shadow : 2px 2px 2px rgb(0, 0, 0);
-
     font-size   : 35px;
     font-weight : bold;
+    float: left;
   }
 }
 
