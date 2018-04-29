@@ -1,12 +1,13 @@
 //output:frontnav.html
 
 nav.navbar.navbar-expand-lg.navbar-dark
-  a.navbar-brand.hidden-md-down(href='http://xmetal.x10.mx') Xmetal's Homepage
-  button.navbar-toggler(type="button" data-toggle="collaspe" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerMain', aria-controls='navbarTogglerMain', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
-  .collaspe.navbar-collaspe#navbarNav
-    ul.navbar-nav
-      li.nav-item
+  
+  #navbarTogglerMain.collapse.navbar-collapse
+    a.navbar-brand(href='http://xmetal.x10.mx') Xmetal's Homepage
+    ul.navbar-nav.ml-auto
+      li.nav-item.active
         a.nav-link(href='/linuxHQ/index.php') Linux HQ
       li.nav-item
         a.nav-link(href='/techHQ/index.php') Tech HQ
