@@ -91,3 +91,11 @@ ul.navbar-nav
   background-position : top;
   background-size     : cover;
 }
+
+// main text div
+#mainText
+{
+  @include padding( 0 2% 0 2%);
+
+
+}
