@@ -2,11 +2,11 @@
       </div> <!-- Ends Second Column opened in template files  -->
 </div> <!-- Ends Row opened in the template file, if i recall -->
 
-<footer class="row clearfix">
+<footer class="row">
   <div class="col-lg-6">
     <div>Validation graphics go here, later</div>
   </div>
-  <div class="col-lg-6">
+  <div class="col-lg-6 text-md-right text-lg-right text-xl-right">
     <span>Xmetal/Xmetalfanx 2013-*</span>
     <div class="footer-social">
       <a href="https://twitter.com/Xmetalfanx" target="_blank">
