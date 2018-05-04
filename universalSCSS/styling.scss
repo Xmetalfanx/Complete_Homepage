@@ -54,12 +54,6 @@ footer {
   font-size : 11px;
 }
 
-  font-family      : $Helvetica;
-  font-size        : 26px;
-  font-weight      : bold;
-
-}
-
 .coverImage {
   display             : block;
   height              : 40%;
@@ -74,6 +68,7 @@ footer {
 #mainText
 {
   @include padding( 0, 2%, 0, 2%);
+
 }
 
 
@@ -87,7 +82,6 @@ nav.navbar
     font-size: 36px;
     font-weight: bold;
   }
-
   .navbar-nav
   {
     font-size: 22px;

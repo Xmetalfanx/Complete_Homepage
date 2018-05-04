@@ -1,96 +1,29 @@
 
-<ul class="accordion-tabs-minimal">
-
-
-  <li class="tab-header-and-content hidden-sm-down">
-    <a href="#screeshot" class="tab-link is-active">Screenshots</a>
-    <div class="tab-content hidden-md-down">
-      <div id="screenshots">
-        
-          <?php include $sitePath . '/linuxHQ/modules/database/sshotsdb_distro_section2.php'; ?>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a href="#screenshots" role="tab" data-toggle="tab" class="nav-link active">Screenshots</a>
+      <div class="screenshots hidden-md-down">
+        <?php echo $distroSshot; ?>
       </div>
-    </div>
   </li>
-
-  <li class="tab-header-and-content">
-    <a href="#screeshot" class="tab-link">Description</a>
-    <div class="tab-content">
-        <div class="card hidden-md-down">
-          <div class="card-block">
-            <div class="card-text">
-              
-              <!-- This needs to be updated though I have not wrote descriptions yet ... I know this code is the old way of how i was doing things --> 
-
-              <?php               
-                foreach($descriptResult as $field)
-                  {
-                    echo ($field['description']);
-                  }           
-                ?>
-            </div>
-          </div>
-        </div>
-    </div>
+  <li class="nav-item">
+    <a href="#youtubereviews" role="tab" data-toggle="tab" class="nav-link">Youtube Reviews</a>
   </li>
-
-
-  <li class="tab-header-and-content">
-    <a href="#" class="tab-link">
-      My Thoughts/Recommendations</a>
-    <div class="tab-content">
-
-          <h4>My Experience: </h4>
-            <?php include $sitePath . '/linuxHQ/modules/database/recExpDB.php'; ?>
+  <li class="nav-item">
+    <a href="#usb" role="tab" data-toggle="tab" class="nav-link">USB Creation</a>
+      <h4>USB Drive Creation Experience </h4>
+      <div>
+        <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
       </div>
-
-  </li>
-
-  <li class="tab-header-and-content">
-    <a href="#youtube" class="tab-link">Youtube Reviews</a>
-    <div class="tab-content">
-      <?php include $sitePath .  '/linuxHQ/modules/database/ytreviewer.php'; ?>
-
-    </div>
-  </li>
-
-
-
-  <li class="tab-header-and-content">
-    <a href="#usb" class="tab-link">USB Creation </a>
-    <div class="tab-content">
-
-      <div class="card">
-        <div class="card-block">
-          <h4 class="card-title">USB Drive Creation Experience</h4>
-        </div>
-        <div class="card-text">
-          <p>
-            <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
-          </p>
-
-            <?php 
-
-                echo "<div id=\"usb\" >";
-                  echo "<br /> <ul> Cross Platform: ";
-                    echo "<li> Etcher.io "  . $usbDisplay['etcher'] .  " </li>";
-                    echo "<li> UNetBootin " . $usbDisplay['unetbootin'] ." </li>";
-                  echo "</ul>";
-                echo "<br /><ul> Windows Related: ";
-                  echo "<li> Rufus: " . $usbDisplay['rufus'] . " </li>";
-                  echo "<li> ImageUSB: " . $usbDisplay['imageusb'] . " </li>";
-                  echo "<li> YUMI: " . $usbDisplay['yumi'] . " </li>";
-                echo "</ul>";
-                echo "<br /><ul> Linux Related";
-                  echo "<li> dd command " . $usbDisplay['ddcommand'] . " </li>";
-                  echo "<li> Linux Mint Image Creator: " . $usbDisplay['mintusb'] . " </li>";
-                  echo "<li> OpenSuse Image Writer " . $usbDisplay['opensuseimage'] . " </li>";
-                echo "</ul>";
-              echo "</div>";
-
-            ?>
-
-        </div>
+      <div id="usb">
+        <?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>
       </div>
-    </div>
   </li>
 </ul>
+
+
+<div class="tab-content">
+  <div role="tabpanel" id="screenshots" class="tab-pane active"></div>
+  <div role="tabpanel" id="youtubereviews" class="tab-pane"></div>
+  <div role="tabpanel" id="usb" class="tab-pane"></div>
+</div>
