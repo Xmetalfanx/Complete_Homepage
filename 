@@ -1,0 +1,1602 @@
+[33mcommit e16d4f9815e36b72e4b995f0dbb331553724640a[m[33m ([m[1;36mHEAD -> [m[1;32mdevelopment[m[33m)[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri May 4 00:37:35 2018 -0400
+
+    Fixed issues with merge
+
+[33mcommit d0732f0d88e970dd7e5b75c947ec50ceb4bd6c28[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue May 1 22:51:57 2018 -0400
+
+    Work on Footer CSS Alignment
+
+[33mcommit f568c3f7e7d457db400c2e333e7f6a814324ac51[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue May 1 22:42:45 2018 -0400
+
+    Have the right side of Footer right-aligned now
+
+[33mcommit 28beaea1f61d1ec7660fb1bdd0fceb4610e00c95[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Apr 29 17:43:09 2018 -0400
+
+    Removed anything related to Bourbon.io, that I can find
+    
+    Fixing Header to not rely on Bourbon.io
+    
+    - To slim down the CSS, I have decided to remove Bourbon (not bad, just too much stuff could conflict between Bourbon and Bootstrap)
+    
+    - This issue mentioned in the last bullet point made bugfixing things when Bourbon upgraded from v4 to v5 and alot of things I used were depreciated, very troublesome
+
+[33mcommit 41ae78dbfc9e7eab7fab28ed87f37b796678f160[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Apr 29 16:27:39 2018 -0400
+
+    removed un-needed CSS in LinuxHQ side
+
+[33mcommit cc89695df06496275c1d534f355f27b9cf35f9a0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Apr 29 15:18:09 2018 -0400
+
+    Updated Normalizer from 7.0 to 8.0
+    
+    - removed un-needed (I hope) CSS
+
+[33mcommit 213796a91c915d3c140928e7a55631c1590b68d3[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Apr 29 13:47:38 2018 -0400
+
+    Hopefully fixed the TechHQ and LinuxHQ Menus
+    
+    - Left floated the title seems to havec done it
+
+[33mcommit 44c7ba44fed5d48374db2fdfe6c20b457395c203[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Apr 29 06:08:45 2018 -0400
+
+    More work on redoing the menus in Bootstrap 4 vs Bourbon (old version)
+
+[33mcommit 58f9f5f9cbbb493eab739a1274d0e5ee62036173[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Apr 28 00:00:21 2018 -0400
+
+    Work on TechHQ Menu retooling
+
+[33mcommit eb6158b17069edb99b2ef08b0e744e8dd9ae7547[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 27 23:36:30 2018 -0400
+
+    Work on redoing the LinuxHQ Menus
+
+[33mcommit a389b35b4d710923144d47386f6115769e6cbf98[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Apr 26 00:15:16 2018 -0400
+
+    Adjusting frontpage
+    
+    - I am moving stuff away from Bourbon Refills ( https://refills.bourbon.io/ ) and going with similar things in the now Final (not a beta anymore) Bootstrap 4
+    
+    - The reason is that updates to Bourbon and Neat are breaking Refills and the team says Refills are no longer being updates to reflect that
+
+[33mcommit d66ffa4a2fc25a7fecb129a7a023bf8b1ce97a95[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Apr 25 00:24:55 2018 -0400
+
+    Some CSS edits
+
+[33mcommit e1f5155c9b97d1c634377c10dacfc1c32652892f[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Apr 23 18:59:59 2018 -0400
+
+    Adjustments to TechHQ main page AND removed more unused graphics files
+
+[33mcommit e3d2c1117ae486607aa1f9ccf6992aa3f7ecc9e5[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Apr 17 21:56:15 2018 -0400
+
+    Removed some un-needed CSS and cleanup some other CSS
+    
+    A number of CSS changes, based on Codacy.com suggestions
+
+[33mcommit e6667f662c5d8eb5e821025d9af09210efef9926[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Apr 17 20:44:42 2018 -0400
+
+    Upgraded from JQuery 3.2.1 to 3.3.1
+
+[33mcommit 91ed3602fbaa9ef389dfbdcdce5385061291be72[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Apr 14 00:11:40 2018 -0400
+
+    Updated Neat to 1.9.0 from 1.7.0
+
+[33mcommit 451f73abe52dd08e6e83c890d4eff1a844bede35[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 13 21:33:08 2018 -0400
+
+    Updated Normalize(r) CSS from 7.0.0 to 8.0.0
+
+[33mcommit d61257c24dd52aa35046b6571b4f2e84d3655809[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 13 21:28:02 2018 -0400
+
+    Part 1 - Updated Bourbon and Bitters
+
+[33mcommit 47a2b8a27dad2e4e9a5a3c29323df46764579e39[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 13 20:51:23 2018 -0400
+
+    Removed long un-needed script files
+
+[33mcommit 179bfbdc0f39d34191cea17095ad0d5e41e8a1a2[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 13 17:20:59 2018 -0400
+
+    Added Codacy Badge to README
+
+[33mcommit fd49ea49d1fffc3969b80bab909028d852592fbf[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 13 17:13:08 2018 -0400
+
+    Upgraded internal Bootstrap files to verion 4.1.0
+
+[33mcommit 020955a5d45dbfc226511118236012aece51307e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Mar 24 00:24:52 2018 -0400
+
+    Added Sitemap
+
+[33mcommit 61b5973f2f0b8b4b63ef5fcf1e6b0a118f4da5a4[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jan 18 14:41:35 2018 -0500
+
+    Updated Bootstrap (Beta 4, if i recall) to the first FINAL version of Bootstrap 4.0
+
+[33mcommit 757c757f37a87eebf19f0c2dec1ba804eab435e0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jan 18 14:39:15 2018 -0500
+
+    Misc stuff - Too much for me to remember ... I forgot to break this commit down apparently
+
+[33mcommit c43248f8de621b102cf363b3372504a0462b4434[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jan 4 01:49:20 2018 -0500
+
+    Work on the Linux Theme/Icon/Cursior template look
+
+[33mcommit 9499982543006bb611759c33ecf364ef34f0d5c5[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Dec 31 22:41:34 2017 -0500
+
+    Seperated out "Desktop Requests" and "Distro Requests" for various
+    reasons
+    
+    - One of which being that the error logs were filling up too much, and
+    that wasn't due to an issue that was needed
+
+[33mcommit 117e7cf12c60bbdfd536002079242b7ee7dafff5[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Dec 30 22:35:47 2017 -0500
+
+    Upgraded Tether from 1.33 to 1.43
+
+[33mcommit 0d5600eca634d2727c573d8ff1aafea847b1258e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Dec 30 22:15:05 2017 -0500
+
+    Upgraded Bootstrap from beta 2 to beta 3
+
+[33mcommit 38006023cea0865142497a5e7205355f755636e8[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Dec 30 22:12:18 2017 -0500
+
+    Linux distro screenshots troubleshooting
+
+[33mcommit 7c12dd6f7b5b5c040b7ea9defc72703a9de4814f[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Dec 7 23:17:42 2017 -0500
+
+    Added Submimetext files
+
+[33mcommit 557eceb27df11618a2c2c60edac76aed16df184f[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Oct 31 18:58:42 2017 -0400
+
+    Updated Bootstrap to version 4.0.0 beta 2
+
+[33mcommit 7565d72acbab0404c8e3be1317a795c3cc6e7be9[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Oct 25 21:29:28 2017 -0400
+
+    Trying to Fix Screenshot issues
+
+[33mcommit 845f7a83d76294a31ab83df7f9fbb9b5eefbebab[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 22 15:36:12 2017 -0400
+
+    Various
+    
+    - Screenshot function maintence
+    
+    - moved distrowatch from seperate file, into the main file
+
+[33mcommit 8c73b0b15bf4483b01df49afffa5ee7cc5232e7d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Oct 21 19:16:41 2017 -0400
+
+    Added $sectionVar variable to DE and distro sections
+
+[33mcommit 61c9f757dd36d6a976ebaee3253ec9408f70d838[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Oct 21 18:44:43 2017 -0400
+
+    started idea to unify some screenshot functions
+    
+    - on Linux side of site
+
+[33mcommit 5ebf5ba21cdd488c916289cf733a03a040bbe056[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Oct 18 13:40:06 2017 -0400
+
+    - Moved YTPlaylist Module to the mainData file and removed extra file
+    
+    -ALSO did some additions to test the universal way of displaying the screenshots I was trying a few days ago
+
+[33mcommit a8b01c917a607df4858220f33e36313c96107233[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Oct 17 23:13:12 2017 -0400
+
+    retrying way to automate the screenshot sections more
+
+[33mcommit 55bbe01fdf1b0ec002f35cf13d04d3ba26b171cb[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Oct 17 13:22:31 2017 -0400
+
+    Fixed a few variable case sensitivity issues
+
+[33mcommit 8b8372cb388fe87c7dd76900b0bad2330eff3242[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Oct 16 16:12:14 2017 -0400
+
+    Moving to hybrid way of doing the screenshots section
+    
+    - This is part old way
+    
+    - Part New way
+    
+    - I am still working on what I was trying before, as there SEEMS to be alot of redundant code, in my opinion
+
+[33mcommit f4e193afaf398f8a8a8fb3d22898111304c48c2b[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Oct 16 15:13:51 2017 -0400
+
+    First Steps in trying a hybrid of the old way to do screenshots
+
+[33mcommit cb66fd2698c70be00212f5f18498abccaeaa6dc0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 15 20:45:40 2017 -0400
+
+    Moved usb module to inside of the tabs file
+
+[33mcommit cf6a8d0ad8c49bca841797b69b8d39319b171420[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 15 20:33:09 2017 -0400
+
+    Fixed a few issue with distro tab info not displaying
+
+[33mcommit 0a9841338885bacebfcd4d110add1d5cf8f7ab39[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 15 14:16:40 2017 -0400
+
+    Reworking some of the linux Sshot code
+
+[33mcommit 5711e09d3fb5074891d9ddbcf6474147d2bbf320[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 15 13:14:26 2017 -0400
+
+    complete redo of the screenshot section
+
+[33mcommit 9806a7a820f053e1498b173631f9407a233a234d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Oct 14 15:55:17 2017 -0400
+
+    Last Commit b4 setting up commit before fix trials
+
+[33mcommit d2d090b438dc0c92a539660788f84cb860d843d8[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Oct 9 15:10:09 2017 -0400
+
+    Trying to get a single function to display screenshots in LinuxHQ
+    
+    Screeshot function fixes
+    
+    Pinpointing the issues with the new way of doing the screenshots
+
+[33mcommit ce6e5680891828a23829f0e474d191d7d51df503[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 8 16:32:10 2017 -0400
+
+    Started idea for new way of doing screenshots
+
+[33mcommit 5b08b4dce3e28749480819a1f43362cdb4dbceb8[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Oct 7 23:38:23 2017 -0400
+
+    Updated/Fixed gitignore file
+
+[33mcommit 59e63ceb110da4d358dbbb52b8081bf94ca3d9dd[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Oct 7 23:24:45 2017 -0400
+
+    more converting to the new way of displaying data from database table
+
+[33mcommit cc056d6323faed4194aa0e195d6ceca25b2ef226[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Oct 5 19:21:45 2017 -0400
+
+    First step in new way of displaying database content
+    
+    - Really the way it should have been done in the first place
+    
+    Simplified the number of files
+
+[33mcommit 827f3fad28aabbead8edf7d8045d7bee79541757[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Oct 5 17:28:22 2017 -0400
+
+    First try at getting screenshots to display based on what is in the database
+
+[33mcommit 3b8277cc9cb21b249b1eceea55a7a99b199bd878[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Oct 4 19:10:29 2017 -0400
+
+    Figured out how to get my Title Tag working
+    
+    - Template-a-fied (that a word?)
+    
+    - In TechHQ Section
+    
+    Various techHQ software pages worked on
+    
+    - Fixed Title tag issue
+    
+    - Removed some pages, moving data to database
+    
+    Fixed Titles on DE and Distro Section
+    
+    Fixed goofup in linux header file
+
+[33mcommit 5a4484ef1fae5d74a28c36af961c7d7239eb9e30[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Oct 3 17:23:18 2017 -0400
+
+    Various
+    
+    - Readded some missing graphics folders
+    
+    - Pruning out old and un-need files in various sections
+            - Getting ideas together on paper, for Security section redo
+
+[33mcommit 3ad92ee30fb0393db1a22ba7d90074a5750f90af[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Oct 1 21:22:18 2017 -0400
+
+    Various Work
+    
+    - Removed Un-needed files
+    
+    - Fixed/Added footer link in TechHQ Software Section
+
+[33mcommit ce12d983099a1163b05fd00e1280df941a2f93ee[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Sep 30 15:11:37 2017 -0400
+
+    Attempt to fix Footer issue once and for all
+    
+    - Credit for helping me figure this out: http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page
+    
+    - ALSO removed a number of un-needed files
+
+[33mcommit f6c1925b821b39c11e770e61fde359f9ba755ecf[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Sep 30 00:31:14 2017 -0400
+
+    Various
+    
+    - Optimized size (without quality loss) of some Linux screenshots
+    
+    - First round of converting the TechHQ Software frontpage to the new look
+
+[33mcommit 02ecdd0e7e764c6178f43c3bde62da11fa9ab04c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Sep 29 16:07:30 2017 -0400
+
+    made screenshots on DE frontpage links to full sized screenshots
+
+[33mcommit 8ffd170303daa2728ffc1b9a3191ca15ea445722[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Sep 29 15:54:26 2017 -0400
+
+    More work on Desktop frontpage
+
+[33mcommit 783441fa3fe4147c819f0117f8a18c73df0c7996[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Sep 28 16:19:40 2017 -0400
+
+    First round of getting the "new" Browser Addon Section up
+
+[33mcommit 02c67f06de933403284b93748342c1f0e8d00715[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Sep 28 05:02:28 2017 -0400
+
+    Various work
+    
+    - Moved some of the SQL lines into the browser function after some
+    issues came up
+    
+    - MAY have finally solved the floating footer issue
+
+[33mcommit 707710ca97208953a1bce063277a767020032d80[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Sep 26 21:52:36 2017 -0400
+
+    various fixes/additions
+    
+    - Added Mint 17 and 18 versions to ubuntu versions tab
+    
+    - Added Uberstudent to distro list
+    
+    - Added link i forgot to add for Ubuntu Budgie
+    
+    Some work on the distro and desktop section
+    
+    edited CSS to fix floating footer issue (trial)
+
+[33mcommit 63e1c8f89cbb298018aa4ea704991f446915ee09[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Sep 26 19:20:25 2017 -0400
+
+    Fixed screenshot issue for now in Destop Section
+    
+    Tests seem to work perfectly
+
+[33mcommit ff1b1a01790cb787989c1561e5b0006f9cf0a268[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Sep 25 22:29:37 2017 -0400
+
+    Fixed TechHQ Software Section Card Header CSS
+
+[33mcommit d108f895bf0786405209a102353d1376fdb552ad[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Sep 24 15:14:15 2017 -0400
+
+    Various work
+    
+    more software section adjustments
+    
+    Moved somem techhQ section modules all back into one file
+    
+    First work on getting Platform icons to display
+    
+    edited systemtools software page
+
+[33mcommit 5d844cb37c8401ada6fa238931240737418fad4d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Sep 23 14:07:44 2017 -0400
+
+    Round 2 - Converting more of the software section to the database
+
+[33mcommit 58e6669fffa3937af2930b748c26662f2b422e17[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Sep 21 13:19:04 2017 -0400
+
+    Converting Software pages to use the database - round 1 of updates
+
+[33mcommit 015664956142f32a8c0efd520b11706e760d2ae0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Sep 19 00:13:47 2017 -0400
+
+    Compressed a number of graphics files and removed some others
+
+[33mcommit 32c1ea1e7be5731982b14bdfaf3872c631cf2bdb[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Sep 17 19:46:18 2017 -0400
+
+    Work/test on the Software Section Database
+
+[33mcommit 12747b6a4febab1f0b9ef4f31328ed35c87e3e77[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Sep 15 15:35:49 2017 -0400
+
+    Prep for getting TechHQ's Browser Section data moved to database table
+
+[33mcommit d2c6c905a300a90ab65d8378182cbc432cf4c5b1[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Sep 2 22:39:07 2017 -0400
+
+    First try at getting the image slideshow working
+
+[33mcommit 8a99c457c3f08e2e81e5425ab4c2b129472a430f[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Sep 2 22:23:59 2017 -0400
+
+    Got all the screenshots displaying in the  DE section
+    
+    now to try to format the CSS for something neat, next
+
+[33mcommit 9faa8254a7d6fa08b59ee925d860920d42926bad[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Sep 2 05:54:57 2017 -0400
+
+    Added numerous things to the DE section
+    
+    Added basic support for "how to install" with more detailed support on
+    each branch comming soon.
+    
+    Filled out the info to the right of the screenshot and got that working,
+    though not all the info is in the database yet
+
+[33mcommit 3e3724f3275aae56ca07511a5bb805fb09c78ac3[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 31 21:03:50 2017 -0400
+
+    Got Version/How to tabs displaying version correctly
+
+[33mcommit e16c95229279128e589e53f165b575aba1d5c0e4[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 31 19:10:48 2017 -0400
+
+    Display of DEName, Screenshots and Homepage is now working
+    
+    work needs to be done to fix the Version/Howtoinstall Tabs
+
+[33mcommit cdadccbf188c8476608886929907180e5ea1e347[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Aug 30 13:57:07 2017 -0400
+
+    Condensed Some of the database requests
+
+[33mcommit 68b1f460ddc7301db95527070c95b4e43f00dfab[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Aug 30 13:31:30 2017 -0400
+
+    work on the linuxDE Section
+
+[33mcommit 1188d6a879215c93e5ab21c195333474e8672957[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Aug 28 05:28:39 2017 -0400
+
+    First try at some of the other info displaying on the DE Section
+    
+    Got the version info on the fedora and arch tabs displaying
+
+[33mcommit 0d9a4a93b13effb95323d9737d0623e20f6f2a5b[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Aug 28 04:52:57 2017 -0400
+
+    DE Section work
+    
+    Updated Some DE section pages
+    
+    Removed no longer needed (or too old) screenshots
+
+[33mcommit 2092b1e822b138a1635ac90fd972856eb7c0d866[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Aug 27 02:39:19 2017 -0400
+
+    Upgraded Foundation from 6.3.0 (I think) to 6.4.2
+    
+    I do not currenty use this CSS Framework, but I want to have the current version in case i try it out sometime
+
+[33mcommit fb0e2289808c8b469aa9fd5ea56c30879df616b0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Aug 27 02:06:41 2017 -0400
+
+    Upgraded Boostrap 4 to the offical beta version
+
+[33mcommit c68793e138f6ba18fe5fc6ce1a2a62f12e10731c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Aug 27 00:52:49 2017 -0400
+
+    Working on styling the screenshots in the DE section
+
+[33mcommit 4cd73c3f26e133ad18ce10d78ddaeb0ab183e816[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 26 23:43:11 2017 -0400
+
+    Work on DE Section
+    
+    Testing Ideas for displaying the screenshots
+    
+    SUCCESSFUL test of the tabs ... framework anyway
+
+[33mcommit 5b42340afe9a42961d75d643d5395014911a57a7[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 26 19:41:17 2017 -0400
+
+    Start framework for DE section done ... getting ready to test
+    
+    I have to remove the old template-like system at this point
+
+[33mcommit 519c9bf521cb6d3c8aacebbd556253b9bf141795[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Aug 25 15:45:33 2017 -0400
+
+    Reorganized some file locations and added documentation 4 myself
+
+[33mcommit a88a0469e4665491cc9ee276be605437b64a48ed[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Aug 25 00:41:27 2017 -0400
+
+    Redid format of Desktop/WM Section lefthand menus
+
+[33mcommit 6cc381dd5ab32e8c05638577f9d5ca5d82edc110[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Aug 25 00:34:00 2017 -0400
+
+    Added Description database (not much content atm)
+
+[33mcommit d2b824eae94385ae4d9b23f9a7e68ef86a0d13b0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 24 23:55:57 2017 -0400
+
+    Moving TIC related items to the database
+
+[33mcommit 0841f30d50360e3b60e24cca2c0820ee4302675e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 24 23:30:10 2017 -0400
+
+    Moving DE (Desktop) data to database
+    
+    .. also starting to get TIC section moved to DB
+
+[33mcommit 69a43bc8ab0a45a8a869fa568e14da6dd19020a6[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 24 22:12:04 2017 -0400
+
+    Removed Obsolete variable files
+
+[33mcommit 3d84d6f37040a08fbc8913b213a87e7e981fe373[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Aug 20 17:18:50 2017 -0400
+
+    Fixed (not 100% correct) Floating Footer Issue
+    
+    Distro Section work
+    
+    Some new Icons and updated Icons
+    
+    Also fixed a few issues with the left hand menus in the distro section
+    
+    Added Anti-X, MX-16, Salix, and Slackware to the menus (pages are not done)
+    
+    Will remove "Bridge Linux" in the next commit
+    
+    Work Redoing the LinuxHQ Distro Section
+
+[33mcommit 610c0e600d10add89c4c87b39ecb081b11ad896c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 19 20:03:19 2017 -0400
+
+    Various Actions
+    
+    More work converting the site to using database records vs php variables
+    
+    TRYING TO FIX various CSS issues
+
+[33mcommit 0f9ff75320cbe9ded6bd06406f78a8606d76157c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 19 02:53:21 2017 -0400
+
+    work on database spreadsheet table
+
+[33mcommit 583a818f5b29c5d03e7a7976f8da92b31f5f5b35[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 19 00:16:37 2017 -0400
+
+    moving Description data to the spreadsheet to export into my database online
+    
+    This means the data is NO LONGER in each page .... the same move as everything else
+
+[33mcommit 9192d8c564ae07111cf79fd240e86c1ffed4d072[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 12 05:32:16 2017 -0400
+
+    Redoing LinuxHQ Distro Section
+
+[33mcommit 3c5167bec853d301689757fcf87c1d8b46a23c85[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 12 04:20:56 2017 -0400
+
+    first round of moving distro data to database
+
+[33mcommit 5e412b263a2e0ef55198050c3d165d4d876b8de5[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Aug 11 22:47:58 2017 -0400
+
+    First Fixed (with extra code for some unknown reason) database display
+    tests
+
+[33mcommit 6f390989059f89656076b6294639a79d9d5c0c3d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Aug 11 19:17:22 2017 -0400
+
+    more database tests
+
+[33mcommit f7dbaa08d8c9824e8a2493304acffafa31212e70[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Aug 9 12:55:00 2017 -0400
+
+    Start of database tests
+
+[33mcommit 0ed5b745d7641a52c33a89623bfbc2bd7e6bc926[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Aug 8 00:36:28 2017 -0400
+
+    Misc fixes and additions - Start of DB spreedsheet
+    
+    Cleaning up some code to jade
+    
+    Start of getting code ready for a try at databases
+
+[33mcommit 13f126b4bc43f904bfab13d07d9f942f9940c007[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Aug 6 13:05:43 2017 -0400
+
+    More work on the NewUser Section in LinuxHQ
+
+[33mcommit 657b9191ba861424256a85007101e4569c73ed7d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 5 20:09:03 2017 -0400
+
+    Work on organizing and redoing the New User Section in LinuxHQ
+
+[33mcommit 33eff22db17b6bc5060d8f0844da9a84bf210866[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 5 14:32:59 2017 -0400
+
+    Fixed data not showing in the TIC aka Themes Section on the Linux Side
+    
+    Still have to GET the screenshots for some of the themes but the pages work as intended now
+
+[33mcommit 4b2bcefa78bd773471121ffcb973149298e016ab[m
+Merge: fd1f808 19148a5
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 5 01:56:33 2017 -0400
+
+    Merge branch 'master' into development
+
+[33mcommit 19148a567d31d66ab3fcd40cdad8b39f61c4a16f[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Aug 5 01:52:37 2017 -0400
+
+    Some edits on the templates
+
+[33mcommit 750984a00f9b15ca1e0670bfea90e498f939a5fe[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 3 03:36:14 2017 -0400
+
+    Various Fixes and Updates
+    
+    Think I MAY HAVE finally fixed the floating in the center of the page
+    footer issue
+    
+    Updates to the browser section, removing even more long out of date
+    addons that wouldn't work anyway.
+    
+    Setup some things for what I plan (still thinking about it)
+    cross-browser addons and I plan to add alot of addons for Chrome too
+    
+    now the "Addons subsection" is mainly Firefox only ... I just never
+    updated it for other browsers
+    
+    Additions/Tweaks to the TechHQ Browser Section and LinuxHQ Theme Section
+    
+    More edits in TechHQ Browser Section
+    
+    more browser section edits
+
+[33mcommit fd1f80833f1c65efdc826e11dd9248c13c2acda5[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Aug 4 00:39:25 2017 -0400
+
+    more browser section edits
+
+[33mcommit 9fdeb057cd1be28455a046d511b22f278b27f98e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 3 23:46:36 2017 -0400
+
+    More edits in TechHQ Browser Section
+
+[33mcommit 033830481ad624981a5c1216301d31062b21d445[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 3 17:03:01 2017 -0400
+
+    Additions/Tweaks to the TechHQ Browser Section and LinuxHQ Theme Section
+
+[33mcommit 140ef717b722287901d21b337b17e1193536a58c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Aug 3 03:36:14 2017 -0400
+
+    Various Fixes and Updates
+    
+    Think I MAY HAVE finally fixed the floating in the center of the page
+    footer issue
+    
+    Updates to the browser section, removing even more long out of date
+    addons that wouldn't work anyway.
+    
+    Setup some things for what I plan (still thinking about it)
+    cross-browser addons and I plan to add alot of addons for Chrome too
+    
+    now the "Addons subsection" is mainly Firefox only ... I just never
+    updated it for other browsers
+
+[33mcommit d17c5e473eda4068ea879f82dad6305a95ceb975[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Aug 2 02:56:18 2017 -0400
+
+    More removals of old, obsolete Firefox Addons
+
+[33mcommit 8b9bfdbba369caf6d5a3359021f6912f662b2691[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Aug 1 23:27:36 2017 -0400
+
+    In Jade files I have removed and adjusted many of the Firefox addons I had listed
+
+[33mcommit 514d9bb731fd4e87c571b7d2becd451528ff80db[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Aug 1 19:29:23 2017 -0400
+
+    Removed more un-needed content and/or pages on the TechHQ side of the site
+
+[33mcommit 00dc5c45d9156fbfb3ce402f36567dd4324e2064[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Jul 31 18:08:59 2017 -0400
+
+    Removed un-relivent content or even entire pages ... mainly in security section
+    
+    Some resources I removed still may be active though I have not looked at them in so long, things may have changed by now
+
+[33mcommit 1182332c20f293ee305a015bb6daa3bd7b3903fd[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Jul 31 16:55:07 2017 -0400
+
+    More tweaks and fixes to the software section on the TechHQ side of the site
+
+[33mcommit 489d6ba5d9f3bd2b4d39a78e2c508aa7183614a8[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Jul 31 04:08:13 2017 -0400
+
+    Alot of work on the TechHQ Software Section
+
+[33mcommit 3b497ba1d79d4858b2e7d7839f66a2a882726ee1[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 28 21:45:53 2017 -0400
+
+    More work consolidating the System Tools Subsections into one page
+
+[33mcommit 3f124d0b8aa602310f68dc5ac7ce790d88b2ea7e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 28 13:40:28 2017 -0400
+
+    Combining subsections into the main System Tools Section
+
+[33mcommit 5669d8255329aec08efdd33df85afaacf3cdd920[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 28 01:07:28 2017 -0400
+
+    More work on the TechHQ Software Section
+
+[33mcommit 84f119a3839185dba28dde08324fca03dbe840b0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 28 00:08:42 2017 -0400
+
+    Work on the Software Section being done
+
+[33mcommit 2a10e863bb6c85c59ee5c9888b7a1fc4705ef5af[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 25 03:38:31 2017 +0000
+
+    Converting TechHQ Section to new possible layout ... Step 1
+
+[33mcommit c9d668f4742df0f58852dce434353fb598c0fcf0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Jul 23 21:00:58 2017 -0400
+
+    Moved First page of TechHQ Software Section to new possible layout
+    - The Internet Program Page
+    
+    Added Digital Ocean Link and graphic to the main TechHQ page with the other links of educational sites I like
+
+[33mcommit b0d4e80538b6b0ef071f9e7ffde41bfed7e99b5d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Jul 23 14:27:00 2017 -0400
+
+    Updated LinuxHQ Templates that I forgot I had, for smaller screens
+
+[33mcommit ac8e3d3a52360b2ebfb5a777d054f0227e2aaabb[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Jul 23 14:09:59 2017 -0400
+
+    Updated a few LinuxHQ Templates to appear better on smaller screens
+    
+    Also fixed a mistake where the Distro screenshots WERE NOT being hidden in you are usng a smaller screen
+    
+    I do not own any small devices so I am still doing some trial and error stuff getting things to work and appear decent on these smaller layouts
+
+[33mcommit 8d3d2db9afb91fed23a1dab34756a85222d67a52[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Jul 23 13:42:26 2017 -0400
+
+    Fixed issue with extra ending div tag causing distro pages to wrap for no reason
+
+[33mcommit 80243afab55303acb5c922e78738e4c2d8b7dfe8[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Jul 23 03:15:15 2017 -0400
+
+    Added KaOS to Linux Distro Section
+
+[33mcommit f42e082a7c6c1b42aef146bb67b4480854b54b1e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Jul 22 18:08:48 2017 -0400
+
+    Added 2 Crunchbang alternatives to the menus, as well as the menu and pages for KDE Neon and Ubuntu Budgie
+    
+    The PAGES for those CB alternatives will be done by the next commit
+    
+    Added Bunsenlabs and Crunchbang++ to distro Section
+    
+    fixed issue with missing ; causing the two new distro pages not to load
+
+[33mcommit 703066c18f170d96c9cff2c49008ead2091d76d6[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 21 17:18:46 2017 -0400
+
+    On the Linux HQ side I adjusted some values
+    
+    Fixed the row going off the page in "medium" resolutions
+    
+    Fixed the medium res. main content value too, so it doesn't always wrap under the first column
+
+[33mcommit 8f6ba5ecde9a555e0613fe14dbb9b8486a5280c0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 21 16:11:37 2017 -0400
+
+    Gave up on trying to get the vertical tabs to work on the Linux App Section
+    
+    replaced them with horizontal tabs which i know work on other parts of the site
+    
+    Also some MINOR CSS tweaks for mobile ... i see something is completely broken on mobile and thats whats I am going to fix next ...
+    - things get all right aligned and only take 2 of the 12 columns ... going to troubleshoot that
+
+[33mcommit 1f34d23d2a992fbe0a1479794c1a2b85b9770e2f[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 21 03:40:27 2017 -0400
+
+    Reorganized SASS files and structure
+    
+    May have slimme down CSS files in the process ... not sure if some of the stuff was added multiple times and i didn't know it
+
+[33mcommit 0db22ce0e4f44f8d244911fdc53562c2f17a3b33[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 21 00:51:02 2017 -0400
+
+    Reupdated (not sure when it went back to beta 7) Bourbon from 5.0 beta 7 to 5.0 beta 8
+
+[33mcommit b05325b823e1bc670cdab3acd05b1811d5ba1ca6[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jul 20 23:09:02 2017 -0400
+
+    Updated bitters from version 1.50 to 1.70
+    
+    some testing files are in this commit
+
+[33mcommit b544dff8369025611949acab23883fa83888c371[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jul 20 14:21:06 2017 -0400
+
+    Fixed issue with the path to the image on the frontpage being removed
+    
+    - Apparently when I moved stuff to the universal function I removed the graphic code ... SEEMS I have to adjust some of the CSS around it now but the graphic is back
+    
+    Some other CSS adjustments were also done
+
+[33mcommit 16729aa30818703db6e80dc9ad970e6fcdc2003c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jul 20 05:00:44 2017 -0400
+
+    redid some CSS and removed un-needed entries
+    
+    also started a proof-of-concept change in the Linux Apps Section
+
+[33mcommit f7f86a2a7411c24873d07d217ceb6cdbc14a8d8c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Jul 19 15:59:57 2017 -0400
+
+    Added missing Footer code to the Distro pages that was missing
+    
+    Added a box-shadow and some spacing (which may need adjustments) to the screenshots on the distro pages
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit 05521da808e6829f926ff0a0539d75497812b069[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Jul 19 15:21:23 2017 -0400
+
+    Fixed info on Bridge Linux
+    
+    not only was the homepage I had listed not there, but UMatrix (from Mr. Raymond Gorill) blocked it ... not sure why or what happened to that host they had ..
+
+[33mcommit 74034466d7df9fef043c7b9e91e789b5723f5315[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Jul 19 15:15:57 2017 -0400
+
+    Fixed up some validation errors in Linux Distro Sub-Section
+
+[33mcommit 0adb3b6832eb5cd3369dae7c825fe3cd8607411d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Jul 19 05:14:18 2017 -0400
+
+    Redid Tech HQ Software main page with an idea ... not sure if i will keep it like this
+    
+    some CSS editing
+
+[33mcommit 61a3ba9a40837abcad48e1e3500761b7db050d7d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 18 17:38:28 2017 -0400
+
+    More screenshot code moved in Distro Section
+
+[33mcommit ec34a286a96e933468539f6ea2d5ce129b06e027[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 18 17:21:39 2017 -0400
+
+    Removed KWheezy ... Homepage has been removed and files on SourceForge are gone
+    
+    Other tweaks moving the screenshot code, being done as well
+
+[33mcommit 044d055d507d1625a0ba46e26414dd975240a691[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 18 16:00:40 2017 -0400
+
+    got the framework of the tabs in the Linux Distro section started
+    
+    The idea is the look may be more modern and it cleans up some of the clutter
+
+[33mcommit de2b41f83ce7a93b47459ac482d8df3368bd00a6[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Jul 17 12:37:22 2017 -0400
+
+    Moving some of the CSS into a single file that was split between the
+    sections
+    
+    A) If the code is/SHOULD BE the same in all sections, why have them in
+    three sections vs A UNIVERSAL CSS FILE.
+    
+    B) the names of the css files are dynamic ... as in they may be
+    changing as I move stuff around ... most likely they WILL ... I will
+    keep the different sections CSS file specific styling but that shouldn't
+    be too much .... I have a few things in the Linux CSS file that may not
+    be needed due to a few ideas I have for using Bourbon Refills to make
+    things look better AND removes the need for those CSS items .
+    
+    Removed a few absolute URLs to relative
+    
+    not sure if i made a huge mistake by doing this ..
+    
+    removed need for seperate CSS for the main section
+    - all of that is in the universalCSS file anyway
+    
+    Also I added files needed for a tab-style Refill (from Bourbon.io's
+    Refills)
+    
+    Moving more Absolute Links to relative links
+    
+    - hope I dont regret this
+
+[33mcommit fc1f9966d3cd05c141f22ab9a8014584cf53801d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Jul 15 16:17:11 2017 -0400
+
+    Updated Jquery from 3.2.0 to 3.2.1
+
+[33mcommit bae6f42e854cc6808794c54eeffa2e32eb127e6e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Jul 15 13:21:36 2017 -0400
+
+    Renamed a few CSS and SASS/SCSS files to be consistant on all sections
+
+[33mcommit a81486ccdfe873c12a2949a7c4e44707da38fbad[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Jul 15 00:52:02 2017 -0400
+
+    Fixed GAOTD appearance
+
+[33mcommit 78a03047c519fcb64257e3b7d26d4e9be1dd429c[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Jul 15 00:12:53 2017 -0400
+
+    Cleaning up over-modulerazation
+
+[33mcommit 64753b8eec113dda81c54c0b6666c87877d18082[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jul 14 15:23:12 2017 -0400
+
+    Moved Menus to Header related file
+    - being too modular was causing issues troubleshooting the converstion of Jade ~> PHP
+    
+    Removed a few un-needed CSS elements to clean things up
+    
+    Removed seperate CSS files that were being included in the main CSS file anyway
+    - no need for them in seperate files or to have seperate calls to them
+    
+    Wrestling the Menu inconsistancies into place the way I want the menus to be
+    
+    cleaned up UN-NEEDED modulazation in the CSS
+
+[33mcommit 3b1eafe5ae570a6670ba69abebcf6f64ef847e84[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Jul 12 00:42:40 2017 -0400
+
+    Updated all Normalizer.css files from 5.0 to 7.0
+
+[33mcommit ab05fa70addeb11a8676a0cf8797b1e46de04321[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Jul 12 00:29:48 2017 -0400
+
+    Upgraded from Bourbon(.io) from 5 beta7 to 5 beta8
+
+[33mcommit df086018b803488bcbd0192f6ae2dc1e70547f1d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 11 22:27:28 2017 -0400
+
+    removed un-needed files
+    
+    Fixed the menus on the main page that was suppose to be right aligned all along
+
+[33mcommit 75448e27a2655b128b4c945124ccd7ae9bd5b324[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 11 21:01:02 2017 -0400
+
+    Clearing up a few CSS mistakes
+    
+    Fixing a few issues that caused because I combined a few directiories which caused a few paths to break
+
+[33mcommit ed90802693f1df15b2d10f149a1b9d615a0bad3a[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Jul 11 15:42:31 2017 -0400
+
+    Fixed issue with Tether not being found after i moved a few things to a
+    sub-folder
+
+[33mcommit 807bfb2a84945744f4af7e6a9e63e9f7ab2f49ad[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Jun 4 17:42:01 2017 -0400
+
+    Fixed TechHQ Section Missing Header issue
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit 67a2c08cea0e5f925ffa0bac10813ce2d3d35b0e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Jun 2 15:39:00 2017 -0400
+
+    SASS/CSS changes and updates
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit 520c5b1d4385f15f19cc4816441dd60c35d31cf2[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jun 1 20:26:15 2017 -0400
+
+    Renamed Distro Column template
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit 662fe368810ab21e94aa28622e9c0e463c4e7733[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jun 1 19:59:49 2017 -0400
+
+    Added Space to frontpage's github info
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit 48679fd2970a6e2f771f8a497ec9b6594e71fa2b[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Jun 1 19:56:18 2017 -0400
+
+    Added and Re-ordered Distros in Distro Section's Menu
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit f4974dc26f94272fb263bc202056c8a1608fe5c1[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed May 31 15:30:33 2017 -0400
+
+    more gpg key testing
+
+[33mcommit c8b6a1956d05c76b5e61ae104009f692e7f2b5ff[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue May 30 23:32:14 2017 -0400
+
+    Moved frameworks to single directory
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+    
+    Testing GPG key
+    
+    Signed-off-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+[33mcommit d49d485357f367b229e9db7ae1f1b14fcbd7bca0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat May 13 20:17:06 2017 -0400
+
+    Work converting New User Section to Jade
+    
+    Hope to tighten up some of ... my rambling to make the section more useful
+
+[33mcommit c62225f4121cbfc537b6ae67152f1b2cb5e85b14[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri May 12 17:10:37 2017 -0400
+
+    Fixed Horiz. Overflow issue
+
+[33mcommit 4a55649bceed0fa4f41ea4aa973dc767070b0833[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue May 9 13:51:16 2017 -0400
+
+    Various Updates
+    
+    Updated the frontpage to include links to my github projects
+    
+    Removed a NUMBER of un-needed Markdown folders and pages
+
+[33mcommit 3f63a2303473f41d2cb55828c33a3047a58fce9a[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun May 7 03:42:23 2017 -0400
+
+    Getting Menus worked out in all remaining Linux Sections
+    
+    I mean the left-hand menus
+    
+    Some CSS styling is still needed
+    
+    The converting is basically from the old layout to what looks good in ...
+    Bourbon (Bourbon.io ...etc etc) and/or Bootstrap
+
+[33mcommit 09a6f5f4790f27322536daa0eecc53e123408c6d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun May 7 00:40:59 2017 -0400
+
+    Fixing up left Menus in Tutorials section on the Linux side
+
+[33mcommit 6a00c3f07a04df3b609e38949e84fefa703d3426[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Apr 29 15:40:46 2017 -0400
+
+    Stuff Added ... Things Changed
+    
+    Work on the Distro and Desktop Sections on the Linux side of the site
+    
+    changed variable names that I had renamed
+
+[33mcommit 652a16c831659053dece96f4493e2648254e275b[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 28 17:24:34 2017 -0400
+
+    Mutiple fixes
+    
+    Fixed footer that was randomly appearing in the middle of the page in the distro section
+    
+    Working on getting the Distro and Desktop Env (DE) Sections in place ... fixing the css can come later
+
+[33mcommit d62a1a343890f6ceb45f0c874ef1150937789030[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Apr 26 15:50:42 2017 -0400
+
+    Fixed up Distro pages - The are ready for testing
+
+[33mcommit 8b8cd55af9f8e9bd1ea6ea1679b21751a28feca9[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Apr 22 16:29:50 2017 -0400
+
+    Consildating and Cleanup
+    
+    More Organizing
+    
+    Various Works
+    
+    Added some Distrowatch variables
+    
+    Cleaning up code to USE said-variables
+    
+    MOAH ... stuff
+
+[33mcommit ad576089275423c876ffad23a2e7963ade0d216e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Apr 21 15:11:28 2017 -0400
+
+    Some un-needed custom CSS cleanup in Linux Section
+
+[33mcommit ff605c5ba67e1ddaf3d2522aa58a4ee56fd00ad6[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Mar 28 04:42:39 2017 -0400
+
+    Tech Center (in TechHQ) Mobile menus are done
+
+[33mcommit cfcffbe1f2043713eee5dce28e3f355fdbae94b4[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Mar 27 04:40:02 2017 -0400
+
+    Made former CDN Content, local
+    
+    Made Bootstrap 4, Tether, and JQuery "local" so that its no connecting to third party sites for the content
+    
+    The idea came to me thinking how screwed up the layout would be if the third party host went down ... most of the layout CSS would be gone, since I removed my Custom CSS
+
+[33mcommit 473cc4fafbe90363d00eb3fd09032a2b5fe93cff[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sat Mar 25 16:52:55 2017 -0400
+
+    more work on Mobile Layout
+
+[33mcommit 42f06ec2b7c31b36c1d27f0a0cf2a105bec2c5a1[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Mar 24 17:35:58 2017 -0400
+
+    Unified Footer code
+
+[33mcommit 9dbc82fb2fc80e89d170bb9d218d314e29e4d169[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Mar 23 05:39:37 2017 -0400
+
+    Ideas for submenus in mobile
+    
+    Put into place in TechHQ Software Section only, for now
+
+[33mcommit 41c5564a758ddd3076e1b67a628bf87a94982686[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Mar 22 20:29:20 2017 -0400
+
+    Converting LinuxHQ elements to Bootstrap
+    
+    this should remove the need for yet more custom CSS
+
+[33mcommit a93c932ec29e0a194500bf8a2ef91b20f050550a[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Mar 22 15:46:59 2017 -0400
+
+    Multiple Misc fixes
+    
+    Fixed mainsite footer color
+    
+    Fixed left-hand menus in main TechHQ page
+    
+    Added CSS back to elements in TechHQ Section that shouldn't have been missing
+
+[33mcommit c4db4f7592312fa0d0a9e58fd044f63d6471c492[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Mar 20 19:08:41 2017 -0400
+
+    Fixed Menu Height issues and mobile menus now work
+
+[33mcommit 5739375c8c3622fbfd0b7ddd989029f4448c9f97[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Fri Mar 17 05:30:06 2017 -0400
+
+    Work on LinuxHQ Section
+
+[33mcommit f985c645c7d9cbc8a61c7d91cde129799e8c362a[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Mar 16 23:09:14 2017 -0400
+
+    Converted Top Menu in TechHQ Section to Bourbon Neat
+
+[33mcommit 24b7e73f6d697ba3957fd2e7d91a32e74451f0df[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Mar 14 02:20:10 2017 -0400
+
+    getting main page Bourbon and Neat figured out
+
+[33mcommit 9c84bc66025f79b3598c31f5e364e6ea9f7f1dee[m
+Author: xmetal <xmetal@localhost.localdomain>
+Date:   Sun Mar 12 13:19:15 2017 -0400
+
+    Reverted back to Neat 1.8.0
+    
+    I mean INCLUDED
+    
+    2.0 is not compatible with a few things I want to do
+
+[33mcommit 226380ffdba0e9bbdb2eeaf42ddf24753aa3b2cd[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Mar 9 19:27:22 2017 -0500
+
+    Pruning and Jade conversions in the TechHQ Security Section
+
+[33mcommit 836634ccf787523182f351e7be0c0987ade90038[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Mar 9 16:35:27 2017 -0500
+
+    changed some more of the Firefox Addon Section to Jade
+    
+    TODO: Finish the conversion and moving the jade to html into the main pages
+    
+    TODO: Added/Figure out how to add Chrome Addons
+
+[33mcommit e50962bff9b389707a540b5286e9e4fac3cf2e17[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Mar 9 02:55:01 2017 -0500
+
+    converted a few browser addon pages to Jade
+
+[33mcommit 528418c1e679e7ab8c5d4d569b574f2bf3d858bc[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Mar 8 16:50:48 2017 -0500
+
+    Added README
+    
+    README edits
+    
+    Fixed some spelling mistakes
+    
+    Added a Thank you section to a great youtuber
+    
+    Added Table of Contents
+
+[33mcommit f427935927ac462ca3f3c02e56d33b322fc914f1[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Mar 8 16:36:12 2017 -0500
+
+    playing with Bourbon/Neat/Bitters so more
+    
+    also added README
+
+[33mcommit f3346fb05a7c7a8847c933a526b10adc341d37e8[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Mar 7 22:11:23 2017 -0500
+
+    playing with Bourbon
+
+[33mcommit fb52b19a38363b15e6607bbdaa2fe1e95a387d71[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Mar 7 16:17:25 2017 -0500
+
+    CSS Editing
+    
+    Clearing out un-needed/forgotten CSS
+    
+    Converting some Compass CSS to regular CSS since those browser prefixes are no longer needed
+    
+    Converting some things to Bourbon
+
+[33mcommit c0a33cfc7d0597c1339d676454970b43e8f7f5c3[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Mar 6 14:55:57 2017 -0500
+
+    Converting LinuxHQ sections to jade
+
+[33mcommit 5fd031775ee13741bcbba4afccefc43b61598475[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Mar 5 17:35:22 2017 -0500
+
+    pruning out some un-needed custom CSS
+
+[33mcommit 0c10f35076c7a0bc760093ccb6682ea0ad51700d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Mar 5 15:38:08 2017 -0500
+
+    Added Neat
+    
+    Not sure this is really needed since I am using Bootstrap
+
+[33mcommit f618965009688450299db1a873a86b57cefc9abe[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Mar 5 13:53:18 2017 -0500
+
+    Various Changes
+    
+    Added Bourbon to project as I just discovered when bugfixing Compass
+    that Compass is no longer developed
+
+[33mcommit 8cf989b92721b780d80aff2a0bd0a73e547b8c1d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Mar 5 00:23:35 2017 -0500
+
+    lots of stuff
+    
+    cool message, eh?
+
+[33mcommit fe1d18fa9b1bb9bc2ac210da3500aa7ef03a7a03[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Thu Mar 2 14:24:38 2017 -0500
+
+    more work on menus and conversion to bootstrap 4
+
+[33mcommit 16968ff7b7803a5b6aa7bfcb830662d272f6f56a[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Feb 27 19:10:24 2017 -0500
+
+    more work on browser section redo
+
+[33mcommit d51188ae3225cc0f166ad9b686794fdbc3c61601[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Feb 27 05:12:07 2017 -0500
+
+    work on converting the browser section
+    
+    converting to jade and bootstrap 4
+
+[33mcommit 1f9e37d64b688d377ad32287291f6eb2279a84e8[m
+Merge: 0b6cf97 1869364
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Feb 26 04:18:32 2017 -0500
+
+    Added Git Ignore File and other fixes after git goofup
+
+[33mcommit 1869364d9a836d1219718a24e0e6cbae58b0c4a5[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Feb 26 02:04:50 2017 -0500
+
+    more converting to jade
+
+[33mcommit 59f40c6e69f56c6cd564e88936607d71b98e64eb[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Feb 14 16:22:46 2017 -0500
+
+    Linux Section Updates and work on new template system
+
+[33mcommit 4f423935e7ce74a80d8d1cd95610974ab9b811e0[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Feb 8 14:34:33 2017 -0500
+
+    Converting things to Bootstrap
+
+[33mcommit f968b0e23c3e5bda4639ec132b9b1c415e63b34d[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Feb 8 00:37:55 2017 -0500
+
+    More work on the Linux Side of the Site's Template
+
+[33mcommit 2eff1004afd3f654fa66dad1a804c8e6da547c45[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Wed Feb 8 00:12:13 2017 -0500
+
+    Started Linux Page Template Conversions
+
+[33mcommit 0df26db3bf8b18fd27f29226d5850e689431bc5e[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Feb 7 23:08:30 2017 -0500
+
+    More converting to the new template system
+
+[33mcommit e03e664182871bbe9e2669ced75aa2c58c943276[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Tue Feb 7 04:44:07 2017 -0500
+
+    First Round of Template Redo
+
+[33mcommit 0b6cf9752f617ebfdee96213ee364f30263801cf[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Feb 6 19:35:55 2017 -0500
+
+    Start of site redo
+
+[33mcommit d05888110120dc0901d070abe9d71710e4dcb6d6[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Feb 5 16:33:50 2017 -0500
+
+    First tests of the redo
+
+[33mcommit 2e082b06ddaffe3929e0265ce828e6c6eb33db17[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Sun Feb 5 05:23:55 2017 -0500
+
+    Updated to where I am in Feb 2017
+
+[33mcommit a70adc523d775c32c8a90601ce4120d0db396dec[m
+Author: Xmetalfanx <Xmetalfanx@yahoo.com>
+Date:   Mon Sep 5 17:05:04 2016 -0400
+
+    First Commit/Upload

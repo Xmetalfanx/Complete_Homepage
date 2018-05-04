@@ -1,91 +1,72 @@
-@import
-  "0-variables/variables-dir",
-  "1-custom/custom-dir";
-
-$headerBGColor : rgba(51, 51, 51, 1);
-$footerheight  : 75px;
+@import "0-variables/variables-dir", "1-custom/custom-dir";
+$headerBGColor: rgba(51, 51, 51, 1);
+$footerheight: 75px;
 
 :root {
-  overflow-x : hidden;
+  overflow-x: hidden;
 }
-
 // Universal site footer
-
 footer {
-  bottom           : 0;
-
-  color            : rgb(255, 255, 255);
-  background-color : $headerBGColor;
-
-  @include           padding(5px, 1%, 1%, 1%);
-  @include           margin(10px, 0, 0, 0);
+  bottom: 0;
+  color: rgb(255, 255, 255);
+  background-color: $headerBGColor;
+  @include padding(5px, 1%, 1%, 1%);
+  @include margin(10px, 0, 0, 0);
 
   .footer-social img {
-    width  : 32px;
-    height : 32px;
+    width: 32px;
+    height: 32px;
   }
 }
 
 .card-header {
-  color            : rgba(255, 255, 255, 1);
-  background-color : $headerBGColor;
+  color: rgba(255, 255, 255, 1);
+  background-color: $headerBGColor;
 
   a:link a:visited a:hover a:focus {
-    color : rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
 }
-
 // ... what is this for again?
-
 .media {
-  border   : 1px solid $headerBGColor;
-
-  @include   padding(10px, 10px, 10px, 10px);
-  @include   margin(5px, null, 5px, null);
+  border: 1px solid $headerBGColor;
+  @include padding(10px, 10px, 10px, 10px);
+  @include margin(5px, null, 5px, null);
   // Focussed on Icons ... Don't see there being other graphics in this spot
-
   img {
-    width  : 42px;
-    height : 42px;
+    width: 42px;
+    height: 42px;
   }
 }
 
 .smallText {
-  font-size : 11px;
+  font-size: 11px;
 }
 
 .coverImage {
-  display             : block;
-  height              : 40%;
-  min-height          : 100px;
-
-  background-image    : url('/graphics/herobg/01540_driftwood_1280x720.jpg');
-  background-position : top;
-  background-size     : cover;
+  display: block;
+  height: 40%;
+  min-height: 100px;
+  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
+  background-position: top;
+  background-size: cover;
 }
-
 // main text div
-#mainText
-{
-  @include padding( 0, 2%, 0, 2%);
-
+#mainText {
+  @include padding(0, 2%, 0, 2%);
 }
 
-
-nav.navbar
-{
+nav.navbar {
   background-color: $headerBGColor;
   color: $white;
 
-  .navbar-brand
-  {
+  .navbar-brand {
     font-size: 36px;
     font-weight: bold;
   }
-  .navbar-nav
-  {
+
+  .navbar-nav {
     font-size: 22px;
     font-weight: bold;
-
   }
 }
