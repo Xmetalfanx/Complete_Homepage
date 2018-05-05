@@ -1,82 +1,44 @@
+<div id="col1Menus">
+<h3>Ad/Content Blocking </h3><br/>
 
-<div class="card">
-  <div class="card-header">Browser Addons </div>
-  <div class="card-block">
-    <p class="card-text">
-      <nav class="nav flex-column">
-        <a href="/techHQ/browsers/addons/addblockeraddons.php" class="nav-link">Ad or Content Blocking</a>
-        <a href="/techHQ/browsers/addons/profileaddons.php" class="nav-link">Profile-Related</a>
-        <a href="/techHQ/browsers/addons/downloadaddons.php" class="nav-link">Downloads</a>
-        <a href="/techHQ/browsers/addons/securityaddons.php" class="nav-link">Security</a>
-        <a href="/techHQ/browsers/addons/variousaddons.php" class="nav-link">Various Addons</a>
+<div class="btn p-2">Basics</div>
+  <a href="/techHQ/browsers/adblocking/adblocker.php">List of Ad/Content Blockers, I recommend </a><br/>
+  <a href="/techHQ/browsers/adblocking/adblockBasics.php">Basic Ad/Content blocking on various blockers</a><br/>
+  <a href="/techHQ/browsers/adblocking/">Static -vs- Dynamic Filtering</a><br/>
+  <a href="/techHQ/browsers/adblocking/UblockConfusion.php">Ublock Origin -vs - Ublock Confusion</a><br/>
+  <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php">Static Filtering -vs- Dynamic Filtering</a><br/>
+  <a href="/techHQ/browsers/adblocking/">Element Hiders</a><br/>
+  <a href="/techHQ/browsers/adblocking/">List of Common Filter lists (strong Static Filters)</a><br/>
 
-        
-      </nav>
-    </p>
-  </div>
+<div class="btn p-2">More Advanced Topics </div>
+<a href="/techHQ/browsers/adblocking/UblockTutorial.php">Ublock Tutorial </a><br/>
+<a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php">Dynamic Filter in Ublock</a><br/>
+<ul>
+  <li>
+    <a href="/techHQ/browsers/adblocking/noopExplained.php">What on earth is a &quot;noop filter&apos;?</a>
+  </li>
+  <br/>
+  <li>
+    <a href="/techHQ/browsers/adblocking/">How to &quot;use&quot; Noop Rules</a><br/>
+  </li>
+</ul>
+
+<div class="btn p-2">Umatrix Specific </div>
+<a href="/techHQ/browsers/adblocking/umatrix_legend.php">Umatrix Legend</a><br/>
+<a href="/techHQ/browsers/adblocking/umatrix_mainLayout.php">Umatrix Main Layout  </a><br/>
+
+
+<div class="btn p-2"> More Ublock Tasks       </div>
+<a href="/techHQ/browsers/adblocking/">Cookie Managing</a><br/>
+<a href="/techHQ/browsers/adblocking/">Script Managing</a><br/>
+
+
+<div class="btn p-2">Browser Addons </div>
+<a href="/techHQ/browsers/addons/firefox/downloadRelatedAddons.php">Download Related</a><br/>
+<a href="/techHQ/browsers/addons/firefox/generalAddons.php">General Addons</a><br/>
+<a href="/techHQ/browsers/addons/firefox/interfaceAddons.php">Interface Related</a>
+<a href="/techHQ/browsers/#">Backing up Browser Data</a><br/>
+<a href="/techHQ/browsers/tinyurl.php">URL Shortening</a>
+
+
 </div>
-
-
-<br/>
-<h3>Ad/Content Blocking </h3>
-<br/>
-
-<div class="card">
-  <div class="card-header">Basics</div>
-  <div class="card-block">
-    <p class="card-text"></p>
-    <nav class="nav-flex-column">
-      <a href="/techHQ/browsers/adblocking/adblocker.php" class="nav-link">List of Ad/Content Blockers, I recommend </a>
-      <a href="/techHQ/browsers/adblocking/adblockBasics.php" class="nav-link">Basic Ad/Content blocking on various blockers</a>
-      <a href="/techHQ/browsers/adblocking/" class="nav-link">Static -vs- Dynamic Filtering</a>
-      <a href="/techHQ/browsers/adblocking/UblockConfusion.php" class="nav-link">Ublock Origin -vs - Ublock Confusion</a>
-      <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Static Filtering -vs- Dynamic Filtering</a>
-      <a href="/techHQ/browsers/adblocking/" class="nav-link">Element Hiders</a>
-      <a href="/techHQ/browsers/adblocking/" class="nav-link">List of Common Filter lists (strong Static Filters)</a>
-    </nav>
-  </div>
-
-</div>
-
-<div class="card">
-  <div class="card-header">More Advanced Topics</div>
-  <div class="card-block">
-    <p class="card-text">
-      <nav class="nav flex-column">
-        <a href="/techHQ/browsers/adblocking/UblockTutorial.php" class="nav-link">Ublock Tutorial </a><a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php" class="nav-link">Dynamic Filter in Ublock</a>
-
-        <ul>
-          <li>
-            <a href="/techHQ/browsers/adblocking/noopExplained.php" class="nav-link">What on earth is a &quot;noop filter&apos;?</a></li>
-          <li><a href="/techHQ/browsers/adblocking/" class="nav-link">How to &quot;use&quot; Noop Rules</a></li>
-        </ul>
-      </nav>
-    </p>
-  </div>
-</div>
-
-
-<div class="card">
-  <div class="card-header">Umatrix Specific</div>
-  <div class="card-block">
-    <p class="card-text">
-      <nav class="nav flex-column">
-        <a href="/techHQ/browsers/adblocking/umatrix_legend.php" class="nav-link">Umatrix Legend</a>
-        <a href="/techHQ/browsers/adblocking/umatrix_mainLayout.php" class="nav-link">Umatrix Main Layout  </a>
-      </nav>
-    </p>
-  </div>
-</div>
-<div class="card">
-  <div class="card-header">More Ublock Tasks </div>
-  <div class="card-block">
-    <p class="card-text">
-      <nav class="nav flex-column"><a href="/techHQ/browsers/adblocking/" class="nav-link">Cookie Managing</a><a href="/techHQ/browsers/adblocking/" class="nav-link">Script Managing</a></nav>
-    </p>
-  </div>
-</div>
-
-
-
-<a href="/techHQ/browsers/#" class="nav-link">Backing up Browser Data</a>
-<a href="/techHQ/browsers/tinyurl.php" class="nav-link">URL Shortening</a>

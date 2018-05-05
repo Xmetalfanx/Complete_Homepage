@@ -4,14 +4,13 @@
     require $sitePath . '/database/techdbconnect.php';
 
 
-
     # Software db table
     $totalSoftwareData = "SELECT * FROM overallsoftware ORDER BY appname";
     $totalSoftwareResult = mysqli_query($conn2, $totalSoftwareData) or ('Error querying database');
     $totalSoftwareDisplay = mysqli_fetch_assoc($totalSoftwareResult);
 
 
-    // function to sort main and sub catagorys in the software section 
+    // function to sort main and sub catagorys in the software section
   	function sortApps($sortmaincatagory, $sortsubcatagory)
   	{
 
@@ -28,7 +27,7 @@
 
       }
 
-      // If the subcatagory variable contains a value that was passed from the webpage ... that is if its not NULL 
+      // If the subcatagory variable contains a value that was passed from the webpage ... that is if its not NULL
       if (isset($localsubcat))
       {
         $localmaincatquery = "SELECT * FROM `overallsoftware` WHERE appmaincat = '$sortmaincatagory' AND appsubcat = '$sortsubcatagory'";
@@ -55,14 +54,10 @@
         $browsercatresult = mysqli_query($conn2, $browsercatquery) or ('Error querying database');
         $browsercatdisplay = mysqli_fetch_assoc($browsercatresult);
 
-        
-        // TODO: Add code tocheck what browser the addon is for 
-        $browser
-
 
         include $sitePath . '/techHQ/modules/database/browser.php';
 
-        // Clear Variable 
+        // Clear Variable
         $addontype = '';
       }
 

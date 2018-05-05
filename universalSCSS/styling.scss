@@ -8,6 +8,8 @@ $footerheight: 75px;
 // Universal site footer
 footer {
   bottom: 0;
+  position: relative;
+  width: 100%;
   color: rgb(255, 255, 255);
   background-color: $headerBGColor;
   @include padding(5px, 1%, 1%, 1%);
@@ -19,14 +21,7 @@ footer {
   }
 }
 
-.card-header {
-  color: rgba(255, 255, 255, 1);
-  background-color: $headerBGColor;
 
-  a:link a:visited a:hover a:focus {
-    color: rgb(255, 255, 255);
-  }
-}
 // ... what is this for again?
 .media {
   border: 1px solid $headerBGColor;

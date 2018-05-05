@@ -2,60 +2,23 @@
   "3-custom/1-modules/modules-dir",
   "3-custom/2-variables/variables-dir";
 
-.container {
-  width : 96%;
-}
-
-.card {
-  padding : 10px;
-
-  a:hover img,
-  a:link img,
-  a:visitied img {
-    width  : 600px;
-    height : 400px;
-  }
-
-  .card-header {
-    @include   margin(null, auto, null, auto);
-    width    : 100%;
-
-    a:hover,
-    a:link,
-    a:visited {
-      color : lightgrey;
-    }
-  }
-
-  .card-block {
-    padding : 0px;
-
-    .card-text {
-      @include     padding(0, 0, 0, 0);
-      @include     margin (0, 0, 0, 0);
-      width      : 99%;
-      text-align : justify;
-      font-size  : 17px;
-
-      a:link {
-        color            : navy;
-        background-color : transparent;
-      }
-    }
-  }
-}
-
-.card-warning {
-  background-color : rgb(255, 255, 255);
-}
-
-.accordion-tabs-minimal {
-  @include     margin(null, null, 15px, null);
-  border     : 1px solid rgb(0, 0, 0);
-  box-shadow : 2px 2px 2px;
-}
 
 #bottomLinks {
   display        : flex;
   flex-direction : row;
+}
+
+// Col1 menus
+#col1Menus
+{
+  .btn
+  {
+    display: block;
+
+    color: $white;
+    background-color: $charcoalGrey;
+
+    @include margin(10px, 0, 10px, 5px);
+  }
+
 }

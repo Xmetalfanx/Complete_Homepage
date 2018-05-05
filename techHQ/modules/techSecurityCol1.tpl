@@ -1,50 +1,37 @@
-<h2 id="security">Security</h2>
-<br /><br />
-
-<div class="panel panel-default">
-	<div class="panel-heading">
-		<a href="/techHQ/security/encryptSoftware.php">Encrpytion</a> <br />
+<div id="col1Menus">
+	<div class="btn p-2">
+		<a href="/techHQ/security/encryptSoftware.php">Encryption</a>
 	</div>
-</div>
+
+	<div class="btn p-2"> Internet Security</div>
+
+	<a href="/techHQ/security/internet/InternetThreats.php">Internet Threats</a>
+	<a href="/techHQ/security/host_manager.php">Blocking ads and spyware with Host File</a>
+	<a href="/techHQ/security/internet/ipBlockers.php">IP Blocking</a>
+	<a href="/techHQ/security/internet/secureBrowsing/securingSummary.php">Overall Summary</a>
+	<ul>
+	  <li>Firefox</li>
+	  <li>Google Chrome/Chromium</li>
+	  <li>Opera</li>
+	  <li>Vivaldi</li>
+	</ul>
 
 
-<div class="panel panel-default">
-	<div class="panel-heading">Internet Security </div>
-	<div class="panel-body">
-			<a href="/techHQ/security/internet/InternetThreats.php">Internet Threats</a><br />
-			<a href="/techHQ/security/host_manager.php">Blocking ads and spyware with Host File</a><br />
-			Cookie Blocking
-			<a href="/techHQ/security/internet/ipBlockers.php">IP Blocking</a><br />
-			<p>
-			<a href="/techHQ/security/internet/secureBrowsing/securingSummary.php">Overall Summary</a>
-		</p>
-		<ul>
-	</div>
-</div>
+	<div class="btn p-2">Windows Related</div>
+	<a href="/techHQ/security/secureDeleting.php">Securely Removing Data from your computer</a>
+	<a href="/techHQ/security/spyware/spyware.php">Spyware Related</a>
+	<a href="/techHQ/security/firewall/softFirewalls.php">Firewalls</a>
+	<a href="/techHQ/security/infections/spyware_and_Virus_scanners.php">Virus and Malware Removal</a>
+	<a href="/techHQ/security/secureWindowsPrograms.php">Small Freewares to Secure your PC</a>
+	<a href="http://browsehappy.com/why/">&quot;Why IE could be Dangerous?&quot;</a>
 
-
-<div class="panel panel-default">
-	<div class="panel-heading">Windows Related <br />
-	</div>
-	<div class="panel-body">
-		<a href="/techHQ/security/secureDeleting.php">Securely Removing Data from your computer</a><br />
-		<a href="/techHQ/security/spyware/spyware.php">Spyware Related</a><br />
-		<a href="/techHQ/security/firewall/softFirewalls.php">Firewalls</a><br />
-		<a href="/techHQ/security/infections/spyware_and_Virus_scanners.php">Virus and Malware Removal</a><br />
-		<a href="/techHQ/security/secureWindowsPrograms.php">Small Freewares to Secure your PC</a><br />
-		<a href="http://browsehappy.com/why/">"Why IE could be Dangerous?"</a><br />
-
-	</div>
-</div>
-
-<div class="panel panel-default">
-	<div class="panel-heading">
+	<div class="btn p-2">
 		<a href="/techHQ/security/secureBrowsing/securezBrowseIndex.php">Secure Web Browsing</a>
 	</div>
 
-	<div class="panel-body">
-				Online Scan Sites</h2>
-				<p class="sideNav"><br />
-				<a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a><br />
+	<div class="btn p-2">
+	  <div>Online Scan Site</div>
 	</div>
+
+	<a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a><br/>
 </div>
