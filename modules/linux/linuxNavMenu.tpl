@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
   <a href="/linuxHQ/index.php" class="navbar-brand">Linux HQ</a>
-  <button type="button" data-toggle="collaspe" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
+  <button type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div id="linuxHQNav" class="collaspe navbar-collaspe ml-auto">
+  <div id="linuxHQNav" class="collapse navbar-collaspe ml-auto">
     <div class="navbar-nav ml-auto">
       <a href="/linuxHQ/distros/distroHome.php" class="nav-item nav-link">Distributions</a>
       <a href="/linuxHQ/desktops/desktopsIndex.php" class="nav-item nav-link">Desktops</a>
