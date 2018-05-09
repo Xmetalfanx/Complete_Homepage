@@ -12,10 +12,10 @@
 
     echo $mainTitle . $sectionTitle . $pageTitle;
     ?>
+  </title>
 
 
-    <?php include 'modules/headerInclude.tpl'; ?>
-
+    <?php include "/home/xmetalx1/public_html". '/modules/headerInclude.tpl'; ?>
 
     <!-- Universal CSS file-->
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
