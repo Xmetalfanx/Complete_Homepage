@@ -309,26 +309,16 @@ footer {
   position: relative;
   color: white;
   background-color: #333333;
-  padding-top: 5px;
-  padding-right: 2%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0; }
+  padding: 5px 2% 1% 1%;
+  margin: 0 0 0 0; }
   footer .footer-social img {
     width: 32px;
     height: 32px; }
 
 .media {
   border: 1px solid #333333;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px; }
   .media img {
     width: 42px;
     height: 42px; }
@@ -344,10 +334,7 @@ footer {
   background-size: cover; }
 
 #mainText {
-  padding-top: 1%;
-  padding-right: 2%;
-  padding-bottom: 0;
-  padding-left: 2%;
+  padding: 1% 2% 0 2%;
   background-color: white;
   text-align: justify; }
 

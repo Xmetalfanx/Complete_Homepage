@@ -388,9 +388,6 @@ form.SPForm {
   display: block;
   color: white;
   background-color: #333333;
-  margin-top: 10px;
-  margin-right: 0;
-  margin-bottom: 10px;
-  margin-left: 5px; }
+  margin: 10px 0 10px 5px; }
 
 /*# sourceMappingURL=styling.css.map */

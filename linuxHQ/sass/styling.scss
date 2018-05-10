@@ -7,12 +7,14 @@ kbd {
 }
 
 #distroTables {
+  display  : inline-block;
+  clear    : both;
+
+  width    : 97%;
   /* border: $solidBorder; */
+
   @include   margin(5px, null, 5px, null);
   @include   padding(5px, 1%, null, 1%);
-  display  : inline-block;
-  width    : 97%;
-  clear    : both;
 }
 
 #TIC {
@@ -36,8 +38,9 @@ kbd {
 // #####################################################################
 
 .icons {
-  @include   margin(null, 20px, null, 20px);
   position : relative;
+
+  @include   margin(null, 20px, null, 20px);
 }
 
 // This is for the Icon and name section of say the Diustro Section
@@ -45,6 +48,7 @@ kbd {
 .name {
   // Info is a guess for now
   text-decoration : underline;
+
   font-size       : 28px;
   font-weight     : bold;
   // put the name class at the start of the line and this is for the icon
@@ -57,6 +61,7 @@ kbd {
 
 #screenshots {
   padding : 10px;
+
   border  : 1px #000000 dotted;
 
   img[src=''] {
@@ -68,34 +73,44 @@ kbd {
   }
 
   img {
+    box-shadow : 1px 1px 10px rgb(0, 0, 0);
+
     @include     margin(null, 10px, 100px, null);
     @include     size(500px, 350px);
-    box-shadow : 1px 1px 10px rgb(0, 0, 0);
   }
 }
 
 // / This appears to be the box around item in different sections on the main subpages
 
 .linuxContainer {
-  @include     padding(10px, 10px, 10px, 10px);
-  @include     margin(null, 2px, 20px, 2px);
   border     : 1px solid rgb(0, 0, 0);
   box-shadow : 2px 2px 2px rgb(0, 0, 0);
+
+  @include     padding(10px, 10px, 10px, 10px);
+  @include     margin(null, 2px, 20px, 2px);
 }
 
 #distrowatch {
-  @include      padding(2%, 2%, 1%, 25px);
-  height      : 200px;
+  float       : right;
   overflow    : auto;
-  border      : rgb(0, 0, 0) 2px solid;
-  font-family : $TNR;
 
-  rss-item-full {
-    color : rgb(255, 0, 0);
+  height      : 200px;
+
+  border      : rgb(0, 0, 0) 2px solid;
+
+  /* font-family : $TNR; */
+
+  @include      padding(2%, 2%, 1%, 20px);
+
+  // Header/Links Titles
+  rss-item-full
+  {
+    color : $navy;
   }
 
-  a:link {
-    color            : rgb(255, 0, 0);
+  a:link
+  {
+    color            : $navy;
     background-color : transparent;
   }
 }
@@ -108,6 +123,7 @@ kbd {
 }
 
 .card-img-top {
-  @include     margin(10px, 10px, 10px, 10px);
   box-shadow : 2px 2px 2px #000000;
+
+  @include     margin(10px, 10px, 10px, 10px);
 }

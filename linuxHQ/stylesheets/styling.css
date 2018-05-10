@@ -7,15 +7,12 @@ kbd {
   display: block; }
 
 #distroTables {
-  /* border: $solidBorder; */
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 5px;
-  padding-right: 1%;
-  padding-left: 1%;
   display: inline-block;
+  clear: both;
   width: 97%;
-  clear: both; }
+  /* border: $solidBorder; */
+  margin: 5px 5px;
+  padding: 5px 1% 1%; }
 
 #TIC .TICHomepage,
 #TIC .TICUsage {
@@ -26,19 +23,12 @@ kbd {
     height: 65%; }
 
 #distroList .card-title {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0; }
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
 
 .icons {
-  margin-right: 20px;
-  margin-left: 20px;
-  position: relative; }
+  position: relative;
+  margin: 20px 20px; }
 
 .name {
   text-decoration: underline;
@@ -56,36 +46,28 @@ kbd {
   #screenshots a[href=''] {
     display: none; }
   #screenshots img {
-    margin-right: 10px;
-    margin-bottom: 100px;
+    box-shadow: 1px 1px 10px black;
+    margin: 10px 100px;
     width: 500px;
-    height: 350px;
-    box-shadow: 1px 1px 10px black; }
+    height: 350px; }
 
 .linuxContainer {
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  margin-right: 2px;
-  margin-bottom: 20px;
-  margin-left: 2px;
   border: 1px solid black;
-  box-shadow: 2px 2px 2px black; }
+  box-shadow: 2px 2px 2px black;
+  padding: 10px 10px 10px 10px;
+  margin: 2px 20px 2px; }
 
 #distrowatch {
-  padding-top: 2%;
-  padding-right: 2%;
-  padding-bottom: 1%;
-  padding-left: 25px;
-  height: 200px;
+  float: right;
   overflow: auto;
+  height: 200px;
   border: black 2px solid;
-  font-family: "Times New Roman", Times, serif; }
+  /* font-family : $TNR; */
+  padding: 2% 2% 1% 20px; }
   #distrowatch rss-item-full {
-    color: red; }
+    color: navy; }
   #distrowatch a:link {
-    color: red;
+    color: navy;
     background-color: transparent; }
 
 #usb {
@@ -93,10 +75,7 @@ kbd {
   left: 20px; }
 
 .card-img-top {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  box-shadow: 2px 2px 2px #000000; }
+  box-shadow: 2px 2px 2px #000000;
+  margin: 10px 10px 10px 10px; }
 
 /*# sourceMappingURL=styling.css.map */
