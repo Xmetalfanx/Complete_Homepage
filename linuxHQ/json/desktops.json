@@ -1,0 +1,47 @@
+{
+  "desktops":[
+
+ {
+      "name":"Cinnamon",
+      "framework":"gtk3",
+      "homepage":"https://github.com/linuxmint/cinnamon-desktop",
+      "github":"https://github.com/linuxmint/cinnamon-desktop"
+    },
+    {
+      "name":"Budgie",
+      "framework":"gtk3",
+      "homepage":"https://budgie-desktop.org/home/",
+      "github":"n/a"
+    },
+
+    {
+      "name":"plasma5",
+      "framework":"QT",
+      "homepage":"https://www.kde.org/announcements/plasma5.0/",
+      "github":"n/a"
+    },
+
+    {
+      "name":"XFCE",
+      "framework":"gtk2",
+      "homepage":"",
+      "github":"n/a"
+    },
+
+    {
+      "name":"Mate",
+      "framework":"gtk3",
+      "homepage":"",
+      "github":"n/a"
+    },
+
+    {
+      "name":"LXDE",
+      "framework":"gtk",
+      "homepage":"",
+      "github":"n/a"
+    }
+
+  ]
+
+}
