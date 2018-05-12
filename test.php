@@ -2,9 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="linuxHQ/scripts/desktops.js"> </script>
-
     <title> Testing Json and Ajax </title>
+
+    <!-- inline css -->
+    <style media="screen">
+      #desktopData
+      {
+        background-color: #d2b48c;
+
+
+      }
+    </style>
+
+
+
   </head>
   <body>
   	<div>
@@ -12,6 +23,9 @@
 </div>
 
     <div id="desktopData">
+      <p>Inside desktopData id here</p>
+      <br /><br />
+      <script src="linuxHQ/scripts/desktops.js"> </script>
 
     </div>
   </body>
