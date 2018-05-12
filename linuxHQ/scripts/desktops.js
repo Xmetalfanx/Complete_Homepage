@@ -6,23 +6,13 @@ var desktopData = document.getElementById('desktopData')
 function renderHTML()
 {
   var htmlString = "this is a test";
+  var i;
 
-  // Have no clue if this will help
-  // Later message: Commented out since the tutorial doesn't have this
-  // i=0
-
-  // Commenting out during testing
-
-  /*
-
-  for (i=0; i < data.length; i++)
+  for (i=0; i < deData.length; i++)
   {
-    htmlString += "<div>" + data[0] + "</div>";
+    htmlString += "<div>" + data[] + "</div>";
   }
 
-  */
-
-  desktopData.insertAdjacentHTML('beforeend', htmlString);
 }
 
 /////////////////////////////////////////////////////////////////////
