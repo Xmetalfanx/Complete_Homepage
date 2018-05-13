@@ -1,18 +1,38 @@
 //output:footer.html
 
-footer.row.clearfix
-  .col-lg-6
-    div Validation graphics go here, later
+footer.row
+  .col-lg-4
+    | Site made with:
     
-  .col-lg-6.text-lg-right.text-md-right.text-xl-right
-      span Xmetal/Xmetalfanx 2013-*
-      
-      .footer-social
-        a(href='https://twitter.com/Xmetalfanx', target='_blank')
-          img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png', alt='Twitter')       
+    // HTML 5
+    a(href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank")
+      i.fab.fa-html5.fa-2x
 
-          a(href='#')
-            img(src='https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png', alt='YouTube')
-
-          a(href="https://plus.google.com/+Xmetalfanx2014/about" target="_blank")
-            img(src="http://xmetal.x10.mx/graphics/gplusfooter.png" alt="Google Plus")
+    // CSS 3 
+    a(href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank")    
+      i.fab.fa-css3.fa-2x
+    
+    // Sass/Scss styling 
+    a(href="https://sass-lang.com/" target="_blank")  
+      i.fab.fa-sass.fa-2x
+    
+    // In Linux 
+    i.fab.fa-linux.fa-2x
+  
+  // The second of the two MAIN columns 
+  .col-lg-4.text-md-right.text-lg-right.text-xl-right
+    span Xmetal/Xmetalfanx 2013-*
+        
+  .col-lg-4
+    div(style='color: #ffffff;float: right;')
+      a(href='https://github.com/Xmetalfanx', target='_blank')
+        i.fab.fa-github.fa-2x
+      |       
+      a(href='https://twitter.com/Xmetalfanx', target='_blank')
+        i.fab.fa-twitter.fa-2x
+      |       
+      a(href='https://www.youtube.com/user/Xmetalfanx', target='_blank')
+        i.fab.fa-youtube.fa-2x
+      |       
+      a(href='https://plus.google.com/+Xmetalfanx2014/about', target='_blank')
+        i.fab.fa-google-plus.fa-2x
