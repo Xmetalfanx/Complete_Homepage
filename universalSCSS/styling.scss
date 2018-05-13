@@ -5,27 +5,46 @@ $footerheight: 75px;
 :root {
   overflow-x: hidden;
 }
+
 // Universal site footer
 footer {
-  bottom: 0;
   position: relative;
+  bottom: 0;
+
   color: rgb(255, 255, 255);
   background-color: $headerBGColor;
+
   @include padding(5px, 2%, 1%, 1%);
   @include margin(0, 0, 0, 0);
 
-  .footer-social img {
-    width: 32px;
-    height: 32px;
-  }
 }
 
+// For Font Awesome
+i.fa, i.fab
+{
+  color: $white;
+  background-color: transparent;
+
+  a:link
+  {
+    text-decoration: none;
+
+    color: inherit;
+
+
+  }
+
+}
+
+////////////////////////////////////////////////////////////////////////////
 
 // ... what is this for again?
 .media {
   border: 1px solid $headerBGColor;
+
   @include padding(10px, 10px, 10px, 10px);
   @include margin(5px, null, 5px, null);
+
   // Focussed on Icons ... Don't see there being other graphics in this spot
   img {
     width: 42px;
@@ -39,22 +58,26 @@ footer {
 
 .coverImage {
   display: block;
+
   min-height: 40vh;
+
   background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
   background-position: top;
   background-size: cover;
 }
 // main text div
 #mainText {
-  @include padding(1%, 2%, 0, 2%);
-  background-color: $white;
   text-align: justify;
+
+  background-color: $white;
+
+  @include padding(1%, 2%, 0, 2%);
 
 }
 
 nav.navbar {
-  background-color: $headerBGColor;
   color: $white;
+  background-color: $headerBGColor;
 
   .navbar-brand {
     font-size: 36px;
