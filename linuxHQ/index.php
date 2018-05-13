@@ -8,7 +8,7 @@
 
 <div class="row hidden-xs hidden-sm hidden-md">
   <div class="col-lg-6">
-    <img src="graphics/tux-penguin-clip-art.jpg" width="119" height="117" alt="Tux Peguin Graphic"/>
+    <img src="/linuxHQ//graphics/tux-penguin-clip-art.jpg" width="119" height="117" alt="Tux Peguin Graphic"/>
   </div>
 
 

@@ -1,16 +1,16 @@
 var deRequest = new XMLHttpRequest();
-var desktopData = document.getElementById('desktopData')
+var desktopData = document.getElementById('desktopData').innerHTML = `Hello There `
 
 
 
-function renderHTML()
+function renderHTML(deData)
 {
   var htmlString = "this is a test";
   var i;
 
-  for (i=0; i < deData.length; i++)
+  for (i=0; i < desktopData.length; i++)
   {
-    htmlString += "<div>" + data[] + "</div>";
+    htmlString += "<div>" + data[0] + "</div>";
   }
 
 }
