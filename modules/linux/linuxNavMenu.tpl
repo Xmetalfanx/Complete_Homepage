@@ -1,4 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
+  <!-- For Font Awesome graphic -->
+    <i class="fab fa-linux fa-3x"> </i>
+  <!-- End Code for Font Awesome -->
+
   <a href="/techHQ/index.php" class="navbar-brand">Linux HQ</a>
   <button type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
     <span class="navbar-toggler-icon"></span>

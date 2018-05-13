@@ -8,8 +8,9 @@ $footerheight: 75px;
 
 // Universal site footer
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
+  width: 100%;
 
   color: rgb(255, 255, 255);
   background-color: $headerBGColor;
@@ -19,11 +20,14 @@ footer {
 
 }
 
+// End CSS for Footer
+
 // For Font Awesome
 i.fa, i.fab
 {
   color: $white;
   background-color: transparent;
+  @include padding(0, 0, 0, 10px);
 
   a:link
   {
@@ -82,6 +86,7 @@ nav.navbar {
   .navbar-brand {
     font-size: 36px;
     font-weight: bold;
+    @include padding(0, 0, 0, 10px);
   }
 
   .navbar-nav {

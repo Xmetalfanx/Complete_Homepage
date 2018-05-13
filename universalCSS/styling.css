@@ -305,8 +305,9 @@ template {
   overflow-x: hidden; }
 
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
+  width: 100%;
   color: white;
   background-color: #333333;
   padding: 5px 2% 1% 1%;
@@ -314,7 +315,8 @@ footer {
 
 i.fa, i.fab {
   color: white;
-  background-color: transparent; }
+  background-color: transparent;
+  padding: 0 0 0 10px; }
   i.fa a:link, i.fab a:link {
     text-decoration: none;
     color: inherit; }
@@ -347,7 +349,8 @@ nav.navbar {
   background-color: #333333; }
   nav.navbar .navbar-brand {
     font-size: 36px;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 0 0 0 10px; }
   nav.navbar .navbar-nav {
     font-size: 22px;
     font-weight: bold; }

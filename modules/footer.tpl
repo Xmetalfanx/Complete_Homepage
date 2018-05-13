@@ -4,8 +4,21 @@
 
 <footer class="row">
   <div class="col-lg-6">
-    <div>Validation graphics go here, later</div>
+    Site made with:
+
+    <!-- Icons for HTML5 and CSS 3 -->
+    <i class="fab fa-html5 fa-2x"></i>
+
+    <i class="fab fa-css3 fa-2x"></i>
+
+
   </div>
+
+
+
+
+
+
   <div class="col-lg-6 text-md-right text-lg-right text-xl-right">
     <span>Xmetal/Xmetalfanx 2013-*</span>
     <div style="color: #ffffff">
