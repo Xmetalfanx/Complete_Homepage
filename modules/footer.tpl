@@ -1,9 +1,8 @@
 
       </div> <!-- Ends Second Column opened in template files  -->
 </div> <!-- Ends Row opened in the template file, if i recall -->
-
-<footer class="row">
-  <div class="col-lg-6">Site made with:
+<footer class="row m-0">
+  <div class="col-lg-4">Site made with:
 
     <!-- HTML 5-->
     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
@@ -15,16 +14,20 @@
 
     <!-- Sass/Scss styling -->
     <a href="https://sass-lang.com/" target="_blank">
-      <i class="fab fa-sass fa-2x"></i></a>
+    <i class="fab fa-sass fa-2x"></i></a>
 
     <!-- In Linux -->
     <i class="fab fa-linux fa-2x"></i>
 
   </div>
-  <div class="col-lg-6">
-    <span>Xmetal/Xmetalfanx 2013-*</span>
-    <div style="color: #ffffff;float: right;">
 
+  <!-- The second of the two MAIN columns -->
+  <div class="col-lg-4 text-md-right text-lg-right text-xl-right">
+    <i class="far fa-copyright"></i>
+    <span>Xmetal/Xmetalfanx 2013-*</span>
+  </div>
+  <div class="col-lg-4">
+    <div style="color: #ffffff;float: right;">
       <a href="https://github.com/Xmetalfanx" target="_blank">
         <i class="fab fa-github fa-2x"></i></a>
 

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
   <!-- For Font Awesome graphic -->
-    <i class="fab fa-linux fa-3x"> </i>
+    <i class="fab fa-linux fa-2x"> </i>
   <!-- End Code for Font Awesome -->
 
   <a href="/techHQ/index.php" class="navbar-brand">Linux HQ</a>
