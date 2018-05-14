@@ -28,6 +28,7 @@ kbd {
   }
 }
 
+// Where do I have this
 #distroList {
   .card-title {
     @include   margin(0, 0, 0, 0);
@@ -39,7 +40,6 @@ kbd {
 
 .icons {
   position : relative;
-
   @include   margin(null, 20px, null, 20px);
 }
 
@@ -91,34 +91,24 @@ kbd {
 }
 
 
-#distrowatch
+#linuxRSSFeeds
 {
   float: right;
   overflow: auto;
+
   height: 200px;
   max-height: 200px;
+
   @include margin( 10px, 10px, 10px, 10px);
-  @include padding( 0, 1%, 0, 0);
+  @include padding( 0, 1%, 0, 1%);
 
   table.rssdog
   {
-
     // border      : rgb(0, 0, 0) 2px solid;
-    
   }
-
-
-
-
-
-
 }
 
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////////
 // Make this where its no SO SPECIFIC but can help multple sections
 
 #usb {
