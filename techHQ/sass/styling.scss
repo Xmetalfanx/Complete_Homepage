@@ -12,7 +12,7 @@
 // I already forgot what I thought I needed to do this for ...
 #col1Menus
 {
-  @include padding(0, 1%, 0, 1%);
+  @include padding(0, 1%, 0, 0);
 
   p {
     @include padding(1%, 0, 0, 0);
@@ -26,7 +26,7 @@
     color: $white;
     background-color: $charcoalGrey;
 
-    @include margin(10px, 0, 10px, 5px);
+    @include margin(10px, 0, 10px, 1%);
   }
 
 }

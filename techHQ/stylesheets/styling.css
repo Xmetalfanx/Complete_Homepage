@@ -353,7 +353,7 @@ template {
   flex-direction: row; }
 
 #col1Menus {
-  padding: 0 1% 0 1%; }
+  padding: 0 1% 0 0; }
   #col1Menus p {
     padding: 1% 0 0 0;
     text-align: justify; }
@@ -361,6 +361,6 @@ template {
     display: block;
     color: white;
     background-color: #333333;
-    margin: 10px 0 10px 5px; }
+    margin: 10px 0 10px 1%; }
 
 /*# sourceMappingURL=styling.css.map */
