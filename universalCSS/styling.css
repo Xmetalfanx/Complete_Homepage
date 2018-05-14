@@ -305,15 +305,18 @@ template {
   overflow-x: hidden; }
 
 footer {
-  bottom: 0;
-  position: relative;
   color: white;
   background-color: #333333;
   padding: 5px 2% 1% 1%;
-  margin: 0 0 0 0; }
-  footer .footer-social img {
-    width: 32px;
-    height: 32px; }
+  margin: 3% 0 0 0; }
+
+i.fa, i.fab {
+  color: white;
+  background-color: transparent;
+  padding: 0 0 0 10px; }
+  i.fa a:link, i.fab a:link {
+    text-decoration: none;
+    color: inherit; }
 
 .media {
   border: 1px solid #333333;
@@ -334,16 +337,17 @@ footer {
   background-size: cover; }
 
 #mainText {
-  padding: 1% 2% 0 2%;
+  text-align: justify;
   background-color: white;
-  text-align: justify; }
+  padding: 1% 2% 0 2%; }
 
 nav.navbar {
-  background-color: #333333;
-  color: white; }
+  color: white;
+  background-color: #333333; }
   nav.navbar .navbar-brand {
     font-size: 36px;
-    font-weight: bold; }
+    font-weight: bold;
+    padding: 0 0 0 10px; }
   nav.navbar .navbar-nav {
     font-size: 22px;
     font-weight: bold; }

@@ -43,7 +43,7 @@ kbd {
   @include   margin(null, 20px, null, 20px);
 }
 
-// This is for the Icon and name section of say the Diustro Section
+// This is for the Icon and name section of say the Distro Section
 
 .name {
   // Info is a guess for now
@@ -90,30 +90,34 @@ kbd {
   @include     margin(null, 2px, 20px, 2px);
 }
 
-#distrowatch {
-  float       : right;
-  overflow    : auto;
 
-  height      : 200px;
+#distrowatch
+{
+  float: right;
+  overflow: auto;
+  height: 200px;
+  max-height: 200px;
+  @include margin( 10px, 10px, 10px, 10px);
+  @include padding( 0, 1%, 0, 0);
 
-  border      : rgb(0, 0, 0) 2px solid;
-
-  /* font-family : $TNR; */
-
-  @include      padding(2%, 2%, 1%, 20px);
-
-  // Header/Links Titles
-  rss-item-full
+  table.rssdog
   {
-    color : $navy;
+
+    // border      : rgb(0, 0, 0) 2px solid;
+    
   }
 
-  a:link
-  {
-    color            : $navy;
-    background-color : transparent;
-  }
+
+
+
+
+
 }
+
+
+
+
+
 
 // Make this where its no SO SPECIFIC but can help multple sections
 
