@@ -36,7 +36,8 @@ kbd {
   }
 }
 
-// #####################################################################
+//////////////////////////////////////////////////////////////////////////////
+
 
 .icons {
   position : relative;
@@ -95,9 +96,7 @@ kbd {
 {
   float: right;
   overflow: auto;
-
-  height: 200px;
-  max-height: 200px;
+  width: 40%;
 
   @include margin( 10px, 10px, 10px, 10px);
   @include padding( 0, 1%, 0, 1%);

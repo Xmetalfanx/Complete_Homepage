@@ -11,6 +11,7 @@ footer {
 
   color: $white;
   background-color: $headerBGColor;
+  clear: both;
 
   @include padding(5px, 2%, 1%, 1%);
   @include margin(3%, 0, 0, 0);

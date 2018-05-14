@@ -1,10 +1,8 @@
 //output:index.html
 
 .row.hidden-xs.hidden-sm.col-md-12.col-lg-12.col-xl-12#linuxRSSFeeds
-	.col-lg-6
-		<?php include $sitePath . "/linuxHQ/modules/distrowatch.tpl"; ?>
-	.col-lg-6
-		<?php include $sitePath . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+	<?php include $sitePath . "/linuxHQ/modules/distrowatch.tpl"; ?>
+		
 
 .card
 	.card-block
@@ -16,5 +14,9 @@
 			p Showing  Tutorials, My reviews (as well as others), and sites that have helped me over&#x9;the years, is TRUE goal I have with this section. The Linux related ideas I came up with to add to the main site started to get way out of hand to put in a "small section" so that's when I decided to do the split into TechHQ (former WIndows Section ... and still has some crossplatform stuff) and LinuxHQ.
 
 			a(href='/linuxHQ/info/LinuxAboutMe.php') ( Read More )
+				
+			<?php include $sitePath . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+			br 
+			br 
 
 <?php include $sitePath . '/modules/footer.tpl'; ?>
