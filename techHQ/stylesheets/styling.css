@@ -352,10 +352,15 @@ template {
   display: flex;
   flex-direction: row; }
 
-#col1Menus .btn {
-  display: block;
-  color: white;
-  background-color: #333333;
-  margin: 10px 0 10px 5px; }
+#col1Menus {
+  padding: 0 1% 0 1%; }
+  #col1Menus p {
+    padding: 1% 0 0 0;
+    text-align: justify; }
+  #col1Menus .btn {
+    display: block;
+    color: white;
+    background-color: #333333;
+    margin: 10px 0 10px 5px; }
 
 /*# sourceMappingURL=styling.css.map */
