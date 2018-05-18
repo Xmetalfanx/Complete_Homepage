@@ -15,8 +15,9 @@
   @include padding(0, 1%, 0, 0);
 
   p {
-    @include padding(1%, 0, 0, 0);
     text-align: justify;
+
+    @include padding(1%, 0, 0, 0);
   }
 
   .btn

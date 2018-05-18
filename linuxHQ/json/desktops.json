@@ -1,47 +1,40 @@
 {
-  "desktops":[
-
- {
-      "name":"Cinnamon",
-      "framework":"gtk3",
-      "homepage":"https://github.com/linuxmint/cinnamon-desktop",
-      "github":"https://github.com/linuxmint/cinnamon-desktop"
+  "desktop": [
+    {
+      "framework": "gtk3",
+      "github": "https://github.com/linuxmint/cinnamon-desktop",
+      "homepage": "https://github.com/linuxmint/cinnamon-desktop",
+      "name": "Cinnamon"
     },
     {
-      "name":"Budgie",
-      "framework":"gtk3",
-      "homepage":"https://budgie-desktop.org/home/",
-      "github":"n/a"
+      "framework": "gtk3",
+      "github": "n/a",
+      "homepage": "https://budgie-desktop.org/home/",
+      "name": "Budgie"
     },
-
     {
-      "name":"plasma5",
-      "framework":"QT",
-      "homepage":"https://www.kde.org/announcements/plasma5.0/",
-      "github":"n/a"
+      "framework": "QT",
+      "github": "n/a",
+      "homepage": "https://www.kde.org/announcements/plasma5.0/",
+      "name": "plasma5"
     },
-
     {
-      "name":"XFCE",
-      "framework":"gtk2",
-      "homepage":"",
-      "github":"n/a"
+      "framework": "gtk2",
+      "github": "n/a",
+      "homepage": "",
+      "name": "XFCE"
     },
-
     {
-      "name":"Mate",
-      "framework":"gtk3",
-      "homepage":"",
-      "github":"n/a"
+      "framework": "gtk3",
+      "github": "n/a",
+      "homepage": "",
+      "name": "Mate"
     },
-
     {
-      "name":"LXDE",
-      "framework":"gtk",
-      "homepage":"",
-      "github":"n/a"
+      "framework": "gtk",
+      "github": "n/a",
+      "homepage": "",
+      "name": "LXDE"
     }
-
   ]
-
 }

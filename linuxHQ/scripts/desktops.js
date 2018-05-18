@@ -1,7 +1,7 @@
 var deRequest = new XMLHttpRequest();
 var desktopData = document.getElementById('desktopData').innerHTML = `Hello There `
 
-
+var jsonURL = 'http://xmetal.x10.mx/linuxHQ/json/desktops.json'
 
 function renderHTML(deData)
 {
@@ -18,7 +18,7 @@ function renderHTML(deData)
 /////////////////////////////////////////////////////////////////////
 
 // Get Json Data
-deRequest.open('GET', 'http://xmetal.x10.mx/linuxHQ/json/desktops.json');
+deRequest.open('GET', jsonURL, true);
 
 // Onload
 deRequest.onload = function() {
