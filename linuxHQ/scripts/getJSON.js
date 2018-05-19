@@ -5,6 +5,6 @@ $(document).ready(function(){
 
   desktopData.load(jsonURL){
     console.log(jsonURL);
-  }
+  };
 
 });

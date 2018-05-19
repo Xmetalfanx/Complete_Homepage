@@ -38,9 +38,9 @@ kbd {
 
 //////////////////////////////////////////////////////////////////////////////
 
-
 .icons {
   position : relative;
+
   @include   margin(null, 20px, null, 20px);
 }
 
@@ -91,21 +91,27 @@ kbd {
   @include     margin(null, 2px, 20px, 2px);
 }
 
-
-#linuxRSSFeeds
+// For the RSS code ... this should customize thing a little better 
+table.rssdog
 {
-  float: right;
-  overflow: auto;
-  width: 40%;
-
   @include margin( 10px, 10px, 10px, 10px);
-  @include padding( 0, 1%, 0, 1%);
 
-  table.rssdog
+  // I do not like having to put !important in the code bujt i will for now since it's not over-riding the rssdog css without it
+  width: auto !important;
+
+  th.rssdog
   {
-    // border      : rgb(0, 0, 0) 2px solid;
+    @include padding(5px, 5px, 5px, 5px);
   }
+
+  td.rssdog
+  {
+    @include padding(1%, 1%, 1%, 1%);
+
+  }
+
 }
+
 
 ////////////////////////////////////////////////////////////////////////////
 // Make this where its no SO SPECIFIC but can help multple sections

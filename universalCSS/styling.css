@@ -353,7 +353,8 @@ nav.navbar {
     font-size: 22px;
     font-weight: bold; }
 
-#mainContainer {
-  display: flex; }
+#mainContainer, #mainBody {
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=styling.css.map */

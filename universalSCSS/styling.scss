@@ -93,9 +93,9 @@ nav.navbar {
   }
 }
 
-#mainContainer
+// I probably do not need this and "mainBody" but leave this here for now
+#mainContainer, #mainBody
 {
   display:  flex;
-
-
+  flex-direction: column;
 }
