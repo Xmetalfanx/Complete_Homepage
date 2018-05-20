@@ -1,7 +1,7 @@
 var deRequest = new XMLHttpRequest();
-var desktopData = document.getElementById('desktopData').innerHTML = `Hello There `
+var desktopData = document.getElementById('desktopData').innerHTML = "Hello There ";
 
-var jsonURL = 'http://xmetal.x10.mx/linuxHQ/json/desktops.json'
+var jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
 function renderHTML(deData)
 {
@@ -10,7 +10,7 @@ function renderHTML(deData)
 
   for (i=0; i < desktopData.length; i++)
   {
-    htmlString += "<div>" + data[0] + "</div>";
+    htmlString += "<div>" + desktopData[0] + "</div>";
   }
 
 }
