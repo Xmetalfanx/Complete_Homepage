@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <title> Testing Json and Ajax </title>
 
+    <!--Include Jquery -->
     <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous">
 
     </script>
+
+
 
     <!-- inline css -->
     <style media="screen">
@@ -22,9 +25,26 @@
   <body>
 <br />
     <div id="desktopData">
-       <script src="linuxHQ/scripts/getJSON.js"> </script>
-      <!-- <script src="linuxHQ/scripts/desktops.js"> </script> -->
+      
+      <!--<script src="linuxHQ/scripts/getJSON.js"> </script>
+       <script src="linuxHQ/scripts/desktops.js"> </script> -->
 
     </div>
+    <script>
+      var xmetalContent = {
+          "distroName": "Ubuntu",
+          "distroComp": "Cononical",
+          "distroDE": "Gnome Shell"
+      }
+
+
+      var output = document.getElementById('desktopData');
+
+      // output.innerHTML = "hello there .. "; 
+      output.innerHTML = xmetalContent.distroName + '<br /><br />' + xmetalContent.distroComp + '<br /><br />' + xmetalContent.distroDE;
+
+    </script>
+
+
   </body>
 </html>
