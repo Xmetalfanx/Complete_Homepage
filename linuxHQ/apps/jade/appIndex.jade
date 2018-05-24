@@ -1,108 +1,112 @@
-//output:appindex.html
+//output:appIndex.html
 
-.panel.panel-default
-  .panel-heading
-    h3.panel-title Introduction
-  |   
-  .panel-body
-    p
-      | This section will contain PPA information and other linux program information not suitable for the
-      | TechHQ Software section which contains main cross platform
+h3.panel-title Introduction
 
-
-
-      ul.accordion-tabs-minimal
-        li.tab-header-and-content
-          a.tab-link.is-active(href='#') Graphics Programs
-          |     
-          .tab-content
+p
+  | This section will contain PPA information and other linux program information not suitable for the
+  | TechHQ Software section which contains main cross platform
+  
+  ul.accordion-tabs-minimal
+    
+    li.tab-header-and-content
+      a.tab-link.is-active(href='#') Graphics Programs
+      |           
+      .tab-content
+    |        
+    
+    li.tab-header-and-content
+      a.tab-link(href='#') Internet Programs
+      |           
+      .tab-content
+    | 
             
-
-        |   
-        li.tab-header-and-content
-          a.tab-link(href='#') Internet Programs
-          |     
-          .tab-content
+    li.tab-header-and-content
+      a.tab-link(href='#') Multimedia Programs
+      |           
+      .tab-content
+        h3 Audio Programs
+        |             
+        ul
+          li
+            a(href='http://audacious-media-player.org/') Audacious
+            |  - Audio Media Player
+          |               
+          li
+            a(href='https://www.clementine-player.org/') Clementine
+            | - Audio Media Player and Organizer
+        |             
+        h3 ID3 Tag Editor
+        |             
+        ul
+          li
+            a(href='https://wiki.gnome.org/Apps/EasyTAG') EasyTag
+        |             
+        h3 Video Programs
+        |             
+        ul
+          li
+            a(href='https://mpv.io/') MPV
+            |  - Video Player that is cross platform and Open Source
+          |               
+          li
+            a(href='http://smplayer.sourceforge.net/') SMPlayer
+          |               
+          li VLC
+    | 
             
-        |   
-        li.tab-header-and-content
-          a.tab-link(href='#') Multimedia Programs
-          |     
-          .tab-content
-            h3 Audio Programs
-            | 
-            ul
-              li
-                a(href='http://audacious-media-player.org/') Audacious
-                |  - Audio Media Player
-              li
-                a(href='https://www.clementine-player.org/') Clementine
-                | - Audio Media Player and Organizer
-            | 
-            h3 ID3 Tag Editor
-            | 
-            ul
-              li
-                a(href='https://wiki.gnome.org/Apps/EasyTAG') EasyTag
-            h3 Video Programs
-            ul
-              li
-                a(href='https://mpv.io/') MPV
-                |  - Video Player that is cross platform and Open Source
-              li 
-                a(href='http://smplayer.sourceforge.net/') SMPlayer
-              li VLC
-            
-        |   
-        li.tab-header-and-content
-          a.tab-link(href='#') Productivity Programs
-          |     
-          .tab-content
-            ul
-              li
-                a(href='https://atom.io/') Atom
-                |  - A Haxable Text Editor
-              | &#x9;&#x9;&#x9;
-              li
-                a(href='https://www.geany.org/') Geany
-            | &#x9;
-            h3 Office Suites
-            | &#x9;&#x9;
-            ul
-              li
-                a(href='https://www.libreoffice.org/') Libre Office
-              | &#x9;&#x9;&#x9;
-              li
-                a(href='http://wps.com/') WPS Office
-            
-        li.tab-header-and-content
-          a.tab-link(href='#') System Tools
-          |     
-          .tab-content
-            ul
-              li
-                a(href='http://www.teejeetech.in/') Aptik
-                |  - Backup and Restorer Program for Ubuntu-based distros
-              | &#x9;&#x9;&#x9;
-              li
-                a(href='https://www.bleachbit.org/') Bleachbit
-                |  -  Cache, and Temp file Cleaner
-              | 
-              li Synapse -  Keyboard App Launcher
-              | &#x9;&#x9;&#x9;
-              li
-                a(href='http://peterlevi.com/variety/how-to-install/') Variety
-              | &#x9;&#x9;&#x9;
-              li
-                a(href='https://veracrypt.codeplex.com/') Veracrypt
-            | &#x9;
-            h3 Docks
-            | &#x9;
-            ul
-              li
-                a(href='http://wiki.go-docky.com/index.php?title=Welcome_to_the_Docky_wiki') Docky
-              | &#x9;
-              li Plank
-            
-
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+    li.tab-header-and-content
+      a.tab-link(href='#') Productivity Programs
+      |           
+      .tab-content
+        ul
+          li
+            a(href='https://atom.io/') Atom
+            |  - A Haxable Text Editor
+          | &#x9;&#x9;&#x9;
+          |               
+          li
+            a(href='https://www.geany.org/') Geany
+        | &#x9;
+        |             
+        h3 Office Suites
+        | &#x9;&#x9;
+        |             
+        ul
+          li
+            a(href='https://www.libreoffice.org/') Libre Office
+          | &#x9;&#x9;&#x9;
+          |               
+          li
+            a(href='http://wps.com/') WPS Office
+    |         
+    li.tab-header-and-content
+      a.tab-link(href='#') System Tools
+      |           
+      .tab-content
+        ul
+          li
+            a(href='http://www.teejeetech.in/') Aptik
+            |  - Backup and Restorer Program for Ubuntu-based distros
+          | &#x9;&#x9;&#x9;
+          |               
+          li
+            a(href='https://www.bleachbit.org/') Bleachbit
+            |  -  Cache, and Temp file Cleaner
+          |               
+          li Synapse -  Keyboard App Launcher
+          |               
+          li
+            a(href='http://peterlevi.com/variety/how-to-install/') Variety
+          |               
+          li
+            a(href='https://veracrypt.codeplex.com/') Veracrypt
+        | &#x9;
+        |             
+        h3 Docks
+        | &#x9;
+        |             
+        ul
+          li
+            a(href='http://wiki.go-docky.com/index.php?title=Welcome_to_the_Docky_wiki') Docky
+          |               
+          li Plank

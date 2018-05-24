@@ -1,3 +1,5 @@
-<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
 
-<!-- At THIS point the mainBody <DIV> should be open -->
+<!-- Include header file which includes the head tag and the LinuxHQ top menu -->
+
+
+<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>

@@ -9,7 +9,6 @@
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous">
-
     </script>
 
 
@@ -21,30 +20,12 @@
         background-color: rgb(210, 180, 140);
       }
     </style>
-  </head>
-  <body>
-<br />
+</head>
+<body>
+
     <div id="desktopData">
-      
-      <!--<script src="linuxHQ/scripts/getJSON.js"> </script>
-       <script src="linuxHQ/scripts/desktops.js"> </script> -->
-
+      <script src="linuxHQ/scripts/getJSON3.js"> </script>
     </div>
-    <script>
-      var xmetalContent = {
-          "distroName": "Ubuntu",
-          "distroComp": "Cononical",
-          "distroDE": "Gnome Shell"
-      }
-
-
-      var output = document.getElementById('desktopData');
-
-      // output.innerHTML = "hello there .. "; 
-      output.innerHTML = xmetalContent.distroName + '<br /><br />' + xmetalContent.distroComp + '<br /><br />' + xmetalContent.distroDE;
-
-    </script>
-
 
   </body>
 </html>

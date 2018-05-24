@@ -8,13 +8,12 @@ $footerheight: 75px;
 
 // Universal site footer
 footer {
+  clear: both;
 
   color: $white;
   background-color: $headerBGColor;
-  clear: both;
 
   @include padding(5px, 2%, 1%, 1%);
-  @include margin(3%, 0, 0, 0);
 
 }
 
@@ -25,6 +24,7 @@ i.fa, i.fab
 {
   color: $white;
   background-color: transparent;
+
   @include padding(0, 0, 0, 10px);
 
   a:link
@@ -84,6 +84,7 @@ nav.navbar {
   .navbar-brand {
     font-size: 36px;
     font-weight: bold;
+
     @include padding(0, 0, 0, 10px);
   }
 
@@ -94,8 +95,9 @@ nav.navbar {
 }
 
 // I probably do not need this and "mainBody" but leave this here for now
-#mainContainer, #mainBody
+#mainBody
 {
-  display:  flex;
-  flex-direction: column;
+  height: 80vh;
+
+  @include padding(1%, 1%, 1%, 1%);
 }

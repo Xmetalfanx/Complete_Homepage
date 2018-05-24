@@ -26,11 +26,12 @@
 
     </div>
 
-  </div>
+  </div> <!--- Ends Row -->
 
   <!-- OMGUbuntu RSS feed/news -->
   <!-- should be OUTSIDE of the row above BUT INSIDE #mainBody -->
   <?php include $sitePath . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+  
 </div>
 
 <!-- Site Footer -->

@@ -305,11 +305,10 @@ template {
   overflow-x: hidden; }
 
 footer {
+  clear: both;
   color: white;
   background-color: #333333;
-  clear: both;
-  padding: 5px 2% 1% 1%;
-  margin: 3% 0 0 0; }
+  padding: 5px 2% 1% 1%; }
 
 i.fa, i.fab {
   color: white;
@@ -353,8 +352,8 @@ nav.navbar {
     font-size: 22px;
     font-weight: bold; }
 
-#mainContainer, #mainBody {
-  display: flex;
-  flex-direction: column; }
+#mainBody {
+  height: 80vh;
+  padding: 1% 1% 1% 1%; }
 
 /*# sourceMappingURL=styling.css.map */
