@@ -14,7 +14,7 @@
   <?php include 'modules/frontnav.tpl'; ?>
   <!-- Conainter for both sections, below-->
   <!-- This should be a column -->
-  <div class="mainContainer">
+  <div id="mainBody" class="m-0">
     <div class="coverImage hidden-md-down">
 
     </div>

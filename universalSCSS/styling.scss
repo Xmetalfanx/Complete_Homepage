@@ -6,16 +6,18 @@ $footerheight: 75px;
   overflow-x: hidden;
 }
 
-// Universal site footer
-footer {
-  clear: both;
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 
-  color: $white;
-  background-color: $headerBGColor;
-
-  @include padding(5px, 2%, 1%, 1%);
+  // Guess for top Header and Bottom Footer
+  // This allows me to flex-grow the center content #mainBody
+  flex-basis: 65px;
 
 }
+
+
 
 // End CSS for Footer
 
@@ -30,9 +32,7 @@ i.fa, i.fab
   a:link
   {
     text-decoration: none;
-
     color: inherit;
-
 
   }
 
@@ -67,6 +67,9 @@ i.fa, i.fab
   background-position: top;
   background-size: cover;
 }
+
+
+
 // main text div
 #mainText {
   text-align: justify;
@@ -77,7 +80,9 @@ i.fa, i.fab
 
 }
 
-nav.navbar {
+// IF something looks off, I combined the footer and header CSS
+// the issue would be with the footer looking off
+footer, nav.navbar {
   color: $white;
   background-color: $headerBGColor;
 
@@ -94,10 +99,15 @@ nav.navbar {
   }
 }
 
-// I probably do not need this and "mainBody" but leave this here for now
 #mainBody
 {
-  height: 80vh;
+  flex-grow: 1;
 
-  @include padding(1%, 1%, 1%, 1%);
+}
+
+#StartPageStyle
+{
+  display: flex;
+  justify-content: center;
+
 }

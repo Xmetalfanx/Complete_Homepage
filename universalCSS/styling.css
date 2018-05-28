@@ -304,11 +304,11 @@ template {
 :root {
   overflow-x: hidden; }
 
-footer {
-  clear: both;
-  color: white;
-  background-color: #333333;
-  padding: 5px 2% 1% 1%; }
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex-basis: 65px; }
 
 i.fa, i.fab {
   color: white;
@@ -341,19 +341,22 @@ i.fa, i.fab {
   background-color: white;
   padding: 1% 2% 0 2%; }
 
-nav.navbar {
+footer, nav.navbar {
   color: white;
   background-color: #333333; }
-  nav.navbar .navbar-brand {
+  footer .navbar-brand, nav.navbar .navbar-brand {
     font-size: 36px;
     font-weight: bold;
     padding: 0 0 0 10px; }
-  nav.navbar .navbar-nav {
+  footer .navbar-nav, nav.navbar .navbar-nav {
     font-size: 22px;
     font-weight: bold; }
 
 #mainBody {
-  height: 80vh;
-  padding: 1% 1% 1% 1%; }
+  flex-grow: 1; }
+
+#StartPageStyle {
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=styling.css.map */
