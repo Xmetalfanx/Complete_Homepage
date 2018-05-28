@@ -8,7 +8,7 @@
 ## Look over this to slim it down
 
 <?php include $sitePath . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
-  <div id="col2">
+
 			<?php
 
 			   include $sitePath . ('/linuxHQ/database/dbconnect.php');
@@ -110,5 +110,5 @@
 			   };
 
 			 ?>
-		</div>
+	
 	</div>
