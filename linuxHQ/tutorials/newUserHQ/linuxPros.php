@@ -1,7 +1,7 @@
 <?php
 
 	$title = 'New User Section - Linux Pros/Positives things about Linux';
-	
+
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
@@ -69,4 +69,4 @@
 
 </div>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

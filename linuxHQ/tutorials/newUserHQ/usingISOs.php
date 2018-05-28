@@ -49,7 +49,6 @@
   <li>Multisystem <a href="http://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/" target="_blank">
   http://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/</a></li>
 </ul>
-<p>&nbsp;</p>
 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -23,5 +23,4 @@
   <p>IF YOU WANT to install the distribution  at that point, there is usually a &quot;Install &lt;distribution name here&gt;&quot;
    icon right on the desktop to get the install started.</p>
 
-
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

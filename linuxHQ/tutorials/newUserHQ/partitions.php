@@ -1,7 +1,6 @@
 <?php
 
-	  $title = 'New User Section - Partitions... What are they?';
-
+	 $title = 'New User Section - Partitions... What are they?';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
@@ -21,8 +20,9 @@
 	<p>I am not saying "Be WORRIED"... just "Pay attention".   It is better to stop what your doing and double check if you're not sure.  Just take your time (remember &ldquo;everyone was new to Linux&rdquo; at some point) and read the instructions on what your doing.  If you follow this advice, you have nothing to worry about at all.</p>
 	<p>Accidentally removing Windows is a common mistake (when there is one), that I personally see new users make during the partitioning step &hellip; ... mainly just because they did not simply pay attention to what was going on and read what the installer was telling them </p>
 
-	
-	<p class="font-weight-bold">*** THE POINT I WANT TO MAKE IS AS LONG AS YOU DO YOUR RESEARCH, AND DO NOT JUST &quot;BLINDLY CLICK&quot; THINGS WITHOUT READING WHAT YOU'RE DOING ... YOU WILL NOT HAVE ISSUES ... IT'S (IN MY OPINION) THE PEOPLE WHO DO NOT PAY ATTENTION AND JUST BLINDLY CLICK "NEXT" ALL THE TIME WHO RUN INTO PROBLEMS/HEADACHES</p>
+
+	<p class="font-weight-bold">
+		*** THE POINT I WANT TO MAKE IS AS LONG AS YOU DO YOUR RESEARCH, AND DO NOT JUST &quot;BLINDLY CLICK&quot; THINGS WITHOUT READING WHAT YOU'RE DOING ... YOU WILL NOT HAVE ISSUES ... IT'S (IN MY OPINION) THE PEOPLE WHO DO NOT PAY ATTENTION AND JUST BLINDLY CLICK "NEXT" ALL THE TIME WHO RUN INTO PROBLEMS/HEADACHES</p>
 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

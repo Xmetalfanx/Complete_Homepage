@@ -1,7 +1,7 @@
 <?php
 
 	$title = 'Tutorial Section - Upgrading Debian Branches';
-	
+
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
@@ -61,4 +61,4 @@
   <p>&quot;  What should I do?&quot;... HONESTLY it doesn't matter either way ... its a piece of cake to change, as you will find out further in this section</p>
 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+	<?php include $sitePath . "/modules/footer.tpl"; ?>

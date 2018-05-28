@@ -37,4 +37,4 @@
   for all Linux distributions </p>
 </div>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

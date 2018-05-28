@@ -38,5 +38,5 @@
 	    </div>
 	  </div>
 	</div>
-	
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

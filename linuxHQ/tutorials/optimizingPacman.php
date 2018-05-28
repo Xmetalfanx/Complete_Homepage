@@ -53,23 +53,26 @@
 		<hr>
 
 
-
 <h3>Manjaro</h3>
-		<ul>
+	<ul>
 		<li>
-		<p>Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist</p>
-		<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>$&nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g</span></span></span></div></pre>
+			<p>Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist</p>
+			<pre class="editor-colors lang-text">
+				<div class="line">
+					<span class="text plain">
+						<span class="meta paragraph text">
+						<span>$&nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g</span></span></span></div></pre>
 		</li>
-		</ul>
-		<h3>Syncing your Pacman Database</h3>
-		<ul>
-		<li>
-		<p>The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD</p>
-		<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;pacman&nbsp;-Syy</span></span></span></div></pre>
-		</li>
-		</ul>
+	</ul>
+	<h3>Syncing your Pacman Database</h3>
+	<ul>
+	<li>
+	<p>The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD</p>
+	<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>sudo&nbsp;pacman&nbsp;-Syy</span></span></span></div></pre>
+	</li>
+	</ul>
 
 
 <p><em>Updating via pacman is planned for an entirely other section, by the way</em></p>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

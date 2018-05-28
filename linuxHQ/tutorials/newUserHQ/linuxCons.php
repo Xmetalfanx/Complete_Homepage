@@ -1,13 +1,13 @@
 <?php
 
 	$title = 'New User Section - Linux Cons/Negitive Things about Linux';
-	
+
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
 ?>
-  
+
   <p>
     <a href="linuxPros.php">Linux Pros </a>
   </p>
@@ -57,10 +57,6 @@
     </ul>
     </li>
   </ul>
-  <p>&nbsp;
-  </p>
+  
 
-EOD;
-?>
-
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -18,6 +18,6 @@
   partition/how to partition" type tutorials ... at least that is my plan at the moment</p>
 
 </div> <!-- Closes second column -->
-</div> <!-- Closes the row ... what use to be mainBody in my CSS--> 
+</div> <!-- Closes the row ... what use to be mainBody in my CSS-->
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

@@ -7,7 +7,7 @@
 
 
   ?>
-  
+
   <p><span class="boldUnderline">&quot;Versions,  Distributions, Code-names, ' oh my' &quot; </span></p>
   <UL>
     <LI>* I have decided to leave  		&ldquo;Desktop environments until later... I don't want to overload people and confuse them  		here... just so you know, I will cover this later... I am trying to  		do these guides as simple as possible, WHILE trying to have as much  		information as I can in them)
@@ -42,8 +42,4 @@
 
 </div>
 
-EOD;
-?>
-
-
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

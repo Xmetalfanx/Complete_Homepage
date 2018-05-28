@@ -41,7 +41,5 @@
     </UL>
   <p>&nbsp;</p>
 
-EOD;
-?>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

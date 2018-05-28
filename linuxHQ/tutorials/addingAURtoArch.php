@@ -6,21 +6,21 @@
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
-  ?>
-		<h2>How To Add the AUR to Arch</h2>
+?>
+<h2>How To Add the AUR to Arch</h2>
 
-		Information gathered from the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository">Arch Wiki page</a>   AS
-		well as <a href="https://drive.google.com/file/d/0B3DsklBZ0EX0a19QdnI3SmNIXzA/view">Matthew Moore’s “Arch install Guide”</a>
+Information gathered from the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository">Arch Wiki page</a>   AS
+well as <a href="https://drive.google.com/file/d/0B3DsklBZ0EX0a19QdnI3SmNIXzA/view">Matthew Moore’s “Arch install Guide”</a>
 
-		<h3>Install Yaourt from source ( recommended method)</h3>
-		<ul>
+<h3>Install Yaourt from source ( recommended method)</h3>
+	<ul>
 		<li>
-		<p>Replace <strong>user</strong> with your user name in the commands below</p>
+			<p>Replace <strong>user</strong> with your user name in the commands below</p>
 		</li>
 		<li>
-		<p>Do each “line” one at a time</p>
+			<p>Do each “line” one at a time</p>
 		</li>
-		</ul>
+	</ul>
 
 <div class="code">
 
@@ -59,4 +59,4 @@
 
 </div>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

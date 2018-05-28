@@ -1,25 +1,25 @@
 //output:startpageBox.html
 
 // Start of SearchBox DIV
-#row
+#row.p-3
 	#StartPageStyle
 		// Search Bar
 		form.SPForm(action='http://startpage.com/do/search', method='post', name='metasearch', target='_blank', onsubmit='javascript:document.metasearch.query.value=document.metasearch.keyword.value;', accept-charset='UTF-8')
       img.SPSearchButton(src='/techHQ/graphics/search/startpage_small_logo.jpg', alt='Start Page Icon')
-			|       
+			|
 			input(value='searchbox', name='from', type='hidden')
-			|       
+			|
 			input(value='english', name='language', type='hidden')
-			|       
+			|
 			input(value='web', name='cat', type='hidden')
-			|       
+			|
 			input(name='query', value=' ', type='hidden')
-			|       
+			|
 			input#querysearchbox4.SPSearchBoxWIDE(name='keyword', value='', type='text')
-			|       
+			|
 			i.fas.fa-search
 			// input#submit.SPSubmitButton(src='/techHQ/graphics/search/stp_search_small.gif', alt='Search Button', type='image')
-			|       
+			|
 			input(value='process_search', name='cmd', type='hidden')
-			|       
+			|
 			input(value='sb', name='frm', type='hidden')
