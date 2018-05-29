@@ -305,10 +305,8 @@ template {
   overflow-x: hidden; }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  flex-basis: 65px; }
+  flex-basis: 65px;
+  height: 100vh; }
 
 i.fa, i.fab {
   color: white;
@@ -341,16 +339,26 @@ i.fa, i.fab {
   background-color: white;
   padding: 1% 2% 0 2%; }
 
-footer, nav.navbar {
+nav.navbar {
   color: white;
-  background-color: #333333; }
-  footer .navbar-brand, nav.navbar .navbar-brand {
+  background-color: #333333;
+  width: 100%; }
+  nav.navbar .navbar-brand {
     font-size: 36px;
     font-weight: bold;
     padding: 0 0 0 10px; }
-  footer .navbar-nav, nav.navbar .navbar-nav {
+  nav.navbar .navbar-nav {
     font-size: 22px;
     font-weight: bold; }
+
+footer {
+  width: 100%;
+  color: white;
+  background-color: #333333;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row; }
 
 #mainBody {
   flex-grow: 1; }

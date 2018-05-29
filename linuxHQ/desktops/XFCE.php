@@ -11,3 +11,4 @@
     include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

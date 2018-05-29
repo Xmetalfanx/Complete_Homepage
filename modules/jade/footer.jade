@@ -1,12 +1,13 @@
 //output:footer.html
 
-
+// WHY HAVE this here? ... this is just going to muttle things up where i am closing <div> tags in different locations 
+// Troubleshooting will be a pain, in my opinion 
 </div> 
 
 
 // ? Shouldn't the closing of "col2" be before this?
-footer.row.m-0.p-3
-  .col-lg-6
+footer.m-0.p-3
+  .col-lg-4
     | Site made with:
     
     // HTML 5
@@ -25,23 +26,19 @@ footer.row.m-0.p-3
     i.fab.fa-linux.fa-2x
   
   // The second of the two MAIN columns 
-  .col-lg-6.text-md-right.text-lg-right.text-xl-right
-    // Maybe un-needed but this is my test-fix for the copyright text and right side icons not aligning 
-    .row 
-      .col-lg-8
-        i.far.fa-copyright
-          span Xmetal/Xmetalfanx 2013-*
-        
-      .col-lg-4
-        div(style='color: #ffffff;float: right;')
-          a(href='https://github.com/Xmetalfanx', target='_blank')
-            i.fab.fa-github.fa-2x
-          |       
-          a(href='https://twitter.com/Xmetalfanx', target='_blank')
-            i.fab.fa-twitter.fa-2x
-          |       
-          a(href='https://www.youtube.com/user/Xmetalfanx', target='_blank')
-            i.fab.fa-youtube.fa-2x
-          |       
-          a(href='https://plus.google.com/+Xmetalfanx2014/about', target='_blank')
-            i.fab.fa-google-plus.fa-2x
+
+  .col-lg-8(style="float:right;text-align: right;")
+    i.far.fa-copyright.mr-3
+      span Xmetal/Xmetalfanx 2013-*
+  
+      a(href='https://github.com/Xmetalfanx', target='_blank')
+        i.fab.fa-github.fa-2x
+      |       
+      a(href='https://twitter.com/Xmetalfanx', target='_blank')
+        i.fab.fa-twitter.fa-2x
+      |       
+      a(href='https://www.youtube.com/user/Xmetalfanx', target='_blank')
+        i.fab.fa-youtube.fa-2x
+      |       
+      a(href='https://plus.google.com/+Xmetalfanx2014/about', target='_blank')
+        i.fab.fa-google-plus.fa-2x

@@ -6,7 +6,5 @@
 
 	include $sitePath . "/linuxHQ/modules/variables/varIncludes.php";
 	include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
-	
-?>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+?>

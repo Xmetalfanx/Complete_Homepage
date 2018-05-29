@@ -5,7 +5,7 @@
 ?>
 
 
-<div class="row">
+<div id="mainBody" class="row">
   <div class="hidden-sm-down col-md-3 col-lg-3 col-xl-3">
     <?php include $sitePath . '/techHQ/modules/techSecurityCol1.tpl'; ?>
 

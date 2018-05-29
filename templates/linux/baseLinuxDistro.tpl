@@ -1,4 +1,3 @@
-
 <?php
 
   $sectionTitle='Distrobution Section - ';
@@ -25,6 +24,10 @@
     ?>
   </div> <!-- Ends main content on the right, column -->
 </div> <!-- Ends Row Class -->
+
+
+<!-- Site Footer -->
+<?php include $sitePath . '/modules/footer.tpl'; ?>
 
 </body>
 </html>

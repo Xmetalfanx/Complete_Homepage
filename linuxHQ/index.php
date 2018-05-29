@@ -5,7 +5,6 @@
     include $sitePath . "/templates/linux/baseLinuxTemplate.tpl";
 ?>
 
-<div id="mainBody">
   <div class="row">
 
     <div class="col-lg-6">
@@ -31,8 +30,7 @@
   <!-- OMGUbuntu RSS feed/news -->
   <!-- should be OUTSIDE of the row above BUT INSIDE #mainBody -->
   <?php include $sitePath . "/linuxHQ/modules/omgubuntu.tpl"; ?>
-  
-</div>
 
-<!-- Site Footer -->
-<?php include $sitePath . '/modules/footer.tpl'; ?>
+
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

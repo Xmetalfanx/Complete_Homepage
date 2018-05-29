@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="row">
+<div id="mainBody" class="row">
   <div class="hidden-sm-down col-md-12 col-md-3 col-lg-2 col-xl-2">
     <?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
   </div>

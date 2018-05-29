@@ -5,7 +5,7 @@
 
 ?>
 
-<div class="row float-left">
+<div id="mainBody" class="row">
   <div class="col-lg-2 col-xl-2 hidden-md-down">
 		<?php include $sitePath . '/techHQ/modules/techMainCol1.tpl'; ?>
 	</div>

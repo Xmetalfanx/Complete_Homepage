@@ -1,8 +1,7 @@
 <?php
 
-    $localdename = 'Cinnamon';
-    $sectionVar = "DE";
-
+  $localdename = 'Cinnamon';
+  $sectionVar = "DE";
 
 	$pageTitle = 'Cinnamon ';
 
@@ -10,3 +9,5 @@
 	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

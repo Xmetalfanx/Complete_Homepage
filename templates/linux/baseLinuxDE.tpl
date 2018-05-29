@@ -11,7 +11,6 @@
     require $sitePath . '/linuxHQ/modules/database_requests/derequests.php';
 
 
-
     // DO NOT PUT THE SCREENSHOT FILE HERE AS THAT WILL PUT THE CONTENT ABOVE AND OUTSIDE THE BODY TAG
 
     // Linux Section Header

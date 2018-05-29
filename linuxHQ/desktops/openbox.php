@@ -1,16 +1,15 @@
 <?php
 
-$localdename = 'openbox';
+  $localdename = 'openbox';
+  $sectionVar = "DE";
 
-    $sectionVar = "DE";
+  $deFeatured = 'Archbang, Crunchbang';
+	$deClass = 'Lightweight';
 
-
-    $deFeatured = 'Archbang, Crunchbang';
-	 $deClass = 'Lightweight';
-
-    $title = 'DE/WM Section - Openbox ';
+  $title = 'DE/WM Section - Openbox ';
 
 	$sitePath = "/home/xmetalx1/public_html";
-  	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+  include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

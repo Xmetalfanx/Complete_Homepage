@@ -5,9 +5,13 @@
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
+  // needs two </div> before the footer
+
 ?>
+
 <div id="supportedSites">
   <div class="hidden-sm-down">
+
     <h3>Educational Sites  </h3>
     <br />
       <div class="row">
@@ -26,7 +30,7 @@
             <img src="/techHQ/graphics/digital-ocean.png" alt="Digital Ocean Graphic" class="float-right"/>
           </a>
         </div>
-      </div>
+      </div> <!-- Ends Row -->
 
       <br/><br/>
 
@@ -38,28 +42,23 @@
 
           <a href="https://www.youtube.com/channel/UCUDlvPp1MlnegYXOXzj7DEQ">(or Her Channel on Youtube)</a>
         </div>
-      </div>
+      </div> <!-- Ends K. King div tag -->
 
-  </div>
-</div>
-
-  <div class="hidden-sm-up">
-    <p>Content not intended to be seen on a screen this small</p>
-  </div>
+  </div> <!-- </div> for hidden-sm-down -->
+</div> <!-- Ends Support Site DIV -->
 
 
-<div class="container">
-  <?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
-</div>
+<?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
 
 
+</div>        <!-- ends second column from the template  -->
 
-</div>        <!-- closes card-text opened in template  -->
-</div>        <!-- Closes card-block from templete -->
-</div>        <!-- Closes card -->
-</div>        <!-- ends Row -->
 
 <?php include $sitePath . "/modules/tech/startpage.tpl"; ?>
+
+
+</div>        <!-- Closes mainBody container  -->
+
 
 
 <?php  include $sitePath . "/modules/footer.tpl"; ?>

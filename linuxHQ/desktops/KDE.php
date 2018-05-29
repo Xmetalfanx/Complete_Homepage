@@ -5,7 +5,7 @@
     $sectionVar = "DE";
 
     // Old Info
-  
+
     $deFeatured =  '<ul>
 											<li>' . $mintHP  . '</li>
 											<li> '. $fedoraHP . '</li>
@@ -25,3 +25,5 @@
   include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>
