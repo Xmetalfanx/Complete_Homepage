@@ -5,9 +5,9 @@
 
 ?>
 
-<div id="mainBody" class="row">
-  <div class="col-lg-2 col-xl-2 hidden-md-down">
+<div id="mainBody" class="row col-12">
+  <div class="col-xs-12 col-md-2">
 		<?php include $sitePath . '/techHQ/modules/techMainCol1.tpl'; ?>
 	</div>
 
-  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+  <div class="col-xs-12 col-md-10">

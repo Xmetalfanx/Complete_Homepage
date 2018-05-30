@@ -11,12 +11,12 @@
 
 ?>
 
-<div id="mainBody" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div id="mainBody" class="row col-12">
 
-  <div class="col-xm-12 col-sm-3 col-md-3 col-lg-2 col-xl-2 p-3">
+  <div class="col-xs-12 col-md-2">
     <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
   </div>
-  <div class="col-xm-9 col-sm-9 col-md-9 col-lg-10 col-xl-10">
+  <div class="col-xs-12 col-md-10">
     <?php
 
         include $sitePath . '/linuxHQ/modules/sections/distroSection/linuxDistroContent.tpl';

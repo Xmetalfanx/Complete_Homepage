@@ -1,7 +1,4 @@
 
-      </div> <!-- Ends Second Column opened in template files  -->
-</div> <!-- Ends Row opened in the template file, if i recall -->
-
 <footer class="m-0 p-3">
 
   <div class="col-lg-4">Site made with:
