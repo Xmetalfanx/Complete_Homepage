@@ -10,7 +10,7 @@ xhttp.onreadystatechange = function() {
        var outputTIC = '';
 
        for (var i=0; i < themes.length;i++){
-         outputTIC += '<ul><li>Theme Name:'+themes[i].name+'</li><li>Github Link'+themes[i].github+'</li></ul><br /><br />';
+         outputTIC += '<ul><li>Theme Name:'+themes[i].name+'</li><li>Github Link:'+themes[i].github+'</li></ul><br />';
        }
 
        document.getElementById('ticSection').innerHTML = outputTIC;
