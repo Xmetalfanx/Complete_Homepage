@@ -7,5 +7,3 @@ for (var i=0; i < themes.length;i++){
 }
 
 document.getElementById('ticSection').innerHTML = outputTIC;
-
-//

@@ -1,29 +1,22 @@
 {
   "themes":[
-  {
-    "name":"Arc",
-    "gnomelook":"N/A",
-    "devarts":"N/A",
-    "github":"N/A"
-  },
-  {
-    "name":"Numix",
-    "gnomelook":"N/A",
-    "devarts":"N/A",
-    "github":"N/A"
-  },
-  {
-    "name":"Adapta",
-    "gnomelook":"N/A",
-    "devarts":"N/A",
-    "github":"N/A"
-  },
-
-
-
-
-
-
+    {
+      "name":"Arc",
+      "gnomelook":"N/A",
+      "devarts":"N/A",
+      "github":"N/A"
+    },
+    {
+      "name":"Numix",
+      "gnomelook":"N/A",
+      "devarts":"N/A",
+      "github":"N/A"
+    },
+    {
+      "name":"Adapta",
+      "gnomelook":"N/A",
+      "devarts":"N/A",
+      "github":"N/A"
+    }
   ]
-
 }
