@@ -12,7 +12,6 @@
     </script>
 
 
-
     <!-- inline css -->
     <style media="screen">
       #desktopData
@@ -21,11 +20,12 @@
       }
     </style>
 </head>
+
 <body>
 
-    <div id="desktopData">
-      <script src="linuxHQ/scripts/getJSON3.js"> </script>
-    </div>
+  <div id="desktopData">
+    <script src="linuxHQ/scripts/getJSON3.js"> </script>
+  </div>
 
-  </body>
+</body>
 </html>

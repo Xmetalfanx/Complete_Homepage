@@ -37,6 +37,7 @@
         </ul>
       </div>
     </li>
+
     <li class="tab-header-and-content"><a href="#" class="tab-link">Productivity Programs</a>
       <div class="tab-content">
         <ul>
@@ -54,6 +55,7 @@
         </ul>
       </div>
     </li>
+
     <li class="tab-header-and-content"><a href="#" class="tab-link">System Tools</a>
       <div class="tab-content">
         <ul>
@@ -75,3 +77,5 @@
     </li>
   </ul>
 </p>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

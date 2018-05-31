@@ -74,4 +74,4 @@
       <a href="/linuxHQ/apps/MorePPAsMD.php">Click here to get more PPAs</a>
     </h1>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+		<?php include $sitePath . "/modules/footer.tpl"; ?>

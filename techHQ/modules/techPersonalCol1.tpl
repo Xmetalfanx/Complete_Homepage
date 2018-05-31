@@ -1,4 +1,3 @@
-<div id="col1Menus">
   <div class="btn btn-dark">
     <h3>
       <a href="../techHQ/personal/personalIndex.php">About Me </a>
@@ -20,5 +19,3 @@
   <div class="btn btn-dark"> Causes I Support
     <a href="http://www.eff.org">EFF.org</a>
   </div>
-
-</div>

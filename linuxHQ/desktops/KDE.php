@@ -1,7 +1,6 @@
 <?php
 
     $localdename = "plasma5";
-
     $sectionVar = "DE";
 
     // Old Info

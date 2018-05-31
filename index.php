@@ -19,9 +19,12 @@
 
     </div>
     <div id="mainText" class="row">
+
       <div class="col-lg-6">
         <p>I am removing (note: It's just not for me, I have nothing bad to say about it ... I think some issues I had are Bourbon.io and Bootstrap conflicting at times, and that's why I am removing that extra CSS code that is not needed) Bourbon.io and related content so the layout on some pages are broken now and I am working on it to get it back to normal ASAP. </p>
       </div>
+
+
       <div class="col-lg-6">
         <a href="https://github.com/Xmetalfanx" target="_blank">
           <i class="fab fa-github fa-2x" style="color:#000000"></i>
@@ -36,7 +39,3 @@
     </div>
   </div>
 <?php include 'modules/footer.tpl'; ?>
-
-</body>
-
-</html>

@@ -1,9 +1,9 @@
-<div id="col1Menus">
-	<div class="btn p-2">
+
+	<div class="btn btn-dark p-2">
 		<a href="/techHQ/security/encryptSoftware.php">Encryption</a>
 	</div>
 
-	<div class="btn p-2"> Internet Security</div>
+	<div class="btn btn-dark p-2"> Internet Security</div>
 
 	<a href="/techHQ/security/internet/InternetThreats.php">Internet Threats</a>
 	<a href="/techHQ/security/host_manager.php">Blocking ads and spyware with Host File</a>
@@ -17,7 +17,7 @@
 	</ul>
 
 
-	<div class="btn p-2">Windows Related</div>
+	<div class="btn btn-dark p-2">Windows Related</div>
 	<a href="/techHQ/security/secureDeleting.php">Securely Removing Data from your computer</a>
 	<a href="/techHQ/security/spyware/spyware.php">Spyware Related</a>
 	<a href="/techHQ/security/firewall/softFirewalls.php">Firewalls</a>
@@ -29,9 +29,8 @@
 		<a href="/techHQ/security/secureBrowsing/securezBrowseIndex.php">Secure Web Browsing</a>
 	</div>
 
-	<div class="btn p-2">
+	<div class="btn btn-dark p-2">
 	  <div>Online Scan Site</div>
 	</div>
 
 	<a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a><br/>
-</div>

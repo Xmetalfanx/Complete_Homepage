@@ -29,7 +29,7 @@
 
 
 
-	
+
 <ul class="accordion-tabs-minimal">
   <li class="tab-header-and-content">
 		<a href="#" class="tab-link"> </a>
@@ -71,4 +71,6 @@
       </div>
     </div>
   </li>
-</ul><?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+</ul>
+
+<?php include $sitePath . "/modules/footer.tpl"; ?>

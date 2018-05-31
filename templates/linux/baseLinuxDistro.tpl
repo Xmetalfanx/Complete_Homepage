@@ -17,11 +17,7 @@
     <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
   </div>
   <div class="col-xs-12 col-md-10">
-    <?php
-
-        include $sitePath . '/linuxHQ/modules/sections/distroSection/linuxDistroContent.tpl';
-
-    ?>
+    <?php include $sitePath . '/linuxHQ/modules/sections/distroSection/linuxDistroContent.tpl'; ?>
   </div> <!-- Ends main content on the right, column -->
 </div> <!-- Ends Row Class -->
 
