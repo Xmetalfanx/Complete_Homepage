@@ -34,6 +34,7 @@
     <a href="/linuxHQ/distros/ubuntu/deepn.php">Deepin</a><br/><a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a><br/><a href="/linuxHQ/distros/ubuntu/linuxLite.php">Linux Lite</a><br/><a href="/linuxHQ/distros/ubuntu/linuxMint.php">Linux Mint</a><br/>
     <a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a><br/>
     <a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a><br/>
+<<<<<<< HEAD
     <a href="#">Uberstudent</a><br/>
   </div>
 
@@ -50,12 +51,26 @@
   <a href="/linuxHQ/distros/mandriva/mageia.php">Mageia</a><br/>
   <a href="/linuxHQ/distros/mandriva/ROSA.php">ROSA</a><br/>
   <a href="/linuxHQ/distros/mandriva/openMandriva.php">OpenMandriva</a>
+=======
+    <a href="#">Uberstudent</a><br/></div>
+
+
+<h2>RPM Based</h2>
+  <a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a><br/><a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a><br/><a href="/linuxHQ/distros/rpm/korora.php">Korora</a><br/><a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a>
+  <br/>
+
+
+<h2>Mandriva Family </h2>
+
+  <a href="/linuxHQ/distros/mandriva/mageia.php">Mageia</a><br/><a href="/linuxHQ/distros/mandriva/ROSA.php">ROSA</a><br/><a href="/linuxHQ/distros/mandriva/openMandriva.php">OpenMandriva</a>
+>>>>>>> 77b2a9c... Bootstrap4 and other code cleanup
 
 <h2>Gentoo Family</h2>
 
   <a href="/linuxHQ/distros/gentoo/calculate.php">Calculate Linux</a><br/>
   <a href="/linuxHQ/distros/gentoo/gentoo.php">Gentoo</a><br/>
   <a href="/linuxHQ/distros/gentoo/sabayon.php">Sabayon</a>
+<<<<<<< HEAD
 
 <h2>Misc. Distros </h2>
 
@@ -67,3 +82,16 @@
 
   <a href="#">Salix</a><br/>
   <a href="#">Slackware</a><br/>
+=======
+
+
+<h2>Misc. Distros </h2>
+
+  <a href="/linuxHQ/distros/independent/solus.php">Solus</a><br/>
+  <span>KaOS</span>
+  <br/><a href="/linuxHQ/distros/mandriva/PCLinuxOS.php">PCLinuxOS</a><br/><a href="/linuxHQ/distros/independent/puppyLinux.php">Puppy Linux</a><
+
+<h2>Slackware based</h2>
+
+  <a href="#">Salix</a><br/><a href="#">Slackware</a><br/>
+>>>>>>> 77b2a9c... Bootstrap4 and other code cleanup

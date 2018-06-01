@@ -105,7 +105,6 @@ footer {
 
 }
 
-
 #mainBody
 {
   flex-grow: 1;
@@ -116,5 +115,18 @@ footer {
 {
   display: flex;
   justify-content: center;
+
+}
+
+.iconSM
+{
+  width: 32px;
+  height: 32px;
+}
+
+.iconLG
+{
+  width: 48px;
+  height: 48px;
 
 }

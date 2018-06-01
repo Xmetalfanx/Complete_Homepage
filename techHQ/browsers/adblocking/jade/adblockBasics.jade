@@ -7,34 +7,34 @@ hr
 
 .card
   .card-block
-    h4.card-title
-    | Steps to Setting up basic Blocking        
-    p.card-text
+    h4.card-title Steps to Setting up basic Blocking        
+    .card-text
       ol
         li Pick the browser you want use
         li Pick the addon you want to try
         li
           | Install it and most of them are ready to go &ldquo;out of the gate&rdquo;&mldr; sure you can add lists to block more items, but if
           | you do not want to, you do not need to
-          .card
+        
 
 
 
-h3. Adblockers I like Filtered by Browser 
+h3 Adblockers I like Filtered by Browser 
 
 .card-block
-  h3.card-title $firefoxIcon
+  h3.card-title 
+    img(src="https://png.icons8.com/color/50/000000/firefox.png")
   p.card-text
     .row
-      p.col-lg-3
+      .col-3
         $ublockIcon 
         $uBlockOFirefox
       
-      p.col-lg-3
+      .col-3
         $adguardIcon
         $adGuardFirefox
         
-      p.col-lg-3
+      .col-3
         p
           $ABEFirefox Discontinued/No Long Developed
         p
@@ -42,38 +42,39 @@ h3. Adblockers I like Filtered by Browser
           | (My quotes, 
           br
           | not his)
+    
+    // Uh ...what?
     .row
       $EHFirefox
       
 
 .card
   .card-block
-    h4.card-title img.iconsLeft(src='/graphics/progIcons/browsers/chrome.png') Chromium/Google Chrome
-    p.card-text
+    h4.card-title img(src='https://png.icons8.com/color/50/000000/chrome.png') Chromium/Google Chrome
+    .card-text
       .row
-        .col-lg-3
+        .col-3
           $ublockIcon 
           $UBlockOriginChrome
         
-        .col-lg-3  
+        .col-3  
           $adguardIcon
           $AdguardChrome
         
 .card
   .card-block
     h4.card-title Opera 
-    p.card-text
+    .card-text
       .row
-        .col-lg-3
+        .col-3
           $ublockIcon 
           $uBlockOriginOpera
           
-        .col-lg-3
+        .col-3
           $adguardIcon
           $adGuardOpera
 
-
-
+hr 
 br
 h3 Palmoon
 ul
@@ -116,12 +117,12 @@ ul
     
 .row
   p $adguardIcon
-  .col-lg-3 
+  .col-3 
     | img(src='/techHQ/browsers/adblocking/screenshots/adguard/adguardOn.jpg', alt='Adguard Enabled', width='700px', height='400px') Adguard Enabled
-  .col-lg-3
+  .col-3
     | img(src='/techHQ/browsers/adblocking/screenshots/adguard/adguardSiteOff.jpg', alt='Adguard Disabled Per-site', width='700px', height='400px') Adguard Disabled
 
-  .col-lg-3
+  .col-3
     |  img(src='/techHQ/browsers/adblocking/screenshots/adguard/adguardTotallyOFF.jpg', alt='Adguard Disabled Completely', width='700px', height='400px') Adguard Disabled Completely
     br
     
@@ -142,4 +143,4 @@ ul
         | Ublock Disabled - Greyed out &quot;circile&quot;
 
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

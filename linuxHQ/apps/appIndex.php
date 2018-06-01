@@ -8,6 +8,7 @@
 ?>
 
 <h3 class="panel-title">Introduction</h3>
+
 <p>
   This section will contain PPA information and other linux program information not suitable for the
   TechHQ Software section which contains main cross platform
