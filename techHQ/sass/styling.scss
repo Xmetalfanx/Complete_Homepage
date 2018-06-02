@@ -10,9 +10,6 @@
 
 // Col1 menus
 // I already forgot what I thought I needed to do this for ...
-#col1Menus
-{
-  @include padding(0, 1%, 0, 0);
 
   p {
     text-align: justify;
@@ -29,5 +26,3 @@
 
     @include margin(10px, 0, 10px, 1%);
   }
-
-}

@@ -91,13 +91,12 @@ kbd {
   @include     margin(null, 2px, 20px, 2px);
 }
 
-// For the RSS code ... this should customize thing a little better 
+// For the RSS code ... this should customize thing a little better
 table.rssdog
 {
-  @include margin( 10px, 10px, 10px, 10px);
 
-  // I do not like having to put !important in the code bujt i will for now since it's not over-riding the rssdog css without it
-  width: auto !important;
+
+  @include margin( 10px, 10px, 10px, 10px);
 
   th.rssdog
   {
