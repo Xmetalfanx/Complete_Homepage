@@ -359,6 +359,9 @@ footer {
   bottom: 0;
   display: flex;
   flex-direction: row; }
+  footer a:link {
+    background-color: inherit;
+    color: inherit; }
 
 #mainBody {
   flex-grow: 1; }
