@@ -2,3 +2,7 @@
 @import "_mixins";
 @import "_colors";
 @import "_fonts";
+
+/* Border variables */
+$solidBorder: 1px solid rgba(0, 0, 0, 1);
+$dottedBorder: 1px dotted rgba(0, 0, 0, 1);

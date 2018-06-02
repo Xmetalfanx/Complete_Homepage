@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,YAAY;ACsDZ,sBAAsB;ACrDtB,YAAY;AAgBZ,qBAAqB;ACjBrB,WAAW",
-"sources": ["../../sass/02-variables/_images.scss","../../sass/02-variables/_mixins.scss","../../sass/02-variables/_colors.scss","../../sass/02-variables/_fonts.scss"],
+"mappings": "AACA,YAAY;AAgBZ,qBAAqB;ACjBrB,WAAW;ACKX,sBAAsB",
+"sources": ["../../sass/02-variables/_colors.scss","../../sass/02-variables/_fonts.scss","../../sass/02-variables/variables-dir.scss"],
 "names": [],
 "file": "variables-dir.css"
 }

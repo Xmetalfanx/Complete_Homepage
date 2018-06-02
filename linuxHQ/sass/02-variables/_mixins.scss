@@ -16,30 +16,6 @@
 }
 
 
-@mixin softwareCols($colCount: 2, $colWidth: 40%, $colGap: 10px) {
-  float         : left;
-  clear         : both;/* Border variables */
-
-  margin-top    : 20px;
-  margin-bottom : 20px;
-
-  border-top    : $solidBorder;
-  border-left   : $solidBorder;
-
-  @include        inline-block();
-  @include        column-gap($colGap);
-  @include        column-width($colWidth);
-  @include        column-count($colCount);
-  @include        boxShadow();
-$solidBorder: 1px solid rgba(0, 0, 0, 1);
-$dottedBorder: 1px dotted rgba(0, 0, 0, 1);
-  a:hover,
-  a:link,
-  a:visited {
-    text-decoration : none;
-  }
-}
-
 @mixin padding( $top, $right, $bottom, $left)
  {
    padding: $top $right $bottom $left;
@@ -51,7 +27,3 @@ $dottedBorder: 1px dotted rgba(0, 0, 0, 1);
 	margin: $top $right $bottom $left;
 
 }
-
-/* Border variables */
-$solidBorder: 1px solid rgba(0, 0, 0, 1);
-$dottedBorder: 1px dotted rgba(0, 0, 0, 1);
