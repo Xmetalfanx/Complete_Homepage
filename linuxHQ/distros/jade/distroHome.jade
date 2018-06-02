@@ -4,28 +4,28 @@ h1 Top Linux Distributions for new users
 
 .card 
   .card-block
-      h4.card-title     
+      h2.card-title     
         img(src='/linuxHQ/graphics/icons/mint.png', alt='Linux Mint Icon')
         <?php echo $mintMP; ?>
       .card-text 
-
-        .screenshots  
-          <?php echo $mintCinSS1; ?>
-        .linuxContainer
-          <? echo $mintHOME; ?>
-        .linuxContainer
-           <?php echo $mintDW; ?>
+        div Screenshots 
+        <?php echo $mintCinSS1; ?>
+        div Homepage 
+        <?php echo $mintHOME; ?>
+        div Distrowatch 
+        <?php echo $mintDW; ?>
 
 .card 
   .card-block
-      h4.card-title <?php echo $ubuntuMateMP; ?>
+      h2.card-title <?php echo $ubuntuMateMP; ?>
       .card-text 
-        .screenshots  <?php echo $UMateSS1; ?>
-        .linuxContainer
+        .screenshots  
+        <?php echo $UMateSS1; ?>
+        div Homepage 
           <?php echo $UMateHOME;  ?>
-        .linuxContainer
+        div Distrowatch 
            <?php echo $UMateDW; ?>
-        .linuxContainer
+        div Specs 
           p Minimum Requirements
           ul
             li Pentium III 750 megahertz
@@ -39,25 +39,25 @@ h1 Top Linux Distributions for new users
 
 .card 
   .card-block
-      h4.card-title <?php echo $xubuntuMP; ?>
+      h2.card-title <?php echo $xubuntuMP; ?>
       .card-text 
-        .screenshots
+        div Screenshots 
           <?php echo $xubuntuSS1; ?>
-        .linuxContainer
+        div Homepage 
           <?php echo $xubuntuHOME; ?>
-        .linuxContainer
+        div Distrowatch 
            <?php echo $xubuntuDW; ?>
            
            
 .card 
   .card-block
-     h4.card-title  <?php echo $linuxLiteMP; ?>
+     h2.card-title  <?php echo $linuxLiteMP; ?>
   .card-text 
-    .screenshots 
+    div Screenshots 
       <?php echo $lliteSS1; ?>
-    .linuxContainer
+    div Homepage 
       <?php echo $linuxLiteHOME; ?>
-    .linuxContainer
+    div Distrowatch 
        <?php echo $lliteDW; ?>
     .linuxContainer
       ul
@@ -76,12 +76,13 @@ h1 Top Linux Distributions for new users
 
 .card 
   .card-block
-      h4.card-title  <?php echo $lubuntuMP; ?>
+      h2.card-title  <?php echo $lubuntuMP; ?>
       .card-text 
-        .screenshots   <?php echo $lubuntu1; ?>
-        .linuxContainer
+        div Screenshots   
+        <?php echo $lubuntu1; ?>
+        div Homepage 
           <?php echo $lubuntuHOME; ?>
-        .linuxContainer
+        div Distrowatch 
            <?php echo $lubuntuDW; ?>
         .linuxContainer
           ul
@@ -94,14 +95,15 @@ h1 Top Linux Distributions for new users
 
 .card 
   .card-block
-      h4.card-title <?php echo $eOSMP; ?>
+      h2.card-title <?php echo $eOSMP; ?>
       .card-text 
-        .screenshots   <?php echo $eosSS1; ?>
-        .linuxContainer
+        div Screenshots    
+        <?php echo $eosSS1; ?>
+        div Homepage
           <?php echo $elementaryHOME; ?>
-        .linuxContainer
+        div Distrowatch 
            <?php echo $elementaryDW; ?>
-        .linuxContainer
+        div Specs 
           ul
             li Intel i3 or comparable dual-core 64-bit processor
             li 1 GB of system memory (RAM)

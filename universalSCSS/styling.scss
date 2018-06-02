@@ -7,7 +7,6 @@ $footerheight: 75px;
 }
 
 body {
-
   display: flex;
   flex-direction: column;
 
@@ -73,54 +72,43 @@ i.fa, i.fab
 
 }
 
-
+// Nav: for the entire header
 nav
 {
   flex-grow: 1;
+
   color: $white;
   background-color: $headerBGColor;
+  width: 100%;
+  font-weight: bold;
 
-  .navbar {
-    width: 100%;
+  // This is for the Text "header" on the left, when at full screen
+  .navbar-brand {
+    font-size: 36px;
 
-
-
-    .navbar-brand {
-      font-size: 36px;
-      font-weight: bold;
-
-      @include padding(0, 0, 0, 10px);
-    }
-
-    .navbar-nav {
-      font-size: 22px;
-      font-weight: bold;
-    }
+    // really shouldn't have any major padding effect other than pushing the menus over from the far left
+    // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it 
+    @include padding(0, 0, 0, 10px);
   }
 
-
-
+  // This is for the navigation menus on the right, when at full screen
+  .navbar-nav {
+    font-size: 22px;
+  }
 }
-
-
 
 
 footer {
    /*
    position: absolute;
    bottom: 0;
-
    */
-
-
    position: relative;
-
-   flex-grow: 1;
-
-
    // this has nothing to do with the main layout's flex
+
    display: flex;
    flex-direction: row;
+   flex-grow: 1;
 
    width: 100%;
 
@@ -140,8 +128,9 @@ footer {
 #mainBody
 {
   flex-grow: 6;
-  background-color: $white;
+
   color: $headerBGColor;
+  background-color: $white;
 
 }
 

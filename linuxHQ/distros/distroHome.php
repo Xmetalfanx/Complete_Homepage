@@ -8,68 +8,97 @@
 ?>
 
 
-<h1>Top Linux Distributions for new users</h1>
-<div>
-  <div class="card">
-    <div class="card-block">
-      <h4 class="card-title">
-				<img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/><?php echo $mintMP; ?></h4>
-      <div class="card-text">
-        <div class="screenshots">
 
-          <?php echo $mintCinSS1; ?>
-        </div>
-        <div class="linuxContainer"><? echo $mintHOME; ?></div>
-        <div class="linuxContainer"><?php echo $mintDW; ?></div>
+<h1>Top Linux Distributions for new users</h1>
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">
+			<img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/>
+			<?php echo $mintMP; ?></h4>
+
+    <div class="card-text">
+      <div>Screenshots </div><?php echo $mintCinSS1; ?>
+      <div>Homepage </div><?php echo $mintHOME; ?>
+      <div>Distrowatch </div><?php echo $mintDW; ?>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">
+			<?php echo $ubuntuMateMP; ?>
+		</h4>
+    <div class="card-text">
+      <div class="screenshots"><?php echo $UMateSS1; ?> </div>
+      <div>
+        Homepage
+        <?php echo $UMateHOME;  ?>
+      </div>
+      <div>
+        Distrowatch
+        <?php echo $UMateDW; ?>
+      </div>
+      <div>Specs
+        <p>Minimum Requirements</p>
+        <ul>
+          <li>Pentium III 750 megahertz</li>
+          <li>512 megabytes (MB) of RAM</li>
+          <li>8 gigabytes (GB) of available space on the hard disk</li>
+        </ul>
+        <p>Recommended</p>
+        <ul>
+          <li>Core 2 Duo 1.6 gigahertz</li>
+          <li>2 gigabytes (GB) RAM</li>
+          <li>16 gigabytes (GB) of available space on the hard disk</li>
+        </ul>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-block">
-      <h4 class="card-title"><?php echo $ubuntuMateMP; ?></h4>
-      <div class="card-text">
-        <div class="screenshots"> <?php echo $UMateSS1; ?></div>
-        <div class="linuxContainer"><?php echo $UMateHOME;  ?></div>
-        <div class="linuxContainer"><?php echo $UMateDW; ?></div>
-        <div class="linuxContainer">
-          <p>Minimum Requirements</p>
-          <ul>
-            <li>Pentium III 750 megahertz</li>
-            <li>512 megabytes (MB) of RAM</li>
-            <li>8 gigabytes (GB) of available space on the hard disk</li>
-          </ul>
-          <p>Recommended</p>
-          <ul>
-            <li>Core 2 Duo 1.6 gigahertz</li>
-            <li>2 gigabytes (GB) RAM</li>
-            <li>16 gigabytes (GB) of available space on the hard disk</li>
-          </ul>
-        </div>
+</div>
+
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title"><?php echo $xubuntuMP; ?></h4>
+    <div class="card-text">
+      <div>
+        Screenshots
+        <?php echo $xubuntuSS1; ?>
+      </div>
+      <div>
+        Homepage
+        <?php echo $xubuntuHOME; ?>
+      </div>
+      <div>
+        Distrowatch
+        <?php echo $xubuntuDW; ?>
       </div>
     </div>
   </div>
-  <div class="card">
-    <div class="card-block">
-      <h4 class="card-title"><?php echo $xubuntuMP; ?></h4>
-      <div class="card-text">
-        <div class="screenshots"><?php echo $xubuntuSS1; ?></div>
-        <div class="linuxContainer"><?php echo $xubuntuHOME; ?></div>
-        <div class="linuxContainer"><?php echo $xubuntuDW; ?></div>
-      </div>
-    </div>
-  </div>
+</div>
+
+
 
 <div class="card">
   <div class="card-block">
     <h4 class="card-title"> <?php echo $linuxLiteMP; ?></h4>
   </div>
   <div class="card-text">
-    <div class="screenshots">
-
+    <div>
+      Screenshots
       <?php echo $lliteSS1; ?>
     </div>
-    <div class="linuxContainer"><?php echo $linuxLiteHOME; ?></div>
-    <div class="linuxContainer"><?php echo $lliteDW; ?></div>
+    <div>
+      Homepage
+      <?php echo $linuxLiteHOME; ?>
+    </div>
+    <div>
+      Distrowatch
+      <?php echo $lliteDW; ?>
+    </div>
     <div class="linuxContainer">
       <ul>
         <li>
@@ -92,13 +121,25 @@
     </div>
   </div>
 </div>
+
+
+
 <div class="card">
   <div class="card-block">
-    <h4 class="card-title"> <?php echo $lubuntuMP; ?></h4>
+    <h4 class="card-title">
+			<?php echo $lubuntuMP; ?>
+		</h4>
     <div class="card-text">
-      <div class="screenshots">  <?php echo $lubuntu1; ?></div>
-      <div class="linuxContainer"><?php echo $lubuntuHOME; ?></div>
-      <div class="linuxContainer"><?php echo $lubuntuDW; ?></div>
+      <div>Screenshots   </div>
+			<?php echo $lubuntu1; ?>
+      <div>
+        Homepage
+        <?php echo $lubuntuHOME; ?>
+      </div>
+      <div>
+        Distrowatch
+        <?php echo $lubuntuDW; ?>
+      </div>
       <div class="linuxContainer">
         <ul>
           <li>
@@ -113,14 +154,26 @@
     </div>
   </div>
 </div>
+
+
+
 <div class="card">
   <div class="card-block">
-    <h4 class="card-title"><?php echo $eOSMP; ?></h4>
+    <h4 class="card-title"><?php echo $eOSMP; ?>
+		</h4>
     <div class="card-text">
-      <div class="screenshots">  <?php echo $eosSS1; ?></div>
-      <div class="linuxContainer"><?php echo $elementaryHOME; ?></div>
-      <div class="linuxContainer"><?php echo $elementaryDW; ?></div>
-      <div class="linuxContainer">
+      <div>Screenshots
+				<?php echo $eosSS1; ?>
+			</div>
+      <div>
+        Homepage
+        <?php echo $elementaryHOME; ?>
+      </div>
+      <div>
+        Distrowatch
+        <?php echo $elementaryDW; ?>
+      </div>
+      <div>Specs
         <ul>
           <li>Intel i3 or comparable dual-core 64-bit processor</li>
           <li>1 GB of system memory (RAM)</li>
@@ -131,7 +184,7 @@
   </div>
 </div>
 
-</div>
+
 
 </div></div>
 

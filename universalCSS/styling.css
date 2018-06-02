@@ -342,27 +342,24 @@ i.fa, i.fab {
 nav {
   flex-grow: 1;
   color: white;
-  background-color: #333333; }
-  nav .navbar {
-    width: 100%; }
-    nav .navbar .navbar-brand {
-      font-size: 36px;
-      font-weight: bold;
-      padding: 0 0 0 10px; }
-    nav .navbar .navbar-nav {
-      font-size: 22px;
-      font-weight: bold; }
+  background-color: #333333;
+  width: 100%;
+  font-weight: bold; }
+  nav .navbar-brand {
+    font-size: 36px;
+    padding: 0 0 0 10px; }
+  nav .navbar-nav {
+    font-size: 22px; }
 
 footer {
-   /*
-   position: absolute;
-   bottom: 0;
-
-   */
+  /*
+  position: absolute;
+  bottom: 0;
+  */
   position: relative;
-  flex-grow: 1;
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
   width: 100%;
   color: white;
   background-color: #333333; }
@@ -372,8 +369,8 @@ footer {
 
 #mainBody {
   flex-grow: 6;
-  background-color: white;
-  color: #333333; }
+  color: #333333;
+  background-color: white; }
 
 #StartPageStyle {
   display: flex;
