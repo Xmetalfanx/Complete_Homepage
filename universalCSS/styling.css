@@ -305,8 +305,8 @@ template {
   overflow-x: hidden; }
 
 body {
-  flex-basis: 65px;
-  height: 100vh; }
+  display: flex;
+  flex-direction: column; }
 
 i.fa, i.fab {
   color: white;
@@ -339,32 +339,40 @@ i.fa, i.fab {
   background-color: white;
   padding: 1% 2% 0 2%; }
 
-nav.navbar {
+nav {
+  flex-grow: 1;
   color: white;
-  background-color: #333333;
-  width: 100%; }
-  nav.navbar .navbar-brand {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 0 0 0 10px; }
-  nav.navbar .navbar-nav {
-    font-size: 22px;
-    font-weight: bold; }
+  background-color: #333333; }
+  nav .navbar {
+    width: 100%; }
+    nav .navbar .navbar-brand {
+      font-size: 36px;
+      font-weight: bold;
+      padding: 0 0 0 10px; }
+    nav .navbar .navbar-nav {
+      font-size: 22px;
+      font-weight: bold; }
 
 footer {
+   /*
+   position: absolute;
+   bottom: 0;
+
+   */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
   width: 100%;
   color: white;
-  background-color: #333333;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  flex-direction: row; }
+  background-color: #333333; }
   footer a:link {
-    background-color: inherit;
-    color: inherit; }
+    color: inherit;
+    background-color: inherit; }
 
 #mainBody {
-  flex-grow: 1; }
+  flex-grow: 6;
+  background-color: white;
+  color: #333333; }
 
 #StartPageStyle {
   display: flex;

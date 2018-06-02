@@ -1,5 +1,5 @@
 @import "0-variables/variables-dir", "1-custom/custom-dir";
-$headerBGColor: rgba(51, 51, 51, 1);
+
 $footerheight: 75px;
 
 :root {
@@ -7,11 +7,9 @@ $footerheight: 75px;
 }
 
 body {
-  // Guess for top Header and Bottom Footer
-  // This allows me to flex-grow the center content #mainBody
-  flex-basis: 65px;
 
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -75,36 +73,60 @@ i.fa, i.fab
 
 }
 
-nav.navbar {
+
+nav
+{
+  flex-grow: 1;
   color: $white;
   background-color: $headerBGColor;
-  width: 100%;
 
-  .navbar-brand {
-    font-size: 36px;
-    font-weight: bold;
+  .navbar {
+    width: 100%;
 
-    @include padding(0, 0, 0, 10px);
+
+
+    .navbar-brand {
+      font-size: 36px;
+      font-weight: bold;
+
+      @include padding(0, 0, 0, 10px);
+    }
+
+    .navbar-nav {
+      font-size: 22px;
+      font-weight: bold;
+    }
   }
 
-  .navbar-nav {
-    font-size: 22px;
-    font-weight: bold;
-  }
+
+
 }
 
+
+
+
 footer {
-   width: 100%;
-   color: $white;
-   background-color: $headerBGColor;
+   /*
    position: absolute;
    bottom: 0;
+
+   */
+
+   flex-grow: 1;
+
+
+   // this has nothing to do with the main layout's flex
    display: flex;
    flex-direction: row;
 
+   width: 100%;
+
+   color: $white;
+   background-color: $headerBGColor;
+
    a:link {
-     background-color: inherit;
      color: inherit;
+     background-color: inherit;
 
 
    }
@@ -114,7 +136,9 @@ footer {
 
 #mainBody
 {
-  flex-grow: 1;
+  flex-grow: 6;
+  background-color: $white;
+  color: $headerBGColor;
 
 }
 
