@@ -9,11 +9,16 @@
 
     <p class="boldItalics">My Favorites - (All FREE)</p>
     <ul>
-      <li><a href="http://www.macrium.com/reflectfree.asp">
-      <img src="/techHQ/progIcons/system_tools/backup/1579__DriveImage_XML.png" alt="Drive Image XML" width="32" height="32" class="iconsLeft" /></a>
+      <li>
+				<a href="http://www.macrium.com/reflectfree.asp">
+      <img src="/techHQ/progIcons/system_tools/backup/1579__DriveImage_XML.png" alt="Drive Image XML" width="32" height="32" />
+		</a>
       <a href="http://www.runtime.org/dixml.htm" class="progName">DriveImage XML</a><br /><br /></li>
 
-      <li><a href="http://www.paragon-software.com/home/db-express/" target="_blank"><img src="../../progIcons/system_tools/backup/paragonBackup.png" alt="ParagonBackup Icon" width="36" height="36" class="iconsLeft" /><span class="progName">Paragon Backup and Recovery (Advanced) Free Edition</span></a>    </li>
+      <li>
+				<a href="http://www.paragon-software.com/home/db-express/" target="_blank">
+				<img src="../../progIcons/system_tools/backup/paragonBackup.png" alt="ParagonBackup Icon" width="36" height="36"  />
+				<span class="progName">Paragon Backup and Recovery (Advanced) Free Edition</span></a>    </li>
 
     </ul>
     <ul>
