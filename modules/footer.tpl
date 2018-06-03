@@ -23,6 +23,7 @@
       <span class="font-italic">Xmetal/Xmetalfanx 2013-*</span>
     </i>
 
+    <a href="https://gitlab.com/Xmetal" target="_blanks"><i class="fab fa-gitlab"></i></a>
 
     <a href="https://github.com/Xmetalfanx" target="_blank">
       <i class="fab fa-github fa-2x"></i></a>

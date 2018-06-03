@@ -10,6 +10,9 @@ body {
   display: flex;
   flex-direction: column;
 
+  height: 100vh;
+  width: 100vw;
+
 }
 
 // For Font Awesome
@@ -23,9 +26,7 @@ i.fa, i.fab
   a:link
   {
     text-decoration: none;
-
     color: inherit;
-
   }
 
 }
@@ -75,28 +76,29 @@ i.fa, i.fab
 // Nav: for the entire header
 nav
 {
-  flex-grow: 1;
+  flex-grow: 0;
 
   color: $white;
   background-color: $headerBGColor;
   width: 100%;
   font-weight: bold;
 
-  // This is for the Text "header" on the left, when at full screen
-  .navbar-brand {
-    font-size: 36px;
-
-    // really shouldn't have any major padding effect other than pushing the menus over from the far left
-    // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it 
-    @include padding(0, 0, 0, 10px);
-  }
-
   // This is for the navigation menus on the right, when at full screen
-  .navbar-nav {
+  .navbar-nav a:link {
     font-size: 22px;
   }
 }
 
+// Header Main text is not changing so I am trying this class OUTSIDE of the other nav css, above
+
+// This is for the Text "header" on the left, when at full screen
+nav.navbar-brand {
+  font-size: 36px;
+
+  // really shouldn't have any major padding effect other than pushing the menus over from the far left
+  // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it
+  @include padding(0, 0, 0, 10px);
+}
 
 footer {
    /*
@@ -108,7 +110,7 @@ footer {
 
    display: flex;
    flex-direction: row;
-   flex-grow: 1;
+   flex-grow: 0;
 
    width: 100%;
 
@@ -127,7 +129,7 @@ footer {
 
 #mainBody
 {
-  flex-grow: 6;
+  flex-grow: 1;
 
   color: $headerBGColor;
   background-color: $white;
