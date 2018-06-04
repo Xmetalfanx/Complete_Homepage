@@ -1,23 +1,22 @@
 {
-  "arc":
-  {
+  "themes":[
+    {
       "name":"Arc",
       "gnomelook":"N/A",
       "devarts":"N/A",
       "github":"N/A"
     },
-
-    "numix":{
+    {
       "name":"Numix",
       "gnomelook":"N/A",
       "devarts":"N/A",
       "github":"N/A"
     },
-
-    "adapta":{
+    {
       "name":"Adapta",
       "gnomelook":"N/A",
       "devarts":"N/A",
       "github":"N/A"
     }
+  ]
 }

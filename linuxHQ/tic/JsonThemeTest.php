@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
 
-    <script type="text/javascript" src="/linuxHQ/scripts/ticJSON.js">
+    <script type="text/javascript" src="/linuxHQ/scripts/getJSON.js">
 
     </script>
   </head>
