@@ -355,13 +355,6 @@ kbd {
   padding: 10px 10px 10px 10px;
   margin: 2px 20px 2px; }
 
-table.rssdog {
-  margin: 10px 10px 10px 10px; }
-  table.rssdog th.rssdog {
-    padding: 5px 5px 5px 5px; }
-  table.rssdog td.rssdog {
-    padding: 1% 1% 1% 1%; }
-
 #usb {
   position: relative;
   left: 20px; }

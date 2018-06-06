@@ -1,3 +1,17 @@
-//output:distrowatch.html 
+//output:distrowatch.html
 
-script(src='https://www.rssdog.com/index.php?url=https%3A%2F%2Fdistrowatch.com%2Fnews%2Fdwd.xml&mode=javascript&showonly=&maxitems=6&showdescs=0&desctrim=0&descmax=0&showdate=1&xmlbtn=1&linktarget=_blank&textsize=inherit&headbgcol=%23333333&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0')
+
+.xmetalRSS
+  .xmetalRSSHeader DistroWatch News Feed
+
+  // news
+  script(src='//rss.bloople.net/?url=https%3A%2F%2Fdistrowatch.com%2Fnews%2Fdw.xml&detail=-1&limit=8&showtitle=false&type=js')
+
+br 
+br 
+
+.xmetalRSS
+
+  .xmetalRSSHeader Distrowatch Distro Feed
+  // Distros
+  script(src='//rss.bloople.net/?url=https%3A%2F%2Fdistrowatch.com%2Fnews%2Fdwd.xml&detail=-1&limit=10&showtitle=false&type=js')

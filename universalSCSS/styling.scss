@@ -10,9 +10,6 @@ body {
   display: flex;
   flex-direction: column;
 
-  height: 100vh;
-  width: 100vw;
-
 }
 
 // For Font Awesome
@@ -63,7 +60,7 @@ i.fa, i.fab
 
 
 
-// main text div
+// main text div only on the frontpage
 #mainText {
   text-align: justify;
 
@@ -106,8 +103,11 @@ footer {
    bottom: 0;
    */
    position: relative;
-   // this has nothing to do with the main layout's flex
+   @include margin(1%, 0, 0, 0);
+   @include padding(2%, 0, 0, 0);
 
+
+   // this has nothing to do with the main layout's flex
    display: flex;
    flex-direction: row;
    flex-grow: 0;
@@ -120,8 +120,6 @@ footer {
    a:link {
      color: inherit;
      background-color: inherit;
-
-
    }
 
 
@@ -133,6 +131,8 @@ footer {
 
   color: $headerBGColor;
   background-color: $white;
+
+  @include padding(1%, 2%, 0, 15px);
 
 }
 
@@ -153,5 +153,51 @@ footer {
 {
   width: 48px;
   height: 48px;
+}
+
+
+/////////////////////////////////////////
+// RSS feed related - Post RSSDOG way
+// RSSDog wasn't bad ... it had good styling but that was all in the RSS link itself ...
+// this new way is more vanilla and it gives me SUPER fine-grain control over the CSS
+
+
+// Labeling it like this to keep it straight from other RSS tags that may be in the RSS to HTML script
+.xmetalRSS
+{
+  border: 1px solid $black;
+  width: 75%;
+
+  .xmetalRSSHeader
+  {
+    background-color: #333333;
+    color: $white;
+    font-weight: bold;
+    @include padding(1%, 1%, 1%, 1%);
+  }
+
+}
+
+
+// Main title
+h3.feed-title
+{
+  color: $white;
+  background-color: #333333;
+
+  @include padding(1%, 0, 1%, 1%);
+}
+
+h4.feed-item-title
+{
+
+  a:link, a:hover, a:visited
+  {
+    background-color: inherit;
+    color: #333333;
+    font-size: 15px;
+    @include padding(1%,0,0,1%);
+
+  }
 
 }

@@ -17,6 +17,7 @@ kbd {
   @include   padding(5px, 1%, null, 1%);
 }
 
+// I see this (directly below) as removable down the line
 #TIC {
   .TICHomepage,
   .TICUsage {
@@ -89,26 +90,6 @@ kbd {
 
   @include     padding(10px, 10px, 10px, 10px);
   @include     margin(null, 2px, 20px, 2px);
-}
-
-// For the RSS code ... this should customize thing a little better
-table.rssdog
-{
-
-
-  @include margin( 10px, 10px, 10px, 10px);
-
-  th.rssdog
-  {
-    @include padding(5px, 5px, 5px, 5px);
-  }
-
-  td.rssdog
-  {
-    @include padding(1%, 1%, 1%, 1%);
-
-  }
-
 }
 
 

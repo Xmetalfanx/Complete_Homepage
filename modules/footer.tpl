@@ -1,5 +1,5 @@
 
-<footer class="m-0 p-3">
+<footer>
 
   <div class="col-lg-4">
     Site made with:
