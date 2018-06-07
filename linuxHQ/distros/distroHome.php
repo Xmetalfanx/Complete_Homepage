@@ -14,12 +14,12 @@
   <div class="card-block">
     <h4 class="card-title">
 			<img src="/linuxHQ/graphics/icons/mint.png" alt="Linux Mint Icon"/>
-			<?php echo $mintMP; ?></h4>
+			<?php print $mintMP; ?></h4>
 
     <div class="card-text">
-      <div>Screenshots </div><?php echo $mintCinSS1; ?>
-      <div>Homepage </div><?php echo $mintHOME; ?>
-      <div>Distrowatch </div><?php echo $mintDW; ?>
+      <div>Screenshots </div><?php print $mintCinSS1; ?>
+      <div>Homepage </div><?php print $mintHOME; ?>
+      <div>Distrowatch </div><?php print $mintDW; ?>
     </div>
   </div>
 </div>
@@ -29,17 +29,17 @@
 <div class="card">
   <div class="card-block">
     <h4 class="card-title">
-			<?php echo $ubuntuMateMP; ?>
+			<?php print $ubuntuMateMP; ?>
 		</h4>
     <div class="card-text">
-      <div class="screenshots"><?php echo $UMateSS1; ?> </div>
+      <div class="screenshots"><?php print $UMateSS1; ?> </div>
       <div>
         Homepage
-        <?php echo $UMateHOME;  ?>
+        <?php print $UMateHOME;  ?>
       </div>
       <div>
         Distrowatch
-        <?php echo $UMateDW; ?>
+        <?php print $UMateDW; ?>
       </div>
       <div>Specs
         <p>Minimum Requirements</p>
@@ -62,19 +62,19 @@
 
 <div class="card">
   <div class="card-block">
-    <h4 class="card-title"><?php echo $xubuntuMP; ?></h4>
+    <h4 class="card-title"><?php print $xubuntuMP; ?></h4>
     <div class="card-text">
       <div>
         Screenshots
-        <?php echo $xubuntuSS1; ?>
+        <?php print $xubuntuSS1; ?>
       </div>
       <div>
         Homepage
-        <?php echo $xubuntuHOME; ?>
+        <?php print $xubuntuHOME; ?>
       </div>
       <div>
         Distrowatch
-        <?php echo $xubuntuDW; ?>
+        <?php print $xubuntuDW; ?>
       </div>
     </div>
   </div>
@@ -84,20 +84,20 @@
 
 <div class="card">
   <div class="card-block">
-    <h4 class="card-title"> <?php echo $linuxLiteMP; ?></h4>
+    <h4 class="card-title"> <?php print $linuxLiteMP; ?></h4>
   </div>
   <div class="card-text">
     <div>
       Screenshots
-      <?php echo $lliteSS1; ?>
+      <?php print $lliteSS1; ?>
     </div>
     <div>
       Homepage
-      <?php echo $linuxLiteHOME; ?>
+      <?php print $linuxLiteHOME; ?>
     </div>
     <div>
       Distrowatch
-      <?php echo $lliteDW; ?>
+      <?php print $lliteDW; ?>
     </div>
     <div class="linuxContainer">
       <ul>
@@ -127,18 +127,18 @@
 <div class="card">
   <div class="card-block">
     <h4 class="card-title">
-			<?php echo $lubuntuMP; ?>
+			<?php print $lubuntuMP; ?>
 		</h4>
     <div class="card-text">
       <div>Screenshots   </div>
-			<?php echo $lubuntu1; ?>
+			<?php print $lubuntu1; ?>
       <div>
         Homepage
-        <?php echo $lubuntuHOME; ?>
+        <?php print $lubuntuHOME; ?>
       </div>
       <div>
         Distrowatch
-        <?php echo $lubuntuDW; ?>
+        <?php print $lubuntuDW; ?>
       </div>
       <div class="linuxContainer">
         <ul>
