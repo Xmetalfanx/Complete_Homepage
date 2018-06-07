@@ -1,5 +1,5 @@
 // Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
-	function ajax_get_json(){
+	function ajaxGetJson(){
 		var results = document.getElementById("ticSection");
     var themeRequest = new XMLHttpRequest();
 
@@ -10,7 +10,7 @@
 			if(themeRequest.readyState == 4 && themeRequest.status == 200) {
 		    var data = JSON.parse(themeRequest.responseText);
 
-				console.log(themeRequest);
+				//console.log(themeRequest);
 
 				results.innerHTML = "";
 

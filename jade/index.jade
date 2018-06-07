@@ -7,7 +7,7 @@ html(lang="en")
 		
 		title  Xmetal&apos;s Homepage
 
-		<?php include $sitePath . '/modules/universalHeaderInclude.tpl'; ?>
+		<?php include 'modules/headerInclude.tpl'; ?>
 
 		// Universal CSS file
 		link(href='/universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
@@ -16,30 +16,27 @@ html(lang="en")
 		// Header "navigation"
 		<?php include 'modules/frontnav.tpl'; ?>
 		
-		// Conainter for both sections, below
-		// This should be a column 
-		#mainBody.m-0
+		.container(style="flex-grow:1;")
 			.coverImage.d-none.d-lg-block
 				
-			#mainText.row
-				.col-6
-					div I am removing (note: It's just not for me, I have nothing bad to say about it ... I think some issues I had are Bourbon.io and Bootstrap conflicting at times, and that's why I am removing that extra CSS code that is not needed) Bourbon.io and related content so the layout on some pages are broken now and I am working on it to get it back to normal ASAP. 
+			#mainBody.row
+					.col-6
+						div I am removing (note: It's just not for me, I have nothing bad to say about it ... I think some issues I had are Bourbon.io and Bootstrap conflicting at times, and that's why I am removing that extra CSS code that is not needed) Bourbon.io and related content so the layout on some pages are broken now and I am working on it to get it back to normal ASAP. 
 
-				.col-6
-					a(href='https://github.com/Xmetalfanx', target='_blank')
-						i.fab.fa-github.fa-2x
+					.col-6
+						a(href='https://github.com/Xmetalfanx', target='_blank')
+							i.fab.fa-github.fa-2x
 
+						h4 My Github Other Github project
 
-					h4 My Github Other Github project
+						a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank") LinuxSetup
+						| - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
+						br
+						br
 
-					a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank") LinuxSetup
-					| - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
-					br
-					br
+						a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank") LinuxThemeing
+						|  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
 
-					a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank") LinuxThemeing
-					|  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
-
-					| This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
+						| This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
 
 		<?php include 'modules/footer.tpl'; ?>

@@ -5,7 +5,7 @@
 ?>
 
 
-<div id="mainBody" class="row col-12">
+<div id="mainBody" class="row">
   <div class="col-xs-12 col-md-2">
 	  <?php include $sitePath.'/linuxHQ/modules/linuxNAppCol1.php'; ?>
 

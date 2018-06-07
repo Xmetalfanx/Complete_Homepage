@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Xmetal&apos;s Homepage</title>
-
-    <?php include $sitePath . '/modules/universalHeaderInclude.tpl'; ?>
+    <title> Xmetal&apos;s Homepage</title><?php include 'modules/headerInclude.tpl'; ?>
     <!-- Universal CSS file-->
-
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
   </head>
-
-  <body>
-    <!-- Header "navigation"-->
-    <?php include 'modules/frontnav.tpl'; ?>
-    <!-- Conainter for both sections, below-->
-    
-    <!-- This should be a column -->
-    <div id="mainBody" class="m-0">
+  <body> 
+    <!-- Header "navigation"--><?php include 'modules/frontnav.tpl'; ?>
+    <div style="flex-grow:1;" class="container">
       <div class="coverImage d-none d-lg-block"></div>
-      <div id="mainText" class="row">
+      <div id="mainBody" class="row">
         <div class="col-6">
           <div>I am removing (note: It's just not for me, I have nothing bad to say about it ... I think some issues I had are Bourbon.io and Bootstrap conflicting at times, and that's why I am removing that extra CSS code that is not needed) Bourbon.io and related content so the layout on some pages are broken now and I am working on it to get it back to normal ASAP. </div>
         </div>

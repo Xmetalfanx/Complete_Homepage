@@ -64,7 +64,7 @@ kbd {
 #screenshots {
   padding : 10px;
 
-  border  : 1px #000000 dotted;
+  border  : 1px $blacks dotted;
 
   img[src=''] {
     display : none;
@@ -75,7 +75,7 @@ kbd {
   }
 
   img {
-    box-shadow : 1px 1px 10px rgb(0, 0, 0);
+    box-shadow : 1px 1px 10px $black;
 
     @include     margin(null, 10px, 100px, null);
     @include     size(500px, 350px);
@@ -85,8 +85,8 @@ kbd {
 // / This appears to be the box around item in different sections on the main subpages
 
 .linuxContainer {
-  border     : 1px solid rgb(0, 0, 0);
-  box-shadow : 2px 2px 2px rgb(0, 0, 0);
+  border     : 1px solid $black;
+  box-shadow : 2px 2px 2px $black;
 
   @include     padding(10px, 10px, 10px, 10px);
   @include     margin(null, 2px, 20px, 2px);
@@ -102,7 +102,7 @@ kbd {
 }
 
 .card-img-top {
-  box-shadow : 2px 2px 2px #000000;
+  box-shadow : 2px 2px 2px $black;
 
   @include     margin(10px, 10px, 10px, 10px);
 }

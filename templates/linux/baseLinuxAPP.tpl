@@ -1,4 +1,7 @@
 <?php
+
+    $sectionTitle = 'Linux App Section - ';
+
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/linuxHQ/modules/variables/varInclude.php";
 

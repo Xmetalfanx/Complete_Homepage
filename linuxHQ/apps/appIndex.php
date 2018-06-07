@@ -2,8 +2,10 @@
 
     $title = 'App Section - App Index';
 
-        $sitePath = "/home/xmetalx1/public_html";
-        include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
+    $pageTitle = 'App Index';
+
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 
@@ -11,7 +13,7 @@
 
 <p>
   This section will contain PPA information and other linux program information not suitable for the
-  TechHQ Software section which contains main cross platform
+  TechHQ Software section which contains main cross platform</p>
   <ul class="accordion-tabs-minimal">
     <li class="tab-header-and-content"><a href="#" class="tab-link is-active">Graphics Programs</a>
       <div class="tab-content"></div>
@@ -77,6 +79,9 @@
       </div>
     </li>
   </ul>
-</p>
+
+</div> <!-- Closes second col -->
+</div> <!-- closes row/mainBody -->
+
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

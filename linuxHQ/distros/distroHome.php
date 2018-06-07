@@ -186,6 +186,8 @@
 
 
 
-</div></div>
+</div>
 
+</div>
+<!-- SHOULD be outside OF THE mainBody DIV ... if its not, there is a problem -->
 <?php include $sitePath . "/modules/footer.tpl"; ?>

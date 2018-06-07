@@ -1,4 +1,6 @@
 <?php
+    $sectionTitle = 'Linux Themes/Icon/ Section - ';
+
     $sitePath = '/home/xmetalx1/public_html';
 
     include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
