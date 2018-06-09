@@ -1,40 +1,38 @@
-{
-  "desktops": [
-    {
-      "framework": "gtk3",
-      "github": "https://github.com/linuxmint/cinnamon-desktop",
-      "homepage": "https://github.com/linuxmint/cinnamon-desktop",
-      "name": "Cinnamon"
-    },
-    {
-      "framework": "gtk3",
-      "github": "n/a",
-      "homepage": "https://budgie-desktop.org/home/",
-      "name": "Budgie"
-    },
-    {
-      "framework": "QT",
-      "github": "n/a",
-      "homepage": "https://www.kde.org/announcements/plasma5.0/",
-      "name": "plasma5"
-    },
-    {
-      "framework": "gtk2",
-      "github": "n/a",
-      "homepage": "",
-      "name": "XFCE"
-    },
-    {
-      "framework": "gtk3",
-      "github": "n/a",
-      "homepage": "",
-      "name": "Mate"
-    },
-    {
-      "framework": "gtk",
-      "github": "n/a",
-      "homepage": "https://lxde.org/",
-      "name": "LXDE"
-    }
-  ]
-}
+ [
+  {
+    "framework": "gtk3",
+    "github": "https://github.com/linuxmint/cinnamon-desktop",
+    "homepage": "https://github.com/linuxmint/cinnamon-desktop",
+    "name": "Cinnamon"
+  },
+  {
+    "framework": "gtk3",
+    "github": "n/a",
+    "homepage": "https://budgie-desktop.org/home/",
+    "name": "Budgie"
+  },
+  {
+    "framework": "QT",
+    "github": "n/a",
+    "homepage": "https://www.kde.org/announcements/plasma5.0/",
+    "name": "plasma5"
+  },
+  {
+    "framework": "gtk2",
+    "github": "n/a",
+    "homepage": "",
+    "name": "XFCE"
+  },
+  {
+    "framework": "gtk3",
+    "github": "n/a",
+    "homepage": "",
+    "name": "Mate"
+  },
+  {
+    "framework": "gtk",
+    "github": "n/a",
+    "homepage": "https://lxde.org/",
+    "name": "LXDE"
+  }
+]

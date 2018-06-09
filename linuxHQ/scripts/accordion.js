@@ -2,7 +2,7 @@ var accordions = document.getElementsByClassName("accordion");
 
 for (var i = 0; i < accordions.length; i++) {
   accordions[i].onclick = function() {
-    this.classList.toggle('is-open');
+    this.classList.toggle("is-open");
 
     var content = this.nextElementSibling;
     if (content.style.maxHeight) {
@@ -12,5 +12,9 @@ for (var i = 0; i < accordions.length; i++) {
       // accordion is currently closed, so open it
       content.style.maxHeight = content.scrollHeight + "px";
     }
+    
+  // Semi-colon below was added to address Codacy issue .. not sure if I should keep it or not
+
+  // Removed now for testing since it seems something is not right    
   }
 }

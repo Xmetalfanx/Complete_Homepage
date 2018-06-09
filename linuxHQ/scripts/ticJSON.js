@@ -1,21 +1,73 @@
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-       var response = JSON.parse(xhttp.responseText);
+// Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
 
-       //console.log(response.themes);
+// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
 
-       var themes = response.themes;
 
-       var outputTIC = '';
+function renderHTML(data){
+// Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
 
-       for (var i=0; i < themes.length;i++){
-         outputTIC += '<ul><li>Theme Name:'+themes[i].name+'</li><li>Github Link:'+themes[i].github+'</li></ul><br />';
-       }
+// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
 
-       document.getElementById('ticSection').innerHTML = outputTIC;
+var themeResults = document.getElementById("ticSection");
 
-    }
-};
-xhttp.open("GET", "http://xmetal.x10.mx/linuxHQ/json/themes.json", true);
-xhttp.send();
+
+// This should show the entire JSON file's info
+function entireJSONFile(data){
+
+  // New Idea reference URL: https://wesbos.com/template-strings-html/
+
+  // Should loop through the JSON file
+  for (var i = 0; i < data.length; i++){
+
+      // using ` for this are called "Template Literals"
+      const themeOutput =
+
+        `
+        <div>
+          <strong>Theme Name: 
+          ${data[i].name} </strong> <br />
+
+          Version: ${data[i].version} <br />
+
+          Theme has support for: ${data[i].supportInfo} <br />
+
+          <br  />
+          Gnomelook URL: <a href="${data[i].gnomelook}" target="_blank" >  
+            ${data[i].name} on Gnome Look </a> <br />
+
+          Github URL: <a href="${data[i].github} " target="_blank" > 
+            ${data[i].name} on Github </a> <br />
+
+          Deviant Art URL: <a href="${data[i].devarts}" target="_blank" > 
+            ${data[i].deviantArtURL} on DeviantArt </a> 
+              
+        </div> 
+        <hr />
+        `;
+        
+        themeResults.insertAdjacentHTML("beforebegin", themeOutput);
+  }
+}
+
+
+function ajaxGetJson(){
+
+    // Create new XMLHttpRequest and assign it to a variable
+    var themeRequest = new XMLHttpRequest();
+
+    // Get the JSON info located in the file at the URL specified
+    themeRequest.open("GET", "http://xmetal.x10.mx/linuxHQ/json/themes.json", true);
+
+    themeRequest.onload = function() {
+    var themeData = JSON.parse(themeRequest.responseText);
+
+        // Call to function above to show entire JSON file
+        entireJSONFile(themeData);
+
+        specificJSONEntry(themeData);
+
+
+		}
+
+		themeRequest.send();
+	}

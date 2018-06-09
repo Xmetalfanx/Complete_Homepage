@@ -4,17 +4,20 @@
     <meta charset="utf-8">
     <title></title>
 
-    <script type="text/javascript" src="/linuxHQ/scripts/getJSON.js">
+    <script src="http://xmetal.x10.mx/linuxHQ/scripts/getJSON.js"></script>
 
-    </script>
   </head>
-  <body>
+
+  <body onload="ajaxGetJson()">
 
 
     <!-- id named below, randomly for testing -->
     <div id="ticSection">
 
     </div>
+
+
+    <script src="http://xmetal.x10.mx/linuxHQ/scripts/getJSON.js"></script>
 
   </body>
 </html>

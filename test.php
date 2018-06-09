@@ -5,12 +5,7 @@
     <title> Testing Json and Ajax </title>
 
     <!--Include Jquery -->
-    <script
-			  src="https://code.jquery.com/jquery-3.3.1.min.js"
-			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			  crossorigin="anonymous">
-    </script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- inline css -->
     <style media="screen">
@@ -21,10 +16,10 @@
     </style>
 </head>
 
-<body>
+<body onload="ajaxGetJson()">
 
   <div id="desktopData">
-    <script src="linuxHQ/scripts/getJSON3.js"> </script>
+    <script src="linuxHQ/scripts/getJSON.js"> </script>
   </div>
 
 </body>

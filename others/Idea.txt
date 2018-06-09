@@ -1,0 +1,17 @@
+Idea 
+
+// function to link 
+function themeLink()
+{
+	// $1 would be the name of the site (Gnomelook, DeviantArt, ..etc )
+
+	// $2 is the actual URL 
+
+
+
+	// <a href="$2" target="_blank">  + data[i].name + URL on $1 </a>
+
+	// ?? assign what is above to a var? then pass that single var back? 
+
+
+}

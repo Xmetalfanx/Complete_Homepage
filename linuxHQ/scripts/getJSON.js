@@ -1,25 +1,105 @@
 // Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
-	function ajaxGetJson(){
-		var results = document.getElementById("ticSection");
+
+// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
+
+var themeResults = document.getElementById("ticSection");
+
+
+// This should show the entire JSON file's info
+function entireJSONFile(data){
+
+  // New Idea reference URL: https://wesbos.com/template-strings-html/
+
+  // Should loop through the JSON file
+  for (var i = 0; i < data.length; i++){
+
+      // using ` for this are called "Template Literals"
+      const themeOutput =
+
+        `
+        <div>
+          <strong>Theme Name: 
+          ${data[i].name} </strong> <br />
+
+          Version: ${data[i].version} <br />
+
+          Theme has support for: ${data[i].supportInfo} <br />
+
+          <br  />
+          Gnomelook URL: <a href="${data[i].gnomelook}" target="_blank" >  
+            ${data[i].name} on Gnome Look </a> <br />
+
+          Github URL: <a href="${data[i].github} " target="_blank" > 
+            ${data[i].name} on Github </a> <br />
+
+          Deviant Art URL: <a href="${data[i].devarts}" target="_blank" > 
+            ${data[i].deviantArtURL} on DeviantArt </a> 
+              
+        </div> 
+        <hr />
+        `;
+        
+        themeResults.insertAdjacentHTML("beforebegin", themeOutput);
+  }
+}
+
+
+// Test function to get specific entries
+function specificJSONEntry(data){
+
+  // I have idea if this would works
+  // reference for this idea: https://stackoverflow.com/questions/2917175/return-multiple-values-in-javascript
+
+
+    do {
+
+      `
+      <div>
+        <strong>Theme Name: 
+        ${data[i].name} </strong> <br />
+
+        Version: ${data[i].version} <br />
+
+        Theme has support for: ${data[i].supportInfo} <br />
+
+        <br  />
+        Gnomelook URL: <a href="${data[i].gnomelook}" target="_blank" >  
+          ${data[i].name} on Gnome Look </a> <br />
+
+        Github URL: <a href="${data[i].github} " target="_blank" > 
+          ${data[i].name} on Github </a> <br />
+
+        Deviant Art URL: <a href="${data[i].devarts}" target="_blank" > 
+          ${data[i].deviantArtURL} on DeviantArt </a> 
+            
+      </div> 
+      <hr />
+      `;
+      
+      themeResults.insertAdjacentHTML("beforebegin", themeOutput);
+
+    
+      } while ( data[i].name);
+}
+
+function ajaxGetJson(){
+
+    // Create new XMLHttpRequest and assign it to a variable
     var themeRequest = new XMLHttpRequest();
 
-		themeRequest.open("GET", "http://xmetal.x10.mx/linuxHQ/json/themes.json", true);
-    themeRequest.setRequestHeader("Content-type", "application/json", true);
-    themeRequest.onreadystatechange = function() {
+      // Get the JSON info located in the file at the URL specified
+      themeRequest.open("GET", "http://xmetal.x10.mx/linuxHQ/json/themes.json", true);
 
-			if(themeRequest.readyState == 4 && themeRequest.status == 200) {
-		    var data = JSON.parse(themeRequest.responseText);
+    themeRequest.onload = function() {
+    var themeData = JSON.parse(themeRequest.responseText);
 
-				//console.log(themeRequest);
+        // Call to function above to show entire JSON file
+        entireJSONFile(themeData);
 
-				results.innerHTML = "";
+        specificJSONEntry(themeData);
 
-				for(var obj in data){
-					results.innerHTML += "Theme Name:"+data[obj].name+", its Gnomelook.org URL is: "+data[obj].gnomelook+", It's DevArts URL is"+data[obj].devarts+", AND its Github URL is:"+data[obj].github+"<hr />";
-				}
-	    }
 
-    }
-    themeRequest.send(null);
-    results.innerHTML = "requesting...";
+		}
+
+		themeRequest.send();
 	}

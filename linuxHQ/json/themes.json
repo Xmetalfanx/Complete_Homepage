@@ -1,23 +1,44 @@
-{
-  "arc":
-  {
-      "name":"Arc",
-      "gnomelook":"N/A",
-      "devarts":"N/A",
-      "github":"N/A"
-    },
-
-    "numix":{
-      "name":"Numix",
-      "gnomelook":"N/A",
-      "devarts":"N/A",
-      "github":"N/A"
-    },
-
-    "adapta":{
+[
+      {
       "name":"Adapta",
+      "version":"",
+
+
+      "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+
+
+      "devarts":"N/A",
+      "github":"https://github.com/adapta-project/adapta-gtk-theme"
+      },
+
+      {
+      "name":"Arc",
+      "version":"",
+
+      "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+
       "gnomelook":"N/A",
       "devarts":"N/A",
-      "github":"N/A"
-    }
-}
+      "github":"https://github.com/horst3180/arc-theme"
+      },
+
+      {
+      "name":"Numix",
+      "version":"",
+
+      "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+      "devarts":"N/A",
+      "github":"https://github.com/numixproject/numix-gtk-theme"
+      },
+
+         {
+      "name":"Mint-Y",
+      "version":"",
+
+      "supportInfo":"gtk3, cinnamon",
+      "devarts":"N/A",
+      "github":""
+      }
+
+
+]
