@@ -1,4 +1,4 @@
-<?php  $title = 'Xmetal\'s LinuxHQ - Credits for Distros and Screenshots'; ?>
+<?php  $pageTitle = 'Xmetal\'s LinuxHQ - Credits for Distros and Screenshots'; ?>
 
 <p>
   All Screenshots, Logos, and other content belong to their respective developers ... I am not claiming I &quot;own&quot; any of them and IF any

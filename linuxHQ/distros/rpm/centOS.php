@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Distribution Section - CentOS ';
+	$pageTitle = 'Distribution Section - CentOS ';
 
 	$localdistroname = 'centos';
 	$sectionVar = "distro";

@@ -1,6 +1,6 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section - Ad/Content Blocking - Ad/Content Blocking Basics ';
+	 $pageTitle = 'Ad/Content Blocking - Ad/Content Blocking Basics ';
 	 $sitePath = "/home/xmetalx1/public_html";
 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 ?>

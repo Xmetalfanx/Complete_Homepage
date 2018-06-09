@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - Live Version Information';
+	$pageTitle = 'Live Version Information';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

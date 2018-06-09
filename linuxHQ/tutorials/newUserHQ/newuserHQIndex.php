@@ -1,6 +1,6 @@
 <?php
 
-  $title = 'New User Section - New User Section Index Page';
+  $pageTitle = 'New User Section Index Page';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

@@ -1,6 +1,6 @@
 <?php
 
-	 $the_title = 'Xmetalfanx Browser Section - Umatrix Layout ';
+	 $pageTitle = 'Ad/Content Blocking - Umatrix Layout ';
 	 $sitePath = "/home/xmetalx1/public_html";
 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 

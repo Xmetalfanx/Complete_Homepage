@@ -1,5 +1,5 @@
 <?php
-		$title = 'Theme/Icon/Cursor Section - ';
+		$pageTitle = 'Frontpage';
 
 		$sitePath = "/home/xmetalx1/public_html";
 		include $sitePath . "/templates/linux/blankTemplates/baseLinuxTICBlank.tpl";

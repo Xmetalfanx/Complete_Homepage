@@ -16,19 +16,20 @@
 
   <div class="row">
 
-    <div class="col-3 float-left">
+    <div class="col-3">
       <a href="https://www.khanacademy.org/" target="_blank"></a>
       <img src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic"/>
     </div>
 
       <div class="col-3">
-        <a href="https://linuxacademy.com/" target="_blank"></a>
-        <img src="/techHQ/graphics/linuxAcad.png" alt="Linux Academy Graphic"/>
+        <a href="https://linuxacademy.com/" target="_blank">
+          <img src="/techHQ/graphics/linuxAcad2.png" alt="Linux Academy Graphic"/>
+      </a>
       </div>
 
-      <div class="col-3 float-right">
+      <div class="col-3">
         <a href="https://www.digitalocean.com/community/" target="_blank"></a>
-        <img src="/techHQ/graphics/digital-ocean.png" alt="Digital Ocean Graphic"/>
+          <img src="/techHQ/graphics/digital-ocean.png" alt="Digital Ocean Graphic" class="float-right"/>
       </div>
 
         <br/><br/>

@@ -1,6 +1,6 @@
 <?php
 
-  $title ='TechHQ - Guide Summary'
+  $pageTitle ='Guide Summary'
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
 
@@ -24,9 +24,7 @@
   first place. (although you may not have known it). I have even seen newly bought computers bogged down with so many trials programs and
   other &quot;offers&quot; it's &quot;not even funny&quot;
   </p>
-  <p>
-    <img src="../graphics/computer/ordinateur-49.gif" width="280" height="174" alt="confused computer" />
-  </p>
+
   <p class="redtext">Programs I trust for One-Click Maintenance:
   </p>
   <ul>
@@ -198,8 +196,7 @@
     </ul>
     </li>
   </ol>
-  <p>&nbsp;
-  </p>
+
   <ol>
     <li>
     <span class="boldText">Registry Cleaner    </span>
@@ -305,4 +302,4 @@
     <img src="../graphics/computer/ordinateur-47.gif" alt="Happy Computer" width="106" height="117" class="center" />
   </p>
 
-  <?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+  <?php include $sitePath . "/modules/footer.tpl"; ?>

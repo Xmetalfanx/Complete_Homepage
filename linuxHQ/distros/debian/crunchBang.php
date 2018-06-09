@@ -1,6 +1,6 @@
 <?php
 
-		$title = 'Distribution Section -  Crunchbang';
+		$pageTitle = 'Distribution Section -  Crunchbang';
 
 		$name = 'Crunchbang';
 		$family = 'Debian ';

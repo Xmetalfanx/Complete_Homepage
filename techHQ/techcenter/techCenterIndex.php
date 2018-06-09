@@ -1,6 +1,6 @@
 <?php
 
-  $the_title ='TechHQ - Guide Summary';
+  $pageTitle =' TechCenter Section Frontpage ';
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
 
@@ -25,4 +25,4 @@
    catagory) some of my favorite programs for each task...
   many are already cross platform (Works in Linux AND Windows).</p>
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

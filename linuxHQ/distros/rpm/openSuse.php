@@ -8,7 +8,7 @@
     <a href="http://mirrors.opensuse.org/list/all.html" target="_blank">http://mirrors.opensuse.org/list/all.html</a> ' ;
 
 
-  	$pageTitle = 'OpenSUSE ';
+  $pageTitle = 'OpenSUSE ';
 
 
 

@@ -1,5 +1,5 @@
 <?php
-	$the_title = 'Xmetalfanx\'s Security Section - How to block web advertisers from tracking you';
+	$pageTitle = 'Xmetalfanx\'s Security Section - How to block web advertisers from tracking you';
 ?>
 
 p

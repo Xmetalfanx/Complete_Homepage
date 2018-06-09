@@ -1,6 +1,6 @@
 <?php
 
-	global $mainTitle;
+	$sectionTitle = 'TechHQ Section - ';
 	include $sitePath . '/modules/tech/baseTechHeader.tpl';
 
 ?>

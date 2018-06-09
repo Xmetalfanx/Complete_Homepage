@@ -1,9 +1,9 @@
 <?php
 
   $pageTitle = 'Productivity/Office Programs';
-  
+
   $sitePath = "/home/xmetalx1/public_html";
-  
+
   include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
@@ -31,9 +31,9 @@
                             <ul>
                                 <li><img src="../progIcons/product/pdf/PDFCreator.gif" alt="PDF Creator Icon" /><a href="http://www.pdfforge.org/">PDF Creator</a></li>
                             </ul>
-                            
+
                             <p>This is a recent find (as in the past 12 hours) ... Its open source and so far I like this best. Its a printer driver (like many other free PDF Creators) HOWEVER, I had <span class="redtext">PDF955 Free PDF Printer driver</span> which was &quot;OK&quot; but displayed a popup add for a few seconds every time you used it. Functional but annoying if you ask me ....</p>&#x9;&#x9;&#x9;
-                            
+
                             <p>This IS A HEFTY 16MB which I believe includes GhostScript ( Even I am not sure what this is) and is needed to run this program. I rather this be the case then to have a @ 2MB download and have to go hunt down GhostScript manually.</p>
                     </li>
                 </ul>

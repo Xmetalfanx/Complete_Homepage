@@ -2,13 +2,12 @@
 
 	$pageTitle = 'Budgie ';
 
-	 $sectionVar = "DE";
+	$sectionVar = "DE";
 
+  $sitePath="/home/xmetalx1/public_html";
+  include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
-    $sitePath="/home/xmetalx1/public_html";
-    include $sitePath . "/templates/linux/baseLinuxDE.tpl";
-
-    $localdename = 'budgie';
+  $localdename = 'budgie';
 
 ?>
 

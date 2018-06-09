@@ -1,6 +1,6 @@
 <?php
 
-      $the_title = 'Xmetalfanx Browser Section -  Ad/Content Blocking - Dynamic Filters in Ublock Explained';
+      $pageTitle = 'Ad/Content Blocking - Dynamic Filters in Ublock Explained';
       $sitePath = "/home/xmetalx1/public_html";
       include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 

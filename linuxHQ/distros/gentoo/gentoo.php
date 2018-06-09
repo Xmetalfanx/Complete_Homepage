@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Distribution Section -  Gentoo';
+	$pageTitle = 'Distribution Section -  Gentoo';
 
 	$localdistroname = 'gentoo';
 

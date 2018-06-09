@@ -1,7 +1,7 @@
 <?php
 
     $sitePath = "/home/xmetalx1/public_html";
-    $the_title = 'Xmetalfanxs Contact Page';
+    $pageTitle = 'Xmetalfanxs Contact Page';
     include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
 ?>
@@ -15,4 +15,4 @@
   <noscript>Please enable Javascript to see the email address</noscript>
 </div>
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $sitePath . "/modules/footer.tpl"; ?>

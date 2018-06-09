@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Tutorial Section - Tutorial Index Page';
+	$pageTitle = 'Tutorial Index Page';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxTutorials.tpl";

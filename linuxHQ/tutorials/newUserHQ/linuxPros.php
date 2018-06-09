@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - Linux Pros/Positives things about Linux';
+	$pageTitle = 'Linux Pros/Positives things about Linux';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

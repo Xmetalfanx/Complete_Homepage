@@ -1,6 +1,6 @@
 <?php
 
-	$sectionTitle = "Main Section - ";
+	$sectionTitle = 'Main Section - ';
 	include $sitePath . '/modules/tech/baseTechHeader.tpl';
 
 ?>

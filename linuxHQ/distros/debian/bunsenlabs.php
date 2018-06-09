@@ -1,6 +1,6 @@
 <?php
 
-	$pageTile = 'Bunsenlabs';
+	$pageTitle = 'Bunsenlabs';
 
 	$localdistroname = 'bunsenlabs';
 

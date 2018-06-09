@@ -2,7 +2,7 @@
 
   $localdistroname = 'rosa';
 
-   $title = 'Distribution Section - Rosa ';
+   $pageTitle = 'ROSA';
 
    $sectionVar = "distro";
 

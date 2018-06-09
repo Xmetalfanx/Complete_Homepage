@@ -2,9 +2,7 @@
 
   $localdename = 'mate';
 
-   $sectionVar = "DE";
-
-
+  $sectionVar = "DE";
 
   $deFeatured = '<ul>
 					<li> ' . $Fedora . ' Mate + Compiz </li>

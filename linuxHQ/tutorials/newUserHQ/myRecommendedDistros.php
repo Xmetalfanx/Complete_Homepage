@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - My Recommended Distros for New Users';
+	$pageTitle = 'My Recommended Distros for New Users';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . '/linuxHQ/modules/variables/varinclude.php';

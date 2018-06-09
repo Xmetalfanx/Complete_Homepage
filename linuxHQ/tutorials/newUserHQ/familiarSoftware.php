@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - Familiar Software that you may use in Window';
+	$pageTitle = 'Familiar Software that you may use in Window';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

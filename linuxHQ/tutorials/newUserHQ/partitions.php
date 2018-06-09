@@ -1,10 +1,10 @@
 <?php
 
-	 $title = 'New User Section - Partitions... What are they?';
+	$pageTitle = 'Partitions... What are they?';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
-  ?>
+?>
 
 
 	<h3>What is a Partition</h3>

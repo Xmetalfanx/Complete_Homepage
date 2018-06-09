@@ -6,6 +6,6 @@
 		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
 		$sitePath = "/home/xmetalx1/public_html";
 
-		$title = 'Theme/Icon/Cursor Section - ';
+		$pageTitle = 'Yosemite Theme Page';
 
 ?>

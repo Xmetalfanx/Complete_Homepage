@@ -1,6 +1,6 @@
 <?php
 
-  $title = 'New User Section - Using ISOs'
+  $pageTitle = 'New User Section - Using ISOs'
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
@@ -10,7 +10,7 @@
 
 
 <p class="boldUnderline">Windows</p>
-<p class="col2SectionHeaders">Programs to put ISOs on USB sticks</p>
+<p >Programs to put ISOs on USB sticks</p>
 <ul>
   <li>ImageUSB <a href="http://www.osforensics.com/tools/write-usb-images.html" target="_blank">
 	http://www.osforensics.com/tools/write-usb-images.html</a></li>

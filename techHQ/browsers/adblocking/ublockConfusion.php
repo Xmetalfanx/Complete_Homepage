@@ -1,6 +1,6 @@
 <?php
 
-	 $the_title = 'Browser Section - uBlock Confusion';
+	 $pageTitle = 'Ad/Content Blocking - uBlock Confusion';
 	 $sitePath = "/home/xmetalx1/public_html";
 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 

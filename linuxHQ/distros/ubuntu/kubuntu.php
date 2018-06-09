@@ -1,6 +1,6 @@
 <?php
 
-  $localdistroname = 'kubuntu';
+  $localdistroname = 'Kubuntu';
   $sectionVar = "distro";
 
   $pageTitle = 'Kubuntu';

@@ -1,6 +1,6 @@
 <?php
 
-	 $the_title = '- Browser Section ';
+	 $pageTitle = 'Browser Section Frontpage';
 	 $sitePath = "/home/xmetalx1/public_html";
 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 

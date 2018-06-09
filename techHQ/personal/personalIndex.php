@@ -1,6 +1,6 @@
 <?php
 
-  	$the_title ='Personal Section - Personal Section Index';
+  	$pageTitle ='Personal Section - Personal Section Index';
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/tech/baseTechPersonalTemp.tpl";
 

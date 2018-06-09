@@ -1,22 +1,19 @@
 <?php
 
   $pageTitle = 'Software Section Main Page';
-
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 
 
-
-
 <!-- TODO: Align Center -->
 <div class="row hidden-sm-down">
   <div class="col-md-3">
-    Softpedia Graphic Here 
+    Softpedia Graphic Here
   </div>
   <div class="col-md-3">
-    MajorGeeks Graphic Here 
+    MajorGeeks Graphic Here
   </div>
 </div>
 
@@ -39,7 +36,7 @@
           <div class="card-body">
             <h4 class="card-title">
              <a href="#">
-              GIMP 
+              GIMP
             </a>
           </h4>
           <p class="card-text">
@@ -56,7 +53,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="https://krita.org/en/" target="_blank">
-              Krita  
+              Krita
             </a>
           </h4>
 
@@ -102,7 +99,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="#" ">
-            Clementine Homepage 
+            Clementine Homepage
             </a>
           </h4>
           <p class="card-text">
@@ -124,7 +121,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">
-              SMPlayer Homepage 
+              SMPlayer Homepage
             </a>
           </h4>
 
@@ -140,11 +137,11 @@
         <a href="..">
           <img class="card-img-top hidden-md-down" src=".." alt="MPV Screenshot" />
         </a>
-        
+
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">
-              MPV Homepage 
+              MPV Homepage
             </a>
           </h4>
           <p class="card-text">
@@ -160,7 +157,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">
-              VLC 
+              VLC
             </a>
           </h4>
           <p class="card-text">
@@ -168,7 +165,7 @@
           </p>
         </div>
       </div> <!-- Ends Third Item -->
-    </div> <!-- Ends Row for Video Players --> 
+    </div> <!-- Ends Row for Video Players -->
   </li>
 
 
@@ -182,7 +179,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">
-              Libre Office 
+              Libre Office
             </a>
           </h4>
           <p class="card-text">
@@ -206,7 +203,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="http://bleachbit.sourceforge.net/">
-              Bleachbit 
+              Bleachbit
             </a>
           </h4>
           <p class="card-text">
@@ -241,7 +238,7 @@
 
           <h4 class="card-title">
             <a href="https://pinta-project.com/pintaproject/pinta/">
-              Pinta 
+              Pinta
             </a>
           </h4>
 
@@ -261,7 +258,7 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="http://docs.xfce.org/apps/ristretto/start">
-            Ristretto Homepage 
+            Ristretto Homepage
           </a>
 
 
@@ -280,23 +277,23 @@
           <h4 class="card-title">
 
            <a href="https://www.kde.org/applications/graphics/gwenview/">
-            Gwenview Homepage 
+            Gwenview Homepage
           </a>
 
         </h4>
           <p class="card-text">
-            Usually instaled with KDE/Plasma 5 flavors of Linux 
+            Usually instaled with KDE/Plasma 5 flavors of Linux
           </p>
 
         </div>
       </div> <!-- Ends Third Item -->
 
-    </div> <!-- Ends Row--> 
+    </div> <!-- Ends Row-->
 
 
 
     <div class="row">
-      <div class="col-lg-5"> 
+      <div class="col-lg-5">
         <a href="https://pinta-project.com/pintaproject/pinta/">Pinta </a>
       </div>
       </div>
@@ -318,14 +315,14 @@
           <div class="card-body">
             <h4 class="card-title">
               <a href="http://deadbeef.sourceforge.net">
-              Deadbeef Homepage 
+              Deadbeef Homepage
               </a>
           </h4>
             <p class="card-text">
 
             </p>
 
-        
+
           </div>
         </div> <!-- Ends Second Item -->
 
@@ -336,7 +333,7 @@
           <div class="card-body">
             <h4 class="card-title">
               <a href="http://audacious-media-player.org/">
-                Audacious 
+                Audacious
               </a>
             </h4>
             <p class="card-text">
@@ -344,7 +341,7 @@
             </p>
           </div>
         </div> <!-- Ends Third Item -->
-      </div> <!-- Ends Row--> 
+      </div> <!-- Ends Row-->
     </div>
   </li>
 </ul>
@@ -371,10 +368,10 @@
       <div class="card-body">
         <h4 class="card-title">
           <a href="https://www.xnview.com/en/xnview/" target="_blank">
-            Xnview 
+            Xnview
           </a>
         </h4>
-        
+
         <p class="card-text">
          My Favorite Image editor/so-called... Basic Image editor in Windows ... VERY powerful and well-done program
        </p>
@@ -425,7 +422,7 @@
      </div>
    </div> <!-- Ends Item -->
 
- </div> <!-- Ends Row --> 
+ </div> <!-- Ends Row -->
 </div>
 </li>
 
@@ -435,7 +432,7 @@
   <div class="tab-content">
     <p>PDF Readers - Adobe Acrobat Reader alternatives</p>
     <div class="row">
-      
+
 
       <div class="card" style="width: 44%;margin-right: 20px;">
         <a href="..">
@@ -444,12 +441,12 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="https://www.sumatrapdfreader.org/free-pdf-reader.html" target="_blank">
-              Sumatra PDF 
+              Sumatra PDF
             </a>
           </h4>
-          
+
           <p class="card-text">
-            
+
           </p>
         </div>
       </div> <!-- Ends First Item -->
@@ -462,11 +459,11 @@
         <div class="card-body">
           <h4 class="card-title">
             <a href="https://www.tracker-software.com/product/pdf-xchange-viewer">
-             PDF-XChange Viewer 
+             PDF-XChange Viewer
             </a>
           </h4>
           <p class="card-text">
-            
+
           </p>
         </div>
       </div> <!-- Ends Second Item -->
@@ -491,7 +488,7 @@
 
           </p>
           <a href="http://www.avast.com/free-antivirus-download" class="btn btn-primary">
-           Avast Homepage 
+           Avast Homepage
          </a>
        </div>
      </div> <!-- Ends Avast Item -->
@@ -504,10 +501,10 @@
       <div class="card-body">
         <h4 class="card-title">
           <a href="http://www.malwarebytes.org/">
-             Malwarebytes Anti-Malware 
+             Malwarebytes Anti-Malware
           </a>
         </h4>
-        
+
         <p class="card-text">
 
         </p>
@@ -523,10 +520,10 @@
     <div class="card-body">
       <h4 class="card-title">
         <a href="https://www.emsisoft.com/en/software/eek/">
-         Emsisoft Emergency Toolkit 
+         Emsisoft Emergency Toolkit
         </a>
       </h4>
-      
+
       <p class="card-text">
 
       </p>
@@ -539,7 +536,7 @@
   <h2>Cache/Temp File Cleaner</h2>
 
 
-  <div class="row"> 
+  <div class="row">
         <div class="card" style="width: 44%;margin-right: 20px;">
           <a href="..">
             <img class="card-img-top hidden-md-down" src=".." alt="CCEhancer Screenshot" />
@@ -564,7 +561,7 @@
           <div class="card-body">
             <h4 class="card-title">
               <a href="..">
-               CCleaner   
+               CCleaner
              </a>
            </h4>
            <p class="card-text">
@@ -572,8 +569,8 @@
            </p>
          </div>
        </div> <!-- Ends WiseCare360 Item -->
-     </div> <!-- Ends Row --> 
-  
+     </div> <!-- Ends Row -->
+
   </div>
 </li>
 
@@ -584,7 +581,7 @@
       <a href="https://www.partitionwizard.com/free-partition-manager.html">Minitools Partition Manager Freeware Edition</a>
 
       <h4>System Suite</h4>
-      <div class="row"> 
+      <div class="row">
         <div class="card" style="width: 44%;margin-right: 20px;">
           <a href="..">
             <img class="card-img-top hidden-md-down" src=".." alt="Glary Utilities Screenshot" />
@@ -593,7 +590,7 @@
             <h4 class="card-title">
 
               <a href="..">
-                Glary Utilities 
+                Glary Utilities
               </a>
             </h4>
             <p class="card-text">
@@ -610,7 +607,7 @@
           <div class="card-body">
             <h4 class="card-title">
               <a href="..">
-               WiseCare360  
+               WiseCare360
              </a>
            </h4>
            <p class="card-text">
@@ -618,7 +615,7 @@
            </p>
          </div>
        </div> <!-- Ends WiseCare360 Item -->
-     </div> <!-- Ends Row --> 
+     </div> <!-- Ends Row -->
 
    </div>
  </li>

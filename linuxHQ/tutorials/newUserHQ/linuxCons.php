@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - Linux Cons/Negitive Things about Linux';
+	$pageTitle = 'Linux Cons/Negitive Things about Linux';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
@@ -57,6 +57,6 @@
     </ul>
     </li>
   </ul>
-  
+
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

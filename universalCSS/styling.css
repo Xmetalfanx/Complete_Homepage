@@ -340,7 +340,7 @@ nav {
   color: white;
   background-color: #333333;
   font-weight: bold; }
-  nav .navbar-brand a {
+  nav .navbar-brand {
     font-size: 36px;
     padding: 0 0 0 10px; }
   nav .navbar-nav a:link {
@@ -363,10 +363,10 @@ footer {
 
 #mainBody {
   flex-grow: 1;
+  text-align: justify;
   color: #333333;
   background-color: white;
-  padding: 1% 0 0 1%;
-  text-align: justify; }
+  padding: 1% 0 0 1%; }
 
 #StartPageStyle {
   display: flex;

@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'Tutorial Section - Upgrading Debian Branches';
+	$pageTitle = 'Upgrading Debian Branches';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

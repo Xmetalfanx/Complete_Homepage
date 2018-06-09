@@ -10,8 +10,8 @@
       <a href="http://mirrors.fedoraproject.org/publiclist" target="_blank">http://mirrors.fedoraproject.org/publiclist</a> ' ;
 
 
-  	$pageTitle = 'Fedora';
-  	$sectionVar = "distro";
+	$pageTitle = 'Fedora';
+	$sectionVar = "distro";
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";

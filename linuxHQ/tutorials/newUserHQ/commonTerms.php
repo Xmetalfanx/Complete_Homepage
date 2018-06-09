@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - Common Terms in Linux';
+	$pageTitle = 'Common Terms in Linux';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

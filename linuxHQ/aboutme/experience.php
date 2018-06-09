@@ -1,3 +1,5 @@
+<!-- Idea: change this to JSON down the line --> 
+
 <?php
 
 // My Linux experience file

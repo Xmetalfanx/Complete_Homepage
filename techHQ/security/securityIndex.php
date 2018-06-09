@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = ' Main Index Page ';
+	$pageTitle = ' Security Section Frontpage';
 
     $sitePath = "/home/xmetalx1/public_html";
     include $sitePath . "/templates/tech/baseTechSecurityTemp.tpl";

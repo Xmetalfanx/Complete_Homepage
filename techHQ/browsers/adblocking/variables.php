@@ -1,3 +1,5 @@
+<!-- This probably could be changed to JSON in the future --> 
+
 <?php
 
       // Icons

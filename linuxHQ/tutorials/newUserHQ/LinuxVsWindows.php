@@ -1,6 +1,6 @@
 <?php
 
-	$title = 'New User Section - Linux versus Windows';
+	$pageTitle = 'Linux versus Windows';
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";

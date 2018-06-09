@@ -1,6 +1,6 @@
 <?php
 
-	 $the_title = '- Browser Section - ';
+	 $pageTitle = 'Ad/Content Blocking - Ublock Tutorial';
 	 $sitePath = "/home/xmetalx1/public_html";
 	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
 

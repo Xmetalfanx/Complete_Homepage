@@ -9,6 +9,6 @@
 		include $sitePath . "/linuxHQ/modules/variables/varIncludes.php";
 		include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
 
-		$title = 'Theme/Icon/Cursor Section - Arc-Theme ';
+		$pageTitle = 'Arc-Theme ';
 
 ?>
