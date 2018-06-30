@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>JSON and Ajax Theme JSON file Tests </title>
 
     <script src="http://xmetal.x10.mx/linuxHQ/scripts/getJSON.js"></script>
 
