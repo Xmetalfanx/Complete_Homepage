@@ -3,6 +3,12 @@
 // Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
 
 
+
+
+
+
+
+
 function renderHTML(data){
 // Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
 

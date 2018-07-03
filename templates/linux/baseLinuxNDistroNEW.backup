@@ -15,7 +15,7 @@
 		   include $sitePath . ('/linuxHQ/database/dbconnect.php');
 
 		   //Variables
-		   $distroTitle = $display["name"];
+		   $distroTitle = $display["desktopName"];
 		   $distroBase = $display[base];
 		   $distroIcon = '<img src=" ' . $display["icons"] . ' " alt=" ' . $display[distroName] . ' \'s Homepage" />';
 		   $homepage = '<a href=" ' . $display[homepage] . ' " > '  . $display[distroName] . ' \'s Icon " > ';

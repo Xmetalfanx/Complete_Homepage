@@ -1,19 +1,19 @@
 {
   "themes":[
     {
-      "name":"Arc",
+      "desktopName":"Arc",
       "gnomelook":"N/A",
       "devarts":"N/A",
       "github":"N/A"
     },
     {
-      "name":"Numix",
+      "desktopName":"Numix",
       "gnomelook":"N/A",
       "devarts":"N/A",
       "github":"N/A"
     },
     {
-      "name":"Adapta",
+      "desktopName":"Adapta",
       "gnomelook":"N/A",
       "devarts":"N/A",
       "github":"N/A"

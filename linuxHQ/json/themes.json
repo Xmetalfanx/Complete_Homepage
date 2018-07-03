@@ -1,6 +1,6 @@
 [
       {
-      "name":"Adapta",
+      "desktopName":"Adapta",
       "version":"",
 
 
@@ -12,7 +12,7 @@
       },
 
       {
-      "name":"Arc",
+      "desktopName":"Arc",
       "version":"",
 
       "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
@@ -23,7 +23,7 @@
       },
 
       {
-      "name":"Numix",
+      "desktopName":"Numix",
       "version":"",
 
       "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
@@ -32,7 +32,7 @@
       },
 
          {
-      "name":"Mint-Y",
+      "desktopName":"Mint-Y",
       "version":"",
 
       "supportInfo":"gtk3, cinnamon",
