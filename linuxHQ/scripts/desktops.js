@@ -5,7 +5,7 @@
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
-// Displays the 
+
 function entireJSONFile(desktopData){
 
   // Should cycle through, and display the HTML to the desktopResults 
@@ -65,7 +65,7 @@ function specificDesktops(data){
 function getDesktopData(desktopData)
 {
 
-  $.getJSON('http://xmetal.x10.mx/linuxHQ/json/desktops.json', function (){
+  $.getJSON('http://xmetal.x10.mx/linuxHQ/json/desktops.json', function (results){
   
    // Moved themeOutput here since it shouldn't be redone EACH time the loop goes through 
         // using ` for this are called "Template Literals"
@@ -89,10 +89,9 @@ function getDesktopData(desktopData)
         `;
 
 
-        // Loop through file 
-         for (var i = 0; i < desktoData.length; i++){
-
-          console.log(JSON.parse(themeOutput));
+        // Loop through JSON file, as long as there is more data 
+        $.each(result, function(i, field){
+          console.log(JSON.parse(results));
         }
 
   });
