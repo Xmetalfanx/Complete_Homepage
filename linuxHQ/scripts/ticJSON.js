@@ -3,12 +3,6 @@
 // Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
 
 
-
-
-
-
-
-
 function renderHTML(data){
 // Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
 
@@ -30,7 +24,7 @@ function entireJSONFile(data){
 
         `
         <div>
-          <strong>Theme Name: 
+          <strong>Theme Name:
           ${data[i].name} </strong> <br />
 
           Version: ${data[i].version} <br />
@@ -38,19 +32,19 @@ function entireJSONFile(data){
           Theme has support for: ${data[i].supportInfo} <br />
 
           <br  />
-          Gnomelook URL: <a href="${data[i].gnomelook}" target="_blank" >  
+          Gnomelook URL: <a href="${data[i].gnomelook}" target="_blank" >
             ${data[i].name} on Gnome Look </a> <br />
 
-          Github URL: <a href="${data[i].github} " target="_blank" > 
+          Github URL: <a href="${data[i].github} " target="_blank" >
             ${data[i].name} on Github </a> <br />
 
-          Deviant Art URL: <a href="${data[i].devarts}" target="_blank" > 
-            ${data[i].deviantArtURL} on DeviantArt </a> 
-              
-        </div> 
+          Deviant Art URL: <a href="${data[i].devarts}" target="_blank" >
+            ${data[i].deviantArtURL} on DeviantArt </a>
+
+        </div>
         <hr />
         `;
-        
+
         themeResults.insertAdjacentHTML("beforebegin", themeOutput);
   }
 }

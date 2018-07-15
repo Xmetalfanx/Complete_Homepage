@@ -5,95 +5,57 @@
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
+// looks for specific info 
+function specificDEInfo(data)
+{
 
-function entireJSONFile(desktopData){
+  // Test ... this var would be located in each specific page 
+  localDEName = "Cinnamon";
 
-  // Should cycle through, and display the HTML to the desktopResults 
-  desktopResults.insertAdjacentHTML("beforebegin", themeOutput);
-   
+  $.each(data, function (key,value){
+
+    var desktopOutput = `
+
+    Desktop Name: ${this.desktopName} 
+    <br />
+    
+    Framework: ${this.desktopFramework} 
+    <br /> 
+
+    Homepage: 
+    <a href="${this.desktopHomepage}" target="_blank"> 
+    ${this.desktopName} Homepage </a> 
+    <br /> 
+
+    Github URL: <a href="${this.desktopGithubURL}" target="_blank"
+    > 
+
+    ${this.desktopName} on Github </a>
+    <br /><hr /> 
+
+    `;
+
+
+    if (this.desktopName == localDEName) {
+
+      desktopResults.insertAdjacentHTML("afterbegin", desktopOutput); 
+
+    } // Ends if loop
+
+  }) // Ends .each loop
 }
 
 
-/*
-
-// My attempt that when done will only display specific information for certain desktops and NOT the entire JSON file
-function specificDesktops(data){
-
-  // This is a test and this var would be in the individual DE files, not here
-  let localdename = 'cinnamon';
-
-    // Loop 1 - Cycles through the JSON file, as long as there is content
-    for (var i = 0; i < desktopData.length; i++){
-
-      // if the desktopName in the json object is equal to the localdename content,
-      // then do the content inside the loop
-      while (desktopNameCheck === localdename){
-
-        // var idea for nested loop
-        // inside of this loop, this should only run once 
-        let desktopNameCheck = data[i].desktopName;
-
-        // for testing only
-        console.log(desktopNameCheck);
-
-          // using ` for this are called "Template Literals"
-          const desktopOutput =
-            `
-            <div>
-              <strong>Desktop Name: ${data[i].name} </strong> <br />
-
-              Theme Homepage: ${data[i].homepage} <br />
-              Theme Framework: ${data[i].framework} <br />
-              <br  />
-
-              Github URL: <a href=" ${data[i].github} " target="_blank" > ${data[i].name} on Github </a> <br />
-
-            </div>
-            <hr />
-            `;
-
-            desktopResults.insertAdjacentHTML("beforebegin", desktopOutput);
-          }
-        }
-      }
-
-*/
-
-
-
 // "main" function
-function getDesktopData(desktopData)
-{
+function getDesktopData(desktopData) {
 
-  $.getJSON('http://xmetal.x10.mx/linuxHQ/json/desktops.json', function (results){
-  
-   // Moved themeOutput here since it shouldn't be redone EACH time the loop goes through 
-        // using ` for this are called "Template Literals"
-        // why const and not var here? ... there COULD be a good reason 
-      const themeOutput =
-
-        `
-        <div>
-          <strong>Desktop Name:
-          ${distroName} </strong> <br />
-
-          Theme Homepage: ${homepage} <br />
-          Theme Framework: ${framework} <br />
-          <br  />
-
-          Github URL: <a href="${github} " target="_blank" >
-            ${distroName} on Github </a> <br />
-
-        </div>
-        <hr />
-        `;
+  // Get JSON Data 
+  $.getJSON("http://xmetal.x10.mx/linuxHQ/json/desktops.json", function (data) {
 
 
-        // Loop through JSON file, as long as there is more data 
-        $.each(result, function(i, field){
-          console.log(JSON.parse(results));
-        }
+  // Testing getting specific info 
+  specificDEInfo(data);
 
-  });
+  }); // ends getJSON loop
 
 }
