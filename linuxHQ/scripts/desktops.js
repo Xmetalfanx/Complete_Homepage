@@ -5,56 +5,66 @@
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
-// looks for specific info 
-function specificDEInfo(data)
-{
+function newJSONLayoutTest(data){
 
-  // Test ... this var would be located in each specific page 
-  localDEName = "Cinnamon";
+    /////////////////////////////////////////////////////////////////////////
+    // Variables 
 
-  $.each(data, function (key,value){
+    // Idea to have these in vars to be used inside of the template literal var
+    var currentDesktopName = '${this.desktopName}';
+    var currentDesktopHP = "${this.desktopHomepage}";
+    var currentDesktopFW = "${this.desktopFramework}";
+    var currentDesktopGL = "${this.desktopGithubURL}";
+
+    // idea: to say list only the "gtk3" DEs
+    var localgtkversion = "gtk3";
 
     var desktopOutput = `
 
-    Desktop Name: ${this.desktopName} 
-    <br />
-    
-    Framework: ${this.desktopFramework} 
-    <br /> 
+        Desktop Name: ${currentDesktopName}
+        <br />
 
-    Homepage: 
-    <a href="${this.desktopHomepage}" target="_blank"> 
-    ${this.desktopName} Homepage </a> 
-    <br /> 
+        Framework: ${currentDesktopFW}
+        <br />
 
-    Github URL: <a href="${this.desktopGithubURL}" target="_blank"
-    > 
+        Homepage:
+        <a href="${currentDesktopHP}" target="_blank">
+        ${currentDesktopName} Homepage </a>
+        <br />
 
-    ${this.desktopName} on Github </a>
-    <br /><hr /> 
+        Github URL: <a href="${currentDesktopGL}" target="_blank"
+        >
 
-    `;
+        ${currentDesktopName} on Github </a>
+        <br /><hr />
+
+        `;
+
+      //////////////////////////////////////////////////////////////
 
 
-    if (this.desktopName == localDEName) {
+      // As long as there is data - outer loop
+      $.each(data, function (key,value){
 
-      desktopResults.insertAdjacentHTML("afterbegin", desktopOutput); 
+        // alert("Loop Entered ... console.log SHOULD have data")        
 
-    } // Ends if loop
+        if (data.hasOwnProperty(key))
+        desktopResults.insertAdjacentHTML("afterbegin", $(".frameworks"));
 
-  }) // Ends .each loop
+        console.log($(".frameworks"));
+
+      }) // Ends outer loop
+
 }
 
 
 // "main" function
 function getDesktopData(desktopData) {
 
-  // Get JSON Data 
+  // Get JSON Data
   $.getJSON("http://xmetal.x10.mx/linuxHQ/json/desktops.json", function (data) {
 
-
-  // Testing getting specific info 
-  specificDEInfo(data);
+  newJSONLayoutTest(data);
 
   }); // ends getJSON loop
 

@@ -1,44 +1,49 @@
-[
-      {
-      "desktopName":"Adapta",
-      "version":"",
+{
+  "theme": {
+
+      "adapta": {
+
+        "desktopName":"Adapta",
+        "version":"",
 
 
-      "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+        "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
 
 
-      "devarts":"N/A",
-      "github":"https://github.com/adapta-project/adapta-gtk-theme"
+        "devarts":"N/A",
+        "github":"https://github.com/adapta-project/adapta-gtk-theme"
       },
 
-      {
-      "desktopName":"Arc",
-      "version":"",
+      "arc": {
+        "desktopName":"Arc",
+        "version":"",
 
-      "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+        "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
 
-      "gnomelook":"N/A",
-      "devarts":"N/A",
-      "github":"https://github.com/horst3180/arc-theme"
+        "gnomelook":"N/A",
+        "devarts":"N/A",
+        "github":"https://github.com/horst3180/arc-theme"
+
       },
 
-      {
-      "desktopName":"Numix",
-      "version":"",
+      "numix": {
+        "desktopName":"Numix",
+        "version":"",
 
-      "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-      "devarts":"N/A",
-      "github":"https://github.com/numixproject/numix-gtk-theme"
+        "supportInfo":"gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+        "devarts":"N/A",
+        "github":"https://github.com/numixproject/numix-gtk-theme"
+
       },
 
-         {
-      "desktopName":"Mint-Y",
-      "version":"",
+      "minty": {
+        "desktopName":"Mint-Y",
+        "version":"",
 
-      "supportInfo":"gtk3, cinnamon",
-      "devarts":"N/A",
-      "github":""
+        "supportInfo":"gtk3, cinnamon",
+        "devarts":"N/A",
+        "github":""
       }
 
-
-]
+ }
+}

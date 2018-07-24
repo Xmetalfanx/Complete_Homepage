@@ -1,38 +1,47 @@
- [
-  {
-    "desktopFramework": "gtk3",
-    "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop",
-    "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
-    "desktopName": "Cinnamon"
-  },
-  {
-    "desktopFramework": "gtk3",
-    "desktopGithubURL": "https://github.com/solus-project/budgie-desktop",
-    "desktopHomepage": "https://budgie-desktop.org/home/",
-    "desktopName": "Budgie"
-  },
-  {
-    "desktopFramework": "QT",
-    "desktopGithubURL": "n/a",
-    "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
-    "desktopName": "plasma5"
-  },
-  {
-    "framework": "gtk2",
-    "desktopGithubURL": "n/a",
-    "desktopHomepage": "https://xfce.org/",
-    "desktopName": "XFCE"
-  },
-  {
-    "desktopFramework": "gtk3",
-    "desktopGithubURL": "n/a",
-    "desktopHomepage": "https://mate-desktop.org/",
-    "desktopName": "Mate"
-  },
-  {
-    "desktopFramework": "gtk",
-    "desktopGithubURL": "n/a",
-    "desktopHomepage": "https://lxde.org/",
-    "desktopName": "LXDE"
-  }
-]
+ {
+    "frameworks":
+    {
+      "gtk3": [
+        {
+          "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop",
+          "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
+          "desktopName": "Cinnamon"
+        },
+
+        {
+          "desktopGithubURL": "https://github.com/solus-project/budgie-desktop",
+          "desktopHomepage": "https://budgie-desktop.org/home/",
+          "desktopName": "Budgie"
+        },
+        {
+          "desktopGithubURL": "n/a",
+          "desktopHomepage": "https://mate-desktop.org/",
+          "desktopName": "Mate"
+        }
+      ],
+
+      "gtk2": [
+          {
+          "desktopGithubURL": "n/a",
+          "desktopHomepage": "https://xfce.org/",
+          "desktopName": "XFCE"
+          },
+          {
+          "desktopGithubURL": "n/a",
+          "desktopHomepage": "https://lxde.org/",
+          "desktopName": "LXDE"
+          }
+        ],
+
+
+      "qt": [
+          {
+            "desktopGithubURL": "n/a",
+            "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
+            "desktopName": "plasma5"
+          }
+        ]
+
+    }
+
+}
