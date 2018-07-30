@@ -3,69 +3,68 @@
        {
         "distroName":"arch",
         "desktops":"any",
-        "homepage":"",
-
+        "homepage":""
        },
        {
         "distroName":"antergos",
         "desktops":"any",
-        "homepage":"",
+        "homepage":""
        },
        {
           "distroName":"manjaro",
           "desktops":"XFCE, Cinnamon, Plasma5",
-          "homepage":"",
+          "homepage":""
        }
     ],
     "debian":[
         {
           "distroName":"debian",
           "desktops":"any",
-          "homepage":"",
+          "homepage":""
         },
         {
           "distroName":"lmde",
           "desktops":"cinnamon,mate",
-          "homepage":"",
+          "homepage":""
         },
         {
           "distroName":"solyd",
           "desktops":"",
-          "homepage":"",
+          "homepage":""
         }
      ],
      "gentoo":[
         {
           "distroName":"calculate",
           "desktops":"any",
-          "homepage":"",
+          "homepage":""
         },
         {
           "distroName":"gentoo",
           "desktops":"any",
-          "homepage":"",
+          "homepage":""
         },
         {
           "distroName":"sabayon",
           "desktops":"any",
-          "homepage":"",
+          "homepage":""
         }
      ],
      "ubuntu":[
         {
           "distroName":"kdeneon",
           "desktops":"",
-          "homepage":"",
+          "homepage":""
         },
         {
           "distroName":"linuxmint",
           "desktops":"",
-          "homepage":"",
+          "homepage":""
         },
         {
            "distroName":"ubuntu",
            "desktops":"",
-           "homepage":"",
+           "homepage":""
         }
      ]
  }
