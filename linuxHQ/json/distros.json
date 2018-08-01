@@ -3,17 +3,17 @@
        {
         "distroName":"arch",
         "desktops":"any",
-        "homepage":""
+        "homepage":"https://www.archlinux.org"
        },
        {
         "distroName":"antergos",
         "desktops":"any",
-        "homepage":""
+        "homepage":"https://antergos.com/"
        },
        {
-          "distroName":"manjaro",
-          "desktops":"XFCE, Cinnamon, Plasma5",
-          "homepage":""
+        "distroName":"manjaro",
+        "desktops":"XFCE, Cinnamon, Plasma5",
+        "homepage":"https://manjaro.org"
        }
     ],
     "debian":[

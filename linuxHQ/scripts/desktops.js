@@ -8,7 +8,7 @@ var desktopResults = document.getElementById("desktopSection");
 function newJSONLayoutTest(data){
 
     /////////////////////////////////////////////////////////////////////////
-    // Variables 
+    // Variables
 
     // Idea to have these in vars to be used inside of the template literal var
     var currentDesktopName = '${this.desktopName}';
@@ -41,31 +41,31 @@ function newJSONLayoutTest(data){
         `;
 
       //////////////////////////////////////////////////////////////
+      // console.log(data.frameworks);
 
+        // the .each thing looks like it should be the inner (in each object) loop
+        // As long as there is data - outer loop
+        $.each(data, function (key,value){
 
-      // As long as there is data - outer loop
-      $.each(data, function (key,value){
+          console.log("key.frameworks");
+          console.log(key.frameworks);
 
-        // alert("Loop Entered ... console.log SHOULD have data")        
-
-        if (data.hasOwnProperty(key))
-        desktopResults.insertAdjacentHTML("afterbegin", $(".frameworks"));
-
-        console.log($(".frameworks"));
-
-      }) // Ends outer loop
+        } // Ends outer loop
 
 }
 
 
 // "main" function
 function getDesktopData(desktopData) {
+  jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
+
 
   // Get JSON Data
   $.getJSON("http://xmetal.x10.mx/linuxHQ/json/desktops.json", function (data) {
 
-  newJSONLayoutTest(data);
+    newJSONLayoutTest(data);
 
-  }); // ends getJSON loop
+    }); // ends getJSON loop
+
 
 }

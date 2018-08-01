@@ -2,21 +2,6 @@
   "3-custom/1-modules/modules-dir",
   "3-custom/2-variables/variables-dir";
 
-
-#bottomLinks {
-  display        : flex;
-  flex-direction : row;
-}
-
-// Col1 menus
-// I already forgot what I thought I needed to do this for ...
-
-  p {
-    text-align: justify;
-
-    @include padding(1%, 0, 0, 0);
-  }
-
   .btn
   {
     display: block;

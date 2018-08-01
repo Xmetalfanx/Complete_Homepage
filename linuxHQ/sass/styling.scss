@@ -29,14 +29,6 @@ kbd {
   }
 }
 
-// Where do I have this
-#distroList {
-  .card-title {
-    @include   margin(0, 0, 0, 0);
-    @include   padding(0, 0, 0, 0);
-  }
-}
-
 //////////////////////////////////////////////////////////////////////////////
 
 .icons {
@@ -64,7 +56,7 @@ kbd {
 #screenshots {
   padding : 10px;
 
-  border  : 1px $blacks dotted;
+  border  : 1px $black dotted;
 
   img[src=''] {
     display : none;
@@ -92,14 +84,6 @@ kbd {
   @include     margin(null, 2px, 20px, 2px);
 }
 
-
-////////////////////////////////////////////////////////////////////////////
-// Make this where its no SO SPECIFIC but can help multple sections
-
-#usb {
-  position : relative;
-  left     : 20px;
-}
 
 .card-img-top {
   box-shadow : 2px 2px 2px $black;
