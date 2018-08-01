@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sass --watch sass/:stylesheets/
+sass --watch scss/:stylesheets/

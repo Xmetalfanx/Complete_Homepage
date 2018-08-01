@@ -1,10 +1,9 @@
 // output:index.html
 
 
-#supportedSites.d-none.d-md-block
-  h3 Educational Sites
-  br 
-  
+.card.d-none.d-md-block
+  .card-header 
+    h3 Educational Sites
   .row 
     .col-3
       a(href='https://www.khanacademy.org/', target='_blank')
@@ -28,13 +27,13 @@
       | (or Her Channel on Youtube)
 
 
-  <?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
+<?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
 
 
-  </div>        <!-- ends second column from the template  -->
+</div>        <!-- ends second column from the template  -->
 
-  <?php include $sitePath . "/modules/tech/startpage.tpl"; ?>
+<?php include $sitePath . "/modules/tech/startpage.tpl"; ?>
 
-  </div>        <!-- Closes mainBody container  -->
+</div>        <!-- Closes mainBody container  -->
 
-  <?php  include $sitePath . "/modules/footer.tpl"; ?>
+<?php  include $sitePath . "/modules/footer.tpl"; ?>

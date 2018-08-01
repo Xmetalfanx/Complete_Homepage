@@ -1,70 +1,70 @@
 {
-    "arch":[
-       {
-        "distroName":"arch",
-        "desktops":"any",
-        "homepage":"https://www.archlinux.org"
-       },
-       {
-        "distroName":"antergos",
-        "desktops":"any",
-        "homepage":"https://antergos.com/"
-       },
-       {
-        "distroName":"manjaro",
-        "desktops":"XFCE, Cinnamon, Plasma5",
-        "homepage":"https://manjaro.org"
-       }
+    "arch": [
+        {
+            "desktops": "any",
+            "distroName": "arch",
+            "homepage": "https://www.archlinux.org"
+        },
+        {
+            "desktops": "any",
+            "distroName": "antergos",
+            "homepage": "https://antergos.com/"
+        },
+        {
+            "desktops": "XFCE, Cinnamon, Plasma5",
+            "distroName": "manjaro",
+            "homepage": "https://manjaro.org"
+        }
     ],
-    "debian":[
+    "debian": [
         {
-          "distroName":"debian",
-          "desktops":"any",
-          "homepage":""
+            "desktops": "any",
+            "distroName": "debian",
+            "homepage": ""
         },
         {
-          "distroName":"lmde",
-          "desktops":"cinnamon,mate",
-          "homepage":""
+            "desktops": "cinnamon,mate",
+            "distroName": "lmde",
+            "homepage": ""
         },
         {
-          "distroName":"solyd",
-          "desktops":"",
-          "homepage":""
+            "desktops": "",
+            "distroName": "solyd",
+            "homepage": ""
         }
-     ],
-     "gentoo":[
+    ],
+    "gentoo": [
         {
-          "distroName":"calculate",
-          "desktops":"any",
-          "homepage":""
+            "desktops": "any",
+            "distroName": "calculate",
+            "homepage": ""
         },
         {
-          "distroName":"gentoo",
-          "desktops":"any",
-          "homepage":""
+            "desktops": "any",
+            "distroName": "gentoo",
+            "homepage": ""
         },
         {
-          "distroName":"sabayon",
-          "desktops":"any",
-          "homepage":""
+            "desktops": "any",
+            "distroName": "sabayon",
+            "homepage": ""
         }
-     ],
-     "ubuntu":[
+    ],
+    "ubuntu": [
         {
-          "distroName":"kdeneon",
-          "desktops":"",
-          "homepage":""
+            "desktops": "",
+            "distroName": "kdeneon",
+            "homepage": ""
         },
         {
-          "distroName":"linuxmint",
-          "desktops":"",
-          "homepage":""
+            "desktops": "",
+            "distroName": "linuxmint",
+            "homepage": ""
         },
         {
-           "distroName":"ubuntu",
-           "desktops":"",
-           "homepage":""
+            "desktops": "",
+            "distroName": "ubuntu",
+            "homepage": ""
         }
-     ]
- }
+    ]
+}

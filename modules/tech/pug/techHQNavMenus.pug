@@ -1,0 +1,22 @@
+//output: techHQNavMenus.html
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
+  a.navbar-brand.d-none.d-lg-block(href='/techHQ/index.php') Tech HQ
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#techHQNav', aria-controls='techHQNav', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  .collapse.navbar-collapse.ml-auto
+    .navbar-nav.ml-auto.p-3
+      i.fas.fa-desktop.d-none.d-md-block
+      a.nav-item.nav-link(href='/techHQ/software/softwareIndex.php') Software Home
+      
+      i.fas.fa-folder.d-none.d-md-block
+      a.nav-item.nav-link(href='/techHQ/techcenter/techCenterIndex.php') Tech Center ( Tips/Tutorials )
+      
+      i.far.fa-eye.d-none.d-md-block
+      a.nav-item.nav-link(href='/techHQ/browsers/browserIndex.php') Web Browser
+      
+      i.fas.fa-shield-alt.d-none.d-md-block
+      a.nav-item.nav-link(href='/techHQ/security/securityIndex.php') Security
+
+
+.d-none.d-md-block

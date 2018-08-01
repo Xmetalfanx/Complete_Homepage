@@ -9,6 +9,8 @@
 ?>
 
 <?php
+
+
   $localmaincat = 'graphics';
   sortApps($localmaincat);
 ?>

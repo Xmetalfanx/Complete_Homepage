@@ -1,54 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Xmetal&apos;s Homepage</title>
-    <?php include 'modules/headerInclude.tpl'; ?>
-
+    <title> Xmetal&apos;s Homepage</title><?php include 'modules/headerInclude.tpl'; ?>
     <!-- Universal CSS file-->
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
-
-    <style media="all">
-      .mainContainer
-      {
-        flex-grow: 1;
-
-      }
-    </style>
-
   </head>
-
   <body>
-    <!-- Header "navigation"-->
-    <?php include 'modules/frontnav.tpl'; ?>
-
-
-
-    <div class="mainContainer">
-      <div class="coverImage d-none d-lg-block">
-
+    <!-- Header "navigation"--><?php include 'modules/frontnav.tpl'; ?>
+    <div class="coverImage d-none d-lg-block"></div>
+    <div id="mainBody" class="row">
+      <div class="col-6">
+        <h4>July 30 Update</h4>
+        <div>I am working on the JSON/AJAX idea I have to completely redo a number of things on both sides of the site, and hopefully this will allow me to have better code, and make it easier to manage things </div>
+        <div>I am also in the process of trying out <a href="https://bootswatch.com/" target="_blank">Bootswatch </a>for styling so things may have changed in odd ways now .. for instance I notice there are lime-green links with the theme I choose ... the GOAL of this is to have styles pre-done and that will allow me to focus on the CONTENT of the site </div>
       </div>
-
-      <div id="mainBody" class="row">
-        <div class="col-6">
-
-            <h4>July 30 Update</h4>
-            <div>I am working on the JSON/AJAX idea I have to completely redo a number of things on both sides of the site, and hopefully this will allow me to have better code, and make it easier to manage things </div>
-            <div>I am also in the process of trying out<a href="https://bootswatch.com/" target="_blank">Bootswatch </a>for styling so things may have changed in odd ways now .. for instance I notice there are lime-green links with the theme I choose ... the GOAL of this is to have styles pre-done and that will allow me to focus on the CONTENT of the site </div>
-
-        </div>
-        <div class="col-6">
-          <a href="https://github.com/Xmetalfanx" target="_blank">
-            <i class="fab fa-github fa-2x"></i>
-          </a>
-
-          <h4>My Github Other Github project</h4>
-          <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank">LinuxSetup</a>
-          - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot<br><br><a href="https://github.com/Xmetalfanx/linuxThemes" target="_blank">LinuxThemeing</a> This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
-          This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
-        </div>
+      <div class="col-6"><a href="https://github.com/Xmetalfanx" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <h4>My Github Other Github project</h4><a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank">LinuxSetup</a>- Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot<br><br><a href="https://github.com/Xmetalfanx/linuxThemes" target="_blank">LinuxThemeing</a> This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
+        This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
       </div>
-    </div>
-
-    <?php include 'modules/footer.tpl'; ?>
+    </div><?php include 'modules/footer.tpl'; ?>
   </body>
 </html>

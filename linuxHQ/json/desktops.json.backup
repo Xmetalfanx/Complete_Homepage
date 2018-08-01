@@ -1,0 +1,34 @@
+{
+    "gtk3": [{
+            "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop",
+            "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
+            "desktopName": "Cinnamon"
+        },
+        {
+            "desktopGithubURL": "https://github.com/solus-project/budgie-desktop",
+            "desktopHomepage": "https://budgie-desktop.org/home/",
+            "desktopName": "Budgie"
+        },
+        {
+            "desktopGithubURL": "n/a",
+            "desktopHomepage": "https://mate-desktop.org/",
+            "desktopName": "Mate"
+        }
+    ],
+    "gtk2": [{
+            "desktopGithubURL": "n/a",
+            "desktopHomepage": "https://xfce.org/",
+            "desktopName": "XFCE"
+        },
+        {
+            "desktopGithubURL": "n/a",
+            "desktopHomepage": "https://lxde.org/",
+            "desktopName": "LXDE"
+        }
+    ],
+    "qt": [{
+        "desktopGithubURL": "n/a",
+        "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
+        "desktopName": "plasma5"
+    }]
+}

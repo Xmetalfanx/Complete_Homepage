@@ -1,15 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <!-- For Font Awesome graphic -->
-    <i class="fab fa-linux fa-2x"> </i>
-  <!-- End Code for Font Awesome -->
 
-  <a href="/techHQ/index.php" class="navbar-brand d-none d-lg-block">Linux HQ</a>
-  <button type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <i class="fab fa-linux fa-3x"> </i>
+  <a href="/linuxHQ/index.php" class="navbar-brand d-none d-lg-block">Linux HQ</a>
 
+  <button type="button" data-toggle="collaspe" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
 
-  <div id="linuxHQNav" class="collapse navbar-collapse ml-auto">
+  <div class="collaspe navbar-collaspe ml-auto">
     <div class="navbar-nav ml-auto">
       <a href="/linuxHQ/distros/distroHome.php" class="nav-item nav-link">Distributions</a>
       <a href="/linuxHQ/desktops/desktopsIndex.php" class="nav-item nav-link">Desktops</a>

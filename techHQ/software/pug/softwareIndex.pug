@@ -1,0 +1,274 @@
+//output:softwareIndex.html
+.container.d-none.d-lg-block.mr-auto.ml-auto
+  .row.p-3
+    .col-lg-3
+      | Softpedia Graphic Here
+    .col-lg-3
+      | MajorGeeks Graphic Here
+
+///////////////////////////////////////////////////////
+// Start of Cross Platform Section
+.card
+  .card-header.bg-primary.text-white Cross Platform
+
+  // Cross Platform Section Menus
+
+  .nav.nav-tab
+    .nav-items
+      a#CPAVNAV.nav-link.active(data-toggle='tab', href='#CPAVContent', role='tab', aria-controls='CPAVContent', aria-selected='false') Audio/Video Programs
+    .nav-items
+      a#CPGraphicsNav.nav-link(data-toggle='tab', href='#CPGraphicsContent', role='tab', aria-controls='CPGraphicsContent', aria-selected='false') Graphics Programs
+    .nav-items
+      a#CPInternetNav.nav-link(data-toggle='tab', href='#CPInternetContent', role='tab', aria-controls='CPInternetContent', aria-selected='false') Internet Related Programs
+    .nav-items
+      a#CPProductNav.nav-link(data-toggle='tab', href='#CPProdContent', role='tab', aria-controls='CPProdContent', aria-selected='false') Productivity Apps
+    .nav-items
+      a#CPSecurityNav.nav-link(data-toggle='tab', href='#CPSecurityContent', role='tab', aria-controls='CPSecurityContent', aria-selected='false') Security-Related Apps
+
+  // End of Cross Platform Section Menus
+
+
+
+  // Cross Platform Section CONTENT Section Starts
+
+
+  #CPTabContents.tab-content
+
+    // Audio/Video Section Starts
+    #CPAVContent.tab-pane
+      .card
+        .card-header Audio programs
+        a(href='..')
+          img.d-none.d-lg-block(src='/techHQ/screenshots/multimedia/clementine1.png', alt='Clementine Screenshot')
+        a(href='#') Clementine Homepage
+
+        p Clementine is a music player and organizer that can not only play your music collection, organize your collection (including downloading artist and album information from the internet, and play media from various online sources)
+
+      .card
+        .card-header Video Programs
+
+        .row
+          .col-md-4
+            a(href='..')
+              img.d-none.d-lg-block(src='..', alt='SMPlayer Screenshot')
+            a(href='#') SMPlayer Homepage
+
+          .col-md-4
+            a(href='..')
+              img.d-none.d-lg-block(src='..', alt='MPV Screenshot')
+            a(href='#') MPV Homepage
+
+          .col-md-4
+            a(href='..')
+              img.d-none.d-lg-block(src='..', alt='VLC Screenshot')
+            a(href='#') VLC
+
+
+    // Graphics Section Starts
+    #CPGraphicsContent.tab-pane
+      .row
+        .col-6
+          a(href='..')
+            img.d-none.d-lg-block(src='..', alt='GIMP Screenshot')
+          a(href='#') GIMP
+          p GIMP is a well known and widely used Graphics editor that some (not all though) compare to Photoshop
+
+        .col-6
+          a(href='..')
+            img.d-none.d-lg-block(src='/techHQ/screenshots/graphics/krita_default_interface.png', alt='Krita Screenshot')
+          a(href='https://krita.org/en/', target='_blank') Krita
+          p Krita is a graphics editor is an open source graphics/illustrator program, which some users compare to Adobe Photoshop
+
+    // Internet Section Starts
+    #CPInternetContent.tab-pane
+      .row
+        .col-lg-5
+          p Pidgin- Instant Messaging Client
+        .col-lg-5
+          p Mozilla Thunderbird - Email Client
+
+    #CPProductContent.tab-pane
+      a(href='..')
+        img.d-none.d-lg-block(src='..', alt='Libre Office Screenshot')
+      a(href='#') Libre Office
+      p Fork of the Old OpenOffice and a VERY WELL DONE Microsoft Office alternative
+
+    #CPSecurityContent.tab-pane
+      a(href='..')
+        img.d-none.d-lg-block(src='..', alt='Bleachbit Screenshot')
+      a(href='http://bleachbit.sourceforge.net/') Bleachbit
+
+// End of Cross Platform Section
+
+// Start of Linux Section
+.card
+  .card-header.bg-primary.text-white Linux
+
+
+  // Start of Linux Menus
+  .nav.nav-tab
+    .nav-items
+      .nav-link.active Audio/Video Programs
+    .nav-items
+      .nav-link Graphics Programs
+    .nav-items
+      .nav-link
+
+  // End of Linux Menus
+
+  // Linux Content Section Starts here
+
+  .tab-content
+    // Linux Audio/Video CONTENT Section Start
+    .tab-pane
+      .row
+        .col-lg-6
+          a(href='..')
+            img.d-none.d-lg-block(src='..', alt='Deadbeef Screenshot')
+          a(href='http://deadbeef.sourceforge.net') Deadbeef
+
+        .col-lg-6
+          // Shouldn't this be in Cross-Platform?
+          a(href='..')
+            img.d-none.d-lg-block(src='..', alt='Audacious Screenshot')
+          a(href='http://audacious-media-player.org/') Audacious
+
+    .tab-pane
+      .row
+        .col-md-4
+          a(href='..')
+            img.d-none.d-lg-block(src='..', alt='Pinta Screenshot')
+
+          a(href='https://pinta-project.com/pintaproject/pinta/') Pinta
+
+        .col-md-4
+          a(href='..')
+            img.d-none.d-lg-block(src='..', alt='Ristretto Screenshot')
+          a(href='http://docs.xfce.org/apps/ristretto/start') Ristretto Homepage
+
+
+        .col-md-4
+          a(href='..')
+            img.d-none.d-lg-block(src='..', alt='Gwenview Screenshot')
+          a(href='https://www.kde.org/applications/graphics/gwenview/') Gwenview Homepage
+          p Usually instaled with KDE/Plasma 5 flavors of Linux
+      .row
+        .col-lg-12
+          a(href='https://pinta-project.com/pintaproject/pinta/') Pinta
+
+
+
+// Windows Section
+.card
+  .card-header.bg-primary.text-white Microsoft Windows
+
+  // Windows Section Menu
+  .nav.nav-tab
+    .nav-items
+      a#WindowsAVTab.nav-link.active(data-toggle='tab', href='#WinAVTabContent', role='tab', aria-controls='home', aria-selected='true') Audio and/or Video
+    .nav-items
+      a#WindowsGraphicsTab.nav-link(data-toggle='tab', href='#WinGraphicsTabContent', role='tab', aria-controls='home', aria-selected='true') Graphics
+    .nav-items
+      a#WindowsProductivityTab.nav-link(data-toggle='tab', href='#WinProductTabContent', role='tab', aria-controls='home', aria-selected='true') Productivty
+    .nav-items
+      a#WindowsSecurityTab.nav-link(data-toggle='tab', href='#', role='tab', aria-controls='home', aria-selected='true') Security
+    .nav-items
+      a#WindowsSystemToolsTab.nav-link(data-toggle='tab', href='#WinSystemToolsContent', role='tab', aria-controls='home', aria-selected='true')  System Tools
+
+  // End Windows Section Menus
+
+
+  // Windows Section Tab content - for when link is clicked
+
+  .tab-content
+    #WinAVTabContent.tab-pane(role='tabpanel', aria-labelledby='home-tab')
+
+      .card
+        .card-header Audio Programs
+
+        ul
+          li
+            a(href='/techHQ/screenshots/multimedia/aimp4.jpg')
+              img.d-none.d-lg-block(src='/techHQ/screenshots/multimedia/aimp4.jpg', alt='AIMP Screenshot')
+            a(href="") AIMP
+
+          li
+            a(href='..')
+              img.d-none.d-lg-block(src='..', alt='Foobar 2000 Screenshot')
+            a(href='http://www.foobar2000.org', target='_blank') Foobar 2000
+
+
+
+    #WinGraphicsTabContent.tab-pane(role='tabpanel')
+      a(href='/techHQ/screenshots/graphics/xnview1.png')
+        img.d-none.d-lg-block(src='/techHQ/screenshots/graphics/xnview1.png', alt='Xnview Screenshot')
+
+      a(href='https://www.xnview.com/en/xnview/', target='_blank') Xnview
+
+      p My Favorite Image editor/so-called... Basic Image editor in Windows ... VERY powerful and well-done program
+
+
+    #WinProductTabContent.tab-pane(role='tabpanel')
+      .card
+        .card-header PDF Readers - Adobe Acrobat Reader alternatives
+
+        ul
+          li
+            a(href='..')
+              img.d-none.d-lg-block(src='..', alt='Sumatra PDF Screenshot')
+            a(href='https://www.sumatrapdfreader.org/free-pdf-reader.html', target='_blank') Sumatra PDF
+
+          li
+            a(href='..', target='_blank')
+            img.d-none.d-lg-block(src='..', alt='PDF-XChange Viewer Screenshot')
+            a(href='https://www.tracker-software.com/product/pdf-xchange-viewer') PDF-XChange Viewer
+
+
+    .tab-pane(role='tabpanel', aria-labelledby='home-tab')
+      .card
+        .card-header Anti-virus/Anti-Malware
+
+          // [note to self: include info about PatchMyPC and "point and click installing" here ]
+
+          ul Anti-viruses
+            li Kaspersky Free
+            li Bit Defender
+            li Avast
+
+          ul Anti-Malware
+            li
+              a(href='')
+                img.d-none.d-lg-block(alt='Emsisoft Emergency Toolkit Screenshot')
+              a(href='https://www.emsisoft.com/en/software/eek/') Emsisoft Emergency Toolkit
+            li
+              a(href="https://www.hitmanpro.com/en-us.aspx" blank="_blank") Hitman Pro 
+            li
+              a(href="https://www.zemana.com/antimalware" target="_blank") Zenmana AntiMalware 
+
+      .card
+        .card-header Cache/Temp File Cleaners
+        ul
+          li 
+            a(href="https://www.ccleaner.com/" blank="_blank") CCleaner
+
+          li CCEhancer for CCleaner
+            a
+              img.d-none.d-lg-block(alt="CCEhancer Screenshot")
+
+            span A sort of &quot;database&quot; of what to clean for programs that support it  (To add more removable items then the programs default)
+
+    #WinSystemToolsContent.tab-pane(role='tabpanel', aria-labelledby='home-tab')
+      a(href='https://www.partitionwizard.com/free-partition-manager.html') Minitools Partition Manager Freeware Edition
+
+      .card
+        .card-header System Suite
+        .row
+          .col-md-6
+            a(href='https://www.glarysoft.com/' blank="_blank") Glary Utilities
+              img.d-none.d-lg-block(src='..', alt='Glary Utilities Screenshot')
+
+          .col-md-6
+            a(href='https://www.wisecleaner.com/wise-care-365.html' blank="_blank") WiseCare360
+              img.d-none.d-lg-block(src='..', alt='WiseCare360 Screenshot')
+
+<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>

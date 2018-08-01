@@ -1,71 +1,38 @@
 // Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
 // Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
+// Note to self: these may be old reference links, above 
 
 
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
-function newJSONLayoutTest(data){
+function newJSONLayoutTest(data) {
 
-    /////////////////////////////////////////////////////////////////////////
-    // Variables
+    var frameworkTest = data.framework
+    
+    console.log(frameworkTest);
 
-    // Idea to have these in vars to be used inside of the template literal var
-    var currentDesktopName = '${this.desktopName}';
-    var currentDesktopHP = "${this.desktopHomepage}";
-    var currentDesktopFW = "${this.desktopFramework}";
-    var currentDesktopGL = "${this.desktopGithubURL}";
+    // document.write(frameworkTest);
 
-    // idea: to say list only the "gtk3" DEs
-    var localgtkversion = "gtk3";
-
-    var desktopOutput = `
-
-        Desktop Name: ${currentDesktopName}
-        <br />
-
-        Framework: ${currentDesktopFW}
-        <br />
-
-        Homepage:
-        <a href="${currentDesktopHP}" target="_blank">
-        ${currentDesktopName} Homepage </a>
-        <br />
-
-        Github URL: <a href="${currentDesktopGL}" target="_blank"
-        >
-
-        ${currentDesktopName} on Github </a>
-        <br /><hr />
-
-        `;
-
-      //////////////////////////////////////////////////////////////
-      // console.log(data.frameworks);
-
-        // the .each thing looks like it should be the inner (in each object) loop
-        // As long as there is data - outer loop
-        $.each(data, function (key,value){
-
-          console.log("key.frameworks");
-          console.log(key.frameworks);
-
-        } // Ends outer loop
-
+    // This seems to cycle through the frameworks fine
+    for (x in frameworkTest){
+        var i = 0;
+        document.write(i);
+        i++;
+    }
+    
 }
 
 
 // "main" function
 function getDesktopData(desktopData) {
-  jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
+    jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
+    // Get JSON Data
+    $.getJSON("http://xmetal.x10.mx/linuxHQ/json/desktops.json", function(data) {
 
-  // Get JSON Data
-  $.getJSON("http://xmetal.x10.mx/linuxHQ/json/desktops.json", function (data) {
-
-    newJSONLayoutTest(data);
+        newJSONLayoutTest(data);
 
     }); // ends getJSON loop
-
 
 }

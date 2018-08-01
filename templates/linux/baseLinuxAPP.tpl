@@ -9,9 +9,9 @@
 
 ?>
 
-<div id="mainBody" class="row col-12">
-  <div class="col-xs-12 col-md-2">
-    <?php include $sitePath . '/linuxHQ/modules/sections/linuxAppCol1.tpl'; ?>
-  </div>
+  <div id="mainBody" class="row col-12">
+    <div class="col-xs-12 col-md-2">
+      <?php include $sitePath . '/linuxHQ/modules/sections/linuxAppCol1.tpl'; ?>
+    </div>
 
-  <div class="col-xm-12 col-md-10">
+    <div class="col-xm-12 col-md-10">

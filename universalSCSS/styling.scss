@@ -1,4 +1,4 @@
-@import "0-variables/variables-dir", "1-custom/custom-dir";
+@import "1-custom/custom-dir";
 
 $footerheight: 75px;
 
@@ -6,100 +6,26 @@ $footerheight: 75px;
   overflow-x: hidden;
 }
 
+a:link{
+  background-color: inherit;
+  color: $navy;
+}
+
 body {
   display: flex;
   flex-direction: column;
+  font-size: 12pt;
+
+  color: $BGColor;
+  background-color: $white;
 
 }
-
-// For Font Awesome
-i.fa, i.fab
-{
-  color: $white;
-  background-color: transparent;
-
-  @include padding(0, 0, 0, 10px);
-
-  a:link
-  {
-    text-decoration: none;
-
-    color: inherit;
-  }
-
-}
-
-////////////////////////////////////////////////////////////////////////////
-
-// ... what is this for again?
-.media {
-  border: 1px solid $BGColor;
-
-  @include padding(10px, 10px, 10px, 10px);
-  @include margin(5px, null, 5px, null);
-
-  // Focussed on Icons ... Don't see there being other graphics in this spot
-  img {
-    width: 42px;
-    height: 42px;
-  }
-}
-
-.smallText {
-  font-size: 11px;
-}
-
-.coverImage {
-  display: block;
-
-  min-height: 40vh;
-
-  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
-  background-position: top;
-  background-size: cover;
-}
-
-
-// Nav: for the entire header
-nav
-{
-  flex-grow: 0;
-
-  width: 100%;
-
-  color: $white;
-  background-color: $BGColor;
-
-
-
-  // This is for the Text "header" on the left, when at full screen
-  // IDEA: use "a" to cover all of the link states
-  .navbar-brand {
-    font-size: 36px;
-    // really shouldn't have any major padding effect other than pushing the menus over from the far left
-    // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it
-
-    font-weight: bold;
-    @include padding(0, 0, 0, 10px);
-  }
-
-
-
-  // This is for the navigation menus on the right, when at full screen
-  .navbar-nav a:link {
-    font-size: 22px;
-  }
-}
-
-// Header Main text is not changing so I am trying this class OUTSIDE of the other nav css, above
-
 
 footer {
-   position: absolute;
    bottom: 0;
+
    // this has nothing to do with the main layout's flex
    // STILL not sure if this is the best idea
-
    display: flex;
    flex-direction: row;
    flex-grow: 0;
@@ -126,87 +52,39 @@ footer {
 
   text-align: justify;
 
-  color: $BGColor;
-  background-color: $white;
-
   @include padding(1%, 0, 0, 1%);
 
 }
 
-#StartPageStyle
+
+
+// Header Main text is not changing so I am trying this class OUTSIDE of the other nav css, above
+
+// Nav: for the entire header
+nav
 {
-  display: flex;
-  justify-content: center;
+  // flex-grow: 0;
 
-}
+  // width: 100%;
 
-.iconSM
-{
-  width: 32px;
-  height: 32px;
-}
-
-.iconLG
-{
-  width: 48px;
-  height: 48px;
-}
+  color: $white;
 
 
-/////////////////////////////////////////
-// RSS feed related - Post RSSDOG way
-// RSSDog wasn't bad ... it had good styling but that was all in the RSS link itself ...
-// this new way is more vanilla and it gives me SUPER fine-grain control over the CSS
-
-
-// Labeling it like this to keep it straight from other RSS tags that may be in the RSS to HTML script
-.xmetalRSS
-{
-  border: 1px solid $BGColor;
-
-  .xmetalRSSHeader
-  {
-    color: $white;
-    background-color: $BGColor;
+  // This is for the Text "header" on the left, when at full screen
+  // IDEA: use "a" to cover all of the link states
+  .navbar-brand {
+    font-size: 36px;
+    // really shouldn't have any major padding effect other than pushing the menus over from the far left
+    // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it
 
     font-weight: bold;
-
-    @include padding(1%, 1%, 1%, 1%);
+    @include padding(0, 0, 0, 10px);
   }
 
-}
-
-// idea: could i switch the colors below to "inherit"?
-
-// Main title
-h3.feed-title
-{
-  color: $white;
-  background-color: $BGColor;
-
-  @include padding(1%, 0, 1%, 1%);
-}
-
-.feed-iten-desc
-{
-  @include padding(1%, 1%, 1%, 1%);
 
 
-}
-
-.feed-item-title
-{
-  // This controls the padding the links
-  @include padding(1%, 1%, 0, 5px);
-
-  a:link, a:hover, a:visited
-  {
-    color: $BGColor;
-    background-color: inherit;
-
-    font-size: 15px;
-
-
+  // This is for the navigation menus on the right, when at full screen
+  .navbar-nav a:link {
+    font-size: 22px;
   }
-
 }

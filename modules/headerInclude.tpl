@@ -6,7 +6,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
 <!-- Bootstrap CDN-->
-<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-oCbSd1BBeFjYEul9+YuTFSFhA19lHemUQj8KD8Cgdb8zRxt6nOVsdTW43N1G2Hf2" crossorigin="anonymous"/>
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/sandstone/bootstrap.css" rel="stylesheet"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
