@@ -1,27 +1,41 @@
-// Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
-// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
-// Note to self: these may be old reference links, above 
-
-
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
-function newJSONLayoutTest(data) {
 
-    var frameworkTest = data.framework
+// Testing new way of going through each DE framework section and then displaying EVERYTHING (for now)
+function newLoopTest(data) {
+
+    // data = the complete JSON 
     
-    console.log(frameworkTest);
+    $.each(data, function(key){
+        
+        document.write(key);
+        document.write("<hr />");
 
-    // document.write(frameworkTest);
+        const fwOutput = `
+            
+        Desktop Name: 
+        <bold>
+        ${key.desktopName}
+        </bold>
+        
+        <br />
+        Homepage:<a href="${key.desktopHomepage}" target="_blank"> ${key.desktopName}'s Homepage 
+        </a>
+        
+        <br />
 
-    // This seems to cycle through the frameworks fine
-    for (x in frameworkTest){
-        var i = 0;
-        document.write(i);
-        i++;
-    }
-    
-}
+        Github URL: <a href="${key.desktopGithubURL}" target="_blank"> ${key.desktopName} on Github 
+        
+        </a>
+        <br />
+
+        <hr />
+        `;
+
+
+    })
+
 
 
 // "main" function
@@ -29,9 +43,13 @@ function getDesktopData(desktopData) {
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
     // Get JSON Data
-    $.getJSON("http://xmetal.x10.mx/linuxHQ/json/desktops.json", function(data) {
+    $.getJSON(jsonURL, function (data) {
 
-        newJSONLayoutTest(data);
+        // JSONLayoutTest(data);
+
+        // specificDETEstFunction(data);
+
+        newLoopTest(data);
 
     }); // ends getJSON loop
 
