@@ -9,8 +9,19 @@ function newLoopTest(data) {
     
     $.each(data, function(key){
         
-        document.write(key);
-        document.write("<hr />");
+        // Output for testing only 
+        document.write("<br /><hr />" + key);
+
+        var currentFramework = key; 
+
+        console.log(currentFramework);
+
+        // think of better var, later
+        for (stuff in currentFramework)
+        {
+            document.write("<br />Hello");
+        }
+
 
         const fwOutput = `
             
@@ -34,9 +45,9 @@ function newLoopTest(data) {
         `;
 
 
+
     })
-
-
+}
 
 // "main" function
 function getDesktopData(desktopData) {
@@ -46,11 +57,9 @@ function getDesktopData(desktopData) {
     $.getJSON(jsonURL, function (data) {
 
         // JSONLayoutTest(data);
-
         // specificDETEstFunction(data);
 
         newLoopTest(data);
 
     }); // ends getJSON loop
-
 }
