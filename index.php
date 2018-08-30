@@ -6,8 +6,10 @@
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <!-- Header "navigation"--><?php include 'modules/frontnav.tpl'; ?>
+    <!-- Header "navigation"-->
+    <?php include 'modules/frontnav.tpl'; ?>
     <div class="coverImage d-none d-lg-block"></div>
+
     <div id="mainBody" class="row">
       <div class="col-6">
         <h4>July 30 Update</h4>

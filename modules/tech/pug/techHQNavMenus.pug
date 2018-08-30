@@ -1,10 +1,10 @@
 //output: techHQNavMenus.html
 
-nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
+nav.navbar.navbar-expand-lg.bg-primary.navbar-dark
   a.navbar-brand.d-none.d-lg-block(href='/techHQ/index.php') Tech HQ
   button.navbar-toggler(type='button', data-toggle='collapse', data-target='#techHQNav', aria-controls='techHQNav', aria-expanded='false', aria-label='Toggle navigation')
     span.navbar-toggler-icon
-  .collapse.navbar-collapse.ml-auto
+  #techHQNav.collapse.navbar-collapse.ml-auto
     .navbar-nav.ml-auto.p-3
       i.fas.fa-desktop.d-none.d-md-block
       a.nav-item.nav-link(href='/techHQ/software/softwareIndex.php') Software Home
@@ -17,6 +17,3 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
       
       i.fas.fa-shield-alt.d-none.d-md-block
       a.nav-item.nav-link(href='/techHQ/security/securityIndex.php') Security
-
-
-.d-none.d-md-block

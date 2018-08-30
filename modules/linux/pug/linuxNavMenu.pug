@@ -1,13 +1,13 @@
 //output:linuxNavMenu.html
 
+  
 nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
-  i.fab.fa-linux.fa-3x  
-
+  i.fab.fa-linux.fa-3x
   a.navbar-brand.d-none.d-lg-block(href='/linuxHQ/index.php') Linux HQ
-  button.navbar-toggler(type="button" data-toggle="collaspe" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation")
+  button.navbar-toggler(type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation")
     span.navbar-toggler-icon
 
-  .collaspe.navbar-collaspe.ml-auto
+  #linuxHQNav.collapse.navbar-collapse.ml-auto
     .navbar-nav.ml-auto
       a.nav-item.nav-link(href='/linuxHQ/distros/distroHome.php') Distributions
       a.nav-item.nav-link(href='/linuxHQ/desktops/desktopsIndex.php') Desktops
