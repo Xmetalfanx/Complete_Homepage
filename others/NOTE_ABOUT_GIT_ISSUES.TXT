@@ -1,0 +1,15 @@
+If issues signing are happening 
+
+A) Make sure you imported gpg keys on new installs 
+
+B) run "gitsetup.sh"
+
+C) choose/assign key to use 
+
+git config --global user.signingkey <key here>
+
+D) Add these lines in some installs to .bashrc
+
+# To Fix GPG issue
+GPG_TTY=$(tty)
+export GPG_TTY
