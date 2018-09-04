@@ -1,6 +1,14 @@
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
+// Output test 
+function outputTest(key) {
+
+    // Output for testing only
+    document.write("<br /><hr />" + key);
+
+}
+
 
 // Testing new way of going through each DE framework section and then displaying EVERYTHING (for now)
 function newLoopTest(data) {
@@ -8,45 +16,22 @@ function newLoopTest(data) {
     // data = the complete JSON 
     
     $.each(data, function(key){
+
+        // The key is 'gtk2' or 'qt'
+
+        currentFramework = key;
         
-        // Output for testing only 
-        document.write("<br /><hr />" + key);
+        // Seperate function for testing the output 
+        // outputTest(key)
 
-        var currentFramework = key; 
 
+        console.log("This:");
+        console.log(this);
+        
+        console.log("Current Framework:");
         console.log(currentFramework);
 
-        // think of better var, later
-        for (stuff in currentFramework)
-        {
-            document.write("<br />Hello");
-        }
-
-
-        const fwOutput = `
-            
-        Desktop Name: 
-        <bold>
-        ${key.desktopName}
-        </bold>
-        
-        <br />
-        Homepage:<a href="${key.desktopHomepage}" target="_blank"> ${key.desktopName}'s Homepage 
-        </a>
-        
-        <br />
-
-        Github URL: <a href="${key.desktopGithubURL}" target="_blank"> ${key.desktopName} on Github 
-        
-        </a>
-        <br />
-
-        <hr />
-        `;
-
-
-
-    })
+    });
 }
 
 // "main" function
