@@ -9,7 +9,7 @@ function renderHTML(data){
 // Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
 
 var themeResults = document.getElementById("ticSection");
-
+}
 
 // This should show the entire JSON file's info
 function entireJSONFile(data){

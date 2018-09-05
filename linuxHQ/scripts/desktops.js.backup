@@ -1,109 +1,52 @@
-// Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
-// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
-// Note to self: these may be old reference links, above 
-
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
-function JSONLayoutTest(data) {
-
-    // variables 
-    var fwTest1 = data.gtk3;
-    var fwTest1String = JSON.stringify(fwTest1);
-
-    /////////////////////////////////////////////////////////////////////////
-    // gets entire contents of fwTest1 
-    for (var i = 0; i < fwTest1.length; i++) {
-
-        const desktopOutput = `
-        <h3> Desktop Name: ${fwTest1[i].desktopName} </h3><br />
-        Homepage: <a href="${fwTest1[i].desktopHomepage}" target="_blank"> ${fwTest1[i].desktopName}'s Homepage 
-        </a><br />
-        
-        Github URL: <a href="${fwTest1[i].desktopGithubURL}" target="_blank"> ${fwTest1[i].desktopName} on Github 
-        </a><br />
-        
-        <br /><hr /><br />
-        `;
-
-        // test
-
-        // desktopResults.insertAdjacentHTML("afterend", desktopOutput);
-
-    }
-    //////////////////////////////////////////////////////////////////////////////////
-
-
-}
-
-
-function specificDETEstFunction(data) {
-
-    // Test var that would be in each page, that is what I am checking for 
-    // var specificDETarget = "Cinnamon";
-
-    desktopResults.insertAdjacentHTML("beforebegin", "<h2>Specific Test </h2>")
-
-    for (var j = 0; j < specificDETest.length; j++) {
-
-        const desktopOutput2 = `
-        Desktop Name: ${fwTest1[j].desktopName} <br />
-        
-        Homepage: <a href="${fwTest1[j].desktopHomepage}" target="_blank"> ${fwTest1[j].desktopName}'s Homepage 
-        </a><br />
-        
-        Github URL:   <a href="${fwTest1[j].desktopGithubURL}" target="_blank"> ${fwTest1[j].desktopName} on Github 
-        </a> <br />
-        
-        
-        <br /><hr /><br />
-        `;
-        desktopResults.insertAdjacentHTML("afterend", desktopOutput2);
-    }
-
-}
 
 // Testing new way of going through each DE framework section and then displaying EVERYTHING (for now)
 function newLoopTest(data) {
 
-    // Idea: 
-    // 1. As long as the object name (gtk3, gtk2, qt) has a unique value. assign what that value is to a var
-    // 2. HERE i need to find data in the array (each DE)
+    // data = the complete JSON
+
+    // Outer loop 
+    $.each(data, function(key) {
+        // The key is 'gtk2' or 'qt'
+
+        var currentFramework = key;
 
 
-    for (var frameworks in data) {
-        // Framework count var
-        var frameworkCount = 0;
+        var StrFW = JSON.stringify(currentFramework);
+        var StrThis = JSON.stringify(this);
 
-        // console.log(data);
-        console.log(frameworks);
+        // Should output the fameworks 
+        console.log(StrFW);
 
-
-        document.write(data.frameworks.gtk3);
+        document.write("Current Framework: <strong>" + currentFramework +  "</strong><br />" + StrThis + "<br /><hr />" );
 
 
-        /*
-        //////////////////////////////////////////////////////////////////////////////////////
-        // Older test below
-        // "As long as there is stuff in 'data' "
-        for (var frameworks in data)
-        {
-            // As long that stuff (individial frameworks in this case) has it's own property 
-            if (data.hasOwnProperty(frameworks))
-            {
-              // console.log(frameworks);
+        /* 
+        // ATM the vars below in the temp literal and copy and pasted ... aka NOT CORRECT 
+        const fwOutput = `
+            
+        Desktop Name: <bold>${currentDEName}</bold>
+        
+        <br />
+        Homepage:<a href="${currentDEHomepage}" target="_blank"> ${currentDEName}'s Homepage 
+        </a>
+        
+        <br />
+        Github URL: <a href="${currentDEGithub}" target="_blank"> ${currentDEName} on Github 
+        
+        </a>
+        <br />
+        <hr />
+        `;
 
-              for (var stuff in frameworks)
-              {
-                  document.write(frameworks + "<br />");
-              }
-            }
-        }
-        //////////////////////////////////////////////////////////////////////////////////////////
+        document.write(fwOutput);
         */
-    }
 
+    });
 }
+
 // "main" function
 function getDesktopData(desktopData) {
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
@@ -111,12 +54,8 @@ function getDesktopData(desktopData) {
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {
 
-        // JSONLayoutTest(data);
-
-        // specificDETEstFunction(data);
 
         newLoopTest(data);
 
     }); // ends getJSON loop
-
 }

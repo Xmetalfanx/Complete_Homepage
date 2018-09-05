@@ -4,6 +4,7 @@
   "description": "My Homepage",
   "main": "index.js",
   "dependencies": {
+    "jshint": "^2.9.6",
     "jslint": "^0.12.0"
   },
   "devDependencies": {},
