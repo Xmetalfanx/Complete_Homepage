@@ -6,70 +6,121 @@ function newLoopTest(data) {
 
     // data = the complete JSON
 
-    // Outer loop 
+    // Outer loop
     $.each(data, function(key, value) {
 
         // The key is 'gtk2' or 'qt'
         // the value is the framework's "sub-json" to so speak
         var currentFramework = key;
 
-        // Future Idea: 
-        // use these in the for loop below to cut down on the messy look of the code 
-        var valueSF = "value[subFrameworks]";
-        var removeQuotes = "replace(/\"/g, \"\" ";
-
-        // DO NOT even try the var's above, until you (note to self...) KNOW what is below is working 
-
-
         // subFramework is for the number of the object in the individual Framework (? what term i mean here)
-        // example - subframework ... (starting at 0 and not 1) would have 0, 1, and 2 for 
+        // example - subframework ... (starting at 0 and not 1) would have 0, 1, and 2 for
         for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
-            var currentDEName = (value[subFrameworks].desktopName).replace(/\"/g, "");
+            //////////////////////////////////////////////////////////////////////////
+            // DECLARE VARIABLES
+            var currentDEName = value[subFrameworks].desktopName;
+            var currentDETitle = value[subFrameworks].desktopTitle;
 
-            var currentDEHomepage = (value[subFrameworks].desktopHomepage).replace(/\"/g, "");
+            // More Info
+            var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+            var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
+            var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
+            var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
+            var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
 
-            var currentDEGithub = (value[subFrameworks].desktopGithubURL).replace(/\"/g, "");
+            // Requirnments
+            var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
+            var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
+            var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
 
-            // Stringified versions of the prior variables
-            var currentDENameStr = JSON.stringify(currentDEName);
-            var currentDEHomepageStr = JSON.stringify(currentDEHomepage);
-            var currentDEGithubStr = JSON.stringify(currentDEGithub);
+            // Versions
+
+                // Arch
+                var currentDEArchVersion = value[subFrameworks].versions.arch;
+
+                // Fedora
+                var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
+                var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
+                var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
+
+                // OpenSuse
+                var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
+                var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
+                var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
+
+                // Linux Mint 
+                var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
+                var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
+                var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
+
+                // Ubuntu LTS 
+                
+
+                // Ubuntu non-LTS 
 
 
+            ////////////////////////////////////////////////////////////////////////////
 
             // Template Literal for output
-            const fwOutput = `
-                
-            Desktop Name: <bold>${currentDENameStr}</bold>
-                    
-            <br />
-            Homepage:<a href="${currentDEHomepageStr}" target="_blank"> ${currentDENameStr}'s Homepage 
-            </a>
-                    
-            <br />
-            Github URL: <a href="${currentDEGithubStr}" target="_blank"> ${currentDENameStr} on Github 
-                    
-            </a>
-            <br />
+            const deNameOutput = `
+                Desktop Name: <strong>${currentDETitle}</strong><br />
+            `;
+            
+            const deMoreInfoOutput = `
+        
+                <br />
+                Homepage:<a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}'s Homepage </a><br />
+                Github URL: <a href="${currentDEGithub}" target="_blank"> ${currentDETitle} on Github </a><br />
+                Latest Version: ${currentDELatestVersion}<br /> 
+                Desktop Catagory: ${currentDECatagory} <br />
+                Distros That Feature: ${currentDEdistroFeature}
+                `;
+
+            const deReqOutput = `
+                <italics> Desktop Requirements: </italics>
+                <ul>
+                    <li>Required Processor: ${currentDEReqProc} </li>
+                    <li>Required Memory: ${currentDEReqMem}</li>
+                    <li>Required Hard Drive Space: ${currentDEReqHDD}</li>
+                </ul><br /><br />
+                `;
+
+            const versionsOutput = `
+            
+            <div class="strong">Versions
+                <div class="font-italic">
+                    Arch
+                    ${currentDEArchVersion}
+                </div>
+                <ul>Fedora
+                    <li class="font-italics">${currentDEF27Version}</li>
+                    <li class="font-italics">${currentDEF28Version}</li>
+                    <li class="font-italics">${currentDEFRWVersion}</li>
+                </ul>
+
+                <ul>openSuse
+                    <li class="font-italics">${currentDESuseL423Version}</li>
+                    <li class="font-italics">${currentDESuseL15Version}</li>
+                    <li class="font-italics">${currentDESuseTWVersion}</li>
+                </ul>
+            </div>
+
+            
             <hr />
             `;
 
-            // Display Output
-            document.write(fwOutput);
+            // testing
+            var localDEName = "Cinnamon";
 
+            // Display Output
+            
+            desktopResults.insertAdjacentHTML("afterend", deNameOutput);
+            desktopResults.insertAdjacentHTML("afterend", deMoreInfoOutput);
+            desktopResults.insertAdjacentHTML("afterend", deReqOutput);
+            desktopResults.insertAdjacentHTML("afterend", versionsOutput);
 
         }
-
-
-
-
-        // vars, to prevent "[undefined undefined]" displaying 
-        var keyStr = JSON.stringify(key);
-        var valueStr = JSON.stringify(value);
-
-        // console.log("Key: " + keyStr);
-        // console.log("Value: " + valueStr);
 
     });
 }
@@ -80,7 +131,6 @@ function getDesktopData(desktopData) {
 
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {
-
 
         newLoopTest(data);
 

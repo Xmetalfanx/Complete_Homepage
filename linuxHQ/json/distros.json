@@ -1,70 +1,999 @@
 {
+    "supported": {
+        "arch": "all",
+        "fedora": "Fedora 27, Fedora 28, Fedora 29, Rawhide",
+        "opensuse": "Leap 42.3, Leap 15, Tumbleweed",
+        "ubuntu": "16.04, 18.04"
+    },
     "arch": [
         {
-            "desktops": "any",
-            "distroName": "arch",
-            "homepage": "https://www.archlinux.org"
-        },
-        {
-            "desktops": "any",
             "distroName": "antergos",
-            "homepage": "https://antergos.com/"
+            "distroTitle": "Antergos",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/antergos.png"
+            },
+            "moreinfo": {
+                "type": "Rolling Distro",
+                "software": "Bleeding Edge",
+                "similar": "Manjaro, Arch",
+                "desktops": "Various",
+                "distrowatch": "http://distrowatch.com/antergos",
+                "target": "Any user"
+            },
+            "website": {
+                "homepage": "https://antergos.com/",
+                "download": "http://www.antergos.com/try-it/",
+                "forum": "http://forum.antergos.com/"
+            }
         },
         {
-            "desktops": "XFCE, Cinnamon, Plasma5",
+            "distroName": "arch",
+            "distroTitle": "Arch",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/arch.png"
+            },
+            "moreinfo": {
+                "type": "Rolling Distro",
+                "software": "Bleeding Edge",
+                "target": "Moderate to Advanced Users",
+                "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
+                "similar": "Arch with Openbox",
+                "distrowatch": "http://distrowatch.com/arch "
+            },
+            "website": {
+                "homepage": "http://www.archlinux.org",
+                "download": "http://www.archlinux.org/download/",
+                "forum": "http://bbs.archlinux.org/"
+            }
+        },
+        {
+            "distroName": "archbang",
+            "distroTitle": "Archbang",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/archbang.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Openbox",
+                "type": "",
+                "software": "Bleeding Edge",
+                "target": "Moderate to Advanced Users",
+                "distrowatch": "http://distrowatch.com/archbang"
+            },
+            "website": {
+                "homepage": "http://bbs.archbang.org",
+                "download": "http://sourceforge.net/projects/archbang/files/",
+                "forum": "http://bbs.archbang.org/"
+            }
+        },
+        {
+            "distroName": "mmManjaro",
+            "distroTitle": "Manjaro by Matthew Moore",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/manjaro.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "XFCE",
+                "distrowatch": "N/A",
+                "type": "",
+                "software": "Slightly behind bleeding edge (same as stock Manjaro)",
+                "target": "All Users (though maybe not super newbies)"
+            },
+            "website": {
+                "homepage": "https://sourceforge.net/projects/manjarobymm/",
+                "download": "https://sourceforge.net/projects/manjarobymm/",
+                "forum": "http://www.cupoflinux.com/SBB/index.php/board,29.0.html"
+            }
+        },
+        {
             "distroName": "manjaro",
-            "homepage": "https://manjaro.org"
+            "distroTitle": "Manjaro",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/manjaro.png"
+            },
+            "moreinfo": {
+                "similar": "(with the same DE..) Antergos or Arch",
+                "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
+                "distrowatch": "",
+                "type": "",
+                "software": "Slightly behind bleeding edge",
+                "target": "Any User"
+            },
+            "website": {
+                "homepage": "https://manjaro.github.io",
+                "download": "http://manjaro.org/get-manjaro/",
+                "forum": "http://forum.manjaro.org/"
+            }
         }
     ],
     "debian": [
         {
-            "desktops": "any",
+            "distroName": "antix",
+            "distroTitle": "Anti-X",
+            "version": null,
+            "graphics": {
+                "iconURL": null
+            },
+            "moreinfo": {
+                "type": null,
+                "software": null,
+                "target": null,
+                "similar": null,
+                "desktops": null,
+                "distrowatch": null
+            },
+            "website": {
+                "homepage": "http://antix.mepis.org/index.php?title=Main_Page",
+                "download": null,
+                "forum": null
+            }
+        },
+        {
+            "distroName": "bunsenlabs",
+            "distroTitle": "Bunsenlabs",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/bunsenlabs.png"
+            },
+            "moreinfo": {
+                "desktops": "Openbox",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": "",
+                "similar": "The Debian familys version of Archbang OR Debian with Openbox installed"
+            },
+            "website": {
+                "download": "https://forums.bunsenlabs.org",
+                "forum": "https://forums.bunsenlabs.org",
+                "homepage": "https://www.bunsenlabs.org"
+            }
+        },
+        {
+            "distroName": "cbangplusplus",
+            "distroTitle": "Crunchbang++ ",
+            "version": "",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "type": "",
+                "software": "Follows Debian",
+                "target": "",
+                "desktops": "Openbox",
+                "distrowatch": "",
+                "similar": "BunsenLabs and Crunchbang;<br /> The Debian familys version of Archbang OR Debian with Openbox installed"
+            },
+            "website": {
+                "homepage": "https://www.crunchbangplusplus.org",
+                "download": "https://crunchbangplusplus.org/download/",
+                "forum": "https://www.reddit.com/r/crunchbangplusplus/"
+            }
+        },
+        {
             "distroName": "debian",
-            "homepage": ""
+            "distroTitle": "Debian",
+            "version": "9.x",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/debian.png"
+            },
+            "moreinfo": {
+                "desktops": "Various",
+                "distrowatch": "http://distrowatch.com/debian",
+                "type": "",
+                "software": "",
+                "target": "",
+                "similar": ""
+            },
+            "website": {
+                "homepage": "http://www.debian.org/",
+                "download": "",
+                "forum": "http://forums.debian.net/"
+            }
         },
         {
-            "desktops": "cinnamon,mate",
             "distroName": "lmde",
-            "homepage": ""
+            "distroTitle": "Linux Mint Debian Edition",
+            "version": "3",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/mint.png"
+            },
+            "moreinfo": {
+                "similar": "Debian with Cinnamon or Mate installed OR Point Linux  OR a \"Cross between Linux Mint (Ubuntu based) and Debian",
+                "desktops": "Mate, Cinnamon",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.linuxmint.com/download_lmde.php",
+                "download": "http://www.linuxmint.com/download_lmde.php",
+                "forum": ""
+            }
         },
         {
-            "desktops": "",
             "distroName": "solyd",
-            "homepage": ""
+            "distroTitle": "SoyldXK",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/solydxk.png"
+            },
+            "moreinfo": {
+                "similar": "Debian with XFCE or KDE/Plasma 5 installed I suppose",
+                "desktops": "KDE aka Plama 5 / XFCE ",
+                "distrowatch": "http://distrowatch.com/solydxk",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://solydxk.com/",
+                "download": "http://downloads.solydxk.com/",
+                "forum": ""
+            }
+        },
+        {
+            "distroName": "sparky",
+            "distroTitle": "Sparky Linux",
+            "version": "",
+            "graphics": {
+                "iconURL": "#"
+            },
+            "moreinfo": {
+                "similar": "Various",
+                "desktops": "",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "forum": "#",
+                "homepage": "https://sparkylinux.org/",
+                "download": "https://sparkylinux.org/download/"
+            }
+        },
+        {
+            "distroName": "mxlinux",
+            "distroTitle": "MX Linux",
+            "version": "16",
+            "graphics": {
+                "iconURL": null
+            },
+            "moreinfo": {
+                "similar": null,
+                "desktops": null,
+                "distrowatch": null,
+                "type": null,
+                "software": null,
+                "target": null
+            },
+            "website": {
+                "homepage": "https://mxlinux.org/",
+                "download": "https://mxlinux.org/download-links",
+                "forum": null
+            }
+        },
+        {
+            "distroName": "pointlinux",
+            "distroTitle": "Point Linux",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/point.png"
+            },
+            "moreinfo": {
+                "similar": "Debian with Mate installed ",
+                "desktops": "Mate",
+                "distrowatch": "http://distrowatch.com/point",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://pointlinux.org/",
+                "download": "http://pointlinux.org/download.htm",
+                "forum": ""
+            }
         }
     ],
     "gentoo": [
         {
-            "desktops": "any",
             "distroName": "calculate",
-            "homepage": ""
+            "distroTitle": "Calculate",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/calculate.png"
+            },
+            "moreinfo": {
+                "similar": "Gentoo, Sabayon",
+                "desktops": "Various",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=calculate",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.calculate-linux.org/",
+                "download": "http://www.calculate-linux.org/main/en/download",
+                "forum": "http://www.calculate-linux.org/projects/en/boards"
+            }
         },
         {
-            "desktops": "any",
             "distroName": "gentoo",
-            "homepage": ""
+            "distroTitle": "Gentoo",
+            "version": "",
+            "graphics": {
+                "iconURL": "#"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Various",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.gentoo.org/",
+                "download": "",
+                "forum": ""
+            }
         },
         {
-            "desktops": "any",
+            "ID": 33,
             "distroName": "sabayon",
-            "homepage": ""
+            "distroTitle": "Sabayon",
+            "version": "",
+            "graphics": {
+                "iconURL": "#"
+            },
+            "moreinfo": {
+                "similar": "Gentoo, Calculate Linux",
+                "desktops": "Various",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=sabayon",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.sabayon.org/",
+                "download": "http://www.sabayon.org/download",
+                "forum": "http://forum.sabayon.org/"
+            }
         }
     ],
     "ubuntu": [
         {
-            "desktops": "",
-            "distroName": "kdeneon",
-            "homepage": ""
+            "distroName": "elementaryOS",
+            "distroTitle": "ElementaryOS",
+            "version": "Loki",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/elementary.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Patheon",
+                "distrowatch": "http://distrowatch.com/elementary",
+                "type": "",
+                "software": "Based on Ubuntus LTS Release Cycle",
+                "target": "Any User/ New Use"
+            },
+            "website": {
+                "homepage": "http://elementary.io",
+                "download": "http://sourceforge.net/projects/elementaryos/files/",
+                "forum": "https://elementaryforums.com/index.php"
+            }
         },
         {
-            "desktops": "",
-            "distroName": "linuxmint",
-            "homepage": ""
+            "distroName": "mint",
+            "distroTitle": "Linux Mint",
+            "version": "18.x (based on Ubuntu 16.04)",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/mint.png"
+            },
+            "moreinfo": {
+                "similar": "Cinnamon, Mate, Plasma 5, XFCE",
+                "desktops": "Mate, XFCE, Cinnamon, Plasma 5",
+                "distrowatch": "http://distrowatch.com/min",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.linuxmint.com",
+                "download": "http://www.linuxmint.com/download.php",
+                "forum": "http://linuxmint.com/forum/"
+            }
         },
         {
-            "desktops": "",
+            "distroName": "peppermint",
+            "distroTitle": "Peppermint",
+            "version": "",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "desktops": "",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": "",
+                "similar": ""
+            },
+            "website": {
+                "homepage": "http://peppermintos.com/",
+                "download": "",
+                "forum": ""
+            }
+        },
+        {
+            "distroName": "kubuntu",
+            "distroTitle": "Kubuntu",
+            "version": "14.04 LTS, 16.04 LTS",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/kubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
+                "desktops": "Plasma 5",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=kubuntu",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.kubuntu.org/",
+                "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
+                "forum": "http://ubuntuforums.org/"
+            }
+        },
+        {
+            "distroName": "lubuntu",
+            "distroTitle": "lubuntu",
+            "version": "14.04 LTS, 16.04 LTS",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/lubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "LXDE, LXQT",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://lubuntu.net",
+                "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
+                "forum": "http://ubuntuforums.org/"
+            }
+        },
+        {
+            "distroName": "lxle",
+            "distroTitle": "LXLE",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/lxle.png"
+            },
+            "moreinfo": {
+                "similar": "Lubuntu or any other Ubuntu based distro with LXDE installed",
+                "desktops": "LXDE",
+                "distrowatch": "",
+                "type": "",
+                "software": "Based on Ubuntu's Release Cycle",
+                "target": "Any Use"
+            },
+            "website": {
+                "homepage": "http://www.lxle.net",
+                "download": "http://www.lxle.net/download",
+                "forum": "http://lxle.net/forum/"
+            }
+        },
+        {
+            "distroName": "uberstudent",
+            "distroTitle": "Uberstudent",
+            "version": null,
+            "graphics": {
+                "iconURL": null
+            },
+            "moreinfo": {
+                "similar": null,
+                "desktops": "XFCE",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent",
+                "type": null,
+                "software": null,
+                "target": null
+            },
+            "website": {
+                "homepage": "http://uberstudent.com/",
+                "download": "http://uberstudent.com/get-uberstudent",
+                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page"
+            }
+        },
+        {
             "distroName": "ubuntu",
-            "homepage": ""
+            "distroTitle": "Ubuntu",
+            "version": "16.04 LTS, 17.04",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/ubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Gnome2, Unity, Gnomeshell",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": "any users / new users"
+            },
+            "website": {
+                "homepage": "http://www.ubuntu.com",
+                "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
+                "forum": "http://ubuntuforums.org/"
+            }
+        },
+        {
+            "distroName": "umate",
+            "distroTitle": "Ubuntu Mate",
+            "version": "16.04 LTS, 17.04, 17.10 alpha AND Raspberry Pi versions are available)",
+            "graphics": {
+                "iconURL": "#"
+            },
+            "moreinfo": {
+                "similar": "Linux Mint Mate ",
+                "desktops": "Mate",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntumate",
+                "type": "",
+                "software": "",
+                "target": "Any User"
+            },
+            "website": {
+                "homepage": "http://ubuntu-mate.org",
+                "download": "https://ubuntu-mate.org/download/",
+                "forum": "https://ubuntu-mate.community/"
+            }
+        },
+        {
+            "distroName": "xubuntu",
+            "distroTitle": "xubuntu",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/xubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "SolydX, Linux Mint XFCE, Linux Lite",
+                "desktops": "XFCE",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.xubuntu.com",
+                "download": "http://xubuntu.org/getxubuntu/",
+                "forum": ""
+            }
+        },
+        {
+            "distroName": "zorin",
+            "distroTitle": "Zorin",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/zorin.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "",
+                "distrowatch": "",
+                "type": "",
+                "software": "Based on Ubuntu's Release Cycle",
+                "target": "new users"
+            },
+            "website": {
+                "homepage": "http://www.zorin-os.com/",
+                "download": "http://zorin-os.com/free.html\"",
+                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3"
+            }
+        },
+        {
+            "distroName": "peppermint",
+            "distroTitle": "Peppermint",
+            "version": "",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "desktops": "",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": "",
+                "similar": ""
+            },
+            "website": {
+                "homepage": "http://peppermintos.com/",
+                "download": "",
+                "forum": ""
+            }
+        },
+        {
+            "distroName": "kubuntu",
+            "distroTitle": "Kubuntu",
+            "version": "14.04 LTS, 16.04 LTS",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/kubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
+                "desktops": "Plasma 5",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=kubuntu",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.kubuntu.org/",
+                "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
+                "forum": "http://ubuntuforums.org/"
+            }
+        },
+        {
+            "distroName": "linuxlite",
+            "distroTitle": "Linux Lite",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/lite.png"
+            },
+            "moreinfo": {
+                "similar": "Linux Mint + XFCE, Xubuntu",
+                "desktops": "XFCE",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.linuxliteos.com",
+                "download": "http://sourceforge.net/projects/linuxlite/files",
+                "forum": "https://www.linuxliteos.com/forums/"
+            }
+        },
+        {
+            "distroName": "lubuntu",
+            "distroTitle": "lubuntu",
+            "version": "14.04 LTS, 16.04 LTS",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/lubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "LXDE, LXQT",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://lubuntu.net",
+                "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
+                "forum": "http://ubuntuforums.org/"
+            }
+        },
+        {
+            "distroName": "lxle",
+            "distroTitle": "LXLE",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/lxle.png"
+            },
+            "moreinfo": {
+                "similar": "Lubuntu or any other Ubuntu based distro with LXDE installed",
+                "desktops": "LXDE",
+                "distrowatch": "",
+                "type": "",
+                "software": "Based on Ubuntu's Release Cycle",
+                "target": "Any Use"
+            },
+            "website": {
+                "homepage": "http://www.lxle.net",
+                "download": "http://www.lxle.net/download",
+                "forum": "http://lxle.net/forum/"
+            }
+        },
+        {
+            "distroName": "uberstudent",
+            "distroTitle": "Uberstudent",
+            "version": null,
+            "graphics": {
+                "iconURL": null
+            },
+            "moreinfo": {
+                "similar": null,
+                "desktops": "XFCE",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent",
+                "type": null,
+                "software": null,
+                "target": null
+            },
+            "website": {
+                "homepage": "http://uberstudent.com/",
+                "download": "http://uberstudent.com/get-uberstudent",
+                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page"
+            }
+        },
+        {
+            "distroName": "ubuntu",
+            "distroTitle": "Ubuntu",
+            "version": "16.04 LTS, 17.04",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/ubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Gnome2, Unity, Gnomeshell",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": "any users / new users"
+            },
+            "website": {
+                "homepage": "http://www.ubuntu.com",
+                "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
+                "forum": "http://ubuntuforums.org/"
+            }
+        },
+        {
+            "distroName": "ubuntubudgie",
+            "distroTitle": "Ubuntu Budgie",
+            "version": "16.04.2 LTS and 17.04",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "similar": "Budgie",
+                "desktops": "Budgie",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntubudgie",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "https://ubuntubudgie.org",
+                "download": "https://ubuntubudgie.org/downloads",
+                "forum": ""
+            }
+        },
+        {
+            "distroName": "umate",
+            "distroTitle": "Ubuntu Mate",
+            "version": "16.04 LTS, 17.04, 17.10 alpha AND Raspberry Pi versions are available)",
+            "graphics": {
+                "iconURL": "#"
+            },
+            "moreinfo": {
+                "similar": "Linux Mint Mate ",
+                "desktops": "Mate",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntumate",
+                "type": "",
+                "software": "",
+                "target": "Any User"
+            },
+            "website": {
+                "homepage": "http://ubuntu-mate.org",
+                "download": "https://ubuntu-mate.org/download/",
+                "forum": "https://ubuntu-mate.community/"
+            }
+        },
+        {
+            "distroName": "xubuntu",
+            "distroTitle": "xubuntu",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/xubuntu.png"
+            },
+            "moreinfo": {
+                "similar": "SolydX, Linux Mint XFCE, Linux Lite",
+                "desktops": "XFCE",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website": {
+                "homepage": "http://www.xubuntu.com",
+                "download": "http://xubuntu.org/getxubuntu/",
+                "forum": ""
+            }
+        },
+        {
+            "distroName": "zorin",
+            "distroTitle": "Zorin",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/zorin.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "",
+                "distrowatch": "",
+                "type": "",
+                "software": "Based on Ubuntu's Release Cycle",
+                "target": "new users"
+            },
+            "website": {
+                "homepage": "http://www.zorin-os.com/",
+                "download": "http://zorin-os.com/free.html\"",
+                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3"
+            }
+        }
+    ],
+
+
+    "RPM": [
+
+        {
+            "distroName": "fedora",
+            "distroTitle": "Fedora",
+            "family": "rpm",
+            "version": "26",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/fedora.png"
+                    
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Various",
+                "distrowatch": "http://distrowatch.com/fedora",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website" : {
+                "homepage": "http://www.fedora.com",
+                "download": "",
+                "forum": "http://forums.fedoraforum.org/"
+            }
+        },
+        {
+            "distroName": "korora",
+            "distroTitle": "Korora ",
+            "family": "rpm",
+            "version": "25",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/korora.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Cinnamon, Xfce, Mate, ..etc ",
+                "distrowatch": "http://distrowatch.com/korora",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website" : {
+                "homepage": "https://kororaproject.org/",
+                "download": "https://kororaproject.org/download",
+                "forum": "https://kororaproject.org/support/engage"
+            }
+        },
+        {
+            "distroName": "mageia",
+            "distroTitle": "Mageia",
+            "family": "mandriva",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/mageia.png"
+                
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Cinnamon, GNOME, IceWM, KDE, MATE, LXDE, Openbox, Razor-qt, WMaker, Xfce",
+                "distrowatch": "http://distrowatch.com/magiea\"",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website" : {
+                "homepage": "http://mageia.org",
+                "download": "http://mageia.org/en/downloads/",
+                "forum": "https://forums.mageia.org/"
+            }
+        },
+        {
+            "distroName": "openmandriva",
+            "distroTitle": "Open Mandriva",
+            "family": "mandriva",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/openmandriva.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "KDE",
+                "distrowatch": "http://distrowatch.com/OpenMandriva",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            "website" : {
+                "homepage": "http://openmandriva.org",
+                "download": "http://openmandriva.org/en/download_lx",
+                "forum": "http://forums.openmandriva.org/"
+            }
+        },
+        {
+            "distroName": "opensuse",
+            "distroTitle": "Open Suse",
+            "family": "rpm",
+            "version": "Leap 42.3, Tumbleweed (Rolling)",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/suse.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "Various",
+                "distrowatch": "http://distrowatch.com/suse",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            
+            "website" : {
+                "homepage": "http://www.opensuse.org",
+                "download": "",
+                "forum": "http://forums.opensuse.org/"
+            }
+        },
+        {
+            "distroName": "pclinuxos",
+            "distroTitle": "PCLinuxOS",
+            "version": "",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/pclinuxos.png"
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "",
+                "distrowatch": "http://distrowatch.com/PCLinuxOS",
+                "type": "",
+                "software": "",
+                "target": "",
+                "family": "mandriva"
+            },
+            "website" : {
+                "homepage": "http://www.pclinuxos.com/",
+                "download": "http://pclinuxos.com/?page_id=10",
+                "forum": "http://www.pclinuxos.com/forum"
+            }
+        },
+        {
+            "distroName": "centOS",
+            "distroTitle": "Cent OS",
+            "family": "rpm",
+            "version": "",
+            "graphics": {
+                "iconURL": ""   
+            },
+            "moreinfo": {
+                "similar": "",
+                "desktops": "",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+            },
+            
+            "website" : {
+                "homepage": "http://www.centos.org/",
+                "download": "",
+                "forum": ""
+            }
         }
     ]
 }

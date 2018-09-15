@@ -1,0 +1,475 @@
+
+"RPM": [
+
+    {
+        "ID": 11,
+        "distroName": "fedora",
+        "distroTitle": "Fedora",
+        "iconURL": "/linuxHQ/graphics/icons/fedora.png",
+        "homepage": "http://www.fedora.com",
+        "family": "rpm",
+        "download": "",
+        "forum": "http://forums.fedoraforum.org/",
+        "version": "26",
+        "similar": "",
+        "desktops": "Various",
+        "distrowatch": "http://distrowatch.com/fedora",
+        "type": "",
+        "software": "",
+        "target": ""
+    },
+    
+    
+    {
+        "ID": 15,
+        "distroName": "korora",
+        "distroTitle": "Korora ",
+        "iconURL": "/linuxHQ/graphics/icons/korora.png",
+        "homepage": "https://kororaproject.org/",
+        "family": "rpm",
+        "download": "https://kororaproject.org/download",
+        "forum": "https://kororaproject.org/support/engage",
+        "version": "25",
+        "similar": "",
+        "desktops": "Cinnamon, Xfce, Mate, ..etc ",
+        "distrowatch": "http://distrowatch.com/korora",
+        "type": "",
+        "software": "",
+        "target": ""
+    },
+    
+    {
+        "ID": 21,
+        "distroName": "mageia",
+        "distroTitle": "Mageia",
+        "iconURL": "/linuxHQ/graphics/icons/mageia.png",
+        "homepage": "http://mageia.org",
+        "family": "mandriva",
+        "download": "http://mageia.org/en/downloads/",
+        "forum": "https://forums.mageia.org/",
+        "version": "",
+        "similar": "",
+        "desktops": "Cinnamon, GNOME, IceWM, KDE, MATE, LXDE, Openbox, Razor-qt, WMaker, Xfce",
+        "distrowatch": "http://distrowatch.com/magiea\"",
+        "type": "",
+        "software": "",
+        "target": ""
+    },
+
+
+    {
+        "ID": 26,
+        "distroName": "openmandriva",
+        "distroTitle": "Open Mandriva",
+        "iconURL": "/linuxHQ/graphics/icons/openmandriva.png",
+        "homepage": "http://openmandriva.org",
+        "family": "mandriva",
+        "download": "http://openmandriva.org/en/download_lx",
+        "forum": "http://forums.openmandriva.org/",
+        "version": "",
+        "similar": "",
+        "desktops": "KDE",
+        "distrowatch": "http://distrowatch.com/OpenMandriva",
+        "type": "",
+        "software": "",
+        "target": ""
+        "graphics": {
+        
+        
+        }
+        "moreinfo": {
+        
+        
+        }
+        
+        "website" : {
+        
+        
+        }
+    },
+    {
+        "ID": 27,
+        "distroName": "opensuse",
+        "distroTitle": "Open Suse",
+        "iconURL": "/linuxHQ/graphics/icons/suse.png",
+        "homepage": "http://www.opensuse.org",
+        "family": "rpm",
+        "download": "",
+        "forum": "http://forums.opensuse.org/",
+        "version": "Leap 42.3, Tumbleweed (Rolling)",
+        "similar": "",
+        "desktops": "Various",
+        "distrowatch": "http://distrowatch.com/suse",
+        "type": "",
+        "software": "",
+        "target": ""
+        "graphics": {
+        
+        
+        }
+        "moreinfo": {
+        
+        
+        }
+        
+        "website" : {
+        
+        
+        }
+    },
+    {
+        "distroName": "pclinuxos",
+        "distroTitle": "PCLinuxOS",
+        "version": "",
+        "graphics": {
+            "iconURL": "/linuxHQ/graphics/icons/pclinuxos.png"
+        },
+        "moreinfo": {
+            "similar": "",
+            "desktops": "",
+            "distrowatch": "http://distrowatch.com/PCLinuxOS",
+            "type": "",
+            "software": "",
+            "target": "",
+            "family": "mandriva",
+        },
+        "website" : {
+            "homepage": "http://www.pclinuxos.com/",
+            "download": "http://pclinuxos.com/?page_id=10",
+            "forum": "http://www.pclinuxos.com/forum",
+        }
+    },
+    {
+        "ID": 7,
+        "distroName": "centOS",
+        "distroTitle": "Cent OS",
+        "iconURL": "",
+        "homepage": "http://www.centos.org/",
+        "family": "rpm",
+        "download": "",
+        "forum": "",
+        "version": "",
+        "similar": "",
+        "desktops": "",
+        "distrowatch": "",
+        "type": "",
+        "software": "",
+        "target": ""
+    },
+
+
+],
+
+
+
+
+
+
+-----------------------------------------------------------
+
+
+
+
+
+{
+    "ID": 9,
+    "distroName": "deepin",
+    "distroTitle": "Deepin",
+    "iconURL": "/linuxHQ/graphics/icons/deepin.png",
+    "homepage": "http://linuxdeepin.com/",
+    "family": "ubuntu",
+    "download": "http://www.linuxdeepin.com/download",
+    "forum": "http://www.linuxdeepin.com/forum/8",
+    "version": "",
+    "similar": "Deepin Desktop Environment (DDE)",
+    "desktops": "",
+    "distrowatch": "http://distrowatch.com/deepin",
+    "type": "",
+    "software": "Based on Ubuntu\\\'s Release Cycle",
+    "target": ""
+},
+
+
+
+{
+    "ID": 13,
+    "distroName": "kaos",
+    "distroTitle": "KaOS",
+    "iconURL": "#",
+    "homepage": "https://kaosx.us",
+    "family": "independent",
+    "download": "https://kaosx.us/pages/download/",
+    "forum": "http://forum.kaosx.us/",
+    "version": "",
+    "similar": "",
+    "desktops": "Plasma 5",
+    "distrowatch": "http://distrowatch.com/table.php?distribution=kaos",
+    "type": "",
+    "software": "",
+    "target": ""
+},
+{
+    "ID": 14,
+    "distroName": "kdeneon",
+    "distroTitle": "kdeneon",
+    "iconURL": "#",
+    "homepage": "https://neon.kde.org",
+    "family": "ubuntu",
+    "download": "https://neon.kde.org/download",
+    "forum": "https://forum.kde.org",
+    "version": "User Edition (more bleeding edge), User LTS (Long Term Support ) Edition",
+    "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
+    "desktops": "Plasma 5",
+    "distrowatch": "http://distrowatch.com/table.php?distribution=kdeneon",
+    "type": "",
+    "software": "",
+    "target": ""
+},
+
+{
+    "ID": 22,
+    "distroName": "makulu",
+    "distroTitle": "Makulu",
+    "iconURL": "/linuxHQ/graphics/icons/makulu.png",
+    "homepage": "http://www.makululinux.com/",
+    "family": "debian",
+    "download": "http://www.makululinux.com/download.htm",
+    "forum": "http://www.makululinux.com/apps/forums/",
+    "version": "",
+    "similar": "",
+    "desktops": "Various (some highly customized)",
+    "distrowatch": "http://distrowatch.com/makulu",
+    "type": "",
+    "software": "",
+    "target": ""
+    "graphics": {
+    
+    
+    },
+    "moreinfo": {
+    
+    
+    },
+    
+    "website" : {
+    
+    
+    }
+},
+
+
+
+{
+    "ID": 31,
+    "distroName": "puppy",
+    "distroTitle": "Puppy Linux",
+    "iconURL": "/linuxHQ/graphics/icons/puppy.png",
+    "homepage": "http://www.puppylinux.com/",
+    "family": "independent",
+    "download": "http://www.puppylinux.com/download",
+    "forum": "http://www.murga-linux.com/puppy",
+    "version": "",
+    "similar": "",
+    "desktops": "JWM, Openbox, LXDE, XFCE",
+    "distrowatch": "http://distrowatch.com/puppy",
+    "type": "",
+    "software": "",
+    "target": ""
+    "graphics": {
+    
+    
+    },
+    "moreinfo": {
+    
+    
+    },
+    
+    "website" : {
+    
+    
+    }
+},
+{
+    "ID": 32,
+    "distroName": "rosa",
+    "distroTitle": "ROSA",
+    "iconURL": "/linuxHQ/graphics/icons/rosa.png",
+    "homepage": "http://www.rosalab.com/",
+    "family": "mandriva",
+    "download": "",
+    "forum": "",
+    "version": "",
+
+    "graphics": {
+    
+    
+    },
+    "moreinfo": {
+        "similar": "",
+    "desktops": "Gnome-shell, KDE ",
+    "distrowatch": "http://distrowatch.com/ROSA",
+    "type": "",
+    "software": "",
+    "target": ""
+    
+    },
+    
+    "website" : {
+    
+    
+    }
+},
+
+{
+    "ID": 34,
+    "distroName": "salix",
+    "distroTitle": "Salix",
+    "iconURL": "#",
+    "homepage": "https://www.salixos.org/",
+    "family": "slackware",
+    "download": "#",
+    "forum": "#",
+    "version": "",
+    "similar": "",
+    "desktops": "",
+    "distrowatch": "",
+    "type": "",
+    "software": "",
+    "target": ""
+    "graphics": {
+    
+    
+    },
+    "moreinfo": {
+    
+    
+    },
+    
+    "website" : {
+    
+    
+    }
+},
+{
+    "ID": 35,
+    "distroName": "slackware",
+    "distroTitle": "Slackware",
+    "iconURL": "/linuxHQ/graphics/icons/slackware,png",
+    "homepage": "http://www.slackware.com/",
+    "family": "slackware",
+    "download": "",
+    "forum": "",
+    "version": "",
+    "similar": "",
+    "desktops": "",
+    "distrowatch": "",
+    "type": "",
+    "software": "",
+    "target": ""
+    "graphics": {
+    
+    
+    },
+    "moreinfo": {
+    
+    
+    },
+    
+    "website" : {
+    
+    
+    }
+},
+{
+    "ID": 36,
+    "distroName": "solus",
+    "distroTitle": "Solus",
+    "iconURL": "/linuxHQ/graphics/icons/solus,png",
+    "homepage": "https://solus-project.com/",
+    "family": "independent",
+    "download": "https://solus-project.com/download/",
+    "forum": "https://solus-project.com/forums/",
+    "version": "1.1",
+    "similar": "",
+    "desktops": "Budgie, Mate, and Gnomeshell",
+    "distrowatch": "http://distrowatch.com/table.php?distribution=solus",
+    "type": "",
+    "software": "",
+    "target": ""
+    "graphics": {
+    
+    
+    },
+    "moreinfo": {
+    
+    
+    },
+    
+    "website" : {
+    
+    
+    }
+},
+
+
+
+
+
+
+
+    {
+        "distroName": "linuxlite",
+        "distroTitle": "Linux Lite",
+
+        "version": "",
+
+        "graphics": {
+            "iconURL": "/linuxHQ/graphics/icons/lite.png",
+        
+        },
+        "moreinfo": {
+                "similar": "Linux Mint + XFCE, Xubuntu",
+                "desktops": "XFCE",
+                "distrowatch": "",
+                "type": "",
+                "software": "",
+                "target": ""
+        
+        },
+        
+        "website" : {
+                "homepage": "http://www.linuxliteos.com",
+                "download": "http://sourceforge.net/projects/linuxlite/files",
+                "forum": "https://www.linuxliteos.com/forums/",
+        
+        }
+    },
+
+   
+{
+    "distroName": "ubuntubudgie",
+    "distroTitle": "Ubuntu Budgie",
+    "version": "16.04.2 LTS and 17.04",
+
+    "graphics": {
+        "iconURL": "",
+    
+    },
+    "moreinfo": {
+        "similar": "Budgie",
+        "desktops": "Budgie",
+        "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntubudgie",
+        "type": "",
+        "software": "",
+        "target": ""
+    
+    },
+    
+    "website" : {
+        "homepage": "https://ubuntubudgie.org",
+        "download": "https://ubuntubudgie.org/downloads",
+        "forum": "",
+    
+    }
+},
+

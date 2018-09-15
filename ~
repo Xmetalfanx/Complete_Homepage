@@ -1,0 +1,37 @@
+Javascript/JSON testing
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sat Sep 15 14:30:35 2018 -0400
+#
+# interactive rebase in progress; onto 3af6076c
+# Last commands done (2 commands done):
+#    pick 221bd7b3 Successful intial test of specific info detection
+#    reword abb2ab96 Javascript/JSON testing
+# Next commands to do (2 remaining commands):
+#    squash 37f1bab2 Linux DE JS/JSON Work
+#    squash d587773a Linux DE JSON file Updates
+# You are currently editing a commit while rebasing branch 'development' on '3af6076c'.
+#
+# Changes to be committed:
+#	new file:   linuxHQ/databaseJSONDownload/dearch.json
+#	new file:   linuxHQ/databaseJSONDownload/deopensuse.json
+#	new file:   linuxHQ/databaseJSONDownload/dereq.json
+#	new file:   linuxHQ/databaseJSONDownload/deubuntu.json
+#	modified:   linuxHQ/desktops/desktopJSON.php
+#	modified:   linuxHQ/json/desktops.json
+#	deleted:    linuxHQ/json/desktops.json.backup
+#	modified:   linuxHQ/json/distros.json
+#	modified:   linuxHQ/json/themes.json
+#	deleted:    linuxHQ/json/themes.json.backup
+#	renamed:    linuxHQ/modules/pug/distrowatch.jade -> linuxHQ/modules/pug/distrowatch.pug
+#	deleted:    linuxHQ/modules/pug/html/TICTemplate.html
+#	deleted:    linuxHQ/modules/pug/html/omgubuntu.html
+#	renamed:    linuxHQ/modules/pug/omgUbuntu.jade -> linuxHQ/modules/pug/omgUbuntu.pug
+#	deleted:    linuxHQ/modules/sections/linuxDEContent.tpl
+#	renamed:    linuxHQ/modules/sections/pug/linuxDEContent.jade -> linuxHQ/modules/sections/pug/linuxDEContent.pug
+#	deleted:    linuxHQ/modules/sections/pug/linuxTICCol1.html
+#	modified:   linuxHQ/scripts/desktops.js
+#	modified:   modules/pug/universalHeaderInclude.pug
+#

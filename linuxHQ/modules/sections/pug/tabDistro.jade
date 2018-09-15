@@ -1,0 +1,23 @@
+//output:tabDistro.html
+
+ul.nav.nav-tabs
+  li.nav-item
+    a.nav-link.active(href="#screenshots" role="tab" data-toggle="tab" ) Screenshots
+      .screenshots.hidden-md-down
+      .bold Screenshots
+      <?php echo $distroSshot; ?>
+  li.nav-item
+    a.nav-link(href="#youtubereviews" role="tab" data-toggle="tab") Youtube Reviews
+      
+  li.nav-item      
+    a.nav-link(href="#usb" role="tab" data-toggle="tab") USB Creation
+      h4 USB Drive Creation Experience 
+      div <a href="/linuxHQ/info.php" target="_blank">Explaination of what this section is</a>
+
+      #usb
+      <?php include $sitePath . '/linuxHQ/modules/sections/usb.tpl'; ?>
+  
+div.tab-content
+  div.tab-pane.active(role="tabpanel" id="screenshots")
+  div.tab-pane(role="tabpanel" id="youtubereviews")
+  div.tab-pane(role="tabpanel" id="usb")

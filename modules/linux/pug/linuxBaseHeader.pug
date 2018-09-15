@@ -16,13 +16,10 @@ head
     echo $mainTitle . $sectionTitle . $pageTitle;
     ?>
 
+    // Include universal header info 
     <?php include $sitePath . '/modules/universalHeaderInclude.tpl'; ?>
   
     // Universal CSS file
     link(href='/universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
     link(href='/linuxHQ/stylesheets/styling.css', rel='stylesheet', type='text/css')
 
-
-body 
-
-  <?php include 'linuxNavMenu.tpl'; ?>

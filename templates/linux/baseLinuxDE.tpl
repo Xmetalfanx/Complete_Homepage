@@ -1,33 +1,15 @@
-<?php
+<?php $sitePath = "/home/xmetalx1/public_html"; ?>
+<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
+<body>
+   <?php include 'linuxNavMenu.tpl'; ?>
+  <div class="row" id="mainBody">
+    <div class="col-xm-12 col-sm-12 col-md-2 col-lg-2 col-xl-2">
+      <?php include $sitePath . '/linuxHQ/modules/section/linuxNDesktopEnvCol1.tpl'; ?>
+    </div>
+    <div class="col-xm-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+      <div class="distroSection">
 
-    $sitePath = "/home/xmetalx1/public_html";
-
-    $sectionTitle='Desktop Envirnoment Section - ';
-
-    // Connection to DB
-    require $sitePath . '/database/connect.php';
-
-    require $sitePath . '/linuxHQ/modules/totaldbrequests.php';
-    require $sitePath . '/linuxHQ/modules/database_requests/derequests.php';
-
-
-    // DO NOT PUT THE SCREENSHOT FILE HERE AS THAT WILL PUT THE CONTENT ABOVE AND OUTSIDE THE BODY TAG
-
-    // Linux Section Header
-    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
-?>
-
-<div id="mainBody" class="row col-12">
-
-  <div class="col-xm-12  col-md-2">
-    <?php include $sitePath . '/linuxHQ/modules/sections/linuxDECol1.tpl'; ?>
+      </div>
+    </div>
   </div>
-
-  <div class="col-xm-12 col-md-10">
-    <?php include $sitePath . '/linuxHQ/modules/sections/linuxDEContent.tpl'; ?>
-  </div>
-
-</div>
-
-</body> <!-- Opened in Header IIRC -->
-</html>
+</body>

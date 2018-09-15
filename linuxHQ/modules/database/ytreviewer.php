@@ -17,8 +17,6 @@
 
           echo "<a href=\" " . $ytDisplay['tostoday'] . "\" target=\"_blank\" >Tostoday's Review</a> <br />  ";
 
-          echo "<a href=\" " . $ytDisplay['fishman'] . "\" target=\"_blank\" >Fishman Loves Linux's Review</a> <br />  ";
-
           echo "<a href=\" " . $ytDisplay['maverick'] . "\" target=\"_blank\" >Maverick Gaming (formerly \"Terry's Tech\" </a> <br />  ";
 
           echo "<a href=\" " . $ytDisplay['ghost'] . "\" target=\"_blank\" >Ghost SixtySeven's Review</a> <br />  ";
@@ -30,8 +28,6 @@
           echo "<a href=\" " . $ytDisplay['ohheyitslou'] . "\" target=\"_blank\" >OhHeyItsLou</a> <br />  ";
 
           echo "<a href=\" " . $ytDisplay['RLZ'] . "\" target=\"_blank\" >Run Level Zero</a> <br />  ";
-
-          echo "<a href=\" " . $ytDisplay['fishman'] . "\" target=\"_blank\" >UrAvgLinuxUser</a> <br />  ";
 
           echo "<a href=\" " . $ytDisplay['aj'] . "\" target=\"_blank\" >AJ Reissig</a> <br />  ";
 
