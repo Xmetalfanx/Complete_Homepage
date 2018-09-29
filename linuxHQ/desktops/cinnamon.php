@@ -1,6 +1,6 @@
 <?php
 
-  $localdename = 'Cinnamon';
+  $localdename = 'cinnamon';
   $sectionVar = "DE";
 
 	$pageTitle = 'Cinnamon ';
@@ -10,4 +10,10 @@
 
 ?>
 
+
+
+
+
+ <script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops.js"></script>
+</body>
 <?php include $sitePath . "/modules/footer.tpl"; ?>
