@@ -22,7 +22,3 @@
     <link href="/linuxHQ/stylesheets/styling.css" rel="stylesheet" type="text/css">
   </title>
 </head>
-
-<body>
-
-  <?php include 'linuxNavMenu.tpl'; ?>
