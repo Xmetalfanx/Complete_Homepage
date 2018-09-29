@@ -75,6 +75,7 @@ function newLoopTest(data) {
                 Latest Version: ${currentDELatestVersion}<br /> 
                 Desktop Catagory: ${currentDECatagory} <br />
                 Distros That Feature: ${currentDEdistroFeature}
+                <br />
                 `;
 
             const deReqOutput = `
@@ -83,26 +84,38 @@ function newLoopTest(data) {
                     <li>Required Processor: ${currentDEReqProc} </li>
                     <li>Required Memory: ${currentDEReqMem}</li>
                     <li>Required Hard Drive Space: ${currentDEReqHDD}</li>
-                </ul><br /><br />
+                </ul><br />
                 `;
 
             const versionsOutput = `
             
             <div class="strong">Versions
                 <div class="font-italic">
-                    Arch
+                    Arch: 
                     ${currentDEArchVersion}
                 </div>
                 <ul>Fedora
-                    <li class="font-italics">${currentDEF27Version}</li>
-                    <li class="font-italics">${currentDEF28Version}</li>
-                    <li class="font-italics">${currentDEFRWVersion}</li>
+                    <li>
+                        <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
+                    </li>
                 </ul>
 
                 <ul>openSuse
-                    <li class="font-italics">${currentDESuseL423Version}</li>
-                    <li class="font-italics">${currentDESuseL15Version}</li>
-                    <li class="font-italics">${currentDESuseTWVersion}</li>
+                    <li>
+                        <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
+                    </li>
+                    <li> 
+                        <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
+                    </li>
                 </ul>
             </div>
 
@@ -111,14 +124,19 @@ function newLoopTest(data) {
             `;
 
             // testing
-            var localDEName = "Cinnamon";
+            var localDEName = "cinnamon";
 
-            // Display Output
             
-            desktopResults.insertAdjacentHTML("afterend", deNameOutput);
-            desktopResults.insertAdjacentHTML("afterend", deMoreInfoOutput);
-            desktopResults.insertAdjacentHTML("afterend", deReqOutput);
-            desktopResults.insertAdjacentHTML("afterend", versionsOutput);
+            // Display Output
+
+            if (currentDEName == localDEName)
+
+            {
+            desktopResults.insertAdjacentHTML("beforeend", deNameOutput);
+            desktopResults.insertAdjacentHTML("beforeend", deMoreInfoOutput);
+            desktopResults.insertAdjacentHTML("beforeend", deReqOutput);
+            desktopResults.insertAdjacentHTML("beforeend", versionsOutput);
+            }
 
         }
 
