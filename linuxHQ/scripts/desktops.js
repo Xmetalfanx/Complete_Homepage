@@ -1,5 +1,5 @@
 // var for where to put the output
-var desktopResults = document.getElementById("desktopSection");
+var desktopResults = document.getElementById('desktopSection');
 
 // Testing new way of going through each DE framework section and then displaying EVERYTHING (for now)
 function newLoopTest(data) {
@@ -124,18 +124,19 @@ function newLoopTest(data) {
             `;
 
             // testing
-            var localDEName = "cinnamon";
+             var localDEName = "cinnamon";
 
             
             // Display Output
 
-            if (currentDEName == localDEName)
+            console.log("localDEName:" + localDEName);
 
+            if (currentDEName == localDEName)
             {
-            desktopResults.insertAdjacentHTML("beforeend", deNameOutput);
-            desktopResults.insertAdjacentHTML("beforeend", deMoreInfoOutput);
-            desktopResults.insertAdjacentHTML("beforeend", deReqOutput);
-            desktopResults.insertAdjacentHTML("beforeend", versionsOutput);
+                desktopResults.insertAdjacentHTML("beforeend", deNameOutput);
+                desktopResults.insertAdjacentHTML("beforeend", deMoreInfoOutput);
+                desktopResults.insertAdjacentHTML("beforeend", deReqOutput);
+                desktopResults.insertAdjacentHTML("beforeend", versionsOutput);
             }
 
         }

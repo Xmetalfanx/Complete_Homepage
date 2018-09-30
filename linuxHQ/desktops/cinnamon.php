@@ -1,7 +1,7 @@
 <?php
 
-  $localdename = 'cinnamon';
-  $sectionVar = "DE";
+  	$localDEname = 'cinnamon';
+  	$sectionVar = "DE";
 
 	$pageTitle = 'Cinnamon ';
 
@@ -9,9 +9,6 @@
 	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
-
-
-
 
 
  <script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops.js"></script>
