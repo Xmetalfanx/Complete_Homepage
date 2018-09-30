@@ -1,0 +1,46 @@
+{
+    "browsers": [
+            
+        "chrome":[
+
+
+
+        ]
+        
+        
+        "gecko":[
+
+
+
+
+
+
+
+            ]
+
+    ],
+    "multimedia":
+        "mediaplayers":[
+
+            "audioplayers": [
+
+
+
+
+            ]
+            "videoplayers": [
+
+
+
+            ]
+
+
+
+
+        ] 
+      
+
+
+
+
+}

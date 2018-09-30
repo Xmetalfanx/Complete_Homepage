@@ -2,14 +2,14 @@
     "desktops": {
         "cinnamon": [{
                 "name": "Mint Screenshot 1",
-                "distro": "Linux Mint",
+                "distro": "linuxmint",
                 "theme": "Mint-x",
                 "icon": "Mint-x",
                 "url": "/linuxHQ/screenshots/ubuntu/mint.jpg"
             },
             {
                 "name": "Mint Screenshot 2",
-                "distro": "Linux Mint",
+                "distro": "linuxmimy",
                 "url": "/linuxHQ/screenshots/ubuntu/mintOffCinn1.jpg",
                 "theme": "Mint-y",
                 "icon": "Mint-Y"

@@ -122,15 +122,7 @@ function newLoopTest(data) {
             
             <hr />
             `;
-
-            // testing
-             var localDEName = "cinnamon";
-
-            
-            // Display Output
-
-            console.log("localDEName:" + localDEName);
-
+  
             if (currentDEName == localDEName)
             {
                 desktopResults.insertAdjacentHTML("beforeend", deNameOutput);
@@ -145,7 +137,7 @@ function newLoopTest(data) {
 }
 
 // "main" function
-function getDesktopData(desktopData) {
+function getDesktopData(localDEname) {
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
     // Get JSON Data
