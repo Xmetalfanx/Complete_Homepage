@@ -1,46 +1,96 @@
 {
     "browsers": [
-            
-        "chrome":[
+    {
+        "chrome": [{
+                "programName": "chromium",
+                "programTitle": "Chromium",
+                "programIcon": "",
+                "programVersion": "",
+
+                "programDesc": ""
+
+            },
+            {
+
+                "programName": "googleChrome",
+                "programTitle": "Google Chrome",
+                "programIcon": "",
+                "programVersion": "",
+
+                "programDesc": ""
+            },
+            {
+
+                "programName": "vivaldi",
+                "programTitle": "Vivaldi",
+                "programIcon": "",
+                "programVersion": "1.15",
+
+                "programDesc": ""
+            }
+        }
+        ],
+
+
+        "gecko": [
+            {
+                "programName": "",
+                "programTitle": "",
+                "programIcon": "",
+                "programVersion": "",
+
+                "programDesc": ""
+            },
+            {
+
+                "programName": "",
+                "programTitle": "",
+                "programIcon": "",
+                "programVersion": "",
+
+                "programDesc": ""
+            }
+        ]
+
+    ],
+    "multimedia": [
+        {
+        "mediaplayers": [
+
+            "audioplayers": [{
+                    "programName": "clementine",
+                    "programTitle": "Clementine",
+                    "programIcon": "",
+                    "programVersion": "",
+
+                    "programDesc": ""
+                },
+                {
+                    "programName": "",
+                    "programTitle": "",
+                    "programIcon": "",
+                    "programVersion": "",
+
+                    "programDesc": ""
+                }, {
+                    "programName": "",
+                    "programTitle": "",
+                    "programIcon": "",
+                    "programVersion": "",
+
+                    "programDesc": ""
+                }
+
 
 
 
         ]
-        
-        
-        "gecko":[
-
-
-
-
-
-
-
-            ]
-
-    ],
-    "multimedia":
-        "mediaplayers":[
-
-            "audioplayers": [
-
-
-
-
-            ]
             "videoplayers": [
 
 
 
             ]
 
-
-
-
-        ] 
-      
-
-
-
+    ]
 
 }
