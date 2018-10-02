@@ -49,16 +49,14 @@ function newLoopTest(data) {
                 var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
                 var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
 
-                // Linux Mint 
+                // Linux Mint
                 var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
                 var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
                 var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
 
-                // Ubuntu LTS 
-                
+                // Ubuntu LTS
 
-                // Ubuntu non-LTS 
-
+                // Ubuntu non-LTS
 
             ////////////////////////////////////////////////////////////////////////////
 
@@ -66,13 +64,12 @@ function newLoopTest(data) {
             const deNameOutput = `
                 Desktop Name: <strong>${currentDETitle}</strong><br />
             `;
-            
+
             const deMoreInfoOutput = `
-        
                 <br />
                 Homepage:<a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}'s Homepage </a><br />
                 Github URL: <a href="${currentDEGithub}" target="_blank"> ${currentDETitle} on Github </a><br />
-                Latest Version: ${currentDELatestVersion}<br /> 
+                Latest Version: ${currentDELatestVersion}<br />
                 Desktop Catagory: ${currentDECatagory} <br />
                 Distros That Feature: ${currentDEdistroFeature}
                 <br />
@@ -88,10 +85,10 @@ function newLoopTest(data) {
                 `;
 
             const versionsOutput = `
-            
+
             <div class="strong">Versions
                 <div class="font-italic">
-                    Arch: 
+                    Arch:
                     ${currentDEArchVersion}
                 </div>
                 <ul>Fedora
@@ -110,7 +107,7 @@ function newLoopTest(data) {
                     <li>
                         <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
                     </li>
-                    <li> 
+                    <li>
                         <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
                     </li>
                     <li>
@@ -119,10 +116,11 @@ function newLoopTest(data) {
                 </ul>
             </div>
 
-            
             <hr />
             `;
-  
+
+            var localDEName = "<?php echo $localDEName; ?>";
+
             if (currentDEName == localDEName)
             {
                 desktopResults.insertAdjacentHTML("beforeend", deNameOutput);

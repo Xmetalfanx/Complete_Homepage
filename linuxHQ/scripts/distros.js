@@ -31,11 +31,11 @@ function newLoopTest(data) {
             var currentDistroSimilarDistros = value[distroFamily].moreinfo.similar;
             var currentDistroDistroWatchURL = value[distroFamily].moreinfo.distrowatch;
             var currentDistroTargetAudience = value[distroFamily].moreinfo.target;
-            
+
                 // I think i meant "rolling, ...etc for this var"
             var currentDistroSoftwareType = value[distroFamily].moreinfo.software;
 
-            // Website 
+            // Website
             var currentDistroHomepage = value[distroFamily].homepage;
             var currentDistroDownload = value[distroFamily].download;
             var currentDistroForum = value[distroFamily].forum;
@@ -52,10 +52,10 @@ function newLoopTest(data) {
                 <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Download Page</a><br />
                 <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Forum</a><br />
             `;
-            
+
             const distroMoreInfoOutput = `
                 <br />
-                Features Desktops: ${currentDistroFeaturesDesktops} <br /> 
+                Features Desktops: ${currentDistroFeaturesDesktops} <br />
                 Similar Distrobutions: ${currentDistroSimilarDistros} <br />
                 Target Audience: ${currentDistroTargetAudience} <br />
                 Distrowatch: <a href=${currentDistroDistroWatchURL} blank="_blank"> ${currentDistroTitle} Distrowatch Link </a>
