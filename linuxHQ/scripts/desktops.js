@@ -120,9 +120,10 @@ function newLoopTest(data) {
             `;
 
             // Remove later .. this is here until i figure out why php vars are not working like i want 
-            localDEName = 'cinnamon';
+            var $localDEName = 'cinnamon';
+            //alert($localDEName);
 
-            alert($localDEName);
+
 
             if (currentDEName == localDEName)
             {
