@@ -119,7 +119,10 @@ function newLoopTest(data) {
             <hr />
             `;
 
-            var localDEName = "<?php echo $localDEName; ?>";
+            // Remove later .. this is here until i figure out why php vars are not working like i want 
+            localDEName = 'cinnamon';
+
+            alert($localDEName);
 
             if (currentDEName == localDEName)
             {
@@ -135,7 +138,7 @@ function newLoopTest(data) {
 }
 
 // "main" function
-function getDesktopData(localDEname) {
+function getDesktopData(data) {
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
     // Get JSON Data

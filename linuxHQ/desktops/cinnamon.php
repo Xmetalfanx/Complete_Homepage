@@ -1,6 +1,6 @@
 <?php
 
-	$localDEName = "cinnamon";
+	$localDEName = 'cinnamon';
 	$sectionVar = "DE";
 	$pageTitle = 'Cinnamon ';
 	

@@ -1,12 +1,4 @@
-// Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
-
-// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
-
-
 function renderHTML(data){
-// Reference: http://www.developphp.com/video/JavaScript/External-JSON-Data-File-Call-In-Using-Ajax-Tutorial
-
-// Reference 2: https://www.youtube.com/watch?v=rJesac0_Ftw&t=963s
 
 var themeResults = document.getElementById("ticSection");
 }
@@ -14,7 +6,6 @@ var themeResults = document.getElementById("ticSection");
 // This should show the entire JSON file's info
 function entireJSONFile(data){
 
-  // New Idea reference URL: https://wesbos.com/template-strings-html/
 
   // Should loop through the JSON file
   for (var i = 0; i < data.length; i++){
