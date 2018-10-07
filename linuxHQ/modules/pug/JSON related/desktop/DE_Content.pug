@@ -1,0 +1,23 @@
+.card
+    .card-body 
+        .card-title Desktop Name: ${currentDETitle}
+        .card-text
+            | Homepage:
+            a(href='${currentDEHomepage}' target='_blank') ${currentDETitle}'s Homepage
+            br
+            | Github URL: 
+            a(href='${currentDEGithub}' target='_blank') ${currentDETitle} on Github
+            br
+            br 
+            | Latest Version: ${currentDELatestVersion}
+            br 
+            | Desktop Catagory: ${currentDECatagory}
+            br
+            | Distros That Feature: ${currentDEdistroFeature}
+            br
+
+            italics Desktop Requirements: 
+            ul
+                li Required Processor: ${currentDEReqProc}
+                li Required Memory: ${currentDEReqMem}
+                li Required Hard Drive Space: ${currentDEReqHDD}

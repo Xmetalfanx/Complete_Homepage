@@ -1,149 +1,153 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-// Testing new way of going through each DE framework section and then displaying EVERYTHING (for now)
-function newLoopTest(data) {
+////////////////////////////////////////////////////////////////////////////////
 
-    // data = the complete JSON
+function displayDEOutput(value, subFrameworks)
+{
+    // I need to know value and subFrameworks here 
 
-    // Outer loop
-    $.each(data, function(key, value) {
+    var currentDEName = value[subFrameworks].desktopName;
+    var currentDETitle = value[subFrameworks].desktopTitle;
 
-        // The key is 'gtk2' or 'qt'
-        // the value is the framework's "sub-json" to so speak
-        var currentFramework = key;
+    // More Info
+    var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+    var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
+    var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
+    var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
+    var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
 
-        // subFramework is for the number of the object in the individual Framework (? what term i mean here)
-        // example - subframework ... (starting at 0 and not 1) would have 0, 1, and 2 for
-        for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+    // Requirnments
+    var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
+    var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
+    var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
 
-            //////////////////////////////////////////////////////////////////////////
-            // DECLARE VARIABLES
-            var currentDEName = value[subFrameworks].desktopName;
-            var currentDETitle = value[subFrameworks].desktopTitle;
+    // Versions
 
-            // More Info
-            var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-            var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-            var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
-            var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
-            var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
+        // Arch
+        var currentDEArchVersion = value[subFrameworks].versions.arch;
 
-            // Requirnments
-            var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
-            var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
-            var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
+        // Fedora
+        var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
+        var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
+        var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
 
-            // Versions
+        // OpenSuse
+        var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
+        var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
+        var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
 
-                // Arch
-                var currentDEArchVersion = value[subFrameworks].versions.arch;
+        // Linux Mint
+        var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
+        var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
+        var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
 
-                // Fedora
-                var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
-                var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
-                var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
+        // Ubuntu LTS
 
-                // OpenSuse
-                var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
-                var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
-                var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
+        // Ubuntu non-LTS
 
-                // Linux Mint
-                var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
-                var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
-                var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
 
-                // Ubuntu LTS
 
-                // Ubuntu non-LTS
 
-            ////////////////////////////////////////////////////////////////////////////
+    // Template Literal for output
+    const deInfoOutput = `
+        
 
-            // Template Literal for output
-            const deNameOutput = `
-                Desktop Name: <strong>${currentDETitle}</strong><br />
-            `;
+            <div class="card">
+            <div class="card-body"> 
+                <div class="card-title">Desktop Name: ${currentDETitle}</div>
 
-            const deMoreInfoOutput = `
-                <br />
-                Homepage:<a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}'s Homepage </a><br />
-                Github URL: <a href="${currentDEGithub}" target="_blank"> ${currentDETitle} on Github </a><br />
-                Latest Version: ${currentDELatestVersion}<br />
-                Desktop Catagory: ${currentDECatagory} <br />
-                Distros That Feature: ${currentDEdistroFeature}
-                <br />
-                `;
-
-            const deReqOutput = `
-                <italics> Desktop Requirements: </italics>
+                <div class="card-text">
+                Homepage:<a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+                
+                Github URL: <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+                <br><br>
+                
+                Latest Version: ${currentDELatestVersion}<br>
+                Desktop Catagory: ${currentDECatagory}<br>Distros That Feature: ${currentDEdistroFeature}<br>
+                
+                <italics>Desktop Requirements: </italics>
                 <ul>
-                    <li>Required Processor: ${currentDEReqProc} </li>
+                    <li>Required Processor: ${currentDEReqProc}</li>
                     <li>Required Memory: ${currentDEReqMem}</li>
                     <li>Required Hard Drive Space: ${currentDEReqHDD}</li>
-                </ul><br />
-                `;
-
-            const versionsOutput = `
-
-            <div class="strong">Versions
-                <div class="font-italic">
-                    Arch:
-                    ${currentDEArchVersion}
+                </ul>
                 </div>
-                <ul>Fedora
-                    <li>
-                        <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
-                    </li>
-                </ul>
-
-                <ul>openSuse
-                    <li>
-                        <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
-                    </li>
-                </ul>
+            </div>
             </div>
 
-            <hr />
-            `;
 
-            // Remove later .. this is here until i figure out why php vars are not working like i want 
-            var localDEName = 'cinnamon';
-            //alert($localDEName);
+        `;
 
-            if (currentDEName == localDEName)
-            {
-                desktopResults.insertAdjacentHTML("beforeend", deNameOutput);
-                desktopResults.insertAdjacentHTML("beforeend", deMoreInfoOutput);
-                desktopResults.insertAdjacentHTML("beforeend", deReqOutput);
-                desktopResults.insertAdjacentHTML("beforeend", versionsOutput);
-            }
+    const versionsOutput = `
 
-        }
+    <div class="strong">Versions
+        <div class="font-italic">
+            Arch:
+            ${currentDEArchVersion}
+        </div>
+        <ul>Fedora
+            <li>
+                <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
+            </li>
+            <li>
+                <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
+            </li>
+            <li>
+                <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
+            </li>
+        </ul>
 
-    });
+        <ul>openSuse
+            <li>
+                <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
+            </li>
+            <li>
+                <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
+            </li>
+            <li>
+                <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
+            </li>
+        </ul>
+    </div>
+
+    <hr />`;
+
+
+if (currentDEName == localDEName)
+    {
+        desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + versionsOutput);
+    }
+
 }
 
+
+////////////////////////////////////////////////////////////////////
 // "main" function
 function getDesktopData(data) {
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
+    // Remove later .. this is here until i figure out why php vars are not working like i want 
+    var localDEName = 'cinnamon';
+
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {
 
-        newLoopTest(data);
+        
+        $.each(data, function(key, value) {
 
+            // The key is 'gtk2' or 'qt'
+    
+            var currentFramework = key;
+    
+            // subFramework is for the number of the object in the individual Framework (? what term i mean here)
+            // example - subframework ... (starting at 0 and not 1) would have 0, 1, and 2 for
+            for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+                
+                displayDEOutput(value, subFrameworks);
+            }
+    
+        });
+        
     }); // ends getJSON loop
 }

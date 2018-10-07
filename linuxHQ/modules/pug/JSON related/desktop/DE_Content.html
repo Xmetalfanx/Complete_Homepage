@@ -1,0 +1,24 @@
+// Remember this goes in the template literals in the js 
+
+<div class="card">
+        <div class="card-body"> 
+          <div class="card-title">Desktop Name: ${currentDETitle}</div>
+
+          <div class="card-text">
+            Homepage:<a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+            
+            Github URL: <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+            <br><br>
+            
+            Latest Version: ${currentDELatestVersion}<br>
+            Desktop Catagory: ${currentDECatagory}<br>Distros That Feature: ${currentDEdistroFeature}<br>
+            
+            <italics>Desktop Requirements: </italics>
+            <ul>
+              <li>Required Processor: ${currentDEReqProc}</li>
+              <li>Required Memory: ${currentDEReqMem}</li>
+              <li>Required Hard Drive Space: ${currentDEReqHDD}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
