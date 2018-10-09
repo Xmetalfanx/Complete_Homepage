@@ -1,6 +1,9 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
+// Remove later .. this is here until i figure out why php vars are not working like i want 
+var localDEName = 'cinnamon';
+
 ////////////////////////////////////////////////////////////////////////////////
 
 function displayDEOutput(value, subFrameworks)
@@ -52,28 +55,41 @@ function displayDEOutput(value, subFrameworks)
     // Template Literal for output
     const deInfoOutput = `
         
-
             <div class="card">
-            <div class="card-body"> 
-                <div class="card-title">Desktop Name: ${currentDETitle}</div>
-
-                <div class="card-text">
-                Homepage:<a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
-                
-                Github URL: <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
-                <br><br>
-                
-                Latest Version: ${currentDELatestVersion}<br>
-                Desktop Catagory: ${currentDECatagory}<br>Distros That Feature: ${currentDEdistroFeature}<br>
-                
-                <italics>Desktop Requirements: </italics>
-                <ul>
-                    <li>Required Processor: ${currentDEReqProc}</li>
-                    <li>Required Memory: ${currentDEReqMem}</li>
-                    <li>Required Hard Drive Space: ${currentDEReqHDD}</li>
-                </ul>
+                <div class="card-header bg-primary text-white">
+                    <h3 class="font-weight-bold"> ${currentDETitle}  </h3>
+                    
+                    
                 </div>
-            </div>
+                <div class="card-text">
+
+                    <span class="font-weight-bold">Homepage:</span>
+                    <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+                    <span class="font-weight-bold">Github URL: </span>
+                    <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+                    <br><br>
+                    
+                    <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
+                    <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
+                    <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
+                    <br><br />
+
+
+                    <italics>Desktop Requirements: </italics>
+                    
+                    <ul>
+                    <li> 
+                        <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
+                    </li>
+                    <li> 
+                        <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
+                    </li>
+                    <li> 
+                        <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
+                    </li>
+                    </ul>
+                </div>
+
             </div>
 
 
@@ -126,9 +142,6 @@ if (currentDEName == localDEName)
 // "main" function
 function getDesktopData(data) {
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
-
-    // Remove later .. this is here until i figure out why php vars are not working like i want 
-    var localDEName = 'cinnamon';
 
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {

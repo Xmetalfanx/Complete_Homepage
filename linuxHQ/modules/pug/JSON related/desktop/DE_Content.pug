@@ -1,23 +1,40 @@
 .card
-    .card-body 
-        .card-title Desktop Name: ${currentDETitle}
-        .card-text
-            | Homepage:
-            a(href='${currentDEHomepage}' target='_blank') ${currentDETitle}'s Homepage
-            br
-            | Github URL: 
-            a(href='${currentDEGithub}' target='_blank') ${currentDETitle} on Github
-            br
-            br 
-            | Latest Version: ${currentDELatestVersion}
-            br 
-            | Desktop Catagory: ${currentDECatagory}
-            br
-            | Distros That Feature: ${currentDEdistroFeature}
-            br
 
-            italics Desktop Requirements: 
-            ul
-                li Required Processor: ${currentDEReqProc}
-                li Required Memory: ${currentDEReqMem}
-                li Required Hard Drive Space: ${currentDEReqHDD}
+    .card-header.bg-primary.text-white
+        h3.font-weight-bold ${currentDETitle}
+    
+    .card-text
+        span.font-weight-bold Homepage:
+        a(href='${currentDEHomepage}' target='_blank') ${currentDETitle}'s Homepage
+        br
+
+        span.font-weight-bold Github URL: 
+        a(href='${currentDEGithub}' target='_blank') ${currentDETitle} on Github
+        br
+        br 
+
+
+        span.font-weight-bold Latest Version: 
+        | ${currentDELatestVersion}
+        br 
+
+        span.font-weight-bold Desktop Catagory: 
+        | ${currentDECatagory}
+        br
+
+        span.font-weight-bold Distros That Feature: 
+        | ${currentDEdistroFeature}
+        br
+        br 
+
+        italics Desktop Requirements: 
+        ul
+            li 
+                span.font-weight-bold Required Processor: 
+                | ${currentDEReqProc}
+            li 
+                span.font-weight-bold Required Memory: 
+                | ${currentDEReqMem}
+            li 
+                span.font-weight-bold Required Hard Drive Space: 
+                | ${currentDEReqHDD}
