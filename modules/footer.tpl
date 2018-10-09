@@ -27,11 +27,15 @@
 
     <i class="far fa-copyright mr-3" >
     </i>
-      <span class="font-italic">
+      <span class="font-italic mr-4">
         Xmetal/Xmetalfanx 2013-*
       </span>
 
 
+    <a href="https://mastodon.social/@xmetal" target="_blank">
+      <i class="fab fa-mastodon fa-2x"> </i>
+    </a>
+    
     <a href="https://gitlab.com/Xmetal" target="_blank">
       <i class="fab fa-gitlab fa-2x"></i>
     </a>
