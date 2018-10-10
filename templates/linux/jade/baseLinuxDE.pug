@@ -2,13 +2,13 @@
 <?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
 
 body(onload="getDesktopData()" )
+  #bodyContainer
+    #bodyMain
 
-  <?php include 'linuxNavMenu.tpl'; ?>
+      <?php include 'linuxNavMenu.tpl'; ?>
+      #mainBody.row
+        .col-xm-12.col-sm-12.col-md-2.col-lg-2.col-xl-2
+          <?php include $sitePath . '/linuxHQ/modules/section/linuxNDesktopEnvCol1.tpl'; ?>
 
-
-  #mainBody.row
-    .col-xm-12.col-sm-12.col-md-2.col-lg-2.col-xl-2
-      <?php include $sitePath . '/linuxHQ/modules/section/linuxNDesktopEnvCol1.tpl'; ?>
-
-    .col-xm-12.col-sm-12.col-md-10.col-lg-10.col-xl-10
-      div desktopSection
+        .col-xm-12.col-sm-12.col-md-10.col-lg-10.col-xl-10
+          div desktopSection
