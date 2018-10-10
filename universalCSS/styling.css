@@ -311,15 +311,6 @@ i.fa, i.fab, i.fas {
     text-decoration: none;
     color: inherit; }
 
-nav {
-  color: white; }
-  nav .navbar-brand {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 0 0 0 10px; }
-  nav .navbar-nav a:link {
-    font-size: 22px; }
-
 .smallText {
   font-size: 11px; }
 
@@ -357,6 +348,14 @@ h3.feed-title {
     background-color: inherit;
     font-size: 15px; }
 
+.xmetalRSS {
+  border: 1px solid #3e3f3a; }
+  .xmetalRSS .xmetalRSSHeader {
+    color: white;
+    background-color: #3e3f3a;
+    font-weight: bold;
+    padding: 1% 1% 1% 1%; }
+
 :root {
   overflow-x: hidden; }
 
@@ -390,12 +389,13 @@ footer {
   text-align: justify;
   padding: 1% 0 0 1%; }
 
-.xmetalRSS {
-  border: 1px solid #3e3f3a; }
-  .xmetalRSS .xmetalRSSHeader {
-    color: white;
-    background-color: #3e3f3a;
+nav {
+  color: white; }
+  nav .navbar-brand {
+    font-size: 36px;
     font-weight: bold;
-    padding: 1% 1% 1% 1%; }
+    padding: 0 0 0 10px; }
+  nav .navbar-nav a:link {
+    font-size: 22px; }
 
 /*# sourceMappingURL=styling.css.map */
