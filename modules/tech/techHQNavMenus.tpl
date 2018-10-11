@@ -6,16 +6,16 @@
   <div class="collapse navbar-collapse ml-auto" id="techHQNav">
     <div class="navbar-nav ml-auto p-3">
     
-    <i class="fas fa-desktop d-none d-md-block"></i>
+    <i class="fa fa-desktop d-none d-md-block"></i>
     <a class="nav-item nav-link" href="/techHQ/software/softwareIndex.php">Software Home</a>
     
-    <i class="fas fa-folder d-none d-md-block"></i>
+    <i class="fa fa-folder d-none d-md-block"></i>
     <a class="nav-item nav-link" href="/techHQ/techcenter/techCenterIndex.php">Tech Center ( Tips/Tutorials )</a>
     
-    <i class="far fa-eye d-none d-md-block"></i>
+    <i class="fa fa-eye d-none d-md-block"></i>
     <a class="nav-item nav-link" href="/techHQ/browsers/browserIndex.php">Web Browser</a>
     
-    <i class="fas fa-shield-alt d-none d-md-block"></i>
+    <i class="fa fa-shield d-none d-md-block"></i>
     <a class="nav-item nav-link" href="/techHQ/security/securityIndex.php">Security</a></div>
   </div>
 </nav>

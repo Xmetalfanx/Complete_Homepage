@@ -5,21 +5,16 @@
     Site made with:
     <!-- HTML 5-->
     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
-      <i class="fab fa-html5 fa-2x"></i>
+      <i class="fa fa-html5 fa-2x"></i>
     </a>
 
     <!-- CSS 3 -->
     <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">
-      <i class="fab fa-css3 fa-2x"></i>
-    </a>
-
-    <!-- Sass/Scss styling -->
-    <a href="https://sass-lang.com/" target="_blank">
-      <i class="fab fa-sass fa-2x"></i>
+      <i class="fa fa-css3 fa-2x"></i>
     </a>
 
     <!-- In Linux -->
-    <i class="fab fa-linux fa-2x"></i>
+    <i class="fa fa-linux fa-2x"></i>
   </div>
 
   <!-- The second of the two MAIN columns -->
@@ -34,29 +29,38 @@
 
    
     <a href="https://gitlab.com/Xmetal" target="_blank">
-      <i class="fab fa-gitlab fa-2x"></i>
+      <i class="fa fa-gitlab fa-2x"></i>
     </a>
 
     <a href="https://github.com/Xmetalfanx" target="_blank">
-      <i class="fab fa-github fa-2x mr-5"></i>
+      <i class="fa fa-github fa-2x mr-5"></i>
     </a>
 
- <a href="https://mastodon.social/@xmetal" target="_blank">
-      <i class="fab fa-mastodon fa-2x"> </i>
+
+
+
+<a href="https://diasp.org/people/4b26d930adc40136164e047d7b62795e" target="_blank">
+  <i class="fa fa-diaspora fa-2x">  </i>
+</a>
+
+
+
+
+
+  <a href="https://mastodon.social/@xmetal" target="_blank">
+      <i class="fa fa-mastodon fa-2x"> </i>
     </a>
     
-
-
-    <a href="https://twitter.com/Xmetalfanx" target="_blank">
-      <i class="fab fa-twitter fa-2x"></i>
+  <a href="https://twitter.com/Xmetalfanx" target="_blank">
+      <i class="fa fa-twitter fa-2x"></i>
     </a>
 
     <a href="https://www.youtube.com/user/Xmetalfanx" target="_blank">
-      <i class="fab fa-youtube fa-2x"></i>
+      <i class="fa fa-youtube fa-2x"></i>
     </a>
 
     <a href="https://plus.google.com/+Xmetalfanx2014/about" target="_blank">
-      <i class="fab fa-google-plus fa-2x"></i>
+      <i class="fa fa-google-plus fa-2x"></i>
     </a>
 
   </div>
