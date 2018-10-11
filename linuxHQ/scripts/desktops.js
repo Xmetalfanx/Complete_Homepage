@@ -1,8 +1,11 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
+// New Idea ... I think i was doing "<?php ... ", when i was ALREADY inside a <?php tag 
+var localDEName = "echo $localDEName";
+
 // Remove later .. this is here until i figure out why php vars are not working like i want 
-var localDEName = 'cinnamon';
+// var localDEName = 'cinnamon';
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -134,7 +137,7 @@ function displayDEOutput(value, subFrameworks)
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
                 <a class="nav-item nav-link active" id="nav-versions-tab" data-toggle="tab" href="#nav-versions" role="tab" aria-controls="nav-versions" aria-selected="true">Versions</a>
-               
+
                 <a class="nav-item nav-link" id="nav-install-tab" data-toggle="tab" href="#nav-install" role="tab" aria-controls="nav-install" aria-selected="false">How-To-Install</a>
                 
             </div>
@@ -150,7 +153,8 @@ function displayDEOutput(value, subFrameworks)
 
 if (currentDEName == localDEName)
     {
-        desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
+        console.log(localDEName);
+        // desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
     }
 
 }
