@@ -1,26 +1,6 @@
 @import "0-vars/vars-dir";
 @import "1-modules/modules-dir";
 
-// For Font Awesome
-i.fa, i.fab, i.fas
-{
-  color: $white;
-  background-color: transparent;
-
-  margin-top: auto;
-  margin-bottom: auto;
-
-  @include padding(0, 0, 0, 10px);
-
-  a:link
-  {
-    text-decoration: none;
-    color: inherit;
-  }
-
-}
-
-
 .smallText {
   font-size: 11px;
 }
@@ -97,12 +77,10 @@ h3.feed-title
 
 }
 
-
 /////////////////////////////////////////
 // RSS feed related - Post RSSDOG way
 // RSSDog wasn't bad ... it had good styling but that was all in the RSS link itself ...
 // this new way is more vanilla and it gives me SUPER fine-grain control over the CSS
-
 
 // Labeling it like this to keep it straight from other RSS tags that may be in the RSS to HTML script
 .xmetalRSS

@@ -301,16 +301,6 @@ template {
 [hidden] {
   display: none; }
 
-i.fa, i.fab, i.fas {
-  color: white;
-  background-color: transparent;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 0 0 0 10px; }
-  i.fa a:link, i.fab a:link, i.fas a:link {
-    text-decoration: none;
-    color: inherit; }
-
 .smallText {
   font-size: 11px; }
 
@@ -356,8 +346,29 @@ h3.feed-title {
     font-weight: bold;
     padding: 1% 1% 1% 1%; }
 
-:root {
-  overflow-x: hidden; }
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+#bodyContainer {
+  min-height: 100%; }
+
+#bodyMain {
+  overflow: auto;
+  padding-bottom: 75px; }
+
+i.fa, i.fab, i.fas {
+  color: white;
+  background-color: transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 0 0 10px; }
+  i.fa a:link, i.fab a:link, i.fas a:link {
+    text-decoration: none;
+    color: inherit; }
 
 a:link {
   background-color: inherit;
@@ -371,14 +382,13 @@ body {
   background-color: white; }
 
 footer {
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  flex-grow: 0;
-  width: 100%;
   color: white;
   background-color: #3e3f3a;
-  margin: 1% 0 0 0;
+  height: 75px;
+  margin-top: -75px;
+  position: relative;
+  clear: both;
+  display: flex;
   padding: 1% 0 0 0; }
   footer a:link {
     color: inherit;

@@ -301,16 +301,6 @@ template {
 [hidden] {
   display: none; }
 
-i.fa, i.fab, i.fas {
-  color: white;
-  background-color: transparent;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 0 0 0 10px; }
-  i.fa a:link, i.fab a:link, i.fas a:link {
-    text-decoration: none;
-    color: inherit; }
-
 .smallText {
   font-size: 11px; }
 

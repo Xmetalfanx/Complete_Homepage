@@ -2,9 +2,50 @@
 
 $footerheight: 75px;
 
-:root {
-  overflow-x: hidden;
+
+
+// Not sure if all of this is needed
+*
+{
+  margin: 0;
+  padding: 0;
 }
+
+html, body{
+  height: 100%;
+}
+
+// Outer Container 
+#bodyContainer
+{
+  min-height: 100%;
+}
+
+#bodyMain{
+  overflow: auto;
+  padding-bottom: $footerheight;
+}
+
+
+// For Font Awesome
+i.fa, i.fab, i.fas
+{
+  color: $white;
+  background-color: transparent;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  @include padding(0, 0, 0, 10px);
+
+  a:link
+  {
+    text-decoration: none;
+    color: inherit;
+  }
+
+}
+
 
 a:link{
   background-color: inherit;
@@ -21,27 +62,29 @@ body {
 
 }
 
+
+
+
 footer {
-   bottom: 0;
 
-   // this has nothing to do with the main layout's flex
-   // STILL not sure if this is the best idea
-   display: flex;
-   flex-direction: row;
-   flex-grow: 0;
+  color: $white;
+  background-color: $BGColor;
+  height: $footerheight;
+  margin-top: -$footerheight;
+  position: relative;
+  clear: both;
 
-   width: 100%;
+  // this has nothing to do with the main layout's flex
+  display: flex;
 
-   color: $white;
-   background-color: $BGColor;
 
-   @include margin(1%, 0, 0, 0);
-   @include padding(1%, 0, 0, 0);
+  @include padding(1%, 0, 0, 0);
 
-   a:link {
-     color: inherit;
-     background-color: inherit;
-   }
+  
+  a:link {
+    color: inherit;
+    background-color: inherit;
+  }
 
 
 }
