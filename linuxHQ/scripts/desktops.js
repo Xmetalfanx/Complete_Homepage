@@ -2,10 +2,10 @@
 var desktopResults = document.getElementById('desktopSection');
 
 // New Idea ... I think i was doing "<?php ... ", when i was ALREADY inside a <?php tag 
-var localDEName = "echo $localDEName";
+var localDEName = 'echo $localDEName;';
 
-// Remove later .. this is here until i figure out why php vars are not working like i want 
-// var localDEName = 'cinnamon';
+
+console.log(localDEName);
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -150,10 +150,9 @@ function displayDEOutput(value, subFrameworks)
             <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
         </div>`;
     
-
 if (currentDEName == localDEName)
     {
-        console.log(localDEName);
+  
         // desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
     }
 

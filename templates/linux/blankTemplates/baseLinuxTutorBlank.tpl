@@ -1,6 +1,5 @@
 <?php
     $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . '/linuxHQ/modules/variables/varInclude.php';
     include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 ?>
 

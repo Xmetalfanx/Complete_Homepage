@@ -36,16 +36,9 @@
       <i class="fa fa-github fa-2x mr-5"></i>
     </a>
 
-
-
-
-<a href="https://diasp.org/people/4b26d930adc40136164e047d7b62795e" target="_blank">
-  <i class="fa fa-diaspora fa-2x">  </i>
-</a>
-
-
-
-
+  <a href="https://diasp.org/people/4b26d930adc40136164e047d7b62795e" target="_blank">
+    <i class="fa fa-diaspora fa-2x">  </i>
+  </a>
 
   <a href="https://mastodon.social/@xmetal" target="_blank">
       <i class="fa fa-mastodon fa-2x"> </i>

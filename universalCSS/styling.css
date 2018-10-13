@@ -357,8 +357,8 @@ html, body {
   min-height: 100%; }
 
 #bodyMain {
-  overflow: auto;
-  padding-bottom: 75px; }
+  padding-bottom: 75px;
+  height: 100%; }
 
 i.fa, i.fab, i.fas {
   color: white;
@@ -397,7 +397,8 @@ footer {
 #mainBody {
   flex-grow: 1;
   text-align: justify;
-  padding: 1% 0 0 1%; }
+  padding: 1% 0 0 1%;
+  height: 100%; }
 
 nav {
   color: white; }

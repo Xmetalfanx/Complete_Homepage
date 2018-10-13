@@ -2,8 +2,6 @@
 
 $footerheight: 75px;
 
-
-
 // Not sure if all of this is needed
 *
 {
@@ -22,8 +20,8 @@ html, body{
 }
 
 #bodyMain{
-  overflow: auto;
   padding-bottom: $footerheight;
+  height: 100%;
 }
 
 
@@ -77,9 +75,7 @@ footer {
   // this has nothing to do with the main layout's flex
   display: flex;
 
-
   @include padding(1%, 0, 0, 0);
-
   
   a:link {
     color: inherit;
@@ -88,14 +84,13 @@ footer {
 
 
 }
-
+// This contains the two main col's under the navbar ... the naming for this and now "bodyMain" IS confusing and I should consider redoing one of the two's names 
 #mainBody
 {
   flex-grow: 1;
-
   text-align: justify;
-
   @include padding(1%, 0, 0, 1%);
+  height: 100%;
 
 }
 

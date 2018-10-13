@@ -3,8 +3,7 @@
 		$pageTitle = 'Linux Distribution (AKA Version) Section Frontpage';
 	  $sitePath = "/home/xmetalx1/public_html";
 
-		include $sitePath . '/linuxHQ/modules/variables/varinclude.php';
-		include $sitePath . "/templates/linux/blankTemplates/baseLinuxDistroBlank.tpl";
+		include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 ?>
 
 
@@ -185,9 +184,8 @@
 </div>
 
 
+    </div> <!-- Ends main content on the right, column -->
+  </div> <!-- Ends Row Class -->
 
-</div>
 
-</div>
-<!-- SHOULD be outside OF THE mainBody DIV ... if its not, there is a problem -->
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php include $sitePath . '/modules/footer.tpl'; ?>
