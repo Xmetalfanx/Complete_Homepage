@@ -1,9 +1,9 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-// New Idea ... I think i was doing "<?php ... ", when i was ALREADY inside a <?php tag 
-var localDEName = 'echo $localDEName;';
-
+// Tests
+var localJSDEVar = $localDEName;
+var localJSDEVar2 = ${localDEName};
 
 console.log(localDEName);
 
@@ -150,10 +150,12 @@ function displayDEOutput(value, subFrameworks)
             <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
         </div>`;
     
+
 if (currentDEName == localDEName)
     {
   
         // desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
+
     }
 
 }
@@ -163,6 +165,11 @@ if (currentDEName == localDEName)
 ////////////////////////////////////////////////////////////////////
 // "main" function
 function getDesktopData(data) {
+    
+    // Tests only
+    alert(localJSDEVar);
+    alert(localJSDEVar2);
+
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
     // Get JSON Data

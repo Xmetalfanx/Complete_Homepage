@@ -67,7 +67,7 @@
 </div>
 
 <!-- ends second column from the template  -->
-<?php include $sitePath . "/modules/tech/startpage.tpl"; ?>
+<?php include $sitePath . "/modules/startpage.tpl"; ?>
 </div>
 
 <!-- Closes mainBody container  -->

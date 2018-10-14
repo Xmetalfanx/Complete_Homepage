@@ -25,7 +25,3 @@
   <link rel="stylesheet" type="text/css" media="all" href="/techHQ/stylesheets/styling.css">
 
 </head>
-
-<body>
-
-<?php include 'techHQNavMenus.tpl'; ?>

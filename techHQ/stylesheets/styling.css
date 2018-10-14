@@ -49,10 +49,9 @@
 /* Colors */
 /* Fonts */
 /* Images */
-.btn {
-  display: block;
-  color: white;
-  background-color: #333333;
-  margin: 10px 0 10px 1%; }
+#GAOTD {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=styling.css.map */
