@@ -2,8 +2,9 @@
 var desktopResults = document.getElementById('desktopSection');
 
 // Tests
-var localJSDEVar = $localDEName;
-var localJSDEVar2 = ${localDEName};
+var localJSDEVar = localDEName;
+var localJSDEVar2 = "echo $localDEName";
+
 
 console.log(localDEName);
 

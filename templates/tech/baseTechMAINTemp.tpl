@@ -5,7 +5,7 @@
 
 ?>
 <body>
-  <?php include $sitePath . '/modules/tech/techNavMenu.tpl'; ?>
+  <?php include $sitePath . '/modules/tech/techHQNavMenus.tpl'; ?>
 
 	<div id="mainBody" class="row col-12">
 		<div class="col-xs-12 col-md-2">
