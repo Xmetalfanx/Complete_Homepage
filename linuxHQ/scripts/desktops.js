@@ -1,61 +1,10 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-// Tests
-var localJSDEVar = localDEName;
-var localJSDEVar2 = "echo $localDEName";
 
-
-console.log(localDEName);
-
-////////////////////////////////////////////////////////////////////////////////
-
-function displayDEOutput(value, subFrameworks)
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version)
 {
-    // I need to know value and subFrameworks here 
-
-    var currentDEName = value[subFrameworks].desktopName;
-    var currentDETitle = value[subFrameworks].desktopTitle;
-
-    // More Info
-    var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-    var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-    var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
-    var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
-    var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
-
-    // Requirnments
-    var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
-    var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
-    var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
-
-    // Versions
-
-        // Arch
-        var currentDEArchVersion = value[subFrameworks].versions.arch;
-
-        // Fedora
-        var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
-        var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
-        var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
-
-        // OpenSuse
-        var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
-        var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
-        var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
-
-        // Linux Mint
-        var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
-        var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
-        var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
-
-        // Ubuntu LTS
-
-        // Ubuntu non-LTS
-
-
-
-
+  
     // Template Literal for output
     const deInfoOutput = `
         
@@ -150,47 +99,93 @@ function displayDEOutput(value, subFrameworks)
             </div>
             <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
         </div>`;
-    
 
-if (currentDEName == localDEName)
-    {
-  
-        // desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
+    desktopResults.insertAdjacentHTML("afterend", deInfoOutput);
+    desktopResults.insertAdjacentHTML("afterend", deVersionsOutput);
+    desktopResults.insertAdjacentHTML("afterend", deTabInfoOutput);
 
-    }
-
-}
+};
 
 
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
 function getDesktopData(data) {
-    
-    // Tests only
-    alert(localJSDEVar);
-    alert(localJSDEVar2);
+
+    $(document).ready(function() {
 
     jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {
 
-        
         $.each(data, function(key, value) {
 
             // The key is 'gtk2' or 'qt'
     
             var currentFramework = key;
-    
-            // subFramework is for the number of the object in the individual Framework (? what term i mean here)
-            // example - subframework ... (starting at 0 and not 1) would have 0, 1, and 2 for
+
+            // subFramework is the number for the individual framework in the JSOn file 
+                // ( say 0-cinnamon, 1-mate, 2 - plasma 5, ..etc )
             for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+            
                 
-                displayDEOutput(value, subFrameworks);
+
+
+            // I need to know value and subFrameworks here 
+
+            var currentDEName = value[subFrameworks].desktopName;
+            var currentDETitle = value[subFrameworks].desktopTitle;
+
+            // More Info
+            var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+            var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
+            var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
+            var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
+            var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
+
+            // Requirnments
+            var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
+            var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
+            var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
+
+            // Versions
+
+                // Arch
+                var currentDEArchVersion = value[subFrameworks].versions.arch;
+
+                // Fedora
+                var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
+                var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
+                var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
+
+                // OpenSuse
+                var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
+                var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
+                var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
+
+                // Linux Mint
+                var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
+                var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
+                var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
+
+                // Ubuntu LTS
+
+                // Ubuntu non-LTS
+
+                ///////////////////////////////////////////////////////////////////////////////////
+                displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);      
+
             }
     
         });
         
     }); // ends getJSON loop
+
+
+
+    });
+
+
+ 
 }

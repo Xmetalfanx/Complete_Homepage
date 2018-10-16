@@ -65,31 +65,19 @@
 
                     "programDesc": ""
                 },
-                {
-                    "programName": "",
-                    "programTitle": "",
-                    "programIcon": "",
-                    "programVersion": "",
-
-                    "programDesc": ""
-                }, {
-                    "programName": "",
-                    "programTitle": "",
-                    "programIcon": "",
-                    "programVersion": "",
-
-                    "programDesc": ""
-                }
-
-
-
-
-        ]
+            
             "videoplayers": [
 
+                {
+                    "programName": "vlc",
+                    "programTitle": "VLC",
+                    "programIcon": "",
+                    "programVersion": "",
+                
+                    "programDesc": ""
+                },
 
-
-            ]
+                    ]
 
     ]
 

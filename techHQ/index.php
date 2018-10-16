@@ -20,7 +20,7 @@
         <a href="https://www.khanacademy.org/" target="_blank">
         <img src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic"/></a>
         
-        </div>
+      </div>
       <div class="col-3">
         <a href="https://linuxacademy.com/" target="_blank">
         <img src="/graphics/linuxAcademy.png" alt="Linux Academy Graphic"/></a>
@@ -28,22 +28,19 @@
       </div>
       <div class="col-3">
         <a href="https://www.digitalocean.com/community/" target="_blank">
-        <img src="/techHQ/graphics/digital-ocean.png" alt="Digital Ocean Graphic" class="float-right"/>
-      </a>
+        <img src="/techHQ/graphics/digital-ocean.png" alt="Digital Ocean Graphic" class="float-right"/></a>
       </div>
-    </div>
+    </div> <!-- ends "row px-3" div -->
 
     <br/><br/>
 
     <div class="row px-3">
       <div class="col-6">
         <a href="http://www.kristakingmath.com/" target="_blank"> 
-          <img src="/graphics/kking.png" alt="Krista King Math Site graphics" class="bg-primary"/>
-        </a>
+          <img src="/graphics/kking.png" alt="Krista King Math Site graphics" class="bg-primary"/></a>
         <br/>
         <a href="https://www.youtube.com/channel/UCUDlvPp1MlnegYXOXzj7DEQ">
-          (or Her Channel on Youtube)
-        </a>
+          (or Her Channel on Youtube)</a>
       
         </div>
         <div class="col-6">
@@ -57,18 +54,20 @@
             and electrical circuity related content.  
           </div>
     
-      </div>
-      </div>
-  </div>
-</div>
+      </div> <!-- ends second col-6 -->
+      </div> <!-- ends "row px-3" div -->
+  </div> <!-- Ends card-text --> 
+</div> <!-- Ends Card --> 
 
 
 <?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
-</div>
+</div> <!-- I WANT this to end the second column but NOT exit "mainBody" -->
 
-<!-- ends second column from the template  -->
+
 <?php include $sitePath . "/modules/startpage.tpl"; ?>
-</div>
+</div><!-- Closes mainBody container  -->
 
-<!-- Closes mainBody container  -->
+
+
+
 <?php  include $sitePath . "/modules/footer.tpl"; ?>
