@@ -1,114 +1,136 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-
 function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version)
 {
   
     // Template Literal for output
+    const deCardHeaderStart = `
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+    `;
+
+    const deCardHeader = `<h3 class="font-weight-bold"> ${currentDETitle}  </h3>`;
+
+    const deCardHeaderEndTextStart = `
+        </div> <!-- Ends card-header class --> 
+        <div class="card-text">
+    `;
+
+
     const deInfoOutput = `
+
+        <span class="font-weight-bold">Homepage:</span>
+        <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+        <span class="font-weight-bold">Github URL: </span>
+        <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+        <br><br>
         
-            <div class="card">
-                <div class="card-header bg-primary text-white">
-                    <h3 class="font-weight-bold"> ${currentDETitle}  </h3>
-                    
-                    
-                </div>
-                <div class="card-text">
-
-                    <span class="font-weight-bold">Homepage:</span>
-                    <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
-                    <span class="font-weight-bold">Github URL: </span>
-                    <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
-                    <br><br>
-                    
-                    <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
-                    <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
-                    <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
-                    <br><br />
+        <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
+        <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
+        <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
+        <br><br />
 
 
-                    <italics>Desktop Requirements: </italics>
-                    
-                    <ul>
-                    <li> 
-                        <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
-                    </li>
-                    <li> 
-                        <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
-                    </li>
-                    <li> 
-                        <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
-                    </li>
-                    </ul>
-                </div>
+        <italics>Desktop Requirements: </italics>
+        
+        <ul>
+            <li> 
+                <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
+            </li>
+            <li> 
+                <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
+            </li>
+            <li> 
+                <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
+            </li>
+        </ul>
 
-            </div>
-            <br />
+        <br />
         `;
+
+
 
         const deVersionsOutput = `
         
-        <div class="strong">Versions
-        <div class="font-italic">
-            Arch:
-            ${currentDEArchVersion}
-        </div>
-        <ul>Fedora
-            <li>
-                <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
-            </li>
-            <li>
-                <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
-            </li>
-            <li>
-                <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
-            </li>
-        </ul>
+        <div class="strong">Versions</div>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    Arch: ${currentDEArchVersion}
+                </div>
 
-        <ul>openSuse
-            <li>
-                <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
-            </li>
-            <li>
-                <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
-            </li>
-            <li>
-                <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
-            </li>
-        </ul>
-    </div>
+            <div class="col-md-4">    
+                <ul>Fedora
+                    <li>
+                        <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
+                    </li>
+                </ul>
+            </div>
 
-    <hr />`;
+            <div class="col-md-4">
+                <ul>openSuse
+                    <li>
+                        <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
+                    </li>
+                    <li>
+                        <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- Closes Row -->
+
+        <br />
+        <hr />`;
 
         const deTabInfoOutput = `
 
-        <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
-                <a class="nav-item nav-link active" id="nav-versions-tab" data-toggle="tab" href="#nav-versions" role="tab" aria-controls="nav-versions" aria-selected="true">Versions</a>
+                    <a class="nav-item nav-link active" id="nav-versions-tab" data-toggle="tab" href="#nav-versions" role="tab" aria-controls="nav-versions" aria-selected="true">Versions</a>
 
-                <a class="nav-item nav-link" id="nav-install-tab" data-toggle="tab" href="#nav-install" role="tab" aria-controls="nav-install" aria-selected="false">How-To-Install</a>
-                
-            </div>
-        </nav>
-    
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-version-tab">
-            ${deVersionsOutput}
-            </div>
-            <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
-        </div>`;
-
-
+                    <a class="nav-item nav-link" id="nav-install-tab" data-toggle="tab" href="#nav-install" role="tab" aria-controls="nav-install" aria-selected="false">How-To-Install</a>
+                    
+                </div>
+            </nav>
+        
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-version-tab">
+                ${deVersionsOutput}
+                </div>
+                <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
+            </div>`;
 
 
-    desktopResults.insertAdjacentHTML("afterend", deInfoOutput);
-    desktopResults.insertAdjacentHTML("afterend", deVersionsOutput);
-    desktopResults.insertAdjacentHTML("afterend", deTabInfoOutput);
+        const deCardTotalClosure = `
+        
+            </div> <!-- Closes card-text -->
+        </div> <!-- Closes card --> 
+        
+        `;
+
+        // For test
+        localDETest = 'cinnamon';
+
+
+        if ( currentDEName == localDETest) {
+            desktopResults.insertAdjacentHTML("beforeend", deCardHeaderStart + deCardHeader + deCardHeaderEndTextStart);
+            desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deVersionsOutput + deTabInfoOutput);
+            desktopResults.insertAdjacentHTML("beforeend", deCardTotalClosure);
+        }
+
 
 };
-
 
 
 ////////////////////////////////////////////////////////////////////
