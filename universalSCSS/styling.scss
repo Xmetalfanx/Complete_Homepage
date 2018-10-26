@@ -106,9 +106,15 @@ nav
   }
 
 
-
   // This is for the navigation menus on the right, when at full screen
   .navbar-nav a:link {
     font-size: 22px;
   }
+
+  .nav-tabs
+  {
+    background-color: $white;
+  }
+
+  
 }
