@@ -100,6 +100,9 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
         </div>`;
 
+
+
+
     desktopResults.insertAdjacentHTML("afterend", deInfoOutput);
     desktopResults.insertAdjacentHTML("afterend", deVersionsOutput);
     desktopResults.insertAdjacentHTML("afterend", deTabInfoOutput);
@@ -119,63 +122,69 @@ function getDesktopData(data) {
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {
 
+        // For each key value 
         $.each(data, function(key, value) {
 
             // The key is 'gtk2' or 'qt'
     
             var currentFramework = key;
 
-            // subFramework is the number for the individual framework in the JSOn file 
-                // ( say 0-cinnamon, 1-mate, 2 - plasma 5, ..etc )
+        
             for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
-            
+
+                // I need to know value and subFrameworks here 
+
+                var currentDEName = value[subFrameworks].desktopName;
+                var currentDETitle = value[subFrameworks].desktopTitle;
+
+                // More Info
+                var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+                var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
+                var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
+                var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
+                var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
+
+                // Requirnments
+                var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
+                var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
+                var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
+
+                // Versions
+
+                    // Arch
+                    var currentDEArchVersion = value[subFrameworks].versions.arch;
+
+                    // Fedora
+                    var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
+                    var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
+                    var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
+
+                    // OpenSuse
+                    var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
+                    var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
+                    var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
+
+                    // Linux Mint
+                    var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
+                    var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
+                    var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
+
+                    // Ubuntu LTS
+
+                    // Ubuntu non-LTS
+
                 
-
-
-            // I need to know value and subFrameworks here 
-
-            var currentDEName = value[subFrameworks].desktopName;
-            var currentDETitle = value[subFrameworks].desktopTitle;
-
-            // More Info
-            var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-            var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-            var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
-            var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
-            var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
-
-            // Requirnments
-            var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
-            var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
-            var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
-
-            // Versions
-
-                // Arch
-                var currentDEArchVersion = value[subFrameworks].versions.arch;
-
-                // Fedora
-                var currentDEF27Version = value[subFrameworks].versions.fedora.f27;
-                var currentDEF28Version = value[subFrameworks].versions.fedora.f28;
-                var currentDEFRWVersion = value[subFrameworks].versions.fedora.rawhide;
-
-                // OpenSuse
-                var currentDESuseL423Version = value[subFrameworks].versions.opensuse.leap423;
-                var currentDESuseL15Version = value[subFrameworks].versions.opensuse.leap15;
-                var currentDESuseTWVersion = value[subFrameworks].versions.opensuse.tumbleweed;
-
-                // Linux Mint
-                var currentDEMint173Version = value[subFrameworks].versions.ubuntu.mint.mint173;
-                var currentDEMint18Version = value[subFrameworks].versions.ubuntu.mint.mint18;
-                var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
-
-                // Ubuntu LTS
-
-                // Ubuntu non-LTS
-
+                
+            
                 ///////////////////////////////////////////////////////////////////////////////////
-                displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);      
+                
+                // Specific assignment just for a test 
+                if ( currentDEName = "cinnamon")
+                {
+                     displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);    
 
+                }
+                
             }
     
         });

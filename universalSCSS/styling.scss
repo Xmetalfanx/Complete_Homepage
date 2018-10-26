@@ -83,28 +83,15 @@ footer {
 
 
 }
-// This contains the two main col's under the navbar ... the naming for this and now "bodyMain" IS confusing and I should consider redoing one of the two's names 
-#mainBody
-{
-  flex-grow: 1;
-  text-align: justify;
-  @include padding(1%, 0, 0, 1%);
-  height: 100%;
 
-}
-
-
-
-// Header Main text is not changing so I am trying this class OUTSIDE of the other nav css, above
 
 // Nav: for the entire header
 nav
 {
-  // flex-grow: 0;
-
-  // width: 100%;
 
   color: $white;
+  background-color: $BGColor;
+  @include margin(0, 0, 1%, 0);
 
 
   // This is for the Text "header" on the left, when at full screen
