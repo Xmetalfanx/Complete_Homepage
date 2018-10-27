@@ -5,88 +5,86 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 {
   
     // Template Literal for output
-    const deCardHeaderStart = `
-        <div class="card">
-            <div class="card-header bg-primary text-white">
-    `;
 
-    const deCardHeader = `<h3 class="font-weight-bold"> ${currentDETitle}  </h3>`;
 
-    const deCardHeaderEndTextStart = `
+    // Complete Header 
+    const deCardCompleteHeader = `
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3 class="font-weight-bold"> ${currentDETitle}  </h3>
         </div> <!-- Ends card-header class --> 
-        <div class="card-text">
-    `;
-
+    
+    
+    `; 
 
     const deInfoOutput = `
-
-        <span class="font-weight-bold">Homepage:</span>
-        <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
-        <span class="font-weight-bold">Github URL: </span>
-        <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
-        <br><br>
+        <div class="card-text">
+            <span class="font-weight-bold">Homepage:</span>
+            <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+            <span class="font-weight-bold">Github URL: </span>
+            <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+            <br><br>
         
-        <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
-        <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
-        <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
-        <br><br />
+            <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
+            <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
+            <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
+            <br><br />
 
+            <italics>Desktop Requirements: </italics>
+            
+            <ul>
+                <li> 
+                    <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
+                </li>
+                <li> 
+                    <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
+                </li>
+                <li> 
+                    <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
+                </li>
+            </ul>
 
-        <italics>Desktop Requirements: </italics>
-        
-        <ul>
-            <li> 
-                <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
-            </li>
-            <li> 
-                <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
-            </li>
-            <li> 
-                <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
-            </li>
-        </ul>
-
-        <br />
+            <br />
         `;
 
-
-
+        // used INSIDE the tabs below and not seperately 
         const deVersionsOutput = `
         
         <div class="strong">Versions</div>
             
             <div class="row">
-                <div class="col-md-4">
-                    Arch: ${currentDEArchVersion}
+                <div class="col-md-3"> Arch: ${currentDEArchVersion}  </div>
+
+                <div class="col-md-3">    
+                    <ul>Fedora
+                        <li>
+                            <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
+                        </li>
+                        <li>
+                            <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
+                        </li>
+                        <li>
+                            <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
+                        </li>
+                    </ul>
                 </div>
 
-            <div class="col-md-4">    
-                <ul>Fedora
-                    <li>
-                        <span class="font-italics">Fedora 27: ${currentDEF27Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics"> Fedora 28: ${currentDEF28Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics">Fedora Rawhide: ${currentDEFRWVersion}
-                    </li>
-                </ul>
-            </div>
+                <div class="col-md-3">
+                    <ul>openSuse
+                        <li>
+                            <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
+                        </li>
+                        <li>
+                            <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
+                        </li>
+                        <li>
+                            <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="col-md-4">
-                <ul>openSuse
-                    <li>
-                        <span class="font-italics">OpenSuse Leap 42.3: ${currentDESuseL423Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics">OpenSuse Leap 15: ${currentDESuseL15Version} </span>
-                    </li>
-                    <li>
-                        <span class="font-italics">OpenSuse Tumbleweed: ${currentDESuseTWVersion} </span>
-                    </li>
-                </ul>
-            </div>
+            <div class="col-md-3"> Ubuntu Based: </div>
+
         </div> <!-- Closes Row -->
 
         <br />
@@ -109,24 +107,29 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 ${deVersionsOutput}
                 </div>
                 <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
-            </div>`;
-
-
-        const deCardTotalClosure = `
-        
+            </div>
+            
             </div> <!-- Closes card-text -->
         </div> <!-- Closes card --> 
-        
-        `;
+            
+            `;
 
+
+        // Var to paste things together as I THINK the hiccup i have now is that each call to insertAdjacentHTML below is a different DIV 
+        const deCardBody = `
+        ${deInfoOutput}
+        ${deTabInfoOutput}
+        `; 
+
+
+        ////////////////////////////////////////////////////////////
         // For test
         localDETest = 'cinnamon';
-
+        /////////////////////////////////////////////////////////////////
 
         if ( currentDEName == localDETest) {
-            desktopResults.insertAdjacentHTML("beforeend", deCardHeaderStart + deCardHeader + deCardHeaderEndTextStart);
-            desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
-            desktopResults.insertAdjacentHTML("beforeend", deCardTotalClosure);
+            desktopResults.insertAdjacentHTML("beforeend", deCardCompleteHeader);
+            desktopResults.insertAdjacentHTML("beforeend", deCardBody);
         }
 
 
