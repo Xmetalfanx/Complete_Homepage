@@ -125,7 +125,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
         if ( currentDEName == localDETest) {
             desktopResults.insertAdjacentHTML("beforeend", deCardHeaderStart + deCardHeader + deCardHeaderEndTextStart);
-            desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deVersionsOutput + deTabInfoOutput);
+            desktopResults.insertAdjacentHTML("beforeend", deInfoOutput + deTabInfoOutput);
             desktopResults.insertAdjacentHTML("beforeend", deCardTotalClosure);
         }
 
