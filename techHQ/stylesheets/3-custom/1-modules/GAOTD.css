@@ -1,7 +1,9 @@
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
 #GAOTD {
   width: 50%;
-  padding-top: 3px; }
+  padding-top: 3px;
+  margin-left: auto;
+  margin-right: auto; }
 
 #ga_block {
   width: 60%;

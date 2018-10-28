@@ -2,49 +2,5 @@
 /* Fonts */
 /* Images */
 /* Border variables */
-.smallText {
-  font-size: 11px; }
-
-.coverImage {
-  display: block;
-  min-height: 40vh;
-  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
-  background-position: top;
-  background-size: cover; }
-
-#StartPageStyle {
-  display: flex;
-  justify-content: center; }
-
-.iconSM {
-  width: 32px;
-  height: 32px; }
-
-.iconLG {
-  width: 48px;
-  height: 48px; }
-
-h3.feed-title {
-  color: white;
-  background-color: #3e3f3a;
-  padding: 1% 0 1% 1%; }
-
-.feed-iten-desc {
-  padding: 1% 1% 1% 1%; }
-
-.feed-item-title {
-  padding: 1% 1% 0 5px; }
-  .feed-item-title a:link, .feed-item-title a:hover, .feed-item-title a:visited {
-    color: #3e3f3a;
-    background-color: inherit;
-    font-size: 15px; }
-
-.xmetalRSS {
-  border: 1px solid #3e3f3a; }
-  .xmetalRSS .xmetalRSSHeader {
-    color: white;
-    background-color: #3e3f3a;
-    font-weight: bold;
-    padding: 1% 1% 1% 1%; }
 
 /*# sourceMappingURL=custom-dir.css.map */

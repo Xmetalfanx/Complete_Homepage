@@ -2,6 +2,70 @@
 /* Fonts */
 /* Images */
 /* Border variables */
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%; }
+
+#bodyContainer {
+  min-height: 100%; }
+
+#bodyMain {
+  height: 100%; }
+
+i.fa,
+i.fab,
+i.fas {
+  color: white;
+  background-color: transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 0 0 10px; }
+  i.fa a:link,
+  i.fab a:link,
+  i.fas a:link {
+    text-decoration: none;
+    color: inherit; }
+
+a:link {
+  background-color: inherit;
+  color: navy; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-size: 12pt;
+  color: #3e3f3a;
+  background-color: white; }
+
+footer {
+  color: white;
+  background-color: #3e3f3a;
+  height: 75px;
+  margin-top: -75px;
+  position: relative;
+  clear: both;
+  display: flex;
+  padding: 1% 0 0 0; }
+  footer a:link {
+    color: inherit;
+    background-color: inherit; }
+
+nav {
+  color: white;
+  background-color: #3e3f3a; }
+  nav .navbar-brand {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 0 0 10px; }
+  nav .navbar-nav a:link {
+    font-size: 22px; }
+  nav .nav-tabs {
+    background-color: white; }
+
 .smallText {
   font-size: 11px; }
 
@@ -34,7 +98,9 @@ h3.feed-title {
 
 .feed-item-title {
   padding: 1% 1% 0 5px; }
-  .feed-item-title a:link, .feed-item-title a:hover, .feed-item-title a:visited {
+  .feed-item-title a:link,
+  .feed-item-title a:hover,
+  .feed-item-title a:visited {
     color: #3e3f3a;
     background-color: inherit;
     font-size: 15px; }
@@ -46,65 +112,5 @@ h3.feed-title {
     background-color: #3e3f3a;
     font-weight: bold;
     padding: 1% 1% 1% 1%; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-html, body {
-  height: 100%; }
-
-#bodyContainer {
-  min-height: 100%; }
-
-#bodyMain {
-  height: 100%; }
-
-i.fa, i.fab, i.fas {
-  color: white;
-  background-color: transparent;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 0 0 0 10px; }
-  i.fa a:link, i.fab a:link, i.fas a:link {
-    text-decoration: none;
-    color: inherit; }
-
-a:link {
-  background-color: inherit;
-  color: navy; }
-
-body {
-  display: flex;
-  flex-direction: column;
-  font-size: 12pt;
-  color: #3e3f3a;
-  background-color: white; }
-
-footer {
-  color: white;
-  background-color: #3e3f3a;
-  height: 75px;
-  margin-top: -75px;
-  position: relative;
-  clear: both;
-  display: flex;
-  padding: 1% 0 0 0; }
-  footer a:link {
-    color: inherit;
-    background-color: inherit; }
-
-nav {
-  color: white;
-  background-color: #3e3f3a;
-  margin: 0 0 1% 0; }
-  nav .navbar-brand {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 0 0 0 10px; }
-  nav .navbar-nav a:link {
-    font-size: 22px; }
-  nav .nav-tabs {
-    background-color: white; }
 
 /*# sourceMappingURL=styling.css.map */
