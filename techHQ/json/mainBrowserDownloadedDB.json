@@ -1,0 +1,59 @@
+[
+    { "id": 2, "addonname": "contextSearch", "addontitle": "Context Search", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "search", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/context-search/?src=search", "chromeurl": "N/A" }, { "id": 6, "addonname": "noscript", "addontitle": "Noscript", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "security", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users", "chromeurl": "N/A" }, { "id": 7, "addonname": "organizesearchengines", "addontitle": "Organize Search Engines", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "various", "iconurl": "", "firefoxurl": "", "chromeurl": "N/A" }, { "id": 8, "addonname": "placesmaintence", "addontitle": "Places Maintenance ", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "profile", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/places-maintenance/?src=search", "chromeurl": "N/A" }, { "id": 9, "addonname": "preferencecleaner", "addontitle": "Preference Cleaner", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "profile", "iconurl": "", "firefoxurl": "", "chromeurl": "N/A" }, { "id": 10, "addonname": "profileswitcher", "addontitle": "Profile Switcher ", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "profile", "iconurl": "", "firefoxurl": "", "chromeurl": "N/A" }, { "id": 11, "addonname": "status4evar", "addontitle": "Status-4 Evar", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "cosmetic", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/status-4-evar/?src=search", "chromeurl": "N/A" }, { "id": 12, "addonname": "switchy", "addontitle": "Switchy", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "profile", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/switchy/?src=search", "chromeurl": "N/A" }, { "id": 14, "addonname": "privacybadger", "addontitle": "Privacy Badger", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "BOTH", "forFF57up": "TRUE", "catagory": "security", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search", "chromeurl": "" }, { "id": 15, "addonname": "ublock", "addontitle": "Ublock Origin", "currentversion": "", "developer": "Raymond Gorhill", "lastupdated": "0000-00-00", "browserSupport": "BOTH", "forFF57up": "TRUE", "catagory": "adblocker", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search", "chromeurl": "" }, { "id": 16, "addonname": "umatrix", "addontitle": "Umatrix", "currentversion": "", "developer": "Raymond Gorhill", "lastupdated": "0000-00-00", "browserSupport": "BOTH", "forFF57up": "", "catagory": "adblocker", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search", "chromeurl": "" }, { "id": 18, "addonname": "downloaderhelper", "addontitle": "Video Download Helper", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "", "forFF57up": "", "catagory": "download", "iconurl": "", "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users", "chromeurl": "N/A" }, { "id": 19, "addonname": "downloadmangertweak", "addontitle": "DownloadManagerTweak", "currentversion": "", "developer": "", "lastupdated": "0000-00-00", "browserSupport": "FF", "forFF57up": "", "catagory": "download", "iconurl": "", "firefoxurl": "", "chromeurl": "N/A" },
+
+
+
+
+
+    {
+
+        "id": 20,
+        "addonname": "downloadstatusbar",
+        "addontitle": "Download Statusbar",
+        "currentversion": "",
+        "developer": "",
+        "lastupdated": "0000-00-00",
+        "browserSupport": "FF",
+        "
+        forFF57up ": "
+        ","
+        catagory ": "
+        download ","
+        iconurl ": "
+        ","
+        firefoxurl ": "
+        ","
+        chromeurl ": "
+        "}, {"
+        id ": 21,"
+        addonname ": "
+        downloadthemall ","
+        addontitle ": "
+        DownloadThemAll ","
+        currentversion ": "
+        3.08 ","
+        developer ": "
+        ","
+        lastupdated ": "
+        0000 - 00 - 00 ","
+        browserSupport ": "
+        FF ","
+        forFF57up ": "
+        ","
+        catagory ": "
+        download ","
+        iconurl ": "
+        ","
+        firefoxurl ": "
+        https: //addons.mozilla.org/en-US/firefox/addon/downthemall/?src=cb-dl-mostpopular","chromeurl": ""}, {"id": 22,"addonname": "hidecaption","addontitle": "Hide Caption Titlebar","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "FF","forFF57up": "","catagory": "","iconurl": "","firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/hide-caption-titlebar-plus-sma/?src=search","chromeurl": ""}, {"id": 23,"addonname": "lazurus","addontitle": "Lazurus: Form Recovery","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "FF","forFF57up": "","catagory": "form control","iconurl": "","firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/lazarus-form-recovery/?src=search","chromeurl": ""}, {"id": 24,"addonname": "whatruns","addontitle": "WhatRuns","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "FF","forFF57up": "","catagory": "development","iconurl": "","firefoxurl": "","chromeurl": ""}, {"id": 25,"addonname": "privacysettings","addontitle": "Privacy Settings","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "FF","forFF57up": "","catagory": "security","iconurl": "","firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search","chromeurl": ""}, {"id": 26,"addonname": "lastpass","addontitle": "Last Pass","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "BOTH","forFF57up": "","catagory": "password","iconurl": "","firefoxurl": "","chromeurl": ""}, {"id": 27,"addonname": "sessionmanager","addontitle": "Session Manager","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "various","iconurl": "","firefoxurl": "http://sessionmanager.mozdev.org/","chromeurl": ""}, {"id": 28,"addonname": "showip","addontitle": "Show IP","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "various","iconurl": "","firefoxurl": "http://code.google.com/p/firefox-showip/","chromeurl": ""}, {"id": 29,"addonname": "shortlyURL","addontitle": "Shortly URL Shortener","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "shortener","iconurl": "","firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/shortly-url-shortener/?src=collection&amp;collection_id=1e168743-04ef-e0f0-9d1f-2f01da8422f0","chromeurl": ""}, {"id": 30,"addonname": "useragentswitcher","addontitle": "User Agent Switcher","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "various","iconurl": "","firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/user-agent-switcher/?src=ss","chromeurl": ""}, {"id": 31,"addonname": "unshortenit","addontitle": "Unshorten It","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "shortener","iconurl": "","firefoxurl": "http://www.unshorten.it/","chromeurl": ""}, {"id": 32,"addonname": "reloadplus","addontitle": "Reload Plus","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "various","iconurl": "","firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/reload-plus","chromeurl": ""}, {"id": 33,"addonname": "maf","addontitle": "Mozilla Archive Format","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "download","iconurl": "","firefoxurl": "","chromeurl": ""}, {"id": 34,"addonname": "flashvideodownloader","addontitle": "Flash Video Downloader","currentversion": "","developer": "","lastupdated": "0000-00-
+            00 ","
+        browserSupport ": "
+        ","
+        forFF57up ": "
+        ","
+        catagory ": "
+        download ","
+        iconurl ": "
+        ","
+        firefoxurl ": "
+        http: //www.flashvideodownloader.org/","chromeurl": ""}, {"id": 35,"addonname": "locationbarenhancer","addontitle": "Location Bar Enhancer","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "interface","iconurl": "","firefoxurl": "","chromeurl": ""}, {"id": 36,"addonname": "onmisidebar","addontitle": "Omni Sidebar","currentversion": "","developer": "","lastupdated": "0000-00-00","browserSupport": "","forFF57up": "","catagory": "interface","iconurl": "","firefoxurl": "","chromeurl": ""}, {"id": 37,"addonname": "httpseverwhere","addontitle": "HTTPS Everywhere","currentversion": null,"developer": null,"lastupdated": null,"browserSupport": "","forFF57up": null,"catagory": "security","iconurl": null,"firefoxurl": "","chromeurl": null}]

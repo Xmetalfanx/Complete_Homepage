@@ -22,12 +22,8 @@
 
     <i class="far fa-copyright mr-2" ></i>
 
-      <span class="font-italic mr-4">
-        Xmetal/Xmetalfanx 2013-*
-      </span>
+      <span class="font-italic mr-4">Xmetal/Xmetalfanx 2013-* </span>
 
-
-   
     <a href="https://gitlab.com/Xmetal" target="_blank">
       <i class="fa fa-gitlab fa-2x"></i>
     </a>

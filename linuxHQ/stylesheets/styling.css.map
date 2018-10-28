@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAAA,YAAY;ACAZ,WAAW;ACKX,sBAAsB;ACJtB,GAAI;EACA,OAAO,EAAE,KAAK;;AAIlB,KAAM;EACF,QAAQ,EAAE,QAAQ;ECmBrB,MAAM,EAAE,SAAyB;;ADdlC,aAAc;EACV,UAAU,EAAE,iBAAkB;ECajC,MAAM,EAAE,mBAAyB",
-"sources": ["../scss/00%20-%20variables/_colors.scss","../scss/00%20-%20variables/_fonts.scss","../scss/00%20-%20variables/variables-dir.scss","../scss/styling.scss","../scss/00%20-%20variables/_mixins.scss"],
+"sources": ["../scss/00-variables/_colors.scss","../scss/00-variables/_fonts.scss","../scss/00-variables/variables-dir.scss","../scss/styling.scss","../scss/00-variables/_mixins.scss"],
 "names": [],
 "file": "styling.css"
 }
