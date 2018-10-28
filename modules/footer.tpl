@@ -52,10 +52,6 @@
       <i class="fa fa-youtube fa-2x"></i>
     </a>
 
-    <a href="https://plus.google.com/+Xmetalfanx2014/about" target="_blank">
-      <i class="fa fa-google-plus fa-2x"></i>
-    </a>
-
   </div>
 </footer>
 

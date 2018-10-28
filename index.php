@@ -12,13 +12,9 @@
 
     <div id="mainBody" class="row">
       <div class="col-6">
-        <div class="font-weight-bold">October 11th Update</div>
-        <div>The site is a bit of a mess atm, while I try to get some things I have been planning for awhile, out of the idea state and into production so to speak. Please bear with me here</div>
-      
-      
-        <div class="font-weight-bold">July 30 Update</div>
-        <div>I am working on the JSON/AJAX idea I have to completely redo a number of things on both sides of the site, and hopefully this will allow me to have better code, and make it easier to manage things </div>
-        <div>I am also in the process of trying out <a href="https://bootswatch.com/" target="_blank">Bootswatch </a>for styling so things may have changed in odd ways now .. for instance I notice there are lime-green links with the theme I choose ... the GOAL of this is to have styles pre-done and that will allow me to focus on the CONTENT of the site </div>
+        <div class="font-weight-bold">October 28th Update</div>
+        <div>Removed Icon/reference to my old Google+ account which I removed for good earlier tonight ... most people I know on Google+ were going to other platforms anyway, and Google+ is closing for good, soon, so I closed my account down ahead of time</div>
+     
       </div>
 
       <div class="col-6">
