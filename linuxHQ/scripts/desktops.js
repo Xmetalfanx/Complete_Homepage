@@ -1,54 +1,13 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version)
-{
-  
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version) {
+
     // Template Literal for output
 
 
-    // Complete Header 
-    const deCardCompleteHeader = `
-    <div class="card">
-        <div class="card-header bg-primary text-white">
-            <h3 class="font-weight-bold"> ${currentDETitle}  </h3>
-        </div> <!-- Ends card-header class --> 
-    
-    
-    `; 
-
-    const deInfoOutput = `
-        <div class="card-text">
-            <span class="font-weight-bold">Homepage:</span>
-            <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
-            <span class="font-weight-bold">Github URL: </span>
-            <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
-            <br><br>
-        
-            <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
-            <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
-            <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
-            <br><br />
-
-            <italics>Desktop Requirements: </italics>
-            
-            <ul>
-                <li> 
-                    <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
-                </li>
-                <li> 
-                    <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
-                </li>
-                <li> 
-                    <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
-                </li>
-            </ul>
-
-            <br />
-        `;
-
-        // used INSIDE the tabs below and not seperately 
-        const deVersionsOutput = `
+    // used INSIDE the tabs below and not seperately 
+    const deVersionsOutput = `
         
         <div class="strong">Versions</div>
             
@@ -90,47 +49,74 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
         <br />
         <hr />`;
 
-        const deTabInfoOutput = `
 
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
-                    <a class="nav-item nav-link active" id="nav-versions-tab" data-toggle="tab" href="#nav-versions" role="tab" aria-controls="nav-versions" aria-selected="true">Versions</a>
 
-                    <a class="nav-item nav-link" id="nav-install-tab" data-toggle="tab" href="#nav-install" role="tab" aria-controls="nav-install" aria-selected="false">How-To-Install</a>
-                    
-                </div>
-            </nav>
-        
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-version-tab">
-                ${deVersionsOutput}
-                </div>
-                <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
-            </div>
+    // Complete Header 
+    const deInfoCard = `
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h3 class="font-weight-bold"> ${currentDETitle}  </h3>
+            </div> <!-- Ends card-header class --> 
+
+            <div class="card-text">
+                <span class="font-weight-bold">Homepage:</span>
+                <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+                <span class="font-weight-bold">Github URL: </span>
+                <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+                <br><br>
             
-            </div> <!-- Closes card-text -->
-        </div> <!-- Closes card --> 
+                <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
+                <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
+                <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
+                <br><br />
+
+                <italics>Desktop Requirements: </italics>
+                
+                <ul>
+                    <li> 
+                        <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
+                    </li>
+                    <li> 
+                        <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
+                    </li>
+                    <li> 
+                        <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
+                    </li>
+                </ul>
+
+                <br />
+
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+                        <a class="nav-item nav-link active" id="nav-versions-tab" data-toggle="tab" href="#nav-versions" role="tab" aria-controls="nav-versions" aria-selected="true">Versions</a>
+
+                        <a class="nav-item nav-link" id="nav-install-tab" data-toggle="tab" href="#nav-install" role="tab" aria-controls="nav-install" aria-selected="false">How-To-Install</a>
+                        
+                    </div>
+                </nav>
             
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-version-tab">
+                    ${deVersionsOutput}
+                    </div>
+                    <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
+                </div>
+                
+                </div> <!-- Closes card-text -->
+            </div> <!-- Closes card --> 
+                
             `;
 
+    ////////////////////////////////////////////////////////////
+    // For test
+    localDETest = 'cinnamon';
+    /////////////////////////////////////////////////////////////////
 
-        // Var to paste things together as I THINK the hiccup i have now is that each call to insertAdjacentHTML below is a different DIV 
-        const deCardBody = `
-        ${deInfoOutput}
-        ${deTabInfoOutput}
-        `; 
-
-
-        ////////////////////////////////////////////////////////////
-        // For test
-        localDETest = 'cinnamon';
-        /////////////////////////////////////////////////////////////////
-
-        if ( currentDEName == localDETest) {
-            desktopResults.insertAdjacentHTML("beforeend", deCardCompleteHeader);
-            desktopResults.insertAdjacentHTML("beforeend", deCardBody);
-        }
+    if (currentDEName == localDETest) {
+        desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
+    }
 
 
 };
@@ -142,39 +128,39 @@ function getDesktopData(data) {
 
     $(document).ready(function() {
 
-    jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
+        jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
-    // Get JSON Data
-    $.getJSON(jsonURL, function(data) {
+        // Get JSON Data
+        $.getJSON(jsonURL, function(data) {
 
-        // For each key value 
-        $.each(data, function(key, value) {
+            // For each key value 
+            $.each(data, function(key, value) {
 
-            // The key is 'gtk2' or 'qt'
-    
-            var currentFramework = key;
+                // The key is 'gtk2' or 'qt'
 
-        
-            for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+                var currentFramework = key;
 
-                // I need to know value and subFrameworks here 
 
-                var currentDEName = value[subFrameworks].desktopName;
-                var currentDETitle = value[subFrameworks].desktopTitle;
+                for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
-                // More Info
-                var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-                var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-                var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
-                var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
-                var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
+                    // I need to know value and subFrameworks here 
 
-                // Requirnments
-                var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
-                var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
-                var currentDEReqProc= value[subFrameworks].requirements.reqProcessor;
+                    var currentDEName = value[subFrameworks].desktopName;
+                    var currentDETitle = value[subFrameworks].desktopTitle;
 
-                // Versions
+                    // More Info
+                    var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+                    var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
+                    var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
+                    var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
+                    var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
+
+                    // Requirnments
+                    var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
+                    var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
+                    var currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
+
+                    // Versions
 
                     // Arch
                     var currentDEArchVersion = value[subFrameworks].versions.arch;
@@ -198,28 +184,27 @@ function getDesktopData(data) {
 
                     // Ubuntu non-LTS
 
-                
-                
-            
-                ///////////////////////////////////////////////////////////////////////////////////
-                
-                // Specific assignment just for a test 
-                if ( currentDEName = "cinnamon")
-                {
-                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);    
+
+
+
+                    ///////////////////////////////////////////////////////////////////////////////////
+
+                    // Specific assignment just for a test 
+                    if (currentDEName = "cinnamon") {
+                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
+
+                    }
 
                 }
-                
-            }
-    
-        });
-        
-    }); // ends getJSON loop
+
+            });
+
+        }); // ends getJSON loop
 
 
 
     });
 
 
- 
+
 }
