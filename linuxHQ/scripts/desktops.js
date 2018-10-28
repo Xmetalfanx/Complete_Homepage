@@ -71,17 +71,17 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
                 <br><br />
 
-                <italics>Desktop Requirements: </italics>
+                <bold>Desktop Requirements: </bold>
                 
                 <ul>
                     <li> 
-                        <span class="font-weight-bold">Required Processor: </span>${currentDEReqProc}
+                        <span class="font-italics">Required Processor: </span>${currentDEReqProc}
                     </li>
                     <li> 
-                        <span class="font-weight-bold">Required Memory: </span>${currentDEReqMem}
+                        <span class="font-italics">Required Memory: </span>${currentDEReqMem}
                     </li>
                     <li> 
-                        <span class="font-weight-bold">Required Hard Drive Space: </span>${currentDEReqHDD}
+                        <span class="font-italics">Required Hard Drive Space: </span>${currentDEReqHDD}
                     </li>
                 </ul>
 
