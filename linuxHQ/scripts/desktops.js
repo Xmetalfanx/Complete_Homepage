@@ -61,15 +61,15 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
             <div class="card-text">
                 <span class="font-weight-bold">Homepage:</span>
-                <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+                    <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a> <br />
                 <span class="font-weight-bold">Github URL: </span>
-                <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+                    <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
                 <br><br>
             
-                <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
-                <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
+                <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br />
+                <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br />
                 <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
-                <br><br />
+                <br /><br />
 
                 <bold>Desktop Requirements: </bold>
                 
@@ -112,6 +112,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
     ////////////////////////////////////////////////////////////
     // For test
     localDETest = 'cinnamon';
+    console.log(localDETest);
     /////////////////////////////////////////////////////////////////
 
     if (currentDEName == localDETest) {
@@ -185,15 +186,9 @@ function getDesktopData(data) {
                     // Ubuntu non-LTS
 
 
-
-
                     ///////////////////////////////////////////////////////////////////////////////////
 
-                    // Specific assignment just for a test 
-                    if (currentDEName = "cinnamon") {
-                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
-
-                    }
+                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
 
                 }
 

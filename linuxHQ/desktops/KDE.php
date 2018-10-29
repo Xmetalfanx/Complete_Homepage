@@ -1,8 +1,7 @@
 <?php
 
-    $localdename = "plasma5";
-    $sectionVar = "DE";
-
+  $localdename = "plasma5";
+  $sectionVar = "DE";
   $pageTitle = 'KDE /Plasma 5';
 
   $sitePath = "/home/xmetalx1/public_html";
