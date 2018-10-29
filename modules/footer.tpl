@@ -20,7 +20,7 @@
   <!-- The second of the two MAIN columns -->
   <div class="col-lg-8" style="text-align: right;">
 
-    <i class="far fa-copyright mr-2" ></i>
+    <i class="fa fa-copyright mr-2" ></i>
 
       <span class="font-italic mr-4">Xmetal/Xmetalfanx 2013-* </span>
 
