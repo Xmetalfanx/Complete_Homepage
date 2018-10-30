@@ -1,14 +1,13 @@
 @import "1-custom/custom-dir";
 $footerheight: 75px;
-// Not sure if all of this is needed
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 html,
 body {
     height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 // Outer Container 
@@ -52,10 +51,10 @@ footer {
     color: $white;
     background-color: $BGColor;
     height: $footerheight;
-    margin-top: -$footerheight;
+    //margin-top: -$footerheight;
     position: relative;
-    clear: both; // this has nothing to do with the main layout's flex
     display: flex;
+    
     @include padding(1%, 0, 0, 0);
     a:link {
         color: inherit;

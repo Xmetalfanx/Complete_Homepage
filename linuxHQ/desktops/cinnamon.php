@@ -1,6 +1,6 @@
 <?php
 
-	$localDEName = "cinnamon";
+	$localDEName = 'cinnamon';
 	$sectionTitle = "Destop Envirnoments - ";
 	$pageTitle = 'Cinnamon ';
 

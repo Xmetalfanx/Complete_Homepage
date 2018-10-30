@@ -6,15 +6,19 @@
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
+  
     <!-- Header "navigation"-->
     <?php include 'modules/frontnav.tpl'; ?>
     <div class="coverImage d-none d-lg-block"></div>
 
-    <div id="mainBody" class="row">
+    <div class="row">
       <div class="col-6">
         <div class="font-weight-bold">October 28th Update</div>
-        <div>Removed Icon/reference to my old Google+ account which I removed for good earlier tonight ... most people I know on Google+ were going to other platforms anyway, and Google+ is closing for good, soon, so I closed my account down ahead of time</div>
-     
+        <div>
+          Removed Icon/reference to my old Google+ account which I removed for good earlier tonight ... 
+          most people I know on Google+ were going to other platforms anyway, and Google+ is closing for good, soon, 
+          so I closed my account down ahead of time
+        </div>
       </div>
 
       <div class="col-6">
@@ -22,6 +26,7 @@
         <i class="fa fa-github fa-inverse fa-2x"></i></a>
         
         <div class="font-weight-bold">My Github Other Github project</div>
+        
         <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank">LinuxSetup</a>- 
         Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and 
         (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, 

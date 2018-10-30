@@ -1,4 +1,4 @@
-<div id="bodyConainter">
+<div id="bodyContainer">
   <div id="bodyMain">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">

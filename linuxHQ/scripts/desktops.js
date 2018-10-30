@@ -110,29 +110,23 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             </div> <!-- Closes card --> 
                 
             `;
-
-
-
+    /*
     if (currentDEName == localDEName) {
         desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
     }
-
-
+    */ 
 };
 
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
+
+// Where is "data" coming from?
 function getDesktopData(data) {
 
     $(document).ready(function() {
 
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
-
-        ////////////////////////////////////////////////////////////
-        // For test
-        console.log(localDEName);
-        /////////////////////////////////////////////////////////////////
 
         // Get JSON Data
         $.getJSON(jsonURL, function(data) {
@@ -200,9 +194,7 @@ function getDesktopData(data) {
         }); // ends getJSON loop
 
 
-
     });
-
 
 
 }
