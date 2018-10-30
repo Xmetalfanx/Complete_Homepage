@@ -1,7 +1,9 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version) {
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version)
+
+{
 
     // Template Literal for output
 
@@ -109,13 +111,9 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 
             `;
 
-    ////////////////////////////////////////////////////////////
-    // For test
-    localDETest = 'cinnamon';
-    console.log(localDETest);
-    /////////////////////////////////////////////////////////////////
 
-    if (currentDEName == localDETest) {
+
+    if (currentDEName == localDEName) {
         desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
     }
 
@@ -130,6 +128,11 @@ function getDesktopData(data) {
     $(document).ready(function() {
 
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
+
+        ////////////////////////////////////////////////////////////
+        // For test
+        console.log(localDEName);
+        /////////////////////////////////////////////////////////////////
 
         // Get JSON Data
         $.getJSON(jsonURL, function(data) {

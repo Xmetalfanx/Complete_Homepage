@@ -5,8 +5,7 @@
         "opensuse": "Leap 42.3, Leap 15, Tumbleweed",
         "ubuntu": "16.04, 18.04"
     },
-    "arch": [
-        {
+    "arch": [{
             "distroName": "antergos",
             "distroTitle": "Antergos",
             "version": "",
@@ -24,7 +23,8 @@
             "website": {
                 "homepage": "https://antergos.com/",
                 "download": "http://www.antergos.com/try-it/",
-                "forum": "http://forum.antergos.com/"
+                "forum": "http://forum.antergos.com/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -45,7 +45,8 @@
             "website": {
                 "homepage": "http://www.archlinux.org",
                 "download": "http://www.archlinux.org/download/",
-                "forum": "http://bbs.archlinux.org/"
+                "forum": "http://bbs.archlinux.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -66,7 +67,8 @@
             "website": {
                 "homepage": "http://bbs.archbang.org",
                 "download": "http://sourceforge.net/projects/archbang/files/",
-                "forum": "http://bbs.archbang.org/"
+                "forum": "http://bbs.archbang.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -87,7 +89,8 @@
             "website": {
                 "homepage": "https://sourceforge.net/projects/manjarobymm/",
                 "download": "https://sourceforge.net/projects/manjarobymm/",
-                "forum": "http://www.cupoflinux.com/SBB/index.php/board,29.0.html"
+                "forum": "http://www.cupoflinux.com/SBB/index.php/board,29.0.html",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -108,12 +111,12 @@
             "website": {
                 "homepage": "https://manjaro.github.io",
                 "download": "http://manjaro.org/get-manjaro/",
-                "forum": "http://forum.manjaro.org/"
+                "forum": "http://forum.manjaro.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ],
-    "debian": [
-        {
+    "debian": [{
             "distroName": "antix",
             "distroTitle": "Anti-X",
             "version": null,
@@ -131,7 +134,8 @@
             "website": {
                 "homepage": "http://antix.mepis.org/index.php?title=Main_Page",
                 "download": null,
-                "forum": null
+                "forum": null,
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -152,28 +156,8 @@
             "website": {
                 "download": "https://forums.bunsenlabs.org",
                 "forum": "https://forums.bunsenlabs.org",
-                "homepage": "https://www.bunsenlabs.org"
-            }
-        },
-        {
-            "distroName": "cbangplusplus",
-            "distroTitle": "Crunchbang++ ",
-            "version": "",
-            "graphics": {
-                "iconURL": ""
-            },
-            "moreinfo": {
-                "type": "",
-                "software": "Follows Debian",
-                "target": "",
-                "desktops": "Openbox",
-                "distrowatch": "",
-                "similar": "BunsenLabs and Crunchbang;<br /> The Debian familys version of Archbang OR Debian with Openbox installed"
-            },
-            "website": {
-                "homepage": "https://www.crunchbangplusplus.org",
-                "download": "https://crunchbangplusplus.org/download/",
-                "forum": "https://www.reddit.com/r/crunchbangplusplus/"
+                "homepage": "https://www.bunsenlabs.org",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -194,7 +178,8 @@
             "website": {
                 "homepage": "http://www.debian.org/",
                 "download": "",
-                "forum": "http://forums.debian.net/"
+                "forum": "http://forums.debian.net/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -215,7 +200,8 @@
             "website": {
                 "homepage": "http://www.linuxmint.com/download_lmde.php",
                 "download": "http://www.linuxmint.com/download_lmde.php",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -236,7 +222,8 @@
             "website": {
                 "homepage": "http://solydxk.com/",
                 "download": "http://downloads.solydxk.com/",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -257,7 +244,8 @@
             "website": {
                 "forum": "#",
                 "homepage": "https://sparkylinux.org/",
-                "download": "https://sparkylinux.org/download/"
+                "download": "https://sparkylinux.org/download/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -278,7 +266,8 @@
             "website": {
                 "homepage": "https://mxlinux.org/",
                 "download": "https://mxlinux.org/download-links",
-                "forum": null
+                "forum": null,
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -299,12 +288,12 @@
             "website": {
                 "homepage": "http://pointlinux.org/",
                 "download": "http://pointlinux.org/download.htm",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ],
-    "gentoo": [
-        {
+    "gentoo": [{
             "distroName": "calculate",
             "distroTitle": "Calculate",
             "version": "",
@@ -322,7 +311,8 @@
             "website": {
                 "homepage": "http://www.calculate-linux.org/",
                 "download": "http://www.calculate-linux.org/main/en/download",
-                "forum": "http://www.calculate-linux.org/projects/en/boards"
+                "forum": "http://www.calculate-linux.org/projects/en/boards",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -343,7 +333,8 @@
             "website": {
                 "homepage": "http://www.gentoo.org/",
                 "download": "",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -365,12 +356,12 @@
             "website": {
                 "homepage": "http://www.sabayon.org/",
                 "download": "http://www.sabayon.org/download",
-                "forum": "http://forum.sabayon.org/"
+                "forum": "http://forum.sabayon.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ],
-    "ubuntu": [
-        {
+    "ubuntu": [{
             "distroName": "elementaryOS",
             "distroTitle": "ElementaryOS",
             "version": "Loki",
@@ -388,7 +379,8 @@
             "website": {
                 "homepage": "http://elementary.io",
                 "download": "http://sourceforge.net/projects/elementaryos/files/",
-                "forum": "https://elementaryforums.com/index.php"
+                "forum": "https://elementaryforums.com/index.php",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -409,7 +401,8 @@
             "website": {
                 "homepage": "http://www.linuxmint.com",
                 "download": "http://www.linuxmint.com/download.php",
-                "forum": "http://linuxmint.com/forum/"
+                "forum": "http://linuxmint.com/forum/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -430,7 +423,8 @@
             "website": {
                 "homepage": "http://peppermintos.com/",
                 "download": "",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -451,7 +445,8 @@
             "website": {
                 "homepage": "http://www.kubuntu.org/",
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
-                "forum": "http://ubuntuforums.org/"
+                "forum": "http://ubuntuforums.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -472,7 +467,8 @@
             "website": {
                 "homepage": "http://lubuntu.net",
                 "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
-                "forum": "http://ubuntuforums.org/"
+                "forum": "http://ubuntuforums.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -493,7 +489,8 @@
             "website": {
                 "homepage": "http://www.lxle.net",
                 "download": "http://www.lxle.net/download",
-                "forum": "http://lxle.net/forum/"
+                "forum": "http://lxle.net/forum/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -514,7 +511,8 @@
             "website": {
                 "homepage": "http://uberstudent.com/",
                 "download": "http://uberstudent.com/get-uberstudent",
-                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page"
+                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -535,13 +533,14 @@
             "website": {
                 "homepage": "http://www.ubuntu.com",
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
-                "forum": "http://ubuntuforums.org/"
+                "forum": "http://ubuntuforums.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
             "distroName": "umate",
             "distroTitle": "Ubuntu Mate",
-            "version": "16.04 LTS, 17.04, 17.10 alpha AND Raspberry Pi versions are available)",
+            "version": "16.04 LTS, 18.04 LTS, 18.10",
             "graphics": {
                 "iconURL": "#"
             },
@@ -577,7 +576,8 @@
             "website": {
                 "homepage": "http://www.xubuntu.com",
                 "download": "http://xubuntu.org/getxubuntu/",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -598,7 +598,8 @@
             "website": {
                 "homepage": "http://www.zorin-os.com/",
                 "download": "http://zorin-os.com/free.html\"",
-                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3"
+                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -619,7 +620,8 @@
             "website": {
                 "homepage": "http://peppermintos.com/",
                 "download": "",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -640,7 +642,8 @@
             "website": {
                 "homepage": "http://www.kubuntu.org/",
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
-                "forum": "http://ubuntuforums.org/"
+                "forum": "http://ubuntuforums.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -661,7 +664,8 @@
             "website": {
                 "homepage": "http://www.linuxliteos.com",
                 "download": "http://sourceforge.net/projects/linuxlite/files",
-                "forum": "https://www.linuxliteos.com/forums/"
+                "forum": "https://www.linuxliteos.com/forums/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -682,7 +686,8 @@
             "website": {
                 "homepage": "http://lubuntu.net",
                 "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
-                "forum": "http://ubuntuforums.org/"
+                "forum": "http://ubuntuforums.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -703,7 +708,8 @@
             "website": {
                 "homepage": "http://www.lxle.net",
                 "download": "http://www.lxle.net/download",
-                "forum": "http://lxle.net/forum/"
+                "forum": "http://lxle.net/forum/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -724,7 +730,8 @@
             "website": {
                 "homepage": "http://uberstudent.com/",
                 "download": "http://uberstudent.com/get-uberstudent",
-                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page"
+                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -745,7 +752,8 @@
             "website": {
                 "homepage": "http://www.ubuntu.com",
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
-                "forum": "http://ubuntuforums.org/"
+                "forum": "http://ubuntuforums.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -766,7 +774,8 @@
             "website": {
                 "homepage": "https://ubuntubudgie.org",
                 "download": "https://ubuntubudgie.org/downloads",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -787,7 +796,8 @@
             "website": {
                 "homepage": "http://ubuntu-mate.org",
                 "download": "https://ubuntu-mate.org/download/",
-                "forum": "https://ubuntu-mate.community/"
+                "forum": "https://ubuntu-mate.community/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -808,7 +818,8 @@
             "website": {
                 "homepage": "http://www.xubuntu.com",
                 "download": "http://xubuntu.org/getxubuntu/",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -829,7 +840,8 @@
             "website": {
                 "homepage": "http://www.zorin-os.com/",
                 "download": "http://zorin-os.com/free.html\"",
-                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3"
+                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ],
@@ -844,7 +856,7 @@
             "version": "26",
             "graphics": {
                 "iconURL": "/linuxHQ/graphics/icons/fedora.png"
-                    
+
             },
             "moreinfo": {
                 "similar": "",
@@ -854,10 +866,11 @@
                 "software": "",
                 "target": ""
             },
-            "website" : {
+            "website": {
                 "homepage": "http://www.fedora.com",
                 "download": "",
-                "forum": "http://forums.fedoraforum.org/"
+                "forum": "http://forums.fedoraforum.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -876,10 +889,11 @@
                 "software": "",
                 "target": ""
             },
-            "website" : {
+            "website": {
                 "homepage": "https://kororaproject.org/",
                 "download": "https://kororaproject.org/download",
-                "forum": "https://kororaproject.org/support/engage"
+                "forum": "https://kororaproject.org/support/engage",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -889,7 +903,7 @@
             "version": "",
             "graphics": {
                 "iconURL": "/linuxHQ/graphics/icons/mageia.png"
-                
+
             },
             "moreinfo": {
                 "similar": "",
@@ -899,10 +913,11 @@
                 "software": "",
                 "target": ""
             },
-            "website" : {
+            "website": {
                 "homepage": "http://mageia.org",
                 "download": "http://mageia.org/en/downloads/",
-                "forum": "https://forums.mageia.org/"
+                "forum": "https://forums.mageia.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -921,10 +936,11 @@
                 "software": "",
                 "target": ""
             },
-            "website" : {
+            "website": {
                 "homepage": "http://openmandriva.org",
                 "download": "http://openmandriva.org/en/download_lx",
-                "forum": "http://forums.openmandriva.org/"
+                "forum": "http://forums.openmandriva.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -943,11 +959,12 @@
                 "software": "",
                 "target": ""
             },
-            
-            "website" : {
+
+            "website": {
                 "homepage": "http://www.opensuse.org",
                 "download": "",
-                "forum": "http://forums.opensuse.org/"
+                "forum": "http://forums.opensuse.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -966,10 +983,11 @@
                 "target": "",
                 "family": "mandriva"
             },
-            "website" : {
+            "website": {
                 "homepage": "http://www.pclinuxos.com/",
                 "download": "http://pclinuxos.com/?page_id=10",
-                "forum": "http://www.pclinuxos.com/forum"
+                "forum": "http://www.pclinuxos.com/forum",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -978,7 +996,7 @@
             "family": "rpm",
             "version": "",
             "graphics": {
-                "iconURL": ""   
+                "iconURL": ""
             },
             "moreinfo": {
                 "similar": "",
@@ -988,11 +1006,12 @@
                 "software": "",
                 "target": ""
             },
-            
-            "website" : {
+
+            "website": {
                 "homepage": "http://www.centos.org/",
                 "download": "",
-                "forum": ""
+                "forum": "",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ]
