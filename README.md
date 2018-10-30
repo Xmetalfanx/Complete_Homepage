@@ -1,3 +1,6 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/643c61f16519446bbeb90a97da379303)](https://www.codacy.com/app/Xmetalfanx/website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/website&amp;utm_campaign=Badge_Grade)
+
+
 # Introduction
 
 I plan to give a little bit of a history of how my site came to be, here
