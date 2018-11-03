@@ -114,7 +114,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
     if (currentDEName == localDEName) {
         desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
     }
-    */ 
+    */
 };
 
 
@@ -125,6 +125,12 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 function getDesktopData(data) {
 
     $(document).ready(function() {
+
+        var localDETestVar = "<?php echo localDEName; ?>";
+        // console.log(localDETestVar);
+
+        var Test1 = eval(localDETestVar);
+        console.log(Test1);
 
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
@@ -137,7 +143,6 @@ function getDesktopData(data) {
                 // The key is 'gtk2' or 'qt'
 
                 var currentFramework = key;
-
 
                 for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
@@ -179,8 +184,11 @@ function getDesktopData(data) {
                     var currentDEMint19Version = value[subFrameworks].versions.ubuntu.mint.mint19;
 
                     // Ubuntu LTS
+                    var currentDE1604LTS = value[subFrameworks].versions;
+                    var currentDE1804LTS = value[subFrameworks].versions;
 
                     // Ubuntu non-LTS
+                    var currentDE1810 = value[subFrameworks].versions;
 
 
                     ///////////////////////////////////////////////////////////////////////////////////

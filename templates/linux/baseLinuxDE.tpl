@@ -20,7 +20,6 @@
   echo '</div> <!-- Ends Row -->';
 
   echo '<script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops.js"></script>';
-
   include $sitePath . "/modules/footer.tpl";
 
 ?>
