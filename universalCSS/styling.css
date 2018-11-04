@@ -29,7 +29,8 @@ i.fas {
     text-decoration: none;
     color: inherit; }
 
-a:link {
+a:link,
+a:visited {
   background-color: inherit;
   color: navy; }
 

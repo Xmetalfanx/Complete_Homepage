@@ -1,7 +1,5 @@
 @import "1-custom/custom-dir";
 $footerheight: 75px;
-
-
 html,
 body {
     height: 100%;
@@ -34,7 +32,8 @@ i.fas {
     }
 }
 
-a:link {
+a:link,
+a:visited {
     background-color: inherit;
     color: $navy;
 }
@@ -54,7 +53,6 @@ footer {
     //margin-top: -$footerheight;
     position: relative;
     display: flex;
-    
     @include padding(1%, 0, 0, 0);
     a:link {
         color: inherit;
