@@ -115,23 +115,27 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
         desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
     }
     */
-};
+}
 
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
 // Where is "data" coming from?
-function getDesktopData(data) {
+function getDesktopData(data, $localDEName) {
 
     $(document).ready(function() {
 
-        var localDETestVar = "<?php echo localDEName; ?>";
-        // console.log(localDETestVar);
 
-        var Test1 = eval(localDETestVar);
-        console.log(Test1);
+        var localDETest = '<?=json_encode($localDEName)?>';
+        console.log(localDETest);
 
+        var localDETest2 = '<?php echo $localDEName ?>';
+        console.log(localDETest2);
+
+        var localDETest3 = "<?php echo json_encode(localDEName) ?>";
+        console.log(localDETest3);
+        
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
         // Get JSON Data
