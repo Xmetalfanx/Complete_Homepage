@@ -2,11 +2,8 @@
 var desktopResults = document.getElementById('desktopSection');
 
 function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version)
-
 {
-
     // Template Literal for output
-
 
     // used INSIDE the tabs below and not seperately 
     const deVersionsOutput = `
@@ -50,8 +47,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
         <br />
         <hr />`;
-
-
 
 
     // Complete Header 
@@ -110,11 +105,10 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             </div> <!-- Closes card --> 
                 
             `;
-    /*
-    if (currentDEName == localDEName) {
+
+
         desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
-    }
-    */
+
 }
 
 
@@ -126,16 +120,6 @@ function getDesktopData(data, $localDEName) {
 
     $(document).ready(function() {
 
-
-        var localDETest = '<?=json_encode($localDEName)?>';
-        console.log(localDETest);
-
-        var localDETest2 = '<?php echo $localDEName ?>';
-        console.log(localDETest2);
-
-        var localDETest3 = "<?php echo json_encode(localDEName) ?>";
-        console.log(localDETest3);
-        
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
 
         // Get JSON Data
@@ -194,11 +178,15 @@ function getDesktopData(data, $localDEName) {
                     // Ubuntu non-LTS
                     var currentDE1810 = value[subFrameworks].versions;
 
-
                     ///////////////////////////////////////////////////////////////////////////////////
-
-                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
-
+                    if ( localDEName == currentDEName)
+                    {
+                        
+                        console.log("localDEName" + localDEName);
+                        
+                        
+                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
+                    } 
                 }
 
             });

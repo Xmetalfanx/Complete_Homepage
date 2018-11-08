@@ -1,16 +1,15 @@
 <?php
 
   echo '<script type="text/javascript">';
-    echo 'var localDEName = "budgie"; ';
+    echo 'var localDEName = "lxqt"; ';
   echo '</script>';
 
-  $pageTitle = 'Budgie ';
-	$sectionVar = "DE";
 
+  $sectionVar = "DE";
+  $pageTitle = 'LXDE ';
 
-	$sitePath = "/home/xmetalx1/public_html";
+  $sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 
 ?>
-

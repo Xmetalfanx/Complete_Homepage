@@ -1,6 +1,9 @@
 <?php
 
-	$localdename = 'xfce';
+  echo '<script type="text/javascript">';
+    echo 'var localDEName = "xfce"; ';
+  echo '</script>';
+
   $deName = '<a href="http://www.xfce.org/" target="_blank">XFCE</a>';
   $title = 'XFCE ';
 
@@ -8,4 +11,3 @@
   include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
-<?php include $sitePath . "/modules/footer.tpl"; ?>

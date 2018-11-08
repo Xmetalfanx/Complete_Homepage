@@ -1,6 +1,9 @@
 <?php
 
-  $localdename = "plasma5";
+  echo '<script type="text/javascript">';
+    echo 'var localDEName = "plasma5"; ';
+  echo '</script>';
+
   $sectionVar = "DE";
   $pageTitle = 'KDE /Plasma 5';
 
@@ -8,5 +11,3 @@
   include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

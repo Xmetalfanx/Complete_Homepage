@@ -1,6 +1,9 @@
 <?php
 
-  $localdename = 'openbox';
+  echo '<script type="text/javascript">';
+    echo 'var localDEName = "openbox"; ';
+  echo '</script>';
+
   $sectionVar = "DE";
   $pageTitle = 'Openbox ';
 
