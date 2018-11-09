@@ -4,11 +4,10 @@ var themeResults = document.getElementById("ticSection");
 }
 
 // This should show the entire JSON file's info
-function entireJSONFile(data){
+function displayTICOutput(){
 
 
   // Should loop through the JSON file
-  for (var i = 0; i < data.length; i++){
 
       // using ` for this are called "Template Literals"
       const themeOutput =
@@ -16,49 +15,74 @@ function entireJSONFile(data){
         `
         <div>
           <strong>Theme Name:
-          ${data[i].name} </strong> <br />
+          ${currentThemeName} </strong> <br />
 
-          Version: ${data[i].version} <br />
-
-          Theme has support for: ${data[i].supportInfo} <br />
+          Theme has support for: ${currentSupportInfo} <br />
 
           <br  />
-          Gnomelook URL: <a href="${data[i].gnomelook}" target="_blank" >
-            ${data[i].name} on Gnome Look </a> <br />
+          Gnomelook URL: <a href="${currentGnomelookURL}" target="_blank" >
+            ${currentThemeName} on Gnome Look </a> <br />
 
-          Github URL: <a href="${data[i].github} " target="_blank" >
-            ${data[i].name} on Github </a> <br />
+          Github URL: <a href="${currentGithubURL} " target="_blank" >
+            ${currentThemeName} on Github </a> <br />
 
-          Deviant Art URL: <a href="${data[i].devarts}" target="_blank" >
-            ${data[i].deviantArtURL} on DeviantArt </a>
+          Deviant Art URL: <a href="${currentDeviantArtURL}" target="_blank" >
+            ${currentThemeName} on DeviantArt </a>
 
         </div>
         <hr />
         `;
 
+        // ** NO if statement here 
         themeResults.insertAdjacentHTML("beforebegin", themeOutput);
   }
+
+
+function getTICData() {
+
+  $(document).ready(function()
+  {
+
+    ticJSONURL = "http://xmetal.x10.mx/linuxHQ/json/tic.json";
+
+    $.getJSON(ticJSONURL, function(data) {
+
+      $.each(data, function(key, value) {
+
+        // The key is "themes" or "icons" or "cursors"
+
+        var currentSubTheme = key;
+
+        // Not sure what to call them atm ... they were "subFrameworks in the DE framework type" part so i will just use "subThemes"
+        for (var subTheme = 0; subTheme < value.length; subTheme++){
+
+          var currentThemeName = value[subTheme].themeName;
+          var currentSupportInfo = value[subTheme].supportInfo;
+          
+          // Links
+          var currentDeviantArtURL = value[subTheme].links.devartsURL
+          var currentGithubURL = value[subTheme].links.githubURL
+          var currentGnomelookURL = value[subTheme].links.gnomelooksURL
+
+
+        } // Ends for-loop
+
+        if (localTICName == currentThemeName)
+        {
+          // just a test for now 
+          console.log("Local TIC Name: " + localTICName);
+
+          // call to display function will come later 
+
+        }
+
+      }); // Ends .each loop 
+
+
+    });  // Ends getJSON loop
+
+
+  });
+    
+
 }
-
-
-function ajaxGetJson(){
-
-    // Create new XMLHttpRequest and assign it to a variable
-    var themeRequest = new XMLHttpRequest();
-
-    // Get the JSON info located in the file at the URL specified
-    themeRequest.open("GET", "http://xmetal.x10.mx/linuxHQ/json/themes.json", true);
-
-    themeRequest.onload = function() {
-    var themeData = JSON.parse(themeRequest.responseText);
-
-        // Call to function above to show entire JSON file
-        entireJSONFile(themeData);
-
-        specificJSONEntry(themeData);
-
-
-		}
-
-		themeRequest.send();
-	}

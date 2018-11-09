@@ -7,10 +7,10 @@
 		target="_blank"> Noobslab </a> ';
 
 	include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
-	$pageTitle = 'Arc-Theme ';
+	$pageTitle = 'Numix Theme ';
 
 	echo '<script type="text/javascript">';
-		echo 'var localTICName = "arc"; ';
+		echo 'var localTICName = "numix"; ';
 	echo '</script>';
 
 ?>
