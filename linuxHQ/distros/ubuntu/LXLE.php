@@ -1,14 +1,12 @@
 <?php
 
-  $localdistroname = 'lxle';
+ $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-  $sectionVar = "distro";
+  $pageTitle = 'LXLE ';
 
-    $pageTitle = 'LXLE ';
+  echo '<script type="text/javascript">';
+    echo 'var localDistroName = "lxle"; ';
+echo '</script>';
 
-    $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
-
-    ?>
-
-  <?php include $sitePath . "/modules/footer.tpl"; ?>
+?>

@@ -1,13 +1,12 @@
  <?php
 
-  $localdistroname = 'linuxlite';
-
-  $sectionVar = "distro";
+ $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
   $pageTitle = 'Linux Lite';
 
-  $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+  echo '<script type="text/javascript">';
+  echo 'var localDistroName = "linuxlite"; ';
+  echo '</script>';
 
-  ?>
-  <?php include $sitePath . "/modules/footer.tpl"; ?>
+?>

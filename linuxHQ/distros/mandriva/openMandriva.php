@@ -1,15 +1,12 @@
 <?php
 
-	$localdistroname = 'openmandriva';
-
-    $pageTitle = 'Open Mandriva ';
-
-    $sectionVar = "distro";
-
 	$sitePath = "/home/xmetalx1/public_html";
-
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-?>
+	$pageTitle = 'Open Mandriva ';
+	
+	echo '<script type="text/javascript">';
+		echo 'var localDistroName = "mandriva"; ';
+	echo '</script>';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+?>

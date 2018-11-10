@@ -1,14 +1,14 @@
 <?php
 
-	$pageTitle = 'SolydXK';
-
-	$localdistroName = 'solyd';
-
-	$sectionVar = "distro";
-
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-?>
+	$pageTitle = 'SolydXK';
+	$localdistroName = 'solyd';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+
+	echo '<script type="text/javascript">';
+	echo 'var localDistroName = "solyd"; ';
+echo '</script>';
+
+?>

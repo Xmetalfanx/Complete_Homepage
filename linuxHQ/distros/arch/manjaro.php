@@ -1,11 +1,10 @@
 <?php
-    $pageTitle = 'Manjaro';
-    $localdistroname = 'manjaro';
-    $sectionVar = "distro";
-
     $sitePath = "/home/xmetalx1/public_html";
-
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
+    $pageTitle = 'Manjaro';
+    
+    echo '<script type="text/javascript">';
+        echo 'var localDistroName = "manjaro"; ';
+    echo '</script>';
 ?>
-<?php include $sitePath . "/modules/footer.tpl"; ?>

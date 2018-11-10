@@ -1,18 +1,11 @@
 <?php
 
-    $localdistroname = 'antergos';
-
-    $sectionVar = "distro";
+    $sitePath = "/home/xmetalx1/public_html";
+    include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
     $pageTitle = 'Antergos';
 
-    $sitePath = "/home/xmetalx1/public_html";
-
-    include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
-
+    echo '<script type="text/javascript">';
+        echo 'var localDistroName = "antergos"; ';
+    echo '</script>';
 ?>
-
- </div> <!-- Ends main content on the right, column -->
-  </div> <!-- Ends Row Class -->
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

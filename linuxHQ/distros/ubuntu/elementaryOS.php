@@ -1,14 +1,12 @@
 <?php
 
-  $pageTitle = 'ElementaryOS';
-
-  $sectionVar = "distro";
-
-  $localdistroname = 'elementary';
-
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-	?>
+  $pageTitle = 'ElementaryOS';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+  echo '<script type="text/javascript">';
+  echo 'var localDistroName = "elementary"; ';
+echo '</script>';
+
+?>

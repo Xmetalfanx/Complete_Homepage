@@ -1,14 +1,12 @@
  <?php
 
- $localdistroname = 'solus';
-
-  $pageTitle = 'Solus';
-
-  $sectionVar = "distro";
-
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-?>
+  $pageTitle = 'Solus';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+  echo '<script type="text/javascript">';
+    echo 'var localDistroName = "solus"; ';
+  echo '</script>';
+
+?>

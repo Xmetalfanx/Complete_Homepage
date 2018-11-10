@@ -1,14 +1,13 @@
  <?php
    
-   $localdistroname = 'mint';
+  $localdistroname = 'mint';
+  $pageTitle = 'Linux Mint';
 
-   $sectionVar = "distro";
-   
-    $pageTitle = 'Linux Mint';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-    $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+  echo '<script type="text/javascript">';
+    echo 'var localDistroName = "mint"; ';
+echo '</script>';
 
 ?>
-
-<?php include $sitePath . '/modules/footer.tpl'; ?>

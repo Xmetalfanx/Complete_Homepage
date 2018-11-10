@@ -1,14 +1,11 @@
 <?php
 
-	$localdistroname = 'lubuntu';
-
-	$sectionVar = "distro";
-
- 	$pageTitle = 'Lubuntu';
-
 	$sitePath = "/home/xmetalx1/public_html";
-
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
-	?>
 
-	<?php include $sitePath . "/modules/footer.tpl"; ?>
+	 $pageTitle = 'Lubuntu';
+
+echo '<script type="text/javascript">';
+    echo 'var localDistroName = "lubuntu"; ';
+echo '</script>';
+?>

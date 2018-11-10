@@ -1,14 +1,12 @@
 <?php
 
-  $pageTitle = 'Distribution Section - Puppy Linux';
-
-  $localdistroname = 'puppy';
-
-  $sectionVar = "distro";
-
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-?>
+  $pageTitle = 'Distribution Section - Puppy Linux';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+  echo '<script type="text/javascript">';
+    echo 'var localDistroName = "puppy"; ';
+  echo '</script>';
+
+?>

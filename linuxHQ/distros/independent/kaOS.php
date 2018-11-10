@@ -1,16 +1,12 @@
 <?php
 
- $pageTitle = 'KaOS';
-
- $localdistroname = 'kaos';
-
- $sectionVar = "distro";
-
-
  $sitePath = "/home/xmetalx1/public_html";
-
  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-?>
+ $pageTitle = 'KaOS';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+ echo '<script type="text/javascript">';
+ echo 'var localDistroName = "kaos"; ';
+echo '</script>';
+
+?>

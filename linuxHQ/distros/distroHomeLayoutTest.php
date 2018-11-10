@@ -1,9 +1,8 @@
 <?php
 
 		$pageTitle = 'Linux Distribution (AKA Version) Section Frontpage';
-	  $sitePath = "/home/xmetalx1/public_html";
-
-		include $sitePath . '/linuxHQ/modules/variables/varinclude.php';
+    $sitePath = "/home/xmetalx1/public_html";
+    
 		include $sitePath . "/templates/linux/blankTemplates/baseLinuxDistroBlank.tpl";
 ?>
 

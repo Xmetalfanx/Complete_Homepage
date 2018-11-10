@@ -1,14 +1,12 @@
 <?php
 
-	$pageTitle = 'Distribution Section - CentOS ';
-
-	$localdistroname = 'centos';
-	$sectionVar = "distro";
-
 	$sitePath = "/home/xmetalx1/public_html";
-
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-	?>
+	$pageTitle = 'Distribution Section - CentOS ';
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+	echo '<script type="text/javascript">';
+    echo 'var localDistroName = "centos"; ';
+echo '</script>';
+
+?>

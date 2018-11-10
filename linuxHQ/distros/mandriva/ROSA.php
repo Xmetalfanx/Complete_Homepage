@@ -1,14 +1,12 @@
 <?php
 
-  $localdistroname = 'rosa';
+  $sitePath = "/home/xmetalx1/public_html";
+  include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-   $pageTitle = 'ROSA';
+  $pageTitle = 'ROSA';
 
-   $sectionVar = "distro";
-
-
-   $sitePath = "/home/xmetalx1/public_html";
-   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
+  echo '<script type="text/javascript">';
+    echo 'var localDistroName = "rosa"; ';
+echo '</script>';
 
 ?>
-<?php include $sitePath . "/modules/footer.tpl"; ?>
