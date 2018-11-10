@@ -14,8 +14,7 @@ function displayTICOutput(){
 
         `
         <div>
-          <strong>Theme Name:
-          ${currentThemeName} </strong> <br />
+          <strong>Theme Name:${currentThemeName} </strong> <br />
 
           Theme has support for: ${currentSupportInfo} <br />
 

@@ -184,7 +184,6 @@ function getDesktopData(data, $localDEName) {
                         
                         // console.log("localDEName: " + localDEName);
                         
-                        
                         displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
                     } 
                 }

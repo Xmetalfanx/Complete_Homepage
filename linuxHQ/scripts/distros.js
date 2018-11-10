@@ -1,21 +1,37 @@
 // var for where to put the output
 var desktopResults = document.getElementById("desktopSection");
 
-function newLoopTest(data) {
+function distroDisplay(data) {
 
-    // data = the complete JSON
+    // Template Literal for output
+    const currentDistroInfoOutput = `
+        Distro Name: <strong>${currentDistroTitle}</strong><br /><br />
 
-    // Outer loop
-    $.each(data, function(key, value) {
+        <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Homepage</a><br />
+        <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Download Page</a><br />
+        <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Forum</a><br />
+        
+        
+        Features Desktops: ${currentDistroFeaturesDesktops} <br />
+        Similar Distrobutions: ${currentDistroSimilarDistros} <br />
+        Target Audience: ${currentDistroTargetAudience} <br />
+        Distrowatch: <a href=${currentDistroDistroWatchURL} blank="_blank"> ${currentDistroTitle} Distrowatch Link </a>
+        <br />
+        <hr />
+        `;
 
-        // The key is 'gtk2' or 'qt'
-        // the value is the framework's "sub-json" to so speak
-        var distroFamily = key;
-        console.log("key: " + distroFamily);
-        console.log("Value: "+ value);
+        // Display Output
+        document.write(currentDistroInfoOutput);
+};
 
-        for (var distroFamily = 0; distroFamily < value.length; distroFamily++) {
+// "main" function
+function getDistroData() {
+    jsonURL = "http://xmetal.x10.mx/linuxHQ/json/distros.json";
 
+    // Get JSON Data
+    $.getJSON(jsonURL, function(data) {
+
+        $.each(data, function(key, value) {
             //////////////////////////////////////////////////////////////////////////
             // DECLARE VARIABLES
 
@@ -42,46 +58,9 @@ function newLoopTest(data) {
 
             ////////////////////////////////////////////////////////////////////////////
 
-            // Template Literal for output
-            const distroNameOutput = `
-                Distro Name: <strong>${currentDistroTitle}</strong><br />
-            `;
+            // Call to Display Here 
 
-            const distroWebsiteOutput = `
-                <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Homepage</a><br />
-                <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Download Page</a><br />
-                <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Forum</a><br />
-            `;
-
-            const distroMoreInfoOutput = `
-                <br />
-                Features Desktops: ${currentDistroFeaturesDesktops} <br />
-                Similar Distrobutions: ${currentDistroSimilarDistros} <br />
-                Target Audience: ${currentDistroTargetAudience} <br />
-                Distrowatch: <a href=${currentDistroDistroWatchURL} blank="_blank"> ${currentDistroTitle} Distrowatch Link </a>
-                <br />
-                <hr />
-
-            `;
-
-            // Display Output
-            document.write(distroNameOutput);
-            document.write(distroWebsiteOutput);
-            document.write(distroMoreInfoOutput);
-        }
-
-
-    });
-}
-
-// "main" function
-function getDistroData() {
-    jsonURL = "http://xmetal.x10.mx/linuxHQ/json/distros.json";
-
-    // Get JSON Data
-    $.getJSON(jsonURL, function(data) {
-
-        newLoopTest(data);
+        }); // Ends .each loop 
 
     }); // ends getJSON loop
 }
