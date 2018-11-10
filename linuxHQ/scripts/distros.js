@@ -32,6 +32,13 @@ function getDistroData() {
     $.getJSON(jsonURL, function(data) {
 
         $.each(data, function(key, value) {
+
+            alert(key);
+             
+            // Copy and pasted ... change internal Var !
+            for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++)
+            { 
+           
             //////////////////////////////////////////////////////////////////////////
             // DECLARE VARIABLES
 
@@ -59,6 +66,8 @@ function getDistroData() {
             ////////////////////////////////////////////////////////////////////////////
 
             // Call to Display Here 
+
+            }
 
         }); // Ends .each loop 
 

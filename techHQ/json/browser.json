@@ -1,13 +1,19 @@
 {
-    "crossBrowser": [
-        "security": [{
+    "crossBrowser": 
+    {
+        "security": 
+        [
+            {
                 "addonname": "privacybadger",
                 "addontitle": "Privacy Badger",
                 "developer": "EFF",
                 "forFF57up": "TRUE",
                 "iconurl": "",
-                "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search",
-                "chromeurl": ""
+                "addonURL" :
+                {
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search",
+                    "chromeurl": ""
+                }
             },
             {
                 "addonname": "ublock",
@@ -17,8 +23,11 @@
                 "forFF57up": "TRUE",
                 "catagory": "adblocker",
                 "iconurl": "",
-                "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search",
-                "chromeurl": ""
+                "addonURL":
+                {
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search",
+                    "chromeurl": ""
+                }
             },
             {
                 "addonname": "umatrix",
@@ -28,36 +37,32 @@
                 "forFF57up": "",
                 "catagory": "adblocker",
                 "iconurl": "",
-                "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search",
-                "chromeurl": ""
+                "addonURL":
+                {
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search",
+                    "chromeurl": ""
+                }
             },
             {
                 "addonname": "httpseverwhere",
                 "addontitle": "HTTPS Everywhere",
                 "currentversion": null,
                 "developer": null,
-                "lastupdated": null,
                 "browserSupport": "",
                 "forFF57up": null,
                 "catagory": "security",
                 "iconurl": null,
-                "firefoxurl": "",
-                "chromeurl": null
+                "addonURL":
+                {
+                    "firefoxurl": "",
+                    "chromeurl": null
+                }
             }
-
-
-        ],
-
-        "download": [
-
-
-
         ]
+    },
 
-    ],
-
-    "firefox": [
-
+    "firefox": 
+    {
         "security": [
 
             {
@@ -68,8 +73,11 @@
                 "forFF57up": "",
                 "catagory": "security",
                 "iconurl": "",
-                "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search",
-                "chromeurl": ""
+                "addonURL":
+                {
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search",
+                    "chromeurl": ""
+                }
             },
             {
                 "addonname": "noscript",
@@ -77,33 +85,34 @@
                 "developer": "",
                 "forFF57up": "",
                 "iconurl": "",
-                "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users",
-                "chromeurl": "N/A"
-            },
+                
+                "addonURL":
+                {
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users",
+                    "chromeurl": "N/A"
+
+                }
+            }
 
 
         ],
 
-        "download": [{
+        "download": 
+        [
+            {
                 "addonname": "downloaderhelper",
                 "addontitle": "Video Download Helper",
                 "developer": "",
                 "browserSupport": "",
                 "forFF57up": "",
                 "iconurl": "",
-                "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users",
-                "chromeurl": "N/A"
-            },
-
-
-
+                "addonURL":
+                {
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users",
+                    "chromeurl": "N/A"
+                }
+            }
 
         ]
-
-
-
-
-    ]
-
-
+    }
 }

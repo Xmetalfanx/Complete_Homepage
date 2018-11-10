@@ -1,84 +1,71 @@
 {
     "browsers": [
-    {
-        "chrome": [{
+        {
+        "blink": 
+        [
+            {
                 "programName": "chromium",
                 "programTitle": "Chromium",
                 "programIcon": "",
                 "programVersion": "",
-
-                "programDesc": ""
-
+                "programDesc": "Open Source varient of Google Chrome, and what Google Chrome is based on "
             },
             {
-
                 "programName": "googleChrome",
                 "programTitle": "Google Chrome",
+                
                 "programIcon": "",
                 "programVersion": "",
-
                 "programDesc": ""
             },
             {
-
                 "programName": "vivaldi",
                 "programTitle": "Vivaldi",
                 "programIcon": "",
                 "programVersion": "1.15",
-
                 "programDesc": ""
             }
-        }
         ],
-
-
-        "gecko": [
+        "gecko": 
+        [
             {
                 "programName": "",
                 "programTitle": "",
                 "programIcon": "",
                 "programVersion": "",
-
                 "programDesc": ""
             },
             {
-
                 "programName": "",
                 "programTitle": "",
                 "programIcon": "",
                 "programVersion": "",
-
                 "programDesc": ""
             }
-        ]
-
-    ],
-    "multimedia": [
+        ],
+    
+        "multimedia": [
         {
-        "mediaplayers": [
+            "mediaplayers": [
+            {
+                "audioplayers": [
+                    {
+                        "programName": "clementine",
+                        "programTitle": "Clementine",
+                        "programIcon": "",
+                        "programVersion": "",
+                        "programDesc": ""
+                    }
+                ],
 
-            "audioplayers": [{
-                    "programName": "clementine",
-                    "programTitle": "Clementine",
-                    "programIcon": "",
-                    "programVersion": "",
-
-                    "programDesc": ""
-                },
-            
-            "videoplayers": [
-
-                {
-                    "programName": "vlc",
-                    "programTitle": "VLC",
-                    "programIcon": "",
-                    "programVersion": "",
-                
-                    "programDesc": ""
-                },
-
-                    ]
-
-    ]
-
-}
+                "videoplayers": [
+                    {
+                        "programName": "vlc",
+                        "programTitle": "VLC",
+                        "programIcon": "",
+                        "programVersion": "",
+                        "programDesc": ""
+                    }
+                ]
+            }]   
+]

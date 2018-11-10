@@ -6,7 +6,7 @@
   include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 
 ?>
-<body>
+<body onload="getDistroData()">
   <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <div id="mainBody" class="row col-12">
