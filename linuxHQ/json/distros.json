@@ -279,20 +279,20 @@
             "distroName": "antix",
             "distroTitle": "Anti-X",
             "graphics": {
-                "iconURL": null
+                "iconURL": ""
             },
             "moreinfo": {
-                "desktops": null,
-                "distrowatch": null,
+                "desktops": "",
+                "distrowatch": "",
                 "similar": "Linux Mint Debian Edition, Sparky Linux",
-                "software": null,
-                "target": null,
-                "type": null
+                "software": "",
+                "target": "",
+                "type": ""
             },
-            "version": null,
+            "version": "",
             "website": {
-                "download": null,
-                "forum": null,
+                "download": "",
+                "forum": "",
                 "homepage": "http://antix.mepis.org/index.php?title=Main_Page",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/"
             }
@@ -410,20 +410,20 @@
             "distroName": "mxlinux",
             "distroTitle": "MX Linux",
             "graphics": {
-                "iconURL": null
+                "iconURL": ""
             },
             "moreinfo": {
-                "desktops": null,
-                "distrowatch": null,
-                "similar": null,
-                "software": null,
-                "target": null,
-                "type": null
+                "desktops": "",
+                "distrowatch": "",
+                "similar": "",
+                "software": "",
+                "target": "",
+                "type": ""
             },
             "version": "16",
             "website": {
                 "download": "https://mxlinux.org/download-links",
-                "forum": null,
+                "forum": "",
                 "homepage": "https://mxlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php"
             }
@@ -663,17 +663,17 @@
             "distroName": "uberstudent",
             "distroTitle": "Uberstudent",
             "graphics": {
-                "iconURL": null
+                "iconURL": ""
             },
             "moreinfo": {
                 "desktops": "XFCE",
                 "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent",
-                "similar": null,
-                "software": null,
-                "target": null,
-                "type": null
+                "similar": "",
+                "software": "",
+                "target": "",
+                "type": ""
             },
-            "version": null,
+            "version": "",
             "website": {
                 "download": "http://uberstudent.com/get-uberstudent",
                 "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
@@ -882,17 +882,17 @@
             "distroName": "uberstudent",
             "distroTitle": "Uberstudent",
             "graphics": {
-                "iconURL": null
+                "iconURL": ""
             },
             "moreinfo": {
                 "desktops": "XFCE",
                 "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent",
-                "similar": null,
-                "software": null,
-                "target": null,
-                "type": null
+                "similar": "",
+                "software": "",
+                "target": "",
+                "type": ""
             },
-            "version": null,
+            "version": "",
             "website": {
                 "download": "http://uberstudent.com/get-uberstudent",
                 "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
