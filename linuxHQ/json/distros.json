@@ -8,16 +8,16 @@
                 "iconURL": "/linuxHQ/graphics/icons/fedora.png"
             },
             "moreinfo": {
-                "desktops": "Various",
+                "desktops": "Gnome (Default), Various official spins with other options",
                 "distrowatch": "http://distrowatch.com/fedora",
-                "similar": "",
+                "similar": "Korora",
                 "software": "",
                 "target": "",
                 "type": ""
             },
-            "version": "26",
+            "version": "29",
             "website": {
-                "download": "",
+                "download": "http://www.fedora.com",
                 "forum": "http://forums.fedoraforum.org/",
                 "homepage": "http://www.fedora.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
@@ -33,7 +33,7 @@
             "moreinfo": {
                 "desktops": "Cinnamon, Xfce, Mate, ..etc ",
                 "distrowatch": "http://distrowatch.com/korora",
-                "similar": "",
+                "similar": "Fedora",
                 "software": "",
                 "target": "",
                 "type": ""
@@ -61,7 +61,7 @@
                 "target": "",
                 "type": ""
             },
-            "version": "",
+            "version": "6.1",
             "website": {
                 "download": "http://mageia.org/en/downloads/",
                 "forum": "https://forums.mageia.org/",
@@ -79,7 +79,7 @@
             "moreinfo": {
                 "desktops": "KDE",
                 "distrowatch": "http://distrowatch.com/OpenMandriva",
-                "similar": "",
+                "similar": "ROSA, Mageia",
                 "software": "",
                 "target": "",
                 "type": ""

@@ -8,62 +8,49 @@ function displayDistroOutput(currentDistroTitle, currentDistroHomepage, currentD
     const currentDistroInfoOutput = `
 
 
-    <div class="card">
-    <div class="card-header bg-primary text-white font-weight-bold h4">${currentDistroTitle}</div>
-    <div class="card-text">
-      <div class="row"> 
-        <div class="col-4">
-            <span class="font-weight-bold">Homepage: </span>
-            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>
+        <div class="card">
+            <div class="card-title">
+                <div class="font-weight-bold h2">${currentDistroTitle}</div>
+            </div>
+        
+        <div class="card-text">
+            <div class="row"> 
+                <span class="font-weight-bold">Homepage: </span>
+                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br />
+                <span class="font-weight-bold">Download: </span>
+                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Download Page</a><br />
+                <span class="font-weight-bold">Forums:</span>
+                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Forum</a><br />
+            </div>
+        
+            <div class="row">
+                <div class="font-weight-bold">Distrowatch Page: </div>
+                    <a href="${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
+                    <br/>
+                <div class="font-weight-bold">Target Audience: </div>
+                    ${currentDistroTargetAudience} <br />
+                <div class="font-weight-bold">Featured Desktops: </div>
+                    ${currentDistroFeaturesDesktops}<br />
+                <div class="font-weight-bold">Similar Distros: </div>
+                    ${currentDistroSimilarDistros}<br />
+                <span class="font-weight-bold">
+                Software Type: </span>
+            </div>
+            <br /><br />
+            
+            <div class="row"> 
+                <div class="col-6">
+                    <span class="font-weight-bold">Youtube Playlists</span><br/>
+                    <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span>
+                </div>
+                <div class="col-6">
+                    <span class="font-weight-bold">Youtube Tweaks and Tips Playlist</span>
+                </div>
+            </div>
         </div>
-        <div class="col-4">
-            <span class="font-weight-bold">Download: </span>
-            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Download Page</a>
-        </div>
-        <div class="col-4">
-            <span class="font-weight-bold">Forums:</span>
-            <a href="${currentDistroHomepage}" target="_blank"> ${currentDistroTitle}'s Forum </a>
-        </div>
-      </div>
-      <br/>
-
-      <div class="row"> 
-        <div class="col-6">
-            <span class="font-weight-bold">Distrowatch Page: </span>
-            <a href="${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
-        </div>
-        <div class="col-6">
-        <span class="font-weight-bold">Target Audience: </span>
-          ${currentDistroTargetAudience}
-        </div>
-        <div class="col-6">
-            <span class="font-weight-bold">Featured Desktops: </span>
-            ${currentDistroFeaturesDesktops}
-        </div>
-        <div class="col-6">
-            <span class="font-weight-bold">Similar Distros: </span>
-            ${currentDistroSimilarDistros}
-        </div>
-        <div class="col-6">
-            <span class="font-weight-bold">Software Type: </span>
-        </div>
-      </div>
-      <br/>
-      <br/>
-
-      <div class="row"> 
-        <span class="font-weight-bold">Youtube Playlists</span>
-      </div>
-      <br/>
-      
-      <div class="row">
-        <div class="col-6">
-        <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span></div>
-        <div class="col-6">
-        <span class="font-weight-bold">Youtube Tweaks and Tips Playlist</span></div>
-      </div>
     </div>
-  </div>
+
+
         <hr />
         `;
 
