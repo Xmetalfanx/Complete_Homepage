@@ -1,46 +1,50 @@
 .card
     .card-title
-        .font-weight-bold.h2 ${currentDistroTitle}
+        .row.pt-3
+            .col-1
+                img(src="${currentDistroIcon}" alt="${currentDistroTitle} icon") 
+            .col-11
+                .font-weight-bold.h2 ${currentDistroTitle}
     
     .card-text
-        .row 
-            span.font-weight-bold Homepage: 
-            a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Homepage
-            br/
 
-            span.font-weight-bold Download: 
-            a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Download Page
-            br/
+        span.font-weight-bold Homepage: 
+        a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Homepage
+        br/
 
-            span.font-weight-bold Forums:
-            a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Forum
-            br/
+        span.font-weight-bold Download: 
+        a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Download Page
+        br/
 
-        .row
-            div.font-weight-bold Distrowatch Page: 
-            a(href="${currentDistroDistroWatchURL}" blank="_blank") ${currentDistroTitle} Distrowatch Link 
-            br/
-                
-            div.font-weight-bold Target Audience: 
-            div ${currentDistroTargetAudience}
-            br/
-        
-            div.font-weight-bold Featured Desktops: 
-            div ${currentDistroFeaturesDesktops}
-            br/
-        
-            div.font-weight-bold Similar Distros: 
-            div ${currentDistroSimilarDistros}
-            br/
-        
-            span.font-weight-bold Software Type: 
+        span.font-weight-bold Forums:
+        a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Forum
         br/
         br/
 
+
+        div.font-weight-bold Distrowatch Page: 
+        a(href="${currentDistroDistroWatchURL}" blank="_blank") ${currentDistroTitle} Distrowatch Link 
+        br/
+            
+        div.font-weight-bold Target Audience: 
+        div ${currentDistroTargetAudience}
+    
+        div.font-weight-bold Featured Desktops: 
+        div ${currentDistroFeaturesDesktops}
+    
+        div.font-weight-bold Similar Distros: 
+        div ${currentDistroSimilarDistros}
+        
+        span.font-weight-bold Software Type: 
+        br/
+        br/
+
+
+
+        span.font-weight-bold.h4 Youtube Playlists
+        br/
         .row 
             .col-6
-                span.font-weight-bold Youtube Playlists
-                br/
                 span.font-weight-bold Youtube Reviews and Comment Playlist: 
             .col-6
                 span.font-weight-bold Youtube Tweaks and Tips Playlist
