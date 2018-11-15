@@ -9,33 +9,45 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
 
 
             <div class="card">
-                <div class="card-title">
-                    <div class="row pt-3"> 
-                        <div class="col-1">
+                <div class="card-title px-3 pt-3">
+                    <div class="row "> 
                         <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon">
-                        </div>
-                            <div class="col-11">
-                            <div class="font-weight-bold h2">${currentDistroTitle}</div>
+                        <div class="font-weight-bold h2">${currentDistroTitle}</div>
                     </div>
                 </div>
             </div>
             
             <div class="card-text">
-            <span class="font-weight-bold">Homepage: </span><a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/><span class="font-weight-bold">Download: </span><a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Download Page</a><br/><span class="font-weight-bold">Forums:</span><a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
-            <div class="font-weight-bold">Distrowatch Page: </div><a href="${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a><br/>
-            <div class="font-weight-bold">Target Audience: </div>
-            <div>${currentDistroTargetAudience}</div>
-            <div class="font-weight-bold">Featured Desktops: </div>
-            <div>${currentDistroFeaturesDesktops}</div>
-            <div class="font-weight-bold">Similar Distros: </div>
-            <div>${currentDistroSimilarDistros}</div>
-            <span class="font-weight-bold">Software Type: </span><br/><br/>
+                <span class="font-weight-bold">Homepage: </span>
+                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
+                
+                <span class="font-weight-bold">Download: </span>
+                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
+                
+                <span class="font-weight-bold">Forums:</span>
+                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
+                
+                <div class="font-weight-bold">Distrowatch Page: </div>
+                <a href="${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
+                <br/>
+
+                <div class="font-weight-bold">Target Audience: </div>
+                ${currentDistroTargetAudience}
+                <div class="font-weight-bold">Featured Desktops: </div>
+                ${currentDistroFeaturesDesktops}
+                <div class="font-weight-bold">Similar Distros: </div>
+                ${currentDistroSimilarDistros}
+                <span class="font-weight-bold">Software Type: </span><br/><br/>
             
             
             <span class="font-weight-bold h4">Youtube Playlists</span><br/>
             <div class="row"> 
-                <div class="col-6"><span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span></div>
-                <div class="col-6"><span class="font-weight-bold">Youtube Tweaks and Tips Playlist</span></div>
+                <div class="col-6">
+                    <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span>
+                </div>
+                <div class="col-6">
+                    <span class="font-weight-bold">Youtube Tweaks and Tips Playlist</span>
+                </div>
             </div>
             </div>
         </div>
