@@ -1,48 +1,62 @@
 {
     "themes": [
         {
-            "themeName": "Adapta",
-            "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            
-
-            "links":
-            {
+            "howToInstall": {
+                "arch": "",
+                "fedora": "",
+                "opensuse": "",
+                "ubuntu": ""
+            },
+            "links": {
                 "devartsURL": "N/A",
                 "githubURL": "https://github.com/adapta-project/adapta-gtk-theme"
-            }
-
-        },
-        {
-            "themeName": "Arc",
+            },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-
-            "links": {
-                "gnomelooksURL": "N/A",
-                "devartsURL": "N/A",
-                "githubURL": "https://github.com/horst3180/arc-theme"
-            }
+            "themeName": "Adapta"
         },
         {
-            "themeName": "Mint-Y",
+            "howToInstall": {
+                "arch": "",
+                "fedora": "",
+                "opensuse": "",
+                "ubuntu": ""
+            },
+            "links": {
+                "devartsURL": "",
+                "githubURL": "https://github.com/horst3180/arc-theme",
+                "gnomelooksURL": ""
+            },
+            "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+            "themeName": "Arc"
+        },
+        {
+            "howToInstall": {
+                "arch": "",
+                "fedora": "",
+                "opensuse": "",
+                "ubuntu": ""
+            },
+            "links": {
+                "devartsURL": "N/A",
+                "githubURL": "",
+                "gnomelooksURL": ""
+            },
             "supportInfo": "gtk3, cinnamon",
-            
-            "links": {
-                "devartsURL": "N/A",
-                "githubURL": ""
-            }
-
+            "themeName": "Mint-Y"
         },
         {
-            "themeName": "Numix",
-            "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            
-
+            "howToInstall": {
+                "arch": "",
+                "fedora": "",
+                "opensuse": "",
+                "ubuntu": ""
+            },
             "links": {
                 "devartsURL": "N/A",
                 "githubURL": "https://github.com/numixproject/numix-gtk-theme"
-
-            }
-
+            },
+            "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
+            "themeName": "Numix"
         }
     ]
 }

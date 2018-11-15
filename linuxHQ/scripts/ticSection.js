@@ -1,15 +1,10 @@
-function renderHTML(data){
-
-var themeResults = document.getElementById("ticSection");
-}
+var ticResults = document.getElementById("TICSection");
 
 // This should show the entire JSON file's info
-function displayTICOutput(){
-
+function displayTICOutput(currentThemeName, currentSupportInfo, currentGnomelookURL, currentGithubURL, currentDeviantArtURL){
 
   // Should loop through the JSON file
 
-      // using ` for this are called "Template Literals"
       const themeOutput =
 
         `
@@ -68,20 +63,14 @@ function getTICData() {
 
         if (localTICName == currentThemeName)
         {
-          // just a test for now 
-          console.log("Local TIC Name: " + localTICName);
-
-          // call to display function will come later 
+          displayTICOutput(currentThemeName, currentSupportInfo, currentGnomelookURL, currentGithubURL, currentDeviantArtURL)
 
         }
 
       }); // Ends .each loop 
 
-
     });  // Ends getJSON loop
-
 
   });
     
-
 }

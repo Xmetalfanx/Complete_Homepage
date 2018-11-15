@@ -14,7 +14,9 @@
         </div>
 
         <div class="col-xs-12 col-md-10">
-            <?php include $sitePath . '/linuxHQ/modules/TICMainSection.tpl'; ?>
+            <div id="TICSection">
+
+            </div>
         </div>
 
         </div>
