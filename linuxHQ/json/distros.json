@@ -638,28 +638,6 @@
             }
         },
         {
-            "distroName": "lxle",
-            "distroTitle": "LXLE",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/lxle.png"
-            },
-            "moreinfo": {
-                "desktops": "LXDE",
-                "distrowatch": "",
-                "similar": "Lubuntu or any other Ubuntu based distro with LXDE installed",
-                "software": "Based on Ubuntu's Release Cycle",
-                "target": "Any Use",
-                "type": ""
-            },
-            "version": "",
-            "website": {
-                "download": "http://www.lxle.net/download",
-                "forum": "http://lxle.net/forum/",
-                "homepage": "http://www.lxle.net",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
             "distroName": "uberstudent",
             "distroTitle": "Uberstudent",
             "graphics": {
@@ -769,50 +747,6 @@
             }
         },
         {
-            "distroName": "peppermint",
-            "distroTitle": "Peppermint",
-            "graphics": {
-                "iconURL": ""
-            },
-            "moreinfo": {
-                "desktops": "",
-                "distrowatch": "",
-                "similar": "",
-                "software": "",
-                "target": "",
-                "type": ""
-            },
-            "version": "",
-            "website": {
-                "download": "",
-                "forum": "",
-                "homepage": "http://peppermintos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "kubuntu",
-            "distroTitle": "Kubuntu",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/kubuntu.png"
-            },
-            "moreinfo": {
-                "desktops": "Plasma 5",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=kubuntu",
-                "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
-                "software": "",
-                "target": "",
-                "type": ""
-            },
-            "version": "14.04 LTS, 16.04 LTS",
-            "website": {
-                "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
-                "forum": "http://ubuntuforums.org/",
-                "homepage": "http://www.kubuntu.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
             "distroName": "linuxlite",
             "distroTitle": "Linux Lite",
             "graphics": {
@@ -831,28 +765,6 @@
                 "download": "http://sourceforge.net/projects/linuxlite/files",
                 "forum": "https://www.linuxliteos.com/forums/",
                 "homepage": "http://www.linuxliteos.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "lubuntu",
-            "distroTitle": "lubuntu",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/lubuntu.png"
-            },
-            "moreinfo": {
-                "desktops": "LXDE, LXQT",
-                "distrowatch": "",
-                "similar": "",
-                "software": "",
-                "target": "",
-                "type": ""
-            },
-            "version": "14.04 LTS, 16.04 LTS",
-            "website": {
-                "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
-                "forum": "http://ubuntuforums.org/",
-                "homepage": "http://lubuntu.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
@@ -877,138 +789,7 @@
                 "homepage": "http://www.lxle.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
-        },
-        {
-            "distroName": "uberstudent",
-            "distroTitle": "Uberstudent",
-            "graphics": {
-                "iconURL": ""
-            },
-            "moreinfo": {
-                "desktops": "XFCE",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent",
-                "similar": "",
-                "software": "",
-                "target": "",
-                "type": ""
-            },
-            "version": "",
-            "website": {
-                "download": "http://uberstudent.com/get-uberstudent",
-                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
-                "homepage": "http://uberstudent.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "ubuntu",
-            "distroTitle": "Ubuntu",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/ubuntu.png"
-            },
-            "moreinfo": {
-                "desktops": "Gnome2, Unity, Gnomeshell",
-                "distrowatch": "",
-                "similar": "",
-                "software": "",
-                "target": "any users / new users",
-                "type": ""
-            },
-            "version": "16.04 LTS, 17.04",
-            "website": {
-                "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
-                "forum": "http://ubuntuforums.org/",
-                "homepage": "http://www.ubuntu.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "ubuntubudgie",
-            "distroTitle": "Ubuntu Budgie",
-            "graphics": {
-                "iconURL": ""
-            },
-            "moreinfo": {
-                "desktops": "Budgie",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntubudgie",
-                "similar": "Budgie",
-                "software": "",
-                "target": "",
-                "type": ""
-            },
-            "version": "16.04.2 LTS and 17.04",
-            "website": {
-                "download": "https://ubuntubudgie.org/downloads",
-                "forum": "",
-                "homepage": "https://ubuntubudgie.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "umate",
-            "distroTitle": "Ubuntu Mate",
-            "graphics": {
-                "iconURL": "#"
-            },
-            "moreinfo": {
-                "desktops": "Mate",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntumate",
-                "similar": "Linux Mint Mate ",
-                "software": "",
-                "target": "Any User",
-                "type": ""
-            },
-            "version": "16.04 LTS, 17.04, 17.10 alpha AND Raspberry Pi versions are available)",
-            "website": {
-                "download": "https://ubuntu-mate.org/download/",
-                "forum": "https://ubuntu-mate.community/",
-                "homepage": "http://ubuntu-mate.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "xubuntu",
-            "distroTitle": "xubuntu",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/xubuntu.png"
-            },
-            "moreinfo": {
-                "desktops": "XFCE",
-                "distrowatch": "",
-                "similar": "SolydX, Linux Mint XFCE, Linux Lite",
-                "software": "",
-                "target": "",
-                "type": ""
-            },
-            "version": "",
-            "website": {
-                "download": "http://xubuntu.org/getxubuntu/",
-                "forum": "",
-                "homepage": "http://www.xubuntu.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
-        },
-        {
-            "distroName": "zorin",
-            "distroTitle": "Zorin",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/zorin.png"
-            },
-            "moreinfo": {
-                "desktops": "",
-                "distrowatch": "",
-                "similar": "",
-                "software": "Based on Ubuntu's Release Cycle",
-                "target": "new users",
-                "type": ""
-            },
-            "version": "",
-            "website": {
-                "download": "http://zorin-os.com/free.html\"",
-                "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
-                "homepage": "http://www.zorin-os.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
         }
+        
     ]
 }
