@@ -1,7 +1,10 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall,currentDEubuntuInstall, currentDEmintInstall)
+// Test this idea 
+var passedVars = "currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall,currentDEubuntuInstall, currentDEmintInstall";
+
+function displayDEOutput($passedVars)
 {
     // Template Literal for output
 
@@ -195,13 +198,7 @@ function getDesktopData(data, $localDEName) {
                     ///////////////////////////////////////////////////////////////////////////////////
                     if ( localDEName == currentDEName)
                     {
-                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version,
-                        currentDEarchInstall,
-                        currentDEfedoraInstall,
-                        currentDEopensuseInstall,
-                        currentDEubuntuInstall,
-                        currentDEmintInstall 
-                        );
+                        displayDEOutput($passedVars);
                     } 
                 }
 
