@@ -345,13 +345,15 @@
         "arch": "sudo pacman -S budgie-desktop",
         "fedora": "sudo dnf groupinstall mate-desktop mate-applications",
         "opensuse": {
+          "openSuseInstall"
           "repoLeap15": "",
           "repo423": "",
           "twRepo": "",
           "reference": ""
         },
         "ubuntu": {
-          "install": "sudo apt install budgie-desktop"
+          "ubuntuInstall": "sudo apt install budgie-desktop",
+          "mintInstall": ""
         }
       }
     },

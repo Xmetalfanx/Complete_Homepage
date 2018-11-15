@@ -1,7 +1,7 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version)
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall,currentDEubuntuInstall, currentDEmintInstall)
 {
     // Template Literal for output
 
@@ -9,7 +9,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
     const deVersionsOutput = `
         
         <div class="strong">Versions</div>
-            
+            <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br />
             <div class="row">
                 <div class="col-md-3"> Arch: ${currentDEArchVersion}  </div>
 
@@ -62,14 +62,12 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 <span class="font-weight-bold">Github URL: </span>
                     <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
                 <br><br>
-            
-                <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br />
+        
                 <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br />
                 <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
                 <br /><br />
 
                 <bold>Desktop Requirements: </bold>
-                
                 <ul>
                     <li> 
                         <span class="font-italics">Required Processor: </span>${currentDEReqProc}
@@ -81,7 +79,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                         <span class="font-italics">Required Hard Drive Space: </span>${currentDEReqHDD}
                     </li>
                 </ul>
-
                 <br />
 
                 <nav>
@@ -98,7 +95,8 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-version-tab">
                     ${deVersionsOutput}
                     </div>
-                    <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">tab 2 content </div>
+                    <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">
+                    tab 2 content </div>
                 </div>
                 
                 </div> <!-- Closes card-text -->
@@ -142,9 +140,8 @@ function getDesktopData(data, $localDEName) {
                     // More Info
                     var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
                     var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-                    var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
                     var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
-                    var currentDEdistroFeature = value[subFrameworks].generalInfo.distrofeature;
+                    var currentDEDistroFeature = value[subFrameworks].generalInfo.distrofeature;
 
                     // Requirnments
                     var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
@@ -153,6 +150,8 @@ function getDesktopData(data, $localDEName) {
 
                     // Versions
 
+
+                    var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
                     // Arch
                     var currentDEArchVersion = value[subFrameworks].versions.arch;
 
@@ -178,10 +177,31 @@ function getDesktopData(data, $localDEName) {
                     // Ubuntu non-LTS
                     var currentDE1810 = value[subFrameworks].versions;
 
+
+                    // End Version vars
+
+
+                    // Begin Install vars 
+                    var currentDEarchInstall = value[subFrameworks].install.arch;
+
+                    var currentDEfedoraInstall =  value[subFrameworks].install.fedora;
+                    
+                    var currentDEopensuseInstall = value[subFrameworks].install.opensuse.opensuseInstall
+                    
+                    var currentDEubuntuInstall = value[subFrameworks].install.ubuntu.ubuntuInstall;
+                    var currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
+
+
                     ///////////////////////////////////////////////////////////////////////////////////
                     if ( localDEName == currentDEName)
                     {
-                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEdistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version);
+                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version,
+                        currentDEarchInstall,
+                        currentDEfedoraInstall,
+                        currentDEopensuseInstall,
+                        currentDEubuntuInstall,
+                        currentDEmintInstall 
+                        );
                     } 
                 }
 
