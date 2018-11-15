@@ -7,12 +7,13 @@
           "install": "sudo zypper in -t pattern kde kde_plasma"
         },
         "ubuntu": {
-          "mintinstall": "mint-meta-kde"
+          "install": "sudo apt install plasma-desktop",
+          "mintinstall": "(Mint prior to version 19) sudo apt (or apt-get) install mint-meta-kde"
         }
       },
       "desktopName": "plasma5",
       "generalInfo": {
-        "latestVersion": "5.13",
+        
         "distrosfeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
         "desktopCatagory": "heavyweight",
         "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
@@ -25,6 +26,7 @@
         "reqProcessor": ""
       },
       "versions": {
+        "latestVersion": "5.14",
         "arch": "5.13.5-1",
         "fedora": {
           "f27": "",
