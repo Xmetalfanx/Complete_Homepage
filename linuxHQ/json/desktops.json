@@ -13,7 +13,6 @@
       },
       "desktopName": "plasma5",
       "generalInfo": {
-        
         "distrosfeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
         "desktopCatagory": "heavyweight",
         "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
@@ -63,7 +62,6 @@
       },
       "desktopName": "lxqt",
       "generalInfo": {
-        "latestVersion": "0.13.0",
         "distrosfeature": "Lubuntu Next, Sparky Linux",
         "desktopCatagory": "Light",
         "desktopHomepage": "https://lxqt.org/"
@@ -75,6 +73,7 @@
         "reqProcessor": ""
       },
       "versions": {
+        "latestVersion": "0.13.0",
         "arch": "",
         "fedora": {
           "f27": "",
@@ -109,7 +108,6 @@
     },
     "desktopName": "openbox",
     "generalInfo": {
-      "latestVersion": "",
       "distrosfeature": "Crunchbang++, Bunsenlabs, Arch",
       "desktopCatagory": "Light",
       "desktopHomepage": ""
@@ -121,6 +119,7 @@
       "reqProcessor": ""
     },
     "versions": {
+      "latestVersion": "",
       "arch": "",
       "fedora": {
         "f27": "",
@@ -157,7 +156,6 @@
       },
       "desktopName": "xfce",
       "generalInfo": {
-        "latestVersion": "4.12",
         "distrosfeature": "mintHP . 'Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent",
         "desktopCatagory": "lightweight",
         "desktopHomepage": "https://xfce.org/",
@@ -175,6 +173,7 @@
         "neonversion": ""
       },
       "versions": {
+        "latestVersion": "4.12",
         "arch": "4.12",
         "fedora": {
           "f27": "",
@@ -200,7 +199,6 @@
     {
       "desktopName": "lxde",
       "generalInfo": {
-        "latestVersion": "",
         "distrosfeature": "Lubuntu, LXLE",
         "desktopCatagory": "lightweight",
         "desktopHomepage": "https://lxde.org/",
@@ -213,6 +211,7 @@
         "reqProcessor": "512Mhz or faster; 32bit or 64bit"
       },
       "versions": {
+        "latestVersion": "",
         "arch": "",
         "fedora": {
           "f27": "",
@@ -253,7 +252,6 @@
   "gtk3": [{
       "desktopName": "cinnamon",
       "generalInfo": {
-        "latestVersion": "3.8.8",
         "distrosFeature": "Linux Mint, Korora/Fedora, Arch/Antergos ",
         "desktopCatagory": "heavyweight",
         "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
@@ -266,6 +264,7 @@
         "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
       },
       "versions": {
+        "latestVersion": "3.8.8",
         "arch": "3.8.1-1",
         "fedora": {
           "f27": "",
@@ -306,7 +305,7 @@
     {
       "desktopName": "budgie",
       "generalInfo": {
-        "latestVersion": "10.4",
+        
         "distrosfeature": "Solus, Ubuntu Budgie",
         "desktopCatagory": "heavyweight",
         "desktopHomepage": "https://budgie-desktop.org/home/",
@@ -319,6 +318,7 @@
         "reqProcessor": ""
       },
       "versions": {
+        "latestVersion": "10.4",
         "arch": "10.4+123+gf2dbc215-1",
         "fedora": {
           "f27": "",
@@ -358,7 +358,7 @@
     {
       "desktopName": "mate",
       "generalInfo": {
-        "latestVersion": "1.18",
+        
         "distrosfeature": "Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",
         "desktopCatagory": "lightweight",
         "desktopHomepage": "https://mate-desktop.org/",
@@ -382,6 +382,7 @@
         "mintinstall": "sudo apt install mint-meta-mate"
       },
       "versions": {
+        "latestVersion": "1.18",
         "arch": "1.18.0-1",
         "fedora": {
           "f27": "",
