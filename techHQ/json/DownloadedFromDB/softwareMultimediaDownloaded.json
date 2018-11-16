@@ -1,0 +1,408 @@
+
+        {"id": 91,"appicon": "/techHQ/progIcon/media/videos/VideoDub2_132.gif",
+            "appname": "virtualdub",
+            "apptitle": "Virtualdub",
+            "appmaincat": "multimedia",
+            "appsubcat": "various",
+            "appdescription": " <p>Great free Video Editor that can change </p> <
+        ul >
+        <
+        li > colorcast, < /li> <
+        li > frame - rates, < /li> <
+        li > compression(video and audio) < /li> <
+        li > saturation < /li> <
+        li > brightness / constrast < /li> <
+        li > ....and more < /li> < /
+        ul > ","
+        appurl ": "
+        http : / /
+        www.virtualdub.org / ","
+        platform ": "
+        CP ","
+        worksonwine ": null,"
+        sshoturl ": null},
+
+        {"
+        id ": 90,"
+        appicon ": " / techHQ / progIcon / media / makemkv_0.gif ","
+        appname ": "
+        makemkv ","
+        apptitle ": "
+        MakeMKV ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        various ","
+        appdescription ": " < p > This one I found due to Ghacks.net and it handles DVD(and I think DVD Folders on the hard drive already) and can convert them to MKV files with all the audio or subtitle tracks(that the user specifies).. < /p> <
+        p > I have found that
+        while this works, it doesn\ 't compress ... the output mkv file is about the same size as the &quot;collection&quot; of .VOB files on the DVD. If you want to compress the output, I would make the MKV and then when thats on the hard drive... use a prior mentioned program to test formats (.avi, ,mpg, .mp4) and file-sizes-vs-desired video quality .. I admit ... sometimes it\'s &quot;trial and error&quot;</p>",
+        "appurl": "http://www.makemkv.com",
+        "platform": "CP",
+        "worksonwine": null,
+        "sshoturl": null}, 
+        
+ {
+            "
+            id ": 89,"
+            appicon ": " / techHQ / progIcon / media / videos / 1187 __handbrake.png ","
+            appname ": "
+            handbrake ","
+            apptitle ": "
+            Handbrake ","
+            appmaincat ": "
+            multimedia ","
+            appsubcat ": "
+            converter ","
+            appdescription ": " < p > A < strong > great < /strong> freeware that has many options (it does take a learning curve), but you can play around with the settings to see what gives you the best result. </p >
+                <
+                p > The testing of what works best(filesize - vs - quality) is part of the fun of learning & quot;
+            what works & quot;
+            and & quot;
+            what doesn\ 't&quot; if you ask me.</p> <
+            p > -- -- -- -- -- -- -- -- -- -- -- - < /p> <
+            p > I have used Handbrake, in various Operating Systems, such as: Slackware(Linux), Ubuntu, and Windows.I have seen some converters, that have decent interfaces that...take 3 times as long to convert(
+             for.. & quot; whatever & quot; reason..I am not sure)....but this is not one of them.I know users who rather do everything in command - line, and this program(after you set options and hit & quot; Convert & quot;) will convert in command - line < /p> <
+                p > & quot;
+            What the heck do i care about that
+            for ? &
+            quot;, well that means the conversion will go much faster. < /p>","appurl": "http:/ / handbrake.fr / ","
+            platform ": "
+            CP ","
+            worksonwine ": null,"
+            sshoturl ": null},
+                
+
+                    {
+        "id": 70,
+        "appicon": "/techHQ/progIcon/",
+        "appname": "xmplay",
+        "apptitle": "XMPlay",
+        "appmaincat": "multimedia",
+        "appsubcat": "musicplayer",
+        "appdescription": null,
+        "appurl": "http://support.xmplay.com",
+        "platform": "W",
+        "worksonwine": null,
+        "sshoturl": null
+    },
+
+      {
+            "
+            id ": 46,"
+            appicon ": " / techHQ / progIcons / media / Tagscan_MAINICON.png ","
+            appname ": "
+            tagscanner ","
+            apptitle ": "
+            Tag Scanner ","
+            appmaincat ": "
+            multimedia ","
+            appsubcat ": "
+            id3tag ","
+            appdescription ": "
+            One of the best freeware Id3 tag Editor there is, in my opinion.The Interface could use some work, though ","
+            appurl ": "
+            http: //www.xdlab.ru/en/","platform": "W","worksonwine": 0,"sshoturl": ""},
+
+
+    {"
+              id ": 43,"
+              appicon ": " / techHQ / progIcons / media / media_players / smplayer_logo.png ","
+              appname ": "
+              smplayer ","
+              apptitle ": "
+              SMPlayer ","
+              appmaincat ": "
+              multimedia ","
+              appsubcat ": "
+              videoplayer ","
+              appdescription ": " < p > SMPlayer intends to be a complete front - end
+              for MPlayer, from basic features like playing videos, DVDs,
+              and VCDs to more advanced features like support
+              for MPlayer filters and more. < /p> <
+              p > * (from SMPlayer Readme File) < /p> <
+              p > This one I have not used alot, though I DO LOVE it.SMPlayer IS CROSS PLATFORM(Like Libre / Open Office, Chromium, Firefox, VLC.....etc) so
+              if you like it and are also running Linux, you can run SMPlayer in either Operating System < /p>","appurl": "http:/ / smplayer.sourceforge.net / ","
+              platform ": "
+              CP ","
+              worksonwine ": 0,"
+              sshoturl ": "
+              "}, 
+
+  {
+        "
+        id ": 44,"
+        appicon ": " / techHQ / progIcons / media ","
+        appname ": "
+        spotify ","
+        apptitle ": "
+        Spotify ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        musicplayer ","
+        appdescription ": "
+        Streaming Music Player ","
+        appurl ": "
+        https: //www.spotify.com","platform": "CP","worksonwine": 0,"sshoturl": ""},
+
+            {
+       "
+        appicon ": "/techHQ/progIcons/media/media_players/mpv-logo.png","
+        appname ": "
+        mpv ","
+        apptitle ": "
+        MPV ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        videoplayer ","
+        appdescription ": null,"
+        appurl ": "
+        https: //mpv.io/","platform": "CP","worksonwine": 0,"sshoturl": ""},
+            
+
+{
+
+    "appicon": "/techHQ/progIcons/media",
+    "appname": "mp3nity",
+    "apptitle": "Mp3nity",
+    "appmaincat": "multimedia",
+    "appsubcat": "id3tag",
+    "appdescription": "",
+    "appurl": "http://www.littlelan.com/mp3nity/",
+    "
+    platform ": "
+    W ","
+    worksonwine ": 0,"
+    sshoturl ": "
+    "},
+            
+
+ {
+        "id": 25,
+        "appicon": "/techHQ/progIcons/media/media_players/",
+        "appname": "gnomempv",
+        "apptitle": "Gnome-MPV",
+        "appmaincat": "multimedia",
+        "appsubcat": "videoplayer",
+        "appdescription": "Gnome/GUI Fronend to mpv",
+        "appurl": "https://gnome-mpv.github.io",
+        "platform": "W",
+        "worksonwine": 0,
+        "sshoturl": ""
+        },
+
+       {
+              "id": 14,
+              "appicon": "/techHQ/progIcons/media/media_players/",
+              "appname": "clementine",
+              "apptitle": "Clementine",
+              "appmaincat": "multimedia",
+              "appsubcat": "musicplayer",
+              "appdescription": "",
+              "appurl": "https://www.clementine-player.org",
+              "platform": "CP",
+              "worksonwine": 0,
+              "sshoturl": ""
+          },
+          {
+            "id": 15,
+            "appicon": "/techHQ/progIcons/media/media_players/",
+            "appname": "deadbeef",
+            "apptitle": "Deadbeef",
+            "appmaincat": "multimedia",
+            "appsubcat": "musicplayer",
+            "appdescription": "",
+            "appurl": "http://deadbeef.sourceforge.net",
+            "platform": "W",
+            "worksonwine": 0,
+            "sshoturl": ""
+          },
+
+          
+ {
+        "
+        id ": 87,"
+        progIcon ": " / techHQ / progIcon / media / videos / 1218 __any - video - converter.gif ","
+        progName ": "
+        AVC ","
+        programTitle ": "
+        Any Video Converter ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        converter ","
+        appdescription ": " < p > < strong > Any Video Converter < /strong> is an  converting program that supports MANY common formats, and has many options</p >
+            <
+            p > Some formats that AVC supports are: < /p> <
+        div class = \"code\"> <
+        ul >
+            <
+            li > DivX, < /li> <
+        li > XviD, < /li> <
+        li > MOV, < /li> <
+        li > Real Media < /li> <
+        li > MPEG, < /li> <
+        li > VOB, < /li> <
+        li > WMV, < /li> <
+        li > AVI < /li> <
+        li > MPEG - 4 < /li> <
+        li > FLV, < /li> <
+        li > MPEG - 1, < /li> <
+        li > MPEG - 2. < /li> <
+        li > ...and even Mp3s(extracting audio from a video to mp3s) < /li> < /
+        ul > <
+            /div> <
+        p > I have tried a few sharewares, along with a few freeweares(Handbrake), and this is one of the fastest(other than Handbrake) and easiest to use.I have never run into trouble with conversions < /p>","appurl": "http:/ / www.any - video - converter.com / products / for_video_free / ","
+        progPlatform ": "
+        W ","
+        worksonwine ": null,"
+        sshoturl ": null},
+                
+
+ {
+        "
+        id ": 87,"
+        progIcon ": " / techHQ / progIcon / media / videos / 1218 __any - video - converter.gif ","
+        progName ": "
+        AVC ","
+        programTitle ": "
+        Any Video Converter ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        converter ","
+        appdescription ": " < p > < strong > Any Video Converter < /strong> is an  converting program that supports MANY common formats, and has many options</p >
+            <
+            p > Some formats that AVC supports are: < /p> <
+        div class = \"code\"> <
+        ul >
+            <
+            li > DivX, < /li> <
+        li > XviD, < /li> <
+        li > MOV, < /li> <
+        li > Real Media < /li> <
+        li > MPEG, < /li> <
+        li > VOB, < /li> <
+        li > WMV, < /li> <
+        li > AVI < /li> <
+        li > MPEG - 4 < /li> <
+        li > FLV, < /li> <
+        li > MPEG - 1, < /li> <
+        li > MPEG - 2. < /li> <
+        li > ...and even Mp3s(extracting audio from a video to mp3s) < /li> < /
+        ul > <
+            /div> <
+        p > I have tried a few sharewares, along with a few freeweares(Handbrake), and this is one of the fastest(other than Handbrake) and easiest to use.I have never run into trouble with conversions < /p>","appurl": "http:/ / www.any - video - converter.com / products / for_video_free / ","
+        progPlatform ": "
+        W ","
+        worksonwine ": null,"
+        sshoturl ": null},
+                
+
+                 {
+        "id": 85,
+        "progIcon": "/techHQ/progIcon/media/converters/FormatFactory_128.gif",
+        "progName": "freemakevc",
+        "programTitle": "Freemake Video Converter",
+        "appmaincat": "multimedia",
+        "appsubcat": "converter",
+        "appurl": "http://www.freemake.com",
+        "progPlatform": "W",
+        "worksonwine": null,
+        "sshoturl": null
+    },
+                
+{
+    "id": 86,
+    "progIcon": "/techHQ/progIcon/",
+    "progName": "formatfactory",
+    "programTitle": "Format Factory",
+    "appmaincat": "multimedia",
+    "appsubcat": "converter",
+    "appdescription": "    <p>Comments: Does ask for &quot;Ask Toolbar&quot; installation, but if you uncheck all the boxes and hit next, it install no problem and no ask toolbar.<br /> <
+        /p> <
+    p > I saw this recommended alot,
+    and
+    while I am still playing around with video quality...it looks ok
+    if you like this interface and it works well so far...a good alternative to the prior ones I recommended. < /p>","appurl": "http:/ / www.pcfreetime.com / ","
+    progPlatform ": "
+    W ","
+    worksonwine ": null,"
+    sshoturl ": null},
+
+
+    
+
+
+{
+    "id": 65,
+    "progIcon": "/techHQ/progIcon/media/MP3GainGUI.png",
+    "progName": "mp3gain",
+    "programTitle": "Mp3Gain",
+    "appmaincat": "multimedia",
+    "appsubcat": "musicplayer",
+    "appdescription": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <
+        p > < em > COMMENT: < /em> I am not saying this program is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.
+    mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards < /p>",
+    "appurl": "http:/ / mp3gain.sourceforge.net / ",
+    "
+    progPlatform ": "
+    ","
+    worksonwine ": null,"
+    sshoturl ": null},
+
+
+    {
+        "
+        id ": 66,"
+        progIcon ": " / techHQ / progIcon / ","
+        progName ": "
+        eac ","
+        programTitle ": "
+        Exact Audio Copy ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        ripper ","
+        appdescription ": "CD Ripper,","
+        appurl ": "
+        http: / /
+        exactaudiocopy.de ","
+        progPlatform ": "
+        W ","
+        worksonwine ": null,"
+        sshoturl ": null},
+   
+        {
+        "
+        id ": 67,"
+        progIcon ": " / techHQ / progIcon / media / mpTrim PRO_MAINICON.png ","
+        progName ": "
+        mp3trim ","
+        programTitle ": "
+        Mp3 Trim(Pro)
+        ","
+        appmaincat ": "
+        multimedia ","
+        appsubcat ": "
+        musicplayer ","
+        appdescription ": null,"
+        appurl ": "
+        http: //www.mptrim.com/mpTrimPRO.html","progPlatform": "W","worksonwine": null,"sshoturl": null},
+
+
+
+    {
+        "id": 71,
+        "progIcon": "/techHQ/progIcon/",
+        "progName": "enhancer",
+        "programTitle": "Enhancer",
+        "appmaincat": "multimedia",
+        "appsubcat": "plugin",
+        "appdescription": null,
+        "appurl": null,
+        "progPlatform": "W",
+        "worksonwine": null,
+        "sshoturl": null
+    }, 

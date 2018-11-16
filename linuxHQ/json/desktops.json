@@ -345,7 +345,7 @@
         "arch": "sudo pacman -S budgie-desktop",
         "fedora": "sudo dnf groupinstall mate-desktop mate-applications",
         "opensuse": {
-          "openSuseInstall"
+          "openSuseInstall" : "",
           "repoLeap15": "",
           "repo423": "",
           "twRepo": "",

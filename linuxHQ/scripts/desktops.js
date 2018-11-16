@@ -1,10 +1,7 @@
 // var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-// Test this idea 
-var passedVars = "currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall,currentDEubuntuInstall, currentDEmintInstall";
-
-function displayDEOutput($passedVars)
+function displayDEOutput(passedVars)
 {
     // Template Literal for output
 
@@ -119,6 +116,8 @@ function displayDEOutput($passedVars)
 // Where is "data" coming from?
 function getDesktopData(data, $localDEName) {
 
+
+
     $(document).ready(function() {
 
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
@@ -195,10 +194,16 @@ function getDesktopData(data, $localDEName) {
                     var currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
 
 
+                    // Test this idea 
+                    var passedVars = 'currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall,currentDEubuntuInstall, currentDEmintInstall';
+
+                    // I'd assume this is all that is needed
+                    console.log(passedVars);
+
                     ///////////////////////////////////////////////////////////////////////////////////
                     if ( localDEName == currentDEName)
                     {
-                        displayDEOutput($passedVars);
+                        displayDEOutput(passedVars);
                     } 
                 }
 

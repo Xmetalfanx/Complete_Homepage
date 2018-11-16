@@ -69,7 +69,7 @@ function getDistroData(data, $localDistroName) {
 
             for (var distroFamily = 0; distroFamily < value.length; distroFamily++)
             { 
-           
+
             //////////////////////////////////////////////////////////////////////////
             // DECLARE VARIABLES
             var iconPath

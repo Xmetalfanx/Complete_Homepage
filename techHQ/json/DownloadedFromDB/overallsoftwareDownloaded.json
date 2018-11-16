@@ -1,0 +1,66 @@
+[
+    {
+    "progIcon": "/techHQ/progIcons/product/",
+    "progName": "abiword",
+    "programTitle": "Abiword",
+    "appdescription": "",
+    "appurl": "https://www.abisource.com/",
+    "progPlatform": "CP",
+    "worksonwine": 0,
+    "sshoturl": ""
+  },
+
+{
+    "progIcon ": "/techHQ/progIcons/product/pdf/bullzip_PDF.png ","
+    progName ": "
+    bullzippdf ","
+    programTitle ": "
+    Bullzip PDF Printer ","
+    appmaincat ": "
+    productivity ","
+    appsubcat ": "
+    pdfcreator ","
+    appdescription ": "
+    This one has a a number of options,
+    ...I still like doPDF alot but this is very nice and I see why they(though I do not agree with them 100 % , I find they have good suggestions and in many many cases(program category wise) I do agree with the order of the list...so when they mention a & quot;
+        program & quot;
+      like this one and say its better than the ones I know about and use, ...I think the programs are worth a look.
+      ","
+      appurl ": "
+      http: //www.bullzip.com/products/pdf/info.php","progPlatform": "W","worksonwine": 0,"sshoturl": ""},  
+
+
+  
+    {
+    "progIcon": "/techHQ/progIcons/security/",
+    "progName": "hexchat",
+    "programTitle": "Hexchat",
+    "appmaincat": "internet",
+    "appsubcat": "IRC Chat Client",
+    "appdescription": "",
+    "appurl": "https://hexchat.github.io/",
+    "progPlatform": "CP",
+    "worksonwine": 0,
+    "sshoturl": ""
+    },
+
+            
+            
+
+{
+    "id": 45,
+    "progIcon": "/techHQ/progIcons/product/pdf/SumtraPDF.png",
+    "progName": "sumatrapdf",
+    "programTitle": "Sumatra PDF",
+    "appmaincat": "productivity",
+    "appsubcat": "documentreader",
+    "appdescription": "",
+    "appurl": "http://blog.kowalczyk.info/software/sumatrapdf ","
+    progPlatform ": "
+    W ","
+    worksonwine ": 0,"
+    sshoturl ": "
+    "},
+
+
+    

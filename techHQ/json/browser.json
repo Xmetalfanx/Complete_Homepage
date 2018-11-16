@@ -18,7 +18,6 @@
             {
                 "addonname": "ublock",
                 "addontitle": "Ublock Origin",
-                "currentversion": "",
                 "developer": "Raymond Gorhill",
                 "forFF57up": "TRUE",
                 "catagory": "adblocker",
@@ -32,7 +31,6 @@
             {
                 "addonname": "umatrix",
                 "addontitle": "Umatrix",
-                "currentversion": "",
                 "developer": "Raymond Gorhill",
                 "forFF57up": "",
                 "catagory": "adblocker",
@@ -89,12 +87,9 @@
                 "addonURL":
                 {
                     "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users",
-                    "chromeurl": "N/A"
-
+                    "chromeurl": ""
                 }
             }
-
-
         ],
 
         "download": 
