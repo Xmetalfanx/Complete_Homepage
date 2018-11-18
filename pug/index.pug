@@ -16,7 +16,8 @@ html(lang="en")
 		// Header "navigation"
 		<?php include 'modules/frontnav.tpl'; ?>
 		
-		.coverImage.d-none.d-lg-block
+		.coverImage.d-none.d-lg-block.lozad
+			img(data-src="/graphics/herobg/01540_driftwood_1280x720.jpg")
 				
 		.row
 			.col-6
@@ -25,19 +26,23 @@ html(lang="en")
 				
 
 			.col-6
-				a(href='https://github.com/Xmetalfanx', target='_blank')
+				a(href='https://github.com/Xmetalfanx', target='_blank', rel="noopener")
 					i.fab.fa-github.fa-2x.fa-inverse
 
 				div.font-weight-bold My Github Other Github project
 
-				a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank") LinuxSetup
+				a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank", rel="noopener") LinuxSetup
 				| - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
 				br
 				br
 
-				a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank") LinuxThemeing
+				a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank", rel="noopener") LinuxThemeing
 				|  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
 
 				| This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
+
+	// For Lazy Loading
+	script(src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js")
+
 
 	<?php include 'modules/footer.tpl'; ?>

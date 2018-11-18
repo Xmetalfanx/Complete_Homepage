@@ -1,15 +1,18 @@
-// var for where to put the output
 var desktopResults = document.getElementById('desktopSection');
 
-function displayDEOutput(passedVars)
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall)
 {
+
     // Template Literal for output
 
     // used INSIDE the tabs below and not seperately 
     const deVersionsOutput = `
         
-        <div class="strong">Versions</div>
-            <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br />
+        <h3 class="font-weight-bold">Versions</h3>
+        <div class="font-weight-bold">Latest Verison: ${currentDELatestVersion}</div>
+        
+        <br /><br />
+            
             <div class="row">
                 <div class="col-md-3"> Arch: ${currentDEArchVersion}  </div>
 
@@ -49,6 +52,51 @@ function displayDEOutput(passedVars)
         <hr />`;
 
 
+        const deInstallOutput = `
+        
+        
+            <h3 class="font-weight-bold">How to Install: </h3>
+            
+            <div class="font-weight-bold">Arch Linux: </div>
+            <kbd>${currentDEarchInstall}</kbd>
+            
+            <div class="font-weight-bold">Fedora: </div>
+            <kbd>${currentDEfedoraInstall}</kbd>
+            
+            <div class="font-weight-bold">OpenSUSE: </div>
+                <div>Install on OpenSUSE
+                    <span class="font-italic">${currentDEopensuseInstall}</span>
+                </div><br />
+                    
+                <div>POSSIBLE Extra Repos (There may or may not be content below)</div>
+                <br />
+                    
+                <div class="font-italic"> 
+                    Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos 
+                </div> <br />
+                
+                <ul>
+                    <li class="font-weight-bold">Leap 42.3</li>
+                        <kbd>${currentDEopensuseLeap423Install}</kbd>
+                    <li class="font-weight-bold">Leap 15.0 </li>
+                        <kbd>${currentDEopensuseLeap15Install}</kbd>
+                    <li class="font-weight-bold">Tumbleweed</li>
+                        <kbd>${currentDEopensuseTWInstall}</kbd>
+                </ul>
+            
+            
+            <div class="font-weight-bold">Ubuntu</div>
+            <ul>
+                <li>Installing on Ubuntu: 
+                    <kbd>${currentDEubuntuInstall}</kbd>
+                </li>
+                <li>Installing on Linux Mint: 
+                    <kbd>${currentDEmintInstall}</kbd>
+                </li>
+            </ul> 
+        `;
+
+
     // Complete Header 
     const deInfoCard = `
         <div class="card">
@@ -58,13 +106,14 @@ function displayDEOutput(passedVars)
 
             <div class="card-text">
                 <span class="font-weight-bold">Homepage:</span>
-                    <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a> <br />
+                    <a href="${currentDEHomepage}" target="_blank" rel="noopener">${currentDETitle}'s Homepage</a> 
+                <br />
                 <span class="font-weight-bold">Github URL: </span>
-                    <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
+                    <a href="${currentDEGithub}" target="_blank"rel="noopener">${currentDETitle} on Github</a>
                 <br><br>
         
                 <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br />
-                <span class="font-weight-bold">Distros That Feature: </span>${currentDEdistroFeature}
+                <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}
                 <br /><br />
 
                 <bold>Desktop Requirements: </bold>
@@ -80,31 +129,22 @@ function displayDEOutput(passedVars)
                     </li>
                 </ul>
                 <br />
-
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-
-                        <a class="nav-item nav-link active" id="nav-versions-tab" data-toggle="tab" href="#nav-versions" role="tab" aria-controls="nav-versions" aria-selected="true">Versions</a>
-
-                        <a class="nav-item nav-link" id="nav-install-tab" data-toggle="tab" href="#nav-install" role="tab" aria-controls="nav-install" aria-selected="false">How-To-Install</a>
-                        
-                    </div>
-                </nav>
-            
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-version-tab">
+                
+   
                     ${deVersionsOutput}
-                    </div>
-                    <div class="tab-pane fade" id="nav-install" role="tabpanel" aria-labelledby="nav-install-tab">
-                    tab 2 content </div>
-                </div>
+                    <br />
+                    ${deInstallOutput}
+
+                <br />
+                <hr />
+               
                 
                 </div> <!-- Closes card-text -->
             </div> <!-- Closes card --> 
                 
             `;
 
-
+        // Main output
         desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
 
 }
@@ -115,7 +155,6 @@ function displayDEOutput(passedVars)
 
 // Where is "data" coming from?
 function getDesktopData(data, $localDEName) {
-
 
 
     $(document).ready(function() {
@@ -134,7 +173,7 @@ function getDesktopData(data, $localDEName) {
 
                 for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
-                    // I need to know value and subFrameworks here 
+                    // ** I need to know value and subFrameworks here 
 
                     var currentDEName = value[subFrameworks].desktopName;
                     var currentDETitle = value[subFrameworks].desktopTitle;
@@ -143,7 +182,7 @@ function getDesktopData(data, $localDEName) {
                     var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
                     var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
                     var currentDECatagory = value[subFrameworks].generalInfo.desktopCatagory;
-                    var currentDEDistroFeature = value[subFrameworks].generalInfo.distrofeature;
+                    var currentDEDistroFeature = value[subFrameworks].generalInfo.distrosFeature;
 
                     // Requirnments
                     var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
@@ -152,8 +191,8 @@ function getDesktopData(data, $localDEName) {
 
                     // Versions
 
-
-                    var currentDELatestVersion = value[subFrameworks].generalInfo.latestVersion;
+                    var currentDELatestVersion = value[subFrameworks].versions.latestVersion;
+                    
                     // Arch
                     var currentDEArchVersion = value[subFrameworks].versions.arch;
 
@@ -179,31 +218,30 @@ function getDesktopData(data, $localDEName) {
                     // Ubuntu non-LTS
                     var currentDE1810 = value[subFrameworks].versions;
 
-
                     // End Version vars
-
+                    ///////////////////////////////////////////
 
                     // Begin Install vars 
                     var currentDEarchInstall = value[subFrameworks].install.arch;
-
                     var currentDEfedoraInstall =  value[subFrameworks].install.fedora;
                     
-                    var currentDEopensuseInstall = value[subFrameworks].install.opensuse.opensuseInstall
+                    // Opensuse install and other Repo info 
+                    var currentDEopensuseInstall = value[subFrameworks].install.opensuse.opensuseInstall;
+
+                    var currentDEopensuseLeap423Install = value[subFrameworks].install.opensuse.repoLeap423;
+                    var currentDEopensuseLeap15Install = value[subFrameworks].install.opensuse.repoLeap15;
                     
+                    // This is if say TW also has another repo for a DE 
+                    var currentDEopensuseTWInstall = value[subFrameworks].install.opensuse.repoTW;
+
                     var currentDEubuntuInstall = value[subFrameworks].install.ubuntu.ubuntuInstall;
                     var currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
 
-
-                    // Test this idea 
-                    var passedVars = 'currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall,currentDEubuntuInstall, currentDEmintInstall';
-
-                    // I'd assume this is all that is needed
-                    console.log(passedVars);
-
                     ///////////////////////////////////////////////////////////////////////////////////
-                    if ( localDEName == currentDEName)
+                
+                    if (localDEName == currentDEName)
                     {
-                        displayDEOutput(passedVars);
+                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDELatestVersion, currentDECatagory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF27Version, currentDEF28Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall);
                     } 
                 }
 

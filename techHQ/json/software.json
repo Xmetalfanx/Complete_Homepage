@@ -9,7 +9,7 @@
                 "programName": "chromium",
                 "programTitle": "Chromium",
                 "sshoturl": null,
-                "worksonwine": null
+                "worksonwine": false
             },
             {
                 "progHomepage": "https://www.google.com/chrome/browser/index.html",
@@ -207,7 +207,7 @@
                     "programHomepage": "https://usa.kaspersky.com/downloads/tdsskiller",
                     "programTitle": "Kaspersky TDSSKiller",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcon/",
@@ -217,7 +217,7 @@
                     "programHomepage": "https://www.bleepingcomputer.com/download/zemana-antimalware/",
                     "programTitle": "Zemana",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcon/",
@@ -227,7 +227,7 @@
                     "programHomepage": "https://www.bleepingcomputer.com/download/adwcleaner/",
                     "programTitle": "AdwCleaner",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcon/",
@@ -237,7 +237,7 @@
                     "programHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
                     "programTitle": "Emsisoft Anti-Malware",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcons/security/",
@@ -247,7 +247,7 @@
                     "programHomepage": "https://www.hitmanpro.com/en-us.aspx",
                     "programTitle": "Hitman Pro",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcons/security/",
@@ -257,7 +257,7 @@
                     "programHomepage": "https://www.malwarebytes.com/",
                     "programTitle": "Malwarebytes Anti-Malware",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 }
             ],
             "cleaners": [
@@ -287,7 +287,7 @@
                     "programHomepage": "https://singularlabs.com/software/ccenhancer/",
                     "programTitle": "CCEnhancer",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcon/",
@@ -317,7 +317,7 @@
                     "programHomepage": "http:/ / privazer.com / ",
                     "programTitle": " Privazer ",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 }
             ]
         },
@@ -331,7 +331,7 @@
                     "programHomepage": "http://www.7zip.org",
                     "programTitle": "7zip (Manager)",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appmaincat": "systemtools ",
@@ -342,7 +342,7 @@
                     "programHomepage ": null,
                     "programTitle": "Universal Extractor",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "archiver",
@@ -353,7 +353,7 @@
                     "programHomepage": "http://www.bandicam.com/bandizip/help/",
                     "programTitle": "Bandizip",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": null,
@@ -367,9 +367,9 @@
                     "worksonwine ": null
                 },
                 {
-                    "appdescription ": "",
+                    "programDesc ": "",
                     "appsubcat ": "archiver",
-                    "appurl ": "http: //www.rarsoft.com ",
+                    "programHomepage ": "http: //www.rarsoft.com ",
                     "progIcon": "/techHQ/progIcon/system_tools/compression/4 __winrar.png ",
                     "progName ": "winrar ",
                     "progPlatform ": "W",
@@ -388,7 +388,7 @@
                     "programIcon": "/techHQ/progIcons/system_tools/burner/",
                     "programname": "burnaware",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 },
                 {
                     "appsubcat ": "burner ",
@@ -399,35 +399,33 @@
                     "programIcon ": "/techHQ/progIcons/system_tools/",
                     "programname ": "cdburnerxp ",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 }
             ],
             "defrag": [
-
                 {
-                "programIcon": "/techHQ/progIcons/system_tools/defrag/",
-                "programname": "auslogicdefrag",
-                "progTitle": "Auslogic Defrag",
-                "appsubcat": "defrag",
-                "programDesc": "",
-                "progHomepage": "https://www.auslogics.com/en/software/disk-defrag/",
-                "progPlatform": "W",
-                "worksonwine": 0,
-                "sshoturl": ""
-                },  
+                    "programIcon": "/techHQ/progIcons/system_tools/defrag/",
+                    "programname": "auslogicdefrag",
+                    "progTitle": "Auslogic Defrag",
+                    "appsubcat": "defrag",
+                    "programDesc": "",
+                    "progHomepage": "https://www.auslogics.com/en/software/disk-defrag/",
+                    "progPlatform": "W",
+                    "worksonwine": false,
+                    "sshoturl": ""
+                },
                 {
-                "programIcon": "/techHQ/progIcons/system_tools/defrag/defraggler.png",
-                "programName": "defraggler",
-                "progTitle": "Defraggler",
-                "appsubcat": "defrag",
-                "appdescription": "",
-                "progHomepage": "https://www.piriform.com/defraggler",
-                "progPlatform": "W",
-                "worksonwine": 0,
-                "sshoturl": ""
+                    "programIcon": "/techHQ/progIcons/system_tools/defrag/defraggler.png",
+                    "programName": "defraggler",
+                    "progTitle": "Defraggler",
+                    "appsubcat": "defrag",
+                    "programDesc": "",
+                    "progHomepage": "https://www.piriform.com/defraggler",
+                    "progPlatform": "W",
+                    "worksonwine": false,
+                    "sshoturl": ""
                 }
             ],
-
             "taskmanager": [
                 {
                     "appsubcat": "taskmanager",
@@ -438,7 +436,7 @@
                     "programName": "processhacker",
                     "programTitle": "Process Hacker",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "taskmanager",
@@ -449,7 +447,7 @@
                     "programIcon": "/techHQ/progIcon/system_tools/process/procexp_101.png",
                     "programName": "processexplorer",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progIcon": "/techHQ/progIcon/system_tools/process/SystemExplorer.png",
@@ -459,11 +457,10 @@
                     "programHomepage": "http://systemexplorer.net",
                     "programTitle": "System Explorer",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 }
             ],
-            "systemSuite":
-            [
+            "systemSuite": [
                 {
                     "programIcon": "/techHQ/progIcons/system_tools/suites/glary.png",
                     "progrprogramNameamname": "glaryutilties",
@@ -471,7 +468,7 @@
                     "appdescription": "",
                     "progHomepage": "http://www.glarysoft.com",
                     "progPlatform": "W",
-                    "worksonwine": 0,
+                    "worksonwine": false,
                     "sshoturl": ""
                 },
                 {
@@ -482,7 +479,7 @@
                     "appdescription": "",
                     "progHomepage": "http://launcher.nirsoft.net/",
                     "progPlatform": "W",
-                    "worksonwine": 0,
+                    "worksonwine": false,
                     "sshoturl": ""
                 },
                 {
@@ -493,10 +490,9 @@
                     "programDesc ": "",
                     "progHomepage ": "http: //www.wisecleaner.com/wise-care-365.html",
                     "progPlatform": "W",
-                    "worksonwine": 0,
+                    "worksonwine": false,
                     "sshoturl": ""
                 }
-
             ],
             "various": [
                 {
@@ -517,7 +513,7 @@
                     "programHomepage": "http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml",
                     "programTitle": "Unlocker",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progPlatform": "W",
@@ -527,7 +523,7 @@
                     "programName": "quickrestorepoin",
                     "programTitle": "Quick Restorepoint Creato",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "various",
@@ -538,7 +534,7 @@
                     "programHomepage": "http://www.dexpot.de/",
                     "programTitle": "Dexpot",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "various",
@@ -549,7 +545,7 @@
                     "programHomepage": "http://www.codesector.com/teracopy",
                     "programTitle": "TeraCopy",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat ": "various ",
@@ -560,7 +556,7 @@
                     "programHomepage ": "http://www.majorgeeks.com/files/details/trayit.html",
                     "programTitle": "Tray It ",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "various",
@@ -571,7 +567,7 @@
                     "programName": "sysrestoremanage",
                     "programTitle": "System Restore Manager",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "programDesc": "Package Manager and installer",
@@ -582,7 +578,7 @@
                     "programIcon": "",
                     "programName": "chocalatey",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 },
                 {
                     "programDesc": "",
@@ -593,7 +589,7 @@
                     "programIcon": "/techHQ/progIcons/system_tools/driver-booster.png",
                     "programName": "driverbooster",
                     "sshoturl": "",
-                    "worksonwine": 0
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "various",
@@ -604,7 +600,7 @@
                     "programHomepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
                     "programTitle": "Duplicate Cleaner",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "startup ",
@@ -615,7 +611,7 @@
                     "programName": "autoruns ",
                     "programTitle": "Autoruns ",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "various",
@@ -626,7 +622,7 @@
                     "programIcon": "/techHQ/progIcon/system_tools/FileMenuTools_1075.png",
                     "programName": "filemenutools",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "progHomepage": "http://www.2brightsparks.com/syncback/syncback-hub.html",
@@ -636,18 +632,18 @@
                     "programDesc": "File and Folder backup program with many options",
                     "programTitle": "SyncBackup",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "appsubcat": "various",
-                    "appurl": "http://www.jam-software.com/freeware/",
+                    "programHomepage": "http://www.jam-software.com/freeware/",
                     "progIcon": "/techHQ/progIcon/system_tools/TreeSize.png",
                     "progName": "treeview",
                     "progPlatform": "W",
                     "programDesc": null,
                     "programTitle": "Treeview ",
                     "sshoturl": null,
-                    "worksonwine": null
+                    "worksonwine": false
                 },
                 {
                     "programIcon": "/techHQ/progIcons/system_tools/",
@@ -657,7 +653,7 @@
                     "programDesc": "",
                     "progHomepage": "https://patchmypc.net/overview",
                     "progPlatform": "W",
-                    "worksonwine": 0,
+                    "worksonwine": false,
                     "sshoturl": ""
                 }
             ]

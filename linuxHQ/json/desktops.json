@@ -55,7 +55,8 @@
         "fedora": "",
         "opensuse": {
           "repoLeap15": "",
-          "repo423": "",
+          "repoLeap423": "",
+          "repoTW": "",
           "reference": ""
         },
         "ubuntu": "sudo apt install lxqt"
@@ -149,9 +150,14 @@
         "fedora": "sudo dnf groupinstall xfce-desktop",
         "opensuse": {
           "repoLeap15": "",
-          "repo423": "4.12",
+          "repoLeap423": "4.12",
           "twRepo": "",
           "reference": ""
+        },
+        "ubuntu": 
+        {
+            "ubuntuInstall":"sudo apt install xfce xfce-goodies",
+            "mintInstall":""
         }
       },
       "desktopName": "xfce",
@@ -239,12 +245,12 @@
         "fedora": "",
         "opensuse": {
           "repoLeap15": "",
-          "repo423": "",
+          "repoLeap423": "",
           "twRepo": "",
           "reference": "<a href=\"https://en.opensuse.org/LXDE_repositories\" >LXDE Repos for Suse</a>"
         },
         "ubuntu": {
-          "install": "sudo apt install lxde"
+          "ubuntuInstall": "sudo apt install lxde"
         }
       }
     }
@@ -291,14 +297,15 @@
         "arch": "sudo pacman -S cinnamon",
         "fedora": "sudo dnf groupinstall cinnamon-desktop",
         "opensuse": {
-          "repoLeap15": "",
-          "repo423": "",
+          "opensuseInstall": "(See instructions for each branch, below)",
+          "repoLeap15": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.0/X11:Cinnamon:Current.repo <br /> # zypper ref && zypper in -t pattern cinnamon",
+          "repoLeap423": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_42.3/X11:Cinnamon:Current.repo <br /># zypper ref && zypper in -t pattern cinnamon",
           "twRepo": "zypper ref && zypper in -y cinnamon cinnamon-screensaver",
           "reference": "<a href=\"https://en.opensuse.org/Portal:Cinnamon\" target=\"_blank\"> Install Cinnamon on OpenSuse </a>"
         },
         "ubuntu": {
-          "install": "PPA Needed - Info coming later",
-          "mintinstall": "sudo apt install mint-meta-cinnamon"
+          "ubuntuInstall": "PPA Needed - Info coming later",
+          "mintInstall": "sudo apt install mint-meta-cinnamon"
         }
       }
     },
@@ -345,9 +352,9 @@
         "arch": "sudo pacman -S budgie-desktop",
         "fedora": "sudo dnf groupinstall mate-desktop mate-applications",
         "opensuse": {
-          "openSuseInstall" : "",
+          "opensuseInstall":"",
           "repoLeap15": "",
-          "repo423": "",
+          "repoLeap423": "",
           "twRepo": "",
           "reference": ""
         },
@@ -380,8 +387,11 @@
         "arch": "sudo pacman -S mate mate-extra",
         "fedora": {},
         "opensuse": {},
-        "ubuntu": "sudo apt install mate-desktop-environment",
-        "mintinstall": "sudo apt install mint-meta-mate"
+        "ubuntu":
+          {
+              "ubuntuInstall": "sudo apt install mate-desktop-environment",
+              "mintinstall": "sudo apt install mint-meta-mate"
+          }
       },
       "versions": {
         "latestVersion": "1.18",

@@ -41,6 +41,10 @@ body {
   color: #3e3f3a;
   background-color: white; }
 
+kbd {
+  color: white;
+  background-color: #3e3f3a; }
+
 footer {
   color: white;
   background-color: #3e3f3a;
@@ -70,7 +74,6 @@ nav {
 .coverImage {
   display: block;
   min-height: 40vh;
-  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
   background-position: top;
   background-size: cover; }
 

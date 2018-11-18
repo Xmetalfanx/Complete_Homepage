@@ -9,7 +9,10 @@
   
     <!-- Header "navigation"-->
     <?php include 'modules/frontnav.tpl'; ?>
-    <div class="coverImage d-none d-lg-block"></div>
+    <div class="coverImage d-none d-lg-block lozad">
+      <img data-src="/graphics/herobg/01540_driftwood_1280x720.jpg">
+    </div>
+
 
     <div class="row">
       <div class="col-6">
@@ -22,17 +25,17 @@
       </div>
 
       <div class="col-6">
-        <a href="https://github.com/Xmetalfanx" target="_blank">
+        <a href="https://github.com/Xmetalfanx" target="_blank" rel="noopener">
         <i class="fa fa-github fa-inverse fa-2x"></i></a>
         
         <div class="font-weight-bold">My Github Other Github project</div>
         
-        <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank">LinuxSetup</a>- 
+        <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener">LinuxSetup</a>- 
         Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and 
         (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, 
         enabling coming setings not set by default, and adding common software in one shot<br><br>
         
-        <a href="https://github.com/Xmetalfanx/linuxThemes" target="_blank">LinuxThemeing</a> 
+        <a href="https://github.com/Xmetalfanx/linuxThemes" target="_blank" rel="noopener">LinuxThemeing</a> 
         This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided 
         to branch it out.
         This installs themes and icon packs of well liked Linux Themes into your system.  

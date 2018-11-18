@@ -1,23 +1,38 @@
 h3.font-weight-bold How to Install: 
-    .font-weight-bold Arch Linux
 
-    .font-weight-bold Fedora 
+.font-weight-bold Arch Linux: 
+kbd ${currentDEarchInstall}
 
-    .font-weight-bold OpenSUSE
-        div Install on OpenSUSE
+.font-weight-bold Fedora: 
+kbd ${currentDEfedoraInstall}
 
-        div POSSIBLE Extra Repos (There may or may not be content below)
-            div Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos 
+.font-weight-bold OpenSUSE: 
 
-            div Leap 42.3
+div Install on OpenSUSE
+    kbd ${currentDEopensuseInstall}
+    br/
 
-            div Leap 15.0 
+div POSSIBLE Extra Repos (There may or may not be content below) 
+br /
+    
+    div.font-italic Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos 
 
-            div Tumbleweed
+    ul
+        li.font-weight-bold Leap 42.3
+        kbd ${currentDEopensuseLeap423Install}
         
+        li.font-weight-bold Leap 15.0 
+        kbd ${currentDEopensuseLeap15Install}
+        
+        li.font-weight-bold Tumbleweed
+        kbd ${currentDEopensuseTWInstall}
 
+    
+.font-weight-bold Ubuntu
 
-    .font-weight-bold Ubuntu
-        div Installing on Ubuntu
+ul
+    li Installing on Ubuntu: 
+        kbd ${currentDEubuntuInstall}
 
-        div Installing on Linux Mint 
+    li Installing on Linux Mint: 
+        kbd ${currentDEmintInstall}
