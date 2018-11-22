@@ -9,7 +9,7 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
 
 
             <div class="card">
-                <div class="card-title px-3 pt-3">
+                <div class="card-title m-0 p-3 bg-primary text-white">
                     <div class="row "> 
                         <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon">
                         <div class="font-weight-bold h2">${currentDistroTitle}</div>

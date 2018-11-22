@@ -1,11 +1,10 @@
 {
-    "RPM": [
-        {
+    "RPM": [{
             "distroName": "fedora",
             "distroTitle": "Fedora",
             "family": "rpm",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/fedora.png"
+                "iconURL": "/linuxHQ/distros/graphics/fedora.svg"
             },
             "moreinfo": {
                 "desktops": "Gnome (Default), Various official spins with other options",
@@ -162,8 +161,7 @@
             }
         }
     ],
-    "arch": [
-        {
+    "arch": [{
             "distroName": "antergos",
             "distroTitle": "Antergos",
             "graphics": {
@@ -189,7 +187,7 @@
             "distroName": "arch",
             "distroTitle": "Arch",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/arch.png"
+                "iconURL": "/linuxHQ/distros/graphics/arch.svg"
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
@@ -255,7 +253,7 @@
             "distroName": "manjaro",
             "distroTitle": "Manjaro",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/manjaro.png"
+                "iconURL": "/linuxHQ/distros/graphics/manjaro.svg"
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
@@ -274,8 +272,7 @@
             }
         }
     ],
-    "debian": [
-        {
+    "debian": [{
             "distroName": "antix",
             "distroTitle": "Anti-X",
             "graphics": {
@@ -291,9 +288,9 @@
             },
             "version": "",
             "website": {
-                "download": "",
-                "forum": "",
-                "homepage": "http://antix.mepis.org/index.php?title=Main_Page",
+                "download": "https://antixlinux.com/download/",
+                "forum": "https://www.antixforum.com/",
+                "homepage": "https://antixlinux.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/"
             }
         },
@@ -322,7 +319,7 @@
             "distroName": "debian",
             "distroTitle": "Debian",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/debian.png"
+                "iconURL": "/linuxHQ/distros/graphics/debian.svg"
             },
             "moreinfo": {
                 "desktops": "Various",
@@ -451,8 +448,7 @@
             }
         }
     ],
-    "gentoo": [
-        {
+    "gentoo": [{
             "distroName": "calculate",
             "distroTitle": "Calculate",
             "graphics": {
@@ -522,12 +518,20 @@
     ],
     "supported": {
         "arch": "all",
-        "fedora": "Fedora 27, Fedora 28, Fedora 29, Rawhide",
-        "opensuse": "Leap 42.3, Leap 15, Tumbleweed",
-        "ubuntu": "16.04, 18.04"
+        "fedora": {
+            "currentlySupported": "Fedora 27, Fedora 28, Fedora 29, Rawhide",
+            "F27EOL": "",
+            "F28EOL": "",
+            "F29EOL": ""
+        },
+        "opensuse": {
+            "currentlySupported": "Leap 42.3, Leap 15, Tumbleweed",
+            "leap423EOL": "",
+            "leap15EOL": ""
+        },
+        "ubuntu": "16.04 LTS, 18.04 LTS, 18.10"
     },
-    "ubuntu": [
-        {
+    "ubuntu": [{
             "distroName": "elementaryOS",
             "distroTitle": "ElementaryOS",
             "graphics": {
@@ -553,7 +557,7 @@
             "distroName": "mint",
             "distroTitle": "Linux Mint",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/mint.png"
+                "iconURL": "/linuxHQ/distros/graphics/linuxmint.svg"
             },
             "moreinfo": {
                 "desktops": "Mate, XFCE, Cinnamon, Plasma 5",
@@ -619,7 +623,7 @@
             "distroName": "lubuntu",
             "distroTitle": "lubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/lubuntu.png"
+                "iconURL": "/linuxHQ/distros/graphics/lubuntu.svg"
             },
             "moreinfo": {
                 "desktops": "LXDE, LXQT",
@@ -663,17 +667,17 @@
             "distroName": "ubuntu",
             "distroTitle": "Ubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/ubuntu.png"
+                "iconURL": "/linuxHQ/distros/graphics/ubuntu.svg"
             },
             "moreinfo": {
                 "desktops": "Gnome2, Unity, Gnomeshell",
                 "distrowatch": "",
                 "similar": "",
                 "software": "",
-                "target": "any users / new users",
+                "target": "Any User",
                 "type": ""
             },
-            "version": "16.04 LTS, 17.04",
+            "version": "16.04 LTS, 18.04 LTS, 18.10",
             "website": {
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
                 "forum": "http://ubuntuforums.org/",
@@ -685,7 +689,7 @@
             "distroName": "umate",
             "distroTitle": "Ubuntu Mate",
             "graphics": {
-                "iconURL": "#"
+                "iconURL": "/linuxHQ/distros/graphics/ubuntuMate.svg"
             },
             "moreinfo": {
                 "desktops": "Mate",
@@ -713,7 +717,7 @@
                 "distrowatch": "",
                 "similar": "SolydX, Linux Mint XFCE, Linux Lite",
                 "software": "",
-                "target": "",
+                "target": "Any User",
                 "type": ""
             },
             "version": "",
@@ -735,7 +739,7 @@
                 "distrowatch": "",
                 "similar": "",
                 "software": "Based on Ubuntu's Release Cycle",
-                "target": "new users",
+                "target": "New Users",
                 "type": ""
             },
             "version": "",
@@ -790,6 +794,6 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
-        
+
     ]
 }
