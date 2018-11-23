@@ -8,7 +8,6 @@
             },
             "moreinfo": {
                 "desktops": "Gnome (Default), Various official spins with other options",
-                "distrowatch": "http://distrowatch.com/fedora",
                 "similar": "Korora",
                 "software": "",
                 "target": "",
@@ -19,7 +18,8 @@
                 "download": "http://www.fedora.com",
                 "forum": "http://forums.fedoraforum.org/",
                 "homepage": "http://www.fedora.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/fedora"
             }
         },
         {
@@ -31,7 +31,6 @@
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Xfce, Mate, ..etc ",
-                "distrowatch": "http://distrowatch.com/korora",
                 "similar": "Fedora",
                 "software": "",
                 "target": "",
@@ -42,7 +41,8 @@
                 "download": "https://kororaproject.org/download",
                 "forum": "https://kororaproject.org/support/engage",
                 "homepage": "https://kororaproject.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/korora"
             }
         },
         {
@@ -54,7 +54,6 @@
             },
             "moreinfo": {
                 "desktops": "Cinnamon, GNOME, IceWM, KDE, MATE, LXDE, Openbox, Razor-qt, WMaker, Xfce",
-                "distrowatch": "http://distrowatch.com/magiea\"",
                 "similar": "",
                 "software": "",
                 "target": "",
@@ -65,7 +64,8 @@
                 "download": "http://mageia.org/en/downloads/",
                 "forum": "https://forums.mageia.org/",
                 "homepage": "http://mageia.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/magiea"
             }
         },
         {
@@ -77,7 +77,6 @@
             },
             "moreinfo": {
                 "desktops": "KDE",
-                "distrowatch": "http://distrowatch.com/OpenMandriva",
                 "similar": "ROSA, Mageia",
                 "software": "",
                 "target": "",
@@ -88,7 +87,8 @@
                 "download": "http://openmandriva.org/en/download_lx",
                 "forum": "http://forums.openmandriva.org/",
                 "homepage": "http://openmandriva.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/OpenMandriva"
             }
         },
         {
@@ -100,7 +100,6 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "http://distrowatch.com/suse",
                 "similar": "",
                 "software": "",
                 "target": "",
@@ -111,7 +110,8 @@
                 "download": "",
                 "forum": "http://forums.opensuse.org/",
                 "homepage": "http://www.opensuse.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/suse"
             }
         },
         {
@@ -122,7 +122,6 @@
             },
             "moreinfo": {
                 "desktops": "",
-                "distrowatch": "http://distrowatch.com/PCLinuxOS",
                 "family": "mandriva",
                 "similar": "",
                 "software": "",
@@ -134,7 +133,8 @@
                 "download": "http://pclinuxos.com/?page_id=10",
                 "forum": "http://www.pclinuxos.com/forum",
                 "homepage": "http://www.pclinuxos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/PCLinuxOS"
             }
         },
         {
@@ -146,10 +146,9 @@
             },
             "moreinfo": {
                 "desktops": "",
-                "distrowatch": "",
                 "similar": "",
                 "software": "",
-                "target": "",
+                "target": "Enterprise/Advanced Users",
                 "type": ""
             },
             "version": "",
@@ -157,7 +156,8 @@
                 "download": "",
                 "forum": "",
                 "homepage": "http://www.centos.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": ""
             }
         }
     ],
@@ -169,7 +169,6 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "http://distrowatch.com/antergos",
                 "similar": "Manjaro, Arch",
                 "software": "Bleeding Edge",
                 "target": "Any user",
@@ -180,7 +179,8 @@
                 "download": "http://www.antergos.com/try-it/",
                 "forum": "http://forum.antergos.com/",
                 "homepage": "https://antergos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php",
+                "distrowatch": "http://distrowatch.com/antergos"
             }
         },
         {
@@ -191,7 +191,6 @@
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
-                "distrowatch": "http://distrowatch.com/arch ",
                 "similar": "Arch with Openbox",
                 "software": "Bleeding Edge",
                 "target": "Moderate to Advanced Users",
@@ -202,7 +201,8 @@
                 "download": "http://www.archlinux.org/download/",
                 "forum": "http://bbs.archlinux.org/",
                 "homepage": "http://www.archlinux.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php",
+                "distrowatch": "http://distrowatch.com/arch"
             }
         },
         {
@@ -213,7 +213,6 @@
             },
             "moreinfo": {
                 "desktops": "Openbox",
-                "distrowatch": "http://distrowatch.com/archbang",
                 "similar": "",
                 "software": "Bleeding Edge",
                 "target": "Moderate to Advanced Users",
@@ -224,7 +223,8 @@
                 "download": "http://sourceforge.net/projects/archbang/files/",
                 "forum": "http://bbs.archbang.org/",
                 "homepage": "http://bbs.archbang.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php",
+                "distrowatch": "http://distrowatch.com/archbang"
             }
         },
         {
@@ -235,7 +235,6 @@
             },
             "moreinfo": {
                 "desktops": "XFCE",
-                "distrowatch": "N/A",
                 "similar": "Manjaro",
                 "software": "Slightly behind bleeding edge (same as stock Manjaro)",
                 "target": "All Users (though maybe not super newbies)",
@@ -246,7 +245,8 @@
                 "download": "https://sourceforge.net/projects/manjarobymm/",
                 "forum": "http://www.cupoflinux.com/SBB/index.php/board,29.0.html",
                 "homepage": "https://sourceforge.net/projects/manjarobymm/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/mmManjaro.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/mmManjaro.php",
+                "distrowatch": "N/A"
             }
         },
         {
@@ -257,7 +257,6 @@
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=manjaro",
                 "similar": "(with the same DE..) Antergos or Arch",
                 "software": "Slightly behind bleeding edge",
                 "target": "Any User",
@@ -268,7 +267,8 @@
                 "download": "http://manjaro.org/get-manjaro/",
                 "forum": "http://forum.manjaro.org/",
                 "homepage": "https://manjaro.github.io",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=manjaro"
             }
         }
     ],
@@ -280,8 +280,6 @@
             },
             "moreinfo": {
                 "desktops": "",
-                "distrowatch": "",
-                "similar": "Linux Mint Debian Edition, Sparky Linux",
                 "software": "",
                 "target": "",
                 "type": ""
@@ -291,7 +289,9 @@
                 "download": "https://antixlinux.com/download/",
                 "forum": "https://www.antixforum.com/",
                 "homepage": "https://antixlinux.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/",
+                "similar": "Linux Mint Debian Edition, Sparky Linux",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=antix"
             }
         },
         {
@@ -302,7 +302,6 @@
             },
             "moreinfo": {
                 "desktops": "Openbox",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=bunsenlabs",
                 "similar": "The Debian familys version of Archbang OR Debian with Openbox installed",
                 "target": "Moderate to Advanced Users (for the most part)",
                 "type": ""
@@ -312,7 +311,8 @@
                 "download": "https://forums.bunsenlabs.org",
                 "forum": "https://forums.bunsenlabs.org",
                 "homepage": "https://www.bunsenlabs.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=bunsenlabs"
             }
         },
         {
@@ -323,7 +323,6 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "http://distrowatch.com/debian",
                 "similar": "",
                 "software": "",
                 "target": "",
@@ -334,7 +333,8 @@
                 "download": "",
                 "forum": "http://forums.debian.net/",
                 "homepage": "http://www.debian.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php",
+                "distrowatch": "http://distrowatch.com/debian"
             }
         },
         {
@@ -345,7 +345,6 @@
             },
             "moreinfo": {
                 "desktops": "Mate, Cinnamon",
-                "distrowatch": "",
                 "similar": "Debian with Cinnamon (with LMDE 3, the Mate version, was dropped)  OR a \"Cross between Linux Mint (Ubuntu based) and Debian",
                 "software": "",
                 "target": "",
@@ -356,7 +355,8 @@
                 "download": "http://www.linuxmint.com/download_lmde.php",
                 "forum": "",
                 "homepage": "http://www.linuxmint.com/download_lmde.php",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php",
+                "distrowatch": ""
             }
         },
         {
@@ -367,7 +367,6 @@
             },
             "moreinfo": {
                 "desktops": "KDE aka Plama 5 / XFCE ",
-                "distrowatch": "http://distrowatch.com/solydxk",
                 "similar": "Debian with XFCE or KDE/Plasma 5 installed I suppose",
                 "software": "",
                 "target": "",
@@ -378,7 +377,8 @@
                 "download": "http://downloads.solydxk.com/",
                 "forum": "",
                 "homepage": "http://solydxk.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/soyldxk.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/soyldxk.php",
+                "distrowatch": "http://distrowatch.com/solydxk"
             }
         },
         {
@@ -389,7 +389,6 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "https://distrowatch.com/?newsid=10370",
                 "similar": "Various",
                 "software": "Various",
                 "target": "Any User",
@@ -400,7 +399,8 @@
                 "download": "https://sparkylinux.org/download/",
                 "forum": "#",
                 "homepage": "https://sparkylinux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php",
+                "distrowatch": "https://distrowatch.com/?newsid=10370"
             }
         },
         {
@@ -411,8 +411,7 @@
             },
             "moreinfo": {
                 "desktops": "",
-                "distrowatch": "",
-                "similar": "",
+                "similar": "antiX",
                 "software": "",
                 "target": "",
                 "type": ""
@@ -422,7 +421,8 @@
                 "download": "https://mxlinux.org/download-links",
                 "forum": "",
                 "homepage": "https://mxlinux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php",
+                "distrowatch": ""
             }
         },
         {
@@ -433,7 +433,6 @@
             },
             "moreinfo": {
                 "desktops": "Mate",
-                "distrowatch": "http://distrowatch.com/point",
                 "similar": "Debian with Mate installed ",
                 "software": "",
                 "target": "",
@@ -442,9 +441,10 @@
             "version": "",
             "website": {
                 "download": "http://pointlinux.org/download.htm",
-                "forum": "",
                 "homepage": "http://pointlinux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "forum": "",
+                "distrowatch": "http://distrowatch.com/point"
             }
         }
     ],
@@ -456,7 +456,6 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=calculate",
                 "similar": "Gentoo, Sabayon",
                 "software": "",
                 "target": "",
@@ -467,7 +466,8 @@
                 "download": "http://www.calculate-linux.org/main/en/download",
                 "forum": "http://www.calculate-linux.org/projects/en/boards",
                 "homepage": "http://www.calculate-linux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=calculate"
             }
         },
         {
@@ -478,8 +478,7 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "",
-                "similar": "",
+                "similar": "Calculate Linux, Sabayon",
                 "software": "",
                 "target": "Advanced Users",
                 "type": ""
@@ -489,7 +488,8 @@
                 "download": "",
                 "forum": "",
                 "homepage": "http://www.gentoo.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": ""
             }
         },
         {
@@ -501,18 +501,18 @@
             },
             "moreinfo": {
                 "desktops": "Various",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=sabayon",
                 "similar": "Gentoo, Calculate Linux",
                 "software": "",
-                "target": "",
-                "type": ""
+                "target": "Advanced Users",
+                "type": "Rolling"
             },
             "version": "",
             "website": {
                 "download": "http://www.sabayon.org/download",
                 "forum": "http://forum.sabayon.org/",
                 "homepage": "http://www.sabayon.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=sabayon"
             }
         }
     ],
@@ -520,7 +520,7 @@
         "arch": "all",
         "fedora": {
             "currentlySupported": "Fedora 27, Fedora 28, Fedora 29, Rawhide",
-            "F27EOL": "",
+            "F27EOL": "One month after the release of Fedora 29",
             "F28EOL": "",
             "F29EOL": ""
         },
@@ -529,7 +529,16 @@
             "leap423EOL": "",
             "leap15EOL": ""
         },
-        "ubuntu": "16.04 LTS, 18.04 LTS, 18.10"
+        "ubuntu": {
+            "currentlySupported": "16.04 LTS, 18.04 LTS, 18.10",
+            "1604LTSEOL": "",
+            "1804LTSEOL": "",
+            "1810": ""
+        }
+
+
+
+
     },
     "ubuntu": [{
             "distroName": "elementaryOS",
@@ -539,7 +548,6 @@
             },
             "moreinfo": {
                 "desktops": "Patheon",
-                "distrowatch": "http://distrowatch.com/elementary",
                 "similar": "",
                 "software": "Based on Ubuntus LTS Release Cycle",
                 "target": "Any User/ New Use",
@@ -550,7 +558,8 @@
                 "download": "http://sourceforge.net/projects/elementaryos/files/",
                 "forum": "https://elementaryforums.com/index.php",
                 "homepage": "http://elementary.io",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/elementary"
             }
         },
         {
@@ -561,18 +570,18 @@
             },
             "moreinfo": {
                 "desktops": "Mate, XFCE, Cinnamon, Plasma 5",
-                "distrowatch": "http://distrowatch.com/min",
-                "similar": "Cinnamon, Mate, Plasma 5, XFCE",
-                "software": "",
-                "target": "",
-                "type": ""
+                "similar": "Cinnamon, Mate, Plasma 5 (removed in Version 19 as an official ISO), XFCE",
+                "software": "Based on Ubuntus LTS Release Cycle",
+                "target": "Any/New Users",
+                "type": "Ubuntu LTS Based - Mint 17.x based on 14.04, Mint 18.x based on 16.04, Ubuntu 19.x is based on 18.04"
             },
             "version": "18.x (based on Ubuntu 16.04)",
             "website": {
                 "download": "http://www.linuxmint.com/download.php",
                 "forum": "http://linuxmint.com/forum/",
                 "homepage": "http://www.linuxmint.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/mint"
             }
         },
         {
@@ -582,11 +591,10 @@
                 "iconURL": ""
             },
             "moreinfo": {
-                "desktops": "",
-                "distrowatch": "",
-                "similar": "",
+                "desktops": "LXDE/XFCE",
+                "similar": "LXLE, Lubuntu",
                 "software": "",
-                "target": "",
+                "target": "Any User",
                 "type": ""
             },
             "version": "",
@@ -594,7 +602,8 @@
                 "download": "",
                 "forum": "",
                 "homepage": "http://peppermintos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=peppermint"
             }
         },
         {
@@ -605,10 +614,9 @@
             },
             "moreinfo": {
                 "desktops": "Plasma 5",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=kubuntu",
                 "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
                 "software": "",
-                "target": "",
+                "target": "Any User",
                 "type": ""
             },
             "version": "14.04 LTS, 16.04 LTS",
@@ -616,7 +624,8 @@
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.kubuntu.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "http://distrowatch.com/table.php?distribution=kubuntu"
             }
         },
         {
@@ -627,10 +636,9 @@
             },
             "moreinfo": {
                 "desktops": "LXDE, LXQT",
-                "distrowatch": "",
                 "similar": "",
                 "software": "",
-                "target": "",
+                "target": "Any/New Users",
                 "type": ""
             },
             "version": "14.04 LTS, 16.04 LTS",
@@ -638,7 +646,8 @@
                 "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://lubuntu.net",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=lubuntu"
             }
         },
         {
@@ -649,18 +658,18 @@
             },
             "moreinfo": {
                 "desktops": "XFCE",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent",
-                "similar": "",
+                "similar": "Xubuntu, Linux Lite",
                 "software": "",
-                "target": "",
-                "type": ""
+                "target": "Any/New Users, Students",
+                "type": "Ubuntu LTS based"
             },
             "version": "",
             "website": {
                 "download": "http://uberstudent.com/get-uberstudent",
                 "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
                 "homepage": "http://uberstudent.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent"
             }
         },
         {
@@ -671,18 +680,18 @@
             },
             "moreinfo": {
                 "desktops": "Gnome2, Unity, Gnomeshell",
-                "distrowatch": "",
                 "similar": "",
                 "software": "",
                 "target": "Any User",
-                "type": ""
+                "type": "LTS and non-LTS options "
             },
             "version": "16.04 LTS, 18.04 LTS, 18.10",
             "website": {
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.ubuntu.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": ""
             }
         },
         {
@@ -714,7 +723,6 @@
             },
             "moreinfo": {
                 "desktops": "XFCE",
-                "distrowatch": "",
                 "similar": "SolydX, Linux Mint XFCE, Linux Lite",
                 "software": "",
                 "target": "Any User",
@@ -725,7 +733,8 @@
                 "download": "http://xubuntu.org/getxubuntu/",
                 "forum": "",
                 "homepage": "http://www.xubuntu.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=xubuntu"
             }
         },
         {
@@ -736,7 +745,6 @@
             },
             "moreinfo": {
                 "desktops": "",
-                "distrowatch": "",
                 "similar": "",
                 "software": "Based on Ubuntu's Release Cycle",
                 "target": "New Users",
@@ -747,7 +755,8 @@
                 "download": "http://zorin-os.com/free.html\"",
                 "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
                 "homepage": "http://www.zorin-os.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=zorin"
             }
         },
         {
@@ -758,10 +767,9 @@
             },
             "moreinfo": {
                 "desktops": "XFCE",
-                "distrowatch": "",
                 "similar": "Linux Mint + XFCE, Xubuntu",
                 "software": "",
-                "target": "",
+                "target": "Any/New Users",
                 "type": ""
             },
             "version": "",
@@ -769,7 +777,8 @@
                 "download": "http://sourceforge.net/projects/linuxlite/files",
                 "forum": "https://www.linuxliteos.com/forums/",
                 "homepage": "http://www.linuxliteos.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=lite"
             }
         },
         {
@@ -780,7 +789,6 @@
             },
             "moreinfo": {
                 "desktops": "LXDE",
-                "distrowatch": "",
                 "similar": "Lubuntu or any other Ubuntu based distro with LXDE installed",
                 "software": "Based on Ubuntu's Release Cycle",
                 "target": "Any Use",
@@ -791,9 +799,9 @@
                 "download": "http://www.lxle.net/download",
                 "forum": "http://lxle.net/forum/",
                 "homepage": "http://www.lxle.net",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=lxle"
             }
         }
-
     ]
 }

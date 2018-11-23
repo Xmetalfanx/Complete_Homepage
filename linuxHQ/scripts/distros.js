@@ -37,7 +37,10 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
                 ${currentDistroFeaturesDesktops}
                 <div class="font-weight-bold">Similar Distros: </div>
                 ${currentDistroSimilarDistros}
-                <span class="font-weight-bold">Software Type: </span><br/><br/>
+                <div class="font-weight-bold">Software Type: </div>
+                ${currentDistroSoftwareType}
+                
+                <br/><br/>
             
             
             <span class="font-weight-bold h4">Youtube Playlists</span><br/>
@@ -55,7 +58,7 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
         `;
 
 
-        distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
+    distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
 };
 
 // "main" function
@@ -67,38 +70,38 @@ function getDistroData(data, $localDistroName) {
 
         $.each(data, function(key, value) {
 
-            for (var distroFamily = 0; distroFamily < value.length; distroFamily++)
-            { 
+            for (var distroFamily = 0; distroFamily < value.length; distroFamily++) {
 
-            //////////////////////////////////////////////////////////////////////////
-            // DECLARE VARIABLES
-            var iconPath
+                //////////////////////////////////////////////////////////////////////////
+                // DECLARE VARIABLES
+                var iconPath
 
-            // Name/Title
-            var currentDistroName = value[distroFamily].distroName;
-            var currentDistroTitle = value[distroFamily].distroTitle;
+                // Name/Title
+                var currentDistroName = value[distroFamily].distroName;
+                var currentDistroTitle = value[distroFamily].distroTitle;
 
-            // graphics
-            var currentDistroIcon = value[distroFamily].graphics.iconURL;
+                // graphics
+                var currentDistroIcon = value[distroFamily].graphics.iconURL;
 
-            // moreInfo
-            var currentDistroFeaturesDesktops = value[distroFamily].moreinfo.desktops;
-            var currentDistroSimilarDistros = value[distroFamily].moreinfo.similar;
-            var currentDistroDistroWatchURL = value[distroFamily].moreinfo.distrowatch;
-            var currentDistroTargetAudience = value[distroFamily].moreinfo.target;
+                // moreInfo
+                var currentDistroFeaturesDesktops = value[distroFamily].moreinfo.desktops;
+                var currentDistroSimilarDistros = value[distroFamily].moreinfo.similar;
+                var currentDistroTargetAudience = value[distroFamily].moreinfo.target;
 
                 // I think i meant "rolling, ...etc for this var"
-            var currentDistroSoftwareType = value[distroFamily].moreinfo.software;
+                var currentDistroSoftwareType = value[distroFamily].moreinfo.software;
 
-            // Website
-            var currentDistroHomepage = value[distroFamily].website.homepage;
-            var currentDistroDownload = value[distroFamily].website.download;
-            var currentDistroForum = value[distroFamily].website.forum;
+                // Website
+                var currentDistroHomepage = value[distroFamily].website.homepage;
+                var currentDistroDownload = value[distroFamily].website.download;
+                var currentDistroForum = value[distroFamily].website.forum;
+                var currentDistroDistroWatchURL = value[distroFamily].moreinfo.distrowatch;
 
-            ////////////////////////////////////////////////////////////////////////////
 
-                if (localDistroName == currentDistroName)
-                {
+
+                ////////////////////////////////////////////////////////////////////////////
+
+                if (localDistroName == currentDistroName) {
                     displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL);
                 }
 
