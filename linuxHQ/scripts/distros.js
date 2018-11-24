@@ -11,7 +11,7 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
             <div class="card">
                 <div class="card-title m-0 p-2 bg-primary text-white">
                     <div class="row pl-3"> 
-                        <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon">
+                        <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon" width="48px" height="48px">
                         <div class="font-weight-bold h2">${currentDistroTitle}</div>
                     </div>
                 </div>
