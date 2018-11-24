@@ -1,5 +1,4 @@
 [{
-        "id": 2,
         "addonname": "contextSearch",
         "addontitle": "Context Search",
         "currentversion": "",
@@ -13,7 +12,6 @@
     },
 
     {
-        "id": 22,
         "addonname": "hidecaption",
         "addontitle": "Hide Caption Titlebar",
         "currentversion": "",
@@ -25,10 +23,7 @@
         "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/hide-caption-titlebar-plus-sma/?src=search",
         "chromeurl": ""
     },
-
-
     {
-        "id": 30,
         "addonname": "useragentswitcher",
         "addontitle": "User Agent Switcher",
         "currentversion": "",

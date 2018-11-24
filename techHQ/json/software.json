@@ -1,7 +1,6 @@
 {
     "browsers": {
-        "blink": [
-            {
+        "blink": [{
                 "progHomepage": "http://www.chromium.org/Home",
                 "progPlatform": "cp",
                 "programDesc": "Open Source varient of Google Chrome, and what Google Chrome is based on ",
@@ -32,8 +31,7 @@
                 "worksonwine": ""
             }
         ],
-        "gecko": [
-            {
+        "gecko": [{
                 "progHomepage": "https://www.mozilla.org/en-US/firefox/new/",
                 "progPlatform": "cp",
                 "programDesc": "",
@@ -54,8 +52,7 @@
         ]
     },
     "graphics": {
-        "editors": [
-            {
+        "editors": [{
                 "progHomepage": "http://www.gimp.org/",
                 "progPlatform": "",
                 "programDesc": "",
@@ -65,17 +62,75 @@
                 "worksonwine": ""
             },
             {
-                "progHomepage": "",
-                "progPlatform": "",
-                "programDesc": "",
-                "programIcon": "",
-                "programName": "pinta",
+                "progIcon": "/techHQ/progIcon/",
+                "progName": "pinta",
                 "programTitle": "Pinta",
-                "worksonwine": ""
+                "appmaincat": "graphics",
+                "appsubcat": null,
+                "appdescription": null,
+                "progHomepage": "https://pinta-project.com/pintaproject/pinta/",
+                "progPlatform": "L",
+                "worksonwine": null,
+                "sshoturl": null
+            },
+            {
+                "progIcon": "/techHQ/progIcon/graphics/inkscape.png",
+                "progName": "inkscape ",
+                "programTitle": "Inkscape ",
+                "appsubcat ": "vectorgraphics ",
+                "appdescription ": "",
+                "appurl": "http://www.inkscape.org/",
+                "progPlatform": "CP",
+                "worksonwine": null,
+                "sshoturl": null
+            },
+            {
+                "progIcon": "/techHQ/progIcon/graphics/PhotoScape_128.png",
+                "progName": "photoscape",
+                "programTitle": "PhotoScape",
+                "appsubcat": "editor",
+                "appdescription": "",
+                "appurl": "http://www.photoscape.org/",
+                "progPlatform ": "W",
+                "worksonwine ": null,
+                "sshoturl ": null
+            },
+            {
+                "progIcon": "/techHQ/progIcon/graphics/PaintDotNet_32512.png",
+                "progName": "paintdotnet",
+                "programTitle": "Paint.net",
+                "appsubcat": "editor",
+                "appdescription": "",
+                "appurl": "http://www.getpaint.net/redirect/main_hm.html",
+                "progPlatform ": "W ",
+                "worksonwine ": null,
+                "sshoturl ": null
             }
         ],
-        "viewers": [
+        "optimizers": [{
+                "progIcon": "/techHQ/progIcons/graphics//Optimizer_304.png",
+                "progName": "xatimageopt",
+                "programTitle": "Xat Image Optimizer",
+                "appsubcat": "Image Editor/Viewer",
+                "appdescription": "",
+                "appurl": "http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/Image-Optimizer-Pro.shtml",
+                "progPlatform": "W",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
             {
+                "progIcon": "/techHQ/progIcon/graphics/GIFOptimizer_1.png",
+                "progName": "gifopt",
+                "programTitle": "Gif Optimizer",
+                "appsubcat": "optimizer",
+                "appdescription": "",
+                "appurl": "http://www.leapic.com/free-gif-optimizer.htm",
+                "progPlatform": "W",
+                "worksonwine": null,
+                "sshoturl": null
+            }
+        ],
+        "viewers": [{
                 "progHomepage": "http://www.irfanview.com/",
                 "progPlatform": "W",
                 "programDesc": "",
@@ -92,13 +147,34 @@
                 "programName": "xnview",
                 "programTitle": "XnView",
                 "worksonwine": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcon/graphics/",
+                "progName": "gwenview",
+                "programTitle": "Gwenview",
+                "appsubcat": "Image Editor/Viewer",
+                "appdescription": null,
+                "appurl": "https://www.kde.org/applications/graphics/gwenview/",
+                "progPlatform": "L",
+                "worksonwine": null,
+                "sshoturl": null
+            },
+            {
+                "progIcon": "/techHQ/progIcon/graphics/",
+                "progName": "pix",
+                "programTitle": "Pix",
+                "appsubcat": "Image Editor/Viewer",
+                "appdescription": null,
+                "appurl": "https://www.linuxmint.com/rel_sarah_cinnamon_whatsnew.php",
+                "progPlatform": "W",
+                "worksonwine": 0,
+                "sshoturl": null
             }
         ]
     },
     "multimedia": {
         "mediaplayers": {
-            "audioplayers": [
-                {
+            "audioplayers": [{
                     "progHomepage": "http://audacious-media-player.org",
                     "progPlatform": "",
                     "programDesc": "",
@@ -106,15 +182,6 @@
                     "programName": "audious",
                     "programTitle": "Audious",
                     "screenshotURL": "",
-                    "worksonwine": ""
-                },
-                {
-                    "progHomepage": "",
-                    "progPlatform": "",
-                    "programDesc": "",
-                    "programIcon": "",
-                    "programName": "clementine",
-                    "programTitle": "Clementine",
                     "worksonwine": ""
                 },
                 {
@@ -134,10 +201,43 @@
                     "programName": "foobar2000",
                     "programTitle": "Foobar 2000",
                     "worksonwine": ""
+                },
+                {
+                    "appicon": "/techHQ/progIcon/",
+                    "appname": "xmplay",
+                    "apptitle": "XMPlay",
+                    "appdescription": null,
+                    "appurl": "http://support.xmplay.com",
+                    "platform": "W",
+                    "worksonwine": null,
+                    "sshoturl": null
+                },
+                {
+                    "appicon": "/techHQ/progIcons/media/media_players/",
+                    "appname": "clementine",
+                    "apptitle": "Clementine",
+                    "appmaincat": "multimedia",
+                    "appsubcat": "musicplayer",
+                    "appdescription": "",
+                    "appurl": "https://www.clementine-player.org",
+                    "platform": "CP",
+                    "worksonwine": 0,
+                    "sshoturl": ""
+                },
+                {
+                    "appicon": "/techHQ/progIcons/media/media_players/",
+                    "appname": "deadbeef",
+                    "apptitle": "Deadbeef",
+                    "appmaincat": "multimedia",
+                    "appsubcat": "musicplayer",
+                    "appdescription": "",
+                    "appurl": "http://deadbeef.sourceforge.net",
+                    "platform": "W",
+                    "worksonwine": 0,
+                    "sshoturl": ""
                 }
             ],
-            "videoplayers": [
-                {
+            "videoplayers": [{
                     "progHomepage": "https://www.videolan.org/vlc/index.html",
                     "progPlatform": "",
                     "programDesc": "",
@@ -163,13 +263,77 @@
                     "programName": "smplayer",
                     "programTitle": "SMPlayer",
                     "worksonwine": ""
+                },
+                {
+                    "appicon": "/techHQ/progIcons/media/media_players/",
+                    "appname": "gnomempv",
+                    "apptitle": "Gnome-MPV",
+                    "appmaincat": "multimedia",
+                    "appsubcat": "videoplayer",
+                    "appdescription": "Gnome/GUI Fronend to mpv",
+                    "appurl": "https://gnome-mpv.github.io",
+                    "platform": "W",
+                    "worksonwine": 0,
+                    "sshoturl": ""
+                }
+            ],
+            "various": [{
+                "progIcon": "/techHQ/progIcon/media/MP3GainGUI.png",
+                "progName": "mp3gain",
+                "programTitle": "Mp3Gain",
+                "appmaincat": "multimedia",
+                "appsubcat": "musicplayer",
+                "appdescription": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <
+                p > < em > COMMENT: < /em> I am not saying this program is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.
+                mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards < /p>",
+                "appurl": "http:/ / mp3gain.sourceforge.net/",
+                "progPlatform ": "",
+                "worksonwine ": null,
+                "sshoturl ": null
+            }],
+            "videoEditing": [{
+                    "appicon": "/techHQ/progIcon/media/videos/VideoDub2_132.gif",
+                    "appname": "virtualdub",
+                    "apptitle": "Virtualdub",
+                    "appmaincat": "multimedia",
+                    "appsubcat": "various",
+                    "appdescription": "<p>Great free Video Editor that can change </p>     <
+                    ul >
+                    <
+                    li > colorcast,
+                    framerate,
+                    compression type / level(audio and video seperate),
+                    saturation,
+                    brightness / contrast,
+                    and more.. < /li> < /
+                    ul > ",
+                    "appurl ": "http://www.virtualdub.org/",
+                    "platform ": "CP",
+                    "worksonwine ": null,
+                    "sshoturl ": null
+                },
+                {
+                    "progIcon": "/techHQ/progIcon/",
+                    "progName": "formatfactory",
+                    "programTitle": "Format Factory",
+                    "appmaincat": "multimedia",
+                    "appsubcat": "converter",
+                    "appdescription": "    <p>Comments: Does ask for &quot;Ask Toolbar&quot; installation, but if you uncheck all the boxes and hit next, it install no problem and no ask toolbar.<br /> < /
+                    p > <
+                    p > I saw this recommended alot,
+                    and
+                    while I am still playing around with video quality...it looks ok
+                    if you like this interface and it works well so far...a good alternative to the prior ones I recommended. < /p>",
+                    "appurl": "http:/ / www.pcfreetime.com / ",
+                    "progPlatform ": "W",
+                    "worksonwine ": null,
+                    "sshoturl ": null
                 }
             ]
         }
     },
     "productivity": {
-        "editors": [
-            {
+        "editors": [{
                 "progHomepage": "",
                 "progPlatform": "",
                 "programDesc": "",
@@ -195,11 +359,173 @@
                 "programName": "vscode",
                 "programTitle": "Visual Code",
                 "worksonwine": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/txtEditor/",
+                "progName": "notepadplusplus",
+                "programTitle": "Notepad++",
+                "appmaincat": "productivity",
+                "appsubcat": "texteditor",
+                "appdescription": "",
+                "appurl": "https://notepad-plus-plus.org",
+                "progPlatform": "W",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/txtEditor/",
+                "progName": "editpadlite",
+                "programTitle": "Editpad Lite",
+                "appmaincat": "productivity",
+                "appsubcat": "texteditor",
+                "appdescription": "",
+                "appurl": "https://www.editpadlite.com/",
+                "progPlatform": "W",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/txtEditor/",
+                "progName": "geany",
+                "programTitle": "Geany",
+                "appmaincat": "productivity",
+                "appsubcat": "texteditor",
+                "appdescription": "",
+                "appurl": "https://sourceforge.net/projects/geany/",
+                "progPlatform": "CP",
+                "worksonwine": 0,
+                "sshoturl": ""
             }
         ],
+        "pdf": [{
+                "progIcon": "/techHQ/progIcons/product/pdf/SumtraPDF.png",
+                "progName": "sumatrapdf",
+                "programTitle": "Sumatra PDF",
+                "appdescription": "",
+                "appurl": "http://blog.kowalczyk.info/software/sumatrapdf ",
+                "progPlatform ": "W ",
+                "worksonwine ": 0,
+                "sshoturl ": ""
+            },
+            {
+                "progIcon ": "/techHQ/progIcons/product/pdf/bullzip_PDF.png",
+                "progName ": "bullzippdf ",
+                "programTitle ": "Bullzip PDF Printer ",
+                "appdescription ": "",
+                "appurl ": "http: //www.bullzip.com/products/pdf/info.php",
+                "progPlatform": "W",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/",
+                "progName": "foxitreader",
+                "programTitle": "Foxit Reader",
+                "appmaincat": "productivity",
+                "appsubcat": "documentreader",
+                "appdescription": "",
+                "appurl": "http://www.foxitsoftware.com/",
+                "progPlatform": "CP",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/pdf/",
+                "progName": "pdfcreator",
+                "programTitle": "PDFCreator",
+                "appmaincat": "productivity",
+                "appsubcat": "pdfcreator",
+                "appdescription": "",
+                "appurl": "http://www.pdfforge.org/",
+                "progPlatform": "W",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/pdf/dopdf.png",
+                "progName": "dopdf",
+                "programTitle": "Dopdf",
+                "appmaincat": "productivity",
+                "appsubcat": "pdfcreator",
+                "appdescription": "",
+                "appurl": "http://www.dopdf.com/",
+                "progPlatform": "W"
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/pdf/PDFXCview.png",
+                "progName": "pdfxchangeviewer",
+                "programTitle": "PDF X-Changer Viewer",
+                "appmaincat": "productivity",
+                "appsubcat": "documentreader",
+                "appdescription": "",
+                "appurl ": "http://www.pdfxviewer.com/",
+                "progPlatform ": "W ",
+                "worksonwine ": 0,
+                "sshoturl ": ""
+            }
+        ],
+        "office": [{
+                "progIcon": "/techHQ/progIcons/product/",
+                "progName": "abiword",
+                "programTitle": "Abiword",
+                "appdescription": "",
+                "appurl": "https://www.abisource.com/",
+                "progPlatform": "CP",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
+            {
+                "progIcon": "/techHQ/progIcons/product/libreIcons/lofficeMain.png",
+                "progName": "libreoffice",
+                "programTitle": "Libre Office",
+                "appmaincat": "productivity",
+                "appsubcat": "officesuite",
+                "appdescription": "",
+                "appurl": "https://www.libreoffice.org/",
+                "progPlatform": "CP",
+                "worksonwine": 0,
+                "sshoturl": ""
+            }
+        ],
+        "various": [{
+                "programIcon": "/techHQ/progIcon/",
+                "programName": "universalviewer",
+                "progTitle": "Universal Viewer",
+                "programDesc": null,
+                "progHomepage": "http://uvviewsoft.com/uviewer/",
+                "progPlatform": "W",
+                "worksonwine": null,
+                "sshoturl": null
+            },
+            {
+                "progIcon": "/techHQ/progIcon/product/calibre_1.png",
+                "progName": "calibre",
+                "programTitle": "Calibre",
+                "appmaincat": "productivity",
+                "appsubcat": "ebook",
+                "appdescription": "E-book Manager and Converter Program for Multiple Operating System and a must have for anyone who has many e-books",
+                "appurl": "http://www.calibre-ebook.com",
+                "progPlatform": "CP",
+                "worksonwine": null,
+                "sshoturl": null
+            },
+
+            {
+                "progIcon": "/techHQ/progIcon//product/TextCrawler_32512.png",
+                "progName": "textcrawler",
+                "programTitle": "Text Crawler",
+                "appmaincat": "productivity",
+                "appsubcat": "various",
+                "appdescription": "",
+                "appurl ": "https://www.digitalvolcano.co.uk/textcrawler.html",
+                "progPlatform": "W",
+                "worksonwine": null,
+                "sshoturl": null
+            }
+        ],
+
         "security": {
-            "antiThreats": [
-                {
+            "antiThreats": [{
                     "progIcon": "/techHQ/progIcon/",
                     "progName": "tdsskiller",
                     "progPlatform": "W",
@@ -260,8 +586,7 @@
                     "worksonwine": false
                 }
             ],
-            "cleaners": [
-                {
+            "cleaners": [{
                     "progHomepage": "https://www.bleachbit.org/",
                     "progPlatform": "Cross-Platform",
                     "programDesc": "",
@@ -322,8 +647,7 @@
             ]
         },
         "systemTools": {
-            "archivers": [
-                {
+            "archivers": [{
                     "progIcon": "/techHQ/progIcon/system_tools/compression/51__7zip.png",
                     "progName": "7zip",
                     "progPlatform": "",
@@ -378,8 +702,7 @@
                     "worksonwine ": null
                 }
             ],
-            "burners": [
-                {
+            "burners": [{
                     "appsubcat": "burner",
                     "progHomepage": "http://www.burnaware.com",
                     "progPlatform": "W",
@@ -402,8 +725,7 @@
                     "worksonwine": false
                 }
             ],
-            "defrag": [
-                {
+            "defrag": [{
                     "programIcon": "/techHQ/progIcons/system_tools/defrag/",
                     "programname": "auslogicdefrag",
                     "progTitle": "Auslogic Defrag",
@@ -426,8 +748,7 @@
                     "sshoturl": ""
                 }
             ],
-            "taskmanager": [
-                {
+            "taskmanager": [{
                     "appsubcat": "taskmanager",
                     "progHomepage": "http://sourceforge.net/projects/processhacker",
                     "progPlatform": "W",
@@ -460,8 +781,7 @@
                     "worksonwine": false
                 }
             ],
-            "systemSuite": [
-                {
+            "systemSuite": [{
                     "programIcon": "/techHQ/progIcons/system_tools/suites/glary.png",
                     "progrprogramNameamname": "glaryutilties",
                     "progTitle": "Glary Utilities",
@@ -494,8 +814,7 @@
                     "sshoturl": ""
                 }
             ],
-            "various": [
-                {
+            "various": [{
                     "progIcon": "/techHQ/progIcon/",
                     "progName": "godmode",
                     "progPlatform ": "W ",

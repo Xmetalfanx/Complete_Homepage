@@ -544,7 +544,7 @@
             "distroName": "elementaryOS",
             "distroTitle": "ElementaryOS",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/elementary.png"
+                "iconURL": "/linuxHQ/distros/graphics/elementary.svg"
             },
             "moreinfo": {
                 "desktops": "Patheon",
@@ -719,7 +719,7 @@
             "distroName": "xubuntu",
             "distroTitle": "xubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/xubuntu.png"
+                "iconURL": "/linuxHQ/distros/graphics/xubuntu.svg"
             },
             "moreinfo": {
                 "desktops": "XFCE",

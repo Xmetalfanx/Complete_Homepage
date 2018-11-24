@@ -1,7 +1,7 @@
 // var for where to put the output
 var distroResults = document.getElementById("distroSection");
 
-function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL) {
+function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL, currentDistroSoftwareType) {
 
     // Template Literal for output
     // Download and Forum links below are wrong 
@@ -9,8 +9,8 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
 
 
             <div class="card">
-                <div class="card-title m-0 p-3 bg-primary text-white">
-                    <div class="row "> 
+                <div class="card-title m-0 p-2 bg-primary text-white">
+                    <div class="row pl-3"> 
                         <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon">
                         <div class="font-weight-bold h2">${currentDistroTitle}</div>
                     </div>
@@ -97,12 +97,10 @@ function getDistroData(data, $localDistroName) {
                 var currentDistroForum = value[distroFamily].website.forum;
                 var currentDistroDistroWatchURL = value[distroFamily].moreinfo.distrowatch;
 
-
-
                 ////////////////////////////////////////////////////////////////////////////
 
                 if (localDistroName == currentDistroName) {
-                    displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL);
+                    displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL, currentDistroSoftwareType);
                 }
 
             }

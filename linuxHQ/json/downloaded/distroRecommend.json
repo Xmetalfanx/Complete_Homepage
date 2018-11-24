@@ -1,0 +1,123 @@
+[{
+    "distroName": "arch",
+    "family": "arch",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "no",
+    "newuserReason": "Basically \"No\", just because I wouldn\\\'t recommend an Arch based Distro to any new user",
+    "myexp": "",
+    "comments": ""
+}, {
+    "distroName": "archbang",
+    "family": "arch",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "no",
+    "newuserReason": "Basically \"No\", just because I wouldn\\\'t recommend an Arch based Distro to any new user",
+    "myexp": "",
+    "comments": "Only reason I removed it, was to get my hands dirty installing &quot;stock Arch Linux &quot; from scratch ... and if you do that (which I did) and add Openbox to Arch ... you (basically) have Arch Bang"
+}, {
+    "distroName": "mmManjaro",
+    "family": "arch",
+    "anyuserRec": "",
+    "anyuserReason": "",
+    "newuserRec": "",
+    "newuserReason": "",
+    "myexp": "",
+    "comments": "Customized version of Manjaro XFCE with additional software, and other tweaks to make the experience of using Manjaro, better."
+}, {
+    "distroName": "debian",
+    "family": "debian",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "no",
+    "newuserReason": "Just better options for new users are out there ... nothing wrong with Debian",
+    "myexp": "Off and on since version 6 to 9.10",
+    "comments": ""
+}, {
+    "distroName": null,
+    "family": "",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "No",
+    "newuserReason": "Basically \"No\", just because I wouldn\\\'t recommend an Arch based Distro to any new user",
+    "myexp": "I have been been using Arch as one of my main distros and one of my favorites for about 2 years now",
+    "comments": ""
+}, {
+    "distroName": "solyd",
+    "family": "debian",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "",
+    "newuserReason": "",
+    "myexp": "The Theme (while different looking overall) has a Vanilla XFCE Theme look to it ... XFCE CAN BE EASILY themed, though my only &quot;issue&quot; is, I wish they themed it a little better out of the box, for new users",
+    "comments": "Nice Debian based distro though the issue I do have with it is that if I am not mistaken Mate is in (or can be easily added to Debian .... The other downside is one of my favorite Debian based distros, Linux Mint Debian Edition, having an offical Mate version, so  (no Pun) ... &quot;I dont see the Point in Point Linux&quot;"
+}, {
+    "distroName": "lmde",
+    "family": "debian",
+    "anyuserRec": "yes",
+    "anyuserReason": "With Debian, I try to stay with stock debian, though for Linux Mint Debian Editoon (and SoyldXK which are &quot;unoffical editions&quot; or forks of LMDE) ... I can make an exception to that ... LMDE is a GREAT distro if you ask me",
+    "newuserRec": "",
+    "newuserReason": "",
+    "myexp": "Since the March 2014 Release, including that version\\\'s RC\\\'s",
+    "comments": ""
+}, {
+    "distroName": "puppy",
+    "family": "independent",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "no",
+    "newuserReason": "",
+    "myexp": "TahrPup, Dpup Wheezy, Carolina Linux",
+    "comments": ""
+}, {
+    "id": 18,
+    "distroName": "solus",
+    "family": "independent",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "yes",
+    "newuserReason": "",
+    "myexp": "Alpha 3, Alpha 4, Solus 1.0 pre-releases, Solus 1.0, Solus 1.1",
+    "comments": ""
+}, {
+    "id": 23,
+    "distroName": "centOS",
+    "family": "gentoo",
+    "anyuserRec": "",
+    "anyuserReason": "While Fedora or Korora provide a more complete &quot;out of the box&quot; experience.... I\\\'d recommend CentOS ",
+    "newuserRec": "no",
+    "newuserReason": "",
+    "myexp": "",
+    "comments": ""
+}, {
+    "id": 25,
+    "distroName": "opensuse",
+    "family": "rpm",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "",
+    "newuserReason": "",
+    "myexp": null,
+    "comments": ""
+}, {
+    "id": 28,
+    "distroName": "deepin",
+    "family": "ubuntu",
+    "anyuserRec": "no",
+    "anyuserReason": "too buggy right now",
+    "newuserRec": "",
+    "newuserReason": "",
+    "myexp": "",
+    "comments": ""
+}, {
+    "id": 36,
+    "distroName": "ubuntu",
+    "family": "ubuntu",
+    "anyuserRec": "yes",
+    "anyuserReason": "",
+    "newuserRec": "yes",
+    "newuserReason": "",
+    "myexp": "9.04, 9.10, (I left when they switched to Unity, though I have given Unity a chance), 14.04 .... I do not hate Unity as much as I use to, though it is still not close to my favorite &quot;Desktop&quot; and still seems sluggish to me",
+    "comments": ""
+}]

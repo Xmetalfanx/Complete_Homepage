@@ -1,0 +1,12 @@
+{
+    "progIcon": "/techHQ/progIcons/security/",
+    "progName": "hexchat",
+    "programTitle": "Hexchat",
+    "appmaincat": "internet",
+    "appsubcat": "IRC Chat Client",
+    "appdescription": "",
+    "appurl": "https://hexchat.github.io/",
+    "progPlatform": "CP",
+    "worksonwine": 0,
+    "sshoturl": ""
+}

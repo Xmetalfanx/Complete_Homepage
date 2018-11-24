@@ -312,9 +312,9 @@
     {
       "desktopName": "budgie",
       "generalInfo": {
-        
+
         "distrosfeature": "Solus, Ubuntu Budgie",
-        "desktopCatagory": "heavyweight",
+        "desktopCatagory": "",
         "desktopHomepage": "https://budgie-desktop.org/home/",
         "desktopGithubURL": "https://github.com/solus-project/budgie-desktop"
       },
