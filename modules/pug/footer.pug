@@ -1,8 +1,6 @@
-//output:footer.html
-
 // ? Shouldn't the closing of "col2" be before this?
-footer
-  .col-lg-4
+footer.px-4
+  .float-left.d-md-inline.d-none
     | Site made with:
     
     // HTML 5
@@ -20,12 +18,12 @@ footer
       // remember in the final output to put the two closing </div> tags for the new bodyContainer and the inner bodyMain, AFTER the end of the footer
 
 
-  .col-lg-8(style="text-align: right;")
-    i.fa.fa-copyright.mr-4
-      span Xmetal/Xmetalfanx 2013-*
-      |
+  .float-right.ml-auto
+    i.fa.fa-copyright.d-md-block.d-none
+      | Xmetal/Xmetalfanx 2013-*
+      
       a(href="https://gitlab.com/Xmetal", target="_blank" rel="noopener")
-        i.fa.fa-gitlab
+        i.fa.fa-gitlab.fa-2x
       | 
       a(href='https://github.com/Xmetalfanx', target='_blank' rel="noopener")
         i.fa.fa-github.fa-2x.mr-4
@@ -34,7 +32,7 @@ footer
         i.fa.fa-diaspora.fa-2x
       |
       a(href="https://mastodon.social/@xmetal" target="_blank" rel="noopener")
-        i.fab.fa-mastodon.fa-2x
+        i.fa.fa-mastodon.fa-2x
       |       
       a(href='https://twitter.com/Xmetalfanx', target='_blank' rel="noopener")
         i.fa.fa-twitter.fa-2x

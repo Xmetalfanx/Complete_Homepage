@@ -55,7 +55,6 @@ footer {
     color: $white;
     background-color: $BGColor;
     height: $footerheight;
-    //margin-top: -$footerheight;
     position: relative;
     display: flex;
     @include padding(1%, 0, 0, 0);
