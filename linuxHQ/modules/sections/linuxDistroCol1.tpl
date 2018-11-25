@@ -24,12 +24,13 @@
   <div class="card-header bg-primary text-white">Ubuntu Related </div>
   <a href="/linuxHQ/distros/ubuntu/deepn.php">Deepin</a>
   <a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a>
-  <a href="#">KDE Neon / Neon</a>
+  <a href="/linuxHQ/distros/ubuntu/neon.php">KDE Neon / Neon</a>
   <a href="/linuxHQ/distros/ubuntu/kubuntu.php">Kubuntu</a>
   <a href="/linuxHQ/distros/ubuntu/linuxLite.php">Linux Lite</a>
   <a href="/linuxHQ/distros/ubuntu/linuxMint.php">Linux Mint</a>
   <a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a>
   <a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a>
+  <a href="/linuxHQ/distros/ubuntu/peppermint.php">Peppermint</a>
   <a href="/linuxHQ/distros/ubuntu/uberstudent.php">Uberstudent</a>
   <a href="/linuxHQ/distros/ubuntu/ubuntu.php">Ubuntu</a>
   <a href="/linuxHQ/distros/ubuntu/ubuntuBudgie.php">Ubuntu Budgie </a>

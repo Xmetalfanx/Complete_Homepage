@@ -422,7 +422,7 @@
                 "forum": "",
                 "homepage": "https://mxlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php",
-                "distrowatch": ""
+                "distrowatch": "https://distrowatch.com/table.php?distribution=mx"
             }
         },
         {
@@ -445,6 +445,28 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
                 "forum": "",
                 "distrowatch": "http://distrowatch.com/point"
+            }
+        },
+        {
+            "distroName": "cbplusplus",
+            "distroTitle": "Crunchbang++",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "desktops": "Openbox",
+                "similar": "Debian with Openbox",
+                "software": "",
+                "target": "",
+                "type": ""
+            },
+            "version": "",
+            "website": {
+                "download": "https://crunchbangplusplus.org/download/",
+                "homepage": "https://crunchbangplusplus.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "forum": "https://www.reddit.com/r/crunchbangplusplus/",
+                "distrowatch": ""
             }
         }
     ],
@@ -493,7 +515,6 @@
             }
         },
         {
-            "ID": 33,
             "distroName": "sabayon",
             "distroTitle": "Sabayon",
             "graphics": {
@@ -535,10 +556,6 @@
             "1804LTSEOL": "",
             "1810": ""
         }
-
-
-
-
     },
     "ubuntu": [{
             "distroName": "elementaryOS",
@@ -585,10 +602,32 @@
             }
         },
         {
+            "distroName": "kdeneon",
+            "distroTitle": "KDE Neon",
+            "graphics": {
+                "iconURL": "/linuxHQ/graphics/icons/"
+            },
+            "moreinfo": {
+                "desktops": "Plasma 5",
+                "similar": "Kubuntu",
+                "software": "",
+                "target": "Any User",
+                "type": ""
+            },
+            "version": "",
+            "website": {
+                "download": "https://neon.kde.org/download",
+                "forum": "https://forum.kde.org/",
+                "homepage": "https://neon.kde.org/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "https://distrowatch.com/table.php?distribution=kdeneon"
+            }
+        },
+        {
             "distroName": "peppermint",
             "distroTitle": "Peppermint",
             "graphics": {
-                "iconURL": ""
+                "iconURL": "/linuxHQ/graphics/icons/peppermint.png"
             },
             "moreinfo": {
                 "desktops": "LXDE/XFCE",
@@ -599,7 +638,7 @@
             },
             "version": "",
             "website": {
-                "download": "",
+                "download": "https://peppermintos.com/",
                 "forum": "",
                 "homepage": "http://peppermintos.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",

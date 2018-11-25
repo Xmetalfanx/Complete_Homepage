@@ -31,14 +31,13 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
                 <a href="${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
                 <br/>
 
-                <div class="font-weight-bold">Target Audience: </div>
-                ${currentDistroTargetAudience}
-                <div class="font-weight-bold">Featured Desktops: </div>
-                ${currentDistroFeaturesDesktops}
-                <div class="font-weight-bold">Similar Distros: </div>
-                ${currentDistroSimilarDistros}
-                <div class="font-weight-bold">Software Type: </div>
-                ${currentDistroSoftwareType}
+                <div class="font-weight-bold">Target Audience: </div> ${currentDistroTargetAudience}
+                
+                <div class="font-weight-bold">Featured Desktops: </div> ${currentDistroFeaturesDesktops}
+                
+                <div class="font-weight-bold">Similar Distros: </div> ${currentDistroSimilarDistros}
+                
+                <div class="font-weight-bold">Software Type: </div> ${currentDistroSoftwareType}
                 
                 <br/><br/>
             

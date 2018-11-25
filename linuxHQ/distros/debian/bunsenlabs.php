@@ -4,7 +4,9 @@
 
 	$pageTitle = 'Bunsenlabs';
 
+	echo '<script type="text/javascript">';
+	echo 'var localDistroName = "bunsenlabs"; ';
+echo '</script>';
 
-	$localdistroname = 'bunsenlabs';
 
 ?>
