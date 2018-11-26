@@ -37,7 +37,7 @@ function displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTIC
 
 
           ${howToInstall}
-       
+    
         </div>
         <hr />
         `;
@@ -76,12 +76,17 @@ function getTICData() {
           var currentTICArch = value[subTheme].howToInstall.arch;
           var currentTICFedora = value[subTheme].howToInstall.fedora;
           var currentTICOpenSuse = value[subTheme].howToInstall.opensuse;
-          var currentTICUbuntu = value[subTheme].howToInstall.ubuntu
+          var currentTICUbuntu = value[subTheme].howToInstall.ubuntu;
 
         } // Ends for-loop
 
+        // Testing 
+        console.log(localTICName);
+
+
         if (localTICName == currentTICThemeName)
         {
+  
           displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu);
 
         }

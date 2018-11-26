@@ -9,4 +9,8 @@
 
 	$pageTitle = 'Yosemite Theme Page';
 
+	echo '<script type="text/javascript">';
+	echo 'var localTICName = "yosembiance"; ';
+echo '</script>';
+
 ?>
