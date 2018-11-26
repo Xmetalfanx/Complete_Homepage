@@ -9,7 +9,8 @@
             },
             "links": {
                 "devartsURL": "N/A",
-                "githubURL": "https://github.com/adapta-project/adapta-gtk-theme"
+                "githubURL": "https://github.com/adapta-project/adapta-gtk-theme",
+                "gnomelooksURL":""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
             "themeName": "Adapta"
@@ -53,7 +54,8 @@
             },
             "links": {
                 "devartsURL": "N/A",
-                "githubURL": "https://github.com/numixproject/numix-gtk-theme"
+                "githubURL": "https://github.com/numixproject/numix-gtk-theme",
+                "gnomelooksURL":""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
             "themeName": "Numix"

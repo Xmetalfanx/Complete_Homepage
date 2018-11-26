@@ -1,28 +1,43 @@
 var ticResults = document.getElementById("TICSection");
 
 // This should show the entire JSON file's info
-function displayTICOutput(currentThemeName, currentSupportInfo, currentGnomelookURL, currentGithubURL, currentDeviantArtURL){
+function displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu){
 
   // Should loop through the JSON file
 
-      const themeOutput =
+      const themeLinks = `
+      
+        Gnomelook URL: <a href="${currentGnomelookURL}" target="_blank" >
+        ${currentTICThemeName} on Gnome Look </a> <br />
 
+        Github URL: <a href="${currentTICGithubURL} " target="_blank" >
+        ${currentTICThemeName} on Github </a> <br />
+
+        Deviant Art URL: <a href="${currentTICDeviantArtURL}" target="_blank" >
+        ${currentTICThemeName} on DeviantArt </a>
+
+      `;
+
+      const howToInstall = `
+        How to install ${currentTICThemeName}
+        <br />
+        <br />
+  
+      `;
+
+      const themeOutput =
         `
         <div>
-          <strong>Theme Name:${currentThemeName} </strong> <br />
+          <strong>Theme Name:${currentTICThemeName} </strong> <br />
 
-          Theme has support for: ${currentSupportInfo} <br />
+          Theme has support for: ${currentTICSupportInfo} <br />
 
           <br  />
-          Gnomelook URL: <a href="${currentGnomelookURL}" target="_blank" >
-            ${currentThemeName} on Gnome Look </a> <br />
+          ${themeLinks}
 
-          Github URL: <a href="${currentGithubURL} " target="_blank" >
-            ${currentThemeName} on Github </a> <br />
 
-          Deviant Art URL: <a href="${currentDeviantArtURL}" target="_blank" >
-            ${currentThemeName} on DeviantArt </a>
-
+          ${howToInstall}
+       
         </div>
         <hr />
         `;
@@ -47,23 +62,27 @@ function getTICData() {
 
         var currentSubTheme = key;
 
-        // Not sure what to call them atm ... they were "subFrameworks in the DE framework type" part so i will just use "subThemes"
         for (var subTheme = 0; subTheme < value.length; subTheme++){
 
-          var currentThemeName = value[subTheme].themeName;
-          var currentSupportInfo = value[subTheme].supportInfo;
+          var currentTICThemeName = value[subTheme].themeName;
+          var currentTICSupportInfo = value[subTheme].supportInfo;
           
           // Links
-          var currentDeviantArtURL = value[subTheme].links.devartsURL
-          var currentGithubURL = value[subTheme].links.githubURL
-          var currentGnomelookURL = value[subTheme].links.gnomelooksURL
+          var currentTICDeviantArtURL = value[subTheme].links.devartsURL;
+          var currentTICGithubURL = value[subTheme].links.githubURl;
+          var currentTICGnomelookURL = value[subTheme].links.gnomelooksURL;
 
+          // How to install related 
+          var currentTICArch = value[subTheme].howToInstall.arch;
+          var currentTICFedora = value[subTheme].howToInstall.fedora;
+          var currentTICOpenSuse = value[subTheme].howToInstall.opensuse;
+          var currentTICUbuntu = value[subTheme].howToInstall.ubuntu
 
         } // Ends for-loop
 
-        if (localTICName == currentThemeName)
+        if (localTICName == currentTICThemeName)
         {
-          displayTICOutput(currentThemeName, currentSupportInfo, currentGnomelookURL, currentGithubURL, currentDeviantArtURL)
+          displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu);
 
         }
 
