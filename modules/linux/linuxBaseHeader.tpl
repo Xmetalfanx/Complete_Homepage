@@ -14,11 +14,9 @@
     ?>
   </title>
 
-
     <?php include "/home/xmetalx1/public_html". '/modules/headerInclude.tpl'; ?>
 
     <!-- Universal CSS file-->
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/linuxHQ/stylesheets/styling.css" rel="stylesheet" type="text/css">
   </title>
 </head>
