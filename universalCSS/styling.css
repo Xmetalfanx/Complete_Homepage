@@ -108,12 +108,12 @@ h3.feed-title {
     background-color: inherit;
     font-size: 15px; }
 
-.xmetalRSS {
-  border: 1px solid #3e3f3a; }
-  .xmetalRSS .xmetalRSSHeader {
-    color: white;
-    background-color: #3e3f3a;
-    font-weight: bold;
-    padding: 1% 1% 1% 1%; }
+.icon {
+  position: relative;
+  margin: 20px 20px; }
+
+.card-img-top {
+  box-shadow: 2px 2px 2px black;
+  margin: 10px 10px 10px 10px; }
 
 /*# sourceMappingURL=styling.css.map */
