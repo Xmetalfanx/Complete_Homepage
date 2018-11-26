@@ -1,13 +1,1 @@
 @import "00-variables/variables-dir";
-
-//////////////////////////////////////////////////////////////////////////////
-.icon {
-    position: relative;
-    @include margin(null, 20px, null, 20px);
-}
-
-// / This appears to be the box around item in different sections on the main subpage
-.card-img-top {
-    box-shadow: 2px 2px 2px $black;
-    @include margin(10px, 10px, 10px, 10px);
-}
