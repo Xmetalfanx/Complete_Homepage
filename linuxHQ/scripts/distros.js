@@ -1,6 +1,11 @@
 // var for where to put the output
 var distroResults = document.getElementById("distroSection");
 
+var myPage = "/linuxHQ/distro/";
+var DWPage = "https://distrowatch.com/";
+var svgIcon = "/linuxHQ/graphics/icons/";
+
+
 function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL, currentDistroSoftwareType) {
 
     // Template Literal for output
@@ -12,7 +17,7 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
                 <div class="card-title m-0 p-2 bg-primary text-white">
                     <div class="row pl-3"> 
                         <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon" width="48px" height="48px">
-                        <div class="font-weight-bold h2">${currentDistroTitle}</div>
+                        <div class="h2 font-weight-bold ">${currentDistroTitle}</div>
                     </div>
                 </div>
             </div>
@@ -28,7 +33,7 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
                 <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
                 
                 <div class="font-weight-bold">Distrowatch Page: </div>
-                <a href="${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
+                <a href="${DWPage} ${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
                 <br/>
 
                 <div class="font-weight-bold">Target Audience: </div> ${currentDistroTargetAudience}

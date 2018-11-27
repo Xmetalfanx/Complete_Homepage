@@ -13,7 +13,8 @@
                 "gnomelooksURL":""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "adapta"
+            "themeName": "adapta",
+            "themeTitle": "Adapta Theme"
         },
         {
             "howToInstall": {
@@ -28,7 +29,9 @@
                 "gnomelooksURL": ""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "arc"
+            "themeName": "arc",
+            "themeTitle":"Arc GTK Theme"
+
         },
         {
             "howToInstall": {
@@ -43,7 +46,8 @@
                 "gnomelooksURL": ""
             },
             "supportInfo": "gtk3, cinnamon",
-            "themeName": "Mint-Y"
+            "themeName": "mintY" ,
+            "themeTitle":"Mint-Y"
         },
         {
             "howToInstall": {
@@ -58,7 +62,8 @@
                 "gnomelooksURL":""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "numix"
+            "themeName": "numix",
+            "themeTitle": "Numix GTK Theme"
         }
     ]
 }

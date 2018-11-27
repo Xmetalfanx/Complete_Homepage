@@ -1,7 +1,7 @@
 var ticResults = document.getElementById("TICSection");
 
 // This should show the entire JSON file's info
-function displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu){
+function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu){
 
   // Should loop through the JSON file
 
@@ -27,23 +27,27 @@ function displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTIC
 
       const themeOutput =
         `
-        <div>
-          <strong>Theme Name:${currentTICThemeName} </strong> <br />
-
-          Theme has support for: ${currentTICSupportInfo} <br />
-
-          <br  />
-          ${themeLinks}
-
-
-          ${howToInstall}
-    
-        </div>
-        <hr />
+      
+          <div class="card"> 
+            <div class="card-header bg-primary text-white font-weight-bold">${currentTICThemeTitle}</div>
+            <div class="card-text"> 
+              <div class="font-weight-bold">
+                Theme has support for: </div>
+                
+                ${currentTICSupportInfo}
+                <br/><br/>
+                
+                ${themeLinks} 
+                ${howToInstall}
+            
+                
+            </div>
+          </div>
+        
         `;
 
         // ** NO if statement here 
-        themeResults.insertAdjacentHTML("beforebegin", themeOutput);
+        ticResults.insertAdjacentHTML("beforebegin", themeOutput);
   }
 
 
@@ -65,6 +69,7 @@ function getTICData() {
         for (var subTheme = 0; subTheme < value.length; subTheme++){
 
           var currentTICThemeName = value[subTheme].themeName;
+          var currentTICThemeTitle = value[subTheme].themeTitle;
           var currentTICSupportInfo = value[subTheme].supportInfo;
           
           // Links
@@ -84,7 +89,7 @@ function getTICData() {
         if (localTICName == currentTICThemeName)
         {
   
-          displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu);
+          displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArch, currentTICFedora, currentTICOpenSuse, currentTICUbuntu);
 
         }
 

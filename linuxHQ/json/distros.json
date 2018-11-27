@@ -202,7 +202,7 @@
                 "forum": "http://bbs.archlinux.org/",
                 "homepage": "http://www.archlinux.org",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php",
-                "distrowatch": "http://distrowatch.com/arch"
+                "distrowatch": "arch"
             }
         },
         {
@@ -268,7 +268,7 @@
                 "forum": "http://forum.manjaro.org/",
                 "homepage": "https://manjaro.github.io",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=manjaro"
+                "distrowatch": "https://distrowatch.com/manjaro"
             }
         }
     ],

@@ -1,9 +1,12 @@
-.font-weight-bold Theme Name: 
-| ${currentTICThemeName}
-br/
-.font-weight-bold Theme has support for: 
-| ${currentTICSupportInfo}
-br/
-br/
+.card 
+    .card-header.bg-primary.text-white.font-weight-bold ${currentTICThemeTitle}
 
-${themeLinks}
+    .card-text 
+        .font-weight-bold Theme has support for: 
+            | ${currentTICSupportInfo}
+            br/
+            br/
+
+            | ${themeLinks} 
+
+            | ${howToInstall}
