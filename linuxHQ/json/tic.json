@@ -13,7 +13,7 @@
                 "gnomelooksURL":""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "Adapta"
+            "themeName": "adapta"
         },
         {
             "howToInstall": {
@@ -28,7 +28,7 @@
                 "gnomelooksURL": ""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "Arc"
+            "themeName": "arc"
         },
         {
             "howToInstall": {
@@ -58,7 +58,7 @@
                 "gnomelooksURL":""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "Numix"
+            "themeName": "numix"
         }
     ]
 }

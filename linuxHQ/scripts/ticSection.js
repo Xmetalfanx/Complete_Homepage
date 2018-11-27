@@ -7,7 +7,7 @@ function displayTICOutput(currentTICThemeName, currentTICSupportInfo, currentTIC
 
       const themeLinks = `
       
-        Gnomelook URL: <a href="${currentGnomelookURL}" target="_blank" >
+        Gnomelook URL: <a href="${currentTICGnomelookURL}" target="_blank" >
         ${currentTICThemeName} on Gnome Look </a> <br />
 
         Github URL: <a href="${currentTICGithubURL} " target="_blank" >
@@ -79,9 +79,6 @@ function getTICData() {
           var currentTICUbuntu = value[subTheme].howToInstall.ubuntu;
 
         } // Ends for-loop
-
-        // Testing 
-        console.log(localTICName);
 
 
         if (localTICName == currentTICThemeName)
