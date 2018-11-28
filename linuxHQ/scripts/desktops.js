@@ -9,7 +9,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
     const deVersionsOutput = `
         
         <h3 class="font-weight-bold">Versions</h3>
-        <div class="font-weight-bold">Latest Verison: ${currentDELatestVersion}</div>
+        <div class="font-weight-bold">Latest Version: ${currentDELatestVersion}</div>
         
         <br /><br />
             

@@ -8,7 +8,7 @@
 	$pageTitle = 'OpenSUSE ';
 	  
 	echo '<script type="text/javascript">';
-    	echo 'var localDistroName = "openSuse"; ';
+    	echo 'var localDistroName = "opensuse"; ';
 	echo '</script>';
 
 ?>

@@ -3,9 +3,9 @@
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-	$pageTitle = 'Point Linux';
+	$pageTitle = 'Sparky Linux';
     
     echo '<script type="text/javascript">';
-        echo 'var localDistroName = "pointlinux"; ';
+        echo 'var localDistroName = "sparky"; ';
     echo '</script>';
 ?>

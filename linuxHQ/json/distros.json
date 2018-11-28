@@ -1,10 +1,11 @@
 {
-    "RPM": [{
+    "RPM": [
+        {
             "distroName": "fedora",
             "distroTitle": "Fedora",
             "family": "rpm",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/fedora.svg"
+                "iconURL": "fedora.svg"
             },
             "moreinfo": {
                 "desktops": "Gnome (Default), Various official spins with other options",
@@ -19,7 +20,7 @@
                 "forum": "http://forums.fedoraforum.org/",
                 "homepage": "http://www.fedora.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/fedora"
+                "distrowatch": "fedora"
             }
         },
         {
@@ -27,7 +28,7 @@
             "distroTitle": "Korora ",
             "family": "rpm",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/korora.png"
+                "iconURL": "korora.png"
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Xfce, Mate, ..etc ",
@@ -42,7 +43,7 @@
                 "forum": "https://kororaproject.org/support/engage",
                 "homepage": "https://kororaproject.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/korora"
+                "distrowatch": "korora"
             }
         },
         {
@@ -50,7 +51,7 @@
             "distroTitle": "Mageia",
             "family": "mandriva",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/mageia.png"
+                "iconURL": "mageia.png"
             },
             "moreinfo": {
                 "desktops": "Cinnamon, GNOME, IceWM, KDE, MATE, LXDE, Openbox, Razor-qt, WMaker, Xfce",
@@ -65,7 +66,7 @@
                 "forum": "https://forums.mageia.org/",
                 "homepage": "http://mageia.org",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/magiea"
+                "distrowatch": "mageia"
             }
         },
         {
@@ -73,7 +74,7 @@
             "distroTitle": "Open Mandriva",
             "family": "mandriva",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/openmandriva.png"
+                "iconURL": "openmandriva.png"
             },
             "moreinfo": {
                 "desktops": "KDE",
@@ -88,7 +89,30 @@
                 "forum": "http://forums.openmandriva.org/",
                 "homepage": "http://openmandriva.org",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/OpenMandriva"
+                "distrowatch": "openmandriva"
+            }
+        },
+        {
+            "distroName": "rosa",
+            "distroTitle": "ROSA Fresh",
+            "family": "mandriva",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "desktops": "KDE",
+                "similar": "Mageia",
+                "software": "",
+                "target": "",
+                "type": ""
+            },
+            "version": "",
+            "website": {
+                "download": "http://wiki.rosalab.ru/en/index.php/ROSA_Release",
+                "forum": "http://forum.rosalab.ru/",
+                "homepage": "http://www.rosalabs.com",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "distrowatch": "rosa"
             }
         },
         {
@@ -96,7 +120,7 @@
             "distroTitle": "Open Suse",
             "family": "rpm",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/suse.png"
+                "iconURL": "suse.png"
             },
             "moreinfo": {
                 "desktops": "Various",
@@ -111,14 +135,14 @@
                 "forum": "http://forums.opensuse.org/",
                 "homepage": "http://www.opensuse.org",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/suse"
+                "distrowatch": "suse"
             }
         },
         {
             "distroName": "pclinuxos",
             "distroTitle": "PCLinuxOS",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/pclinuxos.png"
+                "iconURL": "pclinuxos.png"
             },
             "moreinfo": {
                 "desktops": "",
@@ -134,7 +158,7 @@
                 "forum": "http://www.pclinuxos.com/forum",
                 "homepage": "http://www.pclinuxos.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/PCLinuxOS"
+                "distrowatch": "PCLinuxOS"
             }
         },
         {
@@ -157,7 +181,7 @@
                 "forum": "",
                 "homepage": "http://www.centos.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": ""
+                "distrowatch": "centos"
             }
         }
     ],
@@ -165,7 +189,7 @@
             "distroName": "antergos",
             "distroTitle": "Antergos",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/antergos.png"
+                "iconURL": "antergos.png"
             },
             "moreinfo": {
                 "desktops": "Various",
@@ -180,14 +204,14 @@
                 "forum": "http://forum.antergos.com/",
                 "homepage": "https://antergos.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php",
-                "distrowatch": "http://distrowatch.com/antergos"
+                "distrowatch": "antergos"
             }
         },
         {
             "distroName": "arch",
             "distroTitle": "Arch",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/arch.svg"
+                "iconURL": "arch.svg"
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
@@ -209,7 +233,7 @@
             "distroName": "archbang",
             "distroTitle": "Archbang",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/archbang.png"
+                "iconURL": "archbang.png"
             },
             "moreinfo": {
                 "desktops": "Openbox",
@@ -224,36 +248,14 @@
                 "forum": "http://bbs.archbang.org/",
                 "homepage": "http://bbs.archbang.org",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php",
-                "distrowatch": "http://distrowatch.com/archbang"
-            }
-        },
-        {
-            "distroName": "mmManjaro",
-            "distroTitle": "Manjaro by Matthew Moore",
-            "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/manjaro.png"
-            },
-            "moreinfo": {
-                "desktops": "XFCE",
-                "similar": "Manjaro",
-                "software": "Slightly behind bleeding edge (same as stock Manjaro)",
-                "target": "All Users (though maybe not super newbies)",
-                "type": ""
-            },
-            "version": "",
-            "website": {
-                "download": "https://sourceforge.net/projects/manjarobymm/",
-                "forum": "http://www.cupoflinux.com/SBB/index.php/board,29.0.html",
-                "homepage": "https://sourceforge.net/projects/manjarobymm/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/mmManjaro.php",
-                "distrowatch": "N/A"
+                "distrowatch": "archbang"
             }
         },
         {
             "distroName": "manjaro",
             "distroTitle": "Manjaro",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/manjaro.svg"
+                "iconURL": "manjaro.svg"
             },
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
@@ -268,7 +270,7 @@
                 "forum": "http://forum.manjaro.org/",
                 "homepage": "https://manjaro.github.io",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php",
-                "distrowatch": "https://distrowatch.com/manjaro"
+                "distrowatch": "manjaro"
             }
         }
     ],
@@ -291,14 +293,14 @@
                 "homepage": "https://antixlinux.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/",
                 "similar": "Linux Mint Debian Edition, Sparky Linux",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=antix"
+                "distrowatch": "antix"
             }
         },
         {
             "distroName": "bunsenlabs",
             "distroTitle": "Bunsenlabs",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/bunsenlabs.png"
+                "iconURL": "bunsenlabs.png"
             },
             "moreinfo": {
                 "desktops": "Openbox",
@@ -312,14 +314,14 @@
                 "forum": "https://forums.bunsenlabs.org",
                 "homepage": "https://www.bunsenlabs.org",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=bunsenlabs"
+                "distrowatch": "bunsenlabs"
             }
         },
         {
             "distroName": "debian",
             "distroTitle": "Debian",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/debian.svg"
+                "iconURL": "debian.svg"
             },
             "moreinfo": {
                 "desktops": "Various",
@@ -334,14 +336,14 @@
                 "forum": "http://forums.debian.net/",
                 "homepage": "http://www.debian.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php",
-                "distrowatch": "http://distrowatch.com/debian"
+                "distrowatch": "debian"
             }
         },
         {
             "distroName": "lmde",
             "distroTitle": "Linux Mint Debian Edition",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/mint.png"
+                "iconURL": "mint.png"
             },
             "moreinfo": {
                 "desktops": "Mate, Cinnamon",
@@ -356,14 +358,14 @@
                 "forum": "",
                 "homepage": "http://www.linuxmint.com/download_lmde.php",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php",
-                "distrowatch": ""
+                "distrowatch": "lmde"
             }
         },
         {
             "distroName": "solyd",
             "distroTitle": "SoyldXK",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/solydxk.png"
+                "iconURL": "solydxk.png"
             },
             "moreinfo": {
                 "desktops": "KDE aka Plama 5 / XFCE ",
@@ -378,7 +380,7 @@
                 "forum": "",
                 "homepage": "http://solydxk.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/soyldxk.php",
-                "distrowatch": "http://distrowatch.com/solydxk"
+                "distrowatch": "solydxk"
             }
         },
         {
@@ -400,7 +402,7 @@
                 "forum": "#",
                 "homepage": "https://sparkylinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php",
-                "distrowatch": "https://distrowatch.com/?newsid=10370"
+                "distrowatch": "sparky"
             }
         },
         {
@@ -422,14 +424,14 @@
                 "forum": "",
                 "homepage": "https://mxlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=mx"
+                "distrowatch": "mx"
             }
         },
         {
             "distroName": "pointlinux",
             "distroTitle": "Point Linux",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/point.png"
+                "iconURL": "point.png"
             },
             "moreinfo": {
                 "desktops": "Mate",
@@ -444,7 +446,7 @@
                 "homepage": "http://pointlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
                 "forum": "",
-                "distrowatch": "http://distrowatch.com/point"
+                "distrowatch": "point"
             }
         },
         {
@@ -468,13 +470,35 @@
                 "forum": "https://www.reddit.com/r/crunchbangplusplus/",
                 "distrowatch": ""
             }
+        },
+        {
+            "distroName": "makulu",
+            "distroTitle": "Makulu",
+            "graphics": {
+                "iconURL": ""
+            },
+            "moreinfo": {
+                "desktops": "Various",
+                "similar": " ",
+                "software": "",
+                "target": "",
+                "type": ""
+            },
+            "version": "",
+            "website": {
+                "download": "http://www.makululinux.com/wp/downloads/",
+                "homepage": "http://www.makululinux.com/",
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
+                "forum": "http://makululinux.discussion.community/",
+                "distrowatch": "makulu"
+            }
         }
     ],
     "gentoo": [{
             "distroName": "calculate",
             "distroTitle": "Calculate",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/calculate.png"
+                "iconURL": "calculate.png"
             },
             "moreinfo": {
                 "desktops": "Various",
@@ -489,7 +513,7 @@
                 "forum": "http://www.calculate-linux.org/projects/en/boards",
                 "homepage": "http://www.calculate-linux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=calculate"
+                "distrowatch": "calculate"
             }
         },
         {
@@ -511,7 +535,7 @@
                 "forum": "",
                 "homepage": "http://www.gentoo.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": ""
+                "distrowatch": "gentoo"
             }
         },
         {
@@ -533,7 +557,7 @@
                 "forum": "http://forum.sabayon.org/",
                 "homepage": "http://www.sabayon.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=sabayon"
+                "distrowatch": "sabayon"
             }
         }
     ],
@@ -561,7 +585,7 @@
             "distroName": "elementaryOS",
             "distroTitle": "ElementaryOS",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/elementary.svg"
+                "iconURL": "elementary.svg"
             },
             "moreinfo": {
                 "desktops": "Patheon",
@@ -576,14 +600,14 @@
                 "forum": "https://elementaryforums.com/index.php",
                 "homepage": "http://elementary.io",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/elementary"
+                "distrowatch": "elementary"
             }
         },
         {
             "distroName": "mint",
             "distroTitle": "Linux Mint",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/linuxmint.svg"
+                "iconURL": "linuxmint.svg"
             },
             "moreinfo": {
                 "desktops": "Mate, XFCE, Cinnamon, Plasma 5",
@@ -598,14 +622,14 @@
                 "forum": "http://linuxmint.com/forum/",
                 "homepage": "http://www.linuxmint.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/mint"
+                "distrowatch": "mint"
             }
         },
         {
             "distroName": "kdeneon",
             "distroTitle": "KDE Neon",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/"
+                "iconURL": ""
             },
             "moreinfo": {
                 "desktops": "Plasma 5",
@@ -620,14 +644,14 @@
                 "forum": "https://forum.kde.org/",
                 "homepage": "https://neon.kde.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=kdeneon"
+                "distrowatch": "neon"
             }
         },
         {
             "distroName": "peppermint",
             "distroTitle": "Peppermint",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/peppermint.png"
+                "iconURL": "peppermint.png"
             },
             "moreinfo": {
                 "desktops": "LXDE/XFCE",
@@ -642,14 +666,14 @@
                 "forum": "",
                 "homepage": "http://peppermintos.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=peppermint"
+                "distrowatch": "peppermint"
             }
         },
         {
             "distroName": "kubuntu",
             "distroTitle": "Kubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/kubuntu.png"
+                "iconURL": "kubuntu.png"
             },
             "moreinfo": {
                 "desktops": "Plasma 5",
@@ -664,14 +688,14 @@
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.kubuntu.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=kubuntu"
+                "distrowatch": "kubuntu"
             }
         },
         {
             "distroName": "lubuntu",
             "distroTitle": "lubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/lubuntu.svg"
+                "iconURL": "lubuntu.svg"
             },
             "moreinfo": {
                 "desktops": "LXDE, LXQT",
@@ -686,7 +710,7 @@
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://lubuntu.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=lubuntu"
+                "distrowatch": "lubuntu"
             }
         },
         {
@@ -708,14 +732,14 @@
                 "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
                 "homepage": "http://uberstudent.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=uberstudent"
+                "distrowatch": "uberstudent"
             }
         },
         {
             "distroName": "ubuntu",
             "distroTitle": "Ubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/ubuntu.svg"
+                "iconURL": "ubuntu.svg"
             },
             "moreinfo": {
                 "desktops": "Gnome2, Unity, Gnomeshell",
@@ -730,18 +754,17 @@
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.ubuntu.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": ""
+                "distrowatch": "ubuntu"
             }
         },
         {
             "distroName": "umate",
             "distroTitle": "Ubuntu Mate",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/ubuntuMate.svg"
+                "iconURL": "ubuntuMate.svg"
             },
             "moreinfo": {
                 "desktops": "Mate",
-                "distrowatch": "http://distrowatch.com/table.php?distribution=ubuntumate",
                 "similar": "Linux Mint Mate ",
                 "software": "",
                 "target": "Any User",
@@ -751,14 +774,15 @@
             "website": {
                 "download": "https://ubuntu-mate.org/download/",
                 "forum": "https://ubuntu-mate.community/",
-                "homepage": "http://ubuntu-mate.org"
+                "homepage": "http://ubuntu-mate.org",
+                "distrowatch": "ubuntumate"
             }
         },
         {
             "distroName": "xubuntu",
             "distroTitle": "xubuntu",
             "graphics": {
-                "iconURL": "/linuxHQ/distros/graphics/xubuntu.svg"
+                "iconURL": "xubuntu.svg"
             },
             "moreinfo": {
                 "desktops": "XFCE",
@@ -773,14 +797,14 @@
                 "forum": "",
                 "homepage": "http://www.xubuntu.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=xubuntu"
+                "distrowatch": "xubuntu"
             }
         },
         {
             "distroName": "zorin",
             "distroTitle": "Zorin",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/zorin.png"
+                "iconURL": "zorin.png"
             },
             "moreinfo": {
                 "desktops": "",
@@ -795,14 +819,14 @@
                 "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
                 "homepage": "http://www.zorin-os.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=zorin"
+                "distrowatch": "zorin"
             }
         },
         {
             "distroName": "linuxlite",
             "distroTitle": "Linux Lite",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/lite.png"
+                "iconURL": "lite.png"
             },
             "moreinfo": {
                 "desktops": "XFCE",
@@ -817,14 +841,14 @@
                 "forum": "https://www.linuxliteos.com/forums/",
                 "homepage": "http://www.linuxliteos.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=lite"
+                "distrowatch": "linuxlite"
             }
         },
         {
             "distroName": "lxle",
             "distroTitle": "LXLE",
             "graphics": {
-                "iconURL": "/linuxHQ/graphics/icons/lxle.png"
+                "iconURL": "lxle.png"
             },
             "moreinfo": {
                 "desktops": "LXDE",
@@ -839,7 +863,7 @@
                 "forum": "http://lxle.net/forum/",
                 "homepage": "http://www.lxle.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "https://distrowatch.com/table.php?distribution=lxle"
+                "distrowatch": "lxle"
             }
         }
     ]

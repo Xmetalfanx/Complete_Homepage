@@ -3,7 +3,7 @@ var distroResults = document.getElementById("distroSection");
 
 var myPage = "/linuxHQ/distro/";
 var DWPage = "https://distrowatch.com/";
-var svgIcon = "/linuxHQ/graphics/icons/";
+var distroGraphics = "/linuxHQ/graphics/distros/";
 
 
 function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL, currentDistroSoftwareType) {
@@ -12,11 +12,10 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
     // Download and Forum links below are wrong 
     const currentDistroInfoOutput = `
 
-
             <div class="card">
                 <div class="card-title m-0 p-2 bg-primary text-white">
                     <div class="row pl-3"> 
-                        <img src="${currentDistroIcon}" alt="${currentDistroTitle} icon" width="48px" height="48px">
+                        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" width="48px" height="48px">
                         <div class="h2 font-weight-bold ">${currentDistroTitle}</div>
                     </div>
                 </div>
@@ -33,7 +32,7 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
                 <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
                 
                 <div class="font-weight-bold">Distrowatch Page: </div>
-                <a href="${DWPage} ${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
+                <a href="${DWPage}${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
                 <br/>
 
                 <div class="font-weight-bold">Target Audience: </div> ${currentDistroTargetAudience}
@@ -99,7 +98,7 @@ function getDistroData(data, $localDistroName) {
                 var currentDistroHomepage = value[distroFamily].website.homepage;
                 var currentDistroDownload = value[distroFamily].website.download;
                 var currentDistroForum = value[distroFamily].website.forum;
-                var currentDistroDistroWatchURL = value[distroFamily].moreinfo.distrowatch;
+                var currentDistroDistroWatchURL = value[distroFamily].website.distrowatch;
 
                 ////////////////////////////////////////////////////////////////////////////
 
