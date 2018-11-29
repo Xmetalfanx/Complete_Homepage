@@ -6,7 +6,7 @@ var DWPage = "https://distrowatch.com/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
 
-function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL, currentDistroSoftwareType) {
+function displayDistroOutput(currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType) {
 
     // Template Literal for output
     // Download and Forum links below are wrong 
@@ -26,13 +26,13 @@ function displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistr
                 <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
                 
                 <span class="font-weight-bold">Download: </span>
-                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
+                <a href="${currentDistroDownload}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
                 
                 <span class="font-weight-bold">Forums:</span>
-                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
+                <a href="${currentDistroForum}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
                 
                 <div class="font-weight-bold">Distrowatch Page: </div>
-                <a href="${DWPage}${currentDistroDistroWatchURL}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
+                <a href="${DWPage}${currentDistroName}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
                 <br/>
 
                 <div class="font-weight-bold">Target Audience: </div> ${currentDistroTargetAudience}
@@ -98,12 +98,11 @@ function getDistroData(data, $localDistroName) {
                 var currentDistroHomepage = value[distroFamily].website.homepage;
                 var currentDistroDownload = value[distroFamily].website.download;
                 var currentDistroForum = value[distroFamily].website.forum;
-                var currentDistroDistroWatchURL = value[distroFamily].website.distrowatch;
 
                 ////////////////////////////////////////////////////////////////////////////
 
                 if (localDistroName == currentDistroName) {
-                    displayDistroOutput(currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroDistroWatchURL, currentDistroSoftwareType);
+                    displayDistroOutput(currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType);
                 }
 
             }

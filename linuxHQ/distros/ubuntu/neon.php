@@ -7,7 +7,7 @@
   $pageTitle = '(KDE) Neon';
 
   echo '<script type="text/javascript">';
-    echo 'var localDistroName = "kdeneon"; ';
+    echo 'var localDistroName = "neon"; ';
 echo '</script>';
 
 ?>

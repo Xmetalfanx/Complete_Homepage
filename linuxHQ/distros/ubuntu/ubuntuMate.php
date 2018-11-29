@@ -8,7 +8,7 @@
 	$pageTitle = 'Ubuntu Mate';
 
 	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "umate"; ';
+		echo 'var localDistroName = "ubuntumate"; ';
 	echo '</script>';
 
 ?>

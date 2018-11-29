@@ -19,9 +19,7 @@
                 "download": "http://www.fedora.com",
                 "forum": "http://forums.fedoraforum.org/",
                 "homepage": "http://www.fedora.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "fedora"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "korora",
@@ -42,9 +40,7 @@
                 "download": "https://kororaproject.org/download",
                 "forum": "https://kororaproject.org/support/engage",
                 "homepage": "https://kororaproject.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "korora"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "mageia",
@@ -65,9 +61,7 @@
                 "download": "http://mageia.org/en/downloads/",
                 "forum": "https://forums.mageia.org/",
                 "homepage": "http://mageia.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "mageia"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "openmandriva",
@@ -88,9 +82,7 @@
                 "download": "http://openmandriva.org/en/download_lx",
                 "forum": "http://forums.openmandriva.org/",
                 "homepage": "http://openmandriva.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "openmandriva"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "rosa",
@@ -111,16 +103,14 @@
                 "download": "http://wiki.rosalab.ru/en/index.php/ROSA_Release",
                 "forum": "http://forum.rosalab.ru/",
                 "homepage": "http://www.rosalabs.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "rosa"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "opensuse",
             "distroTitle": "Open Suse",
             "family": "rpm",
             "graphics": {
-                "iconURL": "suse.png"
+                "iconURL": "opensuse.svg"
             },
             "moreinfo": {
                 "desktops": "Various",
@@ -134,9 +124,7 @@
                 "download": "",
                 "forum": "http://forums.opensuse.org/",
                 "homepage": "http://www.opensuse.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "suse"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "pclinuxos",
@@ -157,9 +145,7 @@
                 "download": "http://pclinuxos.com/?page_id=10",
                 "forum": "http://www.pclinuxos.com/forum",
                 "homepage": "http://www.pclinuxos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "PCLinuxOS"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         },
         {
             "distroName": "centOS",
@@ -180,9 +166,7 @@
                 "download": "",
                 "forum": "",
                 "homepage": "http://www.centos.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "centos"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
         }
     ],
     "arch": [{
@@ -203,9 +187,7 @@
                 "download": "http://www.antergos.com/try-it/",
                 "forum": "http://forum.antergos.com/",
                 "homepage": "https://antergos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php",
-                "distrowatch": "antergos"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php"            }
         },
         {
             "distroName": "arch",
@@ -225,9 +207,7 @@
                 "download": "http://www.archlinux.org/download/",
                 "forum": "http://bbs.archlinux.org/",
                 "homepage": "http://www.archlinux.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php",
-                "distrowatch": "arch"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php"            }
         },
         {
             "distroName": "archbang",
@@ -247,9 +227,7 @@
                 "download": "http://sourceforge.net/projects/archbang/files/",
                 "forum": "http://bbs.archbang.org/",
                 "homepage": "http://bbs.archbang.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php",
-                "distrowatch": "archbang"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php"            }
         },
         {
             "distroName": "manjaro",
@@ -269,9 +247,7 @@
                 "download": "http://manjaro.org/get-manjaro/",
                 "forum": "http://forum.manjaro.org/",
                 "homepage": "https://manjaro.github.io",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php",
-                "distrowatch": "manjaro"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php"            }
         }
     ],
     "debian": [{
@@ -292,9 +268,7 @@
                 "forum": "https://www.antixforum.com/",
                 "homepage": "https://antixlinux.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/",
-                "similar": "Linux Mint Debian Edition, Sparky Linux",
-                "distrowatch": "antix"
-            }
+                "similar": "Linux Mint Debian Edition, Sparky Linux"            }
         },
         {
             "distroName": "bunsenlabs",
@@ -313,9 +287,7 @@
                 "download": "https://forums.bunsenlabs.org",
                 "forum": "https://forums.bunsenlabs.org",
                 "homepage": "https://www.bunsenlabs.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php",
-                "distrowatch": "bunsenlabs"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"            }
         },
         {
             "distroName": "debian",
@@ -335,9 +307,7 @@
                 "download": "",
                 "forum": "http://forums.debian.net/",
                 "homepage": "http://www.debian.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php",
-                "distrowatch": "debian"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"            }
         },
         {
             "distroName": "lmde",
@@ -357,9 +327,7 @@
                 "download": "http://www.linuxmint.com/download_lmde.php",
                 "forum": "",
                 "homepage": "http://www.linuxmint.com/download_lmde.php",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php",
-                "distrowatch": "lmde"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php"            }
         },
         {
             "distroName": "solyd",
@@ -379,9 +347,7 @@
                 "download": "http://downloads.solydxk.com/",
                 "forum": "",
                 "homepage": "http://solydxk.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/soyldxk.php",
-                "distrowatch": "solydxk"
-            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/soyldxk.php"            }
         },
         {
             "distroName": "sparky",
@@ -401,12 +367,11 @@
                 "download": "https://sparkylinux.org/download/",
                 "forum": "#",
                 "homepage": "https://sparkylinux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php",
-                "distrowatch": "sparky"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php"
             }
         },
         {
-            "distroName": "mxlinux",
+            "distroName": "mx",
             "distroTitle": "MX Linux",
             "graphics": {
                 "iconURL": ""
@@ -423,8 +388,7 @@
                 "download": "https://mxlinux.org/download-links",
                 "forum": "",
                 "homepage": "https://mxlinux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php",
-                "distrowatch": "mx"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php"
             }
         },
         {
@@ -445,8 +409,7 @@
                 "download": "http://pointlinux.org/download.htm",
                 "homepage": "http://pointlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "forum": "",
-                "distrowatch": "point"
+                "forum": ""
             }
         },
         {
@@ -467,8 +430,7 @@
                 "download": "https://crunchbangplusplus.org/download/",
                 "homepage": "https://crunchbangplusplus.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "forum": "https://www.reddit.com/r/crunchbangplusplus/",
-                "distrowatch": ""
+                "forum": "https://www.reddit.com/r/crunchbangplusplus/"
             }
         },
         {
@@ -489,8 +451,7 @@
                 "download": "http://www.makululinux.com/wp/downloads/",
                 "homepage": "http://www.makululinux.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "forum": "http://makululinux.discussion.community/",
-                "distrowatch": "makulu"
+                "forum": "http://makululinux.discussion.community/"
             }
         }
     ],
@@ -512,8 +473,7 @@
                 "download": "http://www.calculate-linux.org/main/en/download",
                 "forum": "http://www.calculate-linux.org/projects/en/boards",
                 "homepage": "http://www.calculate-linux.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "calculate"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -534,8 +494,7 @@
                 "download": "",
                 "forum": "",
                 "homepage": "http://www.gentoo.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "gentoo"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -556,8 +515,7 @@
                 "download": "http://www.sabayon.org/download",
                 "forum": "http://forum.sabayon.org/",
                 "homepage": "http://www.sabayon.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "sabayon"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ],
@@ -582,7 +540,7 @@
         }
     },
     "ubuntu": [{
-            "distroName": "elementaryOS",
+            "distroName": "elementary",
             "distroTitle": "ElementaryOS",
             "graphics": {
                 "iconURL": "elementary.svg"
@@ -599,8 +557,7 @@
                 "download": "http://sourceforge.net/projects/elementaryos/files/",
                 "forum": "https://elementaryforums.com/index.php",
                 "homepage": "http://elementary.io",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "elementary"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -621,8 +578,7 @@
                 "download": "http://www.linuxmint.com/download.php",
                 "forum": "http://linuxmint.com/forum/",
                 "homepage": "http://www.linuxmint.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "mint"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -643,8 +599,7 @@
                 "download": "https://neon.kde.org/download",
                 "forum": "https://forum.kde.org/",
                 "homepage": "https://neon.kde.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "neon"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -665,8 +620,7 @@
                 "download": "https://peppermintos.com/",
                 "forum": "",
                 "homepage": "http://peppermintos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "peppermint"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -687,13 +641,12 @@
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.kubuntu.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "kubuntu"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
             "distroName": "lubuntu",
-            "distroTitle": "lubuntu",
+            "distroTitle": "Lubuntu",
             "graphics": {
                 "iconURL": "lubuntu.svg"
             },
@@ -709,8 +662,7 @@
                 "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://lubuntu.net",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "lubuntu"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -731,8 +683,7 @@
                 "download": "http://uberstudent.com/get-uberstudent",
                 "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
                 "homepage": "http://uberstudent.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "uberstudent"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -753,12 +704,11 @@
                 "download": "http://www.ubuntu.com/desktop/get-ubuntu/download",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.ubuntu.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "ubuntu"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
-            "distroName": "umate",
+            "distroName": "ubuntumate",
             "distroTitle": "Ubuntu Mate",
             "graphics": {
                 "iconURL": "ubuntuMate.svg"
@@ -774,8 +724,7 @@
             "website": {
                 "download": "https://ubuntu-mate.org/download/",
                 "forum": "https://ubuntu-mate.community/",
-                "homepage": "http://ubuntu-mate.org",
-                "distrowatch": "ubuntumate"
+                "homepage": "http://ubuntu-mate.org"
             }
         },
         {
@@ -796,8 +745,7 @@
                 "download": "http://xubuntu.org/getxubuntu/",
                 "forum": "",
                 "homepage": "http://www.xubuntu.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "xubuntu"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -818,8 +766,7 @@
                 "download": "http://zorin-os.com/free.html\"",
                 "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
                 "homepage": "http://www.zorin-os.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "zorin"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -840,8 +787,7 @@
                 "download": "http://sourceforge.net/projects/linuxlite/files",
                 "forum": "https://www.linuxliteos.com/forums/",
                 "homepage": "http://www.linuxliteos.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "linuxlite"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         },
         {
@@ -862,8 +808,7 @@
                 "download": "http://www.lxle.net/download",
                 "forum": "http://lxle.net/forum/",
                 "homepage": "http://www.lxle.net",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
-                "distrowatch": "lxle"
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             }
         }
     ]
