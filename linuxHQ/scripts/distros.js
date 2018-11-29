@@ -12,52 +12,59 @@ function displayDistroOutput(currentDistroName, currentDistroIcon, currentDistro
     // Download and Forum links below are wrong 
     const currentDistroInfoOutput = `
 
-            <div class="card">
-                <div class="card-title m-0 p-2 bg-primary text-white">
-                    <div class="row pl-3"> 
-                        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" width="48px" height="48px">
-                        <div class="h2 font-weight-bold ">${currentDistroTitle}</div>
-                    </div>
+         
+        <div class="card">
+            <div class="card-title m-0 p-2 bg-primary text-white">
+                <div class="row pl-3"><img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
+                    <div class="font-weight-bold h2 pl-3">${currentDistroTitle}</div>
                 </div>
             </div>
+            <div class="card-text p-2">
+                <div class="row">
+                    <div class="col-md-6 d-md-inline">
+                    
+                        <span class="font-weight-bold">Homepage: </span>
+                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
+                        
+                        <span class="font-weight-bold">Download: </span>
+                            <a href="${currentDistroDownload}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
+                        
+                        <span class="font-weight-bold">Forums:</span>
+                            <a href="${currentDistroForum}" target="_blank">${currentDistroTitle}'s Forum</a><br/>
+                        
+                        <div>
+                            <span class="font-weight-bold">Distrowatch Page: </span>
+                            <a href="${DWPage}${currentDistroName}" blank="_blank">${currentDistroTitle} Distrowatch Link 
+                            </a>
+                        </div>
+                        <br/>
+                    
+                    <div> 
+                        <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}</div>
+                    <div>
+                        <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}</div>
+                    <div>
+                        <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}</div>
+                    <div>
+                        <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}</div>
+                    </div>
+                    
+                    <div class="col-md-6 d-none d-md-inline">
+                        <img class="img-fluid p-2" src="https://picsum.photos/400/400/?random">
+                    </div>
+                </div>
             
-            <div class="card-text">
-                <span class="font-weight-bold">Homepage: </span>
-                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
-                
-                <span class="font-weight-bold">Download: </span>
-                <a href="${currentDistroDownload}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
-                
-                <span class="font-weight-bold">Forums:</span>
-                <a href="${currentDistroForum}" target="_blank">${currentDistroTitle}'s Forum</a><br/><br/>
-                
-                <div class="font-weight-bold">Distrowatch Page: </div>
-                <a href="${DWPage}${currentDistroName}" blank="_blank">${currentDistroTitle} Distrowatch Link </a>
-                <br/>
-
-                <div class="font-weight-bold">Target Audience: </div> ${currentDistroTargetAudience}
-                
-                <div class="font-weight-bold">Featured Desktops: </div> ${currentDistroFeaturesDesktops}
-                
-                <div class="font-weight-bold">Similar Distros: </div> ${currentDistroSimilarDistros}
-                
-                <div class="font-weight-bold">Software Type: </div> ${currentDistroSoftwareType}
-                
-                <br/><br/>
-            
-            
-            <span class="font-weight-bold h4">Youtube Playlists</span><br/>
-            <div class="row"> 
+            <span class="font-weight-bold h4">Youtube Playlists </span>
                 <div class="col-6">
                     <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span>
                 </div>
+                
                 <div class="col-6">
-                    <span class="font-weight-bold">Youtube Tweaks and Tips Playlist</span>
+                    <span class="font-weight-bold">Youtube Tweaks and Tips Playlist: </span>
                 </div>
             </div>
-            </div>
         </div>
-        <hr />
+
         `;
 
 

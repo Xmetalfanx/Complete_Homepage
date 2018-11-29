@@ -4,28 +4,34 @@
         h3.font-weight-bold ${currentDETitle}
     
     .card-text
-        span.font-weight-bold Homepage:
-        a(href='${currentDEHomepage}' target='_blank') ${currentDETitle}'s Homepage
-        br
+        .row 
+            .col-md-6
+                span.font-weight-bold Homepage:
+                a(href='${currentDEHomepage}' target='_blank') ${currentDETitle}'s Homepage
+                br
 
-        span.font-weight-bold Github URL: 
-        a(href='${currentDEGithub}' target='_blank') ${currentDETitle} on Github
-        br
-        br 
+                span.font-weight-bold Github URL: 
+                a(href='${currentDEGithub}' target='_blank') ${currentDETitle} on Github
+                br
+                br 
 
 
-        span.font-weight-bold Latest Version: 
-        | ${currentDELatestVersion}
-        br 
+                span.font-weight-bold Latest Version: 
+                | ${currentDELatestVersion}
+                br 
 
-        span.font-weight-bold Desktop Catagory: 
-        | ${currentDECatagory}
-        br
+                span.font-weight-bold Desktop Catagory: 
+                | ${currentDECatagory}
+                br
 
-        span.font-weight-bold Distros That Feature: 
-        | ${currentDEdistroFeature}
-        br
-        br 
+                span.font-weight-bold Distros That Feature: 
+                | ${currentDEdistroFeature}
+                br
+                br 
+
+
+            .col-md-6
+                img(src="https://picsum.photos/400/400/?random")
 
         span.font-weight-bold Desktop Requirements: 
         ul
@@ -38,3 +44,7 @@
             li 
                 span.font-italics Required Hard Drive Space: 
                 | ${currentDEReqHDD}
+
+
+        ${deVersionsOutput}
+        ${deInstallOutput}

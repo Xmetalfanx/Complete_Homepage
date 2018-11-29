@@ -11,7 +11,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
         <h3 class="font-weight-bold">Versions</h3>
         <div class="font-weight-bold">Latest Version: ${currentDELatestVersion}</div>
         
-        <br /><br />
+        <br />
             
             <div class="row">
                 <div class="col-md-3"> Arch: ${currentDEArchVersion}  </div>
@@ -99,46 +99,43 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
     // Complete Header 
     const deInfoCard = `
-        <div class="card">
-            <div class="card-header bg-primary text-white">
-                <h3 class="font-weight-bold"> ${currentDETitle}  </h3>
-            </div> <!-- Ends card-header class --> 
 
-            <div class="card-text">
-                <span class="font-weight-bold">Homepage:</span>
-                    <a href="${currentDEHomepage}" target="_blank" rel="noopener">${currentDETitle}'s Homepage</a> 
-                <br />
-                <span class="font-weight-bold">Github URL: </span>
-                    <a href="${currentDEGithub}" target="_blank"rel="noopener">${currentDETitle} on Github</a>
-                <br><br>
-        
-                <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br />
-                <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}
-                <br /><br />
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="font-weight-bold">${currentDETitle}</h3>
+                </div>
+                <div class="card-text">
+                    <div class="row"> 
+                        <div class="col-md-6">
+                            <span class="font-weight-bold">Homepage:</span>
+                            <a href="${currentDEHomepage}" target="_blank">${currentDETitle}'s Homepage</a><br>
+                            <span class="font-weight-bold">Github URL: </span>
 
-                <bold>Desktop Requirements: </bold>
-                <ul>
-                    <li> 
-                        <span class="font-italics">Required Processor: </span>${currentDEReqProc}
-                    </li>
-                    <li> 
-                        <span class="font-italics">Required Memory: </span>${currentDEReqMem}
-                    </li>
-                    <li> 
-                        <span class="font-italics">Required Hard Drive Space: </span>${currentDEReqHDD}
-                    </li>
-                </ul>
-                <br />
+                            <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a><br><br>
+
+                            <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
+                            
+                            <span class="font-weight-bold">Desktop Catagory: </span>${currentDECatagory}<br>
+                            <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}<br>
+                            
+                            <br>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <img src="https://picsum.photos/400/400/?random">
+                        </div>
+                    </div>
+                    
+                    <span class="font-weight-bold">Desktop Requirements: </span>
+                    <ul>
+                        <li> <span class="font-italics">Required Processor: </span>${currentDEReqProc}</li>
+                        <li> <span class="font-italics">Required Memory: </span>${currentDEReqMem}</li>
+                        <li> <span class="font-italics">Required Hard Drive Space: </span>${currentDEReqHDD}</li>
+                    </ul>
                 
-   
                     ${deVersionsOutput}
-                    <br />
                     ${deInstallOutput}
 
-                <br />
-                <hr />
-               
-                
                 </div> <!-- Closes card-text -->
             </div> <!-- Closes card --> 
                 

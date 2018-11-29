@@ -520,7 +520,11 @@
         }
     ],
     "supported": {
-        "arch": "all",
+        "arch": {
+            "currentlySupported": "all",
+            "manjl laro": "",
+            "rollingMessage":"As with any rolling release the more out of date it is, since the prior updates, the more things on some setups MAY have the chance of breaking when an update IS done."
+            },
         "fedora": {
             "currentlySupported": "Fedora 27, Fedora 28, Fedora 29, Rawhide",
             "F27EOL": "One month after the release of Fedora 29",
@@ -659,7 +663,7 @@
             },
             "version": "14.04 LTS, 16.04 LTS",
             "website": {
-                "download": "http://ubuntuforums.org/tags.php?tag=lubuntu",
+                "download": "https://lubuntu.net/downloads/",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://lubuntu.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
@@ -669,7 +673,7 @@
             "distroName": "uberstudent",
             "distroTitle": "Uberstudent",
             "graphics": {
-                "iconURL": ""
+                "iconURL": "uberstudent.png"
             },
             "moreinfo": {
                 "desktops": "XFCE",

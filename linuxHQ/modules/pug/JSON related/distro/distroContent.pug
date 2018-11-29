@@ -1,49 +1,50 @@
 .card
     .card-title.m-0.p-2.bg-primary.text-white
         .row.pl-3
-            img(src="${currentDistroIcon}" alt="${currentDistroTitle} icon" width="48px" height="48px") 
-            .font-weight-bold.h2 ${currentDistroTitle}
+            img(src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;" ) 
+            .font-weight-bold.h2.pl-3 ${currentDistroTitle}
     
-    .card-text
+    .card-text.p-2
+        .row
+            .col-md-6.d-md-inline
+                span.font-weight-bold Homepage: 
+                a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Homepage
+                br/
 
-        span.font-weight-bold Homepage: 
-        a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Homepage
-        br/
+                span.font-weight-bold Download: 
+                a(href="${currentDistroDownload}" target="_blank") ${currentDistroTitle}'s Download Page
+                br/
 
-        span.font-weight-bold Download: 
-        a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Download Page
-        br/
+                span.font-weight-bold Forums:
+                a(href="${currentDistroForum}" target="_blank") ${currentDistroTitle}'s Forum
+                br/
 
-        span.font-weight-bold Forums:
-        a(href="${currentDistroHomepage}" target="_blank") ${currentDistroTitle}'s Forum
-        br/
-        br/
-
-
-        div.font-weight-bold Distrowatch Page: 
-        a(href="${currentDistroDistroWatchURL}" blank="_blank") ${currentDistroTitle} Distrowatch Link 
-        br/
+                div
+                    span.font-weight-bold Distrowatch Page: 
+                    a(href="${DWPage}${currentDistroName}" blank="_blank") ${currentDistroTitle} Distrowatch Link 
+                br/
+                    
+                div 
+                    span.font-weight-bold Target Audience: 
+                    | ${currentDistroTargetAudience}
             
-        div.font-weight-bold Target Audience: 
-        div ${currentDistroTargetAudience}
-    
-        div.font-weight-bold Featured Desktops: 
-        div ${currentDistroFeaturesDesktops}
-    
-        div.font-weight-bold Similar Distros: 
-        div ${currentDistroSimilarDistros}
+                div
+                    span.font-weight-bold Featured Desktops: 
+                    | ${currentDistroFeaturesDesktops}
+            
+                div
+                    span.font-weight-bold Similar Distros: 
+                    | ${currentDistroSimilarDistros}
+                
+                div
+                    span.font-weight-bold Software Type: 
+                    | ${currentDistroSoftwareType}
+                
+
+            .col-md-6.d-none.d-md-inline
+                img.img-fluid.p-2(src="https://picsum.photos/400/400/?random")
         
-        div.font-weight-bold Software Type: 
-        ${currentDistroSoftwareType}
-        
-        br/
-        br/
-
-
-
         span.font-weight-bold.h4 Youtube Playlists
-        br/
-        .row 
             .col-6
                 span.font-weight-bold Youtube Reviews and Comment Playlist: 
             .col-6
