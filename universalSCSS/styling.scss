@@ -1,5 +1,7 @@
 @import "1-custom/custom-dir";
+
 $footerheight: 75px;
+
 html,
 body {
     height: 100%;
@@ -46,11 +48,10 @@ body {
     background-color: $white;
 }
 
-kbd {
+code {
     color: $white;
-    background-color: #3e3f3a;
-    padding: 1%;
-    line-height: 5;
+    display: inline-block;
+    background-color: $BGColor;
 }
 
 footer {

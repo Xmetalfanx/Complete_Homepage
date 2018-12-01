@@ -206,16 +206,7 @@
     "sstheme": "",
     "ssicon": "",
     "sscursor": ""
-}, {
-    "distroName": "opensuse",
-    "family": "rpm",
-    "src": null,
-    "href": "https://en.opensuse.org/Portal:42.3/Scree",
-    "ssde": "",
-    "sstheme": null,
-    "ssicon": null,
-    "sscursor": null
-}, {
+},  {
     "distroName": "kaos",
     "family": "independant",
     "src": "/linuxHQ/screenshots/kaosKDE1.jpg",
@@ -224,31 +215,6 @@
     "sstheme": null,
     "ssicon": null,
     "sscursor": null
-}, {
-    "distroName": "mint",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-    "href": null,
-    "ssde": "cinnamon",
-    "sstheme": "mintx",
-    "ssicon": "mintx",
-    "sscursor": null
-}, {
-    "distroName": "umate",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/umate1.png",
-    "href": null,
-    "ssde": "mate",
-    "sstheme": null,
-    "ssicon": null,
-    "sscursor": null
-}, {
-    "distroName": "mxlinux",
-    "family": "debian",
-    "src": null,
-    "href": "https://mxlinux.org/screenshots",
-    "ssde": "xfce",
-    "sstheme": null,
-    "ssicon": null,
-    "sscursor": null
-}]
+}
+
+]

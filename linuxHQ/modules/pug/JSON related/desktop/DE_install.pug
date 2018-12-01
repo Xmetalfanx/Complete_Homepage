@@ -1,38 +1,51 @@
-h3.font-weight-bold How to Install: 
+  h3.font-weight-bold How to Install:
 
-.font-weight-bold Arch Linux: 
-kbd ${currentDEarchInstall}
-
-.font-weight-bold Fedora: 
-kbd ${currentDEfedoraInstall}
-
-.font-weight-bold OpenSUSE: 
-
-div Install on OpenSUSE
-    kbd ${currentDEopensuseInstall}
-    br/
-
-div POSSIBLE Extra Repos (There may or may not be content below) 
-br /
-    
-    div.font-italic Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos 
-
-    ul
-        li.font-weight-bold Leap 42.3
-        kbd ${currentDEopensuseLeap423Install}
+.card
+    .card-header.font-weight-bold Arch Linux: 
+       
+    .card-text 
+        code.my-3.p-2 ${currentDEarchInstall}
         
-        li.font-weight-bold Leap 15.0 
-        kbd ${currentDEopensuseLeap15Install}
         
-        li.font-weight-bold Tumbleweed
-        kbd ${currentDEopensuseTWInstall}
+.card
+    .card-header.font-weight-bold Fedora:
+       
+    .card-text 
+        code.my-3.p-2 ${currentDEfedoraInstall}
 
-    
-.font-weight-bold Ubuntu
 
-ul
-    li Installing on Ubuntu: 
-        kbd ${currentDEubuntuInstall}
 
-    li Installing on Linux Mint: 
-        kbd ${currentDEmintInstall}
+.card
+    .card-header.font-weight-bold  OpenSUSE: 
+       
+    .card-text 
+
+        
+        code.my-3.p-2 ${currentDEopensuseInstall}
+        br/
+
+
+        small POSSIBLE Extra Repos (There may or may not be content below) 
+        br /
+        
+        div.font-italic Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos 
+
+        ul
+            li.font-weight-bold Leap 42.3
+            code.my-3.p-2 ${currentDEopensuseLeap423Install}
+            
+            li.font-weight-bold Leap 15.0 
+            code.my-3.p-2 ${currentDEopensuseLeap15Install}
+            
+            li.font-weight-bold Tumbleweed
+            code.my-3.p-2 ${currentDEopensuseTWInstall}
+
+            
+        .font-weight-bold Ubuntu
+
+        ul
+            li Installing on Ubuntu: 
+                code.my-3.p-2 ${currentDEubuntuInstall}
+
+            li Installing on Linux Mint: 
+                code.my-3.p-2 ${currentDEmintInstall}
