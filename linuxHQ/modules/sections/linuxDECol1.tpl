@@ -1,13 +1,17 @@
 
 <div class="card">
-  <div class="card-header bg-primary text-white">Desktops Environments</div>
+  <div class="card-header bg-primary text-white">
+    Desktops Environments
+  </div>
+  
   <a href="/linuxHQ/desktops/budgie.php">Budgie-Desktop</a>
-  <a href="/linuxHQ/desktops/cinnamon.php">Cinnamon</a>Gnome-shell
+  <a href="/linuxHQ/desktops/cinnamon.php">Cinnamon</a>
+  <a href="/linuxHQ/desktops/gnomeshell.php">Gnome-shell</a>
   <a href="/linuxHQ/desktops/KDE.php">KDE</a>
   <a href="/linuxHQ/desktops/mate.php">Mate</a>
   <a href="/linuxHQ/desktops/openbox.php">Openbox</a>
   <a href="/linuxHQ/desktops/LXDE.php">LXDE</a>
-   <a href="/linuxHQ/desktops/LXQT.php">LXQT</a>
+  <a href="/linuxHQ/desktops/LXQT.php">LXQT</a>
   <a href="/linuxHQ/desktops/XFCE.php">XFCE</a>
 </div>
 

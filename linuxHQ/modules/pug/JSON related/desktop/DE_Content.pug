@@ -41,8 +41,8 @@
                         | ${currentDEReqHDD}
 
             .col-md-6
-                img.d-block.mx-auto.p-4.img-fluid(src="${currentDEScreenshot}" alt="{currentDETitle} Screenshot")
+                a(href="${screenshotDIR}${currentDEScreenshot}" target="_blank")
+                    img.d-block.mx-auto.p-4.img-fluid(src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot")
 
-
-        ${deVersionsOutput}
-        ${deInstallOutput}
+        | ${deVersionsOutput}
+        | ${deInstallOutput}
