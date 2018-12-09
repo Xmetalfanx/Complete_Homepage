@@ -137,6 +137,14 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             </ul> 
         `;
 
+
+        const DEScreenshotOutput = `
+        <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
+            <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
+        </a>
+        
+        `;
+
     // Complete Header 
     const deInfoCard = `
 
@@ -178,9 +186,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                         </div>
                         
                         <div class="col">
-                            <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                                <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
-                            </a>
+                            ${DEScreenshotOutput}
                         </div>
                     </div>
                     
