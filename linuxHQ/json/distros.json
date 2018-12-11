@@ -19,7 +19,21 @@
                 "download": "http://www.fedora.com",
                 "forum": "http://forums.fedoraforum.org/",
                 "homepage": "http://www.fedora.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+                
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop":"",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "korora",
@@ -40,7 +54,21 @@
                 "download": "https://kororaproject.org/download",
                 "forum": "https://kororaproject.org/support/engage",
                 "homepage": "https://kororaproject.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+                
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "mageia",
@@ -61,7 +89,21 @@
                 "download": "http://mageia.org/en/downloads/",
                 "forum": "https://forums.mageia.org/",
                 "homepage": "http://mageia.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "openmandriva",
@@ -82,7 +124,21 @@
                 "download": "http://openmandriva.org/en/download_lx",
                 "forum": "http://forums.openmandriva.org/",
                 "homepage": "http://openmandriva.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "rosa",
@@ -103,7 +159,21 @@
                 "download": "http://wiki.rosalab.ru/en/index.php/ROSA_Release",
                 "forum": "http://forum.rosalab.ru/",
                 "homepage": "http://www.rosalabs.com",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "opensuse",
@@ -124,7 +194,21 @@
                 "download": "",
                 "forum": "http://forums.opensuse.org/",
                 "homepage": "http://www.opensuse.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "pclinuxos",
@@ -145,7 +229,21 @@
                 "download": "http://pclinuxos.com/?page_id=10",
                 "forum": "http://www.pclinuxos.com/forum",
                 "homepage": "http://www.pclinuxos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "centOS",
@@ -166,7 +264,21 @@
                 "download": "",
                 "forum": "",
                 "homepage": "http://www.centos.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         }
     ],
     "arch": [{
@@ -187,7 +299,21 @@
                 "download": "http://www.antergos.com/try-it/",
                 "forum": "http://forum.antergos.com/",
                 "homepage": "https://antergos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php"           
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "arch",
@@ -227,7 +353,21 @@
                 "download": "http://sourceforge.net/projects/archbang/files/",
                 "forum": "http://bbs.archbang.org/",
                 "homepage": "http://bbs.archbang.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "manjaro",
@@ -247,7 +387,21 @@
                 "download": "http://manjaro.org/get-manjaro/",
                 "forum": "http://forum.manjaro.org/",
                 "homepage": "https://manjaro.github.io",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         }
     ],
     "debian": [{
@@ -268,7 +422,21 @@
                 "forum": "https://www.antixforum.com/",
                 "homepage": "https://antixlinux.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/",
-                "similar": "Linux Mint Debian Edition, Sparky Linux"            }
+                "similar": "Linux Mint Debian Edition, Sparky Linux"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "bunsenlabs",
@@ -287,7 +455,21 @@
                 "download": "https://forums.bunsenlabs.org",
                 "forum": "https://forums.bunsenlabs.org",
                 "homepage": "https://www.bunsenlabs.org",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "debian",
@@ -307,7 +489,21 @@
                 "download": "",
                 "forum": "http://forums.debian.net/",
                 "homepage": "http://www.debian.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "lmde",
@@ -327,7 +523,21 @@
                 "download": "http://www.linuxmint.com/download_lmde.php",
                 "forum": "",
                 "homepage": "http://www.linuxmint.com/download_lmde.php",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php"            }
+                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php"            
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "solyd",
@@ -368,7 +578,20 @@
                 "forum": "#",
                 "homepage": "https://sparkylinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "mx",
@@ -389,7 +612,20 @@
                 "forum": "",
                 "homepage": "https://mxlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "pointlinux",
@@ -410,7 +646,20 @@
                 "homepage": "http://pointlinux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
                 "forum": ""
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "cbplusplus",
@@ -431,7 +680,20 @@
                 "homepage": "https://crunchbangplusplus.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
                 "forum": "https://www.reddit.com/r/crunchbangplusplus/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "makulu",
@@ -452,7 +714,20 @@
                 "homepage": "http://www.makululinux.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/",
                 "forum": "http://makululinux.discussion.community/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         }
     ],
     "gentoo": [{
@@ -474,7 +749,20 @@
                 "forum": "http://www.calculate-linux.org/projects/en/boards",
                 "homepage": "http://www.calculate-linux.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "gentoo",
@@ -495,7 +783,20 @@
                 "forum": "",
                 "homepage": "http://www.gentoo.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "sabayon",
@@ -516,7 +817,20 @@
                 "forum": "http://forum.sabayon.org/",
                 "homepage": "http://www.sabayon.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         }
     ],
     "supported": {
@@ -562,7 +876,20 @@
                 "forum": "https://elementaryforums.com/index.php",
                 "homepage": "http://elementary.io",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "mint",
@@ -583,7 +910,20 @@
                 "forum": "http://linuxmint.com/forum/",
                 "homepage": "http://www.linuxmint.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "kdeneon",
@@ -604,7 +944,20 @@
                 "forum": "https://forum.kde.org/",
                 "homepage": "https://neon.kde.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "peppermint",
@@ -625,7 +978,20 @@
                 "forum": "",
                 "homepage": "http://peppermintos.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "kubuntu",
@@ -646,7 +1012,20 @@
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.kubuntu.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "lubuntu",
@@ -667,7 +1046,20 @@
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://lubuntu.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "uberstudent",
@@ -688,7 +1080,20 @@
                 "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
                 "homepage": "http://uberstudent.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "ubuntu",
@@ -709,7 +1114,20 @@
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://www.ubuntu.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "ubuntumate",
@@ -729,7 +1147,20 @@
                 "download": "https://ubuntu-mate.org/download/",
                 "forum": "https://ubuntu-mate.community/",
                 "homepage": "http://ubuntu-mate.org"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "xubuntu",
@@ -750,7 +1181,20 @@
                 "forum": "",
                 "homepage": "http://www.xubuntu.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "zorin",
@@ -771,7 +1215,20 @@
                 "forum": "http://www.zoringroup.com/forum/viewforum.php?f=3",
                 "homepage": "http://www.zorin-os.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "linuxlite",
@@ -792,7 +1249,20 @@
                 "forum": "https://www.linuxliteos.com/forums/",
                 "homepage": "http://www.linuxliteos.com",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         },
         {
             "distroName": "lxle",
@@ -813,7 +1283,20 @@
                 "forum": "http://lxle.net/forum/",
                 "homepage": "http://www.lxle.net",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            }
+            },
+            "youtube":
+            {
+                "reviewPL": "",
+                "tutorialPL":""
+    
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": "",
+                "theme": "",
+                "icons": ""
+                }
         }
     ]
 }
