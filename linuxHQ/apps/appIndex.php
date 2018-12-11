@@ -81,5 +81,3 @@
 </div> <!-- Closes second col -->
 </div> <!-- closes row/mainBody -->
 
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

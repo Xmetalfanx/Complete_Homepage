@@ -5,6 +5,7 @@
     include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
 
 ?>
+  <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
 
 <body onload="getTICData()">
     <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
