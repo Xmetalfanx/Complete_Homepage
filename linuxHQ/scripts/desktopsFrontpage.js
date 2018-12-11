@@ -18,9 +18,8 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, cur
     // Complete Header 
     const deInfoCard = `
 
-            
-           
-                
+
+                ${DEScreenshotOutput}
             `;
 
         // Main output
