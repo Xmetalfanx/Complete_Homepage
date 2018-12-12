@@ -5,23 +5,35 @@ var myPage = "/linuxHQ/distro/";
 var DWPage = "https://distrowatch.com/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
+function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType) 
+{
 
-function displayDistroOutput(currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType) {
+    var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
+
+    var distroSShotTNPath = distroSShotPath + 'thumbnails/';
+
 
     // Template Literal for output
-    // Download and Forum links below are wrong 
+
+    const currentDistroSShotOutput = `
+    
+        <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
+            <img class="img-fluid p-2" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+        </a>
+    `;
+
     const currentDistroInfoOutput = `
 
-         
         <div class="card">
             <div class="card-title m-0 p-2 bg-primary text-white">
-                <div class="row pl-3"><img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
+                <div class="row pl-3">
+                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
                     <div class="font-weight-bold h2 pl-3">${currentDistroTitle}</div>
                 </div>
             </div>
             <div class="card-text p-2">
                 <div class="row">
-                    <div class="col-md-6 d-md-inline">
+                    <div class="col d-md-inline">
                     
                         <span class="font-weight-bold">Homepage: </span>
                             <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
@@ -39,21 +51,24 @@ function displayDistroOutput(currentDistroName, currentDistroIcon, currentDistro
                         </div>
                         <br/>
                     
-                    <div> 
-                        <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}</div>
-                    <div>
-                        <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}</div>
-                    <div>
-                        <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}</div>
-                    <div>
-                        <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}</div>
-                    </div>
+                        <div> 
+                            <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}</div>
+                        <div>
+                            <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}</div>
+                        <div>
+                            <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}</div>
+                        <div>
+                            <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}</div>
+                        </div>
                     
-                    <div class="col-md-6 d-none d-md-inline">
-                        <img class="img-fluid p-2" src="https://picsum.photos/400/400/?random">
+                    <div class="col d-none d-md-inline">
+                        ${currentDistroSShotOutput}
                     </div>
                 </div>
-            
+
+            <br />
+            <hr />
+
             <span class="font-weight-bold h4">Youtube Playlists </span>
                 <div class="col-6">
                     <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span>
@@ -84,7 +99,8 @@ function getDistroData(data, $localDistroName) {
 
                 //////////////////////////////////////////////////////////////////////////
                 // DECLARE VARIABLES
-                var iconPath
+
+                var currentDistroFamily = key;
 
                 // Name/Title
                 var currentDistroName = value[distroFamily].distroName;
@@ -106,10 +122,14 @@ function getDistroData(data, $localDistroName) {
                 var currentDistroDownload = value[distroFamily].website.download;
                 var currentDistroForum = value[distroFamily].website.forum;
 
+                // Screenshot 
+                var currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
+                var currentDistroScreenshot = value[distroFamily].screenshots.src;
+
                 ////////////////////////////////////////////////////////////////////////////
 
                 if (localDistroName == currentDistroName) {
-                    displayDistroOutput(currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType);
+                    displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType);
                 }
 
             }

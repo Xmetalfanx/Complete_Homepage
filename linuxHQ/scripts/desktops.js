@@ -3,7 +3,7 @@ var screenshotDIR = "/linuxHQ/screenshots/";
 
 
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall)
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall)
 {
 
     // Template Literal for output
@@ -84,7 +84,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                     <span class="text-right">${currentDEMint19Version}</span>
                 </div>
             </div>
-            <br />
 
 
             <div><small>Disclaimer: I decided to list the versions currently in different distro/versions of that distro. This 
@@ -137,14 +136,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             </ul> 
         `;
 
-
-        const DEScreenshotOutput = `
-        <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-            <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
-        </a>
-        
-        `;
-
     // Complete Header 
     const deInfoCard = `
 
@@ -186,7 +177,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                         </div>
                         
                         <div class="col">
-                            ${DEScreenshotOutput}
+                            <img class="d-md-block d-none mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshot}" alt="${currentDETitle} screenshot" >
                         </div>
                     </div>
                     
@@ -248,9 +239,8 @@ function getDesktopData(data, $localDEName) {
                     var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
                     var currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
 
-                    // Screenshot
+                    // Screenshot - just one for now 
                     var currentDEScreenshot = value[subFrameworks].screenshots.src;
-                    var currentDEScreenshotTN = value[subFrameworks].screenshots.thumbnails;
 
                     // Versions
                     var versionJSON = value[subFrameworks].versions;
@@ -306,7 +296,7 @@ function getDesktopData(data, $localDEName) {
                 
                     if (localDEName == currentDEName)
                     {
-                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall);
+                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall);
                     } 
                 }
 
