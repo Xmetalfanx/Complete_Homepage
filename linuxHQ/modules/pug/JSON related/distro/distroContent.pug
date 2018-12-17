@@ -19,27 +19,16 @@
                 a(href="${currentDistroForum}" target="_blank") ${currentDistroTitle}'s Forum
                 br/
 
-                div
-                    span.font-weight-bold Distrowatch Page: 
-                    a(href="${DWPage}${currentDistroName}" blank="_blank") ${currentDistroTitle} Distrowatch Link 
+                span.font-weight-bold Distrowatch Page: 
+                a(href="${DWPage}${currentDistroName}" blank="_blank") ${currentDistroTitle} Distrowatch Link 
+                
                 br/
+                br/
+
+                div
+                    h3.font-weight-bold.font-italic Versions
+                    span.font-weight-bold Latest Version: 
                     
-                div 
-                    span.font-weight-bold Target Audience: 
-                    | ${currentDistroTargetAudience}
-            
-                div
-                    span.font-weight-bold Featured Desktops: 
-                    | ${currentDistroFeaturesDesktops}
-            
-                div
-                    span.font-weight-bold Similar Distros: 
-                    | ${currentDistroSimilarDistros}
-                
-                div
-                    span.font-weight-bold Software Type: 
-                    | ${currentDistroSoftwareType}
-                
 
             .col.d-none.d-md-inline
                 img.img-fluid.p-2(src="https://picsum.photos/400/400/?random")

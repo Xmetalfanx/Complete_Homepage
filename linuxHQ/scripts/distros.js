@@ -22,6 +22,16 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         </a>
     `;
 
+    const currentDistroMoreInfoOutput = `
+            
+        <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}<br />
+        <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}<br />
+        <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}<br />
+        <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}<br />
+            
+
+    `;
+
     const currentDistroInfoOutput = `
 
         <div class="card">
@@ -31,51 +41,56 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
                     <div class="font-weight-bold h2 pl-3">${currentDistroTitle}</div>
                 </div>
             </div>
+            
             <div class="card-text p-2">
                 <div class="row">
                     <div class="col d-md-inline">
                     
-                        <span class="font-weight-bold">Homepage: </span>
-                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
-                        
-                        <span class="font-weight-bold">Download: </span>
-                            <a href="${currentDistroDownload}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
-                        
-                        <span class="font-weight-bold">Forums:</span>
-                            <a href="${currentDistroForum}" target="_blank">${currentDistroTitle}'s Forum</a><br/>
-                        
-                        <div>
+                            <span class="font-weight-bold">Homepage: </span>
+                                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
+                            
+                            <span class="font-weight-bold">Download: </span>
+                                <a href="${currentDistroDownload}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
+                            
+                            <span class="font-weight-bold">Forums:</span>
+                                <a href="${currentDistroForum}" target="_blank">${currentDistroTitle}'s Forum</a><br/>
+                            
                             <span class="font-weight-bold">Distrowatch Page: </span>
-                            <a href="${DWPage}${currentDistroName}" blank="_blank">${currentDistroTitle} Distrowatch Link 
-                            </a>
-                        </div>
-                        <br/>
+                                <a href="${DWPage}${currentDistroName}" blank="_blank">${currentDistroTitle} Distrowatch Link 
+                                </a>
+
+                            <br />
+                            <br />
+                            
+                            <div>
+                                <h3 class="font-weight-bold font-italic"> Versions</h3>
+
+                                <span class="font-weight-bold">Latest Version: </span><br />
+                                <br />
+                                <span class="font-weight-bold">Currently Supported Versions: <br />
+                            </div>
+
                     
-                        <div> 
-                            <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}</div>
-                        <div>
-                            <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}</div>
-                        <div>
-                            <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}</div>
-                        <div>
-                            <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}</div>
+                            ${currentDistroMoreInfoOutput}
                         </div>
-                    
-                    <div class="col d-none d-md-inline">
-                        ${currentDistroSShotOutput}
+                        
+                        <div class="col d-none d-md-inline">
+                            ${currentDistroSShotOutput}
+                        </div>
                     </div>
-                </div>
 
-            <br />
-            <hr />
+                    <br />
+                    <hr />
 
-            <span class="font-weight-bold h4">Youtube Playlists </span>
-                <div class="col-6">
-                    <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span>
-                </div>
-                
-                <div class="col-6">
-                    <span class="font-weight-bold">Youtube Tweaks and Tips Playlist: </span>
+                    <span class="font-weight-bold h4">Youtube Playlists </span>
+                        <div class="col-6">
+                            <span class="font-weight-bold">Youtube Reviews and Comment Playlist: </span>
+                        </div>
+                        
+                        <div class="col-6">
+                            <span class="font-weight-bold">Youtube Tweaks and Tips Playlist: 
+                    </span>
+
                 </div>
             </div>
         </div>

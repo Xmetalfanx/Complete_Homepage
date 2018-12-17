@@ -423,8 +423,8 @@
       "screenshots": {
         "desktop": "",
         "src": "antix.png",
-        "theme": "antix_tn.png",
-        "thumbnails":""
+        "theme": "",
+        "thumbnails":"antix_tn.png"
       },
       "version": "",
       "website": {
