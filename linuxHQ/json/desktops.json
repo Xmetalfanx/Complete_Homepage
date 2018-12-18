@@ -1,6 +1,5 @@
 {
-  "qt": [
-    {
+  "qt": [{
       "install": {
         "arch": "sudo pacman -S kde OR sudo pacman kde-meta",
         "fedora": "sudo dnf group install kde-desktop-environment",
@@ -14,7 +13,7 @@
       },
       "desktopName": "plasma5",
       "generalInfo": {
-        "distrosFeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
+        "distrosfeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
         "desktopCatagory": "heavyweight",
         "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
         "desktopGithubURL": ""
@@ -39,26 +38,20 @@
           "leap423": "5.8.7.1",
           "tumbleweed": "5.14.3"
         },
-        "solus":"5.14",
         "ubuntu": {
           "mint": {
             "mint173": "",
-            "mint18": "",
-            "mint19": "5.8.7.1"
+            "mint18": "5.8.7.1"
           },
           "neonversion": "5.10.4",
-          "lts1604ver": "5.5.5",
-          "lts1804ver": "",
-          "1810ver": "5.13.5-1"
+          "lts16040ver": "5.5.5",
+          "lts16043ver": ""
         }
       },
       "screenshots": {
-        "thumbnails": "ubuntu/thumbnails/kubuntu_tn.png",
-        "src": "ubuntu/kubuntu.png",
-        "distro": "Kubuntu",
-        "desktop": "Plasma 5",
-        "theme":"",
-        "icons":""
+        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
+        "distro": "Linux Mint",
+        "desktop":"Cinnamon"
       }
     },
     {
@@ -75,7 +68,7 @@
       },
       "desktopName": "lxqt",
       "generalInfo": {
-        "distrosFeature": "Lubuntu Next, Sparky Linux",
+        "distrosfeature": "Lubuntu Next, Sparky Linux",
         "desktopCatagory": "Light",
         "desktopHomepage": "https://lxqt.org/"
       },
@@ -99,82 +92,74 @@
           "leap423": "",
           "tumbleweed": ""
         },
-        "solus":"",
         "ubuntu": {
           "mint": {
             "mint173": "",
             "mint18": "",
-            "mint19": ""
+            "mintinstall": ""
           },
-          "lts1604ver": "",
-          "lts1804ver": "",
-          "1810ver": ""
+          "lts16040ver": "",
+          "lts16043ver": ""
         }
       },
       "screenshots": {
-        "src": "",
-        "distro": "",
-        "desktop": ""
-    }
-  }
-  ],
-  "wm": [
-    {
-      "install": {
-        "arch": "sudo pacman -S openbox",
-        "fedora": "",
-        "opensuse": "",
-        "ubuntu": "sudo apt install openbox",
-        "mintinstall": ""
-      },
-      "desktopName": "openbox",
-      "generalInfo": {
-        "distrosFeature": "Crunchbang++, Bunsenlabs, Arch",
-        "desktopCatagory": "Light",
-        "desktopHomepage": ""
-      },
-      "desktopTitle": "Openbox",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "versions": {
-        "latestVersion": "",
-        "updated": "November 30, 2018",
-        "arch": "",
-        "fedora": {
-          "f28": "3.6.1-9",
-          "f29": "3.6.1-10",
-          "rawhide": "3.6.1-10"
-        },
-        "opensuse": {
-          "leap15": "",
-          "leap423": "",
-          "tumbleweed": "3.6.1-3.7"
-        },
-        "solus":"",
-        "ubuntu": {
-          "mint": {
-            "mint173": "",
-            "mint18": "",
-            "mint19": ""
-          },
-          "lts1604ver": "3.6.1-1",
-          "lts1804ver": "3.6.1-7",
-          "1810ver": "",
-          "neonversion": "N/A"
-        }
-      },
-      "screenshots": {
-        "src": "",
+        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
         "distro": "Linux Mint",
-        "desktop": "Cinnamon"
+        "desktop":"Cinnamon"
       }
     }
   ],
-  "gtk2": [
-    {
+  "wm": [{
+    "install": {
+      "arch": "sudo pacman -S openbox",
+      "fedora": "",
+      "opensuse": "",
+      "ubuntu": "sudo apt install openbox",
+      "mintinstall": ""
+    },
+    "desktopName": "openbox",
+    "generalInfo": {
+      "distrosfeature": "Crunchbang++, Bunsenlabs, Arch",
+      "desktopCatagory": "Light",
+      "desktopHomepage": ""
+    },
+    "desktopTitle": "Openbox",
+    "requirements": {
+      "reqMemory": "",
+      "reqHDDSpace": "",
+      "reqProcessor": ""
+    },
+    "versions": {
+      "latestVersion": "",
+      "updated": "November 30, 2018",
+      "arch": "",
+      "fedora": {
+        "f28": "3.6.1-9",
+        "f29": "3.6.1-10",
+        "rawhide": "3.6.1-10"
+      },
+      "opensuse": {
+        "leap15": "",
+        "leap423": "",
+        "tumbleweed": "3.6.1-3.7"
+      },
+      "ubuntu": {
+        "mint": {
+          "mint173": "",
+          "mint18": ""
+        },
+        "lts16040ver": "",
+        "lts16043ver": "",
+        "neonversion": ""
+      }
+    },
+    "screenshots": {
+      "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
+      "distro": "Linux Mint",
+      "desktop":"Cinnamon"
+    }
+  }],
+  "gtk2": [{
       "install": {
         "arch": "sudo pacman -S xfce4 xfce-goodies",
         "fedora": "sudo dnf groupinstall xfce-desktop",
@@ -184,14 +169,15 @@
           "twRepo": "",
           "reference": ""
         },
-        "ubuntu": {
-          "ubuntuInstall": "sudo apt install xfce xfce-goodies",
-          "mintInstall": ""
+        "ubuntu": 
+        {
+            "ubuntuInstall":"sudo apt install xfce xfce-goodies",
+            "mintInstall":""
         }
       },
       "desktopName": "xfce",
       "generalInfo": {
-        "distrosFeature": "Linux Mint, Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent (16.04 based and no news of an 18.04 based release)",
+        "distrosfeature": "mintHP . 'Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent",
         "desktopCatagory": "lightweight",
         "desktopHomepage": "https://xfce.org/",
         "desktopGithubURL": "n/a"
@@ -221,34 +207,28 @@
           "leap423": "",
           "tumbleweed": "4.12"
         },
-        "solus":"",
         "ubuntu": {
           "mint": {
             "mint173": "",
-            "mint18": "",
-            "mint19": ""
+            "mint18": ""
           },
-          "lts1604ver": "4.12.2",
-          "lts1804ver": "4.12.4",
-          "1810ver": "4.12.4"
+          "lts16040ver": "4.12",
+          "lts16043ver": "4.12"
         }
       },
       "screenshots": {
-        "thumbnails":"ubuntu/thumbnails/linuxlite_tn.png",
-        "src": "ubuntu/linuxlite.png",
-        "distro": "Linux Lite",
-        "desktop": "XFCE",
-        "theme": "",
-        "icons": ""
+        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
+        "distro": "Linux Mint",
+        "desktop":"Cinnamon"
       }
     },
     {
       "desktopName": "lxde",
       "generalInfo": {
-        "distrosFeature": "Lubuntu, LXLE",
+        "distrosfeature": "Lubuntu, LXLE",
         "desktopCatagory": "lightweight",
         "desktopHomepage": "https://lxde.org/",
-        "desktopGithubURL": "https://github.com/lxde"
+        "desktopGithubURL": "n/a"
       },
       "desktopTitle": "LXDE",
       "requirements": {
@@ -270,17 +250,14 @@
           "leap15": "",
           "tumbleweed": ""
         },
-        "solus":"",
         "ubuntu": {
           "mint": {
             "mint173": "",
-            "mint18": "",
-            "mint19": ""
+            "mint18": ""
           },
-          "lts1604ver": "7ubuntu1",
-          "lts1804ver": "10",
-          "1810ver": "10",
-          "neonversion": "N/A"
+          "lts16040": "",
+          "lts16043": "",
+          "neonversion": ""
         }
       },
       "install": {
@@ -297,15 +274,13 @@
         }
       },
       "screenshots": {
-        "src": "",
-        "thumbnails": "",
-        "distro": "",
-        "desktop": ""
+        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
+        "distro": "Linux Mint",
+        "desktop":"Cinnamon"
       }
     }
   ],
-  "gtk3": [
-    {
+  "gtk3": [{
       "desktopName": "cinnamon",
       "generalInfo": {
         "distrosFeature": "Linux Mint, Korora/Fedora, Arch/Antergos ",
@@ -333,18 +308,19 @@
           "leap15": "3.6.7",
           "tumbleweed": "3.8.9"
         },
-        "solus":"",
         "ubuntu": {
           "mint": {
-            "mint173": "",
-            "mint18": "",
-            "mint19": ""
-
+            "mint173": "3.6",
+            "mint18": "2.8"
           },
-          "lts1604ver": "",
-          "lts1804ver": "",
-          "1810ver": "",
+          "lts16040ver": "",
+          "lts16043ver": "",
           "neonversion": ""
+        },
+        "screenshots": {
+          "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
+          "distro": "Linux Mint",
+          "desktop":"Cinnamon"
         }
       },
       "install": {
@@ -361,20 +337,12 @@
           "ubuntuInstall": "PPA Needed - Info coming later",
           "mintInstall": "sudo apt install mint-meta-cinnamon"
         }
-      },
-      "screenshots": {
-        "thumbnails": "ubuntu/thumbnails/mint_tn.png",
-        "src": "ubuntu/mint.png",
-        "distro": "Linux Mint",
-        "desktop": "Cinnamon",
-        "theme": "Mint-X",
-        "icon": "Mint-X"
       }
     },
     {
       "desktopName": "budgie",
       "generalInfo": {
-        "distrosFeature": "Solus, Ubuntu Budgie",
+        "distrosfeature": "Solus, Ubuntu Budgie",
         "desktopCatagory": "",
         "desktopHomepage": "https://budgie-desktop.org/home/",
         "desktopGithubURL": "https://github.com/solus-project/budgie-desktop"
@@ -399,24 +367,21 @@
           "leap423": "",
           "tumbleweed": ""
         },
-        "solus":"",
         "ubuntu": {
           "mint": {
-            "mint173": "",
-            "mint18": "",
-            "mint19": ""
+            "mint173ver": "",
+            "mint18ver": ""
           },
-          "lts1604ver": "10.4+git20171031.10.g9f71bb8-1.2",
-          "lts1804ver": "10.4+git20180830.02.f2dbc215fdb-2",
-          "1810ver": "10.4+git20180830.02.f2dbc215fdb-2",
-          "neonversion": "N/A"
+          "lts16040ver": "",
+          "lts16043ver": "",
+          "neonversion": ""
         }
       },
       "install": {
         "arch": "sudo pacman -S budgie-desktop",
         "fedora": "",
         "opensuse": {
-          "opensuseInstall": "",
+          "opensuseInstall":"",
           "repoLeap15": "",
           "repoLeap423": "",
           "twRepo": "",
@@ -426,23 +391,15 @@
           "ubuntuInstall": "sudo apt install budgie-desktop",
           "mintInstall": ""
         }
-      },
-      "screenshots": {
-        "thumbnails":"solus/thumbnails/solusbudgie_tn.png",
-        "src": "solus/solusbudgie.png",
-        "distro": "Solus",
-        "desktop": "Budgie",
-        "theme": "",
-        "icon": ""
       }
     },
     {
       "desktopName": "mate",
       "generalInfo": {
-        "distrosFeature": "Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",
+        "distrosfeature": "Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",
         "desktopCatagory": "lightweight",
         "desktopHomepage": "https://mate-desktop.org/",
-        "desktopGithubURL": "https://github.com/mate-desktop"
+        "desktopGithubURL": "n/a"
       },
       "desktopTitle": "Mate",
       "requirements": {
@@ -450,19 +407,20 @@
         "reqHDDSpace": "",
         "reqProcessor": ""
       },
+      "opensuse": {
+        "twrepo": "zypper ar -r http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_Tumbleweed/X11:MATE:Current.repo",
+        "reference": "https://en.opensuse.org/Portal:MATE/Install"
+      },
       "install": {
         "arch": "sudo pacman -S mate mate-extra",
         "fedora": "sudo dnf groupinstall mate-desktop mate-applications",
-        "opensuse": 
+        "opensuse": {},
+        "ubuntu":
           {
-          "twrepo": "zypper ar -r http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_Tumbleweed/X11:MATE:Current.repo",
-          "reference": "https://en.opensuse.org/Portal:MATE/Install"
+              "ubuntuInstall": "sudo apt install mate-desktop-environment",
+              "mintinstall": "sudo apt install mint-meta-mate"
           },
-        "ubuntu": 
-          {
-            "ubuntuInstall": "sudo apt install mate-desktop-environment",
-            "mintinstall": "sudo apt install mint-meta-mate"
-          }
+        "screenshots": "/linuxHQ/screenshots/ubuntu/umate1.png"
       },
       "versions": {
         "latestVersion": "",
@@ -478,86 +436,15 @@
           "leap15": "",
           "tumbleweed": "1.18.0"
         },
-        "solus":"",
         "ubuntu": {
           "mint": {
             "mint173": "1.12",
-            "mint18": "1.18.0",
-            "mint19": ""
+            "mint18": "1.18.0"
           },
-          "lts1604ver": "1.12.1-1",
-          "lts1804ver": "1.20.1-2",
-          "1810ver": "1.20.3-2",
-          "neonversion": "N/A"
-        }
-      },
-      "screenshots": {
-        "src": "ubuntu/umate1.png",
-        "thumbnails": "ubuntu/thumbnails/umate1_tn.png",
-        "distro": "Ubuntu Mate",
-        "desktop": "Mate"
-      }
-    },
-    {
-      "desktopName": "gnomeshell",
-      "generalInfo": {
-        "distrosFeature": "Ubuntu (default Desktop on 18.04 LTS and up, Fedora, openSUSE",
-        "desktopCatagory": "Heavyweight",
-        "desktopHomepage": "",
-        "desktopGithubURL": ""
-      },
-      "desktopTitle": "Gnome Shell / Gnome 3",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "install": {
-        "arch": "",
-        "fedora": "",
-        "opensuse": 
-          {
-          "twrepo": "",
-          "reference": ""
-          },
-        "ubuntu": 
-          {
-            "ubuntuInstall": "",
-            "mintinstall": ""
-          }
-      },
-      "versions": {
-        "latestVersion": "",
-        "updated": "",
-        "arch": "",
-        "fedora": {
-          "f28": " ",
-          "f29": "",
-          "rawhide": ""
-        },
-        "opensuse": {
-          "leap423": "",
-          "leap15": "",
-          "tumbleweed": ""
-        },
-        "solus":"",
-        "ubuntu": {
-          "mint": {
-            "mint173": "",
-            "mint18": "",
-            "mint19": ""
-          },
-          "lts1604ver": "",
-          "lts1804ver": "",
-          "1810ver": "",
+          "lts16040ver": "N/A",
+          "lts16043ver": "",
           "neonversion": ""
         }
-      },
-      "screenshots": {
-        "src": "",
-        "thumbnails": "",
-        "distro": "",
-        "desktop": ""
       }
     }
   ]

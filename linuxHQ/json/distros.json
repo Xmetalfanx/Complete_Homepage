@@ -593,7 +593,7 @@
       "distroName": "mx",
       "distroTitle": "MX Linux",
       "graphics": {
-        "iconURL": ""
+        "iconURL": "mx.png"
       },
       "moreinfo": {
         "desktops": "",

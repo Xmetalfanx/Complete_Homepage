@@ -69,6 +69,8 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
                                 <br />
                                 <span class="font-weight-bold">Currently Supported Versions: <br />
                             </div>
+                            <br />
+                            <hr />
 
                     
                             ${currentDistroMoreInfoOutput}

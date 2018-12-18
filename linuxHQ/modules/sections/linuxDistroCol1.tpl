@@ -15,7 +15,7 @@
   <a href="/linuxHQ/distros/debian/debian.php">Debian</a>
   <a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition </a>
   <a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a>
-  <a href="/linuxHQ/distros/debian/mxlinux.php">MX-16</a>
+  <a href="/linuxHQ/distros/debian/mxlinux.php">MX-Linux</a>
   <a href="/linuxHQ/distros/debian/pointLinux.php">Point Linux</a>
   <a href="/linuxHQ/distros/debian/solydxk.php">SolydXK</a>
   <a href="/linuxHQ/distros/debian/sparkylinux.php">Sparky Linux</a>
