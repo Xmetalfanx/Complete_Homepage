@@ -9,7 +9,7 @@
 <body onload="getDistroData()">
   <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
 
-  <div id="mainBody" class="row col-12">
+  <div class="row">
     <div class="col-xs-12 col-md-2">
       <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>

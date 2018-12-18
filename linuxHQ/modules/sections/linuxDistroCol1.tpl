@@ -10,8 +10,8 @@
 <div class="card">
   <div class="card-header bg-primary text-white">Debian Family</div>
   <a href="/linuxHQ/distros/debian/antix.php">Anti-X</a>
-  <a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs Linux (Crunchbang alternative)</a>
-  <a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++(Crunchbang alternative)</a>
+  <a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs</a>
+  <a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++</a>
   <a href="/linuxHQ/distros/debian/debian.php">Debian</a>
   <a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition </a>
   <a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a>
