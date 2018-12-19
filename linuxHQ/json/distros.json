@@ -701,6 +701,37 @@
         "reviewPL": "",
         "tutorialPL": ""
       }
+    },
+    {
+      "distroName": "deepin",
+      "distroTitle": "Deepin",
+      "graphics": {
+        "iconURL": "deepin.png"
+      },
+      "moreinfo": {
+        "desktops": "Deepin Desktop Envirnoment",
+        "similar": "",
+        "software": "Based on Ubuntu's Release Cycle",
+        "target": "Any Use",
+        "base": ""
+      },
+      "screenshots": {
+        "desktop": "",
+        "src": "deepin.png",
+        "theme": "",
+        "thumbnails":"deepin_tn.png"
+      },
+      "version": "",
+      "website": {
+        "download": "https://www.deepin.org/en/download/ ",
+        "forum": "https://bbs.deepin.org/",
+        "homepage": "https://deepin.org/",
+        "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
+      },
+      "youtube": {
+        "reviewPL": "",
+        "tutorialPL": ""
+      }
     }
   ],
   "gentoo": [
@@ -1223,37 +1254,6 @@
         "download": "http://www.lxle.net/download",
         "forum": "http://lxle.net/forum/",
         "homepage": "http://www.lxle.net",
-        "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-      },
-      "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
-    },
-    {
-      "distroName": "deepin",
-      "distroTitle": "Deepin",
-      "graphics": {
-        "iconURL": "deepin.png"
-      },
-      "moreinfo": {
-        "desktops": "Deepin Desktop Envirnoment",
-        "similar": "",
-        "software": "Based on Ubuntu's Release Cycle",
-        "target": "Any Use",
-        "base": ""
-      },
-      "screenshots": {
-        "desktop": "",
-        "src": "deepin.png",
-        "theme": "",
-        "thumbnails":"deepin_tn.png"
-      },
-      "version": "",
-      "website": {
-        "download": "https://www.deepin.org/en/download/ ",
-        "forum": "https://bbs.deepin.org/",
-        "homepage": "https://deepin.org/",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
