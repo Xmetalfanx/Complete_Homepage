@@ -89,7 +89,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
         "tutorialPL": ""
       }
     },
@@ -167,9 +167,9 @@
       },
       "screenshots": {
         "desktop": "",
-        "distro": "",
-        "src": "",
-        "theme": ""
+        "src": "opensuse.png",
+        "theme": "",
+        "thumbnails": "opensuse_tn.png"
       },
       "version": "Leap 42.3, Leap 15, Tumbleweed (Rolling)",
       "website": {
@@ -210,7 +210,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJcmkhysmXDXLmlmRvM3I8BZ",
         "tutorialPL": ""
       }
     },
@@ -332,6 +332,10 @@
         "forum": "http://bbs.archlinux.org/",
         "homepage": "http://www.archlinux.org",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php"
+      },
+      "youtube": {
+        "reviewPL": "",
+        "tutorialPL": ""
       }
     },
     {
@@ -424,7 +428,7 @@
         "similar": "Linux Mint Debian Edition, Sparky Linux"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -454,7 +458,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -485,7 +489,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ&playnext=1&index=1",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -516,7 +520,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -545,6 +549,10 @@
         "src": "soyldxk.png",
         "theme": "",
         "thumbnails":"soyldxk_tn.png"
+      },
+      "youtube": {
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tutorialPL": ""
       }
     },
     {
@@ -574,7 +582,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -605,7 +613,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -636,7 +644,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -667,7 +675,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -698,7 +706,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     },
@@ -711,9 +719,9 @@
       "moreinfo": {
         "desktops": "Deepin Desktop Envirnoment",
         "similar": "",
-        "software": "Based on Ubuntu's Release Cycle",
+        "software": "",
         "target": "Any Use",
-        "base": ""
+        "base": "Debian"
       },
       "screenshots": {
         "desktop": "",
@@ -729,7 +737,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
         "tutorialPL": ""
       }
     }
@@ -744,7 +752,7 @@
       "moreinfo": {
         "desktops": "Various",
         "similar": "Gentoo, Sabayon",
-        "target": ""
+        "target": "Advanced Users"
       },
       "screenshots": {
         "desktop": "",
@@ -918,7 +926,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
+        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJcUmuR5s9gpM-Sw74_DliPN",
         "tutorialPL": ""
       }
     },
@@ -1086,7 +1094,7 @@
         "iconURL": "ubuntu.svg"
       },
       "moreinfo": {
-        "desktops": "Gnome2, Unity, Gnomeshell",
+        "desktops": "Unity, Gnomeshell",
         "similar": "(many 'buntu flavors), Linux Lite, Linux Mint, Uberstudent",
         
         "target": "Any User",
@@ -1177,7 +1185,7 @@
       "moreinfo": {
         "desktops": "",
         "similar": "",
-        "software": "Based on Ubuntu's Release Cycle",
+        "software": "",
         "target": "New Users",
         "base": "Ubuntu Long Term Support (LTS)"
       },
@@ -1207,7 +1215,6 @@
       "moreinfo": {
         "desktops": "XFCE",
         "similar": "Linux Mint + XFCE, Xubuntu",
-        
         "target": "Any/New Users",
         "base": "Ubuntu Long Term Support (LTS)"
       },

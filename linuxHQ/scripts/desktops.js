@@ -1,8 +1,6 @@
 var desktopResults = document.getElementById('desktopSection');
 var screenshotDIR = "/linuxHQ/screenshots/";
 
-
-
 function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall)
 {
 
@@ -31,7 +29,9 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 </div>
                 
                 <div class="col">
-                    <span class="font-weight-bold">Fedora</span><br/>
+                    <span class="font-weight-bold">Fedora</span>
+                    <br/>
+                    
                     <span class="font-italic">Fedora 28: </span>
                     <span class="text-right">${currentDEF28Version}</span><br/>
                     <span class="font-italic">Fedora 29: </span>
@@ -86,9 +86,9 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             </div>
 
 
-            <div><small>Disclaimer: I decided to list the versions currently in different distro/versions of that distro. This 
-            means the version of different Desktops that may have SHIPPED WITH the version of the distro listed,
-            may not be the same as what I list. </small></div>
+            <div>
+                <small>Disclaimer: I decided to list the versions currently in different distro/versions of that distro. This means the version of different Desktops that may have SHIPPED WITH the version of the distro listed,may not be the same as what I list. </small>
+            </div>
 
         `;
 
@@ -155,7 +155,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                             <br><br>
 
                             <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
-                            
                             <span class="font-weight-bold">Desktop Category: </span>${currentDECategory}<br>
                             <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}<br>
                             

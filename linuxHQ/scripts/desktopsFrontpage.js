@@ -7,7 +7,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, cur
 
     // Template Literal for output
 
-
         const DEScreenshotOutput = `
         <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
             <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
@@ -18,15 +17,14 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, cur
     // Complete Header 
     const deInfoCard = `
 
-
                 ${DEScreenshotOutput}
             `;
 
-        // Main output
-        console.log("currentDEScreenshot: " + currentDEScreenshot);
-        desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
+    // Main output
+    console.log("currentDEScreenshot: " + currentDEScreenshot);
+    desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
 
-
+}
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
