@@ -1,7 +1,5 @@
 @import "1-custom/custom-dir";
-
 $footerheight: 75px;
-
 html,
 body {
     height: 100%;
@@ -119,25 +117,16 @@ nav {
 h3.feed-title {
     color: $white;
     background-color: $BGColor;
-    @include padding(1%,
-    0,
-    1%,
-    1%);
+    @include padding(1%, 0, 1%, 1%);
 }
 
 .feed-iten-desc {
-    @include padding(1%,
-    1%,
-    1%,
-    1%);
+    @include padding(1%, 1%, 1%, 1%);
 }
 
 .feed-item-title {
     // This controls the padding the links
-    @include padding(1%,
-    1%,
-    0,
-    5px);
+    @include padding(1%, 1%, 0, 5px);
     a:link,
     a:hover,
     a:visited {
@@ -154,11 +143,15 @@ h3.feed-title {
 
 //////////////////////////////////////////////////////////////////////////////
 // from Linux Section 
-
-
-
-// / This appears to be the box around item in different sections on the main subpage
+// This appears to be the box around item in different sections on the main subpage
+// Is this needed? 
 .card-img-top {
     box-shadow: 2px 2px 2px $black;
     @include margin(10px, 10px, 10px, 10px);
+}
+
+// May not be needed if things are responsive via Boostrap 
+.YTPlaylists {
+    width: 560px;
+    height: 315px;
 }

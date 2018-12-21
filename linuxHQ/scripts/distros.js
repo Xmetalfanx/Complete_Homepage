@@ -5,8 +5,7 @@ var myPage = "/linuxHQ/distro/";
 var DWPage = "https://distrowatch.com/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
-function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType, currentDistroYTREviews, currentDistroYTTweaksTips) 
-{
+function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroYTReviewPL, currentDistroYTReviewPLEmbedded, currentDistroYTTipsPL, currentDistroYTTipsPLEmbedded, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType) {
 
     var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
 
@@ -30,6 +29,29 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}<br />
             
 
+    `;
+
+    const currentDistroYTOutput = `
+
+        <h4 class="font-weight-bold">Youtube Playlists</h4>
+        
+        <div class="row d-none d-lg-inline embed-responsive-item">
+            <div class="col embed-responsive-item">
+                <iframe class="YTPlaylists" src="${currentDistroYTReviewPLEmbedded}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+            <div class="col embed-responsive-item">
+                <iframe class="YTPlaylists" src="${currentDistroYTTipsPLEmbedded}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        
+        <div class="row d-lg-none d-xs-block">
+            <div class="col">
+                <a href="${currentDistroYTReviewPL}" target="_blank">Youtube Review/Walkthrough/Comments Playlist </a>
+            </div>
+            <div class="col">
+                <a href="${currentDistroYTTipsPL}" target="_blank">Youtube Tips/Tricks/Tutorial Playlist</a>
+            </div>
+        </div>
     `;
 
     const currentDistroInfoOutput = `
@@ -83,21 +105,13 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
 
                     <br />
                     <hr />
-
-                    <h4 class="font-weight-bold">Youtube Playlists</h4>
-                        <div class="col-6">
-                            <a href="${currentDistroYTREviews}" target="_blank">Youtube Reviews and Comment Playlist</a>
-                        </div>
-                        <div class="col-6">
-                            <a href="${currentDistroYTTweaksTips}" target="_blank">Youtube Tweaks and Tips Playlist</a>
-                        </div>
+                            
+                    ${currentDistroYTOutput}
 
                 </div>
             </div>
         </div>
-
         `;
-
 
     distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
 };
@@ -142,19 +156,19 @@ function getDistroData(data, $localDistroName) {
                 var currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
                 var currentDistroScreenshot = value[distroFamily].screenshots.src;
 
-
                 // Youtube Playlists 
-                    
-                    // reviews/comments/runthroughs 
-                    var currentDistroYTREviews = value[distroFamily].youtube.reviewPL;
+                var currentDistroYTReviewPL = value[distroFamily].youtube.reviewsPL;
+                var currentDistroYTReviewPLEmbedded = value[distroFamily].youtube.reviewsPLEmbedded;
+                var currentDistroYTTipsPL = value[distroFamily].youtube.tipsPL;
+                var currentDistroYTTipsPLEmbedded = value[distroFamily].youtube.tipsPLEmbedded;
 
-                    // Tutotials/Tweaks...
-                    var currentDistroYTTweaksTips = value[distroFamily].youtube.tutorialPL;
+                // Tutotials/Tweaks...
+                var currentDistroYTTweaksTips = value[distroFamily].youtube.tutorialPL;
 
                 ////////////////////////////////////////////////////////////////////////////
 
                 if (localDistroName == currentDistroName) {
-                    displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType, currentDistroYTREviews, currentDistroYTTweaksTips);
+                    displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroYTReviewPL, currentDistroYTReviewPLEmbedded, currentDistroYTTipsPL, currentDistroYTTipsPLEmbedded, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType);
                 }
 
             }

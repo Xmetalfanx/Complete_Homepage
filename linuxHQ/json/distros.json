@@ -26,9 +26,12 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/watch?v=vAohtb_an68&list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
+        "reviewsPLEmbedded":"https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
+
     },
     {
       "distroName": "korora",
@@ -58,9 +61,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "mageia",
@@ -89,9 +94,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "openmandriva",
@@ -119,9 +126,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "rosa",
@@ -149,9 +158,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "opensuse",
@@ -179,9 +190,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/watch?v=ps-Wl7-XQ2g&list=PLrh2y86lvcJdhnxr60T_scRoV7Oc3N9f_",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "pclinuxos",
@@ -210,9 +223,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJcmkhysmXDXLmlmRvM3I8BZ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "centOS",
@@ -239,9 +254,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "gecko",
@@ -270,9 +287,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     }
   ],
   "arch": [
@@ -303,9 +322,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "arch",
@@ -334,9 +355,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "archbang",
@@ -366,9 +389,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/archbang.php"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "manjaro",
@@ -396,9 +421,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     }
   ],
   "debian": [
@@ -428,9 +455,11 @@
         "similar": "Linux Mint Debian Edition, Sparky Linux"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "bunsenlabs",
@@ -458,9 +487,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "debian",
@@ -489,9 +520,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "lmde",
@@ -520,9 +553,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "solyd",
@@ -551,9 +586,11 @@
         "thumbnails":"soyldxk_tn.png"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "sparky",
@@ -582,9 +619,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "mx",
@@ -613,9 +652,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "pointlinux",
@@ -644,9 +685,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "cbplusplus",
@@ -675,9 +718,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "makulu",
@@ -706,9 +751,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "deepin",
@@ -737,9 +784,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "reviewsPLEmbedded":"https://www.youtube-nocookie.com/embed/videoseries?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+        "tipsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4",
+        "tipsPLEmbedded":""
+    }
     }
   ],
   "gentoo": [
@@ -770,9 +819,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "gentoo",
@@ -803,9 +854,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "sabayon",
@@ -836,9 +889,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     }
   ],
   "supported": {
@@ -894,9 +949,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "mint",
@@ -926,9 +983,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJcUmuR5s9gpM-Sw74_DliPN",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "kdeneon",
@@ -959,9 +1018,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "peppermint",
@@ -990,9 +1051,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "kubuntu",
@@ -1021,9 +1084,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "lubuntu",
@@ -1052,9 +1117,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "uberstudent",
@@ -1083,8 +1150,10 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
       }
     },
     {
@@ -1114,9 +1183,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "ubuntumate",
@@ -1142,9 +1213,11 @@
         "homepage": "http://ubuntu-mate.org"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "xubuntu",
@@ -1172,9 +1245,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "zorin",
@@ -1202,9 +1277,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "linuxlite",
@@ -1233,9 +1310,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     },
     {
       "distroName": "lxle",
@@ -1264,9 +1343,11 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewPL": "",
-        "tutorialPL": ""
-      }
+        "reviewsPL":"",
+        "reviewsPLEmbedded":"",
+        "tipsPL":"",
+        "tipsPLEmbedded":""
+    }
     }
   ]
 }
