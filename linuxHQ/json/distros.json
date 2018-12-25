@@ -61,8 +61,8 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewsPL":"",
-        "reviewsPLEmbedded":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
+        "reviewsPLEmbedded":"https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
         "tipsPL":"",
         "tipsPLEmbedded":""
     }
@@ -94,7 +94,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewsPL":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
         "reviewsPLEmbedded":"",
         "tipsPL":"",
         "tipsPLEmbedded":""
@@ -126,7 +126,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewsPL":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
         "reviewsPLEmbedded":"",
         "tipsPL":"",
         "tipsPLEmbedded":""
@@ -158,7 +158,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewsPL":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
         "reviewsPLEmbedded":"",
         "tipsPL":"",
         "tipsPLEmbedded":""
@@ -223,7 +223,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewsPL":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
         "reviewsPLEmbedded":"",
         "tipsPL":"",
         "tipsPLEmbedded":""
@@ -254,7 +254,7 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
       "youtube": {
-        "reviewsPL":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
         "reviewsPLEmbedded":"",
         "tipsPL":"",
         "tipsPLEmbedded":""
@@ -421,8 +421,8 @@
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php"
       },
       "youtube": {
-        "reviewsPL":"",
-        "reviewsPLEmbedded":"",
+        "reviewsPL":"https://www.youtube.com/playlist?list=PLrh2y86lvcJcTUd-HPh9CxBvHkrsDGOes",
+        "reviewsPLEmbedded":"https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJcTUd-HPh9CxBvHkrsDGOes",
         "tipsPL":"",
         "tipsPLEmbedded":""
     }

@@ -47,13 +47,18 @@
 <div class="card">
   <div class="card-header bg-primary text-white">RPM Based</div>
   
-  <a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a>
+  <span>Fedora based </span>
   <a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a>
   <a href="/linuxHQ/distros/rpm/korora.php">Korora</a>
+  
+  <span>Open Suse Based </span>
+  <a href="/linuxHQ/distros/rpm/gecko.php">Gecko Linux</a>
+  <a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a>
+  
+  <span>Various</span><a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a>
   <a href="/linuxHQ/distros/rpm/mageia.php">Mageia</a>
   <a href="/linuxHQ/distros/rpm/openMandriva.php">OpenMandriva</a>
-  <a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a>
-  <a href="/linuxHQ/distros/rpm">PCLinuxOS</a>
+  <a href="/linuxHQ/distros/rpm/PCLinuxOS.php">PCLinuxOS</a>
   <a href="/linuxHQ/distros/rpm/ROSA.php">ROSA</a>
 </div>
 

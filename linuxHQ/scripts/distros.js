@@ -35,11 +35,11 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
 
         <h4 class="font-weight-bold">Youtube Playlists</h4>
         
-        <div class="row d-none d-lg-inline embed-responsive-item">
-            <div class="col embed-responsive-item">
+        <div class="row d-none d-lg-inline">
+            <div class="col d-inline">
                 <iframe class="YTPlaylists" src="${currentDistroYTReviewPLEmbedded}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
-            <div class="col embed-responsive-item">
+            <div class="col d-inline">
                 <iframe class="YTPlaylists" src="${currentDistroYTTipsPLEmbedded}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
         </div>
