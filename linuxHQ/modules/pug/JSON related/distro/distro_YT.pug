@@ -1,13 +1,13 @@
 h4.font-weight-bold Youtube Playlists
 .row.d-none.d-lg-inline
     .col.d-inline
-        iframe.YTPlaylists(src='${currentDistroYTReviewPLEmbedded}', target="_blank", allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+        iframe.YTPlaylists(src='${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}', target="_blank", allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
 
     .col.d-inline
-        iframe.YTPlaylists(class="YTPlaylists", src='${currentDistroYTTipsPLEmbedded}', target="_blank", allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+        iframe.YTPlaylists(class="YTPlaylists", src='${YTPLEmbeddedBase}${currentDistroYTTipsPLEmbedded}', target="_blank", allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
     
 .row.d-lg-none.d-xs-block
     .col
-        a(href="${currentDistroYTReviewPL}", target="_blank") Youtube Review/Walkthrough/Comments Playlist 
+        a(href="${YTPLBase}${currentDistroYTReviewPL}", target="_blank") Youtube Review/Walkthrough/Comments Playlist 
     .col
-        a(href="${currentDistroYTTipsPL}", target="_blank") Youtube Tips/Tricks/Tutorial Playlist
+        a(href="${YTPLBase}${currentDistroYTTipsPL}", target="_blank") Youtube Tips/Tricks/Tutorial Playlist

@@ -55,7 +55,8 @@
   <a href="/linuxHQ/distros/rpm/gecko.php">Gecko Linux</a>
   <a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a>
   
-  <span>Various</span><a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a>
+  <span>Various</span>
+  <a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a>
   <a href="/linuxHQ/distros/rpm/mageia.php">Mageia</a>
   <a href="/linuxHQ/distros/rpm/openMandriva.php">OpenMandriva</a>
   <a href="/linuxHQ/distros/rpm/PCLinuxOS.php">PCLinuxOS</a>
