@@ -57,8 +57,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -88,8 +88,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -118,8 +118,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -148,8 +148,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -179,7 +179,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         },
         {
@@ -209,8 +209,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -238,8 +238,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -270,7 +270,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJc-GsSlO3UJqdoGq3mTMIzh",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         }
     ],
@@ -302,7 +302,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJcds8f9K7ixM3-A687PqjgI",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         },
         {
@@ -333,7 +333,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         },
         {
@@ -365,7 +365,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJcds8f9K7ixM3-A687PqjgI",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         },
         {
@@ -395,7 +395,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJcTUd-HPh9CxBvHkrsDGOes",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         }
     ],
@@ -426,7 +426,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -455,8 +455,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -486,8 +486,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -518,7 +518,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -549,7 +549,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -579,8 +579,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/debian/sparky.php"
             },
             "youtube": {
-                "reviewPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -611,7 +611,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -642,7 +642,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -673,7 +673,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -704,7 +704,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "https://www.youtube.com/playlist?list=PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         },
         {
@@ -735,7 +735,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeeTlI3BEHVMxYbKYy74ABJ",
-                "tipsPL": "PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
+                "tipsPlaylist": "PLrh2y86lvcJddBni43z2PSd9H0XotKdn4"
             }
         }
     ],
@@ -767,7 +767,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         },
         {
@@ -800,7 +800,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         },
         {
@@ -833,7 +833,7 @@
             },
             "youtube": {
                 "reviewPlaylist": "",
-                "tipsPL": ""
+                "tipsPlaylist": ""
             }
         }
     ],
@@ -889,8 +889,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -921,8 +921,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -954,8 +954,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -985,8 +985,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1016,8 +1016,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1047,8 +1047,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1078,8 +1078,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1109,8 +1109,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1137,8 +1137,8 @@
                 "homepage": "http://ubuntu-mate.org"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1167,8 +1167,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1197,8 +1197,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1228,8 +1228,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         },
         {
@@ -1259,8 +1259,8 @@
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
-                "reviewPlaylist": "",
-                "tipsPL": ""
+                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
+                "tipsPlaylist": ""
             }
         }
     ]
