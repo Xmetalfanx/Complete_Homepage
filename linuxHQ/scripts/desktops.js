@@ -1,8 +1,7 @@
 var desktopResults = document.getElementById('desktopSection');
 var screenshotDIR = "/linuxHQ/screenshots/";
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall)
-{
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall) {
 
     // Template Literal for output
 
@@ -93,7 +92,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
         `;
 
 
-        const deInstallOutput = `
+    const deInstallOutput = `
         
         
             <h3 class="font-weight-bold">How to Install: </h3>
@@ -157,7 +156,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                             <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
                             <span class="font-weight-bold">Desktop Category: </span>${currentDECategory}<br>
                             <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}<br>
-                            
                             <br>
 
                             <span class="font-weight-bold">Desktop Requirements: </span>
@@ -192,9 +190,9 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 
             `;
 
-        // Main output
-        console.log("currentDEScreenshot: " + currentDEScreenshot);
-        desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
+    // Main output
+    console.log("currentDEScreenshot: " + currentDEScreenshot);
+    desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
 
 }
 
@@ -248,8 +246,6 @@ function getDesktopData(data, $localDEName) {
                     // The point of this is "the last time I checked/updated" even some of the info 
                     var currentDEVerUpdated = versionJSON.updated;
 
-                    
-
                     // Arch
                     var currentDEArchVersion = versionJSON.arch;
 
@@ -280,8 +276,8 @@ function getDesktopData(data, $localDEName) {
 
                     // Begin Install vars 
                     var currentDEarchInstall = value[subFrameworks].install.arch;
-                    var currentDEfedoraInstall =  value[subFrameworks].install.fedora;
-                    
+                    var currentDEfedoraInstall = value[subFrameworks].install.fedora;
+
                     var openSuseInstallJSON = value[subFrameworks].install.opensuse;
                     var currentDEopensuseInstall = openSuseInstallJSON.opensuseInstall;
                     var currentDEopensuseLeap423Install = openSuseInstallJSON.repoLeap423;
@@ -292,11 +288,10 @@ function getDesktopData(data, $localDEName) {
                     var currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
 
                     ///////////////////////////////////////////////////////////////////////////////////
-                
-                    if (localDEName == currentDEName)
-                    {
-                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall);
-                    } 
+
+                    if (localDEName == currentDEName) {
+                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall);
+                    }
                 }
 
             }); // Ends .each loop 

@@ -1,451 +1,475 @@
 {
-  "qt": [{
-      "install": {
-        "arch": "sudo pacman -S kde OR sudo pacman kde-meta",
-        "fedora": "sudo dnf group install kde-desktop-environment",
-        "opensuse": {
-          "install": "sudo zypper in -t pattern kde kde_plasma"
+    "qt": [{
+            "install": {
+                "arch": "sudo pacman -S kde OR sudo pacman kde-meta",
+                "fedora": "sudo dnf group install kde-desktop-environment",
+                "opensuse": {
+                    "install": "sudo zypper in -t pattern kde kde_plasma"
+                },
+                "ubuntu": {
+                    "install": "sudo apt install plasma-desktop",
+                    "mintinstall": "(Mint prior to version 19) sudo apt (or apt-get) install mint-meta-kde"
+                }
+            },
+            "desktopName": "plasma5",
+            "generalInfo": {
+                "distrosFeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
+                "desktopCatagory": "heavyweight",
+                "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
+                "desktopGithubURL": ""
+            },
+            "desktopTitle": "Plasma 5",
+            "requirements": {
+                "reqMemory": "",
+                "reqHDDSpace": "",
+                "reqProcessor": ""
+            },
+            "versions": {
+                "latestVersion": "5.14.x",
+                "updated": "November 30, 2018",
+                "arch": "5.13.5-1",
+                "fedora": {
+                    "f28": "5.13.5-1",
+                    "f29": "5.14.3-2",
+                    "rawhide": "5.14.4-2"
+                },
+                "opensuse": {
+                    "leap15": "5.12.6",
+                    "leap423": "5.8.7.1",
+                    "tumbleweed": "5.14.3"
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": "5.8.7.1"
+                    },
+                    "neonversion": "5.10.4",
+                    "lts1604ver": "5.5.5",
+                    "lts1804ver": "",
+                    "1810ver": "5.13.5-1"
+                }
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": ""
+            }
         },
-        "ubuntu": {
-          "install": "sudo apt install plasma-desktop",
-          "mintinstall": "(Mint prior to version 19) sudo apt (or apt-get) install mint-meta-kde"
-        }
-      },
-      "desktopName": "plasma5",
-      "generalInfo": {
-        "distrosfeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
-        "desktopCatagory": "heavyweight",
-        "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
-        "desktopGithubURL": ""
-      },
-      "desktopTitle": "Plasma 5",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "versions": {
-        "latestVersion": "5.14.x",
-        "updated": "November 30, 2018",
-        "arch": "5.13.5-1",
-        "fedora": {
-          "f28": "5.13.5-1",
-          "f29": "5.14.3-2",
-          "rawhide": "5.14.4-2"
-        },
-        "opensuse": {
-          "leap15": "5.12.6",
-          "leap423": "5.8.7.1",
-          "tumbleweed": "5.14.3"
-        },
-        "ubuntu": {
-          "mint": {
-            "mint173": "",
-            "mint18": "5.8.7.1"
-          },
-          "neonversion": "5.10.4",
-          "lts16040ver": "5.5.5",
-          "lts16043ver": ""
-        }
-      },
-      "screenshots": {
-        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-        "distro": "Linux Mint",
-        "desktop":"Cinnamon"
-      }
-    },
-    {
-      "install": {
-        "arch": "",
-        "fedora": "",
-        "opensuse": {
-          "repoLeap15": "",
-          "repoLeap423": "",
-          "repoTW": "",
-          "reference": ""
-        },
-        "ubuntu": "sudo apt install lxqt"
-      },
-      "desktopName": "lxqt",
-      "generalInfo": {
-        "distrosfeature": "Lubuntu Next, Sparky Linux",
-        "desktopCatagory": "Light",
-        "desktopHomepage": "https://lxqt.org/"
-      },
-      "desktopTitle": "LXQT",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "versions": {
-        "latestVersion": "0.13.0",
-        "updated": "",
-        "arch": "",
-        "fedora": {
-          "f28": "",
-          "f29": "",
-          "rawhide": ""
-        },
-        "opensuse": {
-          "leap15": "",
-          "leap423": "",
-          "tumbleweed": ""
-        },
-        "ubuntu": {
-          "mint": {
-            "mint173": "",
-            "mint18": "",
-            "mintinstall": ""
-          },
-          "lts16040ver": "",
-          "lts16043ver": ""
-        }
-      },
-      "screenshots": {
-        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-        "distro": "Linux Mint",
-        "desktop":"Cinnamon"
-      }
-    }
-  ],
-  "wm": [{
-    "install": {
-      "arch": "sudo pacman -S openbox",
-      "fedora": "",
-      "opensuse": "",
-      "ubuntu": "sudo apt install openbox",
-      "mintinstall": ""
-    },
-    "desktopName": "openbox",
-    "generalInfo": {
-      "distrosfeature": "Crunchbang++, Bunsenlabs, Arch",
-      "desktopCatagory": "Light",
-      "desktopHomepage": ""
-    },
-    "desktopTitle": "Openbox",
-    "requirements": {
-      "reqMemory": "",
-      "reqHDDSpace": "",
-      "reqProcessor": ""
-    },
-    "versions": {
-      "latestVersion": "",
-      "updated": "November 30, 2018",
-      "arch": "",
-      "fedora": {
-        "f28": "3.6.1-9",
-        "f29": "3.6.1-10",
-        "rawhide": "3.6.1-10"
-      },
-      "opensuse": {
-        "leap15": "",
-        "leap423": "",
-        "tumbleweed": "3.6.1-3.7"
-      },
-      "ubuntu": {
-        "mint": {
-          "mint173": "",
-          "mint18": ""
-        },
-        "lts16040ver": "",
-        "lts16043ver": "",
-        "neonversion": ""
-      }
-    },
-    "screenshots": {
-      "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-      "distro": "Linux Mint",
-      "desktop":"Cinnamon"
-    }
-  }],
-  "gtk2": [{
-      "install": {
-        "arch": "sudo pacman -S xfce4 xfce-goodies",
-        "fedora": "sudo dnf groupinstall xfce-desktop",
-        "opensuse": {
-          "repoLeap15": "",
-          "repoLeap423": "4.12",
-          "twRepo": "",
-          "reference": ""
-        },
-        "ubuntu": 
         {
-            "ubuntuInstall":"sudo apt install xfce xfce-goodies",
-            "mintInstall":""
+            "install": {
+                "arch": "",
+                "fedora": "",
+                "opensuse": {
+                    "repoLeap15": "",
+                    "repoLeap423": "",
+                    "repoTW": "",
+                    "reference": ""
+                },
+                "ubuntu": "sudo apt install lxqt"
+            },
+            "desktopName": "lxqt",
+            "generalInfo": {
+                "distrosFeature": "Lubuntu Next, Sparky Linux",
+                "desktopCatagory": "Light",
+                "desktopHomepage": "https://lxqt.org/"
+            },
+            "desktopTitle": "LXQT",
+            "requirements": {
+                "reqMemory": "",
+                "reqHDDSpace": "",
+                "reqProcessor": ""
+            },
+            "versions": {
+                "latestVersion": "0.13.0",
+                "updated": "",
+                "arch": "",
+                "fedora": {
+                    "f28": "",
+                    "f29": "",
+                    "rawhide": ""
+                },
+                "opensuse": {
+                    "leap15": "",
+                    "leap423": "",
+                    "tumbleweed": ""
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": ""
+                    },
+                    "lts1604ver": "",
+                    "lts1804ver": "",
+                    "1810ver": ""
+                }
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "",
+                "desktop": ""
+            }
         }
-      },
-      "desktopName": "xfce",
-      "generalInfo": {
-        "distrosfeature": "mintHP . 'Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent",
-        "desktopCatagory": "lightweight",
-        "desktopHomepage": "https://xfce.org/",
-        "desktopGithubURL": "n/a"
-      },
-      "desktopTitle": "XFCE",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "ubuntu": {
-        "install": "sudo apt install xfce4 xfce4-goodies",
-        "mintinstall": "sudo apt install mint-meta-xfce",
-        "neonversion": ""
-      },
-      "versions": {
-        "latestVersion": "4.12",
-        "updated": "",
-        "arch": "4.12",
-        "fedora": {
-          "f28": "4.12",
-          "f29": "4.12",
-          "rawhide": "4.12"
+    ],
+    "wm": [{
+        "install": {
+            "arch": "sudo pacman -S openbox",
+            "fedora": "",
+            "opensuse": "",
+            "ubuntu": "sudo apt install openbox",
+            "mintinstall": ""
         },
-        "opensuse": {
-          "leap15": "",
-          "leap423": "",
-          "tumbleweed": "4.12"
+        "desktopName": "openbox",
+        "generalInfo": {
+            "distrosFeature": "Crunchbang++, Bunsenlabs, Arch",
+            "desktopCatagory": "Light",
+            "desktopHomepage": ""
         },
-        "ubuntu": {
-          "mint": {
-            "mint173": "",
-            "mint18": ""
-          },
-          "lts16040ver": "4.12",
-          "lts16043ver": "4.12"
-        }
-      },
-      "screenshots": {
-        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-        "distro": "Linux Mint",
-        "desktop":"Cinnamon"
-      }
-    },
-    {
-      "desktopName": "lxde",
-      "generalInfo": {
-        "distrosfeature": "Lubuntu, LXLE",
-        "desktopCatagory": "lightweight",
-        "desktopHomepage": "https://lxde.org/",
-        "desktopGithubURL": "n/a"
-      },
-      "desktopTitle": "LXDE",
-      "requirements": {
-        "reqMemory": "1GB",
-        "reqHDDSpace": "6GB Minimum",
-        "reqProcessor": "512Mhz or faster; 32bit or 64bit"
-      },
-      "versions": {
-        "latestVersion": "",
-        "updated": "November 30, 2018",
-        "arch": "0.99.2-2",
-        "fedora": {
-          "f28": "",
-          "f29": "",
-          "rawhide": ""
+        "desktopTitle": "Openbox",
+        "requirements": {
+            "reqMemory": "",
+            "reqHDDSpace": "",
+            "reqProcessor": ""
         },
-        "opensuse": {
-          "leap423": "",
-          "leap15": "",
-          "tumbleweed": ""
-        },
-        "ubuntu": {
-          "mint": {
-            "mint173": "",
-            "mint18": ""
-          },
-          "lts16040": "",
-          "lts16043": "",
-          "neonversion": ""
-        }
-      },
-      "install": {
-        "arch": "sudo pacman -S lxde-common lxsession openbox",
-        "fedora": "",
-        "opensuse": {
-          "repoLeap15": "",
-          "repoLeap423": "",
-          "twRepo": "",
-          "reference": "<a href=\"https://en.opensuse.org/LXDE_repositories\" >LXDE Repos for Suse</a>"
-        },
-        "ubuntu": {
-          "ubuntuInstall": "sudo apt install lxde"
-        }
-      },
-      "screenshots": {
-        "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-        "distro": "Linux Mint",
-        "desktop":"Cinnamon"
-      }
-    }
-  ],
-  "gtk3": [{
-      "desktopName": "cinnamon",
-      "generalInfo": {
-        "distrosFeature": "Linux Mint, Korora/Fedora, Arch/Antergos ",
-        "desktopCatagory": "heavyweight",
-        "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
-        "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop"
-      },
-      "desktopTitle": "Cinnamon",
-      "requirements": {
-        "reqMemory": "1GB Recommended (Xmetal's comment: I would say 2GB to 4GB for COMFORTABLE usage)",
-        "reqHDDSpace": "10GB (Min)",
-        "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
-      },
-      "versions": {
-        "latestVersion": "4.0.3",
-        "updated": "November 30, 2018",
-        "arch": "4.0.1-1",
-        "fedora": {
-          "f28": "4.0.11",
-          "f29": "4.0.11",
-          "rawhide": "4.0.11"
-        },
-        "opensuse": {
-          "leap423": "3.4.6",
-          "leap15": "3.6.7",
-          "tumbleweed": "3.8.9"
-        },
-        "ubuntu": {
-          "mint": {
-            "mint173": "3.6",
-            "mint18": "2.8"
-          },
-          "lts16040ver": "",
-          "lts16043ver": "",
-          "neonversion": ""
+        "versions": {
+            "latestVersion": "",
+            "updated": "November 30, 2018",
+            "arch": "",
+            "fedora": {
+                "f28": "3.6.1-9",
+                "f29": "3.6.1-10",
+                "rawhide": "3.6.1-10"
+            },
+            "opensuse": {
+                "leap15": "",
+                "leap423": "",
+                "tumbleweed": "3.6.1-3.7"
+            },
+            "ubuntu": {
+                "mint": {
+                    "mint173": "",
+                    "mint18": "",
+                    "mint19": ""
+                },
+                "lts1604ver": "3.6.1-1",
+                "lts1804ver": "3.6.1-7",
+                "1810ver": "",
+                "neonversion": "N/A"
+            }
         },
         "screenshots": {
-          "src": "/linuxHQ/screenshots/ubuntu/mint.jpg",
-          "distro": "Linux Mint",
-          "desktop":"Cinnamon"
+            "src": "",
+            "distro": "Linux Mint",
+            "desktop": "Cinnamon"
         }
-      },
-      "install": {
-        "arch": "sudo pacman -S cinnamon",
-        "fedora": "sudo dnf groupinstall cinnamon-desktop",
-        "opensuse": {
-          "opensuseInstall": "(See instructions for each branch, below)",
-          "repoLeap15": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.0/X11:Cinnamon:Current.repo <br /> # zypper ref && zypper in -t pattern cinnamon",
-          "repoLeap423": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_42.3/X11:Cinnamon:Current.repo <br /># zypper ref && zypper in -t pattern cinnamon",
-          "twRepo": "zypper ref && zypper in -y cinnamon cinnamon-screensaver",
-          "reference": "<a href=\"https://en.opensuse.org/Portal:Cinnamon\" target=\"_blank\"> Install Cinnamon on OpenSuse </a>"
+    }],
+    "gtk2": [{
+            "install": {
+                "arch": "sudo pacman -S xfce4 xfce-goodies",
+                "fedora": "sudo dnf groupinstall xfce-desktop",
+                "opensuse": {
+                    "repoLeap15": "",
+                    "repoLeap423": "4.12",
+                    "twRepo": "",
+                    "reference": ""
+                },
+                "ubuntu": {
+                    "ubuntuInstall": "sudo apt install xfce xfce-goodies",
+                    "mintInstall": ""
+                }
+            },
+            "desktopName": "xfce",
+            "generalInfo": {
+                "distrosFeature": "mintHP . 'Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent",
+                "desktopCatagory": "lightweight",
+                "desktopHomepage": "https://xfce.org/",
+                "desktopGithubURL": "n/a"
+            },
+            "desktopTitle": "XFCE",
+            "requirements": {
+                "reqMemory": "",
+                "reqHDDSpace": "",
+                "reqProcessor": ""
+            },
+            "ubuntu": {
+                "install": "sudo apt install xfce4 xfce4-goodies",
+                "mintinstall": "sudo apt install mint-meta-xfce",
+                "neonversion": ""
+            },
+            "versions": {
+                "latestVersion": "4.12",
+                "updated": "",
+                "arch": "4.12",
+                "fedora": {
+                    "f28": "4.12",
+                    "f29": "4.12",
+                    "rawhide": "4.12"
+                },
+                "opensuse": {
+                    "leap15": "",
+                    "leap423": "",
+                    "tumbleweed": "4.12"
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": ""
+                    },
+                    "lts1604ver": "4.12.2",
+                    "lts1804ver": "4.12.4",
+                    "1810ver": "4.12.4"
+                }
+            },
+            "screenshots": {
+                "src": "ubuntu/mint.jpg",
+                "distro": "Linux Mint",
+                "desktop": "Cinnamon"
+            }
         },
-        "ubuntu": {
-          "ubuntuInstall": "PPA Needed - Info coming later",
-          "mintInstall": "sudo apt install mint-meta-cinnamon"
+        {
+            "desktopName": "lxde",
+            "generalInfo": {
+                "distrosFeature": "Lubuntu, LXLE",
+                "desktopCatagory": "lightweight",
+                "desktopHomepage": "https://lxde.org/",
+                "desktopGithubURL": "n/a"
+            },
+            "desktopTitle": "LXDE",
+            "requirements": {
+                "reqMemory": "1GB",
+                "reqHDDSpace": "6GB Minimum",
+                "reqProcessor": "512Mhz or faster; 32bit or 64bit"
+            },
+            "versions": {
+                "latestVersion": "",
+                "updated": "November 30, 2018",
+                "arch": "0.99.2-2",
+                "fedora": {
+                    "f28": "",
+                    "f29": "",
+                    "rawhide": ""
+                },
+                "opensuse": {
+                    "leap423": "",
+                    "leap15": "",
+                    "tumbleweed": ""
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": ""
+                    },
+                    "lts1604ver": "7ubuntu1",
+                    "lts1804ver": "10",
+                    "1810ver": "10",
+                    "neonversion": "N/A"
+                }
+            },
+            "install": {
+                "arch": "sudo pacman -S lxde-common lxsession openbox",
+                "fedora": "",
+                "opensuse": {
+                    "repoLeap15": "",
+                    "repoLeap423": "",
+                    "twRepo": "",
+                    "reference": "<a href=\"https://en.opensuse.org/LXDE_repositories\" >LXDE Repos for Suse</a>"
+                },
+                "ubuntu": {
+                    "ubuntuInstall": "sudo apt install lxde"
+                }
+            },
+            "screenshots": {
+                "src": "",
+                "distro": "Linux Mint",
+                "desktop": "Cinnamon"
+            }
         }
-      }
-    },
-    {
-      "desktopName": "budgie",
-      "generalInfo": {
-        "distrosfeature": "Solus, Ubuntu Budgie",
-        "desktopCatagory": "",
-        "desktopHomepage": "https://budgie-desktop.org/home/",
-        "desktopGithubURL": "https://github.com/solus-project/budgie-desktop"
-      },
-      "desktopTitle": "Budgie",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "versions": {
-        "latestVersion": "10.4",
-        "updated": "",
-        "arch": "10.4+123+gf2dbc215-1",
-        "fedora": {
-          "f28": "",
-          "f29": "",
-          "rawhide": ""
+    ],
+    "gtk3": [{
+            "desktopName": "cinnamon",
+            "generalInfo": {
+                "distrosFeature": "Linux Mint, Korora/Fedora, Arch/Antergos ",
+                "desktopCatagory": "heavyweight",
+                "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
+                "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop"
+            },
+            "desktopTitle": "Cinnamon",
+            "requirements": {
+                "reqMemory": "1GB Recommended (Xmetal's comment: I would say 2GB to 4GB for COMFORTABLE usage)",
+                "reqHDDSpace": "10GB (Min)",
+                "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
+            },
+            "versions": {
+                "latestVersion": "4.0.3",
+                "updated": "November 30, 2018",
+                "arch": "4.0.1-1",
+                "fedora": {
+                    "f28": "4.0.11",
+                    "f29": "4.0.11",
+                    "rawhide": "4.0.11"
+                },
+                "opensuse": {
+                    "leap423": "3.4.6",
+                    "leap15": "3.6.7",
+                    "tumbleweed": "3.8.9"
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": ""
+
+                    },
+                    "lts1604ver": "",
+                    "lts1804ver": "",
+                    "1810ver": "",
+                    "neonversion": ""
+                }
+            },
+            "install": {
+                "arch": "sudo pacman -S cinnamon",
+                "fedora": "sudo dnf groupinstall cinnamon-desktop",
+                "opensuse": {
+                    "opensuseInstall": "(See instructions for each branch, below)",
+                    "repoLeap15": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.0/X11:Cinnamon:Current.repo <br /> # zypper ref && zypper in -t pattern cinnamon",
+                    "repoLeap423": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_42.3/X11:Cinnamon:Current.repo <br /># zypper ref && zypper in -t pattern cinnamon",
+                    "twRepo": "zypper ref && zypper in -y cinnamon cinnamon-screensaver",
+                    "reference": "<a href=\"https://en.opensuse.org/Portal:Cinnamon\" target=\"_blank\"> Install Cinnamon on OpenSuse </a>"
+                },
+                "ubuntu": {
+                    "ubuntuInstall": "PPA Needed - Info coming later",
+                    "mintInstall": "sudo apt install mint-meta-cinnamon"
+                }
+            },
+            "screenshots": {
+                "src": "ubuntu/mint.png",
+                "distro": "Linux Mint",
+                "desktop": "Cinnamon",
+                "theme": "Mint-X",
+                "icon": "Mint-X"
+            }
         },
-        "opensuse": {
-          "leap15": "10.4",
-          "leap423": "",
-          "tumbleweed": ""
+        {
+            "desktopName": "budgie",
+            "generalInfo": {
+                "distrosFeature": "Solus, Ubuntu Budgie",
+                "desktopCatagory": "",
+                "desktopHomepage": "https://budgie-desktop.org/home/",
+                "desktopGithubURL": "https://github.com/solus-project/budgie-desktop"
+            },
+            "desktopTitle": "Budgie",
+            "requirements": {
+                "reqMemory": "",
+                "reqHDDSpace": "",
+                "reqProcessor": ""
+            },
+            "versions": {
+                "latestVersion": "10.4",
+                "updated": "",
+                "arch": "10.4+123+gf2dbc215-1",
+                "fedora": {
+                    "f28": "",
+                    "f29": "",
+                    "rawhide": ""
+                },
+                "opensuse": {
+                    "leap15": "10.4",
+                    "leap423": "",
+                    "tumbleweed": ""
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": ""
+                    },
+                    "lts1604ver": "10.4+git20171031.10.g9f71bb8-1.2",
+                    "lts1804ver": "10.4+git20180830.02.f2dbc215fdb-2",
+                    "1810ver": "10.4+git20180830.02.f2dbc215fdb-2",
+                    "neonversion": "N/A"
+                }
+            },
+            "install": {
+                "arch": "sudo pacman -S budgie-desktop",
+                "fedora": "",
+                "opensuse": {
+                    "opensuseInstall": "",
+                    "repoLeap15": "",
+                    "repoLeap423": "",
+                    "twRepo": "",
+                    "reference": ""
+                },
+                "ubuntu": {
+                    "ubuntuInstall": "sudo apt install budgie-desktop",
+                    "mintInstall": ""
+                }
+            },
+            "screenshots": {
+                "src": "solus/solusbudgie.png",
+                "distro": "Solus",
+                "desktop": "Budgie"
+            }
         },
-        "ubuntu": {
-          "mint": {
-            "mint173ver": "",
-            "mint18ver": ""
-          },
-          "lts16040ver": "",
-          "lts16043ver": "",
-          "neonversion": ""
+        {
+            "desktopName": "mate",
+            "generalInfo": {
+                "distrosFeature": "Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",
+                "desktopCatagory": "lightweight",
+                "desktopHomepage": "https://mate-desktop.org/",
+                "desktopGithubURL": "https://github.com/mate-desktop"
+            },
+            "desktopTitle": "Mate",
+            "requirements": {
+                "reqMemory": "",
+                "reqHDDSpace": "",
+                "reqProcessor": ""
+            },
+            "install": {
+                "arch": "sudo pacman -S mate mate-extra",
+                "fedora": "sudo dnf groupinstall mate-desktop mate-applications",
+                "opensuse": {
+                    "twrepo": "zypper ar -r http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_Tumbleweed/X11:MATE:Current.repo",
+                    "reference": "https://en.opensuse.org/Portal:MATE/Install"
+                },
+                "ubuntu": {
+                    "ubuntuInstall": "sudo apt install mate-desktop-environment",
+                    "mintinstall": "sudo apt install mint-meta-mate"
+                }
+            },
+            "versions": {
+                "latestVersion": "",
+                "updated": "November 30, 2019",
+                "arch": "1.20.3-1",
+                "fedora": {
+                    "f28": " 1.20.3-1",
+                    "f29": "1.20.3-2",
+                    "rawhide": "1.20.3-2"
+                },
+                "opensuse": {
+                    "leap423": "1.18.0",
+                    "leap15": "",
+                    "tumbleweed": "1.18.0"
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "1.12",
+                        "mint18": "1.18.0",
+                        "mint19": ""
+                    },
+                    "lts1604ver": "1.12.1-1",
+                    "lts1804ver": "1.20.1-2",
+                    "1810ver": "1.20.3-2",
+                    "neonversion": "N/A"
+                }
+            },
+            "screenshots": {
+                "src": "ubuntu/umate1.png",
+                "distro": "Ubuntu Mate",
+                "desktop": "Mate"
+            }
         }
-      },
-      "install": {
-        "arch": "sudo pacman -S budgie-desktop",
-        "fedora": "",
-        "opensuse": {
-          "opensuseInstall":"",
-          "repoLeap15": "",
-          "repoLeap423": "",
-          "twRepo": "",
-          "reference": ""
-        },
-        "ubuntu": {
-          "ubuntuInstall": "sudo apt install budgie-desktop",
-          "mintInstall": ""
-        }
-      }
-    },
-    {
-      "desktopName": "mate",
-      "generalInfo": {
-        "distrosfeature": "Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",
-        "desktopCatagory": "lightweight",
-        "desktopHomepage": "https://mate-desktop.org/",
-        "desktopGithubURL": "n/a"
-      },
-      "desktopTitle": "Mate",
-      "requirements": {
-        "reqMemory": "",
-        "reqHDDSpace": "",
-        "reqProcessor": ""
-      },
-      "opensuse": {
-        "twrepo": "zypper ar -r http://download.opensuse.org/repositories/X11:/MATE:/Current/openSUSE_Tumbleweed/X11:MATE:Current.repo",
-        "reference": "https://en.opensuse.org/Portal:MATE/Install"
-      },
-      "install": {
-        "arch": "sudo pacman -S mate mate-extra",
-        "fedora": "sudo dnf groupinstall mate-desktop mate-applications",
-        "opensuse": {},
-        "ubuntu":
-          {
-              "ubuntuInstall": "sudo apt install mate-desktop-environment",
-              "mintinstall": "sudo apt install mint-meta-mate"
-          },
-        "screenshots": "/linuxHQ/screenshots/ubuntu/umate1.png"
-      },
-      "versions": {
-        "latestVersion": "",
-        "updated": "November 30, 2019",
-        "arch": "1.20.3-1",
-        "fedora": {
-          "f28": " 1.20.3-1",
-          "f29": "1.20.3-2",
-          "rawhide": "1.20.3-2"
-        },
-        "opensuse": {
-          "leap423": "1.18.0",
-          "leap15": "",
-          "tumbleweed": "1.18.0"
-        },
-        "ubuntu": {
-          "mint": {
-            "mint173": "1.12",
-            "mint18": "1.18.0"
-          },
-          "lts16040ver": "N/A",
-          "lts16043ver": "",
-          "neonversion": ""
-        }
-      }
-    }
-  ]
+    ]
 }
