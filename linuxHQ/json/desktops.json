@@ -51,7 +51,7 @@
                 }
             },
             "screenshots": {
-                "src": "",
+                "src": "ubuntu/kubuntu.png",
                 "distro": "",
                 "desktop": ""
             }
@@ -469,6 +469,64 @@
                 "src": "ubuntu/umate1.png",
                 "distro": "Ubuntu Mate",
                 "desktop": "Mate"
+            }
+        },
+        {
+            "desktopName": "gnomeshell",
+            "generalInfo": {
+                "distrosFeature": "Ubuntu, Fedora, Solus, OpenSuse",
+                "desktopCatagory": "heavyweight",
+                "desktopHomepage": "",
+                "desktopGithubURL": ""
+            },
+            "desktopTitle": "Gnome Shell",
+            "requirements": {
+                "reqMemory": "",
+                "reqHDDSpace": "",
+                "reqProcessor": ""
+            },
+            "install": {
+                "arch": "",
+                "fedora": "",
+                "opensuse": {
+                    "twrepo": "",
+                    "reference": ""
+                },
+                "ubuntu": {
+                    "ubuntuInstall": "",
+                    "mintinstall": ""
+                }
+            },
+            "versions": {
+                "latestVersion": "",
+                "updated": "November 30, 2019",
+                "arch": "",
+                "fedora": {
+                    "f28": "",
+                    "f29": "",
+                    "rawhide": ""
+                },
+                "opensuse": {
+                    "leap423": "",
+                    "leap15": "",
+                    "tumbleweed": ""
+                },
+                "ubuntu": {
+                    "mint": {
+                        "mint173": "",
+                        "mint18": "",
+                        "mint19": ""
+                    },
+                    "lts1604ver": "",
+                    "lts1804ver": "",
+                    "1810ver": "",
+                    "neonversion": ""
+                }
+            },
+            "screenshots": {
+                "src": "ubuntu/ubuntuGnome.png",
+                "distro": "",
+                "desktop": ""
             }
         }
     ]
