@@ -17,7 +17,6 @@
 	  <div class="card-block">
 	    <div class="card-title">
 				<img src="/linuxHQ/graphics/icons/mint.png" width="90px" height="90px" alt="Linux Mint Graphic"/>
-				<?php echo $mintMP; ?>
 			</div>
 	    <div class="card-text">
 
@@ -36,28 +35,11 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="card">
-	  <div class="card-block">
-	    <div class="card-title">
+	
 
-	      <?php echo $ubuntuMateMP; ?>
-	    </div>
-	  </div>
-	</div>
-	<div class="card">
-	  <div class="card-block">
-	    <div class="card-title">
-
-	      <?php echo $XubuntuMP; ?>
-	    </div>
-	  </div>
-	</div>
 	<div class="card"></div>
 	<div class="card-block">
-	  <div class="card-title">
 
-	    <?php echo $kubuntuMP ?>
-	  </div>
 	</div>
 	<p>Ubuntu-based Distro Comment</p>
 	<p>These are pretty easy to understand as basically its just the first part of the DE in question + "buntu"

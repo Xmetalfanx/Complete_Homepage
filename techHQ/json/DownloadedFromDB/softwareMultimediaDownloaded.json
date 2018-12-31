@@ -1,30 +1,18 @@
 {
-    "id ": 90,
-    "
-    appicon ": " / techHQ / progIcon / media / makemkv_0.gif ","
-    appname ": "
-    makemkv ","
-    apptitle ": "
-    MakeMKV ","
-    appmaincat ": "
-    multimedia ","
-    appsubcat ": "
-    various ","
-    appdescription ": " < p > This one I found due to Ghacks.net and it handles DVD(and I think DVD Folders on the hard drive already) and can convert them to MKV files with all the audio or subtitle tracks(that the user specifies).. < /p> <
-    p > I have found that
-    while this works,
-    it doesn\ 't compress ... the output mkv file is about the same size as the &quot;collection&quot; of .VOB files on the DVD. If you want to compress the output, I would make the MKV and then when thats on the hard drive... use a prior mentioned program to test formats (.avi,,
-    mpg,
-    .mp4) and file - sizes - vs - desired video quality..I admit...sometimes it\ 's &quot;trial and error&quot;</p>",
-"appurl": "http://www.makemkv.com",
-"platform": "CP",
-"worksonwine": null,
-"sshoturl": null
+    "appicon": " / techHQ / progIcon / media / makemkv_0.gif ",
+    "appname ": "makemkv ",
+    "apptitle ": "MakeMKV ",
+    "appmaincat ": "multimedia ",
+    "appsubcat ": "various ",
+    "appdescription ": " ",
+    "appurl": "http://www.makemkv.com",
+    "platform": "CP",
+    "worksonwine": null,
+    "sshoturl": null
 },
 
 {
     "
-    id ": 89,"
     appicon ": " / techHQ / progIcon / media / videos / 1187 __handbrake.png ","
     appname ": "
     handbrake ","
@@ -81,8 +69,7 @@
 
             {
                 "appicon ": "/techHQ / progIcons / media ",
-                "
-                appname ": "
+                "appname ": "
                 spotify ","
                 apptitle ": "
                 Spotify ","
@@ -112,62 +99,68 @@
                 videoplayer ","
                 appdescription ": null,"
                 appurl ": "
-                https: //mpv.io/","platform": "CP","worksonwine": 0,"sshoturl": ""},
+                https: //mpv.io/",
+                    "platform": "CP",
+                "worksonwine": 0,
+                "sshoturl": ""
+            },
 
 
-                {
+            {
 
-                    "appicon": "/techHQ/progIcons/media",
-                    "appname": "mp3nity",
-                    "apptitle": "Mp3nity",
-                    "appmaincat": "multimedia",
-                    "appsubcat": "id3tag",
-                    "appdescription": "",
-                    "appurl": "http://www.littlelan.com/mp3nity/",
-                    "
-                    platform ": "
-                    W ","
-                    worksonwine ": 0,"
-                    sshoturl ": "
-                    "
-                },
+                "appicon": "/techHQ/progIcons/media",
+                "appname": "mp3nity",
+                "apptitle": "Mp3nity",
+                "appmaincat": "multimedia",
+                "appsubcat": "id3tag",
+                "appdescription": "",
+                "appurl": "http://www.littlelan.com/mp3nity/",
+                "platform ": "
+                W ","
+                worksonwine ": 0,"
+                sshoturl ": "
+                "
+            },
 
-                {
-                    "
-                    id ": 66,"
-                    progIcon ": " / techHQ / progIcon / ","
-                    progName ": "
-                    eac ","
-                    programTitle ": "
-                    Exact Audio Copy ","
-                    appmaincat ": "
-                    multimedia ","
-                    appsubcat ": "
-                    ripper ","
-                    appdescription ": "
-                    CD Ripper,
-                    ","
-                    appurl ": "
-                    http: / /
-                    exactaudiocopy.de ","
-                    progPlatform ": "
-                    W ","
-                    worksonwine ": null,"
-                    sshoturl ": null},
+            {
+                "progIcon ": " / techHQ / progIcon / ",
+                "
+                progName ": "
+                eac ","
+                programTitle ": "
+                Exact Audio Copy ","
+                appmaincat ": "
+                multimedia ","
+                appsubcat ": "
+                ripper ","
+                appdescription ": "
+                CD Ripper,
+                ","
+                appurl ": "
+                http: / /
+                exactaudiocopy.de ","
+                progPlatform ": "
+                W ","
+                worksonwine ": null,"
+                sshoturl ": null
+            },
 
-                    {
-                        "
-                        id ": 67,"
-                        progIcon ": " / techHQ / progIcon / media / mpTrim PRO_MAINICON.png ","
-                        progName ": "
-                        mp3trim ","
-                        programTitle ": "
-                        Mp3 Trim(Pro)
-                        ","
-                        appmaincat ": "
-                        multimedia ","
-                        appsubcat ": "
-                        musicplayer ","
-                        appdescription ": null,"
-                        appurl ": "
-                        http: //www.mptrim.com/mpTrimPRO.html","progPlatform": "W","worksonwine": null,"sshoturl": null},
+            {
+                "progIcon ": " / techHQ / progIcon / media / mpTrim PRO_MAINICON.png ",
+                "
+                progName ": "
+                mp3trim ","
+                programTitle ": "
+                Mp3 Trim(Pro)
+                ","
+                appmaincat ": "
+                multimedia ","
+                appsubcat ": "
+                musicplayer ","
+                appdescription ": null,"
+                appurl ": "
+                http: //www.mptrim.com/mpTrimPRO.html",
+                    "progPlatform": "W",
+                "worksonwine": null,
+                "sshoturl": null
+            }

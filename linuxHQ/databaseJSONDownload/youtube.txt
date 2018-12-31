@@ -1,4 +1,4 @@
-[{
+
     "id": 1,
     "distroName": "antergos",
     "mmoore": "https://www.youtube.com/user/MrGizmo757",
@@ -14,5 +14,3 @@
     "ghost": "https://www.youtube.com/channel/UCglkWuyZDppWD2BVsyI4r3A",
     "graham": "https://www.youtube.com/user/GrahamLinux",
     "cware": "https://www.youtube.com/user/ChrisWereDigital",
-"
-}, 

@@ -223,9 +223,9 @@
                 }
             },
             "screenshots": {
-                "src": "ubuntu/mint.jpg",
+                "src": "ubuntu/linuxlite.png",
                 "distro": "Linux Mint",
-                "desktop": "Cinnamon"
+                "desktop": "XFCE"
             }
         },
         {
@@ -269,7 +269,7 @@
                 }
             },
             "install": {
-                "arch": "sudo pacman -S lxde-common lxsession openbox",
+                "arch": "sudo pacman -S lxde-common lxsession",
                 "fedora": "",
                 "opensuse": {
                     "repoLeap15": "",
