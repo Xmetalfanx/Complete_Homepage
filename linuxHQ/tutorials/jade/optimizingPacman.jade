@@ -16,17 +16,17 @@ hr
 
 h3 STEP 1 - BACKUP your mirrorlist first
 
-		p In case something goes wrong, you can simply restore the original list … though there ARE OTHER ways around the issue of a goofup.  Here is an example.
+	p In case something goes wrong, you can simply restore the original list … though there ARE OTHER ways around the issue of a goofup.  Here is an example.
 		
-		h4 To backup
-		
-		kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist&nbsp;mirrorlist.backup
+	h4 To backup
 	
-		h4 To restore
-		
-		kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist.backup&nbsp;mirrorlist
-		
-		hr
+	kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist&nbsp;mirrorlist.backup
+
+	h4 To restore
+	
+	kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist.backup&nbsp;mirrorlist
+	
+hr
 
 h3 Reflector - Examples for Arch and Antergos
 
@@ -52,20 +52,29 @@ ul
 
 
 
-		<pre class="editor-colors lang-text">
-		<div class="line">
-		<span class="text plain">
-		<span class="meta paragraph text">
+	pre.editor-colors.lang-text
+	| 		
+	.line
+		| 
 		
-			<span>$&nbsp;reflector&nbsp;--country&nbsp;&#39;United&nbsp;States&#39;&nbsp;-l&nbsp;50&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
-			</span>
-		</span>
-		</span>
-		</div>
-		</pre>
-	</li>
-</ul>
+		span.text.plain
+			| 
 		
+			span.meta.paragraph.text
+				| 
+		
+			
+				span $ reflector --country 'United States' -l 50 -p http --sort rate --save /etc/pacman.d/mirrorlist
+			
+				| 
+		
+			| 
+		
+		| 
+		
+	| 
+		
+
 		
 		
 hr

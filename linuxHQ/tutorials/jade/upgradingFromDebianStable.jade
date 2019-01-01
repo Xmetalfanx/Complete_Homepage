@@ -15,31 +15,29 @@ div Upgrade the system
 
   code sudo apt-get upgrade
 
-  <ul>
-    <li>Do a Distributuon upgrade </li>
-  </ul>
+  ul
+    li Do a Distributuon upgrade 
   
     code sudo apt-get distr-upgrade
   
-  <ul>
-    <li>Now (it may not be needed, but I choose to do it) Reboot the computer</li>
-  </ul>
-  <p>&nbsp;
-  <p class="col2SectionHeaders">Get ready to upgrade to &quot;Testing&quot; 
-  <ul>
-    <li>Go into the Terminal and type in whats below to edit your &quot;sourcelist&quot;</li>
-  </ul>
+  ul
+    li Now (it may not be needed, but I choose to do it) Reboot the computer
+  
+
+  p Get ready to upgrade to &quot;Testing&quot; 
+  
+  ul
+    li Go into the Terminal and type in whats below to edit your &quot;sourcelist&quot;
 
     code sudo nano /etc/apt/sources.list
 
-  <ul>
-    <li>Once the file is opened, go to the line where it says &quot;CD_Rom&quot; or something to that effect and comment it out by putting a &quot; # &quot; in front of the entire line.
-      <ul>
-        <li>The point of this is everytime you &quot;sudo apt-get update&quot; (without it being commented out), it will check to see if it can find the Flashdrive/CD-Rom/..etc ... this just tells the system not to check that </li>
-      </ul>
-    </li>
-    <li>You will see something similar to the following lines </li>
-  </ul>
+ ul
+  li
+    | Once the file is opened, go to the line where it says "CD_Rom" or something to that effect and comment it out by putting a " # " in front of the entire line.
+    
+    ul
+      li The point of this is everytime you "sudo apt-get update" (without it being commented out), it will check to see if it can find the Flashdrive/CD-Rom/..etc ... this just tells the system not to check that
+  li You will see something similar to the following lines
   
   
 code    
@@ -115,10 +113,9 @@ ul
 
     code sudo apt-get distr-upgrade
   
-  <ul>
-    <li>Now (it may not be needed, but I choose to do it) Reboot the computer</li>
-    </ul>
-  <p>If nothing went wrong, You are now done ... You are now on Debian &quot;Testing&quot;/&quot;Wheezy&quot; depending on what you picked 
-  <p>&nbsp;
+  ul
+    li Now (it may not be needed, but I choose to do it) Reboot the computer</li>
+    
+  p If nothing went wrong, You are now done ... You are now on Debian &quot;Testing&quot;/&quot;Wheezy&quot; depending on what you picked 
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>
