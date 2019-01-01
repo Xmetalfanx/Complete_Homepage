@@ -222,7 +222,7 @@
                 "desktops": "Various",
                 "similar": "Fedora, Red Hat Enterprise",
                 "target": "Enterprise/Advanced Users",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -233,8 +233,8 @@
             },
             "version": "",
             "website": {
-                "download": "",
-                "forum": "",
+                "download": "https://www.centos.org/download/",
+                "forum": "https://www.centos.org/forums/",
                 "homepage": "http://www.centos.org/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
@@ -379,7 +379,6 @@
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
                 "similar": "(with the same DE..) Antergos or Arch",
                 "releaseCycle": "",
-                "software": "Slightly behind bleeding edge",
                 "target": "Any User"
             },
             "screenshots": {
@@ -442,7 +441,7 @@
                 "similar": "The Debian familys version of Archbang OR Debian with Openbox installed",
                 "target": "Moderate to Advanced Users (for the most part)",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
 
             },
@@ -474,7 +473,7 @@
                 "desktops": "Various",
                 "similar": "Sparky Linux, Bunsenlabs, Linux Mint Debian Edition ",
                 "target": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
             },
             "screenshots": {
                 "desktop": "",
@@ -535,7 +534,7 @@
                 "similar": "Debian with XFCE or KDE/Plasma 5 installed I suppose",
                 "target": "",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -597,7 +596,7 @@
                 "similar": "antiX",
                 "target": "",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -629,7 +628,7 @@
                 "similar": "Debian with Mate installed ",
                 "target": "",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -661,7 +660,7 @@
                 "similar": "Debian with Openbox",
                 "target": "",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -693,7 +692,7 @@
                 "similar": " ",
                 "target": "",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -756,7 +755,7 @@
                 "desktops": "Various",
                 "similar": "Gentoo, Sabayon",
                 "target": "Advanced Users",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -788,7 +787,7 @@
                 "similar": "Calculate Linux, Sabayon",
                 "target": "Advanced Users",
                 "type": "",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -821,7 +820,7 @@
                 "similar": "Gentoo, Calculate Linux",
                 "target": "Advanced Users",
                 "type": "Rolling",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -910,7 +909,7 @@
                 "similar": "Cinnamon, Mate, Plasma 5 (removed in Version 19 as an official ISO), XFCE",
                 "target": "Any/New Users",
                 "type": "Ubuntu LTS Based - Mint 17.x based on 14.04, Mint 18.x based on 16.04, Ubuntu 19.x is based on 18.04",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -943,7 +942,7 @@
                 "desktops": "Plasma 5",
                 "similar": "Kubuntu",
                 "target": "Any User",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1005,7 +1004,7 @@
                 "desktops": "Plasma 5",
                 "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
                 "target": "Any User",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1037,7 +1036,7 @@
                 "desktops": "LXDE, LXQT",
                 "similar": "",
                 "target": "Any/New Users",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1069,7 +1068,7 @@
                 "desktops": "XFCE",
                 "similar": "Xubuntu, Linux Lite",
                 "target": "Any/New Users, Students",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1101,7 +1100,7 @@
                 "similar": "(many 'buntu flavors), Linux Lite, Linux Mint, Uberstudent",
                 "target": "Any User",
                 "type": "LTS and non-LTS",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1133,7 +1132,7 @@
                 "desktops": "Mate",
                 "similar": "Linux Mint Mate",
                 "target": "Any User",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1163,7 +1162,7 @@
                 "desktops": "XFCE",
                 "similar": "SolydX, Linux Mint XFCE, Linux Lite",
                 "target": "Any User",
-                "releaseCycle": "",
+                "releaseCycle": ""
 
             },
             "screenshots": {
@@ -1225,7 +1224,7 @@
                 "desktops": "XFCE",
                 "similar": "Linux Mint + XFCE, Xubuntu",
                 "target": "Any/New Users",
-                "releaseCycle": "",
+                "releaseCycle": ""
             },
             "screenshots": {
                 "desktop": "",
