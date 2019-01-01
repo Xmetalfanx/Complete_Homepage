@@ -1,7 +1,5 @@
-//output:Software.html 
 
-#Software
-  h5 Graphical (GUI) Software Centers
+h5 Graphical (GUI) Software Centers
   ul
     li Gnome Software Center  
     li Ubuntu/Mint Software Center 
@@ -31,19 +29,18 @@
 							ul
 		            li Searching
 		                kbd sudo  pacman -Ss packageName  
-		           	li  Installing
+		            li  Installing
 		              kbd sudo pacman -S packageName 
 
 		        li
-		          p.commandTask  Updating 
+		          p  Updating 
 		          ul
 		            li
 		              p.P4  &ldquo;Regular&rdquo;  Updates  
 		              ul
 		                kbd sudo pacman -Syyu  
 		    li
-      p.CodeHeader yaourt
-			           
+      p yaourt
       ul
         li
           p Searching / Installing   
@@ -54,7 +51,7 @@
               kbd yaourt packageName 
 
         li
-          p.P4(style='margin-left:0cm;')
+          p(style='margin-left:0cm;')
             | (Installing)  
             span.T1 type number of
             span.T2 package,
@@ -62,28 +59,28 @@
 						
 						
   li
-    p.distroName Debian / Ubuntu  Based  
+    p Debian / Ubuntu  Based  
     |         
     ul
-      li.CodeHeader
+      li
         | apt-get
         ul
-          li.commandTask
+          li
             | Searching
             ul
               kbd sudo apt-get search packageName
           |               
           li
-            p.commandTask  Installing
+            p  Installing
             |                 
             ul
               kbd sudo apt-get install packageName 
-          li.commandTask
+          li
             | Updating (Repo/ &apos;Software List&apos;)
             ul
               kbd sudo apt-get update
           li
-            p.commandTask
+            p
               | Updating   the software (typically done after updating the repo list)
               | - &nbsp;This is what &ldquo;updater&rdquo; applets do
 
@@ -91,20 +88,20 @@
               li
                 p.code sudo apt-get upgrade 
       li
-        p.CodeHeader aptitude 
+        p aptitude 
         |             
         ul
           li Searching 
           kbd sudo aptitude search packageName
           
-          li   Installing
-          kbd  sudo aptitude install packageName
+          li Installing
+          kbd sudo aptitude install packageName
 
   li
     p.distroName OpenSuse 
     ul
       li
-        p.P21  zypper
+        p zypper
       li  Searching
     
       li Installing  
@@ -113,15 +110,15 @@
     | Fedora
     ul
       li
-        p.P15  yum 
+        p dnf
     
-		  li.commandTask  Searching 
-      kbd yum search packageName
+		  li  Searching 
+      kbd dnf search packageName
       
-			li.commandTask  Installing 
-      kbd yum install packageName  
+			li  Installing 
+      kbd dnf install packageName  
     
-		  li.commandTask   Updating 
-      kbd yum update packageName
+		  li   Updating 
+      kbd dnf update packageName
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

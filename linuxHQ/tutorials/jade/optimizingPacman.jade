@@ -2,7 +2,7 @@ h2 Optimizing Pacman Mirrors
 h2 References
 
 ul
-	li>
+	li
 		a(href="https://www.archlinux.org/mirrorlist/") Pacman Mirrorlist Generator
 		
 	li 
@@ -45,14 +45,22 @@ ul
 		
 			kbd $&nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
 		
-	</li>
 	
-	<li>
-		<p>Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
+	li
+		p Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
 		
-		<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text">
+
+
+
+		<pre class="editor-colors lang-text">
+		<div class="line">
+		<span class="text plain">
+		<span class="meta paragraph text">
 		
-		<span>$&nbsp;reflector&nbsp;--country&nbsp;&#39;United&nbsp;States&#39;&nbsp;-l&nbsp;50&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist</span></span></span>
+			<span>$&nbsp;reflector&nbsp;--country&nbsp;&#39;United&nbsp;States&#39;&nbsp;-l&nbsp;50&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
+			</span>
+		</span>
+		</span>
 		</div>
 		</pre>
 	</li>
@@ -66,33 +74,28 @@ hr
 
 h3 Manjaro
 		
-		<ul>
-		<li>
-		<p>Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist</p>
+	ul
+		li
+		p Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist
 		
 		
 		kbd $&nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g
 		
-		
-		</li>
-		
-		
-		</ul>
+	
 		
 		
 		h3 Syncing your Pacman Database
 		
 		
-		<ul>
-		<li>
+		ul
+			li
 		
 		p The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD
 		
 	
 		kbd sudo&nbsp;pacman&nbsp;-Syy
 		
-		</li>
-		</ul>
+		
 
 
 	p <em>Updating via pacman is planned for an entirely other section, by the way
