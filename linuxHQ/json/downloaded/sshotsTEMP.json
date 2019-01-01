@@ -1,220 +1,179 @@
+[
+    {
+        "distroName": "antergos",
+        "family": "arch",
+        "href": "",
+        "src": "/linuxHQ/screenshots/archbased/antergosKDE1.jpg",
+        "sscursor": "",
+        "ssde": "plasma5",
+        "ssicon": "",
+        "sstheme": "breeze"
+    },
+    {
+        "distroName": "debian",
+        "family": "debian",
+        "href": "http://screenshots.debian.net",
+        "src": "",
+        "ssde": ""
+    },
+    {
+        "distroName": "deepin",
+        "family": "ubuntu",
+        "href": "",
+        "src": "/linuxHQ/screenshots/ubuntu/deepin.jpg",
+        "sscursor": "",
+        "ssde": "dde",
+        "ssicon": "",
+        "sstheme": ""
+    },
+    {
+        "distroName": "elementaryOS",
+        "family": "ubuntu",
+        "href": null,
+        "src": "/linuxHQ/screenshots/ubuntu/elementary.jpg",
+        "sscursor": "elementary",
+        "ssde": "pantheon",
+        "ssicon": "elementary",
+        "sstheme": ""
+    },
+    {
+        "distroName": "fedora",
+        "family": "fedora",
+        "href": "",
+        "src": "/linuxHQ/screenshots/DE/fedoraGnome1.jpg",
+        "ssde": "gnomeshell"
+    },
+    {
+        "distroName": "linuxlite",
+        "family": "ubuntu",
+        "href": "http://www.linuxliteos.com/screenshots/",
+        "src": "/linuxHQ/screenshots/ubuntu/linuxlite.png",
+        "sscursor": "",
+        "ssde": "xfce",
+        "ssicon": "arc",
+        "sstheme": ""
+    },
+    {
+        "distroName": "lubuntu ",
+        "family": "ubuntu",
+        "href": "",
+        "src": "/linuxHQ/screenshots/ubuntu/lubuntu1.png",
+        "ssde": "lxde"
+    },
+    {
+        "distroName": "lxle",
+        "family": "ubuntu",
+        "href": "",
+        "src": "/linuxHQ/screenshots/ubuntu/lxle.jpg",
+        "ssde": "LXDE"
+    },
+    {
+        "distroName": "manjaro",
+        "family": "arch",
+        "href": "",
+        "src": "/linuxHQ/screenshots/archbased/manjarokde.png",
+        "sscursor": "",
+        "ssde": "plasma5",
+    },
+    {
+        "distroName": "manjaro",
+        "family": "arch",
+        "href": "",
+        "src": "/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg",
+        "sscursor": "",
+        "ssde": "xfce",
+        "ssicon": "",
+        "sstheme": ""
+    },
+    {
+        "distroName": "mint",
+        "family": "ubuntu",
+        "href": null,
+        "src": "/linuxHQ/screenshots/ubuntu/mintOffCinn1.jpg",
+        "sscursor": "",
+        "ssde": "cinnamon",
+        "ssicon": "minty",
+        "sstheme": "minty"
+    },
+    {
+        "distroName": "mint",
+        "family": "ubuntu",
+        "href": "",
+        "src": "/linuxHQ/screenshots/ubuntu/mintMate2.jpg",
+        "sscursor": "",
+        "ssde": "mate",
+        "ssicon": "",
+        "sstheme": ""
+    },
+    {
+        "distroName": "opensuse",
+        "family": "rpm",
+        "href": "",
+        "src": "/linuxHQ/screenshots/DE/suseGnome1.jpg",
+        "ssde": "gnomeshell"
+    },
+    {
+        "distroName": "opensuse",
+        "family": "rpm",
+        "src": "/linuxHQ/screenshots/rpm/susePlasma5.png",
+        "ssde": "plasma5"
+    },
+    {
+        "distroName": "cbangplusplus",
+        "family": "",
+        "src": "/linuxHQ/screenshots/debian/crunchbang.jpg",
+        "ssde": "openbox"
+    },
+    {
+        "distroName": "pointlinux",
+        "family": "debian",
+        "href": "http://pointlinux.org/screenshots.html",
+        "src": "",
+    },
+    {
+        "distroName": null,
+        "family": "mandrake",
+        "href": "http://www.rosalinux.com/products/desktop",
 
-[{
-    "distroName": "antergos",
-    "family": "arch",
-    "src": "/linuxHQ/screenshots/archbased/antergosKDE1.jpg",
-    "href": "",
-    "ssde": "plasma5",
-    "sstheme": "breeze",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "debian",
-    "family": "debian",
-    "src": "",
-    "href": "http://screenshots.debian.net",
-    "ssde": "",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "deepin",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/deepin.jpg",
-    "href": "",
-    "ssde": "dde",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "elementaryOS",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/elementary.jpg",
-    "href": null,
-    "ssde": "pantheon",
-    "sstheme": "",
-    "ssicon": "elementary",
-    "sscursor": "elementary"
-}, {
-    "distroName": "fedora",
-    "family": "fedora",
-    "src": "/linuxHQ/screenshots/DE/fedoraGnome1.jpg",
-    "href": "",
-    "ssde": "gnomeshell",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "linuxlite",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/linuxlite.png",
-    "href": "http://www.linuxliteos.com/screenshots/",
-    "ssde": "xfce",
-    "sstheme": "",
-    "ssicon": "arc",
-    "sscursor": ""
-}, {
-    "distroName": "lubuntu ",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/lubuntu1.png",
-    "href": "",
-    "ssde": "lxde",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "lxle",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/lxle.jpg",
-    "href": "",
-    "ssde": "LXDE",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "manjaro",
-    "family": "arch",
-    "src": "/linuxHQ/screenshots/archbased/manjarokde.png",
-    "href": "",
-    "ssde": "plasma5",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "manjaro",
-    "family": "arch",
-    "src": "/linuxHQ/screenshots/archbased/manjaro-090p1-xfce.jpg",
-    "href": "",
-    "ssde": "xfce",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "mint",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/mintOffCinn1.jpg",
-    "href": null,
-    "ssde": "cinnamon",
-    "sstheme": "minty",
-    "ssicon": "minty",
-    "sscursor": ""
-}, {
-    "distroName": "mint",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/mintMate2.jpg",
-    "href": "",
-    "ssde": "mate",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "opensuse",
-    "family": "rpm",
-    "src": "/linuxHQ/screenshots/DE/suseGnome1.jpg",
-    "href": "",
-    "ssde": "gnomeshell",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "opensuse",
-    "family": "rpm",
-    "src": "/linuxHQ/screenshots/rpm/susePlasma5.png",
-    "href": "",
-    "ssde": "plasma5",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "cbangplusplus",
-    "family": "",
-    "src": "/linuxHQ/screenshots/debian/crunchbang.jpg",
-    "href": "",
-    "ssde": "openbox",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "pointlinux",
-    "family": "debian",
-    "src": "",
-    "href": "http://pointlinux.org/screenshots.html",
-    "ssde": "",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": null,
-    "family": "mandrake",
-    "src": "",
-    "href": "http://www.rosalinux.com/products/desktop",
-    "ssde": "",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "solus",
-    "family": "independent",
-    "src": "/linuxHQ/screenshots/solus/budgie1.jpg",
-    "href": "",
-    "ssde": "budgie",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "solus",
-    "family": "independent",
-    "src": "/linuxHQ/screenshots/solus/budgie2.jpg",
-    "href": "",
-    "ssde": "budgie",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "solus",
-    "family": "independent",
-    "src": "/linuxHQ/screenshots/solus/budgie3.jpg",
-    "href": "",
-    "ssde": "budgie",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": null,
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/ubuntu.jpg",
-    "href": "",
-    "ssde": "unity",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": null,
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntu/xubuntu1.png",
-    "href": "",
-    "ssde": "xfce",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-}, {
-    "distroName": "zorin",
-    "family": "ubuntu",
-    "src": "/linuxHQ/screenshots/ubuntubased/zorin.jpg",
-    "href": "",
-    "ssde": "",
-    "sstheme": "",
-    "ssicon": "",
-    "sscursor": ""
-},  {
-    "distroName": "kaos",
-    "family": "independant",
-    "src": "/linuxHQ/screenshots/kaosKDE1.jpg",
-    "href": "",
-    "ssde": "plasma5",
-    "sstheme": null,
-    "ssicon": null,
-    "sscursor": null
-}
-
+    },
+    {
+        "distroName": "solus",
+        "family": "independent",
+        "src": "/linuxHQ/screenshots/solus/budgie1.jpg",
+        "ssde": "budgie",
+    },
+    {
+        "distroName": "solus",
+        "family": "independent",
+        "src": "/linuxHQ/screenshots/solus/budgie2.jpg",
+        "ssde": "budgie",
+    },
+    {
+        "distroName": "solus",
+        "family": "independent",
+        "src": "/linuxHQ/screenshots/solus/budgie3.jpg",
+        "ssde": "budgie",
+    },
+    {
+        "distroName": null,
+        "family": "ubuntu",
+        "src": "/linuxHQ/screenshots/ubuntu/ubuntu.jpg",
+        "ssde": "unity",
+    },
+    {
+        "distroName": null,
+        "family": "ubuntu",
+        "src": "/linuxHQ/screenshots/ubuntu/xubuntu1.png",
+    },
+    {
+        "distroName": "zorin",
+        "family": "ubuntu",
+        "src": "/linuxHQ/screenshots/ubuntubased/zorin.jpg",
+    },
+    {
+        "distroName": "kaos",
+        "family": "independant",
+        "src": "/linuxHQ/screenshots/kaosKDE1.jpg",
+        "ssde": "plasma5",
+    }
 ]

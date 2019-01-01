@@ -203,7 +203,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 // Where is "data" coming from?
 function getDesktopData(data, $localDEName) {
 
-
     $(document).ready(function() {
 
         jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";

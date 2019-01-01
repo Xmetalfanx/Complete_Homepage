@@ -65,4 +65,4 @@
 
 EOD;
 ?>
-<?php include $_SERVER['DOCUMENT_ROOT'].("/templates/tech/baseTechSoftwareTemplate.php"); ?>
+<?php include .("/templates/tech/baseTechSoftwareTemplate.php"); ?>

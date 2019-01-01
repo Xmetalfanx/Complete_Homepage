@@ -27,7 +27,6 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}<br />
         <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}<br />
         <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}<br />
-        <span class="font-weight-bold">Software Type: </span>${currentDistroSoftwareType}<br />
             
 
     `;
@@ -60,8 +59,8 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         <div class="card">
             <div class="card-title m-0 p-2 bg-primary text-white">
                 <div class="row pl-3">
-                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
-                    <div class="font-weight-bold h2 pl-3">${currentDistroTitle}</div>
+                    <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
+                        <h2 class="font-weight-bold pl-3">${currentDistroTitle}</h2>
                 </div>
             </div>
             

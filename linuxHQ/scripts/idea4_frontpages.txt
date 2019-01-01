@@ -1,0 +1,16 @@
+DE/WM 
+
+for each DE/WM 
+
+    .card
+        .card-header 
+            a(href="") CSS to be fixed later) Title of DE/WM
+
+        .card-text 
+            DE screenshot here 
+
+            p I should make it where if its under md it only displays text 
+
+
+
+how in the world do i control the columns 
