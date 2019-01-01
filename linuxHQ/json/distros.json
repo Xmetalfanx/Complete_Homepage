@@ -221,7 +221,9 @@
             "moreinfo": {
                 "desktops": "Various",
                 "similar": "Fedora, Red Hat Enterprise",
-                "target": "Enterprise/Advanced Users"
+                "target": "Enterprise/Advanced Users",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -251,6 +253,7 @@
             "moreinfo": {
                 "base": "openSUSE",
                 "desktops": "",
+                "releaseCycle": "",
                 "similar": "OpenSuse",
                 "target": "Moderate to Advanced Users"
             },
@@ -283,7 +286,7 @@
                 "base": "Arch Linux",
                 "desktops": "Various",
                 "similar": "Manjaro, Arch",
-                "software": "Bleeding Edge",
+                "releaseCycle": "",
                 "target": "Moderate (due to it being arch based) to Advanced Users"
             },
             "screenshots": {
@@ -313,7 +316,7 @@
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
                 "similar": "(...sort of) Antergos, SwagArch, (..this is a stretch) Manjaro",
-                "software": "Bleeding Edge",
+                "releaseCycle": "",
                 "target": "Moderate to Advanced Users"
             },
             "screenshots": {
@@ -345,12 +348,11 @@
                 "base": "Arch Linux",
                 "desktops": "Openbox",
                 "similar": "",
-                "software": "Bleeding Edge",
+                "releaseCycle": "",
                 "target": "Moderate to Advanced Users"
             },
             "screenshots": {
                 "desktop": "",
-                "distro": "",
                 "src": "",
                 "theme": "",
                 "thumbnails": ""
@@ -376,6 +378,7 @@
             "moreinfo": {
                 "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
                 "similar": "(with the same DE..) Antergos or Arch",
+                "releaseCycle": "",
                 "software": "Slightly behind bleeding edge",
                 "target": "Any User"
             },
@@ -438,7 +441,10 @@
                 "desktops": "Openbox",
                 "similar": "The Debian familys version of Archbang OR Debian with Openbox installed",
                 "target": "Moderate to Advanced Users (for the most part)",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
+
             },
             "screenshots": {
                 "desktop": "",
@@ -468,7 +474,7 @@
                 "desktops": "Various",
                 "similar": "Sparky Linux, Bunsenlabs, Linux Mint Debian Edition ",
                 "target": "",
-                "type": ""
+                "releaseCycle": "",
             },
             "screenshots": {
                 "desktop": "",
@@ -528,7 +534,9 @@
                 "desktops": "KDE aka Plama 5 / XFCE ",
                 "similar": "Debian with XFCE or KDE/Plasma 5 installed I suppose",
                 "target": "",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "XFCE",
@@ -557,7 +565,6 @@
             "moreinfo": {
                 "desktops": "Various",
                 "similar": "Various",
-                "software": "Various",
                 "target": "Any User",
                 "type": ""
             },
@@ -589,7 +596,9 @@
                 "desktops": "",
                 "similar": "antiX",
                 "target": "",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -619,7 +628,9 @@
                 "desktops": "Mate",
                 "similar": "Debian with Mate installed ",
                 "target": "",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -649,7 +660,9 @@
                 "desktops": "Openbox",
                 "similar": "Debian with Openbox",
                 "target": "",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -679,7 +692,9 @@
                 "desktops": "Various",
                 "similar": " ",
                 "target": "",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -709,7 +724,7 @@
                 "base": "Debian",
                 "desktops": "Deepin Desktop Envirnoment",
                 "similar": "",
-                "software": "",
+                "releaseCycle": "",
                 "target": "Any Use"
             },
             "screenshots": {
@@ -740,11 +755,12 @@
             "moreinfo": {
                 "desktops": "Various",
                 "similar": "Gentoo, Sabayon",
-                "target": "Advanced Users"
+                "target": "Advanced Users",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
-                "distro": "",
                 "src": "",
                 "theme": "",
                 "thumbnails": ""
@@ -771,7 +787,9 @@
                 "desktops": "Various",
                 "similar": "Calculate Linux, Sabayon",
                 "target": "Advanced Users",
-                "type": ""
+                "type": "",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -802,7 +820,9 @@
                 "desktops": "Various",
                 "similar": "Gentoo, Calculate Linux",
                 "target": "Advanced Users",
-                "type": "Rolling"
+                "type": "Rolling",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -858,7 +878,7 @@
                 "base": "Ubuntu Long Term Support (LTS)",
                 "desktops": "Pantheon",
                 "similar": "",
-                "software": "Based on Ubuntus LTS Release Cycle",
+                "releaseCycle": "",
                 "target": "Any User/ New Use"
             },
             "screenshots": {
@@ -888,9 +908,10 @@
             "moreinfo": {
                 "desktops": "Mate, XFCE, Cinnamon, Plasma 5",
                 "similar": "Cinnamon, Mate, Plasma 5 (removed in Version 19 as an official ISO), XFCE",
-                "software": "Based on Ubuntus LTS Release Cycle",
                 "target": "Any/New Users",
-                "type": "Ubuntu LTS Based - Mint 17.x based on 14.04, Mint 18.x based on 16.04, Ubuntu 19.x is based on 18.04"
+                "type": "Ubuntu LTS Based - Mint 17.x based on 14.04, Mint 18.x based on 16.04, Ubuntu 19.x is based on 18.04",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "Cinnamon",
@@ -921,11 +942,12 @@
                 "base": "Ubuntu Long Term Support (LTS) - 18.04 Currently",
                 "desktops": "Plasma 5",
                 "similar": "Kubuntu",
-                "target": "Any User"
+                "target": "Any User",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
-                "distro": "",
                 "src": "kdeneon.png",
                 "theme": "",
                 "thumbnails": "kdeneon_tn.png"
@@ -982,7 +1004,9 @@
                 "base": "Ubuntu (LTS and non-LTS)",
                 "desktops": "Plasma 5",
                 "similar": "Linux Mint KDE edition OR Ubuntu with kde-standard/kde-full installed OR Netrunner (Ubuntu based .. .not the rolling release)",
-                "target": "Any User"
+                "target": "Any User",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -1012,7 +1036,9 @@
                 "base": "Ubuntu Long Term Support (LTS) and non-LTS",
                 "desktops": "LXDE, LXQT",
                 "similar": "",
-                "target": "Any/New Users"
+                "target": "Any/New Users",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "LXQT",
@@ -1042,7 +1068,9 @@
                 "base": "Ubuntu Long Term Support (LTS) (forgot what branch currently) ",
                 "desktops": "XFCE",
                 "similar": "Xubuntu, Linux Lite",
-                "target": "Any/New Users, Students"
+                "target": "Any/New Users, Students",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "",
@@ -1072,7 +1100,9 @@
                 "desktops": "Unity, Gnomeshell",
                 "similar": "(many 'buntu flavors), Linux Lite, Linux Mint, Uberstudent",
                 "target": "Any User",
-                "type": "LTS and non-LTS"
+                "type": "LTS and non-LTS",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "Gnome Shell",
@@ -1102,7 +1132,9 @@
                 "base": "Ubuntu Long Term Support (LTS) and non-LTS",
                 "desktops": "Mate",
                 "similar": "Linux Mint Mate",
-                "target": "Any User"
+                "target": "Any User",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "Mate",
@@ -1130,7 +1162,9 @@
                 "base": "Ubuntu Long Term Support (LTS) and non-LTS",
                 "desktops": "XFCE",
                 "similar": "SolydX, Linux Mint XFCE, Linux Lite",
-                "target": "Any User"
+                "target": "Any User",
+                "releaseCycle": "",
+
             },
             "screenshots": {
                 "desktop": "XFCE",
@@ -1160,7 +1194,7 @@
                 "base": "Ubuntu Long Term Support (LTS)",
                 "desktops": "",
                 "similar": "",
-                "software": "",
+                "releaseCycle": "",
                 "target": "New Users"
             },
             "screenshots": {
@@ -1190,7 +1224,8 @@
                 "base": "Ubuntu Long Term Support (LTS)",
                 "desktops": "XFCE",
                 "similar": "Linux Mint + XFCE, Xubuntu",
-                "target": "Any/New Users"
+                "target": "Any/New Users",
+                "releaseCycle": "",
             },
             "screenshots": {
                 "desktop": "",
@@ -1220,8 +1255,9 @@
                 "base": "Ubuntu Long Term Support (LTS) and non-LTS",
                 "desktops": "LXDE",
                 "similar": "Lubuntu or any other Ubuntu based distro with LXDE installed",
-                "software": "Based on Ubuntu's Release Cycle",
+                "releaseCycle": "",
                 "target": "Any Use"
+
             },
             "screenshots": {
                 "desktop": "",
