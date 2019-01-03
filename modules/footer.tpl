@@ -17,6 +17,7 @@
 
     
   </div>
+  
   <div class="float-right ml-auto">
     <span class="d-none d-md-block">
       <i class="fa fa-copyright">Xmetal/Xmetalfanx 2013-*</i>
