@@ -22,12 +22,15 @@
       <i class="fa fa-copyright">Xmetal/Xmetalfanx 2013-*</i>
     </span>
   
-  <a href="https://gitlab.com/Xmetal" target="_blank" rel="noopener">
-  <i class="fa fa-gitlab fa-2x"></i></a> 
-  
-  <a href="https://github.com/Xmetalfanx" target="_blank" rel="noopener">
-  <i class="fa fa-github fa-2x mr-4"></i></a>
-  
+  <div class="d-none d-md-inline">
+    <a href="https://gitlab.com/Xmetal" target="_blank" rel="noopener">
+    <i class="fa fa-gitlab fa-2x"></i></a> 
+    
+    <a href="https://github.com/Xmetalfanx" target="_blank" rel="noopener">
+    <i class="fa fa-github fa-2x mr-4"></i></a>
+  </div> 
+
+
   <a href="https://diasp.org/people/4b26d930adc40136164e047d7b62795e" target="_blank" rel="noopener">
   <i class="fa fa-diaspora fa-2x"></i></a>
   

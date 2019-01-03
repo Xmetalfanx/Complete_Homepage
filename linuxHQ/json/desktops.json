@@ -52,6 +52,7 @@
             },
             "screenshots": {
                 "src": "ubuntu/kubuntu.png",
+                "thumbnail":"ubuntu/thumbnails/kubuntu_tn.png",
                 "distro": "",
                 "desktop": ""
             }
@@ -106,9 +107,9 @@
                 }
             },
             "screenshots": {
-                "src": "",
-                "distro": "",
-                "desktop": ""
+                "src": "ubuntu/lubuntu.png",
+                "thumbnail":"ubuntu/thumbnails/lubuntu_tn.png"
+
             }
         }
     ],
@@ -159,9 +160,8 @@
             }
         },
         "screenshots": {
-            "src": "",
-            "distro": "Linux Mint",
-            "desktop": "Cinnamon"
+            "src": "debian/bunsenlabs.png",
+            "thumbnail":"debian/thumbnails/bunsenlabs_tn.png"
         }
     }],
     "gtk2": [{
@@ -224,6 +224,7 @@
             },
             "screenshots": {
                 "src": "ubuntu/linuxlite.png",
+                "thumbnail":"ubuntu/thumbnails/linuxlite_tn.png",
                 "distro": "Linux Mint",
                 "desktop": "XFCE"
             }
@@ -282,9 +283,8 @@
                 }
             },
             "screenshots": {
-                "src": "",
-                "distro": "Linux Mint",
-                "desktop": "Cinnamon"
+                "src": "ubuntu/lxle.png",
+                "thumbnail":"ubuntu/thumbnails/lxle_tn.png"
             }
         }
     ],
@@ -346,8 +346,8 @@
             },
             "screenshots": {
                 "src": "ubuntu/mint.png",
+                "thumbnail":"ubuntu/thumbnails/mint_tn.png",
                 "distro": "Linux Mint",
-                "desktop": "Cinnamon",
                 "theme": "Mint-X",
                 "icon": "Mint-X"
             }
@@ -409,6 +409,7 @@
             },
             "screenshots": {
                 "src": "solus/solusbudgie.png",
+                "thumbnail":"solus/thumbnails/solusbudgie_tn.png",
                 "distro": "Solus",
                 "desktop": "Budgie"
             }
@@ -467,6 +468,7 @@
             },
             "screenshots": {
                 "src": "ubuntu/umate1.png",
+                "thumbnail":"ubuntu/thumbnails/umate1_tn.png",
                 "distro": "Ubuntu Mate",
                 "desktop": "Mate"
             }
@@ -525,8 +527,8 @@
             },
             "screenshots": {
                 "src": "ubuntu/ubuntuGnome.png",
-                "distro": "",
-                "desktop": ""
+                "thumbnail":"ubuntu/thumbnails/ubuntuGnome_tn.png",
+                "distro": "Ubuntu"
             }
         }
     ]

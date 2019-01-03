@@ -9,7 +9,8 @@
 ?>
 
 <h2>
-    <a href="#more-ppas"></a>More PPAs</h2>
+  <a href="#more-ppas">More PPAs</a></h2>
+    
     <ul>
       <li>
         <h5>Streaming audio recorder - Can record streaming audio</h5>

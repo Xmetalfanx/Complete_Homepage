@@ -2,26 +2,35 @@ var desktopResults = document.getElementById('desktopSection');
 var screenshotDIR = "/linuxHQ/screenshots/";
 
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion, currentDEVerUpdated )
+function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion)
 {
 
     // Template Literal for output
 
-        const DEScreenshotOutput = `
-        <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-            <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
-        </a>
-        
-        `;
+    const DEScreenshotOutput = `
+    <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
+        <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
+    </a>
+    
+    `;
 
     // Complete Header 
     const deInfoCard = `
 
+        <div class="card w-33 d-inline-block align-top">
+            <div class="card-header bg-primary text-white font-weight-bold">
+                <h3>${currentDETitle}</h3>
+            </div>
+
+            <div class="d-none d-md-inline-block card-text">
                 ${DEScreenshotOutput}
+            </div>
+        </div>
+            
+        
             `;
 
     // Main output
-    console.log("currentDEScreenshot: " + currentDEScreenshot);
     desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
 
 }
@@ -29,7 +38,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, cur
 // "main" function
 
 // Where is "data" coming from?
-function getDesktopData(data, $localDEName) {
+function getDesktopData(data) {
 
     $(document).ready(function() {
 
@@ -52,22 +61,20 @@ function getDesktopData(data, $localDEName) {
                     var currentDEName = value[subFrameworks].desktopName;
                     var currentDETitle = value[subFrameworks].desktopTitle;
 
-                    // More Info
+                    // Leave this for now ... I may want to make the Title displayed a link to the homepage of the DE 
                     var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-                    var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-                    var currentDECategory = value[subFrameworks].generalInfo.desktopCatagory;
-                    var currentDEDistroFeature = value[subFrameworks].generalInfo.distrosFeature;
 
+                    var currentDELatestVersion = value[subFrameworks].versions.latestVersion;
 
                     // Screenshot
                     var currentDEScreenshot = value[subFrameworks].screenshots.src;
-                    var currentDEScreenshotTN = value[subFrameworks].screenshots.thumbnails;
+                    var currentDEScreenshotTN = value[subFrameworks].screenshots.thumbnail;
 
                     // End Version vars
                     ///////////////////////////////////////////////////////////////////////////////////
                 
-                  
-                    displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion, currentDECategory, currentDEDistroFeature);
+                    // Removing the if statement here should make it cycle through the entire JSON list 
+                    displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion);
                     
                 }
 
