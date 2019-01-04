@@ -53,8 +53,7 @@
             "screenshots": {
                 "src": "ubuntu/kubuntu.png",
                 "thumbnail":"ubuntu/thumbnails/kubuntu_tn.png",
-                "distro": "",
-                "desktop": ""
+                "distro": "Kubuntu 18.04"
             }
         },
         {
@@ -226,7 +225,7 @@
             "screenshots": {
                 "src": "ubuntu/linuxlite.png",
                 "thumbnail":"ubuntu/thumbnails/linuxlite_tn.png",
-                "distro": "Linux Lite",
+                "distro": "Linux Lite"
             }
         },
         {
@@ -411,7 +410,7 @@
             "screenshots": {
                 "src": "solus/solusbudgie.png",
                 "thumbnail":"solus/thumbnails/solusbudgie_tn.png",
-                "distro": "Solus",
+                "distro": "Solus"
             }
         },
         {
@@ -469,7 +468,7 @@
             "screenshots": {
                 "src": "ubuntu/umate1.png",
                 "thumbnail":"ubuntu/thumbnails/umate1_tn.png",
-                "distro": "Ubuntu Mate",
+                "distro": "Ubuntu Mate"
             }
         },
         {

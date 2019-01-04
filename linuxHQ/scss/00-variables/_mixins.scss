@@ -4,26 +4,8 @@
 }
 
 // #####################################################################
-@mixin size ($width, $height)
-{
-  width: $width;
-  height: $height;
-}
-
 
 @mixin single-box-shadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black) {
   box-shadow         : $horz $vert $depth $color;
 }
 
-
-@mixin padding( $top, $right, $bottom, $left)
- {
-   padding: $top $right $bottom $left;
-
- }
-
-@mixin margin( $top, $right, $bottom, $left)
-{
-	margin: $top $right $bottom $left;
-
-}

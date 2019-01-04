@@ -7,7 +7,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  color: #3e3f3a;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 12pt; }
 
 #bodyContainer {
   min-height: 100%; }
@@ -34,12 +39,9 @@ a:visited {
   background-color: inherit;
   color: navy; }
 
-body {
-  display: flex;
-  flex-direction: column;
-  font-size: 12pt;
-  color: #3e3f3a;
-  background-color: white; }
+.card-header a:link, .card-header a:visited {
+  background-color: transparent;
+  color: white; }
 
 code {
   color: white;
