@@ -2,7 +2,6 @@
 var distroResults = document.getElementById("distroSection");
 
 var myPage = "/linuxHQ/distro/";
-var DWPage = "https://distrowatch.com/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
 function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN) 

@@ -108,8 +108,8 @@
             },
             "screenshots": {
                 "src": "ubuntu/lubuntu.png",
-                "thumbnail":"ubuntu/thumbnails/lubuntu_tn.png"
-
+                "thumbnail":"ubuntu/thumbnails/lubuntu_tn.png",
+                "distro": "Lubuntu 18.10"
             }
         }
     ],
@@ -161,7 +161,8 @@
         },
         "screenshots": {
             "src": "debian/bunsenlabs.png",
-            "thumbnail":"debian/thumbnails/bunsenlabs_tn.png"
+            "thumbnail":"debian/thumbnails/bunsenlabs_tn.png",
+            "distro": "Bunsenlabs"
         }
     }],
     "gtk2": [{
@@ -225,8 +226,7 @@
             "screenshots": {
                 "src": "ubuntu/linuxlite.png",
                 "thumbnail":"ubuntu/thumbnails/linuxlite_tn.png",
-                "distro": "Linux Mint",
-                "desktop": "XFCE"
+                "distro": "Linux Lite",
             }
         },
         {
@@ -284,7 +284,8 @@
             },
             "screenshots": {
                 "src": "ubuntu/lxle.png",
-                "thumbnail":"ubuntu/thumbnails/lxle_tn.png"
+                "thumbnail":"ubuntu/thumbnails/lxle_tn.png",
+                "distro": "LXLE"
             }
         }
     ],
@@ -411,7 +412,6 @@
                 "src": "solus/solusbudgie.png",
                 "thumbnail":"solus/thumbnails/solusbudgie_tn.png",
                 "distro": "Solus",
-                "desktop": "Budgie"
             }
         },
         {
@@ -470,7 +470,6 @@
                 "src": "ubuntu/umate1.png",
                 "thumbnail":"ubuntu/thumbnails/umate1_tn.png",
                 "distro": "Ubuntu Mate",
-                "desktop": "Mate"
             }
         },
         {
@@ -528,7 +527,7 @@
             "screenshots": {
                 "src": "ubuntu/ubuntuGnome.png",
                 "thumbnail":"ubuntu/thumbnails/ubuntuGnome_tn.png",
-                "distro": "Ubuntu"
+                "distro": "Ubuntu 18.10"
             }
         }
     ]

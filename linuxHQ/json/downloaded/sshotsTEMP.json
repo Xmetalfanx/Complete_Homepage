@@ -113,52 +113,16 @@
         "ssde": "gnomeshell"
     },
     {
-        "distroName": "opensuse",
-        "family": "rpm",
-        "src": "/linuxHQ/screenshots/rpm/susePlasma5.png",
-        "ssde": "plasma5"
-    },
-    {
-        "distroName": "cbangplusplus",
-        "family": "",
-        "src": "/linuxHQ/screenshots/debian/crunchbang.jpg",
-        "ssde": "openbox"
-    },
-    {
         "distroName": "pointlinux",
         "family": "debian",
         "href": "http://pointlinux.org/screenshots.html",
-        "src": "",
+        "src": ""
     },
     {
         "distroName": null,
         "family": "mandrake",
         "href": "http://www.rosalinux.com/products/desktop",
 
-    },
-    {
-        "distroName": "solus",
-        "family": "independent",
-        "src": "/linuxHQ/screenshots/solus/budgie1.jpg",
-        "ssde": "budgie",
-    },
-    {
-        "distroName": "solus",
-        "family": "independent",
-        "src": "/linuxHQ/screenshots/solus/budgie2.jpg",
-        "ssde": "budgie",
-    },
-    {
-        "distroName": "solus",
-        "family": "independent",
-        "src": "/linuxHQ/screenshots/solus/budgie3.jpg",
-        "ssde": "budgie",
-    },
-    {
-        "distroName": null,
-        "family": "ubuntu",
-        "src": "/linuxHQ/screenshots/ubuntu/ubuntu.jpg",
-        "ssde": "unity",
     },
     {
         "distroName": null,

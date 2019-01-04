@@ -1,30 +1,24 @@
 var desktopResults = document.getElementById('desktopSection');
 var screenshotDIR = "/linuxHQ/screenshots/";
 
-
-function displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion)
+function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEScreenshot, currentDEScreenshotTN, currentDESShotDistro)
 {
 
-    // Template Literal for output
-
-    const DEScreenshotOutput = `
-    <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-        <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
-    </a>
-    
-    `;
-
-    // Complete Header 
     const deInfoCard = `
 
         <div class="card w-33 d-inline-block align-top">
             <div class="card-header bg-primary text-white font-weight-bold">
-                <h3>${currentDETitle}</h3>
+                <h3>
+                    <a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}
+                    </a>
+                </h3>
             </div>
 
             <div class="d-none d-md-inline-block card-text">
-                ${DEScreenshotOutput}
-            </div>
+                <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
+                    <img class="d-block mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot"> Distro: ${currentDESShotDistro}
+            </a>
+                </div>
         </div>
             
         
@@ -64,17 +58,16 @@ function getDesktopData(data) {
                     // Leave this for now ... I may want to make the Title displayed a link to the homepage of the DE 
                     var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
 
-                    var currentDELatestVersion = value[subFrameworks].versions.latestVersion;
-
                     // Screenshot
-                    var currentDEScreenshot = value[subFrameworks].screenshots.src;
-                    var currentDEScreenshotTN = value[subFrameworks].screenshots.thumbnail;
+                    var currentDESShot = value[subFrameworks].screenshots.src;
+                    var currentDESShotTN = value[subFrameworks].screenshots.thumbnail;
+                    var currentDESShotDistro = value[subFrameworks].screenshots.distro;
 
                     // End Version vars
                     ///////////////////////////////////////////////////////////////////////////////////
                 
                     // Removing the if statement here should make it cycle through the entire JSON list 
-                    displayDEOutput(currentDEName, currentDETitle, currentDEScreenshot, currentDEScreenshotTN, currentDELatestVersion);
+                    displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDESShot, currentDESShotTN, currentDESShotDistro);
                     
                 }
 
