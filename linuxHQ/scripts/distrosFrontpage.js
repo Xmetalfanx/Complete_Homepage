@@ -4,11 +4,10 @@ var distroResults = document.getElementById("distroSection");
 var myPage = "/linuxHQ/distro/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
-function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN) 
+function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN) 
 {
-
+    // Screenshot vars 
     var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
-
     var distroSShotTNPath = distroSShotPath + 'thumbnails/';
 
 
@@ -24,10 +23,10 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
 
     const currentDistroInfoOutput = `
 
-        <div class="card">
+        <div class="card pb-3 w-33 d-md-inline-block d-none align-top">
             <div class="card-title m-0 p-2 bg-primary text-white">
                 <div class="row pl-3">
-                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
+                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 32px;height: 32px;">
                     <h2 class="font-weight-bold pl-3">${currentDistroTitle}</h2>
                 </div>
             </div>
@@ -37,20 +36,8 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
                     <div class="col d-md-inline">
                         <span class="font-weight-bold">Homepage: </span>
                             <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a> 
-                            <br /><br />
-
-                            <div>
-                                <h3 class="font-weight-bold font-italic"> Versions</h3>
-
-                                <span class="font-weight-bold">Latest Version: </span><br />
-                                <br />
-
-                            </div>
-                            <br />
-                            <hr />
-
-                    
-                            ${currentDistroMoreInfoOutput}
+                            ${currentDistroSShotOutput}
+                      
                         </div>
                         
                     </div>
@@ -93,12 +80,20 @@ function getDistroData(data, $localDistroName) {
 
                 // Website
                 var currentDistroHomepage = value[distroFamily].website.homepage;
+
+
                 // Screenshot 
                 var currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
                 var currentDistroScreenshot = value[distroFamily].screenshots.src;
 
-                displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN );
+                var currentDistroFeatured = value[distroFamily].moreinfo.featured;
 
+
+                if (currentDistroFeatured == "yes")
+                {
+                    displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN);
+
+                }
             }
 
         }); // Ends .each loop 

@@ -6,7 +6,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
     const deInfoCard = `
 
-        <div class="card w-33 d-inline-block d-none pb-4 align-top">
+        <div class="card w-33 d-md-inline-block d-none pb-4 align-top">
             <div class="card-header bg-primary text-white py-2">
                 <h3 class="font-weight-bold">
                     <a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}
@@ -18,7 +18,8 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
                     <img class="d-block mx-auto img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot"> 
                 </a>
-                    <span class="font-weight-bold"> Distro: ${currentDESShotDistro} </span>
+                    <span class="font-weight-bold"> Distro: 
+                    ${currentDESShotDistro} 
             </div>
         </div>
             
