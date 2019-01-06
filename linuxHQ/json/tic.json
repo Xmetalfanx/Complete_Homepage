@@ -8,13 +8,17 @@
                 "ubuntu": ""
             },
             "links": {
-                "devartsURL": "N/A",
-                "githubURL": "https://github.com/adapta-project/adapta-gtk-theme",
-                "gnomelooksURL":""
+                "devartsURL": "",
+                "githubURL": "https://github.com/horst3180/arc-theme",
+                "gnomelooksURL": ""
+            },
+            "screenshot": {
+                "src": "",
+                "thumbnail": ""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "adapta",
-            "themeTitle": "Adapta Theme"
+            "ticName": "arcTheme",
+            "themeTitle": "Arc GTK Theme"
         },
         {
             "howToInstall": {
@@ -24,14 +28,17 @@
                 "ubuntu": ""
             },
             "links": {
-                "devartsURL": "",
-                "githubURL": "https://github.com/horst3180/arc-theme",
+                "devartsURL": "N/A",
+                "githubURL": "https://github.com/adapta-project/adapta-gtk-theme",
                 "gnomelooksURL": ""
             },
+            "screenshot": {
+                "src": "",
+                "thumbnail": ""
+            },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "arc",
-            "themeTitle":"Arc GTK Theme"
-
+            "ticName": "adaptaTheme",
+            "themeTitle": "Adapta Theme"
         },
         {
             "howToInstall": {
@@ -45,24 +52,32 @@
                 "githubURL": "",
                 "gnomelooksURL": ""
             },
+            "screenshot": {
+                "src": "",
+                "thumbnail": ""
+            },
             "supportInfo": "gtk3, cinnamon",
-            "themeName": "mintY" ,
-            "themeTitle":"Mint-Y"
+            "ticName": "mintYTheme",
+            "themeTitle": "Mint-Y"
         },
         {
             "howToInstall": {
                 "arch": "",
                 "fedora": "",
-                "opensuse": "",
+                "opensuse": "gtk2-metatheme-numix gtk3-metatheme-numix",
                 "ubuntu": ""
             },
             "links": {
                 "devartsURL": "N/A",
                 "githubURL": "https://github.com/numixproject/numix-gtk-theme",
-                "gnomelooksURL":""
+                "gnomelooksURL": ""
+            },
+            "screenshot": {
+                "src": "",
+                "thumbnail": ""
             },
             "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-            "themeName": "numix",
+            "ticName": "numixTheme",
             "themeTitle": "Numix GTK Theme"
         }
     ]

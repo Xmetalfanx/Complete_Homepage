@@ -1,12 +1,18 @@
 .card 
     .card-header.bg-primary.text-white.font-weight-bold ${currentTICThemeTitle}
 
-    .card-text 
-        .font-weight-bold Theme has support for: 
-            | ${currentTICSupportInfo}
-            br/
-            br/
+    .card-text.p-3
+        .row
+            .col-auto
+                .font-weight-bold Theme has support for: 
+                    | ${currentTICSupportInfo}
+                    br/
+                    br/
+                    | ${themeLinks} 
 
-            | ${themeLinks} 
 
+            .col-auto
+                p Screenshot will go here 
+
+            <br />
             | ${howToInstall}

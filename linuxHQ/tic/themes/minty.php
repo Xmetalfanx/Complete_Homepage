@@ -2,12 +2,11 @@
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
-
-
-	$pageTitle = 'Ambiance Theme ';
+	
+	$pageTitle = 'Numix Theme ';
 
 	echo '<script type="text/javascript">';
-		echo 'var localTICName = "ambiance"; ';
+		echo 'var localTICName = "mintYTheme"; ';
 	echo '</script>';
 
 ?>

@@ -27,7 +27,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
             <div class="card-title m-0 p-2 bg-primary text-white">
                 <div class="row pl-3">
                 <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 32px;height: 32px;">
-                    <h2 class="font-weight-bold pl-3">${currentDistroTitle}</h2>
+                    <h4 class="font-weight-bold pl-3">${currentDistroTitle}</h4>
                 </div>
             </div>
             

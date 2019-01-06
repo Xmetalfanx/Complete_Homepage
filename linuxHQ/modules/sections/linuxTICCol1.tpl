@@ -1,19 +1,20 @@
 
 <div class="card">
   <div class="card-header bg-primary text-white">Theme PPAs</div>
-  <a href="/linuxHQ/tic/themes/ambiance.php">Ambiance</a><br/>
-  <a href="/linuxHQ/tic/themes/arc.php">Arc</a><br/>
-  <a href="/linuxHQ/tic/themes/numix.php">Numix</a><br/>
-  <a href="#">Radience</a><br/>
-  <a href="/linuxHQ/tic/themes/yosembiance.php">Yosembiance</a><br/>
+  <a href="/linuxHQ/tic/themes/adapta.php">Adapta</a>
+  <a href="/linuxHQ/tic/themes/arc.php">Arc</a>
+  <a href="/linuxHQ/tic/themes/minty.php"> (Linux) Mint-Y </a>
+  <a href="/linuxHQ/tic/themes/numix.php">Numix</a>
+  <a href="/linuxHQ/tic/themes/yosembiance.php">Yosembiance</a>
 </div>
 
 <div class="card">
   <div class="card-header bg-primary text-white">Icons</div>
-  <a href="#">Evolvere</a><br/><a href="#">Faience</a><br/>
-  <a href="#">Faenza-Cupertino</a><br/>
-  <a href="#">Vibrancy Colors</a><br/>
-  <a href="#">Vivacious </a><br/>
+  <a href="#">Evolvere</a>
+  <a href="#">Faience</a>
+  <a href="#">Faenza-Cupertino</a>
+  <a href="#">Vibrancy Colors</a>
+  <a href="#">Vivacious </a>
 </div>
 
 <div class="card">

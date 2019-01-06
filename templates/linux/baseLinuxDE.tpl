@@ -12,7 +12,7 @@
     <div class="col-xm-12 col-md-2">
       <?php include $sitePath . '/linuxHQ/modules/sections/linuxDECol1.tpl'; ?>
     </div>
-    <div class="col-xm-12 col-md-10" id="desktopSection" >
+    <div id="desktopSection" class="col-xm-12 col-md-10" >
 
     </div>
   </div> <!-- Ends Row -->
