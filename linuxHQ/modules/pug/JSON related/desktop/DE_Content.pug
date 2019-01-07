@@ -7,11 +7,11 @@
         .row 
             .col-md-6
                 span.font-weight-bold Homepage:
-                a(href='${currentDEHomepage}' target='_blank') ${currentDETitle}'s Homepage
+                a(href='${currentDEHomepage}' target='_blank' rel="noopener") ${currentDETitle}'s Homepage
                 br
 
                 span.font-weight-bold Github URL: 
-                a(href='${currentDEGithub}' target='_blank') ${currentDETitle} on Github
+                a(href='${currentDEGithub}' target='_blank' rel="noopener") ${currentDETitle} on Github
                 br
                 br 
 
@@ -42,7 +42,7 @@
 
             .col-md-6
                 a(href="${screenshotDIR}${currentDEScreenshot}" target="_blank")
-                    img.d-block.mx-auto.p-4.img-fluid(src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot")
+                    img.d-block.mx-auto.p-4.img-fluid.lazyload(data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot")
 
         | ${deVersionsOutput}
         | ${deInstallOutput}

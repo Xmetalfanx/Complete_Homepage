@@ -18,7 +18,7 @@
     </div>
   </div>
 
-
 <script src="http://xmetal.x10.mx/linuxHQ/scripts/distros.js"></script>
+<script src="/scripts/lazyload.js"> </script>
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

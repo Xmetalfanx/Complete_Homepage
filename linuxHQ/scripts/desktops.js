@@ -174,7 +174,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                         </div>
                         
                         <div class="col">
-                            <img class="d-md-block d-none mx-auto p-4 img-fluid" src="${screenshotDIR}${currentDEScreenshot}" alt="${currentDETitle} screenshot" >
+                            <img class="d-md-block d-none mx-auto p-4 img-fluid lazyload" data-src="${screenshotDIR}${currentDEScreenshot}" alt="${currentDETitle} screenshot" >
                         </div>
                     </div>
                     

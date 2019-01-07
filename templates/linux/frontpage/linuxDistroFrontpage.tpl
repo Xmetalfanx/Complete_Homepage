@@ -10,7 +10,7 @@
   
   <div class="row">
     <div class="col-xm-12 col-md-2">
-      <?php include $sitePath . '/linuxHQ/modules/sections/linuxDECol1.tpl'; ?>
+      <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
     <div class="col-xm-12 col-md-10" id="distroSection" >
 
@@ -18,5 +18,6 @@
   </div> <!-- Ends Row -->
   
 <script src="http://xmetal.x10.mx/linuxHQ/scripts/distrosFrontpage.js"></script>
+<script src="/scripts/lazyload.js"> </script>
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

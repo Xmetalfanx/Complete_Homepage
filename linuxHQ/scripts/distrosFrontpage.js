@@ -16,7 +16,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
     const currentDistroSShotOutput = `
     
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="img-fluid p-2" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="img-fluid p-2 lazyload" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 

@@ -18,5 +18,7 @@
   </div> <!-- Ends Row -->
   
 <script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops.js"></script>
+<script src="/scripts/lazyload.js"> </script>
+
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>
