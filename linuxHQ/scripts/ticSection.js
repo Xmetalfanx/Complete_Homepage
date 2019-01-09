@@ -2,43 +2,42 @@ var ticResults = document.getElementById("TICSection");
 var zypperInstall = "sudo zypper install";
 var ubuntuInstall = "sudo apt install";
 var dnfInstall = "sudo dnf install";
-var archInstall = "sudo pacman -S";
+var archInstall = "sudo pacman -S"
 
 
 // This should show the entire JSON file's info
-function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall)
-{
+function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall){
+
+  // Should loop through the JSON file
 
       const themeLinks = `
       
-        Gnomelook URL: <a href="${currentTICGnomelookURL}" target="_blank" > ${currentTICThemeTitle} on Gnome Look </a> 
-        <br />
+        Gnomelook URL: <a href="${currentTICGnomelookURL}" target="_blank" >
+        ${currentTICThemeName} on Gnome Look </a> <br />
 
-        Github URL: <a href="${currentTICGithubURL} " target="_blank" > ${currentTICThemeTitle} on Github </a> 
-        <br />
+        Github URL: <a href="${currentTICGithubURL} " target="_blank" >
+        ${currentTICThemeName} on Github </a> <br />
 
-        Deviant Art URL: <a href="${currentTICDeviantArtURL}" target="_blank" > ${currentTICThemeTitle} on DeviantArt </a>
+        Deviant Art URL: <a href="${currentTICDeviantArtURL}" target="_blank" >
+        ${currentTICThemeName} on DeviantArt </a>
 
       `;
 
       const howToInstall = `
-        <h3> How to Install ${currentTICThemeName} </h3>
-  
+        How to Install ${currentTICThemeName}
+        <br />
+        <br />
         <div class="pl-3">
-          <span class="font-weight-bold">On Arch: </span>  
-          <code> ${archInstall} ${currentTICArchInstall} </code> 
+          <span class="font-weight-bold">On Arch: </span> ${archInstall} ${currentTICArchInstall}
           <br />
           
-          <span class="font-weight-bold">On Fedora: </span> 
-          <code>${dnfInstall} ${currentTICFedoraInstall} </code> 
+          <span class="font-weight-bold">On Fedora: </span> ${dnfInstall} ${currentTICFedoraInstall}
           <br />
           
-          <span class="font-weight-bold">On openSUSE: </span> 
-          <code>${zypperInstall} ${currentTICOpenSuseInstall} </code> 
+          <span class="font-weight-bold">On openSUSE: </span> ${zypperInstall} ${currentTICOpenSuseInstall}
           <br />
           
-          <span class="font-weight-bold">On Ubuntu: </span> 
-          <code> ${ubuntuInstall} ${currentTICUbuntuInstall} </code> 
+          <span class="font-weight-bold">On Ubuntu: </span> ${ubuntuInstall} ${currentTICUbuntuInstall}
           <br />
 
         </div>
@@ -47,28 +46,27 @@ function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICS
       const themeOutput =
         `
       
-        <div class="card"> 
-          <div class="card-header bg-primary text-white font-weight-bold">${currentTICThemeTitle}</div>
-          <div class="card-text p-3"> 
-            <div class="row">
-              <div class="col-6">
-                <div class="font-weight-bold">
-                  Theme has support for: ${currentTICSupportInfo}<br/><br/>${themeLinks} 
-                  </div>
-              </div>
-              <div class="col-6">
-                <p>Screenshot will go here </p>
-              </div>
+          <div class="card"> 
+            <div class="card-header bg-primary text-white font-weight-bold">${currentTICThemeTitle}</div>
+            <div class="card-text"> 
+              <div class="font-weight-bold">
+                Theme has support for: </div>
+                
+                ${currentTICSupportInfo}
+                <br/><br/>
+                
+                ${themeLinks} 
+                <br />
+
+                ${howToInstall}
+            
             </div>
-            <br />
-            ${howToInstall}
           </div>
-        </div>
         
         `;
 
         // ** NO if statement here 
-        ticResults.insertAdjacentHTML("beforeend", themeOutput);
+        ticResults.insertAdjacentHTML("beforebegin", themeOutput);
   }
 
 
@@ -89,7 +87,7 @@ function getTICData() {
 
         for (var subTheme = 0; subTheme < value.length; subTheme++){
 
-          var currentTICThemeName = value[subTheme].ticName;
+          var currentTICThemeName = value[subTheme].themeName;
           var currentTICThemeTitle = value[subTheme].themeTitle;
           var currentTICSupportInfo = value[subTheme].supportInfo;
           
@@ -104,17 +102,15 @@ function getTICData() {
           var currentTICOpenSuseInstall = value[subTheme].howToInstall.opensuse;
           var currentTICUbuntuInstall = value[subTheme].howToInstall.ubuntu;
 
-          if (localTICName == currentTICThemeName){
-    
-            displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall);
-
-          }
-
-
-
         } // Ends for-loop
 
 
+        if (localTICName == currentTICThemeName)
+        {
+  
+          displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall);
+
+        }
 
       }); // Ends .each loop 
 

@@ -1,113 +1,106 @@
 {
-    "crossBrowser": 
-    {
-        "security": 
-        [
+    "crossBrowser": {
+        "security": [
             {
+                "addonURL": {
+                    "chromeurl": "",
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search"
+                },
                 "addonname": "privacybadger",
                 "addontitle": "Privacy Badger",
-                "developer": "EFF",
-                "forFF57up": "TRUE",
                 "iconurl": "",
-                "addonURL" :
-                {
-                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search",
-                    "chromeurl": ""
+                "moreInfo": {
+                    "developer": "EFF",
+                    "forFF57up": "TRUE"
                 }
             },
             {
+                "addonURL": {
+                    "chromeurl": "",
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search"
+                },
                 "addonname": "ublock",
                 "addontitle": "Ublock Origin",
-                "developer": "Raymond Gorhill",
-                "forFF57up": "TRUE",
                 "catagory": "adblocker",
                 "iconurl": "",
-                "addonURL":
-                {
-                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search",
-                    "chromeurl": ""
+                "moreInfo": {
+                    "developer": "Raymond Gorhill",
+                    "forFF57up": "TRUE"
                 }
             },
             {
+                "addonURL": {
+                    "chromeurl": "",
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search"
+                },
                 "addonname": "umatrix",
                 "addontitle": "Umatrix",
-                "developer": "Raymond Gorhill",
-                "forFF57up": "",
                 "catagory": "adblocker",
                 "iconurl": "",
-                "addonURL":
-                {
-                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search",
-                    "chromeurl": ""
+                "moreInfo": {
+                    "developer": "Raymond Gorhill",
+                    "forFF57up": ""
                 }
             },
             {
+                "addonURL": {
+                    "chromeurl": null,
+                    "firefoxurl": ""
+                },
                 "addonname": "httpseverwhere",
                 "addontitle": "HTTPS Everywhere",
-                "currentversion": null,
-                "developer": null,
                 "browserSupport": "",
-                "forFF57up": null,
-                "catagory": "security",
                 "iconurl": null,
-                "addonURL":
-                {
-                    "firefoxurl": "",
-                    "chromeurl": null
+                "moreInfo": {
+                    "developer": "",
+                    "forFF57up": ""
                 }
             }
         ]
     },
-
-    "firefox": 
-    {
-        "security": [
-
+    "firefox": {
+        "download": [
             {
-                "addonname": "privacysettings",
-                "addontitle": "Privacy Settings",
-                "developer": "",
-                "browserSupport": "FF",
-                "forFF57up": "",
-                "catagory": "security",
+                "addonURL": {
+                    "chromeurl": "N/A",
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users"
+                },
+                "addonname": "downloaderhelper",
+                "addontitle": "Video Download Helper",
                 "iconurl": "",
-                "addonURL":
-                {
-                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search",
-                    "chromeurl": ""
-                }
-            },
-            {
-                "addonname": "noscript",
-                "addontitle": "Noscript",
-                "developer": "",
-                "forFF57up": "",
-                "iconurl": "",
-                
-                "addonURL":
-                {
-                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users",
-                    "chromeurl": ""
+                "moreInfo": {
+                    "developer": "",
+                    "forFF57up": ""
                 }
             }
         ],
-
-        "download": 
-        [
+        "security": [
             {
-                "addonname": "downloaderhelper",
-                "addontitle": "Video Download Helper",
-                "developer": "",
-                "browserSupport": "",
-                "forFF57up": "",
+                "addonURL": {
+                    "chromeurl": "",
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search"
+                },
+                "addonname": "privacysettings",
+                "addontitle": "Privacy Settings",
                 "iconurl": "",
-                "addonURL":
-                {
-                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users",
-                    "chromeurl": "N/A"
+                "moreInfo": {
+                    "developer": "",
+                    "forFF57up": ""
+                }
+            },
+            {
+                "addonURL": {
+                    "chromeurl": "",
+                    "firefoxurl": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users"
+                },
+                "addonname": "noscript",
+                "addontitle": "Noscript",
+                "iconurl": "",
+                "moreInfo": {
+                    "developer": "",
+                    "forFF57up": ""
                 }
             }
-
         ]
     }
 }
