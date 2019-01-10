@@ -2,7 +2,7 @@ var ticResults = document.getElementById("TICSection");
 var zypperInstall = "sudo zypper install";
 var ubuntuInstall = "sudo apt install";
 var dnfInstall = "sudo dnf install";
-var archInstall = "sudo pacman -S"
+var archInstall = "sudo pacman -S"l
 
 
 // This should show the entire JSON file's info

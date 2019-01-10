@@ -1,6 +1,10 @@
 
+<<<<<<< HEAD
 <!-- ? Shouldn't the closing of "col2" be before this?-->
 <footer class="px-4">
+=======
+<footer class="px-4 py-3">
+>>>>>>> 1413af49... startpage fix attempt and CSS cleanup
   <div class="float-left d-md-inline d-none">Site made with:
     <!-- HTML 5-->
     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" rel="noopener">
@@ -46,11 +50,6 @@
   </div>
 </footer>
 
-
-
-
-</div> <!-- ends bodyMain -->
-</div> <!-- ends bodyContainer -->
 
 </body>
 </html>

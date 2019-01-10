@@ -14,11 +14,14 @@ body {
   flex-direction: column;
   font-size: 12pt; }
 
+<<<<<<< HEAD
 #bodyContainer {
   min-height: 100%; }
 
 #bodyMain {
   height: 100%; }
+=======
+>>>>>>> 1413af49... startpage fix attempt and CSS cleanup
 
 i.fa,
 i.fab,
@@ -79,10 +82,6 @@ nav {
   min-height: 40vh;
   background-position: top;
   background-size: cover; }
-
-#StartPageStyle {
-  display: flex;
-  justify-content: center; }
 
 .iconSM {
   width: 32px;

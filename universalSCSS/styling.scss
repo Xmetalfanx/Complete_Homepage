@@ -15,15 +15,6 @@ body {
 
 }
 
-// Outer Container 
-#bodyContainer {
-    min-height: 100%;
-}
-
-#bodyMain {
-    height: 100%;
-}
-
 // For Font Awesome
 i.fa,
 i.fab,
@@ -105,11 +96,6 @@ nav {
     min-height: 40vh;
     background-position: top;
     background-size: cover;
-}
-
-#StartPageStyle {
-    display: flex;
-    justify-content: center;
 }
 
 .iconSM {
