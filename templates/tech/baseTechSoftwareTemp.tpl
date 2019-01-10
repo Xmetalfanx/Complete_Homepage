@@ -4,13 +4,16 @@
 
 	include $sitePath . '/techHQ/modules/variables/icons.php';
 	include $sitePath . '/modules/tech/baseTechHeader.tpl';
-	include $sitePath . '/techHQ/modules/techderequest.php';
 
 ?>
 <body>
-  <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
+  <?php include $sitePath . '/modules/tech/techHQNavMenus.tpl'; ?>
 
+<<<<<<< HEAD
 	<div class="row">
+=======
+	<div id="mainBody" class="row">
+>>>>>>> 4a19fa05... TechHQ Software Section work and testing
 		<div class="col-xs-12 col-md-2">
 				<?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
 			</div>

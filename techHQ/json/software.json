@@ -1,7 +1,6 @@
 [{
     "browsers": {
-        "blink": [
-            {
+        "blink": [{
                 "progName": "chromium",
                 "progTitle": "Chromium",
                 "moreInfo": {
@@ -44,8 +43,7 @@
                 }
             }
         ],
-        "gecko": [
-            {
+        "gecko": [{
                 "progName": "firefox",
                 "progTitle": "Firefox",
                 "moreInfo": {
@@ -76,8 +74,7 @@
         ]
     },
     "graphics": {
-        "editors": [
-            {
+        "editors": [{
                 "progName": "gimp",
                 "progTitle": "GIMP",
                 "moreInfo": {
@@ -152,8 +149,7 @@
                 }
             }
         ],
-        "optimizers": [
-            {
+        "optimizers": [{
                 "progName": "xatimageopt",
                 "progTitle": "Xat Image Optimizer",
                 "appsubcat": "Image Editor/Viewer",
@@ -184,8 +180,7 @@
                 }
             }
         ],
-        "viewers": [
-            {
+        "viewers": [{
                 "progName": "irfanview",
                 "progTitle": "Irfan View",
                 "moreInfo": {
@@ -247,8 +242,7 @@
     },
     "multimedia": {
         "mediaplayers": {
-            "audioplayers": [
-                {
+            "audioplayers": [{
                     "progName": "audious",
                     "progTitle": "Audious",
                     "moreInfo": {
@@ -336,8 +330,7 @@
                     }
                 }
             ],
-            "videoplayers": [
-                {
+            "videoplayers": [{
                     "progName": "vlc",
                     "progTitle": "VLC",
                     "moreInfo": {
@@ -395,25 +388,22 @@
                     }
                 }
             ],
-            "various": [
-                {
-                    "progName": "mp3gain",
-                    "progTitle": "Mp3Gain",
-                    "appsubcat": "musicplayer",
-                    "moreInfo": {
-                        "progHomepage": "http://mp3gain.sourceforge.net/",
-                        "progDesc": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <p> <em> COMMENT: </em> I am not saying this  is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards </p>",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/media/MP3GainGUI.png"
-                    }
+            "various": [{
+                "progName": "mp3gain",
+                "progTitle": "Mp3Gain",
+                "appsubcat": "musicplayer",
+                "moreInfo": {
+                    "progHomepage": "http://mp3gain.sourceforge.net/",
+                    "progDesc": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <p> <em> COMMENT: </em> I am not saying this  is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards </p>",
+                    "worksonwine": false,
+                    "progPlatform": ""
+                },
+                "images": {
+                    "sshoturl": null,
+                    "progIcon": "/techHQ/progIcon/media/MP3GainGUI.png"
                 }
-            ],
-            "videoEditing": [
-                {
+            }],
+            "videoEditing": [{
                     "appname": "virtualdub",
                     "apptitle": "Virtualdub",
                     "appsubcat": "various",
@@ -450,7 +440,6 @@
         "editors": [{
                 "progName": "atom",
                 "progTitle": "Atom",
-                ,
                 "moreInfo": {
                     "progHomepage": "",
                     "progDesc": "",
@@ -724,7 +713,7 @@
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/"
                     }
-                    },
+                },
                 {
                     "progIcon": "/techHQ/progIcon/",
                     "progName": "zemana",
@@ -758,15 +747,15 @@
                     "progName": "emsisoft",
                     "progTitle": "Emsisoft Anti-Malware",
                     "moreInfo": {
-                            "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
-                            "progDesc": "",
-                            "worksonwine": false,
-                            "progPlatform": ""
-                        },
-                        "images":{
-                            "sshoturl": null,
-                            "progIcon": "/techHQ/progIcon/"
-                        }
+                        "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
+                        "progDesc": "",
+                        "worksonwine": false,
+                        "progPlatform": ""
+                    },
+                    "images": {
+                        "sshoturl": null,
+                        "progIcon": "/techHQ/progIcon/"
+                    }
                 },
                 {
                     "progName": "hitmanpro",
@@ -787,15 +776,15 @@
                     "progTitle": "Malwarebytes Anti-Malware",
                     "worksonwine": false,
                     "moreInfo": {
-                            "progHomepage": "https://www.malwarebytes.com/",
-                            "progDesc": "",
-                            "worksonwine": false,
-                            "progPlatform": "w"
-                        },
-                        "images":{
-                            "sshoturl": null,
-                            "progIcon": "/techHQ/progIcons/security/"
-                        }
+                        "progHomepage": "https://www.malwarebytes.com/",
+                        "progDesc": "",
+                        "worksonwine": false,
+                        "progPlatform": "w"
+                    },
+                    "images": {
+                        "sshoturl": null,
+                        "progIcon": "/techHQ/progIcons/security/"
+                    }
                 }
             ],
             "cleaners": [{
@@ -817,29 +806,29 @@
                     "progName": "ccleaner",
                     "progTitle": "CCleaner",
                     "moreInfo": {
-                            "progHomepage": "https://www.piriform.com/ccleaner/download",
-                            "progDesc": "",
-                            "worksonwine": false,
-                            "progPlatform": "w"
-                        },
-                        "images":{
-                            "sshoturl": null,
-                            "progIcon": ""
-                        }
+                        "progHomepage": "https://www.piriform.com/ccleaner/download",
+                        "progDesc": "",
+                        "worksonwine": false,
+                        "progPlatform": "w"
+                    },
+                    "images": {
+                        "sshoturl": null,
+                        "progIcon": ""
+                    }
                 },
                 {
                     "progName": "ccenhancer",
                     "progTitle": "CCEnhancer",
                     "moreInfo": {
-                            "progHomepage": "https://singularlabs.com/software/ccenhancer/",
-                            "progDesc": "",
-                            "worksonwine": false,
-                            "progPlatform": "w"
-                        },
-                        "images":{
-                            "sshoturl": null,
-                            "progIcon": "/techHQ/progIcon/"
-                        }
+                        "progHomepage": "https://singularlabs.com/software/ccenhancer/",
+                        "progDesc": "",
+                        "worksonwine": false,
+                        "progPlatform": "w"
+                    },
+                    "images": {
+                        "sshoturl": null,
+                        "progIcon": "/techHQ/progIcon/"
+                    }
                 },
                 {
                     "progName": "eraser5",
@@ -864,7 +853,7 @@
                         "worksonwine": false,
                         "progPlatform": "w"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/security/cleaners/Eraser6.png"
                     }
@@ -886,41 +875,26 @@
                 }
             ]
         },
-    
-
         "systemTools": {
             "archivers": [{
                     "progName": "7zip",
                     "progTitle": "7zip (Manager)",
                     "moreInfo": {
-                            "progHomepage": "http://www.7zip.org",
-                            "progDesc": "",
-                            "worksonwine": false,
-                            "progPlatform": ""
-                        },
-                        "images": {
-                            "sshoturl": null,
-                            "progIcon": "/techHQ/progIcon/system_tools/compression/51__7zip.png"
-                        }
+                        "progHomepage": "http://www.7zip.org",
+                        "progDesc": "",
+                        "worksonwine": false,
+                        "progPlatform": ""
+                    },
+                    "images": {
+                        "sshoturl": null,
+                        "progIcon": "/techHQ/progIcon/system_tools/compression/51__7zip.png"
+                    }
                 },
                 {
                     "progName": "universalext",
-                    "progPlatform": "",
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    "programDesc ": "",
                     "programHomepage ": null,
-                    "programTitle": "Universal Extractor",
-=======
-                    "progDesc ": "",
                     "progHomepage ": null,
                     "progTitle": "Universal Extractor",
->>>>>>> 28baacbd... Condense some TechHQ JSON
-                    "sshoturl": null,
-                    "worksonwine": false,
-=======
-                    "progTitle": "Universal Extractor",
->>>>>>> 9a9067c6... TechHQ JSON work
                     "moreInfo": {
                         "progHomepage": "",
                         "progDesc": "",
@@ -935,26 +909,11 @@
                 {
                     "appsubcat": "archiver",
                     "progName": "bandizip",
-<<<<<<< HEAD
                     "progPlatform": "W",
-                    "progDesc ": "",
-                    "progHomepage": "http://www.bandicam.com/bandizip/help/",
-                    "progTitle": "Bandizip",
-                    "sshoturl": null,
-                    "worksonwine": false,
-                    "moreInfo": {
-                        "progHomepage": "",
-<<<<<<< HEAD
-                        "programDesc": "",
-=======
                     "progTitle": "Bandizip",
                     "moreInfo": {
                         "progHomepage": "http://www.bandicam.com/bandizip/help/",
                         "progDesc": "",
->>>>>>> 9a9067c6... TechHQ JSON work
-=======
-                        "progDesc": "",
->>>>>>> 28baacbd... Condense some TechHQ JSON
                         "worksonwine": false,
                         "progPlatform": "w"
                     },
@@ -996,23 +955,17 @@
             ],
             "burners": [{
                     "appsubcat": "burner",
-                    "progHomepage": "http://www.burnaware.com",
-                    "progPlatform": "W",
                     "progTitle": "Burnaware",
-                    "progDesc": "",
-                    "progIcon": "/techHQ/progIcons/system_tools/burner/",
                     "progName": "burnaware",
-                    "sshoturl": "",
-                    "worksonwine": false,
                     "moreInfo": {
-                        "progHomepage": "",
+                        "progHomepage": "http://www.burnaware.com",
                         "progDesc": "",
                         "worksonwine": false,
-                        "progPlatform": ""
+                        "progPlatform": "w"
                     },
                     "images": {
                         "sshoturl": null,
-                        "progIcon": ""
+                        "progIcon": "/techHQ/progIcons/system_tools/burner/"
                     }
                 },
                 {
@@ -1107,11 +1060,11 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/process/SystemExplorer.png"
                     }
-                    
+
                 }
             ],
             "systemSuite": [{
@@ -1123,7 +1076,7 @@
                         "worksonwine": false,
                         "progPlatform": "w"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcons/system_tools/suites/glary.png"
                     }
@@ -1138,7 +1091,7 @@
                         "worksonwine": false,
                         "progPlatform": "w"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcons/system_tools/"
                     }
@@ -1153,7 +1106,7 @@
                         "worksonwine": false,
                         "progPlatform": "w"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcons/system_tools/suites/wisecare365.png"
                     }
@@ -1168,7 +1121,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/"
                     }
@@ -1193,7 +1146,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": ""
                     }
@@ -1208,7 +1161,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/"
                     }
@@ -1224,7 +1177,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/teraCopy.jpg"
                     }
@@ -1239,12 +1192,12 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/TrayIt!_101.png"
-                    
+
                     }
-                    
+
                 },
                 {
                     "appsubcat": "various",
@@ -1256,7 +1209,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/systemtools/SRM_icon.png"
                     }
@@ -1271,7 +1224,7 @@
                         "worksonwine": false,
                         "progPlatform": ""
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "w"
                     }
@@ -1286,7 +1239,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcons/system_tools/driver-booster.png"
                     }
@@ -1316,7 +1269,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/ autoRuns.png"
                     }
@@ -1331,7 +1284,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/FileMenuTools_1075.png"
                     }
@@ -1346,30 +1299,30 @@
                         "worksonwine": false,
                         "progPlatform": ""
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/backup/736__SyncBack.gif"
-                    
+
                     }
-                    
+
                 },
                 {
                     "appsubcat": "various",
                     "progName": "treeview",
                     "progTitle": "Treeview ",
-                    
+
                     "moreInfo": {
                         "progHomepage": "http://www.jam-software.com/freeware/",
                         "progDesc": "",
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcon/system_tools/TreeSize.png"
-                    
+
                     }
-                    
+
                 },
                 {
                     "progName": "patchmypc",
@@ -1381,7 +1334,7 @@
                         "worksonwine": false,
                         "progPlatform": "W"
                     },
-                    "images":{
+                    "images": {
                         "sshoturl": null,
                         "progIcon": "/techHQ/progIcons/system_tools/"
                     }

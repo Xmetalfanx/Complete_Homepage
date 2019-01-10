@@ -10,7 +10,7 @@
 <p>
   <img src="/techHQ/graphics/computer/ordinateur-26.gif"/>
 </p>
-<p class="well">
+<p>
   Well, This is what all the hub-bub was about.   I have decided to merge a few of the sections of my old
   WindowsHQ main section to form a TechCenter Section.  PLEASE NOTE: I am not happy with the name TechCenter
   and/or techHQ but really ... I had most of the pages done, I just needed a name and I was having a mental block creativily.    In fact, I was going to include the Security Section
@@ -24,5 +24,3 @@
    I will be weeding out old programs that &quot;are no longer useful&quot; and I will be adding (in each
    catagory) some of my favorite programs for each task...
   many are already cross platform (Works in Linux AND Windows).</p>
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

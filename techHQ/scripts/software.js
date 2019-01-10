@@ -42,6 +42,10 @@ function softwareData(data) {
 
                 // Code for subCatagory sorting needed i think 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4a19fa05... TechHQ Software Section work and testing
             }); // Ends .each loop 
 
         }); // ends getJSON loop

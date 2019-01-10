@@ -9,7 +9,7 @@
       <input value="english" name="language" type="hidden"/>
       <input value="web" name="cat" type="hidden"/>
       <input name="query" value=" " type="hidden"/>
-      <input id="querysearchbox4" name="keyword" value="" type="text" class="SPSearchBoxWIDE"/>
+      <input id="querysearchbox4" name="keyword" value="" type="text" />
       <input id="submit" src="/techHQ/graphics/search/stp_search_small.gif" alt="Search Button" type="image" class="align-middle"/>
       <input value="process_search" name="cmd" type="hidden"/>
       <input value="sb" name="frm" type="hidden"/>
