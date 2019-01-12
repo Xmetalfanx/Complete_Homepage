@@ -3,14 +3,18 @@
   $pageTitle = 'Software Section Main Page';
 
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/frontpages/baseTechSoftwareFrontpage.tpl";
+  include $sitePath . "/templates/tech/frontpages/techMainFrontpage.tpl";
 
-  $phpTestVar = "Hello Folks";
+    $phpTestVar = <<<EOT
+    Hello Folks - HEREDOC TEST
+EOT;
 
-  echo "<script type=\"text/javascript\">";
-    echo "var jsTestVar = echo $phpTestVar; ";
-    echo "outputVariable = document.getElementByID(\"softwareSection\")";
-    echo "outputVarible.insertAdjacentHTML(\"beforeend\", jsTestVar)";
-  echo "</script> ";
+  echo "<script type='text/javascript'>
+        outputLocation = document.getElementById('outputSection');
+        
+        outputLocation.insertAdjacentHTML('afterbegin', '$phpTestVar' );
+  
+  
+    </script>";
+
 ?>
-

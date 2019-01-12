@@ -12,4 +12,11 @@
 			<?php include $sitePath . '/techHQ/modules/techMainCol1.tpl'; ?>
 		</div>
 
-		<div class="col-xs-12 col-md-10">
+		<div class="col-xs-12 col-md-10" id="outputSection">
+
+		</div>
+
+	</div>
+
+<!-- include baseTechFooter -->
+<?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>

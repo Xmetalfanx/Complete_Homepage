@@ -16,6 +16,6 @@
    <?php include $sitePath . "/modules/startpage.tpl"; ?>
 
   </div> 
- </div> 
+
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

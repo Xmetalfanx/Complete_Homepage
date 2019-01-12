@@ -1,42 +1,37 @@
-var screenshotResults = document.getElementById('desktopSection');
+var softwareOutput = document.getElementById("softwareSection");
+var jsTestVar = '<?php echo phpTestVar ?>';
 
-/*
-function displayDEOutput() {
-
-    // Template Literal for output
-
+function displayDEOutput(phpTestVar) {
+    
     // Main output
-    screenshotResults.insertAdjacentHTML("beforeend", deInfoCard);
+    softwareOutput.insertAdjacentHTML("afterbegin", jsTestVar);
 
 }
-*/
-
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
-// Where is "data" coming from?
-function softwareData(data) {
+function softwareData(data, phpTestVar) {
 
     $(document).ready(function() {
         // Things DO GET HERE, successfully 
         console.log("Inside softwareData function in JS");
 
-        softwareJSONUrl = "http://xmetal.x10.mx/techHQ/json/software.json";
+        // Pass to function -Testing for now 
+        displayDEOutput(phpTestVar);
+
+        var softwareJSONUrl = "http://xmetal.x10.mx/techHQ/json/software.json";
 
         // Get JSON Data
         $.getJSON(softwareJSONUrl, function(data) {
 
-            console.log("Data: " + data);
 
             // For each key value - in this case mainCatagory 
-
             $.each(data, function(key, value) {
 
                 // The key is the main catagory 
                 var mainCatagory = key;
 
-                // I think this should be right 
                 // The value is the sub-catagory 
                 console.log("Main Catagories: " + mainCatagory);
 

@@ -11,8 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 12pt;
-
-
 }
 
 // For Font Awesome
@@ -37,17 +35,13 @@ a:visited {
 }
 
 // For Card Headers with Navy links on Dark Grey background issue
-.card-header 
-{
-    a:link, a:visited
-    {
-
+.card-header {
+    a:link,
+    a:visited {
         background-color: transparent;
         color: white;
     }
-
 }
-
 
 code {
     color: $white;
@@ -59,9 +53,6 @@ footer {
     color: $white;
     background-color: $BGColor;
     height: $footerheight;
-    position: relative;
-    display: flex;
-    @include padding(1%, 0, 0, 0);
     a:link {
         color: inherit;
         background-color: inherit;
@@ -154,7 +145,6 @@ h3.feed-title {
     height: 315px;
 }
 
-.w-33
-{
+.w-33 {
     width: 33%;
 }
