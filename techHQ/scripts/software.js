@@ -11,7 +11,8 @@ function displayDEOutput(phpTestVar) {
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
-function softwareData(data, phpTestVar) {
+// Where is "data" coming from?
+function softwareData(data) {
 
     $(document).ready(function() {
         // Things DO GET HERE, successfully 
@@ -25,8 +26,15 @@ function softwareData(data, phpTestVar) {
         // Get JSON Data
         $.getJSON(softwareJSONUrl, function(data) {
 
+<<<<<<< HEAD
 
             // For each key value - in this case mainCatagory 
+=======
+            console.log("Data: " + data);
+
+            // For each key value - in this case mainCatagory 
+
+>>>>>>> 7cfcad70... TechHQ Software Section work
             $.each(data, function(key, value) {
 
                 // The key is the main catagory 

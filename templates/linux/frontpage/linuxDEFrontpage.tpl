@@ -12,7 +12,7 @@
     <div class="col-xm-12 col-md-2">
       <?php include $sitePath . '/linuxHQ/modules/sections/linuxDECol1.tpl'; ?>
     </div>
-    <div class="col-xm-12 col-md-10" id="desktopSection" >
+    <div class="col-xm-12 col-md-10 d-flex justify-content-between flex-wrap" id="desktopSection" >
 
     </div>
   </div> <!-- Ends Row -->

@@ -2,14 +2,11 @@
 $footerheight: 75px;
 html,
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     color: $BGColor;
     background-color: $white;
-    display: flex;
-    flex-direction: column;
     font-size: 12pt;
 }
 
@@ -147,4 +144,16 @@ h3.feed-title {
 
 .w-33 {
     width: 33%;
+}
+
+// For the SP icon and input box 
+.SPHeightIconInput
+{
+    height: 35px;
+}
+
+.SPSearchIcon
+{
+    height: 33px;
+    vertical-align: middle;
 }

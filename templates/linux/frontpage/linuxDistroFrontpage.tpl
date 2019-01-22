@@ -12,7 +12,7 @@
     <div class="col-xm-12 col-md-2">
       <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
-    <div class="col-xm-12 col-md-10" id="distroSection" >
+    <div class="col-xm-12 col-md-10 d-flex flex-wrap" id="distroSection" >
 
     </div>
   </div> <!-- Ends Row -->

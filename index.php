@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> Xmetal&apos;s Homepage</title><?php include 'modules/headerInclude.tpl'; ?>
+    <title> Xmetal&apos;s Homepage</title>
+    <?php include 'modules/headerInclude.tpl'; ?>
+    
     <!-- Universal CSS file-->
     <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
   </head>

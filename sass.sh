@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sass --watch universalSCSS/:universalCSS/
+sassc -m auto universalSCSS/styling.scss  universalCSS/styling.css

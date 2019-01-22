@@ -12,10 +12,18 @@
       <a href="#" class="nav-link">Contact Me</a>
     </div>
     <!-- closes the block for the links -->
+<<<<<<< HEAD
 
    <?php include $sitePath . "/modules/startpage.tpl"; ?>
 
   </div> 
 
+=======
+
+   <?php include $sitePath . "/modules/startpage.tpl"; ?>
+
+  </div> 
+ </div> 
+>>>>>>> 7cfcad70... TechHQ Software Section work
 
 <?php include $sitePath . "/modules/footer.tpl"; ?>

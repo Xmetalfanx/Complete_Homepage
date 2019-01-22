@@ -1,14 +1,7 @@
 /* Colors */
-
-
 /* Fonts */
-
-
 /* Images */
-
-
 /* Border variables */
-
 html,
 body {
     height: 100%;
@@ -23,82 +16,63 @@ body {
 }
 
 
-
 i.fa,
 i.fab,
 i.fas {
-    color: white;
-    background-color: transparent;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0 0 0 10px;
-}
-
-i.fa a:link,
-i.fab a:link,
-i.fas a:link {
+  color: white;
+  background-color: transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 0 0 10px; }
+  i.fa a:link,
+  i.fab a:link,
+  i.fas a:link {
     text-decoration: none;
-    color: inherit;
-}
+    color: inherit; }
 
 a:link,
 a:visited {
-    background-color: inherit;
-    color: navy;
-}
+  background-color: inherit;
+  color: navy; }
 
 .card-header a:link,
 .card-header a:visited {
-    background-color: transparent;
-    color: white;
-}
+  background-color: transparent;
+  color: white; }
 
 code {
-    color: white;
-    display: inline-block;
-    background-color: #3e3f3a;
-}
+  color: white;
+  display: inline-block;
+  background-color: #3e3f3a; }
 
 footer {
-    color: white;
-    background-color: #3e3f3a;
-    height: 75px;
-}
-
-footer a:link {
+  color: white;
+  background-color: #3e3f3a;
+  height: 75px; }
+  footer a:link {
     color: inherit;
-    background-color: inherit;
-}
+    background-color: inherit; }
 
 nav {
-    color: white;
-    background-color: #3e3f3a;
-}
-
-nav .navbar-brand {
+  color: white;
+  background-color: #3e3f3a; }
+  nav .navbar-brand {
     font-size: 36px;
     font-weight: bold;
-    padding: 0 0 0 10px;
-}
-
-nav .navbar-nav a:link {
-    font-size: 22px;
-}
-
-nav .nav-tabs {
-    background-color: white;
-}
+    padding: 0 0 0 10px; }
+  nav .navbar-nav a:link {
+    font-size: 22px; }
+  nav .nav-tabs {
+    background-color: white; }
 
 .smallText {
-    font-size: 11px;
-}
+  font-size: 11px; }
 
 .coverImage {
-    display: block;
-    min-height: 40vh;
-    background-position: top;
-    background-size: cover;
-}
+  display: block;
+  min-height: 40vh;
+  background-position: top;
+  background-size: cover; }
 
 #StartPageStyle {
     display: flex;
@@ -106,55 +80,48 @@ nav .nav-tabs {
 }
 
 .iconSM {
-    width: 32px;
-    height: 32px;
-}
+  width: 32px;
+  height: 32px; }
 
 .iconLG {
-    width: 48px;
-    height: 48px;
-}
+  width: 48px;
+  height: 48px; }
 
 h3.feed-title {
-    color: white;
-    background-color: #3e3f3a;
-    padding: 1% 0 1% 1%;
-}
+  color: white;
+  background-color: #3e3f3a;
+  padding: 1% 0 1% 1%; }
 
 .feed-iten-desc {
-    padding: 1% 1% 1% 1%;
-}
+  padding: 1% 1% 1% 1%; }
 
 .feed-item-title {
-    padding: 1% 1% 0 5px;
-}
-
-.feed-item-title a:link,
-.feed-item-title a:hover,
-.feed-item-title a:visited {
+  padding: 1% 1% 0 5px; }
+  .feed-item-title a:link,
+  .feed-item-title a:hover,
+  .feed-item-title a:visited {
     color: #3e3f3a;
     background-color: inherit;
-    font-size: 15px;
-}
+    font-size: 15px; }
 
 .icon {
-    position: relative;
-    margin: 20px 20px;
-}
+  position: relative;
+  margin: 20px 20px; }
 
 .card-img-top {
-    box-shadow: 2px 2px 2px black;
-    margin: 10px 10px 10px 10px;
-}
+  box-shadow: 2px 2px 2px black;
+  margin: 10px 10px 10px 10px; }
 
 .YTPlaylists {
-    width: 560px;
-    height: 315px;
-}
+  width: 560px;
+  height: 315px; }
 
-.w-33 {
-    width: 33%;
-}
+.frontpageTN {
+  max-width: 400px;
+  margin: auto auto;
+  padding: 2% 2% 2% 2%; }
 
+.SPHeightIconInput {
+  height: 35px; }
 
 /*# sourceMappingURL=styling.css.map */
