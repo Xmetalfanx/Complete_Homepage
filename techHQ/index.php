@@ -5,8 +5,10 @@
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
-  $output = <<<OUTPUT
-        <div class="card d-none d-md-block mb-5 border-secondary ">
+    echo '<script type="text/javascript">
+          
+          var output = `
+          <div class="card d-none d-md-block mb-5 border-secondary ">
           <div class="card-header bg-primary text-white pb-1 mb-4">
             <div class="font-weight-bold">Educational Sites</div>
           </div>
@@ -38,7 +40,6 @@
               
                 </div>
                 <div class="col-6">
-
                 <a href="http://www.mathtutordvd.com/" target="_blank">
                   MathTutorDVD.com
                 </a>
@@ -53,16 +54,12 @@
           </div> 
         </div>  
     <?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
-OUTPUT;
+              `;
 
-    
 
-    echo "<script type='text/javascript'>
-          
-      console.log('$output: ' + $output);
-        outputLocation = document.getElementById('outputSection');
-          outputLocation.insertAdjacentHTML('afterbegin', \"HELLO - THIS IS A TEST\");
+          outputLocation = document.getElementById("outputSection");
+            outputLocation.innerHTML = output;
 
-        </script>";
+        </script>';
 
 ?>

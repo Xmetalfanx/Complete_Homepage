@@ -2,8 +2,7 @@ var ticResults = document.getElementById("TICSection");
 var zypperInstall = "sudo zypper install";
 var ubuntuInstall = "sudo apt install";
 var dnfInstall = "sudo dnf install";
-var archInstall = "sudo pacman -S"l
-
+var archInstall = "sudo pacman -S";
 
 // This should show the entire JSON file's info
 function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall){
