@@ -1,9 +1,5 @@
 // No Longer Needed but leave until i can convert the default radius calls to 8px
 // Apparently no prefixes are needed anymore
-@mixin borderRad($radius: 8px)
-{
-	border-radius: $radius;
-}
 
 @mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black)
 {
@@ -11,9 +7,12 @@
 }
 @mixin size ($width, $height)
 {
-  width: $width;height: $height;
+  width: $width;
+
+height: $height;
   }
 
+// Are These needed or built into something else now? 
 @mixin padding( $top, $right, $bottom, $left)
  {
    padding: $top $right $bottom $left;
@@ -28,6 +27,8 @@
 // ############################################################################
 
 @mixin autoMargin($margin-left: auto, $margin-right: auto)
-{margin-right: $margin-right;
+{
+margin-right: $margin-right;
+
 	margin-left: $margin-left;
 	}

@@ -1,6 +1,6 @@
 <?php
 
-  $the_title = 'Security Section - Common Software to remove Rogue AV and Malware Scanners'
+  $the_title = 'Security Section - Common Software to remove Rogue AV and Malware Scanners';
   include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
 
 ?>

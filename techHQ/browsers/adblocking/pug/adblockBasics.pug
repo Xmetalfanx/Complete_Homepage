@@ -1,14 +1,9 @@
-//output: adblockBasics.html 
-
-<?php include "/techHQ/browsers/adblocking/variables.php"; ?> 
-
 h1 Ad/Tracker Blocking Basics
 hr
 
 .card
-  .card-block
-    h4.card-title Steps to Setting up basic Blocking        
-    .card-text
+  h4.card-header Steps to Setting up basic Blocking  
+    .card-body
       ol
         li Pick the browser you want use
         li Pick the addon you want to try
@@ -17,63 +12,14 @@ hr
           | you do not want to, you do not need to
         
 
-
-
-h3 Adblockers I like Filtered by Browser 
+h3 Adblocker I Use
 .card 
-  .card-block
-    h3.card-title 
-      img(src="https://png.icons8.com/color/50/000000/firefox.png")
-    p.card-text
-      .row
-        .col-3
-          $ublockIcon 
-          $uBlockOFirefox
-        
-        .col-3
-          $adguardIcon
-          $adGuardFirefox
-          
-        .col-3
-          p
-            $ABEFirefox Discontinued/No Long Developed
-          p
-            | Note: The Dev of Adblock Edge notes that &ldquo;Ublock is better&rdquo; and is cross-browser, so you &ldquo;may want to use that&rdquo;
-            | (My quotes, 
-            br
-            | not his)
-      
-      // Uh ...what?
-      .row
-        $EHFirefox
-        
-
-.card
-  .card-block
-    h4.card-title img(src='https://png.icons8.com/color/50/000000/chrome.png') Chromium/Google Chrome
-    .card-text
-      .row
-        .col-3
-          $ublockIcon 
-          $UBlockOriginChrome
-        
-        .col-3  
-          $adguardIcon
-          $AdguardChrome
-        
-.card
-  .card-block
-    h4.card-title Opera 
-    .card-text
-      .row
-        .col-3
-          $ublockIcon 
-          $uBlockOriginOpera
-          
-        .col-3
-          $adguardIcon
-          $adGuardOpera
-
+    h3.card-header Ublock Origin
+    .card-body
+      a(href="https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?utm_source=chrome-ntp-icon") Chrome
+      a(href="https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search") Firefox 
+      a(href="") Opera
+  
 
 
 
@@ -87,8 +33,9 @@ ul
     a(href='https://addons.palemoon.org/extensions/privacy-and-security/adblock-latitude/') Adblock Latitude
 
 
-hr
-h3 Knowing if Ublock is Enabled/Disabled
+hr 
+.card
+  h3.card-title Knowing if Ublock Origin, is Enabled/Disabled
 
 ul
   li
@@ -115,28 +62,15 @@ ul
     img(src='/techHQ/browsers/adblocking/screenshots/abe/abeDisablePageOnly.jpg', alt='AdBlock Edge Disabled Per-site 2')
     br
     | AdBlock Edge Disabled Per-site 2
-    br
-      
+    br    
   br
   hr
-    
-.row
-  p $adguardIcon
-  .col-3 
-    | img(src='/techHQ/browsers/adblocking/screenshots/adguard/adguardOn.jpg', alt='Adguard Enabled', width='700px', height='400px') Adguard Enabled
-  .col-3
-    | img(src='/techHQ/browsers/adblocking/screenshots/adguard/adguardSiteOff.jpg', alt='Adguard Disabled Per-site', width='700px', height='400px') Adguard Disabled
-
-  .col-3
-    |  img(src='/techHQ/browsers/adblocking/screenshots/adguard/adguardTotallyOFF.jpg', alt='Adguard Disabled Completely', width='700px', height='400px') Adguard Disabled Completely
-    br
-    
+   
 
     
 .card
   .card-block
     h4.card-title $ublockIcon Ublock Enable vs Disabled 
-    |         
     p.card-text
       img(src='/techHQ/browsers/adblocking/screenshots/ublock/ublockEnabled.jpg', alt='Ublock Enabled', width='60%', height='60%')
       br
@@ -146,6 +80,3 @@ ul
         img(src='/techHQ/browsers/adblocking/screenshots/ublock/ublockDisabled.jpg', alt='Ublock Disabled', width='800px', height='350px')
         br
         | Ublock Disabled - Greyed out &quot;circile&quot;
-
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

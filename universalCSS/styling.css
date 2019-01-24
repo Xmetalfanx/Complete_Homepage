@@ -4,17 +4,10 @@
 /* Border variables */
 html,
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    color: #3e3f3a;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 12pt;
-}
-
+  padding: 0 0 0 0;
+  overflow-x: hidden;
+  color: #3e3f3a;
+  font-size: 12pt; }
 
 i.fa,
 i.fab,
@@ -74,11 +67,6 @@ nav {
   background-position: top;
   background-size: cover; }
 
-#StartPageStyle {
-    display: flex;
-    justify-content: center;
-}
-
 .iconSM {
   width: 32px;
   height: 32px; }
@@ -116,12 +104,24 @@ h3.feed-title {
   width: 560px;
   height: 315px; }
 
-.frontpageTN {
-  max-width: 400px;
-  margin: auto auto;
-  padding: 2% 2% 2% 2%; }
+.w-33 {
+  width: 33%; }
 
 .SPHeightIconInput {
   height: 35px; }
+
+.SPSearchIcon {
+  height: 33px;
+  vertical-align: middle; }
+
+.graphicsSevenityTwo {
+  max-width: 72px;
+  max-height: 72px; }
+
+.card-header {
+  color: white;
+  background-color: #3e3f3a;
+  font-weight: bold;
+  font-size: 20px; }
 
 /*# sourceMappingURL=styling.css.map */

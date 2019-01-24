@@ -12,7 +12,6 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
     var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
     var distroSShotTNPath = distroSShotPath + 'thumbnails/';
 
-
     // Template Literal for output
 
     const currentDistroSShotOutput = `

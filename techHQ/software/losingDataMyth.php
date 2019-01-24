@@ -2,7 +2,7 @@
 
 
   // WHY ON EARTH is this in this section and not under LinuxHQ? 
-  $title = 'Losing My Data Myth'
+  $title = 'Losing My Data Myth';
 
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
 
@@ -65,4 +65,3 @@
 
 EOD;
 ?>
-<?php include .("/templates/tech/baseTechSoftwareTemplate.php"); ?>

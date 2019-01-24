@@ -53,7 +53,7 @@
               </div>
           </div> 
         </div>  
-    <?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
+          <?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
               `;
 
 

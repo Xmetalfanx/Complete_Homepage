@@ -2,14 +2,28 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Ad/Content Blocking Basics ';
 	 $sitePath = "/home/xmetalx1/public_html";
-	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+   include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+   
+   echo '<script type="text/javascript">
+			 
+      output = `
+      
+      
+      
+      `;
+
+      outputLocation = document.getElementById("browserSection");
+			outputLocation.innerHTML = output;
+
+
+   </script>';
 ?>
 
 <h1>Ad/Tracker Blocking Basics</h1>
 <hr/>
 <div class="card">
   <div class="card-block">
-    <h4 class="card-title"></h4>Steps to Setting up basic Blocking
+    <h4 class="card-title">Steps to Setting up basic Blocking</h4>
     <div class="card-text">
       <ol>
         <li>Pick the browser you want use</li>
@@ -36,10 +50,6 @@
         $uBlockOFirefox
       </p>
       <p class="col-3">
-        $adguardIcon
-        $adGuardFirefox
-      </p>
-      <p class="col-3">
         <p>$ABEFirefox Discontinued/No Long Developed</p>
         <p>
           Note: The Dev of Adblock Edge notes that &ldquo;Ublock is better&rdquo; and is cross-browser, so you &ldquo;may want to use that&rdquo;
@@ -47,8 +57,6 @@
         </p>
       </p>
     </div>
-    <!-- Uh ...what?-->
-    <div class="row">$EHFirefox</div>
   </p>
 </div>
 <div class="card">
@@ -59,11 +67,6 @@
         <div class="col-3">
           $ublockIcon
           $UBlockOriginChrome
-        </div>
-        <div class="col-3">
-
-          $adguardIcon
-          $AdguardChrome
         </div>
       </div>
     </p>
@@ -77,10 +80,6 @@
         <div class="col-3">
           $ublockIcon
           $uBlockOriginOpera
-        </div>
-        <div class="col-3">
-          $adguardIcon
-          $adGuardOpera
         </div>
       </div>
     </p>
@@ -121,5 +120,3 @@
   </div>
 </div>
 
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

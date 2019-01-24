@@ -1,0 +1,106 @@
+{
+    "crossBrowser": {
+        "security": [
+            {
+                "addonURL": {
+                    "chromeURL": "",
+                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search"
+                },
+                "addonname": "privacybadger",
+                "addontitle": "Privacy Badger",
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "EFF",
+                    "forFFQuantum": "TRUE"
+                }
+            },
+            {
+                "addonURL": {
+                    "chromeURL": "https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=chrome-ntp-icon",
+                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search"
+                },
+                "addonname": "ublockorigin",
+                "addontitle": "Ublock Origin",
+                "catagory": "adblocker",
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "Raymond Gorhill",
+                    "forFFQuantum": "TRUE"
+                }
+            },
+            {
+                "addonURL": {
+                    "chromeURL": "https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?utm_source=chrome-ntp-icon",
+                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search"
+                },
+                "addonname": "umatrix",
+                "addontitle": "Umatrix",
+                "catagory": "adblocker",
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "Raymond Gorhill",
+                    "forFFQuantum": ""
+                }
+            },
+            {
+                "addonURL": {
+                    "chromeURL": "https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon",
+                    "firefoxURL": "https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/"
+                },
+                "addonname": "httpseverwhere",
+                "addontitle": "HTTPS Everywhere",
+                "browserSupport": "",
+                "iconURL": null,
+                "moreInfo": {
+                    "developer": "EFF",
+                    "forFFQuantum": ""
+                }
+            }
+        ]
+    },
+    "firefox": {
+        "download": [
+            {
+                "addonURL": {
+                    "chromeURL": "N/A",
+                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users"
+                },
+                "addonname": "downloaderhelper",
+                "addontitle": "Video Download Helper",
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "",
+                    "forFFQuantum": ""
+                }
+            }
+        ],
+        "security": [
+            {
+                "addonURL": {
+                    "chromeURL": "",
+                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search"
+                },
+                "addonname": "privacysettings",
+                "addontitle": "Privacy Settings",
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "",
+                    "forFFQuantum": ""
+                }
+            },
+            {
+                "addonURL": {
+                    "chromeURL": "",
+                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users"
+                },
+                "addonname": "noscript",
+                "addontitle": "Noscript",
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "",
+                    "forFFQuantum": ""
+                }
+            }
+        ]
+    }
+}

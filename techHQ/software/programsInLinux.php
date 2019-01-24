@@ -1,6 +1,6 @@
 <?php
 
-  $pageTitle = ' Linux Section - Programs in Linux'
+  $pageTitle = ' Linux Section - Programs in Linux';
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";

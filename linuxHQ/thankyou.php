@@ -44,3 +44,7 @@
 
 
 <?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+
+EOD
+
+?>

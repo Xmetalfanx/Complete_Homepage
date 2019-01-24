@@ -25,6 +25,3 @@
 <p>I was under the under the impression <span class="green"> <em>Allow</em> (Green) </span> would of course allow the content from that domain, though the static filters were still applied <em>to that content</em>.  This would mean, if something from an <em>allowed domain</em> gets &quot;flagged&quot; in one of the 3rd party blocklists, then just that flagged element would be blocked, but the rest of the content, would be allowed... IF I AM UNDERSTAND THIS RIGHT ... </p>
 
 <p>THAT is how NOOP RULES work... no matter what is in the static blocklists, the content that got flagged (in my example) would still be display/sen
-
-
-<?php include $sitePath . "/modules/footer.tpl"; ?>

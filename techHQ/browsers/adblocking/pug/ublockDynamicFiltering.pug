@@ -1,0 +1,34 @@
+
+
+h3 Dynamic Filtering in Ublock Explained
+ul
+  li
+    p
+      a(href="https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine")
+        | uBlock &quot;filtering chart&quot; wiki page
+  li
+    p
+      a(href='https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide') Dynamic Filtering Guide by Gorhill
+
+h4 What is a Dynamic Filter?
+p A Dynamic filter is a more advanced filter than the regular static filter
+
+h4 Global Dynamic Rules
+p
+  | Basically a
+  spam.font-italics Global Dynamic Rule
+  |  is just a default rule that is a applied to any site you visit, without having to change the
+  | &#x9;&#x9;&quot;allow/deny&quot; settings all the time, if you know you always want to take the same action with that domain
+hr 
+
+
+h5 Example of Global -vs- Per-site Dynamic Filtering
+p
+  | *YOU CAN ADJUST dynamic filter settings to over-right the global settings, so if you (example) want to deny Facebook.com, on
+  | everything except &quot;Facebook.com&quot;, you would set the global rule for Facebook.com do
+  strong deny
+  |  (red), and ON &quot;Facebook.com&quot; &apos;s per-site dynamic filtering settings, you would set the
+  | &#x9;&#x9;dynamic filter for
+  | &#x9;&#x9;
+  em Facebook.com
+

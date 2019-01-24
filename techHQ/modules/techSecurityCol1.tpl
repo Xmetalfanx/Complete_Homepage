@@ -13,5 +13,6 @@
   <div class="card-header bg-primary text-white"><a href="/techHQ/security/secureBrowsing/securezBrowseIndex.php">Secure Web Browsing</a></div>
   <div class="card-header bg-primary text-white">
     <div>Online Scan Site</div>
-  </div><a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a><br/>
+  </div>
+  <a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a><br/>
 </div>

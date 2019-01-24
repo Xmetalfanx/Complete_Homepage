@@ -1,13 +1,6 @@
 var softwareOutput = document.getElementById("softwareSection");
 var jsTestVar = '<?php echo phpTestVar ?>';
 
-function displayDEOutput(phpTestVar) {
-    
-    // Main output
-    softwareOutput.insertAdjacentHTML("afterbegin", jsTestVar);
-
-}
-
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
@@ -15,37 +8,52 @@ function displayDEOutput(phpTestVar) {
 function softwareData(data) {
 
     $(document).ready(function() {
-        // Things DO GET HERE, successfully 
-        console.log("Inside softwareData function in JS");
 
-        // Pass to function -Testing for now 
-        displayDEOutput(phpTestVar);
+        // console.log("Inside softwareData function in JS");
 
-        var softwareJSONUrl = "http://xmetal.x10.mx/techHQ/json/software.json";
+        const softwareJSONUrl = "http://xmetal.x10.mx/techHQ/json/software.json";
+        var mainCatNum = 0;
 
         // Get JSON Data
         $.getJSON(softwareJSONUrl, function(data) {
 
-
-            // For each key value - in this case mainCatagory 
+            // For each key value - in this case mainCatagory
             $.each(data, function(key, value) {
 
-                // The key is the main catagory 
-                var mainCatagory = key;
+                const mainCatagory = key;
 
-                // The value is the sub-catagory 
-                console.log("Main Catagories: " + mainCatagory);
+                // test var
+                var jsonStringifyMainCat = JSON.stringify(mainCatagory);
 
-                // Code for subCatagory sorting needed i think 
+                mainCatNum++;
 
-<<<<<<< HEAD
-=======
+                // For testing only
+                console.log("mainCatagory: " + mainCatagory);
+                // console.log(this);
 
->>>>>>> 4a19fa05... TechHQ Software Section work and testing
-            }); // Ends .each loop 
+
+                for (subCatagories in this){
+
+                    console.log("Subcatagory: " + subCatagories);
+                    // console.log("this: " + JSON.stringify(this));
+
+                    // come up with better var name later 
+                    for (stuff in subCatagories)
+                    {
+                        for (moreThings in stuff)
+                        {
+                            console.log("hmm: " + stuff[moreThings]);
+
+
+                        }
+
+                    }
+
+                }
+
+            }); // Ends .each loop
 
         }); // ends getJSON loop
-
 
     });
 
