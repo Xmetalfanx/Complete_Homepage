@@ -38,11 +38,11 @@ function softwareData(data) {
                     // console.log("this: " + JSON.stringify(this));
 
                     // come up with better var name later 
-                    for (stuff in subCatagories)
+                    for (sortedSubCat in subCatagories)
                     {
-                        for (moreThings in stuff)
+                        for (apps in sortedSubCat)
                         {
-                            console.log("hmm: " + stuff[moreThings]);
+                            console.log("hmm: " + sortedSubCat[apps]);
 
 
                         }
