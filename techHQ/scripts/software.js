@@ -12,43 +12,32 @@ function softwareData(data) {
         // console.log("Inside softwareData function in JS");
 
         const softwareJSONUrl = "http://xmetal.x10.mx/techHQ/json/software.json";
-        var mainCatNum = 0;
 
         // Get JSON Data
         $.getJSON(softwareJSONUrl, function(data) {
 
-            // For each key value - in this case mainCatagory
+            // For each mainCategory in this case 
             $.each(data, function(key, value) {
 
-                const mainCatagory = key;
+                const mainCategory = key;
 
-                // test var
-                var jsonStringifyMainCat = JSON.stringify(mainCatagory);
+                console.log(mainCategory + "" +  value);
 
-                mainCatNum++;
+                // As long as there are subcatagories in the mainCatagory, loop through 
+                for (subCategories in value){
 
-                // For testing only
-                console.log("mainCatagory: " + mainCatagory);
-                // console.log(this);
+                    // Test 
+                    // console.log(value);
+                    
 
-
-                for (subCatagories in this){
-
-                    console.log("Subcatagory: " + subCatagories);
-                    // console.log("this: " + JSON.stringify(this));
-
-                    // come up with better var name later 
-                    for (sortedSubCat in subCatagories)
+                    // Is this where the nunber counter (for loop) should come in? 
+                    for(var sortedSubCatCount = 0; sortedSubCatCount < subCategories.length; sortedSubCatCount++ )
                     {
-                        for (apps in sortedSubCat)
-                        {
-                            console.log("hmm: " + sortedSubCat[apps]);
-
-
-                        }
+                        // This is counting numbers ... 
+                        console.log(subCategories);
 
                     }
-
+    
                 }
 
             }); // Ends .each loop
