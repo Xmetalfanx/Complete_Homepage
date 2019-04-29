@@ -21,20 +21,18 @@ function softwareData(data) {
 
                 const mainCategory = key;
 
-                console.log(mainCategory + "" +  value);
+                // Test Var only ... can be removed later 
+                // console.log(mainCategory + "" +  value);
 
                 // As long as there are subcatagories in the mainCatagory, loop through 
                 for (subCategories in value){
 
-                    // Test 
-                    // console.log(value);
-                    
-
                     // Is this where the nunber counter (for loop) should come in? 
                     for(var sortedSubCatCount = 0; sortedSubCatCount < subCategories.length; sortedSubCatCount++ )
                     {
+                        
                         // This is counting numbers ... 
-                        console.log(subCategories);
+                        console.log(subCategories[sortedSubCatCount]);
 
                     }
     
