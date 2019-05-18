@@ -28,7 +28,10 @@
     <i class="fa fa-gitlab fa-2x"></i></a> 
     
     <a href="https://github.com/Xmetalfanx" target="_blank" rel="noopener">
-    <i class="fa fa-github fa-2x mr-4"></i></a>
+    <i class="fa fa-github fa-2x"></i></a>
+
+    <a href="https://bitbucket.org/%7B1f3bbcd5-12ee-42d1-bdc4-cef9f90590b0%7D/" target="_blank" rel="noopener">
+    <i class="fa fa-bitbucket fa-2x mr-4"></i></a>
   </div> 
 
 
