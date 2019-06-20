@@ -1,5 +1,5 @@
-var desktopResults = document.getElementById('desktopSection');
-var screenshotDIR = "/linuxHQ/screenshots/";
+let desktopResults = document.getElementById('desktopSection');
+let screenshotDIR = "/linuxHQ/screenshots/";
 
 function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEScreenshot, currentDEScreenshotTN, currentDESShotDistro)
 {
@@ -49,24 +49,24 @@ function getDesktopData(data) {
 
                 // The key is 'gtk2' or 'qt'
 
-                var currentFramework = key;
+                let currentFramework = key;
 
-                for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+                for (let subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
                     // ** I need to know value and subFrameworks here 
 
-                    var currentDEName = value[subFrameworks].desktopName;
-                    var currentDETitle = value[subFrameworks].desktopTitle;
+                    let currentDEName = value[subFrameworks].desktopName;
+                    let currentDETitle = value[subFrameworks].desktopTitle;
 
                     // Leave this for now ... I may want to make the Title displayed a link to the homepage of the DE 
-                    var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+                    let currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
 
                     // Screenshot
-                    var currentDESShot = value[subFrameworks].screenshots.src;
-                    var currentDESShotTN = value[subFrameworks].screenshots.thumbnail;
-                    var currentDESShotDistro = value[subFrameworks].screenshots.distro;
+                    let currentDESShot = value[subFrameworks].screenshots.src;
+                    let currentDESShotTN = value[subFrameworks].screenshots.thumbnail;
+                    let currentDESShotDistro = value[subFrameworks].screenshots.distro;
 
-                    // End Version vars
+                    // End Version lets
                     ///////////////////////////////////////////////////////////////////////////////////
                 
                     // Removing the if statement here should make it cycle through the entire JSON list 

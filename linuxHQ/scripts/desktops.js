@@ -1,5 +1,5 @@
-var desktopResults = document.getElementById('desktopSection');
-var screenshotDIR = "/linuxHQ/screenshots/";
+let desktopResults = document.getElementById('desktopSection');
+let screenshotDIR = "/linuxHQ/screenshots/";
 
 function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall) {
 
@@ -85,7 +85,9 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
 
             <div>
-                <small>Disclaimer: I decided to list the versions currently in different distro/versions of that distro. This means the version of different Desktops that may have SHIPPED WITH the version of the distro listed,may not be the same as what I list. </small>
+                <small>Disclaimer: I decided to list the versions currently in different distro/versions of that distro.
+                This means the version of different Desktops that may have SHIPPED WITH the version of the distro listed,
+                may not be the same as what I list. </small>
             </div>
 
         `;
@@ -212,78 +214,78 @@ function getDesktopData(data, $localDEName) {
 
                 // The key is 'gtk2' or 'qt'
 
-                var currentFramework = key;
+                let currentFramework = key;
 
-                for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+                for (let subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
                     // ** I need to know value and subFrameworks here
 
-                    var currentDEName = value[subFrameworks].desktopName;
-                    var currentDETitle = value[subFrameworks].desktopTitle;
+                    let currentDEName = value[subFrameworks].desktopName;
+                    let currentDETitle = value[subFrameworks].desktopTitle;
 
                     // More Info
-                    var currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-                    var currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-                    var currentDECategory = value[subFrameworks].generalInfo.desktopCatagory;
-                    var currentDEDistroFeature = value[subFrameworks].generalInfo.distrosFeature;
+                    let currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
+                    let currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
+                    let currentDECategory = value[subFrameworks].generalInfo.desktopCatagory;
+                    let currentDEDistroFeature = value[subFrameworks].generalInfo.distrosFeature;
 
                     // Requirnments
-                    var currentDEReqMem = value[subFrameworks].requirements.reqMemory;
-                    var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
-                    var currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
+                    let currentDEReqMem = value[subFrameworks].requirements.reqMemory;
+                    let currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
+                    let currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
 
                     // Screenshot - just one for now
-                    var currentDEScreenshot = value[subFrameworks].screenshots.src;
+                    let currentDEScreenshot = value[subFrameworks].screenshots.src;
 
                     // Versions
-                    var versionJSON = value[subFrameworks].versions;
+                    let versionJSON = value[subFrameworks].versions;
 
-                    var currentDELatestVersion = versionJSON.latestVersion;
+                    let currentDELatestVersion = versionJSON.latestVersion;
                     // The point of this is "the last time I checked/updated" even some of the info
-                    var currentDEVerUpdated = versionJSON.updated;
+                    let currentDEVerUpdated = versionJSON.updated;
 
                     // Arch
-                    var currentDEArchVersion = versionJSON.arch;
+                    let currentDEArchVersion = versionJSON.arch;
 
                     // Fedora
-                    var currentDEF28Version = versionJSON.fedora.f28;
-                    var currentDEF29Version = versionJSON.fedora.f29;
-                    var currentDEFRWVersion = versionJSON.fedora.rawhide;
+                    let currentDEF28Version = versionJSON.fedora.f28;
+                    let currentDEF29Version = versionJSON.fedora.f29;
+                    let currentDEFRWVersion = versionJSON.fedora.rawhide;
 
                     // OpenSuse
-                    var currentDESuseL423Version = versionJSON.opensuse.leap423;
-                    var currentDESuseL15Version = versionJSON.opensuse.leap15;
-                    var currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
+                    let currentDESuseL423Version = versionJSON.opensuse.leap423;
+                    let currentDESuseL15Version = versionJSON.opensuse.leap15;
+                    let currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
 
 
-                    var ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
+                    let ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
 
                     // Linux Mint
-                    var currentDEMint173Version = ubuntuVerJSON.mint.mint173;
-                    var currentDEMint18Version = ubuntuVerJSON.mint.mint18;
-                    var currentDEMint19Version = ubuntuVerJSON.mint.mint19;
+                    let currentDEMint173Version = ubuntuVerJSON.mint.mint173;
+                    let currentDEMint18Version = ubuntuVerJSON.mint.mint18;
+                    let currentDEMint19Version = ubuntuVerJSON.mint.mint19;
 
                     // Ubuntu LTS
-                    var currentDE1604LTSVer = ubuntuVerJSON.lts1604ver;
-                    var currentDE1804LTSVer = ubuntuVerJSON.lts1804ver;
+                    let currentDE1604LTSVer = ubuntuVerJSON.lts1604ver;
+                    let currentDE1804LTSVer = ubuntuVerJSON.lts1804ver;
 
-                    var currentDE1810 = ubuntuVerJSON.ubuntu1810;
+                    let currentDE1810 = ubuntuVerJSON.ubuntu1810;
 
-                    // End Version vars
+                    // End Version lets
                     ///////////////////////////////////////////
 
-                    // Begin Install vars
-                    var currentDEarchInstall = value[subFrameworks].install.arch;
-                    var currentDEfedoraInstall = value[subFrameworks].install.fedora;
+                    // Begin Install lets
+                    let currentDEarchInstall = value[subFrameworks].install.arch;
+                    let currentDEfedoraInstall = value[subFrameworks].install.fedora;
 
-                    var openSuseInstallJSON = value[subFrameworks].install.opensuse;
-                    var currentDEopensuseInstall = openSuseInstallJSON.opensuseInstall;
-                    var currentDEopensuseLeap423Install = openSuseInstallJSON.repoLeap423;
-                    var currentDEopensuseLeap15Install = openSuseInstallJSON.repoLeap15;
-                    var currentDEopensuseTWInstall = openSuseInstallJSON.repoTW;
+                    let openSuseInstallJSON = value[subFrameworks].install.opensuse;
+                    let currentDEopensuseInstall = openSuseInstallJSON.opensuseInstall;
+                    let currentDEopensuseLeap423Install = openSuseInstallJSON.repoLeap423;
+                    let currentDEopensuseLeap15Install = openSuseInstallJSON.repoLeap15;
+                    let currentDEopensuseTWInstall = openSuseInstallJSON.repoTW;
 
-                    var currentDEubuntuInstall = value[subFrameworks].install.ubuntu.ubuntuInstall;
-                    var currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
+                    let currentDEubuntuInstall = value[subFrameworks].install.ubuntu.ubuntuInstall;
+                    let currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
 
                     ///////////////////////////////////////////////////////////////////////////////////
 

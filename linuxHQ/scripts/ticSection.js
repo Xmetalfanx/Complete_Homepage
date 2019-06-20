@@ -1,8 +1,8 @@
-var ticResults = document.getElementById("TICSection");
-var zypperInstall = "sudo zypper install";
-var ubuntuInstall = "sudo apt install";
-var dnfInstall = "sudo dnf install";
-var archInstall = "sudo pacman -S";
+let ticResults = document.getElementById("TICSection");
+let zypperInstall = "sudo zypper install";
+let ubuntuInstall = "sudo apt install";
+let dnfInstall = "sudo dnf install";
+let archInstall = "sudo pacman -S";
 
 // This should show the entire JSON file's info
 function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall){
@@ -82,24 +82,24 @@ function getTICData() {
 
         // The key is "themes" or "icons" or "cursors"
 
-        var currentSubTheme = key;
+        let currentSubTheme = key;
 
-        for (var subTheme = 0; subTheme < value.length; subTheme++){
+        for (let subTheme = 0; subTheme < value.length; subTheme++){
 
-          var currentTICThemeName = value[subTheme].themeName;
-          var currentTICThemeTitle = value[subTheme].themeTitle;
-          var currentTICSupportInfo = value[subTheme].supportInfo;
+          let currentTICThemeName = value[subTheme].themeName;
+          let currentTICThemeTitle = value[subTheme].themeTitle;
+          let currentTICSupportInfo = value[subTheme].supportInfo;
           
           // Links
-          var currentTICDeviantArtURL = value[subTheme].links.devartsURL;
-          var currentTICGithubURL = value[subTheme].links.githubURl;
-          var currentTICGnomelookURL = value[subTheme].links.gnomelooksURL;
+          let currentTICDeviantArtURL = value[subTheme].links.delettsURL;
+          let currentTICGithubURL = value[subTheme].links.githubURl;
+          let currentTICGnomelookURL = value[subTheme].links.gnomelooksURL;
 
           // How to install related 
-          var currentTICArchInstall = value[subTheme].howToInstall.arch;
-          var currentTICFedoraInstall = value[subTheme].howToInstall.fedora;
-          var currentTICOpenSuseInstall = value[subTheme].howToInstall.opensuse;
-          var currentTICUbuntuInstall = value[subTheme].howToInstall.ubuntu;
+          let currentTICArchInstall = value[subTheme].howToInstall.arch;
+          let currentTICFedoraInstall = value[subTheme].howToInstall.fedora;
+          let currentTICOpenSuseInstall = value[subTheme].howToInstall.opensuse;
+          let currentTICUbuntuInstall = value[subTheme].howToInstall.ubuntu;
 
         } // Ends for-loop
 

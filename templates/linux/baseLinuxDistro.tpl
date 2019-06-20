@@ -14,7 +14,7 @@
       <?php include $sitePath . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>
     <div id="distroSection" class="col-xs-12 col-md-10">
- 
+
     </div>
   </div>
 

@@ -20,6 +20,6 @@
 <meta name="robots" content="index,follow,noodp">    
 <meta name="googlebot" content="index,follow">    
 <meta name="viewport" content="width=device-width, initial-scale=1">    
-<base href="http://xmetal.x10.mx">    
-<link href="/index.php" rel="index">    
+<base href="http://xmetal.x10.mx">
+<link href="/index.php" rel="index">
 <link href="/index.php" rel="home">

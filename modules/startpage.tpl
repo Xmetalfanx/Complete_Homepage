@@ -1,7 +1,7 @@
 <!-- Start of SearchBox DIV -->
 
   <div class="d-flex p-3 justify-content-center">
-    
+
     <!-- Search Bar -->
     <form action="http://startpage.com/do/search" method="post" name="metasearch" target="_blank" onsubmit="javascript:document.metasearch.query.value=document.metasearch.keyword.value;" accept-charset="UTF-8" >
     <img src="/techHQ/graphics/search/startpage_small_logo.jpg" alt="Start Page Icon" class="SPHeightIconInput" />
