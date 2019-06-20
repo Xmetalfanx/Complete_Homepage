@@ -1,8 +1,9 @@
-<?php
+<script type="text/javascript">
+  var localDEName = "plasma5";
+</script>
 
-  echo '<script type="text/javascript">';
-    echo 'var localDEName = "plasma5"; ';
-  echo '</script>';
+
+<?php
 
   $sectionVar = "DE";
   $pageTitle = 'KDE /Plasma 5';
