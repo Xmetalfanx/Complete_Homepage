@@ -5,10 +5,7 @@
 
   $pageTitle = 'Deepin (Linux)';
 
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "deepin"; ';
-echo '</script>';
-
-
-
 ?>
+<script type="text/javascript">';
+    var localDistroName = "deepin"; ';
+</script>';

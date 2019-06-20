@@ -2,11 +2,11 @@
 
 	$sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
-  
+
   $pageTitle = 'Korora';
 
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "korora"; ';
-echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+    var localDistroName = "korora";
+</script>

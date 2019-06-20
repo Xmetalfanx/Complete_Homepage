@@ -5,8 +5,8 @@
 
 	$pageTitle = 'Anti-X';
 
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "antix"; ';
-	echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+	var localDistroName = "antix";
+</script>

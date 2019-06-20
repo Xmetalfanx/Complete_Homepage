@@ -5,8 +5,8 @@
 
   $pageTitle = 'Distribution Section - Puppy Linux';
 
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "puppy"; ';
-  echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+  var localDistroName = "puppy";
+</script>

@@ -3,9 +3,11 @@
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-	 $pageTitle = 'Lubuntu';
+	$pageTitle = 'Lubuntu';
 
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "lubuntu"; ';
-	echo '</script>';
+
 ?>
+
+<script type="text/javascript">
+	var localDistroName = "lubuntu";
+</script>

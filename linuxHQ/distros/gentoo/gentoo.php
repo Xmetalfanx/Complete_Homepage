@@ -4,8 +4,9 @@
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 	$pageTitle = 'Distribution Section -  Gentoo';
-	echo '<script type="text/javascript">';
-	echo 'var localDistroName = "gentoo"; ';
-echo '</script>';
 
 ?>
+
+<script type="text/javascript">';
+	var localDistroName = "gentoo"; ';
+</script>';

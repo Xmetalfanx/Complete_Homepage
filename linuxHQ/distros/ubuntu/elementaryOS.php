@@ -5,8 +5,8 @@
 
   $pageTitle = 'ElementaryOS';
 
-  echo '<script type="text/javascript">';
-  echo 'var localDistroName = "elementary"; ';
-echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+  var localDistroName = "elementary";
+</script>

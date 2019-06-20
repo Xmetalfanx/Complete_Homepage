@@ -5,8 +5,7 @@
 
   $pageTitle = 'Xubuntu';
 
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "xubuntu"; ';
-echo '</script>';
-
 ?>
+  <script type="text/javascript">
+    var localDistroName = "xubuntu";
+</script>

@@ -3,8 +3,9 @@
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
     $pageTitle = 'Manjaro';
-    
-    echo '<script type="text/javascript">';
-        echo 'var localDistroName = "manjaro"; ';
-    echo '</script>';
+
 ?>
+
+<script type="text/javascript">
+    var localDistroName = "manjaro";
+</script>

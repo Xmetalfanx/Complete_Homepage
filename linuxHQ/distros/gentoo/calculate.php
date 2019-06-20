@@ -5,9 +5,7 @@
 
 	$pageTitle = 'Calculate Linux';
 
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "calculate"; ';
-	echo '</script>';
-
-
 ?>
+<script type="text/javascript">
+	var localDistroName = "calculate";
+</script>

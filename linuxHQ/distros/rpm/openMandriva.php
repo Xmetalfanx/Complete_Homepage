@@ -5,8 +5,8 @@
 
 	$pageTitle = 'Open Mandriva ';
 	
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "openmandriva"; ';
-	echo '</script>';
+?>	
 
-?>
+<script type="text/javascript">
+	var localDistroName = "openmandriva";
+</script>

@@ -5,8 +5,8 @@
 
 	$pageTitle = 'SolydXK';
 
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "solyd"; ';
-	echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+	var localDistroName = "solyd";
+</script>

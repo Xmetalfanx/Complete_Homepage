@@ -5,8 +5,7 @@
 	
 	$pageTitle = 'Numix Theme ';
 
-	echo '<script type="text/javascript">';
-		echo 'var localTICName = "numixTheme"; ';
-	echo '</script>';
-
 ?>
+<script type="text/javascript">
+	var localTICName = "numixTheme";
+</script>

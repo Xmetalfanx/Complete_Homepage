@@ -5,12 +5,10 @@
 
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxTIC.tpl";
-		
-
+	
 	$pageTitle = 'Yosemite Theme Page';
 
-	echo '<script type="text/javascript">';
-	echo 'var localTICName = "yosembiance"; ';
-echo '</script>';
-
 ?>
+<script type="text/javascript">
+	var localTICName = "yosembiance";
+</script>

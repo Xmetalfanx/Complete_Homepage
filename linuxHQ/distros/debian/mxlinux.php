@@ -5,8 +5,8 @@
 
 	$pageTitle = 'MX Linux';
 
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "mx"; ';
-	echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+	var localDistroName = "mx";
+</script>

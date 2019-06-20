@@ -4,8 +4,9 @@
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 	$pageTitle = 'Sparky Linux';
-    
-    echo '<script type="text/javascript">';
-        echo 'var localDistroName = "sparky"; ';
-    echo '</script>';
+
 ?>
+
+<script type="text/javascript">
+    var localDistroName = "sparky";
+</script>

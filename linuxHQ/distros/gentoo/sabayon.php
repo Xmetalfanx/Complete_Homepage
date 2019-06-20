@@ -5,7 +5,7 @@
 
 	$pageTitle = 'Sabayon Linux';
 
-	echo '<script type="text/javascript">';
-	echo 'var localDistroName = "sabayon"; ';
-echo '</script>';
 ?>
+<script type="text/javascript">
+	var localDistroName = "sabayon";
+</script>

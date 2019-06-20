@@ -9,8 +9,8 @@
 
 	$pageTitle = 'Fedora';
 
-	echo '<script type="text/javascript">';
-    		echo 'var localDistroName = "fedora"; ';
-	echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+	var localDistroName = "fedora";
+</script>

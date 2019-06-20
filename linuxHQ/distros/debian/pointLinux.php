@@ -4,8 +4,9 @@
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 	$pageTitle = 'Point Linux';
-    
-    echo '<script type="text/javascript">';
-        echo 'var localDistroName = "pointlinux"; ';
-    echo '</script>';
+
 ?>
+
+<script type="text/javascript">
+    var localDistroName = "pointlinux";
+</script>

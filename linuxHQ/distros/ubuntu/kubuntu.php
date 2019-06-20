@@ -4,9 +4,8 @@
   include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
   
   $pageTitle = 'Kubuntu';
-
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "kubuntu"; ';
-echo '</script>';
-
 ?>
+  
+<script type="text/javascript">
+    var localDistroName = "kubuntu";
+</script>

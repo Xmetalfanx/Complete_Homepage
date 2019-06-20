@@ -5,8 +5,8 @@
 
 	$pageTitle = 'Makulu';
 
-	echo '<script type="text/javascript">';
-		echo 'var localDistroName = "makulu"; ';
-	echo '</script>';
-
 ?>
+
+<script type="text/javascript">
+	var localDistroName = "makulu";
+</script>

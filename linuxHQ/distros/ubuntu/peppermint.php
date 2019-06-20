@@ -3,10 +3,10 @@
 	$sitePath = "/home/xmetalx1/public_html";
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
-  $pageTitle = 'Peppermint';
-	
-	echo '<script type="text/javascript">';
-    echo 'var localDistroName = "peppermint"; ';
-	echo '</script>';
+	$pageTitle = 'Peppermint';
 
-	?>
+?>
+
+<script type="text/javascript">
+    var localDistroName = "peppermint";
+</script>

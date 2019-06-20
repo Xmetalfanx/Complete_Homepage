@@ -4,8 +4,9 @@
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
   $pageTitle = 'Arch Linux';
- 
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "arch"; ';
-  echo '</script>';
+
 ?>
+
+<script type="text/javascript">
+  var localDistroName = "arch";
+</script>

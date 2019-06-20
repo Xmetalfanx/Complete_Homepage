@@ -4,8 +4,9 @@
     include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
     $pageTitle = 'Linux Mint Debian Edition ';
-    
-    echo '<script type="text/javascript">';
-        echo 'var localDistroName = "lmde"; ';
-    echo '</script>';
+
 ?>
+
+<script type="text/javascript">
+    var localDistroName = "lmde";
+</script>

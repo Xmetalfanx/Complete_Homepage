@@ -5,8 +5,7 @@
 
 	$pageTitle = 'Distribution Section - CentOS ';
 
-	echo '<script type="text/javascript">';
-    echo 'var localDistroName = "centos"; ';
-echo '</script>';
-
 ?>
+<script type="text/javascript">
+    var localDistroName = "centos";
+</script>

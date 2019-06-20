@@ -6,9 +6,9 @@
     <a href="http://mirrors.opensuse.org/list/all.html" target="_blank">http://mirrors.opensuse.org/list/all.html</a> ' ;
 
 	$pageTitle = 'Gecko Linux ';
-	  
-	echo '<script type="text/javascript">';
-    	echo 'var localDistroName = "gecko"; ';
-	echo '</script>';
 
 ?>
+
+<script type="text/javascript">
+    var localDistroName = "gecko"; 
+</script>

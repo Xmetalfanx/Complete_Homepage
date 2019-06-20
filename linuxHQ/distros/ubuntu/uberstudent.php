@@ -5,8 +5,8 @@
 
   $pageTitle ='Uberstudent ';
 
-  echo '<script type="text/javascript">';
-    echo 'var localDistroName = "uberstudent"; ';
-  echo '</script>';
-
 ?>
+
+  <script type="text/javascript">
+    var localDistroName = "uberstudent";
+  </script>
