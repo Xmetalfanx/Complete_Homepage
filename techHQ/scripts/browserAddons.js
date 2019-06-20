@@ -1,9 +1,9 @@
-var browserResults = document.getElementById("browserSection");
-var browserIcontDir = "/techHQ/progIcons/internet/browsers/";
+let browserResults = document.getElementById("browserSection");
+let browserIcontDir = "/techHQ/progIcons/internet/browsers/";
 
 // for Icons
-var firefoxIcon = "${$browserIconDir}/icon8-firefox.svg";
-var chromeIcon =  "${$browserIconDir}/icon8-chrome.svg";
+let firefoxIcon = "${$browserIconDir}/icon8-firefox.svg";
+let chromeIcon =  "${$browserIconDir}/icon8-chrome.svg";
 
 
 function browserAddonDisplay() {
@@ -54,27 +54,27 @@ function browserData(data) {
             $.each(data, function(key, value) {
 
                 // Chrome? Firefox? Both? 
-                var currentAddonPlatform = key;
+                let currentAddonPlatform = key;
 
-                var currentAddonCatagory = value;
+                let currentAddonCatagory = value;
                 console.log(currentAddonCatagory);
                 
-                for (var addonPlatform = 0; addonPlatform < value.length; addonPlatform++) {
+                for (let addonPlatform = 0; addonPlatform < value.length; addonPlatform++) {
 
-                    var browserAddonName = value[addonPlatform].addonName;
-                    var browserAddonTitle = value[addonPlatform].addonTitle;
+                    let browserAddonName = value[addonPlatform].addonName;
+                    let browserAddonTitle = value[addonPlatform].addonTitle;
 
-                    var developer = value[addonPlatform].moreInfo.developer;
-                    var browserIcon = value[addonPlatform].iconURL;
+                    let developer = value[addonPlatform].moreInfo.developer;
+                    let browserIcon = value[addonPlatform].iconURL;
 
-                    var chromeURL = value[addonPlatform].addonURL.chromeURL;
-                    var firefoxURL = value[addonPlatform].addonURL.firefoxURL;
+                    let chromeURL = value[addonPlatform].addonURL.chromeURL;
+                    let firefoxURL = value[addonPlatform].addonURL.firefoxURL;
 
 
                     // for Firefox
 
                     // Boolean? ... seems logical 
-                    var ffQuantumSupport = value[addonPlatform].moreInfo.forFFQuantum;
+                    let ffQuantumSupport = value[addonPlatform].moreInfo.forFFQuantum;
 
 
                     // in LinuxHQ JS files the call to display function us usually here

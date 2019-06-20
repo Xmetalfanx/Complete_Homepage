@@ -1,9 +1,9 @@
-var browserResults = document.getElementById("browserSection");
-var browserIconsDir = "/techHQ/progIcons/internet/browsers/";
+let browserResults = document.getElementById("browserSection");
+let browserIconsDir = "/techHQ/progIcons/internet/browsers/";
 
 // The idea of this is to MAYBE shorten the URL in the "col1" file ... .URl would be "${browserAdBlockDir}/exactfile.php" for example
 // an IDEA only for now
-var browserAdBlockDir = "/techHQ/browsers/adblocking/";
+let browserAdBlockDir = "/techHQ/browsers/adblocking/";
 
 
 
@@ -25,7 +25,7 @@ function browserDisplay(browserTitle, browserIcon, currentBrowserEngine, browser
         </div>
         `;
 
-    // Main outpu
+    // Main output
     browserResults.insertAdjacentHTML("afterbegin", browserDisplay);
 }
 
@@ -47,22 +47,22 @@ function browserData(data) {
             // For each key value - in this case mainCatagory
             $.each(data, function(key, value) {
 
-                var currentBrowserEngine = key;
+                let currentBrowserEngine = key;
                 // console.log(currentBrowserEngine);
 
-                for (var browserEngine = 0; browserEngine < value.length; browserEngine++) {
+                for (let browserEngine = 0; browserEngine < value.length; browserEngine++) {
 
-                    var browserName = value[browserEngine].browserName;
-                    var browserTitle = value[browserEngine].browserTitle;
+                    let browserName = value[browserEngine].browserName;
+                    let browserTitle = value[browserEngine].browserTitle;
 
                     // I think i will not use a combo of fork awesome "icons" and png .. templatifying this would be too messy
                     // Just going with CLEAR images ... SVG's if possible
-                    var browserIcon = value[browserEngine].links.browserIcon;
+                    let browserIcon = value[browserEngine].links.browserIcon;
 
                     // Links
                     // ?? how to handle icons ... some are in Fork Awesome .. some aren't - maybe have the full HTML in the JSON entry
-                    var browserHomepage = value[browserEngine].links.homepage;
-                    var browserDownload = value[browserEngine].links.download;
+                    let browserHomepage = value[browserEngine].links.homepage;
+                    let browserDownload = value[browserEngine].links.download;
 
                     // in LinuxHQ JS files the call to display function us usually here
                     browserOutput(browserTitle, browserIcon, currentBrowserEngine, browserHomepage, browserDownload);

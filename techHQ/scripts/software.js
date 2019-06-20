@@ -1,5 +1,5 @@
-var softwareOutput = document.getElementById("softwareSection");
-var jsTestVar = '<?php echo phpTestVar ?>';
+let softwareOutput = document.getElementById("softwareSection");
+let jsTestlet = '<?php echo phpTestlet ?>';
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
@@ -16,26 +16,26 @@ function softwareData(data) {
         // Get JSON Data
         $.getJSON(softwareJSONUrl, function(data) {
 
-            // For each mainCategory in this case 
+            // For each mainCategory in this case
             $.each(data, function(key, value) {
 
                 const mainCategory = key;
 
-                // Test Var only ... can be removed later 
+                // Test let only ... can be removed later
                 // console.log(mainCategory + "" +  value);
 
-                // As long as there are subcatagories in the mainCatagory, loop through 
+                // As long as there are subcatagories in the mainCatagory, loop through
                 for (subCategories in value){
 
-                    // Is this where the nunber counter (for loop) should come in? 
-                    for(var sortedSubCatCount = 0; sortedSubCatCount < subCategories.length; sortedSubCatCount++ )
+                    // Is this where the nunber counter (for loop) should come in?
+                    for(let sortedSubCatCount = 0; sortedSubCatCount < subCategories.length; sortedSubCatCount++ )
                     {
-                        
-                        // This is counting numbers ... 
+
+                        // This is counting numbers ...
                         console.log(subCategories[sortedSubCatCount]);
 
                     }
-    
+
                 }
 
             }); // Ends .each loop

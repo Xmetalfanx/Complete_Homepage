@@ -1,9 +1,9 @@
-function outputData($phpTestVar) {
+function outputData($phpTestlet) {
 
 
     console.log("Inside outputData function in JS");
 
-    console.log("phpTestVar: " + $phpTestVar);
+    console.log("phpTestlet: " + $phpTestlet);
 
 
 }
