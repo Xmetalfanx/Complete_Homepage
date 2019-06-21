@@ -25,7 +25,7 @@
                 "reqProcessor": ""
             },
             "versions": {
-                "latestVersion": "5.14.x",
+                "latestVersion": "5.16.x",
                 "updated": "November 30, 2018",
                 "arch": "5.13.5-1",
                 "fedora": {

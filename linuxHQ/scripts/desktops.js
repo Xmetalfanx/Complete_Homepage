@@ -1,7 +1,7 @@
 let desktopResults = document.getElementById('desktopSection');
 let screenshotDIR = "/linuxHQ/screenshots/";
 
-function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall) {
+function displayDEOutput() {
 
     // Template Literal for output
 
@@ -41,10 +41,10 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 <div class="col">
                     <span class="font-weight-bold">openSUSE</span>
                     <br/>
-                    <span class="font-italic">OpenSUSE 42.3: </span>
-                    <span class="text-right"> ${currentDESuseL423Version}</span>
+                    <span class="font-italic">OpenSUSE 15.0: </span>
+                    <span class="text-right"> ${currentDESuseL150Version}</span>
                     <br/>
-                    <span class="font-italic">OpenSUSE 15: </span>
+                    <span class="font-italic">OpenSUSE 15.1: </span>
                     <span class="text-right"> ${currentDESuseL15Version}</span>
                     <br/>
                     <span class="font-italic">OpenSUSE Tumbleweed:  </span>
@@ -197,103 +197,92 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 // "main" function
 
 // Where is "data" coming from?
-function getDesktopData(data, $localDEName) {
+function getDesktopData(data, $localDEName)
+{
 
     $(document).ready(function() {
 
-        jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
+        fetch('http://xmetal.x10.mx/linuxHQ/json/desktops.json')
 
-        // Get JSON Data
-        $.getJSON(jsonURL, function(data) {
+            .then(function(data) {
+                    return data.json();
+            })
+            .then(function(data) {
 
-            // For each key value
-            $.each(data, function(key, value) {
+                // Returns data
+                console.log(data);
 
-                // The key is 'gtk2' or 'qt'
+                for (var key in data) {
+                    if (data.hasOwnProperty(key)) {
+                        // Maybe string-a-fying too soon
+                        stringDataKey=JSON.stringify(data[key]);
 
-                let currentFramework = key;
+                        currentDesktop=data[key];
 
-                for (let subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
+                        for (var i = 0; i < currentDesktop.length; i++)
+                        {
+                            desktopName=currentDesktop[i].desktopName;
+                            desktopTitle=currentDesktop[i].desktopTitle;
 
-                    // ** I need to know value and subFrameworks here
+                            // General Info
+                            generalInfoDistroFeatures=currentDesktop[i].generalInfo.distrosFeature;
+                            desktopCatagory=currentDesktop[i].generalInfo.desktopCatagory;
+                            desktopHomepage=currentDesktop[i].generalInfo.desktopHomepage;
 
-                    let currentDEName = value[subFrameworks].desktopName;
-                    let currentDETitle = value[subFrameworks].desktopTitle;
+                            // Req
+                            desktopMemory=currentDesktop[i].requirements.reqMemory;
+                            desktopHDDSpace=currentDesktop[i].requirements.reqHDDSpace;
+                            desktopProcessor=currentDesktop[i].requirements.reqProcessor;
 
-                    // More Info
-                    let currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
-                    let currentDEGithub = value[subFrameworks].generalInfo.desktopGithubURL;
-                    let currentDECategory = value[subFrameworks].generalInfo.desktopCatagory;
-                    let currentDEDistroFeature = value[subFrameworks].generalInfo.distrosFeature;
+                            // Screenshots
+                            desktopSrc=currentDesktop[i].screenshots.src;
+                            desktopTN=currentDesktop[i].screenshots.thumbnail;
+                            desktopSSDistro=currentDesktop[i].screenshots.distro;
 
-                    // Requirnments
-                    let currentDEReqMem = value[subFrameworks].requirements.reqMemory;
-                    let currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
-                    let currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
+                            // version info
+                            latestVersion=currentDesktop[i].versions.latestVersion;
+                            updated=currentDesktop[i].versions.updated;
 
-                    // Screenshot - just one for now
-                    let currentDEScreenshot = value[subFrameworks].screenshots.src;
+                                //arch
+                                archVersion=currentDesktop[i].versions.arch;
 
-                    // Versions
-                    let versionJSON = value[subFrameworks].versions;
+                                // Fedora
+                                fedoraF28Version=currentDesktop[i].versions.fedora.f28;
+                                fedoraF29Version=currentDesktop[i].versions.fedora.f29;
+                                fedoraF30Version=currentDesktop[i].versions.fedora.f30;
+                                fedoraRHVersion=currentDesktop[i].versions.fedora.rawhide;
 
-                    let currentDELatestVersion = versionJSON.latestVersion;
-                    // The point of this is "the last time I checked/updated" even some of the info
-                    let currentDEVerUpdated = versionJSON.updated;
+                                // OpenSUSE
+                                openSUSELeap150Version=currentDesktop[i].versions.opensuse.leap150;
+                                openSUSELeap151Verion=currentDesktop[i].versions.opensuse.leap151;
+                                openSUSETWVersion=currentDesktop[i].versions.opensuse.tumbleweed;
 
-                    // Arch
-                    let currentDEArchVersion = versionJSON.arch;
+                                //Ubuntu
+                                    // Mint
+                                    mint18Version=currentDesktop[i].versions.ubuntu.mint18;
+                                    mint19Version=currentDesktop[i].versions.ubuntu.mint19;
 
-                    // Fedora
-                    let currentDEF28Version = versionJSON.fedora.f28;
-                    let currentDEF29Version = versionJSON.fedora.f29;
-                    let currentDEFRWVersion = versionJSON.fedora.rawhide;
-
-                    // OpenSuse
-                    let currentDESuseL423Version = versionJSON.opensuse.leap423;
-                    let currentDESuseL15Version = versionJSON.opensuse.leap15;
-                    let currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
-
-
-                    let ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
+                                    // Ubuntu
+                                    ubuntu1604LTSVersion=currentDesktop[i].versions.ubuntu.lts1604ver;
+                                    ubuntu1804LTSVersion=currentDesktop[i].versions.ubuntu.lts1804ver;
+                                    ubuntu1904Version=currentDesktop[i].versions.ubuntu.1904ver;
 
                     // Linux Mint
                     let currentDEMint18Version = ubuntuVerJSON.mint.mint18;
                     let currentDEMint19Version = ubuntuVerJSON.mint.mint19;
 
-                    // Ubuntu LTS
-                    let currentDE1604LTSVer = ubuntuVerJSON.lts1604ver;
-                    let currentDE1804LTSVer = ubuntuVerJSON.lts1804ver;
+                                    if (desktopName == localDEName) {
+                                        displayDEOutput(desktopName);
+                                    }
 
-                    let currentDE1810 = ubuntuVerJSON.ubuntu1810;
+                        },
 
-                    // End Version lets
-                    ///////////////////////////////////////////
+                        console.log(desktopName);
+                        }
 
-                    // Begin Install lets
-                    let currentDEarchInstall = value[subFrameworks].install.arch;
-                    let currentDEfedoraInstall = value[subFrameworks].install.fedora;
-
-                    let openSuseInstallJSON = value[subFrameworks].install.opensuse;
-                    let currentDEopensuseInstall = openSuseInstallJSON.opensuseInstall;
-                    let currentDEopensuseLeap423Install = openSuseInstallJSON.repoLeap423;
-                    let currentDEopensuseLeap15Install = openSuseInstallJSON.repoLeap15;
-                    let currentDEopensuseTWInstall = openSuseInstallJSON.repoTW;
-
-                    let currentDEubuntuInstall = value[subFrameworks].install.ubuntu.ubuntuInstall;
-                    let currentDEmintInstall = value[subFrameworks].install.ubuntu.mintInstall;
-
-                    ///////////////////////////////////////////////////////////////////////////////////
-
-                    if (localDEName == currentDEName) {
-                        displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDEGithub, currentDEScreenshot, currentDELatestVersion, currentDEVerUpdated, currentDECategory, currentDEDistroFeature, currentDEReqMem, currentDEReqHDD, currentDEReqProc, currentDEArchVersion, currentDEF28Version, currentDEF29Version, currentDEFRWVersion, currentDESuseL423Version, currentDESuseL15Version, currentDESuseTWVersion, currentDE1604LTSVer, currentDE1804LTSVer, currentDE1810, currentDEMint173Version, currentDEMint18Version, currentDEMint19Version, currentDEarchInstall, currentDEfedoraInstall, currentDEopensuseInstall, currentDEopensuseLeap423Install, currentDEopensuseLeap15Install, currentDEopensuseTWInstall, currentDEubuntuInstall, currentDEmintInstall);
                     }
                 }
-
-            }); // Ends .each loop
-
-        }); // ends getJSON loop
-
+            });
 
     });
 
