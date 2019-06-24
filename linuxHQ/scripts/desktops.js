@@ -263,9 +263,11 @@ function getDesktopData(data, $localDEName)
                                     mint19Version=currentDesktop[i].versions.ubuntu.mint19;
 
                                     // Ubuntu
-                                    ubuntu1604LTSVersion=currentDesktop[i].versions.ubuntu.lts1604ver;
-                                    ubuntu1804LTSVersion=currentDesktop[i].versions.ubuntu.lts1804ver;
-                                    ubuntu1904Version=currentDesktop[i].versions.ubuntu.1904ver;
+                                    ubuntuXeniaVersion=currentDesktop[i].versions.ubuntu.xenial;
+
+                                    ubuntuBionicVersion=currentDesktop[i].versions.ubuntu.bionic;
+
+                                    ubuntuDiscoVersion=currentDesktop[i].versions.ubuntu.disco;
 
                     // Linux Mint
                     let currentDEMint18Version = ubuntuVerJSON.mint.mint18;
@@ -276,9 +278,6 @@ function getDesktopData(data, $localDEName)
                                     }
 
                         },
-
-                        console.log(desktopName);
-                        }
 
                     }
                 }
