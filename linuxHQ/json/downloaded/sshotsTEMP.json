@@ -121,23 +121,23 @@
     {
         "distroName": null,
         "family": "mandrake",
-        "href": "http://www.rosalinux.com/products/desktop",
+        "href": "http://www.rosalinux.com/products/desktop"
 
     },
     {
         "distroName": null,
         "family": "ubuntu",
-        "src": "/linuxHQ/screenshots/ubuntu/xubuntu1.png",
+        "src": "/linuxHQ/screenshots/ubuntu/xubuntu1.png"
     },
     {
         "distroName": "zorin",
         "family": "ubuntu",
-        "src": "/linuxHQ/screenshots/ubuntubased/zorin.jpg",
+        "src": "/linuxHQ/screenshots/ubuntubased/zorin.jpg"
     },
     {
         "distroName": "kaos",
         "family": "independant",
         "src": "/linuxHQ/screenshots/kaosKDE1.jpg",
-        "ssde": "plasma5",
+        "ssde": "plasma5"
     }
 ]

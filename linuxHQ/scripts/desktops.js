@@ -214,6 +214,7 @@ function getDesktopData(data, $localDEName)
 
                 for (var key in data) {
                     if (data.hasOwnProperty(key)) {
+
                         // Maybe string-a-fying too soon
                         stringDataKey=JSON.stringify(data[key]);
 
@@ -277,7 +278,7 @@ function getDesktopData(data, $localDEName)
                                         displayDEOutput(desktopName);
                                     }
 
-                        },
+                        }
 
                     }
                 }

@@ -5,8 +5,9 @@
 
   $pageTitle = 'Linux Lite';
 
-  echo '<script type="text/javascript">';
-  echo 'var localDistroName = "linuxlite"; ';
-  echo '</script>';
 
 ?>
+
+<script type="text/javascript">
+   var localDistroName = "linuxlite";
+</script>

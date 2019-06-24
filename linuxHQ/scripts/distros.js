@@ -9,8 +9,8 @@ let YTPLEmbeddedBase = "https://www.youtube.com/embed/videoseries?list=";
 
 function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroYTReviewPLaylist, currentDistroYTTipsPLaylist, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType) {
 
-    let distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
-    let distroSShotTNPath = distroSShotPath + 'thumbnails/';
+    let distroSShotPath = "/linuxHQ/screenshots/" + currentDistroFamily + "/";
+    let distroSShotTNPath = distroSShotPath + "thumbnails/";
 
     // Template Literal for output
 

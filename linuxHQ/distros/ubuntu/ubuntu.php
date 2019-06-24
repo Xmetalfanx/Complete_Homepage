@@ -3,9 +3,9 @@
 	include $sitePath . "/templates/linux/baseLinuxDistro.tpl";
 
 	$pageTitle = 'Ubuntu';
-	  
-	echo '<script type="text/javascript">';
-    echo 'var localDistroName = "ubuntu"; ';
-	echo '</script>';
 
 ?>
+
+<script type="text/javascript">
+    echo 'var localDistroName = "ubuntu";
+</script>
