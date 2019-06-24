@@ -14,7 +14,7 @@
             "desktopName": "plasma5",
             "generalInfo": {
                 "distrosFeature": "Kubuntu, KDE Neon, Arch, OpenSuse, Fedora",
-                "desktopCatagory": "heavyweight",
+                "desktopCategory": "heavyweight",
                 "desktopHomepage": "https://www.kde.org/announcements/plasma5.0/",
                 "desktopGithubURL": ""
             },
@@ -29,30 +29,30 @@
                 "updated": "November 30, 2018",
                 "arch": "5.13.5-1",
                 "fedora": {
-                    "f28": "5.13.5-1",
+                    "f30": "",
                     "f29": "5.14.3-2",
                     "rawhide": "5.14.4-2"
                 },
                 "opensuse": {
                     "leap15": "5.12.6",
-                    "leap423": "5.8.7.1",
+                    "leap151": "",
                     "tumbleweed": "5.14.3"
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": "5.8.7.1"
                     },
                     "neonversion": "5.10.4",
-                    "lts1604ver": "5.5.5",
-                    "lts1804ver": "",
-                    "1810ver": "5.13.5-1"
+                    "xenial": "5.5.5",
+                    "bionic": "",
+                    "cosmic": "5.13.5-1",
+                    "disco": ""
                 }
             },
             "screenshots": {
                 "src": "ubuntu/kubuntu.png",
-                "thumbnail":"ubuntu/thumbnails/kubuntu_tn.png",
+                "thumbnail": "ubuntu/thumbnails/kubuntu_tn.png",
                 "distro": "Kubuntu 18.04"
             }
         },
@@ -62,7 +62,7 @@
                 "fedora": "",
                 "opensuse": {
                     "repoLeap15": "",
-                    "repoLeap423": "",
+                    "repoleap151": "",
                     "repoTW": "",
                     "reference": ""
                 },
@@ -71,7 +71,7 @@
             "desktopName": "lxqt",
             "generalInfo": {
                 "distrosFeature": "Lubuntu Next, Sparky Linux",
-                "desktopCatagory": "Light",
+                "desktopCategory": "Light",
                 "desktopHomepage": "https://lxqt.org/"
             },
             "desktopTitle": "LXQT",
@@ -85,29 +85,29 @@
                 "updated": "",
                 "arch": "",
                 "fedora": {
-                    "f28": "",
+                    "f30": "",
                     "f29": "",
                     "rawhide": ""
                 },
                 "opensuse": {
                     "leap15": "",
-                    "leap423": "",
+                    "leap151": "",
                     "tumbleweed": ""
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": ""
                     },
-                    "lts1604ver": "",
-                    "lts1804ver": "",
-                    "1810ver": ""
+                    "xenial": "",
+                    "bionic": "",
+                    "cosmic": "",
+                    "disco": ""
                 }
             },
             "screenshots": {
                 "src": "ubuntu/lubuntu.png",
-                "thumbnail":"ubuntu/thumbnails/lubuntu_tn.png",
+                "thumbnail": "ubuntu/thumbnails/lubuntu_tn.png",
                 "distro": "Lubuntu 18.10"
             }
         }
@@ -123,7 +123,7 @@
         "desktopName": "openbox",
         "generalInfo": {
             "distrosFeature": "Crunchbang++, Bunsenlabs, Arch",
-            "desktopCatagory": "Light",
+            "desktopCategory": "Light",
             "desktopHomepage": ""
         },
         "desktopTitle": "Openbox",
@@ -137,30 +137,30 @@
             "updated": "November 30, 2018",
             "arch": "",
             "fedora": {
-                "f28": "3.6.1-9",
+                "f30": "",
                 "f29": "3.6.1-10",
                 "rawhide": "3.6.1-10"
             },
             "opensuse": {
                 "leap15": "",
-                "leap423": "",
+                "leap151": "",
                 "tumbleweed": "3.6.1-3.7"
             },
             "ubuntu": {
                 "mint": {
-                    "mint173": "",
                     "mint18": "",
                     "mint19": ""
                 },
-                "lts1604ver": "3.6.1-1",
-                "lts1804ver": "3.6.1-7",
-                "1810ver": "",
+                "xenial": "3.6.1-1",
+                "bionic": "3.6.1-7",
+                "cosmic": "",
+                "disco": "",
                 "neonversion": "N/A"
             }
         },
         "screenshots": {
             "src": "debian/bunsenlabs.png",
-            "thumbnail":"debian/thumbnails/bunsenlabs_tn.png",
+            "thumbnail": "debian/thumbnails/bunsenlabs_tn.png",
             "distro": "Bunsenlabs"
         }
     }],
@@ -170,7 +170,7 @@
                 "fedora": "sudo dnf groupinstall xfce-desktop",
                 "opensuse": {
                     "repoLeap15": "",
-                    "repoLeap423": "4.12",
+                    "repoleap151": "4.12",
                     "twRepo": "",
                     "reference": ""
                 },
@@ -182,7 +182,7 @@
             "desktopName": "xfce",
             "generalInfo": {
                 "distrosFeature": "mintHP . 'Manjaro XFCE, Manjaro by MM, Xubuntu, SoyldX, Uberstudent",
-                "desktopCatagory": "lightweight",
+                "desktopCategory": "lightweight",
                 "desktopHomepage": "https://xfce.org/",
                 "desktopGithubURL": "n/a"
             },
@@ -202,29 +202,29 @@
                 "updated": "",
                 "arch": "4.12",
                 "fedora": {
-                    "f28": "4.12",
+                    "f30": "",
                     "f29": "4.12",
                     "rawhide": "4.12"
                 },
                 "opensuse": {
                     "leap15": "",
-                    "leap423": "",
+                    "leap151": "",
                     "tumbleweed": "4.12"
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": ""
                     },
-                    "lts1604ver": "4.12.2",
-                    "lts1804ver": "4.12.4",
-                    "1810ver": "4.12.4"
+                    "xenial": "4.12.2",
+                    "bionic": "4.12.4",
+                    "cosmic": "4.12.4",
+                    "disco": ""
                 }
             },
             "screenshots": {
                 "src": "ubuntu/linuxlite.png",
-                "thumbnail":"ubuntu/thumbnails/linuxlite_tn.png",
+                "thumbnail": "ubuntu/thumbnails/linuxlite_tn.png",
                 "distro": "Linux Lite"
             }
         },
@@ -232,7 +232,7 @@
             "desktopName": "lxde",
             "generalInfo": {
                 "distrosFeature": "Lubuntu, LXLE",
-                "desktopCatagory": "lightweight",
+                "desktopCategory": "lightweight",
                 "desktopHomepage": "https://lxde.org/",
                 "desktopGithubURL": "n/a"
             },
@@ -247,25 +247,25 @@
                 "updated": "November 30, 2018",
                 "arch": "0.99.2-2",
                 "fedora": {
-                    "f28": "",
+                    "f30": "",
                     "f29": "",
                     "rawhide": ""
                 },
                 "opensuse": {
-                    "leap423": "",
+                    "leap151": "",
                     "leap15": "",
                     "tumbleweed": ""
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": ""
                     },
-                    "lts1604ver": "7ubuntu1",
-                    "lts1804ver": "10",
-                    "1810ver": "10",
-                    "neonversion": "N/A"
+                    "xenial": "7ubuntu1",
+                    "bionic": "10",
+                    "cosmic": "10",
+                    "neonversion": "N/A",
+                    "disco": ""
                 }
             },
             "install": {
@@ -273,7 +273,7 @@
                 "fedora": "",
                 "opensuse": {
                     "repoLeap15": "",
-                    "repoLeap423": "",
+                    "repoleap151": "",
                     "twRepo": "",
                     "reference": "<a href=\"https://en.opensuse.org/LXDE_repositories\" >LXDE Repos for Suse</a>"
                 },
@@ -283,7 +283,7 @@
             },
             "screenshots": {
                 "src": "ubuntu/lxle.png",
-                "thumbnail":"ubuntu/thumbnails/lxle_tn.png",
+                "thumbnail": "ubuntu/thumbnails/lxle_tn.png",
                 "distro": "LXLE"
             }
         }
@@ -292,7 +292,7 @@
             "desktopName": "cinnamon",
             "generalInfo": {
                 "distrosFeature": "Linux Mint, Korora/Fedora, Arch/Antergos ",
-                "desktopCatagory": "heavyweight",
+                "desktopCategory": "heavyweight",
                 "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
                 "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop"
             },
@@ -307,26 +307,26 @@
                 "updated": "November 30, 2018",
                 "arch": "4.0.1-1",
                 "fedora": {
-                    "f28": "4.0.11",
+                    "f30": "",
                     "f29": "4.0.11",
                     "rawhide": "4.0.11"
                 },
                 "opensuse": {
-                    "leap423": "3.4.6",
+                    "leap151": "",
                     "leap15": "3.6.7",
                     "tumbleweed": "3.8.9"
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": ""
 
                     },
-                    "lts1604ver": "",
-                    "lts1804ver": "",
-                    "1810ver": "",
-                    "neonversion": ""
+                    "xenial": "",
+                    "bionic": "",
+                    "cosmic": "",
+                    "neonversion": "",
+                    "disco": ""
                 }
             },
             "install": {
@@ -335,7 +335,7 @@
                 "opensuse": {
                     "opensuseInstall": "(See instructions for each branch, below)",
                     "repoLeap15": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.0/X11:Cinnamon:Current.repo <br /> # zypper ref && zypper in -t pattern cinnamon",
-                    "repoLeap423": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_42.3/X11:Cinnamon:Current.repo <br /># zypper ref && zypper in -t pattern cinnamon",
+                    "repoleap151": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.1/X11:Cinnamon:Current.repo <br /># zypper ref && zypper in -t pattern cinnamon",
                     "twRepo": "zypper ref && zypper in -y cinnamon cinnamon-screensaver",
                     "reference": "<a href=\"https://en.opensuse.org/Portal:Cinnamon\" target=\"_blank\"> Install Cinnamon on OpenSuse </a>"
                 },
@@ -346,7 +346,7 @@
             },
             "screenshots": {
                 "src": "ubuntu/mint.png",
-                "thumbnail":"ubuntu/thumbnails/mint_tn.png",
+                "thumbnail": "ubuntu/thumbnails/mint_tn.png",
                 "distro": "Linux Mint",
                 "theme": "Mint-X",
                 "icon": "Mint-X"
@@ -356,7 +356,7 @@
             "desktopName": "budgie",
             "generalInfo": {
                 "distrosFeature": "Solus, Ubuntu Budgie",
-                "desktopCatagory": "",
+                "desktopCategory": "",
                 "desktopHomepage": "https://budgie-desktop.org/home/",
                 "desktopGithubURL": "https://github.com/solus-project/budgie-desktop"
             },
@@ -371,25 +371,25 @@
                 "updated": "",
                 "arch": "10.4+123+gf2dbc215-1",
                 "fedora": {
-                    "f28": "",
+                    "f30": "",
                     "f29": "",
                     "rawhide": ""
                 },
                 "opensuse": {
                     "leap15": "10.4",
-                    "leap423": "",
+                    "leap151": "",
                     "tumbleweed": ""
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": ""
                     },
-                    "lts1604ver": "10.4+git20171031.10.g9f71bb8-1.2",
-                    "lts1804ver": "10.4+git20180830.02.f2dbc215fdb-2",
-                    "1810ver": "10.4+git20180830.02.f2dbc215fdb-2",
-                    "neonversion": "N/A"
+                    "xenial": "10.4+git20171031.10.g9f71bb8-1.2",
+                    "bionic": "10.4+git20180830.02.f2dbc215fdb-2",
+                    "cosmic": "10.4+git20180830.02.f2dbc215fdb-2",
+                    "neonversion": "N/A",
+                    "disco": ""
                 }
             },
             "install": {
@@ -398,7 +398,7 @@
                 "opensuse": {
                     "opensuseInstall": "",
                     "repoLeap15": "",
-                    "repoLeap423": "",
+                    "repoleap151": "",
                     "twRepo": "",
                     "reference": ""
                 },
@@ -409,7 +409,7 @@
             },
             "screenshots": {
                 "src": "solus/solusbudgie.png",
-                "thumbnail":"solus/thumbnails/solusbudgie_tn.png",
+                "thumbnail": "solus/thumbnails/solusbudgie_tn.png",
                 "distro": "Solus"
             }
         },
@@ -417,7 +417,7 @@
             "desktopName": "mate",
             "generalInfo": {
                 "distrosFeature": "Ubuntu Mate, Linux Mint Mate, Fedora, Arch/Antergos",
-                "desktopCatagory": "lightweight",
+                "desktopCategory": "lightweight",
                 "desktopHomepage": "https://mate-desktop.org/",
                 "desktopGithubURL": "https://github.com/mate-desktop"
             },
@@ -444,30 +444,30 @@
                 "updated": "November 30, 2019",
                 "arch": "1.20.3-1",
                 "fedora": {
-                    "f28": " 1.20.3-1",
+                    "f30": "",
                     "f29": "1.20.3-2",
                     "rawhide": "1.20.3-2"
                 },
                 "opensuse": {
-                    "leap423": "1.18.0",
+                    "leap151": "1.18.0",
                     "leap15": "",
                     "tumbleweed": "1.18.0"
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "1.12",
                         "mint18": "1.18.0",
                         "mint19": ""
                     },
-                    "lts1604ver": "1.12.1-1",
-                    "lts1804ver": "1.20.1-2",
-                    "1810ver": "1.20.3-2",
-                    "neonversion": "N/A"
+                    "xenial": "1.12.1-1",
+                    "bionic": "1.20.1-2",
+                    "cosmic": "",
+                    "neonversion": "N/A",
+                    "disco": ""
                 }
             },
             "screenshots": {
                 "src": "ubuntu/umate1.png",
-                "thumbnail":"ubuntu/thumbnails/umate1_tn.png",
+                "thumbnail": "ubuntu/thumbnails/umate1_tn.png",
                 "distro": "Ubuntu Mate"
             }
         },
@@ -475,7 +475,7 @@
             "desktopName": "gnome",
             "generalInfo": {
                 "distrosFeature": "Ubuntu, Fedora, Solus, OpenSuse",
-                "desktopCatagory": "heavyweight",
+                "desktopCategory": "heavyweight",
                 "desktopHomepage": "",
                 "desktopGithubURL": ""
             },
@@ -502,30 +502,30 @@
                 "updated": "November 30, 2019",
                 "arch": "",
                 "fedora": {
-                    "f28": "",
+                    "f30": "",
                     "f29": "",
                     "rawhide": ""
                 },
                 "opensuse": {
-                    "leap423": "",
+                    "leap151": "",
                     "leap15": "",
                     "tumbleweed": ""
                 },
                 "ubuntu": {
                     "mint": {
-                        "mint173": "",
                         "mint18": "",
                         "mint19": ""
                     },
-                    "lts1604ver": "",
-                    "lts1804ver": "",
-                    "1810ver": "",
-                    "neonversion": ""
+                    "xenial": "",
+                    "bionic": "",
+                    "cosmic": "",
+                    "neonversion": "",
+                    "disco": ""
                 }
             },
             "screenshots": {
                 "src": "ubuntu/ubuntuGnome.png",
-                "thumbnail":"ubuntu/thumbnails/ubuntuGnome_tn.png",
+                "thumbnail": "ubuntu/thumbnails/ubuntuGnome_tn.png",
                 "distro": "Ubuntu 18.10"
             }
         }

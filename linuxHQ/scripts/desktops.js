@@ -72,9 +72,6 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
                 <div class="col">
                     <div class="font-weight-bold">Linux Mint </div>
-                    <span class="font-italic">Mint 17.3: </span>
-                    <span class="text-right">${currentDEMint173Version}</span>
-                    <br/>
                     <span class="font-italic">Mint 18: </span>
                     <span class="text-right">${currentDEMint18Version}</span>
                     <br/>
@@ -261,7 +258,6 @@ function getDesktopData(data, $localDEName) {
                     let ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
 
                     // Linux Mint
-                    let currentDEMint173Version = ubuntuVerJSON.mint.mint173;
                     let currentDEMint18Version = ubuntuVerJSON.mint.mint18;
                     let currentDEMint19Version = ubuntuVerJSON.mint.mint19;
 
