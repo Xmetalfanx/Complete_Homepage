@@ -18,9 +18,10 @@ function getDesktopData(data, $localDEName)
 
         data=JSON.stringify(desktopJSON);
         console.log(data);
-        
-        currentDesktop=desktopJSON;
-        console.log(currentDesktop);
+
+        for (x in data) {
+            console.log(desktopJSON)
+        }
     });
 
 }

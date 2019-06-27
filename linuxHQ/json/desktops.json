@@ -397,13 +397,8 @@
                 "fedora": "",
                 "opensuse": {
                     "opensuseInstall": "",
-<<<<<<< HEAD
                     "repoLeap15": "",
                     "repoleap151": "",
-=======
-                    "repoLeap150": "",
-                    "repoLeap151": "",
->>>>>>> 74f4b88d... Javascript desktop.js work
                     "twRepo": "",
                     "reference": ""
                 },

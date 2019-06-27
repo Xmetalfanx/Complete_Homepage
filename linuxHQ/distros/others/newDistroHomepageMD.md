@@ -2,7 +2,6 @@
 
 - [Linux Mint](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxMint.php)
 
-  - <?php echo $mintCin1; ?>
   - [Linux Mint Homepage](https://www.linuxmint.com/)
   - [Linux Mint on Distrowatch](http://distrowatch.com/mint%22)
 
