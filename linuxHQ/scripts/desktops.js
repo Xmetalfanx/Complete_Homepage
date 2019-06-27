@@ -9,19 +9,26 @@ function getDesktopData(data, $localDEName)
 {
 
     fetch("http://xmetal.x10.mx/linuxHQ/json/desktops.json")
-
     .then(function(response) {
         return response.json();
     })
 
     .then(function(desktopJSON){
 
-        data=JSON.stringify(desktopJSON);
-        console.log(data);
+        let desktopsData=JSON.stringify(desktopJSON);
 
-        for (x in data) {
-            console.log(desktopJSON)
-        }
+        //console.log(data);
+
+        let desktopJSONResults = desktopsData.map(function(item,index,array){
+
+            console.log(item);
+            console.log(array);
+
+            return;
+        });
+
+        console.log(desktopJSON);
+
     });
 
 }

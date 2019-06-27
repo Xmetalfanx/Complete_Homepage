@@ -2,8 +2,8 @@
 
 - [Linux Mint](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxMint.php)
 
-  - [Linux Mint Homepage](https://www.linuxmint.com/)
-  - [Linux Mint on Distrowatch](http://distrowatch.com/mint%22)
+    - [Linux Mint Homepage](https://www.linuxmint.com/)
+    - [Linux Mint on Distrowatch](http://distrowatch.com/mint%22)
 
 - [Ubuntu Mate]
 
@@ -24,13 +24,12 @@
 
 - [Xubuntu](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/xubuntu.php)
 
-  - [Xubuntu Homepage](http://xubuntu.org/)
+    - [Xubuntu Homepage](http://xubuntu.org/)
   - [Xubuntu on Distrowatch](http://distrowatch.com/table.php?distribution=xubuntu)
 
 - [Linux Lite](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxLite.php)
 
-  - <?php echo $lliteSS1; ?>
-  - [Linux Lite Homepage](http://www.linuxliteos.com/)
+    - [Linux Lite Homepage](http://www.linuxliteos.com/)
   - [Linux Lite on Distrowatch](http://distrowatch.com/table.php?distribution=lite)
 
   - MINIMUM RECOMMENDED SPECIFICATIONS:
@@ -47,7 +46,7 @@
 
 - [Lubuntu](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/lubuntu.php)
 
-  - [Lubuntu Homepage](http://lubuntu.net/)
+    - [Lubuntu Homepage](http://lubuntu.net/)
   - [Lubuntu on Distrowatch](http://distrowatch.com/table.php?distribution=lubuntu)
 
   - Requirements
@@ -57,8 +56,7 @@
 
 - [ElementaryOS](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/elementaryOS.php)
 
-  - <?php echo $eosSShot1; ?>
-  - [ElementaryOS Homepage](http://elementary.io/)
+    - [ElementaryOS Homepage](http://elementary.io/)
   - [ElementaryOS on Distrowatch](http://distrowatch.com/table.php?distribution=elementary)
 
     - Intel i3 or comparable dual-core 64-bit processor
