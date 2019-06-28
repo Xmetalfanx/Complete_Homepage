@@ -49,6 +49,7 @@
   </div>
 </footer>
 
-
+<!-- for lazyloading images -->
+<script src="/scripts/lazyload.js"></script>
 </body>
 </html>
