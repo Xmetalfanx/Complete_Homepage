@@ -4,16 +4,15 @@ I plan to give a little bit of a history of how my site came to be, here
 
 I am just typing this ASAP, so please excuse the grammar for now
 
----
+* * *
 
 # Thanks
 
 SO many thanks go to [Dev Tips](https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ), as I learned about SASS, Compass, Bourbons, Bootstrap, Foundation, Neat, Bitters, and Refills THANKS to his great videos
 
----
+* * *
 
-*I had to start this somewhere... There was time with basic HTML and style tags before this starting point, here that I mention*
-
+_I had to start this somewhere... There was time with basic HTML and style tags before this starting point, here that I mention_
 
 # Part 1 - Macromedia Dreamweaver Templates
 
@@ -27,7 +26,7 @@ Dreamweaver though not cheap was never really the issue for me ... it was/is Mic
 
 I wanted to be able to roughly have a template system but not be tied to any Operating System or program in particular.
 
----
+* * *
 
 # PHP Templates / SASS-SCSS
 
@@ -69,9 +68,9 @@ Nothing much to say but I learned about it here: [Do you Even Jade, Bro?](https:
 
 I KNOW there are Markdown to HTML converters/addons/whatever ... but the best way I can describe Jade is sort of like this
 
-- Markdown ~> "regular" Word Processing
+-   Markdown ~> "regular" Word Processing
 
-- Jade/Pug ~~> "HTML" ```
+-   Jade/Pug \~~> "HTML" \```
 
 Again it's more than that but I don't want to ramble on, boring people.
 
