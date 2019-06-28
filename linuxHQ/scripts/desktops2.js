@@ -232,7 +232,7 @@ function getDesktopData(data, $localDEName)
                             distroFeatures=currentDesktop[i].generalInfo.distrosFeature;
                             desktopCategory=currentDesktop[i].generalInfo.desktopCatagory;
                             desktopHomepage=currentDesktop[i].generalInfo.desktopHomepage;
-                            desktopGithub=currentDesktop[i].generalInfo.desktopGithubURL
+                            desktopGithub=currentDesktop[i].generalInfo.desktopGithubURL;
 
                             // Req
                             desktopMemory=currentDesktop[i].requirements.reqMemory;
