@@ -1,47 +1,43 @@
-let softwareOutput = document.getElementById("softwareSection");
+// Version 1.0
+let softwareOutput = document.getElementById ('softwareSection');
 let jsTestlet = '<?php echo phpTestlet ?>';
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
 // Where is "data" coming from?
-function softwareData(data) {
+function softwareData (data) {
+  $(document).ready(function () {
+    const softwareJSONUrl = 'http://xmetal.x10.mx/techHQ/json/software.json';
 
-    $(document).ready(function() {
+    // Get JSON Data
+    // note: this IS jquery and if Bootstrap 5 removes the need for Jquery, i may remove it too ... i'd need another way at that point
+    $.getJSON (softwareJSONUrl, function (data) {
 
-        // console.log("Inside softwareData function in JS");
+      // pick better var than "i", later
+      for (let i in data) {
 
-        const softwareJSONUrl = "http://xmetal.x10.mx/techHQ/json/software.json";
+        // This gets the subcats in a list so to speak, separated by commas
+        let mainCategories = Object.keys(data);
+        let subCategories = Object.values(data);
 
-        // Get JSON Data
-        $.getJSON(softwareJSONUrl, function(data) {
+        // console.log("mainCategories: " + mainCategories);
 
-            // For each mainCategory in this case
-            $.each(data, function(key, value) {
+          for(let items in subCategories){
 
-                const mainCategory = key;
+            let subCatList = subCategories[items];
 
-                // Test let only ... can be removed later
-                // console.log(mainCategory + "" +  value);
+            console.log(subCatList);
+          }
+          break;
+    
+        }
 
-                // As long as there are subcatagories in the mainCatagory, loop through
-                for (subCategories in value){
+        // softwareOutput.insertAdjacentHTML("beforeend", "<div class=\"text-primary\">" + eachAppString + "</div>");
 
-                    // Is this where the nunber counter (for loop) should come in?
-                    for(let sortedSubCatCount = 0; sortedSubCatCount < subCategories.length; sortedSubCatCount++ )
-                    {
+      // note to self: text-danger is just bootstrap4 red ... easier than inline CSS here for my testing
+      // softwareOutput.insertAdjacentHTML("beforeend", "<div class=\"mb-2 font-weight-bold text-danger\">" + mainCategories +  "</div>");
 
-                        // This is counting numbers ...
-                        console.log(subCategories[sortedSubCatCount]);
-
-                    }
-
-                }
-
-            }); // Ends .each loop
-
-        }); // ends getJSON loop
-
-    });
-
+    }); // ends getJSON loop
+  });
 }

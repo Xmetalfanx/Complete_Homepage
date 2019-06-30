@@ -1,1345 +1,1350 @@
 {
+  "internet": {
     "browsers": {
-        "blink": [{
-                "progName": "chromium",
-                "progTitle": "Chromium",
-                "moreInfo": {
-                    "progHomepage": "http://www.chromium.org/Home",
-                    "progDesc": "Open Source varient of Google Chrome, and what Google Chrome is based on ",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/browsers/chromium.gif"
-                }
-            },
-            {
-                "progName": "googleChrome",
-                "progTitle": "Google Chrome",
-                "moreInfo": {
-                    "progHomepage": "https://www.google.com/chrome/browser/index.html",
-                    "progDesc": "Browser based on Chromium and is made by Google",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/browsers/chrome.png"
-                }
-            },
-            {
-                "progName": "vivaldi",
-                "progTitle": "Vivaldi",
-                "moreInfo": {
-                    "progHomepage": "https://vivaldi.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/browsers/"
-                }
-            }
-        ],
-        "gecko": [{
-                "progName": "firefox",
-                "progTitle": "Firefox",
-                "moreInfo": {
-                    "progHomepage": "https://www.mozilla.org/en-US/firefox/new/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/browsers/firefox_1.png"
-                }
-            },
-            {
-                "progName": "waterfox",
-                "progTitle": "Waterfox",
-                "moreInfo": {
-                    "progHomepage": "",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": ""
-                }
-            }
-        ]
-    },
-    "graphics": {
-        "editors": [{
-                "progName": "gimp",
-                "progTitle": "GIMP",
-                "moreInfo": {
-                    "progHomepage": "http://www.gimp.org/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon//graphics/91__gimp.png"
-                }
-            },
-            {
-                "progName": "pinta",
-                "progTitle": "Pinta",
-                "appsubcat": null,
-                "moreInfo": {
-                    "progHomepage": "https://pinta-project.com/pintaproject/pinta/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "l"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/"
-                }
-            },
-            {
-                "progName": "inkscape ",
-                "progTitle": "Inkscape ",
-                "appsubcat ": "vectorgraphics ",
-                "moreInfo": {
-                    "progHomepage": "http://www.inkscape.org/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/graphics/inkscape.png"
-                }
-            },
-            {
-                "progName": "photoscape",
-                "progTitle": "PhotoScape",
-                "appsubcat": "editor",
-                "moreInfo": {
-                    "progHomepage": "http://www.photoscape.org/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/graphics/PhotoScape_128.png"
-                }
-            },
-            {
-                "progName": "paintdotnet",
-                "progTitle": "Paint.net",
-                "appsubcat": "editor",
-                "moreInfo": {
-                    "progHomepage": "http://www.getpaint.net/redirect/main_hm.html",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/graphics/PaintDotNet_32512.png"
-                }
-            }
-        ],
-        "optimizers": [{
-                "progName": "xatimageopt",
-                "progTitle": "Xat Image Optimizer",
-                "appsubcat": "Image Editor/Viewer",
-                "moreInfo": {
-                    "progHomepage": "http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/Image-Optimizer-Pro.shtml",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/graphics/Optimizer_304.png"
-                }
-            },
-            {
-                "progName": "gifopt",
-                "progTitle": "Gif Optimizer",
-                "appsubcat": "optimizer",
-                "moreInfo": {
-                    "progHomepage": "http://www.leapic.com/free-gif-optimizer.htm",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/graphics/GIFOptimizer_1.png"
-                }
-            }
-        ],
-        "viewers": [{
-                "progName": "irfanview",
-                "progTitle": "Irfan View",
-                "moreInfo": {
-                    "progHomepage": "http://www.irfanview.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/graphics/irfanview.png"
-                }
-            },
-            {
-                "progName": "xnview",
-                "progTitle": "XnView",
-                "moreInfo": {
-                    "progHomepage": "http://www.xnview.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/graphics/xnview.png"
-                }
-            },
-            {
-                "progName": "gwenview",
-                "progTitle": "Gwenview",
-                "appsubcat": "Image Editor/Viewer",
-                "moreInfo": {
-                    "progHomepage": "https://www.kde.org/applications/graphics/gwenview/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "l"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/graphics/"
-                }
-            },
-            {
-                "progName": "pix",
-                "progTitle": "Pix",
-                "appsubcat": "Image Editor/Viewer",
-                "moreInfo": {
-                    "progHomepage": "https://www.linuxmint.com/rel_sarah_cinnamon_whatsnew.php",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/graphics/"
-                }
-            }
-        ]
-    },
-    "multimedia": {
-        "mediaplayers": {
-            "audioplayers": [{
-                    "progName": "audious",
-                    "progTitle": "Audious",
-                    "moreInfo": {
-                        "progHomepage": "http://audacious-media-player.org",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "cp"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "progName": "aimp",
-                    "progTitle": "AIMP",
-                    "moreInfo": {
-                        "progHomepage": "https://www.aimp.ru/",
-                        "progDesc": "",
-                        "worksonwine": true,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/media/media_players/aimp.png"
-                    }
-                },
-                {
-                    "progName": "foobar2000",
-                    "progTitle": "Foobar 2000",
-                    "worksonwine": "",
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "appname": "xmplay",
-                    "apptitle": "XMPlay",
-                    "moreInfo": {
-                        "progHomepage": "http://support.xmplay.com",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "appname": "clementine",
-                    "apptitle": "Clementine",
-                    "appsubcat": "musicplayer",
-                    "moreInfo": {
-                        "progHomepage": "https://www.clementine-player.org",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "cp"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/media/media_players/"
-                    }
-                },
-                {
-                    "appname": "deadbeef",
-                    "apptitle": "Deadbeef",
-                    "appsubcat": "musicplayer",
-                    "moreInfo": {
-                        "progHomepage": "http://deadbeef.sourceforge.net",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "l"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/media/media_players/"
-                    }
-                }
-            ],
-            "videoplayers": [{
-                    "progName": "vlc",
-                    "progTitle": "VLC",
-                    "moreInfo": {
-                        "progHomepage": "https://www.videolan.org/vlc/index.html",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "progName": "mpv",
-                    "progTitle": "MPV",
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/media/media_players/vlc.png"
-                    }
-                },
-                {
-                    "progName": "smplayer",
-                    "progTitle": "SMPlayer",
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "appname": "gnomempv",
-                    "apptitle": "Gnome-MPV",
-                    "appsubcat": "videoplayer",
-                    "moreInfo": {
-                        "progHomepage": "https://gnome-mpv.github.io",
-                        "progDesc": "Gnome/GUI Fronend to mpv",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/media/media_players/"
-                    }
-                }
-            ],
-            "various": [{
-                "progName": "mp3gain",
-                "progTitle": "Mp3Gain",
-                "appsubcat": "musicplayer",
-                "moreInfo": {
-                    "progHomepage": "http://mp3gain.sourceforge.net/",
-                    "progDesc": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <p> <em> COMMENT: </em> I am not saying this  is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards </p>",
-                    "worksonwine": false,
-                    "progPlatform": ""
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/media/MP3GainGUI.png"
-                }
-            }],
-            "videoEditing": [{
-                    "appname": "virtualdub",
-                    "apptitle": "Virtualdub",
-                    "appsubcat": "various",
-                    "moreInfo": {
-                        "progHomepage": "http://www.virtualdub.org/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "cp"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/media/videos/VideoDub2_132.gif"
-                    }
-                },
-                {
-                    "progName": "formatfactory",
-                    "progTitle": "Format Factory",
-                    "appsubcat": "converter",
-                    "moreInfo": {
-                        "progHomepage": "http://www.pcfreetime.com/",
-                        "progDesc": "<p>Comments: Does ask for &quot;Ask Toolbar&quot; installation, but if you uncheck all the boxes and hit next, it install no problem and no ask toolbar.<br /> </p> <p> I saw this recommended alot, and while I am still playing around with video quality...it looks ok if you like this interface and it works well so far...a good alternative to the prior ones I recommended. </p>",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                }
-            ]
-        }
-    },
-    "productivity": {
-        "editors": [{
-                "progName": "atom",
-                "progTitle": "Atom",
-                "moreInfo": {
-                    "progHomepage": "",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": ""
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": ""
-                }
-            },
-            {
-                "progName": "sublimeText",
-                "progTitle": "Sublime Text",
-                "moreInfo": {
-                    "progHomepage": "",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": ""
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": ""
-                }
-            },
-            {
-                "progName": "vscode",
-                "progTitle": "Visual Code",
-                "moreInfo": {
-                    "progHomepage": "",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": ""
-                }
-            },
-            {
-                "progName": "notepadplusplus",
-                "progTitle": "Notepad++",
-                "appsubcat": "texteditor",
-                "moreInfo": {
-                    "progHomepage": "https://notepad-plus-plus.org",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/txtEditor/"
-                }
-            },
-            {
-                "progName": "editpadlite",
-                "progTitle": "Editpad Lite",
-                "appsubcat": "texteditor",
-                "moreInfo": {
-                    "progHomepage": "https://www.editpadlite.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/txtEditor/"
-                }
-            },
-            {
-                "progName": "geany",
-                "progTitle": "Geany",
-                "appsubcat": "texteditor",
-                "moreInfo": {
-                    "progHomepage": "https://sourceforge.net/projects/geany/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/txtEditor/"
-                }
-            }
-        ],
-        "pdf": [{
-                "progName": "sumatrapdf",
-                "progTitle": "Sumatra PDF",
-                "moreInfo": {
-                    "progHomepage": "http://blog.kowalczyk.info/software/sumatrapdf",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/pdf/SumtraPDF.png"
-                }
-            },
-            {
-                "progName ": "bullzippdf",
-                "progTitle ": "Bullzip PDF Printer",
-                "moreInfo": {
-                    "progHomepage": "http://www.bullzip.com/products/pdf/info.php",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/pdf/bullzip_PDF.png"
-                }
-
-            },
-            {
-                "progName": "foxitreader",
-                "progTitle": "Foxit Reader",
-                "appsubcat": "documentreader",
-                "moreInfo": {
-                    "progHomepage": "http://www.foxitsoftware.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/"
-                }
-            },
-            {
-                "progName": "pdfcreator",
-                "progTitle": "PDFCreator",
-                "appsubcat": "pdfcreator",
-                "moreInfo": {
-                    "progHomepage": "http://www.pdfforge.org/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/pdf/"
-                }
-            },
-            {
-                "progName": "dopdf",
-                "progTitle": "Dopdf",
-                "appsubcat": "pdfcreator",
-                "moreInfo": {
-                    "progHomepage": "http//www.dopdf.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/pdf/dopdf.png"
-                }
-            },
-            {
-                "progName": "pdfxchangeviewer",
-                "progTitle": "PDF X-Changer Viewer",
-                "appsubcat": "documentreader",
-                "moreInfo": {
-                    "progHomepage": "http://www.pdfxviewer.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/pdf/PDFXCview.png"
-                }
-            }
-        ],
-        "office": [{
-                "progName": "abiword",
-                "progTitle": "Abiword",
-                "moreInfo": {
-                    "progHomepage": "https://www.abisource.com/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/"
-                }
-            },
-            {
-                "progName": "libreoffice",
-                "progTitle": "Libre Office",
-                "appsubcat": "officesuite",
-                "moreInfo": {
-                    "progHomepage": "https://www.libreoffice.org/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcons/product/libreIcons/lofficeMain.png"
-                }
-            }
-        ],
-        "various": [{
-                "progName": "universalviewer",
-                "progTitle": "Universal Viewer",
-                "moreInfo": {
-                    "progHomepage": "http://uvviewsoft.com/uviewer/",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/"
-                }
-            },
-            {
-                "progName": "calibre",
-                "progTitle": "Calibre",
-                "appsubcat": "ebook",
-                "moreInfo": {
-                    "progHomepage": "http://www.calibre-ebook.com",
-                    "progDesc": "E-book Manager and Converter  for Multiple Operating System and a must have for anyone who has many e-books",
-                    "worksonwine": false,
-                    "progPlatform": "cp"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon/product/calibre_1.png"
-                }
-            },
-
-            {
-                "progName": "textcrawler",
-                "progTitle": "Text Crawler",
-                "appsubcat": "various",
-                "moreInfo": {
-                    "progHomepage": "https://www.digitalvolcano.co.uk/textcrawler.html",
-                    "progDesc": "",
-                    "worksonwine": false,
-                    "progPlatform": "w"
-                },
-                "images": {
-                    "sshoturl": null,
-                    "progIcon": "/techHQ/progIcon//product/TextCrawler_32512.png"
-                }
-            }
-        ],
-
-
-
-
-
-
-
-
-        "security": {
-            "antiThreats": [{
-                    "progName": "tdsskiller",
-                    "progTitle": "Kaspersky TDSSKiller",
-                    "moreInfo": {
-                        "progHomepage": "https://usa.kaspersky.com/downloads/tdsskiller",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "progIcon": "/techHQ/progIcon/",
-                    "progName": "zemana",
-                    "progTitle": "Zemana",
-                    "moreInfo": {
-                        "progHomepage": "https://www.bleepingcomputer.com/download/zemana-antimalware/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "progName": "adwcleaner",
-                    "progTitle": "AdwCleaner",
-                    "moreInfo": {
-                        "progHomepage": "https://www.bleepingcomputer.com/download/adwcleaner/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "progName": "emsisoft",
-                    "progTitle": "Emsisoft Anti-Malware",
-                    "moreInfo": {
-                        "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "progName": "hitmanpro",
-                    "progTitle": "Hitman Pro",
-                    "moreInfo": {
-                        "progHomepage": "https://www.hitmanpro.com/en-us.aspx",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/security/"
-                    }
-                },
-                {
-                    "progName": "malwarebytes",
-                    "progTitle": "Malwarebytes Anti-Malware",
-                    "worksonwine": false,
-                    "moreInfo": {
-                        "progHomepage": "https://www.malwarebytes.com/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/security/"
-                    }
-                }
-            ],
-            "cleaners": [{
-                    "progName": "bleachbit",
-                    "progTitle": "Bleachbit",
-                    "moreInfo": {
-                        "progHomepage": "https://www.bleachbit.org/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "cp"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/security/cleaners/bleachbit_1.jpg"
-                    }
-                },
-                {
-                    "progIcon": "/techHQ/progIcons/security/cleaners/959__CCv2.gif",
-                    "progName": "ccleaner",
-                    "progTitle": "CCleaner",
-                    "moreInfo": {
-                        "progHomepage": "https://www.piriform.com/ccleaner/download",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "progName": "ccenhancer",
-                    "progTitle": "CCEnhancer",
-                    "moreInfo": {
-                        "progHomepage": "https://singularlabs.com/software/ccenhancer/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "progName": "eraser5",
-                    "progTitle": "Eraser (v5)",
-                    "moreInfo": {
-                        "progHomepage": "http://www.heidi.ie/eraser/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "progName": "eraser",
-                    "progTitle": "Eraser",
-                    "moreInfo": {
-                        "progHomepage": "https://eraser.heidi.ie",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/security/cleaners/Eraser6.png"
-                    }
-                },
-                {
-                    "progName": "privazer",
-                    "progHomepage": "http:/ / privazer.com / ",
-                    "progTitle": " Privazer ",
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/security/"
-                    }
-                }
-            ]
+      "blink": [
+        {
+          "images": {
+            "progIcon": "/techHQ/progIcons/browsers/chromium.gif",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "Open Source varient of Google Chrome, and what Google Chrome is based on ",
+            "progHomepage": "http://www.chromium.org/Home",
+            "progPlatform": "cp",
+            "worksonwine": false
+          },
+          "progName": "chromium",
+          "progTitle": "Chromium"
         },
-        "systemTools": {
-            "archivers": [{
-                    "progName": "7zip",
-                    "progTitle": "7zip (Manager)",
-                    "moreInfo": {
-                        "progHomepage": "http://www.7zip.org",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/compression/51__7zip.png"
-                    }
-                },
-                {
-                    "progName": "universalext",
-                    "programHomepage ": null,
-                    "progHomepage ": null,
-                    "progTitle": "Universal Extractor",
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/compression/722 __universalExtractor.gif"
-                    }
-                },
-                {
-                    "appsubcat": "archiver",
-                    "progName": "bandizip",
-                    "progPlatform": "W",
-                    "progTitle": "Bandizip",
-                    "moreInfo": {
-                        "progHomepage": "http://www.bandicam.com/bandizip/help/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/compression/Bandizip32_134.gif"
-                    }
-                },
-                {
-                    "progName": "freearc",
-                    "progHomepage": null,
-                    "progTitle": "FreeArc",
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/compression/freearc-installer_102.jpg"
-                    }
-                },
-                {
-                    "appsubcat ": "archiver",
-                    "progName ": "winrar",
-                    "progTitle ": "Winrar",
-                    "moreInfo": {
-                        "progHomepage": "http://www.rarsoft.com",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/compression/4 __winrar.png"
-                    }
-                }
-            ],
-            "burners": [{
-                    "appsubcat": "burner",
-                    "progTitle": "Burnaware",
-                    "progName": "burnaware",
-                    "moreInfo": {
-                        "progHomepage": "http://www.burnaware.com",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/burner/"
-                    }
-                },
-                {
-                    "appsubcat ": "burner",
-                    "progTitle ": "CDBurnerXP ",
-                    "progName ": "cdburnerxp ",
-                    "moreInfo": {
-                        "progHomepage": "https: //www.cdburnerxp.se",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/"
-                    }
-                }
-            ],
-            "defrag": [{
-                    "progName": "auslogicdefrag",
-                    "progTitle": "Auslogic Defrag",
-                    "appsubcat": "defrag",
-                    "moreInfo": {
-                        "progHomepage": "https://www.auslogics.com/en/software/disk-defrag/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/defrag/"
-                    }
-                },
-                {
-                    "progName": "defraggler",
-                    "progTitle": "Defraggler",
-                    "appsubcat": "defrag",
-                    "moreInfo": {
-                        "progHomepage": "https://www.piriform.com/defraggler",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/defrag/defraggler.png"
-                    }
-                }
-            ],
-            "taskmanager": [{
-                    "appsubcat": "taskmanager",
-                    "progName": "processhacker",
-                    "progTitle": "Process Hacker",
-                    "moreInfo": {
-                        "progHomepage": "http://sourceforge.net/projects/processhacker",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/process/ProcessHacker_101.png"
-                    }
-                },
-                {
-                    "appsubcat": "taskmanager",
-                    "progHomepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
-                    "progPlatform": "W",
-                    "progTitle": "Process Explorer",
-                    "progDesc": null,
-                    "progIcon": "/techHQ/progIcon/system_tools/process/procexp_101.png",
-                    "progName": "processexplorer",
-                    "sshoturl": null,
-                    "worksonwine": false,
-                    "moreInfo": {
-                        "progHomepage": "",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "progName": "systemexplorer",
-                    "progTitle": "System Explorer",
-                    "moreInfo": {
-                        "progHomepage": "http://systemexplorer.net",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/process/SystemExplorer.png"
-                    }
-
-                }
-            ],
-            "systemSuite": [{
-                    "progrprogNameamname": "glaryutilties",
-                    "progTitle": "Glary Utilities",
-                    "moreInfo": {
-                        "progHomepage": "http://www.glarysoft.com",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/suites/glary.png"
-                    }
-                },
-                {
-                    "progName": "nirsoftlauncher",
-                    "progTitle": "Nirsoft Launcher",
-                    "appsubcat": "systemsuite",
-                    "moreInfo": {
-                        "progHomepage": "http://launcher.nirsoft.net/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/"
-                    }
-                },
-                {
-                    "progName ": "wisecare360 ",
-                    "progTitle ": "Wise Care 360 ",
-                    "appsubcat ": "systemsuite ",
-                    "moreInfo": {
-                        "progHomepage": "http: //www.wisecleaner.com/wise-care-365.html",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "w"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/suites/wisecare365.png"
-                    }
-                }
-            ],
-            "various": [{
-                    "progName": "godmode",
-                    "progTitle": "God Mode Creator",
-                    "moreInfo": {
-                        "progHomepage": "http://www.thewindowsclub.com/godmode-creator-windows-7-vista-released ",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "progIcon": "/techHQ/progIcon/security/Unlocker_106.png",
-                    "progName": "unlocker",
-                    "progPlatform": "W",
-                    "progDesc": "Frustrated by &quot;Can not delete&quot; and &quot;File Currently in use&quot; even though you are sure it shouldn&apos;t be?... this is a freeware, that in my opinion, the best program for unlocking the file, or cancelling the specific process that says its using that file.",
-                    "progHomepage": "http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml",
-                    "progTitle": "Unlocker",
-                    "sshoturl": null,
-                    "worksonwine": false
-                },
-                {
-                    "progIcon": "/techHQ/progIcon/system_tools/QuickRestoreMaker.png",
-                    "progName": "quickrestorepoin",
-                    "progTitle": "Quick Restorepoint Creato",
-                    "moreInfo": {
-                        "progHomepage": "http://www.thewindowsclub.com/create-a-system-restore-point-in-1-click-with-quick-restor",
-                        "progDesc": "Make System Restore points on command with one click (works on Windows XP, Vista, and Windows 7)",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": ""
-                    }
-                },
-                {
-                    "appsubcat": "various",
-                    "progName": "dexpot",
-                    "progTitle": "Dexpot",
-                    "moreInfo": {
-                        "progHomepage": "http://www.dexpot.de/",
-                        "progDesc": "Dexpot is the program (type) I have been looking for. It is a FREEware that allows you to have multiple virtual desktops that you can switch between. This program is HIGHLY customizable, and to be honest, I am still playing with all the options.  There HAVE BEEN free programs like this in the past that didn&apos;t offer all the features, that I had been looking for. Also there have been programs (I can not recall the name) that had the functions and features, though were  priced at $29.99 or higher. This is a great little tool I plan to mess around with more in the coming days",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-
-                },
-                {
-                    "appsubcat": "various",
-                    "progName": "teracopy",
-                    "progTitle": "TeraCopy",
-                    "moreInfo": {
-                        "progHomepage": "http://www.codesector.com/teracopy",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/teraCopy.jpg"
-                    }
-                },
-                {
-                    "appsubcat ": "various",
-                    "progName": "trayit",
-                    "progTitle": "Tray It",
-                    "moreInfo": {
-                        "progHomepage": "http://www.majorgeeks.com/files/details/trayit.html",
-                        "progDesc": "Sends differnt apps to the system tray, cleaninig up clutter for those times when, there are many apps open",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/TrayIt!_101.png"
-
-                    }
-
-                },
-                {
-                    "appsubcat": "various",
-                    "progName": "sysrestoremanage",
-                    "progTitle": "System Restore Manager",
-                    "moreInfo": {
-                        "progHomepage": "http://www.thewindowsclub.com/system-restore-manager-for-windows-released",
-                        "progDesc": "System Restore Manager - Great little program that allows for better management of System Restore Points.",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/systemtools/SRM_icon.png"
-                    }
-                },
-                {
-                    "appsubcat": "installer/updater",
-                    "progTitle": "Chocolately",
-                    "progName": "chocalatey",
-                    "moreInfo": {
-                        "progHomepage": "https://chocolatey.org/",
-                        "progDesc": "Package Manager and installer",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "w"
-                    }
-                },
-                {
-                    "appsubcat": "driverrelated",
-                    "progTitle": "Drive Booster",
-                    "progName": "driverbooster",
-                    "moreInfo": {
-                        "progHomepage": "http://www.iobit.com/en/driver-booster.php",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/driver-booster.png"
-                    }
-                },
-                {
-                    "appsubcat": "various",
-                    "progName": "duplicatecleaner",
-                    "progTitle": "Duplicate Cleaner",
-                    "moreInfo": {
-                        "progHomepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
-                        "progDesc": "Great tool for Finding duplicate files of any type ... on my data hard drives (no programs or Operating Systems), I find myself using this often.",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/"
-                    }
-                },
-                {
-                    "appsubcat": "startup ",
-                    "progName": "autoruns ",
-                    "progTitle": "Autoruns ",
-                    "moreInfo": {
-                        "progHomepage": "http: //www.sysinternals.com/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/ autoRuns.png"
-                    }
-                },
-                {
-                    "appsubcat": "various",
-                    "progTitle": "FileMenu Tools",
-                    "progName": "filemenutools",
-                    "moreInfo": {
-                        "progHomepage": "http://www.lopesoft.com/",
-                        "progDesc": "File-Menu Tools adds many needed entries to the Windows Context Menu. There are many tools like this; however, I consider this one the best one I have tried so far.",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/FileMenuTools_1075.png"
-                    }
-                },
-                {
-                    "progIcon": "",
-                    "progName": "syncbackup",
-                    "progTitle": "SyncBackup",
-                    "moreInfo": {
-                        "progHomepage": "http://www.2brightsparks.com/syncback/syncback-hub.html",
-                        "progDesc": "File and Folder backup program with many options",
-                        "worksonwine": false,
-                        "progPlatform": ""
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/backup/736__SyncBack.gif"
-
-                    }
-
-                },
-                {
-                    "appsubcat": "various",
-                    "progName": "treeview",
-                    "progTitle": "Treeview ",
-
-                    "moreInfo": {
-                        "progHomepage": "http://www.jam-software.com/freeware/",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcon/system_tools/TreeSize.png"
-
-                    }
-
-                },
-                {
-                    "progName": "patchmypc",
-                    "progTitle": "PatchMyPC",
-                    "appsubcat": "installer/updater",
-                    "moreInfo": {
-                        "progHomepage": "https://patchmypc.net/overview",
-                        "progDesc": "",
-                        "worksonwine": false,
-                        "progPlatform": "W"
-                    },
-                    "images": {
-                        "sshoturl": null,
-                        "progIcon": "/techHQ/progIcons/system_tools/"
-                    }
-                }
-            ]
+        {
+          "images": {
+            "progIcon": "/techHQ/progIcons/browsers/chrome.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "Browser based on Chromium and is made by Google",
+            "progHomepage": "https://www.google.com/chrome/browser/index.html",
+            "progPlatform": "cp",
+            "worksonwine": false
+          },
+          "progName": "googleChrome",
+          "progTitle": "Google Chrome"
+        },
+        {
+          "images": {
+            "progIcon": "/techHQ/progIcons/browsers/",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "https://vivaldi.com/",
+            "progPlatform": "cp",
+            "worksonwine": false
+          },
+          "progName": "vivaldi",
+          "progTitle": "Vivaldi"
         }
+      ],
+      "gecko": [
+        {
+          "images": {
+            "progIcon": "/techHQ/progIcons/browsers/firefox_1.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "https://www.mozilla.org/en-US/firefox/new/",
+            "progPlatform": "cp",
+            "worksonwine": false
+          },
+          "progName": "firefox",
+          "progTitle": "Firefox"
+        },
+        {
+          "images": {
+            "progIcon": "",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "",
+            "progPlatform": "cp",
+            "worksonwine": false
+          },
+          "progName": "waterfox",
+          "progTitle": "Waterfox"
+        }
+      ]
     }
+  },
+  "graphics": {
+    "editors": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon//graphics/91__gimp.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.gimp.org/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "gimp",
+        "progTitle": "GIMP"
+      },
+      {
+        "appsubcat": null,
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://pinta-project.com/pintaproject/pinta/",
+          "progPlatform": "l",
+          "worksonwine": false
+        },
+        "progName": "pinta",
+        "progTitle": "Pinta"
+      },
+      {
+        "appsubcat ": "vectorgraphics ",
+        "images": {
+          "progIcon": "/techHQ/progIcon/graphics/inkscape.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.inkscape.org/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "inkscape ",
+        "progTitle": "Inkscape "
+      },
+      {
+        "appsubcat": "editor",
+        "images": {
+          "progIcon": "/techHQ/progIcon/graphics/PhotoScape_128.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.photoscape.org/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "photoscape",
+        "progTitle": "PhotoScape"
+      },
+      {
+        "appsubcat": "editor",
+        "images": {
+          "progIcon": "/techHQ/progIcon/graphics/PaintDotNet_32512.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.getpaint.net/redirect/main_hm.html",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "paintdotnet",
+        "progTitle": "Paint.net"
+      }
+    ],
+    "optimizers": [
+      {
+        "appsubcat": "Image Editor/Viewer",
+        "images": {
+          "progIcon": "/techHQ/progIcons/graphics/Optimizer_304.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.softpedia.com/get/Multimedia/Graphic/Graphic-Others/Image-Optimizer-Pro.shtml",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "xatimageopt",
+        "progTitle": "Xat Image Optimizer"
+      },
+      {
+        "appsubcat": "optimizer",
+        "images": {
+          "progIcon": "/techHQ/progIcon/graphics/GIFOptimizer_1.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.leapic.com/free-gif-optimizer.htm",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "gifopt",
+        "progTitle": "Gif Optimizer"
+      }
+    ],
+    "viewers": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/graphics/irfanview.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.irfanview.com/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "irfanview",
+        "progTitle": "Irfan View"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/graphics/xnview.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.xnview.com/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "xnview",
+        "progTitle": "XnView"
+      },
+      {
+        "appsubcat": "Image Editor/Viewer",
+        "images": {
+          "progIcon": "/techHQ/progIcon/graphics/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.kde.org/applications/graphics/gwenview/",
+          "progPlatform": "l",
+          "worksonwine": false
+        },
+        "progName": "gwenview",
+        "progTitle": "Gwenview"
+      },
+      {
+        "appsubcat": "Image Editor/Viewer",
+        "images": {
+          "progIcon": "/techHQ/progIcon/graphics/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.linuxmint.com/rel_sarah_cinnamon_whatsnew.php",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "pix",
+        "progTitle": "Pix"
+      }
+    ]
+  },
+  "multimedia": {
+    "mediaplayers": {
+      "audioplayers": [
+        {
+          "images": {
+            "progIcon": "",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "http://audacious-media-player.org",
+            "progPlatform": "cp",
+            "worksonwine": false
+          },
+          "progName": "audious",
+          "progTitle": "Audious"
+        },
+        {
+          "images": {
+            "progIcon": "/techHQ/progIcons/media/media_players/aimp.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "https://www.aimp.ru/",
+            "progPlatform": "",
+            "worksonwine": true
+          },
+          "progName": "aimp",
+          "progTitle": "AIMP"
+        },
+        {
+          "images": {
+            "progIcon": "",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "",
+            "progPlatform": "w",
+            "worksonwine": false
+          },
+          "progName": "foobar2000",
+          "progTitle": "Foobar 2000",
+          "worksonwine": ""
+        },
+        {
+          "appname": "xmplay",
+          "apptitle": "XMPlay",
+          "images": {
+            "progIcon": "/techHQ/progIcon/",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "http://support.xmplay.com",
+            "progPlatform": "w",
+            "worksonwine": false
+          }
+        },
+        {
+          "appname": "clementine",
+          "appsubcat": "musicplayer",
+          "apptitle": "Clementine",
+          "images": {
+            "progIcon": "/techHQ/progIcons/media/media_players/",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "https://www.clementine-player.org",
+            "progPlatform": "cp",
+            "worksonwine": false
+          }
+        },
+        {
+          "appname": "deadbeef",
+          "appsubcat": "musicplayer",
+          "apptitle": "Deadbeef",
+          "images": {
+            "progIcon": "/techHQ/progIcons/media/media_players/",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "http://deadbeef.sourceforge.net",
+            "progPlatform": "l",
+            "worksonwine": false
+          }
+        }
+      ],
+      "videoplayers": [
+        {
+          "images": {
+            "progIcon": "",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "https://www.videolan.org/vlc/index.html",
+            "progPlatform": "",
+            "worksonwine": false
+          },
+          "progName": "vlc",
+          "progTitle": "VLC"
+        },
+        {
+          "images": {
+            "progIcon": "/techHQ/progIcons/media/media_players/vlc.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "",
+            "progPlatform": "",
+            "worksonwine": false
+          },
+          "progName": "mpv",
+          "progTitle": "MPV"
+        },
+        {
+          "images": {
+            "progIcon": "",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "",
+            "progPlatform": "",
+            "worksonwine": false
+          },
+          "progName": "smplayer",
+          "progTitle": "SMPlayer"
+        },
+        {
+          "appname": "gnomempv",
+          "appsubcat": "videoplayer",
+          "apptitle": "Gnome-MPV",
+          "images": {
+            "progIcon": "/techHQ/progIcons/media/media_players/",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "Gnome/GUI Fronend to mpv",
+            "progHomepage": "https://gnome-mpv.github.io",
+            "progPlatform": "w",
+            "worksonwine": false
+          }
+        }
+      ]
+    },
+    "various": [
+      {
+        "appsubcat": "musicplayer",
+        "images": {
+          "progIcon": "/techHQ/progIcon/media/MP3GainGUI.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <p> <em> COMMENT: </em> I am not saying this  is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards </p>",
+          "progHomepage": "http://mp3gain.sourceforge.net/",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progName": "mp3gain",
+        "progTitle": "Mp3Gain"
+      }
+    ],
+    "videoEditing": [
+      {
+        "appname": "virtualdub",
+        "appsubcat": "various",
+        "apptitle": "Virtualdub",
+        "images": {
+          "progIcon": "/techHQ/progIcon/media/videos/VideoDub2_132.gif",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.virtualdub.org/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        }
+      },
+      {
+        "appsubcat": "converter",
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "<p>Comments: Does ask for &quot;Ask Toolbar&quot; installation, but if you uncheck all the boxes and hit next, it install no problem and no ask toolbar.<br /> </p> <p> I saw this recommended alot, and while I am still playing around with video quality...it looks ok if you like this interface and it works well so far...a good alternative to the prior ones I recommended. </p>",
+          "progHomepage": "http://www.pcfreetime.com/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "formatfactory",
+        "progTitle": "Format Factory"
+      }
+    ]
+  },
+  "productivity": {
+    "editors": [
+      {
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progName": "atom",
+        "progTitle": "Atom"
+      },
+      {
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progName": "sublimeText",
+        "progTitle": "Sublime Text"
+      },
+      {
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "vscode",
+        "progTitle": "Visual Code"
+      },
+      {
+        "appsubcat": "texteditor",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/txtEditor/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://notepad-plus-plus.org",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "notepadplusplus",
+        "progTitle": "Notepad++"
+      },
+      {
+        "appsubcat": "texteditor",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/txtEditor/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.editpadlite.com/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "editpadlite",
+        "progTitle": "Editpad Lite"
+      },
+      {
+        "appsubcat": "texteditor",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/txtEditor/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://sourceforge.net/projects/geany/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "geany",
+        "progTitle": "Geany"
+      }
+    ],
+    "office": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.abisource.com/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "abiword",
+        "progTitle": "Abiword"
+      },
+      {
+        "appsubcat": "officesuite",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/libreIcons/lofficeMain.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.libreoffice.org/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "libreoffice",
+        "progTitle": "Libre Office"
+      }
+    ],
+    "pdf": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/pdf/SumtraPDF.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://blog.kowalczyk.info/software/sumatrapdf",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "sumatrapdf",
+        "progTitle": "Sumatra PDF"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/pdf/bullzip_PDF.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.bullzip.com/products/pdf/info.php",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName ": "bullzippdf",
+        "progTitle ": "Bullzip PDF Printer"
+      },
+      {
+        "appsubcat": "documentreader",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.foxitsoftware.com/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "foxitreader",
+        "progTitle": "Foxit Reader"
+      },
+      {
+        "appsubcat": "pdfcreator",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/pdf/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.pdfforge.org/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "pdfcreator",
+        "progTitle": "PDFCreator"
+      },
+      {
+        "appsubcat": "pdfcreator",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/pdf/dopdf.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http//www.dopdf.com/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "dopdf",
+        "progTitle": "Dopdf"
+      },
+      {
+        "appsubcat": "documentreader",
+        "images": {
+          "progIcon": "/techHQ/progIcons/product/pdf/PDFXCview.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.pdfxviewer.com/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "pdfxchangeviewer",
+        "progTitle": "PDF X-Changer Viewer"
+      }
+    ],
+    "various": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://uvviewsoft.com/uviewer/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "universalviewer",
+        "progTitle": "Universal Viewer"
+      },
+      {
+        "appsubcat": "ebook",
+        "images": {
+          "progIcon": "/techHQ/progIcon/product/calibre_1.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "E-book Manager and Converter  for Multiple Operating System and a must have for anyone who has many e-books",
+          "progHomepage": "http://www.calibre-ebook.com",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "calibre",
+        "progTitle": "Calibre"
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon//product/TextCrawler_32512.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.digitalvolcano.co.uk/textcrawler.html",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "textcrawler",
+        "progTitle": "Text Crawler"
+      }
+    ]
+  },
+  "security": {
+    "antiThreats": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://usa.kaspersky.com/downloads/tdsskiller",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "tdsskiller",
+        "progTitle": "Kaspersky TDSSKiller"
+      },
+      {
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleepingcomputer.com/download/zemana-antimalware/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progIcon": "/techHQ/progIcon/",
+        "progName": "zemana",
+        "progTitle": "Zemana"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleepingcomputer.com/download/adwcleaner/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "adwcleaner",
+        "progTitle": "AdwCleaner"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progName": "emsisoft",
+        "progTitle": "Emsisoft Anti-Malware"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/security/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.hitmanpro.com/en-us.aspx",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "hitmanpro",
+        "progTitle": "Hitman Pro"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/security/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.malwarebytes.com/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "malwarebytes",
+        "progTitle": "Malwarebytes Anti-Malware",
+        "worksonwine": false
+      }
+    ],
+    "cleaners": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/security/cleaners/bleachbit_1.jpg",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleachbit.org/",
+          "progPlatform": "cp",
+          "worksonwine": false
+        },
+        "progName": "bleachbit",
+        "progTitle": "Bleachbit"
+      },
+      {
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.piriform.com/ccleaner/download",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progIcon": "/techHQ/progIcons/security/cleaners/959__CCv2.gif",
+        "progName": "ccleaner",
+        "progTitle": "CCleaner"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://singularlabs.com/software/ccenhancer/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "ccenhancer",
+        "progTitle": "CCEnhancer"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.heidi.ie/eraser/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "eraser5",
+        "progTitle": "Eraser (v5)"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/security/cleaners/Eraser6.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://eraser.heidi.ie",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "eraser",
+        "progTitle": "Eraser"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/security/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progHomepage": "http:/ / privazer.com / ",
+        "progName": "privazer",
+        "progTitle": " Privazer "
+      }
+    ]
+  },
+  "systemTools": {
+    "archivers": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/compression/51__7zip.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.7zip.org",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progName": "7zip",
+        "progTitle": "7zip (Manager)"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/compression/722 __universalExtractor.gif",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progHomepage ": null,
+        "progName": "universalext",
+        "progTitle": "Universal Extractor",
+        "programHomepage ": null
+      },
+      {
+        "appsubcat": "archiver",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/compression/Bandizip32_134.gif",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.bandicam.com/bandizip/help/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "bandizip",
+        "progPlatform": "W",
+        "progTitle": "Bandizip"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/compression/freearc-installer_102.jpg",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progHomepage": null,
+        "progName": "freearc",
+        "progTitle": "FreeArc"
+      },
+      {
+        "appsubcat ": "archiver",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/compression/4 __winrar.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.rarsoft.com",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName ": "winrar",
+        "progTitle ": "Winrar"
+      }
+    ],
+    "burners": [
+      {
+        "appsubcat": "burner",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/burner/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.burnaware.com",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "burnaware",
+        "progTitle": "Burnaware"
+      },
+      {
+        "appsubcat ": "burner",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https: //www.cdburnerxp.se",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName ": "cdburnerxp ",
+        "progTitle ": "CDBurnerXP "
+      }
+    ],
+    "defrag": [
+      {
+        "appsubcat": "defrag",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/defrag/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.auslogics.com/en/software/disk-defrag/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "auslogicdefrag",
+        "progTitle": "Auslogic Defrag"
+      },
+      {
+        "appsubcat": "defrag",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/defrag/defraggler.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.piriform.com/defraggler",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "defraggler",
+        "progTitle": "Defraggler"
+      }
+    ],
+    "systemSuite": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/suites/glary.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.glarysoft.com",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progTitle": "Glary Utilities",
+        "progrprogNameamname": "glaryutilties"
+      },
+      {
+        "appsubcat": "systemsuite",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://launcher.nirsoft.net/",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "nirsoftlauncher",
+        "progTitle": "Nirsoft Launcher"
+      },
+      {
+        "appsubcat ": "systemsuite ",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/suites/wisecare365.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http: //www.wisecleaner.com/wise-care-365.html",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName ": "wisecare360 ",
+        "progTitle ": "Wise Care 360 "
+      }
+    ],
+    "taskmanager": [
+      {
+        "appsubcat": "taskmanager",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/process/ProcessHacker_101.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://sourceforge.net/projects/processhacker",
+          "progPlatform": "w",
+          "worksonwine": false
+        },
+        "progName": "processhacker",
+        "progTitle": "Process Hacker"
+      },
+      {
+        "appsubcat": "taskmanager",
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progDesc": null,
+        "progHomepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
+        "progIcon": "/techHQ/progIcon/system_tools/process/procexp_101.png",
+        "progName": "processexplorer",
+        "progPlatform": "W",
+        "progTitle": "Process Explorer",
+        "sshoturl": null,
+        "worksonwine": false
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/process/SystemExplorer.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://systemexplorer.net",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "systemexplorer",
+        "progTitle": "System Explorer"
+      }
+    ],
+    "various": [
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.thewindowsclub.com/godmode-creator-windows-7-vista-released ",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "godmode",
+        "progTitle": "God Mode Creator"
+      },
+      {
+        "progDesc": "Frustrated by &quot;Can not delete&quot; and &quot;File Currently in use&quot; even though you are sure it shouldn&apos;t be?... this is a freeware, that in my opinion, the best program for unlocking the file, or cancelling the specific process that says its using that file.",
+        "progHomepage": "http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml",
+        "progIcon": "/techHQ/progIcon/security/Unlocker_106.png",
+        "progName": "unlocker",
+        "progPlatform": "W",
+        "progTitle": "Unlocker",
+        "sshoturl": null,
+        "worksonwine": false
+      },
+      {
+        "images": {
+          "progIcon": "",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "Make System Restore points on command with one click (works on Windows XP, Vista, and Windows 7)",
+          "progHomepage": "http://www.thewindowsclub.com/create-a-system-restore-point-in-1-click-with-quick-restor",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progIcon": "/techHQ/progIcon/system_tools/QuickRestoreMaker.png",
+        "progName": "quickrestorepoin",
+        "progTitle": "Quick Restorepoint Creato"
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "Dexpot is the program (type) I have been looking for. It is a FREEware that allows you to have multiple virtual desktops that you can switch between. This program is HIGHLY customizable, and to be honest, I am still playing with all the options.  There HAVE BEEN free programs like this in the past that didn&apos;t offer all the features, that I had been looking for. Also there have been programs (I can not recall the name) that had the functions and features, though were  priced at $29.99 or higher. This is a great little tool I plan to mess around with more in the coming days",
+          "progHomepage": "http://www.dexpot.de/",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "dexpot",
+        "progTitle": "Dexpot"
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/teraCopy.jpg",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.codesector.com/teracopy",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "teracopy",
+        "progTitle": "TeraCopy"
+      },
+      {
+        "appsubcat ": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/TrayIt!_101.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "Sends differnt apps to the system tray, cleaninig up clutter for those times when, there are many apps open",
+          "progHomepage": "http://www.majorgeeks.com/files/details/trayit.html",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "trayit",
+        "progTitle": "Tray It"
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/systemtools/SRM_icon.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "System Restore Manager - Great little program that allows for better management of System Restore Points.",
+          "progHomepage": "http://www.thewindowsclub.com/system-restore-manager-for-windows-released",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "sysrestoremanage",
+        "progTitle": "System Restore Manager"
+      },
+      {
+        "appsubcat": "installer/updater",
+        "images": {
+          "progIcon": "w",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "Package Manager and installer",
+          "progHomepage": "https://chocolatey.org/",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progName": "chocalatey",
+        "progTitle": "Chocolately"
+      },
+      {
+        "appsubcat": "driverrelated",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/driver-booster.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.iobit.com/en/driver-booster.php",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "driverbooster",
+        "progTitle": "Drive Booster"
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "Great tool for Finding duplicate files of any type ... on my data hard drives (no programs or Operating Systems), I find myself using this often.",
+          "progHomepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "duplicatecleaner",
+        "progTitle": "Duplicate Cleaner"
+      },
+      {
+        "appsubcat": "startup ",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/ autoRuns.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http: //www.sysinternals.com/",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "autoruns ",
+        "progTitle": "Autoruns "
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/FileMenuTools_1075.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "File-Menu Tools adds many needed entries to the Windows Context Menu. There are many tools like this; however, I consider this one the best one I have tried so far.",
+          "progHomepage": "http://www.lopesoft.com/",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "filemenutools",
+        "progTitle": "FileMenu Tools"
+      },
+      {
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/backup/736__SyncBack.gif",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "File and Folder backup program with many options",
+          "progHomepage": "http://www.2brightsparks.com/syncback/syncback-hub.html",
+          "progPlatform": "",
+          "worksonwine": false
+        },
+        "progIcon": "",
+        "progName": "syncbackup",
+        "progTitle": "SyncBackup"
+      },
+      {
+        "appsubcat": "various",
+        "images": {
+          "progIcon": "/techHQ/progIcon/system_tools/TreeSize.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "http://www.jam-software.com/freeware/",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "treeview",
+        "progTitle": "Treeview "
+      },
+      {
+        "appsubcat": "installer/updater",
+        "images": {
+          "progIcon": "/techHQ/progIcons/system_tools/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://patchmypc.net/overview",
+          "progPlatform": "W",
+          "worksonwine": false
+        },
+        "progName": "patchmypc",
+        "progTitle": "PatchMyPC"
+      }
+    ]
+  }
 }

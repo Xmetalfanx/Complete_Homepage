@@ -1,27 +1,42 @@
 // let for where to put the output
-let distroResults = document.getElementById("distroSection");
+let distroResults = document.getElementById ('distroSection');
 
-let myPage = "/linuxHQ/distro/";
-let DWPage = "https://distrowatch.com/";
-let distroGraphics = "/linuxHQ/graphics/distros/";
-let YTPLBase = "https://www.youtube.com/playlist?list=";
-let YTPLEmbeddedBase = "https://www.youtube.com/embed/videoseries?list=";
+let myPage = '/linuxHQ/distro/';
+let DWPage = 'https://distrowatch.com/';
+let distroGraphics = '/linuxHQ/graphics/distros/';
+let YTPLBase = 'https://www.youtube.com/playlist?list=';
+let YTPLEmbeddedBase = 'https://www.youtube.com/embed/videoseries?list=';
 
-function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroYTReviewPLaylist, currentDistroYTTipsPLaylist, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType) {
+function displayDistroOutput (
+  currentDistroFamily,
+  currentDistroName,
+  currentDistroIcon,
+  currentDistroTitle,
+  currentDistroHomepage,
+  currentDistroDownload,
+  currentDistroForum,
+  currentDistroScreenshot,
+  currentDistroScreenshotTN,
+  currentDistroYTReviewPLaylist,
+  currentDistroYTTipsPLaylist,
+  currentDistroFeaturesDesktops,
+  currentDistroSimilarDistros,
+  currentDistroTargetAudience,
+  currentDistroSoftwareType
+) {
+  let distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
+  let distroSShotTNPath = distroSShotPath + 'thumbnails/';
 
-    let distroSShotPath = "/linuxHQ/screenshots/" + currentDistroFamily + "/";
-    let distroSShotTNPath = distroSShotPath + "thumbnails/";
+  // Template Literal for output
 
-    // Template Literal for output
-
-    const currentDistroSShotOutput = `
+  const currentDistroSShotOutput = `
 
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
             <img class="img-fluid p-2 lazyload" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 
-    const currentDistroMoreInfoOutput = `
+  const currentDistroMoreInfoOutput = `
 
         <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}<br />
         <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}<br />
@@ -30,7 +45,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
 
     `;
 
-    const currentDistroYTOutput = `
+  const currentDistroYTOutput = `
 
         <h4 class="font-weight-bold">Youtube Playlists</h4>
 
@@ -53,7 +68,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         </div>
     `;
 
-    const currentDistroInfoOutput = `
+  const currentDistroInfoOutput = `
 
         <div class="card">
             <div class="card-title m-0 p-2 bg-primary text-white">
@@ -112,62 +127,76 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         </div>
         `;
 
-    distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
-};
+  distroResults.insertAdjacentHTML ('beforeend', currentDistroInfoOutput);
+}
 
 // "main" function
-function getDistroData(data, $localDistroName) {
-    jsonURL = "http://xmetal.x10.mx/linuxHQ/json/distros.json";
+function getDistroData (data, $localDistroName) {
+  jsonURL = 'http://xmetal.x10.mx/linuxHQ/json/distros.json';
 
-    // Get JSON Data
-    $.getJSON(jsonURL, function(data) {
+  // Get JSON Data
+  $.getJSON (jsonURL, function (data) {
+    $.each (data, function (key, value) {
+      for (let distroFamily = 0; distroFamily < value.length; distroFamily++) {
+        //////////////////////////////////////////////////////////////////////////
+        // DECLARE letIABLES
 
-        $.each(data, function(key, value) {
+        let currentDistroFamily = key;
 
-            for (let distroFamily = 0; distroFamily < value.length; distroFamily++) {
+        // Name/Title
+        let currentDistroName = value[distroFamily].distroName;
+        let currentDistroTitle = value[distroFamily].distroTitle;
 
-                //////////////////////////////////////////////////////////////////////////
-                // DECLARE letIABLES
+        // graphics
+        let currentDistroIcon = value[distroFamily].graphics.iconURL;
 
-                let currentDistroFamily = key;
+        // moreInfo
+        let currentDistroFeaturesDesktops =
+          value[distroFamily].moreinfo.desktops;
+        let currentDistroSimilarDistros = value[distroFamily].moreinfo.similar;
+        let currentDistroTargetAudience = value[distroFamily].moreinfo.target;
 
-                // Name/Title
-                let currentDistroName = value[distroFamily].distroName;
-                let currentDistroTitle = value[distroFamily].distroTitle;
+        // I think i meant "rolling, ...etc for this let"
+        let currentDistroSoftwareType = value[distroFamily].moreinfo.software;
 
-                // graphics
-                let currentDistroIcon = value[distroFamily].graphics.iconURL;
+        // Website
+        let currentDistroHomepage = value[distroFamily].website.homepage;
+        let currentDistroDownload = value[distroFamily].website.download;
+        let currentDistroForum = value[distroFamily].website.forum;
 
-                // moreInfo
-                let currentDistroFeaturesDesktops = value[distroFamily].moreinfo.desktops;
-                let currentDistroSimilarDistros = value[distroFamily].moreinfo.similar;
-                let currentDistroTargetAudience = value[distroFamily].moreinfo.target;
+        // Screenshot
+        let currentDistroScreenshotTN =
+          value[distroFamily].screenshots.thumbnails;
+        let currentDistroScreenshot = value[distroFamily].screenshots.src;
 
-                // I think i meant "rolling, ...etc for this let"
-                let currentDistroSoftwareType = value[distroFamily].moreinfo.software;
+        // Youtube Playlists
+        let currentDistroYTReviewPLaylist =
+          value[distroFamily].youtube.reviewPlaylist;
+        let currentDistroYTTipsPLaylist =
+          value[distroFamily].youtube.tipsPlaylist;
 
-                // Website
-                let currentDistroHomepage = value[distroFamily].website.homepage;
-                let currentDistroDownload = value[distroFamily].website.download;
-                let currentDistroForum = value[distroFamily].website.forum;
+        ////////////////////////////////////////////////////////////////////////////
 
-                // Screenshot
-                let currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
-                let currentDistroScreenshot = value[distroFamily].screenshots.src;
-
-                // Youtube Playlists
-                let currentDistroYTReviewPLaylist = value[distroFamily].youtube.reviewPlaylist;
-                let currentDistroYTTipsPLaylist = value[distroFamily].youtube.tipsPlaylist;
-
-                ////////////////////////////////////////////////////////////////////////////
-
-                if (localDistroName == currentDistroName) {
-                    displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroDownload, currentDistroForum, currentDistroScreenshot, currentDistroScreenshotTN, currentDistroYTReviewPLaylist, currentDistroYTTipsPLaylist, currentDistroFeaturesDesktops, currentDistroSimilarDistros, currentDistroTargetAudience, currentDistroSoftwareType);
-                }
-
-            }
-
-        }); // Ends .each loop
-
-    }); // ends getJSON loop
+        if (localDistroName == currentDistroName) {
+          displayDistroOutput (
+            currentDistroFamily,
+            currentDistroName,
+            currentDistroIcon,
+            currentDistroTitle,
+            currentDistroHomepage,
+            currentDistroDownload,
+            currentDistroForum,
+            currentDistroScreenshot,
+            currentDistroScreenshotTN,
+            currentDistroYTReviewPLaylist,
+            currentDistroYTTipsPLaylist,
+            currentDistroFeaturesDesktops,
+            currentDistroSimilarDistros,
+            currentDistroTargetAudience,
+            currentDistroSoftwareType
+          );
+        }
+      }
+    }); // Ends .each loop
+  }); // ends getJSON loop
 }

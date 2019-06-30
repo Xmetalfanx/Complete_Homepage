@@ -5,8 +5,6 @@ let browserIconsDir = "/techHQ/progIcons/internet/browsers/";
 // an IDEA only for now
 let browserAdBlockDir = "/techHQ/browsers/adblocking/";
 
-
-
 function browserDisplay(browserTitle, browserIcon, currentBrowserEngine, browserHomepage, browserDownload) {
 
     const browserOutput = `
