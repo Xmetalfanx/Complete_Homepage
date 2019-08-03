@@ -40,4 +40,3 @@ function softwareData (data) {
 
     }); // ends getJSON loop
   });
-}
