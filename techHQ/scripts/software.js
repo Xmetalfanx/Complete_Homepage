@@ -28,6 +28,12 @@ function softwareData (data) {
             let subCatList = subCategories[items];
 
             console.log(subCatList);
+
+            for(let apps in subCatList){
+
+
+
+            }
           }
           break;
     
@@ -40,3 +46,4 @@ function softwareData (data) {
 
     }); // ends getJSON loop
   });
+}
