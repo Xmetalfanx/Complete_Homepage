@@ -1,12 +1,11 @@
-// Version 1.0
+// Version 2.0
 let softwareOutput = document.getElementById ('softwareSection');
-let jsTestlet = '<?php echo phpTestlet ?>';
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
 // Where is "data" coming from?
-function softwareData (data) {
+function softwareData(data) {
   $(document).ready(function () {
     const softwareJSONUrl = 'http://xmetal.x10.mx/techHQ/json/software.json';
 
@@ -17,32 +16,47 @@ function softwareData (data) {
       // pick better var than "i", later
       for (let i in data) {
 
-        // This gets the subcats in a list so to speak, separated by commas
         let mainCategories = Object.keys(data);
-        let subCategories = Object.values(data);
+
+        let subCategoriesList = Object.values(data);
 
         // console.log("mainCategories: " + mainCategories);
 
-          for(let items in subCategories){
+        // Shows: main Cats in a list
+        // softwareOutput.insertAdjacentHTML("beforeend","<div class=\"mb-2 font-weight-bold\">" + mainCategories + "</div>");
 
-            let subCatList = subCategories[items];
+        // *** Var names are an issue ... they are confusing as hell the way I have it here
 
-            console.log(subCatList);
+          for(let items in subCategoriesList){
 
-            for(let apps in subCatList){
+            let subCatList = subCategoriesList[items];
 
+            for(let eachSubCat in subCatList){
 
+              let eachApp = subCatList[eachSubCat];
+              let appString = JSON.stringify(eachApp);
+
+              console.log("eachSubCat: " + eachSubCat);
+              //console.log("appString: " + appString);
+
+              for(let apps in eachApp){
+
+                let appTitle = eachApp[apps].progTitle;
+                console.log("appTitle:" + appTitle);
+
+                // console.log("eachApp[apps]: " + JSON.stringify(eachApp[apps]));
+              }
+
+              // What is happening: this is (note "blink" is first) doing a "as long as there are characters in the word 'blink', loop through ... that is not the loop i want 
+
+              softwareOutput.insertAdjacentHTML("beforeend", "<div class=\"text-primary\">" + eachSubCat + "</div>");
 
             }
           }
           break;
-    
+
         }
 
-        // softwareOutput.insertAdjacentHTML("beforeend", "<div class=\"text-primary\">" + eachAppString + "</div>");
-
-      // note to self: text-danger is just bootstrap4 red ... easier than inline CSS here for my testing
-      // softwareOutput.insertAdjacentHTML("beforeend", "<div class=\"mb-2 font-weight-bold text-danger\">" + mainCategories +  "</div>");
 
     }); // ends getJSON loop
   });

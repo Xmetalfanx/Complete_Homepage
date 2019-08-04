@@ -107,7 +107,6 @@
         "progTitle": "Pinta"
       },
       {
-        "appsubcat ": "vectorgraphics ",
         "images": {
           "progIcon": "/techHQ/progIcon/graphics/inkscape.png",
           "sshoturl": null
@@ -122,7 +121,6 @@
         "progTitle": "Inkscape "
       },
       {
-        "appsubcat": "editor",
         "images": {
           "progIcon": "/techHQ/progIcon/graphics/PhotoScape_128.png",
           "sshoturl": null
@@ -137,7 +135,6 @@
         "progTitle": "PhotoScape"
       },
       {
-        "appsubcat": "editor",
         "images": {
           "progIcon": "/techHQ/progIcon/graphics/PaintDotNet_32512.png",
           "sshoturl": null
@@ -154,7 +151,6 @@
     ],
     "optimizers": [
       {
-        "appsubcat": "Image Editor/Viewer",
         "images": {
           "progIcon": "/techHQ/progIcons/graphics/Optimizer_304.png",
           "sshoturl": null
@@ -169,7 +165,6 @@
         "progTitle": "Xat Image Optimizer"
       },
       {
-        "appsubcat": "optimizer",
         "images": {
           "progIcon": "/techHQ/progIcon/graphics/GIFOptimizer_1.png",
           "sshoturl": null
@@ -214,7 +209,6 @@
         "progTitle": "XnView"
       },
       {
-        "appsubcat": "Image Editor/Viewer",
         "images": {
           "progIcon": "/techHQ/progIcon/graphics/",
           "sshoturl": null
@@ -307,7 +301,6 @@
         },
         {
           "appname": "clementine",
-          "appsubcat": "musicplayer",
           "apptitle": "Clementine",
           "images": {
             "progIcon": "/techHQ/progIcons/media/media_players/",
@@ -322,7 +315,6 @@
         },
         {
           "appname": "deadbeef",
-          "appsubcat": "musicplayer",
           "apptitle": "Deadbeef",
           "images": {
             "progIcon": "/techHQ/progIcons/media/media_players/",
@@ -911,8 +903,8 @@
         },
         "progHomepage ": null,
         "progName": "universalext",
-        "progTitle": "Universal Extractor",
-        "programHomepage ": null
+        "programHomepage ": null,
+        "progTitle": "Universal Extractor"
       },
       {
         "appsubcat": "archiver",
@@ -1037,8 +1029,8 @@
           "progPlatform": "w",
           "worksonwine": false
         },
-        "progTitle": "Glary Utilities",
-        "progrprogNameamname": "glaryutilties"
+        "progrprogNameamname": "glaryutilties",
+        "progTitle": "Glary Utilities"
       },
       {
         "appsubcat": "systemsuite",
@@ -1088,7 +1080,6 @@
         "progTitle": "Process Hacker"
       },
       {
-        "appsubcat": "taskmanager",
         "images": {
           "progIcon": "",
           "sshoturl": null
@@ -1164,7 +1155,6 @@
         "progTitle": "Quick Restorepoint Creato"
       },
       {
-        "appsubcat": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/",
           "sshoturl": null
@@ -1179,7 +1169,6 @@
         "progTitle": "Dexpot"
       },
       {
-        "appsubcat": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/system_tools/teraCopy.jpg",
           "sshoturl": null
@@ -1194,7 +1183,6 @@
         "progTitle": "TeraCopy"
       },
       {
-        "appsubcat ": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/system_tools/TrayIt!_101.png",
           "sshoturl": null
@@ -1209,7 +1197,6 @@
         "progTitle": "Tray It"
       },
       {
-        "appsubcat": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/systemtools/SRM_icon.png",
           "sshoturl": null
@@ -1224,7 +1211,6 @@
         "progTitle": "System Restore Manager"
       },
       {
-        "appsubcat": "installer/updater",
         "images": {
           "progIcon": "w",
           "sshoturl": null
@@ -1239,7 +1225,6 @@
         "progTitle": "Chocolately"
       },
       {
-        "appsubcat": "driverrelated",
         "images": {
           "progIcon": "/techHQ/progIcons/system_tools/driver-booster.png",
           "sshoturl": null
@@ -1254,7 +1239,6 @@
         "progTitle": "Drive Booster"
       },
       {
-        "appsubcat": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/",
           "sshoturl": null
@@ -1269,7 +1253,6 @@
         "progTitle": "Duplicate Cleaner"
       },
       {
-        "appsubcat": "startup ",
         "images": {
           "progIcon": "/techHQ/progIcon/system_tools/ autoRuns.png",
           "sshoturl": null
@@ -1284,7 +1267,6 @@
         "progTitle": "Autoruns "
       },
       {
-        "appsubcat": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/system_tools/FileMenuTools_1075.png",
           "sshoturl": null
@@ -1314,7 +1296,6 @@
         "progTitle": "SyncBackup"
       },
       {
-        "appsubcat": "various",
         "images": {
           "progIcon": "/techHQ/progIcon/system_tools/TreeSize.png",
           "sshoturl": null
@@ -1329,7 +1310,6 @@
         "progTitle": "Treeview "
       },
       {
-        "appsubcat": "installer/updater",
         "images": {
           "progIcon": "/techHQ/progIcons/system_tools/",
           "sshoturl": null
