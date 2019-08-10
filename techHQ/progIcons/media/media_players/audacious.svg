@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="audaciousLogo" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="96" width="96" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <title id="logoTitle">Audacious Logo</title>
+ <defs id="logoDefs">
+  <filter id="symbolOuterGlow" height="1.3399999999999999" width="1.3800000000000001" y="-0.16999999999999993" x="-0.21000000000000005">
+   <feGaussianBlur id="sogGaussianBlur" result="blur" stdDeviation="5" in="SourceAlpha"/>
+   <feColorMatrix id="sogColorMatrix" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " type="matrix" result="bluralpha"/>
+   <feOffset id="sogOffset" result="offsetBlur" dy="0" dx="0" in="bluralpha"/>
+   <feMerge id="sogMerge">
+    <feMergeNode id="sogMergeOB" in="offsetBlur"/>
+    <feMergeNode id="sogMergeSG" in="SourceGraphic"/>
+   </feMerge>
+  </filter>
+  <radialGradient id="discGradient" gradientUnits="userSpaceOnUse" cy="32.375" cx="32.375" gradientTransform="matrix(1,0,0,1.0909091,0,-2.9772727)" r="26.125">
+   <stop id="dgInner" stop-color="#CCC" offset="0"/>
+   <stop id="dgIntermediate" stop-color="#bfbfbf" offset="0.96"/>
+   <stop id="dgOuter" stop-color="#ababab" offset="1"/>
+  </radialGradient>
+  <radialGradient id="lightGradient" gradientUnits="userSpaceOnUse" cy="12.043" cx="31.99" gradientTransform="matrix(1,0,0,1.0909091,0,-2.9772727)" r="28">
+   <stop id="lgInner" stop-color="#FFF" stop-opacity="0.5" offset="0"/>
+   <stop id="lgOuter" stop-color="#FFF" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="shadowGradient" gradientUnits="userSpaceOnUse" cy="32.375" cx="32.375" gradientTransform="matrix(1,0,0,1.0909091,0,-2.9772727)" r="26.125">
+   <stop id="sgInner" stop-color="#000" stop-opacity="0.40000001" offset="0"/>
+   <stop id="sgIntermediate" stop-color="#000" stop-opacity="0.40000001" offset="0.88"/>
+   <stop id="sgOuter" stop-color="#000" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <metadata id="logoMetadata">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Audacious Logo</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jacopo Lorenzetti</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:description>Logo for Audacious, the lightweight and versatile open source audio player.</dc:description>
+    <dc:date>2012-01-14</dc:date>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>Jacopo Lorenzetti</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.txt"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="shadowLayer" transform="translate(2.5e-7,31.999998)">
+  <path id="shadow" d="m58.5,32.75a26.125,28.5,0,1,1,-52.25,0,26.125,28.5,0,1,1,52.25,0z" transform="matrix(1.8069819,0,0,1.6564,-10.427963,-37.747098)" fill="url(#shadowGradient)">
+   <desc id="shadowDesc">Grey disc&apos;s drop shadow</desc>
+   <title id="shadowTitle">Shadow</title>
+  </path>
+ </g>
+ <g id="discLayer" transform="translate(2.5e-7,31.999998)">
+  <path id="disc" d="m58.5,32.75a26.125,28.5,0,1,1,-52.25,0,26.125,28.5,0,1,1,52.25,0z" transform="matrix(1.7454546,0,0,1.6,-8.4360174,-37.899998)" fill="url(#discGradient)">
+   <desc id="discDesc">Grey background shape</desc>
+   <title id="discTitle">Grey disc</title>
+  </path>
+ </g>
+ <g id="lightLayer" transform="translate(2.5e-7,31.999998)">
+  <path id="light" d="m58.5,32.75a26.125,28.5,0,1,1,-52.25,0,26.125,28.5,0,1,1,52.25,0z" transform="matrix(1.7454546,0,0,1.6,-8.4360174,-37.899998)" fill="url(#lightGradient)">
+   <desc id="lightDesc">Light effect on the grey disc</desc>
+   <title id="lightTitle">Light spot</title>
+  </path>
+ </g>
+ <g id="symbolLayer" transform="translate(2.5e-7,31.999998)">
+  <path id="symbol" style="text-align:start;" d="m48,12c-5.0082,0.000054-9.7048,0.95762-14.062,2.8438-4.3577,1.8862-8.1542,4.4355-11.406,7.6875-1.7384,1.7384-3.2769,3.6459-4.625,5.7188,28.632-16.951,47.913,1.1735,47.656,6.9062-0.18888,4.224-3.7708,3.4249-11.645,1.1204-16.743-4.9001-33.966,1.3519-38.343,16.385-1.4832,5.2881-0.31416,10.668,2.3007,15.026,0.04771,0.07951,0.07633,0.17118,0.125,0.25,1.3213,1.9889,2.841,3.841,4.5312,5.5312,3.252,3.252,7.0485,5.8013,11.406,7.6875,4.357,1.886,9.054,2.844,14.062,2.844,4.9431-0.000017,9.5797-0.95759,13.938-2.8438,4.4227-1.8862,8.2792-4.4355,11.531-7.6875,3.252-3.252,5.8013-7.0485,7.6875-11.406,1.886-4.357,2.844-9.054,2.844-14.062,0-4.943-0.958-9.58-2.844-13.938-1.886-4.422-4.435-8.279-7.687-11.531s-7.109-5.801-11.531-7.687c-4.358-1.886-8.995-2.844-13.938-2.844zm-0.476,34.518c10.698,1.001,17.449,8.32,15.976,14.826s-10.096,11.053-19.73,9.526c-9.635-1.527-16.65-8.551-15.176-15.058,1.289-5.692,8.233-10.294,18.93-9.294z" fill-rule="nonzero" transform="matrix(0.95,0,0,0.95,2.4730737,-31.099998)" filter="url(#symbolOuterGlow)" fill="#000">
+   <desc id="symbolDesc">Black Audacious symbol</desc>
+   <title id="symbolTitle">Symbol</title>
+  </path>
+ </g>
+</svg>
