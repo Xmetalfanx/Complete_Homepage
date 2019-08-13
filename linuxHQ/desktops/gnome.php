@@ -4,7 +4,7 @@
 
 <?php
 
-	$sectionTitle = "Destop Envirnoments - ";
+	$sectionTitle = "Desktop Environments - ";
 	$pageTitle = 'Gnome 3/Gnome Shell ';
 
 	$sitePath = "/home/xmetalx1/public_html";

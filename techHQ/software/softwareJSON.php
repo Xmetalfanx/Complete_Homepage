@@ -1,5 +1,3 @@
-
-
 <?php
 
   $pageTitle = 'Software Section Main Page';

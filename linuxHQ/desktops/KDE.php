@@ -2,7 +2,6 @@
   var localDEName = "plasma5";
 </script>
 
-
 <?php
 
   $sectionVar = "DE";

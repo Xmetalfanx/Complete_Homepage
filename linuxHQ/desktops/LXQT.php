@@ -2,7 +2,6 @@
     var localDEName = "lxqt";
   </script>
 
-
 <?php
 
   $sectionVar = "DE";

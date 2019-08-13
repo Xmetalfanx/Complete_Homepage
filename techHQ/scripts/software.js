@@ -1,5 +1,9 @@
 // Version 2.0
 let softwareOutput = document.getElementById ('softwareSection');
+let smallIcon = 'height: 32px; width: 32px';
+let largeIcon = 'height: 48px; width: 48px';
+
+const wineIcon = '<img src="/techHQ/platforms/wine.svg " alt="Wine Icon" style="' + smallIcon + '"/> Works on W.I.N.E.';
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
@@ -14,9 +18,15 @@ function softwareData (data) {
     $.getJSON (softwareJSONUrl, function (data) {
       // pick better var than "i", later
       for (let i in data) {
+        
+        // Idea of this is to reset ... sometimes I forgot to put this var in the json and if it's not cleared/reset, the next program listed will still have the same progPlatform value as the previous program 
+        let progPlatform = '';
+        
         let mainCategories = Object.keys (data);
 
         let subCategoriesList = Object.values (data);
+
+        softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
 
         /* *** Var names are an issue ... they are confusing as hell the way I have it here */
 
@@ -26,6 +36,7 @@ function softwareData (data) {
           for (let eachSubCat in subCatList) {
             let eachApp = subCatList[eachSubCat];
 
+            // eachSubCat seems like the goal to have "localSubCat" in each webpage compared to 
             softwareOutput.insertAdjacentHTML (
               'beforeend',
               '<div class="text-primary">' + eachSubCat + '</div>'
@@ -35,65 +46,93 @@ function softwareData (data) {
               const individualApps = eachApp[apps];
               const moreInfo = individualApps.moreInfo;
 
-              let progTitle = individualApps.progTitle;
-              let progName = individualApps.progName;
+              const progTitle = individualApps.progTitle;
+              const progName = individualApps.progName;
 
-              let progIcon = individualApps.images.icon;
-              let screenshot = individualApps.images.sshotURL;
+              const progIcon = individualApps.images.icon;
+              const screenshot = individualApps.images.sshotURL;
 
-              let description = moreInfo.progDesc;
-              let homepage = moreInfo.progHomepage;
-              let platform = moreInfo.progPlatform;
-              let worksOnWine = moreInfo.worksonwine;
+              const description = moreInfo.progDesc;
+              const homepage = moreInfo.progHomepage;
+              const platform = moreInfo.progPlatform;
+              const worksOnWine = moreInfo.worksonwine;
 
-              const iconDisplay = `<img src=\"${progIcon}\" alt=\"foobar alt atm\" style=\"height: 32px; width; \" \>
-                `;
+              // The status of the program.  This will be used sometimes when a program is discontinued
+              let progStatus = moreInfo.progStatus;
 
-              const titleDisplay = `
-                <div class=\"card-header text-white py-1\"> ${iconDisplay} 
-                  <a href=\"${homepage}\" target="_blank">
-                  ${progTitle}
-                  </a>
+              /////////////////////////////////////////////
+
+              // Platform Section
+              const linuxIcon = '<i class="fa fa-linux" aria-hidden="true"></i>';
+              const windowsIcon = '<i class="fa fa-windows" aria-hidden="true"></i>';
+
+              const cpIcon = linuxIcon + windowsIcon;
+
+              if (platform == "w"){
+                    platformIcon = windowsIcon;
+
+              } else if (platform == "l") {
+                    platformIcon = linuxIcon;
+
+              } else if (platform == "cp") {
+                    platformIcon = cpIcon;
+              }
+
+              // Text-primary = blue color
+              platformDisplay = '<div> Platform:' + platformIcon + '</div>';
+
+              // End Platform SECTION
+              //////////////////////////////////////////////
+
+              const headerDisplay = `
+                <div class=\"card-header text-white py-1 col-12\">
+                  <div class=\"row py-2\">
+                    <div class=\"col-7\">
+<<<<<<< HEAD
+<<<<<<< HEAD
+                      <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \>
+=======
+                      <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \> 
+>>>>>>> 9d71eb2a... Software and Icon work
+=======
+                      <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \>
+>>>>>>> df542f6a... Image and SoftwareJSON work
+                      <a href=\"${homepage}\" target="_blank">
+                        ${progTitle}
+                      </a>
+                    </div>
+                    <div class=\"col-5\">
+                      ${platformDisplay}
+                    </div>
+                  </div>
                 </div>`;
 
-              const wineDisplay = `
-                <div class=\" \">Works on Wine: 
-                  ${worksOnWine} 
-                </div>
-              `;
-
-
-              switch (platform)
-              {
-                case 'w':
-                    //console.log("Windows");
-
-                    platformIcon = "Windows";
-                    break;
-
-                case 'l':
-                    //console.log("Linux");
-                    platformIcon = "Linux";
-                    break;
-
-                case 'cp': 
-                  //console.log("Cross-platform");
-                    platformIcon = "Cross-Platform";
-                    break;
-
-              }
+              const screenshotDisplay = `<img src="${screenshot}" alt="${progName} screenshot" />`;
 
 
               softwareOutput.insertAdjacentHTML (
                 'beforeend',
-                '<div class="card border border-dark mb-3">' + titleDisplay + '<div class="card-text">' + description + '<br />Platform:' + platformIcon +  '<br />' + wineDisplay +
-                '</div></div>');
+                '<div class="card border border-dark mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
+
+
+              if(worksOnWine == true)
+                {
+                  softwareOutput.insertAdjacentHTML('beforeend', wineIcon);
+                } else(worksOnWine == false)
+                {
+                  console.log("no WINE info/doesn't work on wine");
+                }
+
+
+              softwareOutput.insertAdjacentHTML (
+                'beforeend', '</div></div>');
 
             }
           }
         }
         break;
       }
+
     }); // ends getJSON loop
   });
 }
