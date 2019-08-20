@@ -4,7 +4,7 @@
 
     <!-- Search Bar -->
     <form action="http://startpage.com/do/search" method="post" name="metasearch" target="_blank" onsubmit="javascript:document.metasearch.query.value=document.metasearch.keyword.value;" accept-charset="UTF-8" >
-    <img src="/techHQ/graphics/search/startpage_small_logo.jpg" alt="Start Page Icon" class="SPHeightIconInput" />
+    <img src="/techHQ/graphics/search/startpage_small_logo.jpg" alt="Start Page Icon" class="SPHeightIconInput lazyload" />
       <input value="searchbox" name="from" type="hidden"/>
       <input value="english" name="language" type="hidden"/>
       <input value="web" name="cat" type="hidden"/>

@@ -22,8 +22,8 @@
 	</div>
 
 <!-- Call to my software.js file here --> 
-<script src="/scripts/lazyload.js"> </script>
 <script src="/techHQ/scripts/software.js"></script>
+<script src="/scripts/lazysizes.min.js"></script>
 
 <!-- include baseTechFooter -->
 <?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>

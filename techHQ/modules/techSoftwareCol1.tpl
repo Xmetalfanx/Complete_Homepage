@@ -49,19 +49,19 @@
 <div class="card">
   <div class="card-header bg-primary text-white">External Links </div><br/>
     <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
-      <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com Link"/>
+      <img data-src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com Link" class="lazyload" />
     </a><br/>
 
-    <a href="http://www.snapfiles.com">
-      <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" rel="noreferrer" class="my-2" />
+    <a href="http://www.snapfiles.com" rel="noreferrer">
+      <img data-src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" class="my-2 lazyload" />
     </a><br/>
 
-    <a href="http://www.softpedia.com" target="_blank">
-      <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic" rel="noreferrer" class="my-2" />
+    <a href="http://www.softpedia.com" target="_blank" rel="noreferrer">
+      <img data-src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic" class="my-2 lazyload" />
     </a><br/>
 
-    <a href="http://www.neowin.net/">NeoWin</a><br/>
+    <a href="http://www.neowin.net/" rel="noreferrer">NeoWin</a><br/>
 
-    <a href="http://www.nonags.com/">NoNags</a><br/>
+    <a href="http://www.nonags.com/" rel="noreferrer">NoNags</a><br/>
 
 </div>

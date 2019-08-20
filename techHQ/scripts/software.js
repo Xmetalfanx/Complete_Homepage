@@ -88,7 +88,7 @@ function softwareData (data) {
                 <div class=\"card-header text-white py-1 col-12\">
                   <div class=\"row py-2\">
                     <div class=\"col-7\">
-                      <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \>
+                      <img data-src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" class=\"lazyload \" \>
                       <a href=\"${homepage}\" target="_blank" rel="noreferrer">
                         ${progTitle}
                       </a>
