@@ -88,16 +88,8 @@ function softwareData (data) {
                 <div class=\"card-header text-white py-1 col-12\">
                   <div class=\"row py-2\">
                     <div class=\"col-7\">
-<<<<<<< HEAD
-<<<<<<< HEAD
                       <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \>
-=======
-                      <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \> 
->>>>>>> 9d71eb2a... Software and Icon work
-=======
-                      <img src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" \>
->>>>>>> df542f6a... Image and SoftwareJSON work
-                      <a href=\"${homepage}\" target="_blank">
+                      <a href=\"${homepage}\" target="_blank" rel="noreferrer">
                         ${progTitle}
                       </a>
                     </div>

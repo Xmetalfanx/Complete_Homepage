@@ -48,16 +48,16 @@
 
 <div class="card">
   <div class="card-header bg-primary text-white">External Links </div><br/>
-    <a href="http://www.majorgeeks.com" target="_blank">
+    <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
       <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com Link"/>
     </a><br/>
 
     <a href="http://www.snapfiles.com">
-      <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" class="my-2" />
+      <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles" rel="noreferrer" class="my-2" />
     </a><br/>
 
     <a href="http://www.softpedia.com" target="_blank">
-      <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="Soft Pedia" class="my-2" />
+      <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic" rel="noreferrer" class="my-2" />
     </a><br/>
 
     <a href="http://www.neowin.net/">NeoWin</a><br/>
