@@ -8,6 +8,7 @@
 -   [Ubuntu Mate](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuMate.php)
 
     -   [Ubuntu Mate Homepage](https://ubuntu-mate.org/)
+
     -   [Ubuntu Mate on Distrowatch](http://distrowatch.com/table.php?distribution=ubuntumate)
 
     -   Minimum Requirements
@@ -27,9 +28,11 @@
     -   [Xubuntu Homepage](http://xubuntu.org/)
     -   [Xubuntu on Distrowatch](http://distrowatch.com/table.php?distribution=xubuntu)
 
+
 -   [Linux Lite](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxLite.php)
 
     -   [Linux Lite Homepage](http://www.linuxliteos.com/)
+
     -   [Linux Lite on Distrowatch](http://distrowatch.com/table.php?distribution=lite)
 
     -   MINIMUM RECOMMENDED SPECIFICATIONS:
@@ -47,6 +50,7 @@
 -   [Lubuntu](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/lubuntu.php)
 
     -   [Lubuntu Homepage](http://lubuntu.net/)
+
     -   [Lubuntu on Distrowatch](http://distrowatch.com/table.php?distribution=lubuntu)
 
     -   Requirements

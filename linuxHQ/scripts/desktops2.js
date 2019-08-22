@@ -12,7 +12,6 @@ function displayDEOutput(desktopTitle) {
             <div>
                 <span class="font-weight-bold"> Latest Version: ${latestVersion} </span>
                 <br />
-                
                 <small> Last Updated: ${versionInfoUpdated} </small>
             </div>
             <br/>
