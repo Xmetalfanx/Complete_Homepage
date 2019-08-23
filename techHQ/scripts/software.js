@@ -1,4 +1,3 @@
-// Version 2.0
 let softwareOutput = document.getElementById ('softwareSection');
 let smallIcon = 'height: 32px; width: 32px';
 let largeIcon = 'height: 48px; width: 48px';
@@ -19,7 +18,7 @@ function softwareData (data) {
       // pick better var than "i", later
       for (let i in data) {
         
-        // Idea of this is to reset ... sometimes I forgot to put this var in the json and if it's not cleared/reset, the next program listed will still have the same progPlatform value as the previous program 
+        // Clear Var 
         let progPlatform = '';
         
         let mainCategories = Object.keys (data);
@@ -28,21 +27,26 @@ function softwareData (data) {
 
         softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
 
-        /* *** Var names are an issue ... they are confusing as hell the way I have it here */
-
         for (let items in subCategoriesList) {
-          let subCatList = subCategoriesList[items];
+          console.log("items: " + JSON.stringify(items));
+
+          const subCatList = subCategoriesList[items];
 
           for (let eachSubCat in subCatList) {
-            let eachApp = subCatList[eachSubCat];
+
+            // This is what I want but it DOES include the quotes "cleaners" is shown vs just cleaners with no double quotes
+            //console.log("eachSubCat: " + JSON.stringify(eachSubCat));
+            
+            //const noQuoteTest = eachSubCat.replace(/['"]+/g, '');
+            //console.log("noQuoteTest: " + noQuoteTest);
+
+
+            const eachApp = subCatList[eachSubCat];
 
             // eachSubCat seems like the goal to have "localSubCat" in each webpage compared to 
-            softwareOutput.insertAdjacentHTML (
-              'beforeend',
-              '<div class="text-primary">' + eachSubCat + '</div>'
-            );
 
             for (let apps in eachApp) {
+              
               const individualApps = eachApp[apps];
               const moreInfo = individualApps.moreInfo;
 
@@ -102,6 +106,8 @@ function softwareData (data) {
               const screenshotDisplay = `<img src="${screenshot}" alt="${progName} screenshot" />`;
 
 
+              ////////////////////////////////////////////////////////////////////////////////////////////////
+              // Displaying 
               softwareOutput.insertAdjacentHTML (
                 'beforeend',
                 '<div class="card border border-dark mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
