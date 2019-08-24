@@ -28,17 +28,17 @@ function softwareData (data) {
         softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
 
         for (let items in subCategoriesList) {
-          console.log("items: " + JSON.stringify(items));
 
           const subCatList = subCategoriesList[items];
 
           for (let eachSubCat in subCatList) {
 
             // This is what I want but it DOES include the quotes "cleaners" is shown vs just cleaners with no double quotes
-            //console.log("eachSubCat: " + JSON.stringify(eachSubCat));
-            
-            //const noQuoteTest = eachSubCat.replace(/['"]+/g, '');
-            //console.log("noQuoteTest: " + noQuoteTest);
+
+            // console.log("eachSubCat: " + JSON.stringify(eachSubCat));
+
+            const noQuoteTest = eachSubCat.replace(/['"]+/g, '');
+            console.log("noQuoteTest: " + noQuoteTest);
 
 
             const eachApp = subCatList[eachSubCat];
@@ -46,7 +46,7 @@ function softwareData (data) {
             // eachSubCat seems like the goal to have "localSubCat" in each webpage compared to 
 
             for (let apps in eachApp) {
-              
+
               const individualApps = eachApp[apps];
               const moreInfo = individualApps.moreInfo;
 
