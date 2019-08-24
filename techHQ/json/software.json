@@ -421,7 +421,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "https://www.videolan.org/vlc/index.html",
-          "progPlatform": "",
+          "progPlatform": "cp",
           "status": "",
           "worksonwine": false
         },
@@ -436,7 +436,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "cp",
           "status": "",
           "worksonwine": false
         },
