@@ -33,98 +33,93 @@ function softwareData (data) {
 
           for (let eachSubCat in subCatList) {
 
-            // This is what I want but it DOES include the quotes "cleaners" is shown vs just cleaners with no double quotes
-
-            // console.log("eachSubCat: " + JSON.stringify(eachSubCat));
-
-            const noQuoteTest = eachSubCat.replace(/['"]+/g, '');
-            console.log("noQuoteTest: " + noQuoteTest);
-
+            const noQuoteSubCat = eachSubCat.replace(/['"]+/g, '');
+            console.log("noQuoteSubCat: " + noQuoteSubCat);
 
             const eachApp = subCatList[eachSubCat];
 
-            // eachSubCat seems like the goal to have "localSubCat" in each webpage compared to 
-
             for (let apps in eachApp) {
 
-              const individualApps = eachApp[apps];
-              const moreInfo = individualApps.moreInfo;
+              if (localSubCat == noQuoteSubCat ){
 
-              const progTitle = individualApps.progTitle;
-              const progName = individualApps.progName;
+                const individualApps = eachApp[apps];
+                const moreInfo = individualApps.moreInfo;
 
-              const progIcon = individualApps.images.icon;
-              const screenshot = individualApps.images.sshotURL;
+                const progTitle = individualApps.progTitle;
+                const progName = individualApps.progName;
 
-              const description = moreInfo.progDesc;
-              const homepage = moreInfo.progHomepage;
-              const platform = moreInfo.progPlatform;
-              const worksOnWine = moreInfo.worksonwine;
+                const progIcon = individualApps.images.icon;
+                const screenshot = individualApps.images.sshotURL;
 
-              // The status of the program.  This will be used sometimes when a program is discontinued
-              let progStatus = moreInfo.progStatus;
+                const description = moreInfo.progDesc;
+                const homepage = moreInfo.progHomepage;
+                const platform = moreInfo.progPlatform;
+                const worksOnWine = moreInfo.worksonwine;
 
-              /////////////////////////////////////////////
+                // The status of the program.  This will be used sometimes when a program is discontinued
+                let progStatus = moreInfo.progStatus;
 
-              // Platform Section
-              const linuxIcon = '<i class="fa fa-linux" aria-hidden="true"></i>';
-              const windowsIcon = '<i class="fa fa-windows" aria-hidden="true"></i>';
+                /////////////////////////////////////////////
 
-              const cpIcon = linuxIcon + windowsIcon;
+                // Platform Section
+                const linuxIcon = '<i class="fa fa-linux" aria-hidden="true"></i>';
+                const windowsIcon = '<i class="fa fa-windows" aria-hidden="true"></i>';
 
-              if (platform == "w"){
-                    platformIcon = windowsIcon;
+                const cpIcon = linuxIcon + windowsIcon;
 
-              } else if (platform == "l") {
-                    platformIcon = linuxIcon;
+                if (platform == "w"){
+                      platformIcon = windowsIcon;
 
-              } else if (platform == "cp") {
-                    platformIcon = cpIcon;
-              }
+                } else if (platform == "l") {
+                      platformIcon = linuxIcon;
 
-              // Text-primary = blue color
-              platformDisplay = '<div> Platform:' + platformIcon + '</div>';
-
-              // End Platform SECTION
-              //////////////////////////////////////////////
-
-              const headerDisplay = `
-                <div class=\"card-header text-white py-1 col-12\">
-                  <div class=\"row py-2\">
-                    <div class=\"col-7\">
-                      <img data-src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" class=\"lazyload \" \>
-                      <a href=\"${homepage}\" target="_blank" rel="noreferrer">
-                        ${progTitle}
-                      </a>
-                    </div>
-                    <div class=\"col-5\">
-                      ${platformDisplay}
-                    </div>
-                  </div>
-                </div>`;
-
-              const screenshotDisplay = `<img src="${screenshot}" alt="${progName} screenshot" />`;
-
-
-              ////////////////////////////////////////////////////////////////////////////////////////////////
-              // Displaying 
-              softwareOutput.insertAdjacentHTML (
-                'beforeend',
-                '<div class="card border border-dark mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
-
-
-              if(worksOnWine == true)
-                {
-                  softwareOutput.insertAdjacentHTML('beforeend', wineIcon);
-                } else(worksOnWine == false)
-                {
-                  console.log("no WINE info/doesn't work on wine");
+                } else if (platform == "cp") {
+                      platformIcon = cpIcon;
                 }
 
+                // Text-primary = blue color
+                platformDisplay = '<div> Platform:' + platformIcon + '</div>';
 
-              softwareOutput.insertAdjacentHTML (
-                'beforeend', '</div></div>');
+                // End Platform SECTION
+                //////////////////////////////////////////////
 
+                const headerDisplay = `
+                  <div class=\"card-header text-white py-1 col-12\">
+                    <div class=\"row py-2\">
+                      <div class=\"col-7\">
+                        <img data-src=\"${progIcon}\" alt=\"foobar alt tag\" style=\"${smallIcon}\" class=\"lazyload \" \>
+                        <a href=\"${homepage}\" target="_blank" rel="noreferrer">
+                          ${progTitle}
+                        </a>
+                      </div>
+                      <div class=\"col-5\">
+                        ${platformDisplay}
+                      </div>
+                    </div>
+                  </div>`;
+
+                const screenshotDisplay = `<img src="${screenshot}" alt="${progName} screenshot" />`;
+
+
+                ////////////////////////////////////////////////////////////////////////////////////////////////
+                // Displaying 
+                softwareOutput.insertAdjacentHTML (
+                  'beforeend',
+                  '<div class="card border border-dark mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
+
+
+                if(worksOnWine == true)
+                  {
+                    softwareOutput.insertAdjacentHTML('beforeend', wineIcon);
+                  } else(worksOnWine == false)
+                  {
+                    console.log("no WINE info/doesn't work on wine");
+                  }
+
+                softwareOutput.insertAdjacentHTML (
+                  'beforeend', '</div></div>');
+
+              }
             }
           }
         }
