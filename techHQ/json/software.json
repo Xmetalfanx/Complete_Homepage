@@ -524,39 +524,6 @@
         "progTitle": "Visual Code"
       },
       {
-        "appsubcat": "texteditor",
-        "images": {
-          "icon": "/techHQ/progIcons/product/txtEditor/notepadpp.png",
-          "sshoturl": null
-        },
-        "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "https://notepad-plus-plus.org",
-          "progPlatform": "w",
-          "status": "",
-          "worksonwine": false
-        },
-        "progName": "notepadplusplus",
-        "progTitle": "Notepad++"
-      },
-      {
-        "appsubcat": "texteditor",
-        "images": {
-          "icon": "/techHQ/progIcons/product/txtEditor/",
-          "sshoturl": null
-        },
-        "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "https://www.editpadlite.com/",
-          "progPlatform": "w",
-          "status": "",
-          "worksonwine": false
-        },
-        "progName": "editpadlite",
-        "progTitle": "Editpad Lite"
-      },
-      {
-        "appsubcat": "texteditor",
         "images": {
           "icon": "/techHQ/progIcons/product/txtEditor/geany.png",
           "sshoturl": null
@@ -653,7 +620,6 @@
         "progTitle": "Foxit Reader"
       },
       {
-        "appsubcat": "pdfcreator",
         "images": {
           "icon": "/techHQ/progIcons/product/pdf/PDFCreator.png",
           "sshoturl": null
@@ -669,7 +635,6 @@
         "progTitle": "PDFCreator"
       },
       {
-        "appsubcat": "pdfcreator",
         "images": {
           "icon": "/techHQ/progIcons/product/pdf/dopdf.png",
           "sshoturl": null
@@ -685,7 +650,6 @@
         "progTitle": "Dopdf"
       },
       {
-        "appsubcat": "documentreader",
         "images": {
           "icon": "/techHQ/progIcons/product/pdf/PDFXCview.png",
           "sshoturl": null
@@ -701,6 +665,40 @@
         "progTitle": "PDF X-Changer Viewer"
       }
     ],
+    "texteditor": [
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/product/txtEditor/",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.editpadlite.com/",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "editpadlite",
+        "progTitle": "Editpad Lite"
+      },
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/product/txtEditor/notepadpp.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://notepad-plus-plus.org",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "notepadplusplus",
+        "progTitle": "Notepad++"
+      }
+
+    ],
+    
     "various": [
       {
         "images": {

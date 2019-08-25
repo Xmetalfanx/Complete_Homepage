@@ -34,7 +34,7 @@ function softwareData (data) {
           for (let eachSubCat in subCatList) {
 
             const noQuoteSubCat = eachSubCat.replace(/['"]+/g, '');
-            console.log("noQuoteSubCat: " + noQuoteSubCat);
+            // console.log("noQuoteSubCat: " + noQuoteSubCat);
 
             const eachApp = subCatList[eachSubCat];
 

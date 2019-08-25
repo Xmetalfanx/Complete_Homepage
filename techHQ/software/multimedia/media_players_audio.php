@@ -1,6 +1,6 @@
 <?php
 
-  $pageTitle = 'Graphics Related Software';
+  $pageTitle = 'Audio Players';
 
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
