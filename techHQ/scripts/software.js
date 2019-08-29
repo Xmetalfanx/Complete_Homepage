@@ -17,31 +17,47 @@ function softwareData (data) {
     $.getJSON (softwareJSONUrl, function (data) {
       // pick better var than "i", later
       for (let i in data) {
-        
-        // Clear Var 
-        let progPlatform = '';
-        
-        let mainCategories = Object.keys (data);
 
-        let subCategoriesList = Object.values (data);
+        // Clear Var
+        const progPlatform = '';
 
-        softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
+        // Cant remember what this Object.keys is for
+        const mainCategories = Object.keys(data);
+        const subCategoriesList = Object.values(data);
 
         for (let items in subCategoriesList) {
 
+          // Just displays numbers 
+          //console.log("items: " + items);
+          //console.log("items2: " + JSON.stringify(items));
+
           const subCatList = subCategoriesList[items];
+
+          console.log(subCatList);
 
           for (let eachSubCat in subCatList) {
 
-            const noQuoteSubCat = eachSubCat.replace(/['"]+/g, '');
-            // console.log("noQuoteSubCat: " + noQuoteSubCat);
+            // eachSubCat shows the subcategories but INCLUDES the double quotes on both sides 
 
+            // Shows all the main categories, separated by a comma 
+            softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
+
+
+            // Subcategories with the double-quotes on both sides removed
+            const noQuoteSubCat = eachSubCat.replace(/['"]+/g, '');
             const eachApp = subCatList[eachSubCat];
+            // console.log("eachApp: " + eachApp);
 
             for (let apps in eachApp) {
 
-              if (localSubCat == noQuoteSubCat ){
+              if (localSubCat == noQuoteSubCat)
+              {
 
+                // NEWEST IDEA: 
+                const currentCategory = mainCategories;
+
+                console.log("currentCategory: " + currentCategory);
+                
                 const individualApps = eachApp[apps];
                 const moreInfo = individualApps.moreInfo;
 
@@ -57,7 +73,7 @@ function softwareData (data) {
                 const worksOnWine = moreInfo.worksonwine;
 
                 // The status of the program.  This will be used sometimes when a program is discontinued
-                let progStatus = moreInfo.progStatus;
+                const progStatus = moreInfo.progStatus;
 
                 /////////////////////////////////////////////
 
@@ -78,7 +94,7 @@ function softwareData (data) {
                 }
 
                 // Text-primary = blue color
-                platformDisplay = '<div> Platform:' + platformIcon + '</div>';
+                const platformDisplay = '<div> Platform:' + platformIcon + '</div>';
 
                 // End Platform SECTION
                 //////////////////////////////////////////////

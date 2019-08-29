@@ -1,0 +1,11 @@
+Idea for software section.
+
+* "else if" is used, there is no "elif" 
+
+in the JS have an if/elif type .... "if localSubCat = ... " and elif "localMainCat= .... "
+
+the thinking is to not have "localsubcat" on pages that aren't specific.... (say a main "graphics apps" page),,, but not have "localMainCat" on the pages that ARE specific 
+
+
+
+I need to know the "mainCat" var in the JS file 

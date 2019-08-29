@@ -1,6 +1,6 @@
 <?php
 
-  $pageTitle = 'Productivity/Office Programs - Text Editors';
+  $pageTitle = 'Graphics Related';
 
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
@@ -9,6 +9,6 @@
 ?>
 
 <script type="text/javascript">
-  var localMainCat = "productivity";
-  var localSubCat = 'texteditor';
+  var localMainCat = "graphics";
+  var localSubCat = 'editors';
 </script>

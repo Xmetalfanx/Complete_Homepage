@@ -1,6 +1,6 @@
 <?php
 
-  $pageTitle = 'Graphics Related';
+  $pageTitle = 'System Tools - File Managers';
 
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
@@ -9,6 +9,6 @@
 ?>
 
 <script type="text/javascript">
-  var localMainCat = "multimedia";
-  var localSubCat = 'graphics';
+  var localMainCat = "systemtools";
+  var localSubCat = 'filemanagers';
 </script>

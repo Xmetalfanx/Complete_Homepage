@@ -1,6 +1,6 @@
 <?php
 
-  $pageTitle = 'System Tools - Cleaners';
+  $pageTitle = 'Productivity/Office Programs - Office/Office Suite Related';
 
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/techHQ/modules/programs.php" ;
@@ -9,6 +9,6 @@
 ?>
 
 <script type="text/javascript">
-  var localMainCat = "security";
-  var localSubCat = 'cleaners';
+  var localMainCat = "productivity";
+  var localSubCat = 'office';
 </script>

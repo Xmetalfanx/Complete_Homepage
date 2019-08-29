@@ -6,7 +6,7 @@
 ?>
 
     <p class="header">Common Programs needed to remove these infections</p>
-    <p>(If you don't beleive me, go to the BleepingComputer's page that I link to below and you will see they generally all recommend the same programs/apps. Unless noted, all of these programs/tools are 100% free.</p>
+    <p>(If you don't believe me, go to the BleepingComputer's page that I link to below and you will see they generally all recommend the same programs/apps. Unless noted, all of these programs/tools are 100% free.</p>
     <p class="boldText">Malware (legit of course) Scanners</p>
     <ol>
       <li>
