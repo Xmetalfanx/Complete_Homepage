@@ -1,6 +1,6 @@
 <?php
 
-  $pageTitle = 'System Tools - Cleaners';
+  $pageTitle = 'Video Players';
 
   $sitePath = "/home/xmetalx1/public_html";
   include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
@@ -8,6 +8,6 @@
 ?>
 
 <script type="text/javascript">
-  var localMainCat = "systemtools";
-  var localSubCat = 'cleaners';
+  var localMainCat = "multimedia";
+  var localSubCat = 'videoEditing';
 </script>

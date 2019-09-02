@@ -1071,7 +1071,7 @@
         "progTitle": "Defraggler"
       }
     ],
-    "systemSuite": [
+    "systemSuites": [
       {
         "images": {
           "icon": "/techHQ/progIcons/system_tools/suites/glary.png",
@@ -1118,7 +1118,7 @@
         "progTitle": "Wise Care 360 "
       }
     ],
-    "taskmanager": [
+    "taskManagers": [
       {
         "images": {
           "icon": "/techHQ/progIcons/system_tools/process/processHacker.png",
@@ -1126,7 +1126,7 @@
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "http://sourceforge.net/projects/processhacker",
+          "progHomepage": "https://processhacker.sourceforge.io/",
           "progPlatform": "w",
           "status": "",
           "worksonwine": false
