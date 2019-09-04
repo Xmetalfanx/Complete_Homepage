@@ -843,6 +843,100 @@
         "progTitle": "Malwarebytes Anti-Malware",
         "worksonwine": false
       }
+    ],
+    "firewalls": [
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/security/TDSSKiller.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://usa.kaspersky.com/downloads/tdsskiller",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "tdsskiller",
+        "progTitle": "Kaspersky TDSSKiller"
+      },
+      {
+        "icon": "/techHQ/progIcons/security/malware/zemana.png",
+        "images": {
+          "icon": "/techHQ/progIcons/security/malware/zemana.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleepingcomputer.com/download/zemana-antimalware/",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "zemana",
+        "progTitle": "Zemana"
+      },
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/security/malware/adwcleaner.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleepingcomputer.com/download/adwcleaner/",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "adwcleaner",
+        "progTitle": "AdwCleaner"
+      },
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/security/malware/emsisoft.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
+          "progPlatform": "",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "emsisoft",
+        "progTitle": "Emsisoft Anti-Malware"
+      },
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/security/malware/hitman.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.hitmanpro.com/en-us.aspx",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "hitmanpro",
+        "progTitle": "Hitman Pro"
+      },
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/security/malware/malwarebytes.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://www.malwarebytes.com/",
+          "progPlatform": "w",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "malwarebytes",
+        "progTitle": "Malwarebytes Anti-Malware",
+        "worksonwine": false
+      }
     ]
   },
   "systemTools": {
