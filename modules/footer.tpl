@@ -48,6 +48,7 @@
   <i class="fa fa-youtube fa-2x"></i></a>
   </div>
 </footer>
+<script src="/scripts/lazysizes.min.js"></script>
 
 
 </body>

@@ -21,7 +21,6 @@
     </div>
 
     <script src="http://xmetal.x10.mx/linuxHQ/scripts/ticSection.js"></script>
-    <script src="/scripts/lazyload.js"> </script>
 
 
     <?php include $sitePath . "/modules/footer.tpl"; ?>

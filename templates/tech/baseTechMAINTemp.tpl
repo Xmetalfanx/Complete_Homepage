@@ -4,6 +4,7 @@
 	include $sitePath . '/modules/tech/baseTechHeader.tpl';
 
 ?>
+
 <body>
   <?php include $sitePath . '/modules/tech/techHQNavMenus.tpl'; ?>
 
