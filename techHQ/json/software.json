@@ -461,7 +461,6 @@
         "progTitle": "SMPlayer"
       },
       {
-        "appsubcat": "videoplayer",
         "images": {
           "icon": "/techHQ/progIcons/media/media_players/",
           "sshoturl": null
@@ -558,7 +557,6 @@
         "progTitle": "Abiword"
       },
       {
-        "appsubcat": "officesuite",
         "images": {
           "icon": "/techHQ/progIcons/product/libreIcons/lofficeMain.png",
           "sshoturl": null
@@ -606,7 +604,6 @@
         "progTitle": "Bullzip PDF Printer"
       },
       {
-        "appsubcat": "documentreader",
         "images": {
           "icon": "/techHQ/progIcons/product/pdf/foxit.png",
           "sshoturl": null
@@ -750,7 +747,7 @@
     ]
   },
   "security": {
-    "antiThreats": [
+    "antithreats": [
       {
         "images": {
           "icon": "/techHQ/progIcons/security/TDSSKiller.png",
@@ -844,99 +841,84 @@
         "worksonwine": false
       }
     ],
+    "antivirus": [],
     "firewalls": [
       {
         "images": {
-          "icon": "/techHQ/progIcons/security/TDSSKiller.png",
+          "icon": "",
           "sshoturl": null
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "https://usa.kaspersky.com/downloads/tdsskiller",
+          "progHomepage": "\n",
           "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
-        "progName": "tdsskiller",
-        "progTitle": "Kaspersky TDSSKiller"
+        "progName": "privateFirewall",
+        "progTitle": "Private Firewall"
       },
       {
-        "icon": "/techHQ/progIcons/security/malware/zemana.png",
+        "icon": "",
         "images": {
-          "icon": "/techHQ/progIcons/security/malware/zemana.png",
+          "icon": "",
           "sshoturl": null
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "https://www.bleepingcomputer.com/download/zemana-antimalware/",
+          "progHomepage": "",
           "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
-        "progName": "zemana",
-        "progTitle": "Zemana"
+        "progName": "tinywall",
+        "progTitle": "TinyWall"
       },
       {
         "images": {
-          "icon": "/techHQ/progIcons/security/malware/adwcleaner.png",
+          "icon": "",
           "sshoturl": null
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "https://www.bleepingcomputer.com/download/adwcleaner/",
-          "progPlatform": "w",
-          "status": "",
-          "worksonwine": false
-        },
-        "progName": "adwcleaner",
-        "progTitle": "AdwCleaner"
-      },
-      {
-        "images": {
-          "icon": "/techHQ/progIcons/security/malware/emsisoft.png",
-          "sshoturl": null
-        },
-        "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
+          "progHomepage": "",
           "progPlatform": "",
           "status": "",
           "worksonwine": false
         },
-        "progName": "emsisoft",
-        "progTitle": "Emsisoft Anti-Malware"
+        "progName": "win10FWControl",
+        "progTitle": "Windows 10 Firewall Control"
       },
       {
         "images": {
-          "icon": "/techHQ/progIcons/security/malware/hitman.png",
-          "sshoturl": null
+            "icon": "",
+            "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "https://www.hitmanpro.com/en-us.aspx",
-          "progPlatform": "w",
-          "status": "",
-          "worksonwine": false
+            "progDesc": "",
+            "progHomepage": "",
+            "progPlatform": "",
+            "status": "",
+            "worksonwine": false
         },
-        "progName": "hitmanpro",
-        "progTitle": "Hitman Pro"
-      },
-      {
-        "images": {
-          "icon": "/techHQ/progIcons/security/malware/malwarebytes.png",
-          "sshoturl": null
+        "progName": "",
+        "progTitle": ""
         },
-        "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "https://www.malwarebytes.com/",
-          "progPlatform": "w",
-          "status": "",
-          "worksonwine": false
-        },
-        "progName": "malwarebytes",
-        "progTitle": "Malwarebytes Anti-Malware",
-        "worksonwine": false
-      }
+        {
+          "images": {
+              "icon": "",
+              "sshoturl": null
+          },
+          "moreInfo": {
+              "progDesc": "",
+              "progHomepage": "",
+              "progPlatform": "",
+              "status": "",
+              "worksonwine": false
+          },
+          "progName": "cfw",
+          "progTitle": "Comodo Firewall"
+          }
     ]
   },
   "systemTools": {
