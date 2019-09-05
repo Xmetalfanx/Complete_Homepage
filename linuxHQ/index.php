@@ -2,8 +2,7 @@
 
     $sectionTitle='';
     $pageTitle="LinuxHQ Frontpage";
-    $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . "/templates/linux/baseLinuxTemplate.tpl";
+    require '/templates/linux/baseLinuxTemplate.tpl';
 ?>
 
 
@@ -15,17 +14,17 @@
     <p>Showing  Tutorials, My reviews (as well as others), and sites that have helped me over&#x9;the years, is TRUE goal I have with this section. The Linux related ideas I came up with to add to the main site started to get way out of hand to put in a "small section" so that's when I decided to do the split into TechHQ (former WIndows Section ... and still has some crossplatform stuff) and LinuxHQ.</p>
 
     <!-- OMGUbuntu RSS feed/news -->
-    <?php include $sitePath . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+    <?php include  'linuxHQ/modules/omgubuntu.tpl'; ?>
 
   </div>
 
   <div class="d-none d-md-block col-3">
     <!-- Distrowatch RSS Feed -->
-    <?php include $sitePath . "/linuxHQ/modules/distrowatch.tpl"; ?>
+    <?php include 'linuxHQ/modules/distrowatch.tpl'; ?>
   </div>
 
 
 
 </div>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php include "modules/footer.tpl"; ?>

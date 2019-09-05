@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <h3>
-    <a href="http://xmetal.x10.mx" class="navbar-brand">Xmetal's Homepage</a>
+    <a href="/index.php" class="navbar-brand">Xmetal's Homepage</a>
   </h3>
 
   <button type="button" data-toggle="collapse" data-target="#navbarTogglerMain" aria-controls="navbarTogglerMain" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>

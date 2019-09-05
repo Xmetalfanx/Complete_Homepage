@@ -6,7 +6,7 @@ head
   meta(name='Description', content="Xmetafanx's LinuxHQ site is a page for ..")
 
   title 
-  
+
     <?php
 
     $mainTitle = 'Xmetal LinuxHQ Section - ';
@@ -17,8 +17,8 @@ head
     ?>
 
     // Include universal header info 
-    <?php include $sitePath . '/modules/universalHeaderInclude.tpl'; ?>
-  
+    <?php require 'modules/universalHeaderInclude.tpl'; ?>
+
     // Universal CSS file
-    link(href='/universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
+    link(href='universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
 
