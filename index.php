@@ -11,9 +11,9 @@
 
     <!-- Header "navigation"-->
     <?php include 'modules/frontnav.tpl'; ?>
-    <div class="coverImage d-none d-lg-block lozad">
-      <img data-src="/graphics/herobg/01540_driftwood_1280x720.jpg">
-    </div>
+    <div class="coverImage d-none d-lg-block lazyload">
+
+  </div>
 
 
     <div class="row">

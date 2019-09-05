@@ -7,49 +7,5 @@
 
 ?>
 
+not sure what to put here atm ... and this MAY BE below the footer for some reason ... the other software pages display correctly though 
 
-<div class="container mt-2">
-
-  <div class="card mt-2 border border-dark">
-    <div class="card-header">
-    [progIcon here] Program Name
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">[SubCatagory Info here]</h5>
-      <p class="card-text">Description of App</p>
-    </div>
-  </div>
-
-
-  <div class="card mt-2 border border-dark">
-    <div class="card-header">
-    [progIcon here] Program Name
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">[SubCatagory Info here]</h5>
-      <p class="card-text">Description of App</p>
-    </div>
-  </div>
-
-  <div class="card mt-2 border border-dark">
-    <div class="card-header">
-    [progIcon here] Program Name
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">[SubCatagory Info here]</h5>
-      <p class="card-text">Description of App</p>
-    </div>
-  </div>
-
-  <div class="card mt-2 border border-dark">
-    <div class="card-header">
-    [progIcon here] Program Name
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">[SubCatagory Info here]</h5>
-      <p class="card-text">Description of App</p>
-    </div>
-  </div>
-
-
-</div>
