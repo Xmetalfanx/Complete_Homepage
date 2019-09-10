@@ -1,30 +1,20 @@
 <?php
-	 $pageTitle = ' Links';
-     
-       $sitePath = "/home/xmetalx1/public_html";
+	
+	$pageTitle = ' Links';
 
-     include $sitePath . "/templates/tech/baseTechMAINTemp.tpl";
+	$path = $_SERVER["DOCUMENT_ROOT"];
 
+	include($path . "/templates/tech/open/baseTechMAINTemp.tpl");
 
-
-
-echo '<script type="text/javascript">
-
-	var output = `
-		Links will go Here <br />
-
-		<hr />
-
-		This is a test of the new way to do things anyway 
+?>
 
 
-	`;
+Links will go Here <br />
+
+<hr />
+
+This is a test of the new way to do things anyway 
 
 
-
-
-          outputLocation = document.getElementById("outputSection");
-            outputLocation.innerHTML = output;
-
-        </script>';
- ?>
+<!-- include baseTechFooter -->
+<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
