@@ -14,7 +14,7 @@
     ?>
   </title>
 
-    <?php require 'modules/headerInclude.tpl'; ?>
+    <?php require($path . '/modules/headerInclude.tpl'); ?>
 
     <!-- Universal CSS file-->
     <link href="universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
