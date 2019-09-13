@@ -18,8 +18,5 @@
 
 </div>
 
-
 <!-- include baseTechFooter -->
 <?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>
-
-

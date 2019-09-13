@@ -1,0 +1,1 @@
+no need for MAIN open template .... OR should i move that (there is only one MAIN template ) to the open folder 

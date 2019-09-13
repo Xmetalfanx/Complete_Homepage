@@ -18,10 +18,8 @@
     </div>
   </div>
 
-
-<script src="http://xmetal.x10.mx/techHQ/scripts/browserAddons.js"></script>
-
-<script src="/scripts/lazyload.js"> </script>
+<!-- Changed from absolute path .. if something looks off, this could be why -->
+<script src="/techHQ/scripts/browserAddons.js"></script>
 
 	<!-- include baseTechFooter -->
 	<?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>

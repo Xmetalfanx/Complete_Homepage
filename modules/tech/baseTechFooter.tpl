@@ -34,3 +34,4 @@
 
 <?php include($path . "/modules/footer.tpl"); ?>
 
+<script src="/scripts/lazysizes.min.js"></script>

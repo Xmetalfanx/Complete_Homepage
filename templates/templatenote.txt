@@ -1,0 +1,1 @@
+the "open" folder contains the same template that DOESN'T have the second column closed OR the mainbody div closed either 
