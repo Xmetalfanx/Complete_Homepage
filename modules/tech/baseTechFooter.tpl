@@ -13,23 +13,11 @@
     <a class="nav-link" href="#">Contact Me</a>
  </div> <!-- Ends Row -->
 
-<<<<<<< HEAD
 </div>
 
-<<<<<<< HEAD
-  <!-- Include search box -->
-  <?php include $sitePath . "/modules/startpage.tpl"; ?>
-=======
-<!-- Include search box -->
-<?php include($path . "/modules/startpage.tpl"); ?>
->>>>>>> 79fedfc7... Template Idea note ** and changes to test pages
-</div>
-=======
 <!-- Include search box -->
 <?php include($path . "/modules/startpage.tpl"); ?>
 
-
->>>>>>> 6156754d... Fixed issues with techHQ frontpage
 </div> <!-- closes mainBody DIV -->
 
 <?php include($path . "/modules/footer.tpl"); ?>
