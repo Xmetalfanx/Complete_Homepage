@@ -1,9 +1,9 @@
 <?php
 
 	$the_title= 'Security Section - Software Firewall';
-	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
-?>
+	$path = $_SERVER["DOCUMENT_ROOT"];
+	include($path . "/templates/tech/baseTechSoftwareTemp.tpl");
+  
 
 <script type="text/javascript">
   var localMainCat = 'security';

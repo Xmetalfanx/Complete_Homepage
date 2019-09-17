@@ -2,8 +2,8 @@
 
   $pageTitle = 'Productivity/Office Programs - Text Editors';
 
-  $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $path = $_SERVER["DOCUMENT_ROOT"];
+  include($path . "/templates/tech/baseTechSoftwareTemp.tpl");
 
 ?>
 

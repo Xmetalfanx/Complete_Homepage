@@ -1,16 +1,20 @@
 <?php
 
-    // This should be moved to the SystemTools Section 
+    // This should be moved to the SystemTools Section
   $title = 'Software Section - Drive Imaging and Partitioning';
-  include $sitePath . "/templates/tech/baseTechSoftwareTemp.tpl";
+
+  $path = $_SERVER["DOCUMENT_ROOT"];
+  include($path . "/templates/tech/baseTechSoftwareTemp.tpl");
+
+?>
 
 ?>
     <p class="justify"> <span class="boldText"> </span> I have recently tried a program I downloaded awhile back and alot of Linux users say they love, called <span class="redtext">PartImage</span><span class="italics"> (think of a better Norton Ghost)</span> for more File systems.. </p>
-    
+
     <p class="justify">Some say it has issues with NTFS, others say despite the &quot;experimental&quot; label on NTFS ... It backs up NTFS and restores no problem. </p>
-    
+
     <p class="justify">I have backed up my Ext3 Ubuntu drive (have not had to reformat that yet to try &quot;restoring&quot; it yet. Working with Windows 7 and XP, Slackware 12, and Ubuntu (or Kbuntu actually ... Ubuntu with KDE interface instead of Gnome), I plan to try NTFS ... I am not planning on wiping out a good NTFS partition to see if the backed up images work. If for some reason you haven't heard of <span class="redtext">PartImage</span> that runs on Linux or Linux Boot CDs, you may think of the following comparisons</p>
-   
+
     <ul>
         <li><span class="redtext">PartImage</span> is a better alternative to Norton Ghost</li>
         <li><span class="redtext">GParted</span> is like Partition Magic
