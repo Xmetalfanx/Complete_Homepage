@@ -1,7 +1,9 @@
 <?php
     $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . '/modules/linux/linuxBaseHeader.tpl';
+  require($path . '/modules/linux/linuxBaseHeader.tpl');
+
 ?>
+<body> 
  <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
  
 <div class="row">

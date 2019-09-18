@@ -1,7 +1,7 @@
 <?php
 
  	$path = $_SERVER["DOCUMENT_ROOT"];
-   include($path . "/templates/tech/open/baseTechMAINTemp.tpl");
+  include($path . "/templates/tech/open/baseTechMAINTemp.tpl");
 
 ?>
 

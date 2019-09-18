@@ -1,23 +1,22 @@
 <?php
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; 
+  require($path .'/modules/linux/linuxBaseHeader.tpl');
 ?>
 
 
 <body onload="getDesktopData()">
  
-  <?php include $sitePath . '/modules/linux/linuxNavMenu.tpl'; ?>
+  <?php require($path . '/modules/linux/linuxNavMenu.tpl'); ?>
   
   <div class="row">
     <div class="col-xm-12 col-md-2">
-      <?php include $sitePath . '/linuxHQ/modules/sections/linuxDECol1.tpl'; ?>
+      <?php require($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
     </div>
     <div class="col-xm-12 col-md-10 d-flex justify-content-between flex-wrap" id="desktopSection" >
 
     </div>
-  </div> <!-- Ends Row -->
+  </div>
   
-<script src="http://xmetal.x10.mx/linuxHQ/scripts/desktopsFrontpage.js"></script>
-<script src="/scripts/lazyload.js"> </script>
+<script src="/linuxHQ/scripts/desktopsFrontpage.js"></script>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php require($path . "/modules/footer.tpl"); ?>
