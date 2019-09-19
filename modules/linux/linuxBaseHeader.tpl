@@ -1,3 +1,4 @@
+<?php require($_SERVER["DOCUMENT_ROOT"] . '/modules/linux/linuxBaseHeader.tpl'); ?>
 <!DOCTYPE html>
 
 <head>

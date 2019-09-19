@@ -2,9 +2,7 @@
 
   $pageTitle = 'System Tools - File Managers';
 
-  $path = $_SERVER["DOCUMENT_ROOT"];
-  include($path . "/templates/tech/baseTechSoftwareTemp.tpl");
-
+  include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 

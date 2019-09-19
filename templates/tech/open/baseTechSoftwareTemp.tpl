@@ -2,13 +2,15 @@
 
 	$sectionTitle = 'Software Section - ';
 
+	require $_SERVER["DOCUMENT_ROOT"] . '/include/variables.php';
+
 	include($path .'/modules/tech/baseTechHeader.tpl');
 
 ?>
 <script src="/techHQ/scripts/software.js"></script>
 
 <body onload="softwareData()">
- 
+
   <?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
 	<div class="row">

@@ -1,8 +1,9 @@
 <?php
+	$path = $_SERVER["DOCUMENT_ROOT"];
 
 	$sectionTitle = 'Main Section - ';
 
-	include($path . "/modules/tech/baseTechHeader.tpl");
+	include($path . '/modules/tech/baseTechHeader.tpl');
 
 ?>
 <body>
@@ -20,4 +21,4 @@
 	</div>
 
 <!-- include baseTechFooter -->
-<?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>
+<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>

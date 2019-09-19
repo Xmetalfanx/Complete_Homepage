@@ -1,6 +1,10 @@
 <?php
     $subTitle= 'Security Section - ';
-    include $sitePath . '/modules/tech/baseTechHeader.tpl';
+
+	  require $_SERVER["DOCUMENT_ROOT"] . '/include/variables.php';
+
+    include($path .'/modules/tech/baseTechHeader.tpl');
+
 ?>
 
 <body>

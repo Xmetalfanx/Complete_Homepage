@@ -1,6 +1,8 @@
 <?php
 
+	require $_SERVER["DOCUMENT_ROOT"] . '/include/variables.php';
 	$sectionTitle = 'Main Section - ';
+
 
 	include($path . "/modules/tech/baseTechHeader.tpl");
 

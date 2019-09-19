@@ -2,9 +2,7 @@
 	
 	$pageTitle = ' Links';
 
-	$path = $_SERVER["DOCUMENT_ROOT"];
-
-	include($path . "/templates/tech/open/baseTechMAINTemp.tpl");
+	include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/open/baseTechMAINTemp.tpl";
 
 ?>
 

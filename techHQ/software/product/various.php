@@ -2,8 +2,7 @@
 
   $pageTitle = 'Productivity/Office Programs - Various';
 
-  $path = $_SERVER["DOCUMENT_ROOT"];
-  include($path . "/templates/tech/baseTechSoftwareTemp.tpl");
+  include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 
