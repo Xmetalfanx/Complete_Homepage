@@ -11,7 +11,7 @@
 
     <!-- Header "navigation"-->
     <?php include 'modules/frontnav.tpl'; ?>
-    <div class="coverImage d-none d-lg-block lazyload"></div>
+    <div class="d-none d-lg-block coverImage">    </div>
 
 
     <div class="row">

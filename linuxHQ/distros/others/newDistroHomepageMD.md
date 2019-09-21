@@ -1,6 +1,6 @@
 # Top Linux Distributions for new users
 
--  [Linux Mint](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxMint.php)
+- [Linux Mint](http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxMint.php)
 
     -   [Linux Mint Homepage](https://www.linuxmint.com/)
     -   [Linux Mint on Distrowatch](http://distrowatch.com/mint%22)
