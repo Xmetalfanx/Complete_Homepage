@@ -4,7 +4,7 @@
 
 - the sectons that DO NOT use JSON, should have a call (techHQ side in this EXAMPLE) like the following in each page which closes the col2 (right) column, and the row too
 
-  ```
+```
   <!-- include baseTechFooter -->
     <?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
-  ```
+```
