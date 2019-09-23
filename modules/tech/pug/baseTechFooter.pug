@@ -8,8 +8,8 @@
     a.nav-link(href='#') Contact Me
 
   <!-- Include search box -->
-  <?php include $sitePath . "/modules/startpage.tpl"; ?>
+  <?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/startpage.tpl"; ?>
 
 
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

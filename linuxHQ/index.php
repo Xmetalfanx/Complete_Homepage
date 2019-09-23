@@ -3,7 +3,7 @@
     $sectionTitle='';
     $pageTitle="LinuxHQ Frontpage";
 
-    include $_SERVER["DOCUMENT_ROOT"] . '/templates/linux/open/baseLinuxTemplate.tpl';
+    $path = getenv('DOCUMENT_ROOT'); include $path . '/templates/linux/open/baseLinuxTemplate.tpl';
 ?>
 
 <div class="row">

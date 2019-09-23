@@ -2,7 +2,7 @@
 
   $pageTitle = ' Linux Section - Programs in Linux';
 
-  include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 

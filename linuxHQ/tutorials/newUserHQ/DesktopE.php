@@ -3,7 +3,7 @@
   $pageTitle = 'Desktop Envirnoments';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
   ?>
 
@@ -25,4 +25,4 @@
 
   <P>IF you wouldn't be &quot;shell-shocked&quot; to see the menus appear on the top of the screen versus the bottom, like Windows normally has them, then what I am describing should be no big deal for you, and it's nothing to &quot;worry&quot; about.</P>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

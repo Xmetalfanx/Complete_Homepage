@@ -25,7 +25,7 @@
         img.d-none.d-1g-block(src='/graphics/mathandscience.jpg' alt='Science and Math.com graphics')
 
 
-<?php include $sitePath . "/techHQ/modules/GAOTD.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/techHQ/modules/GAOTD.tpl"; ?>
 
 <!-- include baseTechFooter -->
 <?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>

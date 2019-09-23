@@ -21,4 +21,4 @@
 
 <script src="/linuxHQ/scripts/distros.js"></script>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

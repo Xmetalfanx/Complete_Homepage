@@ -3,7 +3,7 @@
   $pageTitle = 'New User Section Index Page';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
 ?>
@@ -18,4 +18,4 @@ in two different sections of the same site, and hopefully clear up some misconce
 <p>I also plan to show the pros and cons of Linux, proving even I know Linux &quot;is not perfect&quot; </p>
 
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

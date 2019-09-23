@@ -2,7 +2,7 @@
 
   $pageTitle =' TechCenter Section Frontpage ';
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechCenterTemp.tpl";
 
 ?>
 

@@ -1,16 +1,16 @@
 <?php
 
 	$sectionTitle= 'Web Browser Section - ';
-	include $sitePath . '/modules/tech/baseTechHeader.tpl';
+	$path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/baseTechHeader.tpl';
 
 ?>
 
 <body>
-  <?php include $sitePath . '/modules/tech/techHQNavMenus.tpl'; ?>
+  <?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
   
   <div class="row col-12">
     <div class="col-xs-12 col-md-2">
-      <?php include $sitePath . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
+      <?php $path = getenv('DOCUMENT_ROOT'); include $path . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
     </div>
 
     <div id="browserSection" class="col-xs-12 col-md-10">
@@ -22,4 +22,4 @@
 <script src="/techHQ/scripts/browserAddons.js"></script>
 
 	<!-- include baseTechFooter -->
-	<?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>
+	<?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/baseTechFooter.tpl'; ?>

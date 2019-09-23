@@ -3,7 +3,7 @@
 	$pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
 ?>
@@ -59,4 +59,4 @@ well as <a href="https://drive.google.com/file/d/0B3DsklBZ0EX0a19QdnI3SmNIXzA/vi
 
 </div>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

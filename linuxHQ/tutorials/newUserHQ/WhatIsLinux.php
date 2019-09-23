@@ -3,7 +3,7 @@
   $pageTitle = 'What is Linux';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
   ?>
@@ -37,4 +37,4 @@
   for all Linux distributions </p>
 </div>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

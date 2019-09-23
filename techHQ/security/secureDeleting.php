@@ -2,7 +2,7 @@
 
 	$pageTitle = 'Removing Data and not just Deleting';
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechSecurityTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurityTemp.tpl";
 ?>
 
 <!-- invalid code below ... panels have been COMPLETELY removed in BS 4 for "cards" -->
@@ -45,4 +45,4 @@
             <p class="header"> <a href="http://www.heidi.ie/eraser/" target="_blank">Eraser</a> - MY Favorite Drive Wiping Tool </p>
         </div>
     </div>
- <?php include $sitePath . "/modules/footer.tpl"; ?>
+ <?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

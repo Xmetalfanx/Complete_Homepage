@@ -2,7 +2,7 @@
 	$pageTitle = ' Main Index Page ';
 
     $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . "/templates/tech/baseTechSecurityTemp.tpl";
+    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurityTemp.tpl";
 ?>
 
 
@@ -80,4 +80,4 @@
   </div>
 </div>
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>

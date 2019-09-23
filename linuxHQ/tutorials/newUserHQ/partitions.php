@@ -3,7 +3,7 @@
 	$pageTitle = 'Partitions... What are they?';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 ?>
 
 
@@ -25,4 +25,4 @@
 		*** THE POINT I WANT TO MAKE IS AS LONG AS YOU DO YOUR RESEARCH, AND DO NOT JUST &quot;BLINDLY CLICK&quot; THINGS WITHOUT READING WHAT YOU'RE DOING ... YOU WILL NOT HAVE ISSUES ... IT'S (IN MY OPINION) THE PEOPLE WHO DO NOT PAY ATTENTION AND JUST BLINDLY CLICK "NEXT" ALL THE TIME WHO RUN INTO PROBLEMS/HEADACHES</p>
 
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

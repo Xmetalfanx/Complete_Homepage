@@ -214,4 +214,4 @@ ul
 
 
 
-	<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+	<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>

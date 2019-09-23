@@ -4,48 +4,48 @@ h5 Graphical (GUI) Software Centers
     li Gnome Software Center  
     li Ubuntu/Mint Software Center 
     li Muon Discover 
-  
-	h5  Graphical (GUI) Package Managers
+
+  h5  Graphical (GUI) Package Managers
   ul
     li muon 
     li Synaptic Package Manager
     li Apper 
-  
-	
-.card 
-	.card-block
-		.card-title CLI Package Managers 
-			
-		.card-text 
-			
-		  ul
-		    li
-		      | Arch based
-		      ul
-		        li
-		          | pacman
-		          
-							ul
-		            li Searching
-		                kbd sudo  pacman -Ss packageName  
-		            li  Installing
-		              kbd sudo pacman -S packageName 
 
-		        li
-		          p  Updating 
-		          ul
-		            li
-		              p.P4  &ldquo;Regular&rdquo;  Updates  
-		              ul
-		                kbd sudo pacman -Syyu  
-		    li
+
+.card 
+  .card-block
+    .card-title CLI Package Managers 
+
+    .card-text 
+
+      ul
+        li
+          | Arch based
+          ul
+            li
+              | pacman
+
+              ul
+                li Searching
+                  kbd sudo  pacman -Ss packageName  
+                li  Installing
+                  kbd sudo pacman -S packageName 
+
+            li
+              p  Updating 
+              ul
+                li
+                  p.P4  &ldquo;Regular&rdquo;  Updates  
+                  ul
+                    kbd sudo pacman -Syyu  
+        li
       p yaourt
       ul
         li
           p Searching / Installing   
-        
-				
-				  ul
+
+
+          ul
             li
               kbd yaourt packageName 
 
@@ -55,8 +55,8 @@ h5 Graphical (GUI) Software Centers
             span.T1 type number of
             span.T2 package,
             span.T3 after doing the search
-						
-						
+
+
   li
     p Debian / Ubuntu  Based  
     |         
@@ -92,7 +92,7 @@ h5 Graphical (GUI) Software Centers
         ul
           li Searching 
           kbd sudo aptitude search packageName
-          
+
           li Installing
           kbd sudo aptitude install packageName
 
@@ -102,7 +102,7 @@ h5 Graphical (GUI) Software Centers
       li
         p zypper
       li  Searching
-    
+
       li Installing  
 
   li
@@ -110,14 +110,14 @@ h5 Graphical (GUI) Software Centers
     ul
       li
         p dnf
-    
-		  li  Searching 
+
+      li  Searching 
       kbd dnf search packageName
-      
-			li  Installing 
+
+      li  Installing 
       kbd dnf install packageName  
-    
-		  li   Updating 
+
+      li   Updating 
       kbd dnf update packageName
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

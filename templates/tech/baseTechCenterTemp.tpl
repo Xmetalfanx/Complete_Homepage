@@ -1,15 +1,15 @@
 <?php
 
 	$sectionTitle = 'TechHQ Section - ';
-	include $sitePath . '/modules/tech/baseTechHeader.tpl';
+	$path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/baseTechHeader.tpl';
 
 ?>
 
-  <?php include $sitePath . '/modules/tech/techHQNavMenus.tpl'; ?>
+  <?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
 <div class="row">
 	<div class="col-xs-12 col-md-2">
-	    <?php include $sitePath .'/techHQ/modules/techCenterCol1.tpl'; ?>
+	    <?php $path = getenv('DOCUMENT_ROOT'); include $path .'/techHQ/modules/techCenterCol1.tpl'; ?>
 	</div>
 
 	<div class="col-xs-12 col-md-10">
@@ -19,4 +19,4 @@
 </div>
 
 <!-- include baseTechFooter -->
-<?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/baseTechFooter.tpl'; ?>

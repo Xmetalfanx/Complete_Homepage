@@ -2,7 +2,7 @@
 
 	 $pageTitle = 'Browser Section Frontpage';
 	 $sitePath = "/home/xmetalx1/public_html";
-	 include $sitePath . "/templates/tech/baseTechBrowser.tpl";
+	 $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowser.tpl";
 
 	 echo '<script type="text/javascript">
 

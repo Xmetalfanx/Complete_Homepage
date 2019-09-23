@@ -2,7 +2,7 @@
 
   $pageTitle ='Guide Summary';
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/tech/baseTechCenterTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechCenterTemp.tpl";
 
 ?>
 
@@ -302,4 +302,4 @@
     <img src="../graphics/computer/ordinateur-47.gif" alt="Happy Computer" width="106" height="117" class="center" />
   </p>
 
-  <?php include $sitePath . "/modules/footer.tpl"; ?>
+  <?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

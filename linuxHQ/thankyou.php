@@ -43,7 +43,7 @@
 </div>
 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/linux/linuxBaseFooter.tpl"; ?>
 
 EOD
 

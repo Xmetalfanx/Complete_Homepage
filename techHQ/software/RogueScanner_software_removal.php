@@ -2,7 +2,7 @@
 
   $the_title = 'Software Section - Common Software to remove Rogue AV and Malware Scanners';
   
-  include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 
 
@@ -54,4 +54,4 @@
     </blockquote>
     </div>
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>

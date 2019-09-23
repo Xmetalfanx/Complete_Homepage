@@ -2,17 +2,17 @@
 
 	$sectionTitle = 'Software Section - ';
 
-	include $sitePath . '/modules/tech/baseTechHeader.tpl';
+	$path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/baseTechHeader.tpl';
 ?>
 
 
 <body onload="softwareData()">
  
-  <?php include $sitePath . '/modules/tech/techHQNavMenus.tpl'; ?>
+  <?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
 	<div class="row">
 		<div class="col-xs-12 col-md-2">
-			<?php include $sitePath . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
+			<?php $path = getenv('DOCUMENT_ROOT'); include $path . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
 		</div>
 
 
@@ -26,4 +26,4 @@
 <script src="/scripts/lazysizes.min.js"></script>
 
 <!-- include baseTechFooter -->
-<?php include $sitePath . '/modules/tech/baseTechFooter.tpl'; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/tech/baseTechFooter.tpl'; ?>

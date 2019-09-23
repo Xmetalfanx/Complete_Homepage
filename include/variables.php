@@ -1,5 +1,5 @@
 <?php
 
-    $path = $_SERVER["DOCUMENT_ROOT"];
+    $path = getenv('DOCUMENT_ROOT');
 
 ?>

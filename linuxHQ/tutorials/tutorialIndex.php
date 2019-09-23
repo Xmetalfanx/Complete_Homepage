@@ -3,7 +3,7 @@
 	$pageTitle = 'Tutorial Index Page';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/baseLinuxTutorials.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxTutorials.tpl";
 
 
   ?>
@@ -20,4 +20,4 @@
 </div> <!-- Closes second column -->
 </div> <!-- Closes the row ... what use to be mainBody in my CSS-->
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

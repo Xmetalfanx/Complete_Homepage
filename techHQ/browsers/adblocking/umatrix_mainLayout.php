@@ -2,7 +2,7 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Umatrix Layout ';
 	 $sitePath = "/home/xmetalx1/public_html";
-	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+	 $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowserTemp.tpl";
 
 ?>
 
@@ -76,4 +76,4 @@
       you manage the content in question block or all) globally. That is across EVERY site/domain.</li>
     </ul>
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>

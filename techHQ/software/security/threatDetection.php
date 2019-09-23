@@ -2,7 +2,7 @@
 
       $the_title= 'Xmetalfanx Security Section - Backing up updates from Avast, Avira, and Malwarebytes via Bat File and 7-zip';
 
-      include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/baseTechSoftwareTemp.tpl";
+      $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 

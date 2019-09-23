@@ -3,8 +3,7 @@
 	$pageTitle = 'My Recommended Distros for New Users';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . '/linuxHQ/modules/variables/varinclude.php';
-	include $sitePath . '/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl';
+	$path = getenv('DOCUMENT_ROOT'); include $path . '/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl';
 
 
   ?>
@@ -52,4 +51,4 @@
 	  </p>
 	</p>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

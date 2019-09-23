@@ -3,7 +3,7 @@
 	$pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
   ?>
@@ -75,4 +75,4 @@
 
 <p><em>Updating via pacman is planned for an entirely other section, by the way</em></p>
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

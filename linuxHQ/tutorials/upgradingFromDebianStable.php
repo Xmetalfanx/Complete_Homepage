@@ -3,7 +3,7 @@
 	$pageTitle = 'Upgrading Debian Stable';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
   ?>
@@ -109,4 +109,4 @@
   <p>If nothing went wrong, You are now done ... You are now on Debian &quot;Testing&quot;/&quot;Wheezy&quot; depending on what you picked </p>
   <p>&nbsp;</p>
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/linux/linuxBaseFooter.tpl"; ?>

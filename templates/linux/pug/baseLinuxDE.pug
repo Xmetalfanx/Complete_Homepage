@@ -1,5 +1,5 @@
 <?php $sitePath = "/home/xmetalx1/public_html"; ?>
-<?php include $sitePath . '/modules/linux/linuxBaseHeader.tpl'; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/linux/linuxBaseHeader.tpl'; ?>
 
 body(onload="getDesktopData()" )
   #bodyContainer
@@ -8,7 +8,7 @@ body(onload="getDesktopData()" )
       <?php include 'linuxNavMenu.tpl'; ?>
       .row
         .col-xm-12.col-md-2
-          <?php include $sitePath . '/linuxHQ/modules/section/linuxNDesktopEnvCol1.tpl'; ?>
+          <?php $path = getenv('DOCUMENT_ROOT'); include $path . '/linuxHQ/modules/section/linuxNDesktopEnvCol1.tpl'; ?>
 
         .col-xm-12.col-md-10
           div desktopSection

@@ -5,10 +5,10 @@ h4 Update and Upgrade (Current Stable) to the newest it can be
 
 
 div Update the repository &quot;database&quot; 
-  
+
   code sudo apt-get update
-  
-  
+
+
 
 div Upgrade the system
 
@@ -17,42 +17,42 @@ div Upgrade the system
 
   ul
     li Do a Distributuon upgrade 
-  
+
     code sudo apt-get distr-upgrade
-  
+
   ul
     li Now (it may not be needed, but I choose to do it) Reboot the computer
-  
+
 
   p Get ready to upgrade to &quot;Testing&quot; 
-  
+
   ul
     li Go into the Terminal and type in whats below to edit your &quot;sourcelist&quot;
 
     code sudo nano /etc/apt/sources.list
 
- ul
+ul
   li
     | Once the file is opened, go to the line where it says "CD_Rom" or something to that effect and comment it out by putting a " # " in front of the entire line.
-    
+
     ul
       li The point of this is everytime you "sudo apt-get update" (without it being commented out), it will check to see if it can find the Flashdrive/CD-Rom/..etc ... this just tells the system not to check that
   li You will see something similar to the following lines
-  
-  
-code    
-      code deb http://ftp.us.debian.org/debian stable main contrib non-free<br />
-        deb-src http://ftp.us.debian.org/debian stable main contrib non-free
-      code deb http://ftp.debian.org/debian/ wheezy-updates main contrib non-free<br />
-        deb-src http://ftp.debian.org/debian/ wheezy-updates main contrib non-free
-      code deb http://security.debian.org/ wheezy/updates main contrib non-free<br />
-        deb-src http://security.debian.org/ wheezy/updates main contrib non-free
-    
 
-  
+
+code    
+  code deb http://ftp.us.debian.org/debian stable main contrib non-free<br />
+    deb-src http://ftp.us.debian.org/debian stable main contrib non-free
+  code deb http://ftp.debian.org/debian/ wheezy-updates main contrib non-free<br />
+    deb-src http://ftp.debian.org/debian/ wheezy-updates main contrib non-free
+  code deb http://security.debian.org/ wheezy/updates main contrib non-free<br />
+    deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+
+
+
 p
   em Yours may only have &quot;main&quot; listed ... same process though
-  
+
 ul
   li
     span.font-weight-bold STEP 1 
@@ -87,35 +87,35 @@ ul
             span.terms Jessie
             |  ... THATS IT (AS FAR AS EDITING THIS FILE)
 
-  
+
     <p>	<em>(YES these nex steps are exactly the same as before, when you hadn't changed the sources.list file, yet)</em>
-  
+
 ul 
   li
     span.boldUnderline Step 2:
     |  Update the repository &quot;database&quot;
 
 
-  
+
     code sudo apt-get update
-  
+
 ul
   li
     span.boldUnderline Step 3:
     |  Upgrade the system
-  
+
     code sudo apt-get upgrade
-  
+
 ul
   li
     span.boldUnderline Step 4
     | : Do a Distributuon upgrade
 
     code sudo apt-get distr-upgrade
-  
+
   ul
     li Now (it may not be needed, but I choose to do it) Reboot the computer</li>
-    
+
   p If nothing went wrong, You are now done ... You are now on Debian &quot;Testing&quot;/&quot;Wheezy&quot; depending on what you picked 
 
-<?php include $sitePath . "/modules/footer.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

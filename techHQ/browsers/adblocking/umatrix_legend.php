@@ -2,7 +2,7 @@
 
 	 $pageTitle = 'Ad/Content Blocking - UMatrix Legend';
 	 $sitePath = "/home/xmetalx1/public_html";
-	 include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+	 $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowserTemp.tpl";
 
 ?>
 
@@ -129,4 +129,4 @@
 
 
 
-<?php include $sitePath . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>

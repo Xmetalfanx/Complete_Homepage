@@ -3,8 +3,8 @@
 	$pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
 	$sitePath = "/home/xmetalx1/public_html";
-	include $sitePath . '/templates/linux/massLinuxInclude.tpl';
-	include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
+	$path = getenv('DOCUMENT_ROOT'); include $path . '/templates/linux/massLinuxInclude.tpl';
+	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 
@@ -74,4 +74,4 @@
       <a href="/linuxHQ/apps/MorePPAsMD.php">Click here to get more PPAs</a>
     </h1>
 
-		<?php include $sitePath . "/modules/footer.tpl"; ?>
+		<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

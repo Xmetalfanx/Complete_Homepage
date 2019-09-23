@@ -5,7 +5,7 @@
 <?php
 
   $sitePath = "/home/xmetalx1/public_html";
-  include $sitePath . "/templates/linux/baseLinuxDE.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDE.tpl";
 
   $title = 'XFCE ';
 

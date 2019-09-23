@@ -3,7 +3,7 @@
     $pageTitle = 'App Section Frontpage';
 
     $sitePath = "/home/xmetalx1/public_html";
-    include $sitePath . "/templates/linux/baseLinuxAPP.tpl";
+    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 

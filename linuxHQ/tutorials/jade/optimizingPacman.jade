@@ -2,114 +2,114 @@ h2 Optimizing Pacman Mirrors
 h2 References
 
 ul
-	li
-		a(href="https://www.archlinux.org/mirrorlist/") Pacman Mirrorlist Generator
-		
-	li 
-		a(href="https://wiki.archlinux.org/index.php/Reflector") Reflector
-		| - Reflector can be used to grab the lastest mirrorlist and sort them by speed, also making sure they are up-to-date
-		
-	li 
-		a(href="https://wiki.manjaro.org/index.php/Rankmirrors_to_Set_the_Fastest_Download_Server") RankMirrors to setup the Fastest Download Server in Manjaro
+  li
+    a(href="https://www.archlinux.org/mirrorlist/") Pacman Mirrorlist Generator
+
+  li 
+    a(href="https://wiki.archlinux.org/index.php/Reflector") Reflector
+    | - Reflector can be used to grab the lastest mirrorlist and sort them by speed, also making sure they are up-to-date
+
+  li 
+    a(href="https://wiki.manjaro.org/index.php/Rankmirrors_to_Set_the_Fastest_Download_Server") RankMirrors to setup the Fastest Download Server in Manjaro
 
 hr
 
 h3 STEP 1 - BACKUP your mirrorlist first
 
-	p In case something goes wrong, you can simply restore the original list … though there ARE OTHER ways around the issue of a goofup.  Here is an example.
-		
-	h4 To backup
-	
-	kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist&nbsp;mirrorlist.backup
+  p In case something goes wrong, you can simply restore the original list … though there ARE OTHER ways around the issue of a goofup.  Here is an example.
 
-	h4 To restore
-	
-	kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist.backup&nbsp;mirrorlist
-	
+  h4 To backup
+
+  kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist&nbsp;mirrorlist.backup
+
+  h4 To restore
+
+  kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist.backup&nbsp;mirrorlist
+
 hr
 
 h3 Reflector - Examples for Arch and Antergos
 
 ul
-	li
-		p The dollar-sign in the commands below ARE representative of the command prompt. DO NOT copy that dollar-sign IF YOU are copying and pasting any of these commands
-	
-	li
-		p Filter the first 10 mirrors, sort them by download rate and save the results to /etc/pacman.d/mirrorlist:
-		
-			kbd $&nbsp;reflector&nbsp;--verbose&nbsp;-l&nbsp;10&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist`
-		
-	li
-		p Rate the 100 most recently synchronized HTTP servers, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
-		
-		
-			kbd $&nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
-		
-	
-	li
-		p Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
-		
+  li
+    p The dollar-sign in the commands below ARE representative of the command prompt. DO NOT copy that dollar-sign IF YOU are copying and pasting any of these commands
+
+  li
+    p Filter the first 10 mirrors, sort them by download rate and save the results to /etc/pacman.d/mirrorlist:
+
+      kbd $&nbsp;reflector&nbsp;--verbose&nbsp;-l&nbsp;10&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist`
+
+  li
+    p Rate the 100 most recently synchronized HTTP servers, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
+
+
+      kbd $&nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
+
+
+  li
+    p Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
 
 
 
-	pre.editor-colors.lang-text
-	| 		
-	.line
-		| 
-		
-		span.text.plain
-			| 
-		
-			span.meta.paragraph.text
-				| 
-		
-			
-				span $ reflector --country 'United States' -l 50 -p http --sort rate --save /etc/pacman.d/mirrorlist
-			
-				| 
-		
-			| 
-		
-		| 
-		
-	| 
-		
 
-		
-		
+  pre.editor-colors.lang-text
+  | 		
+  .line
+    | 
+
+    span.text.plain
+      | 
+
+      span.meta.paragraph.text
+        | 
+
+
+        span $ reflector --country 'United States' -l 50 -p http --sort rate --save /etc/pacman.d/mirrorlist
+
+        | 
+
+      | 
+
+    | 
+
+  | 
+
+
+
+
 hr
 
 
 
 h3 Manjaro
-		
-	ul
-		li
-		p Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist
-		
-		
-		kbd $&nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g
-		
-	
-		
-		
-		h3 Syncing your Pacman Database
-		
-		
-		ul
-			li
-		
-		p The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD
-		
-	
-		kbd sudo&nbsp;pacman&nbsp;-Syy
-		
-		
+
+  ul
+    li
+    p Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist
 
 
-	p <em>Updating via pacman is planned for an entirely other section, by the way
+    kbd $&nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g
 
 
 
 
-<?php include $sitePath . "/modules/linux/linuxBaseFooter.tpl"; ?>
+    h3 Syncing your Pacman Database
+
+
+    ul
+      li
+
+    p The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD
+
+
+    kbd sudo&nbsp;pacman&nbsp;-Syy
+
+
+
+
+  p <em>Updating via pacman is planned for an entirely other section, by the way
+
+
+
+
+<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/linux/linuxBaseFooter.tpl"; ?>

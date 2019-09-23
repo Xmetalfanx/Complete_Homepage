@@ -2,7 +2,9 @@
 
   $pageTitle = 'Software Section Main Page';
 
-  include($_SERVER["DOCUMENT_ROOT"] . "/templates/tech/open/baseTechSoftwareTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); 
+  
+  include $path . "/templates/tech/open/baseTechSoftwareTemp.tpl";
 
 ?>
 

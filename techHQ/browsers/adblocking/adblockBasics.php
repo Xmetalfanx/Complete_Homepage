@@ -2,7 +2,7 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Ad/Content Blocking Basics ';
 	 $sitePath = "/home/xmetalx1/public_html";
-   include $sitePath . "/templates/tech/baseTechBrowserTemp.tpl";
+   $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowserTemp.tpl";
    
    echo '<script type="text/javascript">
 			 

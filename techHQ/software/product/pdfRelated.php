@@ -2,7 +2,7 @@
 
   $pageTitle = 'Productivity/Office Programs - PDF Related';
 
-  include $_SERVER["DOCUMENT_ROOT"] . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftwareTemp.tpl";
 
 ?>
 
