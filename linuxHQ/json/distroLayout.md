@@ -1,14 +1,15 @@
 # Framework Here
 
-- desktopName
+## desktopName
 
   - This is how i call it
 
-- desktopTitle
+## desktopTitle
 
   - sort of like Desktop Name but may include spaces and Caps ... what gets displayed on the page
 
-- Version - I think I may have to just do the current version in x-repo vs "what say Fedora 28 started with" but i may come back to that later -currentVersion/Latest Version
+## version
+    - I think I may have to just do the current version in x-repo vs "what say Fedora 28 started with" but i may come back to that later -currentVersion/Latest Version
 
   - Arch
 
@@ -32,7 +33,7 @@
 
       - This is where i may or may not want to have a "16.04 came with ... vs what version is there now" thing
 
-- (howTo Install)
+#(howTo Install)
 
   - The idea is to K.I.S.S and have how to install based on Default repos
 
