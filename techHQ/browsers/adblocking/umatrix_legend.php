@@ -1,7 +1,7 @@
 <?php
 
 	 $pageTitle = 'Ad/Content Blocking - UMatrix Legend';
-	 $sitePath = "/home/xmetalx1/public_html";
+
 	 $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowserTemp.tpl";
 
 ?>

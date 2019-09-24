@@ -1,5 +1,4 @@
 <?php
-	$path = $_SERVER["DOCUMENT_ROOT"];
 
 	$sectionTitle = 'Main Section - ';
 

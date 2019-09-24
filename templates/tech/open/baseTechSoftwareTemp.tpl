@@ -2,7 +2,6 @@
 
 	$sectionTitle = 'Software Section - ';
 
-	require $_SERVER["DOCUMENT_ROOT"] . '/include/variables.php';
 
 	include($path .'/modules/tech/baseTechHeader.tpl');
 
