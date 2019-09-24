@@ -171,7 +171,6 @@ function displayDEOutput(desktopTitle) {
                         </div>
                     </div>
 
-
                         ${deVersionsOutput}
 
                         <br /><hr />
@@ -292,6 +291,6 @@ function getDesktopData(data, $localDEName)
 
                 }; // End of If loop
 
-            })
+            });
 
 }
