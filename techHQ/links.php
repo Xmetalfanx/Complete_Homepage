@@ -2,7 +2,8 @@
 	
 	$pageTitle = ' Links';
 
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/open/baseTechMAINTemp.tpl";
+	$path = getenv('DOCUMENT_ROOT');
+	include $path . "/templates/tech/open/baseTechMAINTemp.tpl";
 
 ?>
 

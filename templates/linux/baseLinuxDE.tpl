@@ -1,7 +1,6 @@
 <?php
   
-  require($path . '/modules/linux/linuxBaseHeader.tpl');
-  
+    require($path . '/modules/linux/linuxBaseHeader.tpl');
 ?>
 
 <body onload="getDesktopData()">
@@ -17,6 +16,7 @@
     </div>
   </div>
 
+<!-- This is not going to work long term -->
 <script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops.js"></script>
 
 

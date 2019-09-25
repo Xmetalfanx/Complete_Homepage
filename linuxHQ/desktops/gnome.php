@@ -8,6 +8,7 @@
 	$pageTitle = 'Gnome 3/Gnome Shell ';
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDE.tpl";
+	$path = getenv('DOCUMENT_ROOT');
+	include $path . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

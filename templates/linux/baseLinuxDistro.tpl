@@ -1,8 +1,7 @@
 <?php
 
   $sectionTitle='Distrobution Section - ';
-  
-  
+
   require($path . '/modules/linux/linuxBaseHeader.tpl');
 
 ?>
@@ -12,7 +11,7 @@
 
   <div class="row">
     <div class="col-xs-12 col-md-2">
-      <?php require($path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
+      <?php require($path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl');  ?>
     </div>
     <div id="distroSection" class="col-xs-12 col-md-10">
 

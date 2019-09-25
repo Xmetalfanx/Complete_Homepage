@@ -2,8 +2,7 @@
 
 		$pageTitle  = 'Linux Desktop (AKA Version) Section';
 
-    
-    require($path . "/templates/linux/frontpage/linuxDEFrontpage.tpl";
+    $path = getenv('DOCUMENT_ROOT');
+    include ($path . "/templates/linux/frontpage/linuxDEFrontpage.tpl");
 
 ?>
-

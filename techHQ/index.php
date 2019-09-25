@@ -1,8 +1,9 @@
 <?php
 
-  $path = getenv('DOCUMENT_ROOT');
+  $pageTitle = "TechHQ Frontpage"
 
-  $path = getenv('DOCUMENT_ROOT'); include $path . '/templates/tech/open/baseTechMAINTemp.tpl';
+  $path = getenv('DOCUMENT_ROOT');
+  include $path . '/templates/tech/open/baseTechMAINTemp.tpl';
 
 ?>
 

@@ -1,4 +1,3 @@
-<?php require($_SERVER["DOCUMENT_ROOT"] . '/modules/linux/linuxBaseHeader.tpl'); ?>
 <!DOCTYPE html>
 
 <head>
@@ -15,9 +14,9 @@
     ?>
   </title>
 
-    <?php require($path . '/modules/headerInclude.tpl'); ?>
+    <?php include $path . '/modules/headerInclude.tpl'; ?>
 
     <!-- Universal CSS file-->
-    <link href="universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
   </title>
 </head>
