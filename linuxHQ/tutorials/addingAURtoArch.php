@@ -2,7 +2,7 @@
 
 	$pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
-	$sitePath = "/home/xmetalx1/public_html";
+	
 	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 

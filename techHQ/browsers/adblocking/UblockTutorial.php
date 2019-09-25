@@ -2,7 +2,8 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Ublock Tutorial';
 
-	 $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowserTemp.tpl";
+	 $path = getenv('DOCUMENT_ROOT'); 
+	 include $path . "/templates/tech/baseTechBrowserTemp.tpl";
 
 ?>
 

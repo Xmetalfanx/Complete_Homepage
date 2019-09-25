@@ -1,5 +1,5 @@
 <?php
-	$sitePath = "/home/xmetalx1/public_html";
+	
 	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDistro.tpl";
 
 	$download 	= '<a href="http://software.opensuse.org/" target="_blank">http://software.opensuse.org/</a><br>

@@ -1,6 +1,6 @@
 <?php
 
-    $sitePath = "/home/xmetalx1/public_html";
+    
     $the_title = 'Xmetalfanx\'s Book References - What books did I use to get some information on my site?';
     $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechMAINTemp.tpl";
 

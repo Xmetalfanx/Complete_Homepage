@@ -2,7 +2,8 @@
 
 	 $pageTitle = 'Ad/Content Blocking - UMatrix Legend';
 
-	 $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechBrowserTemp.tpl";
+   $path = getenv('DOCUMENT_ROOT'); 
+   include $path . "/templates/tech/baseTechBrowserTemp.tpl";
 
 ?>
 

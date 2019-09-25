@@ -1,6 +1,6 @@
 <?php
 
-	$sitePath = "/home/xmetalx1/public_html";
+	
 	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDistro.tpl";
 
 	$download = '  <a href="http://fedoraproject.org/get-fedora.html" target="_blank">http://fedoraproject.org/get-fedora.html</a><br>

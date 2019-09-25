@@ -1,7 +1,7 @@
 <?php
 
     $sectionTitle = 'Linux App Section - ';
-    $sitePath = "/home/xmetalx1/public_html";
+    
 
     $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/linux/linuxBaseHeader.tpl';
 

@@ -2,7 +2,7 @@
 
 	$pageTitle = 'Familiar Software that you may use in Window';
 
-	$sitePath = "/home/xmetalx1/public_html";
+	
 	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 

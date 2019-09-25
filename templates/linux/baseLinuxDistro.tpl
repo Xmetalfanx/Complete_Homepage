@@ -2,7 +2,7 @@
 
   $sectionTitle='Distrobution Section - ';
   
-  $sitePath = "/home/xmetalx1/public_html";
+  
   require($path . '/modules/linux/linuxBaseHeader.tpl');
 
 ?>

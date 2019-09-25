@@ -2,22 +2,9 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Ad/Content Blocking Basics ';
 
-   $path = getenv('DOCUMENT_ROOT'); 
+   $path = getenv('DOCUMENT_ROOT');
    include $path . "/templates/tech/baseTechBrowserTemp.tpl";
-   
-   echo '<script type="text/javascript">
-			 
-      output = `
-      
-      
-      
-      `;
 
-      outputLocation = document.getElementById("browserSection");
-			outputLocation.innerHTML = output;
-
-
-   </script>';
 ?>
 
 <h1>Ad/Tracker Blocking Basics</h1>
@@ -39,7 +26,6 @@
 </div>
 
 
-<h3></h3>
 <div class="card-block">
   <h3 class="card-title">
 		<img src="https://png.icons8.com/color/50/000000/firefox.png"/>
