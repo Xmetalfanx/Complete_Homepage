@@ -60,10 +60,10 @@ function displayDistroOutput (
 
         <div class="row d-lg-none d-xs-block">
             <div class="col">
-                <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank">Youtube Review/Walkthrough/Comments Playlist </a>
+                <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
             </div>
             <div class="col">
-                <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank">Youtube Tips/Tricks/Tutorial Playlist</a>
+                <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
             </div>
         </div>
     `;
