@@ -3,12 +3,15 @@
 	$pageTitle = 'Tutorial Index Page';
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxTutorials.tpl";
+  $path = getenv('DOCUMENT_ROOT'); 
+  
+  include $path . "/templates/linux/baseLinuxTutorials.tpl";
 
 
   ?>
 
-  <img src="/linuxHQ/graphics/Tux_small.jpg" alt="Tux Peguin Clipart"  />
+<i class="fa fa-4x fa-linux text-dark" aria-hidden="true"></i>
+
   <br />
 
   <p>I am not sure if this page will contain the same tutorials as the New User Section, (I am
