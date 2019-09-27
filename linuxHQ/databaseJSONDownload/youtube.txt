@@ -1,6 +1,5 @@
 
     "id": 1,
-    "distroName": "antergos",
     "mmoore": "https://www.youtube.com/user/MrGizmo757",
     "dasgregor": "https://www.youtube.com/user/DasGregor",
     "tostoday": "https://www.youtube.com/user/tostoday",

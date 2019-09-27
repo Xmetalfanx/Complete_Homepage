@@ -1,15 +1,4 @@
 [{
-        "distroName": "antergos",
-        "family": "arch",
-        "href": "",
-        "id": 1,
-        "src": "/linuxHQ/screenshots/archbased/antergosKDE1.jpg",
-        "sscursor": "",
-        "ssde": "plasma5",
-        "ssicon": "",
-        "sstheme": "breeze"
-    },
-    {
         "distroName": "debian",
         "family": "debian",
         "href": "http://screenshots.debian.net",

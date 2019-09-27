@@ -4,8 +4,8 @@
   <div class="card-header bg-primary text-white">Arch Family</div>
   
   <a href="/linuxHQ/distros/arch/archLinux.php">Arch Linux</a>
-  <a href="/linuxHQ/distros/arch/antergos.php">Antergos</a>
   <a href="/linuxHQ/distros/arch/archBang.php">Archbang</a>
+  <a href="/linuxHQ/distros/arch/endeavouros.php">EndeavourOS</a>
   <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a>
 </div>
 
@@ -20,7 +20,6 @@
   <a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition </a>
   <a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a>
   <a href="/linuxHQ/distros/debian/mxlinux.php">MX Linux</a>
-  <a href="/linuxHQ/distros/debian/pointLinux.php">Point Linux</a>
   <a href="/linuxHQ/distros/debian/solydxk.php">SolydXK</a>
   <a href="/linuxHQ/distros/debian/sparkylinux.php">Sparky Linux </a>
 </div>

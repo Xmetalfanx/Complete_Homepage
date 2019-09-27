@@ -291,7 +291,7 @@
     "gtk3": [{
             "desktopName": "cinnamon",
             "generalInfo": {
-                "distrosFeature": "Linux Mint, Korora/Fedora, Arch/Antergos ",
+                "distrosFeature": "Linux Mint, Korora/Fedora, Arch ",
                 "desktopCategory": "heavyweight",
                 "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
                 "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop"

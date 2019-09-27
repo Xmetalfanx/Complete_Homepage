@@ -32,7 +32,7 @@
 		<hr>
 
 
-<h3>Reflector Examples for Arch and Antergos</h3>
+<h3>Reflector Examples for Arch</h3>
 		<ul>
 		<li>
 		<p>The dollar-sign in the commands below ARE representative of the command prompt … using the pound side would mess up my Markdown coding when typing this page. DO NOT copy that dollar-sign IF YOU are copying and pasting any of these commands</p>

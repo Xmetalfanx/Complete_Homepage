@@ -286,10 +286,10 @@
         }
     ],
     "arch": [{
-            "distroName": "antergos",
-            "distroTitle": "Antergos",
+            "distroName": "endeavouros",
+            "distroTitle": "EndeavourOS",
             "graphics": {
-                "iconURL": "antergos.png"
+                "iconURL": ""
             },
             "moreinfo": {
                 "base": "Arch Linux",
@@ -301,16 +301,16 @@
             },
             "screenshots": {
                 "desktop": "",
-                "src": "antergos.png",
+                "src": "",
                 "theme": "",
-                "thumbnails": "antergos_tn.png"
+                "thumbnails": ""
             },
             "version": "",
             "website": {
-                "download": "http://www.antergos.com/try-it/",
-                "forum": "http://forum.antergos.com/",
-                "homepage": "https://antergos.com/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/antergos.php"
+                "download": "https://endeavouros.com/download/",
+                "forum": "https://forum.endeavouros.com/",
+                "homepage": "https://endeavouros.com/",
+                "myPage": ""
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJcds8f9K7ixM3-A687PqjgI",

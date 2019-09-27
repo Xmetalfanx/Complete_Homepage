@@ -1,12 +1,11 @@
 <?php
-    
+
+    $pageTitle = 'Antergos';
     $path = getenv('DOCUMENT_ROOT'); 
     include $path . "/templates/linux/baseLinuxDistro.tpl";
-
-    $pageTitle = 'Manjaro';
 
 ?>
 
 <script type="text/javascript">
-    var localDistroName = "manjaro";
+    var localDistroName = "endeavouros";
 </script>

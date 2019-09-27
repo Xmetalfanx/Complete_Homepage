@@ -7,7 +7,7 @@
 ?>
 
 <body onload="getDistroData()">
-  <?php require($path . '/modules/linux/linuxNavMenu.tpl'; ?>
+  <?php require($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
   <div class="row">
     <div class="col-xs-12 col-md-2">
