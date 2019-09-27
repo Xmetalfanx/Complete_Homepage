@@ -5,10 +5,10 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
     // Template Literal for output
 
-    // used INSIDE the tabs below and not seperately 
+    // used INSIDE the tabs below and not seperately
     const deVersionsOutput = `
-        
-            
+
+
             <h3 class="font-weight-bold">Versions</h3>
             <div>
                 <span class="font-weight-bold">
@@ -20,17 +20,17 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 </small>
             </div>
             <br/>
-            
-            <div class="row my-2"> 
+
+            <div class="row my-2">
                 <div class="col">
                     <span class="font-weight-bold">Arch: </span>
                     <span class="text-right">${currentDEArchVersion}</span><br/>
                 </div>
-                
+
                 <div class="col">
                     <span class="font-weight-bold">Fedora</span>
                     <br/>
-                    
+
                     <span class="font-italic">Fedora 28: </span>
                     <span class="text-right">${currentDEF28Version}</span><br/>
                     <span class="font-italic">Fedora 29: </span>
@@ -38,7 +38,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                     <span class="font-italic">Fedora Rawhide: </span>
                     <span class="text-right"> ${currentDEFRWVersion}</span>
                 </div>
-                
+
                 <div class="col">
                     <span class="font-weight-bold">openSUSE</span>
                     <br/>
@@ -52,7 +52,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                     <span class="text-right"> ${currentDESuseTWVersion}</span>
                 </div>
             </div>
-            
+
             <div class="row my-4">
                 <div class="col">
                     <div class="font-weight-bold">Solus</div>
@@ -93,27 +93,27 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
 
     const deInstallOutput = `
-        
-        
+
+
             <h3 class="font-weight-bold">How to Install: </h3>
-            
+
             <div class="font-weight-bold">Arch Linux: </div>
             <code class="my-3 p-2">${currentDEarchInstall}</code>
-            
+
             <div class="font-weight-bold">Fedora: </div>
             <code class="my-3 p-2">${currentDEfedoraInstall}</code>
-            
+
             <div class="font-weight-bold">OpenSUSE: </div>
                 <div class="font-italic">${currentDEopensuseInstall}</div>
                 <br />
-                    
+
                 <small>POSSIBLE Extra Repos (There may or may not be content below)</small>
                 <br />
-                    
-                <div class="font-italic"> 
-                    Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos 
+
+                <div class="font-italic">
+                    Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos
                 </div> <br />
-                
+
                 <ul>
                     <li class="font-weight-bold">Leap 42.3</li>
                         <code class="my-3 p-2">${currentDEopensuseLeap423Install}</code>
@@ -122,20 +122,20 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                     <li class="font-weight-bold">Tumbleweed</li>
                         <code class="my-3 p-2">${currentDEopensuseTWInstall}</code>
                 </ul>
-            
-            
+
+
             <div class="font-weight-bold">Ubuntu</div>
             <ul>
-                <li>Installing on Ubuntu: 
+                <li>Installing on Ubuntu:
                     <code class="my-3 p-2">${currentDEubuntuInstall}</code>
                 </li>
-                <li>Installing on Linux Mint: 
+                <li>Installing on Linux Mint:
                     <code class="my-3 p-2">${currentDEmintInstall}</code>
                 </li>
-            </ul> 
+            </ul>
         `;
 
-    // Complete Header 
+    // Complete Header
     const deInfoCard = `
 
             <div class="card">
@@ -143,12 +143,12 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                     <h3 class="font-weight-bold">${currentDETitle}</h3>
                 </div>
                 <div class="card-text px-3 py-2">
-                    <div class="row"> 
+                    <div class="row">
                         <div class="col">
                             <span class="font-weight-bold">Homepage:</span>
                             <a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}'s Homepage</a>
                             <br>
-                            
+
                             <span class="font-weight-bold">Github URL: </span>
                             <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
                             <br><br>
@@ -160,34 +160,34 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
                             <span class="font-weight-bold">Desktop Requirements: </span>
                             <ul>
-                                <li> 
+                                <li>
                                     <span class="font-italic">Required Processor: </span>${currentDEReqProc}
                                 </li>
-                                <li> 
+                                <li>
                                     <span class="font-italic">Required Memory: </span>${currentDEReqMem}
                                 </li>
-                                <li> 
+                                <li>
                                     <span class="font-italic">Required Hard Drive Space: </span>${currentDEReqHDD}
                                 </li>
                             </ul>
 
                         </div>
-                        
+
                         <div class="col">
                             <img class="d-md-block d-none mx-auto p-4 img-fluid lazyload" data-src="${screenshotDIR}${currentDEScreenshot}" alt="${currentDETitle} screenshot" >
                         </div>
                     </div>
-                    
+
 
                         ${deVersionsOutput}
 
                         <br /><hr />
-                
+
                         ${deInstallOutput}
-                
+
                 </div> <!-- Closes card-text -->
-            </div> <!-- Closes card --> 
-                
+            </div> <!-- Closes card -->
+
             `;
 
     // Main output
@@ -210,7 +210,7 @@ function getDesktopData(data, $localDEName) {
         // Get JSON Data
         $.getJSON(jsonURL, function(data) {
 
-            // For each key value 
+            // For each key value
             $.each(data, function(key, value) {
 
                 // The key is 'gtk2' or 'qt'
@@ -219,7 +219,7 @@ function getDesktopData(data, $localDEName) {
 
                 for (var subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
-                    // ** I need to know value and subFrameworks here 
+                    // ** I need to know value and subFrameworks here
 
                     var currentDEName = value[subFrameworks].desktopName;
                     var currentDETitle = value[subFrameworks].desktopTitle;
@@ -235,14 +235,14 @@ function getDesktopData(data, $localDEName) {
                     var currentDEReqHDD = value[subFrameworks].requirements.reqHDDSpace;
                     var currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
 
-                    // Screenshot - just one for now 
+                    // Screenshot - just one for now
                     var currentDEScreenshot = value[subFrameworks].screenshots.src;
 
                     // Versions
                     var versionJSON = value[subFrameworks].versions;
 
                     var currentDELatestVersion = versionJSON.latestVersion;
-                    // The point of this is "the last time I checked/updated" even some of the info 
+                    // The point of this is "the last time I checked/updated" even some of the info
                     var currentDEVerUpdated = versionJSON.updated;
 
                     // Arch
@@ -273,7 +273,7 @@ function getDesktopData(data, $localDEName) {
                     // End Version vars
                     ///////////////////////////////////////////
 
-                    // Begin Install vars 
+                    // Begin Install vars
                     var currentDEarchInstall = value[subFrameworks].install.arch;
                     var currentDEfedoraInstall = value[subFrameworks].install.fedora;
 
@@ -293,7 +293,7 @@ function getDesktopData(data, $localDEName) {
                     }
                 }
 
-            }); // Ends .each loop 
+            }); // Ends .each loop
 
         }); // ends getJSON loop
 

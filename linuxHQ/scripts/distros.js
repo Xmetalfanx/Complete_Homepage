@@ -83,16 +83,16 @@ function displayDistroOutput (
                     <div class="col d-md-inline">
 
                             <span class="font-weight-bold">Homepage: </span>
-                                <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a><br/>
+                                <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage</a><br/>
 
                             <span class="font-weight-bold">Download: </span>
-                                <a href="${currentDistroDownload}" target="_blank">${currentDistroTitle}'s Download Page</a><br/>
+                                <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page</a><br/>
 
                             <span class="font-weight-bold">Forums:</span>
-                                <a href="${currentDistroForum}" target="_blank">${currentDistroTitle}'s Forum</a><br/>
+                                <a href="${currentDistroForum}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Forum</a><br/>
 
                             <span class="font-weight-bold">Distrowatch Page: </span>
-                                <a href="${DWPage}${currentDistroName}" blank="_blank">${currentDistroTitle} Distrowatch Link
+                                <a href="${DWPage}${currentDistroName}" blank="_blank" rel='noreferrer'>${currentDistroTitle} Distrowatch Link
                                 </a>
 
                             <br />
