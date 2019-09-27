@@ -3,7 +3,8 @@
 	$pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); 
+	include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
 ?>

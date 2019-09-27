@@ -32,18 +32,14 @@
   <h2>MORE ADVANCED TOPICS</h2>
     <h4>Arch Based Tutorials</h4>
       <a href="/linuxHQ/tutorials/addingAURtoArch.php ">Adding AUR Support </a><br/>
-      <a href="/linuxHQ/tutorials/optimizingPacman.php"></a>Optimizing Pacman
-      (Manjaro or Arch)<br/>
+      <a href="/linuxHQ/tutorials/optimizingPacman.php"></a>Optimizing Pacman (Manjaro or Arch)<br/>
 
   <h4>Debian based</h4>
     <a href="http://debgen.simplylinux.ch/" target="_blank">Source List Generator</a><br/>
     <a href="https://sites.google.com/site/mydebiansourceslist" target="_blank">Additional Sources</a><br/>
     <a href="upgradingDebianBranches.php">Upgrading Debian Branches</a><br/>
-    <a href="upgradingFromDebianStable.php">Upgrading from Stable Branch</a><br/>Ubuntu based
-    &quot;Dirty&quot; Upgrading
 
-  <h4>
-    Command Line Package Management
-    Searching for Package<br/>Installing Package
-  </h4>
+    <h4>Command Line Package Management</h4>
+    Searching for Package<br/>
+    Installing Package
 </div>

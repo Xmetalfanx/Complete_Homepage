@@ -1,22 +1,22 @@
 
 h5 Graphical (GUI) Software Centers
   ul
-    li Gnome Software Center  
-    li Ubuntu/Mint Software Center 
-    li Muon Discover 
+    li Gnome Software Center
+    li Ubuntu/Mint Software Center
+    li Muon Discover
 
   h5  Graphical (GUI) Package Managers
   ul
-    li muon 
+    li muon
     li Synaptic Package Manager
-    li Apper 
+    li Apper
 
 
-.card 
+.card
   .card-block
-    .card-title CLI Package Managers 
+    .card-title CLI Package Managers
 
-    .card-text 
+    .card-text
 
       ul
         li
@@ -27,39 +27,39 @@ h5 Graphical (GUI) Software Centers
 
               ul
                 li Searching
-                  kbd sudo  pacman -Ss packageName  
+                  kbd sudo  pacman -Ss packageName
                 li  Installing
-                  kbd sudo pacman -S packageName 
+                  kbd sudo pacman -S packageName
 
             li
-              p  Updating 
+              p  Updating
               ul
                 li
-                  p.P4  &ldquo;Regular&rdquo;  Updates  
+                  p.P4  &ldquo;Regular&rdquo;  Updates
                   ul
-                    kbd sudo pacman -Syyu  
+                    kbd sudo pacman -Syyu
         li
       p yaourt
       ul
         li
-          p Searching / Installing   
+          p Searching / Installing
 
 
           ul
             li
-              kbd yaourt packageName 
+              kbd yaourt packageName
 
         li
           p(style='margin-left:0cm;')
-            | (Installing)  
+            | (Installing)
             span.T1 type number of
             span.T2 package,
             span.T3 after doing the search
 
 
   li
-    p Debian / Ubuntu  Based  
-    |         
+    p Debian / Ubuntu  Based
+    |
     ul
       li
         | apt-get
@@ -68,12 +68,12 @@ h5 Graphical (GUI) Software Centers
             | Searching
             ul
               kbd sudo apt-get search packageName
-          |               
+          |
           li
             p  Installing
-            |                 
+            |
             ul
-              kbd sudo apt-get install packageName 
+              kbd sudo apt-get install packageName
           li
             | Updating (Repo/ &apos;Software List&apos;)
             ul
@@ -85,25 +85,25 @@ h5 Graphical (GUI) Software Centers
 
             ul
               li
-                p.code sudo apt-get upgrade 
+                p.code sudo apt-get upgrade
       li
-        p aptitude 
-        |             
+        p aptitude
+        |
         ul
-          li Searching 
+          li Searching
           kbd sudo aptitude search packageName
 
           li Installing
           kbd sudo aptitude install packageName
 
   li
-    p.distroName OpenSuse 
+    p.distroName OpenSuse
     ul
       li
         p zypper
       li  Searching
 
-      li Installing  
+      li Installing
 
   li
     | Fedora
@@ -111,13 +111,13 @@ h5 Graphical (GUI) Software Centers
       li
         p dnf
 
-      li  Searching 
+      li  Searching
       kbd dnf search packageName
 
-      li  Installing 
-      kbd dnf install packageName  
+      li  Installing
+      kbd dnf install packageName
 
-      li   Updating 
+      li   Updating
       kbd dnf update packageName
 
 <?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>

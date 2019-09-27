@@ -2,15 +2,14 @@
 
 	$pageTitle = 'Tutorial Index Page';
 
-	
-  $path = getenv('DOCUMENT_ROOT'); 
-  
+  $path = getenv('DOCUMENT_ROOT');
+
   include $path . "/templates/linux/baseLinuxTutorials.tpl";
 
 
   ?>
 
-<i class="fa fa-4x fa-linux text-dark" aria-hidden="true"></i>
+<i class="fa fa-4x fa-linux text-dark" aria-hidden="true" />
 
   <br />
 
@@ -23,4 +22,4 @@
 </div> <!-- Closes second column -->
 </div> <!-- Closes the row ... what use to be mainBody in my CSS-->
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php include $path . "/modules/footer.tpl"; ?>
