@@ -1,7 +1,6 @@
 <?php
 
 	$sectionTitle= 'Web Browser Section - ';
-	$path = getenv('DOCUMENT_ROOT'); 
   include($path . '/modules/tech/baseTechHeader.tpl');
 
 ?>

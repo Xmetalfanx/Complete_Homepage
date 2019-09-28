@@ -5,7 +5,7 @@
 
 ?>
 
-  <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
+<?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
 <div class="row">
 	<div class="col-xs-12 col-md-2">
