@@ -57,7 +57,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
 
 // "main" function
 function getDistroData(data, $localDistroName) {
-    jsonURL = "http://xmetal.x10.mx/linuxHQ/json/distros.json";
+    jsonURL = "/linuxHQ/json/distros.json";
 
     // Get JSON Data
     $.getJSON(jsonURL, function(data) {
@@ -81,13 +81,11 @@ function getDistroData(data, $localDistroName) {
                 // Website
                 var currentDistroHomepage = value[distroFamily].website.homepage;
 
-
                 // Screenshot 
                 var currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
                 var currentDistroScreenshot = value[distroFamily].screenshots.src;
 
                 var currentDistroFeatured = value[distroFamily].moreinfo.featured;
-
 
                 if (currentDistroFeatured == "yes")
                 {

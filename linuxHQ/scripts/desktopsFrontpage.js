@@ -39,7 +39,7 @@ function getDesktopData(data) {
 
     $(document).ready(function() {
 
-        jsonURL = "http://xmetal.x10.mx/linuxHQ/json/desktops.json";
+        jsonURL = "/linuxHQ/json/desktops.json";
 
         // Get JSON Data
         $.getJSON(jsonURL, function(data) {

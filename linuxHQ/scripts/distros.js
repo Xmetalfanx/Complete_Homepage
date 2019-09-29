@@ -132,7 +132,7 @@ function displayDistroOutput (
 
 // "main" function
 function getDistroData (data, $localDistroName) {
-  jsonURL = 'http://xmetal.x10.mx/linuxHQ/json/distros.json';
+  jsonURL = '/linuxHQ/json/distros.json';
 
   // Get JSON Data
   $.getJSON (jsonURL, function (data) {

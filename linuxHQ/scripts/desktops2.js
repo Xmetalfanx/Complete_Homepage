@@ -200,7 +200,7 @@ function getDesktopData(data, $localDEName)
 
     $(document).ready(function() {
 
-        fetch("http://xmetal.x10.mx/linuxHQ/json/desktops.json")
+        fetch("/linuxHQ/json/desktops.json")
 
             .then(function(data) {
                     return data.json();
