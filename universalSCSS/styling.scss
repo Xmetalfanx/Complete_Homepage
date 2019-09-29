@@ -158,12 +158,6 @@ h3.feed-title {
     vertical-align: middle;
 }
 
-// what? ... i think this USE to be 48px by 48px 
-.graphicsSevenityTwo
-{
-    max-width: 72px;
-    max-height: 72px;
-}
 
 // the idea for this is to have it here vs having this basically in all card-header + boostrap4 code
 // This should cut down on code
@@ -173,4 +167,12 @@ h3.feed-title {
     background-color: $BGColor;
     font-weight: bold;
     font-size: 20px;
+}
+
+// For Image "Thumbnailing" in various sections
+.thumbnails
+{
+
+    max-width: 450px;
+    max-height: 450px;
 }

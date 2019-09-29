@@ -16,15 +16,14 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
             <div class="d-md-inline-block d-none card-text p-3">
                 <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                    <img class="d-block lazyload" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" style="
-                    width: 400px;"> 
+                    <img class="d-block lazyload thumbnails mx-auto" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
                 </a>
-                    <span class="font-weight-bold"> Distro: 
-                    ${currentDESShotDistro} 
+                    <span class="font-weight-bold"> Distro:
+                    ${currentDESShotDistro}
             </div>
         </div>
-            
-        
+
+
             `;
 
     // Main output
@@ -44,7 +43,7 @@ function getDesktopData(data) {
         // Get JSON Data
         $.getJSON(jsonURL, function(data) {
 
-            // For each key value 
+            // For each key value
             $.each(data, function(key, value) {
 
                 // The key is 'gtk2' or 'qt'
@@ -53,12 +52,12 @@ function getDesktopData(data) {
 
                 for (let subFrameworks = 0; subFrameworks < value.length; subFrameworks++) {
 
-                    // ** I need to know value and subFrameworks here 
+                    // ** I need to know value and subFrameworks here
 
                     let currentDEName = value[subFrameworks].desktopName;
                     let currentDETitle = value[subFrameworks].desktopTitle;
 
-                    // Leave this for now ... I may want to make the Title displayed a link to the homepage of the DE 
+                    // Leave this for now ... I may want to make the Title displayed a link to the homepage of the DE
                     let currentDEHomepage = value[subFrameworks].generalInfo.desktopHomepage;
 
                     // Screenshot
@@ -68,13 +67,13 @@ function getDesktopData(data) {
 
                     // End Version lets
                     ///////////////////////////////////////////////////////////////////////////////////
-                
-                    // Removing the if statement here should make it cycle through the entire JSON list 
+
+                    // Removing the if statement here should make it cycle through the entire JSON list
                     displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, currentDESShot, currentDESShotTN, currentDESShotDistro);
-                    
+
                 }
 
-            }); // Ends .each loop 
+            }); // Ends .each loop
 
         }); // ends getJSON loop
 

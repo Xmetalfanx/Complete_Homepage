@@ -16,7 +16,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
     const currentDistroSShotOutput = `
     
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block frontpageTN lazyload" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="d-none d-md-block lazyload thumbnails mx-auto" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 
@@ -26,7 +26,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
         <div class="card pb-3 align-self-start flex-fill">
             <div class="card-title m-0 p-2 bg-primary text-white">
                 <div class="row pl-3">
-                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 32px;height: 32px;">
+                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="iconSM">
                     <h4 class="font-weight-bold pl-3">${currentDistroTitle}</h4>
                 </div>
             </div>
