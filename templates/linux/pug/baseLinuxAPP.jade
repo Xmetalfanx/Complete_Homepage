@@ -1,8 +1,4 @@
-//output:baseLinuxApp.html
-
-<?php    ?>
-<?php   $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/massLinuxIncludes.tpl"; ?>
-<?php   $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/linux/linuxBaseHeader.tpl'; ?>
+<?php include $path . '/modules/linux/linuxBaseHeader.tpl'; ?>
 
 body 
 
@@ -10,6 +6,6 @@ body
 
   #mainBody.row
     .col-xs-12.col-md-2
-      <?php $path = getenv('DOCUMENT_ROOT'); include $path . '/linuxHQ/modules/sections/linuxNAppCol1.tpl'; ?>
+      <?php include $path . '/linuxHQ/modules/sections/linuxNAppCol1.tpl'; ?>
 
     .col-xs-12.col-md-10

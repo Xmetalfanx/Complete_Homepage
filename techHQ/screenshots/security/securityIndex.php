@@ -80,4 +80,4 @@
   </div>
 </div>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>

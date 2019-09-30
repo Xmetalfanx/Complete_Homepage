@@ -170,4 +170,4 @@
       </ul>
     </blockquote>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php include $path . "/modules/footer.tpl"; ?>

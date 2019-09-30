@@ -2,7 +2,6 @@
 
 	$sectionTitle = 'Software Section - ';
 
-
 	include($path .'/modules/tech/baseTechHeader.tpl');
 
 ?>

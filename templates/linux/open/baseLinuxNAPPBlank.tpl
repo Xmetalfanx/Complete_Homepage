@@ -1,7 +1,7 @@
 <?php
     
-    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/massLinuxIncludes.tpl";
-    $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/linux/linuxBaseHeader.php';
+    $path = getenv('DOCUMENT_ROOT'); 
+    include $path . '/modules/linux/linuxBaseHeader.php';
 ?>
 
 <div class="row">

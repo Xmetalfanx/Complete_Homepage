@@ -2,14 +2,13 @@
 	$pageTitle = ' Security Section Frontpage';
 
     $path = getenv('DOCUMENT_ROOT'); 
-    include $path . "/templates/tech/baseTechSecurityTemp.tpl";
+    include $path . "/templates/tech/open/baseTechSecurityTemp.tpl";
 ?>
 
 
 <h1>Security Related Items</h1>
 
-<p><img src="/TechHQ/smiles/spyware.gif" alt="spy-ware smile"/> Based on the list below, what programs (of those types) i use
-      and recommend and which one I&apos;d avoid)
+<p><img src="/TechHQ/smiles/spyware.gif" alt="spy-ware smile"/> Based on the list below, what programs (of those types) i use and recommend and which one I&apos;d avoid)
 </p>
 <p><strong>Late October 2010 Message:</strong> I have read alot of &quot;the internet is out to get you!&quot; type posts and
       articles in magazines.
@@ -80,4 +79,4 @@
   </div>
 </div>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>

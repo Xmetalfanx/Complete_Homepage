@@ -3,8 +3,12 @@
 	$pageTitle = 'Favorite Apps';
 
 	
-  $path = getenv('DOCUMENT_ROOT'); include $path . '/templates/linux/massLinuxInclude.tpl';
-  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxAPP.tpl";
+  $path = getenv('DOCUMENT_ROOT'); 
+  include $path . '/templates/linux/massLinuxInclude.tpl';
+  
+  
+  $path = getenv('DOCUMENT_ROOT'); 
+  include $path . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 
@@ -74,4 +78,4 @@
   </li>
 </ul>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php include $path . "/modules/footer.tpl"; ?>

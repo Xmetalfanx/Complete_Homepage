@@ -49,4 +49,4 @@
     </table>
     <p>&nbsp;</p>
 
-<?php  $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/footer.tpl"; ?>
+<?php  include $path . "/modules/tech/footer.tpl"; ?>

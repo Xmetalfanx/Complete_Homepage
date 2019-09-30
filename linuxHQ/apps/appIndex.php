@@ -2,8 +2,8 @@
 
     $pageTitle = 'App Section Frontpage';
 
-    
-    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxAPP.tpl";
+    $path = getenv('DOCUMENT_ROOT'); 
+    include $path . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 

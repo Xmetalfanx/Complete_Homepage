@@ -3,7 +3,8 @@
 	$pageTitle = 'Linux Myths';
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+  $path = getenv('DOCUMENT_ROOT'); 
+  include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
   ?>
@@ -23,4 +24,4 @@
   <p>IF YOU WANT to install the distribution  at that point, there is usually a &quot;Install &lt;distribution name here&gt;&quot;
    icon right on the desktop to get the install started.</p>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php include $path . "/modules/footer.tpl"; ?>

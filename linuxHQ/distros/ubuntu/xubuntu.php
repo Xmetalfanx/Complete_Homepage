@@ -1,7 +1,8 @@
 <?php
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDistro.tpl";
+  $path = getenv('DOCUMENT_ROOT'); 
+  include $path . "/templates/linux/baseLinuxDistro.tpl";
 
   $pageTitle = 'Xubuntu';
 

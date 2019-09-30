@@ -3,7 +3,8 @@
 	$pageTitle = 'Live Version Information';
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$path = getenv('DOCUMENT_ROOT'); 
+	include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
   ?>
 
@@ -39,4 +40,4 @@
 	  </div>
 	</div>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php include $path . "/modules/footer.tpl"; ?>
