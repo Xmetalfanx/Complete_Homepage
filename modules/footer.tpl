@@ -15,7 +15,7 @@
     <!-- remember in the final output to put the two closing </div> tags for the new bodyContainer and the inner bodyMain, AFTER the end of the footer-->
   </div>
  
-  <div class="col-7 d-none d-lg-flex">
+  <div class="col-7 d-none d-lg-flex justify-content-end">
     <i class="fa fa-copyright pr-4">Xmetal/Xmetalfanx 2013-*</i>
   </div>
   

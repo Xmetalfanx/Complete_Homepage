@@ -44,6 +44,12 @@
   </div>
 </div>
 
+<?php include $path . "/techHQ/modules/GAOTD.tpl"; ?>
+
+
+</div> <!-- closes right hand column -->
+</div> <!-- use main row -->
+
 
 <!-- include baseTechFooter -->
-<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
+<?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>

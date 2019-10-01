@@ -79,4 +79,10 @@
   </div>
 </div>
 
+
+
+
+</div>
+</div> 
+
 <?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>

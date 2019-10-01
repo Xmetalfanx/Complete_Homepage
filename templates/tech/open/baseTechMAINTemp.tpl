@@ -8,7 +8,7 @@
 <body>
   <?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
-	<div class="row">
+	<div class="row flex-grow-1">
 		<div class="col-xs-12 col-md-2">
 			<?php include($path . '/techHQ/modules/techMainCol1.tpl'); ?>
 		</div>

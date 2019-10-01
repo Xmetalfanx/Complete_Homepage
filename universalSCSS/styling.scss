@@ -1,11 +1,17 @@
 @import "1-custom/custom-dir";
+
 $footerheight: 75px;
+
 html,
 body {
     @include padding(0, 0, 0, 0);
-    overflow-x: hidden;
-    color: $BGColor;
     font-size: 12pt;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+
 }
 
 // For Font Awesome
@@ -47,7 +53,8 @@ code {
 footer {
     color: $white;
     background-color: $BGColor;
-    height: $footerheight;
+    max-height: $footerheight;
+        
     a:link {
         color: inherit;
         background-color: inherit;
@@ -83,6 +90,7 @@ nav {
     background-position: top;
     background-size: cover;
     background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
+    flex-grow: 1;
 
 }
 
@@ -127,15 +135,6 @@ h3.feed-title {
     @include margin(null, 20px, null, 20px);
 }
 
-//////////////////////////////////////////////////////////////////////////////
-// from Linux Section 
-// This appears to be the box around item in different sections on the main subpage
-// Is this needed? 
-.card-img-top {
-    box-shadow: 2px 2px 2px $black;
-    @include margin(10px, 10px, 10px, 10px);
-}
-
 // May not be needed if things are responsive via Boostrap 
 .YTPlaylists {
     width: 560px;
@@ -170,6 +169,7 @@ h3.feed-title {
 }
 
 // For Image "Thumbnailing" in various sections
+// Example - Screenshots on Linux Distro and Desktop homepages 
 .thumbnails
 {
 

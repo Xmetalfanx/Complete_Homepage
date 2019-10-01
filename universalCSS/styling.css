@@ -5,9 +5,12 @@
 html,
 body {
   padding: 0 0 0 0;
-  overflow-x: hidden;
-  color: #3e3f3a;
-  font-size: 12pt; }
+  font-size: 12pt;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: hidden; }
 
 i.fa,
 i.fab,
@@ -41,7 +44,7 @@ code {
 footer {
   color: white;
   background-color: #3e3f3a;
-  height: 75px; }
+  max-height: 75px; }
   footer a:link {
     color: inherit;
     background-color: inherit; }
@@ -66,7 +69,8 @@ nav {
   min-height: 40vh;
   background-position: top;
   background-size: cover;
-  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg"); }
+  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
+  flex-grow: 1; }
 
 .iconSM {
   width: 32px;
@@ -97,10 +101,6 @@ h3.feed-title {
   position: relative;
   margin: 20px 20px; }
 
-.card-img-top {
-  box-shadow: 2px 2px 2px black;
-  margin: 10px 10px 10px 10px; }
-
 .YTPlaylists {
   width: 560px;
   height: 315px; }
@@ -124,5 +124,3 @@ h3.feed-title {
 .thumbnails {
   max-width: 450px;
   max-height: 450px; }
-
-/*# sourceMappingURL=styling.css.map */

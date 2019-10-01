@@ -26,6 +26,8 @@
 </div>
 
 
+<!-- what are these for? .. needed? forgot to remove? -->
+</div> <!-- probabaly ends the left hand column -->
+</div> <!-- Ends the main row -->
 
-</div>
-</div>
+<?php include $path . "/modules/footer.tpl"; ?>
