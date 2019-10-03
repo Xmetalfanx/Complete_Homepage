@@ -7,7 +7,6 @@
     include($path . '/templates/linux/open/baseLinuxTemplate.tpl');
 ?>
 
-<div class="row">
   <div class="col-9">
     <h4>Introduction</h4>
     <p>Hello, I'd like to give a little background about my  experience with Linux, before you start browsing my site, to get a sense for where I am coming from. For a number of years now , I have been using Linux to some degree, and  have been using it more and more, while using  Windows less and less.</p>
@@ -23,11 +22,8 @@
     <!-- Distrowatch RSS Feed -->
     <?php include $path . "/linuxHQ/modules/distrowatch.tpl"; ?>
   </div>
-</div>
 
 
-<!-- what are these for? .. needed? forgot to remove? -->
-</div> <!-- probabaly ends the left hand column -->
 </div> <!-- Ends the main row -->
 
 <?php include $path . "/modules/footer.tpl"; ?>
