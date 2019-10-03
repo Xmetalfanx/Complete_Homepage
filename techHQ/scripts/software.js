@@ -100,6 +100,7 @@ function softwareData (data) {
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
+                 <div class=\"card \"> 
                   <div class=\"card-header text-white py-1 col-12\">
                     <div class=\"row py-2\">
                       <div class=\"col-7\">
@@ -112,7 +113,8 @@ function softwareData (data) {
                         ${platformDisplay}
                       </div>
                     </div>
-                  </div>`;
+                  </div>
+                  `;
 
                 const screenshotDisplay = `<img src="${screenshot}" alt="${progName} screenshot" />`;
 
