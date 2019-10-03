@@ -20,3 +20,12 @@
 <div class="card">
   <div class="card-header bg-primary text-white">Cursors</div>
 </div>
+
+<div class="card">
+  <div class="card-header bg-primary text-white">External Links</div>
+
+  <a href="https://www.deviantart.com/" target="_blank" aria-label="Deviant Art Site Link">
+    <i class="fa fa-4x text-dark m-2 fa-deviantart" aria-hidden="true"></i>
+
+   DeviantArt </a>
+</div>
