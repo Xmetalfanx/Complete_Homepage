@@ -1,6 +1,6 @@
 <!-- Start of SearchBox DIV -->
 
-<div class="py-3 mx-auto">
+<div class="d-none d-md-block py-3 mx-auto">
 
     <!-- Search Bar -->
     <form action="http://startpage.com/do/search" method="post" name="metasearch" target="_blank" onsubmit="javascript:document.metasearch.query.value=document.metasearch.keyword.value;" accept-charset="UTF-8" >
