@@ -37,7 +37,7 @@ function browserData(data) {
         // "Things DO GET HERE, successfully"
         // console.log("Inside softwareData function in JS");
 
-        browserJSONUrl = "http://xmetal.x10.mx/techHQ/json/browsers.json";
+        browserJSONUrl = "/techHQ/json/browsers.json";
 
         // Get JSON Data
         $.getJSON(browserJSONUrl, function(data) {

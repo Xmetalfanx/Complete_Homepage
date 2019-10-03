@@ -10,7 +10,7 @@ const wineIcon = '<img src="/techHQ/platforms/wine.svg " alt="Wine Icon" style="
 // Where is "data" coming from?
 function softwareData (data) {
   $ (document).ready (function () {
-    const softwareJSONUrl = 'http://xmetal.x10.mx/techHQ/json/software.json';
+    const softwareJSONUrl = '/techHQ/json/software.json';
 
     // Get JSON Data
     // note: this IS jquery and if Bootstrap 5 removes the need for Jquery, i may remove it too ... i'd need another way at that point
