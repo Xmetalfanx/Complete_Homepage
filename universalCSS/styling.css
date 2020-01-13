@@ -6,11 +6,17 @@ html,
 body {
   padding: 0 0 0 0;
   font-size: 12pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 i.fa,
 i.fab,
@@ -19,50 +25,68 @@ i.fas {
   background-color: transparent;
   margin-top: auto;
   margin-bottom: auto;
-  padding: 0 0 0 10px; }
-  i.fa a:link,
-  i.fab a:link,
-  i.fas a:link {
-    text-decoration: none;
-    color: inherit; }
+  padding: 0 0 0 10px;
+}
+
+i.fa a:link,
+i.fab a:link,
+i.fas a:link {
+  text-decoration: none;
+  color: inherit;
+}
 
 a:link,
 a:visited {
   background-color: inherit;
-  color: navy; }
+  color: navy;
+}
 
 .card-header a:link,
 .card-header a:visited {
   background-color: transparent;
-  color: white; }
+  color: white;
+}
 
 code {
   color: white;
   display: inline-block;
-  background-color: #3e3f3a; }
+  background-color: #3e3f3a;
+}
 
 footer {
   color: white;
   background-color: #3e3f3a;
-  max-height: 75px; }
-  footer a:link {
-    color: inherit;
-    background-color: inherit; }
+  max-height: 75px;
+}
+
+footer a:link {
+  color: inherit;
+  background-color: inherit;
+}
 
 nav {
   color: white;
-  background-color: #3e3f3a; }
-  nav .navbar-brand {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 0 0 0 10px; }
-  nav .navbar-nav a:link {
-    font-size: 22px; }
-  nav .nav-tabs {
-    background-color: white; }
+  background-color: #3e3f3a;
+  text-shadow: 2px 5px #333333;
+}
+
+nav .navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0 0 0 10px;
+}
+
+nav .navbar-nav a:link {
+  font-size: 22px;
+}
+
+nav .nav-tabs {
+  background-color: white;
+}
 
 .smallText {
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 .coverImage {
   display: block;
@@ -70,57 +94,77 @@ nav {
   background-position: top;
   background-size: cover;
   background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
-  flex-grow: 1; }
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
 
 .iconSM {
   width: 32px;
-  height: 32px; }
+  height: 32px;
+}
 
 .iconLG {
   width: 48px;
-  height: 48px; }
+  height: 48px;
+}
 
 h3.feed-title {
   color: white;
   background-color: #3e3f3a;
-  padding: 1% 0 1% 1%; }
+  padding: 1% 0 1% 1%;
+}
 
 .feed-iten-desc {
-  padding: 1% 1% 1% 1%; }
+  padding: 1% 1% 1% 1%;
+}
 
 .feed-item-title {
-  padding: 1% 1% 0 5px; }
-  .feed-item-title a:link,
-  .feed-item-title a:hover,
-  .feed-item-title a:visited {
-    color: #3e3f3a;
-    background-color: inherit;
-    font-size: 15px; }
+  padding: 1% 1% 0 5px;
+}
+
+.feed-item-title a:link,
+.feed-item-title a:hover,
+.feed-item-title a:visited {
+  color: #3e3f3a;
+  background-color: inherit;
+  font-size: 15px;
+}
 
 .icon {
   position: relative;
-  margin: 20px 20px; }
+  margin: 20px 20px;
+}
 
 .YTPlaylists {
   width: 560px;
-  height: 315px; }
+  height: 315px;
+}
 
 .w-33 {
-  width: 33%; }
+  width: 33%;
+}
 
 .SPHeightIconInput {
-  height: 35px; }
+  height: 35px;
+}
 
 .SPSearchIcon {
   height: 33px;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .card-header {
   color: white;
   background-color: #3e3f3a;
   font-weight: bold;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .thumbnails {
   max-width: 450px;
-  max-height: 450px; }
+  max-height: 450px;
+  -webkit-box-shadow: 2px 2px 3px #000000;
+          box-shadow: 2px 2px 3px #000000;
+}
+/*# sourceMappingURL=styling.css.map */

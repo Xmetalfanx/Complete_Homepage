@@ -11,6 +11,8 @@
 
     <!-- Header "navigation"-->
     <?php include 'modules/frontnav.tpl'; ?>
+
+    <!-- Graphic -->
     <div class="d-none d-lg-block coverImage">    </div>
 
 
