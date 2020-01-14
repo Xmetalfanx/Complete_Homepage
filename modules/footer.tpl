@@ -1,5 +1,5 @@
 
-<footer class="row col-12 py-3 mx-0">
+<footer class="row py-3">
   <div class="col-3 d-flex">Site made with:
     
     <!-- HTML 5-->
@@ -26,7 +26,17 @@
   <a href="https://github.com/Xmetalfanx" aria-label="Xmetalfanx Github Page" target="_blank" rel="noopener">
   <i class="fa fa-github fa-2x mr-4"></i></a>
   
-  <a href="https://bitbucket.org/%7B1f3bbcd5-12ee-42d1-bdc4-cef9f90590b0%7D/" aria-label="Xmetalfanx Bitbucket Page" target="_blank" rel="noopener"><i class="fa fa-bitbucket fa-2x"></i></a><a href="https://diasp.org/people/4b26d930adc40136164e047d7b62795e" target="_blank" aria-label="Xmetalfanx on Diaspora" rel="noopener"><i class="fa fa-diaspora fa-2x"></i></a><a href="https://mastodon.social/@xmetal" aria-label="Xmetalfanx on Mastedon" target="_blank" rel="noopener"><i class="fa fa-mastodon fa-2x"></i></a>      <a href="https://twitter.com/Xmetalfanx" aria-label="Xmetalfanx on Twitter" target="_blank" rel="noopener"><i class="fa fa-twitter fa-2x"></i></a>      <a href="https://www.youtube.com/user/Xmetalfanx" aria-label="Xmetalfanx's Youtube Page" target="_blank" rel="noopener"><i class="fa fa-youtube fa-2x"></i></a></div>
+  <a href="https://bitbucket.org/%7B1f3bbcd5-12ee-42d1-bdc4-cef9f90590b0%7D/" aria-label="Xmetalfanx Bitbucket Page" target="_blank" rel="noopener">
+  <i class="fa fa-bitbucket fa-2x"></i></a>
+  
+  <a href="https://twitter.com/Xmetalfanx" aria-label="Xmetalfanx on Twitter" target="_blank" rel="noopener">
+  <i class="fa fa-twitter fa-2x"></i></a>      
+  
+  <a href="https://www.youtube.com/user/Xmetalfanx" aria-label="Xmetalfanx's Youtube Page" target="_blank" rel="noopener">
+  <i class="fa fa-youtube fa-2x"></i>
+  </a>
+  
+  </div>
 </footer>
 
 

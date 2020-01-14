@@ -4,14 +4,7 @@ $footerheight: 75px;
 
 html,
 body {
-    @include padding(0, 0, 0, 0);
     font-size: 12pt;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    height: 100%;
-    overflow-x: hidden;
-
 }
 
 // For Font Awesome
@@ -54,7 +47,8 @@ footer {
     color: $white;
     background-color: $BGColor;
     max-height: $footerheight;
-    @include padding(0, 10px, 0, 0)
+    @include padding(0, 10px, 0, 10px);
+    @include margin(0, 10px, 0, 10px);
         
     a:link {
         color: inherit;
