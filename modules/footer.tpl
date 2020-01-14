@@ -1,5 +1,5 @@
 
-<footer class="row col-12 pl-4 py-3 mx-0">
+<footer class="row col-12 py-3 mx-0">
   <div class="col-3 d-flex">Site made with:
     
     <!-- HTML 5-->
