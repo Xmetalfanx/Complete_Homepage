@@ -17,7 +17,8 @@
   </div>
   
   <div class="col-8 d-none d-lg-block text-right">
-    <i class="fa fa-copyright pr-4 justify-content-end">Xmetal/Xmetalfanx 2013-*</i>
+    <div class="pr-4 justify-content-end">Xmetal/Xmetalfanx 2013-*
+    </div>
     
     <a href="https://gitlab.com/Xmetal" aria-label="Xmetalfanx Gitlab Page" target="_blank" rel="noopener">
     <i class="fa fa-gitlab fa-2x"></i></a> 
