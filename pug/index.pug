@@ -1,3 +1,4 @@
+//output:index.html
 
 doctype html
 html(lang="en")
@@ -12,32 +13,35 @@ html(lang="en")
 		link(href='/universalCSS/styling.css', rel='stylesheet', type='text/css', media='all')
 
 	body 
-		.mx-auto
-			// Header "navigation"
-			<?php include 'modules/frontnav.tpl'; ?>
-			
-			.d-none.d-lg-block.coverImage
+		// Header "navigation"
+		<?php include 'modules/frontnav.tpl'; ?>
+		
+		.d-none.d-lg-block.coverImage
 				
-			.row.px-3.text-justify
-				.col-6
-					div.font-weight-bold October 28th 2018 Update
-					div Removed Icon/reference to my old Google+ account which I removed for good earlier tonight ... most people I know on Google+ were going to other platforms anyway, and Google+ is closing for good, soon, so I closed my account down ahead of time 
-					
+		.row
+			.col-6
+				div.font-weight-bold October 28th 2018 Update
+				div Removed Icon/reference to my old Google+ account which I removed for good earlier tonight ... most people I know on Google+ were going to other platforms anyway, and Google+ is closing for good, soon, so I closed my account down ahead of time 
+				
 
-				.col-6
-					a(href='https://github.com/Xmetalfanx', target='_blank', rel="noopener")
-						i.fab.fa-github.fa-2x.fa-inverse
+			.col-6
+				a(href='https://github.com/Xmetalfanx', target='_blank', rel="noopener")
+					i.fab.fa-github.fa-2x.fa-inverse
 
-					div.font-weight-bold My Github Other Github project
+				div.font-weight-bold My Github Other Github project
 
-					a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank", rel="noopener") LinuxSetup
-					| - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
-					br
-					br
+				a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank", rel="noopener") LinuxSetup
+				| - Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus.   This includes adding well known third party repos, enabling coming setings not set by default, and adding common software in one shot
+				br
+				br
 
-					a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank", rel="noopener") LinuxThemeing
-					|  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
+				a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank", rel="noopener") LinuxThemeing
+				|  This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
 
-					| This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
+				| This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
+
+	// For Lazy Loading
+	script(src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js")
+
 
 	<?php include 'modules/footer.tpl'; ?>

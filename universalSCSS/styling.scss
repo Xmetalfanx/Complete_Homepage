@@ -47,8 +47,8 @@ footer {
     color: $white;
     background-color: $BGColor;
     max-height: $footerheight;
-    @include padding(0, 10px, 0, 10px);
-    @include margin(0, 10px, 0, 10px);
+    @include padding(10px, 20px, 10px, 20px);
+    @include margin(0, 0, 0, 0);
         
     a:link {
         color: inherit;
