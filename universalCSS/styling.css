@@ -5,6 +5,7 @@
 html,
 body {
   font-size: 12pt;
+  overflow-x: hidden;
 }
 
 i.fa,
