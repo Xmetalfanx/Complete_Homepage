@@ -7,10 +7,10 @@
 
 
 <body onload="softwareData()">
- 
-  <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
+	<div class="flexContainer">
+	<?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
-	<div class="row">
+	<div class="row mainSection">
 		<div class="col-xs-12 col-md-2">
 			<?php include $path . '/techHQ/modules/techSoftwareCol1.tpl'; ?>
 		</div>
@@ -21,9 +21,10 @@
 		</div>
 	</div>
 
-<!-- Call to my software.js file here --> 
-<script src="/techHQ/scripts/software.js"></script>
+<!-- Call to my software.js file here -->
+<script src="/techHQ/scripts/software.js">
+</script>
 <script src="/scripts/lazysizes.min.js"></script>
 
 <!-- include baseTechFooter -->
-<?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
+<?php include $path . '/modules/footer.tpl'; ?>

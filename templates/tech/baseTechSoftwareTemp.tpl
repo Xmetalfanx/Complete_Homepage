@@ -7,21 +7,21 @@
 ?>
 
 <body onload="softwareData()">
- 
-  <?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
+	<div class="flexContainer">
+		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
-	<div class="row">
-		<div class="col-xs-12 col-md-2">
-			<?php include($path . '/techHQ/modules/techSoftwareCol1.tpl'); ?>
-		</div>
+			<div class="row mainSection">
+				<div class="col-xs-12 col-md-2">
+					<?php include($path . '/techHQ/modules/techSoftwareCol1.tpl'); ?>
+				</div>
 
-		<div id="softwareSection" class="col-xs-12 col-md-10">
+				<div id="softwareSection" class="col-xs-12 col-md-10">
 
-		</div>
-	</div>
+				</div>
+			</div>
 
 
-<!-- include baseTechFooter -->
-<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
+		<!-- include baseTechFooter -->
+		<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
 
-<script src="/techHQ/scripts/software.js"></script>
+	<script src="/techHQ/scripts/software.js"></script>

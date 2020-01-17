@@ -38,3 +38,5 @@
 </footer>
 
 <script src="/scripts/lazysizes.min.js"></script>
+<!-- Ends flexContainer -->
+</div> 

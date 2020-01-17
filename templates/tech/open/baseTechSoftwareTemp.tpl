@@ -8,13 +8,13 @@
 <script src="/techHQ/scripts/software.js"></script>
 
 <body onload="softwareData()">
+	<div class="flexContainer">
+		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
-  <?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
-
-	<div class="row">
-		<div class="col-xs-12 col-md-2">
-			<?php include($path . '/techHQ/modules/techSoftwareCol1.tpl'); ?>
-		</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-2">
+					<?php include($path . '/techHQ/modules/techSoftwareCol1.tpl'); ?>
+				</div>
 
 
-		<div id="softwareSection" class="col-xs-12 col-md-10">
+				<div id="softwareSection" class="col-xs-12 col-md-10">

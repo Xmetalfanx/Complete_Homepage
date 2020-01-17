@@ -7,9 +7,11 @@
 ?>
 
 <body onload="getDistroData()">
+  <div class="flexContainer">
+
   <?php require$path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
-<div class="row flex-grow-1">
+<div class="row mainSection">
     <div class="col-xs-12 col-md-2">
       <?php require $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>

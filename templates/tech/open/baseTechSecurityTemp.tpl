@@ -6,12 +6,14 @@
 ?>
 
 <body>
-  <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
+    <div class="flexContainer">
 
-  <div class="row">
-    <div class="col-xs-12 col-md-2">
+    <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
-      <?php include $path . '/techHQ/modules/techSecurityCol1.tpl'; ?>
-    </div>
+    <div class="row mainSection">
+      <div class="col-xs-12 col-md-2">
 
-    <div class="col-xs-12 col-md-10">
+        <?php include $path . '/techHQ/modules/techSecurityCol1.tpl'; ?>
+      </div>
+
+      <div class="col-xs-12 col-md-10">

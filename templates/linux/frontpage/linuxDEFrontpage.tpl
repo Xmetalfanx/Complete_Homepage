@@ -7,18 +7,19 @@
 ?>
 
 <body onload="getDesktopData()">
+  <div class="flexContainer">
 
-<?php include ($path . '/modules/linux/linuxNavMenu.tpl'); ?>
+    <?php include ($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
-<div class="row flex-grow-1">
-  <div class="col-xm-12 col-md-2">
-    <?php include($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
-  </div>
-  <div class="col-xm-12 col-md-10 d-flex justify-content-between flex-wrap" id="desktopSection">
+    <div class="row mainSection">
+      <div class="col-xm-12 col-md-2">
+        <?php include($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
+      </div>
+      <div class="col-xm-12 col-md-10 d-flex justify-content-between flex-wrap" id="desktopSection">
 
-  </div>
-</div>
-  
-<script src="/linuxHQ/scripts/desktopsFrontpage.js"></script>
+      </div>
+    </div>
 
-<?php include($path . "/modules/footer.tpl"); ?>
+    <script src="/linuxHQ/scripts/desktopsFrontpage.js"></script>
+
+  <?php include($path . "/modules/footer.tpl"); ?>

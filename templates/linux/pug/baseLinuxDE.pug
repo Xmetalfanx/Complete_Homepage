@@ -4,11 +4,9 @@ include $path . '/modules/linux/linuxBaseHeader.tpl';
 ?>
 
 body(onload="getDesktopData()" )
-  #bodyContainer
-    #bodyMain
-
+  .flexContainer
       <?php include 'linuxNavMenu.tpl'; ?>
-      .row
+      .row.mainSection
         .col-xm-12.col-md-2
           <?php include $path . '/linuxHQ/modules/section/linuxNDesktopEnvCol1.tpl'; ?>
 

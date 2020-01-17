@@ -8,7 +8,9 @@
 <!-- the purpose of this template seems to be to have a template for the LinuxHQ section that doesn't have any Col1 columns -->
 
 <body>
+<div class="flexContainer">
+
   <?php require $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <!-- now does this mean I need to add an extra closing </div> to files using this? -->
-  <div class="row flex-grow-1">
+  <div class="row mainSection">
