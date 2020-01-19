@@ -4,9 +4,9 @@ var distroResults = document.getElementById("distroSection");
 var myPage = "/linuxHQ/distro/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
-function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN) 
+function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN)
 {
-    // Screenshot vars 
+    // Screenshot vars
     var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
     var distroSShotTNPath = distroSShotPath + 'thumbnails/';
 
@@ -14,9 +14,9 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
     // Template Literal for output
 
     const currentDistroSShotOutput = `
-    
+
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block lazyload thumbnails mx-auto" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="d-none d-md-block lazyload thumbnails mx-auto shadow" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 
@@ -30,20 +30,20 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
                     <h4 class="font-weight-bold pl-3">${currentDistroTitle}</h4>
                 </div>
             </div>
-            
+
             <div class="card-text p-2">
                 <div class="row">
                     <div class="col d-md-inline">
                         <span class="font-weight-bold">Homepage: </span>
-                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a> 
+                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>
                             ${currentDistroSShotOutput}
-                    
+
                         </div>
-                        
+
                     </div>
 
                     <br />
-                    <hr />     
+                    <hr />
 
                 </div>
             </div>
@@ -81,7 +81,7 @@ function getDistroData(data, $localDistroName) {
                 // Website
                 var currentDistroHomepage = value[distroFamily].website.homepage;
 
-                // Screenshot 
+                // Screenshot
                 var currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
                 var currentDistroScreenshot = value[distroFamily].screenshots.src;
 
@@ -94,7 +94,7 @@ function getDistroData(data, $localDistroName) {
                 }
             }
 
-        }); // Ends .each loop 
+        }); // Ends .each loop
 
     }); // ends getJSON loop
 }

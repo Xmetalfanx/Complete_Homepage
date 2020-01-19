@@ -169,7 +169,5 @@ h3.feed-title {
 .thumbnails {
   max-width: 450px;
   max-height: 450px;
-  -webkit-box-shadow: 2px 2px 3px #000000;
-          box-shadow: 2px 2px 3px #000000;
 }
 /*# sourceMappingURL=styling.css.map */

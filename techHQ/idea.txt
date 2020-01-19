@@ -1,9 +1,0 @@
-TechHQ Open Templates 
-
-I need to have the main row (with left column and main content) closed 
-
-THEN the bottom-like footer - it's own row
-
-THEN the startpage code - it's own row
-
-THEN THE END of the 

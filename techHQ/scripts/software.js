@@ -100,7 +100,7 @@ function softwareData (data) {
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
-                 <div class=\"card \"> 
+                 <div class=\"card card-border border-dark shadow\">
                   <div class=\"card-header text-white py-1 col-12\">
                     <div class=\"row py-2\">
                       <div class=\"col-7\">
@@ -120,10 +120,10 @@ function softwareData (data) {
 
 
                 ////////////////////////////////////////////////////////////////////////////////////////////////
-                // Displaying 
+                // Displaying
                 softwareOutput.insertAdjacentHTML (
                   'beforeend',
-                  '<div class="card border border-dark mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
+                  '<div class="mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
 
 
                 if(worksOnWine == true)

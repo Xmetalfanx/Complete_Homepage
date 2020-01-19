@@ -16,7 +16,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
             <div class="d-md-inline-block d-none card-text p-3">
                 <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                    <img class="d-block lazyload thumbnails mx-auto" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
+                    <img class="d-block lazyload thumbnails mx-auto shadow" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
                 </a>
                     <span class="font-weight-bold"> Distro:
                     ${currentDESShotDistro}

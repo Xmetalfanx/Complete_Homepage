@@ -1,9 +1,7 @@
 
-<div class="card">
-  <div class="card-header bg-primary text-white">
-    Desktops Environments
-  </div>
-  
+<div class="card shadow">
+  <div class="card-header"> Desktops Environments</div>
+
   <a href="/linuxHQ/desktops/budgie.php">Budgie-Desktop</a>
   <a href="/linuxHQ/desktops/cinnamon.php">Cinnamon</a>
   <a href="/linuxHQ/desktops/gnome.php">Gnome-shell</a>
@@ -15,8 +13,8 @@
   <a href="/linuxHQ/desktops/XFCE.php">XFCE</a>
 </div>
 
-<div class="card">
-  <div class="card-header bg-primary text-white">Others </div>
+<div class="card shadow">
+  <div class="card-header">Others </div>
   <a href="/linuxHQ/newUserHQ/DesktopE.php">Desktop Environment FAQs</a>
   <a href="/linuxHQ/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion) </a>
 </div>

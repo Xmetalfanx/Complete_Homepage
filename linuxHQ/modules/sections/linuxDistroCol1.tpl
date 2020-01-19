@@ -1,6 +1,6 @@
 
 
-<div class="card">
+<div class="card shadow">
   <div class="card-header bg-primary text-white">Arch Family</div>
   
   <a href="/linuxHQ/distros/arch/archLinux.php">Arch Linux</a>
@@ -9,7 +9,7 @@
   <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a>
 </div>
 
-<div class="card">
+<div class="card shadow">
   <div class="card-header bg-primary text-white">Debian Family</div>
   
   <a href="/linuxHQ/distros/debian/antix.php">Anti-X</a>
@@ -24,7 +24,7 @@
   <a href="/linuxHQ/distros/debian/sparkylinux.php">Sparky Linux </a>
 </div>
 
-<div class="card"> 
+<div class="card shadow">
   <div class="card-header bg-primary text-white">Ubuntu Related </div>
   
   <a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a>
@@ -43,9 +43,9 @@
   <a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a>
 </div>
 
-<div class="card">
+<div class="card shadow">
   <div class="card-header bg-primary text-white">RPM Based</div>
-  
+
   <span>Fedora based </span>
   <a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a>
   <a href="/linuxHQ/distros/rpm/korora.php">Korora</a>
@@ -62,14 +62,14 @@
   <a href="/linuxHQ/distros/rpm/ROSA.php">ROSA</a>
 </div>
 
-<div class="card">
+<div class="card shadow">
   <div class="card-header bg-primary text-white">Gentoo Family</div>
   <a href="/linuxHQ/distros/gentoo/calculate.php">Calculate Linux</a>
   <a href="/linuxHQ/distros/gentoo/gentoo.php">Gentoo</a>
   <a href="/linuxHQ/distros/gentoo/sabayon.php">Sabayon</a>
 </div>
 
-<div class="card"> 
+<div class="card shadow">
   <div class="card-header bg-primary text-white">Misc. Distros </div>
   
   <a href="/linuxHQ/distros/independent/solus.php">Solus</a>
@@ -77,7 +77,7 @@
   <a href="/linuxHQ/distros/independent/puppyLinux.php">Puppy Linux</a>
 </div>
 
-<div class="card"> 
+<div class="card shadow">
   <div class="card-header bg-primary text-white">Slackware based</div>
   
   <a href="#">Salix</a><a href="#">Slackware</a>

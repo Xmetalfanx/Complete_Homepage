@@ -7,7 +7,7 @@
 
   ?>
 
-<i class="fa fa-4x fa-linux text-dark" aria-hidden="true" />
+<i class="fa fa-4x fa-linux text-dark" aria-hidden="true" /></i>
 
 <br />
 
