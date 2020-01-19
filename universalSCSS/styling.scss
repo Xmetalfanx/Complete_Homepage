@@ -4,113 +4,113 @@ $footerheight: 75px;
 
 html,
 body {
-    font-size: 12pt;
-    width: 100%;
-    height: 100%;
-    
+  font-size: 12pt;
+  width: 100%;
+  height: 100%;
 }
 
-.flexContainer
-{
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 
-    .mainSection
-    {
-        flex-grow: 1;
-    }
+  .mainSection {
+    flex-grow: 1;
+  }
 }
 
 // For Font Awesome
 i.fa,
 i.fab,
 i.fas {
-    color: $white;
-    background-color: transparent;
-    margin-top: auto;
-    margin-bottom: auto;
-    @include padding(0, 0, 0, 10px);
-    a:link {
-        text-decoration: none;
-        color: inherit;
-    }
+  color: $white;
+  background-color: transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+  @include padding(0, 0, 0, 10px);
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 a:link,
 a:visited {
-    background-color: inherit;
-    color: $navy;
+  background-color: inherit;
+  color: $navy;
 }
 
-// For Card Headers with Navy links on Dark Grey background issue
+
 .card-header {
-    a:link,
-    a:visited {
-        background-color: transparent;
-        color: white;
+    color: $white;
+    background-color: $BGColor;
+    font-weight: bold;
+    font-size: 20px;
+
+            a:link, a:visited {
+            background-color: transparent;
+            color: white;
+        }
     }
-}
 
 code {
-    color: $white;
-    display: inline-block;
-    background-color: $BGColor;
+  color: $white;
+  display: inline-block;
+  background-color: $BGColor;
 }
 
 footer {
-    color: $white;
-    background-color: $BGColor;
-    max-height: $footerheight;
-    @include padding(10px, 20px, 10px, 20px);
-    @include margin(0, 0, 0, 0);
-        
-    a:link {
-        color: inherit;
-        background-color: inherit;
-    }
+  color: $white;
+  background-color: $BGColor;
+  max-height: $footerheight;
+  @include padding(10px, 20px, 10px, 20px);
+  @include margin(0, 0, 0, 0);
+
+  a:link {
+    color: inherit;
+    background-color: inherit;
+  }
 }
 
 // Nav: for the entire header
 nav {
-    color: $white;
-    background-color: $BGColor; // This is for the Text "header" on the left, when at full screen
-    text-shadow: 2px 5px #333333;
+  color: $white;
+  background-color: $BGColor; // This is for the Text "header" on the left, when at full screen
+  text-shadow: 2px 5px #333333;
 
-    .navbar-brand {
-        font-size: 36px; // really shouldn't have any major padding effect other than pushing the menus over from the far left
-        // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it
-        font-weight: bold;
-        @include padding(0, 0, 0, 10px);
-    } // This is for the navigation menus on the right, when at full screen
-    .navbar-nav a:link {
-        font-size: 22px;
-    }
-    .nav-tabs {
-        background-color: $white;
-    }
+  .navbar-brand {
+    font-size: 36px; // really shouldn't have any major padding effect other than pushing the menus over from the far left
+    // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it
+    font-weight: bold;
+    @include padding(0, 0, 0, 10px);
+  } // This is for the navigation menus on the right, when at full screen
+  .navbar-nav a:link {
+    font-size: 22px;
+  }
+  .nav-tabs {
+    background-color: $white;
+  }
 }
 
 .smallText {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .coverImage {
-    background-position: top;
-    background-size: cover;
-    background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
-    min-height: 250px;
-
+  background-position: top;
+  background-size: cover;
+  background-image: url("/graphics/herobg/01540_driftwood_1280x720.jpg");
+  min-height: 250px;
 }
 
 .iconSM {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .iconLG {
-    width: 48px;
-    height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 ////////////////////////////////////////////////////////
@@ -118,75 +118,62 @@ nav {
 // idea: could i switch the colors below to "inherit"?
 // Main title
 h3.feed-title {
-    color: $white;
-    background-color: $BGColor;
-    @include padding(1%, 0, 1%, 1%);
+  color: $white;
+  background-color: $BGColor;
+  @include padding(1%, 0, 1%, 1%);
 }
 
 .feed-iten-desc {
-    @include padding(1%, 1%, 1%, 1%);
+  @include padding(1%, 1%, 1%, 1%);
 }
 
 .feed-item-title {
-    // This controls the padding the links
-    @include padding(1%, 1%, 0, 5px);
-    a:link,
-    a:hover,
-    a:visited {
-        color: $BGColor;
-        background-color: inherit;
-        font-size: 15px;
-    }
+  // This controls the padding the links
+  @include padding(1%, 1%, 0, 5px);
+  a:link,
+  a:hover,
+  a:visited {
+    color: $BGColor;
+    background-color: inherit;
+    font-size: 15px;
+  }
 }
 
 .icon {
-    position: relative;
-    @include margin(null, 20px, null, 20px);
+  position: relative;
+  @include margin(null, 20px, null, 20px);
 }
 
-// May not be needed if things are responsive via Boostrap 
+// May not be needed if things are responsive via Boostrap
 .YTPlaylists {
-    width: 560px;
-    height: 315px;
+  width: 560px;
+  height: 315px;
 }
 
 .w-33 {
-    width: 33%;
+  width: 33%;
 }
 
-// For the SP icon and input box 
-.SPHeightIconInput
-{
-    height: 35px;
+// For the SP icon and input box
+.SPHeightIconInput {
+  height: 35px;
 }
 
-.SPSearchIcon
-{
-    height: 33px;
-    vertical-align: middle;
+.SPSearchIcon {
+  height: 33px;
+  vertical-align: middle;
 }
 
-.card
-{
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.50);
+.card {
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-// the idea for this is to have it here vs having this basically in all card-header + boostrap4 code
-// This should cut down on code
-.card-header
-{
-    color: $white;
-    background-color: $BGColor;
-    font-weight: bold;
-    font-size: 20px;
-}
+
 
 // For Image "Thumbnailing" in various sections
-// Example - Screenshots on Linux Distro and Desktop homepages 
-.thumbnails
-{
-    max-width: 450px;
-    max-height: 450px;
-    box-shadow: 2px 2px 3px #000000;
-    
+// Example - Screenshots on Linux Distro and Desktop homepages
+.thumbnails {
+  max-width: 450px;
+  max-height: 450px;
+  box-shadow: 2px 2px 3px #000000;
 }

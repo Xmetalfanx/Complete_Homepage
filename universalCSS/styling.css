@@ -49,8 +49,14 @@ a:visited {
   color: navy;
 }
 
-.card-header a:link,
-.card-header a:visited {
+.card-header {
+  color: white;
+  background-color: #3e3f3a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-header a:link, .card-header a:visited {
   background-color: transparent;
   color: white;
 }
@@ -163,13 +169,6 @@ h3.feed-title {
 .card {
   -webkit-box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.card-header {
-  color: white;
-  background-color: #3e3f3a;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 .thumbnails {
