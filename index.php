@@ -5,11 +5,16 @@
   </head>
   <body> 
     <div class="flexContainer">
-      <!-- Header "navigation"--><?php include 'modules/frontnav.tpl'; ?>
+      <!-- Header "navigation"-->
+      <?php include 'modules/frontnav.tpl'; ?>
       <div class="mainSection">
         <div class="d-none d-lg-block coverImage"></div>
-        <div class="font-weight-bold">Jan 19, 2020 Update</div>
-        <div>After focusing a bit on my Linux Setup Scripts, i am now fixing UI issues, and continuing to complete the site and optimize things where needed.</div>
+
+        <div class="px-3">
+          <div class="font-weight-bold">Jan 19, 2020 Update</div>
+          <div>After focusing a bit on my Linux Setup Scripts, i am now fixing UI issues, and continuing to complete the site and optimize things where needed.</div>
+        </div>
+
         <div class="row py-5">
           <div class="col-md-6">
             <div class="card shadow mx-auto w-75">
