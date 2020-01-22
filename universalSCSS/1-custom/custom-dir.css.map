@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AEAA,YAAY;ACAZ,WAAW;ACAX,YAAY;ACyBZ,sBAAsB",
+    "sources": [
+        "custom-dir.scss",
+        "0-vars/vars-dir.scss",
+        "0-vars/_colors.scss",
+        "0-vars/_fonts.scss",
+        "0-vars/_images.scss",
+        "0-vars/_mixins.scss"
+    ],
+    "names": [],
+    "file": "custom-dir.css"
+}
