@@ -16,7 +16,5 @@
 
     <?php include $path . '/modules/headerInclude.tpl'; ?>
 
-    <!-- Universal CSS file-->
-    <link href="/universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
   </title>
 </head>
