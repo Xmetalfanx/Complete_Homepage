@@ -25,6 +25,7 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  max-width: 100%;
 }
 
 i.fa,
@@ -57,7 +58,8 @@ a:visited {
   font-size: 20px;
 }
 
-.card-header a:link, .card-header a:visited {
+.card-header a:link,
+.card-header a:visited {
   background-color: transparent;
   color: white;
 }
@@ -178,12 +180,13 @@ h3.feed-title {
   min-height: 325px;
 }
 
-.carousel .carousel-control-prev, .carousel .carousel-control-next {
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
   width: 56%;
 }
 
 .carousel .carousel-item img {
   max-width: 500px;
-  max-height: auto;
+  max-height: 500px;
 }
 /*# sourceMappingURL=styling.css.map */

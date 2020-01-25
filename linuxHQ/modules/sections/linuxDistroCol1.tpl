@@ -1,17 +1,27 @@
 
+<div class="card mx-auto bg-primary">
+   <a class="text-white" data-toggle="collapse" href="#archFamily" role="button" aria-expanded="true" aria-controls="archFamily">
+    Arch Family
+  </a>
 
-<div class="card shadow">
-  <div class="card-header bg-primary text-white">Arch Family</div>
-  
-  <a href="/linuxHQ/distros/arch/archLinux.php">Arch Linux</a>
-  <a href="/linuxHQ/distros/arch/archBang.php">Archbang</a>
-  <a href="/linuxHQ/distros/arch/endeavouros.php">EndeavourOS</a>
-  <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a>
+    <div class="collapse" id="archFamily">
+        <div class="card card-body">
+          <a href="/linuxHQ/distros/arch/archLinux.php">Arch Linux</a>
+
+          <a href="/linuxHQ/distros/arch/archBang.php">Archbang</a>
+
+          <a href="/linuxHQ/distros/arch/endeavouros.php">EndeavourOS</a>
+
+          <a href="/linuxHQ/distros/arch/manjaro.php">Manjaro</a>
+
+        </div>
+    </div>
+
 </div>
 
 <div class="card shadow">
   <div class="card-header bg-primary text-white">Debian Family</div>
-  
+
   <a href="/linuxHQ/distros/debian/antix.php">Anti-X</a>
   <a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs</a>
   <a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++</a>
@@ -26,7 +36,7 @@
 
 <div class="card shadow">
   <div class="card-header bg-primary text-white">Ubuntu Related </div>
-  
+
   <a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a>
   <a href="#">KDE Neon / Neon</a>
   <a href="/linuxHQ/distros/ubuntu/kubuntu.php">Kubuntu</a>
@@ -49,11 +59,11 @@
   <span>Fedora based </span>
   <a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a>
   <a href="/linuxHQ/distros/rpm/korora.php">Korora</a>
-  
+
   <span>Open Suse Based </span>
   <a href="/linuxHQ/distros/rpm/gecko.php">Gecko Linux</a>
   <a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a>
-  
+
   <span>Various</span>
   <a href="/linuxHQ/distros/rpm/centOS.php">CentOS</a>
   <a href="/linuxHQ/distros/rpm/mageia.php">Mageia</a>
@@ -71,7 +81,7 @@
 
 <div class="card shadow">
   <div class="card-header bg-primary text-white">Misc. Distros </div>
-  
+
   <a href="/linuxHQ/distros/independent/solus.php">Solus</a>
   <span>KaOS</span>
   <a href="/linuxHQ/distros/independent/puppyLinux.php">Puppy Linux</a>
@@ -79,6 +89,6 @@
 
 <div class="card shadow">
   <div class="card-header bg-primary text-white">Slackware based</div>
-  
+
   <a href="#">Salix</a><a href="#">Slackware</a>
 </div>
