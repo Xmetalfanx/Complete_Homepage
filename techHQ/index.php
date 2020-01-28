@@ -14,7 +14,7 @@
     <div class="row text-center">
       <div class="col-lg-3 col-md">
         <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
-          <img class="mx-auto d-none d-md-block lazy-load" data-src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic">Khan Academy
+          <img class="mx-auto d-none d-md-block lazyload" data-src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic">Khan Academy
         </a>
       </div>
       <div class="col-lg-3 col-md">
@@ -37,8 +37,9 @@
     </div>
 
     <div class="row col-12 px-3 mt-4">
-      <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">Science and Math.com
-        <img class="d-none d-1g-block lazyload" data-src="/graphics/mathandscience.jpg" alt="Science and Math.com graphics">
+      <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
+        <img class="d-none d-md-block lazyload" data-src="/graphics/mathandscience.jpg" alt="Science and Math.com graphics">
+        Science and Math.com
       </a>
     </div>
   </div>
