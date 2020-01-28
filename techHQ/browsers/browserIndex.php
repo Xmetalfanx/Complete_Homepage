@@ -27,5 +27,5 @@
 </div>
 	</div>
 
-<!-- include baseTechFooter -->
-<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
+
+<?php include($path . '/modules/footer.tpl'); ?>

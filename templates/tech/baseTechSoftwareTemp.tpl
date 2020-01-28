@@ -24,4 +24,4 @@
 		<!-- include baseTechFooter -->
 		<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
 
-	<script src="/techHQ/scripts/software.js"></script>
+	<script type="application/javascript" src="/techHQ/scripts/software.js"></script>

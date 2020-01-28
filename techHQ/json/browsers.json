@@ -1,6 +1,5 @@
 [
-    [
-        {
+    [{
             "browserName": "chromium",
             "browserTitle": "Chromium",
             "links": {
@@ -11,10 +10,6 @@
             "moreInfo": {
                 "currentVersion": "",
                 "operatingSystems": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
             }
         },
         {
@@ -28,10 +23,6 @@
             "moreInfo": {
                 "operatingSystems": "",
                 "version": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
             }
         },
         {
@@ -45,10 +36,6 @@
             "moreInfo": {
                 "operatingSystems": "",
                 "version": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
             }
         },
         {
@@ -62,15 +49,10 @@
             "moreInfo": {
                 "operatingSystems": "",
                 "version": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
             }
         }
     ],
-    [
-        {
+    [{
             "browserName": "firefox",
             "browserTitle": "Mozilla Firefox",
             "links": {
@@ -81,10 +63,6 @@
             "moreInfo": {
                 "operatingSystems": "",
                 "version": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
             }
         },
         {
@@ -98,15 +76,10 @@
             "moreInfo": {
                 "operatingSystems": "",
                 "version": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
             }
         }
     ],
-    [
-        {
+    [{
             "browserName": "palemoon",
             "browserTitle": "Pale Moon",
             "links": {
@@ -133,38 +106,30 @@
             }
         }
     ],
-    [
-        {
-            "browserName": "internetExplorer",
-            "browserTitle": "Internet Explorer",
-            "links": {
-                "browserIcon": "",
-                "download": "",
-                "homepage": ""
-            },
-            "moreInfo": {
-                "operatingSystems": "Windows",
-                "version": ""
-            }
+    [{
+        "browserName": "internetExplorer",
+        "browserTitle": "Internet Explorer",
+        "links": {
+            "browserIcon": "",
+            "download": "",
+            "homepage": ""
+        },
+        "moreInfo": {
+            "operatingSystems": "Windows",
+            "version": ""
         }
-    ],
-    [
-        {
-            "browserName": "safari",
-            "browserTitle": "Safari",
-            "links": {
-                "browserIcon": "",
-                "download": "",
-                "homepage": ""
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            },
-            "oldEngine": {
-                "oldEngineName": "",
-                "versions": ""
-            }
+    }],
+    [{
+        "browserName": "safari",
+        "browserTitle": "Safari",
+        "links": {
+            "browserIcon": "",
+            "download": "",
+            "homepage": ""
+        },
+        "moreInfo": {
+            "operatingSystems": "",
+            "version": ""
         }
-    ]
+    }]
 ]

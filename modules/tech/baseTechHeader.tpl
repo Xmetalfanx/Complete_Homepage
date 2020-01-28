@@ -19,10 +19,6 @@
 
   <?php include($path . "/modules/headerInclude.tpl"); ?>
 
-
-  <!-- Universal CSS file-->
-  <link href="../universalCSS/styling.css" rel="stylesheet" type="text/css" media="all">
-
   <!-- Link to My External Style Sheet - Specific for tech HQ -->
   <link rel="stylesheet" type="text/css" media="all" href="/techHQ/stylesheets/styling.css">
 

@@ -1,9 +1,7 @@
-h2 My Top Addons 
+<?php
 
-.card
-    .card-header Content Blocking/Content Control 
+	$pageTitle = 'Browser Section Frontpage';
+	$path = getenv('DOCUMENT_ROOT'); 
+	include $path . "/templates/tech/techBrowserAddon.tpl";
 
-ul Cross Browser (Firefox, Google Chrome, Chromium, Vivaldi)
-    li Ublock Origin
-    li Umatrix
-    li Privacy Badger 
+?>

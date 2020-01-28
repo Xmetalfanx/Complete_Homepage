@@ -20,8 +20,8 @@
       </div>
 
 
-    <script src="../techHQ/scripts/browsers.js"></script>
+    <script type="application/javascript" src="/techHQ/scripts/browsers.js"></script>
 
 
     <!-- include baseTechFooter -->
-    <?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
+    <?php include $path . '/modules/footer.tpl'; ?>
