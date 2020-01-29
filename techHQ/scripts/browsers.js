@@ -24,7 +24,7 @@ function browserDisplay(browserTitle, browserIcon, currentBrowserEngine, browser
         `;
 
     // Main output
-    browserResults.insertAdjacentHTML("afterbegin", browserDisplay);
+    browserResults.insertAdjacentHTML("afterbegin", browserOutput);
 }
 
 ////////////////////////////////////////////////////////////////////
@@ -37,19 +37,20 @@ function browserData(data) {
             // Get JSON Data
             $.getJSON(browserJSONUrl, function(data) {
 
-                    for (let i in data) {
+                for (let i in data)
+                {
+                    console.log(data);
 
-                        console.log(data);
+                    const objectKey1 = Object.keys(data);
+                    const objectValue1 = Object.value(data);
 
-                        const objectKey1 = Object.keys(data);
-                        const objectValue1 = Object.value(data);
+                    for (let items in objectValue1) {
+                        console.log(items);
+                    }
 
-                        for (let items in objectValue1) {
-                            console.log(items)
-                        }
-
-                    }); // ends getJSON loop
+                } // ends getJSON loop
 
             });
 
-    })
+    });
+}
