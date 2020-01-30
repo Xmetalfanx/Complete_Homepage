@@ -13,6 +13,7 @@ function softwareData(data) {
 
         // Get JSON Data
         // note: this IS jquery and if Bootstrap 5 removes the need for Jquery, i may remove it too ... i'd need another way at that point
+        
         $.getJSON(softwareJSONUrl, function(data) {
             // pick better var than "i", later
             for (let i in data) {
@@ -39,7 +40,7 @@ function softwareData(data) {
                         // eachSubCat shows the subcategories but INCLUDES the double quotes on both sides 
 
                         // Shows all the main categories, separated by a comma 
-                        softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
+                        //softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
 
 
                         // Subcategories with the double-quotes on both sides removed
@@ -115,18 +116,15 @@ function softwareData(data) {
                                     `;
 
                                 const screenshotDisplay = `<img src="${screenshot}" alt="${progName} screenshot" />`;
-
-
                                 ////////////////////////////////////////////////////////////////////////////////////////////////
                                 // Displaying
                                 softwareOutput.insertAdjacentHTML(
                                     'beforeend',
                                     '<div class="mr-3 my-3">' + headerDisplay + '<div class="card-text">' + description + '<br />');
 
-
                                 if (worksOnWine == true) {
                                     softwareOutput.insertAdjacentHTML('beforeend', wineIcon);
-                                } else(worksOnWine == false) {
+                                } else if (worksOnWine == false) {
                                     console.log("no WINE info/doesn't work on wine");
                                 }
 

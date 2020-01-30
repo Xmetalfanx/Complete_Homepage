@@ -1,135 +1,56 @@
-[
-    [{
-            "browserName": "chromium",
-            "browserTitle": "Chromium",
-            "links": {
-                "browserIcon": "chromium_logo.png",
-                "download": "",
-                "homepage": "https://www.chromium.org/Home"
-            },
-            "moreInfo": {
-                "currentVersion": "",
-                "operatingSystems": ""
-            }
-        },
-        {
-            "browserName": "googleChrome",
-            "browserTitle": "Google Chrome",
-            "links": {
-                "browserIcon": "icons8-chrome.svg",
-                "download": "",
-                "homepage": ""
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "vivaldi",
-            "browserTitle": "Vivaldi",
-            "links": {
-                "browserIcon": "vivaldi.svg",
-                "download": "https://vivaldi.com/download/",
-                "homepage": "https://vivaldi.com/"
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "opera",
-            "browserTitle": "Opera",
-            "links": {
-                "browserIcon": "icons8-opera.svg",
-                "download": "https://www.opera.com/",
-                "homepage": "https://www.opera.com/"
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        }
-    ],
-    [{
-            "browserName": "firefox",
-            "browserTitle": "Mozilla Firefox",
-            "links": {
-                "browserIcon": "icons8-firefox.svg",
-                "download": "",
-                "homepage": ""
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "waterfox",
-            "browserTitle": "Waterfox",
-            "links": {
-                "browserIcon": "",
-                "download": "https://www.waterfoxproject.org/en-US/waterfox/new/?scene=1",
-                "homepage": "https://www.waterfoxproject.org/en-US/"
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        }
-    ],
-    [{
-            "browserName": "palemoon",
-            "browserTitle": "Pale Moon",
-            "links": {
-                "browserIcon": "pm_logo.png",
-                "download": "https://www.palemoon.org/",
-                "homepage": "https://www.palemoon.org/"
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "basilisk",
-            "browserTitle": "Basilisk",
-            "links": {
-                "browserIcon": "basilisk_icon.jpg",
-                "download": "https://www.basilisk-browser.org/download.shtml",
-                "homepage": "https://www.basilisk-browser.org/"
-            },
-            "moreInfo": {
-                "operatingSystems": "",
-                "version": ""
-            }
-        }
-    ],
-    [{
-        "browserName": "internetExplorer",
-        "browserTitle": "Internet Explorer",
-        "links": {
-            "browserIcon": "",
-            "download": "",
-            "homepage": ""
-        },
-        "moreInfo": {
-            "operatingSystems": "Windows",
-            "version": ""
-        }
-    }],
-    [{
-        "browserName": "safari",
-        "browserTitle": "Safari",
-        "links": {
-            "browserIcon": "",
-            "download": "",
-            "homepage": ""
-        },
-        "moreInfo": {
-            "operatingSystems": "",
-            "version": ""
-        }
-    }]
-]
+{
+	"gecko": [
+		{
+			"browserName": "firefox",
+			"browserTitle": "Mozilla Firefox",
+			"links": {
+				"browserIcon": "icons8-firefox.svg",
+				"download": "",
+				"homepage": ""
+			},
+			"moreInfo": {
+				"operatingSystems": "",
+				"version": ""
+			}
+		},
+		{
+			"browserName": "waterfox",
+			"browserTitle": "Waterfox",
+			"links": {
+				"browserIcon": "",
+				"download": "https://www.waterfoxproject.org/en-US/waterfox/new/?scene=1",
+				"homepage": "https://www.waterfoxproject.org/en-US/"
+			},
+			"moreInfo": {
+				"operatingSystems": "",
+				"version": ""
+			}
+		},
+		{
+			"browserName": "palemoon",
+			"browserTitle": "Pale Moon",
+			"links": {
+				"browserIcon": "pm_logo.png",
+				"download": "https://www.palemoon.org/",
+				"homepage": "https://www.palemoon.org/"
+			},
+			"moreInfo": {
+				"operatingSystems": "",
+				"version": ""
+			}
+		},
+		{
+			"browserName": "basilisk",
+			"browserTitle": "Basilisk",
+			"links": {
+				"browserIcon": "basilisk_icon.jpg",
+				"download": "https://www.basilisk-browser.org/download.shtml",
+				"homepage": "https://www.basilisk-browser.org/"
+			},
+			"moreInfo": {
+				"operatingSystems": "",
+				"version": ""
+			}
+		}
+	]
+}

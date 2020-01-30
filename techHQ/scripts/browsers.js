@@ -37,15 +37,20 @@ function browserData(data) {
             // Get JSON Data
             $.getJSON(browserJSONUrl, function(data) {
 
+                console.log("data: " + data);
+
                 for (let i in data)
                 {
-                    console.log(data);
 
                     const objectKey1 = Object.keys(data);
                     const objectValue1 = Object.value(data);
 
-                    for (let items in objectValue1) {
-                        console.log(items);
+                    for (let items in data)
+                    {
+                        const foobar = data[items];
+
+                        console.log(foobar);
+
                     }
 
                 } // ends getJSON loop

@@ -5,7 +5,7 @@
 
 ?>
 
-<body>
+<body onload="browserData()">
     <div class="flexContainer">
       <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
       

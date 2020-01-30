@@ -1,0 +1,28 @@
+[
+	{
+		"browserName": "vivaldi",
+		"browserTitle": "Vivaldi",
+		"links": {
+			"browserIcon": "vivaldi.svg",
+			"download": "https://vivaldi.com/download/",
+			"homepage": "https://vivaldi.com/"
+		},
+		"moreInfo": {
+			"operatingSystems": "",
+			"version": ""
+		}
+	},
+	{
+		"browserName": "opera",
+		"browserTitle": "Opera",
+		"links": {
+			"browserIcon": "icons8-opera.svg",
+			"download": "https://www.opera.com/",
+			"homepage": "https://www.opera.com/"
+		},
+		"moreInfo": {
+			"operatingSystems": "",
+			"version": ""
+		}
+	}
+]
