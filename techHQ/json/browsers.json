@@ -6,24 +6,24 @@
 			"links": {
 				"browserIcon": "icons8-firefox.svg",
 				"download": "",
-				"homepage": ""
+				"homepage": "https://www.mozilla.org/en-US/firefox/new/"
 			},
 			"moreInfo": {
-				"operatingSystems": "",
-				"version": ""
+				"platforms": "Linux, Windows",
+				"version": "72"
 			}
 		},
 		{
 			"browserName": "waterfox",
 			"browserTitle": "Waterfox",
 			"links": {
-				"browserIcon": "",
+				"browserIcon": "waterfox.png",
 				"download": "https://www.waterfoxproject.org/en-US/waterfox/new/?scene=1",
 				"homepage": "https://www.waterfoxproject.org/en-US/"
 			},
 			"moreInfo": {
-				"operatingSystems": "",
-				"version": ""
+				"platforms": "MacOS, Linux, Windows",
+				"version": "Jan 2020"
 			}
 		},
 		{
@@ -35,20 +35,20 @@
 				"homepage": "https://www.palemoon.org/"
 			},
 			"moreInfo": {
-				"operatingSystems": "",
-				"version": ""
+				"platforms": "Linux, Windows",
+				"version": "28.8.2"
 			}
 		},
 		{
 			"browserName": "basilisk",
 			"browserTitle": "Basilisk",
 			"links": {
-				"browserIcon": "basilisk_icon.jpg",
+				"browserIcon": "basilisk.png",
 				"download": "https://www.basilisk-browser.org/download.shtml",
 				"homepage": "https://www.basilisk-browser.org/"
 			},
 			"moreInfo": {
-				"operatingSystems": "",
+				"platforms": "Linux, Windows",
 				"version": ""
 			}
 		}

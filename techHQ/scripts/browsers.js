@@ -5,28 +5,6 @@ let browserIconsDir = "/techHQ/progIcons/internet/browsers/";
 // an IDEA only for now
 let browserAdBlockDir = "/techHQ/browsers/adblocking/";
 
-function browserDisplay(browserTitle, browserIcon, currentBrowserEngine, browserHomepage, browserDownload) {
-
-    const browserOutput = `
-        <div class="card m-4 border border-primary">
-            <div class="card-header">
-                <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight" />
-                <a href="${browserHomepage}" blank="_blank"> ${browserTitle}  </a>
-            </div>
-
-            <div class="card-text">
-                Browser Engine: ${currentBrowserEngine}
-                <p>
-                    <a href="${browserDownload} " target+"blank"> Download Page: </a>
-                </p>
-            </div>
-        </div>
-        `;
-
-    // Main output
-    browserResults.insertAdjacentHTML("afterbegin", browserOutput);
-}
-
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
@@ -37,20 +15,67 @@ function browserData(data) {
             // Get JSON Data
             $.getJSON(browserJSONUrl, function(data) {
 
-                console.log("data: " + data);
+                // console.log("data: " + data);
 
+                // Data is the entire JSON content
                 for (let i in data)
                 {
+                    // I think this is just the number 
+                    const currentEngine = Object.keys(data[i]);
+                    // console.log(currentEngine);
 
-                    const objectKey1 = Object.keys(data);
-                    const objectValue1 = Object.value(data);
+                    const EngineBrowser = Object.values(data[i]);
+                    // console.log(EngineBrowser);
 
-                    for (let items in data)
+                    for (j in EngineBrowser)
                     {
-                        const foobar = data[items];
+                        // console.log("j: " + j);
 
-                        console.log(foobar);
+                        const currentBrowser = EngineBrowser[j];
 
+                        const browserName = currentBrowser.browserName;
+                        const browserTitle = currentBrowser.browserTitle;
+
+                        const browserIcon = currentBrowser.links.browserIcon;
+
+                        const browserHomepage = currentBrowser.links.homepage;
+                        const browserDownload = currentBrowser.links.download;
+
+                        const browserVersion = currentBrowser.moreInfo.version;
+                        const browserPlatforms = currentBrowser.moreInfo.platforms;
+
+                        // console.log("browserName: " + browserName);
+
+                        // console.log("browserHomepage: " + browserHomepage);
+
+                        const browserOutput = `
+
+                        Browser Engine: ${currentEngine}
+
+                        <div class="card m-4 border border-primary">
+                            <div class="card-header">
+                                <div class="col-6 float-left">
+                                    <a href="${browserHomepage}" blank="_blank">
+                                        <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight" />
+                                        ${browserTitle}
+
+                                    </a>
+                                </div>
+                                <div class="col-4 float-right">
+                                    Version: ${browserVersion}
+                                </div>
+                            </div>
+
+                            <div class="card-text">
+                                <a href="${browserDownload} " target+"blank"> Download Page: </a>
+                                <br /><br />
+                                Platform(s): ${browserPlatforms}
+                            </div>
+                        </div>
+                        `
+
+                         // Main output
+                        browserResults.insertAdjacentHTML("afterbegin", browserOutput);
                     }
 
                 } // ends getJSON loop

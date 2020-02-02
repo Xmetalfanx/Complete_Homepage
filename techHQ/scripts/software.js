@@ -27,10 +27,6 @@ function softwareData(data) {
 
                 for (let items in subCategoriesList) {
 
-                    // Just displays numbers 
-                    //console.log("items: " + items);
-                    //console.log("items2: " + JSON.stringify(items));
-
                     const subCatList = subCategoriesList[items];
 
                     console.log(subCatList);
@@ -41,7 +37,6 @@ function softwareData(data) {
 
                         // Shows all the main categories, separated by a comma 
                         //softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
-
 
                         // Subcategories with the double-quotes on both sides removed
                         const noQuoteSubCat = eachSubCat.replace(/['"]+/g, '');
@@ -58,6 +53,7 @@ function softwareData(data) {
                                 console.log("currentCategory: " + currentCategory);
 
                                 const individualApps = eachApp[apps];
+
                                 const moreInfo = individualApps.moreInfo;
 
                                 const progTitle = individualApps.progTitle;
