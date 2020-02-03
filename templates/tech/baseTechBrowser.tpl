@@ -24,4 +24,4 @@
 
 
     <!-- include baseTechFooter -->
-    <?php include $path . '/modules/footer.tpl'; ?>
+    <?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>

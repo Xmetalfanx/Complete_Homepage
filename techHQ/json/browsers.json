@@ -1,56 +1,117 @@
 {
-	"gecko": [
-		{
-			"browserName": "firefox",
-			"browserTitle": "Mozilla Firefox",
-			"links": {
-				"browserIcon": "icons8-firefox.svg",
-				"download": "",
-				"homepage": "https://www.mozilla.org/en-US/firefox/new/"
-			},
-			"moreInfo": {
-				"platforms": "Linux, Windows",
-				"version": "72"
-			}
-		},
-		{
-			"browserName": "waterfox",
-			"browserTitle": "Waterfox",
-			"links": {
-				"browserIcon": "waterfox.png",
-				"download": "https://www.waterfoxproject.org/en-US/waterfox/new/?scene=1",
-				"homepage": "https://www.waterfoxproject.org/en-US/"
-			},
-			"moreInfo": {
-				"platforms": "MacOS, Linux, Windows",
-				"version": "Jan 2020"
-			}
-		},
-		{
-			"browserName": "palemoon",
-			"browserTitle": "Pale Moon",
-			"links": {
-				"browserIcon": "pm_logo.png",
-				"download": "https://www.palemoon.org/",
-				"homepage": "https://www.palemoon.org/"
-			},
-			"moreInfo": {
-				"platforms": "Linux, Windows",
-				"version": "28.8.2"
-			}
-		},
-		{
-			"browserName": "basilisk",
-			"browserTitle": "Basilisk",
-			"links": {
-				"browserIcon": "basilisk.png",
-				"download": "https://www.basilisk-browser.org/download.shtml",
-				"homepage": "https://www.basilisk-browser.org/"
-			},
-			"moreInfo": {
-				"platforms": "Linux, Windows",
-				"version": ""
-			}
-		}
-	]
+    "blink": [{
+            "browserName": "chrome",
+            "browserTitle": "Google Chrome",
+            "links": {
+                "browserIcon": "icons8-firefox.svg",
+                "download": "",
+                "homepage": ""
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "Linux, Windows",
+                "version": ""
+            }
+        },
+        {
+            "browserName": "chromium",
+            "browserTitle": "Chromium",
+            "links": {
+                "browserIcon": "chromium.png",
+                "download": "https://www.waterfoxproject.org",
+                "homepage": "https://www.waterfoxproject.org"
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "MacOS, Linux, Windows",
+                "version": "Jan 2020"
+            }
+        },
+        {
+            "browserName": "vivaldi",
+            "browserTitle": "Vivaldi",
+            "links": {
+                "browserIcon": "vivaldi.png",
+                "download": "https://vivaldi.com/",
+                "homepage": "https://vivaldi.com/"
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "Linux, Windows",
+                "version": ""
+            }
+        },
+        {
+            "browserName": "silk",
+            "browserTitle": "Amazon Silk",
+            "links": {
+                "browserIcon": "silk.png",
+                "download": "",
+                "homepage": ""
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "",
+                "version": ""
+            }
+        }
+    ],
+    "gecko": [{
+            "browserName": "firefox",
+            "browserTitle": "Mozilla Firefox",
+            "links": {
+                "browserIcon": "icons8-firefox.svg",
+                "download": "",
+                "homepage": "https://www.mozilla.org/en-US/firefox/new/"
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "Linux, Windows",
+                "version": "72"
+            }
+        },
+        {
+            "browserName": "waterfox",
+            "browserTitle": "Waterfox",
+            "links": {
+                "browserIcon": "waterfox.png",
+                "download": "https://www.waterfoxproject.org/en-US/waterfox/new/?scene=1",
+                "homepage": "https://www.waterfoxproject.org/en-US/"
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "MacOS, Linux, Windows",
+                "version": "Jan 2020"
+            }
+        }
+    ],
+    "Goanna": [{
+            "browserName": "basilisk",
+            "browserTitle": "Basilisk",
+            "links": {
+                "browserIcon": "basilisk.png",
+                "download": "https://www.basilisk-browser.org/download.shtml",
+                "homepage": "https://www.basilisk-browser.org/"
+            },
+            "moreInfo": {
+                "description": "Browser by the same team behind Pale Moon, and it uses ${goannaHP}, which is an open source fork of Mozilla/Firefox's Gecko engine, in 2016.  Two things of note about the difference is that Goanna does not include any Rust Language components that were added during Mozilla Quantum (@ Firefox 57+), and it also runs in single process mode, vs Firefox which is a multi-process application.<br /><br />  Source: https://en.wikipedia.org/wiki/Goanna_(software) ",
+                "platforms": "Linux, Windows",
+                "version": ""
+            }
+        },
+        {
+            "browserName": "palemoon",
+            "browserTitle": "Pale Moon",
+            "links": {
+                "browserIcon": "pm_logo.png",
+                "download": "https://www.palemoon.org/",
+                "homepage": "https://www.palemoon.org/"
+            },
+            "moreInfo": {
+                "description": "",
+                "platforms": "Linux, Windows",
+                "version": "28.8.2"
+            }
+        }
+    ]
 }

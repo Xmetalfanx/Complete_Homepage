@@ -12,5 +12,16 @@ $navy: rgb( 0, 0, 128);
 $midnightBlue: rgb( 25, 25, 112);
 $transparentWhite:  rgba(255, 255, 255, .50);
 
-
 $BGColor: rgb(62, 63, 58);
+
+.greenText
+{
+    color: $green;
+    background-color: inherit;
+}
+
+.redText
+{
+    background-color: inherit;
+    color: $red;
+}

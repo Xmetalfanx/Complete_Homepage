@@ -1,4 +1,14 @@
 /* Colors */
+.greenText {
+  color: #009900;
+  background-color: inherit;
+}
+
+.redText {
+  background-color: inherit;
+  color: red;
+}
+
 /* Fonts */
 /* Images */
 /* Border variables */

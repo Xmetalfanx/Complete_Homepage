@@ -1,0 +1,9 @@
+1.  Basic Adblock stuff 
+    - On or Off, for instance 
+
+2. Advanced Ublock
+    - Dynamic blocking
+        - Dynamic vs Static
+        - What is a NOOP filter
+            - How to use/what it means
+            

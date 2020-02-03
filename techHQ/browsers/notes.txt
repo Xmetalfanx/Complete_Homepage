@@ -1,0 +1,23 @@
+Source: https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide
+
+Important:
+
+Dynamic filtering overrides static filtering.
+
+This means a block dynamic rule will override any existing allow static filters. This means you can block with 100% certainty using dynamic filtering rules. Similarly, an allow dynamic filtering rule will override any existing block static filters, i.e. you can allow with 100% certainty with dynamic filtering (useful to un-break sites broken by some static filters).
+
+--------------------------------------------------
+
+My comments below: 
+
+Static Filters are the lists 
+Dynamic filters are what are set in advanced mode 
+
+
+
+Noop filters the wy I understand it will mean that dynamic filters are not applied in that case.   If a Statefilter was blocking something you could "turn that element green" to allow it (over-writing the block from the static filter list ).
+
+
+I THINK if the global rule is "block" for a domain ... and the local rule is "noop" (grey) ... THEN the domain will not be BLOCKED based on the Dynamic rule (aka "no dyn rules are applied") HOWEVER if there is a static rule that blocks that domain ... it WILL be blocked BASED on the static rule .... if there is no static rule ... the "connection is allowed"  
+
+IF YOU wanted to allow (bypassing the static rule that may be in place blocking something), then turn that connection for that domain in question GREEN .. which being a dynamic rule will overwrite any static block in that case 
