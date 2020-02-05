@@ -12,6 +12,22 @@
 /* Fonts */
 /* Images */
 /* Border variables */
+.w-95 {
+  width: 95%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
 html,
 body {
   font-size: 12pt;
