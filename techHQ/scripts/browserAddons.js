@@ -72,11 +72,11 @@ function browserAddonData(data) {
                                             </a>
                                         </div>
                                         <div class="col-auto float-right">
-                                            <a href="" target="_blank">
+                                            <a href="#" target="_blank">
                                                 <i class="fab fa-chrome fa-3x"></i>
                                             </a>
 
-                                            <a href="" target="_blank">
+                                            <a href="#" target="_blank">
                                             <i class="fab fa-firefox fa-3x"></i>
                                             </a>
                                         </div>
