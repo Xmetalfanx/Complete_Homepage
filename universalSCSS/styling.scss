@@ -98,10 +98,6 @@ nav {
   }
 }
 
-.smallText {
-  font-size: 11px;
-}
-
 .coverImage {
   background-position: top;
   background-size: cover;
@@ -151,11 +147,6 @@ h3.feed-title {
   @include margin(null, 20px, null, 20px);
 }
 
-// May not be needed if things are responsive via Boostrap
-.YTPlaylists {
-  width: 560px;
-  height: 315px;
-}
 
 .w-33 {
   width: 33%;
@@ -169,6 +160,14 @@ h3.feed-title {
 .SPSearchIcon {
   height: 33px;
   vertical-align: middle;
+}
+
+
+
+// May not be needed if things are responsive via Boostrap
+.YTPlaylists {
+  width: 560px;
+  height: 315px;
 }
 
 // For Image "Thumbnailing" in various sections
@@ -192,4 +191,10 @@ h3.feed-title {
     max-width: 500px;
     max-height: 500px;
   }
+}
+
+.darkBG
+{
+  color: $white;
+  background-color: $darkGrey2;
 }

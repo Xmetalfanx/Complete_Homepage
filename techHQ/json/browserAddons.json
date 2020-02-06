@@ -3,7 +3,7 @@
         "security": [
             {
                 "addonURL": {
-                    "chromeURL": "",
+                    "chromeURL": "https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search"
                 },
                 "addonname": "privacybadger",
@@ -59,21 +59,6 @@
         ]
     },
     "firefox": {
-        "download": [
-            {
-                "addonURL": {
-                    "chromeURL": "N/A",
-                    "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/?src=cb-dl-users"
-                },
-                "addonname": "downloaderhelper",
-                "addontitle": "Video Download Helper",
-                "iconURL": "",
-                "moreInfo": {
-                    "developer": "",
-                    "forFFQuantum": ""
-                }
-            }
-        ],
         "security": [
             {
                 "addonURL": {
@@ -102,5 +87,8 @@
                 }
             }
         ]
-    }
+    },
+    "chrome": [
+        
+    ]
 }

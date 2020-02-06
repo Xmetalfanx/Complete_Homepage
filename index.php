@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Xmetal&apos;s Homepage</title><?php include 'modules/headerInclude.tpl'; ?>
+    <title>Xmetal&apos;s Homepage</title>
   </head>
   <body> 
     <div class="flexContainer">
-      <!-- Header "navigation"--><?php include 'modules/frontnav.tpl'; ?>
+      <!-- Header "navigation"-->
       <div class="mainSection">
         <div class="d-none d-lg-block coverImage"></div>
         <div class="my-3 mx-auto w-75 shadow border">
-          <?php include 'modules/siteUpdate.php'; ?>
+          
           
         </div>
         <div class="row py-5">
@@ -32,7 +32,7 @@
             </div>
           </div>
         </div>
-      </div><?php include 'modules/footer.tpl'; ?>
+      </div>
     </div>
   </body>
 </html>

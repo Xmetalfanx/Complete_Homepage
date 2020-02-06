@@ -2,6 +2,6 @@
 
 	$pageTitle = 'Browser Section Frontpage';
 	$path = getenv('DOCUMENT_ROOT'); 
-	include $path . "/templates/tech/techBrowserAddon.tpl";
+	include $path . "/templates/tech/baseTechBrowserAddons.tpl";
 
 ?>

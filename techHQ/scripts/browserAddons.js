@@ -38,7 +38,7 @@ function browserAddonDisplay() {
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
-function browserData(data) {
+function browserAddonData(data) {
 
     $(document).ready(function() {
 
@@ -53,32 +53,41 @@ function browserData(data) {
             // For each key value - in this case mainCatagory
             $.each(data, function(key, value) {
 
-                // Chrome? Firefox? Both? 
-                let currentAddonPlatform = key;
 
-                let currentAddonCatagory = value;
-                console.log(currentAddonCatagory);
+                for (platform in data)
+                {
+                    // Chrome? Firefox? Both? 
+                    let currentAddonPlatform = Object.keys(data);
+                    
+                    
+                    // let currentAddonCatagory = value;
+                    console.log("currentAddonPlatform:" + currentAddonPlatform);
+
+                    for (let addonPlatform = 0; addonPlatform < value.length; addonPlatform++) {
+
+                        let browserAddonName = value[addonPlatform].addonName;
+                        let browserAddonTitle = value[addonPlatform].addonTitle;
+
+                        let developer = value[addonPlatform].moreInfo.developer;
+                        let browserIcon = value[addonPlatform].iconURL;
+
+                        let chromeURL = value[addonPlatform].addonURL.chromeURL;
+                        let firefoxURL = value[addonPlatform].addonURL.firefoxURL;
+
+
+                        // for Firefox
+
+                        // Boolean? ... seems logical 
+                        let ffQuantumSupport = value[addonPlatform].moreInfo.forFFQuantum;
+
+
+      // in LinuxHQ JS files the call to display function us usually here
+      browserAddonOutput();
+
+                }
                 
-                for (let addonPlatform = 0; addonPlatform < value.length; addonPlatform++) {
 
-                    let browserAddonName = value[addonPlatform].addonName;
-                    let browserAddonTitle = value[addonPlatform].addonTitle;
-
-                    let developer = value[addonPlatform].moreInfo.developer;
-                    let browserIcon = value[addonPlatform].iconURL;
-
-                    let chromeURL = value[addonPlatform].addonURL.chromeURL;
-                    let firefoxURL = value[addonPlatform].addonURL.firefoxURL;
-
-
-                    // for Firefox
-
-                    // Boolean? ... seems logical 
-                    let ffQuantumSupport = value[addonPlatform].moreInfo.forFFQuantum;
-
-
-                    // in LinuxHQ JS files the call to display function us usually here
-                    browserAddonOutput();
+              
                 }
 
             }); // Ends .each loop

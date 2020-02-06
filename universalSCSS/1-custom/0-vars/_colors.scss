@@ -11,8 +11,11 @@ $tanD: rgb( 238, 233, 191);
 $navy: rgb( 0, 0, 128);
 $midnightBlue: rgb( 25, 25, 112);
 $transparentWhite:  rgba(255, 255, 255, .50);
+$darkGrey: #333333; 
+$darkGrey2: #3E3F3A;
 
-$BGColor: rgb(62, 63, 58);
+$BGColor: $darkGrey2; 
+
 
 .greenText
 {
@@ -24,4 +27,9 @@ $BGColor: rgb(62, 63, 58);
 {
     background-color: inherit;
     color: $red;
+}
+
+.darkGreyText
+{
+    color: #333333;
 }
