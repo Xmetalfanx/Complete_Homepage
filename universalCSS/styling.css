@@ -177,11 +177,6 @@ h3.feed-title {
   margin: 20px 20px;
 }
 
-.YTPlaylists {
-  width: 560px;
-  height: 315px;
-}
-
 .w-33 {
   width: 33%;
 }
@@ -193,6 +188,11 @@ h3.feed-title {
 .SPSearchIcon {
   height: 33px;
   vertical-align: middle;
+}
+
+.YTPlaylists {
+  width: 560px;
+  height: 315px;
 }
 
 .thumbnails {
@@ -219,5 +219,9 @@ h3.feed-title {
 .darkBG {
   color: white;
   background-color: #3E3F3A;
+}
+
+.list-group-item {
+  border: 0;
 }
 /*# sourceMappingURL=styling.css.map */
