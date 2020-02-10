@@ -6,9 +6,9 @@
                     "chromeURL": "https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search"
                 },
-                "addonname": "privacybadger",
-                "addontitle": "Privacy Badger",
-                "iconURL": "",
+                "addonName": "privacybadger",
+                "addonTitle": "Privacy Badger",
+                "iconURL": "privacyBadger.png",
                 "moreInfo": {
                     "developer": "EFF",
                     "forFFQuantum": "TRUE"
@@ -19,10 +19,10 @@
                     "chromeURL": "https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=chrome-ntp-icon",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search"
                 },
-                "addonname": "ublockorigin",
-                "addontitle": "Ublock Origin",
+                "addonName": "ublockorigin",
+                "addonTitle": "Ublock Origin",
                 "catagory": "adblocker",
-                "iconURL": "",
+                "iconURL": "ublockOrigin.png",
                 "moreInfo": {
                     "developer": "Raymond Gorhill",
                     "forFFQuantum": "TRUE"
@@ -33,10 +33,10 @@
                     "chromeURL": "https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?utm_source=chrome-ntp-icon",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search"
                 },
-                "addonname": "umatrix",
-                "addontitle": "Umatrix",
+                "addonName": "umatrix",
+                "addonTitle": "Umatrix",
                 "catagory": "adblocker",
-                "iconURL": "",
+                "iconURL": "umatrix.png",
                 "moreInfo": {
                     "developer": "Raymond Gorhill",
                     "forFFQuantum": ""
@@ -47,10 +47,10 @@
                     "chromeURL": "https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon",
                     "firefoxURL": "https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/"
                 },
-                "addonname": "httpseverwhere",
-                "addontitle": "HTTPS Everywhere",
+                "addonName": "httpseverwhere",
+                "addonTitle": "HTTPS Everywhere",
                 "browserSupport": "",
-                "iconURL": null,
+                "iconURL": "httpsEverywhere.png",
                 "moreInfo": {
                     "developer": "EFF",
                     "forFFQuantum": ""
@@ -65,8 +65,8 @@
                     "chromeURL": "",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search"
                 },
-                "addonname": "privacysettings",
-                "addontitle": "Privacy Settings",
+                "addonName": "privacysettings",
+                "addonTitle": "Privacy Settings",
                 "iconURL": "",
                 "moreInfo": {
                     "developer": "",
@@ -78,9 +78,9 @@
                     "chromeURL": "",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users"
                 },
-                "addonname": "noscript",
-                "addontitle": "Noscript",
-                "iconURL": "",
+                "addonName": "noscript",
+                "addonTitle": "Noscript",
+                "iconURL": "noscript.png",
                 "moreInfo": {
                     "developer": "",
                     "forFFQuantum": ""

@@ -1,39 +1,10 @@
 let browserResults = document.getElementById("browserSection");
-let browserIcontDir = "/techHQ/progIcons/internet/browsers/";
+let browserIconDir = "/techHQ/progIcons/internet/browsers/";
+let addonIconDir = "/techHQ/browsers/addons/graphics/";
 
 // for Icons
 let firefoxIcon = "${$browserIconDir}/icon8-firefox.svg";
 let chromeIcon =  "${$browserIconDir}/icon8-chrome.svg";
-
-
-function browserAddonDisplay() {
-
-    const browserOutput = `
-    
-        <div class="card">
-            <div class="card-header"> 
-                <div class="row"> 
-                    <div class="col-2">${browserIcon}</div>
-                    <div class="col-auto">${browserAddonTitle}</div>
-                </div>
-            </div>
-            <div class="card-body">
-                <div>description here, perhaps</div>
-                <div class="row">
-                    <div class="col">
-                        <a href="${chromeURL}" target="_blank">${chromeIcon}</a>
-                    </div>
-                    <div class="col">
-                        <a href="${chromeURL}" target="_blank">${firefoxIcon}</a>
-                        </div>
-                </div>
-            </div>
-        </div>
-        `;
-        
-    // Main output
-    browserResults.insertAdjacentHTML("afterbegin", browserDisplay);
-}
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
@@ -53,41 +24,78 @@ function browserAddonData(data) {
             // For each key value - in this case mainCatagory
             $.each(data, function(key, value) {
 
-
-                for (platform in data)
+                for (var platform in data)
                 {
                     // Chrome? Firefox? Both? 
-                    let currentAddonPlatform = Object.keys(data);
-                    
-                    
-                    // let currentAddonCatagory = value;
-                    console.log("currentAddonPlatform:" + currentAddonPlatform);
+                    let currentAddonPlatform = Object.keys(data[platform]);
 
-                    for (let addonPlatform = 0; addonPlatform < value.length; addonPlatform++) {
+                    let currentAddonCat = Object.values(data[platform]);
 
-                        let browserAddonName = value[addonPlatform].addonName;
-                        let browserAddonTitle = value[addonPlatform].addonTitle;
+                    // console.log("currentAddonPlatform:" + currentAddonPlatform);
 
-                        let developer = value[addonPlatform].moreInfo.developer;
-                        let browserIcon = value[addonPlatform].iconURL;
+                    for (var addons in currentAddonCat)
+                    {
+                        let currentPlatformAddon = currentAddonCat[addons];
 
-                        let chromeURL = value[addonPlatform].addonURL.chromeURL;
-                        let firefoxURL = value[addonPlatform].addonURL.firefoxURL;
-
-
-                        // for Firefox
-
-                        // Boolean? ... seems logical 
-                        let ffQuantumSupport = value[addonPlatform].moreInfo.forFFQuantum;
-
-
-      // in LinuxHQ JS files the call to display function us usually here
-      browserAddonOutput();
-
-                }
+                        for (var i in currentPlatformAddon)
+                        {
+                            let currentAddon = currentPlatformAddon[i];
+                            let currentAddonString = JSON.stringify(currentAddon);
                 
+                            console.log('currentAddon: ' + currentAddon);
+                            console.log('currentAddonString: ' + currentAddonString);
 
-              
+                            let addonName = currentAddon.addonName;
+                            let addonTitle = currentAddon.addonTitle;
+
+                            let browserIcon = currentAddon.iconURL;
+
+                            // let chromeURL = currentAddon.addonURL.chromeURL;
+                            // let firefoxURL = currentAddon.addonURL.firefoxURL;
+
+                            // Boolean? ... seems logical 
+                            // let ffQuantumSupport = currentAddon.moreInfo.forFFQuantum;
+
+                            // let developer = currentAddon.moreInfo.developer;
+
+                            const browserAddonOutput = `
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="row text-white">
+                                        <div class="col-auto">
+                                            <img src=\"${addonIconDir}${browserIcon}\" alt=\"foobar alt tag\" class=\"iconLG\" />
+                                        </div>
+                                        <div class="col-auto">
+                                            <a href="" target="_blank">
+                                                ${addonTitle}
+                                            </a>
+                                        </div>
+                                        <div class="col-auto float-right">
+                                            <a href="" target="_blank">
+                                                <i class="fab fa-chrome fa-3x"></i>
+                                            </a>
+
+                                            <a href="" target="_blank">
+                                            <i class="fab fa-firefox fa-3x"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div>description here, perhaps</div>
+
+                                </div>
+                            </div>
+                            `;
+
+                            // Main output
+                            browserResults.insertAdjacentHTML("afterbegin", browserAddonOutput);
+
+                        }
+
+                    }
+
                 }
 
             }); // Ends .each loop
