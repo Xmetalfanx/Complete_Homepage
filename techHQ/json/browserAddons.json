@@ -8,7 +8,7 @@
                 },
                 "addonName": "privacybadger",
                 "addonTitle": "Privacy Badger",
-                "iconURL": "privacyBadger.png",
+                "iconURL": "privacyBadger.svg",
                 "moreInfo": {
                     "developer": "EFF",
                     "forFFQuantum": "TRUE"
@@ -22,7 +22,7 @@
                 "addonName": "ublockorigin",
                 "addonTitle": "Ublock Origin",
                 "catagory": "adblocker",
-                "iconURL": "ublockOrigin.png",
+                "iconURL": "ublockOrigin.svg",
                 "moreInfo": {
                     "developer": "Raymond Gorhill",
                     "forFFQuantum": "TRUE"
