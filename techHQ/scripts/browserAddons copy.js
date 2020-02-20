@@ -19,29 +19,45 @@ function browserAddonData(data) {
 		// Get JSON Data
 		$.getJSON(browserAddonsJSONUrl, function(data) {
 
-            //console.log("data: " + data);
+            $.each(data, function(key, value) {
+                
+                // Chrome Firefox Both
+				let allPlatforms = Object.keys(data);
+				//console.log("allPlatforms: " + allPlatforms);
 
-            dataValue = Object.values(data);
-            dataValue.forEach(displayKeys);
+                // Everything in a platform, including catagories, in (I think) JSON format
 
-            function displayKeys(allCatagories, index){
-                //console.log("allCatagories");
-                //console.log(allCatagories);
+                let AllCats = Object.values(data);
+                //console.log("AllCats: " + AllCats);
 
-                let allCatValues = Object.values(allCatagories)
+				AllCats.forEach(catagories);
 
-                allCatValues.forEach(displayAddons);
-
-                function displayAddons(item, index)
-                {
-                    //console.log(item);
-
-                    item.forEach(handleEachAddon);
+				function catagories(item, index) {
+                    
+                    // everything including the  catagory 
+                    //let itemString = JSON.stringify(item);
+                    //console.log("itemString: " + itemString);
 
 
-                    function handleEachAddon(eachAddon, index){
-                        console.log(eachAddon);
+                    let eachCatagory = Object.keys(item);
 
+                    // shows all the addons
+                    let allPlatAddons = Object.values(item);
+                    // console.log(allPlatAddons);
+
+                    allPlatAddons.forEach(cyclePlatformAddons);
+
+                    function cyclePlatformAddons(eachCatsAddons, index)
+                    {
+                        
+                        console.log(eachCatsAddons);
+
+                        eachCatsAddons.forEach(cycleCatagoryAddons);
+
+
+                        function cycleCatagoryAddons(item, index){
+
+                        let eachAddon = item; 
 
                         let addonTitle = eachAddon.addonTitle;
                         let addonName = eachAddon.addonName;
@@ -81,7 +97,7 @@ function browserAddonData(data) {
                                         <div class="col">
                                             <a href="${chromeURL}" target="_blank">
                                                 <img src=\"${browserIconDir}${chromeIcon}\" alt=\"${addonTitle} Chrome icon\" class=\" iconLG\" />
-
+                                            
                                             </a>
                                         </div>
                                         <div class="col">
@@ -94,16 +110,14 @@ function browserAddonData(data) {
                                 </div>
                             </div>
                         `;
-
+                        
                         // Main output
                         browserResults.insertAdjacentHTML('afterbegin', browserOutput);
 
+                        }
                     }
-
-                }
-            }
-
-
+				}
+			}); // Ends .each loop
 		}); // ends getJSON loop
 	});
 }
