@@ -28,7 +28,7 @@ function browserAddonData(data) {
                 //console.log("allCatagories");
                 //console.log(allCatagories);
 
-                let allCatValues = Object.values(allCatagories)
+                let allCatValues = Object.values(allCatagories);
 
                 allCatValues.forEach(displayAddons);
 

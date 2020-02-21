@@ -1,13 +1,28 @@
 {
     "crossBrowser": {
+        "Password Management": [
+            {
+                "addonName": "bitwarden",
+                "addonTitle": "Bit Warden",
+                "addonURL": {
+                    "chromeURL": "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en",
+                    "firefoxURL": "https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/?src=homepage-collection-featured"
+                },
+                "iconURL": "",
+                "moreInfo": {
+                    "developer": "Bit Warden Inc",
+                    "forFFQuantum": "TRUE"
+                }
+            }
+        ],
         "security": [
             {
+                "addonName": "privacybadger",
+                "addonTitle": "Privacy Badger",
                 "addonURL": {
                     "chromeURL": "https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search"
                 },
-                "addonName": "privacybadger",
-                "addonTitle": "Privacy Badger",
                 "iconURL": "privacyBadger.svg",
                 "moreInfo": {
                     "developer": "EFF",
@@ -15,12 +30,12 @@
                 }
             },
             {
+                "addonName": "ublockorigin",
+                "addonTitle": "Ublock Origin",
                 "addonURL": {
                     "chromeURL": "https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=chrome-ntp-icon",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search"
                 },
-                "addonName": "ublockorigin",
-                "addonTitle": "Ublock Origin",
                 "catagory": "adblocker",
                 "iconURL": "ublockOrigin.svg",
                 "moreInfo": {
@@ -29,31 +44,30 @@
                 }
             },
             {
+                "addonName": "umatrix",
+                "addonTitle": "Umatrix",
                 "addonURL": {
                     "chromeURL": "https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?utm_source=chrome-ntp-icon",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search"
                 },
-                "addonName": "umatrix",
-                "addonTitle": "Umatrix",
                 "catagory": "adblocker",
                 "iconURL": "umatrix.png",
                 "moreInfo": {
                     "developer": "Raymond Gorhill",
-                    "forFFQuantum": ""
+                    "forFFQuantum": "TRUE"
                 }
             },
             {
+                "addonName": "httpseverwhere",
+                "addonTitle": "HTTPS Everywhere",
                 "addonURL": {
                     "chromeURL": "https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon",
                     "firefoxURL": "https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/"
                 },
-                "addonName": "httpseverwhere",
-                "addonTitle": "HTTPS Everywhere",
-                "browserSupport": "",
-                "iconURL": "httpsEverywhere.png",
+                "iconURL": "HTTPSEverywhere.svg",
                 "moreInfo": {
                     "developer": "EFF",
-                    "forFFQuantum": ""
+                    "forFFQuantum": "TRUE"
                 }
             }
         ]
@@ -61,29 +75,29 @@
     "firefox": {
         "security": [
             {
+                "addonName": "privacysettings",
+                "addonTitle": "Privacy Settings",
                 "addonURL": {
                     "chromeURL": "",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search"
                 },
-                "addonName": "privacysettings",
-                "addonTitle": "Privacy Settings",
-                "iconURL": "",
+                "iconURL": "privacySettings.png",
                 "moreInfo": {
-                    "developer": "",
-                    "forFFQuantum": ""
+                    "developer": "Jeremy Schomery",
+                    "forFFQuantum": "TRUE"
                 }
             },
             {
+                "addonName": "noscript",
+                "addonTitle": "NoScript Security Suite",
                 "addonURL": {
-                    "chromeURL": "",
+                    "chromeURL": "#",
                     "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users"
                 },
-                "addonName": "noscript",
-                "addonTitle": "Noscript",
                 "iconURL": "noscript.png",
                 "moreInfo": {
-                    "developer": "",
-                    "forFFQuantum": ""
+                    "developer": "Giorgio Maone",
+                    "forFFQuantum": "TRUE"
                 }
             }
         ]

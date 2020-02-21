@@ -7,7 +7,7 @@ let browserAdBlockDir = "/techHQ/browsers/adblocking/";
 
 
 // Browser Engines - HP means Homepage or something that can explain
-let goannaHP = "<a href=\"http://www.moonchildproductions.info/goanna.shtml\" target=\"_blank\"> Goanna Engine by Moonchild Productions </a> <br /><br /><a href=\"https://github.com/MoonchildProductions/UXP\" target=\"_blank\">Source on Github</a>"
+let goannaHP = "<a href=\"http://www.moonchildproductions.info/goanna.shtml\" target=\"_blank\"> Goanna Engine by Moonchild Productions </a> <br /><br /><a href=\"https://github.com/MoonchildProductions/UXP\" target=\"_blank\">Source on Github</a>";
 
 ////////////////////////////////////////////////////////////////////
 // "main" function
@@ -18,80 +18,98 @@ function browserData(data) {
 
         // Get JSON Data
         $.getJSON(browserJSONUrl, function(data) {
+            
+            // Output = all of the json, i think 
+            //let dataString = JSON.stringify(data);
+            //  console.log(dataString);
 
-            // console.log("data: " + data);
+            let browserEngines = Object.keys(data);
+            console.log(browserEngines);
 
-            // Data is the entire JSON content
-            for (let i in data) {
-                // I think this is just the number 
-                const currentEngine = Object.keys(data);
+            let browsersInCurrentEngine  = Object.values(data);
+            // console.log("browsersInCurrentEngine: " + browsersInCurrentEngine);
+
+            //let stringTest = JSON.stringify(browsersInCurrentEngine);
+            //console.log("stringTest: " + stringTest)
+
+
+            browsersInCurrentEngine.forEach(outputEngineBrowsers);
+
+            function outputEngineBrowsers(currentEngine, index){
                 console.log("currentEngine: " + currentEngine);
 
-                const EngineBrowser = Object.values(data[i]);
-                // console.log(EngineBrowser);
+                let currentEngineBrowsers = Object.values(currentEngine);
 
-                for (j in EngineBrowser) {
+                //console.log(currentEngineBrowsers);
 
-                    const currentBrowser = EngineBrowser[j];
+                currentEngineBrowsers.forEach(handleEachBrowser);
 
+                function handleEachBrowser(currentBrowser, item){
+
+                    const currentBrowEngine = "";
                     const browserName = currentBrowser.browserName;
                     const browserTitle = currentBrowser.browserTitle;
 
-                    const browserIcon = currentBrowser.links.browserIcon;
+                    // Meta Var
+                    const browserLinks = currentBrowser.links;
 
-                    const browserHomepage = currentBrowser.links.homepage;
-                    const browserDownload = currentBrowser.links.download;
+                    const browserIcon = browserLinks.browserIcon;
+                    const browserHomepage = browserLinks.homepage;
+                    const browserDownload = browserLinks.download;
 
-                    const browserVersion = currentBrowser.moreInfo.version;
-                    const browserPlatforms = currentBrowser.moreInfo.platforms;
-                    const browserDescription = currentBrowser.moreInfo.description;
+                    // Meta Var
+                    const moreInfo = currentBrowser.moreInfo;
+
+                    const browserVersion = moreInfo.version;
+                    const browserPlatforms = moreInfo.platforms;
+                    const browserDescription = moreInfo.description;
+
 
                     const browserOutput = `
 
-                        <div class="card m-4 border border-primary">
-                            <div class="card-header">
-                                <div class="col-6 float-left">
-                                    <a href="${browserHomepage}" blank="_blank">
-                                        <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight lazyload" />
-                                        ${browserTitle}
+                    <div class="card m-4 shadow">
+                        <div class="card-header">
+                            <div class="col-6 float-left">
+                                <a href="${browserHomepage}" blank="_blank">
+                                    <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight lazyload" />
+                                    ${browserTitle}
 
-                                    </a>
-                                </div>
-                                <div class="col-4 float-right">
-                                    Version: ${browserVersion}
-                                </div>
+                                </a>
                             </div>
-
-                            <div class="card-text p-2">
-                                <div class="float-left">
-                                    <span class="font-weight-bold">Platform(s): </span>
-                                    ${browserPlatforms}
-                                </div>
-                                <div class="float-right">
-                                    <span class="font-weight-bold">
-                                    Browser Engine:
-                                    </span>
-                                    ${currentEngine}
-                                    
-                                </div>
-
-                                <br /><br />
-                                <a href="${browserDownload} " target+"blank"> Download Page</a>
-                                
-                                <br /><br />
-                                <span class="font-weight-bold">Description: </span>
-                                <span class="">${browserDescription}
+                            <div class="col-4 float-right">
+                                Version: ${browserVersion}
                             </div>
                         </div>
-                        `
 
-                    // Main output
-                    browserResults.insertAdjacentHTML("afterbegin", browserOutput);
+                        <div class="card-body text-justify">
+                            <div class="float-left">
+                                <span class="font-weight-bold">Platform(s): </span>
+                                ${browserPlatforms}
+                            </div>
+                            <div class="float-right">
+                                <span class="font-weight-bold">
+                                Browser Engine:
+                                </span>
+                                (TODO later)
+                                
+                            </div>
+
+                            <br /><br />
+                            <a href="${browserDownload} " target+"blank"> Download Page</a>
+
+                            <br /><br />
+                            <span class="font-weight-bold">Description: </span>
+                            <span class="">${browserDescription}
+                        </div>
+                    </div>
+                    `;
+
+                // Main output
+                browserResults.insertAdjacentHTML("afterbegin", browserOutput);
+
+
                 }
-
-            } // ends getJSON loop
-
+            }
         });
-
     });
 }

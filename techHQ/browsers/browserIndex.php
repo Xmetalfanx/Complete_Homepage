@@ -9,9 +9,12 @@
 	 
 
 <h2>Browser Section Intro</h2>
+<div class="py-3">
 
-<i class="fa fa-firefox fa-3x text-dark" aria-hidden="true"></i>
-<i class="fa fa-chrome fa-3x text-dark" aria-hidden="true"></i>
+	<i class="fa fa-firefox fa-3x text-dark" aria-hidden="true"></i>
+	<i class="fa fa-chrome fa-3x text-dark" aria-hidden="true"></i>
+</div>
+
 
 
 <p>This is the New Browsers Section.</p>

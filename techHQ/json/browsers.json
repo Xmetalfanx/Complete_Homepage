@@ -1,117 +1,120 @@
 {
-    "blink": [{
-            "browserName": "chrome",
-            "browserTitle": "Google Chrome",
-            "links": {
-                "browserIcon": "icons8-firefox.svg",
-                "download": "",
-                "homepage": ""
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "Linux, Windows",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "chromium",
-            "browserTitle": "Chromium",
-            "links": {
-                "browserIcon": "chromium.png",
-                "download": "https://www.waterfoxproject.org",
-                "homepage": "https://www.waterfoxproject.org"
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "MacOS, Linux, Windows",
-                "version": "Jan 2020"
-            }
-        },
-        {
-            "browserName": "vivaldi",
-            "browserTitle": "Vivaldi",
-            "links": {
-                "browserIcon": "vivaldi.png",
-                "download": "https://vivaldi.com/",
-                "homepage": "https://vivaldi.com/"
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "Linux, Windows",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "silk",
-            "browserTitle": "Amazon Silk",
-            "links": {
-                "browserIcon": "silk.png",
-                "download": "",
-                "homepage": ""
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "",
-                "version": ""
-            }
-        }
-    ],
-    "gecko": [{
-            "browserName": "firefox",
-            "browserTitle": "Mozilla Firefox",
-            "links": {
-                "browserIcon": "icons8-firefox.svg",
-                "download": "",
-                "homepage": "https://www.mozilla.org/en-US/firefox/new/"
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "Linux, Windows",
-                "version": "72"
-            }
-        },
-        {
-            "browserName": "waterfox",
-            "browserTitle": "Waterfox",
-            "links": {
-                "browserIcon": "waterfox.png",
-                "download": "https://www.waterfoxproject.org/en-US/waterfox/new/?scene=1",
-                "homepage": "https://www.waterfoxproject.org/en-US/"
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "MacOS, Linux, Windows",
-                "version": "Jan 2020"
-            }
-        }
-    ],
-    "Goanna": [{
-            "browserName": "basilisk",
-            "browserTitle": "Basilisk",
-            "links": {
-                "browserIcon": "basilisk.png",
-                "download": "https://www.basilisk-browser.org/download.shtml",
-                "homepage": "https://www.basilisk-browser.org/"
-            },
-            "moreInfo": {
-                "description": "Browser by the same team behind Pale Moon, and it uses ${goannaHP}, which is an open source fork of Mozilla/Firefox's Gecko engine, in 2016.  Two things of note about the difference is that Goanna does not include any Rust Language components that were added during Mozilla Quantum (@ Firefox 57+), and it also runs in single process mode, vs Firefox which is a multi-process application.<br /><br />  Source: https://en.wikipedia.org/wiki/Goanna_(software) ",
-                "platforms": "Linux, Windows",
-                "version": ""
-            }
-        },
-        {
-            "browserName": "palemoon",
-            "browserTitle": "Pale Moon",
-            "links": {
-                "browserIcon": "pm_logo.png",
-                "download": "https://www.palemoon.org/",
-                "homepage": "https://www.palemoon.org/"
-            },
-            "moreInfo": {
-                "description": "",
-                "platforms": "Linux, Windows",
-                "version": "28.8.2"
-            }
-        }
-    ]
+  "Goanna": [
+    {
+      "browserName": "basilisk",
+      "browserTitle": "Basilisk",
+      "links": {
+        "browserIcon": "basilisk.png",
+        "download": "https://www.basilisk-browser.org/download.shtml",
+        "homepage": "https://www.basilisk-browser.org/"
+      },
+      "moreInfo": {
+        "description": "Browser by the same team behind Pale Moon, and it uses ${goannaHP}, which is an open source fork of Mozilla/Firefox's Gecko engine, in 2016.  Two things of note about the difference is that Goanna does not include any Rust Language components that were added during Mozilla Quantum (@ Firefox 57+), and it also runs in single process mode, vs Firefox which is a multi-process application.<br /><br />  Source: https://en.wikipedia.org/wiki/Goanna_(software) ",
+        "platforms": "Linux, Windows",
+        "version": "Basilisk 2020.02.06/07"
+      }
+    },
+    {
+      "browserName": "palemoon",
+      "browserTitle": "Pale Moon",
+      "links": {
+        "browserIcon": "pm_logo.png",
+        "download": "https://www.palemoon.org/",
+        "homepage": "https://www.palemoon.org/"
+      },
+      "moreInfo": {
+        "description": "",
+        "platforms": "Linux, Windows",
+        "version": "28.8.3"
+      }
+    }
+  ],
+  "blink": [
+    {
+      "browserName": "chrome",
+      "browserTitle": "Google Chrome",
+      "links": {
+        "browserIcon": "firefox.svg",
+        "download": "",
+        "homepage": ""
+      },
+      "moreInfo": {
+        "description": "Google Chrome's Web Browser.  One of the most used Web Browsers on the internet today",
+        "platforms": "Linux, Windows",
+        "version": ""
+      }
+    },
+    {
+      "browserName": "chromium",
+      "browserTitle": "Chromium",
+      "links": {
+        "browserIcon": "chromium.png",
+        "download": "https://www.waterfoxproject.org",
+        "homepage": "https://www.waterfoxproject.org"
+      },
+      "moreInfo": {
+        "description": "",
+        "platforms": "MacOS, Linux, Windows",
+        "version": "Jan 2020"
+      }
+    },
+    {
+      "browserName": "vivaldi",
+      "browserTitle": "Vivaldi",
+      "links": {
+        "browserIcon": "vivaldi.png",
+        "download": "https://vivaldi.com/",
+        "homepage": "https://vivaldi.com/"
+      },
+      "moreInfo": {
+        "description": "",
+        "platforms": "Linux, Windows",
+        "version": ""
+      }
+    },
+    {
+      "browserName": "silk",
+      "browserTitle": "Amazon Silk",
+      "links": {
+        "browserIcon": "silk.png",
+        "download": "",
+        "homepage": ""
+      },
+      "moreInfo": {
+        "description": "Amazon's Fire Tablet and Fire Stick related Web Browser",
+        "platforms": "",
+        "version": ""
+      }
+    }
+  ],
+  "gecko": [
+    {
+      "browserName": "firefox",
+      "browserTitle": "Mozilla Firefox",
+      "links": {
+        "browserIcon": "firefox.svg",
+        "download": "",
+        "homepage": "https://www.mozilla.org/en-US/firefox/new/"
+      },
+      "moreInfo": {
+        "description": "Mozilla's Web Browser offering and along with Google Chrome, one of the most used browsers on the internet.",
+        "platforms": "Linux, Windows",
+        "version": "72"
+      }
+    },
+    {
+      "browserName": "waterfox",
+      "browserTitle": "Waterfox",
+      "links": {
+        "browserIcon": "waterfox.png",
+        "download": "https://www.waterfox.net/download/",
+        "homepage": "https://www.waterfox.net/"
+      },
+      "moreInfo": {
+        "description": "Waterfox was originally forked from Mozilla Firefox, and is/was (see extra note below), opensouce. waterfox provides two versions \"classic\" and \"current\".<br /><br />Classic is the legacy branch of Waterfox, and still supports old standards. Classic also will receive bug and security fixes only.<br/><br /> Current is the newer branch that supports newer features that Waterfox Classic may not be able to support.<br /><br />Extra note:<a href=\"https://www.youtube.com/watch?v=FWxp7-9yn88 \" target=\"_blank\"> Please watch Quidsup Video on Waterfox from Feb 2020, here</a> Waterfox sold to a marketing company ",
+        "platforms": "MacOS, Linux, Windows",
+        "version": "(Depends on the branch)"
+      }
+    }
+  ]
 }

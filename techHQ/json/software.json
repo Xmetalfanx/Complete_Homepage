@@ -1,87 +1,4 @@
 {
-  "internet": {
-    "browsers": {
-      "blink": [
-        {
-          "images": {
-            "icon": "/techHQ/progIcons/internet/browsers/chromium.png",
-            "sshoturl": null
-          },
-          "moreInfo": {
-            "progDesc": "Open Source variant of Google Chrome, and what Google Chrome is based on",
-            "progHomepage": "http://www.chromium.org/Home",
-            "progPlatform": "cp",
-            "status": "active",
-            "worksonwine": false
-          },
-          "progName": "chromium",
-          "progTitle": "Chromium"
-        },
-        {
-          "images": {
-            "icon": "/techHQ/progIcons/internet/browsers/icons8-chrome.svg",
-            "sshoturl": null
-          },
-          "moreInfo": {
-            "progDesc": "Browser based on Chromium and is made by Google",
-            "progHomepage": "https://www.google.com/chrome/browser/index.html",
-            "progPlatform": "cp",
-            "status": "active",
-            "worksonwine": false
-          },
-          "progName": "googleChrome",
-          "progTitle": "Google Chrome"
-        },
-        {
-          "images": {
-            "icon": "/techHQ/progIcons/internet/browsers/vivaldi.png",
-            "sshoturl": null
-          },
-          "moreInfo": {
-            "progDesc": "",
-            "progHomepage": "https://vivaldi.com/",
-            "progPlatform": "cp",
-            "status": "active",
-            "worksonwine": false
-          },
-          "progName": "vivaldi",
-          "progTitle": "Vivaldi"
-        }
-      ],
-      "gecko": [
-        {
-          "images": {
-            "icon": "/techHQ/progIcons/internet/browsers/icons8-firefox.svg",
-            "sshoturl": null
-          },
-          "moreInfo": {
-            "progDesc": "Web Browser",
-            "progHomepage": "https://www.mozilla.org/en-US/firefox/new/",
-            "progPlatform": "cp",
-            "status": "",
-            "worksonwine": false
-          },
-          "progName": "firefox",
-          "progTitle": "Firefox"
-        },
-        {
-          "images": {
-            "icon": "/techHQ/progIcons/internet/browsers/waterfox.png",
-            "sshoturl": null
-          },
-          "moreInfo": {
-            "progDesc": "? 64bit version of Firefox for Windows ",
-            "progHomepage": "",
-            "progPlatform": "cp",
-            "status": "",
-            "worksonwine": false
-          },
-          "progName": "waterfox",
-          "progTitle": "Waterfox"
-        }
-      ]
-    }
-  },
   "graphics": {
     "editors": [
       {
@@ -254,6 +171,89 @@
         "progTitle": "Pix"
       }
     ]
+  },
+  "internet": {
+    "browsers": {
+      "blink": [
+        {
+          "images": {
+            "icon": "/techHQ/progIcons/internet/browsers/chromium.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "Open Source variant of Google Chrome, and what Google Chrome is based on",
+            "progHomepage": "http://www.chromium.org/Home",
+            "progPlatform": "cp",
+            "status": "active",
+            "worksonwine": false
+          },
+          "progName": "chromium",
+          "progTitle": "Chromium"
+        },
+        {
+          "images": {
+            "icon": "/techHQ/progIcons/internet/browsers/icons8-chrome.svg",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "Browser based on Chromium and is made by Google",
+            "progHomepage": "https://www.google.com/chrome/browser/index.html",
+            "progPlatform": "cp",
+            "status": "active",
+            "worksonwine": false
+          },
+          "progName": "googleChrome",
+          "progTitle": "Google Chrome"
+        },
+        {
+          "images": {
+            "icon": "/techHQ/progIcons/internet/browsers/vivaldi.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "",
+            "progHomepage": "https://vivaldi.com/",
+            "progPlatform": "cp",
+            "status": "active",
+            "worksonwine": false
+          },
+          "progName": "vivaldi",
+          "progTitle": "Vivaldi"
+        }
+      ],
+      "gecko": [
+        {
+          "images": {
+            "icon": "/techHQ/progIcons/internet/browsers/icons8-firefox.svg",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "Web Browser",
+            "progHomepage": "https://www.mozilla.org/en-US/firefox/new/",
+            "progPlatform": "cp",
+            "status": "",
+            "worksonwine": false
+          },
+          "progName": "firefox",
+          "progTitle": "Firefox"
+        },
+        {
+          "images": {
+            "icon": "/techHQ/progIcons/internet/browsers/waterfox.png",
+            "sshoturl": null
+          },
+          "moreInfo": {
+            "progDesc": "? 64bit version of Firefox for Windows ",
+            "progHomepage": "",
+            "progPlatform": "cp",
+            "status": "",
+            "worksonwine": false
+          },
+          "progName": "waterfox",
+          "progTitle": "Waterfox"
+        }
+      ]
+    }
   },
   "multimedia": {
     "audioplayers": [
@@ -891,34 +891,34 @@
       },
       {
         "images": {
-            "icon": "",
-            "sshoturl": null
+          "icon": "",
+          "sshoturl": null
         },
         "moreInfo": {
-            "progDesc": "",
-            "progHomepage": "",
-            "progPlatform": "",
-            "status": "",
-            "worksonwine": false
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "status": "",
+          "worksonwine": false
         },
         "progName": "",
         "progTitle": ""
+      },
+      {
+        "images": {
+          "icon": "",
+          "sshoturl": null
         },
-        {
-          "images": {
-              "icon": "",
-              "sshoturl": null
-          },
-          "moreInfo": {
-              "progDesc": "",
-              "progHomepage": "",
-              "progPlatform": "",
-              "status": "",
-              "worksonwine": false
-          },
-          "progName": "cfw",
-          "progTitle": "Comodo Firewall"
-          }
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "",
+          "progPlatform": "",
+          "status": "",
+          "worksonwine": false
+        },
+        "progName": "cfw",
+        "progTitle": "Comodo Firewall"
+      }
     ]
   },
   "systemTools": {
