@@ -71,10 +71,7 @@ function browserData(data) {
                         <div class="card-header">
                             <div class="col-6 float-left">
                                 <a href="${browserHomepage}" blank="_blank">
-                                    <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight lazyload" />
-                                    ${browserTitle}
-
-                                </a>
+                                    <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight lazyload" /> ${browserTitle}</a>
                             </div>
                             <div class="col-4 float-right">
                                 Version: ${browserVersion}
@@ -83,8 +80,7 @@ function browserData(data) {
 
                         <div class="card-body text-justify">
                             <div class="float-left">
-                                <span class="font-weight-bold">Platform(s): </span>
-                                ${browserPlatforms}
+                                <span class="font-weight-bold">Platform(s): </span> ${browserPlatforms}
                             </div>
                             <div class="float-right">
                                 <span class="font-weight-bold">

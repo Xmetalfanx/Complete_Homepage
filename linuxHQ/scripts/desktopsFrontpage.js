@@ -18,13 +18,12 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
                     <img class="d-block lazyload thumbnails mx-auto shadow" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
                 </a>
-                    <span class="font-weight-bold"> Distro:
-                    ${currentDESShotDistro}
+                    <span class="font-weight-bold"> Distro:${currentDESShotDistro}
             </div>
         </div>
 
 
-            `;
+        `;
 
     // Main output
     desktopResults.insertAdjacentHTML("beforeend", deInfoCard);

@@ -106,21 +106,14 @@ function displayDistroOutput (
                                 <span class="font-weight-bold">Currently Supported Versions: <br />
                             </div>
                             <br />
-                            <hr />
-
-
-                            ${currentDistroMoreInfoOutput}
+                            <hr /> ${currentDistroMoreInfoOutput}
                         </div>
 
-                        <div class="col d-none d-md-inline">
-                            ${currentDistroSShotOutput}
-                        </div>
+                        <div class="col d-none d-md-inline"> ${currentDistroSShotOutput}</div>
                     </div>
 
                     <br />
-                    <hr />
-
-                    ${currentDistroYTOutput}
+                    <hr /> ${currentDistroYTOutput}
 
                 </div>
             </div>
