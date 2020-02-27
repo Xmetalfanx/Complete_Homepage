@@ -4,6 +4,7 @@
   $title = 'Software Section - Drive Imaging and Partitioning';
 
   $path = $_SERVER["DOCUMENT_ROOT"];
+  
   include($path . "/templates/tech/baseTechSoftwareTemp.tpl");
 
 ?>
