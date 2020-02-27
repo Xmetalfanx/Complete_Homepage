@@ -8,7 +8,6 @@
 
 ?>
 
-?>
     <p class="justify"> <span class="boldText"> </span> I have recently tried a program I downloaded awhile back and alot of Linux users say they love, called <span class="redtext">PartImage</span><span class="italics"> (think of a better Norton Ghost)</span> for more File systems.. </p>
 
     <p class="justify">Some say it has issues with NTFS, others say despite the &quot;experimental&quot; label on NTFS ... It backs up NTFS and restores no problem. </p>
