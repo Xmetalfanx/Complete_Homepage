@@ -70,15 +70,15 @@ function displayDistroOutput (
 
   const currentDistroInfoOutput = `
 
-        <div class="card">
-            <div class="card-title m-0 p-2 bg-primary text-white">
-                <div class="row pl-3">
-                    <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" style="width: 48px;height: 48px;">
-                        <h2 class="font-weight-bold pl-3">${currentDistroTitle}</h2>
-                </div>
+        <div class="card my-2 shadow">
+            <div class="card-title m-0 p-2 pl-3 bg-primary text-white">
+            
+              <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="float-left pr-2 iconLG">
+                  <h2 class="font-weight-bold">${currentDistroTitle}</h2>
+    
             </div>
 
-            <div class="card-text p-2">
+            <div class="card-body">
                 <div class="row">
                     <div class="col d-md-inline">
 
