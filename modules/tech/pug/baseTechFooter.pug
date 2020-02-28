@@ -1,7 +1,7 @@
 <!-- at this point the main row is closed -->
 
-.row.pt-2
-  .col-12.d-none.d-md-block
+.row.pt-2.d-none.d-md-block
+  .col-12
     ul.list-unstyled.list-group.list-group-horizontal
       li.list-group-item
         a(href='/techHQ/index.php' aria-label="Link to TechHQ Frontpage") Home
@@ -10,7 +10,7 @@
       li.list-group-item
         a(href='#') Contact Me
 
-.d-none.d-md-block.mx-auto
+.mx-auto
   <!-- Include search box -->
   <?php include $path . "/modules/startpage.tpl"; ?>
 

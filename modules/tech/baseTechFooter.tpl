@@ -1,6 +1,6 @@
 <!-- at this point the main row is closed -->
-<div class="row pt-2">
-  <div class="col-12 d-none d-md-block">
+<div class="row pt-2 d-none d-md-block">
+  <div class="col-12">
 
     <ul class="list-unstyled list-group list-group-horizontal">
       <li class="list-group-item"> 
@@ -16,7 +16,7 @@
   </div>
 </div>
 
-<div class="d-none d-md-block mx-auto">
+<div class="mx-auto">
     <!-- Include search box -->
     <?php include $path . "/modules/startpage.tpl"; ?>
 </div>

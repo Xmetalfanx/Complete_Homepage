@@ -2,13 +2,14 @@
 <div class="card m-2 shadow">
   <div class="card-header">Browser</div>
   <div class="card-body p-2">
-  <a href="/techHQ/browsers/browserList.php">Browser List</a></div>
+    <a href="/techHQ/browsers/browserList.php">Browser List</a>
+  </div>
 </div>
 
 <div class="card m-2 shadow">
   <div class="card-header bg-primary text-white">Browser Addons</div>
   <div class="card-body p-2">
-    <a href="/techHQ/browsers/addons/browserAddons.php">My Top Addons</a></div>
+    <a href="/techHQ/browsers/addons/browserAddons.php">Some Top Addons</a></div>
 </div>
 
 <div class="card m-2 shadow">
