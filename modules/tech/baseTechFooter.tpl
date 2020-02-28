@@ -1,5 +1,5 @@
 <!-- at this point the main row is closed -->
-<div class="row">
+<div class="row pt-2">
   <div class="col-12 d-none d-md-block">
 
     <ul class="list-unstyled list-group list-group-horizontal">
