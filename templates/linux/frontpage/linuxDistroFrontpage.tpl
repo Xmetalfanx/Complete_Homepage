@@ -6,7 +6,7 @@
 
   <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
-  <div class="row flex-grow-1">
+  <div class="row flex-grow-1 w-100 mx-auto">
     <div class="col-xm-12 col-md-2">
       <?php include $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
