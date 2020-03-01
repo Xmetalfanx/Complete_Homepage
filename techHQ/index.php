@@ -9,8 +9,8 @@
 ?>
 
 <div class="card d-none d-md-block mb-5 border-secondary shadow">
-  <div class="card-header bg-primary text-white pb-1 mb-4 font-weight-bold">Educational Sites</div>
-  <div class="card-text px-3">
+  <div class="card-header pb-1 font-weight-bold">Educational Sites</div>
+  <div class="card-body">
     <div class="row mx-auto text-center">
 
         <div class="col-lg-3 col-md">
