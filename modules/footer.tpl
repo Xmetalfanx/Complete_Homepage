@@ -11,7 +11,7 @@
     </a>
     
     <!-- In Linux -->
-    <i class="fab fa-linux fa-2x"></i>
+    <i class="fa fa-linux fa-2x"></i>
     <!-- The second of the two MAIN columns -->
     <!-- remember in the final output to put the two closing </div> tags for the new bodyContainer and the inner bodyMain, AFTER the end of the footer-->
   </div>

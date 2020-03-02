@@ -11,7 +11,8 @@
                 "iconURL": "",
                 "moreInfo": {
                     "developer": "Bit Warden Inc",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":"Open Source Password manager"
                 }
             }
         ],
@@ -26,7 +27,8 @@
                 "iconURL": "privacyBadger.svg",
                 "moreInfo": {
                     "developer": "EFF",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":"Tracker Blocker, from the EFF, Electronic Frontier Foundation"
                 }
             },
             {
@@ -40,7 +42,8 @@
                 "iconURL": "ublockOrigin.svg",
                 "moreInfo": {
                     "developer": "Raymond Gorhill",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":"Ad/Tracker/Content blocker"
                 }
             },
             {
@@ -54,7 +57,8 @@
                 "iconURL": "umatrix.png",
                 "moreInfo": {
                     "developer": "Raymond Gorhill",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":""
                 }
             },
             {
@@ -67,7 +71,8 @@
                 "iconURL": "HTTPSEverywhere.svg",
                 "moreInfo": {
                     "developer": "EFF",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":"Enables encryption on the web, where available"
                 }
             }
         ]
@@ -84,7 +89,8 @@
                 "iconURL": "privacySettings.png",
                 "moreInfo": {
                     "developer": "Jeremy Schomery",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":""
                 }
             },
             {
@@ -97,7 +103,8 @@
                 "iconURL": "noscript.png",
                 "moreInfo": {
                     "developer": "Giorgio Maone",
-                    "forFFQuantum": "TRUE"
+                    "forFFQuantum": "TRUE",
+                    "description":""
                 }
             }
         ]

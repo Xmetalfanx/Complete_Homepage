@@ -6,7 +6,6 @@
 
 ?>
 
-
 <div class="card w-95 mx-auto shadow my-2">
   <div class="card-header">Antivirus Scanners, I trust </div>
   <div class="card-body">
@@ -39,25 +38,60 @@
   <div class="card-body">
     <div>This does not count all the smaller, specialty scanners, by the way </div>
     <ul class="list-group"> 
-      <li class="list-group-item"><a href="" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/emsisoft.png" alt="Emsisoft Anti-Malware graphic">Emsisoft Anti-Malware</a></li>
-      <li class="list-group-item"><a href="https://www.zemana.com/antimalware" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/zenmana.png" alt="Zemana Anti-Malware graphic">Zemana AntiMalware</a></li>
-      <li class="list-group-item"><a href="https://www.hitmanpro.com/en-us/hmp.aspx" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/hitman.png" alt="Hitman Pro graphic">Hitman Pro</a></li>
-      <li class="list-group-item"><a href="http://www.malwarebytes.org/" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/malwarebytes.png" alt="Malwarebytes graphic">MalwareBytes</a></li>
+      <li class="list-group-item">
+        <a href="" target="_blank"> 
+        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/emsisoft.png" alt="Emsisoft Anti-Malware graphic">
+        Emsisoft Anti-Malware</a></li>
+      
+      <li class="list-group-item">
+        <a href="https://www.zemana.com/antimalware" target="_blank"> 
+        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/zenmana.png" alt="Zemana Anti-Malware graphic">
+        Zemana AntiMalware</a></li>
+      
+      <li class="list-group-item">
+        <a href="https://www.hitmanpro.com/en-us/hmp.aspx" target="_blank"> 
+        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/hitman.png" alt="Hitman Pro graphic">
+        Hitman Pro</a></li>
+      
+      <li class="list-group-item">
+        <a href="http://www.malwarebytes.org/" target="_blank"> 
+        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/malwarebytes.png" alt="Malwarebytes graphic">
+        MalwareBytes</a></li>
+      
+      <div class="pb-3">I admit I am slightly out of the loop here in early 2020 to which is the best scanners, since I no longer use Windows, though I ususually see people that know what they are doing testing these things and on test systems using some product (say the subject of the review they are currently doing), AND THEN they usually use say Zenmana and/or (this one I see constantly) Hitman Pro as a "second opinion scanner" to see what the first scanner missed.  </div>
+      
+      <div class="pb-3">Last I saw Malwarebytes detection WAS falling a bit, but that may change, as code improves.</div>
+      
+      <div>Emsisoft use to have a more basic version of their paid offering, for free but I am having issues finding that now.  STILL THAT DOESN'T MATTER.... along with Hitman Pro and Zemana, I have seen the same people 100% trust Emsisoft for a second opinion scanner too.</div>
     </ul>
   </div>
 </div>
 <hr/> 
+
+
 <div class="card w-95 mx-auto shadow my-2">
   <div class="card-header">Specific Scanners/Misc Tools </div>
   <div class="card-body"> 
     <div>(not always needed, but I for instance have updated copies of all of these &quot;just in case&quot;). These can be used to help clean, badly infected computers:</div>
     <ul class="list-group"> 
-      <li class="list-group-item"><a href="http://www.bleepingcomputer.com/combofix/how-to-use-combofix" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/combofix.png" alt="Combofix Graphic">ComboFix</a>
+      <li class="list-group-item">
+        <a href="http://www.bleepingcomputer.com/combofix/how-to-use-combofix" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/combofix.png" alt="Combofix Graphic">ComboFix</a>
         <div>I have seen ComboFix, first-hand help computers that were badly infected; new users, should only use this if reformatting SEEMS like the only hope, after MalwareBytes &quot;failed&apos;. Note: At that time I had no idea about RKill (listed below) so instead of running Combofix, running RKill THEN Malwarebytes, may have worked as well</div>
       </li>
-      <li class="list-group-item"><a href="https://www.bleepingcomputer.com/download/rkill/" target="_blank">RKill</a><img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/rkill.png" alt="Rkill graphic">2020 note: I am not sure how useful this is in Windows 10, or if this is even updated anymore<br/>- Listed on many BleepingComputers tutorials as what to use before Malwarebytes on pesky infections that contain rootkits that try to disable Malwarebytes from cleaning your computer</li>
-      <li class="list-group-item"><a href="https://usa.kaspersky.com/downloads/tdsskiller" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/TDSSKiller.png" alt="TDSSKiller graphic">TDSSKiller</a> Kaspersky's offering to remove TDSS infections </li>
-      <li class="list-group-item"><a href="https://www.malwarebytes.com/adwcleaner/" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/adwcleaner.png" alt="ADWCleaner graphic">Malwarebyte's AdwCleaner </a></li>
+      
+      <li class="list-group-item">
+      <a href="https://www.bleepingcomputer.com/download/rkill/" target="_blank">
+        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/rkill.png" alt="Rkill graphic">
+        RKill
+      </a>
+      <div>2020 note: I am not sure how useful this is in Windows 10, or if this is even updated anymore<br/>- Listed on many BleepingComputers tutorials as what to use before Malwarebytes on pesky infections that contain rootkits that try to disable Malwarebytes from cleaning your computer</div>
+      </li>
+      
+      <li class="list-group-item">
+      <a href="https://usa.kaspersky.com/downloads/tdsskiller" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/TDSSKiller.png" alt="TDSSKiller graphic">TDSSKiller</a> Kaspersky's offering to remove TDSS infections </li>
+      
+      <li class="list-group-item">
+      <a href="https://www.malwarebytes.com/adwcleaner/" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/adwcleaner.png" alt="ADWCleaner graphic">Malwarebyte's AdwCleaner </a></li>
     </ul>
   </div>
 </div>
