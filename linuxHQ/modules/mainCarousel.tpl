@@ -7,11 +7,14 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block mx-auto" src="/linuxHQ/screenshots/ubuntu/kubuntu.png" alt="Kubuntu 18.04"></div>
+      <img class="d-block mx-auto" src="/linuxHQ/screenshots/ubuntu/thumbnails/kubuntu_tn.png" alt="Kubuntu 18.04">
+      </div>
     <div class="carousel-item">
-      <img class="d-block mx-auto" src="/linuxHQ/screenshots/ubuntu/mint.png" alt="Second slide"></div>
+      <img class="d-block mx-auto" src="/linuxHQ/screenshots/ubuntu/thumbnails/mint_tn.png" alt="Linux Mint slide">
+    </div>
     <div class="carousel-item">
-      <img class="d-block mx-auto" src="/linuxHQ/screenshots/solus/solusbudgie.png" alt="Third slide"></div>
+      <img class="d-block mx-auto" src="/linuxHQ/screenshots/solus/thumbnails/solusbudgie_tn.png" alt="Solus Budgie slide">
+    </div>
   </div>
   
   <a class="carousel-control-prev" href="#linuxCarousel" role="button" data-slide="prev">
