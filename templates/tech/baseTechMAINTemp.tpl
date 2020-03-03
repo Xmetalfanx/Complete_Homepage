@@ -10,7 +10,7 @@
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
 		<!-- Why is this mainBody id CSS here? --> 
-		<div class="row mainSection" id="mainBody">
+		<div class="mainSection" id="mainBody">
 			<div class="col-xs-12 col-md-3 col-xl-2">
 				<?php include($path . '/techHQ/modules/techMainCol1.tpl'); ?>
 			</div>

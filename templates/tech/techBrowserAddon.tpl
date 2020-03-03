@@ -10,7 +10,7 @@
   <div class="flexContainer">
     <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
   
-    <div class="row mainSection">
+    <div class="mainSection">
       <div class="col-xs-12 col-md-3 col-xl-2">
         <?php include $path . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
       </div>
