@@ -8,10 +8,10 @@
   <?php require($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
   <div class="row mainSection">
-    <div class="col-xm-12 col-md-2">
+    <div class="col-xs-12 col-md-3 col-xl-2">
       <?php require($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
     </div>
-    <div id="desktopSection" class="col-xm-12 col-md-10" >
+    <div id="desktopSection" class="col-xs-12 col-md-9 col-xl-10" >
 
     </div>
   </div>

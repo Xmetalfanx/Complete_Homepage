@@ -14,7 +14,7 @@
           <?php include $path . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
         </div>
 
-        <div id="browserSection" class="col-xs-12 col-md-10">
+        <div id="browserSection" class="col-xs-12 col-md-9 col-xl-10">
 
         </div>
       </div>
