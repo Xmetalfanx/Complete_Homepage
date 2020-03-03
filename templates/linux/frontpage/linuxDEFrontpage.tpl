@@ -11,7 +11,7 @@
 
     <?php include ($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
-    <div class="row mainSection mx-auto w-100">
+    <div class="row mainSection">
       <div class="col-xm-12 col-md-2">
         <?php include($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
       </div>

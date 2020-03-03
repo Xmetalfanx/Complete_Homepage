@@ -13,4 +13,4 @@
   <?php require $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <!-- now does this mean I need to add an extra closing </div> to files using this? -->
-  <div class="row mainSection w-100 mx-auto">
+  <div class="row mainSection">
