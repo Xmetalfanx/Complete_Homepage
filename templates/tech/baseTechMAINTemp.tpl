@@ -9,11 +9,11 @@
     <div class="flexContainer">
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
-		<div class="row mainSection" id="mainBody my-1">
-			<div class="col-xs-12 col-md-2">
+		<div class="row mainSection w-100 mx-auto" id="mainBody">
+			<div class="col-xs-12 col-md-3 col-xl-2">
 				<?php include($path . '/techHQ/modules/techMainCol1.tpl'); ?>
 			</div>
-			<div class="col-xs-12 col-md-10" id="outputSection">
+			<div class="col-xs-12 col-md-9 col-xl-10" id="outputSection">
 
 			</div>
 
