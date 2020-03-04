@@ -9,18 +9,13 @@
 <div class="card my-3 shadow">
   <div class="card-header">Windows Related</div>
   <div class="card-body">
-    <a href="/techHQ/security/infection/infectionProtection.php">Malware and Virus Protection</a><br>
-    <a href="http://browsehappy.com/why/">&quot;Why IE could be Dangerous?&quot;</a><br></div>
+    <a href="/techHQ/security/infection/infectionProtection.php">Malware and Virus Protection</a>
+    </div>
 </div>
 
 <div class="card my-3 shadow">
   <div class="card-header">
-    <a href="/techHQ/security/secureBrowsing/secureBrowseIndex.php">Secure Web Browsing</a></div>
-</div>
-
-<div class="card my-3 shadow">
-  <div class="card-header">
-    <div>Online Scan Site</div>
+    Online Scan Site
   </div>
   <div class="card-body"> 
     <a href="https://grc.com/x/ne.dll?bh0bkyd2" target="_blank">Shields UP!</a>
