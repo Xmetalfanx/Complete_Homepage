@@ -1,65 +1,100 @@
-div Here is a general guide to protection yourself online.
-
-ul 
-    li DO NOT ... under-estimate common sense
-    li Use a good Antivirus program
-    li Consider having a second opinion scanner
-    li Web Browser Addons
-    li REMEMBER ... just because you are seeing something that you are not familiar with ... doesn't mean "someone is hacking you".
-    ul 
-        li I have seen users with that mindset and it's hard to say troubleshoot a tech issue when they are CONVINCED THEY are being hacked, when the real issue is say a missing driver or some setting getting misconfigured.   HAVING SAID THAT...it is better to be safe than sorry, but ... again we are back to "use common sense" here 
-
-
-h3 Use a good Antivirus
-
-.card.w-95.mx-auto.shadow.my-2
-  .card-header Antivirus Scanners
-  
+.card
+  h2.card-header Here is a general guide to protection yourself online.
   .card-body
-    ul.list-group.list-group-flush
-      li.list-group-item
-        a(href="https://support.kaspersky.com/us/kscloud" target="_blank") 
-          img.iconSM.mr-2(src="/techHQ/progIcons/security/AVs/kaspersky.png" alt="Kaspersky Security Cloud graphics")
-          | Kaspersky Security Cloud 
-      li.list-group-item
-        a(href="https://www.bitdefender.com/solutions/free.html" target="_blank") 
-          img.iconSM.mr-2(src="/techHQ/progIcons/security/AVs/bitDefender.png" alt="Bit Defender Free graphic")
-          | Bit Defender Free
 
+    ol 
+        i DO NOT ... under-estimate common sense
+        li 
+          a(href="#goodAntivirus") Use a good Antivirus program and have a good second optnion scanner 
 
+        li Web Browser Addons
+        li REMEMBER ... just because you are seeing something that you are not familiar with ... doesn't mean "someone is hacking you".
+        ul 
+            li I have seen users with that mindset and it's hard to say troubleshoot a tech issue when they are CONVINCED THEY are being hacked, when the real issue is say a missing driver or some setting getting misconfigured.   HAVING SAID THAT...it is better to be safe than sorry, but ... again we are back to "use common sense" here.
+hr/
 
-h3 Consider a good second opinion scanner
+.card
+  #goodAntivirus.h3.card-header Use a good Antivirus and have a good second opinion scanner
+  .card-body 
+    a(href="/techHQ/security/infectionProtection.php") My Infection Protection page covering the subject 
 
-.card.w-95.mx-auto.shadow.my-2
-  .card-header Malware and Rootkit Scanners
-  
+hr/
+
+.card
+  h3.card-header Web Browser Addons
   .card-body
-    div This does not count all the smaller, specialty scanners, by the way 
-   
-    ul.list-group 
-      li.list-group-item
-        a(href="", target="_blank") 
-          img.iconSM.mr-2(src="/techHQ/progIcons/security/malware/emsisoft.png" alt="Emsisoft Anti-Malware graphic")
-          | Emsisoft Anti-Malware
-      li.list-group-item
-        a(href="https://www.zemana.com/antimalware", target="_blank") 
-          img.iconSM.mr-2(src="/techHQ/progIcons/security/malware/zenmana.png" alt="Zemana Anti-Malware graphic")
-          | Zemana AntiMalware
-      li.list-group-item
-        a(href="https://www.hitmanpro.com/en-us/hmp.aspx" target="_blank") 
-          img.iconSM.mr-2(src="/techHQ/progIcons/security/malware/hitman.png" alt="Hitman Pro graphic")
-          | Hitman Pro
-      li.list-group-item
-        a(href="http://www.malwarebytes.org/", target="_blank") 
-          img.iconSM.mr-2(src="/techHQ/progIcons/security/malware/malwarebytes.png" alt="Malwarebytes graphic")
-          | MalwareBytes
+    ul
+      li
+        a(href="#httpsEverywhere") HTTPS Everywhere
+      li
+        a(href="#privacyBadger") Privacy Badger
+      li
+        a(href="#ublockO") Ublock Origin
+      li
+        a(href="#umatrix") (for experienced users) Umatrix
 
-h3 Web Browser addons
+    .d-flex.flex-wrap.w-90.mx-auto
+      #httpsEverywhere.card.w-50.mx-auto.border.border-dark.shadow
+        .card-body.py-2
+          .row
+            .col-auto
+              img.iconSM(src='/techHQ/browsers/addons/graphics/HTTPSEverywhere.svg' alt='HTTPS Everywhere icon ')
+            h4.col-auto.pl-0 HTTPS Everywhere
+          div description here
+          .row.py-3.mx-auto.w-50
+            .col
+              a(href='https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/chrome.svg' alt='HTTPS Everywhere Chrome icon')
+            .col
+              a(href='https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/firefox.svg' alt='HTTPS Everywhere Firefox icon')
 
-// Consider copying and pasting from the browser section
-// remember the browser section uses JSON 
-ul
-    li Ublock Origin
-    li Privacy Badger
-    li HTTPS Everywhere
-    li (for experienced users) Umatrix
+
+      #privacyBadger.card.w-50.mx-auto.border.border-dark.shadow
+        .card-body.py-2
+          .row
+            .col-auto
+              img.iconSM(src='/techHQ/browsers/addons/graphics/privacyBadger.svg' alt='Privacy Badger icon ')
+            h4.col-auto.pl-0  Privacy Badger
+
+          div description here, perhaps
+          .row.py-3.mx-auto.w-50
+            .col
+              a(href='https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/chrome.svg' alt='Privacy Badger Chrome icon')
+            .col
+              a(href='https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/firefox.svg' alt='Privacy Badger Firefox icon')
+
+
+      #ublockO.card.w-50.mx-auto.border.border-dark.shadow
+        .card-body.py-2 
+          .row
+            .col-auto
+              img.iconSM(src='/techHQ/browsers/addons/graphics/ublockOrigin.svg' alt='Ublock Origin icon ')
+            h4.col-auto.pl-0  Ublock Origin
+          
+          div description here, perhaps
+          .row.py-3.mx-auto.w-50
+            .col
+              a(href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=chrome-ntp-icon' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/chrome.svg' alt='Ublock Origin Chrome icon')
+            .col
+              a(href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/firefox.svg' alt='Ublock Origin Firefox icon')
+
+      #umatrix.card.w-50.mx-auto.border.border-dark.shadow
+        .card-body
+          .row
+              .col-auto
+                img.iconSM(src='/techHQ/browsers/addons/graphics/umatrix.png' alt='Umatrix icon')
+              h4.col-auto.pl-0  Umatrix
+          div description here, perhaps
+          .row.py-3.mx-auto.w-50
+            .col
+              a(href='https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?utm_source=chrome-ntp-icon' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/chrome.svg' alt='Umatrix Chrome icon')
+            .col
+              a(href='https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search' target='_blank')
+                img.iconLG(src='/techHQ/progIcons/internet/browsers/firefox.svg' alt='Umatrix Firefox icon')
+
