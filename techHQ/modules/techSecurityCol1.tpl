@@ -2,7 +2,7 @@
 <div class="card my-3 shadow">
   <div class="card-header">Security</div>
   <div class="card-body">
-    <a href="/techHQ/security/internet/InternetThreats.php">Internet Threats</a><br />
+    <a href="/techHQ/security/internet/InternetThreats.php">Internet Tracking/Threats</a><br />
     <a href="/techHQ/security/infection/infectionProtection.php">Malware and Virus Protection</a>
   </div>
 </div>
