@@ -12,11 +12,7 @@
   <div class="card-header bg-primary text-white"> System Tools Related</div>
   <div class="card-body">
     <a href="#">Making Windows 7 look like Windows 10</a><br>
-    <a href="#"> Routine Maintenance</a>
-    <br />
-    <a href="/techHQ/techcenter/windowsUpdates.php">Windows Updates</a><br/>
+    <a href="#"> Routine Maintenance</a><br />
     <a href="/techHQ/techcenter/system/bad_uninstalls.php">Bad Uninstalls</a><br/>
-    <a href="/techHQ/techcenter/system/restorePointsPrune.php">Restore Point Pruning</a><br>
-    <a href="/techHQ/techcenter/system/systemLog.php">System Logs</a><br>
-    </div>
+  </div>
 </div>
