@@ -6,109 +6,15 @@
 
 ?>
 
-<div class="card w-95 mx-auto shadow my-2">
-  <div class="card-header">Free Antivirus Scanners, I trust </div>
-  <div class="card-body">
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">
-        <a href="https://support.kaspersky.com/us/kscloud" target="_blank"> 
-        <img class="iconSM mr-2" src="/techHQ/progIcons/security/AVs/kaspersky.png" alt="Kaspersky Security Cloud graphics">Kaspersky Security Cloud </a>
-      </li>
-      <li class="list-group-item">
-        <a href="https://www.bitdefender.com/solutions/free.html" target="_blank"> 
-        <img class="iconSM mr-2" src="/techHQ/progIcons/security/AVs/bitDefender.png" alt="Bit Defender Free graphic">Bit Defender Free</a>
-      </li>
-    </ul>
-  </div>
-</div>
+<?php
 
-<div class="card w-95 mx-auto shadow my-2">
-  <div class="card-header">Free Antivirus Scanners, I am not sure about </div>
-  <div class="card-body">
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">
-      <a href="" target="_blank">AVG (Bought by Avast) </a>
-      </li>
-      
-      <li class="list-group-item">
-      <a href="https://www.avast.com/en-us/index#pc" target="_blank"> 
-      <img class="iconSM mr-2" src="/techHQ/progIcons/security/AVs/avast.png">Avast</a>
-      </li>
-    </ul>
-    <div>Please see:
-      <ul>
-        <li>
-          <a href="https://www.cnet.com/news/antivirus-firm-avast-is-reportedly-selling-users-web-browsing-data/" target="_blank">Antivirus firm Avast is reportedly selling users' web browsing data - Cnet </a>
-          </li>
-        
-        <li>
-          <a href="https://www.youtube.com/watch?v=8iXlQjRgqXo" target="_blank">Quisup's Youtube video on the subject </a>
-        </li>
-        
-        <li>
-          <a href="https://www.youtube.com/watch?v=cmYw6vLeIYU" target="_blank">Britec09's Youtube video on the subject </a>
-        </li>
-        
-        <li>
-        <a href="https://www.pcworld.com/article/3516502/report-avast-and-avg-collect-and-sell-your-personal-info-via-their-free-antivirus-programs.html" target="_blank">
-        Update: Avast kills Jumpshot data-collection business after privacy concerns mount</a></li>
-        <div>I am not commenting on their detection rate ... that may be good enough ... it's the fact that they ever (and after public backlash they said they stopped this) sold users data in the first place.  This is suppose to be a security "app/program" company.  The fact they ever thought this was a good idea, worries me.</div>
-        <br />
-        <div>Also please remember that CCleaner (a FORMER must have program) for me, is/has been owned by Avast for awhile now ... I have personally switched to BleachBit on my only remaining Windows system.</div>
-      </ul>
-    </div>
-  </div>
-</div>
+  include $path . "/techHQ/security/sections/freeAVScanners.php";
+  include $path . "/techHQ/security/sections/malwareScanners.php";
+  include $path . "/techHQ/security/sections/specialityScanners.php";
 
-<div class="card w-95 mx-auto shadow my-2">
-  <div class="card-header">Malware and Rootkit Scanners</div>
-  <div class="card-body">
-    <div>This does not count all the smaller, specialty scanners, by the way </div>
-    <ul class="list-group"> 
-      <li class="list-group-item">
-        <a href="https://www.emsisoft.com/en/home/emergencykit/" target="_blank"> 
-        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/emsisoft.png" alt="Emsisoft Anti-Malware graphic">Emsisoft Anti-Malware</a>
-      </li>
-      
-      <li class="list-group-item">
-        <a href="https://www.zemana.com/antimalware" target="_blank"> 
-        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/zemana.png" alt="Zemana Anti-Malware graphic">Zemana AntiMalware</a>
-      </li>
-      
-      <li class="list-group-item">
-        <a href="https://www.hitmanpro.com/en-us/hmp.aspx" target="_blank"> 
-        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/hitman.png" alt="Hitman Pro graphic">Hitman Pro</a>
-      </li>
-      
-      <li class="list-group-item">
-        <a href="https://us.norton.com/support/tools/npe.html?lcid=1033" target="_blank"> 
-        <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/NPE.png" alt="Norton Power Eraser graphic">
-        Norton Power Eraser</a>
-        <br />
-        Just note that I have seen people say this can not run if you have Kasperksy installed because it may conflict with the driver or some service that Kaspersky runs.</li>
-      
-      <div class="pb-3">I admit I am slightly out of the loop here in early 2020 to which is the best scanners, since I no longer use Windows, though I ususually see people that know what they are doing testing these things and on test systems using some product (say the subject of the review they are currently doing), AND THEN they usually use say Zenmana and/or (this one I see constantly) Hitman Pro as a "second opinion scanner" to see what the first scanner missed.</div>
-      <div class="pb-3">Last I saw Malwarebytes detection WAS falling a bit, but that may change, as code improves.</div>
-      <div>Emsisoft use to have a more basic version of their paid offering, for free but I am having issues finding that now.  STILL THAT DOESN'T MATTER.... along with Hitman Pro and Zemana, I have seen the same people 100% trust Emsisoft for a second opinion scanner too.</div>
-    </ul>
-  </div>
-</div>
-<hr/>
+?>
 
-<div class="card w-95 mx-auto shadow my-2">
-  <div class="card-header">Specific Scanners/Misc Tools </div>
-  <div class="card-body"> 
-    <div>(not always needed, but I for instance have updated copies of all of these &quot;just in case&quot;). These can be used to help clean, badly infected computers:</div>
-    <ul class="list-group"> 
-      <li class="list-group-item"><a href="http://www.bleepingcomputer.com/combofix/how-to-use-combofix" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/combofix.png" alt="Combofix Graphic">ComboFix</a>
-        <div>I have seen ComboFix, first-hand help computers that were badly infected; new users, should only use this if reformatting SEEMS like the only hope, after MalwareBytes &quot;failed&apos;. Note: At that time I had no idea about RKill (listed below) so instead of running Combofix, running RKill THEN Malwarebytes, may have worked as well</div>
-      </li>
-      <li class="list-group-item"><a href="https://www.bleepingcomputer.com/download/rkill/" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/rkill.png" alt="Rkill graphic">RKill</a>2020 note: I am not sure how useful this is in Windows 10, or if this is even updated anymore<br/>- Listed on many BleepingComputers tutorials as what to use before Malwarebytes on pesky infections that contain rootkits that try to disable Malwarebytes from cleaning your computer</li>
-      <li class="list-group-item"><a href="https://usa.kaspersky.com/downloads/tdsskiller" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/TDSSKiller.png" alt="TDSSKiller graphic">TDSSKiller</a> Kaspersky's offering to remove TDSS infections </li>
-      <li class="list-group-item"><a href="https://www.malwarebytes.com/adwcleaner/" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/malware/adwcleaner.png" alt="ADWCleaner graphic">Malwarebyte's AdwCleaner </a></li>
-    </ul>
-  </div>
-</div>
+
 <div class="card w-95 mx-auto shadow my-2">
   <div class="card-header">Things Pro (paid) versions of programs tend to have, the free programs do not</div>
   <div class="card-body"> 
