@@ -7,12 +7,12 @@
 ?>
 
 
-<div class="card w-90 mx-auto">
+<div class="card w-90 mx-auto shadow">
   <h2 class="card-header">Here is a general guide to protection yourself online.</h2>
   <div class="card-body">
-    <ol> <i>DO NOT ... under-estimate common sense</i>
-      <li> 
-      <a href="#goodAntivirus">Use a good Antivirus program and have a good second optnion scanner </a></li>
+    <ol> 
+      <li>DO NOT ... under-estimate common sense</li>
+      <li> <a href="#goodAntivirus">Use a good Antivirus program and have a good second optnion scanner </a></li>
       <li>Web Browser Addons</li>
       <li>REMEMBER ... just because you are seeing something that you are not familiar with ... doesn't mean "someone is hacking you".</li>
       <ul> 
@@ -24,15 +24,18 @@
 <hr/>
 
 
-<div class="card w-90 mx-auto">
-  <div class="h3 card-header" id="goodAntivirus">Use a good Antivirus and have a good second opinion scanner</div>
+<div class="card w-90 mx-auto shadow">
+  <div class="h3 card-header" id="goodAntivirus">Use a good Antivirus and have a good Second Opinion Scanner</div>
   <div class="card-body"> 
-    <a href="/techHQ/security/infectionProtection.php">My Infection Protection page covering the subject </a>
-  </div>
+  <a href="/techHQ/security/infectionProtection.php">My Infection Protection page covering the subject</a>
+  <br/><br />
+  Second Opinion Scanners are good lines of defense, sometimes picking up or handling infections that some Anti-viruses may miss </div>
 </div>
 <hr/>
 
-<div class="card w-90 mx-auto">
+
+
+<div class="card">
   <h3 class="card-header">Web Browser Addons</h3>
   <div class="card-body">
     <ul>
@@ -41,7 +44,6 @@
       <li><a href="#ublockO">Ublock Origin</a></li>
       <li><a href="#umatrix">(for experienced users) Umatrix</a></li>
     </ul>
-
     <div class="d-flex flex-wrap w-90 mx-auto">
       <div class="card w-50 mx-auto border border-dark shadow" id="httpsEverywhere">
         <div class="card-body py-2">
@@ -53,13 +55,9 @@
           <div>description here</div>
           <div class="row py-3 mx-auto w-50">
             <div class="col">
-              <a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon" target="_blank">
-              <img class="iconLG" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="HTTPS Everywhere Chrome icon"></a>
-            </div>
+            <a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon" target="_blank"><img class="iconLG" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="HTTPS Everywhere Chrome icon"></a></div>
             <div class="col">
-              <a href="https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/" target="_blank">
-              <img class="iconLG" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="HTTPS Everywhere Firefox icon"></a>
-            </div>
+            <a href="https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/" target="_blank"><img class="iconLG" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="HTTPS Everywhere Firefox icon"></a></div>
           </div>
         </div>
       </div>
@@ -67,21 +65,15 @@
         <div class="card-body py-2">
           <div class="row">
             <div class="col-auto">
-              <img class="iconSM" src="/techHQ/browsers/addons/graphics/privacyBadger.svg" alt="Privacy Badger icon ">
-            </div>
+            <img class="iconSM" src="/techHQ/browsers/addons/graphics/privacyBadger.svg" alt="Privacy Badger icon "></div>
             <h4 class="col-auto pl-0"> Privacy Badger</h4>
           </div>
           <div>description here, perhaps</div>
-          
           <div class="row py-3 mx-auto w-50">
             <div class="col">
-            <a href="https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US" target="_blank">
-            <img class="iconLG" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Privacy Badger Chrome icon"></a>
-            </div>
+            <a href="https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US" target="_blank"><img class="iconLG" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Privacy Badger Chrome icon"></a></div>
             <div class="col">
-            <a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search" target="_blank">
-            <img class="iconLG" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Privacy Badger Firefox icon"></a>
-            </div>
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search" target="_blank"><img class="iconLG" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Privacy Badger Firefox icon"></a></div>
           </div>
         </div>
       </div>
