@@ -25,13 +25,15 @@
                 "reqProcessor": ""
             },
             "versions": {
-                "latestVersion": "5.16.x",
+                "latestVersion": "5.18.x",
                 "updated": "November 30, 2018",
                 "arch": "5.13.5-1",
                 "fedora": {
-                    "f30": "",
-                    "f29": "5.14.3-2",
-                    "rawhide": "5.14.4-2"
+                    "f30": "5.15.5-1",
+                    "f31": "5.17.5-1",
+                    "f32": "5.18.1-1",
+                    "f33": "5.18.3-1",                    
+                    "rawhide": "5.18.3-1"
                 },
                 "opensuse": {
                     "leap15": "5.12.6",
@@ -170,7 +172,7 @@
                 "fedora": "sudo dnf groupinstall xfce-desktop",
                 "opensuse": {
                     "repoLeap15": "",
-                    "repoleap151": "4.12",
+                    "repoleap151": "4.14",
                     "twRepo": "",
                     "reference": ""
                 },
@@ -198,7 +200,7 @@
                 "neonversion": ""
             },
             "versions": {
-                "latestVersion": "4.12",
+                "latestVersion": "4.14",
                 "updated": "",
                 "arch": "4.12",
                 "fedora": {
@@ -303,18 +305,20 @@
                 "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
             },
             "versions": {
-                "latestVersion": "4.0.3",
+                "latestVersion": "4.4.1",
                 "updated": "November 30, 2018",
                 "arch": "4.0.1-1",
                 "fedora": {
-                    "f30": "",
-                    "f29": "4.0.11",
-                    "rawhide": "4.0.11"
+                    "f30": "4.4:8-3",
+                    "f31":"4.4:8-3",
+                    "f32":"4.4:8-3",
+                    "f33":"4.4:8-4",
+                    "rawhide": "4.4:8-4"
                 },
                 "opensuse": {
                     "leap151": "",
                     "leap15": "3.6.7",
-                    "tumbleweed": "3.8.9"
+                    "tumbleweed": ""
                 },
                 "ubuntu": {
                     "mint": {

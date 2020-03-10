@@ -37,17 +37,27 @@
 		<li>
 		<p>The dollar-sign in the commands below ARE representative of the command prompt … using the pound side would mess up my Markdown coding when typing this page. DO NOT copy that dollar-sign IF YOU are copying and pasting any of these commands</p>
 		</li>
+		
 		<li>
 		<p>Filter the first 10 mirrors, sort them by download rate and save the results to /etc/pacman.d/mirrorlist:</p>
-		<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>$&nbsp;reflector&nbsp;--verbose&nbsp;-l&nbsp;10&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist`</span></span></span></div></pre>
+		<pre class="editor-colors lang-text">
+		<div class="line">
+		<span class="text plain">
+		<span class="meta paragraph text">
+		<span>$&nbsp;reflector&nbsp;--verbose&nbsp;-l&nbsp;10&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist`</span></span></span></div></pre>
 		</li>
+		
 		<li>
 		<p>Rate the 100 most recently synchronized HTTP servers, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
-		<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>$&nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist</span></span></span></div></pre>
+		<pre class="editor-colors lang-text">
+		<div class="line"><span class="text plain">
+		<span class="meta paragraph text"><span>$&nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist</span></span></span></div></pre>
 		</li>
 		<li>
 		<p>Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
-		<pre class="editor-colors lang-text"><div class="line"><span class="text plain"><span class="meta paragraph text"><span>$&nbsp;reflector&nbsp;--country&nbsp;&#39;United&nbsp;States&#39;&nbsp;-l&nbsp;50&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist</span></span></span></div></pre>
+		<pre class="editor-colors lang-text">
+		<div class="line"><span class="text plain">
+		<span class="meta paragraph text"><span>$&nbsp;reflector&nbsp;--country&nbsp;&#39;United&nbsp;States&#39;&nbsp;-l&nbsp;50&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist</span></span></span></div></pre>
 		</li>
 		</ul>
 		<hr>
