@@ -26,16 +26,10 @@
             },
             "versions": {
                 "latestVersion": "5.18.x",
-                "updated": "",
-                "arch": "",
-                "debian": {
-                    "busterVersion":"5.14.5.1-1",
-                    "bullseyeVersion":"5.17.5-3",
-                    "sidVersion":"5.17.5-3"
-                },
-
+                "updated": "November 30, 2018",
+                "arch": "5.13.5-1",
                 "fedora": {
-                    "f30": "",
+                    "f30": "5.15.5-1",
                     "f31": "5.17.5-1",
                     "f32": "5.18.1-1",
                     "f33": "5.18.3-1",                    
@@ -310,6 +304,7 @@
                 "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
             },
             "versions": {
+<<<<<<< HEAD
                 "latestVersion": "",
                 "updated": "",
                 "arch": "4.4.8-1",
@@ -322,13 +317,28 @@
                 "fedora": {
                     "f31":"4.4:8-3",
                     "f32":"4.4:8-4",
+=======
+                "latestVersion": "4.4.1",
+                "updated": "November 30, 2018",
+                "arch": "4.0.1-1",
+                "fedora": {
+                    "f30": "4.4:8-3",
+                    "f31":"4.4:8-3",
+                    "f32":"4.4:8-3",
+>>>>>>> 0e33bf18... updated versions of Desktop.json
                     "f33":"4.4:8-4",
                     "rawhide": "4.4:8-4"
                 },
                 "opensuse": {
+<<<<<<< HEAD
                     "leap151": "3.6.7",
                     "leap152": "",
                     "tumbleweed": "4.2.3-2"
+=======
+                    "leap151": "",
+                    "leap15": "3.6.7",
+                    "tumbleweed": ""
+>>>>>>> 0e33bf18... updated versions of Desktop.json
                 },
                 "ubuntu": {
                     "mint": {
