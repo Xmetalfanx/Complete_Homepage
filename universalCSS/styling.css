@@ -1,3 +1,8 @@
+table.rssdog {
+  border: 0;
+  border-style: none;
+}
+
 /* Colors */
 .greenText {
   color: #009900;
@@ -155,28 +160,6 @@ nav .nav-tabs {
 .iconLG {
   width: 48px;
   height: 48px;
-}
-
-h3.feed-title {
-  color: white;
-  background-color: #3E3F3A;
-  padding: 1% 0 1% 1%;
-}
-
-.feed-iten-desc {
-  padding: 1% 1% 1% 1%;
-}
-
-.feed-item-title {
-  padding: 1% 1% 0 5px;
-}
-
-.feed-item-title a:link,
-.feed-item-title a:hover,
-.feed-item-title a:visited {
-  color: #3E3F3A;
-  background-color: inherit;
-  font-size: 15px;
 }
 
 .icon {

@@ -26,10 +26,16 @@
             },
             "versions": {
                 "latestVersion": "5.18.x",
-                "updated": "November 30, 2018",
-                "arch": "5.13.5-1",
+                "updated": "",
+                "arch": "",
+                "debian": {
+                    "busterVersion":"5.14.5.1-1",
+                    "bullseyeVersion":"5.17.5-3",
+                    "sidVersion":"5.17.5-3"
+                },
+
                 "fedora": {
-                    "f30": "5.15.5-1",
+                    "f30": "",
                     "f31": "5.17.5-1",
                     "f32": "5.18.1-1",
                     "f33": "5.18.3-1",                    
@@ -46,9 +52,8 @@
                         "mint19": "5.8.7.1"
                     },
                     "neonversion": "5.10.4",
-                    "xenial": "5.5.5",
                     "bionic": "",
-                    "cosmic": "5.13.5-1",
+                    "cosmic": "",
                     "disco": ""
                 }
             },
@@ -305,20 +310,25 @@
                 "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
             },
             "versions": {
-                "latestVersion": "4.4.1",
-                "updated": "November 30, 2018",
-                "arch": "4.0.1-1",
+                "latestVersion": "",
+                "updated": "",
+                "arch": "4.4.8-1",
+                "debian": {
+                    "buster":"3.8.8-1",
+                    "bullseye":"4.4.8-2",
+                    "sid":"4.4.8-2"
+
+                },
                 "fedora": {
-                    "f30": "4.4:8-3",
                     "f31":"4.4:8-3",
-                    "f32":"4.4:8-3",
+                    "f32":"4.4:8-4",
                     "f33":"4.4:8-4",
                     "rawhide": "4.4:8-4"
                 },
                 "opensuse": {
-                    "leap151": "",
-                    "leap15": "3.6.7",
-                    "tumbleweed": ""
+                    "leap151": "3.6.7",
+                    "leap152": "",
+                    "tumbleweed": "4.2.3-2"
                 },
                 "ubuntu": {
                     "mint": {
@@ -326,11 +336,11 @@
                         "mint19": ""
 
                     },
-                    "xenial": "",
-                    "bionic": "",
-                    "cosmic": "",
-                    "neonversion": "",
-                    "disco": ""
+                    "bionic": "3.6.7-8",
+                    "neonversion": "n/a",
+                    "disco": "4.0.10-2",
+                    "eoan":"4.0.10-2",
+                    "focal":"4.4.8-2"
                 }
             },
             "install": {
@@ -445,17 +455,24 @@
             },
             "versions": {
                 "latestVersion": "",
-                "updated": "November 30, 2019",
-                "arch": "1.20.3-1",
+                "updated": "",
+                "arch": "1.24.0-1",
+                "debian": {
+                    "busterVersion":"1.20.0+5",
+                    "bullseyeVersion":"1.24.0+1",
+                    "sidVersion":"1.24.0+1"
+                },
                 "fedora": {
                     "f30": "",
-                    "f29": "1.20.3-2",
-                    "rawhide": "1.20.3-2"
+                    "f31": "1.22.2-1",
+                    "f32": "",
+                    "f33": "",                    
+                    "rawhide": ""
                 },
                 "opensuse": {
-                    "leap151": "1.18.0",
-                    "leap15": "",
-                    "tumbleweed": "1.18.0"
+                    "leap151": "1.20.1",
+                    "leap152": "",
+                    "tumbleweed": "1.24.0"
                 },
                 "ubuntu": {
                     "mint": {

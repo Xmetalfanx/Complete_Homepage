@@ -1,0 +1,27 @@
+
+////////////////////////////////////////////////////////
+// RSS Feed Related
+// idea: could i switch the colors below to "inherit"?
+// Main title
+h3.feed-title {
+    color: $white;
+    background-color: $BGColor;
+    @include padding(1%, 0, 1%, 1%);
+  }
+
+  .feed-iten-desc {
+    @include padding(1%, 1%, 1%, 1%);
+  }
+
+  .feed-item-title {
+    // This controls the padding the links
+    @include padding(1%, 1%, 0, 5px);
+
+    a:link,
+    a:hover,
+    a:visited {
+      color: $BGColor;
+      background-color: inherit;
+      font-size: 15px;
+    }
+  }
