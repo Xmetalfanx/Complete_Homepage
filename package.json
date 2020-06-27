@@ -4,6 +4,7 @@
   "description": "My Homepage",
   "main": "index.php",
   "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
     "jshint": "^2.10.2",
     "jslint": "^0.12.1",
     "lazysizes": "^5.1.1"

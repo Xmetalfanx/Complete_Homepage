@@ -67,7 +67,6 @@ code {
 footer {
   @extend .darkBG;
   max-height: $footerheight;
-  @include padding(10px, 20px, 10px, 20px);
   @include margin(0, 0, 0, 0);
 
   // Is this (below) needed?
@@ -121,10 +120,6 @@ nav {
   @include margin(null, 20px, null, 20px);
 }
 
-
-.w-33 {
-  width: 33%;
-}
 
 // For the SP icon and input box
 .SPHeightIconInput {

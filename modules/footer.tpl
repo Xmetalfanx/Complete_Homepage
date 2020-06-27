@@ -1,6 +1,6 @@
 
 <footer>
-  <div class="row">
+  <div class="row p-4">
     <div class="col d-block">Site made with:
       <!-- HTML 5-->
       <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" aria-label="Mozilla Developer Site for HTML5" target="_blank" rel="noopener">
