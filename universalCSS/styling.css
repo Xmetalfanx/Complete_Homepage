@@ -37,14 +37,19 @@ table.rssdog {
   width: 60%;
 }
 
-.darkBG {
+.darkBG, .card-header, code, footer {
   color: white;
   background-color: #333333;
 }
 
-.darkBG a:link {
+.darkBG a:link, .card-header a:link, code a:link, footer a:link, .darkBG a:visited, .card-header a:visited, code a:visited, footer a:visited {
   background-color: inherit;
   color: inherit;
+}
+
+.darkBG a:hover, .card-header a:hover, code a:hover, footer a:hover {
+  background-color: inherit;
+  color: lightgrey;
 }
 
 html,
@@ -104,8 +109,6 @@ a:visited {
 }
 
 .card-header {
-  color: white;
-  background-color: #3E3F3A;
   font-weight: bold;
   font-size: 20px;
 }
@@ -117,14 +120,10 @@ a:visited {
 }
 
 code {
-  color: white;
   display: inline-block;
-  background-color: #3E3F3A;
 }
 
 footer {
-  color: white;
-  background-color: #3E3F3A;
   max-height: 75px;
   padding: 10px 20px 10px 20px;
   margin: 0 0 0 0;

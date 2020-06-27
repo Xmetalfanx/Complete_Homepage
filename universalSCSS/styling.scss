@@ -48,8 +48,7 @@ a:visited {
 }
 
 .card-header {
-  color: $white;
-  background-color: $BGColor;
+  @extend .darkBG;
   font-weight: bold;
   font-size: 20px;
 
@@ -61,18 +60,17 @@ a:visited {
 }
 
 code {
-  color: $white;
+  @extend .darkBG;
   display: inline-block;
-  background-color: $BGColor;
 }
 
 footer {
-  color: $white;
-  background-color: $BGColor;
+  @extend .darkBG;
   max-height: $footerheight;
   @include padding(10px, 20px, 10px, 20px);
   @include margin(0, 0, 0, 0);
 
+  // Is this (below) needed?
   a:link {
     color: inherit;
     background-color: inherit;

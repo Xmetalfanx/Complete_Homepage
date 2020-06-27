@@ -4,8 +4,14 @@
   color: $white;
   background-color: $darkGrey1;
 
-  a:link {
+  a:link, a:visited {
     background-color: inherit;
     color: inherit;
+  }
+
+  a:hover {
+    background-color: inherit;
+    color: lightgrey;
+
   }
 }
