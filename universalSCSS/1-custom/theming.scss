@@ -1,0 +1,11 @@
+// Tweaking this to match the bootswatch theme i am using
+.darkBG
+{
+  color: $white;
+  background-color: $darkGrey1;
+
+  a:link {
+    background-color: inherit;
+    color: inherit;
+  }
+}

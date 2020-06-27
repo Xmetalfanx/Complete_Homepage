@@ -81,8 +81,6 @@ footer {
 
 // Nav: for the entire header
 nav {
-  color: $white;
-  background-color: $BGColor; // This is for the Text "header" on the left, when at full screen
   text-shadow: 2px 5px #333333;
 
   .navbar-brand {
@@ -169,12 +167,6 @@ nav {
     max-width: 500px;
     max-height: 500px;
   }
-}
-
-.darkBG
-{
-  color: $white;
-  background-color: $darkGrey2;
 }
 
 .list-group-item

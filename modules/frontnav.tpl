@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg darkBG">
   <h3>
     <a href="/index.php" class="navbar-brand">Xmetal's Homepage</a>
   </h3>

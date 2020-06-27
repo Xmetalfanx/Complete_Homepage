@@ -37,6 +37,16 @@ table.rssdog {
   width: 60%;
 }
 
+.darkBG {
+  color: white;
+  background-color: #333333;
+}
+
+.darkBG a:link {
+  background-color: inherit;
+  color: inherit;
+}
+
 html,
 body {
   font-size: 12pt;
@@ -126,8 +136,6 @@ footer a:link {
 }
 
 nav {
-  color: white;
-  background-color: #3E3F3A;
   text-shadow: 2px 5px #333333;
 }
 
@@ -204,11 +212,6 @@ nav .nav-tabs {
 .carousel .carousel-item img {
   max-width: 500px;
   max-height: 500px;
-}
-
-.darkBG {
-  color: white;
-  background-color: #3E3F3A;
 }
 
 .list-group-item {
