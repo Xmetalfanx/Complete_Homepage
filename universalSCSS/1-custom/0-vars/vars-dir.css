@@ -1,8 +1,3 @@
-table.rssdog {
-  border: 0;
-  border-style: none;
-}
-
 /* Colors */
 .greenText {
   color: #009900;
@@ -36,9 +31,4 @@ table.rssdog {
 .w-60 {
   width: 60%;
 }
-
-.darkBG {
-  color: white;
-  background-color: #333333;
-}
-/*# sourceMappingURL=custom-dir.css.map */
+/*# sourceMappingURL=vars-dir.css.map */
