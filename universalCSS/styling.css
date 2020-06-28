@@ -140,6 +140,8 @@ footer a:link {
 
 nav {
   text-shadow: 2px 5px #333333;
+  text-shadow: 2px 5px 0 #333333;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 nav .navbar-brand {
@@ -151,8 +153,9 @@ nav .navbar-brand {
 nav .navbar-nav a:link {
   font-size: 22px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 nav .nav-tabs {
