@@ -1,0 +1,26 @@
+// This is all obsolete once the boostrap 5 custom utilities are in place in BS5 .... but i STILL may want to keep these in case i remove Boostrap at some point
+
+.w-33
+{
+    @include width(33%);
+}
+
+.w-60
+{
+    @include width(60%);
+}
+
+.w-80
+{
+    @include width(80%);
+}
+
+.w-90
+{
+    @include width(90%);
+}
+
+.w-95
+{
+    @include width(95%)
+}

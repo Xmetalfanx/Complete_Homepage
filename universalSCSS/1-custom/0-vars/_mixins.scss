@@ -20,6 +20,16 @@
 	margin: $top $right $bottom $left;
 
 }
+@mixin width( $width:auto )
+{
+  width: $width;
+
+}
+
+@mixin textShadow ( $hshadow: 2px, vshadow: 5px, $blurRadius:0, $color: #333333)
+  {
+  text-shadow: $hshadow $vshadow $blurRadius $color;
+}
 
 // #############################################
 /* Border variables */

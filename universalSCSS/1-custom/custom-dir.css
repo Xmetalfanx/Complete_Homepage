@@ -1,8 +1,3 @@
-table.rssdog {
-  border: 0;
-  border-style: none;
-}
-
 /* Colors */
 .greenText {
   color: #009900;
@@ -21,6 +16,31 @@ table.rssdog {
 /* Fonts */
 /* Images */
 /* Border variables */
+.w-33 {
+  width: 33%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+table.rssdog {
+  border: 0;
+  border-style: none;
+}
+
 .darkBG {
   color: white;
   background-color: #333333;

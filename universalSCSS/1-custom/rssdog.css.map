@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,AAAA,OAAO,CAAC;EACT,MAAM,EAAE,CAAC;EACT,YAAY,EAAE,IAAI;CACrB",
-    "sources": [
-        "rssdog.scss"
-    ],
-    "names": [],
-    "file": "rssdog.css"
-}
