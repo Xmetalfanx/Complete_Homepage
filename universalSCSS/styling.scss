@@ -11,6 +11,12 @@ body {
   height: 100%;
 }
 
+// no longer in bootstrap 5
+.text-justify
+{
+  text-align: justify;
+}
+
 .flexContainer {
   display: flex;
   flex-direction: column;
