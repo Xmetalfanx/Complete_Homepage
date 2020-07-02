@@ -1,14 +1,9 @@
-//output:frontnav.html
-
 nav.navbar.navbar-expand-lg.darkBG
-  
-  h3 
+  .container-fluid
     a.navbar-brand(href='/index.php') Xmetal's Homepage
-  
-  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerMain', aria-controls='navbarTogglerMain', aria-expanded='false', aria-label='Toggle navigation')
-    span.navbar-toggler-icon
-
-  #navbarTogglerMain.collapse.navbar-collapse
-    .navbar-nav.ml-auto
-      a.nav-item.nav-link(href='/linuxHQ/index.php') Linux HQ
-      a.nav-item.nav-link(href='/techHQ/index.php') Tech HQ
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerMain' aria-controls='navbarTogglerMain' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarTogglerMain.collapse.navbar-collapse
+      .navbar-nav.ml-auto
+        a.nav-item.nav-link(href='/linuxHQ/index.php') Linux HQ
+        a.nav-item.nav-link(href='/techHQ/index.php') Tech HQ

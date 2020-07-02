@@ -9,13 +9,13 @@
   box-shadow: $horz $vert $depth $color;
 }
 
-@mixin padding( $top, $right, $bottom, $left)
+@mixin padding($top, $right, $bottom, $left)
  {
    padding: $top $right $bottom $left;
 
  }
 
-@mixin margin( $top, $right, $bottom, $left)
+@mixin margin($top, $right, $bottom, $left)
 {
 	margin: $top $right $bottom $left;
 
@@ -26,7 +26,7 @@
 
 }
 
-@mixin textShadow ( $hshadow: 2px, $vshadow: 5px, $blurRadius:0, $color: #333333)
+@mixin textShadow($hshadow: 2px, $vshadow: 5px, $blurRadius:0, $color: #333333)
   {
   text-shadow: $hshadow $vshadow $blurRadius $color;
 }

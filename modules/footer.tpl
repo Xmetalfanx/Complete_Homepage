@@ -41,5 +41,5 @@
 
 <script src="/scripts/lazysizes.min.js"></script>
 
-<!-- Ends flexContainer -->
+<!-- Ends flexContainer div -->
 </div> 

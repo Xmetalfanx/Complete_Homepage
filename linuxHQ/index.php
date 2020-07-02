@@ -6,7 +6,7 @@
     $path = getenv('DOCUMENT_ROOT');
     include($path . '/templates/linux/open/baseLinuxTemplate.tpl');
 ?>
-
+<!-- here flexContainer is a div that is open and also "mainSection" is another div below that -->
   <div class="col-9">
 
     <div class="d-none d-lg-block">
@@ -24,15 +24,15 @@
 
     <!-- OMGUbuntu RSS feed/news -->
     <?php include $path . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+
   </div>
-
-
   <div class="d-none d-md-block col-3">
+
     <!-- Distrowatch RSS Feed -->
     <?php include $path . "/linuxHQ/modules/distrowatch.tpl"; ?>
   </div>
 
 
-</div> <!-- Ends the main row -->
+</div> <!-- Ends the mainSection div....flexContainer's div is closed IN the footer file below  -->
 
 <?php include $path . "/modules/footer.tpl"; ?>
