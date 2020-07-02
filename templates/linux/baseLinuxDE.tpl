@@ -1,5 +1,4 @@
 <?php
-  
     require($path . '/modules/linux/linuxBaseHeader.tpl');
 ?>
 
