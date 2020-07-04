@@ -7,7 +7,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
     const deInfoCard = `
 
         <div class="card pb-4 flex-fill align-self-start">
-            <div class="card-header bg-primary text-white py-2 font-weight-bold">
+            <div class="card-header py-2">
                 <h3>
                     <a href="${currentDEHomepage}" target="_blank" rel="noopener"> ${currentDETitle}
                     </a>
