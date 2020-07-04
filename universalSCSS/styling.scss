@@ -22,7 +22,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  overflow-x: hidden;
 
   // the main section between the nav top bar and the footer
   .mainSection {
@@ -78,6 +77,8 @@ footer {
   @extend .darkBG;
   max-height: $footerheight;
   @include margin(0, 0, 0, 0);
+  @include padding( 30px, 20px, 30px, 20px);
+  max-width: 100%;
 
   // Is this (below) needed?
   a:link {
@@ -136,6 +137,12 @@ footer {
 }
 
 .carousel {
+
+height: 90%;
+  width: 90%;
+  min-height: 325px;
+
+
   // Nav: for the entire header
   nav {
     text-shadow: 2px 5px #333333;
@@ -164,10 +171,7 @@ footer {
     }
   }
   
-  height: 90%;
-  width: 90%;
-  min-height: 325px;
-
+  
   .carousel-control-prev,
   .carousel-control-next {
     width: 60%;
