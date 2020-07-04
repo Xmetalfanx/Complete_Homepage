@@ -8,8 +8,9 @@ body {
   font-size: 12pt;
   font-family: $Roboto;
 
-  width: 100%;
   height: 100%;
+
+  --contentWidth: 100%;
 }
 
 // no longer in bootstrap 5
@@ -78,7 +79,7 @@ footer {
   max-height: $footerheight;
   @include margin(0, 0, 0, 0);
   @include padding( 30px, 20px, 30px, 20px);
-  max-width: 100%;
+  max-width: var(--contentWidth);
 
   // Is this (below) needed?
   a:link {
@@ -138,7 +139,7 @@ footer {
 
 .carousel {
 
-height: 90%;
+  height: 90%;
   width: 90%;
   min-height: 325px;
 
@@ -147,7 +148,8 @@ height: 90%;
   nav {
     text-shadow: 2px 5px #333333;
     @include textShadow;
-    @include padding(0.5rem, 1rem, 0.5rem, 1rem )
+    @include padding(0.5rem, 1rem, 0.5rem, 1rem );
+    max-width: var(--contentWidth);
   
     .navbar-brand {
       font-size: 36px; // really shouldn't have any major padding effect other than pushing the menus over from the far left

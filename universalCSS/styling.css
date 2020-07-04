@@ -106,8 +106,8 @@ html,
 body {
   font-size: 12pt;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  width: 100%;
   height: 100%;
+  --contentWidth: 100%;
 }
 
 .text-justify {
@@ -181,7 +181,7 @@ footer {
   max-height: 75px;
   margin: 0 0 0 0;
   padding: 30px 20px 30px 20px;
-  max-width: 100%;
+  max-width: var(--contentWidth);
 }
 
 footer a:link {
@@ -240,6 +240,7 @@ footer a:link {
   text-shadow: 2px 5px #333333;
   text-shadow: 2px 5px 0 #333333;
   padding: 0.5rem 1rem 0.5rem 1rem;
+  max-width: var(--contentWidth);
 }
 
 .carousel nav .navbar-brand {
