@@ -23,7 +23,6 @@ function displayDEOutput(
   currentDESuseTWVersion,
   currentDE1604LTSVer,
   currentDE1804LTSVer,
-  currentDE1810,
   currentDEMint173Version,
   currentDEMint18Version,
   currentDEMint19Version,
@@ -124,21 +123,20 @@ function displayDEOutput(
 
     <div class="accordion" id="accordionExample">
         <div class="card">
-        <div class="card-header" id="headingArch">
-            <h2 class="mb-0">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseArch" aria-expanded="true" aria-controls="collapseArch">
-                Arch Linux 
-            </button>
-            </h2>
-        </div>
-    
-      <div id="collapseArch" class="collapse show" aria-labelledby="headingArch" data-parent="#accordionExample">
-        <div class="card-body">
-            <code class="my-3 p-2">${currentDEarchInstall}</code>
+          <div class="card-header" id="headingArch">
+              <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseArch" aria-expanded="true" aria-controls="collapseArch"> Arch Linux </button>
+              </h2>
+          </div>
 
-        </div>
+    <div id="collapseArch" class="collapse show" aria-labelledby="headingArch" data-parent="#accordionExample">
+      <div class="card-body">
+        <code class="my-3 p-2">${currentDEarchInstall}</code>
       </div>
     </div>
+
+
+      </div>
 
    
     <div class="card">
@@ -198,13 +196,13 @@ function displayDEOutput(
 <div id="collapseUbuntu" class="collapse" aria-labelledby="headingUbuntu" data-parent="#accordionExample">
   <div class="card-body">
   <ul>
-  <li>Installing on Ubuntu:
-      <code class="my-3 p-2">${currentDEubuntuInstall}</code>
-  </li>
-  <li>Installing on Linux Mint:
-      <code class="my-3 p-2">${currentDEmintInstall}</code>
-  </li>
-</ul>
+    <li>Installing on Ubuntu:
+        <code class="my-3 p-2">${currentDEubuntuInstall}</code>
+    </li>
+    <li>Installing on Linux Mint:
+        <code class="my-3 p-2">${currentDEmintInstall}</code>
+    </li>
+  </ul>
 
 
 </div>
@@ -216,38 +214,38 @@ function displayDEOutput(
   // Complete Header
   const deInfoCard = `
 
-            <div class="card my-3 shadow">
-                <div class="card-header bg-primary text-white">
+            <div class="card mx-3 shadow">
+                <div class="card-header">
                     <h3 class="font-weight-bold">${currentDETitle}</h3>
                 </div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col">
-                            <span class="font-weight-bold">Homepage:</span>
+                          <span class="font-weight-bold">Homepage:</span>
                             <a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}'s Homepage</a>
-                            <br>
+                          <br>
 
-                            <span class="font-weight-bold">Github URL: </span>
+                          <span class="font-weight-bold">Github URL: </span>
                             <a href="${currentDEGithub}" target="_blank">${currentDETitle} on Github</a>
-                            <br><br>
+                          <br><br>
 
-                            <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
-                            <span class="font-weight-bold">Desktop Category: </span>${currentDECategory}<br>
-                            <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}<br>
-                            <br>
+                          <span class="font-weight-bold">Latest Version: </span>${currentDELatestVersion}<br>
+                          <span class="font-weight-bold">Desktop Category: </span>${currentDECategory}<br>
+                          <span class="font-weight-bold">Distros That Feature: </span>${currentDEDistroFeature}<br>
+                          <br>
 
-                            <span class="font-weight-bold">Desktop Requirements: </span>
-                            <ul>
-                                <li>
-                                    <span class="font-italic">Required Processor: </span>${currentDEReqProc}
-                                </li>
-                                <li>
-                                    <span class="font-italic">Required Memory: </span>${currentDEReqMem}
-                                </li>
-                                <li>
-                                    <span class="font-italic">Required Hard Drive Space: </span>${currentDEReqHDD}
-                                </li>
-                            </ul>
+                          <span class="font-weight-bold">Desktop Requirements: </span>
+                          <ul>
+                            <li>
+                              <span class="font-italic">Required Processor: </span>${currentDEReqProc}
+                            </li>
+                            <li>
+                              <span class="font-italic">Required Memory: </span>${currentDEReqMem}
+                            </li>
+                            <li>
+                              <span class="font-italic">Required Hard Drive Space: </span>${currentDEReqHDD}
+                            </li>
+                          </ul>
 
                         </div>
 

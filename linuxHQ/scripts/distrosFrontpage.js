@@ -24,11 +24,11 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
     const currentDistroInfoOutput = `
 
         <div class="card pb-3 align-self-start flex-fill">
-            <div class="card-title m-0 p-2 bg-primary text-white">
-                <div class="row pl-3">
-                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="iconSM">
-                    <h4 class="font-weight-bold pl-3">${currentDistroTitle}</h4>
-                </div>
+            <div class="card-header pl-2">
+                    <h4 class="font-weight-bold">
+                        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="iconSM mr-1">
+                        ${currentDistroTitle}
+                    </h4>
             </div>
 
             <div class="card-text p-2">

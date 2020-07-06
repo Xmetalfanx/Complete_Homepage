@@ -1,36 +1,31 @@
-
 // Nav: for the entire header
 nav {
-    text-shadow: 2px 5px #333333;
-    @include textShadow();
-    @include padding(0.5rem, 1rem, 0.5rem, 1rem )
-  
-    .navbar-brand {
-      font-size: 36px;
-      font-weight: bold;
-      @include padding(0, 0, 0, 10px);
-    }
-  
-    // This is for the navigation menus on the right, when at full screen
-    .navbar-nav a:link {
-      font-size: 22px;
-      line-height: 22px;
-      font-weight: bold;
-      text-transform: uppercase;
-  
-      color: rgba(255, 255, 255, 0.5);
-    }
-  
-    // needed elsewhere on page ... aparently it has nothing to do with the main navs on any section 
-    .nav-tabs {
-      background-color: $white;
-    }
-
-    // Added since Boostrap 5
-    button.navbar-toggler
-    {
-        border: 1px solid $white;
-        color: $white;
-    }
+  text-shadow: 2px 5px #333333;
+  @include textShadow();
+  @include padding(0.5rem, 1rem, 0.5rem, 1rem) .navbar-brand {
+    font-size: 36px;
+    font-weight: bold;
+    @include padding(0, 0, 0, 10px);
   }
-  
+
+  // This is for the navigation menus on the right, when at full screen
+  .navbar-nav a:link {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  // needed elsewhere on page ... aparently it has nothing to do with the main navs on any section
+  .nav-tabs {
+    background-color: $white;
+  }
+
+  // Added since Boostrap 5
+  button.navbar-toggler {
+    border: 1px solid $white;
+    color: $white;
+  }
+}
