@@ -7,8 +7,7 @@
 	$sectionTitle = "Desktop Environments - ";
 	$pageTitle = 'Gnome 3/Gnome Shell ';
 
-	
-	$path = getenv('DOCUMENT_ROOT');
-	include $path . "/templates/linux/baseLinuxDE.tpl";
+	$sitePath = "/home/xmetalx1/public_html";
+	include $sitePath . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

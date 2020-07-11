@@ -15,7 +15,7 @@
         </div>
       </div>
       
-      <div class="row py-5">
+      <div class="row py-5 mx-0">
         <div class="col-md-6">
           <div class="card shadow mx-auto w-75">
             <div class="card-header">Linux Setup </div>

@@ -16,5 +16,4 @@
 
     <?php include $path . '/modules/headerInclude.tpl'; ?>
 
-  </title>
 </head>

@@ -3,7 +3,12 @@
   <a href="/linuxHQ/index.php" class="navbar-brand d-none d-lg-block">Linux HQ</a>
 
   <button type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-  <span class="navbar-toggler-icon"></span></button>
+  <span class="navbar-toggler-icon">
+      <div></div>
+      <div></div>
+      <div></div>
+  </span>
+  </button>
   
   <div id="linuxHQNav" class="collapse navbar-collapse ml-auto">
 

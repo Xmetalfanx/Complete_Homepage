@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Apparently no prefixes are needed anymore
 
 @mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black) {
@@ -16,11 +17,24 @@
 
 @mixin margin( $top, $right, $bottom, $left) {
 	margin: $top $right $bottom $left;
+=======
+@mixin size($width, $height) {
+  width: $width;
+
+  height: $height;
+>>>>>>> 4b7ed521... CSS file cleanup and Sass file cleanup/formatting
 }
+
 // ############################################################################
 
 @mixin autoMargin($margin-left: auto, $margin-right: auto) {
+<<<<<<< HEAD
 	margin-right: $margin-right;
 
 	margin-left: $margin-left;
+=======
+  margin-right: $margin-right;
+
+  margin-left: $margin-left;
+>>>>>>> 4b7ed521... CSS file cleanup and Sass file cleanup/formatting
 }
