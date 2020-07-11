@@ -35,9 +35,7 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
                 <div class="row">
                     <div class="col d-md-inline">
                         <span class="font-weight-bold">Homepage: </span>
-                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>
-                            ${currentDistroSShotOutput}
-
+                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>${currentDistroSShotOutput}
                         </div>
 
                     </div>

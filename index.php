@@ -48,7 +48,8 @@
         </div>
       </div>
 
-      <?php include 'modules/footer.tpl'; ?>
+      
     </div>
+    <?php include 'modules/footer.tpl'; ?>
   </body>
 </html>

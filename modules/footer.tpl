@@ -1,5 +1,9 @@
 
-<footer class="row">
+<!-- Ends flexContainer div.... this was moved here from the bottom of this file ... it MAY make more sense later to move this to a different file .. i'll have to look into that  -->
+</div> 
+
+
+<footer class="row m-0">
   <div class="col d-block">Site made with:
     <!-- HTML 5-->
     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" aria-label="Mozilla Developer Site for HTML5" target="_blank" rel="noopener">
@@ -43,5 +47,3 @@
 
 <script src="/scripts/lazysizes.min.js"></script>
 
-<!-- Ends flexContainer div -->
-</div> 

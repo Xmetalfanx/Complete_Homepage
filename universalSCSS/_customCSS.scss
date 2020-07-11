@@ -1,0 +1,98 @@
+// For Image "Thumbnailing" in various sections
+// Example - Screenshots on Linux Distro and Desktop homepages
+.thumbnails {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.list-group-item {
+  border: 0;
+}
+
+// May not be needed if things are responsive via Boostrap
+.YTPlaylists {
+  width: 560px;
+  height: 315px;
+}
+
+.carousel {
+  height: 90%;
+  width: 90%;
+  min-height: 325px;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 60%;
+  }
+
+  .carousel-item img {
+    max-width: 500px;
+    max-height: 500px;
+  }
+}
+
+// For the SP icon and input box
+.SPHeightIconInput {
+  height: 35px;
+}
+
+.SPSearchIcon {
+  height: 33px;
+  vertical-align: middle;
+}
+
+// For Font Awesome/Fork Awesome
+i.fa,
+i.fab,
+i.fas {
+  color: $white;
+  background-color: transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+  @include padding(0, 0, 0, 10px);
+
+  a:link {
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+.card-header {
+  @extend .darkBG;
+  font-weight: bold;
+  font-size: 20px;
+
+  a:link,
+  a:visited {
+    background-color: transparent;
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+code {
+  @extend .darkBG;
+  display: inline-block;
+}
+
+.coverImage {
+  background-position: top;
+  background-size: cover;
+  background-image: url("/graphics/louvre.jpg");
+  min-height: 500px;
+}
+
+.iconSM {
+  width: 32px;
+  height: 32px;
+}
+
+.iconLG {
+  width: 48px;
+  height: 48px;
+}
+
+.icon {
+  position: relative;
+  @include margin(null, 20px, null, 20px);
+}

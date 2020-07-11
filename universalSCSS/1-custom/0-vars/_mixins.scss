@@ -1,20 +1,17 @@
 @mixin borderRad($radius: 8px) {
-  border-radius: $radius;
+	border-radius: $radius;
 }
 
 @mixin boxShadow($horz: 4px, $vert: 3px, $depth: 5px, $color: $black) {
-  box-shadow: $horz $vert $depth $color;
+	box-shadow: $horz $vert $depth $color;
 }
 
 @mixin padding($top, $right, $bottom, $left) {
-  padding: $top $right $bottom $left;
+	padding: $top $right $bottom $left;
 }
 
 @mixin margin($top, $right, $bottom, $left) {
-  margin: $top $right $bottom $left;
-}
-@mixin width($width: auto) {
-  width: $width;
+	margin: $top $right $bottom $left;
 }
 
 @mixin textShadow(
@@ -23,9 +20,8 @@
   $blurRadius: 0,
   $color: #333333
 ) {
-  text-shadow: $hshadow $vshadow $blurRadius $color;
+	text-shadow: $hshadow $vshadow $blurRadius $color;
 }
-
 // #############################################
 /* Border variables */
 $solidBorder: 1px solid $black;

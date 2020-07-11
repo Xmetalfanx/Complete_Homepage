@@ -58,12 +58,18 @@ h3.feed-title {
   font-size: 15px;
 }
 
-.darkBG, .card-header, code, footer {
+.darkBG,
+.card-header,
+code,
+footer {
   color: white;
   background-color: #333333;
 }
 
-.darkBG a:link, .card-header a:link, code a:link, footer a:link,
+.darkBG a:link,
+.card-header a:link,
+code a:link,
+footer a:link,
 .darkBG a:visited,
 .card-header a:visited,
 code a:visited,
@@ -72,7 +78,10 @@ footer a:visited {
   color: inherit;
 }
 
-.darkBG a:hover, .card-header a:hover, code a:hover, footer a:hover {
+.darkBG a:hover,
+.card-header a:hover,
+code a:hover,
+footer a:hover {
   background-color: inherit;
   color: lightgrey;
 }
@@ -271,8 +280,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 a:link,
@@ -289,22 +298,22 @@ a:visited {
   margin: 0 0 2% 0;
   max-width: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .flexContainer .mainSection {
   margin: 0 auto 0 auto;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   max-width: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -313,11 +322,12 @@ footer {
   max-height: 75px;
   width: 100%;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 footer a:link {
   color: inherit;
   background-color: inherit;
 }
+
 /*# sourceMappingURL=styling.css.map */
