@@ -4,30 +4,34 @@ var distroResults = document.getElementById("distroSection");
 var myPage = "/linuxHQ/distro/";
 var distroGraphics = "/linuxHQ/graphics/distros/";
 
-function displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN)
-{
-    // Screenshot vars
-    var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
-    var distroSShotTNPath = distroSShotPath + 'thumbnails/';
+function displayDistroOutput(
+  currentDistroFamily,
+  currentDistroName,
+  currentDistroIcon,
+  currentDistroTitle,
+  currentDistroHomepage,
+  currentDistroScreenshot,
+  currentDistroScreenshotTN
+) {
+  // Screenshot vars
+  var distroSShotPath = "/linuxHQ/screenshots/" + currentDistroFamily + "/";
+  var distroSShotTNPath = distroSShotPath + "thumbnails/";
 
+  // Template Literal for output
 
-    // Template Literal for output
-
-    const currentDistroSShotOutput = `
+  const currentDistroSShotOutput = `
 
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
             <img class="d-none d-md-block lazyload thumbnails mx-auto shadow" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 
-
-    const currentDistroInfoOutput = `
+  const currentDistroInfoOutput = `
 
         <div class="card pb-3 align-self-start flex-fill">
             <div class="card-header pl-2">
                     <h4 class="font-weight-bold">
-                        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="iconSM mr-1">
-                        ${currentDistroTitle}
+                        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="iconSM mr-1"> ${currentDistroTitle}
                     </h4>
             </div>
 
@@ -49,50 +53,51 @@ function displayDistroOutput(currentDistroFamily, currentDistroName, currentDist
 
         `;
 
-
-    distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
-};
+  distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
+}
 
 // "main" function
 function getDistroData(data, $localDistroName) {
-    jsonURL = "/linuxHQ/json/distros.json";
+  jsonURL = "/linuxHQ/json/distros.json";
 
-    // Get JSON Data
-    $.getJSON(jsonURL, function(data) {
+  // Get JSON Data
+  $.getJSON(jsonURL, function(data) {
+    $.each(data, function(key, value) {
+      for (var distroFamily = 0; distroFamily < value.length; distroFamily++) {
+        //////////////////////////////////////////////////////////////////////////
+        // DECLARE VARIABLES
 
-        $.each(data, function(key, value) {
+        var currentDistroFamily = key;
 
-            for (var distroFamily = 0; distroFamily < value.length; distroFamily++) {
+        // Name/Title
+        var currentDistroName = value[distroFamily].distroName;
+        var currentDistroTitle = value[distroFamily].distroTitle;
 
-                //////////////////////////////////////////////////////////////////////////
-                // DECLARE VARIABLES
+        // graphics
+        var currentDistroIcon = value[distroFamily].graphics.iconURL;
 
-                var currentDistroFamily = key;
+        // Website
+        var currentDistroHomepage = value[distroFamily].website.homepage;
 
-                // Name/Title
-                var currentDistroName = value[distroFamily].distroName;
-                var currentDistroTitle = value[distroFamily].distroTitle;
+        // Screenshot
+        var currentDistroScreenshotTN =
+          value[distroFamily].screenshots.thumbnails;
+        var currentDistroScreenshot = value[distroFamily].screenshots.src;
 
-                // graphics
-                var currentDistroIcon = value[distroFamily].graphics.iconURL;
+        var currentDistroFeatured = value[distroFamily].moreinfo.featured;
 
-                // Website
-                var currentDistroHomepage = value[distroFamily].website.homepage;
-
-                // Screenshot
-                var currentDistroScreenshotTN = value[distroFamily].screenshots.thumbnails;
-                var currentDistroScreenshot = value[distroFamily].screenshots.src;
-
-                var currentDistroFeatured = value[distroFamily].moreinfo.featured;
-
-                if (currentDistroFeatured == "yes")
-                {
-                    displayDistroOutput(currentDistroFamily, currentDistroName, currentDistroIcon, currentDistroTitle, currentDistroHomepage, currentDistroScreenshot, currentDistroScreenshotTN);
-
-                }
-            }
-
-        }); // Ends .each loop
-
-    }); // ends getJSON loop
+        if (currentDistroFeatured == "yes") {
+          displayDistroOutput(
+            currentDistroFamily,
+            currentDistroName,
+            currentDistroIcon,
+            currentDistroTitle,
+            currentDistroHomepage,
+            currentDistroScreenshot,
+            currentDistroScreenshotTN
+          );
+        }
+      }
+    }); // Ends .each loop
+  }); // ends getJSON loop
 }

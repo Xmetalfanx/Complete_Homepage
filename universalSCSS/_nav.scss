@@ -1,15 +1,17 @@
+// note to self: i had nav declared twice in my scss ... there is probably too much here ... related to the hamburger menus near the end I think
+// I think i was messing with the hamburger menus in bs4.x vs bs5.x alpha, and there were differences
+
 // Nav: for the entire header
+@import "1-custom/_custom-dir";
+
 nav {
+  padding: 0.5rem, 1rem;
   text-shadow: 2px 5px #333333;
-  @include textShadow;
-  @include padding(0.5rem, 1rem, 0.5rem, 1rem);
-  max-width: var(--contentWidth);
 
   .navbar-brand {
-    font-size: 36px; // really shouldn't have any major padding effect other than pushing the menus over from the far left
-    // The main padding for nav seems to be handled by boostrap's CSS and I do not have to touch it
+    padding: 0, 0, 0, 10px;
+    font-size: 36px;
     font-weight: bold;
-    @include padding(0, 0, 0, 10px);
   }
 
   // This is for the navigation menus on the right, when at full screen
@@ -18,12 +20,18 @@ nav {
     line-height: 22px;
     font-weight: bold;
     text-transform: uppercase;
-
     color: rgba(255, 255, 255, 0.5);
   }
 
+  // needed elsewhere on page ... aparently it has nothing to do with the main navs on any section
   .nav-tabs {
     background-color: $white;
+  }
+
+  // Added since Boostrap 5
+  button.navbar-toggler {
+    border: 1px solid $white;
+    color: $white;
   }
 
   .navbar-navbar-toggler {
@@ -50,17 +58,17 @@ nav {
       border-radius: 0.25rem;
     }
   }
-}
 
-.navbar-toggler-icon {
-  height: initial;
-  width: initial;
+  .navbar-toggler-icon {
+    height: initial;
+    width: initial;
 
-  // For burgers in Hamburger Menu
-  div {
-    width: 30px;
-    height: 3px;
-    background-color: $white;
-    @include margin(5px, 0, 5px, 0);
+    // For burgers in Hamburger Menu
+    div {
+      margin: 5px, 0;
+      width: 30px;
+      height: 3px;
+      background-color: $white;
+    }
   }
 }

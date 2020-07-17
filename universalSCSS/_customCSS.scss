@@ -1,3 +1,5 @@
+@import "_nav";
+
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
 .thumbnails {
@@ -45,11 +47,11 @@
 i.fa,
 i.fab,
 i.fas {
+  padding: 0, 0, 0, 10px;
   color: $white;
   background-color: transparent;
   margin-top: auto;
   margin-bottom: auto;
-  @include padding(0, 0, 0, 10px);
 
   a:link {
     text-decoration: none;
@@ -59,6 +61,7 @@ i.fas {
 
 .card-header {
   @extend .darkBG;
+
   font-weight: bold;
   font-size: 20px;
 
@@ -72,13 +75,14 @@ i.fas {
 
 code {
   @extend .darkBG;
+
   display: inline-block;
 }
 
 .coverImage {
   background-position: top;
   background-size: cover;
-  background-image: url("/graphics/louvre.jpg");
+  background-image: url("/graphics/unsplash/city1.jpg");
   min-height: 500px;
 }
 
@@ -94,5 +98,5 @@ code {
 
 .icon {
   position: relative;
-  @include margin(null, 20px, null, 20px);
+  margin: null, 20px;
 }

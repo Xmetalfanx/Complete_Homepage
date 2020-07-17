@@ -1,5 +1,4 @@
-processors:
-  - stylelint-processor-html
+
 extends: stylelint-config-standard
 syntax: scss
 plugins:
@@ -8,13 +7,12 @@ rules:
   no-empty-source: ~
   block-no-empty: ~
   color-no-invalid-hex: true
-  comment-empty-line-before:
-    - always
-    - ignore:
-      - stylelint-commands
-      - after-comment
   indentation:
     - 2
     - except:
       - value
   max-empty-lines: 1
+  comment-empty-line-before: always
+  selector-list-comma-newline-after: always
+  color-hex-length: long
+  no-descending-specificity: true
