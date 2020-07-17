@@ -37,10 +37,11 @@ a:visited {
   .mainSection {
     margin: 0, auto, 0, auto;
     flex-grow: 1;
-    max-width: 100%;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    // I need to research rem vs em
+    padding: 0 2rem;
   }
 }
 
