@@ -7,11 +7,11 @@ $footerheight: 75px;
 html,
 body {
   font-size: 12pt;
-  font-family: $Roboto;
   height: 100%;
   // this needed ?
   display: flex;
   flex-direction: column;
+  font-family: $Roboto;
 }
 
 a:link,
