@@ -1,4 +1,4 @@
-<div class="card border-0 shadow">
+<div class="card border-0">
   <div class="card-header">Site Update</div>
   <div class="card-body text-justify">
     <div class="font-weight-bold">Jan 19, 2020 Update</div>
