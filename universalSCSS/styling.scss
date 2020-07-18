@@ -41,7 +41,7 @@ a:visited {
     flex-wrap: wrap;
 
     // I need to research rem vs em
-    padding: .5rem 0;
+    padding: 0.5rem 0;
   }
 }
 
@@ -53,9 +53,17 @@ footer {
   max-height: $footerheight;
   display: flex;
 
-  // Is this (below) needed?
-  a:link {
-    color: inherit;
-    background-color: inherit;
+  /************************  For Font Awesome/Fork Awesome **********/
+  i.fa,
+  i.fab,
+  i.fas {
+    padding: 0 0 0 1.25rem;
+    color: var(--white);
+    background-color: transparent;
+
+    a:link {
+      text-decoration: none;
+      color: var(--white);
+    }
   }
 }
