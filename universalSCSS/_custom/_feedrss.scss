@@ -1,0 +1,22 @@
+////////////////////////////////////////////////////////
+// RSS Feed Related
+
+.card--rssfeed {
+  border-color: $themeBGColor !important;
+  margin: 0 auto;
+
+  .card-text {
+    padding: 1rem;
+
+    .feed-item-title {
+      // This controls the padding the links
+      padding: 1%, 1%, 0, 5px;
+
+      a:link,
+      a:hover,
+      a:visited {
+        font-size: 15px;
+      }
+    }
+  }
+}

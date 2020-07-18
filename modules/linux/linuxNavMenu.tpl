@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg darkBG mb-3" >
+<nav class="nav-themed navbar navbar-expand-lg" >
   <i class="fa fa-linux fa-3x"> </i>
   <a href="/linuxHQ/index.php" class="navbar-brand d-none d-lg-block">Linux HQ</a>
 

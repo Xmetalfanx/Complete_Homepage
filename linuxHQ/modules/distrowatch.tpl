@@ -1,5 +1,5 @@
 
-<div class="card border border-dark m-3 shadow">
+<div class="card card--rssfeed m-3">
   <div class="card-header">DistroWatch News Feed</div>
   <div class="card-text">
     <!-- News-->
@@ -7,7 +7,7 @@
   </div>
 </div>
 
-<div class="card border border-dark m-3 shadow">
+<div class="card card--rssfeed m-3">
   <div class="card-header">Distrowatch Distro Feed</div>
   <div class="card-text">
     <!--  Distros-->

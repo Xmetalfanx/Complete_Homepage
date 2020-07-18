@@ -4,22 +4,22 @@
     <title>Xmetal&apos;s Homepage</title>
     <?php include 'modules/headerInclude.tpl'; ?>
   </head>
-  <body> 
+  <body>
     <div class="flexContainer">
       <!-- Header "navigation"-->
       <?php include 'modules/frontnav.tpl'; ?>
-    
+
       <div class="d-none d-lg-block coverImage">
         <div class="w-50 py-3 mx-auto">
           <?php include 'modules/siteUpdate.php'; ?>
         </div>
       </div>
-      
+
       <div class="row py-5 mx-0">
         <div class="col-md-6">
           <div class="card shadow mx-auto w-75">
             <div class="card-header">Linux Setup </div>
-            
+
             <div class="card-body text-justify">
               <div class="px-2">
                 <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener">
@@ -31,7 +31,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6"> 
+        <div class="col-md-6">
           <div class="card shadow mx-auto w-75">
             <div class="card-header">Linux Theming</div>
             <div class="card-body text-justify">
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      
+
     </div>
     <?php include 'modules/footer.tpl'; ?>
   </body>

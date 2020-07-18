@@ -8,7 +8,7 @@
 
 ?>
 
-<div class="card d-none d-md-block mb-5 border-secondary shadow">
+<div class="card d-none d-md-block mb-5 border-secondary">
   <div class="card-header font-weight-bold">Educational Sites</div>
   <div class="card-body">
     <div class="row mx-auto text-center">

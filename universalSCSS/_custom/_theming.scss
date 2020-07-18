@@ -1,7 +1,7 @@
 // Tweaking this to match the bootswatch theme i am using
 .darkBG {
-  color: $white;
-  background-color: $darkGrey1;
+  color: var(--white);
+  background-color: var(--darkGrey1);
 
   a:link,
   a:visited {
@@ -11,6 +11,6 @@
 
   a:hover {
     background-color: inherit;
-    color: lightgrey;
+    color: var(--lightgrey);
   }
 }

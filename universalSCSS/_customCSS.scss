@@ -7,6 +7,7 @@
   max-height: 450px;
 }
 
+// ?? what is this for?
 .list-group-item {
   border: 0;
 }
@@ -33,6 +34,8 @@
   }
 }
 
+/****** STARTPAGE Box related ******************/
+
 // For the SP icon and input box
 .SPHeightIconInput {
   height: 35px;
@@ -43,39 +46,43 @@
   vertical-align: middle;
 }
 
-// For Font Awesome/Fork Awesome
+/************************  For Font Awesome/Fork Awesome **********/
 i.fa,
 i.fab,
 i.fas {
+  margin: auto 0;
   padding: 0, 0, 0, 10px;
-  color: $white;
+  color: var(--white);
   background-color: transparent;
-  margin-top: auto;
-  margin-bottom: auto;
 
   a:link {
     text-decoration: none;
-    color: $white;
+    color: var(--white);
   }
 }
 
-.card-header {
-  @extend .darkBG;
 
-  font-weight: bold;
-  font-size: 20px;
+.card
+{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 
-  a:link,
-  a:visited {
-    background-color: transparent;
-    color: $white;
-    text-decoration: none;
+  .card-header {
+    @extend .themeBGColor;
+    font-weight: bold;
+    font-size: 20px;
+
+    a:link,
+    a:visited {
+      background-color: transparent;
+      color: var(--white);
+      text-decoration: none;
+    }
   }
 }
+
 
 code {
   @extend .darkBG;
-
   display: inline-block;
 }
 
@@ -83,7 +90,7 @@ code {
   background-position: top;
   background-size: cover;
   background-image: url("/graphics/unsplash/city1.jpg");
-  min-height: 500px;
+  min-height: 350px;
 }
 
 .iconSM {
