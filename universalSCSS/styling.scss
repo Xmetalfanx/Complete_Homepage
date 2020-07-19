@@ -6,7 +6,7 @@ $footerheight: 75px;
 
 html,
 body {
-  font-size: 16px;
+  font-size: 1.05rem;
   font-family: $Roboto;
   height: 100%;
 
@@ -50,7 +50,7 @@ footer {
   @extend .themeBGColor;
 
   padding: 1.5rem;
-  margin: 0 !important;
+  margin: 0;
   max-height: $footerheight;
   display: flex;
 

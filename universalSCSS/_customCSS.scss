@@ -12,7 +12,7 @@
   border: 0;
 }
 
-// May not be needed if things are responsive via Boostrap
+// May not be needed if things are responsive via Bootstrap
 .YTPlaylists {
   width: 560px;
   height: 315px;
@@ -46,15 +46,14 @@
   vertical-align: middle;
 }
 
-
-
 .card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 
   .card-header {
     @extend .themeBGColor;
+
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.1rem;
 
     a:link,
     a:visited {
@@ -67,6 +66,7 @@
 
 code {
   @extend .darkBG;
+
   display: inline-block;
 }
 
@@ -90,4 +90,14 @@ code {
 .icon {
   position: relative;
   margin: null, 20px;
+}
+
+// New idea for screen readers
+.hiddenAccessLinkText {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
