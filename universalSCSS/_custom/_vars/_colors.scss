@@ -1,26 +1,19 @@
-:root
-{
+:root {
   --black: rgb(0, 0, 0);
-
   --white: rgba(255, 255, 255, 1);
   --white50: rgba(255, 255, 255, 0.5);
   --white75: rgba(255, 255, 255, 0.75);
-
   --darkGrey1: rgb(51, 51, 51);
   --darkGrey2: rgb(62, 63, 58);
-
   --forgestGreen: rgb(0, 100, 0);
   --green: rgb(0, 153, 0);
   --red: rgb(255, 0, 0);
   --navy: rgb(0, 0, 128);
   --midnightBlue: rgb(25, 25, 112);
   --maroon: rgb(102, 0, 0);
-
   --tanL: rgb(255, 250, 205);
   --tanD: rgb(238, 233, 191);
-
   --lightMaroon: rgb(153, 0, 0);
-
 }
 
 .greenText {
@@ -32,7 +25,7 @@
 }
 
 .darkGreyText {
-  color: var(--darkGrey2)
+  color: var(--darkGrey2);
 }
 
 /* THEME RELATED */
@@ -40,7 +33,8 @@
 // I did this because i need this to be a variable in other places, then just the background color
 $themeBGColor: var(--darkGrey2);
 
-.themeBGColor, .themeBGColor a:link {
+.themeBGColor,
+.themeBGColor a:link {
   color: var(--white);
   background-color: var(--darkGrey1);
 }
