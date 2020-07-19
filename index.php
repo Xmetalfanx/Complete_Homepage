@@ -10,9 +10,7 @@
       <?php include 'modules/frontnav.tpl'; ?>
 
       <div class="d-none d-lg-block coverImage">
-        <div class="w-50 py-3 mx-auto">
-          <?php include 'modules/siteUpdate.php'; ?>
-        </div>
+        <?php include 'modules/siteUpdate.php'; ?>
       </div>
 
       <div class="row py-5 mx-0">

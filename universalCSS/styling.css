@@ -29,7 +29,14 @@
 }
 
 /* THEME RELATED */
-.themeBGColor, .nav-themed, .card .card-header, footer, .themeBGColor a:link, .nav-themed a:link, .card .card-header a:link, footer a:link {
+.themeBGColor,
+.nav-themed,
+.card .card-header,
+footer,
+.themeBGColor a:link,
+.nav-themed a:link,
+.card .card-header a:link,
+footer a:link {
   color: var(--white);
   background-color: var(--darkGrey1);
 }
@@ -74,19 +81,22 @@
   font-size: 15px;
 }
 
-.darkBG, code {
+.darkBG,
+code {
   color: var(--white);
   background-color: var(--darkGrey1);
 }
 
-.darkBG a:link, code a:link,
+.darkBG a:link,
+code a:link,
 .darkBG a:visited,
 code a:visited {
   background-color: inherit;
   color: inherit;
 }
 
-.darkBG a:hover, code a:hover {
+.darkBG a:hover,
+code a:hover {
   background-color: inherit;
   color: var(--lightgrey);
 }
@@ -198,7 +208,7 @@ code a:visited {
 
 .card {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .card .card-header {
@@ -243,15 +253,17 @@ code {
 html,
 body {
   font-size: 16px;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 a:link,
@@ -268,20 +280,20 @@ a:visited {
   margin: 0 0 1.5rem 0;
   max-width: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .flexContainer .mainSection {
   margin: 0 auto, 0 auto;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 0.5rem 0;
 }
 
