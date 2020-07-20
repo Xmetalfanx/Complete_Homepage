@@ -7,9 +7,7 @@ $footerheight: 75px;
 html,
 body {
   font-size: 1.05rem;
-  font-family: $Roboto;
   height: 100%;
-
   // this needed ?
   display: flex;
   flex-direction: column;
@@ -17,7 +15,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333333;
+  color: var(--midnightBlue);
 }
 
 // no longer in bootstrap 5

@@ -64,6 +64,13 @@
   }
 }
 
+// For sidebar menus
+.card--sidebar {
+  .card-body {
+    padding: 0.5rem;
+  }
+}
+
 code {
   @extend .darkBG;
 

@@ -222,6 +222,10 @@ code a:hover {
   text-decoration: none;
 }
 
+.card--sidebar .card-body {
+  padding: 0.5rem;
+}
+
 code {
   display: inline-block;
 }
@@ -261,18 +265,6 @@ code {
 html,
 body {
   font-size: 1.05rem;
-  font-family:
-    "Roboto",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    "Helvetica Neue",
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -280,7 +272,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333333;
+  color: var(--midnightBlue);
 }
 
 .text-justify {
@@ -307,10 +299,9 @@ footer {
   margin: 0;
   max-height: 75px;
   display: flex;
-
-  /************************  For Font Awesome/Fork Awesome **********/
 }
 
+/************************  For Font Awesome/Fork Awesome **********/
 footer i.fa,
 footer i.fab,
 footer i.fas {
