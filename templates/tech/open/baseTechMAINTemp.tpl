@@ -11,8 +11,6 @@
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
 			<div class="mainSection">
-				<div class="col-xs-12 col-md-3 col-xl-2">
-					<?php include($path . '/techHQ/modules/techMainCol1.tpl'); ?>
-				</div>
 
-				<div class="col-xs-12 col-md-9 col-xl-10" id="outputSection">
+        <!-- Is this div still needed? --> 
+				<div id="outputSection">

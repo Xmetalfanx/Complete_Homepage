@@ -8,8 +8,8 @@
 
 ?>
 
-<div class="card d-none d-md-block mb-5 border-secondary">
-  <div class="card-header font-weight-bold">Educational Sites</div>
+<div class="card d-none d-md-block w-75 mx-auto mb-5">
+  <div class="card-header">Educational Sites</div>
   <div class="card-body">
     <div class="row mx-auto text-center">
 
