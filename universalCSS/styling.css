@@ -29,10 +29,7 @@
 }
 
 /* THEME RELATED */
-.themeBGColor,
-.nav-themed,
-.card .card-header,
-footer,
+.themeBGColor, .nav-themed, .card .card-header, footer,
 .themeBGColor a:link,
 .nav-themed a:link,
 .card .card-header a:link,
@@ -62,22 +59,19 @@ footer a:link {
   width: 95%;
 }
 
-.darkBG,
-code {
+.darkBG, code {
   color: var(--white);
   background-color: var(--darkGrey1);
 }
 
-.darkBG a:link,
-code a:link,
+.darkBG a:link, code a:link,
 .darkBG a:visited,
 code a:visited {
   background-color: inherit;
   color: inherit;
 }
 
-.darkBG a:hover,
-code a:hover {
+.darkBG a:hover, code a:hover {
   background-color: inherit;
   color: var(--lightgrey);
 }
@@ -189,7 +183,8 @@ code a:hover {
 }
 
 .card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .card .card-header {
@@ -217,6 +212,13 @@ code {
   background-size: cover;
   background-image: url("/graphics/unsplash/city1.jpg");
   min-height: 350px;
+}
+
+.coverImage2 {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .iconSM {
@@ -264,8 +266,13 @@ html,
 body {
   font-size: 1.05rem;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 a:link,
@@ -281,14 +288,21 @@ a:visited {
 .flexContainer {
   margin: 0 0 1.5rem 0;
   max-width: 100%;
-  flex: 1 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 .flexContainer .mainSection {
   margin: 0 auto, 0 auto;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 0.5rem 0;
 }
 
@@ -296,8 +310,9 @@ footer {
   padding: 1.5rem;
   margin: 0;
   max-height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-
   /************************  For Font Awesome/Fork Awesome **********/
 }
 
@@ -315,3 +330,4 @@ footer i.fas a:link {
   text-decoration: none;
   color: var(--white);
 }
+/*# sourceMappingURL=styling.css.map */
