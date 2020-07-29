@@ -92,7 +92,6 @@ code {
   object-fit: cover;
 }
 
-
 .iconSM {
   width: 32px;
   height: 32px;
@@ -133,5 +132,20 @@ code {
         font-size: 1rem;
       }
     }
+  }
+}
+
+/************************  For Font Awesome/Fork Awesome **********/
+
+i.fa,
+i.fab,
+i.fas {
+  padding: 0 0 0 1.25rem;
+  background-color: transparent;
+  color: purple;
+
+  a:link {
+    text-decoration: none;
+    color: orangered;
   }
 }

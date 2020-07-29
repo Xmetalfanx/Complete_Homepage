@@ -8,40 +8,35 @@ html(lang="en")
     <?php include 'modules/headerInclude.tpl'; ?>
 
   body
-    .flexContainer
-      // Header "navigation"
-      <?php include 'modules/frontnav.tpl'; ?>
+   .flexContainer
+    section.masthead(role='img' aria-label='City Picture from Unsplash')
+      .siteTitle Xmetal's Homepage
+      form.frontpageButtons(action='/linuxHQ/index.php' method='get' target='_self')
+        button Linux HQ Section
+      form.frontpageButtons(action='/techHQ/index.php' method='get' target='_self')
+        button TechHQ Section
 
-
-      img(src="/graphics/unsplash/city1.jpg" alt="Hero Image" class="coverImage2 d-none d-lg-inline-block")
-      <?php include 'modules/siteUpdate.php'; ?>
-
-      .row.py-5.mx-0
-        // WHY is this NOT IN THE div above? ... what happens if i put it there?
-        .col-md-6
-          .card.mx-auto.w-75
-            .card-header Linux Setup
-
-            .card-body.text-justify.px-2
-
-              a(href="https://github.com/Xmetalfanx/linuxSetup" target="_blank", rel="noopener")
-                i.fa.fa-github.fa-2x.text-dark.pr-3(aria-hidden="true")
-              a(href="https://gitlab.com/Xmetal/linuxSetup" target="_blank" rel="noopener")
-                i.fa.fa-gitlab.fa-2x.text-dark(aria-hidden="true")
+      .row.py-5
+        .col-xs-12.col-md-6
+          .card.card--bordered
+            .card-header.font-weight-normal Linux Setup
+            .card-body.frontpageCardBody.text-justify.p-4
+              a(href='https://github.com/Xmetalfanx/linuxSetup' target='_blank' rel='noopener')
+                i.fa.fa-github.fa-2x.pr-3(aria-hidden='true')
+              a(href='https://gitlab.com/Xmetal/linuxSetup' target='_blank' rel='noopener')
+                i.fa.fa-gitlab.fa-2x(aria-hidden='true')
               br/
-            | Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus. This includes adding well known third party repos, enabling coming settings not set by default, and adding common software in one shot
+              | Helps a user setup some things with a menu system on Ubuntu, Fedora, OpenSuse, and (minor things for this distro ... so far) Solus. This includes adding well known third party repos, enabling coming settings not set by default, and adding common software in one shot.
 
-        .col-md-6
-          .card.shadow.mx-auto.w-75
-            .card-header Linux Theming
-            .card-body.text-justify.px-2
-              a(href="https://github.com/Xmetalfanx/linuxThemes" target="_blank", rel="noopener")
-                i.fa.fa-github.fa-2x.text-dark.pr-3(aria-hidden="true")
-              a(href="https://gitlab.com/Xmetal/linuxThemes" target="_blank", rel="noopener")
-                i.fa.fa-gitlab.fa-2x.text-dark(aria-hidden="true")
+        .col-xs-12.col-md-6
+          .card.card--bordered
+            .card-header.font-weight-normal Linux Theming
+            .card-body.frontpageCardBody.text-justify.p-4
+              a(href='https://github.com/Xmetalfanx/linuxThemes' target='_blank' rel='noopener')
+                i.fa.fa-github.fa-2x.pr-3(aria-hidden='true')
+              a(href='https://gitlab.com/Xmetal/linuxThemes' target='_blank' rel='noopener')
+                i.fa.fa-gitlab.fa-2x(aria-hidden='true')
               br/
-              | This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out.
-
-              | This installs themes and icon packs of well liked Linux Themes into your system.  I have alot of plans for this for version and distro detection.
+              | This originally was going to be a part of the LinuxSetup scripts, though it grew too much and I decided to branch it out. This installs themes and icon packs of well liked Linux Themes into your system. I have alot of plans for this for version and distro detection.
 
     <?php include 'modules/footer.tpl'; ?>

@@ -24,14 +24,16 @@
   color: var(--red);
 }
 
-.darkGreyText {
-  color: var(--darkGrey2);
-}
 
 /* THEME RELATED */
 
 // I did this because i need this to be a variable in other places, then just the background color
 $themeBGColor: var(--darkGrey2);
+
+.darkGreyText {
+  color: $themeBGColor;
+}
+
 
 .themeBGColor,
 .themeBGColor a:link {

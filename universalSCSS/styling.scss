@@ -26,12 +26,11 @@ a:visited {
 /* Sections */
 
 .flexContainer {
-  margin: 0 0 1.5rem 0;
+  // Commented out for new frontpage testing ... if things bork .... uncomment this margin line and see if it fixes things
+  // margin: 0 0 1.5rem 0;
   max-width: 100%;
   flex: 1 0 auto;
 
-  // the footer being pushed way too far down seems to be fixed when i removed min-height
-  // min-height: 100%;
   // the main section between the nav top bar and the footer
   .mainSection {
     margin: 0 auto, 0 auto;
@@ -49,18 +48,4 @@ footer {
   margin: 0;
   max-height: $footerheight;
   display: flex;
-
-  /************************  For Font Awesome/Fork Awesome **********/
-  i.fa,
-  i.fab,
-  i.fas {
-    padding: 0 0 0 1.25rem;
-    color: var(--white);
-    background-color: transparent;
-
-    a:link {
-      text-decoration: none;
-      color: var(--white);
-    }
-  }
 }
