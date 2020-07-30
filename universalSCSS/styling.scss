@@ -1,17 +1,9 @@
 @import "_customCSS";
+@import "_layout";
 
 $footerheight: 75px;
 
 /* Global */
-
-html,
-body {
-  font-size: 1.05rem;
-  height: 100%;
-  // this needed ?
-  display: flex;
-  flex-direction: column;
-}
 
 a:link,
 a:visited {
@@ -41,11 +33,3 @@ a:visited {
   }
 }
 
-footer {
-  @extend .themeBGColor;
-
-  padding: 1.5rem;
-  margin: 0;
-  max-height: $footerheight;
-  display: flex;
-}

@@ -280,6 +280,17 @@ code {
      object-fit: cover;
 }
 
+.icon {
+  margin: 0 1.1rem 0 0;
+}
+
+.icon a:link,
+.icon a:hover,
+.icon a:visited {
+  fill: white;
+  color: white;
+}
+
 .iconSM {
   width: 32px;
   height: 32px;

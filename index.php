@@ -23,11 +23,12 @@
                 <div class="card-header font-weight-normal">Linux Setup</div>
                 <div class="card-body text-justify p-4 frontpageCardBody">
                   <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener" >
-                    <i class="fa fa-github fa-2x pr-3" aria-hidden="true"></i>
+                    <img src="/graphics/simpleIcons/github.svg" alt="GitHub SVG" class="iconLG" />
+
                   </a>
 
                   <a href="https://gitlab.com/Xmetal/linuxSetup" target="_blank" rel="noopener">
-                    <i class="fa fa-gitlab fa-2x" aria-hidden="true"></i>
+                    <img src="/graphics/simpleIcons/gitlab.svg" alt="GitLab SVG" class="iconLG" />
                   </a>
                   <br />
 
@@ -47,14 +48,15 @@
                     target="_blank"
                     rel="noopener"
                   >
-                    <i class="fa fa-github fa-2x pr-3" aria-hidden="true"></i>
+                  <img src="/graphics/simpleIcons/github.svg" alt="GitHub SVG" class="iconLG" />
+
                   </a>
                 <a
                   href="https://gitlab.com/Xmetal/linuxThemes"
                   target="_blank"
                   rel="noopener"
                 >
-                  <i class="fa fa-gitlab fa-2x" aria-hidden="true"></i>
+                  <img src="/graphics/simpleIcons/gitlab.svg" alt="GitLab SVG" class="iconLG" />
                 </a>
                 <br />
                 This originally was going to be a part of the LinuxSetup scripts, though
