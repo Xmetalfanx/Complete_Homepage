@@ -16,6 +16,9 @@
   --lightMaroon: rgb(153, 0, 0);
 }
 
+
+// I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this
+// The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something 
 .greenText {
   color: var(--green);
 }
@@ -24,19 +27,3 @@
   color: var(--red);
 }
 
-
-/* THEME RELATED */
-
-// I did this because i need this to be a variable in other places, then just the background color
-$themeBGColor: var(--darkGrey2);
-
-.darkGreyText {
-  color: $themeBGColor;
-}
-
-
-.themeBGColor,
-.themeBGColor a:link {
-  color: var(--white);
-  background-color: var(--darkGrey1);
-}

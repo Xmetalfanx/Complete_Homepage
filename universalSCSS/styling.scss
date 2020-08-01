@@ -1,35 +1,3 @@
-@import "_customCSS";
 @import "_layout";
-
-$footerheight: 75px;
-
-/* Global */
-
-a:link,
-a:visited {
-  color: var(--midnightBlue);
-}
-
-// no longer in bootstrap 5
-.text-justify {
-  text-align: justify;
-}
-
-/* Sections */
-
-.flexContainer {
-  // Commented out for new frontpage testing ... if things bork .... uncomment this margin line and see if it fixes things
-  // margin: 0 0 1.5rem 0;
-  max-width: 100%;
-  flex: 1 0 auto;
-
-  // the main section between the nav top bar and the footer
-  .mainSection {
-    margin: 0 auto, 0 auto;
-    flex-grow: 1;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0.5rem 0;
-  }
-}
+@import "_customCSS";
 
