@@ -1,3 +1,4 @@
+
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
 .thumbnails {
@@ -16,23 +17,6 @@
   height: 315px;
 }
 
-.carousel {
-  min-height: 350px;
-  margin: 0 auto;
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 60%;
-  }
-
-  .carousel-item img {
-    display: block;
-    margin: 0 auto;
-    height: 450px;
-    width: 725px;
-  }
-}
-
 /****** STARTPAGE Box related ******************/
 
 // For the SP icon and input box
@@ -45,34 +29,9 @@
   vertical-align: middle;
 }
 
-.card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-
-  .card-header {
-    @extend .themeBGColor;
-
-    font-weight: bold;
-    font-size: 1.1rem;
-
-    a:link,
-    a:visited {
-      background-color: transparent;
-      color: var(--white);
-      text-decoration: none;
-    }
-  }
-}
-
-// For sidebar menus
-.card--sidebar {
-  .card-body {
-    padding: 0.5rem;
-  }
-}
-
 code {
-  @extend .darkBG;
-
+  background-color: $themeBGColor1;
+  color: var(--white);
   display: inline-block;
 }
 
@@ -90,32 +49,6 @@ code {
   object-fit: cover;
 }
 
-// Idea
-
-// For basic stuff only
-.icon {
-  // margin on right side only
-  margin-right: 1.1rem;
-
-  a:link,
-  a:hover,
-  a:visited {
-    fill: white;
-    color: white;
-  }
-  &__iconSM {
-    @extend .icon;
-    width: 32px;
-    height: 32px;
-  }
-
-  &__iconLG {
-    @extend .icon;
-    width: 48px;
-    height: 48px;
-  }
-}
-
 // New idea for screen readers
 .hiddenAccessLinkText {
   clip: rect(1px, 1px, 1px, 1px);
@@ -124,37 +57,6 @@ code {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
-
-.card--bordered {
-  border-color: $themeBGColor;
-  margin: 0 auto 1.2rem auto;
-
-  .card-text {
-    padding: 1rem;
-
-    .feed-item-title {
-      a:link,
-      a:hover,
-      a:visited {
-        font-weight: 500;
-        font-size: 1rem;
-      }
-    }
-  }
-}
-
-/* Global */
-
-a:link,
-a:hover,
-a:visited {
-  color: var(--midnightBlue);
-}
-
-// no longer in bootstrap 5
-.text-justify {
-  text-align: justify;
 }
 
 /* Sections */
