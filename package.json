@@ -5,10 +5,14 @@
   "main": "index.php",
   "dependencies": {
     "@popperjs/core": "^2.4.4",
+    "autoprefixer": "^9.8.6",
     "bootstrap": "^5.0.0-alpha1",
+    "gulp-prettier-plugin": "^1.3.0",
     "jshint": "^2.10.2",
     "jslint": "^0.12.1",
     "lazysizes": "^5.1.1",
+    "postcss-cli": "^7.1.1",
+    "postcss-scss": "^2.1.1",
     "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
@@ -23,7 +27,10 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.1",
     "eslint-plugin-react-hooks": "^1.6.0",
-    "prettier": "^1.19.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-prettier": "^3.0.0",
+    "prettier": "1.19.1",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-prettier": "^1.1.2"
@@ -52,5 +59,11 @@
   "bugs": {
     "url": "https://github.com/Xmetalfanx/website/issues"
   },
-  "homepage": "https://github.com/Xmetalfanx/website#readme"
+  "homepage": "https://github.com/Xmetalfanx/website#readme",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
 }
