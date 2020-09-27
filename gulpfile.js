@@ -18,15 +18,15 @@ gulp.task('compile', function(){
   var plugin = [
     // PostCSS Plugins
     autoprefixer,
-    sorting
-  ];
+    sorting,
+  ]
 
   return gulp.src('./universalSCSS/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass()) // Using gulp-sass
-    .pipe(postcss(plugin))
+    //.pipe(postcss(plugin))
     .pipe(prettier({}))
-    .pipe(cleanCSS({colors: 'true', format: 'beautify'}))
+    //.pipe(cleanCSS({colors: 'true', format: 'beautify'}))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./universalCSS'));
 });

@@ -1,4 +1,4 @@
-@import "layout";
+@import "base";
 
 // note to self: i had nav declared twice in my scss ... there is probably too much here ... related to the hamburger menus near the end I think
 // I think i was messing with the hamburger menus in bs4.x vs bs5.x alpha, and there were differences
@@ -20,7 +20,7 @@
     font-size: 36px;
     color: var(--white75);
   }
-  
+
   // This is for the navigation menus on the right, when at full screen
   .navbar-nav {
     a:link,
@@ -32,7 +32,7 @@
       color: rgba(255, 255, 255, 0.75);
     }
   }
-  
+
   // needed elsewhere on page ... apparently it has nothing to do with the main navs on any section
   .nav-tabs {
     background-color: var(--white);

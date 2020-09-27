@@ -1,0 +1,67 @@
+@import "../01-variables/01-varInclude";
+
+/********** Global *******************/
+
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  font-size: 1.05rem;
+}
+
+body {
+  min-height: 100%;
+  font-size: 16px;
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'middle-container'
+    'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 1fr 75px;
+    height: 100vh;
+  }
+}
+
+
+
+
+
+
+
+
+// problem is this extend is from something later on in theming
+footer {
+  grid-area: footer;
+  color: var(--white);
+  background-color: var(--darkGrey1);
+
+  padding: 1.5rem;
+  margin: 0;
+  max-height: $footerheight;
+  display: flex;
+
+  a:link,
+  a:hover,
+  a:visited {
+    text-decoration: none;
+  }
+}
+
+a:link,
+a:hover,
+a:visited {
+  color: var(--midnightBlue);
+}
+
+// no longer in bootstrap 5
+.text-justify {
+  text-align: justify;
+}
