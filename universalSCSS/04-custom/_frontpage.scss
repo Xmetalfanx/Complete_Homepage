@@ -16,8 +16,9 @@
 	.site-section,
   .git-section {
 		display: inline-grid;
-		grid-template-columns: inherit;
-		// justify-content: space-around;
+		grid-template-columns: repeat(2, minmax(300px, 50%));
+
+    // justify-content: space-around;
 		.card {
 			box-shadow: none;
 			max-height: 500px;
@@ -34,7 +35,10 @@
 					background-color: inherit;
 					color: inherit;
 				}
-			}
+      }
+      .card__body {
+       padding: 1rem
+      }
 		}
 		// For Titles, so they can span across two columns
     .frontpage-title {
@@ -48,7 +52,6 @@
   .site-section {
 		grid-area: site-section;
 		grid-template-rows: repeat(2, 1fr);
-		grid-template-columns: repeat(2, 1fr);
 		grid-gap: inherit;
 		img {
 			margin: 0 auto;

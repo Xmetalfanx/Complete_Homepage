@@ -30,13 +30,6 @@ body {
   }
 }
 
-
-
-
-
-
-
-
 // problem is this extend is from something later on in theming
 footer {
   grid-area: footer;
@@ -52,6 +45,12 @@ footer {
   a:hover,
   a:visited {
     text-decoration: none;
+    background-color: inherit;
+    color: white;
+  }
+
+  i {
+    margin: 0 .50rem ;
   }
 }
 
