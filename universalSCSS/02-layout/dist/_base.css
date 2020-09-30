@@ -1,0 +1,134 @@
+/******************* Colors ********************/
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgba(255, 255, 255, 1);
+  --white50: rgba(255, 255, 255, 0.5);
+  --white75: rgba(255, 255, 255, 0.75);
+  --darkGrey1: rgb(51, 51, 51);
+  --darkGrey2: rgb(62, 63, 58);
+  --forrestGreen: rgb(0, 100, 0);
+  --green: rgb(0, 153, 0);
+  --red: rgb(255, 0, 0);
+  --navy: rgb(0, 0, 128);
+  --midnightBlue: rgb(25, 25, 112);
+  --maroon: rgb(102, 0, 0);
+  --tanL: rgb(255, 250, 205);
+  --tanD: rgb(238, 233, 191);
+  --lightMaroon: rgb(153, 0, 0);
+}
+
+.greenText {
+  color: var(--green);
+}
+
+.redText {
+  color: var(--red);
+}
+
+/******************* Fonts ********************/
+/******************* Width ********************/
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+/******************* Icon ********************/
+.icon {
+  display: inline-block;
+}
+.icon--size32 {
+  height: 32px;
+  width: 32px;
+}
+.icon--size40 {
+  height: 40px;
+  width: 40px;
+}
+.icon--size48 {
+  height: 48px;
+  width: 48px;
+}
+
+/******************* Custom Vars ********************/
+/* Border variables */
+/********** Global *******************/
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  font-size: 1.05rem;
+}
+
+body {
+  min-height: 100%;
+  font-size: 16px;
+}
+body .grid-container {
+  display: grid;
+  grid-template-areas: "header" "middle-container" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 75px 1fr 75px;
+  height: 100vh;
+}
+
+footer {
+  grid-area: footer;
+  color: var(--white);
+  background-color: var(--darkGrey1);
+  padding: 1.5rem;
+  margin: 0;
+  max-height: 75px;
+  display: flex;
+}
+footer a:link,
+footer a:hover,
+footer a:visited {
+  text-decoration: none;
+  background-color: inherit;
+  color: white;
+}
+footer i {
+  margin: 0 0.5rem;
+}
+
+header {
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+a:link,
+a:hover,
+a:visited {
+  color: var(--midnightBlue);
+}
+
+.text-justify {
+  text-align: justify;
+}

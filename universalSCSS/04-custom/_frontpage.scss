@@ -3,108 +3,117 @@
 
 // The main part of the frontpage, ... sort of a container
 .frontpage-section {
-	display: grid;
+  display: grid;
+  grid-gap: 2rem;
   grid-template-areas:
-  'site-section   site-section'
-  'site-section   site-section'
-  'git-section    git-section'
-  'git-section    git-section';
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 2rem;
-	margin: 20px 0;
-	padding: 0 1rem;
-	.site-section,
-  .git-section {
-		display: inline-grid;
-		grid-template-columns: repeat(2, minmax(300px, 50%));
+    "site-section   site-section"
+    "site-section   site-section"
+    "git-section    git-section"
+    "git-section    git-section";
+  grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
+  margin: 20px 0;
 
+  .site-section,
+  .git-section {
     // justify-content: space-around;
-		.card {
-			box-shadow: none;
-			max-height: 500px;
-			.card__header {
-				padding: .5rem 1rem;
-				font-size: 24px;
-				// White for the background of the header and black text
-        &--darkBG {
-					background-color: white;
-					color: black;
-				}
-				// A dark BG (maybe not black, I forgot right now) and White-ish text
-        &--lightBG {
-					background-color: inherit;
-					color: inherit;
-				}
-      }
-      .card__body {
-       padding: 1rem
-      }
-		}
-		// For Titles, so they can span across two columns
-    .frontpage-title {
-			grid-column: span 2;
-			text-align: center;
-			font-size: 3rem;
-			font-weight: 900;
-		}
-	}
-	// for images and descriptions for two main website sections
-  .site-section {
-		grid-area: site-section;
-		grid-template-rows: repeat(2, 1fr);
-		grid-gap: inherit;
-		img {
-			margin: 0 auto;
-			min-width: 80%;
-			max-height: 500px;
-		}
-		// for bigger images to the side
+    display: inline-grid;
+    grid-template-columns: inherit;
+    padding: 0 1rem;
 
     .card {
-			margin: 0 auto;
-			.card__body {
-				padding: 1rem;
-				p {
-					margin: 10px 0;
-				}
-			}
-		}
-	}
-	// for describing my git projects
+      box-shadow: none;
+      max-height: 500px;
+      .card__header {
+        font-size: 24px;
+        padding: .5rem 1rem;
+        // White for the background of the header and black text
+
+        &--darkBG {
+          background-color: white;
+          color: black;
+        }
+        // A dark BG (maybe not black, I forgot right now) and White-ish text
+
+        &--lightBG {
+          background-color: inherit;
+          color: inherit;
+        }
+      }
+      .card__body {
+        padding: 1rem;
+      }
+    }
+    // For Titles, so they can span across two columns
+    .frontpage-title {
+      font-size: 3rem;
+      font-weight: 900;
+      grid-column: span 2;
+      text-align: center;
+    }
+  }
+  // for images and descriptions for two main website sections
+  .site-section {
+    grid-area: site-section;
+    grid-gap: inherit;
+
+    img {
+      margin: 0 auto;
+    }
+    // for bigger images to the side
+
+    .card {
+      margin: 0 auto;
+
+      .card__body {
+        padding: 1rem;
+
+        p {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+  // for describing my git projects
   .git-section {
-		grid-area: git-section;
-		background-color: rgba(250,247,243,.50);
-		.card {
-			margin: 0 auto;
-			width: 80%;
-			.card__header {
-				text-align: center;
-			}
-		}
-		.git-icons {
-			display: flex;
-			justify-content: space-around;
-			margin-bottom: .50rem;
-			color: var(--themebgcolor);
-		}
-	}
-}
-header {
-  background-color: #333333;
-  font-size: 30px;
-  font-weight: 800;
-  color: rgba(255, 255,255, .75);
-  text-align: center;
+    background-color: rgba(250, 247, 243, 0.5);
+    grid-area: git-section;
+
+    .card {
+      margin: 0 auto;
+      width: 80%;
+
+      .card__header {
+        text-align: center;
+      }
+    }
+    .git-icons {
+      color: var(--themebgcolor);
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 
 ol,
 ul,
 dl {
-  margin-top: 0;
   margin-bottom: 1rem;
+  margin-top: 0;
 
-  li
-  {
+  li {
     margin-left: 1.4rem;
+  }
+}
+
+
+@media (max-width: 874px) {
+  .frontpage-section {
+    grid-template-columns: 1fr;
+
+    .site-section {
+      grid-gap: 0;
+      grid-template-columns: inherit;
+    }
   }
 }
