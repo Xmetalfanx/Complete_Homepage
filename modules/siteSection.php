@@ -1,7 +1,9 @@
 
-<div class="site-section"><img class="img-fluid" src="/graphics/unsplash/city1.jpg" alt="unsplash city image">
+<div class="site-section">
+  <img class="img-fluid d-none d-lg-inline" src="/graphics/unsplash/city1.jpg" alt="unsplash city image">
   <div class="card card--bordered">
-    <div class="card__header font-weight-bold"><a href="/linuxHQ/index.php">LinuxHQ Section</a></div>
+    <div class="card__header font-weight-bold">
+      <a href="/linuxHQ/index.php">LinuxHQ Section</a></div>
     <div class="card__body">This Section includes
       <ul>
         <li>Linux Distribution and Desktop information, including:
@@ -14,7 +16,8 @@
     </div>
   </div>
   <div class="card card--bordered">
-    <div class="card__header font-weight-bold"><a href="/techHQ/index.php">TechHQ Section</a></div>
+    <div class="card__header font-weight-bold">
+      <a href="/techHQ/index.php">TechHQ Section</a></div>
     <div class="card__body">This section contains
       <ul>
         <li>Browser
@@ -30,6 +33,7 @@
         </li>
       </ul>
     </div>
-  </div><img class="img-fluid" src="/graphics/unsplash/lake1.jpg" alt="unsplash lake image">
+  </div>
+  <img class="img-fluid d-none d-lg-inline" src="/graphics/unsplash/lake1.jpg" alt="unsplash lake image">
   <!--  Section describing my git projects-->
 </div>

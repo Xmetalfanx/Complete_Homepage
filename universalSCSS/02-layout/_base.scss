@@ -1,6 +1,6 @@
-@import "../01-variables/01-varInclude";
+@import '../01-variables/01-varInclude';
 
-/********** Global *******************/
+/********** Global *****************/
 
 *,
 body {
@@ -10,13 +10,20 @@ body {
 }
 
 html {
-  width: 100%;
   font-size: 1.05rem;
+  width: 100%;
+
 }
 
 body {
-  min-height: 100%;
   font-size: 16px;
+  min-height: 100%;
+
+  a:link,
+  a:hover,
+  a:visited {
+    color: var(--midnightBlue);
+  }
 
   .grid-container {
     display: grid;
@@ -32,42 +39,34 @@ body {
 
 // problem is this extend is from something later on in theming
 footer {
-  grid-area: footer;
+  background-color: var(--themeBGColor1);
   color: var(--white);
-  background-color: var(--darkGrey1);
-
-  padding: 1.5rem;
+  display: flex;
+  grid-area: footer;
   margin: 0;
   max-height: $footerheight;
-  display: flex;
+  padding: 1.5rem;
 
   a:link,
   a:hover,
   a:visited {
-    text-decoration: none;
     background-color: inherit;
-    color: white;
+    color: var(--white);
+    text-decoration: none;
   }
 
   i {
-    margin: 0 .50rem ;
+    margin: 0 .5rem;
   }
 }
 
 header {
-  background-color: #333333;
-  color: rgba(255, 255, 255, 0.75);
+  background-color: var(--themeBGColor1);
+  color: var(--white75);
   font-size: 30px;
   font-weight: 800;
+  grid-area: header;
   text-align: center;
-}
-
-
-
-a:link,
-a:hover,
-a:visited {
-  color: var(--midnightBlue);
 }
 
 // no longer in bootstrap 5

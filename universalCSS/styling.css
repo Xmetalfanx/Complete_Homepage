@@ -53,19 +53,20 @@
 }
 
 /******************* Icon ********************/
-.icon,
-.icon__iconSM,
-.icon__iconLG {
+.icon, .icon__iconSM, .icon__iconLG {
   display: inline-block;
 }
+
 .icon--size32 {
   height: 32px;
   width: 32px;
 }
+
 .icon--size40 {
   height: 40px;
   width: 40px;
 }
+
 .icon--size48 {
   height: 48px;
   width: 48px;
@@ -76,7 +77,8 @@
 /********** Global *******************/
 *,
 body {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -90,23 +92,32 @@ body {
   min-height: 100%;
   font-size: 16px;
 }
+
 body .grid-container {
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "header" "middle-container" "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: 75px 1fr 75px;
+      grid-template-areas: 'header' 'middle-container' 'footer';
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 75px 1fr 75px;
+      grid-template-rows: 75px 1fr 75px;
   height: 100vh;
 }
 
 footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
   grid-area: footer;
   color: var(--white);
   background-color: var(--darkGrey1);
   padding: 1.5rem;
   margin: 0;
   max-height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 footer a:link,
 footer a:hover,
 footer a:visited {
@@ -114,8 +125,158 @@ footer a:visited {
   background-color: inherit;
   color: white;
 }
+
 footer i {
-  margin: 0 0.5rem;
+  margin: 0 .50rem;
+}
+
+header {
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+a:link,
+a:hover,
+a:visited {
+  color: var(--midnightBlue);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/******************* Colors ********************/
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgba(255, 255, 255, 1);
+  --white50: rgba(255, 255, 255, 0.5);
+  --white75: rgba(255, 255, 255, 0.75);
+  --darkGrey1: rgb(51, 51, 51);
+  --darkGrey2: rgb(62, 63, 58);
+  --forrestGreen: rgb(0, 100, 0);
+  --green: rgb(0, 153, 0);
+  --red: rgb(255, 0, 0);
+  --navy: rgb(0, 0, 128);
+  --midnightBlue: rgb(25, 25, 112);
+  --maroon: rgb(102, 0, 0);
+  --tanL: rgb(255, 250, 205);
+  --tanD: rgb(238, 233, 191);
+  --lightMaroon: rgb(153, 0, 0);
+}
+
+.greenText {
+  color: var(--green);
+}
+
+.redText {
+  color: var(--red);
+}
+
+/******************* Fonts ********************/
+/******************* Width ********************/
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+/******************* Icon ********************/
+.icon, .icon__iconSM, .icon__iconLG {
+  display: inline-block;
+}
+
+.icon--size32 {
+  height: 32px;
+  width: 32px;
+}
+
+.icon--size40 {
+  height: 40px;
+  width: 40px;
+}
+
+.icon--size48 {
+  height: 48px;
+  width: 48px;
+}
+
+/******************* Custom Vars ********************/
+/* Border variables */
+/********** Global *******************/
+*,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  font-size: 1.05rem;
+}
+
+body {
+  min-height: 100%;
+  font-size: 16px;
+}
+
+body .grid-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'header' 'middle-container' 'footer';
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 75px 1fr 75px;
+      grid-template-rows: 75px 1fr 75px;
+  height: 100vh;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: footer;
+  color: var(--white);
+  background-color: var(--darkGrey1);
+  padding: 1.5rem;
+  margin: 0;
+  max-height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer a:link,
+footer a:hover,
+footer a:visited {
+  text-decoration: none;
+  background-color: inherit;
+  color: white;
+}
+
+footer i {
+  margin: 0 .50rem;
 }
 
 header {
@@ -143,12 +304,14 @@ a:visited {
   text-shadow: 2px 5px var(--themeBGColor1);
   font-weight: bold;
 }
+
 .nav-themed .navbar-brand,
 .nav-themed .navbar-brand a:link,
 .nav-themed .navbar-brand a:visited {
   font-size: 36px;
   color: var(--white75);
 }
+
 .nav-themed .navbar-nav a:link,
 .nav-themed .navbar-nav a:visited {
   font-size: 22px;
@@ -156,13 +319,16 @@ a:visited {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.75);
 }
+
 .nav-themed .nav-tabs {
   background-color: var(--white);
 }
+
 .nav-themed button.navbar-toggler {
   border: 1px solid var(--white);
   color: var(--white);
 }
+
 .nav-themed .navbar-navbar-toggler {
   display: inline-block;
   width: 1.5em;
@@ -172,9 +338,11 @@ a:visited {
   background-position: center;
   background-size: 100%;
 }
+
 .nav-themed .navbar-navbar-toggler expanded {
   border: 1px solid var(--green);
 }
+
 .nav-themed .navbar-navbar-toggler collapsed {
   padding: 0.25rem 0.75rem;
   font-size: 1.09375rem;
@@ -183,10 +351,12 @@ a:visited {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
+
 .nav-themed .navbar-toggler-icon {
   height: initial;
   width: initial;
 }
+
 .nav-themed .navbar-toggler-icon div {
   margin: 5px, 0;
   width: 30px;
@@ -195,16 +365,17 @@ a:visited {
 }
 
 /************** Cards *************/
-.card,
-.card .card-header .card-body {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+.card, .card .card-header .card-body {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
-.card .card-header,
-.card .card-header .card-body .card-header {
+
+.card .card-header, .card .card-header .card-body .card-header {
   border-color: rgba(0, 0, 0, 0.15);
   font-weight: bold;
   font-size: 1.1rem;
 }
+
 .card .card-header a:link,
 .card .card-header a:visited {
   background-color: transparent;
@@ -217,16 +388,15 @@ a:visited {
     padding: 0.5rem;
   }
 }
-.card .card-text,
-.card .card-header .card-body .card-text,
+
+.card .card-text, .card .card-header .card-body .card-text,
 .card .card-body,
 .card .card-header .card-body .card-body {
   padding: 1rem;
 }
 
 @__bordered {
-  .card,
-  .card .card-header .card-body {
+  .card, .card .card-header .card-body {
     border-color: rgba(0, 0, 0, 0.15);
     margin: 0 auto 1.2rem auto;
   }
@@ -237,10 +407,12 @@ a:visited {
   min-height: 350px;
   margin: 0 auto;
 }
+
 .carousel .carousel-control-prev,
 .carousel .carousel-control-next {
   width: 60%;
 }
+
 .carousel .carousel-item img {
   display: block;
   margin: 0 auto;
@@ -249,14 +421,11 @@ a:visited {
 }
 
 /************** Icons *************/
-.icon,
-.icon__iconSM,
-.icon__iconLG {
+.icon, .icon__iconSM, .icon__iconLG {
   margin-right: 1.1rem;
 }
-.icon a:link,
-.icon__iconSM a:link,
-.icon__iconLG a:link,
+
+.icon a:link, .icon__iconSM a:link, .icon__iconLG a:link,
 .icon a:hover,
 .icon__iconSM a:hover,
 .icon__iconLG a:hover,
@@ -266,10 +435,12 @@ a:visited {
   fill: white;
   color: white;
 }
+
 .icon__iconSM {
   width: 32px;
   height: 32px;
 }
+
 .icon__iconLG {
   width: 48px;
   height: 48px;
@@ -307,6 +478,7 @@ a:visited {
   color: var(--white);
   background-color: var(--darkGrey1);
 }
+
 .darkBG a:hover {
   background-color: inherit;
   color: var(--lightgrey);
@@ -318,74 +490,63 @@ a:visited {
 }
 
 .frontpage-section {
+  display: -ms-grid;
   display: grid;
   grid-gap: 2rem;
-  grid-template-areas: "site-section   site-section" "site-section   site-section" "git-section    git-section" "git-section    git-section";
-  grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
+      grid-template-areas: "site-section   site-section" "site-section   site-section" "git-section    git-section" "git-section    git-section";
+  -ms-grid-columns: (minmax(400px, 48%))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
   margin: 20px 0;
 }
+
 .frontpage-section .site-section,
 .frontpage-section .git-section {
+  display: -ms-inline-grid;
   display: inline-grid;
-  grid-template-columns: inherit;
+  -ms-grid-columns: inherit;
+      grid-template-columns: inherit;
   padding: 0 1rem;
 }
-.frontpage-section .site-section .card,
-.frontpage-section .site-section .card .card-header .card-body,
-.card .card-header .frontpage-section .site-section .card-body,
+
+.frontpage-section .site-section .card, .frontpage-section .site-section .card .card-header .card-body, .card .card-header .frontpage-section .site-section .card-body,
 .frontpage-section .git-section .card,
 .frontpage-section .git-section .card .card-header .card-body,
 .card .card-header .frontpage-section .git-section .card-body {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   max-height: 500px;
+  width: 100%;
 }
-.frontpage-section .site-section .card .card__header,
-.card .card-header .frontpage-section .site-section .card-body .card__header,
+
+.frontpage-section .site-section .card .card__header, .card .card-header .frontpage-section .site-section .card-body .card__header,
 .frontpage-section .git-section .card .card__header,
 .card .card-header .frontpage-section .git-section .card-body .card__header {
   font-size: 24px;
   padding: 0.5rem 1rem;
 }
-.frontpage-section .site-section .card .card__header--darkBG,
-.card
-  .card-header
-  .frontpage-section
-  .site-section
-  .card-body
-  .card__header--darkBG,
+
+.frontpage-section .site-section .card .card__header--darkBG, .card .card-header .frontpage-section .site-section .card-body .card__header--darkBG,
 .frontpage-section .git-section .card .card__header--darkBG,
-.card
-  .card-header
-  .frontpage-section
-  .git-section
-  .card-body
-  .card__header--darkBG {
+.card .card-header .frontpage-section .git-section .card-body .card__header--darkBG {
   background-color: white;
   color: black;
 }
-.frontpage-section .site-section .card .card__header--lightBG,
-.card
-  .card-header
-  .frontpage-section
-  .site-section
-  .card-body
-  .card__header--lightBG,
+
+.frontpage-section .site-section .card .card__header--lightBG, .card .card-header .frontpage-section .site-section .card-body .card__header--lightBG,
 .frontpage-section .git-section .card .card__header--lightBG,
-.card
-  .card-header
-  .frontpage-section
-  .git-section
-  .card-body
-  .card__header--lightBG {
+.card .card-header .frontpage-section .git-section .card-body .card__header--lightBG {
   background-color: inherit;
   color: inherit;
 }
-.frontpage-section .site-section .card .card__body,
-.card .card-header .frontpage-section .site-section .card-body .card__body,
+
+.frontpage-section .site-section .card .card__body, .card .card-header .frontpage-section .site-section .card-body .card__body,
 .frontpage-section .git-section .card .card__body,
 .card .card-header .frontpage-section .git-section .card-body .card__body {
   padding: 1rem;
 }
+
 .frontpage-section .site-section .frontpage-title,
 .frontpage-section .git-section .frontpage-title {
   font-size: 3rem;
@@ -393,30 +554,38 @@ a:visited {
   grid-column: span 2;
   text-align: center;
 }
+
 .frontpage-section .site-section {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: site-section;
   grid-gap: inherit;
 }
+
 .frontpage-section .site-section img {
   margin: 0 auto;
 }
-.frontpage-section .site-section .card,
-.frontpage-section .site-section .card .card-header .card-body,
-.card .card-header .frontpage-section .site-section .card-body {
+
+.frontpage-section .site-section .card, .frontpage-section .site-section .card .card-header .card-body, .card .card-header .frontpage-section .site-section .card-body {
   margin: 0 auto;
+  width: 100%;
 }
-.frontpage-section .site-section .card .card__body,
-.card .card-header .frontpage-section .site-section .card-body .card__body {
-  padding: 1rem;
-}
-.frontpage-section .site-section .card .card__body p,
-.card .card-header .frontpage-section .site-section .card-body .card__body p {
+
+.frontpage-section .site-section .card .card__body p, .card .card-header .frontpage-section .site-section .card-body .card__body p {
   margin: 10px 0;
 }
+
 .frontpage-section .git-section {
   background-color: rgba(250, 247, 243, 0.5);
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: git-section;
 }
+
 
 .frontpage-section .git-section .card,
 .frontpage-section .git-section .card .card-header .card-body,
@@ -425,14 +594,19 @@ a:visited {
   width: 80%;
 }
 
+
 .frontpage-section .git-section .card .card__header,
 .card .card-header .frontpage-section .git-section .card-body .card__header {
   text-align: center;
 }
+
 .frontpage-section .git-section .git-icons {
   color: var(--themebgcolor);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin-bottom: 0.5rem;
 }
 
@@ -442,6 +616,7 @@ dl {
   margin-bottom: 1rem;
   margin-top: 0;
 }
+
 ol li,
 ul li,
 dl li {
@@ -450,11 +625,18 @@ dl li {
 
 @media (max-width: 874px) {
   .frontpage-section {
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
-  .frontpage-section .site-section {
+  .frontpage-section .site-section,
+  .frontpage-section .git-section {
     grid-gap: 0;
-    grid-template-columns: inherit;
+    -ms-grid-columns: inherit;
+        grid-template-columns: inherit;
+  }
+  .frontpage-section .site-section .frontpage-title,
+  .frontpage-section .git-section .frontpage-title {
+    grid-column: auto;
   }
 }
 
@@ -498,7 +680,8 @@ code {
 .coverImage2 {
   width: 100%;
   height: 500px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .hiddenAccessLinkText {
@@ -513,14 +696,21 @@ code {
 /* Sections */
 .flexContainer {
   max-width: 100%;
-  flex: 1 0 auto;
-}
-.flexContainer .mainSection {
-  margin: 0 auto, 0 auto;
-  flex-grow: 1;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0.5rem 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
+.flexContainer .mainSection {
+  margin: 0 auto, 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0.5rem 0;
+}
 /*# sourceMappingURL=styling.css.map */
