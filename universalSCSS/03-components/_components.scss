@@ -1,10 +1,9 @@
-
 /************** Cards *************/
 .card {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 
-  .card-header {
-    border-color: rgba(0, 0, 0, 0.15);
+  .card__header {
+    border-color: var(--themeBGColor1);
 
     font-weight: bold;
     font-size: 1.1rem;
@@ -32,8 +31,7 @@
 
   // why the margin s
   @__bordered {
-
-    border-color: rgba(0, 0, 0, 0.15);
+    border-color: var(--themeBGColor1);
     margin: 0 auto 1.2rem auto;
   }
 }
@@ -57,7 +55,6 @@
   }
 }
 
-
 /************** Icons *************/
 
 .icon {
@@ -67,8 +64,8 @@
   a:link,
   a:hover,
   a:visited {
-    fill: white;
-    color: white;
+    fill: var(--white);
+    color: var(--white);
   }
   &__iconSM {
     @extend .icon;
@@ -83,12 +80,9 @@
   }
 }
 
-
-
 /************** RSS Feed *************/
 
- // why is this rss related code here
- .feed-item-title {
+.feed-item-title {
   a:link,
   a:hover,
   a:visited {

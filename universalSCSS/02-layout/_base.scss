@@ -1,4 +1,4 @@
-@import '../01-variables/01-varInclude';
+@import "../01-variables/01-varInclude";
 
 /********** Global *****************/
 
@@ -12,7 +12,6 @@ body {
 html {
   font-size: 1.05rem;
   width: 100%;
-
 }
 
 body {
@@ -28,9 +27,9 @@ body {
   .grid-container {
     display: grid;
     grid-template-areas:
-    'header'
-    'middle-container'
-    'footer';
+      'header'
+      'middle-container'
+      'footer';
     grid-template-columns: 1fr;
     grid-template-rows: 75px 1fr 75px;
     height: 100vh;
@@ -72,4 +71,13 @@ header {
 // no longer in bootstrap 5
 .text-justify {
   text-align: justify;
+}
+
+// the main section between the nav top bar and the footer
+.mainSection {
+  margin: 0 auto, 0 auto;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding: .5rem 0;
 }

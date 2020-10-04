@@ -1,5 +1,5 @@
-/******************* Colors ********************/
 :root {
+  /******************* Colors ********************/
   --black: rgb(0, 0, 0);
   --white: rgba(255, 255, 255, 1);
   --white50: rgba(255, 255, 255, 0.5);
@@ -15,9 +15,23 @@
   --tanL: rgb(255, 250, 205);
   --tanD: rgb(238, 233, 191);
   --lightMaroon: rgb(153, 0, 0);
+
+  --Verdana: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  --TNR: "Times New Roman", Times, serif;
+  --Courier: "Courier New", Courier, monospace;
+  --Helvetica: "Helvetica Neue", Helvetica, sans-serif;
+  --MSSans: "MS Sans Serif", Geneva, sans-serif;
+  --SegoeUI: "Segoe UI", Arial, Helvetica, sans-serif;
+  --Tahoma: Tahoma, Verdana, Segoe, sans-serif;
+  --Arial: Arial, Helvetica, san-serif;
+  --Roboto: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
+// This is #333333
 $themeBGColor1: var(--darkGrey1);
+
 $themeBGColor2: var(--darkGrey2);
 
 // I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this
@@ -30,22 +44,7 @@ $themeBGColor2: var(--darkGrey2);
   color: var(--red);
 }
 
-/******************* Fonts ********************/
-
-$Verdana: Verdana, Geneva, Arial, Helvetica, sans-serif;
-$TNR: "Times New Roman", Times, serif;
-$Courier: "Courier New", Courier, monospace;
-$Helvetica: "Helvetica Neue", Helvetica, sans-serif;
-$MSSans: "MS Sans Serif", Geneva, sans-serif;
-$SegoeUI: "Segoe UI", Arial, Helvetica, sans-serif;
-$Tahoma: Tahoma, Verdana, Segoe, sans-serif;
-$Arial: Arial, Helvetica, san-serif;
-$Roboto: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-
 /******************* Width ********************/
-
 .w-25 {
   width: 25%;
 }
@@ -67,7 +66,6 @@ $Roboto: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 
 /******************* Icon ********************/
 
-
 // Should i put this in "components" instead?
 .icon {
   display: inline-block;
@@ -86,21 +84,13 @@ $Roboto: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     height: 48px;
     width: 48px;
   }
-
 }
 
 /******************* Custom Vars ********************/
 
 // Text Shadow Default try without need for a mixin
-$defaultTextShadow: 2px 5px 0 #333333;
+$defaultTextShadow: 2px 5px 0 var(--themeBGColor1);
 
 $footerheight: 75px;
 
 $defaultBoxShadow: 4px 3px 5px #000000;
-
-
-/* Border variables */
-$solidBorder: 1px solid #000000;
-$dottedBorder: 1px dotted #000000;
-
-

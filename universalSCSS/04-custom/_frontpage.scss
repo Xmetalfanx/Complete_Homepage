@@ -6,10 +6,10 @@
   display: grid;
   grid-gap: 2rem;
   grid-template-areas:
-  'site-section   site-section'
-  'site-section   site-section'
-  'git-section    git-section'
-  'git-section    git-section';
+    'site-section   site-section'
+    'site-section   site-section'
+    'git-section    git-section'
+    'git-section    git-section';
   grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
   grid-template-rows: repeat(2, 1fr);
   margin: 20px 0;
@@ -121,6 +121,7 @@ dl {
 
       .frontpage-title {
         grid-column: auto;
+        font-size: 2rem;
       }
     }
   }
