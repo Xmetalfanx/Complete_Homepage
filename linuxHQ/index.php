@@ -6,13 +6,9 @@
     $path = getenv('DOCUMENT_ROOT');
     include($path . '/templates/linux/open/baseLinuxTemplate.tpl');
 ?>
-<!-- here flexContainer is a div that is open and also "mainSection" is another div below that -->
-  <div class="col-9">
 
-    <div class="d-none d-lg-block">
-      <?php include $path . '/linuxHQ/modules/mainCarousel.tpl' ?>
-    </div>
-
+  <div class="main-section main-section--left-col">
+    <?php include $path . '/linuxHQ/modules/mainCarousel.tpl' ?>
 
     <h4>Introduction</h4>
 
@@ -26,7 +22,9 @@
     <?php include $path . "/linuxHQ/modules/omgubuntu.tpl"; ?>
 
   </div>
-  <div class="d-none d-md-block col-3">
+
+
+  <div class="d-none d-md-block">
 
     <!-- Distrowatch RSS Feed -->
     <?php include $path . "/linuxHQ/modules/distrowatch.tpl"; ?>

@@ -18,22 +18,22 @@ body {
   font-size: 16px;
   min-height: 100%;
 
+  display: grid;
+    grid-template-areas:
+      'header'
+      'main-section'
+      'footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 1fr 75px;
+    height: 100vh;
+
+
   a:link,
   a:hover,
   a:visited {
     color: var(--midnightBlue);
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      'header'
-      'middle-container'
-      'footer';
-    grid-template-columns: 1fr;
-    grid-template-rows: 75px 1fr 75px;
-    height: 100vh;
-  }
 }
 
 // problem is this extend is from something later on in theming
@@ -75,9 +75,21 @@ header {
 
 // the main section between the nav top bar and the footer
 .mainSection {
-  margin: 0 auto, 0 auto;
-  flex-grow: 1;
-  display: flex;
-  flex-wrap: wrap;
+  grid-area: main-section;
   padding: .5rem 0;
+
+  &--left-wide,
+  &--right-wide {
+    display: grid;
+  }
+
+  &--left-wide {
+    grid-template-columns: auto 20% ;
+    grid-template-area: "sidebar main";
+  }
+
+  &--right-wide {
+    grid-template-columns: 20% auto;
+    grid-template-area: 'main sidebar';
+  }
 }
