@@ -484,4 +484,9 @@ code {
   height: 48px;
 }
 
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=styling.css.map */
