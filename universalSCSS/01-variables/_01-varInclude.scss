@@ -27,12 +27,12 @@
   --Roboto: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
+
+  // This is #333333
+  --themeBGColor1: var(--darkGrey1);
+
+  --themeBGColor2: var(--darkGrey2);
 }
-
-// This is #333333
-$themeBGColor1: var(--darkGrey1);
-
-$themeBGColor2: var(--darkGrey2);
 
 // I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this
 // The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something

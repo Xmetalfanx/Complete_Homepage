@@ -29,16 +29,9 @@
 }
 
 code {
-  background-color: $themeBGColor1;
+  background-color: var(--themeBGColor1);
   color: var(--white);
   display: inline-block;
-}
-
-// Rename after testing
-.coverImage2 {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
 }
 
 // New idea for screen readers

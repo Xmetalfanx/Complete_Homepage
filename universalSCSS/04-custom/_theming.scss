@@ -1,22 +1,12 @@
 // Tweaking this to match the bootswatch theme i am using
 // I did this because i need this to be a variable in other places, then just the background color
 
-
 .darkBG {
   color: var(--white);
-  background-color: $themeBGColor1;
+  background-color: var(--themeBGColor1);
 
   a:hover {
     background-color: inherit;
     color: var(--lightgrey);
   }
 }
-
-/* THEME RELATED */
-
-// why did i do this class 
-.darkGreyText {
-  color: $themeBGColor1;
-}
-
-
