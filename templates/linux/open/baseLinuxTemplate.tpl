@@ -8,7 +8,7 @@
 <!-- the purpose of this template seems to be to have a template for the LinuxHQ section that doesn't have any Col1 columns -->
 
 <body>
-<div class="flexContainer">
+<div class="main-section">
 
   <?php require $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
