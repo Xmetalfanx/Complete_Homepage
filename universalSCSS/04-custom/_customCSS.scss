@@ -28,21 +28,7 @@
   vertical-align: middle;
 }
 
-code {
-  background-color: var(--themeBGColorMain);
-  color: var(--white);
-  display: inline-block;
-}
 
-// New idea for screen readers
-.hiddenAccessLinkText {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
 
 .iconSM {
   width: 32px;

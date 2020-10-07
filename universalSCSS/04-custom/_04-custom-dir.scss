@@ -1,5 +1,6 @@
-@import "../03-components/03-componentIncludes";
 
-@import "_theming";
-@import "frontpage";
+// why do I need this? 
+@import '../02-components/components';
+
 @import "customCSS";
+@import "_theming";

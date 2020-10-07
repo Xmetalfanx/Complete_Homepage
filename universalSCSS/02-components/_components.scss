@@ -1,0 +1,110 @@
+
+/************** Icons *************/
+
+/************** RSS Feed *************/
+
+.feed-item-title {
+  a:link,
+  a:hover,
+  a:visited {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
+
+.icon {
+  // margin on right side only
+  margin-right: 1.1rem;
+
+  a:link,
+  a:hover,
+  a:visited {
+    fill: var(--white);
+    color: var(--white);
+  }
+  &__iconSM {
+    @extend .icon;
+    width: 32px;
+    height: 32px;
+  }
+
+  &__iconLG {
+    @extend .icon;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+
+/************** Cards *************/
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+  .card-body,
+  .card-text {
+    padding: 1rem;
+  }
+
+  .card__header {
+    border-color: var(--themeBGColorMain);
+
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    a:link,
+    a:visited {
+      background-color: inherit;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    // For sidebar menus
+    @--sidebar {
+      .card-body {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  // why the margin s
+  @__bordered {
+    border-color: var(--themeBGColorMain);
+    margin: 0 auto 1.2rem auto;
+  }
+}
+
+/************** Carousel *************/
+
+.carousel {
+  min-height: 350px;
+  margin: 0 auto;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 60%;
+  }
+
+  .carousel-item img {
+    display: block;
+    margin: 0 auto;
+    height: 450px;
+    width: 725px;
+  }
+}
+
+/***************** Random ****************/ 
+code {
+  background-color: var(--themeBGColorMain);
+  color: var(--white);
+  display: inline-block;
+}
+
+// New idea for screen readers
+.hiddenAccessLinkText {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
