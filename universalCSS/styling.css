@@ -245,7 +245,7 @@ header {
 }
 @__bordered {
   .card, .card .card__header .card-body {
-    border-color: var(--themeBGColor1);
+    border-color: var(--themeBGColorMain);
     margin: 0 auto 1.2rem auto;
   }
 }
@@ -393,6 +393,7 @@ header {
 }
 .frontpage-section .site-section img {
   margin: 0 auto;
+  max-width: 80%;
 }
 .frontpage-section .site-section .card, .frontpage-section .site-section .card .card__header .card-body, .card .card__header .frontpage-section .site-section .card-body {
   margin: 0 auto;
