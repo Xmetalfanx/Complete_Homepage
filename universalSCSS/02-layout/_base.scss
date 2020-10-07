@@ -19,26 +19,24 @@ body {
   min-height: 100%;
 
   display: grid;
-    grid-template-areas:
-      'header'
-      'main-section'
-      'footer';
-    grid-template-columns: 1fr;
-    grid-template-rows: 75px 1fr 75px;
-    height: 100vh;
-
+  grid-template-areas:
+    "header"
+    "main-section"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr 75px;
+  height: 100vh;
 
   a:link,
   a:hover,
   a:visited {
     color: var(--midnightBlue);
   }
-
 }
 
 // problem is this extend is from something later on in theming
 footer {
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
   color: var(--white);
   display: flex;
   grid-area: footer;
@@ -55,12 +53,13 @@ footer {
   }
 
   i {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
 }
 
 header {
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
   color: var(--white75);
   font-size: 30px;
   font-weight: 800;
@@ -76,7 +75,7 @@ header {
 // the main section between the nav top bar and the footer
 .mainSection {
   grid-area: main-section;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 
   &--left-wide,
   &--right-wide {
@@ -84,12 +83,12 @@ header {
   }
 
   &--left-wide {
-    grid-template-columns: auto 20% ;
-    grid-template-area: "sidebar main";
+    grid-template-columns: auto 20%;
+    grid-template-areas: "sidebar main";
   }
 
   &--right-wide {
     grid-template-columns: 20% auto;
-    grid-template-area: 'main sidebar';
+    grid-template-areas: "main sidebar";
   }
 }

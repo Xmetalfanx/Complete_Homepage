@@ -15,6 +15,15 @@
   --tanL: rgb(255, 250, 205);
   --tanD: rgb(238, 233, 191);
   --lightMaroon: rgb(153, 0, 0);
+  --darkturquoise: rgb(30, 80, 87);
+
+  // This is #333333
+  --themeBGColorMain: var(--darkGrey1);
+  --themeBGColorAccent: var(--darkturquoise);
+
+
+  // --themeBGColor2: var(--darkGrey2);
+
 
   --Verdana: Verdana, Geneva, Arial, Helvetica, sans-serif;
   --TNR: "Times New Roman", Times, serif;
@@ -28,10 +37,6 @@
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
 
-  // This is #333333
-  --themeBGColor1: var(--darkGrey1);
-
-  --themeBGColor2: var(--darkGrey2);
 }
 
 // I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this

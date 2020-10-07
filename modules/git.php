@@ -1,7 +1,7 @@
 <div class="git-section">
   <div class="frontpage-title">My Git Projects </div>
   <div class="card card--bordered">
-      <div class="card__header font-weight-bold">Linux Setup</div>
+      <div class="card__header">Linux Setup</div>
       <div class="card__body">
         <div class="git-icons">
           <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener" >
@@ -22,7 +22,7 @@
   </div>
 
   <div class="card card--bordered">
-    <div class="card__header font-weight-bold">Linux Theming</div>
+    <div class="card__header">Linux Theming</div>
       <div class="card__body">
         <div class="git-icons">
           <a

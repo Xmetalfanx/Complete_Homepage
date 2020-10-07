@@ -1,9 +1,11 @@
 // Tweaking this to match the bootswatch theme i am using
 // I did this because i need this to be a variable in other places, then just the background color
 
+// Is this still needed? ... really?  since i am using css vars in the _base.scss file 
+
 .darkBG {
   color: var(--white);
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
 
   a:hover {
     background-color: inherit;

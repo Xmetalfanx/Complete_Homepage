@@ -4,10 +4,10 @@
 
 .nav-themed {
   color: var(--white);
-  background-color: var(--darkGrey1);
+  background-color: var(--themeBGColorMain);
 
   padding: 0.5rem, 1rem;
-  text-shadow: 2px 5px var(--themeBGColor1);
+  text-shadow: 2px 5px var(--themeBGColorMain);
   font-weight: bold;
 
   // The "title" so to speak on the left

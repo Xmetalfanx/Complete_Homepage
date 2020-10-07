@@ -29,7 +29,7 @@
 }
 
 code {
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
   color: var(--white);
   display: inline-block;
 }
@@ -52,10 +52,4 @@ code {
 .iconLG {
   width: 48px;
   height: 48px;
-}
-
-// in case i remove Bootstrap
-.img-fluid {
-  height: auto;
-  max-width: 100%;
 }

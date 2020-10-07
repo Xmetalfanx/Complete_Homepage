@@ -1,8 +1,8 @@
 
 <div class="site-section">
   <img class="img-fluid d-none d-lg-inline" src="/graphics/unsplash/city1.jpg" alt="unsplash city image">
-  <div class="card card--bordered">
-    <div class="card__header font-weight-bold">
+  <div class="card">
+    <div class="card__header">
       <a href="/linuxHQ/index.php">LinuxHQ Section</a></div>
     <div class="card__body">This Section includes
       <ul>
@@ -15,9 +15,10 @@
       </ul>
     </div>
   </div>
-  <div class="card card--bordered">
-    <div class="card__header font-weight-bold">
-      <a href="/techHQ/index.php">TechHQ Section</a></div>
+  <div class="card">
+    <div class="card__header">
+      <a href="/techHQ/index.php">TechHQ Section</a>
+    </div>
     <div class="card__body">This section contains
       <ul>
         <li>Browser

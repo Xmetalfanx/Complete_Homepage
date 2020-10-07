@@ -3,14 +3,14 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 
   .card__header {
-    border-color: var(--themeBGColor1);
+    border-color: var(--themeBGColorMain);
 
     font-weight: bold;
     font-size: 1.1rem;
 
     a:link,
     a:visited {
-      background-color: transparent;
+      background-color: inherit;
       color: var(--white);
       text-decoration: none;
     }
@@ -31,7 +31,7 @@
 
   // why the margin s
   @__bordered {
-    border-color: var(--themeBGColor1);
+    border-color: var(--themeBGColorMain);
     margin: 0 auto 1.2rem auto;
   }
 }

@@ -15,6 +15,9 @@
   --tanL: rgb(255, 250, 205);
   --tanD: rgb(238, 233, 191);
   --lightMaroon: rgb(153, 0, 0);
+  --darkturquoise: rgb(30, 80, 87);
+  --themeBGColorMain: var(--darkGrey1);
+  --themeBGColorAccent: var(--darkturquoise);
   --Verdana: Verdana, Geneva, Arial, Helvetica, sans-serif;
   --TNR: "Times New Roman", Times, serif;
   --Courier: "Courier New", Courier, monospace;
@@ -26,8 +29,6 @@
   --Roboto: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
-  --themeBGColor1: var(--darkGrey1);
-  --themeBGColor2: var(--darkGrey2);
 }
 
 .greenText {
@@ -100,7 +101,7 @@ body {
   display: grid;
   grid-template-areas: "header" "main-section" "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: 75px 1fr 75px;
+  grid-template-rows: 60px 1fr 75px;
   height: 100vh;
 }
 body a:link,
@@ -110,7 +111,7 @@ body a:visited {
 }
 
 footer {
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
   color: var(--white);
   display: flex;
   grid-area: footer;
@@ -130,7 +131,8 @@ footer i {
 }
 
 header {
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   color: var(--white75);
   font-size: 30px;
   font-weight: 800;
@@ -151,18 +153,18 @@ header {
 }
 .mainSection--left-wide {
   grid-template-columns: auto 20%;
-  grid-template-area: "sidebar main";
+  grid-template-areas: "sidebar main";
 }
 .mainSection--right-wide {
   grid-template-columns: 20% auto;
-  grid-template-area: "main sidebar";
+  grid-template-areas: "main sidebar";
 }
 
 .nav-themed {
   color: var(--white);
-  background-color: var(--darkGrey1);
+  background-color: var(--themeBGColorMain);
   padding: 0.5rem, 1rem;
-  text-shadow: 2px 5px var(--themeBGColor1);
+  text-shadow: 2px 5px var(--themeBGColorMain);
   font-weight: bold;
 }
 .nav-themed .navbar-brand,
@@ -221,13 +223,13 @@ header {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .card .card__header, .card .card__header .card-body .card__header {
-  border-color: var(--themeBGColor1);
+  border-color: var(--themeBGColorMain);
   font-weight: bold;
   font-size: 1.1rem;
 }
 .card .card__header a:link,
 .card .card__header a:visited {
-  background-color: transparent;
+  background-color: inherit;
   color: var(--white);
   text-decoration: none;
 }
@@ -317,7 +319,7 @@ header {
 
 .darkBG {
   color: var(--white);
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
 }
 .darkBG a:hover {
   background-color: inherit;
@@ -349,28 +351,37 @@ header {
 .frontpage-section .site-section .card .card__header, .card .card__header .frontpage-section .site-section .card-body .card__header,
 .frontpage-section .git-section .card .card__header,
 .card .card__header .frontpage-section .git-section .card-body .card__header {
-  font-size: 24px;
+  background-color: inherit;
+  color: var(--themeBGColorAccent);
+  font-size: 26px;
+  font-weight: 800;
   padding: 0.5rem 1rem;
 }
-.frontpage-section .site-section .card .card__header--dark_bg, .card .card__header .frontpage-section .site-section .card-body .card__header--dark_bg,
-.frontpage-section .git-section .card .card__header--dark_bg,
-.card .card__header .frontpage-section .git-section .card-body .card__header--dark_bg {
-  background-color: white;
-  color: black;
-}
-.frontpage-section .site-section .card .card__header--light_bg, .card .card__header .frontpage-section .site-section .card-body .card__header--light_bg,
-.frontpage-section .git-section .card .card__header--light_bg,
-.card .card__header .frontpage-section .git-section .card-body .card__header--light_bg {
+.frontpage-section .site-section .card .card__header a:link, .card .card__header .frontpage-section .site-section .card-body .card__header a:link,
+.frontpage-section .site-section .card .card__header a:visited,
+.card .card__header .frontpage-section .site-section .card-body .card__header a:visited,
+.frontpage-section .git-section .card .card__header a:link,
+.card .card__header .frontpage-section .git-section .card-body .card__header a:link,
+.frontpage-section .git-section .card .card__header a:visited,
+.card .card__header .frontpage-section .git-section .card-body .card__header a:visited {
   background-color: inherit;
   color: inherit;
 }
 .frontpage-section .site-section .card .card__body, .card .card__header .frontpage-section .site-section .card-body .card__body,
 .frontpage-section .git-section .card .card__body,
 .card .card__header .frontpage-section .git-section .card-body .card__body {
+  font-weight: 500;
   padding: 1rem;
+}
+.frontpage-section .site-section .card .card__body .img-fluid, .card .card__header .frontpage-section .site-section .card-body .card__body .img-fluid,
+.frontpage-section .git-section .card .card__body .img-fluid,
+.card .card__header .frontpage-section .git-section .card-body .card__body .img-fluid {
+  height: auto;
+  max-width: 80%;
 }
 .frontpage-section .site-section .frontpage-title,
 .frontpage-section .git-section .frontpage-title {
+  color: var(--themeBGColorAccent);
   font-size: 3rem;
   font-weight: 900;
   grid-column: span 2;
@@ -391,7 +402,6 @@ header {
   margin: 10px 0;
 }
 .frontpage-section .git-section {
-  background-color: rgba(250, 247, 243, 0.5);
   grid-area: git-section;
 }
 .frontpage-section .git-section .card, .frontpage-section .git-section .card .card__header .card-body, .card .card__header .frontpage-section .git-section .card-body {
@@ -402,10 +412,14 @@ header {
   text-align: center;
 }
 .frontpage-section .git-section .git-icons {
-  color: var(--themebgcolor);
+  color: var(--themeBGColorAccent);
   display: flex;
   justify-content: space-around;
   margin-bottom: 0.5rem;
+}
+.frontpage-section .git-section .git-icons a:link,
+.frontpage-section .git-section .git-icons a:visited {
+  color: inherit;
 }
 
 ol,
@@ -460,7 +474,7 @@ dl li {
 }
 
 code {
-  background-color: var(--themeBGColor1);
+  background-color: var(--themeBGColorMain);
   color: var(--white);
   display: inline-block;
 }
@@ -482,11 +496,6 @@ code {
 .iconLG {
   width: 48px;
   height: 48px;
-}
-
-.img-fluid {
-  height: auto;
-  max-width: 100%;
 }
 
 /*# sourceMappingURL=styling.css.map */
