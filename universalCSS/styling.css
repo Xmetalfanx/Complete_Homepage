@@ -296,26 +296,6 @@ header {
   font-size: 1rem;
 }
 
-.w-33 {
-  width: 33%;
-}
-
-.w-60 {
-  width: 60%;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-.w-90 {
-  width: 90%;
-}
-
-.w-95 {
-  width: 95%;
-}
-
 .darkBG {
   color: var(--white);
   background-color: var(--themeBGColorMain);

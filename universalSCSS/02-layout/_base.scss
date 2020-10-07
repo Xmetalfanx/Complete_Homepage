@@ -1,4 +1,4 @@
-@import "../01-variables/01-varInclude";
+@import '../01-variables/01-varInclude';
 
 /********** Global *****************/
 
@@ -20,9 +20,9 @@ body {
 
   display: grid;
   grid-template-areas:
-    "header"
-    "main-section"
-    "footer";
+    'header'
+    'main-section'
+    'footer';
   grid-template-columns: 1fr;
   height: 100vh;
 
@@ -58,7 +58,7 @@ footer {
 
 header {
   background-color: var(--themeBGColorMain);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .50);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   color: var(--white75);
   font-size: 30px;
   font-weight: 800;
@@ -83,11 +83,11 @@ header {
 
   &--left-wide {
     grid-template-columns: auto 20%;
-    grid-template-areas: "sidebar main";
+    grid-template-areas: 'sidebar main';
   }
 
   &--right-wide {
     grid-template-columns: 20% auto;
-    grid-template-areas: "main sidebar";
+    grid-template-areas: 'main sidebar';
   }
 }
