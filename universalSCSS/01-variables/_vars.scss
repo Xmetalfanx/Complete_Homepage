@@ -21,6 +21,11 @@
   --themeBGColorMain: var(--darkGrey1);
   --themeBGColorAccent: var(--darkturquoise);
 
+  .themeColorAccent
+  {
+    color: var(--themeBGColorAccent);
+  }
+
 
   // --themeBGColor2: var(--darkGrey2);
 

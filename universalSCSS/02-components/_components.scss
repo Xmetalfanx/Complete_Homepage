@@ -1,5 +1,4 @@
-
-/************** Icons *************/
+@import '../01-variables/vars';
 
 /************** RSS Feed *************/
 
@@ -11,6 +10,8 @@
     font-size: 1rem;
   }
 }
+
+/************** Icons *************/
 
 .icon {
   // margin on right side only
@@ -92,7 +93,7 @@
   }
 }
 
-/***************** Random ****************/ 
+/***************** Random ****************/
 code {
   background-color: var(--themeBGColorMain);
   color: var(--white);

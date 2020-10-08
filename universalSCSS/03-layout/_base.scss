@@ -1,6 +1,4 @@
-@import '../01-variables/_vars';
 @import '../02-components/components';
-
 
 /********** Global *****************/
 
@@ -33,6 +31,17 @@ body {
   a:visited {
     color: var(--midnightBlue);
   }
+
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--themeBGColorAccent);
+    font-weight: 800;
+  }
+
 }
 
 // problem is this extend is from something later on in theming
