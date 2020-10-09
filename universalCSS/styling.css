@@ -91,6 +91,7 @@
 .feed-item-title a:visited {
   font-weight: 500;
   font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 /************** Icons *************/
@@ -248,18 +249,20 @@ header {
   text-align: justify;
 }
 
-.mainSection {
+.main-section {
   grid-area: main-section;
   padding: 0.5rem 0;
-}
-.mainSection--left-wide, .mainSection--right-wide {
   display: grid;
 }
-.mainSection--left-wide {
+.main-section .card__header {
+  color: green;
+  padding: 1rem;
+}
+.main-section--left-wide {
   grid-template-columns: auto 20%;
   grid-template-areas: "sidebar main";
 }
-.mainSection--right-wide {
+.main-section--right-wide {
   grid-template-columns: 20% auto;
   grid-template-areas: "main sidebar";
 }

@@ -32,7 +32,6 @@ body {
     color: var(--midnightBlue);
   }
 
-
   h1,
   h2,
   h3,
@@ -83,13 +82,15 @@ header {
 }
 
 // the main section between the nav top bar and the footer
-.mainSection {
+.main-section {
   grid-area: main-section;
-  padding: 0.5rem 0;
+  padding: .5rem 0;
+  display: grid;
 
-  &--left-wide,
-  &--right-wide {
-    display: grid;
+  .card__header
+  {
+    color: green;
+    padding: 1rem; 
   }
 
   &--left-wide {
