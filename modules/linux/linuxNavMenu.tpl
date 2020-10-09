@@ -1,5 +1,5 @@
 <nav class="nav-themed navbar navbar-expand-lg" >
-  <i class="fa fa-linux fa-3x"> </i>
+  <img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon" class="icon__iconLG">
   <a href="/linuxHQ/index.php" class="navbar-brand d-none d-lg-block">Linux HQ</a>
 
   <button type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
