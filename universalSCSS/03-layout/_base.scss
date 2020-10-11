@@ -89,8 +89,8 @@ header {
 
   .card__header
   {
-    color: green;
-    padding: 1rem; 
+    color: var(--themeBGColorAccent);
+    padding: 1rem;
   }
 
   &--left-wide {
@@ -101,5 +101,12 @@ header {
   &--right-wide {
     grid-template-columns: 20% auto;
     grid-template-areas: 'main sidebar';
+  }
+
+  // for the main sections of each side of the site
+  // HORRIBLE name for now i know
+  .main {
+    margin: 0 2rem;
+    width: 90%;
   }
 }

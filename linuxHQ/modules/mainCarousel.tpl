@@ -7,13 +7,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/linuxHQ/screenshots/ubuntu/kubuntu2004.png" alt="Kubuntu 18.04">
+      <img src="/linuxHQ/screenshots/ubuntu/kubuntu2004.png" alt="Kubuntu 18.04" class="img-fluid">
       </div>
     <div class="carousel-item">
-      <img src="/linuxHQ/screenshots/ubuntu/cinnamonMint.png" alt="Linux Mint slide">
+      <img src="/linuxHQ/screenshots/ubuntu/cinnamonMint.png" alt="Linux Mint slide" class="img-fluid">
     </div>
     <div class="carousel-item">
-      <img src="/linuxHQ/screenshots/solus/solusbudgie.png" alt="Solus Budgie slide">
+      <img src="/linuxHQ/screenshots/solus/solusbudgie.png" alt="Solus Budgie slide" class="img-fluid">
     </div>
   </div>
 

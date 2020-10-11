@@ -25,13 +25,11 @@
     color: var(--white);
   }
   &__iconSM {
-    @extend .icon;
     width: 32px;
     height: 32px;
   }
 
   &__iconLG {
-    @extend .icon;
     width: 48px;
     height: 48px;
   }
@@ -63,7 +61,7 @@
     // For sidebar menus
     @--sidebar {
       .card-body {
-        padding: 0.5rem;
+        padding: .5rem;
       }
     }
   }
@@ -75,8 +73,9 @@
   }
 }
 
-/************** Carousel *************/
 
+/************** Carousel BS way  *************/
+/*
 .carousel {
   min-height: 350px;
   margin: 0 auto;
@@ -92,6 +91,80 @@
     height: 450px;
     width: 725px;
   }
+}
+*/
+
+.carousel {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+
+  .carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &--left,
+    &--right {
+      position: absolute;
+    }
+
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  // Note: this is my own and not in the tutorial video
+  .carousel__image {
+    max-width: 100%;
+    height: auto;
+
+    max-height: 400px;
+  }
+
+  .carousel__nav {
+    display: flex;
+    justify-content: center;
+
+    .carousel__indicator {
+    border: 0;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: var(--themeBGColorAccent);
+    margin: 0 10px;
+  }
+  }
+  .carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100;
+  }
+
+  .carousel__track {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .carousel__track-container {
+    background-color: lightblue;
+    padding: 10px;
+    height: 100%;
+
+  }
+
+
 }
 
 /***************** Random ****************/
