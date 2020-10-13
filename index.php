@@ -6,7 +6,11 @@
     <?php include 'modules/headerInclude.tpl'; ?>
   </head>
   <body>
-    <header>Xmetal's Homepage </header>
+    <header>
+      <div class="frontpage-title">Xmetal's Homepage</div>
+    </header>
+
+
     <div class="main-section">
       <div class="frontpage-section">
         <?php include 'modules/siteSection.php'; ?>

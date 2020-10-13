@@ -43,9 +43,14 @@ body {
 
 }
 
-// problem is this extend is from something later on in theming
+// attempt at refactoring
+header,
 footer {
   background-color: var(--themeBGColorMain);
+}
+
+// problem is this extend is from something later on in theming
+footer {
   color: var(--white);
   display: flex;
   grid-area: footer;
@@ -66,20 +71,9 @@ footer {
   }
 }
 
-header {
-  background-color: var(--themeBGColorMain);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  color: var(--white75);
-  font-size: 30px;
-  font-weight: 800;
-  grid-area: header;
-  text-align: center;
-}
+@import 'header';
 
-// no longer in bootstrap 5
-.text-justify {
-  text-align: justify;
-}
+/*********** Main Section in middle of page  *****/
 
 // the main section between the nav top bar and the footer
 .main-section {

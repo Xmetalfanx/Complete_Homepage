@@ -1,26 +1,5 @@
 
-<nav class="nav-themed navbar navbar-expand-lg mb-3">
-<a class="navbar-brand d-none d-lg-block" href="/techHQ/index.php">Tech HQ</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#techHQNav" aria-controls="techHQNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon">
-      <div></div>
-      <div></div>
-      <div></div>
-    </span>
-  </button>
-
-  <div class="collapse navbar-collapse ml-auto" id="techHQNav">
-    <div class="navbar-nav ml-auto p-3">
-    <i class="fa fa-desktop d-none d-md-block"></i>
-    <a class="nav-item nav-link" href="/techHQ/software/softwareIndex.php">Software Home</a>
-
-    <i class="fa fa-folder d-none d-md-block"></i>
-    <a class="nav-item nav-link" href="/techHQ/techcenter/techCenterIndex.php">Tech Center ( Tips/Tutorials )</a>
-
-    <i class="fa fa-eye d-none d-md-block"></i>
-    <a class="nav-item nav-link" href="/techHQ/browsers/browserIndex.php">Web Browser</a>
-
-    <i class="fa fa-shield d-none d-md-block"></i>
-    <a class="nav-item nav-link" href="/techHQ/security/securityIndex.php">Security</a></div>
-  </div>
-</nav>
+<header>
+  <div class="nav-icon">TechHQ </div>
+  <nav> <a href="/techHQ/software/softwareIndex.php">Software Home</a><a href="/techHQ/techcenter/techCenterIndex.php">Tech Center ( Tips/Tutorials )</a><a href="/techHQ/browsers/browserIndex.php">Web Browser</a><a href="/techHQ/security/securityIndex.php">Security</a></nav>
+</header>

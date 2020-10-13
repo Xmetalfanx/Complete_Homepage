@@ -48,6 +48,15 @@
     grid-template-columns: inherit;
     padding: 0 1rem;
 
+    // come back to later
+    // I need better UX/UI to show the link is clickable
+    a:hover {
+      border-bottom: 1px solid brown;
+      margin-bottom: 0;
+      transition: 3s;
+      //outline: 1px solid black;
+    }
+
     .card {
       box-shadow: none;
       max-height: 500px;

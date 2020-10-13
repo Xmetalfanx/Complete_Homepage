@@ -1,7 +1,7 @@
 <?php
 
 	$sectionTitle= 'Web Browser Section - ';
-	include $path . '/modules/tech/baseTechHeader.tpl';
+	include $path . '/modules/tech/baseTechHead.tpl';
 
 ?>
 

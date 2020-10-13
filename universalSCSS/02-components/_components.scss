@@ -183,3 +183,8 @@ code {
   white-space: nowrap;
   width: 1px;
 }
+
+// no longer in bootstrap 5
+.text-justify {
+  text-align: justify;
+}

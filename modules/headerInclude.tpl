@@ -16,6 +16,8 @@
 
 <link rel="stylesheet" href="/universalCSS/styling.css" >
 
+<script src="/scripts/nav.js" ></script>
+
 
 <!-- Various Meta Tags-->
 <meta name="robots" content="index,follow,noodp">

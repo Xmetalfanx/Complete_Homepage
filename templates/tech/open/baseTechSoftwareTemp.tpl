@@ -2,7 +2,7 @@
 
 	$sectionTitle = 'Software Section - ';
 
-	include($path .'/modules/tech/baseTechHeader.tpl');
+	include($path .'/modules/tech/baseTechHead.tpl');
 
 ?>
 <script src="/techHQ/scripts/software.js"></script>
