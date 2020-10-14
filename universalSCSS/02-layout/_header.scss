@@ -13,7 +13,7 @@ header {
 
   // ?? change to just "a" ?? would that work?
   a {
-    color: inherit;
+    color: var(--white);
   }
 
   nav {
@@ -42,6 +42,7 @@ header {
     grid-column: span 2;
   }
 
+  // for responsive menu 
   .topnav .icon {
     display: none;
   }

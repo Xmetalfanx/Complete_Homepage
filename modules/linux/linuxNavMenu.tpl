@@ -1,7 +1,8 @@
 
 <header>
   <div class="nav-icon">
-    <img class="icon-lg" src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Graphic">
+    <img class="icon--size40" src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Graphic">
+
     <a href="/linuxHQ/index.php">LinuxHQ</a>
   </div>
 

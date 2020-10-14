@@ -104,7 +104,7 @@ header {
   text-shadow: 2px 5px var(--themeBGColorMain);
 }
 header a {
-  color: inherit;
+  color: var(--white);
 }
 header nav {
   grid-area: navigation;
@@ -190,11 +190,6 @@ body {
   grid-template-columns: 1fr;
   height: 100vh;
 }
-body a:link,
-body a:hover,
-body a:visited {
-  color: var(--midnightBlue);
-}
 body h1,
 body h2,
 body h3,
@@ -233,6 +228,9 @@ footer i {
   grid-area: main-section;
   padding: 0.5rem 0;
   display: grid;
+}
+.main-section a {
+  color: var(--midnightBlue);
 }
 .main-section .card__header {
   color: var(--themeBGColorAccent);
@@ -521,12 +519,12 @@ dl li {
   vertical-align: middle;
 }
 
-.icon-sm{
+.iconSM {
   width: 32px;
   height: 32px;
 }
 
-.icon-lg {
+.iconLG {
   width: 48px;
   height: 48px;
 }
