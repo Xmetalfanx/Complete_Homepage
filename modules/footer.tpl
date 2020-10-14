@@ -22,7 +22,7 @@
     <span class="pr-4 justify-content-end">Xmetal/Xmetalfanx 2013-*</span>
 
     <a href="https://gitlab.com/Xmetal" aria-label="Xmetalfanx Gitlab Page" target="_blank" rel="noopener">
-      <img src="/graphics/simpleIcons/gitlab.svg" alt="GitLab SVG">
+      <img src="/graphics/simpleIcons/darkBG/gitlab.svg" alt="GitLab SVG">
       <span class="hiddenAccessLinkText">My Gitlab Page</span>
     </a>
 
