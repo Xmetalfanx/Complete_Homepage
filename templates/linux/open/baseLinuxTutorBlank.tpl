@@ -5,7 +5,7 @@
     include $path . '/modules/linux/linuxBaseHeader.tpl';
 ?>
 <body>
-<div class="flexContainer">
+<div >
 
   <div class="mainSection">
     <div class="col-xs-12 col-md-2">

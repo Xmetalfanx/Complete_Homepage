@@ -5,7 +5,7 @@
 
 ?>
 <body>
-    <div class="flexContainer">
+    <div >
 
     <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 

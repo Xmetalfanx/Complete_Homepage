@@ -3,7 +3,7 @@
 ?>
 
 <body onload="getDesktopData()">
-  <div class="flexContainer">
+  <div >
   <?php require($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
   <div class="mainSection">

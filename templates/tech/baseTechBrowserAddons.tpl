@@ -6,7 +6,7 @@
 ?>
 
 <body onload="browserAddonData()">
-    <div class="flexContainer">
+    <div >
       <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
       <div class="mainSection">

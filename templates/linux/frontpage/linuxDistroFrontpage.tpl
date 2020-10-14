@@ -3,7 +3,7 @@
 ?>
 
 <body onload="getDistroData()">
-  <div class="flexContainer"> 
+  <div > 
   <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
     <div class="row flex-grow-1 w-100 mx-auto">

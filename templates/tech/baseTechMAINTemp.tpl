@@ -6,7 +6,7 @@
 
 ?>
 <body>
-    <div class="flexContainer">
+    <div >
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
 		<!-- Why is this mainBody id CSS here? --> 
