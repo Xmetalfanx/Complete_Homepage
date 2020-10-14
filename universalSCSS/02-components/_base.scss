@@ -1,4 +1,5 @@
-@import '../02-components/components';
+@import 'header';
+
 
 /********** Global *****************/
 
@@ -49,6 +50,8 @@ footer {
   background-color: var(--themeBGColorMain);
 }
 
+
+
 // problem is this extend is from something later on in theming
 footer {
   color: var(--white);
@@ -70,8 +73,6 @@ footer {
     margin: 0 0.5rem;
   }
 }
-
-@import 'header';
 
 /*********** Main Section in middle of page  *****/
 

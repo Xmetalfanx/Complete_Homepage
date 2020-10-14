@@ -1,15 +1,12 @@
 header
-  nav.nav-themed.navbar.navbar-expand-lg
+  .nav-icon
     img.icon__iconLG(src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Graphic")
-    a.navbar-brand.d-none.d-lg-block(href='/linuxHQ/index.php') Linux HQ
-    button.navbar-toggler(type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation")
-      span.navbar-toggler-icon
-        div
-        div
-        div
-    #linuxHQNav.collapse.navbar-collapse.ml-auto
-      .navbar-nav.ml-auto
-        a.nav-item.nav-link(href='/linuxHQ/distros/distroHome.php') Distributions
-        a.nav-item.nav-link(href='/linuxHQ/desktops/desktopsIndex.php') Desktops
-        a.nav-item.nav-link(href='/linuxHQ/tutorials/tutorialIndex.php') Tutorial
-        a.nav-item.nav-link(href='/linuxHQ/tic/TICHome.php') Theming
+    a(href="/linuxHQ/index.php") LinuxHQ
+
+  nav
+    a(href='/linuxHQ/distros/distroHome.php') Distributions
+    a(href='/linuxHQ/desktops/desktopsIndex.php') Desktops
+    a(href='/linuxHQ/tutorials/tutorialIndex.php') Tutorial
+    a(href='/linuxHQ/tic/TICHome.php') Theming
+    a.icon(href="javascript:void(0);", onclick="myFunction()")
+      i.fa.fa-bars(aria-hidden="true")

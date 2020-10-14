@@ -1,0 +1,92 @@
+@import '../01-variables/01-vars';
+@import 'base';
+
+// note: header.scss is included in base.scss 
+
+/************** Icons *************/
+
+.icon {
+  // margin on right side only
+  margin-right: 1.1rem;
+
+  a:link,
+  a:hover,
+  a:visited {
+    fill: var(--white);
+    color: var(--white);
+  }
+  &__iconSM {
+    width: 32px;
+    height: 32px;
+  }
+
+  &__iconLG {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+
+/************** Cards *************/
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
+  .card-body,
+  .card-text {
+    padding: 1rem;
+  }
+
+  .card__header {
+    border-color: var(--themeBGColorMain);
+
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    a:link,
+    a:visited {
+      background-color: inherit;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    // For sidebar menus
+    @--sidebar {
+      .card-body {
+        padding: .5rem;
+      }
+    }
+  }
+
+  // why the margin s
+  @__bordered {
+    border-color: var(--themeBGColorMain);
+    margin: 0 auto 1.2rem auto;
+  }
+}
+
+
+
+/***************** Random ****************/
+code {
+  background-color: var(--themeBGColorMain);
+  color: var(--white);
+  display: inline-block;
+}
+
+// New idea for screen readers
+.hiddenAccessLinkText {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+// no longer in bootstrap 5
+.text-justify {
+  text-align: justify;
+}
+
+@import 'carousel';
+@import 'frontpage';

@@ -9,7 +9,7 @@
 
 <body>
 
-  <?php require $path . '/modules/linux/linuxNavMenuRedo.tpl'; ?>
+  <?php require $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <!-- now does this mean I need to add an extra closing </div> to files using this? -->
   <div class="main-section main-section--left-wide">

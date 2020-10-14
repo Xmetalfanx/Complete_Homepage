@@ -85,13 +85,167 @@
 }
 
 /******************* Custom Vars ********************/
-/************** RSS Feed *************/
-.feed-item-title a:link,
-.feed-item-title a:hover,
-.feed-item-title a:visited {
+header {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: var(--white75);
+  display: grid;
+  font-size: 30px;
+  font-weight: 800;
+  grid-area: header;
+  grid-template-areas: "nav-icon navigation";
+  grid-template-rows: 1fr;
+  height: 75px;
+  padding: 1rem 1rem;
+  text-shadow: 2px 5px var(--themeBGColorMain);
+}
+header a:link,
+header a:visited,
+header a:hover {
+  color: inherit;
+}
+header nav {
+  grid-area: navigation;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: 22px;
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 1.4rem;
+}
+header nav a {
+  padding: 0 1rem;
+}
+header .nav-icon {
+  grid-area: nav-icon;
+  text-align: left;
+}
+header .frontpage-title {
+  text-align: center;
+  grid-column: span 2;
+}
+header .topnav .icon {
+  display: none;
+}
+
+/************** Responsive CSS *******/
+/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 794px) {
+  header .topnav a {
+    display: none;
+  }
+  header .topnav .icon {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 794px) {
+  header .topnav.responsive {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: #333;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+  }
+  header .topnav.responsive a {
+    display: block;
+    text-align: left;
+    align-self: center;
+  }
+  header .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    display: block;
+    z-index: 1;
+    margin: 17px 35px 0 0;
+    outline: inherit;
+    align-self: start;
+  }
+}
+/********** Global *****************/
+*,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1.05rem;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-height: 100%;
+  display: grid;
+  grid-template-areas: "header" "main-section" "footer";
+  grid-template-columns: 1fr;
+  height: 100vh;
+}
+body a:link,
+body a:hover,
+body a:visited {
+  color: var(--midnightBlue);
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  color: var(--themeBGColorAccent);
+  font-weight: 800;
+}
+
+header,
+footer {
+  background-color: var(--themeBGColorMain);
+}
+
+footer {
+  color: var(--white);
+  display: flex;
+  grid-area: footer;
+  margin: 0;
+  max-height: 75px;
+  padding: 1.5rem;
+}
+footer a:link,
+footer a:hover,
+footer a:visited {
+  background-color: inherit;
+  color: var(--white);
+  text-decoration: none;
+}
+footer i {
+  margin: 0 0.5rem;
+}
+
+/*********** Main Section in middle of page  *****/
+.main-section {
+  grid-area: main-section;
+  padding: 0.5rem 0;
+  display: grid;
+}
+.main-section .card__header {
+  color: var(--themeBGColorAccent);
+  padding: 1rem;
+}
+.main-section--left-wide {
+  grid-template-columns: auto 20%;
+  grid-template-areas: "sidebar main";
+}
+.main-section--right-wide {
+  grid-template-columns: 20% auto;
+  grid-template-areas: "main sidebar";
+}
+.main-section .main {
+  margin: 0 2rem;
+  width: 90%;
 }
 
 /************** Icons *************/
@@ -142,6 +296,26 @@
     border-color: var(--themeBGColorMain);
     margin: 0 auto 1.2rem auto;
   }
+}
+
+/***************** Random ****************/
+code {
+  background-color: var(--themeBGColorMain);
+  color: var(--white);
+  display: inline-block;
+}
+
+.hiddenAccessLinkText {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /************** Carousel BS way  *************/
@@ -218,243 +392,6 @@
   background-color: lightblue;
   padding: 10px;
   height: 100%;
-}
-
-/***************** Random ****************/
-code {
-  background-color: var(--themeBGColorMain);
-  color: var(--white);
-  display: inline-block;
-}
-
-.hiddenAccessLinkText {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-/********** Global *****************/
-*,
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 1.05rem;
-  width: 100%;
-}
-
-body {
-  font-size: 16px;
-  min-height: 100%;
-  display: grid;
-  grid-template-areas: "header" "main-section" "footer";
-  grid-template-columns: 1fr;
-  height: 100vh;
-}
-body a:link,
-body a:hover,
-body a:visited {
-  color: var(--midnightBlue);
-}
-body h1,
-body h2,
-body h3,
-body h4,
-body h5 {
-  color: var(--themeBGColorAccent);
-  font-weight: 800;
-}
-
-header,
-footer {
-  background-color: var(--themeBGColorMain);
-}
-
-footer {
-  color: var(--white);
-  display: flex;
-  grid-area: footer;
-  margin: 0;
-  max-height: 75px;
-  padding: 1.5rem;
-}
-footer a:link,
-footer a:hover,
-footer a:visited {
-  background-color: inherit;
-  color: var(--white);
-  text-decoration: none;
-}
-footer i {
-  margin: 0 0.5rem;
-}
-
-header {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  color: var(--white75);
-  display: grid;
-  font-size: 30px;
-  font-weight: 800;
-  grid-area: header;
-  grid-template-areas: "nav-icon navigation";
-  grid-template-rows: 1fr;
-  height: 75px;
-  padding: 1rem 1rem;
-  text-shadow: 2px 5px var(--themeBGColorMain);
-}
-header a:link,
-header a:visited,
-header a:hover {
-  color: inherit;
-}
-header .nav-icon {
-  grid-area: nav-icon;
-  text-align: left;
-}
-header .frontpage-title {
-  text-align: center;
-  grid-column: span 2;
-}
-header nav {
-  grid-area: navigation;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  font-size: 22px;
-  font-weight: 500;
-}
-header nav a {
-  padding: 0 1rem;
-}
-header .topnav .icon {
-  display: none;
-}
-
-/************** Responsive CSS *******/
-/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 794px) {
-  header .topnav a {
-    display: none;
-  }
-  header .topnav .icon {
-    float: right;
-    display: block;
-  }
-}
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 794px) {
-  header .topnav.responsive {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    background: #333;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-  }
-  header .topnav.responsive a {
-    display: block;
-    text-align: left;
-    align-self: center;
-  }
-  header .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    display: block;
-    z-index: 1;
-    margin: 17px 35px 0 0;
-    outline: inherit;
-    align-self: start;
-  }
-}
-/*********** Main Section in middle of page  *****/
-.main-section {
-  grid-area: main-section;
-  padding: 0.5rem 0;
-  display: grid;
-}
-.main-section .card__header {
-  color: var(--themeBGColorAccent);
-  padding: 1rem;
-}
-.main-section--left-wide {
-  grid-template-columns: auto 20%;
-  grid-template-areas: "sidebar main";
-}
-.main-section--right-wide {
-  grid-template-columns: 20% auto;
-  grid-template-areas: "main sidebar";
-}
-.main-section .main {
-  margin: 0 2rem;
-  width: 90%;
-}
-
-.nav-themed {
-  padding: 0.5rem, 1rem;
-}
-.nav-themed .navbar-brand,
-.nav-themed .navbar-brand a:link,
-.nav-themed .navbar-brand a:visited {
-  font-size: 36px;
-  color: var(--white75);
-}
-.nav-themed .navbar-nav a:link,
-.nav-themed .navbar-nav a:visited {
-  font-size: 22px;
-  line-height: 22px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.75);
-}
-.nav-themed .nav-tabs {
-  background-color: var(--white);
-}
-.nav-themed button.navbar-toggler {
-  border: 1px solid var(--white);
-  color: var(--white);
-}
-.nav-themed .navbar-navbar-toggler {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-.nav-themed .navbar-navbar-toggler expanded {
-  border: 1px solid var(--green);
-}
-.nav-themed .navbar-navbar-toggler collapsed {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.09375rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-}
-.nav-themed .navbar-toggler-icon {
-  height: initial;
-  width: initial;
-}
-.nav-themed .navbar-toggler-icon div {
-  margin: 5px, 0;
-  width: 30px;
-  height: 3px;
-  background-color: var(--white);
 }
 
 .frontpage-section {
@@ -611,6 +548,15 @@ dl li {
 .iconLG {
   width: 48px;
   height: 48px;
+}
+
+/************** RSS Feed *************/
+.feed-item-title a:link,
+.feed-item-title a:hover,
+.feed-item-title a:visited {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4rem;
 }
 
 .darkBG {

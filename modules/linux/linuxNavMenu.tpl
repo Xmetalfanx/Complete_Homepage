@@ -1,24 +1,18 @@
+
 <header>
-  <nav class="nav-themed navbar navbar-expand-lg" >
-    <img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon" class="icon__iconLG">
-    <a href="/linuxHQ/index.php" class="navbar-brand d-none d-lg-block">Linux HQ</a>
+  <div class="nav-icon">
+    <img class="icon__iconLG" src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Graphic">
+    <a href="/linuxHQ/index.php">LinuxHQ</a>
+  </div>
 
-    <button type="button" data-toggle="collapse" data-target="#linuxHQNav" aria-controls="linuxHQNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-    <span class="navbar-toggler-icon">
-        <div></div>
-        <div></div>
-        <div></div>
-    </span>
-    </button>
-
-    <div id="linuxHQNav" class="collapse navbar-collapse ml-auto">
-
-      <div class="navbar-nav ml-auto">
-        <a href="/linuxHQ/distros/distroHome.php" class="nav-item nav-link">Distributions</a>
-        <a href="/linuxHQ/desktops/desktopsIndex.php" class="nav-item nav-link">Desktops</a>
-        <a href="/linuxHQ/tutorials/tutorialIndex.php" class="nav-item nav-link">Tutorial</a>
-        <a href="/linuxHQ/tic/TICHome.php" class="nav-item nav-link">Theming</a>
-      </div>
-    </div>
+  <nav class="topnav" id="top-nav">
+      <a href="/linuxHQ/distros/distroHome.php">Distributions</a>
+      <a href="/linuxHQ/desktops/desktopsIndex.php">Desktops</a>
+      <a href="/linuxHQ/tutorials/tutorialIndex.php">Tutorial</a></li>
+      <a href="/linuxHQ/tic/TICHome.php">Theming</a></li>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+    </ul>
   </nav>
 </header>

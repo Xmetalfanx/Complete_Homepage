@@ -10,12 +10,28 @@ header {
   height: 75px;
   padding: 1rem 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
+  
   // ?? change to just "a" ?? would that work?
   a:link,
   a:visited,
   a:hover {
     color: inherit;
   }
+
+
+    nav {
+      grid-area: navigation;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      font-size: 22px;
+      font-weight: 500;
+
+      a {
+        padding: 0 1rem;
+      }
+    }
+
 
   // graphic to left of frontpage-title
   .nav-icon {
@@ -28,19 +44,6 @@ header {
   .frontpage-title {
     text-align: center;
     grid-column: span 2;
-  }
-
-  nav {
-    grid-area: navigation;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    font-size: 22px;
-    font-weight: 500;
-
-    a {
-      padding: 0 1rem;
-    }
   }
 
   .topnav .icon {

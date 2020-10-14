@@ -19,7 +19,4 @@
 
   <?php include($path . "/modules/headerInclude.tpl"); ?>
 
-  <!-- Link to My External Style Sheet - Specific for tech HQ -->
-  <link rel="stylesheet" type="text/css" media="all" href="/techHQ/stylesheets/styling.css">
-
 </head>
