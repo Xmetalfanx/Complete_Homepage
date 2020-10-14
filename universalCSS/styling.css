@@ -219,6 +219,11 @@ footer a:visited {
   color: var(--white);
   text-decoration: none;
 }
+footer img {
+  height: 32px;
+  width: 32px;
+  margin: 0 4px;
+}
 footer i {
   margin: 0 0.5rem;
 }

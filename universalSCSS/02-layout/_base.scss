@@ -59,6 +59,14 @@ footer {
     text-decoration: none;
   }
 
+  // this is a repeat of icon related CSS but this removes the need to have a class on each icon in the footer
+  img {
+    height: 32px;
+    width: 32px;
+    margin: 0 4px;
+  }
+
+  // for Font/fork awesome ... which i dont think I use anymore
   i {
     margin: 0 0.5rem;
   }
