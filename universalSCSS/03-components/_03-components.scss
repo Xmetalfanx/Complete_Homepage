@@ -1,31 +1,4 @@
-@import '../01-variables/01-vars';
-@import 'base';
-
-// note: header.scss is included in base.scss 
-
-/************** Icons *************/
-
-.icon {
-  // margin on right side only
-  margin-right: 1.1rem;
-
-  a:link,
-  a:hover,
-  a:visited {
-    fill: var(--white);
-    color: var(--white);
-  }
-  &__iconSM {
-    width: 32px;
-    height: 32px;
-  }
-
-  &__iconLG {
-    width: 48px;
-    height: 48px;
-  }
-}
-
+@import '../02-layout/02-layoutInclude';
 
 /************** Cards *************/
 .card {
@@ -89,4 +62,3 @@ code {
 }
 
 @import 'carousel';
-@import 'frontpage';

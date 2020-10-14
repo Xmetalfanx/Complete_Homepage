@@ -70,6 +70,11 @@
 /******************* Icon ********************/
 .icon {
   display: inline-block;
+  margin-right: 1.1rem;
+}
+.icon a {
+  fill: var(--white);
+  color: var(--white);
 }
 .icon--size32 {
   height: 32px;
@@ -98,9 +103,7 @@ header {
   padding: 1rem 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
 }
-header a:link,
-header a:visited,
-header a:hover {
+header a {
   color: inherit;
 }
 header nav {
@@ -246,25 +249,6 @@ footer i {
 .main-section .main {
   margin: 0 2rem;
   width: 90%;
-}
-
-/************** Icons *************/
-.icon {
-  margin-right: 1.1rem;
-}
-.icon a:link,
-.icon a:hover,
-.icon a:visited {
-  fill: var(--white);
-  color: var(--white);
-}
-.icon__iconSM {
-  width: 32px;
-  height: 32px;
-}
-.icon__iconLG {
-  width: 48px;
-  height: 48px;
 }
 
 /************** Cards *************/
@@ -418,8 +402,7 @@ code {
   justify-content: space-around;
   margin-bottom: 0.5rem;
 }
-.frontpage-section .git-section .git-icons a:link,
-.frontpage-section .git-section .git-icons a:visited {
+.frontpage-section .git-section .git-icons a {
   color: inherit;
 }
 .frontpage-section .git-section,
@@ -448,10 +431,8 @@ code {
   font-weight: 800;
   padding: 0.5rem 1rem;
 }
-.frontpage-section .git-section .card .card__header a:link,
-.frontpage-section .git-section .card .card__header a:visited,
-.frontpage-section .site-section .card .card__header a:link,
-.frontpage-section .site-section .card .card__header a:visited {
+.frontpage-section .git-section .card .card__header a,
+.frontpage-section .site-section .card .card__header a {
   background-color: inherit;
   color: inherit;
 }
@@ -540,12 +521,12 @@ dl li {
   vertical-align: middle;
 }
 
-.iconSM {
+.icon-sm{
   width: 32px;
   height: 32px;
 }
 
-.iconLG {
+.icon-lg {
   width: 48px;
   height: 48px;
 }
@@ -566,6 +547,58 @@ dl li {
 .darkBG a:hover {
   background-color: inherit;
   color: var(--lightgrey);
+}
+
+/* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
+#GAOTD {
+  width: 50%;
+  padding-top: 3px;
+  margin: 0 auto;
+}
+
+#ga_block {
+  width: 60%;
+  background-color: #ffffff;
+  color: #000000;
+}
+#ga_block img {
+  display: block;
+  border: none;
+}
+#ga_block #ga_text {
+  font: normal 11px Arial, sans-serif;
+  border: none;
+  margin: 4px 0 0 0;
+  width: 60%;
+  overflow: auto;
+  text-align: justify;
+}
+#ga_block #ga_text a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 13px;
+  background-color: transparent;
+}
+#ga_block #ga_text img {
+  display: block;
+  position: relative;
+  float: left;
+  border: none;
+  margin: 0 1em 1em 0;
+}
+#ga_block #ga_text p {
+  margin: 4px 0;
+}
+
+#ga_block #ga_title {
+  font: normal 11px Verdana, sans-serif;
+  border: none;
+  margin: 4px 0 0 0;
+}
+#ga_block #ga_title a {
+  text-decoration: none;
+  color: #0099ff;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=styling.css.map */

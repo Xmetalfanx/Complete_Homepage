@@ -32,8 +32,7 @@
       justify-content: space-around;
       margin-bottom: 0.5rem;
 
-      a:link,
-      a:visited {
+      a {
         color: inherit;
       }
     }
@@ -69,8 +68,7 @@
         font-weight: 800;
         padding: 0.5rem 1rem;
 
-        a:link,
-        a:visited {
+        a {
           background-color: inherit;
           color: inherit;
         }

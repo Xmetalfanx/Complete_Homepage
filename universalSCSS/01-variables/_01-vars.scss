@@ -80,6 +80,14 @@
 .icon {
   display: inline-block;
 
+  // margin on right side only
+  margin-right: 1.1rem;
+  
+   a {
+    fill: var(--white);
+    color: var(--white);
+  }
+
   &--size32 {
     height: 32px;
     width: 32px;
@@ -98,9 +106,4 @@
 
 /******************* Custom Vars ********************/
 
-// Text Shadow Default try without need for a mixin
-$defaultTextShadow: 2px 5px 0 var(--themeBGColor1);
-
 $footerheight: 75px;
-
-$defaultBoxShadow: 4px 3px 5px #000000;

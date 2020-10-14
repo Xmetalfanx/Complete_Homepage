@@ -1,9 +1,7 @@
-@import '../03-layout/03-layoutInclude';
+@import '../03-components/03-components';
 
 
-// why do I need this?
-//@import '../02-components/components';
-
+@import 'frontpage';
 @import "customCSS";
 @import "theming";
 @import 'GAOTD';
