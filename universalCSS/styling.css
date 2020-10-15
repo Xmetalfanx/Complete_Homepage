@@ -515,11 +515,14 @@ dl li {
 }
 
 /****** STARTPAGE Box related ******************/
-.SPHeightIconInput {
+#SPSearch {
+  display: block;
+  margin: 10px auto;
+}
+#SPSearch .SPHeightIconInput {
   height: 35px;
 }
-
-.SPSearchIcon {
+#SPSearch .SPSearchIcon {
   height: 33px;
   vertical-align: middle;
 }
@@ -541,6 +544,23 @@ dl li {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.4rem;
+}
+
+#outputSection a {
+  color: var(--ThemeBGColorAccent);
+}
+
+#techHQFooter {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+}
+#techHQFooter ul,
+#techHQFooter li {
+  list-style: none;
+}
+#techHQFooter a {
+  color: inherit;
 }
 
 .darkBG {

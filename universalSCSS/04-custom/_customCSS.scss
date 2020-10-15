@@ -18,17 +18,19 @@
 
 /****** STARTPAGE Box related ******************/
 
-// For the SP icon and input box
-.SPHeightIconInput {
-  height: 35px;
+#SPSearch {
+  margin: 10px auto;
+
+  // For the SP icon and input box
+  .SPHeightIconInput {
+    height: 35px;
+  }
+
+  .SPSearchIcon {
+    height: 33px;
+    vertical-align: middle;
+  }
 }
-
-.SPSearchIcon {
-  height: 33px;
-  vertical-align: middle;
-}
-
-
 
 .iconSM {
   width: 32px;
@@ -49,5 +51,25 @@
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.4rem;
+  }
+}
+
+#outputSection a {
+  color: var(--ThemeBGColorAccent);
+}
+
+// Footer specically (for now?) in the TechHQ side of the site
+#techHQFooter {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: inherit;
   }
 }

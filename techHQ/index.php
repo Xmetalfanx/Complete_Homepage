@@ -53,5 +53,4 @@
 </div> <!-- use main row -->
 
 
-<!-- include baseTechFooter -->
 <?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>

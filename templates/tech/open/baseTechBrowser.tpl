@@ -11,7 +11,7 @@
 
       <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
-      <div class="mainSection">
+      <div class="main-section">
         <div class="col-xs-12 col-md-3 col-xl-2">
           <?php include $path . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
         </div>

@@ -1,18 +1,18 @@
 <!-- at this point the main row is closed -->
+#techHQFooter
+  .d-none.d-md-block
 
-.row.pt-2.d-none.d-md-block
-  .col-12
-    ul.list-unstyled.list-group.list-group-horizontal
-      li.list-group-item
+    ul
+      li
         a(href='/techHQ/index.php' aria-label="Link to TechHQ Frontpage") Home
-      // .li a(href='http://xmetalfanx.x10.mx/phpbb/' target='_blank' rel='noreferrer') Forums | 
+      // .li a(href='http://xmetalfanx.x10.mx/phpbb/' target='_blank' rel='noreferrer') Forums |
       // .li  a(href='#' aria-label="Link to Site Map") Site Map |
-      li.list-group-item
+      li
         a(href='#') Contact Me
 
-.mx-auto
-  <!-- Include search box -->
-  <?php include $path . "/modules/startpage.tpl"; ?>
+
+<!-- Include search box -->
+<?php include $path . "/modules/startpage.tpl"; ?>
 
 
 <?php include $path . "/modules/footer.tpl"; ?>

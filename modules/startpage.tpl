@@ -1,7 +1,6 @@
 <!-- Start of SearchBox DIV -->
 
-<div class="d-none d-md-block py-3 mx-auto">
-
+<div id="SPSearch" class="d-none d-md-block">
     <!-- Search Bar -->
     <form action="http://startpage.com/do/search" method="post" name="metasearch" target="_blank" onsubmit="javascript:document.metasearch.query.value=document.metasearch.keyword.value;" accept-charset="UTF-8" >
     <img src="/techHQ/graphics/search/startpage_small_logo.jpg" alt="Start Page Icon" class="SPHeightIconInput lazyload" />
@@ -15,3 +14,4 @@
       <input value="sb" name="frm" type="hidden"/>
     </form>
 </div>
+
