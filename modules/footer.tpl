@@ -1,6 +1,4 @@
 
-<!-- Ends flexContainer div.... this was moved here from the bottom of this file ... it MAY make more sense later to move this to a different file .. i'll have to look into that  -->
-</div>
 
 <footer>
   <div class="col d-block">Site made with:
