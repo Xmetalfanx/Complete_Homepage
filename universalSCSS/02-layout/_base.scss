@@ -51,9 +51,7 @@ footer {
   max-height: $footerheight;
   padding: 1.5rem;
 
-  a:link,
-  a:hover,
-  a:visited {
+  a {
     background-color: inherit;
     color: var(--white);
     text-decoration: none;

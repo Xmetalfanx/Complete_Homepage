@@ -34,6 +34,6 @@
 
 
 
-<?php include $path . "/techHQ/modules/GAOTD.tpl"; ?>
+<?php include $path . '/techHQ/modules/GAOTD.tpl'; ?>
 
 <?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
