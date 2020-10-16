@@ -6,12 +6,10 @@
 
 ?>
 <body>
-    <!-- former "flexContainer" div -->
-    <div>
 
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
+      <!-- for the section (all of it) between header and footer -->
 			<div class="main-section">
 
-        <!-- Is this div still needed? .. I'd guess this is somehow for the js and putting content inside -->
-				<div id="outputSection">
+

@@ -76,7 +76,8 @@
   fill: var(--white);
   color: var(--white);
 }
-.icon--size32 {
+.icon--size32,
+.icon .iconSM {
   height: 32px;
   width: 32px;
 }
@@ -84,7 +85,8 @@
   height: 40px;
   width: 40px;
 }
-.icon--size48 {
+.icon--size48,
+.icon .iconLG {
   height: 48px;
   width: 48px;
 }
@@ -257,6 +259,10 @@ footer i {
 /************** Cards *************/
 .card {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: 0 auto 1.2rem auto;
+}
+.card--bordered {
+  border-color: var(--themeBGColorMain);
 }
 .card .card-body,
 .card .card-text {
@@ -267,22 +273,15 @@ footer i {
   font-weight: bold;
   font-size: 1.1rem;
 }
+.card .card__header--dark-bg {
+  background-color: var(--themeBGColorMain);
+  color: var(--white);
+}
 .card .card__header a:link,
 .card .card__header a:visited {
   background-color: inherit;
   color: var(--white);
   text-decoration: none;
-}
-@--sidebar {
-  .card .card__header .card-body {
-    padding: 0.5rem;
-  }
-}
-@__bordered {
-  .card {
-    border-color: var(--themeBGColorMain);
-    margin: 0 auto 1.2rem auto;
-  }
 }
 
 /***************** Random ****************/
@@ -516,7 +515,6 @@ dl li {
 
 /****** STARTPAGE Box related ******************/
 #SPSearch {
-  display: block;
   margin: 10px auto;
 }
 #SPSearch .SPHeightIconInput {
@@ -527,20 +525,8 @@ dl li {
   vertical-align: middle;
 }
 
-.iconSM {
-  width: 32px;
-  height: 32px;
-}
-
-.iconLG {
-  width: 48px;
-  height: 48px;
-}
-
 /************** RSS Feed *************/
-.feed-item-title a:link,
-.feed-item-title a:hover,
-.feed-item-title a:visited {
+.feed-item-title a {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.4rem;
@@ -561,6 +547,26 @@ dl li {
 }
 #techHQFooter a {
   color: inherit;
+}
+
+#EducationalSites {
+  justify-content: space-around;
+  margin-bottom: 0 auto 25px auto;
+  text-align: center;
+  width: 75%;
+}
+#EducationalSites .card__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#EducationalSites .card__body a img {
+  margin: 0 auto;
+  padding: 10px 1.5rem;
+}
+#EducationalSites .card__body .card__header {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .darkBG {

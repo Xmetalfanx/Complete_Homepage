@@ -82,13 +82,14 @@
 
   // margin on right side only
   margin-right: 1.1rem;
-  
+
    a {
     fill: var(--white);
     color: var(--white);
   }
 
-  &--size32 {
+  &--size32,
+  .iconSM {
     height: 32px;
     width: 32px;
   }
@@ -98,10 +99,12 @@
     width: 40px;
   }
 
-  &--size48 {
+  &--size48,
+  .iconLG {
     height: 48px;
     width: 48px;
   }
+
 }
 
 /******************* Custom Vars ********************/
