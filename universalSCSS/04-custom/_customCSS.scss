@@ -52,13 +52,15 @@
   flex-direction: row;
   padding-left: 20px;
 
-  ul,
-  li {
-    list-style: none;
-  }
-
   a {
     color: inherit;
+    margin: 0 1rem;
+    font-weight: 500;
+  }
+
+  a:hover {
+    outline: 1px dotted black;
+    text-decoration: none;
   }
 }
 

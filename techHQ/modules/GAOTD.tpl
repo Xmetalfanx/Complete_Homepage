@@ -1,4 +1,4 @@
-<!-- remember to remove BS specific stuff ->
+<!-- remember to remove BS specific stuff -->
 <div class="card d-none d-lg-block mx-auto w-50 shadow">
   <div class="card-header">
     <h3>GiveAwayOftheDay</h3>

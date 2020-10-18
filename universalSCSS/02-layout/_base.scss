@@ -40,6 +40,11 @@ body {
 header,
 footer {
   background-color: var(--themeBGColorMain);
+
+  a:hover {
+    // testing/ideas
+    outline: 1px dotted var(--white);
+  }
 }
 
 // problem is this extend is from something later on in theming
@@ -57,16 +62,11 @@ footer {
     text-decoration: none;
   }
 
-  // this is a repeat of icon related CSS but this removes the need to have a class on each icon in the footer
+  // I could slap other classes on each img tag, or do this ... sort of redundant CSS but it removes the need for extra css tags in the html
   img {
-    height: 32px;
-    width: 32px;
-    margin: 0 4px;
-  }
-
-  // for Font/fork awesome ... which i dont think I use anymore
-  i {
-    margin: 0 0.5rem;
+    max-width: 32px;
+    max-height: 32px;
+    margin: 0.4rem;
   }
 }
 
@@ -78,10 +78,13 @@ footer {
   padding: 0.5rem 0;
   display: grid;
 
+  // this is a link color ON a whiteBG
   a {
     color: var(--midnightBlue);
   }
 
+  // ... why is this here? ...
+  // this is likely going to be removed
   .card__header {
     color: var(--themeBGColorAccent);
     padding: 1rem;
@@ -89,17 +92,23 @@ footer {
 
   &--left-wide {
     grid-template-columns: auto 20%;
-    grid-template-areas: 'sidebar main';
+    grid-template-areas: 'sidebar pContent';
   }
 
   &--right-wide {
     grid-template-columns: 20% auto;
-    grid-template-areas: 'main sidebar';
+    grid-template-areas: 'pContent sidebar';
   }
 
-  // for the main sections of each side of the site
-  // HORRIBLE name for now i know
-  .main {
+  // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
+  &--wide {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'pContent';
+  }
+
+  // the main sections of each side of the site
+  .primaryContent {
+    grid-area: pContent;
     margin: 0 2rem;
     width: 90%;
   }

@@ -205,6 +205,10 @@ header,
 footer {
   background-color: var(--themeBGColorMain);
 }
+header a:hover,
+footer a:hover {
+  outline: 1px dotted var(--white);
+}
 
 footer {
   color: var(--white);
@@ -214,20 +218,15 @@ footer {
   max-height: 75px;
   padding: 1.5rem;
 }
-footer a:link,
-footer a:hover,
-footer a:visited {
+footer a {
   background-color: inherit;
   color: var(--white);
   text-decoration: none;
 }
 footer img {
-  height: 32px;
-  width: 32px;
-  margin: 0 4px;
-}
-footer i {
-  margin: 0 0.5rem;
+  max-width: 32px;
+  max-height: 32px;
+  margin: 0.4rem;
 }
 
 /*********** Main Section in middle of page  *****/
@@ -245,13 +244,18 @@ footer i {
 }
 .main-section--left-wide {
   grid-template-columns: auto 20%;
-  grid-template-areas: "sidebar main";
+  grid-template-areas: "sidebar pContent";
 }
 .main-section--right-wide {
   grid-template-columns: 20% auto;
-  grid-template-areas: "main sidebar";
+  grid-template-areas: "pContent sidebar";
 }
-.main-section .main {
+.main-section--wide {
+  grid-template-columns: 1fr;
+  grid-template-areas: "pContent";
+}
+.main-section .primaryContent {
+  grid-area: pContent;
   margin: 0 2rem;
   width: 90%;
 }
@@ -541,12 +545,14 @@ dl li {
   flex-direction: row;
   padding-left: 20px;
 }
-#techHQFooter ul,
-#techHQFooter li {
-  list-style: none;
-}
 #techHQFooter a {
   color: inherit;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+#techHQFooter a:hover {
+  outline: 1px dotted black;
+  text-decoration: none;
 }
 
 #EducationalSites {

@@ -11,8 +11,15 @@
 <h2>Browser Section Intro</h2>
 <div class="py-3">
 
+	<!-- leave the font/fork awesome code until i know if i need to move the aria-hidden part over to the img tag -->
 	<i class="fa fa-firefox fa-3x text-dark" aria-hidden="true"></i>
+	<img src="/graphics/simpleIcons/techHQ/browsers/firefox.svg" alt="Firefox svg from Simple Icons">
+
+
 	<i class="fa fa-chrome fa-3x text-dark" aria-hidden="true"></i>
+	<img src="/graphics/simpleIcons/techHQ/browsers/googleChrome.svg" alt="Google Chrome SVG from Simple Icons">
+
+
 </div>
 
 

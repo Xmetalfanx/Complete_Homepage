@@ -30,10 +30,11 @@
     </a>
 
   </div> <!-- closes card__body -->
-</div> <!-- closes Edu link card -->
-
+</div> <!-- closes Edu link, card -->
 
 
 <?php include $path . '/techHQ/modules/GAOTD.tpl'; ?>
+
+
 
 <?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
