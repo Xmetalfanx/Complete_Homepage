@@ -33,14 +33,27 @@
 }
 
 /************** RSS Feed *************/
-
+// For GAOTD too
 .feed-item-title {
   a {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.4rem;
+    display: inline-block;
+    margin: 0 auto;
   }
 }
+
+.feed-item-desc {
+  img {
+    display: block;
+    max-width: 100px;
+    height: auto;
+    margin: 1rem auto;
+  }
+}
+
+/*********** End RSS CSS **********/
 
 #outputSection a {
   color: var(--ThemeBGColorAccent);
@@ -78,6 +91,8 @@
     justify-content: space-evenly;
 
     a {
+      align-content: center;
+
       img {
         margin: 0 auto;
         padding: 10px 1.5rem;
@@ -89,4 +104,8 @@
       font-weight: 700;
     }
   }
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }

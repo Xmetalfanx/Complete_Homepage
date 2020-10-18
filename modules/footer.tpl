@@ -1,7 +1,7 @@
 
 
 <footer>
-  <div class="col d-block">Site made with:
+  <div class="site-made">Site made with:
     <!-- HTML 5-->
     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" aria-label="Mozilla Developer Site for HTML5" target="_blank" rel="noopener">
     <img src="/graphics/simpleIcons/darkBG/html5.svg" alt="HTML5 SVG">
@@ -16,7 +16,7 @@
     <!-- remember in the final output to put the two closing </div> tags for the new bodyContainer and the inner bodyMain, AFTER the end of the footer-->
   </div>
 
-  <div class="text-right col d-none d-lg-block">
+  <div class="contacts">
     <span class="pr-4 justify-content-end">Xmetal/Xmetalfanx 2013-*</span>
 
     <a href="https://gitlab.com/Xmetal" aria-label="Xmetalfanx Gitlab Page" target="_blank" rel="noopener">

@@ -40,33 +40,47 @@ body {
 header,
 footer {
   background-color: var(--themeBGColorMain);
+  display: grid;
+  // aligns content top vs bottom on the Y axis
+  align-content: center;
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
 
   a:hover {
     // testing/ideas
     outline: 1px dotted var(--white);
+    text-decoration: none;
   }
 }
 
 // problem is this extend is from something later on in theming
 footer {
   color: var(--white);
-  display: flex;
   grid-area: footer;
-  margin: 0;
   max-height: $footerheight;
   padding: 1.5rem;
-
-  a {
-    background-color: inherit;
-    color: var(--white);
-    text-decoration: none;
-  }
+  grid-template-areas: 'site-made contacts';
+  align-content: center;
 
   // I could slap other classes on each img tag, or do this ... sort of redundant CSS but it removes the need for extra css tags in the html
   img {
     max-width: 32px;
     max-height: 32px;
     margin: 0.4rem;
+  }
+
+  // left side of footer
+  .site-made {
+    grid-area: site-made;
+  }
+
+  // right side of footer
+  .contacts {
+    grid-area: contacts;
+    text-align: right;
   }
 }
 

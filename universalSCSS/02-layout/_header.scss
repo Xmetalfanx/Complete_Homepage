@@ -1,20 +1,13 @@
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   color: var(--white75);
-  display: grid;
   font-size: 30px;
   font-weight: 800;
   grid-area: header;
   grid-template-areas: 'nav-icon navigation';
-  grid-template-rows: 1fr;
   height: 75px;
-  padding: 1rem 1rem;
+  padding: 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
-
-  // ?? change to just "a" ?? would that work?
-  a {
-    color: var(--white);
-  }
 
   nav {
     grid-area: navigation;
@@ -42,7 +35,7 @@ header {
     grid-column: span 2;
   }
 
-  // for responsive menu 
+  // for responsive menu
   .topnav .icon {
     display: none;
   }

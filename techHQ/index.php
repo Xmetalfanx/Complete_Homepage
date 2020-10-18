@@ -9,7 +9,7 @@
 ?>
 
 <div id="EducationalSites" class="card d-none d-md-block">
-  <div class="card__header">Educational Sites</div>
+  <div class="card__header card__header--dark-bg">Educational Sites</div>
   <div class="card__body">
     <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
       <img class="d-none d-lg-block lazyload img-fluid" data-src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic">Khan Academy
