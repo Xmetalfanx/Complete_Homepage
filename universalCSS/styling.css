@@ -237,7 +237,7 @@ footer .contacts {
 /*********** Main Section in middle of page  *****/
 .main-section {
   grid-area: main-section;
-  padding: 0.5rem 0;
+  padding: 1.5rem;
   display: grid;
 }
 .main-section a {
@@ -509,8 +509,22 @@ dl li {
   }
 }
 .thumbnails {
-  max-width: 450px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.thumbnails--lg {
   max-height: 450px;
+}
+.thumbnails--sm {
+  max-height: 350px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 .list-group-item {

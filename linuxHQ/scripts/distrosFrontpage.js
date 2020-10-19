@@ -22,7 +22,7 @@ function displayDistroOutput(
   const currentDistroSShotOutput = `
 
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block lazyload thumbnails mx-auto shadow" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="d-none d-md-block lazyload thumbnails thumbnails--lg shadow" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 

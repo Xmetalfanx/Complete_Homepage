@@ -1,20 +1,20 @@
 
 <div class="card">
-  <div class="card-header">Browser</div>
-  <div class="card-body">
+  <div class="card__header card__header--dark-bg">Browser</div>
+  <div class="card__body">
     <a href="/techHQ/browsers/browserList.php">Browser List</a>
   </div>
 </div>
 
 <div class="card">
-  <div class="card-header">Browser Addons</div>
-  <div class="card-body">
+  <div class="card__header card__header--dark-bg">Browser Addons</div>
+  <div class="card__body">
     <a href="/techHQ/browsers/addons/browserAddons.php">Some Top Addons</a></div>
 </div>
 
 <div class="card">
-  <div class="card-header">Ad/Content Blocking</div>
-  <div class="card-body">
+  <div class="card__header card__header--dark-bg">Ad/Content Blocking</div>
+  <div class="card__body">
     <h5 class="bg-primary text-white">Basics</h5>
     <a href="/techHQ/browsers/adblocking/UblockTutorial.php">Ublock Tutorial</a><br/>
     <a href="/techHQ/browsers/adblocking/ublockDynamicFiltering.php">Static Filtering -vs- Dynamic Filtering</a>
