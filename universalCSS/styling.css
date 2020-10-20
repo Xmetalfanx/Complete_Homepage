@@ -508,6 +508,18 @@ dl li {
     font-size: 2rem;
   }
 }
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
 .thumbnails {
   margin: 1rem;
   padding: 1rem;
@@ -517,14 +529,6 @@ dl li {
 }
 .thumbnails--sm {
   max-height: 350px;
-}
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
 }
 
 .list-group-item {

@@ -1,16 +1,29 @@
 
 <div class="card">
-  <div class="card-header">New User Headquaters</div>
-  <div class="card-body"> 
-    <h4>FAQ&apos;s</h4><a href="/linuxHQ/tutorials/newUserHQ/WhatIsLinux.php">What is Linux?</a><br><a href="/linuxHQ/tutorials/newUserHQ/liveVersion.php">What is a &quot;Live Version&quot;?</a><br><a href="/linuxHQ/tutorials/newUserHQ/partitions.php">Partitions Explained</a><br><a href="/linuxHQ/tutorials/newUserHQ/commonTerms.php">Common Terms, in Linux</a><br><a href="/linuxHQ/tutorials/newUserHQ/familiarSoftware.php">Familiar Software</a><br>What is a &quot;Rolling Release&quot;?<br>Linux &quot;Myths&quot; /<br>Misconceptions<br>What does LTS mean?<br><a href="/linuxHQ/tutorials/newUserHQ/DesktopE.php">Desktop Environment FAQs</a><br><a href="/linuxHQ/tutorials/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion)</a>
+  <div class="card__header">New User Headquaters</div>
+  <div class="card__body"> 
+    <h4>FAQ&apos;s</h4>
+    <a href="/linuxHQ/tutorials/newUserHQ/WhatIsLinux.php">What is Linux?</a><br>
+    <a href="/linuxHQ/tutorials/newUserHQ/liveVersion.php">What is a &quot;Live Version&quot;?</a><br>
+    <a href="/linuxHQ/tutorials/newUserHQ/partitions.php">Partitions Explained</a><br>
+    <a href="/linuxHQ/tutorials/newUserHQ/commonTerms.php">Common Terms, in Linux</a><br>
+    <a href="/linuxHQ/tutorials/newUserHQ/familiarSoftware.php">Familiar Software</a><br>
+    What is a &quot;Rolling Release&quot;?<br>Linux &quot;Myths&quot; /<br>
+    Misconceptions<br>What does LTS mean?<br>
+    <a href="/linuxHQ/tutorials/newUserHQ/DesktopE.php">Desktop Environment FAQs</a><br>
+    <a href="/linuxHQ/tutorials/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion)</a>
   </div>
 </div>
+
 <div class="card">
-  <div class="card-header">Linux vs Windows</div>
-  <div class="card-body"><a href="/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php">MS Windows vs Linux - Pros and Cons </a><br><a href="/linuxHQ/tutorials/newUserHQ/linuxPros.php">Linux Pros </a><br><a href="/linuxHQ/tutorials/newUserHQ/linuxCons.php">Linux Cons </a></div>
+  <div class="card__header">Linux vs Windows</div>
+  <div class="card__body">
+  <a href="/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php">MS Windows vs Linux - Pros and Cons </a><br>
+  <a href="/linuxHQ/tutorials/newUserHQ/linuxPros.php">Linux Pros </a><br><a href="/linuxHQ/tutorials/newUserHQ/linuxCons.php">Linux Cons </a></div>
 </div>
+
 <div class="card"> 
-  <div class="card-header">Tutorials
+  <div class="card__header">Tutorials
     <h5>Overall </h5>How to Update any Linux System
     <h2>MORE ADVANCED TOPICS</h2>
     <h4>Arch Based Tutorials  </h4><a href="/linuxHQ/tutorials/addingAURtoArch.php ">Adding AUR Support </a><br><a href="/linuxHQ/tutorials/optimizingPacman.php"></a>

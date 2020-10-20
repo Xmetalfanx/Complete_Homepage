@@ -9,8 +9,8 @@
 
  <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
  
-  <div class="mainSection">
-    <div class="col-xs-12 col-md-2">
+  <div class="main-section">
+    <div class="sidebar col-xs-12 col-md-2">
         <?php include $path . '/linuxHQ/modules/sections/linuxTICCol1.tpl'; ?>
     </div>
 

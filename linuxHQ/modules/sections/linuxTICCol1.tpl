@@ -1,6 +1,6 @@
 
 <div class="card">
-  <div class="card-header bg-primary text-white">Theme PPAs</div>
+  <div class="card__header">Theme PPAs</div>
   <a href="/linuxHQ/tic/themes/adapta.php">Adapta</a>
   <a href="/linuxHQ/tic/themes/arc.php">Arc</a>
   <a href="/linuxHQ/tic/themes/minty.php"> (Linux) Mint-Y </a>
@@ -9,7 +9,7 @@
 </div>
 
 <div class="card">
-  <div class="card-header bg-primary text-white">Icons</div>
+  <div class="card__header">Icons</div>
   <a href="#">Evolvere</a>
   <a href="#">Faience</a>
   <a href="#">Faenza-Cupertino</a>
@@ -18,11 +18,11 @@
 </div>
 
 <div class="card">
-  <div class="card-header bg-primary text-white">Cursors</div>
+  <div class="card__header">Cursors</div>
 </div>
 
 <div class="card">
-  <div class="card-header bg-primary text-white">External Links</div>
+  <div class="card__header">External Links</div>
 
   <a href="https://www.deviantart.com/" target="_blank" aria-label="Deviant Art Site Link">
     <i class="fa fa-4x text-dark m-2 fa-deviantart" aria-hidden="true"></i>

@@ -7,7 +7,7 @@
 <body>
 <div >
 
-  <div class="mainSection">
+  <div class="main-section">
     <div class="col-xs-12 col-md-2">
       <?php include $path . '/linuxHQ/modules/sections/linuxTutorCol1.tpl'; ?>
     </div>
