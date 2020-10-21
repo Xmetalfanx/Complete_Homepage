@@ -14,8 +14,9 @@
     <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
       <img class="d-none d-lg-block lazyload img-fluid" data-src="/techHQ/graphics/khan-logo.png" alt="Khan Academy Graphic">Khan Academy
     </a>
-    <a href="https://linuxacademy.com/" target="_blank" rel="noreferrer" aria-label="Link to Linux Academy">
+    <a href="#" target="_blank" rel="noreferrer" aria-label="Link to Linux Academy">
       <img class="d-none d-lg-block lazyload img-fluid" data-src="/graphics/linuxAcademy.png" alt="Linux Academy Graphic">Linux Academy
+      <br />Acquired by "A Cloud Guru" - December 2019
     </a>
     <a href="https://www.digitalocean.com/community/" target="_blank" rel="noreferrer" aria-label="Link to Digital Ocean">
       <img class="d-none d-lg-block lazyload img-fluid"  data-src="/techHQ/graphics/digital-ocean.png" alt="Digital Ocean Graphic">Digital Ocean

@@ -3,15 +3,15 @@
 ?>
 
 <body onload="getDistroData()">
-  <div class="main-section">
   <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
-
-    <div class="sidebar col-xs-12 col-md-3 col-xl-2">
+  <div class="main-section main-section--right-wide">
+    <div class="sidebar">
       <?php include $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
-    <div class="pContent col-xs-12 col-md-9 col-xl-10 d-flex flex-wrap" id="distroSection" >
+    <div class="pContent d-flex flex-wrap" id="distroSection" >
 
     </div>
+  </div>
 
 <script src="/linuxHQ/scripts/distrosFrontpage.js"></script>
 

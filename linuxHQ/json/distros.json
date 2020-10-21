@@ -941,9 +941,9 @@
             "screenshots": {
                 "desktop": "Cinnamon",
                 "icon": "Mint-X",
-                "src": "mint.png",
+                "src": "cinnamonMint.png",
                 "theme": "Mint-X",
-                "thumbnails": "mint_tn.png"
+                "thumbnails": "cinnamonMint_tn.png"
             },
             "version": "18.x (based on Ubuntu 16.04)",
             "website": {

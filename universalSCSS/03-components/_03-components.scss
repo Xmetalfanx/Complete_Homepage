@@ -6,7 +6,8 @@
   margin: 0 auto 1.2rem auto;
 
   &--bordered {
-    border-color: var(--themeBGColorMain);
+    border: 1px solid var(--themeBGColorMain);
+  
   }
 
   .card__body,

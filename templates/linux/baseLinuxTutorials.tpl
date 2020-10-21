@@ -5,13 +5,12 @@
 
 ?>
 <body>
-    <div >
 
     <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
-    <div class="mainSection">
-      <div class="col-xs-12 col-md-3 col-xl-2">
+    <div class="main-section main-section--right-wide">
+      <div class="sidebar>
         <?php include $path . '/linuxHQ/modules/sections/linuxTutorCol1.tpl'; ?>
       </div>
 
-      <div class="col-xs-12 col-md-9 col-xl-10">
+      <div class="pContent">

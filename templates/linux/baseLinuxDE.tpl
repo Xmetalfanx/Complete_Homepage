@@ -3,14 +3,14 @@
 ?>
 
 <body onload="getDesktopData()">
-  <div >
+
   <?php require($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
-  <div class="mainSection">
-    <div class="col-xs-12 col-md-3 col-xl-2">
+  <div class="main-section main-section--right-wide">
+    <div class="sidebar">
       <?php require($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
     </div>
-    <div id="desktopSection" class="col-xs-12 col-md-9 col-xl-10" >
+    <div id="desktopSection" class="pContent" >
 
     </div>
   </div>

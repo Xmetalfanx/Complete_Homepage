@@ -22,35 +22,27 @@ function displayDistroOutput(
   const currentDistroSShotOutput = `
 
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block lazyload thumbnails thumbnails--lg shadow" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="d-none d-md-block lazyload thumbnails thumbnails--lg shadow img-fluid mx-auto" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 
   const currentDistroInfoOutput = `
 
-        <div class="card pb-3 align-self-start flex-fill">
-            <div class="card-header pl-2">
-                    <h4 class="font-weight-bold">
-                        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="iconSM mr-1"> ${currentDistroTitle}
-                    </h4>
-            </div>
+        <div class="card pb-3 w-33">
+          <div class="card-header pl-2">
+            <h4>
+                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon icon--size40"> ${currentDistroTitle}
+            </h4>
+          </div>
 
-            <div class="card-text p-2">
-                <div class="row">
-                    <div class="col d-md-inline">
-                        <span class="font-weight-bold">Homepage: </span>
-                            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>${currentDistroSShotOutput}
-                        </div>
+          <div class="card-body">
 
-                    </div>
+            <span class="font-weight-bold">Homepage: </span>
+            <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>${currentDistroSShotOutput}
 
-                    <br />
-                    <hr />
-
-                </div>
-            </div>
+            </div> <!-- closes card-body -->
+          </div> <!-- closes card -->
         </div>
-
         `;
 
   distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);

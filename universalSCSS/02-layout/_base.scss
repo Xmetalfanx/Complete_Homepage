@@ -91,6 +91,8 @@ footer {
   grid-area: main-section;
   padding: 1.5rem;
   display: grid;
+  // aligns to the left
+  justify-items: start;
 
   // this is a link color ON a whiteBG
   a {
@@ -106,12 +108,12 @@ footer {
 
   &--left-wide {
     grid-template-columns: auto 20%;
-    grid-template-areas: 'sidebar pContent';
+    grid-template-areas: 'pContent sidebar';
   }
 
   &--right-wide {
     grid-template-columns: 20% auto;
-    grid-template-areas: 'pContent sidebar';
+    grid-template-areas: 'sidebar pContent';
   }
 
   // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
@@ -120,10 +122,53 @@ footer {
     grid-template-areas: 'pContent';
   }
 
+  .sidebar {
+    img {
+      display: block;
+      margin: 1rem 0;
+      padding: 0;
+    }
+
+    .card {
+      .card__body {
+        line-height: 1.4rem;
+
+        // removes the need for so many <br /> tags
+        a {
+          display: block;
+        }
+      }
+    }
+  }
+
   // the main sections of each side of the site
   .primaryContent {
     grid-area: pContent;
     margin: 0 2rem;
     width: 90%;
+  }
+}
+
+@media all and (max-width: 794px) {
+  // the main section between the nav top bar and the footer
+  .main-section,
+  .main-section--left-wide,
+  .main-section--right-wide {
+    display: grid;
+    grid-template-areas:
+      'sidebar'
+      'pContent';
+
+    //grid-template-columns: 1fr;
+    //grid-template-rows: 1fr 1fr;
+
+    .sidebar {
+      grid-area: sidebar;
+    }
+
+    // the main sections of each side of the site
+    .primaryContent {
+      grid-area: pContent;
+    }
   }
 }
