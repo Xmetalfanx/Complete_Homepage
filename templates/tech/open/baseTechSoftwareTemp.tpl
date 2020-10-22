@@ -5,6 +5,8 @@
 	include($path .'/modules/tech/baseTechHead.tpl');
 
 ?>
+
+<!-- why is this up here? -->
 <script src="/techHQ/scripts/software.js"></script>
 
 <body onload="softwareData()">

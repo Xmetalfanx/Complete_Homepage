@@ -7,13 +7,12 @@
   padding: 1rem;
 
   &--lg {
-  max-height: 450px;
+    max-height: 450px;
   }
 
   &--sm {
     max-height: 350px;
   }
-
 }
 
 // ?? what is this for?
@@ -119,4 +118,27 @@
 
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+// Place in the "card" div
+.softwareCard {
+  .card__header {
+    align-items: center;
+    display: grid;
+    grid-template-areas: 'program-title platform';
+    justify-content: space-around;
+
+    img {
+      max-height: 48px;
+      padding: 10px;
+    }
+
+    .program-title {
+      grid-area: program-title;
+    }
+
+    .platform {
+      grid-area: platform;
+    }
+  }
 }

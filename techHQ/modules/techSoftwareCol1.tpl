@@ -1,11 +1,11 @@
 
 <div class="card">
-  <div class="card__header">
+  <div class="card__header card__header--dark-bg">
     <a href="/techHQ/software/softwareIndex.php">Software Home:</a>
     </div>
   </div>
   <div class="card">
-    <div class="card__header">Graphics</div>
+    <div class="card__header card__header--dark-bg">Graphics</div>
     <div class="card__body">
       <a href="/techHQ/software/graphics/editors.php">Editors</a>
       <a href="/techHQ/software/graphics/optimizers.php">Optimizers</a>
@@ -13,13 +13,13 @@
     </div>
   </div>
   <div class="card">
-    <div class="card__header">Internet-Related</div>
+    <div class="card__header card__header--dark-bg">Internet-Related</div>
     <div class="card__body">
       <a href="/techHQ/software/internet/browsers.php"> Web Browser</a>
       </div>
   </div>
   <div class="card">
-    <div class="card__header">Multimedia</div>
+    <div class="card__header card__header--dark-bg">Multimedia</div>
     <div class="card__body">
       <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players <em>Audio</em></a>
       <a href="/techHQ/software/multimedia/media_players_video.php">Media Players <em>Video</em></a>
@@ -28,7 +28,7 @@
     </div>
   </div>
   <div class="card">
-    <div class="card__header">Office/Productivity</div>
+    <div class="card__header card__header--dark-bg">Office/Productivity</div>
     <div class="card__body">
       <a href="/techHQ/software/product/coding.php">Coding</a>
       <a href="/techHQ/software/product/office.php">Office Suites</a>
@@ -38,7 +38,7 @@
     </div>
   </div>
   <div class="card">
-    <div class="card__header">Security Related</div>
+    <div class="card__header card__header--dark-bg">Security Related</div>
     <div class="card__body">
       <a href="/techHQ/software/security/virusANDMalwareScanners.php">Antivirus and Antimalware</a>
       <a href="/techHQ/software/security/cleaners.php">System Cleaners</a>
@@ -46,7 +46,7 @@
     </div>
   </div>
   <div class="card">
-    <div class="card__header">System Tools</div>
+    <div class="card__header card__header--dark-bg">System Tools</div>
     <div class="card__body">
       <a href="/techHQ/software/sTools/archivers.php">Archivers</a><br/>
       <a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a>
@@ -58,16 +58,16 @@
     </div>
 </div>
 <div class="card d-none d-md-block">
-  <div class="card__header">External Links</div>
+  <div class="card__header card__header--dark-bg">External Links</div>
     <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
     <img class="lazyload" src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link"></a>
-    
+
     <a href="http://www.snapfiles.com" target="_blank" rel="noreferrer">
     <img class="lazyload" src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles graphic/link"></a>
-  
+
     <a href="http://www.softpedia.com" target="_blank" rel="noreferrer">
     <img class="lazyload" src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic/link" style="width: 175px; height: 32px;"></a>
-    
+
     <a href="http://www.neowin.net/">NeoWin</a><br/>
-    
+
 </div>

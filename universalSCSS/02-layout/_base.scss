@@ -91,6 +91,9 @@ footer {
   grid-area: main-section;
   padding: 1.5rem;
   display: grid;
+
+  grid-gap: 1.5rem;
+
   // aligns to the left
   justify-items: start;
 
@@ -107,12 +110,12 @@ footer {
   }
 
   &--left-wide {
-    grid-template-columns: auto 20%;
+    grid-template-columns: auto 18%;
     grid-template-areas: 'pContent sidebar';
   }
 
   &--right-wide {
-    grid-template-columns: 20% auto;
+    grid-template-columns: 18% auto;
     grid-template-areas: 'sidebar pContent';
   }
 

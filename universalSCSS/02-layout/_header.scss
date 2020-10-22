@@ -5,6 +5,7 @@ header {
   font-weight: 800;
   grid-area: header;
   grid-template-areas: 'nav-icon navigation';
+  grid-template-columns: 1fr 1fr;
   height: 75px;
   padding: 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
@@ -13,7 +14,7 @@ header {
     grid-area: navigation;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-self: end;
     font-size: 22px;
     font-weight: 500;
 
@@ -29,7 +30,7 @@ header {
   }
 
   // only for frontpage
-  // grid-column: to center across vw ;
+  // grid-column: to center across vw ...otherwise the main title would only center to 25% of the total width;
   .frontpage-title {
     text-align: center;
     grid-column: span 2;
