@@ -102,13 +102,6 @@ footer {
     color: var(--midnightBlue);
   }
 
-  // ... why is this here? ...
-  // this is likely going to be removed
-  .card__header {
-    color: var(--themeBGColorAccent);
-    padding: 1rem;
-  }
-
   &--left-wide {
     grid-template-columns: auto 18%;
     grid-template-areas: 'pContent sidebar';
@@ -123,6 +116,41 @@ footer {
   &--wide {
     grid-template-columns: 1fr;
     grid-template-areas: 'pContent';
+  }
+
+  /************** Cards *************/
+  .card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin: 0 auto 1.2rem auto;
+
+    &--bordered {
+      border: 1px solid var(--themeBGColorMain);
+    }
+
+    .card__body,
+    .card__text {
+      padding: 1rem;
+    }
+
+    .card__header {
+      border-color: var(--themeBGColorMain);
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: var(--themeBGColorAccent);
+      padding: 1rem;
+
+      &--dark-bg {
+        background-color: var(--themeBGColorMain);
+        color: var(--white);
+      }
+
+      a:link,
+      a:visited {
+        background-color: inherit;
+        color: var(--white);
+        text-decoration: none;
+      }
+    }
   }
 
   .sidebar {

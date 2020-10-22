@@ -42,6 +42,11 @@
   }
 }
 
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
 /************** RSS Feed *************/
 // For GAOTD too
 .feed-item-title {
@@ -87,6 +92,29 @@
   }
 }
 
+// Place in the "card" div
+.softwareCard {
+  .card__header {
+    align-items: center;
+    display: grid;
+    grid-template-areas: 'program-title platform';
+    justify-content: space-around;
+
+    img {
+      max-height: 48px;
+      padding: 10px;
+    }
+
+    .program-title {
+      grid-area: program-title;
+    }
+
+    .platform {
+      grid-area: platform;
+    }
+  }
+}
+
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
 #EducationalSites {
@@ -116,29 +144,4 @@
   }
 }
 
-.shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-}
 
-// Place in the "card" div
-.softwareCard {
-  .card__header {
-    align-items: center;
-    display: grid;
-    grid-template-areas: 'program-title platform';
-    justify-content: space-around;
-
-    img {
-      max-height: 48px;
-      padding: 10px;
-    }
-
-    .program-title {
-      grid-area: program-title;
-    }
-
-    .platform {
-      grid-area: platform;
-    }
-  }
-}

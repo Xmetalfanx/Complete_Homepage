@@ -1,38 +1,5 @@
 @import '../02-layout/02-layoutInclude';
 
-/************** Cards *************/
-.card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  margin: 0 auto 1.2rem auto;
-
-  &--bordered {
-    border: 1px solid var(--themeBGColorMain);
-  
-  }
-
-  .card__body,
-  .card__text {
-    padding: 1rem;
-  }
-
-  .card__header {
-    border-color: var(--themeBGColorMain);
-    font-weight: bold;
-    font-size: 1.1rem;
-
-    &--dark-bg {
-      background-color: var(--themeBGColorMain);
-      color: var(--white);
-    }
-
-    a:link,
-    a:visited {
-      background-color: inherit;
-      color: var(--white);
-      text-decoration: none;
-    }
-  }
-}
 
 /***************** Random ****************/
 code {

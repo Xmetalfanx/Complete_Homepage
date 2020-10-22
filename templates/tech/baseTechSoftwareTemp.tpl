@@ -7,7 +7,6 @@
 ?>
 
 <body onload="softwareData()">
-	<div >
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
 			<div class="main-section main-section--right-wide">
