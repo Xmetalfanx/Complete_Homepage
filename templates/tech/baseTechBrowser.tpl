@@ -6,15 +6,15 @@
 ?>
 
 <body onload="browserData()">
-    <div >
+  
       <?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
       
-      <div class="main-section">
-        <div class="sidebar col-xs-12 col-md-3 col-xl-2">
+      <div class="main-section main-section--right-wide">
+        <div class="sidebar">
           <?php include $path . '/techHQ/modules/techBrowsersCol1.tpl'; ?>
         </div>
 
-        <div id="browserSection" class="pContent col-xs-12 col-md-9 col-xl-10">
+        <div id="browserSection" class="pContent">
 
         </div>
       </div>

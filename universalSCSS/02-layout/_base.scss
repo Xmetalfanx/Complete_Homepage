@@ -134,21 +134,40 @@ footer {
 
     .card__header {
       border-color: var(--themeBGColorMain);
+      color: var(--themeBGColorAccent);
+      display: flex;
+      flex-direction: row;
       font-weight: bold;
       font-size: 1.1rem;
-      color: var(--themeBGColorAccent);
+      justify-content: space-between;
       padding: 1rem;
-
-      &--dark-bg {
-        background-color: var(--themeBGColorMain);
-        color: var(--white);
-      }
-
+      
       a:link,
       a:visited {
         background-color: inherit;
         color: var(--white);
         text-decoration: none;
+      }
+
+      // Dark BG for header, and light text
+      &--dark-bg {
+        background-color: var(--themeBGColorMain);
+        color: var(--white);
+
+        // The program or addon or whatever header on the left of what use to be two col (+ float) layout for
+        // the card header
+
+        // not a fan of this var name but i dont want name collosion with "card-title" which is the var i rather use
+        .card-name {
+          font-size: 24px;
+          font-weight: 700;
+        }
+
+        // for a number of different sections - this here does seem oddly specific but hopefully, it cuts down on code
+        // elsewhere
+        .version,
+        .platform {
+        }
       }
     }
   }

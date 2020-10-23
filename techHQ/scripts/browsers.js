@@ -18,8 +18,8 @@ function browserData(data) {
 
         // Get JSON Data
         $.getJSON(browserJSONUrl, function(data) {
-            
-            // Output = all of the json, i think 
+
+            // Output = all of the json, i think
             //let dataString = JSON.stringify(data);
             //  console.log(dataString);
 
@@ -67,18 +67,18 @@ function browserData(data) {
 
                     const browserOutput = `
 
-                    <div class="card m-4 shadow">
-                        <div class="card-header">
-                            <div class="col-6 float-left">
+                    <div class="card m-4">
+                        <div class="card__header card__header--dark-bg">
+                            <div class="card-name">
                                 <a href="${browserHomepage}" blank="_blank">
-                                    <img src="${browserIconsDir}${browserIcon}" class="graphicsfortyeight lazyload" /> ${browserTitle}</a>
+                                    <img data-src="${browserIconsDir}${browserIcon}" class="icon icon--size40 lazyload" /> ${browserTitle}</a>
                             </div>
-                            <div class="col-4 float-right">
+                            <div class="version">
                                 Version: ${browserVersion}
                             </div>
                         </div>
 
-                        <div class="card-body text-justify">
+                        <div class="card__body">
                             <div class="float-left">
                                 <span class="font-weight-bold">Platform(s): </span> ${browserPlatforms}
                             </div>
@@ -87,7 +87,7 @@ function browserData(data) {
                                 Browser Engine:
                                 </span>
                                 (TODO later)
-                                
+
                             </div>
 
                             <br /><br />
