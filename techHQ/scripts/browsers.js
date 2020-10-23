@@ -73,22 +73,14 @@ function browserData(data) {
                                 <a href="${browserHomepage}" blank="_blank">
                                     <img data-src="${browserIconsDir}${browserIcon}" class="icon icon--size40 lazyload" /> ${browserTitle}</a>
                             </div>
-                            <div class="version">
-                                Version: ${browserVersion}
+                            <div class="platform">
+                                Platform(s): ${browserPlatforms}
                             </div>
                         </div>
 
                         <div class="card__body">
-                            <div class="float-left">
-                                <span class="font-weight-bold">Platform(s): </span> ${browserPlatforms}
-                            </div>
-                            <div class="float-right">
-                                <span class="font-weight-bold">
-                                Browser Engine:
-                                </span>
-                                (TODO later)
-
-                            </div>
+                         
+                            <span class="font-weight-bold"> Browser Engine:</span> (TODO later)
 
                             <br /><br />
                             <a href="${browserDownload} " target+"blank"> Download Page</a>
