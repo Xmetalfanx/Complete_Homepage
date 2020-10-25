@@ -7,15 +7,14 @@
 ?>
 
 <body onload="getDesktopData()">
-  <div >
 
     <?php include ($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
-    <div class="main-section">
-      <div class="sidebar col-xm-12 col-md-2">
+    <div class="main-section main-section--right-wide">
+      <div class="sidebar">
         <?php include($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
       </div>
-      <div class="pContent col-xs-12 col-md-9 col-xl-10 d-flex justify-content-between flex-wrap" id="desktopSection">
+      <div class="primaryContent" id="desktopSection">
 
       </div>
     </div>

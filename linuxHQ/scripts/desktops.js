@@ -1,5 +1,5 @@
-var desktopResults = document.getElementById("desktopSection");
-var screenshotDIR = "/linuxHQ/screenshots/";
+var desktopResults = document.getElementById('desktopSection');
+var screenshotDIR = '/linuxHQ/screenshots/';
 
 function displayDEOutput(
   currentDEName,
@@ -18,18 +18,15 @@ function displayDEOutput(
   currentDEF28Version,
   currentDEF29Version,
   currentDEFRWVersion,
-  currentDESuseL423Version,
   currentDESuseL15Version,
   currentDESuseTWVersion,
   currentDE1604LTSVer,
   currentDE1804LTSVer,
-  currentDEMint173Version,
   currentDEMint18Version,
   currentDEMint19Version,
   currentDEarchInstall,
   currentDEfedoraInstall,
   currentDEopensuseInstall,
-  currentDEopensuseLeap423Install,
   currentDEopensuseLeap15Install,
   currentDEopensuseTWInstall,
   currentDEubuntuInstall,
@@ -37,7 +34,7 @@ function displayDEOutput(
 ) {
   // Template Literal for output
 
-  // used INSIDE the tabs below and not seperately
+  // used INSIDE the tabs below and not separately
   const deVersionsOutput = `
 
 
@@ -74,9 +71,6 @@ function displayDEOutput(
                 <div class="col">
                     <span class="font-weight-bold">openSUSE</span>
                     <br/>
-                    <span class="font-italic">OpenSUSE 42.3: </span>
-                    <span class="text-right"> ${currentDESuseL423Version}</span>
-                    <br/>
                     <span class="font-italic">OpenSUSE 15: </span>
                     <span class="text-right"> ${currentDESuseL15Version}</span>
                     <br/>
@@ -99,8 +93,6 @@ function displayDEOutput(
                     <span class="font-italic">Ubuntu 18.04 LTS: </span>
                     <span class="text-right">${currentDE1804LTSVer}</span>
                     <br/>
-                    <span class="font-italic">Ubuntu 18.10:</span>
-                    <span class="text-right"> </span>
                 </div>
 
                 <div class="col">
@@ -138,7 +130,7 @@ function displayDEOutput(
 
       </div>
 
-   
+
     <div class="card">
       <div class="card-header" id="headingFedora">
         <h2 class="mb-0">
@@ -149,7 +141,7 @@ function displayDEOutput(
       </div>
       <div id="collapseFedora" class="collapse" aria-labelledby="headingFedora" data-parent="#accordionExample">
         <div class="card-body">
-            Filler Text 
+            Filler Text
         </div>
       </div>
     </div>
@@ -157,13 +149,13 @@ function displayDEOutput(
       <div class="card-header" id="headingOpenSuse">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOpenSuse" aria-expanded="false" aria-controls="collapseOpenSuse">
-            OpenSuse 
+            OpenSuse
           </button>
         </h2>
       </div>
       <div id="collapseOpenSuse" class="collapse" aria-labelledby="headingOpenSuse" data-parent="#accordionExample">
         <div class="card-body">
-      
+
         <div class="font-weight-bold">OpenSUSE: </div>
         <div class="font-italic">${currentDEopensuseInstall}</div>
         <br />
@@ -181,7 +173,7 @@ function displayDEOutput(
             <li class="font-weight-bold">Tumbleweed</li>
                 <code class="my-3 p-2">${currentDEopensuseTWInstall}</code>
         </ul>
-        </div> 
+        </div>
       </div>
       <div class="card">
       <div class="card-header" id="headingUbuntu">
@@ -267,8 +259,8 @@ function displayDEOutput(
             `;
 
   // Main output
-  console.log("currentDEScreenshot: " + currentDEScreenshot);
-  desktopResults.insertAdjacentHTML("beforeend", deInfoCard);
+  console.log('currentDEScreenshot: ' + currentDEScreenshot);
+  desktopResults.insertAdjacentHTML('beforeend', deInfoCard);
 }
 
 ////////////////////////////////////////////////////////////////////
@@ -276,13 +268,13 @@ function displayDEOutput(
 
 // Where is "data" coming from?
 function getDesktopData(data, $localDEName) {
-  $(document).ready(function() {
-    jsonURL = "/linuxHQ/json/desktops.json";
+  $(document).ready(function () {
+    jsonURL = '/linuxHQ/json/desktops.json';
 
     // Get JSON Data
-    $.getJSON(jsonURL, function(data) {
+    $.getJSON(jsonURL, function (data) {
       // For each key value
-      $.each(data, function(key, value) {
+      $.each(data, function (key, value) {
         // The key is 'gtk2' or 'qt'
 
         var currentFramework = key;

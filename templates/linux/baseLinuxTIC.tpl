@@ -6,16 +6,15 @@
 
 ?>
 <body onload="getTICData()">
-    <div >
 
     <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
         <div class="mainSection">
-            <div class="col-xs-12 col-md-3 col-xl-2">
+            <div class="sidebar">
                 <?php include $path . '/linuxHQ/modules/sections/linuxTICCol1.tpl'; ?>
             </div>
 
-            <div id="TICSection" class="col-xs-12 col-md-9 col-xl-10">
+            <div id="TICSection" class="primaryContent">
             
             </div>
 

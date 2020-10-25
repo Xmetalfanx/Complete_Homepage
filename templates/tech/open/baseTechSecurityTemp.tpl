@@ -15,4 +15,4 @@
           <?php include $path . '/techHQ/modules/techSecurityCol1.tpl'; ?>
         </div>
 
-        <div class="pContent">
+        <div class="primaryContent">

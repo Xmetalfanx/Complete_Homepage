@@ -10,11 +10,11 @@
 		<?php include $path . '/modules/tech/techHQNavMenus.tpl'; ?>
 
 		<div class="main-section">
-			<div class="col-xs-12 col-md-3 col-xl-2">
+			<div class="sidebar">
 				<?php include $path .'/techHQ/modules/techCenterCol1.tpl'; ?>
 			</div>
 
-			<div class="col-xs-12 col-md-9 col-xl-10">
+			<div class="primaryContent">
 
 			</div>
 

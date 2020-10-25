@@ -1,9 +1,9 @@
 
 <div >
   <div class="main-section main-section--right-wide">
-    <div class="sidebar col-xs-12 col-md-3 col-xl-2">
+    <div class="sidebar">
       <?php include $path . '/techHQ/modules/techSecurityCol1.tpl'; ?>
     </div>
-    <div class="pContent col-xs-12 col-md-9 col-xl-10"> </div>
+    <div class="primaryContent"> </div>
   </div>
 </div>

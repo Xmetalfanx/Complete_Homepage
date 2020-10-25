@@ -16,7 +16,7 @@
 				</div>
 
 
-				<div id="outputSection" class="pContent">
+				<div id="outputSection" class="primaryContent">
 				</div>
 			</div>
 

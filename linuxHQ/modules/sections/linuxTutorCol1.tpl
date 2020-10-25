@@ -19,19 +19,25 @@
   <div class="card__header">Linux vs Windows</div>
   <div class="card__body">
   <a href="/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php">MS Windows vs Linux - Pros and Cons </a><br>
-  <a href="/linuxHQ/tutorials/newUserHQ/linuxPros.php">Linux Pros </a><br><a href="/linuxHQ/tutorials/newUserHQ/linuxCons.php">Linux Cons </a></div>
+  <a href="/linuxHQ/tutorials/newUserHQ/linuxPros.php">Linux Pros </a><br>
+  <a href="/linuxHQ/tutorials/newUserHQ/linuxCons.php">Linux Cons </a></div>
 </div>
 
 <div class="card"> 
-  <div class="card__header">Tutorials
+  <div class="card__header">Tutorials</div>
     <h5>Overall </h5>How to Update any Linux System
     <h2>MORE ADVANCED TOPICS</h2>
-    <h4>Arch Based Tutorials  </h4><a href="/linuxHQ/tutorials/addingAURtoArch.php ">Adding AUR Support </a><br><a href="/linuxHQ/tutorials/optimizingPacman.php"></a>
+    <h4>Arch Based Tutorials  </h4>
+    <a href="/linuxHQ/tutorials/addingAURtoArch.php ">Adding AUR Support </a><br>
+    <a href="/linuxHQ/tutorials/optimizingPacman.php"></a>
     Optimizing Pacman
     (Manjaro or Arch)<br>
-    <h4>Debian based    </h4><a href="http://debgen.simplylinux.ch/" target="_blank">Source List Generator</a><br><a href="https://sites.google.com/site/mydebiansourceslist" target="_blank">Additional Sources</a><br><a href="upgradingDebianBranches.php">Upgrading Debian Branches</a><br>
+    <h4>Debian based    </h4>
+    <a href="http://debgen.simplylinux.ch/" target="_blank">Source List Generator</a><br>
+    <a href="https://sites.google.com/site/mydebiansourceslist" target="_blank">Additional Sources</a><br>
+    <a href="upgradingDebianBranches.php">Upgrading Debian Branches</a><br>
     Ubuntu based    
     &quot;Dirty&quot; Upgrading
     <h4>Command Line Package Management</h4>Searching for Package<br>Installing Package
-  </div>
+  
 </div>

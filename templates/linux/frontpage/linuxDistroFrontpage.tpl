@@ -8,7 +8,7 @@
     <div class="sidebar">
       <?php include $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
-    <div class="pContent d-flex flex-wrap" id="distroSection" >
+    <div class="primaryContent" id="distroSection" >
 
     </div>
   </div>

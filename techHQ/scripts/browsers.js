@@ -64,7 +64,6 @@ function browserData(data) {
                     const browserPlatforms = moreInfo.platforms;
                     const browserDescription = moreInfo.description;
 
-
                     const browserOutput = `
 
                     <div class="card m-4">

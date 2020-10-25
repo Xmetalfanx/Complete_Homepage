@@ -13,4 +13,4 @@
         <?php include $path . '/linuxHQ/modules/sections/linuxTutorCol1.tpl'; ?>
       </div>
 
-      <div class="pContent">
+      <div class="primaryContent">

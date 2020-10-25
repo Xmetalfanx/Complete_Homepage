@@ -1,0 +1,1 @@
+note to self:  the way I fixed the 503 error in Solus Linux last time related to Apache is via " sudo systemctl restart php-fpm"  (or maybe start would work ... It happened to me before but I forgot what I did last time before tonight's issue

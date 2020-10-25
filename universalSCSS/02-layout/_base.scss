@@ -91,6 +91,7 @@ footer {
   grid-area: main-section;
   padding: 1.5rem;
   display: grid;
+  justify-items: start;
 
   grid-gap: 1.5rem;
 
@@ -158,7 +159,8 @@ footer {
         // the card header
 
         // not a fan of this var name but i dont want name collosion with "card-title" which is the var i rather use
-        .card-name {
+        .card-name,
+        .addon-title {
           font-size: 24px;
           font-weight: 700;
         }
@@ -167,6 +169,7 @@ footer {
         // elsewhere
         .version,
         .platform {
+        
         }
       }
     }
@@ -180,6 +183,8 @@ footer {
     }
 
     .card {
+      width: 80%;
+
       .card__body {
         line-height: 1.4rem;
 

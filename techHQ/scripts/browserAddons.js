@@ -66,30 +66,24 @@ function browserAddonData(data) {
 
                         const browserOutput = `
                         
-                            <div class="card shadow my-3">
-                                <div class="card-header"> 
-                                    <div class="row"> 
-                                        <div class="col-auto">
-                                            <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \"  class="iconSM"/>
-                                        </div>
-                                        <div class="col-auto">${addonTitle}</div>
+                            <div class="card">
+                                <div class="card__header card__header--dark-bg"> 
+                                    <div class="addon-title">
+                                        <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon icon--size40"/>${addonTitle}
+                                    </div>
+                                    <div class="platform">
+                                        <a href="${chromeURL}" target="_blank">
+                                            <img src=\"${browserIconDir}${chromeIcon}\" alt=\"${addonTitle} Chrome icon\" class=\" icon icon--size40\" />
+                                        </a>
+
+                                           <a href="${firefoxURL}" target="_blank">
+                                            <img src=\"${browserIconDir}${firefoxIcon}\" alt=\"${addonTitle} Firefox icon\" class=\" icon icon--size40\" />
+                                            </a>
+                                    
                                     </div>
                                 </div>
-                                <div class="card-body">
+                                <div class="card__body">
                                     <div>description here, perhaps</div>
-                                    <div class="row py-3">
-                                        <div class="col">
-                                            <a href="${chromeURL}" target="_blank">
-                                                <img src=\"${browserIconDir}${chromeIcon}\" alt=\"${addonTitle} Chrome icon\" class=\" iconLG\" />
-
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a href="${firefoxURL}" target="_blank">
-                                            <img src=\"${browserIconDir}${firefoxIcon}\" alt=\"${addonTitle} Firefox icon\" class=\" iconLG\" />
-                                            </a>
-                                        </div>
-                                    </div>
 
                                 </div>
                             </div>

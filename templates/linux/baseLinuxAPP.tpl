@@ -7,7 +7,7 @@
 
 ?>
 <body>
-<div >
+
 
   <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 

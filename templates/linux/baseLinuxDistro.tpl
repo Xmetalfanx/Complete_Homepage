@@ -15,7 +15,7 @@
     <div class="sidebar">
       <?php require $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>
-    <div id="distroSection" class="pContent">
+    <div id="distroSection" class="primaryContent">
 
     </div>
   </div>
