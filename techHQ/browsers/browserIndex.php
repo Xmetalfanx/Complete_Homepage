@@ -1,12 +1,11 @@
 <?php
 
 	 $pageTitle = 'Browser Section Frontpage';
-	 
+
 	 $path = getenv('DOCUMENT_ROOT');
 	 include $path . "/templates/tech/open/baseTechBrowser.tpl";
 ?>
 
-	 
 
 <h2>Browser Section Intro</h2>
 <div class="py-3">

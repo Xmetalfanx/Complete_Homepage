@@ -1,4 +1,3 @@
-<!-- clearfix is bootstrap -->
 <div class="card card--bordered d-none d-md-block w-50 clearfix">
   <div class="card__header">OMGUbuntu Headlines</div>
   <div class="card__text">
