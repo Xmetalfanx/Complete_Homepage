@@ -126,6 +126,7 @@ footer {
   .card {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     margin: 0 auto 1.2rem auto;
+    max-height: 550px;
 
     &--bordered {
       border: 1px solid var(--themeBGColorMain);
@@ -167,7 +168,6 @@ footer {
           font-size: 24px;
           font-weight: 700;
         }
-
       }
     }
   }
@@ -182,7 +182,7 @@ footer {
     .card {
       width: 80%;
 
-      .card__header{
+      .card__header {
         padding: 20px;
       }
 
