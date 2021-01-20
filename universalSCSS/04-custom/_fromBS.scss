@@ -7,8 +7,7 @@
   float: right;
 }
 
-.clearfix
-{
+.clearfix {
   clear: both;
 }
 
@@ -16,7 +15,16 @@
   margin: 0 auto;
 }
 
-// not sure i need this but ... i will code it 
+// not sure i need this but ... i will code it
 .my-auto {
   margin: auto 0;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }

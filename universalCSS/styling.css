@@ -590,8 +590,16 @@ dl li {
   margin: auto 0;
 }
 
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .thumbnails {
-  margin: 1rem;
   padding: 1rem;
 }
 .thumbnails--lg {

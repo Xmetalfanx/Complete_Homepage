@@ -3,7 +3,10 @@
 
 // ?? are "Thumbnails" in bootstrap?
 .thumbnails {
-  margin: 1rem;
+  // commented out to use mx-auto with this class but leave this here for now in case other parts of site
+  // mess up
+  //margin: 1rem;
+
   padding: 1rem;
 
   &--lg {
