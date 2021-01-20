@@ -1,8 +1,8 @@
 // var for where to put the output
-var distroResults = document.getElementById("distroSection");
+var distroResults = document.getElementById('linuxFrontPrimaryContent');
 
-var myPage = "/linuxHQ/distro/";
-var distroGraphics = "/linuxHQ/graphics/distros/";
+var myPage = '/linuxHQ/distro/';
+var distroGraphics = '/linuxHQ/graphics/distros/';
 
 function displayDistroOutput(
   currentDistroFamily,
@@ -14,8 +14,8 @@ function displayDistroOutput(
   currentDistroScreenshotTN
 ) {
   // Screenshot vars
-  var distroSShotPath = "/linuxHQ/screenshots/" + currentDistroFamily + "/";
-  var distroSShotTNPath = distroSShotPath + "thumbnails/";
+  var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
+  var distroSShotTNPath = distroSShotPath + 'thumbnails/';
 
   // Template Literal for output
 
@@ -45,16 +45,16 @@ function displayDistroOutput(
         </div>
         `;
 
-  distroResults.insertAdjacentHTML("beforeend", currentDistroInfoOutput);
+  distroResults.insertAdjacentHTML('beforeend', currentDistroInfoOutput);
 }
 
 // "main" function
 function getDistroData(data, $localDistroName) {
-  jsonURL = "/linuxHQ/json/distros.json";
+  jsonURL = '/linuxHQ/json/distros.json';
 
   // Get JSON Data
-  $.getJSON(jsonURL, function(data) {
-    $.each(data, function(key, value) {
+  $.getJSON(jsonURL, function (data) {
+    $.each(data, function (key, value) {
       for (var distroFamily = 0; distroFamily < value.length; distroFamily++) {
         //////////////////////////////////////////////////////////////////////////
         // DECLARE VARIABLES
@@ -78,7 +78,7 @@ function getDistroData(data, $localDistroName) {
 
         var currentDistroFeatured = value[distroFamily].moreinfo.featured;
 
-        if (currentDistroFeatured == "yes") {
+        if (currentDistroFeatured == 'yes') {
           displayDistroOutput(
             currentDistroFamily,
             currentDistroName,

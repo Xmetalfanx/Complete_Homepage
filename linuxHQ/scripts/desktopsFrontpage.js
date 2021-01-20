@@ -1,4 +1,4 @@
-let desktopResults = document.getElementById('desktopSection');
+let desktopResults = document.getElementById('linuxFrontPrimaryContent');
 let screenshotDIR = '/linuxHQ/screenshots/';
 
 function displayDEOutput(

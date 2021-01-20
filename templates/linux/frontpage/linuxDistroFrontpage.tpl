@@ -8,7 +8,11 @@
     <div class="sidebar">
       <?php include $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
-    <div class="primaryContent" id="distroSection" >
+
+    <!-- flex stuff here to keep layout working -->
+    <!-- id=linuxFrontPrimaryContent, is used in JS files to display content -->
+
+    <div class="primaryContent d-flex flex-wrap" id="linuxFrontPrimaryContent" >
 
     </div>
   </div>
