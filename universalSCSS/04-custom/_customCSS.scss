@@ -46,7 +46,6 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-
 /************** RSS Feed *************/
 // For GAOTD too
 .feed-item-title {
@@ -115,6 +114,13 @@
   }
 }
 
+// For Distro and Desktop Frontpages on the LinuxHQ side of the site
+#linuxFrontPrimaryContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
 #EducationalSites {
@@ -143,5 +149,3 @@
     }
   }
 }
-
-

@@ -679,6 +679,12 @@ dl li {
   grid-area: platform;
 }
 
+#linuxFrontPrimaryContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
 #EducationalSites {
   justify-content: space-around;
   margin-bottom: 0 auto 25px auto;

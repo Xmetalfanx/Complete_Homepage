@@ -12,7 +12,7 @@
     <!-- flex stuff here to keep layout working -->
     <!-- id=linuxFrontPrimaryContent, is used in JS files to display content -->
 
-    <div class="primaryContent d-flex flex-wrap" id="linuxFrontPrimaryContent" >
+    <div class="primaryContent" id="linuxFrontPrimaryContent" >
 
     </div>
   </div>
