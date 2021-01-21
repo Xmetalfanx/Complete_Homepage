@@ -1,7 +1,6 @@
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
 
-// ?? are "Thumbnails" in bootstrap?
 .thumbnails {
   // commented out to use mx-auto with this class but leave this here for now in case other parts of site
   // mess up
@@ -122,6 +121,26 @@
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+
+  .card {
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 794px) {
+  .sidebar {
+    .card {
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  #linuxFrontPrimaryContent {
+    .card {
+      min-width: 300px;
+      padding: 1rem;
+    }
+  }
 }
 
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html

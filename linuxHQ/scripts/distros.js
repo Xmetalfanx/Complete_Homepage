@@ -1,5 +1,5 @@
 // let for where to put the output
-let distroResults = document.getElementById ('distroSection');
+let distroResults = document.getElementById('linuxFrontPrimaryContent');
 
 let myPage = '/linuxHQ/distro/';
 let DWPage = 'https://distrowatch.com/';
@@ -7,7 +7,7 @@ let distroGraphics = '/linuxHQ/graphics/distros/';
 let YTPLBase = 'https://www.youtube.com/playlist?list=';
 let YTPLEmbeddedBase = 'https://www.youtube.com/embed/videoseries?list=';
 
-function displayDistroOutput (
+function displayDistroOutput(
   currentDistroFamily,
   currentDistroName,
   currentDistroIcon,
@@ -72,10 +72,10 @@ function displayDistroOutput (
 
         <div class="card mx-3 shadow">
             <div class="card-header m-0">
-            
+
               <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="float-left pr-2 iconLG">
                   <h2 class="font-weight-bold">${currentDistroTitle}</h2>
-    
+
             </div>
 
             <div class="card-body">
@@ -120,16 +120,16 @@ function displayDistroOutput (
         </div>
         `;
 
-  distroResults.insertAdjacentHTML ('beforeend', currentDistroInfoOutput);
+  distroResults.insertAdjacentHTML('beforeend', currentDistroInfoOutput);
 }
 
 // "main" function
-function getDistroData (data, $localDistroName) {
+function getDistroData(data, $localDistroName) {
   jsonURL = '/linuxHQ/json/distros.json';
 
   // Get JSON Data
-  $.getJSON (jsonURL, function (data) {
-    $.each (data, function (key, value) {
+  $.getJSON(jsonURL, function (data) {
+    $.each(data, function (key, value) {
       for (let distroFamily = 0; distroFamily < value.length; distroFamily++) {
         //////////////////////////////////////////////////////////////////////////
         // DECLARE letIABLES
@@ -171,7 +171,7 @@ function getDistroData (data, $localDistroName) {
         ////////////////////////////////////////////////////////////////////////////
 
         if (localDistroName == currentDistroName) {
-          displayDistroOutput (
+          displayDistroOutput(
             currentDistroFamily,
             currentDistroName,
             currentDistroIcon,

@@ -7,7 +7,7 @@
 ?>
 
 <body onload="getDistroData()">
-  <div >
+
 
   <?php require$path . '/modules/linux/linuxNavMenu.tpl'; ?>
 

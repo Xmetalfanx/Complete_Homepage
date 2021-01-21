@@ -180,8 +180,6 @@ footer {
     }
 
     .card {
-      width: 80%;
-
       .card__header {
         padding: 20px;
       }
@@ -200,8 +198,8 @@ footer {
   // the main sections of each side of the site
   .primaryContent {
     grid-area: pContent;
-    margin: 0 2rem;
-    width: 90%;
+    // margin: 0 2rem;
+    margin-right: 2.5rem;
   }
 }
 

@@ -316,9 +316,6 @@ footer .contacts {
   margin: 1rem 0;
   padding: 0;
 }
-.main-section .sidebar .card {
-  width: 80%;
-}
 .main-section .sidebar .card .card__header {
   padding: 20px;
 }
@@ -330,8 +327,7 @@ footer .contacts {
 }
 .main-section .primaryContent {
   grid-area: pContent;
-  margin: 0 2rem;
-  width: 90%;
+  margin-right: 2.5rem;
 }
 
 @media all and (max-width: 794px) {
@@ -691,6 +687,20 @@ dl li {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+}
+#linuxFrontPrimaryContent .card {
+  min-width: 300px;
+}
+
+@media (max-width: 794px) {
+  .sidebar .card {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  #linuxFrontPrimaryContent .card {
+    min-width: 300px;
+    padding: 1rem;
+  }
 }
 
 #EducationalSites {
