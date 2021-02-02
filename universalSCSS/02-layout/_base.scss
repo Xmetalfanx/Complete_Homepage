@@ -99,6 +99,8 @@ footer {
   grid-gap: 1.5rem;
   justify-items: stretch;
 
+  grid-template-rows: repeat(3, 1fr);
+
   // this is a link color ON a whiteBG
   a {
     color: var(--midnightBlue);
