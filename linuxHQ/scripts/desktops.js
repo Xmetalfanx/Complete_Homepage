@@ -59,11 +59,8 @@ function displayDEOutput(
                 <div class="col">
                     <span class="font-weight-bold">Fedora</span>
                     <br/>
-
-                    <span class="font-italic">Fedora 28: </span>
-                    <span class="text-right">${currentDEF28Version}</span><br/>
-                    <span class="font-italic">Fedora 29: </span>
-                    <span class="text-right">${currentDEF29Version}</span><br/>
+                    <span class="font-italic">Fedora 32: </span>
+                    <span class="text-right">${currentDEF32Version}</span><br/>
                     <span class="font-italic">Fedora Rawhide: </span>
                     <span class="text-right"> ${currentDEFRWVersion}</span>
                 </div>
@@ -97,14 +94,14 @@ function displayDEOutput(
 
                 <div class="col">
                     <div class="font-weight-bold">Linux Mint </div>
-                    <span class="font-italic">Mint 17.3: </span>
-                    <span class="text-right">${currentDEMint173Version}</span>
-                    <br/>
                     <span class="font-italic">Mint 18: </span>
                     <span class="text-right">${currentDEMint18Version}</span>
                     <br/>
                     <span class="font-italic">Mint 19: </span>
                     <span class="text-right">${currentDEMint19Version}</span>
+                    <br />
+                    <span class="font-italic">Mint 20: </span>
+                    <span class="text-right"></span>
                 </div>
             </div>
 
@@ -318,8 +315,7 @@ function getDesktopData(data, $localDEName) {
           var currentDEArchVersion = versionJSON.arch;
 
           // Fedora
-          var currentDEF28Version = versionJSON.fedora.f28;
-          var currentDEF29Version = versionJSON.fedora.f29;
+          var currentDEF32Version = versionJSON.fedora.f32;
           var currentDEFRWVersion = versionJSON.fedora.rawhide;
 
           // OpenSuse
