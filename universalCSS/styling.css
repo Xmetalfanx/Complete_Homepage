@@ -327,7 +327,8 @@ footer .contacts {
 .main-section .sidebar .card .card__body {
   line-height: 1.4rem;
 }
-.main-section .sidebar .card .card__body a {
+.main-section .sidebar .card .card__body a,
+.main-section .sidebar .card .card__body span {
   display: block;
   padding-right: 1.3rem;
 }
