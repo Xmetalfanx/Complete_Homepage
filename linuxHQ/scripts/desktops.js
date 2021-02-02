@@ -15,15 +15,16 @@ function displayDEOutput(
   currentDEReqHDD,
   currentDEReqProc,
   currentDEArchVersion,
-  currentDEF28Version,
-  currentDEF29Version,
+  currentDEF32Version,
   currentDEFRWVersion,
   currentDESuseL15Version,
   currentDESuseTWVersion,
   currentDE1604LTSVer,
   currentDE1804LTSVer,
+  currentDE2004LTSVer,
   currentDEMint18Version,
   currentDEMint19Version,
+  currentDEMint20Version,
   currentDEarchInstall,
   currentDEfedoraInstall,
   currentDEopensuseInstall,
@@ -84,12 +85,14 @@ function displayDEOutput(
 
                 <div class="col">
                     <div class="font-weight-bold">Ubuntu </div>
-                    <span class="font-italic">Ubuntu 16.04 LTS: </span>
+                    <span class="font-italic">Ubuntu 16.04 Xenial LTS: </span>
                     <span class="text-right"> ${currentDE1604LTSVer}</span>
                     <br/>
-                    <span class="font-italic">Ubuntu 18.04 LTS: </span>
+                    <span class="font-italic">Ubuntu 18.04 Bionic LTS: </span>
                     <span class="text-right">${currentDE1804LTSVer}</span>
                     <br/>
+                    <span class="font-italic">Ubuntu 20.04 Focal LTS: </span>
+                    <span class="text-right">${currentDE2004LTSVer}</span>
                 </div>
 
                 <div class="col">
@@ -101,7 +104,7 @@ function displayDEOutput(
                     <span class="text-right">${currentDEMint19Version}</span>
                     <br />
                     <span class="font-italic">Mint 20: </span>
-                    <span class="text-right"></span>
+                    <span class="text-right">${currentDEMint20Version}</span>
                 </div>
             </div>
 
@@ -319,21 +322,21 @@ function getDesktopData(data, $localDEName) {
           var currentDEFRWVersion = versionJSON.fedora.rawhide;
 
           // OpenSuse
-          var currentDESuseL423Version = versionJSON.opensuse.leap423;
           var currentDESuseL15Version = versionJSON.opensuse.leap15;
           var currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
 
           var ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
-          // Linux Mint
-          var currentDEMint173Version = ubuntuVerJSON.mint.mint173;
-          var currentDEMint18Version = ubuntuVerJSON.mint.mint18;
-          var currentDEMint19Version = ubuntuVerJSON.mint.mint19;
 
           // Ubuntu LTS
           var currentDE1604LTSVer = ubuntuVerJSON.lts1604ver;
           var currentDE1804LTSVer = ubuntuVerJSON.lts1804ver;
+          var currentDE2004LTSVer = ubuntuVerJSON.lts2004ver;
 
-          var currentDE1810 = ubuntuVerJSON.ubuntu1810;
+           // Linux Mint
+          var currentDEMint18Version = ubuntuVerJSON.mint.mint18;
+          var currentDEMint19Version = ubuntuVerJSON.mint.mint19;
+          var currentDEMint20Version = ubuntuVerJSON.mint.mint20;
+
 
           // End Version vars
           ///////////////////////////////////////////
@@ -344,7 +347,6 @@ function getDesktopData(data, $localDEName) {
 
           var openSuseInstallJSON = value[subFrameworks].install.opensuse;
           var currentDEopensuseInstall = openSuseInstallJSON.opensuseInstall;
-          var currentDEopensuseLeap423Install = openSuseInstallJSON.repoLeap423;
           var currentDEopensuseLeap15Install = openSuseInstallJSON.repoLeap15;
           var currentDEopensuseTWInstall = openSuseInstallJSON.repoTW;
 
@@ -370,22 +372,19 @@ function getDesktopData(data, $localDEName) {
               currentDEReqHDD,
               currentDEReqProc,
               currentDEArchVersion,
-              currentDEF28Version,
-              currentDEF29Version,
+              currentDEF32Version,
               currentDEFRWVersion,
-              currentDESuseL423Version,
               currentDESuseL15Version,
               currentDESuseTWVersion,
               currentDE1604LTSVer,
               currentDE1804LTSVer,
-              currentDE1810,
-              currentDEMint173Version,
+              currentDE2004LTSVer,
               currentDEMint18Version,
               currentDEMint19Version,
+              currentDEMint20Version,
               currentDEarchInstall,
               currentDEfedoraInstall,
               currentDEopensuseInstall,
-              currentDEopensuseLeap423Install,
               currentDEopensuseLeap15Install,
               currentDEopensuseTWInstall,
               currentDEubuntuInstall,
