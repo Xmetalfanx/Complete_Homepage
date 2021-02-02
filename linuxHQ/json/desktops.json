@@ -299,7 +299,7 @@
         "reqProcessor": "32bit or 64bit processor (Xmetal Comment: I'd say dual-core ... about from 2009 on should be ok for LOWEST I'd recommend"
       },
       "versions": {
-        "latestVersion": "",
+        "latestVersion": "4.4.1",
         "updated": "",
         "arch": "4.4.8-1",
         "debian": {
@@ -307,7 +307,7 @@
           "bullseye": "4.4.8-2",
           "sid": "4.4.8-2"
         },
-        "latestVersion": "4.4.1",
+
         "updated": "November 30, 2018",
         "arch": "4.0.1-1",
         "fedora": {
