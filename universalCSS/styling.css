@@ -256,8 +256,9 @@ footer .contacts {
   padding: 1.5rem;
   display: grid;
   grid-gap: 1.5rem;
-  justify-items: start;
-  /************** Cards *************/
+  justify-items: stretch;
+  /************** Cards in mainSection specifically *************/
+  /****** Sidebar *****/
 }
 .main-section a {
   color: var(--midnightBlue);
@@ -278,6 +279,7 @@ footer .contacts {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 auto 1.2rem auto;
   max-height: 550px;
+  min-width: 200px;
 }
 .main-section .card--bordered {
   border: 1px solid var(--themeBGColorMain);
@@ -311,36 +313,54 @@ footer .contacts {
   font-size: 24px;
   font-weight: 700;
 }
+.main-section .sidebar {
+  /** cards in Sidebar, specifically ... i think any mainSection global .card stuff carries over ***/
+}
 .main-section .sidebar img {
   display: block;
   margin: 1rem 0;
   padding: 0;
 }
 .main-section .sidebar .card .card__header {
-  padding: 20px;
+  padding: 0.5rem 1rem;
 }
 .main-section .sidebar .card .card__body {
   line-height: 1.4rem;
 }
 .main-section .sidebar .card .card__body a {
   display: block;
+  padding-right: 1.3rem;
 }
 .main-section .primaryContent {
   grid-area: pContent;
   margin-right: 2.5rem;
 }
 
+/* Media query for center section under 794px wide */
 @media all and (max-width: 794px) {
   .main-section,
   .main-section--left-wide,
   .main-section--right-wide {
     display: grid;
     grid-template-areas: "sidebar" "pContent";
+    grid-template-columns: 1fr;
   }
   .main-section .sidebar,
   .main-section--left-wide .sidebar,
   .main-section--right-wide .sidebar {
     grid-area: sidebar;
+  }
+  .main-section .sidebar .card,
+  .main-section--left-wide .sidebar .card,
+  .main-section--right-wide .sidebar .card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .main-section .sidebar .card .card__body a,
+  .main-section--left-wide .sidebar .card .card__body a,
+  .main-section--right-wide .sidebar .card .card__body a {
+    display: inline-block;
   }
   .main-section .primaryContent,
   .main-section--left-wide .primaryContent,
@@ -987,6 +1007,7 @@ dl li {
 }
 #linuxFrontPrimaryContent .card {
   min-width: 300px;
+  max-height: none;
 }
 
 @media (max-width: 794px) {

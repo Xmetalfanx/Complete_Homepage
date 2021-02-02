@@ -33,7 +33,6 @@
     <a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a>
     <a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a>
     <a href="/linuxHQ/distros/ubuntu/peppermint.php">Peppermint</a>
-    <a href="/linuxHQ/distros/ubuntu/uberstudent.php">Uberstudent</a>
     <a href="/linuxHQ/distros/ubuntu/ubuntu.php">Ubuntu</a>
     <a href="/linuxHQ/distros/ubuntu/ubuntuBudgie.php">Ubuntu Budgie</a>
     <a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a>
@@ -46,7 +45,6 @@
   <div class="card__body">
     <span>Fedora based </span><br/>
     <a href="/linuxHQ/distros/rpm/fedora.php">Fedora</a>
-    <a href="/linuxHQ/distros/rpm/korora.php">Korora</a>
     <span>Open Suse Based </span><br/>
     <a href="/linuxHQ/distros/rpm/gecko.php">Gecko Linux</a>
     <a href="/linuxHQ/distros/rpm/openSuse.php">OpenSuse</a><br/><br/>

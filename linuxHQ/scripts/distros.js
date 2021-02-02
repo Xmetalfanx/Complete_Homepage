@@ -42,18 +42,17 @@ function displayDistroOutput(
         <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}<br />
         <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}<br />
 
-
     `;
 
   const currentDistroYTOutput = `
 
         <h4 class="font-weight-bold">Youtube Playlists</h4>
 
-        <div class="row d-none d-lg-inline">
-            <div class="col d-inline">
+        <div class="row d-none d-lg-flex">
+            <div class="">
                 <iframe class="YTPlaylists" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
-            <div class="col d-inline">
+            <div class="">
                 <iframe class="YTPlaylists" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             </div>
         </div>
@@ -70,16 +69,16 @@ function displayDistroOutput(
 
   const currentDistoHeaderOutput = `
       <div class="row pl-3">
-        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="float-left pr-2 iconLG">
+        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon iconLG">
         <h2 class="font-weight-bold">${currentDistroTitle}</h2>
       </div>
   `;
 
   const currentDistroInfoOutput = `
 
-        <div class="card mx-3 shadow">
+        <div class="card mx-3 p-3 shadow">
 
-            <div class="card-body m-3">
+            <div class="card-body">
                 ${currentDistoHeaderOutput}
 
                 <div class="row">
@@ -101,13 +100,13 @@ function displayDistroOutput(
                     <br />
                     <br />
 
-                      <div>
-                          <h3 class="font-weight-bold font-italic"> Versions</h3>
 
-                          <span class="font-weight-bold">Latest Version: </span><br />
-                          <br />
-                          <span class="font-weight-bold">Currently Supported Versions: <br />
-                      </div>
+                      <h3 class="font-weight-bold font-italic"> Versions</h3>
+
+                      <span class="font-weight-bold">Latest Version: </span><br />
+                      <br />
+                      <span class="font-weight-bold">Currently Supported Versions: <br />
+
                       <br />
                       <hr /> ${currentDistroMoreInfoOutput}
                   </div>
@@ -115,7 +114,7 @@ function displayDistroOutput(
                         <div class="col d-none d-md-inline"> ${currentDistroSShotOutput}</div>
                     </div>
 
-                    <br />
+
                     <hr /> ${currentDistroYTOutput}
 
                 </div>
