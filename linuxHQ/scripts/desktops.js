@@ -114,25 +114,21 @@ function displayDEOutput(
     <h3 class="font-weight-bold">How to Install: </h3>
 
     <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingArch">
-              <h2 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseArch" aria-expanded="true" aria-controls="collapseArch"> Arch Linux </button>
-              </h2>
-          </div>
+      <div class="card">
+        <div class="card__header" id="headingArch">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseArch" aria-expanded="true" aria-controls="collapseArch"> Arch Linux </button>
+        </div>
 
-    <div id="collapseArch" class="collapse show" aria-labelledby="headingArch" data-parent="#accordionExample">
-      <div class="card-body">
-        <code class="my-3 p-2">${currentDEarchInstall}</code>
+      <div id="collapseArch" class="collapse show" aria-labelledby="headingArch" data-parent="#accordionExample">
+        <div class="card-body">
+          <code class="my-3 p-2">${currentDEarchInstall}</code>
+        </div>
       </div>
     </div>
 
 
-      </div>
-
-
     <div class="card">
-      <div class="card-header" id="headingFedora">
+      <div class="card__header" id="headingFedora">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFedora" aria-expanded="false" aria-controls="collapseFedora">
             Fedora
@@ -145,38 +141,45 @@ function displayDEOutput(
         </div>
       </div>
     </div>
+
+
     <div class="card">
-      <div class="card-header" id="headingOpenSuse">
+      <div class="card__header" id="headingOpenSuse">
         <h2 class="mb-0">
           <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOpenSuse" aria-expanded="false" aria-controls="collapseOpenSuse">
             OpenSuse
           </button>
         </h2>
       </div>
+
       <div id="collapseOpenSuse" class="collapse" aria-labelledby="headingOpenSuse" data-parent="#accordionExample">
         <div class="card-body">
 
-        <div class="font-weight-bold">OpenSUSE: </div>
-        <div class="font-italic">${currentDEopensuseInstall}</div>
-        <br />
+          <div class="font-weight-bold">OpenSUSE: </div>
+          <div class="font-italic">${currentDEopensuseInstall}</div>
+          <br />
 
-        <small>POSSIBLE Extra Repos (There may or may not be content below)</small>
-        <br />
+          <small>POSSIBLE Extra Repos (There may or may not be content below)</small>
+          <br />
 
-        <div class="font-italic">
-            Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos
-        </div> <br />
+          <div class="font-italic">
+              Use with Caution ... some of these may be so new they break parts of your DE when updating, but these can have newer versions of DEs then in default repos
+          </div>
+          <br />
 
-        <ul>
-            <li class="font-weight-bold">Leap 15.0 </li>
-                <code class="my-3 p-2">${currentDEopensuseLeap15Install}</code>
-            <li class="font-weight-bold">Tumbleweed</li>
-                <code class="my-3 p-2">${currentDEopensuseTWInstall}</code>
-        </ul>
+          <ul>
+              <li class="font-weight-bold">Leap 15.0 </li>
+                  <code class="my-3 p-2">${currentDEopensuseLeap15Install}</code>
+              <li class="font-weight-bold">Tumbleweed</li>
+                  <code class="my-3 p-2">${currentDEopensuseTWInstall}</code>
+          </ul>
         </div>
       </div>
+    </div>
+
+
       <div class="card">
-      <div class="card-header" id="headingUbuntu">
+      <div class="card__header" id="headingUbuntu">
           <h2 class="mb-0">
           <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseUbuntu" aria-expanded="true" aria-controls="collapseUbuntu">
               Linux Mint and/or Ubuntu

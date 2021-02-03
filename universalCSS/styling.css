@@ -1046,6 +1046,31 @@ dl li {
   font-weight: 700;
 }
 
+#desktopSection .accordion {
+  font-size: 18px;
+}
+#desktopSection .accordion .card .card__header {
+  margin-bottom: 0;
+}
+#desktopSection .accordion .card .card__header .btn {
+  font-size: 20px;
+  color: var(--midnightBlue);
+  font-family: "ForkAwesome";
+  text-decoration: none;
+}
+#desktopSection .accordion .card .card__header .btn-link::before + .collasped {
+  content: "\f105";
+}
+#desktopSection .accordion .card .card__header .btn-link::before {
+  content: "\f107";
+}
+
+#desktopSection .card {
+  box-shadow: none;
+  border: 1px dotted var(--themeBGColorMain);
+  max-height: none;
+}
+
 .darkBG {
   color: var(--white);
   background-color: var(--themeBGColorMain);
