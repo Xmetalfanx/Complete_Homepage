@@ -291,6 +291,7 @@ footer .contacts {
 }
 .main-section .card .card__header {
   border-color: var(--themeBGColorMain);
+  background-color: var(--themeBGColorMain);
   color: var(--themeBGColorAccent);
   display: flex;
   flex-direction: row;
