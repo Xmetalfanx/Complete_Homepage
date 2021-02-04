@@ -19,6 +19,7 @@ function displayDEOutput(
   currentDEFRWVersion,
   currentDESuseL15Version,
   currentDESuseTWVersion,
+  currentDESolusVersion,
   currentDE1604LTSVer,
   currentDE1804LTSVer,
   currentDE2004LTSVer,
@@ -40,73 +41,71 @@ function displayDEOutput(
 
 
             <h3 class="font-weight-bold">Versions</h3>
-            <div>
-                <span class="font-weight-bold">
-                    Latest Version: ${currentDELatestVersion}
-                </span>
-                <br />
+            <div id="linuxVersions">
+              <div>
                 <small>
                     Last Updated: ${currentDEVerUpdated}
                 </small>
-            </div>
+              </div>
             <br/>
 
             <div class="row my-2">
-                <div class="col">
-                    <span class="font-weight-bold">Arch: </span>
-                    <span class="text-right">${currentDEArchVersion}</span><br/>
-                </div>
+              <div class="col">
+                  <span class="versionTitle">Arch: </span>
+                  <span class="version">${currentDEArchVersion}</span><br/>
+              </div>
 
-                <div class="col">
-                    <span class="font-weight-bold">Fedora</span>
-                    <br/>
-                    <span class="font-italic">Fedora 32: </span>
-                    <span class="text-right">${currentDEF32Version}</span><br/>
-                    <span class="font-italic">Fedora Rawhide: </span>
-                    <span class="text-right"> ${currentDEFRWVersion}</span>
-                </div>
+              <div class="col">
+                  <span class="font-weight-bold">Fedora</span>
+                  <br/>
+                  <span class="versionTitle">Fedora 32: </span>
+                  <span class="version">${currentDEF32Version}</span><br/>
+                  <span class="versionTitle">Fedora Rawhide: </span>
+                  <span class="version"> ${currentDEFRWVersion}</span>
+              </div>
 
-                <div class="col">
-                    <span class="font-weight-bold">openSUSE</span>
-                    <br/>
-                    <span class="font-italic">OpenSUSE 15: </span>
-                    <span class="text-right"> ${currentDESuseL15Version}</span>
-                    <br/>
-                    <span class="font-italic">OpenSUSE Tumbleweed:  </span>
-                    <span class="text-right"> ${currentDESuseTWVersion}</span>
-                </div>
+              <div class="col">
+                  <span class="font-weight-bold">openSUSE</span>
+                  <br/>
+                  <span class="versionTitle">OpenSUSE 15: </span>
+                  <span class="version"> ${currentDESuseL15Version}</span>
+                  <br/>
+                  <span class="versionTitle">OpenSUSE Tumbleweed:  </span>
+                  <span class="version"> ${currentDESuseTWVersion}</span>
+              </div>
             </div>
 
             <div class="row my-4">
-                <div class="col">
-                    <div class="font-weight-bold">Solus</div>
-                    <span class="text-right"> </span>
-                </div>
+              <div class="col">
+                  <div class="font-weight-bold">Solus</div>
+                  <span class="version">${currentDESolusVersion} </span>
+              </div>
 
-                <div class="col">
-                    <div class="font-weight-bold">Ubuntu </div>
-                    <span class="font-italic">Ubuntu 16.04 Xenial LTS: </span>
-                    <span class="text-right"> ${currentDE1604LTSVer}</span>
-                    <br/>
-                    <span class="font-italic">Ubuntu 18.04 Bionic LTS: </span>
-                    <span class="text-right">${currentDE1804LTSVer}</span>
-                    <br/>
-                    <span class="font-italic">Ubuntu 20.04 Focal LTS: </span>
-                    <span class="text-right">${currentDE2004LTSVer}</span>
-                </div>
+              <div class="col">
+                  <div class="font-weight-bold">Ubuntu </div>
+                  <span class="versionTitle">Ubuntu 16.04 Xenial LTS: </span>
+                  <span class="version"> ${currentDE1604LTSVer}</span>
+                  <br/>
+                  <span class="versionTitle">Ubuntu 18.04 Bionic LTS: </span>
+                  <span class="version">${currentDE1804LTSVer}</span>
+                  <br/>
+                  <span class="versionTitle">Ubuntu 20.04 Focal LTS: </span>
+                  <span class="version">${currentDE2004LTSVer}</span>
+              </div>
 
-                <div class="col">
-                    <div class="font-weight-bold">Linux Mint </div>
-                    <span class="font-italic">Mint 18: </span>
-                    <span class="text-right">${currentDEMint18Version}</span>
-                    <br/>
-                    <span class="font-italic">Mint 19: </span>
-                    <span class="text-right">${currentDEMint19Version}</span>
-                    <br />
-                    <span class="font-italic">Mint 20: </span>
-                    <span class="text-right">${currentDEMint20Version}</span>
-                </div>
+              <div class="col">
+                  <div class="font-weight-bold">Linux Mint </div>
+                  <span class="versionTitle">Mint 18: </span>
+                  <span class="version">${currentDEMint18Version}</span>
+                  <br/>
+                  <span class="versionTitle">Mint 19: </span>
+                  <span class="version">${currentDEMint19Version}</span>
+                  <br />
+                  <span class="versionTitle">Mint 20: </span>
+                  <span class="version">${currentDEMint20Version}</span>
+              </div>
             </div>
+          </div>
 
         `;
 
@@ -325,21 +324,23 @@ function getDesktopData(data, $localDEName) {
           var currentDEFRWVersion = versionJSON.fedora.rawhide;
 
           // OpenSuse
-          var currentDESuseL15Version = versionJSON.opensuse.leap15;
+          var currentDESuseL15Version = versionJSON.opensuse.leap151;
           var currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
+
+          // Solus
+          var currentDESolusVersion = versionJSON.solus;
 
           var ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
 
           // Ubuntu LTS
-          var currentDE1604LTSVer = ubuntuVerJSON.lts1604ver;
-          var currentDE1804LTSVer = ubuntuVerJSON.lts1804ver;
-          var currentDE2004LTSVer = ubuntuVerJSON.lts2004ver;
+          var currentDE1604LTSVer = ubuntuVerJSON.xenial;
+          var currentDE1804LTSVer = ubuntuVerJSON.bionic;
+          var currentDE2004LTSVer = ubuntuVerJSON.focal;
 
-           // Linux Mint
+          // Linux Mint
           var currentDEMint18Version = ubuntuVerJSON.mint.mint18;
           var currentDEMint19Version = ubuntuVerJSON.mint.mint19;
           var currentDEMint20Version = ubuntuVerJSON.mint.mint20;
-
 
           // End Version vars
           ///////////////////////////////////////////
@@ -379,6 +380,7 @@ function getDesktopData(data, $localDEName) {
               currentDEFRWVersion,
               currentDESuseL15Version,
               currentDESuseTWVersion,
+              currentDESolusVersion,
               currentDE1604LTSVer,
               currentDE1804LTSVer,
               currentDE2004LTSVer,

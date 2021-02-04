@@ -1075,6 +1075,16 @@ dl li {
   max-height: none;
 }
 
+#linuxVersions .versionTitle {
+  font-weight: 500;
+  margin-right: 0.5rem;
+  text-decoration: underline;
+}
+
+#linuxVersions .version {
+  color: var(--themeBGColorAccent);
+}
+
 .darkBG {
   color: var(--white);
   background-color: var(--themeBGColorMain);

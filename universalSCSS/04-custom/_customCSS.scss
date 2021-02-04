@@ -177,16 +177,12 @@
 
 // For LinuxHQ distro section and eventually more
 #desktopSection {
- 
-
   .accordion {
     font-size: 18px;
 
     .card {
-      
       .card__header {
-        background-color: white;        
-       
+        background-color: white;
 
         margin-bottom: 0;
 
@@ -196,35 +192,38 @@
           font-family: 'ForkAwesome';
           text-decoration: none;
 
-          
-          // Default: right arrow, content not showing 
+          // Default: right arrow, content not showing
           &-link::before + .collasped {
             content: '\f105';
-
           }
 
           // not default: down arrow, content showing
           &-link::before {
             content: '\f107';
-          
           }
-
         }
       }
     }
-     
-  } // closes accordion 
+  } // closes accordion
 
   .card {
-    
-    
     box-shadow: none;
     border: 1px dotted var(--themeBGColorMain);
 
     // putting this here since there is a max-height (still need to lookup why i did that) on the main primaryContent .card heigh
     max-height: none;
+  } // closes card
+} // closes #desktopSection
 
+#linuxVersions {
+  // The Titles of the Distro/Versions
+  .versionTitle {
+    font-weight: 500;
+    margin-right: 0.5rem;
+  }
 
-  } // closes card 
-  
-} // closes #desktopSection 
+  // the actual version number
+  .version {
+    color: var(--themeBGColorAccent);
+  }
+}
