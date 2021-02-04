@@ -917,6 +917,19 @@ dl li {
   padding-left: 3rem !important;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row .col {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+  max-width: 100%;
+}
+
 .thumbnails {
   padding: 1rem;
 }
@@ -1078,7 +1091,6 @@ dl li {
 #linuxVersions .versionTitle {
   font-weight: 500;
   margin-right: 0.5rem;
-  text-decoration: underline;
 }
 
 #linuxVersions .version {
