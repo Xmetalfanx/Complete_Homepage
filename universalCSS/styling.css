@@ -292,7 +292,7 @@ footer .contacts {
 .main-section .card .card__header {
   border-color: var(--themeBGColorMain);
   background-color: var(--themeBGColorMain);
-  color: var(--themeBGColorAccent);
+  color: white;
   display: flex;
   flex-direction: row;
   font-weight: bold;
@@ -347,6 +347,8 @@ footer .contacts {
     display: grid;
     grid-template-areas: "sidebar" "pContent";
     grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    max-height: 100vh;
   }
   .main-section .sidebar,
   .main-section--left-wide .sidebar,
@@ -1051,6 +1053,7 @@ dl li {
   font-size: 18px;
 }
 #desktopSection .accordion .card .card__header {
+  background-color: white;
   margin-bottom: 0;
 }
 #desktopSection .accordion .card .card__header .btn {
