@@ -7,7 +7,7 @@
 	$pageTitle = 'Budgie ';
 	$sectionVar = "DE";
 
-	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDE.tpl";
+  $path = getenv('DOCUMENT_ROOT');
+  include $path . "/templates/linux/baseLinuxDE.tpl";
 
 ?>
