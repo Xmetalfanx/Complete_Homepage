@@ -5,7 +5,7 @@
     <a href="/linuxHQ/desktops/budgie.php">Budgie-Desktop</a>
     <a href="/linuxHQ/desktops/cinnamon.php">Cinnamon</a>
     <a href="/linuxHQ/desktops/gnome.php">Gnome-shell</a>
-    <a href="/linuxHQ/desktops/KDE.php">KDE</a>
+    <a href="/linuxHQ/desktops/KDE.php">KDE/Plasma 5</a>
     <a href="/linuxHQ/desktops/mate.php">Mate</a>
     <a href="/linuxHQ/desktops/openbox.php">Openbox</a>
     <a href="/linuxHQ/desktops/LXDE.php">LXDE</a>
