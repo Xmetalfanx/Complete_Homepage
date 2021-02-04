@@ -7,6 +7,8 @@ function displayDEOutput(
   currentDEHomepage,
   currentDEGithub,
   currentDEScreenshot,
+  currentDESShotTN,
+  currentDESShotDistro,
   currentDELatestVersion,
   currentDEVerUpdated,
   currentDECategory,
@@ -244,7 +246,9 @@ function displayDEOutput(
                         </div>
 
                         <div class="col">
-                            <img class="d-md-block d-none mx-auto p-4 img-fluid lazyload" data-src="${screenshotDIR}${currentDEScreenshot}" alt="${currentDETitle} screenshot" >
+                          <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
+                            <img class="d-md-block d-none mx-auto p-4 img-fluid lazyload" data-src="${screenshotDIR}${currentDESShotTN}" alt="${currentDESShotDistro} screenshot for ${currentDETitle}" />
+                          </a>
                         </div>
                     </div>
 
@@ -307,7 +311,9 @@ function getDesktopData(data, $localDEName) {
           var currentDEReqProc = value[subFrameworks].requirements.reqProcessor;
 
           // Screenshot - just one for now
+          var currentDESShotTN = value[subFrameworks].screenshots.thumbnail;
           var currentDEScreenshot = value[subFrameworks].screenshots.src;
+          var currentDESShotDistro = value[subFrameworks].screenshots.distro;
 
           // Versions
           var versionJSON = value[subFrameworks].versions;
@@ -368,6 +374,8 @@ function getDesktopData(data, $localDEName) {
               currentDEHomepage,
               currentDEGithub,
               currentDEScreenshot,
+              currentDESShotTN,
+              currentDESShotDistro,
               currentDELatestVersion,
               currentDEVerUpdated,
               currentDECategory,
