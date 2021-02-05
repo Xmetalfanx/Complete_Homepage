@@ -99,8 +99,6 @@ footer {
   grid-gap: 1.5rem;
   justify-items: stretch;
 
-  grid-template-rows: repeat(3, 1fr);
-
   // this is a link color ON a whiteBG
   a {
     color: var(--midnightBlue);
@@ -189,18 +187,18 @@ footer {
     .card {
       //width: 85%;
 
-      .card__header{
-        padding: 0.5rem 1rem ;
+      .card__header {
+        padding: 0.5rem 1rem;
       }
 
       .card__body {
         line-height: 1.4rem;
 
         // removes the need for so many <br /> tags
-        a, span {
+        a,
+        span {
           display: block;
           padding-right: 1.3rem;
-
         }
       }
     }
@@ -239,8 +237,7 @@ footer {
         margin-right: auto;
         width: 100%;
 
-        .card__body
-        {
+        .card__body {
           a {
             display: inline-block;
           }
