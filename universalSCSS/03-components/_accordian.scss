@@ -1,0 +1,60 @@
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  input {
+    display: none;
+  }
+
+  // the title of what was (in earlier trys) the button
+  label {
+    display: block;
+    padding: 8px 22px;
+    margin: 0 0 1px 0;
+    background: #333333;
+    border-radius: 3px;
+    color: #fff;
+
+    // to the left of the label and it is not clicked (should be right arrow)
+    &::before {
+      font-family: 'ForkAwesome';
+      margin-right: 0.5rem;
+      content: '\f105';
+      font-weight: 900;
+    }
+  }
+
+  // to the left of the label and when clicked (Down arrow)
+  input:checked + label::before {
+    font-family: 'ForkAwesome';
+    margin-right: 0.5rem;
+    content: '\f107';
+    font-weight: 900;
+  }
+
+  label:hover {
+    background: #4e8774;
+  }
+
+  .content {
+    background: #e2e5f6;
+    padding: 10px 25px;
+    border: 1px solid #a7a7a7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+  }
+
+  input + label + .content {
+    opacity: 0;
+    height: 0;
+    font-size: 0;
+    transition: ease .5s;
+    padding: 0 25px;
+    height: auto;
+  }
+
+  input:checked + label + .content {
+    opacity: 1;
+    font-size: 16px;
+    max-height: 500px;
+    padding: 8px 25px;
+  }
+}

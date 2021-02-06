@@ -114,49 +114,32 @@ function displayDEOutput(
   const deInstallOutput = `
     <h3 class="font-weight-bold">How to Install: </h3>
 
-    <div class="accordion" id="accordionExample">
-      <div class="card">
-        <div class="card__header" id="headingArch">
-            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseArch" aria-expanded="true" aria-controls="collapseArch"> Arch Linux </button>
-        </div>
+    <div class="accordion">
+      <!-- Arch Start -->
+      <input type="checkbox" id="archInstall" />
+      <label for="archInstall">Arch Linux</label>
 
-      <div id="collapseArch" class="collapse show" aria-labelledby="headingArch" data-parent="#accordionExample">
-        <div class="card-body">
-          <code class="my-3 p-2">${currentDEarchInstall}</code>
-        </div>
+      <div class="content">
+        <code class="my-3 p-2">${currentDEarchInstall}</code>
       </div>
-    </div>
+      <!-- Arch End -->
 
+      <!-- Fedora Start -->
+      <input type="checkbox" id="fedoraInstall" />
+      <label for="fedoraInstall">Fedora</label>
 
-    <div class="card">
-      <div class="card__header" id="headingFedora">
-        <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFedora" aria-expanded="false" aria-controls="collapseFedora">
-            Fedora
-          </button>
-        </h2>
+      <div class="content">
+          Filler Text
       </div>
-      <div id="collapseFedora" class="collapse" aria-labelledby="headingFedora" data-parent="#accordionExample">
-        <div class="card-body">
-            Filler Text
-        </div>
-      </div>
-    </div>
+      <!-- Fedora End -->
 
 
-    <div class="card">
-      <div class="card__header" id="headingOpenSuse">
-        <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOpenSuse" aria-expanded="false" aria-controls="collapseOpenSuse">
-            OpenSuse
-          </button>
-        </h2>
-      </div>
+      <!-- openSUSE Start -->
+      <input type="checkbox" id="openSUSEInstall" />
+      <label for="openSUSEInstall">openSUSE</label>
 
-      <div id="collapseOpenSuse" class="collapse" aria-labelledby="headingOpenSuse" data-parent="#accordionExample">
-        <div class="card-body">
-
-          <div class="font-weight-bold">OpenSUSE: </div>
+      <div class="content">
+        <div class="font-weight-bold">OpenSUSE: </div>
           <div class="font-italic">${currentDEopensuseInstall}</div>
           <br />
 
@@ -174,37 +157,29 @@ function displayDEOutput(
               <li class="font-weight-bold">Tumbleweed</li>
                   <code class="my-3 p-2">${currentDEopensuseTWInstall}</code>
           </ul>
-        </div>
+
+      </div>
+      <!-- OpenSUSE End -->
+
+
+      <!-- Ubuntu Start -->
+      <input type="checkbox" id="ubuntuInstall" />
+      <label for="ubuntuInstall">Ubuntu</label>
+
+      <div class="content">
+        <ul>
+          <li>Installing on Ubuntu:
+              <code class="my-3 p-2">${currentDEubuntuInstall}</code>
+          </li>
+          <li>Installing on Linux Mint:
+              <code class="my-3 p-2">${currentDEmintInstall}</code>
+          </li>
+        </ul>
       </div>
     </div>
+    <!-- Ubuntu End -->
 
 
-      <div class="card">
-      <div class="card__header" id="headingUbuntu">
-          <h2 class="mb-0">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseUbuntu" aria-expanded="true" aria-controls="collapseUbuntu">
-              Linux Mint and/or Ubuntu
-          </button>
-          </h2>
-      </div>
-  </div>
-
-<div id="collapseUbuntu" class="collapse" aria-labelledby="headingUbuntu" data-parent="#accordionExample">
-  <div class="card-body">
-  <ul>
-    <li>Installing on Ubuntu:
-        <code class="my-3 p-2">${currentDEubuntuInstall}</code>
-    </li>
-    <li>Installing on Linux Mint:
-        <code class="my-3 p-2">${currentDEmintInstall}</code>
-    </li>
-  </ul>
-
-
-</div>
-</div>
-    </div>
-  </div>
         `;
 
   // Complete Header

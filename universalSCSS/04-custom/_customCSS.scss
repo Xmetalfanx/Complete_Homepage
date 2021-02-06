@@ -177,34 +177,6 @@
 
 // For LinuxHQ distro section and eventually more
 #desktopSection {
-  .accordion {
-    font-size: 18px;
-
-    .card {
-      .card__header {
-        background-color: white;
-
-        margin-bottom: 0;
-
-        .btn {
-          font-size: 20px;
-          color: var(--midnightBlue);
-          font-family: 'ForkAwesome';
-          text-decoration: none;
-
-          // Default: right arrow, content not showing
-          &-link::before + .collasped {
-            content: '\f105';
-          }
-
-          // not default: down arrow, content showing
-          &-link::before {
-            content: '\f107';
-          }
-        }
-      }
-    }
-  } // closes accordion
 
   .card {
     box-shadow: none;
