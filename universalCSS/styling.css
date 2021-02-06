@@ -436,7 +436,7 @@ code {
   opacity: 0;
   height: 0;
   font-size: 0;
-  transition: ease 0.5s;
+  transition: linear 0.8s;
   padding: 0 25px;
   height: auto;
 }

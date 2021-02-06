@@ -7,8 +7,6 @@
 	$sectionVar = "DE";
 	$pageTitle = 'LXDE ';
 
-	
-
 	$path = getenv('DOCUMENT_ROOT');
 	include $path . "/templates/linux/baseLinuxDE.tpl";
 
