@@ -186,7 +186,6 @@ body {
 }
 
 html {
-  font-size: 1.05rem;
   width: 100%;
 }
 
@@ -194,7 +193,7 @@ body {
   color: var(--darkGrey2);
   display: grid;
   font-family: var(--Roboto);
-  font-size: 16px;
+  font-size: 1.05rem;
   font-weight: 400;
   grid-template-areas: "header" "main-section" "footer";
   grid-template-columns: 1fr;
@@ -340,15 +339,6 @@ footer .contacts {
 
 /* Media query for center section under 794px wide */
 @media all and (max-width: 794px) {
-  .main-section,
-  .main-section--left-wide,
-  .main-section--right-wide {
-    display: grid;
-    grid-template-areas: "sidebar" "pContent";
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    max-height: 100vh;
-  }
   .main-section .sidebar,
   .main-section--left-wide .sidebar,
   .main-section--right-wide .sidebar {
@@ -370,6 +360,11 @@ footer .contacts {
   .main-section--left-wide .primaryContent,
   .main-section--right-wide .primaryContent {
     grid-area: pContent;
+    margin: 0 1rem;
+  }
+  .main-section {
+    grid-template-areas: "sidebar" "pContent";
+    grid-template-columns: 1fr;
   }
 }
 
