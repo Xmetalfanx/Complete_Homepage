@@ -334,7 +334,6 @@ footer .contacts {
 }
 .main-section .primaryContent {
   grid-area: pContent;
-  margin-right: 2.5rem;
 }
 
 /* Media query for center section under 794px wide */
