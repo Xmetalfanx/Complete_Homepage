@@ -220,7 +220,7 @@ function displayDEOutput(
 
                         </div>
 
-                        <div class="col">
+                        <div class="col d-none d-md-block">
                           <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
                             <img class="d-md-block d-none mx-auto p-4 img-fluid lazyload" data-src="${screenshotDIR}${currentDESShotTN}" alt="${currentDESShotDistro} screenshot for ${currentDETitle}" />
 
