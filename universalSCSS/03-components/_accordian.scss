@@ -42,19 +42,20 @@
     border-radius: 3px;
   }
 
+  // This is default ... UNexpanded
   input + label + .content {
     opacity: 0;
     height: 0;
     font-size: 0;
     transition: linear .8s;
     padding: 0 25px;
-    height: auto;
   }
 
   input:checked + label + .content {
     opacity: 1;
     font-size: 16px;
-    max-height: 500px;
     padding: 8px 25px;
+    height: auto;
+    min-height: auto;
   }
 }

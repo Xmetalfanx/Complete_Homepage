@@ -44,66 +44,62 @@ function displayDEOutput(
 
             <h3 class="font-weight-bold">Versions</h3>
             <div id="linuxVersions">
-              <div>
-                <small>
-                    Last Updated: ${currentDEVerUpdated}
-                </small>
-              </div>
+                <small> Last Updated: ${currentDEVerUpdated} </small>
             <br/>
 
             <div class="row my-2">
               <div class="col">
-                  <span class="versionTitle">Arch: </span>
+                  <span class="distroBaseTitle">Arch:</span>
                   <span class="version">${currentDEArchVersion}</span><br/>
               </div>
 
               <div class="col">
-                  <span class="font-weight-bold">Fedora</span>
+                  <span class="distroBaseTitle">Fedora</span>
                   <br/>
-                  <span class="versionTitle">Fedora 32: </span>
+                  <span class="versionTitle">32: </span>
                   <span class="version">${currentDEF32Version}</span><br/>
-                  <span class="versionTitle">Fedora Rawhide: </span>
+                  <span class="versionTitle">Rawhide: </span>
                   <span class="version"> ${currentDEFRWVersion}</span>
               </div>
 
               <div class="col">
-                  <span class="font-weight-bold">openSUSE</span>
+                  <span class="distroBaseTitle">openSUSE</span>
                   <br/>
-                  <span class="versionTitle">OpenSUSE 15: </span>
+                  <span class="versionTitle">15.0: </span>
                   <span class="version"> ${currentDESuseL15Version}</span>
                   <br/>
-                  <span class="versionTitle">OpenSUSE Tumbleweed:  </span>
+                  <span class="versionTitle">Tumbleweed: </span>
                   <span class="version"> ${currentDESuseTWVersion}</span>
               </div>
             </div>
 
             <div class="row my-4">
               <div class="col">
-                  <div class="font-weight-bold">Solus</div>
+                  <div class="distroBaseTitle">Solus</div>
                   <span class="version">${currentDESolusVersion} </span>
               </div>
 
               <div class="col">
-                  <div class="font-weight-bold">Ubuntu </div>
-                  <span class="versionTitle">Ubuntu 16.04 Xenial LTS: </span>
+                  <div class="distroBaseTitle">Ubuntu </div>
+                  <span class="versionTitle">16.04 Xenial LTS: </span>
                   <span class="version"> ${currentDE1604LTSVer}</span>
                   <br/>
-                  <span class="versionTitle">Ubuntu 18.04 Bionic LTS: </span>
+                  <span class="versionTitle">18.04 Bionic LTS: </span>
                   <span class="version">${currentDE1804LTSVer}</span>
                   <br/>
-                  <span class="versionTitle">Ubuntu 20.04 Focal LTS: </span>
+                  <span class="versionTitle">20.04 Focal LTS: </span>
                   <span class="version">${currentDE2004LTSVer}</span>
               </div>
 
               <div class="col">
-                  <div class="font-weight-bold">Linux Mint </div>
-                  <span class="versionTitle">Mint 18: </span>
+                  <div class="distroBaseTitle">Linux Mint </div>
+                  <span class="versionTitle">18: </span>
                   <span class="version">${currentDEMint18Version}</span>
                   <br/>
-                  <span class="versionTitle">Mint 19: </span>
+                  <span class="versionTitle">19: </span>
                   <span class="version">${currentDEMint19Version}</span>
                   <br />
-                  <span class="versionTitle">Mint 20: </span>
+                  <span class="versionTitle">20: </span>
                   <span class="version">${currentDEMint20Version}</span>
               </div>
             </div>

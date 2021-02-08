@@ -188,9 +188,14 @@
 } // closes #desktopSection
 
 #linuxVersions {
+  // the top level of the column
+  .distroBaseTitle {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
   // The Titles of the Distro/Versions
   .versionTitle {
-    font-weight: 500;
     margin-right: 0.5rem;
   }
 

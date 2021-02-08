@@ -432,14 +432,14 @@ code {
   font-size: 0;
   transition: linear 0.8s;
   padding: 0 25px;
-  height: auto;
 }
 
 .accordion input:checked + label + .content {
   opacity: 1;
   font-size: 16px;
-  max-height: 500px;
   padding: 8px 25px;
+  height: auto;
+  min-height: auto;
 }
 
 /************** Carousel BS way  *************/
@@ -1116,8 +1116,12 @@ dl li {
   max-height: none;
 }
 
+#linuxVersions .distroBaseTitle {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
 #linuxVersions .versionTitle {
-  font-weight: 500;
   margin-right: 0.5rem;
 }
 
