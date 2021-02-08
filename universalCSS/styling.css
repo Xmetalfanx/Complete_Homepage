@@ -387,7 +387,6 @@ code {
   text-align: justify;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion input {
   display: none;
 }
@@ -419,7 +418,7 @@ code {
 }
 
 .accordion .content {
-  background: #e2e5f6;
+  background: #ffffff;
   padding: 10px 25px;
   border: 1px solid #a7a7a7;
   margin: 0 0 1px 0;
@@ -440,6 +439,92 @@ code {
   padding: 8px 25px;
   height: auto;
   min-height: auto;
+}
+
+.sidebar .accordion input {
+  display: none;
+}
+
+.sidebar .accordion label {
+  display: block;
+  padding: 8px 22px;
+  margin: 0 0 1px 0;
+  background: #333333;
+  border-radius: 3px;
+  color: #fff;
+}
+.sidebar .accordion label::before {
+  margin-right: 0;
+  content: none;
+}
+
+.sidebar .accordion input:checked + label::before {
+  content: none;
+  margin-right: 0;
+}
+
+.sidebar .accordion label:hover {
+  background: #4e8774;
+}
+
+.sidebar .accordion .content a,
+.sidebar .accordion .content span {
+  display: block;
+}
+
+.sidebar .accordion input + label + .content {
+  opacity: 1;
+  font-size: 16px;
+  transition: linear 0.8s;
+  padding: 0 25px;
+  height: auto;
+}
+
+.sidebar .accordion input:checked + label + .content {
+  opacity: 0;
+  height: 0;
+  font-size: 0;
+  padding: 8px 25px;
+  height: auto;
+  min-height: auto;
+}
+
+@media all and (max-width: 794px) {
+  .sidebar .accordion input + label::before {
+    font-family: "ForkAwesome";
+    margin-right: 0.5rem;
+    content: "\f105";
+    font-weight: 900;
+  }
+  .sidebar .accordion input:checked + label::before {
+    font-family: "ForkAwesome";
+    margin-right: 0.5rem;
+    content: "\f107";
+    font-weight: 900;
+  }
+  .sidebar .accordion label:hover {
+    background: #4e8774;
+  }
+  .sidebar .accordion .content a,
+  .sidebar .accordion .content span {
+    display: inline-block;
+    margin-right: 3rem;
+  }
+  .sidebar .accordion input + label + .content {
+    opacity: 0;
+    height: 0;
+    font-size: 0;
+    padding: 8px 25px;
+    height: auto;
+    min-height: auto;
+  }
+  .sidebar .accordion input:checked + label + .content {
+    opacity: 1;
+    font-size: 16px;
+    transition: linear 0.5s;
+    padding: 0 25px;
+    height: auto;
+  }
 }
 
 /************** Carousel BS way  *************/

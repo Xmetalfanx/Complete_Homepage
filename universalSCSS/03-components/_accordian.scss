@@ -1,4 +1,4 @@
-/* Style the buttons that are used to open and close the accordion panel */
+// This is the main accordion that would be in the pContent/primaryContent section
 .accordion {
   input {
     display: none;
@@ -35,7 +35,7 @@
   }
 
   .content {
-    background: #e2e5f6;
+    background: #ffffff;
     padding: 10px 25px;
     border: 1px solid #a7a7a7;
     margin: 0 0 1px 0;
@@ -47,7 +47,7 @@
     opacity: 0;
     height: 0;
     font-size: 0;
-    transition: linear .8s;
+    transition: linear 0.8s;
     padding: 0 25px;
   }
 
@@ -57,5 +57,124 @@
     padding: 8px 25px;
     height: auto;
     min-height: auto;
+  }
+}
+
+///////////////////////////////////////////////////
+// for the sidebars
+// Default: expanded on desktop layouts, collasped on smaller layouts
+
+// this is for the desktop layout
+.sidebar {
+  .accordion {
+    input {
+      display: none;
+    }
+
+    // the title of what was ( earlier ) the button
+    label {
+      display: block;
+      padding: 8px 22px;
+      margin: 0 0 1px 0;
+      background: #333333;
+      border-radius: 3px;
+      color: #fff;
+
+      // to the left of the label and it is not clicked (should be right arrow)
+      &::before {
+        margin-right: 0;
+        content: none;
+      }
+    }
+    // to the left of the label and when clicked (Down arrow)
+    input:checked + label::before {
+      content: none;
+      margin-right: 0;
+    }
+
+    label:hover {
+      background: #4e8774;
+    }
+
+    // Block display on desktops so each entry is on it's on line
+    .content {
+      a,
+      span {
+        display: block;
+      }
+    }
+
+    // This is default ... Expanded
+    input + label + .content {
+      opacity: 1;
+      font-size: 16px;
+      transition: linear 0.8s;
+      padding: 0 25px;
+      height: auto;
+    }
+
+    // Non-Default: Checked, "closed" on Desktop/larger screens
+    input:checked + label + .content {
+      opacity: 0;
+      height: 0;
+      font-size: 0;
+      padding: 8px 25px;
+      height: auto;
+      min-height: auto;
+    }
+  }
+}
+
+// Accordion for Sidebar on smaller layouts
+@media all and (max-width: 794px) {
+  // Default: expanded on desktop layouts
+  .sidebar {
+    .accordion {
+      input + label::before {
+        font-family: 'ForkAwesome';
+        margin-right: 0.5rem;
+        content: '\f105';
+        font-weight: 900;
+      }
+
+      // f105 = right arrow
+      input:checked + label::before {
+        font-family: 'ForkAwesome';
+        margin-right: 0.5rem;
+        content: '\f107';
+        font-weight: 900;
+      }
+
+      label:hover {
+        background: #4e8774;
+      }
+
+      .content {
+        a,
+        span {
+          display: inline-block;
+          margin-right: 3rem;
+        }
+      }
+
+      // Expanded (not default)
+      input + label + .content {
+        opacity: 0;
+        height: 0;
+        font-size: 0;
+        padding: 8px 25px;
+        height: auto;
+        min-height: auto;
+      }
+
+      // Checked, "closed" - Default for small layouts
+      input:checked + label + .content {
+        opacity: 1;
+        font-size: 16px;
+        transition: linear 0.5s;
+        padding: 0 25px;
+        height: auto;
+      }
+    }
   }
 }

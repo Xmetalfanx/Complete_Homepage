@@ -1,6 +1,9 @@
-.card
-	.card__header Desktops Environments
-	.card__body
+.accordion
+
+	// the input ID and for="" have to be equal
+	input#desktops(type="checkbox")
+	label(for="desktops") Desktops Environments
+	.content
 		a(href="/linuxHQ/desktops/budgie.php") Budgie-Desktop
 		a(href="/linuxHQ/desktops/cinnamon.php") Cinnamon
 		a(href="/linuxHQ/desktops/gnome.php") Gnome-shell
@@ -12,8 +15,9 @@
 		a(href="/linuxHQ/desktops/XFCE.php") XFCE
 
 
-.card
-	.card__header Others
-	.card__body
+	// the input ID and for="" have to be equal
+	input#othersDesktop(type="checkbox")
+	label(for="othersDesktop") Others
+	.content
 		a(href='/linuxHQ/newUserHQ/DesktopE.php') Desktop Environment FAQs
 		a(href='/linuxHQ/newUserHQ/myRecommendedDistros.php') My Recommended Distros (Opinion)
