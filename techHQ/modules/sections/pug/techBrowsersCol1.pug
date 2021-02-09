@@ -1,20 +1,19 @@
-.card
-  .card__header.card__header--dark-bg Browser
-  .card__body
-      a(href="/techHQ/browsers/browserList.php") Browser List
+.accordion
+  // the input ID and for, have to be equal
+  input#browsers(type="checkbox")
+  label(for="browsers") Browser
+  .content
+    a(href="/techHQ/browsers/browserList.php") Browser List
 
-.card
-  .card__header.card__header--dark-bg Browser Addons
-  .card__body
-    a(href='/techHQ/browsers/addons/browserAddons.php') Some Addons
-
-.card
-  .card__header.card__header--dark-bg Ad/Content Blocking
-  .card__body
-    h5.bg-primary.text-white Basics
+  // the input ID and for, have to be equal
+  input#adblocking(type="checkbox")
+  label(for="adblocking") Ad/Content Blocking
+  .content
+    h5 Basics
     a(href='/techHQ/browsers/adblocking/UblockTutorial.php') Ublock Tutorial
-    br/-2.shadow
-    h5.bg-primary.text-white More Advanced Topics
+    br/
+
+    h5 More Advanced Topics
 
     a(href='/techHQ/browsers/adblocking/ublockDynFilterLevels.php') Dynamic Filter in Ublock
     br/

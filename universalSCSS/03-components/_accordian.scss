@@ -104,7 +104,7 @@
 
     // Block display on desktops so each entry is on it's on line
     .content {
-      padding: 1rem 0;
+      padding: 1rem;
 
       a,
       span {
@@ -127,7 +127,7 @@
       height: 0;
       font-size: 0;
       padding: 8px 25px;
-      
+
       min-height: auto;
     }
   }

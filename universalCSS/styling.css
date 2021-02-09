@@ -475,7 +475,7 @@ code {
 
 .sidebar .accordion .content,
 .fullpage .accordion .content {
-  padding: 1rem 0;
+  padding: 1rem;
 }
 .sidebar .accordion .content a,
 .sidebar .accordion .content span,

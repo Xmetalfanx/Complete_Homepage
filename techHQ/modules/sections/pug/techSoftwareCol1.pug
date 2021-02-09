@@ -1,26 +1,29 @@
-.card
-  .card__header.card__header--dark-bg
-  .card__body
-    a(href='/techHQ/software/softwareIndex.php') Software Home:
+.accordion
 
-.card.shadow
-  .card__header.card__header--dark-bg Graphics
+  // the input ID and for="" have to be equal
+  input#softwareHome(type="checkbox")
+  label(for="softwareHome") Software Home:
+  .content
+    a(href='/techHQ/software/softwareIndex.php')
 
-  .card__body
+  // the input ID and for="" have to be equal
+  input#graphicsApps(type="checkbox")
+  label(for="graphicsApps") Graphics
+  .content
     a(href='/techHQ/software/graphics/editors.php') Editors
     a(href='/techHQ/software/graphics/optimizers.php') Optimizers
     a(href='/techHQ/software/graphics/viewers.php') Viewers
 
-.card
-  .card__header.card__header--dark-bg Internet-Related
+  // the input ID and for="" have to be equal
+  input#internetApps(type="checkbox")
+  label(for="internetApps") Internet-Related
+  .content
+    a(href='/techHQ/software/internet/browsers.php') Web Browser
 
-  .card__body
-    a(href='/techHQ/software/internet/browsers.php')  Web Browser
-
-.card
-  .card__header.card__header--dark-bg Multimedia
-
-  .card__body
+  // the input ID and for="" have to be equal
+  input#multimediaApps(type="checkbox")
+  label(for="multimediaApps") Multimedia
+  .content
     a(href='/techHQ/software/multimedia/media_players_audio.php')
       | Media Players
       em Audio
@@ -32,29 +35,28 @@
     a(href='/techHQ/software/multimedia/multimediaVarious.php') Various Apps
     a(href='/techHQ/software/multimedia/videoEditing.php') Video Editing
 
-
-.card.shadow
-  .card__header.card__header--dark-bg Office/Productivity
-
-  .card-text
+  // the input ID and for="" have to be equal
+  input#officeApps(type="checkbox")
+  label(for="officeApps") Office/Productivity
+  .content
     a(href="/techHQ/software/product/coding.php") Coding
     a(href="/techHQ/software/product/office.php") Office Suites
     a(href="/techHQ/software/product/pdfRelated.php") PDF Related
     a(href="/techHQ/software/product/txteditor.php") Text Editors
     a(href="/techHQ/software/product/various.php") Various
 
-.card
-  .card__header.card__header--dark-bg Security Related
-
-  .card__body
+  // the input ID and for="" have to be equal
+  input#securityApps(type="checkbox")
+  label(for="securityApps") Security
+  .content
     a(href='/techHQ/software/security/virusANDMalwareScanners.php') Antivirus and Antimalware
     a(href='/techHQ/software/security/cleaners.php') System Cleaners
     a(href='/techHQ/software/security/firewalls.php') Firewalls
 
-.card
-  .card__header.card__header--dark-bg System Tools
-
-  .card__body
+  // the input ID and for="" have to be equal
+  input#systemApps(type="checkbox")
+  label(for="systemApps") System Tools
+  .content
     a(href='/techHQ/software/sTools/archivers.php') Archivers
     br/
     a(href='/techHQ/software/sTools/backupSoftware.php') Backup Software
@@ -69,7 +71,6 @@
     a(href='/techHQ/software/sTools/systemSuites.php') System Suites
     br/
     a(href='/techHQ/software/sTools/taskManagers.php') Task Manager
-
 
 .card.shadow.d-none.d-md-block
   .card__header.card__header--dark-bg External Links
