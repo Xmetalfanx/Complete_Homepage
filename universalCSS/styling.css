@@ -525,7 +525,6 @@ code {
   }
   .sidebar .accordion input + label + .content {
     opacity: 0;
-    height: 0;
     font-size: 0;
     padding: 8px 25px;
     height: auto;
