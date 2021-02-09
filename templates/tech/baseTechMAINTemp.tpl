@@ -9,10 +9,10 @@
 
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
-		<!-- Why is this mainBody id CSS here? --> 
+		<!-- Why is this mainBody id CSS here? -->
 		<div class="mainSection" id="mainBody">
 			<div class="sidebar">
-				<?php include($path . '/techHQ/modules/techMainCol1.tpl'); ?>
+				<?php include($path . '/techHQ/modules/sections/techMainCol1.tpl'); ?>
 			</div>
 			<div class="primaryContent" id="outputSection">
 
