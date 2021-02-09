@@ -1,3 +1,4 @@
+
 // This is the main accordion that would be in the pContent/primaryContent section
 .accordion {
   input {
@@ -63,9 +64,13 @@
 ///////////////////////////////////////////////////
 // for the sidebars
 // Default: expanded on desktop layouts, collasped on smaller layouts
+// the fullpage class is for pages that do not have sidebar and p(rimary)Content right and left section
+
+
+
 
 // this is for the desktop layout
-.sidebar {
+.sidebar, .fullpage {
   .accordion {
     input {
       display: none;
@@ -79,6 +84,7 @@
       background: #333333;
       border-radius: 3px;
       color: #fff;
+      font-weight: 900;
 
       // to the left of the label and it is not clicked (should be right arrow)
       &::before {
@@ -98,6 +104,8 @@
 
     // Block display on desktops so each entry is on it's on line
     .content {
+      padding: 1rem 0;
+
       a,
       span {
         display: block;
@@ -119,7 +127,7 @@
       height: 0;
       font-size: 0;
       padding: 8px 25px;
-      height: auto;
+      
       min-height: auto;
     }
   }

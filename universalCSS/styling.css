@@ -441,38 +441,51 @@ code {
   min-height: auto;
 }
 
-.sidebar .accordion input {
+.sidebar .accordion input,
+.fullpage .accordion input {
   display: none;
 }
 
-.sidebar .accordion label {
+.sidebar .accordion label,
+.fullpage .accordion label {
   display: block;
   padding: 8px 22px;
   margin: 0 0 1px 0;
   background: #333333;
   border-radius: 3px;
   color: #fff;
+  font-weight: 900;
 }
-.sidebar .accordion label::before {
+.sidebar .accordion label::before,
+.fullpage .accordion label::before {
   margin-right: 0;
   content: none;
 }
 
-.sidebar .accordion input:checked + label::before {
+.sidebar .accordion input:checked + label::before,
+.fullpage .accordion input:checked + label::before {
   content: none;
   margin-right: 0;
 }
 
-.sidebar .accordion label:hover {
+.sidebar .accordion label:hover,
+.fullpage .accordion label:hover {
   background: #4e8774;
 }
 
+.sidebar .accordion .content,
+.fullpage .accordion .content {
+  padding: 1rem 0;
+}
 .sidebar .accordion .content a,
-.sidebar .accordion .content span {
+.sidebar .accordion .content span,
+.fullpage .accordion .content a,
+.fullpage .accordion .content span {
   display: block;
 }
 
-.sidebar .accordion input + label + .content {
+.sidebar .accordion input + label + .content,
+.fullpage .accordion input + label + .content {
   opacity: 1;
   font-size: 16px;
   transition: linear 0.8s;
@@ -480,12 +493,12 @@ code {
   height: auto;
 }
 
-.sidebar .accordion input:checked + label + .content {
+.sidebar .accordion input:checked + label + .content,
+.fullpage .accordion input:checked + label + .content {
   opacity: 0;
   height: 0;
   font-size: 0;
   padding: 8px 25px;
-  height: auto;
   min-height: auto;
 }
 
