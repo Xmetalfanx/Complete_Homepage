@@ -1,18 +1,19 @@
 
-<div class="card shadow">
-  <div class="card__header card__header--dark-bg"> Multimedia Related</div>
-  <div class="card__body">
-    <a href="/techHQ/techcenter/multimedia/id3TagLookup.php">ID3 Tag-lookup</a><br>
+<div class="accordion">
+
+  <!-- the input ID and for="" have to be equal-->
+  <input id="multimediaRelated" type="checkbox">
+  <label for="multimediaRelated">Multimedia Related</label>
+  <div class="content">
+    <a href="/techHQ/techcenter/multimedia/id3TagLookup.php">ID3 Tag-lookup</a>
   </div>
-</div>
 
-
-
-<div class="card shadow">
-  <div class="card__header card__header--dark-bg"> System Tools Related</div>
-  <div class="card__body">
-    <a href="#">Making Windows 7 look like Windows 10</a><br>
-    <a href="#"> Routine Maintenance</a><br />
-    <a href="/techHQ/techcenter/system/bad_uninstalls.php">Bad Uninstalls</a><br/>
+  <!-- the input ID and for="" have to be equal-->
+  <input id="systemRelated" type="checkbox">
+  <label for="systemRelated">System Tools Related</label>
+  <div class="content">
+    <a href="#"></a>Making Windows 7 look like Windows 10
+    <a href="#">Routine Maintenance</a>
+    <a href="/techHQ/techcenter/system/bad_uninstalls.php">Bad Uninstalls</a>
   </div>
 </div>

@@ -1,22 +1,18 @@
-//output:linuxAppCol1.html
+.accordion
 
-.card
-  .card__header PPA Related
-
-  .card__body
-
+  // the input ID and for="" have to be equal
+  input#ppa(type="checkbox")
+  label(for="ppa") PPA Related
+  .content
     a(href='/linuxHQ/apps/favoritePPAs.php') My Favorite PPAs
-    br
     a(href='AddPPA_to_Ubuntu.php')
     | Adding PPAs/What is a PPA/
     br
     | List of common PPAs
 
-.card
-  .card__header Misc Apps.
-
-  .card__body
-
+  // the input ID and for="" have to be equal
+  input#miscApps(type="checkbox")
+  label(for="miscApps") Misc Apps.
+  .content
     a(href='#') Google Chrome
-    br
     a(href='#') Libre Office

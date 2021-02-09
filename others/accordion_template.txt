@@ -1,9 +1,9 @@
 .accordion
 
-	// the input ID and for="" have to be equal
-	input#desktops(type="checkbox")
-	label(for="desktops") Desktops Environments
-	.content
+  // the input ID and for="" have to be equal
+  input#desktops(type="checkbox")
+  label(for="desktops") Desktops Environments
+  .content
 
 
 

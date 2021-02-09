@@ -18,8 +18,8 @@
     <br/>
 
     <h5>More Advanced Topics</h5>
-    <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php">Dynamic Filter in Ublock</a><br/>
-    <a href="/techHQ/browsers/adblocking/noopExplained.php">Noop Filtering Explained</a><br/>
+    <a href="/techHQ/browsers/adblocking/ublockDynFilterLevels.php">Dynamic Filter in Ublock</a>
+    <a href="/techHQ/browsers/adblocking/noopExplained.php">Noop Filtering Explained</a>
     <a href="/techHQ/browsers/adblocking/exampleCases.php">Example Cases</a>
   </div>
 </div>
