@@ -75,7 +75,7 @@ function displayTICOutput(
                 </div>              
                 
                 
-                
+    
                 <div class="col">
                   <div class="m-auto">
                   <a href="${screenshotDIR}${currentTICScreenshot}" target="_blank" >
