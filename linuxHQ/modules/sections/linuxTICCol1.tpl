@@ -9,7 +9,6 @@
     <a href="/linuxHQ/tic/themes/arc.php">Arc</a>
     <a href="/linuxHQ/tic/themes/minty.php">(Linux) Mint-Y</a>
     <a href="/linuxHQ/tic/themes/numix.php">Numix</a>
-    <a href="/linuxHQ/tic/themes/yosembiance.php">Yosembiance</a>
   </div>
 
   <!-- the input ID and for="" have to be equal-->
