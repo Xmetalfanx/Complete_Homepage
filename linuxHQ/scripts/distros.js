@@ -79,7 +79,7 @@ function displayDistroOutput(
         <div class="card mx-3 p-3 shadow">
 
             <div class="card-body">
-                ${currentDistoHeaderOutput}
+                ${currentDistroHeaderOutput}
 
                 <div class="row">
                   <div class="col d-md-inline">
@@ -134,7 +134,7 @@ function getDistroData(data, $localDistroName) {
     $.each(data, function (key, value) {
       for (let distroFamily = 0; distroFamily < value.length; distroFamily++) {
         //////////////////////////////////////////////////////////////////////////
-        // DECLARE letIABLES
+        // DECLARE variables
 
         let currentDistroFamily = key;
 

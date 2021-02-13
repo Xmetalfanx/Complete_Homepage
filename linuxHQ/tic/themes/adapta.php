@@ -1,9 +1,9 @@
 <?php
 
-	
+  $path = getenv('DOCUMENT_ROOT');
+  include $path . "/templates/linux/baseLinuxTIC.tpl";
 
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxTIC.tpl";
-	$pageTitle = 'Adapta Theme ';
+  $pageTitle = 'Adapta Theme ';
 
 ?>
 

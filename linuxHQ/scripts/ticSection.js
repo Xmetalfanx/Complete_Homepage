@@ -1,120 +1,155 @@
-let ticResults = document.getElementById("TICSection");
-let zypperInstall = "sudo zypper install";
-let ubuntuInstall = "sudo apt install";
-let dnfInstall = "sudo dnf install";
-let archInstall = "sudo pacman -S";
+var ticOutput = document.querySelector('#ticsection');
+var screenshotDIR = '/linuxHQ/screenshots/';
+
+
+var zypperInstall = 'sudo zypper install';
+var ubuntuInstall = 'sudo apt install';
+var dnfInstall = 'sudo dnf install';
+var archInstall = 'sudo pacman -S';
 
 // This should show the entire JSON file's info
-function displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall){
+function displayTICOutput(
+  currentTICName,
+  currentTICTitle,
+  currentTICSupportInfo,
+  currentTICGnomelookURL,
+  currentTICGithubURL,
+  currentTICDeviantArtURL,
+  currentTICArchInstall,
+  currentTICFedoraInstall,
+  currentTICOpenSuseInstall,
+  currentTICUbuntuInstall,
+  currentTICScreenshot,
+  currentTICSSThumbnail
+) {
+  const themeLinks = `
 
-  // Should loop through the JSON file
+        <span class="font-weight-bold">Gnomelook URL:</span>
+        <a href="${currentTICGnomelookURL}" target="_blank" >
+        ${currentTICName} on Gnome Look </a> <br />
 
-      const themeLinks = `
-      
-        Gnomelook URL: <a href="${currentTICGnomelookURL}" target="_blank" >
-        ${currentTICThemeName} on Gnome Look </a> <br />
+        <span class="font-weight-bold">Github URL: </span>
+        <a href="${currentTICGithubURL} " target="_blank" >
+        ${currentTICName} on Github </a> <br />
 
-        Github URL: <a href="${currentTICGithubURL} " target="_blank" >
-        ${currentTICThemeName} on Github </a> <br />
-
-        Deviant Art URL: <a href="${currentTICDeviantArtURL}" target="_blank" >
-        ${currentTICThemeName} on DeviantArt </a>
-
+        <span class="font-weight-bold">Deviant Art URL: </span>
+        <a href="${currentTICDeviantArtURL}" target="_blank" >
+        ${currentTICName} on DeviantArt </a>
+        <br />
       `;
 
-      const howToInstall = `
-        How to Install ${currentTICThemeName}
-        <br />
-        <br />
-        <div class="pl-3">
+  const howToInstall = `
+        <h3>How to Install ${currentTICName} </h3>
+        <div>
           <span class="font-weight-bold">On Arch: </span> ${archInstall} ${currentTICArchInstall}
           <br />
-          
+
           <span class="font-weight-bold">On Fedora: </span> ${dnfInstall} ${currentTICFedoraInstall}
           <br />
-          
+
           <span class="font-weight-bold">On openSUSE: </span> ${zypperInstall} ${currentTICOpenSuseInstall}
           <br />
-          
+
           <span class="font-weight-bold">On Ubuntu: </span> ${ubuntuInstall} ${currentTICUbuntuInstall}
           <br />
 
         </div>
       `;
 
-      const themeOutput =
-        `
-      
-          <div class="card"> 
-            <div class="card-header bg-primary text-white font-weight-bold">${currentTICThemeTitle}</div>
-            <div class="card-text"> 
-              <div class="font-weight-bold">
-                Theme has support for: </div>
-                
-                ${currentTICSupportInfo}
-                <br/><br/>
-                
-                ${themeLinks} 
-                <br />
+  const themeOutput = `
 
-                ${howToInstall}
-            
+          <div class="card">
+            <div class="card-header bg-primary text-white font-weight-bold">${currentTICTitle}</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                
+                  <span class="font-weight-bold">Theme has support for: </span>
+                  ${currentTICSupportInfo}
+                  <br/><br/>
+
+                  ${themeLinks}
+                  <br />
+
+                  ${howToInstall}   
+                </div>              
+                
+                
+                
+                <div class="col">
+                  <div class="m-auto">
+                  <a href="${screenshotDIR}${currentTICScreenshot}" target="_blank" >
+                    <img data-src="${screenshotDIR}${currentTICSSThumbnail}" alt="${currentTICTitle} Screenshot"  class="d-md-block d-none img-fluid lazyload" />
+                  </a>
+                  </div>
+                </div>   
+              </div>  
             </div>
           </div>
-        
+
         `;
 
-        // ** NO if statement here 
-        ticResults.insertAdjacentHTML("beforebegin", themeOutput);
-  }
+  console.log('themeOutput:' + themeOutput);
+  ticOutput.insertAdjacentHTML('beforeend', themeOutput);
+}
 
+function getTICData(data, $localTICName) {
+  $(document).ready(function () {
+    ticJSONURL = 'http://xmetal.x10.mx/linuxHQ/json/tic.json';
 
-function getTICData() {
+    $.getJSON(ticJSONURL, function (data) {
+      // For Each key value
+      $.each(data, function (key, value) {
+        // The key is "themes" or "icons" or "cursors"; Values are the full entry I kneed
 
-  $(document).ready(function()
-  {
+        for (let currentTIC = 0; currentTIC < value.length; currentTIC++) {
+          // theme, icons, or cursors
+          currentTICType = key;
 
-    ticJSONURL = "http://xmetal.x10.mx/linuxHQ/json/tic.json";
+          currentTICEntry = value[currentTIC];
 
-    $.getJSON(ticJSONURL, function(data) {
+          // Shows each array (say each theme for example, in "themes" where 'themes' is the key)
+          //console.log(currentTICEntry);
 
-      $.each(data, function(key, value) {
+          console.log(currentTICEntry.themeTitle);
 
-        // The key is "themes" or "icons" or "cursors"
+          let currentTICTName = currentTICEntry.ticName;
+          let currentTICTitle = currentTICEntry.themeTitle;
+          let currentTICSupportInfo = currentTICEntry.supportInfo;
 
-        let currentSubTheme = key;
-
-        for (let subTheme = 0; subTheme < value.length; subTheme++){
-
-          let currentTICThemeName = value[subTheme].themeName;
-          let currentTICThemeTitle = value[subTheme].themeTitle;
-          let currentTICSupportInfo = value[subTheme].supportInfo;
-          
           // Links
-          let currentTICDeviantArtURL = value[subTheme].links.delettsURL;
-          let currentTICGithubURL = value[subTheme].links.githubURl;
-          let currentTICGnomelookURL = value[subTheme].links.gnomelooksURL;
+          let currentTICDeviantArtURL = currentTICEntry.links.delettsURL;
+          let currentTICGithubURL = currentTICEntry.links.githubURl;
+          let currentTICGnomelookURL = currentTICEntry.links.gnomelooksURL;
 
-          // How to install related 
-          let currentTICArchInstall = value[subTheme].howToInstall.arch;
-          let currentTICFedoraInstall = value[subTheme].howToInstall.fedora;
-          let currentTICOpenSuseInstall = value[subTheme].howToInstall.opensuse;
-          let currentTICUbuntuInstall = value[subTheme].howToInstall.ubuntu;
-
-        } // Ends for-loop
+          // How to install related
+          let currentTICArchInstall = currentTICEntry.howToInstall.arch;
+          let currentTICFedoraInstall = currentTICEntry.howToInstall.fedora;
+          let currentTICOpenSuseInstall = currentTICEntry.howToInstall.opensuse;
+          let currentTICUbuntuInstall = currentTICEntry.howToInstall.ubuntu;
 
 
-        if (localTICName == currentTICThemeName)
-        {
-  
-          displayTICOutput(currentTICThemeName, currentTICThemeTitle, currentTICSupportInfo, currentTICGnomelookURL, currentTICGithubURL, currentTICDeviantArtURL, currentTICArchInstall, currentTICFedoraInstall, currentTICOpenSuseInstall, currentTICUbuntuInstall);
+          let currentTICScreenshot = currentTICEntry.screenshot.src;
+          let currentTICSSThumbnail = currentTICEntry.screenshot.thumbnail;
 
+          if (localTICName == currentTICTName) {
+            displayTICOutput(
+              currentTICTName,
+              currentTICTitle,
+              currentTICSupportInfo,
+              currentTICGnomelookURL,
+              currentTICGithubURL,
+              currentTICDeviantArtURL,
+              currentTICArchInstall,
+              currentTICFedoraInstall,
+              currentTICOpenSuseInstall,
+              currentTICUbuntuInstall,
+              currentTICScreenshot,
+              currentTICSSThumbnail
+            );
+          }
         }
-
-      }); // Ends .each loop 
-
-    });  // Ends getJSON loop
-
+      }); // Ends .each loop
+    }); // Ends getJSON loop
   });
-    
 }

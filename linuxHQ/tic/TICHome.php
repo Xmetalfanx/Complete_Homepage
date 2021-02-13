@@ -1,8 +1,7 @@
 <?php
 		$pageTitle = 'Frontpage';
 
-		
-    $path = getenv('DOCUMENT_ROOT'); 
+    $path = getenv('DOCUMENT_ROOT');
     include $path . "/templates/linux/open/baseLinuxTIC.tpl";
 ?>
 
@@ -17,7 +16,6 @@
       <li><a href="https://plus.google.com/+CharlieHenson/posts">Charlie Henson on Google+</a>,</li>
       <li><a href="https://twitter.com/MicroFreaks">Charlie Henson on Twitter</a></li>
     </ul>
-
 
 </div>
 </div>

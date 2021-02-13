@@ -238,7 +238,7 @@ function displayDEOutput(
             `;
 
   // Main output
-  console.log('currentDEScreenshot: ' + currentDEScreenshot);
+  //console.log('currentDEScreenshot: ' + currentDEScreenshot);
   desktopResults.insertAdjacentHTML('beforeend', deInfoCard);
 }
 
