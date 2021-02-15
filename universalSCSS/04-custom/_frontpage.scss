@@ -38,7 +38,6 @@
     }
   }
 
-
   // for both sections
   .git-section,
   .site-section {
@@ -59,7 +58,9 @@
     .card {
       box-shadow: none;
       max-height: 500px;
-      width: 100%;
+
+      // causes errors with the frontpage cards being too wide ... WHY did i put that here?
+      // width: 100%;
 
       .card__header {
         background-color: inherit;
@@ -101,6 +102,7 @@
     img {
       margin: 0 auto;
       max-width: 80%;
+      max-height: 800px;
     }
     // for bigger images to the side
 
@@ -117,9 +119,9 @@
     }
   }
   // for describing my git projects
-
 }
 
+// why is this here?
 ol,
 ul,
 dl {

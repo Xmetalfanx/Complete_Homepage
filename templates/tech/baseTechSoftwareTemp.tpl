@@ -12,7 +12,7 @@
 			<div class="sidebar">
 				<?php include($path . '/techHQ/modules/sections/techSoftwareCol1.tpl'); ?>
 			</div>
-			<div id="softwareSection" class="pContent">
+			<div id="softwareSection" class="primaryContent">
 
 			</div>
 		</div>

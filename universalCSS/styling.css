@@ -197,7 +197,7 @@ body {
   font-weight: 400;
   grid-template-areas: "header" "main-section" "footer";
   grid-template-columns: 1fr;
-  height: 100vh;
+  grid-template-rows: 1fr auto 1fr;
   line-height: 1.5;
   min-height: 100%;
   text-align: left;
@@ -261,6 +261,8 @@ footer .contacts {
 }
 .main-section a {
   color: var(--midnightBlue);
+  background-color: transparent;
+  text-decoration: none;
 }
 .main-section--left-wide {
   grid-template-columns: auto 18%;
@@ -329,11 +331,14 @@ footer .contacts {
 }
 .main-section .sidebar .card .card__body a,
 .main-section .sidebar .card .card__body span {
-  display: block;
-  padding-right: 1.3rem;
+  margin: 0.4rem auto;
 }
 .main-section .primaryContent {
   grid-area: pContent;
+}
+.main-section .primaryContent p {
+  margin: 1rem auto;
+  max-width: 72ch;
 }
 
 /* Media query for center section under 794px wide */
@@ -659,7 +664,6 @@ code {
 .frontpage-section .site-section .card {
   box-shadow: none;
   max-height: 500px;
-  width: 100%;
 }
 .frontpage-section .git-section .card .card__header,
 .frontpage-section .site-section .card .card__header {
@@ -699,6 +703,7 @@ code {
 .frontpage-section .site-section img {
   margin: 0 auto;
   max-width: 80%;
+  max-height: 800px;
 }
 .frontpage-section .site-section .card {
   margin: 0 auto;
@@ -1076,7 +1081,7 @@ dl li {
 }
 
 .thumbnails {
-  padding: 1rem;
+  padding: 2rem;
 }
 .thumbnails--lg {
   max-height: 450px;

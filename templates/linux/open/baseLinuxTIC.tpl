@@ -5,8 +5,6 @@
 ?>
 
 <body>
-<div>
-
  <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <div class="main-section main-section--right-wide">
