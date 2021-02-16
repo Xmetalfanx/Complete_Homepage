@@ -69,7 +69,7 @@ function displayDistroOutput(
 
   const currentDistoHeaderOutput = `
       <div class="row pl-3">
-        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon iconLG">
+        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon icon--size48">
         <h2 class="font-weight-bold">${currentDistroTitle}</h2>
       </div>
   `;

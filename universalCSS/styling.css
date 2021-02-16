@@ -84,8 +84,7 @@
   fill: var(--white);
   color: var(--white);
 }
-.icon--size32,
-.icon .iconSM {
+.icon--size32 {
   height: 32px;
   width: 32px;
 }
@@ -93,8 +92,7 @@
   height: 40px;
   width: 40px;
 }
-.icon--size48,
-.icon .iconLG {
+.icon--size48 {
   height: 48px;
   width: 48px;
 }

@@ -1,19 +1,19 @@
 
-<div class="card w-95 mx-auto shadow my-2">
+<div class="mx-auto my-2 shadow card w-95">
   <div class="card-header">Free Antivirus Scanners, I trust</div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
-      <li class="list-group-item"><a href="https://support.kaspersky.com/us/kscloud" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/AVs/kaspersky.png" alt="Kaspersky Security Cloud graphics">Kaspersky Security Cloud </a></li>
-      <li class="list-group-item"><a href="https://www.bitdefender.com/solutions/free.html" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/AVs/bitDefender.png" alt="Bit Defender Free graphic">Bit Defender Free</a></li>
+      <li class="list-group-item"><a href="https://support.kaspersky.com/us/kscloud" target="_blank"> <img class="mr-2 icon--size32" src="/techHQ/progIcons/security/AVs/kaspersky.png" alt="Kaspersky Security Cloud graphics">Kaspersky Security Cloud </a></li>
+      <li class="list-group-item"><a href="https://www.bitdefender.com/solutions/free.html" target="_blank"> <img class="mr-2 icon--size32" src="/techHQ/progIcons/security/AVs/bitDefender.png" alt="Bit Defender Free graphic">Bit Defender Free</a></li>
     </ul>
   </div>
 </div>
-<div class="card w-95 mx-auto shadow my-2">
+<div class="mx-auto my-2 shadow card w-95">
   <div class="card-header">Free Antivirus Scanners, I am not sure about </div>
   <div class="card-body">
     <ul class="list-group list-group-flush">
       <li class="list-group-item"><a href="" target="_blank">AVG (Bought by Avast) </a></li>
-      <li class="list-group-item"><a href="https://www.avast.com/en-us/index#pc" target="_blank"> <img class="iconSM mr-2" src="/techHQ/progIcons/security/AVs/avast.png">Avast</a></li>
+      <li class="list-group-item"><a href="https://www.avast.com/en-us/index#pc" target="_blank"> <img class="mr-2 icon--size32" src="/techHQ/progIcons/security/AVs/avast.png">Avast</a></li>
     </ul>
     <div>Please see:
       <ul>

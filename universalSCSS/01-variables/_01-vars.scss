@@ -84,13 +84,13 @@
   // margin on right side only
   margin-right: 1.1rem;
 
+  // I think this is for say Fork/Font Awesome stuff where i have links
   a {
     fill: var(--white);
     color: var(--white);
   }
 
-  &--size32,
-  .iconSM {
+  &--size32 {
     height: 32px;
     width: 32px;
   }
@@ -100,8 +100,7 @@
     width: 40px;
   }
 
-  &--size48,
-  .iconLG {
+  &--size48 {
     height: 48px;
     width: 48px;
   }
