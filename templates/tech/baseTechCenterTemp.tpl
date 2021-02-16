@@ -14,7 +14,7 @@
 				<?php include $path .'/techHQ/modules/sections/techCenterCol1.tpl'; ?>
 			</div>
 
-			<div class="primaryContent">
+			<div class="primary-content">
 
 			</div>
 

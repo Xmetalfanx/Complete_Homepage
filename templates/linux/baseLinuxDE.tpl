@@ -10,7 +10,7 @@
     <div class="sidebar">
       <?php require($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
     </div>
-    <div id="desktopSection" class="primaryContent" >
+    <div id="desktopSection" class="primary-content" >
 
     </div>
   </div>

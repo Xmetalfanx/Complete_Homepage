@@ -18,4 +18,4 @@
 			</div>
 
 
-			<div id="softwareSection" class="primaryContent">
+			<div id="softwareSection" class="primary-content">

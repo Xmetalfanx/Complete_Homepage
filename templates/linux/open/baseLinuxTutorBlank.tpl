@@ -1,5 +1,5 @@
 <?php
-    
+
     $path = getenv('DOCUMENT_ROOT');
 
     include $path . '/modules/linux/linuxBaseHeader.tpl';
@@ -10,4 +10,4 @@
       <?php include $path . '/linuxHQ/modules/sections/linuxTutorCol1.tpl'; ?>
     </div>
 
-    <div class="primaryContent">
+    <div class="primary-content">

@@ -16,8 +16,8 @@
       <?php require $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>
 
-    <!-- id=linuxFrontPrimaryContent, is used in JS files to display content -->
-    <div id="linuxFrontPrimaryContent" class="primaryContent">
+    <!-- id=linuxFrontprimary-content, is used in JS files to display content -->
+    <div id="linuxFrontprimary-content" class="primary-content">
 
     </div>
   </div>

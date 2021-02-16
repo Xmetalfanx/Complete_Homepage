@@ -10,9 +10,9 @@
     </div>
 
     <!-- flex stuff here to keep layout working -->
-    <!-- id=linuxFrontPrimaryContent, is used in JS files to display content -->
+    <!-- id=linuxFrontprimary-content, is used in JS files to display content -->
 
-    <div class="primaryContent" id="linuxFrontPrimaryContent" >
+    <div class="primary-content" id="linuxFrontprimary-content" >
 
     </div>
   </div>

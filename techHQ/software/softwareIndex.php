@@ -10,7 +10,7 @@
 
 not sure what to put here atm ... and this MAY BE below the footer for some reason ... the other software pages display correctly though
 
-</div> <!-- closes the pContent class -->
+</div> <!-- closes the primary-content class -->
 
 
 <!-- include tech footer, than the startpage box and then the regular footer -->

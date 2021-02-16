@@ -7,7 +7,7 @@
     include($path . '/templates/linux/open/baseLinuxTemplateL.tpl');
 ?>
 
-  <div class="primaryContent">
+  <div class="primary-content">
 
     <div class="card">
       <div class="card__header themeColorAccent"> Introduction </div>

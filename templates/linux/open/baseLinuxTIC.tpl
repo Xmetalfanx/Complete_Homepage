@@ -12,4 +12,4 @@
         <?php include $path . '/linuxHQ/modules/sections/linuxTICCol1.tpl'; ?>
     </div>
 
-    <div class="primaryContent">
+    <div class="primary-content">

@@ -16,7 +16,7 @@
 				</div>
 
 
-				<div id="outputSection" class="primaryContent">
+				<div id="outputSection" class="primary-content">
 				</div>
 			</div>
 

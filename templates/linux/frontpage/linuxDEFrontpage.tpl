@@ -14,7 +14,7 @@
       <div class="sidebar">
         <?php include($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
       </div>
-      <div class="primaryContent" id="desktopSection">
+      <div class="primary-content" id="desktopSection">
 
       </div>
     </div>

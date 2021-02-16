@@ -15,5 +15,5 @@
           <?php include $path . '/techHQ/modules/sections/techBrowsersCol1.tpl'; ?>
         </div>
 
-      <div id="browserSection" class="primaryContent">
+      <div id="browserSection" class="primary-content">
 
