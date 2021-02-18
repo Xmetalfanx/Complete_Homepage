@@ -1,44 +1,37 @@
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  color: var(--white75);
-  font-size: 30px;
-  font-weight: 800;
   grid-area: header;
   grid-template-areas: 'nav-icon navigation';
   grid-template-columns: 1fr 1fr;
-  height: 75px;
   padding: 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
 
-  nav {
+  // the right side part with the actual section links
+  nav.topnav {
     grid-area: navigation;
     display: flex;
     flex-direction: row;
     justify-self: end;
-    font-size: 22px;
-    font-weight: 500;
 
     a {
-      padding: 0 1rem;
+      padding: 1rem;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    // for hamburger menu that should only display on mobile
+    .icon {
+      display: none;
     }
   }
 
   // graphic to left of frontpage-title
   .nav-icon {
     grid-area: nav-icon;
-    text-align: left;
-  }
-
-  // only for frontpage
-  // grid-column: to center across vw ...otherwise the main title would only center to 25% of the total width;
-  .frontpage-title {
-    text-align: center;
-    grid-column: span 2;
-  }
-
-  // for responsive menu
-  .topnav .icon {
-    display: none;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--white75);
   }
 }
 
@@ -47,7 +40,7 @@ header {
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 794px) {
   header {
-    .topnav {
+    nav.topnav {
       a {
         display: none;
       }
@@ -63,7 +56,7 @@ header {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 794px) {
   header {
-    .topnav.responsive {
+    nav.topnav.responsive {
       position: absolute;
       width: 100%;
       height: 100%;

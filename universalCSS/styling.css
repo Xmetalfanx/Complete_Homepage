@@ -100,46 +100,41 @@
 /******************* Custom Vars ********************/
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  color: var(--white75);
-  font-size: 30px;
-  font-weight: 800;
   grid-area: header;
   grid-template-areas: "nav-icon navigation";
   grid-template-columns: 1fr 1fr;
-  height: 75px;
   padding: 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
 }
-header nav {
+header nav.topnav {
   grid-area: navigation;
   display: flex;
   flex-direction: row;
   justify-self: end;
+}
+header nav.topnav a {
+  padding: 1rem;
+  text-align: center;
   font-size: 22px;
   font-weight: 500;
 }
-header nav a {
-  padding: 0 1rem;
+header nav.topnav .icon {
+  display: none;
 }
 header .nav-icon {
   grid-area: nav-icon;
-  text-align: left;
-}
-header .frontpage-title {
-  text-align: center;
-  grid-column: span 2;
-}
-header .topnav .icon {
-  display: none;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--white75);
 }
 
 /************** Responsive CSS *******/
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 794px) {
-  header .topnav a {
+  header nav.topnav a {
     display: none;
   }
-  header .topnav .icon {
+  header nav.topnav .icon {
     float: right;
     display: block;
   }
@@ -147,7 +142,7 @@ header .topnav .icon {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 794px) {
-  header .topnav.responsive {
+  header nav.topnav.responsive {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -159,12 +154,12 @@ header .topnav .icon {
     text-align: center;
     justify-content: center;
   }
-  header .topnav.responsive a {
+  header nav.topnav.responsive a {
     display: block;
     text-align: left;
     align-self: center;
   }
-  header .topnav.responsive .icon {
+  header nav.topnav.responsive .icon {
     position: absolute;
     right: 0;
     display: block;
@@ -214,6 +209,7 @@ footer {
   background-color: var(--themeBGColorMain);
   display: grid;
   align-content: center;
+  max-height: 4.5rem;
 }
 header a,
 footer a {
@@ -229,7 +225,6 @@ footer a:hover {
 footer {
   color: var(--white);
   grid-area: footer;
-  max-height: 75px;
   padding: 1.5rem;
   grid-template-areas: "site-made contacts";
   align-content: center;
@@ -330,10 +325,10 @@ footer .contacts {
 .main-section .sidebar .card .card__body span {
   margin: 0.4rem auto;
 }
-.main-section .primaryContent {
+.main-section .primary-content {
   grid-area: pContent;
 }
-.main-section .primaryContent p {
+.main-section .primary-content p {
   margin: 1rem auto;
   max-width: 72ch;
 }
@@ -357,9 +352,9 @@ footer .contacts {
   .main-section--right-wide .sidebar .card .card__body a {
     display: inline-block;
   }
-  .main-section .primaryContent,
-  .main-section--left-wide .primaryContent,
-  .main-section--right-wide .primaryContent {
+  .main-section .primary-content,
+  .main-section--left-wide .primary-content,
+  .main-section--right-wide .primary-content {
     grid-area: pContent;
     margin: 0 1rem;
   }
@@ -616,6 +611,11 @@ code {
   background-color: lightblue;
   padding: 10px;
   height: 100%;
+}
+
+header .frontpage-title {
+  text-align: center;
+  grid-column: span 2;
 }
 
 .frontpage-section {

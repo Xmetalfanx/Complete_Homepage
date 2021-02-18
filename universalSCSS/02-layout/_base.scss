@@ -44,8 +44,12 @@ header,
 footer {
   background-color: var(--themeBGColorMain);
   display: grid;
+
   // aligns content top vs bottom on the Y axis
   align-content: center;
+
+  // test
+  max-height: 4.5rem;
 
   a {
     color: var(--white);
@@ -63,7 +67,6 @@ footer {
 footer {
   color: var(--white);
   grid-area: footer;
-  max-height: $footerheight;
   padding: 1.5rem;
   grid-template-areas: 'site-made contacts';
   align-content: center;
