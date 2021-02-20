@@ -1,5 +1,5 @@
 
-<div class="card card--bordered">
+<div class="card">
   <div class="card__header">DistroWatch News Feed</div>
   <div class="card__body">
     <!-- News-->
@@ -7,7 +7,7 @@
   </div>
 </div>
 
-<div class="card card--bordered">
+<div class="card">
   <div class="card__header">Distrowatch Distro Feed</div>
   <div class="card__body">
     <!--  Distros-->

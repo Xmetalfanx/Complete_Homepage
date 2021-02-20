@@ -9,7 +9,7 @@
 
   <div class="primary-content">
 
-    <div class="card">
+    <div class="card w-80">
       <div class="card__header themeColorAccent"> Introduction </div>
       <div class="card__body"> Hello, I'd like to give a little background about my  experience with Linux, before you start browsing my site, to get a sense for where I am coming from. For a number of years now , I have been using Linux to some degree, and  have been using it more and more, while using  Windows less and less.
 
@@ -19,13 +19,13 @@
     </div>
 
 
-    <div class="card">
+    <div class="card w-80">
       <div class="card__header themeColorAccent">
         My Goal
       </div>
       <div class="card__body">
 
-        <img class="thumbnails thumbnails--sm" src="/linuxHQ/screenshots/ubuntu/cinnamonMint.png" alt="Linux Mint slide">
+        <img class="thumbnails thumbnails--sm float-left pt-1" src="/linuxHQ/screenshots/ubuntu/cinnamonMint.png" alt="Linux Mint slide">
 
         Showing Tutorials, My reviews (as well as others), and sites that have helped me over&#x9;the years, is TRUE goal I have with this section. The Linux related ideas I came up with to add to the main site started to get way out of hand to put in a "small section" so that's when I decided to do the split into TechHQ (former Windows Section ... and still has some cross-platform stuff) and LinuxHQ.
 
