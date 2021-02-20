@@ -1,17 +1,16 @@
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  grid-area: header;
-  grid-template-areas: 'nav-icon navigation';
-  grid-template-columns: 1fr 1fr;
   padding: 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
+  grid-area: header;
 
   // the right side part with the actual section links
   nav.topnav {
-    grid-area: navigation;
-    display: flex;
-    flex-direction: row;
-    justify-self: end;
+
+    // MAY be needed for mobile layout
+    //display: flex;
+    //flex-direction: row;
+    //justify-self: end;
 
     a {
       padding: 1rem;
@@ -28,7 +27,7 @@ header {
 
   // graphic to left of frontpage-title
   .nav-icon {
-    grid-area: nav-icon;
+
     font-size: 2rem;
     font-weight: 900;
     color: var(--white75);
@@ -86,4 +85,4 @@ header {
       }
     }
   } // ends header
-} // ends media Q
+} // ends media query

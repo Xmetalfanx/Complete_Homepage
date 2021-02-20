@@ -1,11 +1,10 @@
 // Things specific to the landing page of the site
 // I FULLY ADMIT that alot of this seems too hyper specific ... i will refactor the code later
 
-// grid-column: to center across vw ...otherwise the main title would only center to 25% of the total width;
 header {
   .frontpage-title {
     text-align: center;
-    grid-column: span 2;
+    width: 100%;
   }
 }
 

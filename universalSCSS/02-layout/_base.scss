@@ -20,10 +20,10 @@ body {
   font-size: 1.05rem;
   font-weight: 400;
   grid-template-areas:
-    'header'
-    'main-section'
-    'footer';
-  grid-template-columns: 1fr;
+    'header header'
+    'main-section main-section'
+    'footer footer';
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr auto 1fr;
   line-height: 1.5;
   min-height: 100%;
@@ -43,10 +43,14 @@ body {
 header,
 footer {
   background-color: var(--themeBGColorMain);
-  display: grid;
+  display: flex;
+
+  // Aligns horizontally .. the left item all the way to the left, and the right div item
+  // (in a two div layout inside) all the way to the right
+  justify-content: space-between;
 
   // aligns content top vs bottom on the Y axis
-  align-content: center;
+  align-items: center;
 
   // test
   max-height: 4.5rem;
@@ -66,10 +70,8 @@ footer {
 // problem is this extend is from something later on in theming
 footer {
   color: var(--white);
-  grid-area: footer;
   padding: 1.5rem;
-  grid-template-areas: 'site-made contacts';
-  align-content: center;
+  grid-area: footer;
 
   // I could slap other classes on each img tag, or do this ... sort of redundant CSS but it removes the need for extra css tags in the html
   img {
@@ -78,16 +80,14 @@ footer {
     margin: 0.4rem;
   }
 
-  // left side of footer
-  .site-made {
-    grid-area: site-made;
+  .contacts, .site-made {
+    width: 50%;
   }
 
-  // right side of footer
   .contacts {
-    grid-area: contacts;
     text-align: right;
   }
+
 }
 
 /*********** Main Section in middle of page  *****/
@@ -129,7 +129,7 @@ footer {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     margin: 0 auto 1.2rem auto;
 
-    min-width: 200px;
+    min-width: 8rem;
 
     &--bordered {
       border: 1px solid var(--themeBGColorMain);
@@ -252,4 +252,18 @@ footer {
 
     grid-template-columns: 1fr;
   }
+}
+
+
+/////////////////////////////////////////////////////////////////////
+// so the footer spans across the entire botton, with the .site-made div being hidden now
+@media all and (max-width: 993px) {
+  .contacts {
+    width: 100% !important;
+  }
+
+  .site-made {
+    display: none;
+  }
+
 }
