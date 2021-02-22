@@ -7,12 +7,12 @@
 
   // the title of what was (in earlier trys) the button
   label {
+    @include header;
+    
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
-    background: #333333;
     border-radius: 3px;
-    color: #fff;
 
     // to the left of the label and it is not clicked (should be right arrow)
     &::before {
@@ -54,7 +54,7 @@
 
   input:checked + label + .content {
     opacity: 1;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 8px 25px;
     height: auto;
     min-height: auto;
@@ -78,12 +78,12 @@
 
     // the title of what was ( earlier ) the button
     label {
+      @include header; 
+
       display: block;
       padding: 8px 22px;
       margin: 0 0 1px 0;
-      background: #333333;
       border-radius: 3px;
-      color: #fff;
       font-weight: 900;
 
       // to the left of the label and it is not clicked (should be right arrow)
@@ -115,9 +115,9 @@
     // This is default ... Expanded
     input + label + .content {
       opacity: 1;
-      font-size: 16px;
+      font-size: 1rem;
       transition: linear 0.8s;
-      padding: 0 25px;
+      //padding: 0 25px;
       height: auto;
     }
 

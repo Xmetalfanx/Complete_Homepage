@@ -1,0 +1,14 @@
+@mixin header {
+    color: var(--white);
+    background-color: var(--themeBGColorMain);
+
+}
+
+@mixin sectionHeader {
+    @include header; 
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem; 
+    align-items: center;
+}

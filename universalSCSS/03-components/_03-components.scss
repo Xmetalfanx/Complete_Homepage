@@ -2,8 +2,7 @@
 
 /***************** Random ****************/
 code {
-  background-color: var(--themeBGColorMain);
-  color: var(--white);
+  @include header; 
   display: inline-block;
 }
 

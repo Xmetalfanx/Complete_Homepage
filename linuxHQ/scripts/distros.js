@@ -78,7 +78,7 @@ function displayDistroOutput(
 
         <div class="card mx-3 p-3 shadow">
 
-            <div class="card-body">
+            <div class="card__body">
                 ${currentDistroHeaderOutput}
 
                 <div class="row">

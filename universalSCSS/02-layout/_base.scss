@@ -39,11 +39,13 @@ body {
   }
 }
 
-// attempt at refactoring
 header,
 footer {
-  background-color: var(--themeBGColorMain);
   display: flex;
+
+  @include header;
+
+  font-weight: 900;
 
   // Aligns horizontally .. the left item all the way to the left, and the right div item
   // (in a two div layout inside) all the way to the right
@@ -52,24 +54,20 @@ footer {
   // aligns content top vs bottom on the Y axis
   align-items: center;
 
-  // test
   max-height: 4.5rem;
 
   a {
-    color: var(--white);
+    color: inherit;
     text-decoration: none;
   }
 
   a:hover {
-    // testing/ideas
     outline: 1px dotted var(--white);
     text-decoration: none;
   }
 }
 
-// problem is this extend is from something later on in theming
 footer {
-  color: var(--white);
   padding: 1.5rem;
   grid-area: footer;
 
@@ -160,8 +158,7 @@ footer {
 
       // Dark BG for header, and light text
       &--dark-bg {
-        background-color: var(--themeBGColorMain);
-        color: var(--white);
+        @include header; 
 
         // The program or addon or whatever header on the left of what use to be two col (+ float) layout for
         // the card header

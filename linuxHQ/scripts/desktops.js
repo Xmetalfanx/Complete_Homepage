@@ -182,10 +182,10 @@ function displayDEOutput(
   const deInfoCard = `
 
             <div class="card mx-3 shadow">
-                <div class="card-header">
+                <div class="card__header">
                     <h3 class="font-weight-bold">${currentDETitle}</h3>
                 </div>
-                <div class="card-body">
+                <div class="card__body">
                     <div class="row">
                         <div class="col">
                           <span class="font-weight-bold">Homepage:</span>
