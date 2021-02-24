@@ -98,6 +98,7 @@
 }
 
 /******************* Custom Vars ********************/
+/* thumbnail mixin's */
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: 1rem;
@@ -1297,6 +1298,22 @@ dl li {
 }
 .thumbnails--sm {
   max-height: 350px;
+}
+
+.thumbnails-fluid--sm {
+  max-height: 350px;
+  padding: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+@--lg {
+  .thumbnails-fluid {
+    max-height: 450px;
+    padding: 2rem;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .list-group-item {
