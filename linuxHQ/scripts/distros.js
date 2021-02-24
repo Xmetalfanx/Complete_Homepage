@@ -65,48 +65,47 @@ function displayDistroOutput(
     `;
 
   const currentDistoHeaderOutput = `
-      <div class="row pl-3">
+      <div class="card__header">
         <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon icon--size48">
-        <h2 class="font-weight-bold">${currentDistroTitle}</h2>
+        <span class="font-weight-bold">${currentDistroTitle}</span>
       </div>
   `;
 
   const currentDistroInfoOutput = `
 
-        <div class="card mx-3 p-3 shadow">
+      <div class="card mx-auto shadow">
+        ${currentDistoHeaderOutput}
+        <div class="card__body">
 
-            <div class="card__body">
-                ${currentDistoHeaderOutput}
+            <div class="row">
+              <div class="col d-md-inline">
 
-                <div class="row">
-                  <div class="col d-md-inline">
+                <span class="font-weight-bold">Homepage: </span>
+                    <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage</a><br/>
 
-                    <span class="font-weight-bold">Homepage: </span>
-                        <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage</a><br/>
+                <span class="font-weight-bold">Download: </span>
+                    <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page</a><br/>
 
-                    <span class="font-weight-bold">Download: </span>
-                        <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page</a><br/>
+                <span class="font-weight-bold">Forums:</span>
+                    <a href="${currentDistroForum}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Forum</a><br/>
 
-                    <span class="font-weight-bold">Forums:</span>
-                        <a href="${currentDistroForum}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Forum</a><br/>
+                <span class="font-weight-bold">Distrowatch Page: </span>
+                    <a href="${DWPage}${currentDistroName}" blank="_blank" rel='noreferrer'>${currentDistroTitle} Distrowatch Link
+                    </a>
 
-                    <span class="font-weight-bold">Distrowatch Page: </span>
-                        <a href="${DWPage}${currentDistroName}" blank="_blank" rel='noreferrer'>${currentDistroTitle} Distrowatch Link
-                        </a>
-
-                        <div class="py-3">
-                        <h3 class="font-weight-bold font-style-italic"> Versions</h3>
-                        <span class="font-weight-bold">Latest Version: </span><br />
-                        <span class="font-weight-bold">Currently Supported Versions: <br />
-                      </div>
-
-
-                      <hr />
-                      ${currentDistroMoreInfoOutput}
+                    <div class="py-3">
+                    <h3 class="font-weight-bold font-style-italic"> Versions</h3>
+                    <span class="font-weight-bold">Latest Version: </span><br />
+                    <span class="font-weight-bold">Currently Supported Versions: <br />
                   </div>
 
-                        <div class="col d-none d-md-inline"> ${currentDistroSShotOutput}</div>
-                    </div>
+
+                  <hr />
+                  ${currentDistroMoreInfoOutput}
+              </div>
+
+                    <div class="col d-none d-md-inline"> ${currentDistroSShotOutput}</div>
+                </div>
 
 
                     <hr /> ${currentDistroYTOutput}
