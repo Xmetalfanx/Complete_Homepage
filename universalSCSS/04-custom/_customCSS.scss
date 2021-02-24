@@ -14,13 +14,13 @@
   }
 }
 
-.thumbnails-fluid {
+.thumbnail-fluid {
 
   &--sm {
     @include thumbnail--sm;
   }
 
-  @--lg {
+  &--lg {
     @include thumbnail--lg;
   }
 

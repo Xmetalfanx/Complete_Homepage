@@ -740,6 +740,14 @@ dl li {
   }
 }
 
+.font-weight-bold {
+  font-weight: 900;
+}
+
+.font-style-italics {
+  font-style: italic;
+}
+
 .float-left {
   float: left;
 }
@@ -1300,20 +1308,18 @@ dl li {
   max-height: 350px;
 }
 
-.thumbnails-fluid--sm {
+.thumbnail-fluid--sm {
   max-height: 350px;
   padding: 2rem;
   max-width: 100%;
   height: auto;
 }
 
-@--lg {
-  .thumbnails-fluid {
-    max-height: 450px;
-    padding: 2rem;
-    max-width: 100%;
-    height: auto;
-  }
+.thumbnail-fluid--lg {
+  max-height: 450px;
+  padding: 2rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .list-group-item {
