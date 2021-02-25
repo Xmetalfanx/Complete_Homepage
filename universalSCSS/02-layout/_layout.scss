@@ -1,6 +1,3 @@
-@import 'header';
-
-/********** Global *****************/
 
 *,
 body {
@@ -158,7 +155,7 @@ footer {
 
       // Dark BG for header, and light text
       &--dark-bg {
-        @include header; 
+        @include header;
 
         // The program or addon or whatever header on the left of what use to be two col (+ float) layout for
         // the card header
@@ -264,3 +261,89 @@ footer {
   }
 
 }
+
+
+header {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  text-shadow: 2px 5px var(--themeBGColorMain);
+  grid-area: header;
+
+  // the right side part with the actual section links
+  nav.topnav {
+    // MAY be needed for mobile layout
+    //display: flex;
+    //flex-direction: row;
+    //justify-self: end;
+
+    a {
+      padding: 1rem;
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    // for hamburger menu that should only display on mobile
+    .icon {
+      display: none;
+    }
+  }
+
+  // graphic to left of frontpage-title
+  .nav-icon {
+    font-size: 2rem;
+    @include header;
+  }
+}
+
+/************** Responsive CSS *******/
+
+/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 794px) {
+  header {
+    nav.topnav {
+      a {
+        display: none;
+      }
+
+      .icon {
+        float: right;
+        display: block;
+      }
+    }
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 794px) {
+  header {
+    nav.topnav.responsive {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      left: 0;
+      top: 0;
+      background: #333;
+      display: grid;
+      text-align: center;
+      justify-content: center;
+
+      a {
+        display: block;
+        text-align: left;
+        align-self: center;
+      }
+
+      .icon {
+        position: absolute;
+        right: 0;
+        display: block;
+        // idea: move menu icon over the menu in responsive mode
+        z-index: 1;
+        margin: 17px 35px 0 0;
+        outline: inherit;
+        align-self: start;
+      }
+    }
+  } // ends header
+} // ends media query
