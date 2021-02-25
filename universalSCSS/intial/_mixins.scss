@@ -1,6 +1,12 @@
-@mixin sectionHeader {
+@mixin darkBG {
   color: var(--white);
+  // #333333 if i remember correctly
   background-color: var(--themeBGColorMain);
+}
+
+
+@mixin sectionHeader {
+  @include darkBG();
 
   display: flex;
   justify-content: space-between;
