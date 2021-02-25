@@ -1,4 +1,4 @@
-@import '../02-layout/layout';
+@use '../layout/index';
 
 
 // This is the main accordion that would be in the primary-content section
@@ -9,7 +9,9 @@
 
   // the title of what was (in earlier trys) the button
   label {
-    @include header;
+    color: var(--white);
+    background-color: var(--themeBGColorMain);
+
 
     display: block;
     padding: 8px 22px;
@@ -80,7 +82,9 @@
 
     // the title of what was ( earlier ) the button
     label {
-      @include header;
+      color: var(--white);
+      background-color: var(--themeBGColorMain);
+
 
       display: block;
       padding: 8px 22px;

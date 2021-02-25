@@ -1,3 +1,4 @@
+@use '../intial/index';
 
 *,
 body {
@@ -40,7 +41,9 @@ header,
 footer {
   display: flex;
 
-  @include header;
+  color: var(--white);
+  background-color: var(--themeBGColorMain);
+
 
   font-weight: 900;
 
@@ -143,7 +146,7 @@ footer {
       flex-direction: row;
       font-weight: bold;
       font-size: 1.1rem;
-      justify-content: space-between;
+      justify-content: flex-start;
       padding: 1rem;
 
       a:link,
@@ -153,12 +156,12 @@ footer {
         text-decoration: none;
       }
 
+      &--wide {
+        justify-content: space-between
+      }
+
       // Dark BG for header, and light text
       &--dark-bg {
-        @include header;
-
-        // The program or addon or whatever header on the left of what use to be two col (+ float) layout for
-        // the card header
 
         // not a fan of this var name but i dont want name collosion with "card-title" which is the var i rather use
         .card-name,
@@ -291,7 +294,9 @@ header {
   // graphic to left of frontpage-title
   .nav-icon {
     font-size: 2rem;
-    @include header;
+    color: var(--white);
+    background-color: var(--themeBGColorMain);
+
   }
 }
 

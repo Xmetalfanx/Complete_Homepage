@@ -1,3 +1,6 @@
+@use '../intial/index' as *;
+
+
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
 
@@ -225,6 +228,8 @@
 }
 
 code {
-  @include header;
+  color: var(--white);
+  background-color: var(--themeBGColorMain);
+
   display: inline-block;
 }

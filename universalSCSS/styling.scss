@@ -1,1 +1,5 @@
-@import "04-custom/04-custom-dir";
+@use 'intial/index' as *;
+@use 'layout/index' as *;
+@use 'components/index' as *;
+
+@use "custom/custom-dir" as *;
