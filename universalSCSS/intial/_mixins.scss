@@ -1,3 +1,5 @@
+@forward '_vars';
+
 @mixin darkBG {
   color: var(--white);
   // #333333 if i remember correctly

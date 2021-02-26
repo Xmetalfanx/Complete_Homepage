@@ -1,4 +1,4 @@
-@use '../intial/index';
+@use "../intial/index" as *;
 
 *,
 body {
@@ -40,10 +40,7 @@ body {
 header,
 footer {
   display: flex;
-
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
-
+  @include darkBG;
 
   font-weight: 900;
 
