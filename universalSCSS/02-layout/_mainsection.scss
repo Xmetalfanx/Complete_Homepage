@@ -1,0 +1,167 @@
+/*********** Main Section in middle of page  *****/
+
+// the main section between the nav top bar and the footer
+
+// This CONTAINS sidebar and "primary-content" ... i was getting confused looking at this months later thinking
+// that this WAS primary-content in a different name
+.main-section {
+  grid-area: main-section;
+  padding: 1.5rem;
+  display: grid;
+
+  grid-gap: 1.5rem;
+  justify-items: stretch;
+
+  // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
+  &--wide {
+    @extend .main-section;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'pContent';
+  }
+
+  &--left-wide {
+    @extend .main-section;
+    grid-template-columns: auto 18%;
+    grid-template-areas: 'pContent sidebar';
+  }
+
+  &--right-wide {
+    @extend .main-section;
+    grid-template-columns: 18% auto;
+    grid-template-areas: 'sidebar pContent';
+  }
+
+  .card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    margin: 0 auto 1.2rem auto;
+
+    min-width: 8rem;
+
+    &--bordered {
+      border: 1px solid var(--themeBGColorMain);
+    }
+
+    .card__body,
+    .card__text {
+      padding: 1rem;
+    }
+
+    .card__header {
+      align-items: center;
+      border-color: var(--themeBGColorMain);
+      background-color: var(--themeBGColorMain);
+      color: white;
+      display: flex;
+      flex-direction: row;
+      font-weight: bold;
+      font-size: 1.1rem;
+      justify-content: flex-start;
+      padding: 1rem;
+
+      a:link,
+      a:visited {
+        background-color: inherit;
+        color: var(--white);
+        text-decoration: none;
+      }
+
+      &--wide {
+        @extend .card__header;
+        justify-content: space-between;
+      }
+
+      // Feb 2021 update: what is this needed for? ... seems hyper specific, for no reason
+      .card-name,
+      .addon-title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  /****** Sidebar *****/
+  .sidebar {
+    img {
+      display: block;
+      margin: 1rem 0;
+      padding: 0;
+    }
+
+    /** cards in Sidebar, specifically ... i think any mainSection global .card stuff carries over ***/
+    .card {
+      //width: 85%;
+
+      .card__header {
+        padding: 0.5rem 1rem;
+      }
+
+      .card__body {
+        line-height: 1.4rem;
+
+        // removes the need for so many <br /> tags
+        a,
+        span {
+          margin: 0.4rem auto;
+        }
+      }
+    }
+  }
+
+  // the main sections of each side of the site
+  .primary-content {
+    grid-area: pContent;
+
+    .card {
+      .card__header {
+        align-items: center;
+        display: grid;
+
+        justify-content: space-between;
+      }
+    }
+
+    // the idea is for readability
+    p {
+      margin: 1rem auto;
+      max-width: 72ch;
+    }
+  }
+}
+
+/* Media query for center section under 794px wide */
+@media all and (max-width: 794px) {
+  // the main section between the nav top bar and the footer
+  .main-section,
+  .main-section--left-wide,
+  .main-section--right-wide {
+    .sidebar {
+      grid-area: sidebar;
+
+      .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+        .card__body {
+          a {
+            display: inline-block;
+          }
+        }
+      }
+    }
+
+    // the main sections of each side of the site
+    .primary-content {
+      grid-area: pContent;
+      margin: 0 1rem;
+    }
+  }
+
+  .main-section {
+    grid-template-areas:
+      'sidebar'
+      'pContent';
+
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,36 +1,30 @@
-@use '../intial/index' as *;
+@use '../01-intial/index' as *;
 
-// For Image "Thumbnailing" in various sections
-// Example - Screenshots on Linux Distro and Desktop homepages
 
-.thumbnails {
-  padding: 2rem;
-
-  &--lg {
-    @extend .thumbnails;
-    max-height: 450px;
-  }
-
-  &--sm {
-    @extend .thumbnails;
-    max-height: 350px;
-  }
+/******************* Width ********************/
+.w-25 {
+  width: 25%;
 }
-
-// it looks like i forgot to paste the code from img-fluid here
-.thumbnail-fluid {
-	max-width: 100%;
-	height: auto;
-
-  &--sm {
-    @extend .thumbnail-fluid;
-    @include thumbnail--sm;
-  }
-
-  &--lg {
-    @extend .thumbnail-fluid;
-    @include thumbnail--lg;
-  }
+.w-30 {
+  width: 30%;
+}
+.w-33 {
+  width: 33%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-95 {
+  width: 95%;
 }
 
 // ?? what is this for?
@@ -230,4 +224,15 @@ code {
   @include darkBG;
 
   display: inline-block;
+}
+
+
+// I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this
+// The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something
+.greenText {
+  color: var(--green);
+}
+
+.redText {
+  color: var(--red);
 }

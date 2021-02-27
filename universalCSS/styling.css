@@ -35,75 +35,6 @@
   color: var(--themeBGColorAccent);
 }
 
-.greenText {
-  color: var(--green);
-}
-
-.redText {
-  color: var(--red);
-}
-
-/******************* Width ********************/
-.w-25 {
-  width: 25%;
-}
-
-.w-30 {
-  width: 30%;
-}
-
-.w-33 {
-  width: 33%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-.w-90 {
-  width: 90%;
-}
-
-.w-95 {
-  width: 95%;
-}
-
-/******************* Icon ********************/
-.icon,
-.icon--size48,
-.icon--size40,
-.icon--size32 {
-  display: inline-block;
-  margin-right: 1.1rem;
-}
-.icon a,
-.icon--size48 a,
-.icon--size40 a,
-.icon--size32 a {
-  fill: var(--white);
-  color: var(--white);
-}
-.icon--size32 {
-  height: 32px;
-  width: 32px;
-}
-.icon--size40 {
-  height: 40px;
-  width: 40px;
-}
-.icon--size48 {
-  height: 48px;
-  width: 48px;
-}
-
 *,
 body {
   box-sizing: border-box;
@@ -135,6 +66,71 @@ body h4,
 body h5 {
   color: var(--themeBGColorAccent);
   font-weight: 800;
+}
+
+a {
+  color: var(--midnightBlue);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/******************* Icon ********************/
+.icon,
+.icon--size48,
+.icon--size40,
+.icon--size32 {
+  display: inline-block;
+  margin-right: 1.1rem;
+}
+.icon a,
+.icon--size48 a,
+.icon--size40 a,
+.icon--size32 a {
+  fill: var(--white);
+  color: var(--white);
+}
+.icon--size32 {
+  height: 32px;
+  width: 32px;
+}
+.icon--size40 {
+  height: 40px;
+  width: 40px;
+}
+.icon--size48 {
+  height: 48px;
+  width: 48px;
+}
+
+.thumbnails,
+.thumbnails--sm,
+.thumbnails--lg {
+  padding: 2rem;
+}
+.thumbnails--lg {
+  max-height: 450px;
+}
+.thumbnails--sm {
+  max-height: 350px;
+}
+
+.thumbnail-fluid,
+.thumbnail-fluid--lg,
+.thumbnail-fluid--sm {
+  max-width: 100%;
+  height: auto;
+}
+.thumbnail-fluid--sm {
+  max-height: 350px;
+  padding: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+.thumbnail-fluid--lg {
+  max-height: 450px;
+  padding: 2rem;
+  max-width: 100%;
+  height: auto;
 }
 
 header,
@@ -175,6 +171,75 @@ footer .contacts {
   text-align: right;
 }
 
+header {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  text-shadow: 2px 5px var(--themeBGColorMain);
+  grid-area: header;
+}
+header nav.topnav a {
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 500;
+}
+header nav.topnav .icon {
+  display: none;
+}
+header .nav-icon {
+  font-size: 2rem;
+  color: var(--white);
+  background-color: var(--themeBGColorMain);
+}
+
+/************** Responsive CSS *******/
+/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 794px) {
+  header nav.topnav a {
+    display: none;
+  }
+  header nav.topnav .icon {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 794px) {
+  header nav.topnav.responsive {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: #333;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+  }
+  header nav.topnav.responsive a {
+    display: block;
+    text-align: left;
+    align-self: center;
+  }
+  header nav.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    display: block;
+    z-index: 1;
+    margin: 17px 35px 0 0;
+    outline: inherit;
+    align-self: start;
+  }
+}
+@media all and (max-width: 993px) {
+  .contacts {
+    width: 100% !important;
+  }
+
+  .site-made {
+    display: none;
+  }
+}
 /*********** Main Section in middle of page  *****/
 .main-section,
 .main-section--right-wide,
@@ -186,14 +251,6 @@ footer .contacts {
   grid-gap: 1.5rem;
   justify-items: stretch;
   /****** Sidebar *****/
-}
-.main-section a,
-.main-section--right-wide a,
-.main-section--left-wide a,
-.main-section--wide a {
-  color: var(--midnightBlue);
-  background-color: transparent;
-  text-decoration: none;
 }
 .main-section--wide {
   grid-template-columns: 1fr;
@@ -399,75 +456,6 @@ footer .contacts {
     grid-template-columns: 1fr;
   }
 }
-@media all and (max-width: 993px) {
-  .contacts {
-    width: 100% !important;
-  }
-
-  .site-made {
-    display: none;
-  }
-}
-header {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  padding: 1rem;
-  text-shadow: 2px 5px var(--themeBGColorMain);
-  grid-area: header;
-}
-header nav.topnav a {
-  padding: 1rem;
-  font-size: 22px;
-  font-weight: 500;
-}
-header nav.topnav .icon {
-  display: none;
-}
-header .nav-icon {
-  font-size: 2rem;
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
-}
-
-/************** Responsive CSS *******/
-/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 794px) {
-  header nav.topnav a {
-    display: none;
-  }
-  header nav.topnav .icon {
-    float: right;
-    display: block;
-  }
-}
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 794px) {
-  header nav.topnav.responsive {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    background: #333;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-  }
-  header nav.topnav.responsive a {
-    display: block;
-    text-align: left;
-    align-self: center;
-  }
-  header nav.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    display: block;
-    z-index: 1;
-    margin: 17px 35px 0 0;
-    outline: inherit;
-    align-self: start;
-  }
-}
 .accordion input {
   display: none;
 }
@@ -480,13 +468,13 @@ header .nav-icon {
   border-radius: 3px;
 }
 .accordion label::before {
-  font-family: "ForkAwesome";
+  font-family: "ForkAwesome", serif;
   margin-right: 0.5rem;
   content: "";
   font-weight: 900;
 }
 .accordion input:checked + label::before {
-  font-family: "ForkAwesome";
+  font-family: "ForkAwesome", serif;
   margin-right: 0.5rem;
   content: "";
   font-weight: 900;
@@ -572,13 +560,13 @@ header .nav-icon {
 
 @media all and (max-width: 794px) {
   .sidebar .accordion input + label::before {
-    font-family: "ForkAwesome";
+    font-family: "ForkAwesome", serif;
     margin-right: 0.5rem;
     content: "";
     font-weight: 900;
   }
   .sidebar .accordion input:checked + label::before {
-    font-family: "ForkAwesome";
+    font-family: "ForkAwesome", serif;
     margin-right: 0.5rem;
     content: "";
     font-weight: 900;
@@ -1403,35 +1391,37 @@ dl li {
     display: inline-flex !important;
   }
 }
-.thumbnails,
-.thumbnails--sm,
-.thumbnails--lg {
-  padding: 2rem;
-}
-.thumbnails--lg {
-  max-height: 450px;
-}
-.thumbnails--sm {
-  max-height: 350px;
+/******************* Width ********************/
+.w-25 {
+  width: 25%;
 }
 
-.thumbnail-fluid,
-.thumbnail-fluid--lg,
-.thumbnail-fluid--sm {
-  max-width: 100%;
-  height: auto;
+.w-30 {
+  width: 30%;
 }
-.thumbnail-fluid--sm {
-  max-height: 350px;
-  padding: 2rem;
-  max-width: 100%;
-  height: auto;
+
+.w-33 {
+  width: 33%;
 }
-.thumbnail-fluid--lg {
-  max-height: 450px;
-  padding: 2rem;
-  max-width: 100%;
-  height: auto;
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-95 {
+  width: 95%;
 }
 
 .list-group-item {
@@ -1580,6 +1570,14 @@ code {
   color: var(--white);
   background-color: var(--themeBGColorMain);
   display: inline-block;
+}
+
+.greenText {
+  color: var(--green);
+}
+
+.redText {
+  color: var(--red);
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */

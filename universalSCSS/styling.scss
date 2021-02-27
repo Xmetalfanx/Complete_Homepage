@@ -1,5 +1,4 @@
-@use 'intial/index' as *;
-@use 'layout/index' as *;
-@use 'components/index' as *;
-
-@use "custom/custom-dir" as *;
+@use '01-intial/index' as *;
+@use '02-layout/index' as *;
+@use '03-components/index' as *;
+@use "04-custom/index" as *;
