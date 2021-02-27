@@ -70,9 +70,9 @@ function softwareData(data) {
                 // Platform Section
                 // TODO: change this to the svg over fork awesome
                 const linuxIcon =
-                  '<img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon SVG" />';
+                  '<img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon SVG" class="icon--size32" />';
                 const windowsIcon =
-                  '<img src="/graphics/simpleIcons/darkBG/windows.svg" alt="Windows Icon SVG" />';
+                  '<img src="/graphics/simpleIcons/darkBG/windows.svg" alt="Windows Icon SVG" class="icon--size32"  />';
 
                 const cpIcon = linuxIcon + windowsIcon;
 
@@ -84,23 +84,22 @@ function softwareData(data) {
                   platformIcon = cpIcon;
                 }
 
-                // Text-primary = blue color
-                const platformDisplay = 'Platform:' + platformIcon;
+                const platformDisplay = '<span class="d-none d-md-block pr-3">Platform:</span>' + platformIcon;
 
                 // End Platform SECTION
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
                     <div class=\"card softwareCard\">
-                      <div class=\"card__header card__header--dark-bg\">
+                      <div class=\"card__header--wide\">
                         <div class=\"program-title\">
-                            <img data-src=\"${progIcon}\" alt=\"foobar alt tag\" class=\"icon icon--size-40 lazyload \" \>
+                            <img data-src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40 lazyload \" \>
                             <a href=\"${homepage}\" target="_blank" rel="noreferrer">
                             ${progTitle}
                             </a>
                         </div>
                         <div class=\"platform\">
-                            ${platformDisplay}
+                          ${platformDisplay}
                         </div>
                     </div>
                     `;

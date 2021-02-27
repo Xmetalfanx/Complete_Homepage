@@ -65,11 +65,11 @@ function browserAddonData(data) {
                         let firefoxURL = addonURLs.firefoxURL;
 
                         const browserOutput = `
-                        
+
                             <div class="card">
-                                <div class="card__header card__header--dark-bg"> 
+                                <div class="card__header card__header--dark-bg">
                                     <div class="addon-title">
-                                        <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon icon--size40"/>${addonTitle}
+                                        <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon--size40"/>${addonTitle}
                                     </div>
                                     <div class="platform">
                                         <a href="${chromeURL}" target="_blank">
@@ -79,7 +79,7 @@ function browserAddonData(data) {
                                            <a href="${firefoxURL}" target="_blank">
                                             <img src=\"${browserIconDir}${firefoxIcon}\" alt=\"${addonTitle} Firefox icon\" class=\" icon icon--size40\" />
                                             </a>
-                                    
+
                                     </div>
                                 </div>
                                 <div class="card__body">

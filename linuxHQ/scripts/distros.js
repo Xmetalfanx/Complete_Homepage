@@ -66,7 +66,7 @@ function displayDistroOutput(
 
   const currentDistoHeaderOutput = `
       <div class="card__header">
-        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon icon--size48">
+        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
         <span class="font-weight-bold">${currentDistroTitle}</span>
       </div>
   `;

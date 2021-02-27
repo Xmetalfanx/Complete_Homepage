@@ -90,16 +90,22 @@
   }
 
   &--size32 {
+    @extend .icon;
+
     height: 32px;
     width: 32px;
   }
 
   &--size40 {
+    @extend .icon;
+
     height: 40px;
     width: 40px;
   }
 
   &--size48 {
+    @extend .icon;
+
     height: 48px;
     width: 48px;
   }

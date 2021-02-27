@@ -67,10 +67,10 @@ function browserData(data) {
                     const browserOutput = `
 
                     <div class="card m-4">
-                        <div class="card__header card__header--dark-bg">
+                        <div class="card__header--wide">
                             <div class="card-name">
                                 <a href="${browserHomepage}" blank="_blank">
-                                    <img data-src="${browserIconsDir}${browserIcon}" class="icon icon--size40 lazyload" /> ${browserTitle}</a>
+                                    <img data-src="${browserIconsDir}${browserIcon}" class="icon--size40 lazyload" /> ${browserTitle}</a>
                             </div>
                             <div class="platform">
                                 Platform(s): ${browserPlatforms}
@@ -78,7 +78,7 @@ function browserData(data) {
                         </div>
 
                         <div class="card__body">
-                         
+
                             <span class="font-weight-bold"> Browser Engine:</span> (TODO later)
 
                             <br /><br />

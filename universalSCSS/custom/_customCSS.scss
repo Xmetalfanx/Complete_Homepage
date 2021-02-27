@@ -1,32 +1,36 @@
 @use '../intial/index' as *;
 
-
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
 
 .thumbnails {
-
   padding: 2rem;
 
   &--lg {
+    @extend .thumbnails;
     max-height: 450px;
   }
 
   &--sm {
+    @extend .thumbnails;
     max-height: 350px;
   }
 }
 
+// it looks like i forgot to paste the code from img-fluid here
 .thumbnail-fluid {
+	max-width: 100%;
+	height: auto;
 
   &--sm {
+    @extend .thumbnail-fluid;
     @include thumbnail--sm;
   }
 
   &--lg {
+    @extend .thumbnail-fluid;
     @include thumbnail--lg;
   }
-
 }
 
 // ?? what is this for?
@@ -105,21 +109,17 @@
   }
 }
 
+
+// is there a need for this to be so hyper-specific? yes (tip: look at grid-template-area)
 // Place in the "card" div
 .softwareCard {
-  .card__header {
-    align-items: center;
-    display: grid;
-    grid-template-areas: 'program-title platform';
-    justify-content: space-around;
+  .card__header--wide {
 
-    img {
-      max-height: 48px;
-      padding: 10px;
-    }
+    grid-template-areas: 'program-title platform';
 
     .program-title {
       grid-area: program-title;
+      align-self: flex-start;
     }
 
     .platform {
@@ -189,7 +189,6 @@
 
 // For LinuxHQ distro section and eventually more
 #desktopSection {
-
   .card {
     box-shadow: none;
     border: 1px dotted var(--themeBGColorMain);
@@ -228,8 +227,7 @@
 }
 
 code {
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
+  @include darkBG;
 
   display: inline-block;
 }

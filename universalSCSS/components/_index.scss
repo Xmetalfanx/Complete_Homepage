@@ -11,7 +11,6 @@
     color: var(--white);
     background-color: var(--themeBGColorMain);
 
-
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
@@ -69,11 +68,9 @@
 // Default: expanded on desktop layouts, collasped on smaller layouts
 // the fullpage class is for pages that do not have sidebar and p(rimary)Content right and left section
 
-
-
-
 // this is for the desktop layout
-.sidebar, .fullpage {
+.sidebar,
+.fullpage {
   .accordion {
     input {
       display: none;
@@ -83,7 +80,6 @@
     label {
       color: var(--white);
       background-color: var(--themeBGColorMain);
-
 
       display: block;
       padding: 8px 22px;

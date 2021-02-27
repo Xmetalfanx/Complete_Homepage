@@ -75,19 +75,22 @@ footer {
     margin: 0.4rem;
   }
 
-  .contacts, .site-made {
+  .contacts,
+  .site-made {
     width: 50%;
   }
 
   .contacts {
     text-align: right;
   }
-
 }
 
 /*********** Main Section in middle of page  *****/
 
 // the main section between the nav top bar and the footer
+
+// This CONTAINS sidebar and "primary-content" ... i was getting confused looking at this months later thinking
+// that this WAS primary-content in a different name
 .main-section {
   grid-area: main-section;
   padding: 1.5rem;
@@ -103,23 +106,27 @@ footer {
     text-decoration: none;
   }
 
+
+  // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
+  &--wide {
+    @extend .main-section;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'pContent';
+  }
+
+
   &--left-wide {
+    @extend .main-section;
     grid-template-columns: auto 18%;
     grid-template-areas: 'pContent sidebar';
   }
 
   &--right-wide {
+    @extend .main-section;
     grid-template-columns: 18% auto;
     grid-template-areas: 'sidebar pContent';
   }
 
-  // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
-  &--wide {
-    grid-template-columns: 1fr;
-    grid-template-areas: 'pContent';
-  }
-
-  /************** Cards in mainSection specifically *************/
   .card {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     margin: 0 auto 1.2rem auto;
@@ -136,6 +143,7 @@ footer {
     }
 
     .card__header {
+      align-items: center;
       border-color: var(--themeBGColorMain);
       background-color: var(--themeBGColorMain);
       color: white;
@@ -154,18 +162,15 @@ footer {
       }
 
       &--wide {
-        justify-content: space-between
+        @extend .card__header;
+        justify-content: space-between;
       }
 
-      // Dark BG for header, and light text
-      &--dark-bg {
-
-        // not a fan of this var name but i dont want name collosion with "card-title" which is the var i rather use
-        .card-name,
-        .addon-title {
-          font-size: 20px;
-          font-weight: 700;
-        }
+     // Feb 2021 update: what is this needed for? ... seems hyper specific, for no reason
+      .card-name,
+      .addon-title {
+        font-size: 20px;
+        font-weight: 700;
       }
     }
   }
@@ -201,6 +206,15 @@ footer {
   // the main sections of each side of the site
   .primary-content {
     grid-area: pContent;
+
+    .card {
+      .card__header {
+        align-items: center;
+        display: grid;
+
+        justify-content: space-between;
+      }
+    }
 
     // the idea is for readability
     p {
@@ -248,7 +262,6 @@ footer {
   }
 }
 
-
 /////////////////////////////////////////////////////////////////////
 // so the footer spans across the entire botton, with the .site-made div being hidden now
 @media all and (max-width: 993px) {
@@ -259,9 +272,7 @@ footer {
   .site-made {
     display: none;
   }
-
 }
-
 
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -291,9 +302,7 @@ header {
   // graphic to left of frontpage-title
   .nav-icon {
     font-size: 2rem;
-    color: var(--white);
-    background-color: var(--themeBGColorMain);
-
+    @include darkBG;
   }
 }
 

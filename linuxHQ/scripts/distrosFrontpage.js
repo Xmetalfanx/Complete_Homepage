@@ -35,7 +35,7 @@ function displayDistroOutput(
         <div class="card pb-3 w-33">
           <div class="card-header pl-2">
             <h4>
-                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon icon--size40"> ${currentDistroTitle}
+                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40"> ${currentDistroTitle}
             </h4>
           </div>
 
