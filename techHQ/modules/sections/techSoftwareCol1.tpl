@@ -57,12 +57,12 @@
   <input id="systemApps" type="checkbox">
   <label for="systemApps">System Tools</label>
   <div class="content">
-    <a href="/techHQ/software/sTools/archivers.php">Archivers</a><br/>
-    <a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a><br/>
-    <a href="/techHQ/software/sTools/burners.php">CD/DVD/Blue Ray Burners</a><br/>
+    <a href="/techHQ/software/sTools/archivers.php">Archivers</a>
+    <a href="/techHQ/software/sTools/backupSoftware.php">Backup Software</a>
+    <a href="/techHQ/software/sTools/burners.php">CD/DVD/Blue Ray Burners</a>
     <a href="/techHQ/software/sTools/defrag.php">Defragmenters</a><br>[File Managers]<br>
     <!-- a(href='/techHQ/software/sTools/startupManangers.php') Startup Managers-->
-    <a href="/techHQ/software/sTools/systemSuites.php">System Suites</a><br/>
+    <a href="/techHQ/software/sTools/systemSuites.php">System Suites</a>
     <a href="/techHQ/software/sTools/taskManagers.php">Task Manager</a>
   </div>
 </div>

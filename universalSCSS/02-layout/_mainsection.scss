@@ -31,54 +31,6 @@
     grid-template-areas: 'sidebar pContent';
   }
 
-  .card {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    margin: 0 auto 1.2rem auto;
-
-    min-width: 8rem;
-
-    &--bordered {
-      border: 1px solid var(--themeBGColorMain);
-    }
-
-    .card__body,
-    .card__text {
-      padding: 1rem;
-    }
-
-    .card__header {
-      align-items: center;
-      border-color: var(--themeBGColorMain);
-      background-color: var(--themeBGColorMain);
-      color: white;
-      display: flex;
-      flex-direction: row;
-      font-weight: bold;
-      font-size: 1.1rem;
-      justify-content: flex-start;
-      padding: 1rem;
-
-      a:link,
-      a:visited {
-        background-color: inherit;
-        color: var(--white);
-        text-decoration: none;
-      }
-
-      &--wide {
-        @extend .card__header;
-        justify-content: space-between;
-      }
-
-      // Feb 2021 update: what is this needed for? ... seems hyper specific, for no reason
-      .card-name,
-      .addon-title {
-        font-size: 20px;
-        font-weight: 700;
-      }
-    }
-  }
-
   /****** Sidebar *****/
   .sidebar {
     img {

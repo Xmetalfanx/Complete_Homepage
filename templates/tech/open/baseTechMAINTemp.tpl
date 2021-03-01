@@ -10,6 +10,6 @@
 		<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
 
       <!-- for the section (all of it) between header and footer -->
-			<div class="main-section">
+			<div class="main-section--wide">
 
 

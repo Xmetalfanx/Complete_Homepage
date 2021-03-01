@@ -84,7 +84,9 @@ function softwareData(data) {
                   platformIcon = cpIcon;
                 }
 
-                const platformDisplay = '<span class="d-none d-md-block pr-3">Platform:</span>' + platformIcon;
+                const platformDisplay =
+                  '<span class="d-none d-md-inline-block pr-3">Platform:</span>' +
+                  platformIcon;
 
                 // End Platform SECTION
                 //////////////////////////////////////////////

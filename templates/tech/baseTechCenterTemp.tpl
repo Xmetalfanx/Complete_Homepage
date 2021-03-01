@@ -17,8 +17,8 @@
 			<div class="primary-content">
 
 			</div>
-
+	<!-- include baseTechFooter -->
+		<?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
 		</div>
 
-		<!-- include baseTechFooter -->
-		<?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
+

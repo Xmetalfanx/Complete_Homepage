@@ -1,5 +1,9 @@
 @use '../01-intial/index' as *;
 
+// for display:grid, spans two columns
+.span2 {
+  grid-column: span 2;
+}
 
 /******************* Width ********************/
 .w-25 {
@@ -87,8 +91,10 @@
 
 // Footer specially (for now?) in the TechHQ side of the site
 #techHQFooter {
-  display: flex;
-  flex-direction: row;
+  // display: flex;
+  //flex-direction: row;
+
+  grid-column: span 2;
   padding-left: 20px;
 
   a {
@@ -103,12 +109,11 @@
   }
 }
 
+// is there a need for this to be so hyper-specific?
+// (tip: look at grid-template-area)
 
-// is there a need for this to be so hyper-specific? yes (tip: look at grid-template-area)
-// Place in the "card" div
 .softwareCard {
   .card__header--wide {
-
     grid-template-areas: 'program-title platform';
 
     .program-title {
@@ -155,7 +160,7 @@
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
 #EducationalSites {
-  justify-content: space-around;
+  grid-column: span 2;
   margin-bottom: 0 auto 25px auto;
   text-align: center;
   width: 75%;
@@ -177,6 +182,17 @@
     .card__header {
       font-size: 24px;
       font-weight: 700;
+    }
+  }
+}
+
+@media all and (max-width: 794px) {
+  #EducationalSites {
+    width: 90%;
+    grid-column: auto;
+
+    a {
+      display: block;
     }
   }
 }
@@ -225,7 +241,6 @@ code {
 
   display: inline-block;
 }
-
 
 // I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this
 // The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something

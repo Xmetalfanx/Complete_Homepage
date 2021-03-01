@@ -67,6 +67,49 @@ body h5 {
   color: var(--themeBGColorAccent);
   font-weight: 800;
 }
+body .card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin: 0 auto 1.2rem auto;
+  min-width: 8rem;
+}
+body .card--bordered {
+  border: 1px solid var(--themeBGColorMain);
+}
+body .card .card__body,
+body .card .card__text {
+  padding: 1rem;
+}
+body .card .card__header,
+body .card .card__header--wide {
+  align-items: center;
+  border-color: var(--themeBGColorMain);
+  background-color: var(--themeBGColorMain);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 1.1rem;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+body .card .card__header a:link,
+body .card .card__header--wide a:link,
+body .card .card__header a:visited,
+body .card .card__header--wide a:visited {
+  background-color: inherit;
+  color: var(--white);
+  text-decoration: none;
+}
+body .card .card__header--wide {
+  justify-content: space-between;
+}
+body .card .card__header .card-name,
+body .card .card__header--wide .card-name,
+body .card .card__header .addon-title,
+body .card .card__header--wide .addon-title {
+  font-size: 20px;
+  font-weight: 700;
+}
 
 a {
   color: var(--midnightBlue);
@@ -264,94 +307,6 @@ header .nav-icon {
   grid-template-columns: 18% auto;
   grid-template-areas: "sidebar pContent";
 }
-.main-section .card,
-.main-section--wide .card,
-.main-section--left-wide .card,
-.main-section--right-wide .card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  margin: 0 auto 1.2rem auto;
-  min-width: 8rem;
-}
-.main-section .card--bordered,
-.main-section--wide .card--bordered,
-.main-section--left-wide .card--bordered,
-.main-section--right-wide .card--bordered {
-  border: 1px solid var(--themeBGColorMain);
-}
-.main-section .card .card__body,
-.main-section--wide .card .card__body,
-.main-section--left-wide .card .card__body,
-.main-section--right-wide .card .card__body,
-.main-section .card .card__text,
-.main-section--wide .card .card__text,
-.main-section--left-wide .card .card__text,
-.main-section--right-wide .card .card__text {
-  padding: 1rem;
-}
-.main-section .card .card__header,
-.main-section .card .card__header--wide,
-.main-section--wide .card .card__header,
-.main-section--wide .card .card__header--wide,
-.main-section--left-wide .card .card__header,
-.main-section--left-wide .card .card__header--wide,
-.main-section--right-wide .card .card__header,
-.main-section--right-wide .card .card__header--wide {
-  align-items: center;
-  border-color: var(--themeBGColorMain);
-  background-color: var(--themeBGColorMain);
-  color: white;
-  display: flex;
-  flex-direction: row;
-  font-weight: bold;
-  font-size: 1.1rem;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-.main-section .card .card__header a:link,
-.main-section .card .card__header--wide a:link,
-.main-section--wide .card .card__header a:link,
-.main-section--wide .card .card__header--wide a:link,
-.main-section--left-wide .card .card__header a:link,
-.main-section--left-wide .card .card__header--wide a:link,
-.main-section--right-wide .card .card__header a:link,
-.main-section--right-wide .card .card__header--wide a:link,
-.main-section .card .card__header a:visited,
-.main-section .card .card__header--wide a:visited,
-.main-section--wide .card .card__header a:visited,
-.main-section--wide .card .card__header--wide a:visited,
-.main-section--left-wide .card .card__header a:visited,
-.main-section--left-wide .card .card__header--wide a:visited,
-.main-section--right-wide .card .card__header a:visited,
-.main-section--right-wide .card .card__header--wide a:visited {
-  background-color: inherit;
-  color: var(--white);
-  text-decoration: none;
-}
-.main-section .card .card__header--wide,
-.main-section--wide .card .card__header--wide,
-.main-section--left-wide .card .card__header--wide,
-.main-section--right-wide .card .card__header--wide {
-  justify-content: space-between;
-}
-.main-section .card .card__header .card-name,
-.main-section--wide .card .card__header .card-name,
-.main-section--left-wide .card .card__header .card-name,
-.main-section--right-wide .card .card__header .card-name,
-.main-section .card .card__header--wide .card-name,
-.main-section--wide .card .card__header--wide .card-name,
-.main-section--left-wide .card .card__header--wide .card-name,
-.main-section--right-wide .card .card__header--wide .card-name,
-.main-section .card .card__header .addon-title,
-.main-section--wide .card .card__header .addon-title,
-.main-section--left-wide .card .card__header .addon-title,
-.main-section--right-wide .card .card__header .addon-title,
-.main-section .card .card__header--wide .addon-title,
-.main-section--wide .card .card__header--wide .addon-title,
-.main-section--left-wide .card .card__header--wide .addon-title,
-.main-section--right-wide .card .card__header--wide .addon-title {
-  font-size: 20px;
-  font-weight: 700;
-}
 .main-section .sidebar,
 .main-section--wide .sidebar,
 .main-section--left-wide .sidebar,
@@ -369,11 +324,7 @@ header .nav-icon {
 .main-section .sidebar .card .card__header,
 .main-section--wide .sidebar .card .card__header,
 .main-section--left-wide .sidebar .card .card__header,
-.main-section--right-wide .sidebar .card .card__header,
-.main-section .sidebar .card .card__header--wide,
-.main-section--wide .sidebar .card .card__header--wide,
-.main-section--left-wide .sidebar .card .card__header--wide,
-.main-section--right-wide .sidebar .card .card__header--wide {
+.main-section--right-wide .sidebar .card .card__header {
   padding: 0.5rem 1rem;
 }
 .main-section .sidebar .card .card__body,
@@ -401,11 +352,7 @@ header .nav-icon {
 .main-section .primary-content .card .card__header,
 .main-section--wide .primary-content .card .card__header,
 .main-section--left-wide .primary-content .card .card__header,
-.main-section--right-wide .primary-content .card .card__header,
-.main-section .primary-content .card .card__header--wide,
-.main-section--wide .primary-content .card .card__header--wide,
-.main-section--left-wide .primary-content .card .card__header--wide,
-.main-section--right-wide .primary-content .card .card__header--wide {
+.main-section--right-wide .primary-content .card .card__header {
   align-items: center;
   display: grid;
   justify-content: space-between;
@@ -1391,6 +1338,10 @@ dl li {
     display: inline-flex !important;
   }
 }
+.span2 {
+  grid-column: span 2;
+}
+
 /******************* Width ********************/
 .w-25 {
   width: 25%;
@@ -1471,8 +1422,7 @@ dl li {
 }
 
 #techHQFooter {
-  display: flex;
-  flex-direction: row;
+  grid-column: span 2;
   padding-left: 20px;
 }
 #techHQFooter a {
@@ -1518,7 +1468,7 @@ dl li {
   }
 }
 #EducationalSites {
-  justify-content: space-around;
+  grid-column: span 2;
   margin-bottom: 0 auto 25px auto;
   text-align: center;
   width: 75%;
@@ -1540,6 +1490,15 @@ dl li {
   font-weight: 700;
 }
 
+@media all and (max-width: 794px) {
+  #EducationalSites {
+    width: 90%;
+    grid-column: auto;
+  }
+  #EducationalSites a {
+    display: block;
+  }
+}
 #desktopSection .card {
   box-shadow: none;
   border: 1px dotted var(--themeBGColorMain);
@@ -1585,6 +1544,12 @@ code {
   width: 50%;
   padding-top: 3px;
   margin: 0 auto;
+}
+
+@media all and (max-width: 794px) {
+  #GAOTD {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=styling.css.map */

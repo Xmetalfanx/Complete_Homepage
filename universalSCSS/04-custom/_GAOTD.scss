@@ -5,3 +5,9 @@
   padding-top: 3px;
   margin: 0 auto;
 }
+
+@media all and (max-width: 794px) {
+  #GAOTD {
+    width: 90%;
+  }
+}
