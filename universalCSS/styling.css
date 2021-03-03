@@ -112,7 +112,7 @@ body .card .card__header--wide .addon-title {
 }
 
 a {
-  color: var(--midnightBlue);
+  color: var(--themeBGColorAccent);
   background-color: transparent;
   text-decoration: none;
 }

@@ -5,8 +5,3 @@
   include $path . "/templates/tech/baseTechCenterTemp.tpl";
 
 ?>
-
-<div>
-  Tech Center HQ 
-</div>
-

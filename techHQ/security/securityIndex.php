@@ -12,17 +12,20 @@
   <li>"Are infected" does not make it true, if it is a poor scanner</li>
   <li>"Are not infected" does not mean you are not, again ... if its a poor scanner</li>
 </ul>
+
 <h2>Overall Security Tips</h2>
-<div class="my-4 shadow card card--bordered w-80">
+
+<div class="my-4 card w-80">
   <div class="card__header">COMMON SENSE</div>
-  <div class="card-body">
+  <div class="card__body">
     While I'd never say "forget security software, just use common sense alone".... do not underestimate this.
     Sure SOME products are "snake oil", but there are some trusted names in the fields of different sorts of security products
   </div>
 </div>
-<div class="my-4 shadow card card--bordered w-80">
+
+<div class="my-4 card w-80">
   <div class="card__header">Use a Good Anti-Virus</div>
-  <div class="card-body">Here are two good, free options:
+  <div class="card__body">Here are two good, free options:
     <ul class="list-group list-group-flush">
       <li class="list-group-item">
         <a href="https://support.kaspersky.com/us/kscloud" target="_blank">
@@ -42,4 +45,3 @@
 </div>
 </div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
