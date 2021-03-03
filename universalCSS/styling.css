@@ -605,7 +605,7 @@ header .nav-icon {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100;
+  width: 100%;
 }
 .carousel .carousel__track {
   list-style: none;
@@ -1469,7 +1469,7 @@ dl li {
 }
 #EducationalSites {
   grid-column: span 2;
-  margin-bottom: 0 auto 25px auto;
+  margin: 0 auto 25px auto;
   text-align: center;
   width: 75%;
 }
