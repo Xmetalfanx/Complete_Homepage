@@ -5,7 +5,7 @@
   <input id="multimediaRelated" type="checkbox">
   <label for="multimediaRelated">Multimedia Related</label>
   <div class="content">
-    <a href="/techHQ/techcenter/multimedia/id3TagLookup.php">ID3 Tag-lookup</a>
+    <a href="/techHQ/techcenter/multimedia/id3tags.php">ID3 Tag-lookup</a>
   </div>
 
   <!-- the input ID and for="" have to be equal-->

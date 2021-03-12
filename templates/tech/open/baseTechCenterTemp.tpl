@@ -14,8 +14,3 @@
 			</div>
 
 			<div class="primary-content">
-
-			</div>
-
- 
-    </div>
