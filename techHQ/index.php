@@ -8,7 +8,7 @@
 
 ?>
 
-<div id="EducationalSites" class="card">
+<div class="EducationalSites card">
   <div class="card__header">Educational Sites</div>
   <div class="card__body">
     <figure>
@@ -26,32 +26,46 @@
     </figure>
 
     <figure>
-      <a href="https://linuxjourney.com/" target="_blank">
-        <img class="d-none d-lg-block lazyload img-fluid" data-src="../graphics/linux-journey.png" alt="Linux Journey graphic" />
-        <figcaption>Linux Journey</figcaption>
-      </a>
-    </figure>
-
-
-    <figure>
       <a href="http://www.kristakingmath.com/" target="_blank" rel="noreferrer" aria-label="Link to Krista King's Math related site">
         <img class="d-none d-lg-block lazyload img-fluid" data-src="/graphics/kking_logo.png" alt="Krista King Math Site graphics">
       <figcaption>Krista King Math Tutor</figcaption>
-    </a>
+      </a>
     </figure>
 
     <figure>
-    <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
-      <img class="d-none d-lg-block lazyload" data-src="/graphics/mathandscience.jpg" alt="Science and Math.com graphics">
-
-      <figcaption>ScienceandMath.com</figcaption>
-
-    </a>
-
+      <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
+        <img class="d-none d-lg-block lazyload" data-src="/graphics/mathandscience.jpg" alt="Science and Math.com graphics">
+        <figcaption>ScienceandMath.com</figcaption>
+      </a>
   </figure>
+
+
 
   </div> <!-- closes card__body -->
 </div> <!-- closes Edu link, card -->
+
+
+<div class="EducationalSites card">
+  <div class="card__header">Learning Linux</div>
+  <div class="card__body d-block">
+    <h4>Learning the Commandline</h4>
+
+     <figure>
+      <a href="https://linuxjourney.com/" target="_blank">
+        <img class="d-none d-lg-block lazyload img-fluid" data-src="../graphics/linux-journey.png" alt="Linux Journey graphic" />
+        <figcaption>Linux Journey</figcaption>      
+      </a>
+    </figure>
+
+    <figure>
+      <a href="http://www.explainshell.com" target="">
+      ExplainShell.com
+      </a>
+    </figure>
+
+  </div> <!-- closes card__body -->
+
+</div> <!-- closes card -->
 
 
 <?php include $path . '/techHQ/modules/GAOTD.tpl'; ?>

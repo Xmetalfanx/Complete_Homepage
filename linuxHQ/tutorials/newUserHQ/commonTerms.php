@@ -2,8 +2,10 @@
 
 	$pageTitle = 'Common Terms in Linux';
 
-	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+
+	$path = getenv('DOCUMENT_ROOT');
+
+  include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
 
   ?>

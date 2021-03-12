@@ -155,7 +155,7 @@
 
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
-#EducationalSites {
+.EducationalSites {
   grid-column: span 2;
   margin: 0 auto 25px auto;
   text-align: center;
@@ -183,7 +183,7 @@
 }
 
 @media all and (max-width: 794px) {
-  #EducationalSites {
+  .EducationalSites {
     width: 90%;
     grid-column: auto;
 
