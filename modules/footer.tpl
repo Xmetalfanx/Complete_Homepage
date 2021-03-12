@@ -17,7 +17,7 @@
   </div>
 
   <div class="contacts">
-    <span class="pr-4 d-none d-md-block">Xmetal/Xmetalfanx 2013-*</span>
+    <span class="pr-4 d-none d-md-inline-block">Xmetal/Xmetalfanx 2013-*</span>
 
     <a href="https://gitlab.com/Xmetal" aria-label="Xmetalfanx Gitlab Page" target="_blank" rel="noopener">
       <img src="/graphics/simpleIcons/darkBG/gitlab.svg" alt="GitLab SVG">
