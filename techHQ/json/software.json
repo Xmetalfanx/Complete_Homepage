@@ -335,18 +335,18 @@
       },
       {
         "images": {
-          "icon": "/techHQ/progIcons/media/media_players/",
+          "icon": "/techHQ/progIcons/media/media_players/strawberry.png",
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "https://www.clementine-player.org",
-          "progPlatform": "l",
+          "progDesc": "More Updated fork of Clemintine, which seems discontinued at times",
+          "progHomepage": "https://www.strawberrymusicplayer.org/",
+          "progPlatform": "cp",
           "status": "active",
           "worksonwine": false
         },
-        "progName": "clementine",
-        "progTitle": "Clementine"
+        "progName": "strawberry",
+        "progTitle": "Strawberry Music Player"
       },
       {
         "images": {

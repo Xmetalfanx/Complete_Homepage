@@ -27,8 +27,8 @@
   <input id="multimediaApps" type="checkbox">
   <label for="multimediaApps">Multimedia</label>
   <div class="content">
-    <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players<em>Audio</em></a><br/>
-    <a href="/techHQ/software/multimedia/media_players_video.php">Media Players<em>Video</em></a><br/>
+    <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players - <em>Audio</em></a><br/>
+    <a href="/techHQ/software/multimedia/media_players_video.php">Media Players - <em>Video</em></a><br/>
     <a href="/techHQ/software/multimedia/multimediaVarious.php">Various Apps</a>
     <a href="/techHQ/software/multimedia/videoEditing.php">Video Editing</a>
   </div>
