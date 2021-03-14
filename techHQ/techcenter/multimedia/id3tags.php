@@ -4,7 +4,7 @@
 
     $path = getenv('DOCUMENT_ROOT');
 
-    include $path . "/templates/tech/open/baseTechCenterTemp.tpl";
+    include $path . "/templates/tech/open/baseTechCenter.tpl";
 ?>
 
 <h1>Introduction</h1>
@@ -28,13 +28,13 @@
 <div>I also have a Misc. folder for anything left over... not to get too picky. This can also help you if you have a large collection and you have not really used ID3 tags before.</div>
 
 <h1>Software</h1>
-<h2> 
+<h2>
     <a href="https://www.strawberrymusicplayer.org/" target="_blank">Strawberry Music Player (MusicBrainz)</a>
 </h2>
     The regularly updated fork of <a href="https://www.clementine-player.org/" target="_blank">link the Clemintine Music Player</a>
 
 <h2> <a href="https://picard.musicbrainz.org/" target="_blank">MusicBrainz Picard</a></h2>
-A Cross Platform option, written in Python 
+A Cross Platform option, written in Python
 
 
 

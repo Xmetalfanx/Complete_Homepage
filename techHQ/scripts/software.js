@@ -18,7 +18,7 @@ function softwareData(data) {
       // pick better var than "i", later
       for (let i in data) {
         // Clear Var
-        const progPlatform = '';
+        const platform = '';
 
         // Cant remember what this Object.keys is for
         const mainCategories = Object.keys(data);

@@ -1,8 +1,8 @@
 <?php
 	$pageTitle = ' Main Index Page ';
 
-    
-    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurityTemp.tpl";
+
+    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurity.tpl";
 ?>
 
 

@@ -2,7 +2,7 @@
 
   $pageTitle = 'Productivity/Office Programs - Text Editors';
 
-  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftware.tpl";
 
 ?>
 

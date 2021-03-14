@@ -1,14 +1,14 @@
 <?php
 
 	$the_title = ' Security Section - Removing Data and not just Deleting';
-  
-  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurityTemp.tpl";
+
+  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurity.tpl";
 ?>
     <div class="panel panel-default">
-        
+
         <div class="panel-heading">Security Removing Data from your computer</div>
-        
-        <div class="panel-body"> Here is a topic I forgot about putting on the site . Recently on the news they showed how when you get rid of computer, how anyone can get your information within minutes... personal records, social security numbers, tax data and more ... .Although I do not keep that sort of thing on my machine, some do... I can not tell you exactly where all of your files are to remove (all your tax info, what files have S.S. Numbers... etc) that will very by machine and the program you use... but i will give you a few bits of information 
+
+        <div class="panel-body"> Here is a topic I forgot about putting on the site . Recently on the news they showed how when you get rid of computer, how anyone can get your information within minutes... personal records, social security numbers, tax data and more ... .Although I do not keep that sort of thing on my machine, some do... I can not tell you exactly where all of your files are to remove (all your tax info, what files have S.S. Numbers... etc) that will very by machine and the program you use... but i will give you a few bits of information
         </div>
     </div>
 

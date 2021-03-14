@@ -4,7 +4,7 @@
 
   $path = getenv('DOCUMENT_ROOT');
 
-  include $path . "/templates/tech/open/baseTechSoftwareTemp.tpl";
+  include $path . "/templates/tech/open/baseTechSoftware.tpl";
 
 ?>
 

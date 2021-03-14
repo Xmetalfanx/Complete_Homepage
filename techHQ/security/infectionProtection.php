@@ -1,8 +1,8 @@
 <?php
 	$pageTitle = ' Security Section Frontpage';
 
-  $path = getenv('DOCUMENT_ROOT'); 
-  include $path . "/templates/tech/open/baseTechSecurityTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT');
+  include $path . "/templates/tech/open/baseTechSecurity.tpl";
 
 ?>
 
@@ -17,7 +17,7 @@
 
 <div class="card w-95 mx-auto shadow my-2">
   <div class="card-header">Things Pro (paid) versions of programs tend to have, the free programs do not</div>
-  <div class="card-body"> 
+  <div class="card-body">
     <ul>
       <li>Better tech support from company when you actually purchase the software&apos;s Pro version
         <div>This fact I even question, since at one point,  I had questions for Comodo AND Avast, and (via forum) both responded promptly, and answered my question(s) completely)   </div>
@@ -35,6 +35,6 @@
 
 
 </div>
-</div> 
+</div>
 
 <?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -280,7 +280,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "https://www.aimp.ru/",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": true
         },
@@ -374,7 +374,7 @@
         "moreInfo": {
           "progDesc": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <p> <em> COMMENT: </em> I am not saying this  is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards </p>",
           "progHomepage": "http://mp3gain.sourceforge.net/",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -502,7 +502,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "cp",
           "status": "",
           "worksonwine": false
         },
@@ -558,7 +558,7 @@
       },
       {
         "images": {
-          "icon": "/techHQ/progIcons/product/libreIcons/lofficeMain.png",
+          "icon": "/techHQ/progIcons/product/libreIcons/libreoffice_darkbg.svg",
           "sshoturl": null
         },
         "moreInfo": {
@@ -802,7 +802,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -882,7 +882,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -897,7 +897,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -912,7 +912,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -931,7 +931,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "http://www.7zip.org",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -946,7 +946,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -1219,7 +1219,7 @@
         "moreInfo": {
           "progDesc": "",
           "progHomepage": "",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -1347,7 +1347,7 @@
         "moreInfo": {
           "progDesc": "Package Manager and installer",
           "progHomepage": "https://chocolatey.org/",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },
@@ -1423,7 +1423,7 @@
         "moreInfo": {
           "progDesc": "File and Folder backup program with many options",
           "progHomepage": "http://www.2brightsparks.com/syncback/syncback-hub.html",
-          "progPlatform": "",
+          "progPlatform": "w",
           "status": "",
           "worksonwine": false
         },

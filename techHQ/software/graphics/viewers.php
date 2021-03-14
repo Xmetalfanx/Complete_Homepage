@@ -2,7 +2,8 @@
 
   $pageTitle = 'Graphics Related';
 
-  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftwareTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT');
+  include $path . "/templates/tech/baseTechSoftware.tpl";
 
 ?>
 

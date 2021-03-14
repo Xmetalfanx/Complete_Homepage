@@ -2,7 +2,7 @@
 	$pageTitle = ' Security Section Frontpage';
 
   $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/open/baseTechSecurityTemp.tpl";
+  include $path . "/templates/tech/open/baseTechSecurity.tpl";
 
 ?>
 

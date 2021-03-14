@@ -3,8 +3,7 @@
   $pageTitle = "TechHQ Frontpage";
 
   $path = getenv('DOCUMENT_ROOT');
-
-  include ($path . '/templates/tech/open/baseTechMAINTemp.tpl');
+  include ($path . '/templates/tech/open/baseTechMAIN.tpl');
 
 ?>
 
@@ -53,7 +52,7 @@
      <figure>
       <a href="https://linuxjourney.com/" target="_blank">
         <img class="d-none d-lg-block lazyload img-fluid" data-src="../graphics/linux-journey.png" alt="Linux Journey graphic" />
-        <figcaption>Linux Journey</figcaption>      
+        <figcaption>Linux Journey</figcaption>
       </a>
     </figure>
 

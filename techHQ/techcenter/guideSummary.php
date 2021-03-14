@@ -1,8 +1,8 @@
 <?php
 
   $pageTitle ='Guide Summary';
-  $path = getenv('DOCUMENT_ROOT'); 
-  include $path . "/templates/tech/baseTechCenterTemp.tpl";
+  $path = getenv('DOCUMENT_ROOT');
+  include $path . "/templates/tech/baseTechCenter.tpl";
 
 ?>
 
