@@ -1,10 +1,10 @@
 
 <div class="accordion">
-  <!-- the input ID and for="" have to be equal-->
-  <input id="softwareHome" type="checkbox">
-  <label for="softwareHome">Software Home:</label>
-  <div class="content">
-    <a href="/techHQ/software/softwareIndex.php"></a>
+
+  <div class="card">
+    <div class="card__header">
+      <a href="/techHQ/software/softwareIndex.php">Software Home:</a>
+    </div>
   </div>
 
   <!-- the input ID and for="" have to be equal-->
@@ -17,18 +17,11 @@
   </div>
 
   <!-- the input ID and for="" have to be equal-->
-  <input id="internetApps" type="checkbox">
-  <label for="internetApps">Internet-Related</label>
-  <div class="content">
-    <a href="/techHQ/software/internet/browsers.php">Web Browser</a>
-  </div>
-
-  <!-- the input ID and for="" have to be equal-->
   <input id="multimediaApps" type="checkbox">
   <label for="multimediaApps">Multimedia</label>
   <div class="content">
-    <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players - <em>Audio</em></a><br/>
-    <a href="/techHQ/software/multimedia/media_players_video.php">Media Players - <em>Video</em></a><br/>
+    <a href="/techHQ/software/multimedia/media_players_audio.php">Media Players - <em>Audio</em></a>
+    <a href="/techHQ/software/multimedia/media_players_video.php">Media Players - <em>Video</em></a>
     <a href="/techHQ/software/multimedia/multimediaVarious.php">Various Apps</a>
     <a href="/techHQ/software/multimedia/videoEditing.php">Video Editing</a>
   </div>

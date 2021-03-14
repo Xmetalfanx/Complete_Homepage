@@ -1,10 +1,8 @@
 .accordion
 
-  // the input ID and for="" have to be equal
-  input#softwareHome(type="checkbox")
-  label(for="softwareHome") Software Home:
-  .content
-    a(href='/techHQ/software/softwareIndex.php')
+  .card
+    .card__header
+      a(href='/techHQ/software/softwareIndex.php') Software Home:
 
   // the input ID and for="" have to be equal
   input#graphicsApps(type="checkbox")
@@ -15,23 +13,15 @@
     a(href='/techHQ/software/graphics/viewers.php') Viewers
 
   // the input ID and for="" have to be equal
-  input#internetApps(type="checkbox")
-  label(for="internetApps") Internet-Related
-  .content
-    a(href='/techHQ/software/internet/browsers.php') Web Browser
-
-  // the input ID and for="" have to be equal
   input#multimediaApps(type="checkbox")
   label(for="multimediaApps") Multimedia
   .content
     a(href='/techHQ/software/multimedia/media_players_audio.php')
-      | Media Players - 
+      | Media Players -
       em Audio
-    br/
     a(href='/techHQ/software/multimedia/media_players_video.php')
-      | Media Players - 
+      | Media Players -
       em Video
-    br/
     a(href='/techHQ/software/multimedia/multimediaVarious.php') Various Apps
     a(href='/techHQ/software/multimedia/videoEditing.php') Video Editing
 
