@@ -45,7 +45,7 @@ function softwareData(data) {
                 // NEWEST IDEA:
                 const currentCategory = mainCategories;
 
-                console.log('currentCategory: ' + currentCategory);
+                //console.log('currentCategory: ' + currentCategory);
 
                 const individualApps = eachApp[apps];
 
