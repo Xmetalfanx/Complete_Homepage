@@ -1,0 +1,103 @@
+// here so when i remove bootstrap or at least have that option
+
+// this is sort of the catch-all file for stuff from Bootstrap that (for now) doesn't "really need" it's own file for organizing
+
+.font-weight-bold {
+  font-weight: 900;
+}
+
+.font-style-italics {
+  font-style: italic;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+// not sure i need this but ... i will code it
+.my-auto {
+  margin: auto 0;
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Padding and Margins from Bootstrap 4 */
+
+.vw-100 {
+  width: 100vw ;
+}
+
+.vh-100 {
+  height: 100vh ;
+}
+
+
+
+// Row code
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+
+  .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+
+
+.border {
+	border: 1px solid #dee2e6 ;
+}
+.border-top {
+	border-top: 1px solid #dee2e6 ;
+}
+.border-right {
+	border-right: 1px solid #dee2e6 ;
+}
+.border-bottom {
+	border-bottom: 1px solid #dee2e6 ;
+}
+.border-left {
+	border-left: 1px solid #dee2e6 ;
+}
+.border-0 {
+	border: 0 ;
+}
+.border-top-0 {
+	border-top: 0 ;
+}
+.border-right-0 {
+	border-right: 0 ;
+}
+.border-bottom-0 {
+	border-bottom: 0 ;
+}
+.border-left-0 {
+	border-left: 0 ;
+}
+
+.border--dark {
+	border-color: var(--themeBGColorMain);
+}
