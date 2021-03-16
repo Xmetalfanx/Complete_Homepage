@@ -27,13 +27,17 @@
 </ol>
 <div>I also have a Misc. folder for anything left over... not to get too picky. This can also help you if you have a large collection and you have not really used ID3 tags before.</div>
 
+<hr/>
 <h1>Software</h1>
-<h2>
+<img src="/techHQ/progIcons/media/media_players/strawberry.png" alt="Strawberry Music Player Icon" class="icon--size40">
+<h3>
     <a href="https://www.strawberrymusicplayer.org/" target="_blank">Strawberry Music Player (MusicBrainz)</a>
-</h2>
+</h3>
     The regularly updated fork of <a href="https://www.clementine-player.org/" target="_blank">link the Clemintine Music Player</a>
 
-<h2> <a href="https://picard.musicbrainz.org/" target="_blank">MusicBrainz Picard</a></h2>
+<br /><br />
+<img src="/techHQ/progIcons/media/musicbrainz-picard.png" alt="Picard" class="icon--size40">
+<h3><a href="https://picard.musicbrainz.org/" target="_blank">MusicBrainz Picard</a></h3>
 A Cross Platform option, written in Python
 
 
