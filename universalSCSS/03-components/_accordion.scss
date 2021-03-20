@@ -9,7 +9,6 @@
   label {
     color: var(--white);
     background-color: var(--themeBGColorMain);
-
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
@@ -17,18 +16,18 @@
 
     // to the left of the label and it is not clicked (should be right arrow)
     &::before {
-      font-family: 'ForkAwesome', serif;
-      margin-right: 0.5rem;
-      content: '\f105';
+      font-family: "ForkAwesome", serif;
+      margin-right: .5rem;
+      content: "\f105";
       font-weight: 900;
     }
   }
 
   // to the left of the label and when clicked (Down arrow)
   input:checked + label::before {
-    font-family: 'ForkAwesome', serif;
-    margin-right: 0.5rem;
-    content: '\f107';
+    font-family: "ForkAwesome", serif;
+    margin-right: .5rem;
+    content: "\f107";
     font-weight: 900;
   }
 
@@ -37,7 +36,7 @@
   }
 
   .content {
-    background: #ffffff;
+    background: #fff;
     padding: 10px 25px;
     border: 1px solid #a7a7a7;
     margin: 0 0 1px 0;
@@ -49,7 +48,7 @@
     opacity: 0;
     height: 0;
     font-size: 0;
-    transition: linear 0.8s;
+    transition: linear .8s;
     padding: 0 25px;
   }
 
@@ -61,11 +60,6 @@
     min-height: auto;
   }
 }
-
-
-
-
-
 
 ///////////////////////////////////////////////////
 // for the sidebars
@@ -84,7 +78,6 @@
     label {
       color: var(--white);
       background-color: var(--themeBGColorMain);
-
       display: block;
       padding: 8px 22px;
       margin: 0 0 1px 0;
@@ -121,7 +114,7 @@
     input + label + .content {
       opacity: 1;
       font-size: 1rem;
-      transition: linear 0.8s;
+      transition: linear .8s;
       //padding: 0 25px;
       height: auto;
     }
@@ -132,7 +125,6 @@
       height: 0;
       font-size: 0;
       padding: 8px 25px;
-
       min-height: auto;
     }
   }
@@ -144,17 +136,17 @@
   .sidebar {
     .accordion {
       input + label::before {
-        font-family: 'ForkAwesome', serif;
-        margin-right: 0.5rem;
-        content: '\f105';
+        font-family: "ForkAwesome", serif;
+        margin-right: .5rem;
+        content: "\f105";
         font-weight: 900;
       }
 
       // f105 = right arrow
       input:checked + label::before {
-        font-family: 'ForkAwesome', serif;
-        margin-right: 0.5rem;
-        content: '\f107';
+        font-family: "ForkAwesome", serif;
+        margin-right: .5rem;
+        content: "\f107";
         font-weight: 900;
       }
 
@@ -183,7 +175,7 @@
       input:checked + label + .content {
         opacity: 1;
         font-size: 16px;
-        transition: linear 0.5s;
+        transition: linear .5s;
         padding: 0 25px;
         height: auto;
       }

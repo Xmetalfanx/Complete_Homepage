@@ -6,6 +6,7 @@
   <label for="browsers">Browser</label>
   <div class="content">
     <a href="/techHQ/browsers/browserList.php">Browser List</a>
+    <a href="/techHQ/browsers/addons/browserAddons.php">Browser Addons</a>
   </div>
 
   <!-- the input ID and for, have to be equal-->

@@ -6,98 +6,117 @@ let addonIconDir = '/techHQ/browsers/addons/graphics/';
 let firefoxIcon = 'firefox.svg';
 let chromeIcon = 'chrome.svg';
 
+
+
 ////////////////////////////////////////////////////////////////////
 // "main" function
 
 function browserAddonData(data) {
-	$(document).ready(function() {
-		// "Things DO GET HERE, successfully"
-		// console.log("Inside softwareData function in JS");
+  $(document).ready(function () {
+    // "Things DO GET HERE, successfully"
+    // console.log("Inside softwareData function in JS");
 
-		browserAddonsJSONUrl = '/techHQ/json/browserAddons.json';
+    browserAddonsJSONUrl = '/techHQ/json/browserAddons.json';
 
-		// Get JSON Data
-		$.getJSON(browserAddonsJSONUrl, function(data) {
+    // Get JSON Data
+    $.getJSON(browserAddonsJSONUrl, function (data) {
+      allAddonCategories = Object.keys(data);
+      // The actual category titles
+      //console.log("dataKey: " + JSON.stringify(dataKey));
 
-            //console.log("data: " + data);
+      allAddonValues = Object.values(data);
 
-            dataValue = Object.values(data);
-            dataValue.forEach(displayKeys);
+      // All the addons IN a category
+      //console.log("dataValue: " + JSON.stringify(dataValue));
 
-            function displayKeys(allCatagories, index){
-                //console.log("allCatagories");
-                //console.log(allCatagories);
+      let addonCategoryTitle = allAddonCategories.map((item) => {
+        return item.keys;
+      });
 
-                let allCatValues = Object.values(allCatagories);
+      // As long as there are addons (all categories)
+      for (content in allAddonValues) {
+        eachAddonCategory = allAddonValues[content];
 
-                allCatValues.forEach(displayAddons);
+        // As long as there are addons in each individual category
+        for (addons in eachAddonCategory) {
+            eachAddon = eachAddonCategory[addons];
 
-                function displayAddons(item, index)
-                {
-                    //console.log(item);
+            let addonTitle = eachAddon.addonTitle;
+            let addonName = eachAddon.addonName;
+            let addonIcon = eachAddon.iconURL;
 
-                    item.forEach(handleEachAddon);
+            let moreInfo = eachAddon.moreInfo;
 
+            // AddonURLs
+            // note to self: maybe make the URLs for like Github/GitLab pages
+            let addonURLs = eachAddon.addonURL;
 
-                    function handleEachAddon(eachAddon, index){
-                        console.log(eachAddon);
+            // More Info
+            let addonDev = moreInfo.developer;
+            let addonPlatform = moreInfo.addonPlatform;
+            let addonDesc = moreInfo.description;
 
+            let chromeURL = addonURLs.chromeURL;
+            let firefoxURL = addonURLs.firefoxURL;
 
-                        let addonTitle = eachAddon.addonTitle;
-                        let addonName = eachAddon.addonName;
+            const firefoxAddon = `<a href="${firefoxURL}" target="_blank">
+                            <img src=\"${browserIconDir}${firefoxIcon}\" alt=\"${addonTitle} Firefox icon\" class=\" icon icon--size40\" />
+                            </a>`;
 
-                        let addonIcon = eachAddon.iconURL;
+            //idea: have something like the vivaldi icon here too
+            const chromeAddon = `<a href="${chromeURL}" target="_blank">
+                            <img src=\"${browserIconDir}${chromeIcon}\" alt=\"${addonTitle} Chrome icon\" class=\" icon icon--size40\" />
+                            </a>`;
 
-                        //
-                        // Meta vars
-                        let moreInfo = eachAddon.moreInfo;
-                        // AddonURLs
-                        // note to self: maybe make the URL, URLs, later ... whatever
-                        let addonURLs = eachAddon.addonURL;
-                        // End of Meta Vars
+            function checkPlatform(addonPlatform) {
 
-                        // More Info
-                        let addonDev = moreInfo.developer;
-                        // for Firefox 57+
-                        let addonFFQuat = moreInfo.forFFQuantum;
+                // guard clause
+                if (addonPlatform == null) return
+            
+                totalBrowserIcon = "";
 
-                        let chromeURL = addonURLs.chromeURL;
-                        let firefoxURL = addonURLs.firefoxURL;
+                // Idea thanks to Web Dev Simplified's video: https://www.youtube.com/watch?v=EumXak7TyQ0&t=323s
+                if (addonPlatform == 'crossBrowser') return totalBrowserIcon = firefoxAddon + chromeAddon
+                if (addonPlatform == 'firefox') return totalBrowserIcon = firefoxAddon
 
-                        const browserOutput = `
-
-                            <div class="card">
-                                <div class="card__header card__header--dark-bg">
-                                    <div class="addon-title">
-                                        <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon--size40"/>${addonTitle}
-                                    </div>
-                                    <div class="platform">
-                                        <a href="${chromeURL}" target="_blank">
-                                            <img src=\"${browserIconDir}${chromeIcon}\" alt=\"${addonTitle} Chrome icon\" class=\" icon icon--size40\" />
-                                        </a>
-
-                                           <a href="${firefoxURL}" target="_blank">
-                                            <img src=\"${browserIconDir}${firefoxIcon}\" alt=\"${addonTitle} Firefox icon\" class=\" icon icon--size40\" />
-                                            </a>
-
-                                    </div>
-                                </div>
-                                <div class="card__body">
-                                    <div>description here, perhaps</div>
-
-                                </div>
-                            </div>
-                        `;
-
-                        // Main output
-                        browserResults.insertAdjacentHTML('afterbegin', browserOutput);
-
-                    }
-
-                }
             }
 
 
-		}); // ends getJSON loop
-	});
+          // Checks addon Platform
+          checkPlatform(addonPlatform);
+
+
+            const platform = `
+                    <div class="platform">
+                    ${totalBrowserIcon}
+                    </div>
+                    `;
+
+             const addonIconTitle = `
+                <div class="addon-title">
+                    <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon--size40" />${addonTitle}
+                </div>
+                `;
+
+
+            const browserOutput = `
+                        <h4>${eachAddonCategory}</h4>
+                                <div class="card">
+                                    <div class="card__header">
+                                    ${addonIconTitle}
+                                    ${platform}
+
+                                    </div>
+                                    <div class="card__body">
+                                    <div>${addonDesc}</div>
+                                    </div>
+                                </div>
+                            `;
+
+          // Main output
+          browserResults.insertAdjacentHTML('beforeend', browserOutput);
+        }
+      }
+    }); // ends getJSON loop
+  });
 }

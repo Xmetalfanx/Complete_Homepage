@@ -1,0 +1,7 @@
+// idea assign more descriptive var to datakeys   - allAddonCategories
+
+for (eachCategory in allAddonCategories) {
+    if (allAddonCategories.hasOwnProperty(eachCategory)) {
+        console.log(allAddonCategories[eachCategory]);
+    }
+}

@@ -1,4 +1,4 @@
-@forward '_vars';
+@forward "_vars";
 
 @mixin darkBG {
   color: var(--white);
@@ -9,7 +9,6 @@
 @mixin thumbnail--lg {
   max-height: 450px;
   padding: 2rem;
-
   max-width: 100%;
   height: auto;
 }
@@ -17,7 +16,6 @@
 @mixin thumbnail--sm {
   max-height: 350px;
   padding: 2rem;
-
   max-width: 100%;
   height: auto;
 }

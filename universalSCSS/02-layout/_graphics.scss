@@ -1,7 +1,6 @@
 @use "../01-intial/index" as *;
 
 /******************* Icon ********************/
-
 .icon {
   display: inline-block;
 
@@ -16,26 +15,22 @@
 
   &--size32 {
     @extend .icon;
-
     height: 32px;
     width: 32px;
   }
 
   &--size40 {
     @extend .icon;
-
     height: 40px;
     width: 40px;
   }
 
   &--size48 {
     @extend .icon;
-
     height: 48px;
     width: 48px;
   }
 }
-
 
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
@@ -56,16 +51,18 @@
 
 // it looks like i forgot to paste the code from img-fluid here
 .thumbnail-fluid {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 
   &--sm {
     @extend .thumbnail-fluid;
+
     @include thumbnail--sm;
   }
 
   &--lg {
     @extend .thumbnail-fluid;
+
     @include thumbnail--lg;
   }
 }

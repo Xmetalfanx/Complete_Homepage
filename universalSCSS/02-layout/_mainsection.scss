@@ -8,7 +8,6 @@
   grid-area: main-section;
   padding: 1.5rem;
   display: grid;
-
   grid-gap: 1.5rem;
   justify-items: stretch;
 
@@ -16,19 +15,19 @@
   &--wide {
     @extend .main-section;
     grid-template-columns: 1fr;
-    grid-template-areas: 'pContent';
+    grid-template-areas: "pContent";
   }
 
   &--left-wide {
     @extend .main-section;
     grid-template-columns: auto 18%;
-    grid-template-areas: 'pContent sidebar';
+    grid-template-areas: "pContent sidebar";
   }
 
   &--right-wide {
     @extend .main-section;
     grid-template-columns: 18% auto;
-    grid-template-areas: 'sidebar pContent';
+    grid-template-areas: "sidebar pContent";
   }
 
   /****** Sidebar *****/
@@ -44,7 +43,7 @@
       //width: 85%;
 
       .card__header {
-        padding: 0.5rem 1rem;
+        padding: .5rem 1rem;
       }
 
       .card__body {
@@ -53,7 +52,7 @@
         // removes the need for so many <br /> tags
         a,
         span {
-          margin: 0.4rem auto;
+          margin: .4rem auto;
         }
       }
     }
@@ -67,7 +66,6 @@
       .card__header {
         align-items: center;
         display: grid;
-
         justify-content: space-between;
       }
     }
@@ -111,9 +109,8 @@
 
   .main-section {
     grid-template-areas:
-      'sidebar'
-      'pContent';
-
+      "sidebar"
+      "pContent";
     grid-template-columns: 1fr;
   }
 }

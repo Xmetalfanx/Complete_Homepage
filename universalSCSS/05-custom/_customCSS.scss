@@ -1,4 +1,4 @@
-@use '../01-intial/index' as *;
+@use "../01-intial/index"as *;
 
 // for display:grid, spans two columns
 .span2 {
@@ -6,27 +6,35 @@
 }
 
 /******************* Width ********************/
+// why is this here?  Codacy.com suggestion? ... this seems like it should be better in 01-intial
 .w-25 {
   width: 25%;
 }
+
 .w-30 {
   width: 30%;
 }
+
 .w-33 {
   width: 33%;
 }
+
 .w-50 {
   width: 50%;
 }
+
 .w-75 {
   width: 75%;
 }
+
 .w-80 {
   width: 80%;
 }
+
 .w-90 {
   width: 90%;
 }
+
 .w-95 {
   width: 95%;
 }
@@ -90,7 +98,6 @@
 #techHQFooter {
   // display: flex;
   //flex-direction: row;
-
   grid-column: span 2;
   padding-left: 20px;
 
@@ -111,7 +118,7 @@
 
 .softwareCard {
   .card__header--wide {
-    grid-template-areas: 'program-title platform';
+    grid-template-areas: "program-title platform";
 
     .program-title {
       grid-area: program-title;
@@ -202,10 +209,15 @@
 
     // putting this here since there is a max-height (still need to lookup why i did that) on the main primaryContent .card heigh
     max-height: none;
-  } // closes card
-} // closes #desktopSection
+  }
+
+  // closes card
+}
+
+// closes #desktopSection
 
 #linuxVersions {
+
   // the top level of the column
   .distroBaseTitle {
     text-decoration: underline;
@@ -214,7 +226,7 @@
 
   // The Titles of the Distro/Versions
   .versionTitle {
-    margin-right: 0.5rem;
+    margin-right: .5rem;
   }
 
   // the actual version number
@@ -235,7 +247,6 @@
 
 code {
   @include darkBG;
-
   display: inline-block;
 }
 
@@ -247,4 +258,24 @@ code {
 
 .redText {
   color: var(--red);
+}
+
+// thought i had this elsewhere
+#browserSection .card {
+  .card__header {
+    grid-template-areas: "addon-title platform";
+
+    .addon-title {
+      grid-area: addon-title;
+    }
+
+    .platform {
+      grid-area: platform;
+    }
+  }
+}
+
+.darkBG_svg {
+  fill: #fff;
+  display: inline;
 }

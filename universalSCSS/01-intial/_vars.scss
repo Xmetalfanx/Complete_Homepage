@@ -2,8 +2,8 @@
   /******************* Colors ********************/
   --black: rgb(0, 0, 0);
   --white: rgba(255, 255, 255, 1);
-  --white50: rgba(255, 255, 255, 0.5);
-  --white75: rgba(255, 255, 255, 0.75);
+  --white50: rgba(255, 255, 255, .5);
+  --white75: rgba(255, 255, 255, .75);
   --darkGrey1: rgb(51, 51, 51);
   --darkGrey2: rgb(62, 63, 58);
   --forrestGreen: rgb(0, 100, 0);
@@ -25,15 +25,24 @@
     color: var(--themeBGColorAccent);
   }
 
-  --Verdana: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  --TNR: 'Times New Roman', Times, serif;
-  --Courier: 'Courier New', Courier, monospace;
-  --Helvetica: 'Helvetica Neue', Helvetica, sans-serif;
-  --MSSans: 'MS Sans Serif', Geneva, sans-serif;
-  --SegoeUI: 'Segoe UI', Arial, Helvetica, sans-serif;
-  --Tahoma: Tahoma, Verdana, Segoe, sans-serif;
-  --Arial: Arial, Helvetica, san-serif;
-  --Roboto: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol';
+  --Verdana: verdana, geneva, arial, helvetica, sans-serif;
+  --TNR: "Times New Roman", times, serif;
+  --Courier: "Courier New", courier, monospace;
+  --Helvetica: "Helvetica Neue", helvetica, sans-serif;
+  --MSSans: "MS Sans Serif", geneva, sans-serif;
+  --SegoeUI: "Segoe UI", arial, helvetica, sans-serif;
+  --Tahoma: tahoma, verdana, segoe, sans-serif;
+  --Arial: arial, helvetica, san-serif;
+  --Roboto:
+    "Roboto",
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    "Helvetica Neue",
+    arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
