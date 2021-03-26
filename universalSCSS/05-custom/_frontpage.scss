@@ -16,10 +16,10 @@ header {
   display: grid;
   grid-gap: 2rem;
   grid-template-areas:
-    'site-section   site-section'
-    'site-section   site-section'
-    'git-section    git-section'
-    'git-section    git-section';
+    "site-section   site-section"
+    "site-section   site-section"
+    "git-section    git-section"
+    "git-section    git-section";
   grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
   grid-template-rows: repeat(2, 1fr);
   margin: 20px 0;
@@ -40,7 +40,7 @@ header {
       color: var(--themeBGColorAccent);
       display: flex;
       justify-content: space-around;
-      margin-bottom: 0.5rem;
+      margin-bottom: .5rem;
 
       a {
         color: inherit;
@@ -77,13 +77,14 @@ header {
         color: var(--themeBGColorAccent);
         font-size: 26px;
         font-weight: 800;
-        padding: 0.5rem 1rem;
+        padding: .5rem 1rem;
 
         a {
           background-color: inherit;
           color: inherit;
         }
       }
+
       .card__body {
         font-weight: 500;
         padding: 1rem;

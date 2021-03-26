@@ -253,13 +253,13 @@ header {
   grid-area: header;
 }
 
-header nav.topnav a {
+header nav .topnav a {
   padding: 1rem;
   font-size: 20px;
   font-weight: 500;
 }
 
-header nav.topnav .icon {
+header nav .topnav .icon {
   display: none;
 }
 
@@ -273,11 +273,11 @@ header .nav-icon {
 
 /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 794px) {
-  header nav.topnav a {
+  header nav .topnav a {
     display: none;
   }
 
-  header nav.topnav .icon {
+  header nav .topnav .icon {
     float: right;
     display: block;
   }
@@ -285,7 +285,7 @@ header .nav-icon {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 794px) {
-  header nav.topnav.responsive {
+  header nav .topnav.responsive {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -298,13 +298,13 @@ header .nav-icon {
     justify-content: center;
   }
 
-  header nav.topnav.responsive a {
+  header nav .topnav.responsive a {
     display: block;
     text-align: left;
     align-self: center;
   }
 
-  header nav.topnav.responsive .icon {
+  header nav .topnav.responsive .icon {
     position: absolute;
     right: 0;
     display: block;
