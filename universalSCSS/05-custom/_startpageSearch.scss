@@ -1,0 +1,16 @@
+/****** STARTPAGE Box related ******************/
+
+#SPSearch {
+  margin: 10px auto;
+  grid-column: span 2;
+
+  // For the SP icon and input box
+  .SPHeightIconInput {
+    height: 35px;
+  }
+
+  .SPSearchIcon {
+    height: 33px;
+    vertical-align: middle;
+  }
+}

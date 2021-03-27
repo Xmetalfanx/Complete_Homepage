@@ -50,23 +50,6 @@
   height: 315px;
 }
 
-/****** STARTPAGE Box related ******************/
-
-#SPSearch {
-  margin: 10px auto;
-  grid-column: span 2;
-
-  // For the SP icon and input box
-  .SPHeightIconInput {
-    height: 35px;
-  }
-
-  .SPSearchIcon {
-    height: 33px;
-    vertical-align: middle;
-  }
-}
-
 /************** RSS Feed *************/
 // For GAOTD too
 .feed-item-title {
@@ -118,7 +101,7 @@
 
 .softwareCard {
   .card__header--wide {
-    grid-template-areas: "program-title platform";
+    grid-template-areas: 'program-title platform';
 
     .program-title {
       grid-area: program-title;
@@ -217,7 +200,6 @@
 // closes #desktopSection
 
 #linuxVersions {
-
   // the top level of the column
   .distroBaseTitle {
     text-decoration: underline;
@@ -226,7 +208,7 @@
 
   // The Titles of the Distro/Versions
   .versionTitle {
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 
   // the actual version number
@@ -263,7 +245,7 @@ code {
 // thought i had this elsewhere
 #browserSection .card {
   .card__header {
-    grid-template-areas: "addon-title platform";
+    grid-template-areas: 'addon-title platform';
 
     .addon-title {
       grid-area: addon-title;
@@ -278,4 +260,17 @@ code {
 .darkBG_svg {
   fill: #fff;
   display: inline;
+}
+
+/*** DuckDuckGo search ***/
+.searchbarContainer {
+  align-items: center;
+  display: flex;
+  grid-column: span 2;
+  justify-content: center;
+
+  // submit button
+  button {
+    height: 34px;
+  }
 }

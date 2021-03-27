@@ -7,7 +7,7 @@
 </div>
 
 <!-- Include search box -->
-<?php include $path . "/modules/startpage.tpl"; ?>
+<?php include $path . "/modules/ddg.tpl"; ?>
 
 <!-- Idea ending div -?? ends main section  -->
 </div>
