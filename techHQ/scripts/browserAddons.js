@@ -33,11 +33,11 @@ function browserAddonData(data) {
       });
 
       // As long as there are addons (all categories)
-      for (content in allAddonValues) {
+      for (let content in allAddonValues) {
         eachAddonCategory = allAddonValues[content];
 
         // As long as there are addons in each individual category
-        for (addons in eachAddonCategory) {
+        for (let addons in eachAddonCategory) {
           eachAddon = eachAddonCategory[addons];
 
           let addonTitle = eachAddon.addonTitle;
