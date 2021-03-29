@@ -28,10 +28,6 @@ function browserAddonData(data) {
       // All the addons IN a category
       //console.log("dataValue: " + JSON.stringify(dataValue));
 
-      let addonCategoryTitle = allAddonCategories.map((item) => {
-        return item.keys;
-      });
-
       // As long as there are addons (all categories)
       for (let content in allAddonValues) {
         eachAddonCategory = allAddonValues[content];
@@ -87,29 +83,28 @@ function browserAddonData(data) {
           checkPlatform(addonPlatform);
 
           const platform = `
-                    <div class="platform">
+                    <div class="">
                     ${totalBrowserIcon}
                     </div>
                     `;
 
           const addonIconTitle = `
-                <div class="addon-title">
+                <div class="">
                     <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon--size40" />${addonTitle}
                 </div>
                 `;
 
           const browserOutput = `
-                        <h4>${eachAddonCategory}</h4>
-                                <div class="card">
-                                    <div class="card__header">
-                                    ${addonIconTitle}
-                                    ${platform}
+                <div class="card">
+                    <div class="card__header">
+                    ${addonIconTitle}
+                    ${platform}
 
-                                    </div>
-                                    <div class="card__body">
-                                    <div>${addonDesc}</div>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="card__body">
+                    <div>${addonDesc}</div>
+                    </div>
+                </div>
                             `;
 
           // Main output

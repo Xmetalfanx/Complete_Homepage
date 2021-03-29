@@ -1568,13 +1568,7 @@ code {
 }
 
 #browserSection .card .card__header {
-  grid-template-areas: "addon-title platform";
-}
-#browserSection .card .card__header .addon-title {
-  grid-area: addon-title;
-}
-#browserSection .card .card__header .platform {
-  grid-area: platform;
+  display: flex;
 }
 
 .darkBG_svg {

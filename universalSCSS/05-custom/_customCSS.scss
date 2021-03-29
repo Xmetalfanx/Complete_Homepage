@@ -245,15 +245,7 @@ code {
 // thought i had this elsewhere
 #browserSection .card {
   .card__header {
-    grid-template-areas: 'addon-title platform';
-
-    .addon-title {
-      grid-area: addon-title;
-    }
-
-    .platform {
-      grid-area: platform;
-    }
+    display: flex;
   }
 }
 
