@@ -13,7 +13,7 @@ const cleanCSS = require('gulp-clean-css');
 
 //sass.render({file: universalSCSS/styling.scss}, function(err, result) { /* ... */ });
 
-// The sass/scss to css gulp option says it's obselute and to be honest ... the vscode autocompiler addon for scss works fine
+// The sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 
 gulp.task('compile', function(){
   var plugin = [
@@ -34,4 +34,17 @@ gulp.task('compile', function(){
 
 gulp.task('sass:watch', function () {
   gulp.watch('./sass/**/*.scss', ['sass']);
+});
+
+gulp.task('lint-css', function lintCssTask() {
+  const gulpStylelint = require('gulp-stylelint');
+
+  return gulp
+    .src('./universalSCSS/*.scss')
+    .pipe(gulpStylelint({
+      fix: true,
+      reporters: [
+        {formatter: 'string', console: true}
+      ]
+    }));
 });
