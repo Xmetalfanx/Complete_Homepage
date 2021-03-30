@@ -41,7 +41,7 @@ gulp.task('lint-css', function lintCssTask() {
   const gulpStylelint = require('gulp-stylelint');
 
   return gulp
-    .src('universalSCSS/**/*.scss')
+    .src('css/**/*.css')
     .pipe(gulpStylelint({
       fix: true,
       reporters: [
@@ -49,5 +49,5 @@ gulp.task('lint-css', function lintCssTask() {
       ],
       failAfterError: false,
     }))
-    .pipe(gulp.dest('./scss'));
+    .pipe(gulp.dest('./css'));
 });

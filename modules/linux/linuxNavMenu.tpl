@@ -6,7 +6,7 @@
     <a href="/linuxHQ/index.php">LinuxHQ</a>
   </div>
 
-  <nav class="topnav" id="top-nav">
+  <nav class="topnav" id="topnav">
       <a href="/linuxHQ/distros/distroHome.php">Distributions</a>
       <a href="/linuxHQ/desktops/desktopsIndex.php">Desktops</a>
       <a href="/linuxHQ/tutorials/tutorialIndex.php">Tutorial</a>
