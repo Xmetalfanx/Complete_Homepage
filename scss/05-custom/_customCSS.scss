@@ -261,8 +261,18 @@ code {
   grid-column: span 2;
   justify-content: center;
 
+  * {
+    height: 40px;
+  }
+
   // submit button
   button {
-    height: 34px;
+    background: #006400;
+    border: 1px solid #006400;
+    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, .2);
+    color: var(--white);
+    border-radius: .25em;
+    padding: .4em .875em;
+    font-size: 1em;
   }
 }

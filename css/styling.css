@@ -1722,8 +1722,18 @@ code {
   justify-content: center;
 }
 
+.searchbarContainer * {
+  height: 40px;
+}
+
 .searchbarContainer button {
-  height: 34px;
+  background: #006400;
+  border: 1px solid #006400;
+  box-shadow: 0 2px 8px 0 rgba(20, 40, 20, .2);
+  color: var(--white);
+  border-radius: .25em;
+  padding: .4em .875em;
+  font-size: 1em;
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
