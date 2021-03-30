@@ -101,7 +101,7 @@
 
 .softwareCard {
   .card__header--wide {
-    grid-template-areas: 'program-title platform';
+    grid-template-areas: "program-title platform";
 
     .program-title {
       grid-area: program-title;
@@ -208,7 +208,7 @@
 
   // The Titles of the Distro/Versions
   .versionTitle {
-    margin-right: 0.5rem;
+    margin-right: .5rem;
   }
 
   // the actual version number

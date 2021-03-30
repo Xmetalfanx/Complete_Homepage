@@ -15,7 +15,7 @@
 
     // to the left of the label and it is not clicked (should be right arrow)
     &::before {
-      font-family: "ForkAwesome", serif;
+      font-family: ForkAwesome, serif;
       margin-right: .5rem;
       content: "\f105";
       font-weight: 900;
@@ -24,7 +24,7 @@
 
   // to the left of the label and when clicked (Down arrow)
   input:checked + label::before {
-    font-family: "ForkAwesome", serif;
+    font-family: ForkAwesome, serif;
     margin-right: .5rem;
     content: "\f107";
     font-weight: 900;
@@ -135,7 +135,7 @@
   .sidebar {
     .accordion {
       input + label::before {
-        font-family: "ForkAwesome", serif;
+        font-family: ForkAwesome, serif;
         margin-right: .5rem;
         content: "\f105";
         font-weight: 900;
@@ -143,7 +143,7 @@
 
       // f105 = right arrow
       input:checked + label::before {
-        font-family: "ForkAwesome", serif;
+        font-family: ForkAwesome, serif;
         margin-right: .5rem;
         content: "\f107";
         font-weight: 900;

@@ -3,8 +3,8 @@
   /******************* Colors ********************/
   --black: rgb(0, 0, 0);
   --white: rgba(255, 255, 255, 1);
-  --white50: rgba(255, 255, 255, 0.5);
-  --white75: rgba(255, 255, 255, 0.75);
+  --white50: rgba(255, 255, 255, .5);
+  --white75: rgba(255, 255, 255, .75);
   --darkGrey1: rgb(51, 51, 51);
   --darkGrey2: rgb(62, 63, 58);
   --forrestGreen: rgb(0, 100, 0);
@@ -27,8 +27,17 @@
   --SegoeUI: "Segoe UI", arial, helvetica, sans-serif;
   --Tahoma: tahoma, verdana, segoe, sans-serif;
   --Arial: arial, helvetica, san-serif;
-  --Roboto: "Roboto", -apple-system, blinkmacsystemfont, "Segoe UI", roboto,
-    "Helvetica Neue", arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  --Roboto:
+    "Roboto",
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    "Helvetica Neue",
+    arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
     "Segoe UI Symbol";
 }
 :root .themeColorAccent {
@@ -79,8 +88,7 @@ body .card .card__body,
 body .card .card__text {
   padding: 1rem;
 }
-body .card .card__header,
-body .card .card__header--wide {
+body .card .card__header, body .card .card__header--wide {
   align-items: center;
   border-color: var(--themeBGColorMain);
   background-color: var(--themeBGColorMain);
@@ -92,8 +100,7 @@ body .card .card__header--wide {
   justify-content: flex-start;
   padding: 1rem;
 }
-body .card .card__header a:link,
-body .card .card__header--wide a:link,
+body .card .card__header a:link, body .card .card__header--wide a:link,
 body .card .card__header a:visited,
 body .card .card__header--wide a:visited {
   background-color: inherit;
@@ -103,8 +110,7 @@ body .card .card__header--wide a:visited {
 body .card .card__header--wide {
   justify-content: space-between;
 }
-body .card .card__header .card-name,
-body .card .card__header--wide .card-name,
+body .card .card__header .card-name, body .card .card__header--wide .card-name,
 body .card .card__header .addon-title,
 body .card .card__header--wide .addon-title {
   font-size: 20px;
@@ -118,17 +124,11 @@ a {
 }
 
 /******************* Icon ********************/
-.icon,
-.icon--size48,
-.icon--size40,
-.icon--size32 {
+.icon, .icon--size48, .icon--size40, .icon--size32 {
   display: inline-block;
   margin-right: 1.1rem;
 }
-.icon a,
-.icon--size48 a,
-.icon--size40 a,
-.icon--size32 a {
+.icon a, .icon--size48 a, .icon--size40 a, .icon--size32 a {
   fill: var(--white);
   color: var(--white);
 }
@@ -145,9 +145,7 @@ a {
   width: 48px;
 }
 
-.thumbnails,
-.thumbnails--sm,
-.thumbnails--lg {
+.thumbnails, .thumbnails--sm, .thumbnails--lg {
   padding: 2rem;
 }
 .thumbnails--lg {
@@ -157,9 +155,7 @@ a {
   max-height: 350px;
 }
 
-.thumbnail-fluid,
-.thumbnail-fluid--lg,
-.thumbnail-fluid--sm {
+.thumbnail-fluid, .thumbnail-fluid--lg, .thumbnail-fluid--sm {
   max-width: 100%;
   height: auto;
 }
@@ -284,10 +280,7 @@ header .nav-icon {
   }
 }
 /*********** Main Section in middle of page  *****/
-.main-section,
-.main-section--right-wide,
-.main-section--left-wide,
-.main-section--wide {
+.main-section, .main-section--right-wide, .main-section--left-wide, .main-section--wide {
   grid-area: main-section;
   padding: 1.5rem;
   display: grid;
@@ -307,98 +300,67 @@ header .nav-icon {
   grid-template-columns: 18% auto;
   grid-template-areas: "sidebar pContent";
 }
-.main-section .sidebar,
-.main-section--wide .sidebar,
-.main-section--left-wide .sidebar,
-.main-section--right-wide .sidebar {
+.main-section .sidebar, .main-section--wide .sidebar, .main-section--left-wide .sidebar, .main-section--right-wide .sidebar {
   /** cards in Sidebar, specifically ... i think any mainSection global .card stuff carries over ***/
 }
-.main-section .sidebar img,
-.main-section--wide .sidebar img,
-.main-section--left-wide .sidebar img,
-.main-section--right-wide .sidebar img {
+.main-section .sidebar img, .main-section--wide .sidebar img, .main-section--left-wide .sidebar img, .main-section--right-wide .sidebar img {
   display: block;
   margin: 1rem 0;
   padding: 0;
 }
-.main-section .sidebar .card .card__header,
-.main-section--wide .sidebar .card .card__header,
-.main-section--left-wide .sidebar .card .card__header,
-.main-section--right-wide .sidebar .card .card__header {
+.main-section .sidebar .card .card__header, .main-section--wide .sidebar .card .card__header, .main-section--left-wide .sidebar .card .card__header, .main-section--right-wide .sidebar .card .card__header {
   padding: 0.5rem 1rem;
 }
-.main-section .sidebar .card .card__body,
-.main-section--wide .sidebar .card .card__body,
-.main-section--left-wide .sidebar .card .card__body,
-.main-section--right-wide .sidebar .card .card__body {
+.main-section .sidebar .card .card__body, .main-section--wide .sidebar .card .card__body, .main-section--left-wide .sidebar .card .card__body, .main-section--right-wide .sidebar .card .card__body {
   line-height: 1.4rem;
 }
-.main-section .sidebar .card .card__body a,
-.main-section--wide .sidebar .card .card__body a,
-.main-section--left-wide .sidebar .card .card__body a,
-.main-section--right-wide .sidebar .card .card__body a,
+.main-section .sidebar .card .card__body a, .main-section--wide .sidebar .card .card__body a, .main-section--left-wide .sidebar .card .card__body a, .main-section--right-wide .sidebar .card .card__body a,
 .main-section .sidebar .card .card__body span,
 .main-section--wide .sidebar .card .card__body span,
 .main-section--left-wide .sidebar .card .card__body span,
 .main-section--right-wide .sidebar .card .card__body span {
   margin: 0.4rem auto;
 }
-.main-section .primary-content,
-.main-section--wide .primary-content,
-.main-section--left-wide .primary-content,
-.main-section--right-wide .primary-content {
+.main-section .primary-content, .main-section--wide .primary-content, .main-section--left-wide .primary-content, .main-section--right-wide .primary-content {
   grid-area: pContent;
 }
-.main-section .primary-content .card .card__header,
-.main-section--wide .primary-content .card .card__header,
-.main-section--left-wide .primary-content .card .card__header,
-.main-section--right-wide .primary-content .card .card__header {
+.main-section .primary-content .card .card__header, .main-section--wide .primary-content .card .card__header, .main-section--left-wide .primary-content .card .card__header, .main-section--right-wide .primary-content .card .card__header {
   align-items: center;
   display: grid;
   justify-content: space-between;
 }
-.main-section .primary-content p,
-.main-section--wide .primary-content p,
-.main-section--left-wide .primary-content p,
-.main-section--right-wide .primary-content p {
+.main-section .primary-content p, .main-section--wide .primary-content p, .main-section--left-wide .primary-content p, .main-section--right-wide .primary-content p {
   margin: 1rem auto;
   max-width: 72ch;
 }
 
 /* Media query for center section under 794px wide */
 @media all and (max-width: 794px) {
-  .main-section .sidebar,
-  .main-section--wide .sidebar,
-  .main-section--left-wide .sidebar,
-  .main-section--right-wide .sidebar {
+  .main-section .sidebar, .main-section--wide .sidebar,
+.main-section--left-wide .sidebar,
+.main-section--right-wide .sidebar {
     grid-area: sidebar;
   }
-  .main-section .sidebar .card,
-  .main-section--wide .sidebar .card,
-  .main-section--left-wide .sidebar .card,
-  .main-section--right-wide .sidebar .card {
+  .main-section .sidebar .card, .main-section--wide .sidebar .card,
+.main-section--left-wide .sidebar .card,
+.main-section--right-wide .sidebar .card {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
-  .main-section .sidebar .card .card__body a,
-  .main-section--wide .sidebar .card .card__body a,
-  .main-section--left-wide .sidebar .card .card__body a,
-  .main-section--right-wide .sidebar .card .card__body a {
+  .main-section .sidebar .card .card__body a, .main-section--wide .sidebar .card .card__body a,
+.main-section--left-wide .sidebar .card .card__body a,
+.main-section--right-wide .sidebar .card .card__body a {
     display: inline-block;
   }
-  .main-section .primary-content,
-  .main-section--wide .primary-content,
-  .main-section--left-wide .primary-content,
-  .main-section--right-wide .primary-content {
+  .main-section .primary-content, .main-section--wide .primary-content,
+.main-section--left-wide .primary-content,
+.main-section--right-wide .primary-content {
     grid-area: pContent;
     margin: 0 1rem;
   }
 
-  .main-section,
-  .main-section--wide,
-  .main-section--left-wide,
-  .main-section--right-wide {
+  .main-section, .main-section--wide, .main-section--left-wide, .main-section--right-wide {
     grid-template-areas: "sidebar" "pContent";
     grid-template-columns: 1fr;
   }
@@ -415,13 +377,13 @@ header .nav-icon {
   border-radius: 3px;
 }
 .accordion label::before {
-  font-family: "ForkAwesome", serif;
+  font-family: ForkAwesome, serif;
   margin-right: 0.5rem;
   content: "";
   font-weight: 900;
 }
 .accordion input:checked + label::before {
-  font-family: "ForkAwesome", serif;
+  font-family: ForkAwesome, serif;
   margin-right: 0.5rem;
   content: "";
   font-weight: 900;
@@ -507,13 +469,13 @@ header .nav-icon {
 
 @media all and (max-width: 794px) {
   .sidebar .accordion input + label::before {
-    font-family: "ForkAwesome", serif;
+    font-family: ForkAwesome, serif;
     margin-right: 0.5rem;
     content: "";
     font-weight: 900;
   }
   .sidebar .accordion input:checked + label::before {
-    font-family: "ForkAwesome", serif;
+    font-family: ForkAwesome, serif;
     margin-right: 0.5rem;
     content: "";
     font-weight: 900;
@@ -522,7 +484,7 @@ header .nav-icon {
     background: #4e8774;
   }
   .sidebar .accordion .content a,
-  .sidebar .accordion .content span {
+.sidebar .accordion .content span {
     display: inline-block;
     margin-right: 3rem;
   }
@@ -570,8 +532,7 @@ header .nav-icon {
   top: 50%;
   transform: translateY(-50%);
 }
-.carousel .carousel__button--left,
-.carousel .carousel__button--right {
+.carousel .carousel__button--left, .carousel .carousel__button--right {
   position: absolute;
 }
 .carousel .carousel__button--left {
@@ -1372,12 +1333,12 @@ dl li {
     grid-template-columns: 1fr;
   }
   .frontpage-section .site-section,
-  .frontpage-section .git-section {
+.frontpage-section .git-section {
     grid-gap: 0;
     grid-template-columns: inherit;
   }
   .frontpage-section .site-section .frontpage-title,
-  .frontpage-section .git-section .frontpage-title {
+.frontpage-section .git-section .frontpage-title {
     grid-column: auto;
     font-size: 2rem;
   }
@@ -1599,5 +1560,4 @@ code {
     width: 90%;
   }
 }
-
 /*# sourceMappingURL=styling.css.map */
