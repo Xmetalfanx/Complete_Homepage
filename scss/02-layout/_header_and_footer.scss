@@ -13,6 +13,8 @@ footer {
 
   // aligns content top vs bottom on the Y axis
   align-items: center;
+
+  // This is a problem on mobile
   max-height: 4.5rem;
 
   a {
@@ -60,9 +62,11 @@ header {
     flex-direction: row;
     justify-self: end;
 
+    @include darkBG;
+
     a {
       padding: 1rem;
-      font-size: 20px;
+      font-size: 1.35rem;
       font-weight: 500;
     }
 
@@ -74,9 +78,7 @@ header {
 
   // graphic to left of frontpage-title
   .nav-icon {
-    font-size: 2rem;
-
-    @include darkBG;
+    font-size: 2.4rem;
   }
 }
 

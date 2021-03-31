@@ -68,11 +68,11 @@ function browserData(data) {
 
                     <div class="card m-4">
                         <div class="card__header--wide">
-                            <div class="card-name">
+                            <div>
                                 <a href="${browserHomepage}" blank="_blank">
                                     <img data-src="${browserIconsDir}${browserIcon}" class="icon--size40 lazyload" /> ${browserTitle}</a>
                             </div>
-                            <div class="platform">
+                            <div>
                                 Platform(s): ${browserPlatforms}
                             </div>
                         </div>

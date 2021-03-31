@@ -40,8 +40,6 @@ function displayDEOutput(
 
   // used INSIDE the tabs below and not separately
   const deVersionsOutput = `
-
-
             <h3 class="font-weight-bold">Versions</h3>
             <div id="linuxVersions">
                 <small> Last Updated: ${currentDEVerUpdated} </small>
@@ -183,7 +181,7 @@ function displayDEOutput(
 
             <div class="card mx-3 shadow">
                 <div class="card__header">
-                    <h3 class="font-weight-bold">${currentDETitle}</h3>
+                    <h3>${currentDETitle}</h3>
                 </div>
                 <div class="card__body">
                     <div class="row">

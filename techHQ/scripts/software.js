@@ -92,15 +92,15 @@ function softwareData(data) {
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
-                    <div class=\"card softwareCard\">
+                    <div class=\"card\">
                       <div class=\"card__header--wide\">
-                        <div class=\"program-title\">
+                        <div>
                             <img data-src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40 lazyload \" \>
                             <a href=\"${homepage}\" target="_blank" rel="noreferrer">
                             ${progTitle}
                             </a>
                         </div>
-                        <div class=\"platform\">
+                        <div>
                           ${platformDisplay}
                         </div>
                     </div>

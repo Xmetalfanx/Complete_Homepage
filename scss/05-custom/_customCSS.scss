@@ -96,23 +96,6 @@
   }
 }
 
-// is there a need for this to be so hyper-specific?
-// (tip: look at grid-template-area)
-
-.softwareCard {
-  .card__header--wide {
-    grid-template-areas: "program-title platform";
-
-    .program-title {
-      grid-area: program-title;
-      align-self: flex-start;
-    }
-
-    .platform {
-      grid-area: platform;
-    }
-  }
-}
 
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
 #linuxFrontPrimaryContent {

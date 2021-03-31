@@ -100,13 +100,24 @@ body .card .card__header--wide {
   align-items: center;
   border-color: var(--themeBGColorMain);
   background-color: var(--themeBGColorMain);
-  color: white;
+  color: var(--white);
   display: flex;
   flex-direction: row;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   justify-content: flex-start;
   padding: 1rem;
+}
+
+body .card .card__header h1,
+body .card .card__header--wide h1,
+body .card .card__header h2,
+body .card .card__header--wide h2,
+body .card .card__header h3,
+body .card .card__header--wide h3,
+body .card .card__header h4,
+body .card .card__header--wide h4 {
+  color: var(--white);
 }
 
 body .card .card__header a:link,
@@ -114,20 +125,12 @@ body .card .card__header--wide a:link,
 body .card .card__header a:visited,
 body .card .card__header--wide a:visited {
   background-color: inherit;
-  color: var(--white);
+  color: inherit;
   text-decoration: none;
 }
 
 body .card .card__header--wide {
   justify-content: space-between;
-}
-
-body .card .card__header .card-name,
-body .card .card__header--wide .card-name,
-body .card .card__header .addon-title,
-body .card .card__header--wide .addon-title {
-  font-size: 20px;
-  font-weight: 700;
 }
 
 a {
@@ -257,11 +260,13 @@ header .topnav {
   display: flex;
   flex-direction: row;
   justify-self: end;
+  color: var(--white);
+  background-color: var(--themeBGColorMain);
 }
 
 header .topnav a {
   padding: 1rem;
-  font-size: 20px;
+  font-size: 1.35rem;
   font-weight: 500;
 }
 
@@ -270,9 +275,7 @@ header .topnav .icon {
 }
 
 header .nav-icon {
-  font-size: 2rem;
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
+  font-size: 2.4rem;
 }
 
 /************** Responsive CSS *******/
@@ -1361,7 +1364,7 @@ header .nav-icon {
 header .frontpage-title {
   text-align: center;
   margin: auto;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   font-weight: 900;
   line-height: 1rem;
 }
@@ -1423,7 +1426,7 @@ header .frontpage-title {
 .frontpage-section .site-section .card .card__header {
   background-color: inherit;
   color: var(--themeBGColorAccent);
-  font-size: 26px;
+  font-size: 1.6rem;
   font-weight: 800;
   padding: .5rem 1rem;
 }
@@ -1437,7 +1440,6 @@ header .frontpage-title {
 .frontpage-section .git-section .card .card__body,
 .frontpage-section .site-section .card .card__body {
   font-weight: 500;
-  padding: 1rem;
 }
 
 .frontpage-section .git-section .card .card__body .img-fluid,
@@ -1453,6 +1455,7 @@ header .frontpage-title {
   font-weight: 900;
   grid-column: span 2;
   text-align: center;
+  margin: 1.5rem auto;
 }
 
 .frontpage-section .site-section {
@@ -1587,19 +1590,6 @@ dl li {
 #techHQFooter a:hover {
   outline: 1px dotted black;
   text-decoration: none;
-}
-
-.softwareCard .card__header--wide {
-  grid-template-areas: "program-title platform";
-}
-
-.softwareCard .card__header--wide .program-title {
-  grid-area: program-title;
-  align-self: flex-start;
-}
-
-.softwareCard .card__header--wide .platform {
-  grid-area: platform;
 }
 
 #linuxFrontPrimaryContent {

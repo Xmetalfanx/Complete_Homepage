@@ -83,13 +83,13 @@ function browserAddonData(data) {
           checkPlatform(addonPlatform);
 
           const platform = `
-                    <div class="">
+                    <div>
                     ${totalBrowserIcon}
                     </div>
                     `;
 
           const addonIconTitle = `
-                <div class="">
+                <div>
                     <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon--size40" />${addonTitle}
                 </div>
                 `;
