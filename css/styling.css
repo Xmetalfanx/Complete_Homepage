@@ -1427,8 +1427,6 @@ header .frontpage-title {
   background-color: inherit;
   color: var(--themeBGColorAccent);
   font-size: 1.6rem;
-  font-weight: 800;
-  padding: .5rem 1rem;
 }
 
 .frontpage-section .git-section .card .card__header a,

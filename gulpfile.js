@@ -51,3 +51,18 @@ gulp.task('lint-css', function lintCssTask() {
     }))
     .pipe(gulp.dest('./css'));
 });
+
+gulp.task('lint-scss', function lintCssTask() {
+  const gulpStylelint = require('gulp-stylelint');
+
+  return gulp
+    .src('scss/**/*.scss')
+    .pipe(gulpStylelint({
+      fix: true,
+      reporters: [
+        {formatter: 'string', console: true}
+      ],
+      failAfterError: false,
+    }))
+    .pipe(gulp.dest('./scss'));
+});

@@ -1,3 +1,4 @@
+<section>
 <div class="card border-0 mx-auto w-50 py-3">
   <div class="card-header">Site Update</div>
   <div class="card-body text-justify">
@@ -5,3 +6,4 @@
     <div>After focusing a bit on my Linux Setup Scripts, I am now fixing UI issues, and continuing to complete the site and optimize things where needed.</div>
   </div>
 </div>
+</section>

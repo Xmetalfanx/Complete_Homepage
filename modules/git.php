@@ -1,4 +1,4 @@
-<div class="git-section">
+<section class="git-section">
   <div class="frontpage-title">My Git Projects </div>
   <div class="card card--bordered">
       <div class="card__header">Linux Setup</div>
@@ -47,4 +47,4 @@
             of plans for this for version and distro detection.
       </div>
     </div>
-</div>
+</section>
