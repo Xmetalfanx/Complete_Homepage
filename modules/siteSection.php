@@ -1,29 +1,29 @@
 
-<section class="site-section"> 
+<section class="site-section">
   <img class="img-fluid d-none d-lg-inline" src="/graphics/unsplash/city1.jpg" alt="unsplash city image">
-  <div> 
-    <h3> <a href="/linuxHQ/index.php">LinuxHQ Section</a></h3>
-    This Section includes
+  <div>
+    <h2> <a href="/linuxHQ/index.php">LinuxHQ Section</a></h2>
     <ul>
       <li>Linux Distribution and Desktop information, including:
         <ul>
-          <li> Description, Version (I admit I am behind on updating this info) information, screenshots, links to reviews and more.</li>
+          <li> Description, Version information, Screenshots, with links to reviews and more.</li>
           <li>Theme, Icon, and Cursor information for those wanting to customize their system's appearance</li>
         </ul>
       </li>
     </ul>
   </div>
+
   <div>
-    <h3><a href="/techHQ/index.php">TechHQ Section</a></h3>
-    This section contains
+    <h2><a href="/techHQ/index.php">TechHQ Section</a></h2>
     <ul>
-      <li>Browser
+      <li>Software suggestions and Web Browser/Browser Addon recommendations
         <ul>
-          <li>Addons</li>
-          <li>Useful tips and tricks</li>
+          <li>
+            Including cross-platform options for Windows and Linux
+          </li>
         </ul>
       </li>
-      <li>Securiry
+      <li>Security
         <ul>
           <li>Tips on what software to use to keep your computer secure</li>
         </ul>

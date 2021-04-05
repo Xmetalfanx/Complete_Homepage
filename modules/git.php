@@ -5,11 +5,11 @@
       <div class="card__body">
         <div class="git-icons">
           <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener" >
-            <img src="/graphics/simpleIcons/github.svg" alt="GitHub SVG" class="icon--size40" />
+            <i class="fa fa-3x fa-github" aria-hidden="true"></i>
           </a>
 
           <a href="https://gitlab.com/Xmetal/linuxSetup" target="_blank" rel="noopener">
-            <img src="/graphics/simpleIcons/gitlab.svg" alt="GitLab SVG" class="icon--size40" />
+            <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
           </a>
 
         </div>
@@ -30,7 +30,8 @@
               target="_blank"
               rel="noopener"
             >
-              <img src="/graphics/simpleIcons/github.svg" alt="GitHub SVG" class="icon--size40" />
+            <i class="fa fa-3x fa-github" aria-hidden="true"></i>
+
             </a>
 
             <a
@@ -38,7 +39,7 @@
               target="_blank"
               rel="noopener"
             >
-              <img src="/graphics/simpleIcons/gitlab.svg" alt="GitLab SVG" class="icon--size40" />
+              <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
             </a>
           </div>
             This originally was going to be a part of the LinuxSetup scripts, though

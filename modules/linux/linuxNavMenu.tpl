@@ -1,12 +1,12 @@
 
 <header>
-  <div class="nav-icon">
-    <img class="icon--size40" src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Graphic">
 
-    <a href="/linuxHQ/index.php">LinuxHQ</a>
-  </div>
+  <a href="/linuxHQ/index.php">
+    <i class="fa fa-3x fa-linux" aria-hidden="true"></i>
+    <h2 class="d-inline-block">LinuxHQ</h2>
+  </a>
 
-  <nav class="topnav" id="topnav">
+  <nav class="topnav h3" id="topnav">
       <a href="/linuxHQ/distros/distroHome.php">Distributions</a>
       <a href="/linuxHQ/desktops/desktopsIndex.php">Desktops</a>
       <a href="/linuxHQ/tutorials/tutorialIndex.php">Tutorial</a>

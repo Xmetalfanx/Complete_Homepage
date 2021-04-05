@@ -40,6 +40,11 @@
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol";
+  --h1: 3rem;
+  --h2: 2.25rem;
+  --h3: 1.5rem;
+  --h4: 1.25rem;
+  --h5: 1.1rem;
 }
 
 :root .themeColorAccent {
@@ -61,42 +66,69 @@ body {
   color: var(--darkGrey2);
   display: grid;
   font-family: var(--Roboto);
-  font-size: 1.05rem;
   font-weight: 400;
   grid-template-areas: "header header" "main-section main-section" "footer footer";
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr auto 1fr;
-  line-height: 1.5;
+  line-height: 1.6;
   min-height: 100%;
   text-align: left;
 }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--themeBGColorAccent);
   font-weight: 800;
 }
 
-body .card {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  color: var(--white);
+}
+
+h1,
+.h1 {
+  font-size: 3rem;
+}
+
+h2,
+.h2 {
+  font-size: 2.25rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+}
+
+.card {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
 }
 
-body .card--bordered {
+.card--bordered {
   border: 1px solid var(--themeBGColorMain);
 }
 
-body .card .card__body,
-body .card .card__text {
+.card .card__body,
+.card .card__text {
   padding: 1rem;
 }
 
-body .card .card__header,
-body .card .card__header--wide {
+.card .card__header,
+.card .card__header--wide {
   align-items: center;
   border-color: var(--themeBGColorMain);
   background-color: var(--themeBGColorMain);
@@ -104,32 +136,32 @@ body .card .card__header--wide {
   display: flex;
   flex-direction: row;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: var(--h4);
   justify-content: flex-start;
   padding: 1rem;
 }
 
-body .card .card__header h1,
-body .card .card__header--wide h1,
-body .card .card__header h2,
-body .card .card__header--wide h2,
-body .card .card__header h3,
-body .card .card__header--wide h3,
-body .card .card__header h4,
-body .card .card__header--wide h4 {
+.card .card__header h1,
+.card .card__header--wide h1,
+.card .card__header h2,
+.card .card__header--wide h2,
+.card .card__header h3,
+.card .card__header--wide h3,
+.card .card__header h4,
+.card .card__header--wide h4 {
   color: var(--white);
 }
 
-body .card .card__header a:link,
-body .card .card__header--wide a:link,
-body .card .card__header a:visited,
-body .card .card__header--wide a:visited {
+.card .card__header a:link,
+.card .card__header--wide a:link,
+.card .card__header a:visited,
+.card .card__header--wide a:visited {
   background-color: inherit;
   color: inherit;
   text-decoration: none;
 }
 
-body .card .card__header--wide {
+.card .card__header--wide {
   justify-content: space-between;
 }
 
@@ -266,16 +298,11 @@ header .topnav {
 
 header .topnav a {
   padding: 1rem;
-  font-size: 1.35rem;
   font-weight: 500;
 }
 
 header .topnav .icon {
   display: none;
-}
-
-header .nav-icon {
-  font-size: 2.4rem;
 }
 
 /************** Responsive CSS *******/
@@ -539,6 +566,7 @@ header .nav-icon {
   margin: 0 0 1px 0;
   border-radius: 3px;
   font-weight: 900;
+  font-size: var(--h5);
 }
 
 .sidebar .accordion label::before,
@@ -1364,7 +1392,6 @@ header .nav-icon {
 header .frontpage-title {
   text-align: center;
   margin: auto;
-  font-size: 2.5rem;
   font-weight: 900;
   line-height: 1rem;
 }
@@ -1411,9 +1438,8 @@ header .frontpage-title {
 
 .frontpage-section .git-section a:hover,
 .frontpage-section .site-section a:hover {
-  border-bottom: 1px solid brown;
+  outline: 2px solid var(--themeBGColorAccent);
   margin-bottom: 0;
-  transition: 3s;
 }
 
 .frontpage-section .git-section .card,
@@ -1620,26 +1646,6 @@ dl li {
   width: 75%;
 }
 
-.EducationalSites .card__body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.EducationalSites .card__body a {
-  align-content: center;
-}
-
-.EducationalSites .card__body a img {
-  margin: 0 auto;
-  padding: 10px 1.5rem;
-}
-
-.EducationalSites .card__body .card__header {
-  font-size: 24px;
-  font-weight: 700;
-}
-
 @media all and (max-width: 794px) {
   .EducationalSites {
     width: 90%;
@@ -1649,6 +1655,26 @@ dl li {
   .EducationalSites a {
     display: block;
   }
+}
+
+.card__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card__body a {
+  align-content: center;
+}
+
+.card__body a img {
+  margin: 0 auto;
+  padding: 10px 1.5rem;
+}
+
+.card__body .card__header {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 #desktopSection .card {
@@ -1721,7 +1747,7 @@ code {
   color: var(--white);
   border-radius: .25em;
   padding: .4em .875em;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */

@@ -2,11 +2,12 @@
 
 // for display:grid, spans two columns
 .span2 {
-  grid-column: span 2;
+  @include span2;
 }
 
 /******************* Width ********************/
 // why is this here?  Codacy.com suggestion? ... this seems like it should be better in 01-intial
+// however it would make sense i would have moved this here based on a Codacy suggetion
 .w-25 {
   width: 25%;
 }
@@ -73,15 +74,18 @@
 
 /*********** End RSS CSS **********/
 
+// why is this CSS needed? ...
 #outputSection a {
   color: var(--ThemeBGColorAccent);
 }
+
+/////////////////////////////////////////////
 
 // Footer specially (for now?) in the TechHQ side of the site
 #techHQFooter {
   // display: flex;
   //flex-direction: row;
-  grid-column: span 2;
+  @include span2;
   padding-left: 20px;
 
   a {
@@ -129,40 +133,38 @@
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
 .EducationalSites {
-  grid-column: span 2;
+  @include span2;
   margin: 0 auto 25px auto;
   text-align: center;
   width: 75%;
 
-  .card__body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    a {
-      align-content: center;
-
-      img {
-        margin: 0 auto;
-        padding: 10px 1.5rem;
-      }
-    }
-
-    .card__header {
-      font-size: 24px;
-      font-weight: 700;
-    }
-  }
-}
-
-@media all and (max-width: 794px) {
-  .EducationalSites {
+  @media all and (max-width: 794px) {
     width: 90%;
     grid-column: auto;
 
     a {
       display: block;
     }
+  }
+}
+
+.card__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  a {
+    align-content: center;
+
+    img {
+      margin: 0 auto;
+      padding: 10px 1.5rem;
+    }
+  }
+
+  .card__header {
+    font-size: 24px;
+    font-weight: 700;
   }
 }
 
@@ -240,7 +242,8 @@ code {
 .searchbarContainer {
   align-items: center;
   display: flex;
-  grid-column: span 2;
+
+  @include span2;
   justify-content: center;
 
   * {
@@ -255,6 +258,6 @@ code {
     color: var(--white);
     border-radius: .25em;
     padding: .4em .875em;
-    font-size: 1em;
+    font-size: 1rem;
   }
 }

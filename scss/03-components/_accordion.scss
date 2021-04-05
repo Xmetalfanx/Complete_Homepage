@@ -73,7 +73,6 @@
       display: none;
     }
 
-    // the title of what was ( earlier ) the button
     label {
       color: var(--white);
       background-color: var(--themeBGColorMain);
@@ -82,6 +81,9 @@
       margin: 0 0 1px 0;
       border-radius: 3px;
       font-weight: 900;
+
+      // guess at size
+      font-size: var(--h5);
 
       // to the left of the label and it is not clicked (should be right arrow)
       &::before {
@@ -112,6 +114,7 @@
     // This is default ... Expanded
     input + label + .content {
       opacity: 1;
+      // this fontsize needed here?
       font-size: 1rem;
       transition: linear .8s;
       //padding: 0 25px;

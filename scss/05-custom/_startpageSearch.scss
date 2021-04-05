@@ -2,7 +2,8 @@
 
 #SPSearch {
   margin: 10px auto;
-  grid-column: span 2;
+
+  @include span2;
 
   // For the SP icon and input box
   .SPHeightIconInput {

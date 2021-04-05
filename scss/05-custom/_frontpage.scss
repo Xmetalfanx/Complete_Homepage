@@ -5,7 +5,6 @@ header {
   .frontpage-title {
     text-align: center;
     margin: auto;
-    font-size: 2.5rem;
     font-weight: 900;
     line-height: 1rem;
   }
@@ -59,10 +58,9 @@ header {
     // come back to later
     // I need better UX/UI to show the link is clickable
     a:hover {
-      border-bottom: 1px solid brown;
+      outline: 2px solid var(--themeBGColorAccent);
       margin-bottom: 0;
-      transition: 3s;
-      //outline: 1px solid black;
+      //transition: 3s;
     }
 
     .card {

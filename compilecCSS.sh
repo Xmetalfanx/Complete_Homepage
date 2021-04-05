@@ -2,8 +2,11 @@
 
 clear
 
-gulp compile
+
 gulp lint-scss
 
-# maynot be needed anymore 
+#  compile the sass to css
+gulp compile
+
+# maynot be needed anymore
 gulp lint-css

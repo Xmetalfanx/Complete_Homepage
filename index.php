@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <div class="frontpage-title">Xmetal's Homepage</div>
+      <div class="frontpage-title h2">Xmetal's Homepage</div>
     </header>
 
 
