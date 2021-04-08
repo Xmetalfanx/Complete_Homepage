@@ -44,8 +44,18 @@ footer {
     width: 50%;
   }
 
+  .site-made {
+    @media all and (max-width: 993px) {
+      display: none;
+    }
+  }
+
   .contacts {
     text-align: right;
+
+    @media all and (max-width: 993px) {
+      width: 100% !important;
+    }
   }
 }
 
@@ -55,49 +65,47 @@ header {
   text-shadow: 2px 5px var(--themeBGColorMain);
   grid-area: header;
 
-  // the right side part with the actual section links
+  .fa {
+    margin-right: 1rem;
+  }
 
+  @include darkBG;
+
+  * {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  // right aligned menus
   .topnav {
     display: flex;
     flex-direction: row;
     justify-self: end;
-
-    @include darkBG;
+    font-weight: 500;
+    font-size: var(--h4);
 
     a {
       padding: 1rem;
-      font-weight: 500;
+
+      @media screen and (max-width: 794px) {
+        display: none;
+      }
     }
 
     // for hamburger menu that should only display on mobile
     .icon {
       display: none;
-    }
-  }
-}
 
-/************** Responsive CSS *******/
-
-/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 794px) {
-  header {
-    // so the desktop menu doesn't display on mobile
-    .topnav {
-      a {
-        display: none;
-      }
-
-      .icon {
+      /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+      @media screen and (max-width: 794px) {
         float: right;
         display: block;
       }
     }
   }
-}
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 794px) {
-  header {
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 794px) {
     .topnav.responsive {
       position: absolute;
       width: 100%;
@@ -127,19 +135,5 @@ header {
         align-self: start;
       }
     }
-  }
-}
-
-// ends media query
-
-/////////////////////////////////////////////////////////////////////
-// so the footer spans across the entire botton, with the .site-made div being hidden now
-@media all and (max-width: 993px) {
-  .contacts {
-    width: 100% !important;
-  }
-
-  .site-made {
-    display: none;
   }
 }

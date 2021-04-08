@@ -66,6 +66,7 @@ body {
   color: var(--darkGrey2);
   display: grid;
   font-family: var(--Roboto);
+  font-size: 1.05rem;
   font-weight: 400;
   grid-template-areas: "header header" "main-section main-section" "footer footer";
   grid-template-columns: repeat(2, 1fr);
@@ -89,7 +90,7 @@ h2 a,
 h3 a,
 h4 a,
 h5 a {
-  color: var(--white);
+  outline: 1px solid var(--themeBGColorAccent);
 }
 
 h1,
@@ -112,7 +113,8 @@ h4,
   font-size: 1.25rem;
 }
 
-.card {
+.card,
+.card--bordered {
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
@@ -123,12 +125,16 @@ h4,
 }
 
 .card .card__body,
-.card .card__text {
+.card--bordered .card__body,
+.card .card__text,
+.card--bordered .card__text {
   padding: 1rem;
 }
 
 .card .card__header,
-.card .card__header--wide {
+.card .card__header--wide,
+.card--bordered .card__header,
+.card--bordered .card__header--wide {
   align-items: center;
   border-color: var(--themeBGColorMain);
   background-color: var(--themeBGColorMain);
@@ -143,25 +149,38 @@ h4,
 
 .card .card__header h1,
 .card .card__header--wide h1,
+.card--bordered .card__header h1,
+.card--bordered .card__header--wide h1,
 .card .card__header h2,
 .card .card__header--wide h2,
+.card--bordered .card__header h2,
+.card--bordered .card__header--wide h2,
 .card .card__header h3,
 .card .card__header--wide h3,
+.card--bordered .card__header h3,
+.card--bordered .card__header--wide h3,
 .card .card__header h4,
-.card .card__header--wide h4 {
+.card .card__header--wide h4,
+.card--bordered .card__header h4,
+.card--bordered .card__header--wide h4 {
   color: var(--white);
 }
 
 .card .card__header a:link,
 .card .card__header--wide a:link,
+.card--bordered .card__header a:link,
+.card--bordered .card__header--wide a:link,
 .card .card__header a:visited,
-.card .card__header--wide a:visited {
+.card .card__header--wide a:visited,
+.card--bordered .card__header a:visited,
+.card--bordered .card__header--wide a:visited {
   background-color: inherit;
   color: inherit;
   text-decoration: none;
 }
 
-.card .card__header--wide {
+.card .card__header--wide,
+.card--bordered .card__header--wide {
   justify-content: space-between;
 }
 
@@ -277,8 +296,20 @@ footer .site-made {
   width: 50%;
 }
 
+@media all and (max-width: 993px) {
+  footer .site-made {
+    display: none;
+  }
+}
+
 footer .contacts {
   text-align: right;
+}
+
+@media all and (max-width: 993px) {
+  footer .contacts {
+    width: 100% !important;
+  }
 }
 
 header {
@@ -286,40 +317,52 @@ header {
   padding: 1rem;
   text-shadow: 2px 5px var(--themeBGColorMain);
   grid-area: header;
+  color: var(--white);
+  background-color: var(--themeBGColorMain);
+
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+}
+
+header .fa {
+  margin-right: 1rem;
+}
+
+header * {
+  background-color: inherit;
+  color: inherit;
 }
 
 header .topnav {
   display: flex;
   flex-direction: row;
   justify-self: end;
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
+  font-weight: 500;
+  font-size: var(--h4);
 }
 
 header .topnav a {
   padding: 1rem;
-  font-weight: 500;
 }
 
-header .topnav .icon {
-  display: none;
-}
-
-/************** Responsive CSS *******/
-
-/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 794px) {
   header .topnav a {
     display: none;
   }
+}
 
+header .topnav .icon {
+  display: none;
+
+  /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
+}
+
+@media screen and (max-width: 794px) {
   header .topnav .icon {
     float: right;
     display: block;
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 794px) {
   header .topnav.responsive {
     position: absolute;
@@ -351,16 +394,6 @@ header .topnav .icon {
   }
 }
 
-@media all and (max-width: 993px) {
-  .contacts {
-    width: 100% !important;
-  }
-
-  .site-made {
-    display: none;
-  }
-}
-
 /*********** Main Section in middle of page  *****/
 .main-section,
 .main-section--right-wide,
@@ -372,7 +405,19 @@ header .topnav .icon {
   grid-gap: 1.5rem;
   justify-items: stretch;
 
+  /* media query for center section under 794px wide */
+
   /****** Sidebar *****/
+}
+
+@media all and (max-width: 794px) {
+  .main-section,
+  .main-section--right-wide,
+  .main-section--left-wide,
+  .main-section--wide {
+    grid-template-areas: "sidebar" "pContent";
+    grid-template-columns: 1fr;
+  }
 }
 
 .main-section--wide {
@@ -486,14 +531,6 @@ header .topnav .icon {
   .main-section--right-wide .primary-content {
     grid-area: pContent;
     margin: 0 1rem;
-  }
-
-  .main-section,
-  .main-section--wide,
-  .main-section--left-wide,
-  .main-section--right-wide {
-    grid-template-areas: "sidebar" "pContent";
-    grid-template-columns: 1fr;
   }
 }
 
@@ -1389,57 +1426,58 @@ header .topnav .icon {
   border-color: var(--themeBGColorMain);
 }
 
-header .frontpage-title {
+.frontpage-title {
   text-align: center;
   margin: auto;
   font-weight: 900;
-  line-height: 1rem;
+}
+
+@media all and (max-width: 366px) {
+  .frontpage-title {
+    max-height: none;
+  }
+}
+
+@media (max-width: 874px) {
+  .frontpage-title {
+    grid-column: auto;
+    font-size: 2rem;
+  }
 }
 
 .frontpage-section {
   display: grid;
   grid-gap: 2rem;
-  grid-template-areas: "site-section   site-section" "site-section   site-section" "git-section    git-section" "git-section    git-section";
-  grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "site-section" "git-section";
   margin: 20px 0;
-}
-
-.frontpage-section .git-section {
-  grid-area: git-section;
-}
-
-.frontpage-section .git-section .card {
-  margin: 0 auto;
-  width: 80%;
-}
-
-.frontpage-section .git-section .card .card__header {
-  text-align: center;
-}
-
-.frontpage-section .git-section .git-icons {
-  color: var(--themeBGColorAccent);
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: .5rem;
-}
-
-.frontpage-section .git-section .git-icons a {
-  color: inherit;
+  justify-items: flex-start;
+  grid-template-columns: 1fr;
 }
 
 .frontpage-section .git-section,
 .frontpage-section .site-section {
-  display: inline-grid;
-  grid-template-columns: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
   padding: 0 1rem;
+}
+
+@media (max-width: 874px) {
+  .frontpage-section .git-section,
+  .frontpage-section .site-section {
+    grid-gap: 0;
+  }
+}
+
+.frontpage-section .git-section a,
+.frontpage-section .site-section a {
+  margin-bottom: 0;
 }
 
 .frontpage-section .git-section a:hover,
 .frontpage-section .site-section a:hover {
   outline: 2px solid var(--themeBGColorAccent);
-  margin-bottom: 0;
+  color: inherit;
+  text-decoration: none;
 }
 
 .frontpage-section .git-section .card,
@@ -1482,23 +1520,61 @@ header .frontpage-title {
   margin: 1.5rem auto;
 }
 
+.frontpage-section .git-section {
+  margin-top: 1rem;
+  grid-area: git-section;
+}
+
+.frontpage-section .git-section .card--bordered {
+  margin: 1rem 2rem;
+  width: 80%;
+}
+
+.frontpage-section .git-section .card--bordered .card__header {
+  text-align: center;
+}
+
+.frontpage-section .git-section .git-icons {
+  color: var(--themeBGColorAccent);
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: .5rem;
+}
+
+.frontpage-section .git-section .git-icons a {
+  margin: auto 1rem;
+}
+
 .frontpage-section .site-section {
   grid-area: site-section;
   grid-gap: inherit;
+  width: 100%;
+}
+
+.frontpage-section .site-section p {
+  max-width: 72ch;
+}
+
+.frontpage-section .site-section .h3,
+.frontpage-section .site-section a .h3 {
+  display: block;
+  margin: 1rem 0;
+  font-weight: 900;
+  font-size: 1.7rem;
 }
 
 .frontpage-section .site-section img {
   margin: 0 auto;
-  max-width: 80%;
+  width: 600px;
   max-height: 800px;
 }
 
-.frontpage-section .site-section .card {
+.frontpage-section .site-section .card--bordered {
   margin: 0 auto;
   width: 100%;
 }
 
-.frontpage-section .site-section .card .card__body p {
+.frontpage-section .site-section .card--bordered .card__body p {
   margin: 10px 0;
 }
 
@@ -1518,18 +1594,6 @@ dl li {
 @media (max-width: 874px) {
   .frontpage-section {
     grid-template-columns: 1fr;
-  }
-
-  .frontpage-section .site-section,
-  .frontpage-section .git-section {
-    grid-gap: 0;
-    grid-template-columns: inherit;
-  }
-
-  .frontpage-section .site-section .frontpage-title,
-  .frontpage-section .git-section .frontpage-title {
-    grid-column: auto;
-    font-size: 2rem;
   }
 }
 
@@ -1581,11 +1645,13 @@ dl li {
 
 /************** RSS Feed *************/
 .feed-item-title a {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 1.4rem;
   display: inline-block;
   margin: 0 auto;
+  text-align: left;
+  outline: none;
 }
 
 .feed-item-desc img {
@@ -1655,26 +1721,6 @@ dl li {
   .EducationalSites a {
     display: block;
   }
-}
-
-.card__body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.card__body a {
-  align-content: center;
-}
-
-.card__body a img {
-  margin: 0 auto;
-  padding: 10px 1.5rem;
-}
-
-.card__body .card__header {
-  font-size: 24px;
-  font-weight: 700;
 }
 
 #desktopSection .card {

@@ -1,12 +1,17 @@
 // Things specific to the landing page of the site
-// I FULLY ADMIT that alot of this seems too hyper specific ... i will refactor the code later
 
-header {
-  .frontpage-title {
-    text-align: center;
-    margin: auto;
-    font-weight: 900;
-    line-height: 1rem;
+.frontpage-title {
+  text-align: center;
+  margin: auto;
+  font-weight: 900;
+
+  @media all and (max-width: 366px) {
+    max-height: none;
+  }
+
+  @media (max-width: 874px) {
+    grid-column: auto;
+    font-size: 2rem;
   }
 }
 
@@ -15,52 +20,33 @@ header {
   display: grid;
   grid-gap: 2rem;
   grid-template-areas:
-    "site-section   site-section"
-    "site-section   site-section"
-    "git-section    git-section"
-    "git-section    git-section";
-  grid-template-columns: repeat(auto-fit, minmax(400px, 48%));
-  grid-template-rows: repeat(2, 1fr);
+    "site-section"
+    "git-section";
   margin: 20px 0;
+  justify-items: flex-start;
+  grid-template-columns: 1fr;
 
-  .git-section {
-    grid-area: git-section;
-
-    .card {
-      margin: 0 auto;
-      width: 80%;
-
-      .card__header {
-        text-align: center;
-      }
-    }
-
-    .git-icons {
-      color: var(--themeBGColorAccent);
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: .5rem;
-
-      a {
-        color: inherit;
-      }
-    }
-  }
-
-  // for both sections
   .git-section,
   .site-section {
     // justify-content: space-around;
-    display: inline-grid;
-    grid-template-columns: inherit;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
     padding: 0 1rem;
 
-    // come back to later
-    // I need better UX/UI to show the link is clickable
-    a:hover {
-      outline: 2px solid var(--themeBGColorAccent);
+    @media (max-width: 874px) {
+      grid-gap: 0;
+    }
+
+    a {
       margin-bottom: 0;
-      //transition: 3s;
+
+      &:hover {
+        outline: 2px solid var(--themeBGColorAccent);
+
+        // remove below items once the bootstrap CDN is removed
+        color: inherit;
+        text-decoration: none;
+      }
     }
 
     .card {
@@ -103,19 +89,58 @@ header {
       margin: 1.5rem auto;
     }
   }
-  // for images and descriptions for two main website sections
+
+  .git-section {
+    margin-top: 1rem;
+    grid-area: git-section;
+
+    .card--bordered {
+      margin: 1rem 2rem;
+      width: 80%;
+
+      .card__header {
+        text-align: center;
+      }
+    }
+
+    .git-icons {
+      color: var(--themeBGColorAccent);
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: .5rem;
+
+      a {
+        margin: auto 1rem;
+      }
+    }
+  }
+
   .site-section {
     grid-area: site-section;
     grid-gap: inherit;
+    width: 100%;
+    //grid-template-rows: repeat(2, 1fr);
+
+    p {
+      max-width: 72ch;
+    }
+
+    .h3,
+    a .h3 {
+      display: block;
+      margin: 1rem 0;
+      font-weight: 900;
+      font-size: 1.7rem;
+    }
 
     img {
       margin: 0 auto;
-      max-width: 80%;
+      width: 600px;
       max-height: 800px;
     }
     // for bigger images to the side
 
-    .card {
+    .card--bordered {
       // zero top and bottom and auto left and right
       margin: 0 auto;
       width: 100%;
@@ -127,7 +152,6 @@ header {
       }
     }
   }
-  // for describing my git projects
 }
 
 // why is this here?
@@ -145,16 +169,5 @@ dl {
 @media (max-width: 874px) {
   .frontpage-section {
     grid-template-columns: 1fr;
-
-    .site-section,
-    .git-section {
-      grid-gap: 0;
-      grid-template-columns: inherit;
-
-      .frontpage-title {
-        grid-column: auto;
-        font-size: 2rem;
-      }
-    }
   }
 }

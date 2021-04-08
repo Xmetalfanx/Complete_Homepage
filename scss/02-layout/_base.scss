@@ -13,7 +13,7 @@ body {
   color: var(--darkGrey2);
   display: grid;
   font-family: var(--Roboto);
-  //font-size: 1.05rem;
+  font-size: 1.05rem;
   font-weight: 400;
 
   // why did i do this? ... couldn't the main-section be display:grid and split into two columns
@@ -38,7 +38,7 @@ h5 {
   font-weight: 800;
 
   a {
-    color: var(--white);
+    outline: 1px solid var(--themeBGColorAccent);
   }
 }
 
@@ -68,6 +68,7 @@ h4,
   min-width: 8rem;
 
   &--bordered {
+    @extend .card;
     border: 1px solid var(--themeBGColorMain);
   }
 

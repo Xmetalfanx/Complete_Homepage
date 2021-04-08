@@ -11,6 +11,14 @@
   grid-gap: 1.5rem;
   justify-items: stretch;
 
+  /* media query for center section under 794px wide */
+  @media all and (max-width: 794px) {
+    grid-template-areas:
+      "sidebar"
+      "pContent";
+    grid-template-columns: 1fr;
+  }
+
   // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
   &--wide {
     @extend .main-section;
@@ -105,12 +113,5 @@
       grid-area: pContent;
       margin: 0 1rem;
     }
-  }
-
-  .main-section {
-    grid-template-areas:
-      "sidebar"
-      "pContent";
-    grid-template-columns: 1fr;
   }
 }

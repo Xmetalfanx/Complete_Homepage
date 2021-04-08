@@ -55,11 +55,14 @@
 // For GAOTD too
 .feed-item-title {
   a {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1rem;
     line-height: 1.4rem;
     display: inline-block;
     margin: 0 auto;
+    // not sure why things started centering
+    text-align: left;
+    outline: none;
   }
 }
 
@@ -148,25 +151,26 @@
   }
 }
 
-.card__body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+// why is any of this code selector here?
+// .card__body {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-evenly;
 
-  a {
-    align-content: center;
+//   a {
+//     align-content: center;
 
-    img {
-      margin: 0 auto;
-      padding: 10px 1.5rem;
-    }
-  }
+//     img {
+//       margin: 0 auto;
+//       padding: 10px 1.5rem;
+//     }
+//   }
 
-  .card__header {
-    font-size: 24px;
-    font-weight: 700;
-  }
-}
+//   .card__header {
+//     font-size: 24px;
+//     font-weight: 700;
+//   }
+// }
 
 // For LinuxHQ distro section and eventually more
 #desktopSection {
