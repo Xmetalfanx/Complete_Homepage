@@ -48,9 +48,9 @@ function displayDistroOutput(
 
         <h4 class="font-weight-bold">Youtube Playlists</h4>
 
-          <div class="d-none d-lg-flex py-2">
-            <iframe class="YTPlaylists" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-            <iframe class="YTPlaylists" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          <div class="d-none d-lg-flex flex-wrap py-2">
+            <iframe class="YTPlaylistsTN" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            <iframe class="YTPlaylistsTN" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
           </div>
         </div>
 
