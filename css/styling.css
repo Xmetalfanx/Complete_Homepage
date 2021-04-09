@@ -1638,12 +1638,7 @@ dl li {
   border: 0;
 }
 
-.youtubeIframes {
-  display: flex;
-  justify-content: space-around;
-}
-
-.youtubeIframes .YTPlaylists {
+.YTPlaylists {
   width: 480px;
   height: 276px;
 }

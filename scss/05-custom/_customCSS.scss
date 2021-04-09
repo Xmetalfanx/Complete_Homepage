@@ -94,11 +94,11 @@
     color: inherit;
     margin: 0 1rem;
     font-weight: 500;
-  }
 
-  a:hover {
-    outline: 1px dotted black;
-    text-decoration: none;
+    &:hover {
+      outline: 1px dotted black;
+      text-decoration: none;
+    }
   }
 }
 
@@ -195,7 +195,7 @@
 
   // The Titles of the Distro/Versions
   .versionTitle {
-    margin-right: 0.5rem;
+    margin-right: .5rem;
   }
 
   // the actual version number
@@ -257,10 +257,10 @@ code {
   button {
     background: #006400;
     border: 1px solid #006400;
-    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
+    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, .2);
     color: var(--white);
-    border-radius: 0.25em;
-    padding: 0.4em 0.875em;
+    border-radius: .25em;
+    padding: .4em .875em;
     font-size: 1rem;
   }
 }
