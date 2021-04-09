@@ -1638,9 +1638,14 @@ dl li {
   border: 0;
 }
 
-.YTPlaylists {
-  width: 560px;
-  height: 315px;
+.youtubeIframes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.youtubeIframes .YTPlaylists {
+  width: 480px;
+  height: 276px;
 }
 
 /************** RSS Feed *************/
