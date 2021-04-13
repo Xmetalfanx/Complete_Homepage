@@ -8,7 +8,7 @@
   justify-items: stretch;
 
   /* media query for center section under 794px wide */
-  @media all and (max-width: 794px) {
+  @media all and (max-width: var(--size-sm)) {
     grid-template-areas:
       "sidebar"
       "pContent";
@@ -83,7 +83,7 @@
 }
 
 /* Media query for center section under 794px wide */
-@media all and (max-width: 794px) {
+@media all and (max-width: var(--size-sm)) {
   // the main section between the nav top bar and the footer
   .main-section,
   .main-section--left-wide,
