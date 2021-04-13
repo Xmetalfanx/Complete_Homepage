@@ -10,11 +10,11 @@
 
     <?php include ($path . '/modules/linux/linuxNavMenu.tpl'); ?>
 
-    <div class="main-section main-section--right-wide">
+    <div class="main-section--right-wide">
       <div class="sidebar">
         <?php include($path . '/linuxHQ/modules/sections/linuxDECol1.tpl'); ?>
       </div>
-      <div class="primary-content" id="desktopSection">
+      <div class="primary-content d-flex flex-wrap" id="desktopSection">
 
       </div>
     </div>

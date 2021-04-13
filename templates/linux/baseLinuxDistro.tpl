@@ -11,7 +11,7 @@
 
   <?php require$path . '/modules/linux/linuxNavMenu.tpl'; ?>
 
-<div class="main-section main-section--right-wide">
+<div class="main-section--right-wide">
     <div class="sidebar">
       <?php require $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>

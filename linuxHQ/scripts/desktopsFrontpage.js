@@ -6,18 +6,22 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
     const deInfoCard = `
 
-        <div class="card w-50">
+        <div class="card w-40">
             <div class="card__header py-2">
                 <h4>
-                    <a href="${currentDEHomepage}" target="_blank" rel="noopener"> ${currentDETitle}</a>
+                  <a href="${currentDEHomepage}" target="_blank" rel="noopener"> ${currentDETitle}</a>
                 </h4>
             </div>
 
             <div class="card__body d-none d-md-inline-block">
-                <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                    <img class="d-block lazyload thumbnails thumbnails--lg mx-auto" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
-                </a>
-                  <span class="font-weight-bold"> Distro:${currentDESShotDistro}
+                <figure>
+                    <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
+                        <img class="lazyload thumbnails--lg mx-auto img-fluid" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
+                    </a>
+                    <figcaption>Distro:${currentDESShotDistro}</figcaption>
+
+                </figure>
+
             </div>
         </div>
 

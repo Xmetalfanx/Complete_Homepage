@@ -1,5 +1,5 @@
 // var for where to put the output
-var distroResults = document.getElementById('linuxFrontPrimaryContent');
+var distroResults = document.getElementById('linuxFrontprimary-content');
 
 var myPage = '/linuxHQ/distro/';
 var distroGraphics = '/linuxHQ/graphics/distros/';
@@ -33,13 +33,12 @@ function displayDistroOutput(
   const currentDistroInfoOutput = `
 
         <div class="card pb-3 w-33">
-          <div class="card-header pl-2">
-            <h4>
-                <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40"> ${currentDistroTitle}
-            </h4>
+          <div class="card__header pl-2">
+            <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40">
+            <h4>${currentDistroTitle} </h4>
           </div>
 
-          <div class="card-body">
+          <div class="card__body">
 
             <span class="font-weight-bold">Homepage: </span>
             <a href="${currentDistroHomepage}" target="_blank">${currentDistroTitle}'s Homepage</a>${currentDistroSShotOutput}

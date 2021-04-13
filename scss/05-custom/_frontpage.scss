@@ -1,41 +1,24 @@
 // Things specific to the landing page of the site
 
 .frontpage-title {
-  text-align: center;
-  margin: auto;
+  margin: 1rem auto;
   font-weight: 900;
-
-  @media all and (max-width: 366px) {
-    max-height: none;
-  }
-
-  @media (max-width: 874px) {
-    grid-column: auto;
-    font-size: 2rem;
-  }
+  font-size: var(--h3);
 }
 
 // The main part of the frontpage, ... sort of a container
 .frontpage-section {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-areas:
-    "site-section"
-    "git-section";
-  margin: 20px 0;
-  justify-items: flex-start;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-flow: column wrap;
+
+  @media (max-width: 874px) {
+    grid-template-columns: 1fr;
+  }
 
   .git-section,
   .site-section {
-    // justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
-    padding: 0 1rem;
-
-    @media (max-width: 874px) {
-      grid-gap: 0;
-    }
+    display: inline-flex;
+    justify-content: space-around;
 
     a {
       margin-bottom: 0;
@@ -79,27 +62,19 @@
         }
       }
     }
-    // For Titles, so they can span across two columns
-    .frontpage-title {
-      color: var(--themeBGColorAccent);
-      font-size: 3rem;
-      font-weight: 900;
-      grid-column: span 2;
-      text-align: center;
-      margin: 1.5rem auto;
-    }
   }
 
   .git-section {
-    margin-top: 1rem;
-    grid-area: git-section;
-
     .card--bordered {
       margin: 1rem 2rem;
-      width: 80%;
+      width: max-content;
 
       .card__header {
         text-align: center;
+      }
+
+      .card__body {
+        width: 67ch;
       }
     }
 
@@ -116,11 +91,6 @@
   }
 
   .site-section {
-    grid-area: site-section;
-    grid-gap: inherit;
-    width: 100%;
-    //grid-template-rows: repeat(2, 1fr);
-
     p {
       max-width: 72ch;
     }
@@ -137,6 +107,7 @@
       margin: 0 auto;
       width: 600px;
       max-height: 800px;
+      padding: 2rem;
     }
     // for bigger images to the side
 
@@ -163,11 +134,5 @@ dl {
 
   li {
     margin-left: 1.4rem;
-  }
-}
-
-@media (max-width: 874px) {
-  .frontpage-section {
-    grid-template-columns: 1fr;
   }
 }

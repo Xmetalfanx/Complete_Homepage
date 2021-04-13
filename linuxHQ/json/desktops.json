@@ -58,7 +58,7 @@
       "screenshots": {
         "src": "ubuntu/kubuntu.png",
         "thumbnail": "ubuntu/thumbnails/kubuntu_tn.png",
-        "distro": "Kubuntu 18.04"
+        "distro": "Kubuntu 20.04"
       }
     },
     {
@@ -540,9 +540,9 @@
         }
       },
       "screenshots": {
-        "src": "ubuntu/ubuntuGnome.png",
-        "thumbnail": "ubuntu/thumbnails/ubuntuGnome_tn.png",
-        "distro": "Ubuntu 18.10"
+        "src": "ubuntu/ubuntu2010settings.png",
+        "thumbnail": "ubuntu/thumbnails/ubuntu2010settings_tn.png",
+        "distro": "Ubuntu 20.10 (settings)"
       }
     }
   ]

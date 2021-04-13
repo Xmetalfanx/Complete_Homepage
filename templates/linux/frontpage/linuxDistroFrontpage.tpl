@@ -4,7 +4,7 @@
 
 <body onload="getDistroData()">
   <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
-  <div class="main-section main-section--right-wide">
+  <div class="main-section--right-wide">
     <div class="sidebar">
       <?php include $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>

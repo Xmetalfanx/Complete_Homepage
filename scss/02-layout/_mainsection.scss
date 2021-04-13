@@ -1,9 +1,5 @@
-/*********** Main Section in middle of page  *****/
+/*********** Main Section in middle of page, between the header and footer *****/
 
-// the main section between the nav top bar and the footer
-
-// This CONTAINS sidebar and "primary-content" ... i was getting confused looking at this months later thinking
-// that this WAS primary-content in a different name
 .main-section {
   grid-area: main-section;
   padding: 1.5rem;

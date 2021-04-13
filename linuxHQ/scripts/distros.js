@@ -1,5 +1,5 @@
 // let for where to put the output
-let distroResults = document.getElementById('linuxFrontPrimaryContent');
+let distroResults = document.getElementById('linuxFrontprimary-content');
 
 let myPage = '/linuxHQ/distro/';
 let DWPage = 'https://distrowatch.com/';
@@ -32,7 +32,7 @@ function displayDistroOutput(
   const currentDistroSShotOutput = `
 
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="thumbnail-fluid--lg lazyload" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="thumbnail-fluid--lg d-none d-md-inline-block" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
         </a>
     `;
 
@@ -46,7 +46,7 @@ function displayDistroOutput(
 
   const currentDistroYTOutput = `
 
-        <h4 class="font-weight-bold">Youtube Playlists</h4>
+        <h4>Youtube Playlists</h4>
 
           <div class="d-none d-lg-flex flex-wrap py-2">
             <iframe class="YTPlaylistsTN" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
@@ -67,24 +67,29 @@ function displayDistroOutput(
   const currentDistoHeaderOutput = `
       <div class="card__header">
         <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
-        <span class="font-weight-bold">${currentDistroTitle}</span>
+        <h3>${currentDistroTitle}</h3>
       </div>
   `;
 
   const currentDistroInfoOutput = `
 
-      <div class="card mx-auto shadow">
+      <div class="card mx-auto">
         ${currentDistoHeaderOutput}
         <div class="card__body">
 
-            <div class="row">
-              <div class="col d-md-inline">
+            <!-- For both col's (so to speak) -->
+            <div class="d-flex">
+
+            <!-- for left hand col ... left of the screenshots -->
+            <div class="d-md-inline-block">
 
                 <span class="font-weight-bold">Homepage: </span>
-                    <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage</a><br/>
+                    <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage
+                    </a><br/>
 
                 <span class="font-weight-bold">Download: </span>
-                    <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page</a><br/>
+                    <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page
+                    </a><br/>
 
                 <span class="font-weight-bold">Forums:</span>
                     <a href="${currentDistroForum}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Forum</a><br/>
@@ -93,18 +98,18 @@ function displayDistroOutput(
                     <a href="${DWPage}${currentDistroName}" blank="_blank" rel='noreferrer'>${currentDistroTitle} Distrowatch Link
                     </a>
 
-                    <div class="py-3">
-                    <h3 class="font-weight-bold font-style-italic"> Versions</h3>
-                    <span class="font-weight-bold">Latest Version: </span><br />
-                    <span class="font-weight-bold">Currently Supported Versions: <br />
-                  </div>
+                <div class="py-3">
+                  <h4> Versions</h4>
+                  <span class="font-weight-bold">Latest Version: </span><br />
+                  <span class="font-weight-bold">Currently Supported Versions: </span><br />
+                </div>
 
 
                   <hr />
                   ${currentDistroMoreInfoOutput}
               </div>
 
-                    <div class="col d-none d-md-inline"> ${currentDistroSShotOutput}</div>
+                    <div> ${currentDistroSShotOutput}</div>
                 </div>
 
 

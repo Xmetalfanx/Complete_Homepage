@@ -5,41 +5,6 @@
   @include span2;
 }
 
-/******************* Width ********************/
-// why is this here?  Codacy.com suggestion? ... this seems like it should be better in 01-intial
-// however it would make sense i would have moved this here based on a Codacy suggetion
-.w-25 {
-  width: 25%;
-}
-
-.w-30 {
-  width: 30%;
-}
-
-.w-33 {
-  width: 33%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-.w-90 {
-  width: 90%;
-}
-
-.w-95 {
-  width: 95%;
-}
-
 // ?? what is this for?
 .list-group-item {
   border: 0;
@@ -104,7 +69,7 @@
 }
 
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
-#linuxFrontPrimaryContent {
+#linuxFrontprimary-content {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -112,6 +77,15 @@
   .card {
     min-width: 300px;
     max-height: none;
+
+    @media (max-width: 794px) {
+      padding: 1rem;
+    }
+
+    .card__header {
+      display: flex;
+      justify-content: flex-start;
+    }
   }
 }
 
@@ -124,53 +98,34 @@
       margin-bottom: 1rem;
     }
   }
-
-  #linuxFrontPrimaryContent {
-    .card {
-      min-width: 300px;
-      padding: 1rem;
-    }
-  }
 }
 
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
 .EducationalSites {
   @include span2;
-  margin: 0 auto 25px auto;
-  text-align: center;
   width: 75%;
 
   @media all and (max-width: 794px) {
     width: 90%;
     grid-column: auto;
 
+    // why? ... is this suppose to be outside the media query?
     a {
       display: block;
     }
   }
+
+  .card__body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    * {
+      margin: .75rem;
+    }
+  }
 }
-
-// why is any of this code selector here?
-// .card__body {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-evenly;
-
-//   a {
-//     align-content: center;
-
-//     img {
-//       margin: 0 auto;
-//       padding: 10px 1.5rem;
-//     }
-//   }
-
-//   .card__header {
-//     font-size: 24px;
-//     font-weight: 700;
-//   }
-// }
 
 // For LinuxHQ distro section and eventually more
 #desktopSection {

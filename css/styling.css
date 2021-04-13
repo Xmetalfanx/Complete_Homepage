@@ -45,6 +45,11 @@
   --h3: 1.5rem;
   --h4: 1.25rem;
   --h5: 1.1rem;
+  --size-xs: 576px;
+  --size--sm: 762px;
+  --size-md: 992px;
+  --size-lg: 120px;
+  --size-xl: 1440px;
 }
 
 :root .themeColorAccent {
@@ -68,8 +73,7 @@ body {
   font-family: var(--Roboto);
   font-size: 1.05rem;
   font-weight: 400;
-  grid-template-areas: "header header" "main-section main-section" "footer footer";
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "header" "main-section" "footer";
   grid-template-rows: 1fr auto 1fr;
   line-height: 1.6;
   min-height: 100%;
@@ -394,7 +398,7 @@ header .topnav .icon {
   }
 }
 
-/*********** Main Section in middle of page  *****/
+/*********** Main Section in middle of page, between the header and footer *****/
 .main-section,
 .main-section--right-wide,
 .main-section--left-wide,
@@ -783,6 +787,46 @@ header .topnav .icon {
   height: 100%;
 }
 
+.border {
+  border: 1px solid #dee2e6;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6;
+}
+
+.border-right {
+  border-right: 1px solid #dee2e6;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.border-left {
+  border-left: 1px solid #dee2e6;
+}
+
+.border-0 {
+  border: 0;
+}
+
+.border-top-0 {
+  border-top: 0;
+}
+
+.border-right-0 {
+  border-right: 0;
+}
+
+.border-bottom-0 {
+  border-bottom: 0;
+}
+
+.border-left-0 {
+  border-left: 0;
+}
+
 /**  \*\*\*\*** Display ********\  *********/
 .d-none {
   display: none;
@@ -1032,6 +1076,10 @@ header .topnav .icon {
     display: inline-flexbox;
     display: inline-flex;
   }
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .mx-auto {
@@ -1382,94 +1430,31 @@ header .topnav .icon {
   max-width: 100%;
 }
 
-.border {
-  border: 1px solid #dee2e6;
-}
-
-.border-top {
-  border-top: 1px solid #dee2e6;
-}
-
-.border-right {
-  border-right: 1px solid #dee2e6;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #dee2e6;
-}
-
-.border-left {
-  border-left: 1px solid #dee2e6;
-}
-
-.border-0 {
-  border: 0;
-}
-
-.border-top-0 {
-  border-top: 0;
-}
-
-.border-right-0 {
-  border-right: 0;
-}
-
-.border-bottom-0 {
-  border-bottom: 0;
-}
-
-.border-left-0 {
-  border-left: 0;
-}
-
 .border--dark {
   border-color: var(--themeBGColorMain);
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
 .frontpage-title {
-  text-align: center;
-  margin: auto;
+  margin: 1rem auto;
   font-weight: 900;
-}
-
-@media all and (max-width: 366px) {
-  .frontpage-title {
-    max-height: none;
-  }
-}
-
-@media (max-width: 874px) {
-  .frontpage-title {
-    grid-column: auto;
-    font-size: 2rem;
-  }
+  font-size: var(--h3);
 }
 
 .frontpage-section {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-areas: "site-section" "git-section";
-  margin: 20px 0;
-  justify-items: flex-start;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+@media (max-width: 874px) {
+  .frontpage-section {
+    grid-template-columns: 1fr;
+  }
 }
 
 .frontpage-section .git-section,
 .frontpage-section .site-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
-  padding: 0 1rem;
-}
-
-@media (max-width: 874px) {
-  .frontpage-section .git-section,
-  .frontpage-section .site-section {
-    grid-gap: 0;
-  }
+  display: inline-flex;
+  justify-content: space-around;
 }
 
 .frontpage-section .git-section a,
@@ -1514,28 +1499,17 @@ header .topnav .icon {
   max-width: 80%;
 }
 
-.frontpage-section .git-section .frontpage-title,
-.frontpage-section .site-section .frontpage-title {
-  color: var(--themeBGColorAccent);
-  font-size: 3rem;
-  font-weight: 900;
-  grid-column: span 2;
-  text-align: center;
-  margin: 1.5rem auto;
-}
-
-.frontpage-section .git-section {
-  margin-top: 1rem;
-  grid-area: git-section;
-}
-
 .frontpage-section .git-section .card--bordered {
   margin: 1rem 2rem;
-  width: 80%;
+  width: max-content;
 }
 
 .frontpage-section .git-section .card--bordered .card__header {
   text-align: center;
+}
+
+.frontpage-section .git-section .card--bordered .card__body {
+  width: 67ch;
 }
 
 .frontpage-section .git-section .git-icons {
@@ -1547,12 +1521,6 @@ header .topnav .icon {
 
 .frontpage-section .git-section .git-icons a {
   margin: auto 1rem;
-}
-
-.frontpage-section .site-section {
-  grid-area: site-section;
-  grid-gap: inherit;
-  width: 100%;
 }
 
 .frontpage-section .site-section p {
@@ -1571,6 +1539,7 @@ header .topnav .icon {
   margin: 0 auto;
   width: 600px;
   max-height: 800px;
+  padding: 2rem;
 }
 
 .frontpage-section .site-section .card--bordered {
@@ -1595,16 +1564,6 @@ dl li {
   margin-left: 1.4rem;
 }
 
-@media (max-width: 874px) {
-  .frontpage-section {
-    grid-template-columns: 1fr;
-  }
-}
-
-.span2 {
-  grid-column: span 2;
-}
-
 /******************* Width ********************/
 .w-25 {
   width: 25%;
@@ -1616,6 +1575,10 @@ dl li {
 
 .w-33 {
   width: 33%;
+}
+
+.w-40 {
+  width: 40%;
 }
 
 .w-50 {
@@ -1636,6 +1599,14 @@ dl li {
 
 .w-95 {
   width: 95%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.span2 {
+  grid-column: span 2;
 }
 
 .list-group-item {
@@ -1687,15 +1658,26 @@ dl li {
   text-decoration: none;
 }
 
-#linuxFrontPrimaryContent {
+#linuxFrontprimary-content {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
 }
 
-#linuxFrontPrimaryContent .card {
+#linuxFrontprimary-content .card {
   min-width: 300px;
   max-height: none;
+}
+
+@media (max-width: 794px) {
+  #linuxFrontprimary-content .card {
+    padding: 1rem;
+  }
+}
+
+#linuxFrontprimary-content .card .card__header {
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media (max-width: 794px) {
@@ -1703,17 +1685,10 @@ dl li {
     margin-left: 0;
     margin-bottom: 1rem;
   }
-
-  #linuxFrontPrimaryContent .card {
-    min-width: 300px;
-    padding: 1rem;
-  }
 }
 
 .EducationalSites {
   grid-column: span 2;
-  margin: 0 auto 25px auto;
-  text-align: center;
   width: 75%;
 }
 
@@ -1726,6 +1701,16 @@ dl li {
   .EducationalSites a {
     display: block;
   }
+}
+
+.EducationalSites .card__body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.EducationalSites .card__body * {
+  margin: .75rem;
 }
 
 #desktopSection .card {

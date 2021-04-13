@@ -19,10 +19,9 @@ body {
   // why did i do this? ... couldn't the main-section be display:grid and split into two columns
   // leave this for now since i may have had a reason for doing this that i cant remember
   grid-template-areas:
-    "header header"
-    "main-section main-section"
-    "footer footer";
-  grid-template-columns: repeat(2, 1fr);
+    "header"
+    "main-section"
+    "footer";
   grid-template-rows: 1fr auto 1fr;
   line-height: 1.6;
   min-height: 100%;
