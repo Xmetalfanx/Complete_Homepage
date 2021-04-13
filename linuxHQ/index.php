@@ -25,7 +25,7 @@
       </div>
       <div class="card__body">
 
-        <img class="float-left pt-1 d-none d-md-block thumbnail-fluid--sm" src="/linuxHQ/screenshots/ubuntu/cinnamonMint.png" alt="Linux Mint slide">
+        <img class="float-left pt-1 d-none d-md-block thumbnail-fluid--sm" src="/linuxHQ/screenshots/ubuntu/cinnamonMint.png" alt="Linux Mint slide" loading="lazy">
 
         Showing Tutorials, My reviews (as well as others), and sites that have helped me over&#x9;the years, is TRUE goal I have with this section. The Linux related ideas I came up with to add to the main site started to get way out of hand to put in a "small section" so that's when I decided to do the split into TechHQ (former Windows Section ... and still has some cross-platform stuff) and LinuxHQ.
 
@@ -37,7 +37,7 @@
           <li>Theming: Information on Linux Themes, Icon and Cursor packs to custom the look of your Linux desktop </li>
         </ul>
 
-        <img class="d-none d-md-block thumbnail-fluid--sm" src="/linuxHQ/screenshots/solus/thumbnails/solusbudgie_tn.png" alt="Solus Budgie slide">
+        <img class="d-none d-md-block thumbnail-fluid--sm" src="/linuxHQ/screenshots/solus/thumbnails/solusbudgie_tn.png" alt="Solus Budgie slide" loading="lazy">
 
       </div>
     </div>

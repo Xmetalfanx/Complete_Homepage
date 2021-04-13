@@ -16,7 +16,7 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             <div class="card__body d-none d-md-inline-block">
                 <figure>
                     <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                        <img class="lazyload thumbnails--lg mx-auto img-fluid" data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot">
+                        <img class="thumbnails--lg mx-auto img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy">
                     </a>
                     <figcaption>Distro:${currentDESShotDistro}</figcaption>
 
