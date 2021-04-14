@@ -46,7 +46,7 @@
   --h4: 1.25rem;
   --h5: 1.1rem;
   --size-xs: 576px;
-  --size--sm: 762px;
+  --size-sm: 762px;
   --size-md: 992px;
   --size-lg: 120px;
   --size-xl: 1440px;
@@ -300,7 +300,7 @@ footer .site-made {
   width: 50%;
 }
 
-@media all and (max-width: 993px) {
+@media all and (max-width: var(--size-md)) {
   footer .site-made {
     display: none;
   }
@@ -310,7 +310,7 @@ footer .contacts {
   text-align: right;
 }
 
-@media all and (max-width: 993px) {
+@media all and (max-width: var(--size-md)) {
   footer .contacts {
     width: 100% !important;
   }
@@ -348,7 +348,7 @@ header .topnav a {
   padding: 1rem;
 }
 
-@media screen and (max-width: 794px) {
+@media screen and (max-width: var(--size-md)) {
   header .topnav a {
     display: none;
   }
@@ -360,14 +360,14 @@ header .topnav .icon {
   /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 }
 
-@media screen and (max-width: 794px) {
+@media screen and (max-width: var(--size-sm)) {
   header .topnav .icon {
     float: right;
     display: block;
   }
 }
 
-@media screen and (max-width: 794px) {
+@media screen and (max-width: var(--size-sm)) {
   header .topnav.responsive {
     position: absolute;
     width: 100%;
@@ -414,7 +414,7 @@ header .topnav .icon {
   /****** Sidebar *****/
 }
 
-@media all and (max-width: 794px) {
+@media all and (max-width: var(--size-sm)) {
   .main-section,
   .main-section--right-wide,
   .main-section--left-wide,
@@ -505,7 +505,7 @@ header .topnav .icon {
 }
 
 /* Media query for center section under 794px wide */
-@media all and (max-width: 794px) {
+@media all and (max-width: var(--size-sm)) {
   .main-section .sidebar,
   .main-section--wide .sidebar,
   .main-section--left-wide .sidebar,
@@ -656,7 +656,7 @@ header .topnav .icon {
   min-height: auto;
 }
 
-@media all and (max-width: 794px) {
+@media (max-width: var(--size-sm)) {
   .sidebar .accordion input + label::before {
     font-family: ForkAwesome, serif;
     margin-right: .5rem;
@@ -699,25 +699,6 @@ header .topnav .icon {
 }
 
 /************** Carousel BS way  *************/
-
-/*
-.carousel {
-  min-height: 350px;
-  margin: 0 auto;
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 60%;
-  }
-
-  .carousel-item img {
-    display: block;
-    margin: 0 auto;
-    height: 450px;
-    width: 725px;
-  }
-}
-*/
 .carousel {
   margin: 0 auto;
   width: 80%;
@@ -1457,6 +1438,13 @@ header .topnav .icon {
   justify-content: space-around;
 }
 
+@media all and (max-width: var(--size-md)) {
+  .frontpage-section .git-section,
+  .frontpage-section .site-section {
+    flex-wrap: wrap;
+  }
+}
+
 .frontpage-section .git-section a,
 .frontpage-section .site-section a {
   margin-bottom: 0;
@@ -1669,7 +1657,7 @@ dl li {
   max-height: none;
 }
 
-@media (max-width: 794px) {
+@media (max-width: var(--size-sm)) {
   #linuxFrontprimary-content .card {
     padding: 1rem;
   }
@@ -1680,7 +1668,7 @@ dl li {
   justify-content: flex-start;
 }
 
-@media (max-width: 794px) {
+@media (max-width: var(--size-sm)) {
   .sidebar .card {
     margin-left: 0;
     margin-bottom: 1rem;
@@ -1692,7 +1680,7 @@ dl li {
   width: 75%;
 }
 
-@media all and (max-width: 794px) {
+@media (max-width: var(--size-sm)) {
   .EducationalSites {
     width: 90%;
     grid-column: auto;
@@ -1793,7 +1781,7 @@ code {
   margin: 0 auto;
 }
 
-@media all and (max-width: 794px) {
+@media (max-width: var(--size-sm)) {
   #GAOTD {
     width: 90%;
   }

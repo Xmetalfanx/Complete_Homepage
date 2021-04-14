@@ -53,7 +53,7 @@ footer {
   .contacts {
     text-align: right;
 
-    @media all and (max-width: var(--size-md) {
+    @media all and (max-width: var(--size-md)) {
       width: 100% !important;
     }
   }
@@ -75,7 +75,6 @@ header {
     background-color: inherit;
     color: inherit;
   }
-
 
   .topnav {
     display: flex;

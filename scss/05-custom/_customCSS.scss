@@ -78,7 +78,7 @@
     min-width: 300px;
     max-height: none;
 
-    @media (max-width: 794px) {
+    @media (max-width: var(--size-sm)) {
       padding: 1rem;
     }
 
@@ -86,15 +86,12 @@
       display: flex;
       justify-content: flex-start;
     }
-      min-width: 300px;
-      padding: 1rem;
-    }
   }
 }
 
 // Media Query
 // why is this here? ... shouldn't this be in 02-layout somewhere?
-@media (max-width: 794px) {
+@media (max-width: var(--size-sm)) {
   .sidebar {
     .card {
       margin-left: 0;
@@ -109,7 +106,7 @@
   @include span2;
   width: 75%;
 
-  @media all and (max-width: var(--size-sm)) {
+  @media (max-width: var(--size-sm)) {
     width: 90%;
     grid-column: auto;
 
@@ -125,7 +122,7 @@
     justify-content: space-around;
 
     * {
-      margin: 0.75rem;
+      margin: .75rem;
     }
   }
 }
@@ -154,7 +151,7 @@
 
   // The Titles of the Distro/Versions
   .versionTitle {
-    margin-right: 0.5rem;
+    margin-right: .5rem;
   }
 
   // the actual version number
@@ -216,10 +213,10 @@ code {
   button {
     background: #006400;
     border: 1px solid #006400;
-    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
+    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, .2);
     color: var(--white);
-    border-radius: 0.25em;
-    padding: 0.4em 0.875em;
+    border-radius: .25em;
+    padding: .4em .875em;
     font-size: 1rem;
   }
 }

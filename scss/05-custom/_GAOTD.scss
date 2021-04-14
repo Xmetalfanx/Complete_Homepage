@@ -5,7 +5,7 @@
   padding-top: 3px;
   margin: 0 auto;
 
-  @media and (max-width: var(--size-sm)) {
+  @media (max-width: var(--size-sm)) {
     width: 90%;
   }
 }
