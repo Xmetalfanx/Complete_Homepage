@@ -1,5 +1,5 @@
 // var for where to put the output
-var distroResults = document.getElementById('linuxFrontprimary-content');
+var distroResults = document.getElementById('linux-primary-content');
 
 var myPage = '/linuxHQ/distro/';
 var distroGraphics = '/linuxHQ/graphics/distros/';

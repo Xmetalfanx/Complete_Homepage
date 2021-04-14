@@ -1646,24 +1646,24 @@ dl li {
   text-decoration: none;
 }
 
-#linuxFrontprimary-content {
+#linux-primary-content {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
 }
 
-#linuxFrontprimary-content .card {
+#linux-primary-content .card {
   min-width: 300px;
   max-height: none;
 }
 
 @media (max-width: var(--size-sm)) {
-  #linuxFrontprimary-content .card {
+  #linux-primary-content .card {
     padding: 1rem;
   }
 }
 
-#linuxFrontprimary-content .card .card__header {
+#linux-primary-content .card .card__header {
   display: flex;
   justify-content: flex-start;
 }

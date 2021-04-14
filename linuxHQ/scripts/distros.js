@@ -1,5 +1,5 @@
 // let for where to put the output
-let distroResults = document.getElementById('linuxFrontprimary-content');
+let distroResults = document.getElementById('linux-primary-content');
 
 let myPage = '/linuxHQ/distro/';
 let DWPage = 'https://distrowatch.com/';
