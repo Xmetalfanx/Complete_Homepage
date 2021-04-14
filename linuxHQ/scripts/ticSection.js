@@ -63,7 +63,7 @@ function displayTICOutput(
             <div class="card-body">
               <div class="row">
                 <div class="col">
-                
+
                   <span class="font-weight-bold">Theme has support for: </span>
                   ${currentTICSupportInfo}
                   <br/><br/>
@@ -71,19 +71,19 @@ function displayTICOutput(
                   ${themeLinks}
                   <br />
 
-                  ${howToInstall}   
-                </div>              
-                
-                
-    
+                  ${howToInstall}
+                </div>
+
+
+
                 <div class="col">
                   <div class="m-auto">
                   <a href="${screenshotDIR}${currentTICScreenshot}" target="_blank" >
-                    <img data-src="${screenshotDIR}${currentTICSSThumbnail}" alt="${currentTICTitle} Screenshot"  class="d-md-block d-none img-fluid lazyload" />
+                    <img data-src="${screenshotDIR}${currentTICSSThumbnail}" alt="${currentTICTitle} Screenshot"  class="d-md-block d-none img-fluid" loading="lazy" />
                   </a>
                   </div>
-                </div>   
-              </div>  
+                </div>
+              </div>
             </div>
           </div>
 

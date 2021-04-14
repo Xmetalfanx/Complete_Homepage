@@ -2,47 +2,47 @@
 
     .card-header.bg-primary.text-white
         h3.font-weight-bold ${currentDETitle}
-    
+
     .card-text.px-3
-        .row 
+        .row
             .col-md-6
                 span.font-weight-bold Homepage:
                 a(href='${currentDEHomepage}' target='_blank' rel="noopener") ${currentDETitle}'s Homepage
                 br
 
-                span.font-weight-bold Github URL: 
+                span.font-weight-bold Github URL:
                 a(href='${currentDEGithub}' target='_blank' rel="noopener") ${currentDETitle} on Github
                 br
-                br 
+                br
 
 
-                span.font-weight-bold Latest Version: 
+                span.font-weight-bold Latest Version:
                 | ${currentDELatestVersion}
-                br 
+                br
 
-                span.font-weight-bold Desktop Category: 
+                span.font-weight-bold Desktop Category:
                 | ${currentDECategory}
                 br
 
-                span.font-weight-bold Distros That Feature: 
+                span.font-weight-bold Distros That Feature:
                 | ${currentDEdistroFeature}
                 br
-                br 
-                span.font-weight-bold Desktop Requirements: 
+                br
+                span.font-weight-bold Desktop Requirements:
                 ul
-                    li 
-                        span.font-italics Required Processor: 
+                    li
+                        span.font-italics Required Processor:
                         | ${currentDEReqProc}
-                    li 
-                        span.font-italics Required Memory: 
+                    li
+                        span.font-italics Required Memory:
                         | ${currentDEReqMem}
-                    li 
-                        span.font-italics Required Hard Drive Space: 
+                    li
+                        span.font-italics Required Hard Drive Space:
                         | ${currentDEReqHDD}
 
             .col-md-6
                 a(href="${screenshotDIR}${currentDEScreenshot}" target="_blank")
-                    img.d-block.mx-auto.p-4.img-fluid.lazyload(data-src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot")
+                    img.d-block.mx-auto.p-4.img-fluid(src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy")
 
         | ${deVersionsOutput}
         | ${deInstallOutput}

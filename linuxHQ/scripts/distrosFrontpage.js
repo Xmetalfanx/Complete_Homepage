@@ -20,13 +20,11 @@ function displayDistroOutput(
   // Template Literal for output
 
   const currentDistroSShotOutput = `
-        <!-- thumbnails and thumbnails--lg, is my own css, NOT bootstrap -->
-        <!-- lazyload css class needed for external lazyload script -->
         <!-- mx-auto is in my CSS but is being over-written atm while "bootstrap css" is still included in the head file -->
 
         <!-- can i put css from , img-fluid and mx-auto into "thumbnails" css i already have? -->
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block lazyload thumbnails thumbnails--lg img-fluid mx-auto" data-src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" >
+            <img class="d-none d-md-block thumbnails--lg img-fluid mx-auto" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" loading="lazy" >
         </a>
     `;
 

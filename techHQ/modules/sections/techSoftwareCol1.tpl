@@ -63,14 +63,18 @@
 
 <div class="shadow card d-none d-md-block">
   <div class="card__header card__header--dark-bg">External Links</div>
-  <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
-  <img class="lazyload" src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link"></a>
+    <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
+    <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link">
+    </a>
 
-  <a href="http://www.snapfiles.com" target="_blank" rel="noreferrer">
-  <img class="lazyload" src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles graphic/link"></a>
+    <a href="http://www.snapfiles.com" target="_blank" rel="noreferrer">
+    <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles graphic/link">
+    </a>
 
-  <a href="http://www.softpedia.com" target="_blank" rel="noreferrer">
-  <img class="lazyload" src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic/link" style="width: 175px; height: 32px;"></a><br/>
+    <a href="http://www.softpedia.com" target="_blank" rel="noreferrer">
+    <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic/link" style="width: 175px; height: 32px;">
+    </a>
+    <br/>
 
   <a href="http://www.neowin.net/">NeoWin</a>
 </div>

@@ -216,7 +216,7 @@ function displayDEOutput(
 
                         <div class="col d-none d-md-block">
                           <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                            <img class="d-md-block d-none mx-auto thumbnail-fluid--lg lazyload" data-src="${screenshotDIR}${currentDESShotTN}" alt="${currentDESShotDistro} screenshot for ${currentDETitle}" />
+                            <img class="d-md-block d-none mx-auto thumbnail-fluid--lg src="${screenshotDIR}${currentDESShotTN}" alt="${currentDESShotDistro} screenshot for ${currentDETitle}" loading="lazy" />
 
                             ${currentDESShotDistro} screenshot for ${currentDETitle}
                           </a>
