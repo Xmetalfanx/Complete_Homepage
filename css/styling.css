@@ -2,22 +2,22 @@
 
 :root {
   /******************* Colors ********************/
-  --black: rgb(0, 0, 0);
-  --white: rgba(255, 255, 255, 1);
-  --white50: rgba(255, 255, 255, .5);
-  --white75: rgba(255, 255, 255, .75);
-  --darkGrey1: rgb(51, 51, 51);
-  --darkGrey2: rgb(62, 63, 58);
-  --forrestGreen: rgb(0, 100, 0);
-  --green: rgb(0, 153, 0);
-  --red: rgb(255, 0, 0);
-  --navy: rgb(0, 0, 128);
-  --midnightBlue: rgb(25, 25, 112);
-  --maroon: rgb(102, 0, 0);
-  --tanL: rgb(255, 250, 205);
-  --tanD: rgb(238, 233, 191);
-  --lightMaroon: rgb(153, 0, 0);
-  --darkturquoise: rgb(30, 80, 87);
+  --black: hsl(0, 0%, 0%);
+  --tanL: hsl(54, 100%, 90%);
+  --tanD: hsl(54, 50%, 75%);
+  --white: hsl(0, 0%, 100%);
+  --white50: hsla(0, 0%, 100%, .5);
+  --white75: hsla(0, 0%, 100%, .75);
+  --darkGrey1: hsl(0, 0%, 20%);
+  --darkGrey2: hsl(72, 0%, 24%);
+  --darkturquoise: hsl(187, 49%, 23%);
+  --navy: hsl(240, 100%, 25%);
+  --midnightBlue: hsl(240, 64%, 27%);
+  --red: hsl(0, 100%, 50%);
+  --maroon: hsl(0, 100%, 20%);
+  --lightMaroon: hsl(0, 100%, 30%);
+  --green: hsl(120, 100%, 30%);
+  --forrestGreen: hsl(120, 100%, 20%);
   --themeBGColorMain: var(--darkGrey1);
   --themeBGColorAccent: var(--darkturquoise);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
@@ -45,11 +45,10 @@
   --h3: 1.5rem;
   --h4: 1.25rem;
   --h5: 1.1rem;
-  --size-xs: 576px;
-  --size-sm: 762px;
-  --size-md: 992px;
-  --size-lg: 120px;
-  --size-xl: 1440px;
+  --size-sm: 576px;
+  --size-md: 768px;
+  --size-lg: 992px;
+  --size-xl: 1200px;
 }
 
 :root .themeColorAccent {
@@ -300,7 +299,7 @@ footer .site-made {
   width: 50%;
 }
 
-@media all and (max-width: var(--size-md)) {
+@media all and (max-width: 992px) {
   footer .site-made {
     display: none;
   }
@@ -310,7 +309,7 @@ footer .contacts {
   text-align: right;
 }
 
-@media all and (max-width: var(--size-md)) {
+@media all and (max-width: 992px) {
   footer .contacts {
     width: 100% !important;
   }
@@ -348,7 +347,7 @@ header .topnav a {
   padding: 1rem;
 }
 
-@media screen and (max-width: var(--size-md)) {
+@media all and (max-width: 992px) {
   header .topnav a {
     display: none;
   }
@@ -356,18 +355,16 @@ header .topnav a {
 
 header .topnav .icon {
   display: none;
-
-  /* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 }
 
-@media screen and (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   header .topnav .icon {
     float: right;
     display: block;
   }
 }
 
-@media screen and (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   header .topnav.responsive {
     position: absolute;
     width: 100%;
@@ -414,7 +411,7 @@ header .topnav .icon {
   /****** Sidebar *****/
 }
 
-@media all and (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   .main-section,
   .main-section--right-wide,
   .main-section--left-wide,
@@ -505,7 +502,7 @@ header .topnav .icon {
 }
 
 /* Media query for center section under 794px wide */
-@media all and (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   .main-section .sidebar,
   .main-section--wide .sidebar,
   .main-section--left-wide .sidebar,
@@ -656,7 +653,7 @@ header .topnav .icon {
   min-height: auto;
 }
 
-@media (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   .sidebar .accordion input + label::before {
     font-family: ForkAwesome, serif;
     margin-right: .5rem;
@@ -849,7 +846,7 @@ header .topnav .icon {
   display: inline-flex;
 }
 
-@media (min-width: 576px) {
+@media all and (min-width: 576px) {
   .d-sm-none {
     display: none;
   }
@@ -891,7 +888,7 @@ header .topnav .icon {
   }
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
   .d-md-none {
     display: none;
   }
@@ -933,7 +930,7 @@ header .topnav .icon {
   }
 }
 
-@media (min-width: 992px) {
+@media all and (min-width: 992px) {
   .d-lg-none {
     display: none;
   }
@@ -975,7 +972,7 @@ header .topnav .icon {
   }
 }
 
-@media (min-width: 1200px) {
+@media all and (min-width: 1200px) {
   .d-xl-none {
     display: none;
   }
@@ -1426,10 +1423,8 @@ header .topnav .icon {
   flex-flow: column wrap;
 }
 
-@media (max-width: 874px) {
-  .frontpage-section {
-    grid-template-columns: 1fr;
-  }
+.frontpage-section p {
+  max-width: 72ch;
 }
 
 .frontpage-section .git-section,
@@ -1438,7 +1433,7 @@ header .topnav .icon {
   justify-content: space-around;
 }
 
-@media all and (max-width: var(--size-md)) {
+@media all and (max-width: 768px) {
   .frontpage-section .git-section,
   .frontpage-section .site-section {
     flex-wrap: wrap;
@@ -1487,17 +1482,16 @@ header .topnav .icon {
   max-width: 80%;
 }
 
+.frontpage-section .git-section > * {
+  flex-basis: 1;
+}
+
 .frontpage-section .git-section .card--bordered {
   margin: 1rem 2rem;
-  width: max-content;
 }
 
 .frontpage-section .git-section .card--bordered .card__header {
   text-align: center;
-}
-
-.frontpage-section .git-section .card--bordered .card__body {
-  width: 67ch;
 }
 
 .frontpage-section .git-section .git-icons {
@@ -1511,8 +1505,10 @@ header .topnav .icon {
   margin: auto 1rem;
 }
 
-.frontpage-section .site-section p {
-  max-width: 72ch;
+@media all and (max-width: 992px) {
+  .frontpage-section .site-section > div {
+    margin: 0 .75rem;
+  }
 }
 
 .frontpage-section .site-section .h3,
@@ -1526,8 +1522,13 @@ header .topnav .icon {
 .frontpage-section .site-section img {
   margin: 0 auto;
   width: 600px;
-  max-height: 800px;
   padding: 2rem;
+}
+
+@media all and (max-width: 762px) {
+  .frontpage-section .site-section img {
+    max-width: 80%;
+  }
 }
 
 .frontpage-section .site-section .card--bordered {
@@ -1657,7 +1658,7 @@ dl li {
   max-height: none;
 }
 
-@media (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   #linux-primary-content .card {
     padding: 1rem;
   }
@@ -1668,7 +1669,7 @@ dl li {
   justify-content: flex-start;
 }
 
-@media (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   .sidebar .card {
     margin-left: 0;
     margin-bottom: 1rem;
@@ -1680,7 +1681,7 @@ dl li {
   width: 75%;
 }
 
-@media (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   .EducationalSites {
     width: 90%;
     grid-column: auto;
@@ -1781,7 +1782,7 @@ code {
   margin: 0 auto;
 }
 
-@media (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   #GAOTD {
     width: 90%;
   }

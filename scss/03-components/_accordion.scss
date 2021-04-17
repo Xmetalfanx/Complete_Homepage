@@ -133,7 +133,7 @@
 }
 
 // Accordion for Sidebar on smaller layouts
-@media (max-width: var(--size-sm)) {
+@media all and (max-width: 768px) {
   // Default: expanded on desktop layouts
   .sidebar {
     .accordion {

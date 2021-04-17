@@ -13,11 +13,15 @@
           </a>
 
         </div>
-
+        <p>
         Helps a user setup some things with a menu system on Ubuntu, Fedora,
-        OpenSuse, and (minor things for this distro ... so far) Solus. This
-        includes adding well known third party repos, enabling coming settings
+        OpenSuse, and (minor things for this distro ... so far) Solus. </p>
+
+        <p>This includes adding well known third party repos, enabling coming settings
         not set by default, and adding common software in one shot.
+        </p>
+
+
       </div>
   </div>
 
@@ -42,10 +46,13 @@
               <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
             </a>
           </div>
-            This originally was going to be a part of the LinuxSetup scripts, though
+          <p>
+          This originally was going to be a part of the LinuxSetup scripts, though
             it grew too much and I decided to branch it out. This installs themes
             and icon packs of well liked Linux Themes into your system. I have alot
             of plans for this for version and distro detection.
+          </p>
+
       </div>
     </div>
 </section>

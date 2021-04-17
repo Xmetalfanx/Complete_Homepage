@@ -11,8 +11,8 @@
   display: flex;
   flex-flow: column wrap;
 
-  @media (max-width: 874px) {
-    grid-template-columns: 1fr;
+  p {
+    max-width: 72ch;
   }
 
   .git-section,
@@ -20,7 +20,7 @@
     display: inline-flex;
     justify-content: space-around;
 
-    @media all and (max-width: var(--size-md)) {
+    @media all and (max-width: 768px) {
       flex-wrap: wrap;
     }
 
@@ -69,16 +69,15 @@
   }
 
   .git-section {
+    > * {
+      flex-basis: 1;
+    }
+
     .card--bordered {
       margin: 1rem 2rem;
-      width: max-content;
 
       .card__header {
         text-align: center;
-      }
-
-      .card__body {
-        width: 67ch;
       }
     }
 
@@ -95,8 +94,10 @@
   }
 
   .site-section {
-    p {
-      max-width: 72ch;
+    @media all and (max-width: 992px) {
+      > div {
+        margin: 0 .75rem;
+      }
     }
 
     .h3,
@@ -110,8 +111,11 @@
     img {
       margin: 0 auto;
       width: 600px;
-      max-height: 800px;
       padding: 2rem;
+
+      @media all and (max-width: 762px) {
+        max-width: 80%;
+      }
     }
     // for bigger images to the side
 
