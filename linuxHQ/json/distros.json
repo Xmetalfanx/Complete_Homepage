@@ -10,13 +10,13 @@
                 "releaseCycle": "12 Months",
                 "similar": "Korora",
                 "target": "Moderate to advanced users",
-                "featured":""
+                "featured":"yes"
             },
             "screenshots": {
-                "desktop": "",
-                "src": "",
+                "desktop": "Gnome",
+                "src": "fedora.png",
                 "theme": "",
-                "thumbnails": ""
+                "thumbnails": "fedora_tn.png"
             },
             "version": "29",
             "website": {
@@ -27,39 +27,6 @@
             },
             "youtube": {
                 "reviewPlaylist": "PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm"
-            }
-        },
-        {
-            "distroName": "korora",
-            "distroTitle": "Korora ",
-            "family": "rpm",
-            "graphics": {
-                "iconURL": "korora.png"
-            },
-            "moreinfo": {
-                "base": "Fedora",
-                "desktops": "Cinnamon, Xfce, Mate, ..etc ",
-                "releaseCycle": "12 Months",
-                "similar": "Fedora",
-                "target": "Fedora fans who want things setup ahead of time",
-                "featured":""
-            },
-            "screenshots": {
-                "desktop": "",
-                "src": "",
-                "theme": "",
-                "thumbnails": ""
-            },
-            "version": "",
-            "website": {
-                "download": "https://kororaproject.org/download",
-                "forum": "https://kororaproject.org/support/engage",
-                "homepage": "https://kororaproject.org/",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            },
-            "youtube": {
-                "reviewPlaylist": "PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm",
-                "tipsPlaylist": ""
             }
         },
         {
@@ -297,13 +264,13 @@
                 "similar": "Manjaro, Arch",
                 "releaseCycle": "",
                 "target": "Moderate (due to it being arch based) to Advanced Users",
-                "featured":""
+                "featured":"no"
             },
             "screenshots": {
                 "desktop": "",
-                "src": "",
+                "src": "endeavour.png",
                 "theme": "",
-                "thumbnails": ""
+                "thumbnails": "endeavour_tn.png"
             },
             "version": "",
             "website": {
@@ -328,7 +295,7 @@
                 "similar": "(...sort of) Antergos, SwagArch, (..this is a stretch) Manjaro",
                 "releaseCycle": "",
                 "target": "Moderate to Advanced Users",
-                "featured":"yes"
+                "featured":"no"
             },
             "screenshots": {
                 "desktop": "",
@@ -392,10 +359,10 @@
                 "similar": "(with the same DE..) Antergos or Arch",
                 "releaseCycle": "",
                 "target": "Any User",
-                "featured":""
+                "featured":"yes"
             },
             "screenshots": {
-                "desktop": "",
+                "desktop": "KDE/Plasma 5",
                 "src": "manjaro.png",
                 "theme": "",
                 "thumbnails": "manjaro_tn.png"
@@ -713,7 +680,7 @@
                 "target": "",
                 "type": "",
                 "releaseCycle": "",
-                "featured":""
+                "featured":"yes"
 
             },
             "screenshots": {
@@ -940,12 +907,12 @@
             },
             "screenshots": {
                 "desktop": "Cinnamon",
-                "icon": "Mint-X",
+                "icon": "Mint-Y",
                 "src": "cinnamonMint.png",
-                "theme": "Mint-X",
+                "theme": "Mint-Y",
                 "thumbnails": "cinnamonMint_tn.png"
             },
-            "version": "18.x (based on Ubuntu 16.04)",
+            "version": "19.x, 20.x",
             "website": {
                 "download": "http://www.linuxmint.com/download.php",
                 "forum": "http://linuxmint.com/forum/",
@@ -1037,7 +1004,7 @@
 
             },
             "screenshots": {
-                "desktop": "",
+                "desktop": "KDE / Plasma 5",
                 "src": "kubuntu.png",
                 "theme": "",
                 "thumbnails": "kubuntu_tn.png"
@@ -1080,39 +1047,6 @@
                 "download": "https://lubuntu.net/downloads/",
                 "forum": "http://ubuntuforums.org/",
                 "homepage": "http://lubuntu.net",
-                "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
-            },
-            "youtube": {
-                "reviewPlaylist": "PLrh2y86lvcJfmyxuXW01A-ujfqrJzL8Ck",
-                "tipsPlaylist": ""
-            }
-        },
-        {
-            "distroName": "uberstudent",
-            "distroTitle": "Uberstudent",
-            "graphics": {
-                "iconURL": "uberstudent.png"
-            },
-            "moreinfo": {
-                "base": "Ubuntu Long Term Support (LTS) (forgot what branch currently) ",
-                "desktops": "XFCE",
-                "similar": "Xubuntu, Linux Lite",
-                "target": "Any/New Users, Students",
-                "releaseCycle": "",
-                "featured":""
-
-            },
-            "screenshots": {
-                "desktop": "",
-                "src": "",
-                "theme": "",
-                "thumbnails": ""
-            },
-            "version": "",
-            "website": {
-                "download": "http://uberstudent.com/get-uberstudent",
-                "forum": "http://uberstudent.com/wiki/index.php?title=Main_Page",
-                "homepage": "http://uberstudent.com/",
                 "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
             },
             "youtube": {
@@ -1171,7 +1105,8 @@
             "screenshots": {
                 "desktop": "Mate",
                 "src": "umate1.png",
-                "thumbnails": "umate1_tn.png"
+                "thumbnails": "umate1_tn.png",
+                "theme": ""
             },
             "version": "16.04 LTS, 18.04 LTS, 18.10",
             "website": {

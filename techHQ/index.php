@@ -46,21 +46,23 @@
 
 <div class="EducationalSites card">
   <div class="card__header">Learning Linux</div>
-  <div class="card__body d-block">
+  <div class="card__body">
     <h4>Learning the Commandline</h4>
 
-     <figure>
-      <a href="https://linuxjourney.com/" target="_blank">
-        <img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png" alt="Linux Journey website graphic" />
-        <figcaption>Linux Journey</figcaption>
-      </a>
-    </figure>
+    <div class="d-flex">
+      <figure>
+        <a href="https://linuxjourney.com/" target="_blank">
+          <img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png" alt="Linux Journey website graphic" />
+          <figcaption>Linux Journey</figcaption>
+        </a>
+      </figure>
 
-    <figure>
-      <a href="http://www.explainshell.com" target="">
-      ExplainShell.com
-      </a>
-    </figure>
+      <figure>
+          <a href="http://www.explainshell.com" target="">
+          ExplainShell.com
+          </a>
+      </figure>
+    </div>
 
   </div> <!-- closes card__body -->
 

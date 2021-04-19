@@ -11,7 +11,9 @@ function displayDistroOutput(
   currentDistroTitle,
   currentDistroHomepage,
   currentDistroScreenshot,
-  currentDistroScreenshotTN
+  currentDistroScreenshotTN,
+  currentDistroSSTheme,
+  currentDistroSSDesktop
 ) {
   // Screenshot vars
   var distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
@@ -20,18 +22,21 @@ function displayDistroOutput(
   // Template Literal for output
 
   const currentDistroSShotOutput = `
-        <!-- mx-auto is in my CSS but is being over-written atm while "bootstrap css" is still included in the head file -->
 
-        <!-- can i put css from , img-fluid and mx-auto into "thumbnails" css i already have? -->
+        <!-- can i put css from , img-fluid into "thumbnails" css i already have? -->
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block thumbnails--lg img-fluid mx-auto" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" loading="lazy" >
+            <img class="d-none d-md-block thumbnails--lg img-fluid" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" loading="lazy" >
+
         </a>
+
+        <span class="font-weight-bold">Desktop Environment: </span>${currentDistroSSDesktop}<br/><br />
+        <span class="font-weight-bold">Theme used: </span>${currentDistroSSTheme}
     `;
 
   const currentDistroInfoOutput = `
 
-        <div class="card pb-3 w-33">
-          <div class="card__header pl-2">
+        <div class="card w-33">
+          <div class="card__header">
             <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40">
             <h4>${currentDistroTitle} </h4>
           </div>
@@ -76,7 +81,10 @@ function getDistroData(data, $localDistroName) {
         var currentDistroScreenshotTN =
           value[distroFamily].screenshots.thumbnails;
         var currentDistroScreenshot = value[distroFamily].screenshots.src;
+        var currentDistroSSTheme = value[distroFamily].screenshots.theme;
+        var currentDistroSSDesktop= value[distroFamily].screenshots.desktop;
 
+        // featured on the frontpage or not (yes or no value)
         var currentDistroFeatured = value[distroFamily].moreinfo.featured;
 
         if (currentDistroFeatured == 'yes') {
@@ -87,7 +95,9 @@ function getDistroData(data, $localDistroName) {
             currentDistroTitle,
             currentDistroHomepage,
             currentDistroScreenshot,
-            currentDistroScreenshotTN
+            currentDistroScreenshotTN,
+            currentDistroSSTheme,
+            currentDistroSSDesktop
           );
         }
       }

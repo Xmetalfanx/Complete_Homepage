@@ -12,7 +12,7 @@
     <!-- flex stuff here to keep layout working -->
     <!-- id=linux-primary-content, is used in JS files to display content -->
 
-    <div class="primary-content" id="linux-primary-content" >
+    <div id="linux-primary-content" class="primary-content">
 
     </div>
   </div>

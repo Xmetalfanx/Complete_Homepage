@@ -1655,7 +1655,8 @@ dl li {
 
 #linux-primary-content .card {
   min-width: 300px;
-  max-height: none;
+  max-width: 400px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 @media all and (max-width: 768px) {
@@ -1667,6 +1668,7 @@ dl li {
 #linux-primary-content .card .card__header {
   display: flex;
   justify-content: flex-start;
+  border-radius: 15px 15px 0 0;
 }
 
 @media all and (max-width: 768px) {
@@ -1695,7 +1697,7 @@ dl li {
 .EducationalSites .card__body {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .EducationalSites .card__body * {
