@@ -43,5 +43,3 @@
 
 
 </footer>
-
-<script src="/scripts/lazysizes.min.js"></script>

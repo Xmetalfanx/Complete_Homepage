@@ -24,7 +24,5 @@
 <!-- Call to my software.js file here -->
 <script src="/techHQ/scripts/software.js"></script>
 
-<script src="/scripts/lazysizes.min.js"></script>
-
 <!-- include baseTechFooter -->
 <?php include $path . '/modules/footer.tpl'; ?>

@@ -94,6 +94,22 @@
   }
 
   .site-section {
+    figure {
+      @media all and (max-width: 992px) {
+        display: none;
+      }
+
+      > .figimg {
+        padding-bottom: .5rem;
+        display: inline-block;
+      }
+
+      > figcaption {
+        font-size: var(--small-text);
+        padding-left: 2rem;
+      }
+    }
+
     @media all and (max-width: 992px) {
       > div {
         margin: 0 .75rem;

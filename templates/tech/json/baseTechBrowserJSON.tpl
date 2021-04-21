@@ -21,7 +21,6 @@
 
 <script src="http://xmetal.x10.mx/techHQ/scripts/browsers.js"></script>
 
-<script src="/scripts/lazysizes.min.js"> </script>
 
 <!-- include baseTechFooter -->
 <?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>

@@ -20,7 +20,6 @@
 				</div>
 			</div>
 
-	<script src="/scripts/lazysizes.min.js"> </script>
 
 	<!-- include baseTechFooter -->
 	<?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>

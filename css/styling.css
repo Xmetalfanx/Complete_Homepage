@@ -49,6 +49,7 @@
   --size-md: 768px;
   --size-lg: 992px;
   --size-xl: 1200px;
+  --small-text: .9rem;
 }
 
 :root .themeColorAccent {
@@ -1506,6 +1507,22 @@ header .topnav .icon {
 }
 
 @media all and (max-width: 992px) {
+  .frontpage-section .site-section figure {
+    display: none;
+  }
+}
+
+.frontpage-section .site-section figure > .figimg {
+  padding-bottom: .5rem;
+  display: inline-block;
+}
+
+.frontpage-section .site-section figure > figcaption {
+  font-size: var(--small-text);
+  padding-left: 2rem;
+}
+
+@media all and (max-width: 992px) {
   .frontpage-section .site-section > div {
     margin: 0 .75rem;
   }
@@ -1656,9 +1673,8 @@ dl li {
 
 #linux-primary-content .card {
   min-width: 300px;
-  max-width: 400px;
   border-radius: 15px 15px 15px 15px;
-  margin: unset;
+  margin: 0 1rem;
 }
 
 @media all and (max-width: 1043px) {

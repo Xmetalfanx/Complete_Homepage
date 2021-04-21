@@ -33,7 +33,7 @@
 
     <figure>
       <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
-        <img class="d-none d-md-block" src="/graphics/mathandscience.jpg" alt="Science and Math.com website graphics">
+        <img class="d-none d-md-block" src="/graphics/mathandscience.jpg" alt="Science and Math.com website graphics" loading="lazy">
         <figcaption>ScienceandMath.com</figcaption>
       </a>
   </figure>
@@ -44,15 +44,15 @@
 </div> <!-- closes Edu link, card -->
 
 
-<div class="EducationalSites card">
+<div class="card span2 w-50">
   <div class="card__header">Learning Linux</div>
-  <div class="card__body">
+  <div class="card__body mx-auto">
     <h4>Learning the Commandline</h4>
 
     <div class="d-flex">
       <figure>
         <a href="https://linuxjourney.com/" target="_blank">
-          <img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png" alt="Linux Journey website graphic" />
+          <img class="d-none d-md-block img-fluid w-50" src="../graphics/linux-journey.png" alt="Linux Journey website graphic" />
           <figcaption>Linux Journey</figcaption>
         </a>
       </figure>

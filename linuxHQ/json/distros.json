@@ -170,7 +170,7 @@
         "featured": ""
       },
       "screenshots": {
-        "desktop": "",
+        "desktop": "Plasma 5",
         "src": "",
         "theme": "",
         "thumbnails": ""
@@ -257,7 +257,7 @@
       "distroName": "endeavouros",
       "distroTitle": "EndeavourOS",
       "graphics": {
-        "iconURL": ""
+        "iconURL": "endeavour.png"
       },
       "moreinfo": {
         "base": "Arch Linux",
@@ -649,7 +649,7 @@
         "featured": "yes"
       },
       "screenshots": {
-        "desktop": "",
+        "desktop": "Plasma 5",
         "src": "makulu.png",
         "theme": "",
         "thumbnails": "makulu_tn.png"
