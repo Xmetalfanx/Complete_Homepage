@@ -1651,17 +1651,20 @@ dl li {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+  justify-content: space-evenly;
 }
 
 #linux-primary-content .card {
   min-width: 300px;
   max-width: 400px;
   border-radius: 15px 15px 15px 15px;
+  margin: unset;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1043px) {
   #linux-primary-content .card {
-    padding: 1rem;
+    max-width: 85%;
+    margin: 1rem auto;
   }
 }
 

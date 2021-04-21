@@ -296,7 +296,7 @@
     {
       "desktopName": "cinnamon",
       "generalInfo": {
-        "distrosFeature": "Linux Mint, Korora/Fedora, Arch ",
+        "distrosFeature": "Linux Mint, Fedora, Arch ",
         "desktopCategory": "heavyweight",
         "desktopHomepage": "https://github.com/linuxmint/cinnamon-desktop",
         "desktopGithubURL": "https://github.com/linuxmint/cinnamon-desktop"

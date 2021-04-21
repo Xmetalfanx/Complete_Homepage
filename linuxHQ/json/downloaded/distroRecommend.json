@@ -76,7 +76,7 @@
     "distroName": "centOS",
     "family": "gentoo",
     "anyuserRec": "",
-    "anyuserReason": "While Fedora or Korora provide a more complete &quot;out of the box&quot; experience.... I\\\'d recommend CentOS ",
+    "anyuserReason": "While Fedora provide a more complete &quot;out of the box&quot; experience.... I\\\'d recommend CentOS ",
     "newuserRec": "no",
     "newuserReason": "",
     "comments": ""

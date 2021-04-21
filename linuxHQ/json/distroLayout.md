@@ -47,8 +47,7 @@
               "opensuse":{
                   "install": "[basic install code here... thing is for the stuff below you typically add a repo, then do THIS step anyway ",
 
-                  "leap423Repo":"",
-                  "leap15Repo":"",
+                  "leap152Repo":"",
                   "tumbleweedRepo":""s
 
               }
