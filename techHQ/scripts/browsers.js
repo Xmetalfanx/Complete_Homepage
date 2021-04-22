@@ -70,7 +70,7 @@ function browserData(data) {
                         <div class="card__header--wide">
                             <div>
                                 <a href="${browserHomepage}" blank="_blank">
-                                    <img data-src="${browserIconsDir}${browserIcon}" class="icon--size40" /> ${browserTitle}</a>
+                                    <img src="${browserIconsDir}${browserIcon}" class="icon--size40" /> ${browserTitle}</a>
                             </div>
                             <div>
                                 Platform(s): ${browserPlatforms}
