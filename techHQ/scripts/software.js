@@ -95,7 +95,7 @@ function softwareData(data) {
                     <div class=\"card\">
                       <div class=\"card__header--wide\">
                         <div>
-                            <img data-src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40 \" loading=\"lazy\" \>
+                            <img src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40 \" loading=\"lazy\" \>
                             <a href=\"${homepage}\" target="_blank" rel="noreferrer">
                               ${progTitle}
                             </a>
