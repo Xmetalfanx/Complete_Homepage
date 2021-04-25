@@ -68,6 +68,7 @@ html {
 }
 
 body {
+  background-color: var(--white);
   color: var(--darkGrey2);
   display: grid;
   font-family: var(--Roboto);
@@ -379,6 +380,7 @@ header .topnav .icon {
   header .topnav .icon {
     float: right;
     display: block;
+    padding: 0;
   }
 }
 
