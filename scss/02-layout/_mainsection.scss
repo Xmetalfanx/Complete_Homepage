@@ -15,6 +15,18 @@
     grid-template-columns: 1fr;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--themeBGColorAccent);
+
+    a {
+      outline: 1px solid var(--themeBGColorAccent);
+    }
+  }
+
   // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
   &--wide {
     @extend .main-section;

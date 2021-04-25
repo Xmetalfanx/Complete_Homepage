@@ -85,16 +85,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: var(--themeBGColorAccent);
   font-weight: 800;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a {
-  outline: 1px solid var(--themeBGColorAccent);
 }
 
 h1,
@@ -272,6 +263,32 @@ footer {
   max-height: 4.5rem;
 }
 
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5 {
+  color: var(--white);
+}
+
+header h1 > a,
+header h2 > a,
+header h3 > a,
+header h4 > a,
+header h5 > a,
+footer h1 > a,
+footer h2 > a,
+footer h3 > a,
+footer h4 > a,
+footer h5 > a {
+  outline: 1px solid var(--white);
+}
+
 header a,
 footer a {
   color: inherit;
@@ -331,7 +348,7 @@ header .fa {
   margin-right: 1rem;
 }
 
-header * {
+header > * {
   background-color: inherit;
   color: inherit;
 }
@@ -420,6 +437,52 @@ header .topnav .icon {
     grid-template-areas: "sidebar" "pContent";
     grid-template-columns: 1fr;
   }
+}
+
+.main-section h1,
+.main-section--right-wide h1,
+.main-section--left-wide h1,
+.main-section--wide h1,
+.main-section h2,
+.main-section--right-wide h2,
+.main-section--left-wide h2,
+.main-section--wide h2,
+.main-section h3,
+.main-section--right-wide h3,
+.main-section--left-wide h3,
+.main-section--wide h3,
+.main-section h4,
+.main-section--right-wide h4,
+.main-section--left-wide h4,
+.main-section--wide h4,
+.main-section h5,
+.main-section--right-wide h5,
+.main-section--left-wide h5,
+.main-section--wide h5 {
+  color: var(--themeBGColorAccent);
+}
+
+.main-section h1 a,
+.main-section--right-wide h1 a,
+.main-section--left-wide h1 a,
+.main-section--wide h1 a,
+.main-section h2 a,
+.main-section--right-wide h2 a,
+.main-section--left-wide h2 a,
+.main-section--wide h2 a,
+.main-section h3 a,
+.main-section--right-wide h3 a,
+.main-section--left-wide h3 a,
+.main-section--wide h3 a,
+.main-section h4 a,
+.main-section--right-wide h4 a,
+.main-section--left-wide h4 a,
+.main-section--wide h4 a,
+.main-section h5 a,
+.main-section--right-wide h5 a,
+.main-section--left-wide h5 a,
+.main-section--wide h5 a {
+  outline: 1px solid var(--themeBGColorAccent);
 }
 
 .main-section--wide {
@@ -1674,7 +1737,7 @@ dl li {
 #linux-primary-content .card {
   min-width: 300px;
   border-radius: 15px 15px 15px 15px;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 
 @media all and (max-width: 1043px) {

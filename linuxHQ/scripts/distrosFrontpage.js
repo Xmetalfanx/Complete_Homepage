@@ -35,7 +35,7 @@ function displayDistroOutput(
 
   const currentDistroInfoOutput = `
 
-        <div class="card w-33">
+        <div class="card w-40">
           <div class="card__header">
             <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40">
             <h4>${currentDistroTitle} </h4>
