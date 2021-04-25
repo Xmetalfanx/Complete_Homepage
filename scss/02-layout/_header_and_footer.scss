@@ -107,7 +107,7 @@ header {
     .icon {
       display: none;
 
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 992px) {
         float: right;
         display: block;
       }
