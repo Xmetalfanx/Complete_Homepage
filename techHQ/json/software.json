@@ -7,7 +7,7 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "Open-Source, Cross Platform Graphics editor<br/><br/>Some consider this an alternative to Adobe Photoshop",
           "progHomepage": "http://www.gimp.org/",
           "progPlatform": "cp",
           "status": "active",
@@ -485,7 +485,7 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "Cross-Platform code editor, with support for addons and other features ",
           "progHomepage": "https://atom.io/",
           "progPlatform": "cp",
           "status": "active",
@@ -530,10 +530,10 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "Cross-Platform, lightweight text editor and IDE",
           "progHomepage": "https://sourceforge.net/projects/geany/",
           "progPlatform": "cp",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "geany",
@@ -547,10 +547,10 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "Word Processor",
           "progHomepage": "https://www.abisource.com/",
           "progPlatform": "cp",
-          "status": "",
+          "status": "somewhat active",
           "worksonwine": false
         },
         "progName": "abiword",
@@ -579,10 +579,10 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "PDF and Epub reader",
           "progHomepage": "http://blog.kowalczyk.info/software/sumatrapdf",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "sumatrapdf",
@@ -639,10 +639,10 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "PDF driver for Windows to save/print documents to a PDF format",
           "progHomepage": "http//www.dopdf.com/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "dopdf",
@@ -654,10 +654,10 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "PDF viewer with many features. Note: Last update appears to be in 2018... features may be in the non-free PDF-Xchange Editor, now.  The older version from 2018 may still work perfectly fine",
           "progHomepage": "http://www.pdfxviewer.com/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "pdfxchangeviewer",
