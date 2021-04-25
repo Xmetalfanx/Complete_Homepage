@@ -354,7 +354,7 @@
       },
       "screenshots": {
         "src": "ubuntu/cinnamonMint.png",
-        "thumbnail": "ubuntu/thumbnails/mint_tn.png",
+        "thumbnail": "ubuntu/thumbnails/cinnamonMint_tn.png",
         "distro": "Linux Mint",
         "theme": "Mint-X",
         "icon": "Mint-X"

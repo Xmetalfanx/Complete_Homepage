@@ -8,17 +8,18 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
 
         <div class="card w-40">
             <div class="card__header py-2">
-                <h4>
-                  <a href="${currentDEHomepage}" target="_blank" rel="noopener"> ${currentDETitle}</a>
-                </h4>
+                <a href="${currentDEHomepage}" target="_blank" rel="noopener"> ${currentDETitle}</a>
             </div>
 
             <div class="card__body d-none d-md-inline-block">
                 <figure>
                     <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                        <img class="thumbnails--lg mx-auto img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy">
+                        <img class="thumbnails--lg img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy">
                     </a>
-                    <figcaption>Distro:${currentDESShotDistro}</figcaption>
+                    <figcaption>
+                        <span class="font-weight-bold">Distro:</span> 
+                        ${currentDESShotDistro}
+                    </figcaption>
 
                 </figure>
 
