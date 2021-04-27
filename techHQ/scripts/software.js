@@ -27,13 +27,10 @@ function softwareData(data) {
         for (let items in subCategoriesList) {
           const subCatList = subCategoriesList[items];
 
-          console.log(subCatList);
+          //console.log(subCatList);
 
           for (let eachSubCat in subCatList) {
             // eachSubCat shows the subcategories but INCLUDES the double quotes on both sides
-
-            // Shows all the main categories, separated by a comma
-            //softwareOutput.insertAdjacentHTML('beforeend', mainCategories);
 
             // Subcategories with the double-quotes on both sides removed
             const noQuoteSubCat = eachSubCat.replace(/['"]+/g, '');
@@ -63,7 +60,7 @@ function softwareData(data) {
                 const worksOnWine = moreInfo.worksonwine;
 
                 // The status of the program.  This will be used sometimes when a program is discontinued
-                const progStatus = moreInfo.progStatus;
+                const progStatus = moreInfo.status;
 
                 /////////////////////////////////////////////
 
@@ -92,7 +89,7 @@ function softwareData(data) {
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
-                    <div class=\"card\">
+                    <div class=\"card w-75\">
                       <div class=\"card__header--wide\">
                         <div>
                             <img src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40 \" loading=\"lazy\" \>
@@ -100,6 +97,7 @@ function softwareData(data) {
                               ${progTitle}
                             </a>
                         </div>
+                       
                         <div>
                           ${platformDisplay}
                         </div>
@@ -112,9 +110,11 @@ function softwareData(data) {
                 softwareOutput.insertAdjacentHTML(
                   'beforeend',
                   headerDisplay +
-                    '<div class="card__body">' +
-                    description +
-                    '<br />'
+                    '<div class="card__body"> ' +
+                    '<span class="font-weight-bold"> Project Status: </span>' + 
+                     progStatus + 
+                    '<br/><br/>' +
+                     description 
                 );
                 // I think this is so it only shows the wine graphic IF IT works on wine
                 if (worksOnWine == true) {

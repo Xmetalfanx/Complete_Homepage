@@ -296,7 +296,7 @@
           "progDesc": "",
           "progHomepage": "",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": null
         },
         "progName": "foobar2000",
@@ -312,7 +312,7 @@
           "progDesc": "",
           "progHomepage": "http://support.xmplay.com",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "xmplay",
@@ -375,7 +375,7 @@
           "progDesc": "<p>Adjusts volume on mp3s so there is not one really loud one and one you have to turn the volume up to hear.</p> <p> <em> COMMENT: </em> I am not saying this  is not that good... but I personally like &quot;Mp3Trim (pro)&quot; better.mp3s I adjust with Mp3 Gain seems to be a tad off(volume and overall sound) afterwards </p>",
           "progHomepage": "http://mp3gain.sourceforge.net/",
           "progPlatform": "w",
-          "status": "",
+          "status": "Unknown - Last Updated 2018",
           "worksonwine": false
         },
         "progName": "mp3gain",
@@ -562,7 +562,7 @@
           "sshoturl": null
         },
         "moreInfo": {
-          "progDesc": "",
+          "progDesc": "Cross-Platform, Open-source, Office Suite. <br/><br/>Contains a Word Processor (Libre Writer), Spreadsheet (Libre Calc), a Presentations app and more.",
           "progHomepage": "https://www.libreoffice.org/",
           "progPlatform": "cp",
           "status": "active",
@@ -597,7 +597,7 @@
           "progDesc": "",
           "progHomepage": "http://www.bullzip.com/products/pdf/info.php",
           "progPlatform": "w",
-          "status": "",
+          "status": "Unknown",
           "worksonwine": false
         },
         "progName": "bullzippdf",
@@ -610,9 +610,9 @@
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "http://www.foxitsoftware.com/",
+          "progHomepage": "https://www.foxitsoftware.com/pdf-reader/",
           "progPlatform": "cp",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "foxitreader",
@@ -674,7 +674,7 @@
           "progDesc": "",
           "progHomepage": "https://www.editpadlite.com/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "editpadlite",
@@ -706,7 +706,7 @@
           "progDesc": "",
           "progHomepage": "http://uvviewsoft.com/uviewer/",
           "progPlatform": "w",
-          "status": "",
+          "status": "Free Version - Discontinued, Pro Version - Active",
           "worksonwine": false
         },
         "progName": "universalviewer",
@@ -722,7 +722,7 @@
           "progDesc": "E-book Manager and Converter  for Multiple Operating System and a must have for anyone who has many e-books",
           "progHomepage": "http://www.calibre-ebook.com",
           "progPlatform": "cp",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "calibre",
@@ -757,7 +757,7 @@
           "progDesc": "",
           "progHomepage": "https://usa.kaspersky.com/downloads/tdsskiller",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "tdsskiller",
@@ -773,7 +773,7 @@
           "progDesc": "",
           "progHomepage": "https://www.bleepingcomputer.com/download/zemana-antimalware/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "zemana",
@@ -788,7 +788,7 @@
           "progDesc": "",
           "progHomepage": "https://www.bleepingcomputer.com/download/adwcleaner/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "adwcleaner",
@@ -803,7 +803,7 @@
           "progDesc": "",
           "progHomepage": "https://www.bleepingcomputer.com/download/emsisoft-anti-malware/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "emsisoft",
@@ -818,7 +818,7 @@
           "progDesc": "",
           "progHomepage": "https://www.hitmanpro.com/en-us.aspx",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "hitmanpro",
@@ -844,21 +844,6 @@
     "antivirus": [],
     "firewalls": [
       {
-        "images": {
-          "icon": "",
-          "sshoturl": null
-        },
-        "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "",
-          "progPlatform": "w",
-          "status": "discontinued",
-          "worksonwine": false
-        },
-        "progName": "privateFirewall",
-        "progTitle": "Private Firewall"
-      },
-      {
         "icon": "",
         "images": {
           "icon": "",
@@ -881,7 +866,7 @@
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "",
+          "progHomepage": "https://sphinx-soft.com/Vista/order.html",
           "progPlatform": "w",
           "status": "active",
           "worksonwine": false
@@ -896,22 +881,7 @@
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "",
-          "progPlatform": "w",
-          "status": "",
-          "worksonwine": false
-        },
-        "progName": "",
-        "progTitle": ""
-      },
-      {
-        "images": {
-          "icon": "",
-          "sshoturl": null
-        },
-        "moreInfo": {
-          "progDesc": "",
-          "progHomepage": "",
+          "progHomepage": "https://www.comodo.com/home/internet-security/firewall.php",
           "progPlatform": "w",
           "status": "active",
           "worksonwine": false
@@ -981,7 +951,7 @@
           "progDesc": "",
           "progHomepage": "http://www.rarsoft.com",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "winrar",
@@ -1030,7 +1000,7 @@
           "progDesc": "Temp File Cleaner",
           "progHomepage": "https://www.bleachbit.org/",
           "progPlatform": "cp",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "bleachbit",
@@ -1046,7 +1016,7 @@
           "progDesc": "",
           "progHomepage": "https://www.piriform.com/ccleaner/download",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "ccleaner",
@@ -1061,7 +1031,7 @@
           "progDesc": "",
           "progHomepage": "https://singularlabs.com/software/ccenhancer/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "ccenhancer",
@@ -1076,7 +1046,7 @@
           "progDesc": "",
           "progHomepage": "https://eraser.heidi.ie",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "eraser",
@@ -1110,7 +1080,7 @@
           "progDesc": "",
           "progHomepage": "https://www.auslogics.com/en/software/disk-defrag/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "auslogicdefrag",
@@ -1123,9 +1093,9 @@
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "https://www.piriform.com/defraggler",
+          "progHomepage": "https://www.ccleaner.com/defraggler",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "defraggler",
@@ -1142,7 +1112,7 @@
           "progDesc": "",
           "progHomepage": "http://www.glarysoft.com",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progTitle": "Glary Utilities",
@@ -1157,7 +1127,7 @@
           "progDesc": "",
           "progHomepage": "http://launcher.nirsoft.net/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "nirsoftlauncher",
@@ -1172,7 +1142,7 @@
           "progDesc": "",
           "progHomepage": "http://www.wisecleaner.com/wise-care-365.html",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "wisecare360 ",
@@ -1189,7 +1159,7 @@
           "progDesc": "",
           "progHomepage": "https://processhacker.sourceforge.io/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "processhacker",
@@ -1203,18 +1173,13 @@
         },
         "moreInfo": {
           "progDesc": "",
-          "progHomepage": "",
+          "progHomepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
-        "progDesc": null,
-        "progHomepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
         "progName": "processexplorer",
-        "progPlatform": "W",
         "progTitle": "Process Explorer",
-        "sshoturl": null,
-        "worksonwine": false
       },
       {
         "images": {
@@ -1225,7 +1190,7 @@
           "progDesc": "",
           "progHomepage": "http://systemexplorer.net",
           "progPlatform": "W",
-          "status": "",
+          "status": "unknown - last updated about 2017",
           "worksonwine": false
         },
         "progName": "systemexplorer",
@@ -1242,7 +1207,7 @@
           "progDesc": "Frustrated by &quot;Can not delete&quot; and &quot;File Currently in use&quot; even though you are sure it shouldn&apos;t be?... this is a freeware, that in my opinion, the best program for unlocking the file, or cancelling the specific process that says its using that file.",
           "progHomepage": "http://www.softpedia.com/get/System/System-Miscellaneous/Unlocker.shtml",
           "progPlatform": "W",
-          "status": "",
+          "status": "Last Updated: 2018 - Unknown if this still works",
           "worksonwine": false
         },
         "progName": "unlocker",
@@ -1258,7 +1223,7 @@
           "progDesc": "Make System Restore points on command with one click (works on Windows XP, Vista, and Windows 7)",
           "progHomepage": "http://www.thewindowsclub.com/create-a-system-restore-point-in-1-click-with-quick-restor",
           "progPlatform": "W",
-          "status": "",
+          "status": "last updated: 2017 - still may work fine",
           "worksonwine": false
         },
         "progName": "quickrestorepoint",
@@ -1288,7 +1253,7 @@
           "progDesc": "",
           "progHomepage": "http://www.codesector.com/teracopy",
           "progPlatform": "W",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "teracopy",
@@ -1318,7 +1283,7 @@
           "progDesc": "System Restore Manager - Great little program that allows for better management of System Restore Points.",
           "progHomepage": "http://www.thewindowsclub.com/system-restore-manager-for-windows-released",
           "progPlatform": "W",
-          "status": "",
+          "status": "discontinued",
           "worksonwine": false
         },
         "progName": "sysrestoremanage",
@@ -1333,7 +1298,7 @@
           "progDesc": "Package Manager and installer",
           "progHomepage": "https://chocolatey.org/",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "chocalatey",
@@ -1348,7 +1313,7 @@
           "progDesc": "",
           "progHomepage": "http://www.iobit.com/en/driver-booster.php",
           "progPlatform": "W",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "driverbooster",
@@ -1363,7 +1328,7 @@
           "progDesc": "Great tool for Finding duplicate files of any type ... on my data hard drives (no programs or Operating Systems), I find myself using this often.",
           "progHomepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
           "progPlatform": "W",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "duplicatecleaner",
@@ -1378,7 +1343,7 @@
           "progDesc": "Startup Manager",
           "progHomepage": "http://www.sysinternals.com/",
           "progPlatform": "W",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "autoruns ",
@@ -1393,7 +1358,7 @@
           "progDesc": "File-Menu Tools adds many needed entries to the Windows Context Menu. There are many tools like this; however, I consider this one the best one I have tried so far.",
           "progHomepage": "http://www.lopesoft.com/",
           "progPlatform": "W",
-          "status": "",
+          "status": "unknown - does have Windows 10 support",
           "worksonwine": false
         },
         "progName": "filemenutools",
@@ -1409,7 +1374,7 @@
           "progDesc": "File and Folder backup program with many options",
           "progHomepage": "http://www.2brightsparks.com/syncback/syncback-hub.html",
           "progPlatform": "w",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "syncbackup",
@@ -1424,7 +1389,7 @@
           "progDesc": "",
           "progHomepage": "https://www.jam-software.com/treesize_free/",
           "progPlatform": "W",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "treeview",
@@ -1439,7 +1404,7 @@
           "progDesc": "",
           "progHomepage": "https://patchmypc.net/overview",
           "progPlatform": "W",
-          "status": "",
+          "status": "active",
           "worksonwine": false
         },
         "progName": "patchmypc",
