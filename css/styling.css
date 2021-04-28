@@ -484,7 +484,31 @@ header .topnav .icon {
 .main-section--right-wide h5 a,
 .main-section--left-wide h5 a,
 .main-section--wide h5 a {
+  padding: .25rem;
+}
+
+.main-section h1 a:hover,
+.main-section--right-wide h1 a:hover,
+.main-section--left-wide h1 a:hover,
+.main-section--wide h1 a:hover,
+.main-section h2 a:hover,
+.main-section--right-wide h2 a:hover,
+.main-section--left-wide h2 a:hover,
+.main-section--wide h2 a:hover,
+.main-section h3 a:hover,
+.main-section--right-wide h3 a:hover,
+.main-section--left-wide h3 a:hover,
+.main-section--wide h3 a:hover,
+.main-section h4 a:hover,
+.main-section--right-wide h4 a:hover,
+.main-section--left-wide h4 a:hover,
+.main-section--wide h4 a:hover,
+.main-section h5 a:hover,
+.main-section--right-wide h5 a:hover,
+.main-section--left-wide h5 a:hover,
+.main-section--wide h5 a:hover {
   outline: 1px solid var(--themeBGColorAccent);
+  text-decoration: none;
 }
 
 .main-section--wide {
@@ -1738,7 +1762,6 @@ dl li {
 
 #linux-primary-content .card {
   min-width: 300px;
-  border-radius: 15px 15px 15px 15px;
   margin: 1rem;
 }
 

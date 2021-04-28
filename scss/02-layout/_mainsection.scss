@@ -23,7 +23,12 @@
     color: var(--themeBGColorAccent);
 
     a {
-      outline: 1px solid var(--themeBGColorAccent);
+      padding: .25rem;
+
+      &:hover {
+        outline: 1px solid var(--themeBGColorAccent);
+        text-decoration: none;
+      }
     }
   }
 

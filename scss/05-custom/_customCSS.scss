@@ -79,17 +79,14 @@
     min-width: 300px;
     //max-width: 400px;
     //max-height: none;
-    border-radius: 15px 15px 15px 15px;
+    //border-radius: 15px 15px 15px 15px;
     margin: 1rem;
 
+    // WHY did i use this breakpoint when there is a 'standard one" at 992px?
     @media all and (max-width: 1043px) {
       max-width: 85%;
       margin: 1rem auto;
     }
-
-    // @media all and (max-width: 768px) {
-    //   padding: 1rem;
-    // }
 
     .card__header {
       display: flex;
