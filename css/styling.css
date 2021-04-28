@@ -1775,7 +1775,6 @@ dl li {
 #linux-primary-content .card .card__header {
   display: flex;
   justify-content: flex-start;
-  border-radius: 15px 15px 0 0;
 }
 
 @media all and (max-width: 768px) {
