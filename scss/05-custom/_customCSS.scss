@@ -1,5 +1,10 @@
 @use "../01-intial/index"as *;
 
+// Test only for now
+.white-svg {
+  fill: hsl(0, 0%, 100%);
+}
+
 // for display:grid, spans two columns
 .span2 {
   @include span2;
@@ -78,7 +83,7 @@
 
   .card {
     min-width: 300px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
     width: 40%;
 
     @media (max-width: 880px) {
@@ -163,6 +168,7 @@
   width: 1px;
 }
 
+// this seems like it should be in an earlier (01 or 02) level scss file
 code {
   @include darkBG;
   display: inline-block;

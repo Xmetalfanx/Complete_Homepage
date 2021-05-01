@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
 :root {
   /******************* Colors ********************/
   --black: hsl(0, 0%, 0%);
@@ -158,7 +170,15 @@ h4,
 .card .card__header h4,
 .card .card__header--wide h4,
 .card--bordered .card__header h4,
-.card--bordered .card__header--wide h4 {
+.card--bordered .card__header--wide h4,
+.card .card__header h5,
+.card .card__header--wide h5,
+.card--bordered .card__header h5,
+.card--bordered .card__header--wide h5,
+.card .card__header i,
+.card .card__header--wide i,
+.card--bordered .card__header i,
+.card--bordered .card__header--wide i {
   color: var(--white);
 }
 
@@ -1689,6 +1709,10 @@ dl li {
   width: 100% !important;
 }
 
+.white-svg {
+  fill: white;
+}
+
 .span2 {
   grid-column: span 2;
 }
@@ -1752,7 +1776,7 @@ dl li {
 
 #linux-primary-content .card {
   min-width: 300px;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   width: 40%;
 }
 

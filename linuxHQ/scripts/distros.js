@@ -48,17 +48,17 @@ function displayDistroOutput(
 
         <h4>Youtube Playlists</h4>
 
-          <div class="d-none d-lg-flex flex-wrap py-2">
+          <div class="d-none d-lg-flex flex-wrap py-2 jc-space-evenly">
             <iframe class="YTPlaylistsTN" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
             <iframe class="YTPlaylistsTN" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
           </div>
         </div>
 
-        <div class=" d-lg-none d-xs-block">
-            <div class="">
+        <div class="d-lg-none d-xs-block p-3">
+            <div>
                 <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
             </div>
-            <div class="">
+            <div>
                 <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
             </div>
         </div>
@@ -78,7 +78,7 @@ function displayDistroOutput(
         <div class="card__body">
 
             <!-- For both col's (so to speak) -->
-            <div class="d-flex">
+            <div class="d-flex jc-space-between">
 
             <!-- for left hand col ... left of the screenshots -->
             <div class="d-md-inline-block">
@@ -105,7 +105,6 @@ function displayDistroOutput(
                 </div>
 
 
-                  <hr />
                   ${currentDistroMoreInfoOutput}
               </div>
 
