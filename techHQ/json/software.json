@@ -75,6 +75,21 @@
         },
         "progName": "paintdotnet",
         "progTitle": "Paint.net"
+      },
+      {
+        "images": {
+          "icon": "/techHQ/progIcons/graphics/krita.png",
+          "sshoturl": null
+        },
+        "moreInfo": {
+          "progDesc": "",
+          "progHomepage": "https://krita.org/en/",
+          "progPlatform": "l",
+          "status": "active",
+          "worksonwine": false
+        },
+        "progName": "krita",
+        "progTitle": "Krita"
       }
     ],
     "optimizers": [
