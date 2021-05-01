@@ -78,8 +78,8 @@
       background-color: var(--themeBGColorMain);
       display: block;
       padding: 8px 22px;
-      margin: 0 0 1px 0;
-      border-radius: 3px;
+      margin: 0;
+      border-radius: 15px 15px 0 0;
       font-weight: 900;
 
       // guess at size
@@ -103,6 +103,8 @@
 
     // Block display on desktops so each entry is on it's on line
     .content {
+      border-radius: 0 0 15px 15px;
+      margin-bottom: 1.5rem;
       padding: 1rem;
 
       a,

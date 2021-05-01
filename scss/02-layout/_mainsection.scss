@@ -7,14 +7,6 @@
   grid-gap: 1.5rem;
   justify-items: stretch;
 
-  /* media query for center section under 794px wide */
-  @media all and (max-width: 768px) {
-    grid-template-areas:
-      "sidebar"
-      "pContent";
-    grid-template-columns: 1fr;
-  }
-
   h1,
   h2,
   h3,
@@ -101,18 +93,16 @@
 
 /* Media query for center section under 794px wide */
 @media all and (max-width: 768px) {
+
   // the main section between the nav top bar and the footer
   .main-section,
   .main-section--left-wide,
   .main-section--right-wide {
     .sidebar {
-      grid-area: sidebar;
-
       .card {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+        margin: 0 auto;
 
+        // why is this here? ... could i make this more generic and remove this? (move it to the higest level "card__body"
         .card__body {
           a {
             display: inline-block;
@@ -125,6 +115,27 @@
     .primary-content {
       grid-area: pContent;
       margin: 0 1rem;
+      width: min-content;
     }
   }
+
+  .main-section--left-wide,
+  .main-section--right-wide {
+    grid-template-areas:
+      "sidebar"
+      "pContent";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
 }
+
+// I forgot what this is for .
+// do i need it?
+// @media all and (max-width: 768px) {
+//   .sidebar {
+//     .card {
+//       margin-left: 0;
+//       margin-bottom: 1rem;
+//     }
+//   }
+// }

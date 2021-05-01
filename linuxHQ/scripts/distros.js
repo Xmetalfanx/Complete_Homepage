@@ -54,11 +54,11 @@ function displayDistroOutput(
           </div>
         </div>
 
-        <div class="row d-lg-none d-xs-block">
-            <div class="col">
+        <div class=" d-lg-none d-xs-block">
+            <div class="">
                 <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
             </div>
-            <div class="col">
+            <div class="">
                 <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
             </div>
         </div>
@@ -73,7 +73,7 @@ function displayDistroOutput(
 
   const currentDistroInfoOutput = `
 
-      <div class="card mx-auto">
+      <div class="card mx-auto w-90">
         ${currentDistoHeaderOutput}
         <div class="card__body">
 

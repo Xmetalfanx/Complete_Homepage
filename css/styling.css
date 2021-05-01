@@ -426,19 +426,7 @@ header .topnav .icon {
   grid-gap: 1.5rem;
   justify-items: stretch;
 
-  /* media query for center section under 794px wide */
-
   /****** Sidebar *****/
-}
-
-@media all and (max-width: 768px) {
-  .main-section,
-  .main-section--right-wide,
-  .main-section--left-wide,
-  .main-section--wide {
-    grid-template-areas: "sidebar" "pContent";
-    grid-template-columns: 1fr;
-  }
 }
 
 .main-section h1,
@@ -593,20 +581,11 @@ header .topnav .icon {
 
 /* Media query for center section under 794px wide */
 @media all and (max-width: 768px) {
-  .main-section .sidebar,
-  .main-section--wide .sidebar,
-  .main-section--left-wide .sidebar,
-  .main-section--right-wide .sidebar {
-    grid-area: sidebar;
-  }
-
   .main-section .sidebar .card,
   .main-section--wide .sidebar .card,
   .main-section--left-wide .sidebar .card,
   .main-section--right-wide .sidebar .card {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin: 0 auto;
   }
 
   .main-section .sidebar .card .card__body a,
@@ -622,6 +601,14 @@ header .topnav .icon {
   .main-section--right-wide .primary-content {
     grid-area: pContent;
     margin: 0 1rem;
+    width: min-content;
+  }
+
+  .main-section--left-wide,
+  .main-section--right-wide {
+    grid-template-areas: "sidebar" "pContent";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
   }
 }
 
@@ -691,8 +678,8 @@ header .topnav .icon {
   background-color: var(--themeBGColorMain);
   display: block;
   padding: 8px 22px;
-  margin: 0 0 1px 0;
-  border-radius: 3px;
+  margin: 0;
+  border-radius: 15px 15px 0 0;
   font-weight: 900;
   font-size: var(--h5);
 }
@@ -716,6 +703,8 @@ header .topnav .icon {
 
 .sidebar .accordion .content,
 .fullpage .accordion .content {
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 1.5rem;
   padding: 1rem;
 }
 
@@ -1661,43 +1650,43 @@ dl li {
 
 /******************* Width ********************/
 .w-25 {
-  width: 25%;
+  width: 25% !important;
 }
 
 .w-30 {
-  width: 30%;
+  width: 30% !important;
 }
 
 .w-33 {
-  width: 33%;
+  width: 33% !important;
 }
 
 .w-40 {
-  width: 40%;
+  width: 40% !important;
 }
 
 .w-50 {
-  width: 50%;
+  width: 50% !important;
 }
 
 .w-75 {
-  width: 75%;
+  width: 75% !important;
 }
 
 .w-80 {
-  width: 80%;
+  width: 80% !important;
 }
 
 .w-90 {
-  width: 90%;
+  width: 90% !important;
 }
 
 .w-95 {
-  width: 95%;
+  width: 95% !important;
 }
 
 .w-100 {
-  width: 100%;
+  width: 100% !important;
 }
 
 .span2 {
@@ -1758,30 +1747,25 @@ dl li {
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 #linux-primary-content .card {
   min-width: 300px;
-  margin: 1rem;
+  border-radius: 15px 15px 15px 15px;
+  width: 40%;
 }
 
-@media all and (max-width: 1043px) {
+@media (max-width: 880px) {
   #linux-primary-content .card {
-    max-width: 85%;
-    margin: 1rem auto;
+    width: 90%;
   }
 }
 
 #linux-primary-content .card .card__header {
   display: flex;
   justify-content: flex-start;
-}
-
-@media all and (max-width: 768px) {
-  .sidebar .card {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+  border-radius: 15px 15px 0 0;
 }
 
 .EducationalSites {
