@@ -621,7 +621,6 @@ header .topnav .icon {
   .main-section--right-wide .primary-content {
     grid-area: pContent;
     margin: 0 1rem;
-    width: min-content;
   }
 
   .main-section--left-wide,

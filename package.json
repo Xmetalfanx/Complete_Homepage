@@ -7,7 +7,6 @@
     "@popperjs/core": "^2.9.1",
     "jshint": "^2.12.0",
     "jslint": "^0.12.1",
-    "lazysizes": "^5.3.0",
     "popper.js": "^1.16.1",
     "remark-stringify": "^9.0.1",
     "stylelint-scss": "^3.18.0"
