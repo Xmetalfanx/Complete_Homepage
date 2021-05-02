@@ -19,7 +19,7 @@
   </div>
 
 
-<script src="http://xmetal.x10.mx/techHQ/scripts/browsers.js"></script>
+<script src="http://xmetal.x10.mx/techHQ/scripts/browsers-min.js"></script>
 
 
 <!-- include baseTechFooter -->

@@ -22,6 +22,6 @@
     </div>
   </div>
 
-<script src="/linuxHQ/scripts/distros.js"></script>
+<script src="/linuxHQ/scripts/distros-min.js"></script>
 
 <?php include $path . "/modules/footer.tpl"; ?>

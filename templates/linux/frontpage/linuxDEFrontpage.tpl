@@ -19,6 +19,6 @@
       </div>
     </div>
 
-    <script src="/linuxHQ/scripts/desktopsFrontpage.js"></script>
+    <script src="/linuxHQ/scripts/desktopsFrontpage-min.js"></script>
 
   <?php include($path . "/modules/footer.tpl"); ?>

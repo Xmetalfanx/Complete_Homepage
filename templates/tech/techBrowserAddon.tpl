@@ -21,7 +21,7 @@
     </div>
 
 <!-- Changed from absolute path .. if something looks off, this could be why -->
-<script src="/techHQ/scripts/browserAddons.js"></script>
+<script src="/techHQ/scripts/browserAddons-min.js"></script>
 
 
 <!-- include baseTechFooter -->

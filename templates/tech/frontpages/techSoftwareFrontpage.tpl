@@ -22,7 +22,7 @@
 	</div>
 
 <!-- Call to my software.js file here -->
-<script src="/techHQ/scripts/software.js"></script>
+<script src="/techHQ/scripts/software-min.js"></script>
 
 <!-- include baseTechFooter -->
 <?php include $path . '/modules/footer.tpl'; ?>

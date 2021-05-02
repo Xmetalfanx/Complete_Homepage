@@ -19,6 +19,6 @@
         </div>
       </div>
 
-    <script src="/linuxHQ/scripts/ticSection.js"></script>
+    <script src="/linuxHQ/scripts/ticSection-min.js"></script>
 
 <?php include $path . "/modules/footer.tpl"; ?>

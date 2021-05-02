@@ -20,4 +20,4 @@
 		<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
   </div>
 
-<script type="application/javascript" src="/techHQ/scripts/software.js"></script>
+<script type="application/javascript" src="/techHQ/scripts/software-min.js"></script>

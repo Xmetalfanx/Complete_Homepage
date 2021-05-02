@@ -1,0 +1,1 @@
+this is only to clean up the main /scripts folder .. the min folder will be in the parent and what i edit will now go here

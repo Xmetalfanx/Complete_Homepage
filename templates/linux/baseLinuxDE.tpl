@@ -15,6 +15,6 @@
     </div>
   </div>
 
-<script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops.js"></script>
+<script src="http://xmetal.x10.mx/linuxHQ/scripts/desktops-min.js"></script>
 
 <?php require($path . "/modules/footer.tpl"); ?>

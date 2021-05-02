@@ -23,7 +23,7 @@
       </div>
 
 
-    <script type="application/javascript" src="/techHQ/scripts/browsers.js"></script>
+    <script type="application/javascript" src="/techHQ/scripts/browsers-min.js"></script>
 
 
 
