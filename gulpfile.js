@@ -1,58 +1,19 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-dart-sass');
+var gulp = require('gulp'), 
+    sass = require('gulp-dart-sass');
 
-const autoprefixer = require('autoprefixer');
-const postcss = require('gulp-postcss');
-//const prettier = require('gulp-prettier');
-var sorting = require('postcss-sorting');
-var sourcemaps = require('gulp-sourcemaps');
-const cleanCSS = require('gulp-clean-css');
+const autoprefixer = require('autoprefixer'),
+      postcss = require('gulp-postcss'),
+      cleanCSS = require('gulp-clean-css'),
+      imagemin = require('gulp-imagemin');;
+
+var sorting = require('postcss-sorting'),
+    sourcemaps = require('gulp-sourcemaps');
 
 
-
-//sass.render({file: universalSCSS/styling.scss}, function(err, result) { /* ... */ });
-
-// The sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
-
-gulp.task('compile', function(){
-  var plugin = [
-    // PostCSS Plugins
-    autoprefixer,
-    sorting,
-  ]
-
-  return gulp.src('./scss/**/*.scss')
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
-    //.pipe(postcss(plugin))
-    //.pipe(prettier({}))
-    //.pipe(cleanCSS({colors: 'true', format: 'beautify'}))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./css'));
-});
-
-gulp.task('sass:watch', function () {
-  gulp.watch('./scss/**/*.scss', ['sass']);
-});
-
-gulp.task('lint-css', function lintCssTask() {
-  const gulpStylelint = require('gulp-stylelint');
-
-  return gulp
-    .src('css/**/*.css')
-    .pipe(gulpStylelint({
-      fix: true,
-      reporters: [
-        {formatter: 'string', console: true}
-      ],
-      failAfterError: false,
-    }))
-    .pipe(gulp.dest('./css'));
-});
-
-gulp.task('lint-scss', function lintCssTask() {
+// run stylelint and fixes fixable issues 
+function lintFixScss() {
   const gulpStylelint = require('gulp-stylelint');
 
   return gulp
@@ -65,4 +26,70 @@ gulp.task('lint-scss', function lintCssTask() {
       failAfterError: false,
     }))
     .pipe(gulp.dest('./scss'));
-});
+
+}
+
+exports.lintFixScss = lintFixScss;
+
+// run stylelint and fix fixable issues on the CSS 
+function lintFixCss() {
+  const gulpStylelint = require('gulp-stylelint');
+
+  return gulp
+    .src('css/**/*.css')
+    .pipe(gulpStylelint({
+      fix: true,
+      reporters: [
+        {formatter: 'string', console: true}
+      ],
+      failAfterError: false,
+    }))
+    .pipe(gulp.dest('./css'));
+}
+
+exports.lintFixCss = lintFixCss;
+
+// Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
+function compileSCSSToCSS() {
+    var plugin = [
+    // PostCSS Plugins
+    autoprefixer,
+    sorting,
+  ]
+
+  return gulp.src('./scss/**/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
+    //.pipe(postcss(plugin))
+    //.pipe(cleanCSS({colors: 'true', format: 'beautify'}))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('./css'));
+}
+exports.compileSCSSToCSS = compileSCSSToCSS;
+
+
+// not sure why i need this but leave it for now 
+// i hope i converted this one right 
+// function sass-watch { 
+//   gulp.watch('./scss/**/*.scss', ['sass']);
+// }
+
+
+function minifyCSS() {
+  return gulp.src('css/*.css')
+    .pipe(cleanCSS({debug: true}, (details) => {
+    }))
+  .pipe(gulp.dest('css'));
+
+}
+exports.minifyCSS = minifyCSS
+
+
+function imageLinuxScreenshotsMin() {
+  gulp.src('linuxHQ/screenshots/**/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('linuxHQ/optScreenshots'))
+}
+exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
+
+exports.default = gulp.series(lintFixScss,compileSCSSToCSS,lintFixCss,minifyCSS)

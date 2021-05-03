@@ -3,10 +3,16 @@
 clear
 
 
-gulp lint-scss
+gulp lintFixScss
 
 #  compile the sass to css
-gulp compile
+gulp compileSCSSToCSS
 
-# maynot be needed anymore
-gulp lint-css
+# Apply fixes if needed to the CSS file 
+gulp lintFixCss
+
+# Minify CSS 
+gulp minifyCSS
+
+
+# MAY NOT BE NEEDED ANYMORE ... run "gulp defaults" instead 
