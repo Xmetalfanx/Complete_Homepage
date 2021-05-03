@@ -84,11 +84,16 @@ function minifyCSS() {
 }
 exports.minifyCSS = minifyCSS
 
-
+// this is not to be run all the time 
 function imageLinuxScreenshotsMin() {
   gulp.src('linuxHQ/screenshots/**/*')
-        .pipe(imagemin())
-        .pipe(gulp.dest('linuxHQ/optScreenshots'))
+    .pipe(imagemin([
+      imagemin.gifsicle({interlaced: true}),
+      imagemin.mozjpeg({quality: 90, progressive: true}),
+      imagemin.optipng({optimizationLevel: 5}),
+    ]))
+        
+    .pipe(gulp.dest('linuxHQ/optScreenshots'))
 }
 exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 
