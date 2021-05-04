@@ -1,15 +1,14 @@
 'use strict';
 
 var gulp = require('gulp'), 
-    sass = require('gulp-dart-sass');
-
+    sass = require('gulp-dart-sass'),
+    sorting = require('postcss-sorting'),
+    sourcemaps = require('gulp-sourcemaps');
+  
 const autoprefixer = require('autoprefixer'),
       postcss = require('gulp-postcss'),
       cleanCSS = require('gulp-clean-css'),
       imagemin = require('gulp-imagemin');;
-
-var sorting = require('postcss-sorting'),
-    sourcemaps = require('gulp-sourcemaps');
 
 
 // run stylelint and fixes fixable issues 
@@ -28,7 +27,6 @@ function lintFixScss() {
     .pipe(gulp.dest('./scss'));
 
 }
-
 exports.lintFixScss = lintFixScss;
 
 // run stylelint and fix fixable issues on the CSS 
@@ -44,6 +42,9 @@ function lintFixCss() {
       ],
       failAfterError: false,
     }))
+    // minifies ... no need for another function 
+    .pipe(cleanCSS({debug: true}, (details) => {
+      }))
     .pipe(gulp.dest('./css'));
 }
 
@@ -61,28 +62,10 @@ function compileSCSSToCSS() {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     //.pipe(postcss(plugin))
-    //.pipe(cleanCSS({colors: 'true', format: 'beautify'}))
-    .pipe(sourcemaps.write('.'))
+    .pipe(sourcemaps.write('../maps'))
     .pipe(gulp.dest('./css'));
 }
 exports.compileSCSSToCSS = compileSCSSToCSS;
-
-
-// not sure why i need this but leave it for now 
-// i hope i converted this one right 
-// function sass-watch { 
-//   gulp.watch('./scss/**/*.scss', ['sass']);
-// }
-
-
-function minifyCSS() {
-  return gulp.src('css/*.css')
-    .pipe(cleanCSS({debug: true}, (details) => {
-    }))
-  .pipe(gulp.dest('css'));
-
-}
-exports.minifyCSS = minifyCSS
 
 // this is not to be run all the time 
 function imageLinuxScreenshotsMin() {
@@ -97,4 +80,9 @@ function imageLinuxScreenshotsMin() {
 }
 exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 
-exports.default = gulp.series(lintFixScss,compileSCSSToCSS,lintFixCss,minifyCSS)
+function fixLinuxJSON() {
+  fixjson linuxHQ/JSON
+}
+
+
+exports.default = gulp.series(lintFixScss,compileSCSSToCSS,lintFixCss)
