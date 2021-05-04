@@ -3,7 +3,9 @@
 var gulp = require('gulp'), 
     sass = require('gulp-dart-sass'),
     sorting = require('postcss-sorting'),
-    sourcemaps = require('gulp-sourcemaps');
+    sourcemaps = require('gulp-sourcemaps'),
+    minmax = require('postcss-media-minmax'),
+    gcmq = require('gulp-group-css-media-queries');
   
 const autoprefixer = require('autoprefixer'),
       postcss = require('gulp-postcss'),
@@ -47,7 +49,6 @@ function lintFixCss() {
       }))
     .pipe(gulp.dest('./css'));
 }
-
 exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
@@ -62,6 +63,7 @@ function compileSCSSToCSS() {
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     //.pipe(postcss(plugin))
+    .pipe(gcmq())
     .pipe(sourcemaps.write('../maps'))
     .pipe(gulp.dest('./css'));
 }
@@ -80,9 +82,5 @@ function imageLinuxScreenshotsMin() {
 }
 exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 
-function fixLinuxJSON() {
-  fixjson linuxHQ/JSON
-}
 
-
-exports.default = gulp.series(lintFixScss,compileSCSSToCSS,lintFixCss)
+exports.default = gulp.series(lintFixScss,compileSCSSToCSS, lintFixCss)
