@@ -1,9 +1,5 @@
 function outputData($phpTestlet) {
+  console.log('Inside outputData function in JS');
 
-
-    console.log("Inside outputData function in JS");
-
-    console.log("phpTestlet: " + $phpTestlet);
-
-
+  console.log('phpTestlet: ' + $phpTestlet);
 }
