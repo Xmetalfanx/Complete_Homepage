@@ -10,11 +10,11 @@ var gulp = require('gulp'),
 const autoprefixer = require('autoprefixer'),
       postcss = require('gulp-postcss'),
       cleanCSS = require('gulp-clean-css'),
-      imagemin = require('gulp-imagemin');;
-
+      imagemin = require('gulp-imagemin'),
+      pugLinter = require('gulp-pug-linter');
 
 // run stylelint and fixes fixable issues 
-function lintFixScss() {
+async function lintFixScss() {
   const gulpStylelint = require('gulp-stylelint');
 
   return gulp
@@ -32,7 +32,7 @@ function lintFixScss() {
 exports.lintFixScss = lintFixScss;
 
 // run stylelint and fix fixable issues on the CSS 
-function lintFixCss() {
+async function lintFixCss() {
   const gulpStylelint = require('gulp-stylelint');
 
   return gulp
@@ -52,7 +52,7 @@ function lintFixCss() {
 exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
-function compileSCSSToCSS() {
+async function compileSCSSToCSS() {
     var plugin = [
     // PostCSS Plugins
     autoprefixer,
@@ -70,7 +70,7 @@ function compileSCSSToCSS() {
 exports.compileSCSSToCSS = compileSCSSToCSS;
 
 // this is not to be run all the time 
-function imageLinuxScreenshotsMin() {
+async function imageLinuxScreenshotsMin() {
   gulp.src('linuxHQ/screenshots/**/*')
     .pipe(imagemin([
       imagemin.gifsicle({interlaced: true}),
@@ -82,5 +82,13 @@ function imageLinuxScreenshotsMin() {
 }
 exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 
+async function lintPug() {
+ gulp
+    .src('./**/*.pug')
+    .pipe(pugLinter({ reporter: 'default' }))
+
+}
+exports.lintPug = lintPug
+ 
 
 exports.default = gulp.series(lintFixScss,compileSCSSToCSS, lintFixCss)
