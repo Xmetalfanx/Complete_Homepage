@@ -9,12 +9,15 @@
 <!-- the input ID and for="" have to be equal-->
 <input id="debianFamily" type="checkbox">
 <label for="debianFamily">Debian Family</label>
-<div class="content"><a href="/linuxHQ/distros/debian/antix.php">Anti-X</a><a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs</a><a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++</a><a href="/linuxHQ/distros/debian/debian.php">Debian</a><a href="/linuxHQ/distros/ubuntu/deepn.php">Deepin</a><a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition</a><a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a><a href="/linuxHQ/distros/debian/mxlinux.php">MX Linux</a><a href="/linuxHQ/distros/debian/solydxk.php">SolydXK</a><a href="/linuxHQ/distros/debian/sparkylinux.php">Sparky Linux</a></div>
+<div class="content"><a href="/linuxHQ/distros/debian/antix.php">Anti-X</a>
+<a href="/linuxHQ/distros/debian/bunsenlabs.php">Bunsenlabs</a><a href="/linuxHQ/distros/debian/crunchbangplusplus.php">CrunchBang++</a><a href="/linuxHQ/distros/debian/debian.php">Debian</a>
+<a href="/linuxHQ/distros/debian/deepn.php">Deepin</a>
+<a href="/linuxHQ/distros/debian/lmde.php">Linux Mint Debian Edition</a><a href="/linuxHQ/distros/debian/makulu.php">Makulu Linux</a><a href="/linuxHQ/distros/debian/mxlinux.php">MX Linux</a><a href="/linuxHQ/distros/debian/solydxk.php">SolydXK</a><a href="/linuxHQ/distros/debian/sparkylinux.php">Sparky Linux</a></div>
 
 <!-- the input ID and for="" have to be equal-->
 <input id="ubuntuFamily" type="checkbox">
 <label for="ubuntuFamily">Ubuntu Family</label>
-<div class="content"><a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a><a href="#">KDE Neon / Neon</a><a href="/linuxHQ/distros/ubuntu/kubuntu.php">Kubuntu</a><a href="/linuxHQ/distros/ubuntu/linuxLite.php">Linux Lite</a><a href="/linuxHQ/distros/ubuntu/linuxMint.php">Linux Mint</a><a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a><a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a><a href="/linuxHQ/distros/ubuntu/peppermint.php">Peppermint</a><a href="/linuxHQ/distros/ubuntu/ubuntu.php">Ubuntu</a><a href="/linuxHQ/distros/ubuntu/ubuntuBudgie.php">Ubuntu Budgie</a><a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a><a href="/linuxHQ/distros/ubuntu/xubuntu.php">Xubuntu</a><a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a></div>
+<div class="content"><a href="/linuxHQ/distros/ubuntu/elementaryOS.php">Elementary OS</a><a href="/linuxHQ/distros/ubuntu/neon.php">KDE Neon / Neon</a><a href="/linuxHQ/distros/ubuntu/kubuntu.php">Kubuntu</a><a href="/linuxHQ/distros/ubuntu/linuxLite.php">Linux Lite</a><a href="/linuxHQ/distros/ubuntu/linuxMint.php">Linux Mint</a><a href="/linuxHQ/distros/ubuntu/LXLE.php">LXLE</a><a href="/linuxHQ/distros/ubuntu/lubuntu.php">Lubuntu</a><a href="/linuxHQ/distros/ubuntu/peppermint.php">Peppermint</a><a href="/linuxHQ/distros/ubuntu/ubuntu.php">Ubuntu</a><a href="/linuxHQ/distros/ubuntu/ubuntuBudgie.php">Ubuntu Budgie</a><a href="/linuxHQ/distros/ubuntu/ubuntuMate.php">Ubuntu Mate</a><a href="/linuxHQ/distros/ubuntu/xubuntu.php">Xubuntu</a><a href="/linuxHQ/distros/ubuntu/zorin.php">Zorin</a></div>
 
 <!-- the input ID and for="" have to be equal-->
 <input id="rpmFamily" type="checkbox">

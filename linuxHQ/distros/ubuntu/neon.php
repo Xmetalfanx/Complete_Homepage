@@ -8,5 +8,5 @@
 ?>
 
 <script type="text/javascript">
-  var localDistroName = "neon";
+  var localDistroName = "kdeneon";
 </script>
