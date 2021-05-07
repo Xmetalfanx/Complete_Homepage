@@ -5,7 +5,6 @@
   <input id="themePPA" type="checkbox">
   <label for="themePPA">Mass Theme PPAs</label>
   <div class="content">
-    <a href="/linuxHQ/tic/themes/adapta.php">Adapta</a>
     <a href="/linuxHQ/tic/themes/arc.php">Arc</a>
     <a href="/linuxHQ/tic/themes/minty.php">(Linux) Mint-Y</a>
     <a href="/linuxHQ/tic/themes/numix.php">Numix</a>

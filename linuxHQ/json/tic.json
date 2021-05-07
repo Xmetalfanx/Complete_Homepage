@@ -17,28 +17,8 @@
         "thumbnail": ""
       },
       "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-      "ticName": "arcTheme",
-      "themeTitle": "Arc GTK Theme"
-    },
-    {
-      "howToInstall": {
-        "arch": "",
-        "fedora": "",
-        "opensuse": "",
-        "ubuntu": ""
-      },
-      "links": {
-        "devartsURL": "N/A",
-        "githubURL": "https://github.com/adapta-project/adapta-gtk-theme",
-        "gnomelooksURL": ""
-      },
-      "screenshot": {
-        "src": "",
-        "thumbnail": ""
-      },
-      "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-      "ticName": "adaptaTheme",
-      "themeTitle": "Adapta Theme"
+      "themeTitle": "Arc GTK Theme",
+      "ticName": "arcTheme"
     },
     {
       "howToInstall": {
@@ -57,8 +37,8 @@
         "thumbnail": "ubuntu/thumbnails/cinnamonMint_tn.png"
       },
       "supportInfo": "gtk3, cinnamon",
-      "ticName": "mintYTheme",
-      "themeTitle": "Mint-Y"
+      "themeTitle": "Mint-Y",
+      "ticName": "mintYTheme"
     },
     {
       "howToInstall": {
@@ -77,8 +57,8 @@
         "thumbnail": ""
       },
       "supportInfo": "gtk2, gtk3, gnomeshell, cinnamon, unity, xfwm4",
-      "ticName": "numixTheme",
-      "themeTitle": "Numix GTK Theme"
+      "themeTitle": "Numix GTK Theme",
+      "ticName": "numixTheme"
     }
   ]
 }
