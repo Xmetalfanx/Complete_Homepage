@@ -3,7 +3,9 @@
     {
       "distroName": "fedora",
       "distroTitle": "Fedora",
-      "graphics": { "iconURL": "fedora.svg" },
+      "graphics": {
+        "iconURL": "fedora.svg"
+      },
       "moreinfo": {
         "desktops": "Gnome (Default), Various official spins with other options",
         "releaseCycle": "12 Months",
@@ -24,13 +26,17 @@
         "homepage": "http://www.fedora.com",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
-      "youtube": { "reviewPlaylist": "PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm" }
+      "youtube": {
+        "reviewPlaylist": "PLrh2y86lvcJeLcpMeVcMwbODBKBj8wqVm"
+      }
     },
     {
       "distroName": "mageia",
       "distroTitle": "Mageia",
       "family": "mandriva",
-      "graphics": { "iconURL": "mageia.png" },
+      "graphics": {
+        "iconURL": "mageia.png"
+      },
       "moreinfo": {
         "desktops": "Cinnamon, GNOME, IceWM, KDE, MATE, LXDE, Openbox, Razor-qt, WMaker, Xfce",
         "releaseCycle": "9 months, Support for 18 months",
@@ -59,7 +65,9 @@
     {
       "distroName": "openmandriva",
       "distroTitle": "Open Mandriva",
-      "graphics": { "iconURL": "openmandriva.png" },
+      "graphics": {
+        "iconURL": "openmandriva.png"
+      },
       "moreinfo": {
         "desktops": "KDE",
         "releaseCycle": "",
@@ -67,7 +75,12 @@
         "target": "",
         "featured": ""
       },
-      "screenshots": { "desktop": "", "distro": "", "src": "", "theme": "" },
+      "screenshots": {
+        "desktop": "",
+        "distro": "",
+        "src": "",
+        "theme": ""
+      },
       "version": "",
       "website": {
         "download": "http://openmandriva.org/en/download_lx",
@@ -83,7 +96,9 @@
     {
       "distroName": "rosa",
       "distroTitle": "ROSA Fresh",
-      "graphics": { "iconURL": "" },
+      "graphics": {
+        "iconURL": ""
+      },
       "moreinfo": {
         "desktops": "KDE",
         "releaseCycle": "",
@@ -91,7 +106,12 @@
         "target": "",
         "featured": ""
       },
-      "screenshots": { "desktop": "", "distro": "", "src": "", "theme": "" },
+      "screenshots": {
+        "desktop": "",
+        "distro": "",
+        "src": "",
+        "theme": ""
+      },
       "version": "",
       "website": {
         "download": "http://wiki.rosalab.ru/en/index.php/ROSA_Release",
@@ -107,7 +127,9 @@
     {
       "distroName": "opensuse",
       "distroTitle": "Open Suse",
-      "graphics": { "iconURL": "opensuse.svg" },
+      "graphics": {
+        "iconURL": "opensuse.svg"
+      },
       "moreinfo": {
         "desktops": "Various",
         "releaseCycle": "",
@@ -128,12 +150,17 @@
         "homepage": "http://www.opensuse.org",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
-      "youtube": { "reviewPlaylist": "", "tipsPlaylist": "" }
+      "youtube": {
+        "reviewPlaylist": "",
+        "tipsPlaylist": ""
+      }
     },
     {
       "distroName": "pclinuxos",
       "distroTitle": "PCLinuxOS",
-      "graphics": { "iconURL": "pclinuxos.png" },
+      "graphics": {
+        "iconURL": "pclinuxos.png"
+      },
       "moreinfo": {
         "desktops": "Plasma 5",
         "family": "mandriva",
@@ -163,7 +190,9 @@
     {
       "distroName": "centOS",
       "distroTitle": "Cent OS",
-      "graphics": { "iconURL": "" },
+      "graphics": {
+        "iconURL": ""
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "Fedora, Red Hat Enterprise",
@@ -193,7 +222,9 @@
       "distroName": "gecko",
       "distroTitle": "Gecko Linux",
       "family": "rpm",
-      "graphics": { "iconURL": "gecko.png" },
+      "graphics": {
+        "iconURL": "gecko.png"
+      },
       "moreinfo": {
         "base": "openSUSE",
         "desktops": "Cinnamon, Mate, XFCE, Budgie, Mate, .. and more",
@@ -225,7 +256,9 @@
     {
       "distroName": "endeavouros",
       "distroTitle": "EndeavourOS",
-      "graphics": { "iconURL": "endeavour.png" },
+      "graphics": {
+        "iconURL": "endeavour.png"
+      },
       "moreinfo": {
         "base": "Arch Linux",
         "desktops": "Various",
@@ -255,7 +288,9 @@
     {
       "distroName": "arch",
       "distroTitle": "Arch",
-      "graphics": { "iconURL": "arch.svg" },
+      "graphics": {
+        "iconURL": "arch.svg"
+      },
       "moreinfo": {
         "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
         "similar": "(...sort of) Antergos, SwagArch, (..this is a stretch) Manjaro",
@@ -277,12 +312,17 @@
         "homepage": "http://www.archlinux.org",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/arch/arch.php"
       },
-      "youtube": { "reviewPlaylist": "", "tipsPlaylist": "" }
+      "youtube": {
+        "reviewPlaylist": "",
+        "tipsPlaylist": ""
+      }
     },
     {
       "distroName": "archbang",
       "distroTitle": "Archbang",
-      "graphics": { "iconURL": "archbang.png" },
+      "graphics": {
+        "iconURL": "archbang.png"
+      },
       "moreinfo": {
         "base": "Arch Linux",
         "desktops": "Openbox",
@@ -312,7 +352,9 @@
     {
       "distroName": "manjaro",
       "distroTitle": "Manjaro",
-      "graphics": { "iconURL": "manjaro.svg" },
+      "graphics": {
+        "iconURL": "manjaro.svg"
+      },
       "moreinfo": {
         "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
         "similar": "(with the same DE..) Antergos or Arch",
@@ -343,7 +385,9 @@
     {
       "distroName": "antix",
       "distroTitle": "Anti-X",
-      "graphics": { "iconURL": "" },
+      "graphics": {
+        "iconURL": ""
+      },
       "moreinfo": {
         "desktops": "",
         "releaseCycle": "",
@@ -372,7 +416,9 @@
     {
       "distroName": "bunsenlabs",
       "distroTitle": "Bunsenlabs",
-      "graphics": { "iconURL": "bunsenlabs.png" },
+      "graphics": {
+        "iconURL": "bunsenlabs.png"
+      },
       "moreinfo": {
         "desktops": "Openbox",
         "similar": "The Debian familys version of Archbang OR Debian with Openbox installed",
@@ -402,7 +448,9 @@
     {
       "distroName": "debian",
       "distroTitle": "Debian",
-      "graphics": { "iconURL": "debian.svg" },
+      "graphics": {
+        "iconURL": "debian.svg"
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "Sparky Linux, Bunsenlabs, Linux Mint Debian Edition",
@@ -431,7 +479,9 @@
     {
       "distroName": "lmde",
       "distroTitle": "Linux Mint Debian Edition",
-      "graphics": { "iconURL": "mint.png" },
+      "graphics": {
+        "iconURL": "mint.png"
+      },
       "moreinfo": {
         "desktops": "Mate, Cinnamon",
         "similar": "Debian with Cinnamon (with LMDE 3, the Mate version, was dropped)OR a \"Cross between Linux Mint (Ubuntu based) and Debian",
@@ -460,7 +510,9 @@
     {
       "distroName": "solyd",
       "distroTitle": "SoyldXK",
-      "graphics": { "iconURL": "solydxk.png" },
+      "graphics": {
+        "iconURL": "solydxk.png"
+      },
       "moreinfo": {
         "desktops": "KDE aka Plama 5 / XFCE",
         "similar": "Debian with XFCE or KDE/Plasma 5 installed I suppose",
@@ -490,7 +542,9 @@
     {
       "distroName": "sparky",
       "distroTitle": "Sparky Linux",
-      "graphics": { "iconURL": "#" },
+      "graphics": {
+        "iconURL": "#"
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "Various",
@@ -519,7 +573,9 @@
     {
       "distroName": "mx",
       "distroTitle": "MX Linux",
-      "graphics": { "iconURL": "mx.png" },
+      "graphics": {
+        "iconURL": "mx.png"
+      },
       "moreinfo": {
         "desktops": "",
         "similar": "antiX",
@@ -549,7 +605,9 @@
     {
       "distroName": "cbplusplus",
       "distroTitle": "Crunchbang++",
-      "graphics": { "iconURL": "" },
+      "graphics": {
+        "iconURL": ""
+      },
       "moreinfo": {
         "desktops": "Openbox",
         "similar": "Debian with Openbox",
@@ -579,7 +637,9 @@
     {
       "distroName": "makulu",
       "distroTitle": "Makulu",
-      "graphics": { "iconURL": "makulu.png" },
+      "graphics": {
+        "iconURL": "makulu.png"
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "",
@@ -609,7 +669,9 @@
     {
       "distroName": "deepin",
       "distroTitle": "Deepin",
-      "graphics": { "iconURL": "deepin.png" },
+      "graphics": {
+        "iconURL": "deepin.png"
+      },
       "moreinfo": {
         "base": "Debian",
         "desktops": "Deepin Desktop Envirnoment",
@@ -641,7 +703,9 @@
     {
       "distroName": "calculate",
       "distroTitle": "Calculate",
-      "graphics": { "iconURL": "calculate.png" },
+      "graphics": {
+        "iconURL": "calculate.png"
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "Gentoo, Sabayon",
@@ -662,12 +726,17 @@
         "homepage": "http://www.calculate-linux.org/",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
-      "youtube": { "reviewPlaylist": "", "tipsPlaylist": "" }
+      "youtube": {
+        "reviewPlaylist": "",
+        "tipsPlaylist": ""
+      }
     },
     {
       "distroName": "gentoo",
       "distroTitle": "Gentoo",
-      "graphics": { "iconURL": "#" },
+      "graphics": {
+        "iconURL": "#"
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "Calculate Linux, Sabayon",
@@ -690,12 +759,17 @@
         "homepage": "http://www.gentoo.org/",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
-      "youtube": { "reviewPlaylist": "", "tipsPlaylist": "" }
+      "youtube": {
+        "reviewPlaylist": "",
+        "tipsPlaylist": ""
+      }
     },
     {
       "distroName": "sabayon",
       "distroTitle": "Sabayon",
-      "graphics": { "iconURL": "#" },
+      "graphics": {
+        "iconURL": "#"
+      },
       "moreinfo": {
         "desktops": "Various",
         "similar": "Gentoo, Calculate Linux",
@@ -718,33 +792,39 @@
         "homepage": "http://www.sabayon.org/",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/"
       },
-      "youtube": { "reviewPlaylist": "", "tipsPlaylist": "" }
+      "youtube": {
+        "reviewPlaylist": "",
+        "tipsPlaylist": ""
+      }
     }
   ],
   "supported": {
+    "currentlySupported": {
+      "arch": "all",
+      "debian": "",
+      "fedora": "Fedora 33, Fedora 34, Rawhide",
+      "opensuse": "Leap 15.2, Tumbleweed",
+      "ubuntu": "18.04 LTS, 20.04 LTS, 20.10",
+    }
+
     "arch": {
-      "currentlySupported": "all",
-      "manjaro": "",
       "rollingMessage": "As with any rolling release the more out of date it is, since the prior updates, the more things on some setups MAY have the chance of breaking when an update IS done."
     },
-    "fedora": {
-      "currentlySupported": "Fedora 33, Fedora (testing) 34, Rawhide"
-    },
     "opensuse": {
-      "currentlySupported": "Leap 15.2, Tumbleweed",
       "leap152EOL": "December 31, 2021"
     },
     "ubuntu": {
       "1804LTSEOL": "April 2023",
       "2004LTSEOL": "April 2025",
-      "currentlySupported": "18.04 LTS, 20.04 LTS, 20.10"
     }
   },
   "ubuntu": [
     {
       "distroName": "elementary",
       "distroTitle": "ElementaryOS",
-      "graphics": { "iconURL": "elementary.svg" },
+      "graphics": {
+        "iconURL": "elementary.svg"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS)",
         "desktops": "Pantheon",
@@ -773,7 +853,9 @@
     {
       "distroName": "mint",
       "distroTitle": "Linux Mint",
-      "graphics": { "iconURL": "linuxmint.svg" },
+      "graphics": {
+        "iconURL": "linuxmint.svg"
+      },
       "moreinfo": {
         "desktops": "Mate, XFCE, Cinnamon, Plasma 5",
         "similar": "Cinnamon, Mate, Plasma 5 (removed in Version 19 as an official ISO), XFCE",
@@ -804,7 +886,9 @@
     {
       "distroName": "kdeneon",
       "distroTitle": "KDE Neon",
-      "graphics": { "iconURL": "neon.svg" },
+      "graphics": {
+        "iconURL": "neon.svg"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) - 18.04 Currently",
         "desktops": "Plasma 5",
@@ -834,7 +918,9 @@
     {
       "distroName": "peppermint",
       "distroTitle": "Peppermint",
-      "graphics": { "iconURL": "peppermint.png" },
+      "graphics": {
+        "iconURL": "peppermint.png"
+      },
       "moreinfo": {
         "desktops": "LXDE/XFCE",
         "similar": "LXLE, Lubuntu",
@@ -863,7 +949,9 @@
     {
       "distroName": "kubuntu",
       "distroTitle": "Kubuntu",
-      "graphics": { "iconURL": "kubuntu.png" },
+      "graphics": {
+        "iconURL": "kubuntu.png"
+      },
       "moreinfo": {
         "base": "Ubuntu (LTS and non-LTS)",
         "desktops": "Plasma 5",
@@ -893,7 +981,9 @@
     {
       "distroName": "lubuntu",
       "distroTitle": "Lubuntu",
-      "graphics": { "iconURL": "lubuntu.svg" },
+      "graphics": {
+        "iconURL": "lubuntu.svg"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "LXDE, LXQT",
@@ -923,7 +1013,9 @@
     {
       "distroName": "ubuntu",
       "distroTitle": "Ubuntu",
-      "graphics": { "iconURL": "ubuntu.svg" },
+      "graphics": {
+        "iconURL": "ubuntu.svg"
+      },
       "moreinfo": {
         "desktops": "Unity, Gnomeshell",
         "similar": "(many 'buntu flavors), Linux Lite, Linux Mint, Uberstudent",
@@ -953,7 +1045,9 @@
     {
       "distroName": "ubuntumate",
       "distroTitle": "Ubuntu Mate",
-      "graphics": { "iconURL": "ubuntuMate.svg" },
+      "graphics": {
+        "iconURL": "ubuntuMate.svg"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "Mate",
@@ -982,7 +1076,9 @@
     {
       "distroName": "xubuntu",
       "distroTitle": "xubuntu",
-      "graphics": { "iconURL": "xubuntu.svg" },
+      "graphics": {
+        "iconURL": "xubuntu.svg"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "XFCE",
@@ -1012,7 +1108,9 @@
     {
       "distroName": "zorin",
       "distroTitle": "Zorin",
-      "graphics": { "iconURL": "zorin.png" },
+      "graphics": {
+        "iconURL": "zorin.png"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS)",
         "desktops": "Gnome, XFCE",
@@ -1021,7 +1119,11 @@
         "target": "New Users",
         "featured": ""
       },
-      "screenshots": { "desktop": "", "src": "", "theme": "" },
+      "screenshots": {
+        "desktop": "",
+        "src": "",
+        "theme": ""
+      },
       "version": "",
       "website": {
         "download": "http://zorin-os.com/free.html\"",
@@ -1037,7 +1139,9 @@
     {
       "distroName": "linuxlite",
       "distroTitle": "Linux Lite",
-      "graphics": { "iconURL": "lite.png" },
+      "graphics": {
+        "iconURL": "lite.png"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS)",
         "desktops": "XFCE",
@@ -1067,7 +1171,9 @@
     {
       "distroName": "lxle",
       "distroTitle": "LXLE",
-      "graphics": { "iconURL": "lxle.png" },
+      "graphics": {
+        "iconURL": "lxle.png"
+      },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "LXDE",
