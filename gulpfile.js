@@ -1,5 +1,6 @@
-'use strict';
+"use strict";
 
+<<<<<<< HEAD
 var gulp = require('gulp'),
   sass = require('gulp-dart-sass'),
   sorting = require('postcss-sorting'),
@@ -17,6 +18,19 @@ const autoprefixer = require('autoprefixer'),
 // run stylelint and fixes fixable issues
 async function lintFixScss() {
   const gulpStylelint = require('gulp-stylelint');
+=======
+var gulp = require("gulp");
+var sass = require("gulp-sass")(require("sass"));
+
+const autoprefixer = require("autoprefixer");
+const postcss = require("gulp-postcss");
+const prettier = require("gulp-prettier");
+var sorting = require("postcss-sorting");
+var sourcemaps = require("gulp-sourcemaps");
+const cleanCSS = require("gulp-clean-css");
+
+//sass.compiler = require('dart-sass');
+>>>>>>> f6c52021 (npm updates)
 
   return gulp
     .src('scss/**/*.scss')
@@ -31,6 +45,7 @@ async function lintFixScss() {
 }
 exports.lintFixScss = lintFixScss;
 
+<<<<<<< HEAD
 // run stylelint and fix fixable issues on the CSS
 async function lintFixCss() {
   const gulpStylelint = require('gulp-stylelint');
@@ -54,6 +69,9 @@ exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 async function compileSCSSToCSS() {
+=======
+gulp.task("compile", function () {
+>>>>>>> f6c52021 (npm updates)
   var plugin = [
     // PostCSS Plugins
     autoprefixer,
@@ -62,6 +80,7 @@ async function compileSCSSToCSS() {
 
   return (
     gulp
+<<<<<<< HEAD
       .src('./scss/**/*.scss')
       .pipe(sourcemaps.init())
       .pipe(sass().on('error', sass.logError))
@@ -113,3 +132,19 @@ exports.siteMapGen = siteMapGen;
 
 
 exports.default = gulp.series(lintFixScss, compileSCSSToCSS, lintFixCss);
+=======
+      .src("./universalSCSS/**/*.scss")
+      .pipe(sourcemaps.init())
+      .pipe(sass()) // Using gulp-sass
+      //.pipe(postcss(plugin))
+      .pipe(prettier({}))
+      //.pipe(cleanCSS({colors: 'true', format: 'beautify'}))
+      .pipe(sourcemaps.write("."))
+      .pipe(gulp.dest("./universalCSS"))
+  );
+});
+
+gulp.task("sass:watch", function () {
+  gulp.watch("./sass/**/*.scss", ["sass"]);
+});
+>>>>>>> f6c52021 (npm updates)

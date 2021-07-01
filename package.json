@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "My Homepage",
   "main": "index.php",
+<<<<<<< HEAD
+=======
+  "dependencies": {
+    "@popperjs/core": "^2.5.2"
+  },
+>>>>>>> f6c52021 (npm updates)
   "devDependencies": {
     "@popperjs/core": "^2.9.2",
     "advanced-sitemap-generator": "^1.8.8",
@@ -15,6 +21,7 @@
     "eslint-config-wesbos": "^1.0.1",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
+<<<<<<< HEAD
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
@@ -52,6 +59,30 @@
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
+=======
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-prettier": "^3.0.0",
+    "gulp-prettier-plugin": "^1.3.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "jshint": "^2.13.0",
+    "jslint": "^0.12.1",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.0.0",
+    "postcss-scss": "^4.0.0",
+    "postcss-sorting": "^6.0.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-prettier": "^1.1.2",
+>>>>>>> f6c52021 (npm updates)
     "stylelint-scss": "^3.19.0"
   },
   "scripts": {
