@@ -17,7 +17,7 @@ const autoprefixer = require('autoprefixer'),
   SitemapGenerator = require('advanced-sitemap-generator');
 
 // paths
-const scssPath = './scss/**/*.scss',
+const scssPath = '../scss/**/*.scss',
   cssPath = './css',
   finalCSSFile = './css/styling.css';
 
@@ -61,12 +61,14 @@ exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 function compileSCSSToCSS() {
-  return gulp
-    .src(scssPath)
-    .pipe(sass().on('error', sass.logError))
-    .pipe(sourcemaps.init())
-    .pipe(sourcemaps.write('../maps'))
-    .pipe(gulp.dest(cssPath));
+  return (
+    gulp
+      .src(scssPath)
+      .pipe(sass().on('error', sass.logError))
+      //.pipe(sourcemaps.init())
+      //.pipe(sourcemaps.write('../maps'))
+      .pipe(gulp.dest(cssPath))
+  );
 }
 
 exports.compileSCSSToCSS = compileSCSSToCSS;
