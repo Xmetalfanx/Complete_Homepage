@@ -1,28 +1,19 @@
-'use strict';
+//'use strict';
 
-var sass = require('gulp-sass')(require('sass'));
+var gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
 
-var gulp = require('gulp'),
-  scss = require('gulp-sass'),
-  sorting = require('postcss-sorting'),
-  sourcemaps = require('gulp-sourcemaps'),
-  minmax = require('postcss-media-minmax'),
-  gcmq = require('gulp-group-css-media-queries');
-
-const autoprefixer = require('autoprefixer'),
-  postcss = require('gulp-postcss'),
-  cleanCSS = require('gulp-clean-css'),
+const cleanCSS = require('gulp-clean-css'),
   imagemin = require('gulp-imagemin'),
   pugLinter = require('gulp-pug-linter'),
   SitemapGenerator = require('advanced-sitemap-generator');
 
-// paths
-const scssPath = './scss/**/*.scss',
-  cssPath = './css',
-  finalCSSFile = './css/styling.css';
-
-// run stylelint and fixes fixable issues
-function lintFixScss() {
+const cssConfig = {
+  scssPath: './scss/**/*.scss',
+  cssPath: './css',
+};
+  // run stylelint and fixes fixable issues
+async function lintFixScss() {
   const gulpStylelint = require('gulp-stylelint');
 
   return gulp
@@ -39,7 +30,7 @@ function lintFixScss() {
 exports.lintFixScss = lintFixScss;
 
 // run stylelint and fix fixable issues on the CSS
-function lintFixCss() {
+async function lintFixCss() {
   const gulpStylelint = require('gulp-stylelint');
 
   return (
@@ -60,13 +51,10 @@ function lintFixCss() {
 exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
-function compileSCSSToCSS() {
-  return gulp
-    .src(scssPath)
-    .pipe(sass().on('error', sass.logError))
-    .pipe(sourcemaps.init())
-    .pipe(sourcemaps.write('../maps'))
-    .pipe(gulp.dest(cssPath));
+async function compileSCSSToCSS() {
+  return gulp.src([cssConfig.scssPath])
+    .pipe(sass.sync())
+    .pipe(gulp.dest([cssConfig.cssPath]));
 }
 
 exports.compileSCSSToCSS = compileSCSSToCSS;
