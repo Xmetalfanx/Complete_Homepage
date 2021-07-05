@@ -6,12 +6,22 @@ const sass = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css'),
   imagemin = require('gulp-imagemin'),
   pugLinter = require('gulp-pug-linter'),
-  SitemapGenerator = require('advanced-sitemap-generator');
+  SitemapGenerator = require('advanced-sitemap-generator'),
+  sorting = require('postcss-sorting'),
+  sourcemaps = require('gulp-sourcemaps'),
+  minmax = require('postcss-media-minmax'),
+  gcmq = require('gulp-group-css-media-queries');
 
+
+// CSS paths
 const cssConfig = {
   scssPath: './scss/**/*.scss',
   cssPath: './css',
 };
+
+//////////////////////////////////////////////
+// Start of CSS related functions
+
   // run stylelint and fixes fixable issues
 async function lintFixScss() {
   const gulpStylelint = require('gulp-stylelint');
@@ -52,15 +62,20 @@ exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 async function compileSCSSToCSS() {
-  return gulp.src([cssConfig.scssPath])
-    .pipe(sass.sync())
+  return gulp
+    .src([cssConfig.scssPath])
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(sourcemaps.write('../maps'))
     .pipe(gulp.dest([cssConfig.cssPath]));
 }
 
 exports.compileSCSSToCSS = compileSCSSToCSS;
 
+// End of CSS related functions
+/////////////////////////////////////////
+
 // this is not to be run all the time
-function imageLinuxScreenshotsMin() {
+async function imageLinuxScreenshotsMin() {
   gulp
     .src('linuxHQ/screenshots/**/*')
     .pipe(
@@ -75,12 +90,14 @@ function imageLinuxScreenshotsMin() {
 }
 exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 
-function lintPug() {
+// linter for pug files
+async function lintPug() {
   gulp.src('./**/*.pug').pipe(pugLinter({ reporter: 'default' }));
 }
 exports.lintPug = lintPug;
 
-function siteMapGen() {
+// site map generator
+async function siteMapGen() {
   // create generator
   const generator = SitemapGenerator('http://xmetal.x10.mx', {
     stripQuerystring: false,
