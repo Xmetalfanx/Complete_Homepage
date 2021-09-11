@@ -8,8 +8,8 @@
 
   // whites
   --white: hsl(0, 0%, 100%);
-  --white50: hsla(0, 0%, 100%, .5);
-  --white75: hsla(0, 0%, 100%, .75);
+  --white50: hsla(0, 0%, 100%, 0.5);
+  --white75: hsla(0, 0%, 100%, 0.75);
 
   // Greys - not including black itself
   --darkGrey1: hsl(0, 0%, 20%);
@@ -74,5 +74,5 @@
   --size-md: 768px;
   --size-lg: 992px;
   --size-xl: 1200px;
-  --small-text: .9rem;
+  --small-text: 0.9rem;
 }

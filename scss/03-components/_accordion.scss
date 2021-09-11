@@ -16,7 +16,7 @@
     // to the left of the label and it is not clicked (should be right arrow)
     &::before {
       font-family: ForkAwesome, serif;
-      margin-right: .5rem;
+      margin-right: 0.5rem;
       content: "\f105";
       font-weight: 900;
     }
@@ -25,7 +25,7 @@
   // to the left of the label and when clicked (Down arrow)
   input:checked + label::before {
     font-family: ForkAwesome, serif;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
     content: "\f107";
     font-weight: 900;
   }
@@ -47,7 +47,7 @@
     opacity: 0;
     height: 0;
     font-size: 0;
-    transition: linear .8s;
+    transition: linear 0.8s;
     padding: 0 25px;
   }
 
@@ -79,7 +79,7 @@
       display: block;
       padding: 8px 22px;
       margin: 0;
-      border-radius: .75rem .75rem 0 0;
+      border-radius: 0.75rem 0.75rem 0 0;
       font-weight: 900;
 
       // guess at size
@@ -103,7 +103,7 @@
 
     // Block display on desktops so each entry is on it's on line
     .content {
-      border-radius: 0 0 .75rem;
+      border-radius: 0 0 0.75rem;
       margin-bottom: 1.5rem;
       padding: 1rem;
 
@@ -118,7 +118,7 @@
       opacity: 1;
       // this fontsize needed here?
       font-size: 1rem;
-      transition: linear .8s;
+      transition: linear 0.8s;
       //padding: 0 25px;
       height: auto;
     }
@@ -141,7 +141,7 @@
     .accordion {
       input + label::before {
         font-family: ForkAwesome, serif;
-        margin-right: .5rem;
+        margin-right: 0.5rem;
         content: "\f105";
         font-weight: 900;
       }
@@ -149,7 +149,7 @@
       // f105 = right arrow
       input:checked + label::before {
         font-family: ForkAwesome, serif;
-        margin-right: .5rem;
+        margin-right: 0.5rem;
         content: "\f107";
         font-weight: 900;
       }
@@ -179,7 +179,7 @@
       input:checked + label + .content {
         opacity: 1;
         font-size: 16px;
-        transition: linear .5s;
+        transition: linear 0.5s;
         padding: 0 25px;
         height: auto;
       }

@@ -1,16 +1,39 @@
-//'use strict';
+//////////////////////////////////////////////////////////////////
+// Variables
 
 var gulp = require('gulp');
+var postcss = require('gulp-postcss');
 const sass = require('gulp-sass')(require('sass'));
 
-const cleanCSS = require('gulp-clean-css'),
-  imagemin = require('gulp-imagemin'),
-  pugLinter = require('gulp-pug-linter'),
+const
+    autoprefixer = require('autoprefixer'),
+    cleanCSS = require('gulp-clean-css'),
+    pugLinter = require('gulp-pug-linter'),
+    gcmq = require('gulp-group-css-media-queries'),
+    cssnano = require('cssnano'),
+    rename = require("gulp-rename"),
+    // prettier = require("gulp-prettier"),
+    gulpSassLint= require("gulp-sass-lint"),
+    gulpStylelint = require('gulp-stylelint');
+
+// Post CSS related
+const
+    minmax = require('postcss-media-minmax'),
+    sorting = require('postcss-sorting'),
+    normalize = require('postcss-normalize');
+
+// Image related
+const
+    imagemin = require('gulp-imagemin');
+
+
+// Source Map related
+const
   SitemapGenerator = require('advanced-sitemap-generator'),
-  sorting = require('postcss-sorting'),
-  sourcemaps = require('gulp-sourcemaps'),
-  minmax = require('postcss-media-minmax'),
-  gcmq = require('gulp-group-css-media-queries');
+  sourcemaps = require('gulp-sourcemaps');
+
+// End Vars
+/////////////////////////////////////////////////////////////
 
 
 // CSS paths
@@ -24,52 +47,68 @@ const cssConfig = {
 
   // run stylelint and fixes fixable issues
 async function lintFixScss() {
-  const gulpStylelint = require('gulp-stylelint');
 
   return gulp
-    .src('scss/**/*.scss')
+    .src([cssConfig.scssPath])
     .pipe(
       gulpStylelint({
         fix: true,
         reporters: [{ formatter: 'string', console: true }],
-        failAfterError: false,
       })
-    )
-    .pipe(gulp.dest('./scss'));
+    .pipe(gulp.dest("./scss"))
+    );
 }
 exports.lintFixScss = lintFixScss;
 
-// run stylelint and fix fixable issues on the CSS
-async function lintFixCss() {
-  const gulpStylelint = require('gulp-stylelint');
-
-  return (
-    gulp
-      .src(cssPath)
-      .pipe(
-        gulpStylelint({
-          fix: true,
-          reporters: [{ formatter: 'string', console: true }],
-          failAfterError: false,
-        })
-      )
-      // minifies ... no need for another function
-      .pipe(cleanCSS({ debug: true }, (details) => {}))
-      .pipe(gulp.dest(finalCSSFile))
-  );
-}
-exports.lintFixCss = lintFixCss;
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 async function compileSCSSToCSS() {
-  return gulp
-    .src([cssConfig.scssPath])
-    .pipe(sass.sync().on('error', sass.logError))
-    .pipe(sourcemaps.write('../maps'))
-    .pipe(gulp.dest([cssConfig.cssPath]));
+  var plugins = [
+    normalize({}),
+    //autoprefixer(),
+  ];
+
+  return (
+    gulp
+      .src([cssConfig.scssPath])
+      
+      .pipe(sass.sync().on('error', sass.logError))
+      // 1 - run postcss tasks 
+      .pipe(postcss(plugins))
+      // 2 - groups media queries
+      .pipe(gcmq())
+      
+      // 3 - check and fix code issues 
+      .pipe(
+        gulpStylelint({
+          fix: true,
+        })
+      )
+     
+      // create sourcemap
+      .pipe(sourcemaps.write('../maps'))
+      .pipe(gulp.dest([cssConfig.cssPath]))
+  );
+
 }
 
 exports.compileSCSSToCSS = compileSCSSToCSS;
+
+async function minifyCSS() {
+
+
+  return gulp
+    .src('./css/styling.css')
+    .pipe(
+      cleanCSS({
+        format: 'beautify'
+      })
+    )
+    .pipe(rename('./styling-min.css'));
+
+}
+
+exports.minifyCSS = minifyCSS;
 
 // End of CSS related functions
 /////////////////////////////////////////
@@ -114,4 +153,4 @@ async function siteMapGen() {
 }
 exports.siteMapGen = siteMapGen;
 
-exports.default = gulp.series(lintFixScss, compileSCSSToCSS);
+exports.default = gulp.series(lintFixScss,compileSCSSToCSS);

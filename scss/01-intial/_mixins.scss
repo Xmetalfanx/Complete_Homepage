@@ -22,7 +22,7 @@
 
 // because i am always forget the default values i use
 @mixin boxshadow {
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 @mixin span2 {

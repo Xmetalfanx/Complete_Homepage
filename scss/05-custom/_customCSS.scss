@@ -1,4 +1,4 @@
-@use "../01-intial/index"as *;
+@use "../01-intial/index" as *;
 
 // Test only for now
 .white-svg {
@@ -83,7 +83,7 @@
 
   .card {
     min-width: 300px;
-    border-radius: .75rem;
+    border-radius: 0.75rem;
     width: 40%;
 
     @media (max-width: 880px) {
@@ -93,7 +93,7 @@
     .card__header {
       display: flex;
       justify-content: flex-start;
-      border-radius: .75rem .75rem 0 0;
+      border-radius: 0.75rem 0.75rem 0 0;
     }
   }
 }
@@ -120,7 +120,7 @@
     justify-content: space-evenly;
 
     * {
-      margin: .75rem;
+      margin: 0.75rem;
     }
   }
 }
@@ -149,7 +149,7 @@
 
   // The Titles of the Distro/Versions
   .versionTitle {
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 
   // the actual version number
@@ -212,10 +212,10 @@ code {
   button {
     background: #006400;
     border: 1px solid #006400;
-    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, .2);
+    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
     color: var(--white);
-    border-radius: .25rem;
-    padding: .4em .875em;
+    border-radius: 0.25rem;
+    padding: 0.4em 0.875em;
     font-size: 1rem;
   }
 }

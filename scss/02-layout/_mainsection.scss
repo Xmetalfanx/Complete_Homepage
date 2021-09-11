@@ -15,7 +15,7 @@
     color: var(--themeBGColorAccent);
 
     a {
-      padding: .25rem;
+      padding: 0.25rem;
 
       &:hover {
         outline: 1px solid var(--themeBGColorAccent);
@@ -56,7 +56,7 @@
       //width: 85%;
 
       .card__header {
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
       }
 
       .card__body {
@@ -65,7 +65,7 @@
         // removes the need for so many <br /> tags
         a,
         span {
-          margin: .4rem auto;
+          margin: 0.4rem auto;
         }
       }
     }

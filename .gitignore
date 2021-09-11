@@ -5,3 +5,4 @@ keybase.txt
 **/error_log
 /node_modules
 npm-debug.log
+yarn.lock

@@ -18,18 +18,6 @@ rules:
   # attribute strings are normally quoted within the DOM.
   string-quotes: double
 
-  declaration-property-unit-allowed-list:
-    font-size:
-      - 'rem'
-      - 'px'
-      - '%'
-
-  # The following prefix rules are enabled since we use autoprefixer
-  at-rule-no-vendor-prefix: true
-  media-feature-name-no-vendor-prefix: true
-  selector-no-vendor-prefix: true
-  value-no-vendor-prefix: true
-
   # Usually if you're nesting past 3 levels deep there's a problem
   max-nesting-depth:
     - 4
@@ -56,8 +44,7 @@ rules:
     - - /^TODO:/
       - /^FIXME:/
     - severity: warning
-  # Part of google's style guide
-  number-leading-zero: never
+  #number-leading-zero: always
 
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
@@ -67,6 +54,7 @@ rules:
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
 
-  # For Codacy
+  # For Codacy/custom
   declaration-empty-line-before: never
   value-keyword-case: lower
+  indentation: 2

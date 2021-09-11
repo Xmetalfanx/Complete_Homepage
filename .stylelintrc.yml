@@ -56,8 +56,7 @@ rules:
     - - /^TODO:/
       - /^FIXME:/
     - severity: warning
-  # Part of google's style guide
-  number-leading-zero: never
+  number-leading-zero: always
 
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
@@ -67,6 +66,7 @@ rules:
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
 
-  # For Codacy
+  # For Codacy / custom by xmetal
   declaration-empty-line-before: never
   value-keyword-case: lower
+  block-no-empty: true

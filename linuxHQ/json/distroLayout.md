@@ -56,4 +56,3 @@
                   "install": "",
                   "mintInstall": ""
           }
-
