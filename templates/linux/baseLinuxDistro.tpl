@@ -2,18 +2,18 @@
 
   $sectionTitle='Distrobution Section - ';
 
-  require $path . '/modules/linux/linuxBaseHeader.tpl';
+  require $rootDir . '/modules/linux/linuxBaseHeader.tpl';
 
 ?>
 
 <body onload="getDistroData()">
 
 
-  <?php require$path . '/modules/linux/linuxNavMenu.tpl'; ?>
+  <?php require $rootDir . '/modules/linux/linuxNavMenu.tpl'; ?>
 
 <div class="main-section--right-wide">
     <div class="sidebar">
-      <?php require $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
+      <?php require $rootDir . '/linuxHQ/modules/sections/linuxDistroCol1.tpl';  ?>
     </div>
 
     <!-- id=linux-primary-content, is used in JS files to display content -->
@@ -24,4 +24,4 @@
 
 <script src="/linuxHQ/scripts/distros-min.js"></script>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php include $rootDir . "/modules/footer.tpl"; ?>

@@ -1,9 +1,10 @@
 <?php
 
-	 $pageTitle = 'Browser Section Frontpage';
+	$pageTitle = 'Browser Section Frontpage';
 
-	 $path = getenv('DOCUMENT_ROOT');
-	 include $path . "/templates/tech/open/baseTechBrowser.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/tech/open/baseTechBrowser.tpl";
+
 ?>
 
 
@@ -31,4 +32,4 @@
 	</div>
 
 
-<?php include($path . '/modules/baseTechFooter.tpl'); ?>
+<?php include($rootDir . '/modules/baseTechFooter.tpl'); ?>

@@ -2,9 +2,8 @@
 
 	$pageTitle = 'Live Version Information';
 
-	
-	$path = getenv('DOCUMENT_ROOT'); 
-	include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
   ?>
 
@@ -40,4 +39,4 @@
 	  </div>
 	</div>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

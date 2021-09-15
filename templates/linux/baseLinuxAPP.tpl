@@ -2,18 +2,17 @@
 
   $sectionTitle = 'Linux App Section - ';
   
-  $path = getenv('DOCUMENT_ROOT'); 
-  include $path . '/modules/linux/linuxBaseHeader.tpl';
-
+  include $rootDir . '/modules/linux/linuxBaseHeader.tpl';
 ?>
+
 <body>
 
 
-  <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
+  <?php include $rootDir . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <div class="mainSection">
       <div class="col-xs-12 col-md-3 col-xl-2">
-        <?php include $path . '/linuxHQ/modules/sections/linuxAppCol1.tpl'; ?>
+        <?php include $rootDir . '/linuxHQ/modules/sections/linuxAppCol1.tpl'; ?>
       </div>
 
       <div class="col-xs-12 col-md-9 col-xl-10">

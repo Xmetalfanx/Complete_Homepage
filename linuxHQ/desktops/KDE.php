@@ -7,7 +7,7 @@
   $sectionVar = "DE";
   $pageTitle = 'KDE /Plasma 5';
 
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/linux/baseLinuxDE.tpl";
+  
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/linux/baseLinuxDE.tpl";
 
 ?>

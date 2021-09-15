@@ -2,12 +2,10 @@
 
 	$pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
-	
-	$path = getenv('DOCUMENT_ROOT'); 
-	include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
-
-
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 ?>
+
 <h2>How To Add the AUR to Arch</h2>
 
 Information gathered from the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository">Arch Wiki page</a>   AS
@@ -60,4 +58,4 @@ well as <a href="https://drive.google.com/file/d/0B3DsklBZ0EX0a19QdnI3SmNIXzA/vi
 
 </div>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

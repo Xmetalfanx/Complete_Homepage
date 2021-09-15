@@ -2,9 +2,8 @@
 
   $the_title = 'Software Section - Common Software to remove Rogue AV and Malware Scanners';
 
-  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftware.tpl";
-
-
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/tech/baseTechSoftware.tpl";
 
 ?>
 
@@ -54,4 +53,4 @@
     </blockquote>
     </div>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>

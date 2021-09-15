@@ -1,9 +1,9 @@
 <?php
 
   $pageTitle ='Guide Summary';
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/baseTechCenter.tpl";
-
+  
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/tech/baseTechCenter.tpl";
 ?>
 
   <p>This is a short (hopefully) guide with the tips I list to the left, all in one location. This would be the steps I would take (assuming its not infected with
@@ -302,4 +302,4 @@
     <img src="../graphics/computer/ordinateur-47.gif" alt="Happy Computer" width="106" height="117" class="center" />
   </p>
 
-  <?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+  <?php require $rootDir ."/modules/footer.tpl"; ?>

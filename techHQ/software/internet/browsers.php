@@ -2,8 +2,8 @@
 
   $pageTitle = 'Internet Related Programs - Web Browsers';
 
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/baseTechSoftware.tpl";
+  
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/tech/baseTechSoftware.tpl";
 
 ?>
 

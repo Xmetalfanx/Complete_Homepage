@@ -3,10 +3,10 @@
   $pageTitle = 'Adding PPAs to any Ubuntu Based Distro';
 
   // WHY is this here? ... one is not needed   
-  include $path . '/templates/linux/massLinuxInclude.tpl';
+  #include $rootDir . '/templates/linux/massLinuxInclude.tpl';
 
-  $path = getenv('DOCUMENT_ROOT'); 
-  include $path . "/templates/linux/baseLinuxAPP.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 
@@ -56,4 +56,4 @@
    
     </ul>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

@@ -2,7 +2,7 @@
 
 	$sectionTitle = 'Software Section - ';
 
-	include($path .'/modules/tech/baseTechHead.tpl');
+	include($rootDir .'/modules/tech/baseTechHead.tpl');
 
 ?>
 
@@ -10,11 +10,11 @@
 <script src="/techHQ/scripts/software.js"></script>
 
 <body onload="softwareData()">
-	<?php include($path . '/modules/tech/techHQNavMenus.tpl'); ?>
+	<?php include($rootDir . '/modules/tech/techHQNavMenus.tpl'); ?>
 
 		<div class="main-section main-section--right-wide">
 			<div class="sidebar">
-				<?php include($path . '/techHQ/modules/sections/techSoftwareCol1.tpl'); ?>
+				<?php include($rootDir . '/techHQ/modules/sections/techSoftwareCol1.tpl'); ?>
 			</div>
 
 

@@ -2,6 +2,5 @@
 
   $pageTitle = 'Browser Section Frontpage';
 
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/baseTechBrowser.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/tech/baseTechBrowser.tpl";
 ?>

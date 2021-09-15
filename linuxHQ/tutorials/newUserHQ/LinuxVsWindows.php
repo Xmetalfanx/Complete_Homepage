@@ -2,11 +2,10 @@
 
 	$pageTitle = 'Linux versus Windows';
 
-	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+?>
 
-
-  ?>
     <p><img src="../graphics/peguin/th.jpg" width="160" height="170"  alt="linux peguin clipart"/></p>
     <p>
         The Linux versus Windows debate has supporters on both sides, though I tend to see <span class="italics">(granted everyone
@@ -170,4 +169,4 @@
       </ul>
     </blockquote>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

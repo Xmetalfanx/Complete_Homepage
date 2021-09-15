@@ -1,10 +1,9 @@
 <?php
 
 	$pageTitle = 'Partitions... What are they?';
-
 	
-	$path = getenv('DOCUMENT_ROOT'); 
-	include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 ?>
 
 
@@ -26,4 +25,4 @@
 		*** THE POINT I WANT TO MAKE IS AS LONG AS YOU DO YOUR RESEARCH, AND DO NOT JUST &quot;BLINDLY CLICK&quot; THINGS WITHOUT READING WHAT YOU'RE DOING ... YOU WILL NOT HAVE ISSUES ... IT'S (IN MY OPINION) THE PEOPLE WHO DO NOT PAY ATTENTION AND JUST BLINDLY CLICK "NEXT" ALL THE TIME WHO RUN INTO PROBLEMS/HEADACHES</p>
 
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

@@ -2,8 +2,8 @@
 
 	$pageTitle = 'Tutorial Index Page';
 
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/linux/baseLinuxTutorials.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/linux/baseLinuxTutorials.tpl";
 
   ?>
 
@@ -20,4 +20,4 @@ partition/how to partition" type tutorials ... at least that is my plan at the m
 </div> <!-- Closes second column -->
 </div> <!-- Closes the row ... what use to be mainBody in my CSS-->
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

@@ -2,11 +2,10 @@
 
 	$pageTitle = 'Familiar Software that you may use in Window';
 
-	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
-
-  ?>
+?>
 
   <p class="boldUnderline">I am  worried about being confused by &ldquo;new&rdquo; software I am not familiar  with.  </p>
   <p> Before I even begin, I will say some new users are under the  impression that they will have to re-learn basic tasks, such as  copying, pasting, saving a file, just to name a few &hellip; that is NOT  THE CASE.   These tasks (while you may be doing them in a different  program than what your use to),  are the same in Windows and Linux.  </p>
@@ -16,8 +15,7 @@
 
 	<UL>
     <LI> Libre Office or Open Office
-    <LI>  VLC for media converting/playback
-    <LI>Audacity for audio file editing
+    <LI> VLC for media converting/playback
     <LI> SMPlayer &ndash; another media player
     <LI>
       Firefox
@@ -42,4 +40,4 @@
   <p>&nbsp;</p>
 
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

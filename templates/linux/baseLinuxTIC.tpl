@@ -1,17 +1,16 @@
 <?php
     $sectionTitle = 'Linux Themes/Icon/ Section - ';
 
-    $path = getenv('DOCUMENT_ROOT');
-    include $path . '/modules/linux/linuxBaseHeader.tpl';
-
+    include $rootDir . '/modules/linux/linuxBaseHeader.tpl';
 ?>
+
 <body onload="getTICData()">
 
-    <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
+    <?php include $rootDir . '/modules/linux/linuxNavMenu.tpl'; ?>
 
       <div class="main-section main-section--right-wide">
         <div class="sidebar">
-            <?php include $path . '/linuxHQ/modules/sections/linuxTICCol1.tpl'; ?>
+            <?php include $rootDir . '/linuxHQ/modules/sections/linuxTICCol1.tpl'; ?>
         </div>
 
         <div id="ticsection" class="primary-content">
@@ -21,4 +20,4 @@
 
     <script src="/linuxHQ/scripts/ticSection-min.js"></script>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php include $rootDir . "/modules/footer.tpl"; ?>

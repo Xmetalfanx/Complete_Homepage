@@ -2,8 +2,8 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Ublock Tutorial';
 
-	 $path = getenv('DOCUMENT_ROOT');
-	 include $path . "/templates/tech/open/baseTechBrowser.tpl";
+	 $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	 include $rootDir . "/templates/tech/open/baseTechBrowser.tpl";
 
 ?>
 
@@ -29,4 +29,4 @@
   </div>
 </div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>

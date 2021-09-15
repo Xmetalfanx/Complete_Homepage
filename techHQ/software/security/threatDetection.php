@@ -2,7 +2,7 @@
 
       $the_title= 'Xmetalfanx Security Section - Backing up updates from Avast, Avira, and Malwarebytes via Bat File and 7-zip';
 
-      $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSoftware.tpl";
+      $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/tech/baseTechSoftware.tpl";
 
 ?>
 

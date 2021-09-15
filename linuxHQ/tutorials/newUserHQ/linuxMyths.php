@@ -1,13 +1,10 @@
 <?php
 
 	$pageTitle = 'Linux Myths';
-
 	
-  $path = getenv('DOCUMENT_ROOT'); 
-  include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
-
-
-  ?>
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+?>
 
   <p>You have to be a &quot;programmer&quot; or &quot;computer expert&quot; to use and understand Linux </p>
   <p>FALSE</p>
@@ -24,4 +21,4 @@
   <p>IF YOU WANT to install the distribution  at that point, there is usually a &quot;Install &lt;distribution name here&gt;&quot;
    icon right on the desktop to get the install started.</p>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

@@ -1,7 +1,7 @@
 <?php
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDistro.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/linux/baseLinuxDistro.tpl";
 
 	$download = '  <a href="http://fedoraproject.org/get-fedora.html" target="_blank">http://fedoraproject.org/get-fedora.html</a><br>
       <a href="http://torrent.fedoraproject.org/" target="_blank">http://torrent.fedoraproject.org/</a><br>

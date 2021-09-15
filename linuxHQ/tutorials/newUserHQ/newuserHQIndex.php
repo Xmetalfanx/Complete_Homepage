@@ -2,11 +2,8 @@
 
   $pageTitle = 'New User Section Index Page';
 
-
-	$path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
-
-
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 ?>
 
 <p>
@@ -19,4 +16,4 @@ in two different sections of the same site, and hopefully clear up some misconce
 <p>I also plan to show the pros and cons of Linux, proving even I know Linux &quot;is not perfect&quot; </p>
 
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

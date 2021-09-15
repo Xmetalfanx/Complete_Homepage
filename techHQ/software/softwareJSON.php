@@ -3,7 +3,8 @@
   $pageTitle = 'Software Section Main Page';
 
   
-  $path = getenv('DOCUMENT_ROOT'); 
-  include $path . "/templates/tech/frontpages/techSoftwareFrontpage.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+
+  include $rootDir . "/templates/tech/frontpages/techSoftwareFrontpage.tpl";
 
 ?>

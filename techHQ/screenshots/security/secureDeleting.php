@@ -2,7 +2,7 @@
 
 	$the_title = ' Security Section - Removing Data and not just Deleting';
 
-  $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurity.tpl";
+  include $rootDir . "/templates/tech/baseTechSecurity.tpl";
 ?>
     <div class="panel panel-default">
 
@@ -42,4 +42,4 @@
             <p class="header"> <a href="http://www.heidi.ie/eraser/" target="_blank">Eraser</a> - MY Favorite Drive Wiping Tool </p>
         </div>
     </div>
- <?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+ <?php require $rootDir ."/modules/footer.tpl"; ?>
