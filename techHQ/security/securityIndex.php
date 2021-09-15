@@ -1,8 +1,8 @@
 <?php
 	$pageTitle = ' Security Section Frontpage';
 
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/open/baseTechSecurity.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/tech/open/baseTechSecurity.tpl";
 
 ?>
 
@@ -38,8 +38,8 @@
 </div>
 
 <?php
-  include $path . "/techHQ/security/sections/malwareScanners.php";
-  include $path . "/techHQ/security/sections/specialityScanners.php";
+  include $rootDir . "/techHQ/security/sections/malwareScanners.php";
+  include $rootDir . "/techHQ/security/sections/specialityScanners.php";
 ?>
 
 </div>

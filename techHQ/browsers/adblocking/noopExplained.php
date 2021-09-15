@@ -2,8 +2,8 @@
 
 	 $pageTitle = 'Ad/Content Blocking - Noop Filters Explained';
 
-	 $path = getenv('DOCUMENT_ROOT'); 
-	 include $path . "/templates/tech/open/baseTechBrowser.tpl";
+	 $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	 include $rootDir . "/templates/tech/open/baseTechBrowser.tpl";
 
 ?>
 
@@ -35,4 +35,4 @@
 
 <div>Also remember as I said on another Ublock Origin page I have .. there are Global (this would apply for that domain no matter the page you are on) and local (only applies to that current website you are on, for the domain you are setting a rule for), rules</div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>

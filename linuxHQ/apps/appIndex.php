@@ -2,8 +2,8 @@
 
     $pageTitle = 'App Section Frontpage';
 
-    $path = getenv('DOCUMENT_ROOT'); 
-    include $path . "/templates/linux/baseLinuxAPP.tpl";
+    $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+    include $rootDir . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 

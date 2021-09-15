@@ -2,11 +2,11 @@
 
 	$pageTitle = 'Linux Pros/Positives things about Linux';
 
-	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 
+?>
 
-  ?>
   <p class="boldUnderline">Advantages to Linux </p>
   <UL>
     <LI>
@@ -69,4 +69,4 @@
 
 </div>
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

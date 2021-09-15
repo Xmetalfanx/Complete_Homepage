@@ -2,9 +2,8 @@
 
 	$pageTitle = ' Id3 Tags';
 
-    $path = getenv('DOCUMENT_ROOT');
-
-    include $path . "/templates/tech/open/baseTechCenter.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/tech/open/baseTechCenter.tpl";
 ?>
 
 <h1>Introduction</h1>
@@ -44,4 +43,4 @@ A Cross Platform option, written in Python
 
 </div> <!-- closes main-section--right-wide -->
 <!-- include tech footer, than the startpage box and then the regular footer -->
-<?php include($path . '/modules/tech/baseTechFooter.tpl'); ?>
+<?php include($rootDir . '/modules/tech/baseTechFooter.tpl'); ?>

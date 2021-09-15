@@ -1,7 +1,8 @@
 <?php
 
   $pageTitle =' TechCenter Section Frontpage ';
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/baseTechCenter.tpl";
+  
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/tech/baseTechCenter.tpl";
 
 ?>

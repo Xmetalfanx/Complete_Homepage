@@ -2,7 +2,7 @@
 	$pageTitle = ' Main Index Page ';
 
 
-    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurity.tpl";
+    include $rootDir . "/templates/tech/baseTechSecurity.tpl";
 ?>
 
     <h3>Common Programs needed to remove these infections</h3>

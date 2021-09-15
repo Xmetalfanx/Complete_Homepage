@@ -1,16 +1,15 @@
 <?php
 	$pageTitle = ' Security Section Frontpage';
-
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/open/baseTechSecurity.tpl";
+  
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/'; 
+  include $rootDir . "/templates/tech/open/baseTechSecurity.tpl"; 
 
 ?>
 
 <?php
 
-  include $path . "/techHQ/security/sections/freeAVScanners.php";
-  include $path . "/techHQ/security/sections/malwareScanners.php";
-  include $path . "/techHQ/security/sections/specialityScanners.php";
+  include $rootDir . "/techHQ/security/sections/freeAVScanners.php";
+  include $rootDir . "/techHQ/security/sections/malwareScanners.php";
 
 ?>
 
@@ -37,4 +36,4 @@
 </div>
 </div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -2,7 +2,7 @@
 	$pageTitle = ' Main Index Page ';
 
 
-    $path = getenv('DOCUMENT_ROOT'); include $path . "/templates/tech/baseTechSecurity.tpl";
+    include $rootDir . "/templates/tech/baseTechSecurity.tpl";
 ?>
 
 
@@ -80,4 +80,4 @@
   </div>
 </div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>

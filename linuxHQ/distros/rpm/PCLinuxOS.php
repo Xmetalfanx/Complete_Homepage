@@ -3,7 +3,7 @@
 	$pageTitle = 'Distribution Section - PCLinuxOS';
 
 	
-	$path = getenv('DOCUMENT_ROOT'); include $path . "/templates/linux/baseLinuxDistro.tpl";
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';  include $rootDir . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
 <script type="text/javascript">

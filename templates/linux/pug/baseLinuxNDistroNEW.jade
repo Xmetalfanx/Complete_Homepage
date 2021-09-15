@@ -1,15 +1,15 @@
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . '/modules/linux/linuxBaseHeader.tpl'; ?>
+<?php include $rootDir . '/modules/linux/linuxBaseHeader.tpl'; ?>
 
 
 // Look over this to slim it down
 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
+<?php include $rootDir . ('/linuxHQ/modules/linuxNDistroTemplateCol1.php'); ?>
 
 
 <?php
 
-  $path = getenv('DOCUMENT_ROOT'); include $path . ('/linuxHQ/database/dbconnect.php');
+  include $rootDir . ('/linuxHQ/database/dbconnect.php');
 
   //Variables
   $distroTitle = $display["desktopName"];
@@ -92,7 +92,7 @@ $tweakPL = '<a href=" ' . $display[tweakPL] . ' " > '  . $display[distroName] . 
   .card-header Reviews 
   .card-block       
     .card-text
-      <?php $path = getenv('DOCUMENT_ROOT'); include $path . ('/linuxHQ/modules/linuxDistroReviewer.php'); ?>
+      <?php include $rootDir . ('/linuxHQ/modules/linuxDistroReviewer.php'); ?>
 
 ##################################################################################33
 
@@ -132,4 +132,4 @@ echo "<div class=\"distRevTitle\"> USB Drive Creation Experience </div> <br />";
 
 
 #######################################################	 
-<?php $path = getenv('DOCUMENT_ROOT'); include $path . ('/linuxHQ/modules/usb.php'); ?>
+<?php include $rootDir . ('/linuxHQ/modules/usb.php'); ?>

@@ -3,8 +3,12 @@
     $sectionTitle='';
     $pageTitle="LinuxHQ Frontpage";
 
-    $path = getenv('DOCUMENT_ROOT');
-    include($path . '/templates/linux/open/baseLinuxTemplateL.tpl');
+    #$rootDir = dirname(__FILE__);
+    #echo "<p>The full path to this page is $rootDir </p>"
+
+    $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+
+    include ($rootDir . 'templates/linux/open/baseLinuxTemplateL.tpl');
 ?>
 
   <div class="primary-content">
@@ -44,16 +48,16 @@
 
 
     <!-- OMGUbuntu RSS feed/news -->
-    <?php include $path . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+    <?php include $rootDir . "/linuxHQ/modules/omgubuntu.tpl"; ?>
 </div>
 
   <div class="sidebar d-none d-md-block">
     <!-- Distrowatch RSS Feed -->
-    <?php include $path . "/linuxHQ/modules/distrowatch.tpl"; ?>
+    <?php include $rootDir . "/linuxHQ/modules/distrowatch.tpl"; ?>
   </div>
 
 
 
 </div> <!-- Ends the mainSection div....flexContainer's div is closed IN the footer file below  -->
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php include $rootDir . "/modules/footer.tpl"; ?>

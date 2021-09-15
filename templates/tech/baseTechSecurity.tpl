@@ -2,14 +2,14 @@
 
 	$sectionTitle = 'Security Section - ';
 
-	include($path .'/modules/tech/baseTechHead.tpl');
+	include($rootDir .'/modules/tech/baseTechHead.tpl');
 
 ?>
 <div class="main-section--right-wide">
   <div class="sidebar">
-    <?php include $path . '/techHQ/modules/sections/techSecurityCol1.tpl'; ?>
+    <?php include $rootDir . '/techHQ/modules/sections/techSecurityCol1.tpl'; ?>
   </div>
   <div class="primary-content"> </div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>
 </div>

@@ -2,8 +2,8 @@
 
   $pageTitle = "TechHQ Frontpage";
 
-  $path = getenv('DOCUMENT_ROOT');
-  include ($path . '/templates/tech/open/baseTechMAIN.tpl');
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include ($rootDir . '/templates/tech/open/baseTechMAIN.tpl');
 
 ?>
 
@@ -69,8 +69,8 @@
 </div> <!-- closes card -->
 
 
-<?php include $path . '/techHQ/modules/GAOTD.tpl'; ?>
+<?php include $rootDir . '/techHQ/modules/GAOTD.tpl'; ?>
 
 
 
-<?php include $path . '/modules/tech/baseTechFooter.tpl'; ?>
+<?php include $rootDir . '/modules/tech/baseTechFooter.tpl'; ?>

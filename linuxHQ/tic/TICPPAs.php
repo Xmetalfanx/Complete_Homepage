@@ -1,9 +1,8 @@
 <?php
 		$pageTitle = 'Frontpage';
-
 		
-    $path = getenv('DOCUMENT_ROOT'); 
-    include $path . "/templates/linux/open/baseLinuxTIC.tpl";
+    $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+    include $rootDir . "/templates/linux/open/baseLinuxTIC.tpl";
 ?>
 
 <img src="/linuxHQ/graphics/mac_win_lin.jpg" alt="Mac Windows and  Linux with Tux Graphic"/><br/>This section will contain Themes, Icon pack, and cursor information.
@@ -57,4 +56,4 @@
     </div>  <!-- Closes second col -->
     </div> <!-- Closes Row -->
     
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

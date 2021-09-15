@@ -1,12 +1,12 @@
 <?php
-  include $path . '/modules/linux/linuxBaseHeader.tpl';
+  include $rootDir . '/modules/linux/linuxBaseHeader.tpl';
 ?>
 
 <body onload="getDistroData()">
-  <?php include $path . '/modules/linux/linuxNavMenu.tpl'; ?>
+  <?php include $rootDir . '/modules/linux/linuxNavMenu.tpl'; ?>
   <div class="main-section--right-wide">
     <div class="sidebar">
-      <?php include $path . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
+      <?php include $rootDir . '/linuxHQ/modules/sections/linuxDistroCol1.tpl'; ?>
     </div>
 
     <!-- flex stuff here to keep layout working -->
@@ -19,4 +19,4 @@
 
 <script src="/linuxHQ/scripts/distrosFrontpage-min.js"></script>
 
-<?php include $path . "/modules/footer.tpl"; ?>
+<?php require $rootDir ."/modules/footer.tpl"; ?>

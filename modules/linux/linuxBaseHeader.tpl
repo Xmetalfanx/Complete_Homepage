@@ -14,6 +14,6 @@
     ?>
   </title>
 
-    <?php include $path . '/modules/headerInclude.tpl'; ?>
+    <?php include $rootDir . '/modules/headerInclude.tpl'; ?>
 
 </head>

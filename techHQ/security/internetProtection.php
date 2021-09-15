@@ -1,8 +1,8 @@
 <?php
 	$pageTitle = ' Security Section - Internet Protection';
 
-  $path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/tech/open/baseTechSecurity.tpl";
+  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/'; 
+  include $rootDir . "/templates/tech/open/baseTechSecurity.tpl"; 
 
 ?>
 
@@ -134,4 +134,4 @@
 <!-- needed -->
 </div>
 
-<?php include $path . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>

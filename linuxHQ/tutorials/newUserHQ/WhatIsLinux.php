@@ -2,11 +2,9 @@
 
   $pageTitle = 'What is Linux';
 
-	$path = getenv('DOCUMENT_ROOT');
-  include $path . "/templates/linux/baseLinuxTutorials.tpl";
-
-
-  ?>
+	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
+  include $rootDir . "/templates/linux/baseLinuxTutorials.tpl";
+?>
 
   <span class="boldUnderline">What is Linux?</span>
 
