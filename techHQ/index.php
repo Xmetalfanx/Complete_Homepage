@@ -46,10 +46,10 @@
 
 <div class="card span2 w-50">
   <div class="card__header">Learning Linux</div>
-  <div class="card__body mx-auto">
-    <h4>Learning the Commandline</h4>
+  <div class="card__body">
+    <h4 class="mb-3">Learning the Commandline</h4>
 
-    <div class="d-flex">
+    <div class="d-flex jc-space-around">
       <figure>
         <a href="https://linuxjourney.com/" target="_blank">
           <img class="d-none d-md-block img-fluid w-50" src="../graphics/linux-journey.png" alt="Linux Journey website graphic" />
