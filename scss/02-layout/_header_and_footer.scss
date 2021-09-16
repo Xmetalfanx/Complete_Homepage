@@ -94,9 +94,16 @@ header {
     justify-self: end;
     font-weight: 500;
     font-size: var(--h3);
+    letter-spacing: 0.1rem;
 
     a {
-      padding: 1rem;
+      margin: 0 1.2rem;
+
+      // just a test color
+      :active,
+      :hover {
+        color: var(--turquoise30);
+      }
 
       @media all and (max-width: 992px) {
         display: none;
