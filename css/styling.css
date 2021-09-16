@@ -1429,7 +1429,7 @@ dl li {
 
 .EducationalSites {
   grid-column: span 2;
-  width: 75%;
+  width: 65%;
 }
 
 .EducationalSites .card__body {
@@ -1439,7 +1439,7 @@ dl li {
 }
 
 .EducationalSites .card__body * {
-  margin: 0.75rem;
+  margin: 0.25rem;
 }
 
 #desktopSection .card {

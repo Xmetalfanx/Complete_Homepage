@@ -12,6 +12,8 @@ const
     gcmq = require('gulp-group-css-media-queries'),
     cssnano = require('cssnano'),
     rename = require("gulp-rename"),
+    doiuse = require('doiuse');
+    
     // prettier = require("gulp-prettier"),
     gulpSassLint= require("gulp-sass-lint"),
     gulpStylelint = require('gulp-stylelint');
@@ -65,6 +67,7 @@ exports.lintFixScss = lintFixScss;
 async function compileSCSSToCSS() {
   var plugins = [
     normalize({}),
+    doiuse({}),
     //autoprefixer(),
   ];
 
