@@ -7,9 +7,9 @@
 
 ?>
 
+<h3>Browser Section Intro</h3>
 
-<h2>Browser Section Intro</h2>
-<div class="py-3">
+<div class="py-3 px-0">
 
 	<img src="/graphics/simpleIcons/techHQ/browsers/firefox.svg" alt="Firefox svg from Simple Icons" class="icon--size40" />
 
@@ -19,10 +19,19 @@
 
 	<p>This section will contain information on browser addons and what ones I find most useful to improve your web-browsing experience.</p>&#x9;
 
-	<p>This will not just Firefox as it use to be on my site, but will also contain Opera, Chrom* (Chromium and Google Chrome) browser info as well as new browsers such as Vivaldi</p>
-
-
-	<p>IMPORTANT: this section is under heavy construction at the moment</p>
+	<p>This will contain:</p>
+	
+	<ul class="list-group">
+		<li class="list-group-item">
+			Chrom* browsers(Chromium and Google Chrome) browser info as well as new browsers such as Vivaldi
+		</li>
+		<li class="list-group-item">Firefox</li>
+		<li class="list-group-item">Palemoon</li>
+		<li class="list-group-item">Opera</li>
+		<li class="list-group-item">and possibly more </li>
+	</ul>
+	
+	
 </div>
 
 
