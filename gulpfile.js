@@ -68,7 +68,6 @@ async function compileSCSSToCSS() {
   var plugins = [
     normalize({}),
     doiuse({}),
-    //autoprefixer(),
   ];
 
   return (
@@ -76,18 +75,20 @@ async function compileSCSSToCSS() {
       .src([cssConfig.scssPath])
       
       .pipe(sass.sync().on('error', sass.logError))
+      
       // 1 - run postcss tasks 
       .pipe(postcss(plugins))
+      
       // 2 - groups media queries
       .pipe(gcmq())
-      
-      // 3 - check and fix code issues 
+    
+      // 3 -      
       .pipe(
         gulpStylelint({
           fix: true,
         })
       )
-     
+
       // create sourcemap
       .pipe(sourcemaps.write('../maps'))
       .pipe(gulp.dest([cssConfig.cssPath]))

@@ -1374,10 +1374,6 @@ dl li {
   grid-column: span 2;
 }
 
-.list-group-item {
-  border: 0;
-}
-
 .YTPlaylistsTN {
   width: 480px;
   height: 276px;

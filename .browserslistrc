@@ -1,4 +1,5 @@
 defaults
-last 3 versions
-not dead 
+not dead
 > 0.2%
+not ie < 12
+
