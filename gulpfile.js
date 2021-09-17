@@ -20,9 +20,12 @@ const
 
 // Post CSS related
 const
+    colorguard = require('colorguard'),
     minmax = require('postcss-media-minmax'),
-    sorting = require('postcss-sorting'),
-    normalize = require('postcss-normalize');
+    normalize = require('postcss-normalize'),
+    sorting = require('postcss-sorting');
+    
+
 
 // Image related
 const
@@ -66,8 +69,11 @@ exports.lintFixScss = lintFixScss;
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 async function compileSCSSToCSS() {
   var plugins = [
-    normalize({}),
-    doiuse({}),
+    // doiuse({}),
+    sorting({}),
+    colorguard({
+      allowEquivalentNotation: true
+    })
   ];
 
   return (
@@ -86,6 +92,7 @@ async function compileSCSSToCSS() {
       .pipe(
         gulpStylelint({
           fix: true,
+          failAfterError: false,
         })
       )
 
@@ -99,7 +106,6 @@ async function compileSCSSToCSS() {
 exports.compileSCSSToCSS = compileSCSSToCSS;
 
 async function minifyCSS() {
-
 
   return gulp
     .src('./css/styling.css')
