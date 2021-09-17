@@ -102,7 +102,7 @@ header {
       // just a test color
       :active,
       :hover {
-        color: var(--turquoise30);
+        color: var(--turquoise40);
       }
 
       @media all and (max-width: 992px) {
@@ -131,7 +131,7 @@ header {
       z-index: 10;
       left: 0;
       top: 0;
-      background: #333;
+      background: hsl(0, 0%, 20%);
       display: grid;
       text-align: center;
       justify-content: center;

@@ -205,8 +205,8 @@ code {
 
   // submit button
   button {
-    background: #006400;
-    border: 1px solid #006400;
+    background: var(--forrestGreen);
+    border: 1px solid var(--forrestGreen);
     box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
     color: var(--white);
     border-radius: 0.25rem;

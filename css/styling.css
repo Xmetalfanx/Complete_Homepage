@@ -20,7 +20,6 @@
   --white75: hsla(0, 0%, 100%, 0.75);
   --darkGrey1: hsl(0, 0%, 20%);
   --darkGrey2: hsl(72, 0%, 24%);
-  --darkturquoise: hsl(187, 49%, 23%);
   --navy: hsl(240, 100%, 25%);
   --midnightBlue: hsl(240, 64%, 27%);
   --red: hsl(0, 100%, 50%);
@@ -28,7 +27,9 @@
   --lightMaroon: hsl(0, 100%, 30%);
   --green: hsl(120, 100%, 30%);
   --forrestGreen: hsl(120, 100%, 20%);
+  --darkturquoise: hsl(187, 49%, 25%);
   --turquoise30: hsl(174, 72%, 30%);
+  --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
   --themeBGColorMain: var(--darkGrey1);
   --themeBGColorAccent: var(--darkturquoise);
@@ -389,7 +390,7 @@ header .topnav a {
 
 header .topnav a :active,
 header .topnav a :hover {
-  color: var(--turquoise30);
+  color: var(--turquoise40);
 }
 
 header .topnav .icon {
@@ -1540,8 +1541,8 @@ code {
 }
 
 .searchbarContainer button {
-  background: #006400;
-  border: 1px solid #006400;
+  background: var(--forrestGreen);
+  border: 1px solid var(--forrestGreen);
   box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
   color: var(--white);
   border-radius: 0.25rem;
