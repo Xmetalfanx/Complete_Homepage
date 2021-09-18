@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/659c6a8e617d4d36b0a18ae5c40aaeb5)](https://www.codacy.com/manual/Xmetalfanx/website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/website&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a64d28a721af450194ce5d5be390cf40)](https://www.codacy.com/gh/Xmetalfanx/website/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/website&amp;utm_campaign=Badge_Grade)
 
 # Thanks
 
