@@ -53,7 +53,7 @@
 
   input:checked + label + .content {
     opacity: 1;
-    font-size: 1rem;
+    font-size: var(--fs-normal);
     padding: 8px 25px;
     height: auto;
     min-height: auto;
@@ -117,7 +117,7 @@
     input + label + .content {
       opacity: 1;
       // this fontsize needed here?
-      font-size: 1rem;
+      font-size: var(--fs-normal);
       transition: linear 0.8s;
       //padding: 0 25px;
       height: auto;
@@ -178,7 +178,7 @@
       // Checked, "closed" - Default for small layouts
       input:checked + label + .content {
         opacity: 1;
-        font-size: 16px;
+        font-size: var(--fs-normal);
         transition: linear 0.5s;
         padding: 0 25px;
         height: auto;

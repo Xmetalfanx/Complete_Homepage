@@ -76,8 +76,8 @@
   --h4: 1.25rem;
   --h5: 1.1rem;
   --fs-small: 0.75rem;
-  --fs-normal: 1rem;
-  --fs-large: 1.1rem;
+  --fs-normal: 1.05rem;
+  --fs-large: 1.15rem;
   --size-sm: 576px;
   --size-md: 768px;
   --size-lg: 992px;
@@ -101,7 +101,7 @@ body {
   color: var(--themeColor5);
   display: grid;
   font-family: var(--Roboto);
-  font-size: 1.05rem;
+  font-size: var(--fs-normal);
   font-weight: 400;
   grid-template-areas: "header" "main-section" "footer";
   grid-template-rows: 1fr auto 1fr;
@@ -120,22 +120,27 @@ h5 {
 
 h1,
 .h1 {
-  font-size: 3rem;
+  font-size: var(--h1);
 }
 
 h2,
 .h2 {
-  font-size: 2.25rem;
+  font-size: var(--h2);
 }
 
 h3,
 .h3 {
-  font-size: 1.5rem;
+  font-size: var(--h3);
 }
 
 h4,
 .h4 {
-  font-size: 1.25rem;
+  font-size: var(--h4);
+}
+
+h5,
+.h5 {
+  font-size: var(--h5);
 }
 
 .card,
@@ -618,7 +623,7 @@ header .topnav .icon {
 
 .accordion input:checked + label + .content {
   opacity: 1;
-  font-size: 1rem;
+  font-size: var(--fs-normal);
   padding: 8px 25px;
   height: auto;
   min-height: auto;
@@ -675,7 +680,7 @@ header .topnav .icon {
 .sidebar .accordion input + label + .content,
 .fullpage .accordion input + label + .content {
   opacity: 1;
-  font-size: 1rem;
+  font-size: var(--fs-normal);
   transition: linear 0.8s;
   height: auto;
 }
@@ -1409,7 +1414,7 @@ dl li {
 
 .feed-item-title a {
   font-weight: 700;
-  font-size: 1rem;
+  font-size: var(--fs-normal);
   line-height: 1.4rem;
   display: inline-block;
   margin: 0 auto;
@@ -1552,7 +1557,7 @@ code {
   color: var(--white);
   border-radius: 0.25rem;
   padding: 0.4em 0.875em;
-  font-size: 1rem;
+  font-size: var(--fs-normal);
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
@@ -1858,7 +1863,7 @@ code {
 
   .sidebar .accordion input:checked + label + .content {
     opacity: 1;
-    font-size: 16px;
+    font-size: var(--fs-normal);
     transition: linear 0.5s;
     padding: 0 25px;
     height: auto;
