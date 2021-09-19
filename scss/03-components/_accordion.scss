@@ -98,7 +98,7 @@
     }
 
     label:hover {
-      background: #4e8774;
+      background: var(--turquoise30);
     }
 
     // Block display on desktops so each entry is on it's on line
@@ -155,7 +155,7 @@
       }
 
       label:hover {
-        background: #4e8774;
+        background: var(--turquoise30);
       }
 
       .content {

@@ -36,6 +36,10 @@
   --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
 
+  // changed this color (think in accordian menus to darkTurq30 
+  test: hsl(160, 27%, 42%)
+
+
   // End Colors
   ///////////////////////////////////
 
@@ -87,11 +91,10 @@
   --h2: 2.25rem;
   --h3: 1.5rem;
   --h4: 1.25rem;
-
   // guess
   --h5: 1.1rem;
 
-  // font sizes .
+  // font sizes
   --fs-small: .75rem;
   --fs-normal: 1.05rem;
   --fs-large: 1.15rem;
@@ -102,5 +105,5 @@
   --size-md: 768px;
   --size-lg: 992px;
   --size-xl: 1200px;
-  --small-text: 0.9rem;
+  ;
 }
