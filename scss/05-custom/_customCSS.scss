@@ -2,7 +2,7 @@
 
 // Test only for now
 .white-svg {
-  fill: hsl(0, 0%, 100%);
+  fill: var(--white);
 }
 
 // for display:grid, spans two columns
@@ -21,7 +21,7 @@
 .feed-item-title {
   a {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: var(--fs-normal);
     line-height: 1.4rem;
     display: inline-block;
     margin: 0 auto;
@@ -44,7 +44,7 @@
 
 // why is this CSS needed? ...
 #outputSection a {
-  color: var(--ThemeBGColorAccent);
+  color: var(--themeColor3);
 }
 
 /////////////////////////////////////////////
@@ -124,7 +124,7 @@
 #desktopSection {
   .card {
     box-shadow: none;
-    border: 1px dotted var(--themeBGColorMain);
+    border: 1px dotted var(----themeColor5);
 
     // putting this here since there is a max-height (still need to lookup why i did that) on the main primaryContent .card heigh
     max-height: none;
@@ -187,7 +187,7 @@ code {
 }
 
 .darkBG_svg {
-  fill: #fff;
+  fill: var(--white);
   display: inline;
 }
 
@@ -211,6 +211,6 @@ code {
     color: var(--white);
     border-radius: 0.25rem;
     padding: 0.4em 0.875em;
-    font-size: 1rem;
+    font-size: var(--fs-normal);
   }
 }

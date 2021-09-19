@@ -10,11 +10,11 @@ html {
 }
 
 body {
-  background-color: var(--white);
-  color: var(--darkGrey2);
+  background-color: var(--themeColor1);
+  color: var(--themeColor5);
   display: grid;
   font-family: var(--Roboto);
-  font-size: 1.05rem;
+  font-size: var(--fs-normal);
   font-weight: 400;
 
   // why did i do this? ... couldn't the main-section be display:grid and split into two columns
@@ -39,22 +39,27 @@ h5 {
 
 h1,
 .h1 {
-  font-size: 3rem;
+  font-size: var(--h1);
 }
 
 h2,
 .h2 {
-  font-size: 2.25rem;
+  font-size: var(--h2);
 }
 
 h3,
 .h3 {
-  font-size: 1.5rem;
+  font-size: var(--h3);
 }
 
 h4,
 .h4 {
-  font-size: 1.25rem;
+  font-size: var(--h4);
+}
+
+h5,
+.h5 {
+  font-size: var(--h5);
 }
 
 .card {
@@ -64,7 +69,7 @@ h4,
 
   &--bordered {
     @extend .card;
-    border: 1px solid var(--themeBGColorMain);
+    border: 1px solid var(--themeColor5);
   }
 
   .card__body,
@@ -74,9 +79,9 @@ h4,
 
   .card__header {
     align-items: center;
-    border-color: var(--themeBGColorMain);
-    background-color: var(--themeBGColorMain);
-    color: var(--white);
+    border-color: var(--themeColor5);
+    background-color: var(--themeColor5);
+    color: var(--themeColor1);
     display: flex;
     flex-direction: row;
     font-weight: bold;
@@ -91,7 +96,7 @@ h4,
     h4,
     h5,
     i {
-      color: var(--white);
+      color: var(--themeColor1);
     }
 
     a:link,

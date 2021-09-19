@@ -12,8 +12,10 @@
   --white75: hsla(0, 0%, 100%, 0.75);
 
   // Greys - not including black itself
+  // consider flipping these for consistancy (ligher = lower number, darker = higher number )
   --darkGrey1: hsl(0, 0%, 20%);
   --darkGrey2: hsl(72, 0%, 24%);
+  --darkGrey3: hsl(0, 0%, 32%);
 
   // Blues
   --navy: hsl(240, 100%, 25%);
@@ -37,13 +39,16 @@
   // End Colors
   ///////////////////////////////////
 
-  // This is #333333
+  // leave names for now 
   --themeBGColorMain: var(--darkGrey1);
   --themeBGColorAccent: var(--darkturquoise);
 
-  .themeColorAccent {
-    color: var(--themeBGColorAccent);
-  }
+  // color pallette
+  --themeColor1: hsl(0, 0%, 96%);
+  --themeColor2: var(--turquoise30);
+  --themeColor3: hsl(174, 80%, 27%);
+  --themeColor4: var(--darkGrey3);
+  --themeColor5: var(--darkGrey1);
 
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
@@ -85,6 +90,11 @@
 
   // guess
   --h5: 1.1rem;
+
+  // font sizes .
+  --fs-small: .75rem;
+  --fs-normal: 1rem;
+  --fs-large: 1.1rem;
 
   // breakpoints
   // sizes are max-width

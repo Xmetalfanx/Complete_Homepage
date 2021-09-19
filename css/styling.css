@@ -20,6 +20,7 @@
   --white75: hsla(0, 0%, 100%, 0.75);
   --darkGrey1: hsl(0, 0%, 20%);
   --darkGrey2: hsl(72, 0%, 24%);
+  --darkGrey3: hsl(0, 0%, 32%);
   --navy: hsl(240, 100%, 25%);
   --midnightBlue: hsl(240, 64%, 27%);
   --red: hsl(0, 100%, 50%);
@@ -33,6 +34,11 @@
   --turquoise60: hsl(174, 72%, 60%);
   --themeBGColorMain: var(--darkGrey1);
   --themeBGColorAccent: var(--darkturquoise);
+  --themeColor1: hsl(0, 0%, 96%);
+  --themeColor2: var(--turquoise30);
+  --themeColor3: hsl(174, 80%, 27%);
+  --themeColor4: var(--darkGrey3);
+  --themeColor5: var(--darkGrey1);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -69,15 +75,14 @@
   --h3: 1.5rem;
   --h4: 1.25rem;
   --h5: 1.1rem;
+  --fs-small: 0.75rem;
+  --fs-normal: 1rem;
+  --fs-large: 1.1rem;
   --size-sm: 576px;
   --size-md: 768px;
   --size-lg: 992px;
   --size-xl: 1200px;
   --small-text: 0.9rem;
-}
-
-:root .themeColorAccent {
-  color: var(--themeBGColorAccent);
 }
 
 *,
@@ -92,8 +97,8 @@ html {
 }
 
 body {
-  background-color: var(--white);
-  color: var(--darkGrey2);
+  background-color: var(--themeColor1);
+  color: var(--themeColor5);
   display: grid;
   font-family: var(--Roboto);
   font-size: 1.05rem;
@@ -141,7 +146,7 @@ h4,
 }
 
 .card--bordered {
-  border: 1px solid var(--themeBGColorMain);
+  border: 1px solid var(--themeColor5);
 }
 
 .card .card__body,
@@ -156,9 +161,9 @@ h4,
 .card--bordered .card__header,
 .card--bordered .card__header--wide {
   align-items: center;
-  border-color: var(--themeBGColorMain);
-  background-color: var(--themeBGColorMain);
-  color: var(--white);
+  border-color: var(--themeColor5);
+  background-color: var(--themeColor5);
+  color: var(--themeColor1);
   display: flex;
   flex-direction: row;
   font-weight: bold;
@@ -191,7 +196,7 @@ h4,
 .card .card__header--wide i,
 .card--bordered .card__header i,
 .card--bordered .card__header--wide i {
-  color: var(--white);
+  color: var(--themeColor1);
 }
 
 .card .card__header a:link,
@@ -213,7 +218,7 @@ h4,
 }
 
 a {
-  color: var(--themeBGColorAccent);
+  color: var(--themeColor3);
   background-color: transparent;
   text-decoration: none;
 }
@@ -289,8 +294,8 @@ a {
 header,
 footer {
   display: flex;
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
   font-weight: 900;
   justify-content: space-between;
   align-items: center;
@@ -307,7 +312,7 @@ footer h2,
 footer h3,
 footer h4,
 footer h5 {
-  color: var(--white);
+  color: var(--themeColor1);
 }
 
 header h1 > a,
@@ -320,7 +325,7 @@ footer h2 > a,
 footer h3 > a,
 footer h4 > a,
 footer h5 > a {
-  outline: 1px solid var(--white);
+  outline: 1px solid var(--themeColor1);
 }
 
 header a,
@@ -331,7 +336,7 @@ footer a {
 
 header a:hover,
 footer a:hover {
-  outline: 1px dotted var(--white);
+  outline: 1px dotted var(--themeColor1);
   text-decoration: none;
 }
 
@@ -358,10 +363,10 @@ footer .contacts {
 header {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: 1rem;
-  text-shadow: 2px 5px var(--themeBGColorMain);
+  text-shadow: 2px 5px var(--themeColor5);
   grid-area: header;
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 }
@@ -432,7 +437,7 @@ header .topnav .icon {
 .main-section--right-wide h5,
 .main-section--left-wide h5,
 .main-section--wide h5 {
-  color: var(--themeBGColorAccent);
+  color: var(--themeColor3);
 }
 
 .main-section h1 a,
@@ -478,7 +483,7 @@ header .topnav .icon {
 .main-section--right-wide h5 a:hover,
 .main-section--left-wide h5 a:hover,
 .main-section--wide h5 a:hover {
-  outline: 1px solid var(--themeBGColorAccent);
+  outline: 1px solid var(--themeColor3);
   text-decoration: none;
 }
 
@@ -570,7 +575,7 @@ header .topnav .icon {
 
 .accordion label {
   color: var(--white);
-  background-color: var(--themeBGColorMain);
+  background-color: var(----themeColor5);
   display: block;
   padding: 8px 22px;
   margin: 0 0 1px 0;
@@ -592,11 +597,11 @@ header .topnav .icon {
 }
 
 .accordion label:hover {
-  background: #4e8774;
+  background: var(--themeColor2);
 }
 
 .accordion .content {
-  background: #fff;
+  background: var(--white);
   padding: 10px 25px;
   border: 1px solid #a7a7a7;
   margin: 0 0 1px 0;
@@ -627,7 +632,7 @@ header .topnav .icon {
 .sidebar .accordion label,
 .fullpage .accordion label {
   color: var(--white);
-  background-color: var(--themeBGColorMain);
+  background-color: var(--themeColor5);
   display: block;
   padding: 8px 22px;
   margin: 0;
@@ -732,7 +737,7 @@ header .topnav .icon {
   border-radius: 50%;
   height: 15px;
   width: 15px;
-  background-color: var(--themeBGColorAccent);
+  background-color: var(--themeColor3);
   margin: 0 10px;
 }
 
@@ -1191,7 +1196,7 @@ header .topnav .icon {
 }
 
 .border--dark {
-  border-color: var(--themeBGColorMain);
+  border-color: var(----themeColor5);
 }
 
 .list-group {
@@ -1208,14 +1213,14 @@ header .topnav .icon {
   padding: 0.5rem 1rem;
   color: #212529;
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .frontpage-title {
   margin: 1rem auto;
   font-weight: 900;
-  font-size: var(--h3);
+  font-size: var(--h2);
 }
 
 .frontpage-section {
@@ -1387,7 +1392,7 @@ dl li {
 }
 
 .white-svg {
-  fill: white;
+  fill: var(--white);
 }
 
 .span2 {
@@ -1422,7 +1427,7 @@ dl li {
 /*********** End RSS CSS **********/
 
 #outputSection a {
-  color: var(--ThemeBGColorAccent);
+  color: var(--themeColor3);
 }
 
 #techHQFooter {
@@ -1478,7 +1483,7 @@ dl li {
 
 #desktopSection .card {
   box-shadow: none;
-  border: 1px dotted var(--themeBGColorMain);
+  border: 1px dotted var(----themeColor5);
   max-height: none;
 }
 
@@ -1505,8 +1510,8 @@ dl li {
 }
 
 code {
-  color: var(--white);
-  background-color: var(--themeBGColorMain);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
   display: inline-block;
 }
 
@@ -1523,7 +1528,7 @@ code {
 }
 
 .darkBG_svg {
-  fill: #fff;
+  fill: var(--white);
   display: inline;
 }
 

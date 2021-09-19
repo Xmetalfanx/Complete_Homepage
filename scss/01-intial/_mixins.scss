@@ -1,9 +1,8 @@
 @forward "_vars";
 
 @mixin darkBG {
-  color: var(--white);
-  // #333333 if i remember correctly
-  background-color: var(--themeBGColorMain);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
 }
 
 @mixin thumbnail--lg {

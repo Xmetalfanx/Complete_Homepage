@@ -63,7 +63,7 @@
 
 /// not from bootstrap ... not sure why it's here
 .border--dark {
-  border-color: var(--themeBGColorMain);
+  border-color: var(----themeColor5);
 }
 
 ///////////////////////////////////////////////////////////////// 
@@ -83,6 +83,6 @@
   padding: 0.5rem 1rem;
   color: #212529;
   text-decoration: none;
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid rgba(0, 0, 0, 0.125);
 }

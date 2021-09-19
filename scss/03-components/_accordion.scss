@@ -7,7 +7,7 @@
   // the title of what was (in earlier trys) the button
   label {
     color: var(--white);
-    background-color: var(--themeBGColorMain);
+    background-color: var(----themeColor5);
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
@@ -31,11 +31,11 @@
   }
 
   label:hover {
-    background: #4e8774;
+    background: var(--themeColor2);
   }
 
   .content {
-    background: #fff;
+    background:  var(--white);
     padding: 10px 25px;
     border: 1px solid #a7a7a7;
     margin: 0 0 1px 0;
@@ -75,7 +75,7 @@
 
     label {
       color: var(--white);
-      background-color: var(--themeBGColorMain);
+      background-color: var(--themeColor5);
       display: block;
       padding: 8px 22px;
       margin: 0;

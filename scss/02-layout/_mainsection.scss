@@ -12,13 +12,13 @@
   h3,
   h4,
   h5 {
-    color: var(--themeBGColorAccent);
+    color: var(--themeColor3);
 
     a {
       padding: 0.25rem;
 
       &:hover {
-        outline: 1px solid var(--themeBGColorAccent);
+        outline: 1px solid var(--themeColor3);
         text-decoration: none;
       }
     }
