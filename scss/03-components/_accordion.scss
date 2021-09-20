@@ -135,7 +135,7 @@
 }
 
 // Accordion for Sidebar on smaller layouts
-@media all and (max-width: 768px) {
+@media all and (max-width: var(--breakpoint-md)) {
   // Default: expanded on desktop layouts
   .sidebar {
     .accordion {

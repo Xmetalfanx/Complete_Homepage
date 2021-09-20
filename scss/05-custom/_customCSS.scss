@@ -99,7 +99,7 @@
   @include span2;
   width: 65%;
 
-  @media all and (max-width: 768px) {
+  @media all and (max-width: var(--breakpoint-md)) {
     width: 90%;
     grid-column: auto;
 

@@ -18,12 +18,15 @@ const
     gulpSassLint= require("gulp-sass-lint"),
     gulpStylelint = require('gulp-stylelint');
 
+
 // Post CSS related
 const
     colorguard = require('colorguard'),
     minmax = require('postcss-media-minmax'),
     normalize = require('postcss-normalize'),
-    sorting = require('postcss-sorting');
+    sorting = require('postcss-sorting'),
+    mediaVariables = require('postcss-media-variables'),
+    cssVariables = require("postcss-css-variables");
     
 
 
@@ -69,24 +72,26 @@ exports.lintFixScss = lintFixScss;
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 async function compileSCSSToCSS() {
   var plugins = [
-    // doiuse({}),
+    //doiuse({}),
+    mediaVariables({}),
+    cssVariables({}),
     sorting({}),
-    colorguard({
-      allowEquivalentNotation: true
-    })
+    // colorguard({
+    //   allowEquivalentNotation: true
+    // })
   ];
 
   return (
     gulp
       .src([cssConfig.scssPath])
-      
+
       .pipe(sass.sync().on('error', sass.logError))
       
       // 1 - run postcss tasks 
       .pipe(postcss(plugins))
       
       // 2 - groups media queries
-      .pipe(gcmq())
+      //.pipe(gcmq())
     
       // 3 -      
       .pipe(
