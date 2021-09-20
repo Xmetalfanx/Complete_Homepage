@@ -16,11 +16,12 @@
   --tanL: hsl(54, 100%, 90%);
   --tanD: hsl(54, 50%, 75%);
   --white: hsl(0, 0%, 100%);
-  --white50: hsla(0, 0%, 100%, 0.5);
   --white75: hsla(0, 0%, 100%, 0.75);
+  --white50: hsla(0, 0%, 100%, 0.5);
   --darkGrey1: hsl(0, 0%, 20%);
   --darkGrey2: hsl(72, 0%, 24%);
   --darkGrey3: hsl(0, 0%, 32%);
+  --blue: hsl(240, 100%, 50%);
   --navy: hsl(240, 100%, 25%);
   --midnightBlue: hsl(240, 64%, 27%);
   --red: hsl(0, 100%, 50%);
@@ -28,17 +29,20 @@
   --lightMaroon: hsl(0, 100%, 30%);
   --green: hsl(120, 100%, 30%);
   --forrestGreen: hsl(120, 100%, 20%);
+  --darkGreen: hsl(120, 100%, 12%);
   --darkturquoise: hsl(187, 49%, 25%);
   --turquoise30: hsl(174, 72%, 30%);
   --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
-  --themeBGColorMain: var(--darkGrey1);
-  --themeBGColorAccent: var(--darkturquoise);
+  test: #4e8875;
+
   --themeColor1: hsl(0, 0%, 96%);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
   --themeColor4: var(--darkGrey3);
   --themeColor5: var(--darkGrey1);
+  --themeBGColorMain: var(--themeColor4);
+  --themeBGColorAccent: var(--darkturquoise);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -82,7 +86,6 @@
   --size-md: 768px;
   --size-lg: 992px;
   --size-xl: 1200px;
-  --small-text: 0.9rem;
 }
 
 *,
@@ -660,7 +663,7 @@ header .topnav .icon {
 
 .sidebar .accordion label:hover,
 .fullpage .accordion label:hover {
-  background: #4e8774;
+  background: var(--turquoise30);
 }
 
 .sidebar .accordion .content,
@@ -766,23 +769,23 @@ header .topnav .icon {
 }
 
 .border {
-  border: 1px solid #dee2e6;
+  border: 1px solid var(--themeColor1);
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid var(--themeColor1);
 }
 
 .border-right {
-  border-right: 1px solid #dee2e6;
+  border-right: 1px solid var(--themeColor1);
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid var(--themeColor1);
 }
 
 .border-left {
-  border-left: 1px solid #dee2e6;
+  border-left: 1px solid var(--themeColor1);
 }
 
 .border-0 {
@@ -1216,10 +1219,10 @@ header .topnav .icon {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: #22262a;
   text-decoration: none;
   background-color: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(22, 14, 14, 0.125);
 }
 
 .frontpage-title {
@@ -1844,7 +1847,7 @@ code {
   }
 
   .sidebar .accordion label:hover {
-    background: #4e8774;
+    background: var(--turquoise30);
   }
 
   .sidebar .accordion .content a,

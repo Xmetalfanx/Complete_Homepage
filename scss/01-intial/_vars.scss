@@ -8,8 +8,8 @@
 
   // whites
   --white: hsl(0, 0%, 100%);
-  --white50: hsla(0, 0%, 100%, 0.5);
   --white75: hsla(0, 0%, 100%, 0.75);
+  --white50: hsla(0, 0%, 100%, 0.5);
 
   // Greys - not including black itself
   // consider flipping these for consistancy (ligher = lower number, darker = higher number )
@@ -18,6 +18,7 @@
   --darkGrey3: hsl(0, 0%, 32%);
 
   // Blues
+  --blue: hsl(240, 100%, 50%);
   --navy: hsl(240, 100%, 25%);
   --midnightBlue: hsl(240, 64%, 27%);
 
@@ -29,6 +30,7 @@
   // Greens
   --green: hsl(120, 100%, 30%);
   --forrestGreen: hsl(120, 100%, 20%);
+  --darkGreen: hsl(120, 100%, 12%);
 
   // turquoises
   --darkturquoise: hsl(187, 49%, 25%);
@@ -36,16 +38,9 @@
   --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
 
-  // changed this color (think in accordian menus to darkTurq30 
-  test: hsl(160, 27%, 42%)
-
-
-  // End Colors
-  ///////////////////////////////////
-
-  // leave names for now 
-  --themeBGColorMain: var(--darkGrey1);
-  --themeBGColorAccent: var(--darkturquoise);
+  // changed this color (think in accordian menus to darkTurq30
+  // this var is not really needed
+  test: hsl(160, 27%, 42%);
 
   // color pallette
   --themeColor1: hsl(0, 0%, 96%);
@@ -54,6 +49,15 @@
   --themeColor4: var(--darkGrey3);
   --themeColor5: var(--darkGrey1);
 
+  // leave names for now
+  --themeBGColorMain: var(--themeColor4);
+  --themeBGColorAccent: var(--darkturquoise);
+
+  // End Colors
+  ///////////////////////////////////
+
+  ///////////////////////////////////
+  // Fonts
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -95,7 +99,7 @@
   --h5: 1.1rem;
 
   // font sizes
-  --fs-small: .75rem;
+  --fs-small: 0.75rem;
   --fs-normal: 1.05rem;
   --fs-large: 1.15rem;
 
@@ -105,5 +109,4 @@
   --size-md: 768px;
   --size-lg: 992px;
   --size-xl: 1200px;
-  ;
 }
