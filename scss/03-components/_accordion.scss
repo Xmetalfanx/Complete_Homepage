@@ -7,7 +7,7 @@
   // the title of what was (in earlier trys) the button
   label {
     color: var(--white);
-    background-color: var(----themeColor5);
+    background-color: var(--themeColor5);
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
@@ -15,7 +15,7 @@
 
     // to the left of the label and it is not clicked (should be right arrow)
     &::before {
-      font-family: ForkAwesome, serif;
+      font-family: var(--ForkAwesome);
       margin-right: 0.5rem;
       content: "\f105";
       font-weight: 900;
@@ -24,7 +24,7 @@
 
   // to the left of the label and when clicked (Down arrow)
   input:checked + label::before {
-    font-family: ForkAwesome, serif;
+    font-family: var(--ForkAwesome);
     margin-right: 0.5rem;
     content: "\f107";
     font-weight: 900;
@@ -140,7 +140,7 @@
   .sidebar {
     .accordion {
       input + label::before {
-        font-family: ForkAwesome, serif;
+        font-family: var(--ForkAwesome);
         margin-right: 0.5rem;
         content: "\f105";
         font-weight: 900;
@@ -148,7 +148,7 @@
 
       // f105 = right arrow
       input:checked + label::before {
-        font-family: ForkAwesome, serif;
+        font-family: var(--ForkAwesome);
         margin-right: 0.5rem;
         content: "\f107";
         font-weight: 900;

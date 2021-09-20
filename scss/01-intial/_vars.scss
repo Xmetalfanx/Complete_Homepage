@@ -90,6 +90,9 @@
     "Helvetica Neue",
     sans-serif;
 
+  --ForkAwesome:  ForkAwesome, serif;
+  --SFMono-Regular: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
   // headers
   --h1: 3rem;
   --h2: 2.25rem;
@@ -105,8 +108,8 @@
 
   // breakpoints
   // sizes are max-width
-  --size-sm: 576px;
-  --size-md: 768px;
-  --size-lg: 992px;
-  --size-xl: 1200px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
 }
