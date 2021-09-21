@@ -124,7 +124,7 @@
 #desktopSection {
   .card {
     box-shadow: none;
-    border: 1px dotted var(----themeColor5);
+    border: 1px dotted var(--themeColor5);
 
     // putting this here since there is a max-height (still need to lookup why i did that) on the main primaryContent .card heigh
     max-height: none;

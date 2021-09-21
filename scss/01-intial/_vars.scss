@@ -1,54 +1,40 @@
+$colors: (
+  "black": hsl(0, 0%, 0%),
+  "tan_l": hsl(54, 100%, 90%),
+  "tan_d": hsl(54, 50%, 75%),
+  "white": hsl(0, 0%, 100%),
+  "white75": hsla(0, 0%, 100%, 0.75),
+  "white50": hsla(0, 0%, 100%, 0.5),
+  "dark_grey1": hsl(0, 0%, 20%),
+  "dark_grey2": hsl(72, 0%, 24%),
+  "dark_grey3": hsl(0, 0%, 32%),
+  "blue": hsl(240, 100%, 50%),
+  "navy": hsl(240, 100%, 25%),
+  "midnight_blue": hsl(240, 64%, 27%),
+  "red": hsl(0, 100%, 50%),
+  "maroon": hsl(0, 100%, 20%),
+  "dark_red": hsl(0, 100%, 30%),
+  "green": hsl(120, 44%, 34%),
+  "forrest_green": hsl(120, 100%, 20%),
+  "dark_green": hsl(120, 100%, 12%),
+  "darkturquoise": hsl(187, 49%, 25%),
+  "turquoise30": hsl(174, 72%, 30%),
+  "turquoise40": hsl(174, 72%, 40%),
+  "turquoise60": hsl(174, 72%, 60%),
+  "test": hsl(160, 27%, 42%)
+);
 
 :root {
-  /******************* Colors ********************/
-  --black: hsl(0, 0%, 0%);
-
-  // tans
-  --tanL: hsl(54, 100%, 90%);
-  --tanD: hsl(54, 50%, 75%);
-
-  // whites
-  --white: hsl(0, 0%, 100%);
-  --white75: hsla(0, 0%, 100%, 0.75);
-  --white50: hsla(0, 0%, 100%, 0.5);
-
-  // Greys - not including black itself
-  // consider flipping these for consistancy (ligher = lower number, darker = higher number )
-  --darkGrey1: hsl(0, 0%, 20%);
-  --darkGrey2: hsl(72, 0%, 24%);
-  --darkGrey3: hsl(0, 0%, 32%);
-
-  // Blues
-  --blue: hsl(240, 100%, 50%);
-  --navy: hsl(240, 100%, 25%);
-  --midnightBlue: hsl(240, 64%, 27%);
-
-  // reds
-  --red: hsl(0, 100%, 50%);
-  --maroon: hsl(0, 100%, 20%);
-  --lightMaroon: hsl(0, 100%, 30%);
-
-  // Greens
-  --green: hsl(120, 100%, 30%);
-  --forrestGreen: hsl(120, 100%, 20%);
-  --darkGreen: hsl(120, 100%, 12%);
-
-  // turquoises
-  --darkturquoise: hsl(187, 49%, 25%);
-  --turquoise30: hsl(174, 72%, 30%);
-  --turquoise40: hsl(174, 72%, 40%);
-  --turquoise60: hsl(174, 72%, 60%);
-
-  // changed this color (think in accordian menus to darkTurq30
-  // this var is not really needed
-  test: hsl(160, 27%, 42%);
+  @each $key, $value in $colors {
+    --#{$key}: #{$value};
+  }
 
   // color pallette
   --themeColor1: hsl(0, 0%, 96%);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
-  --themeColor4: var(--darkGrey3);
-  --themeColor5: var(--darkGrey1);
+  --themeColor4: var(--dark_grey3);
+  --themeColor5: var(--dark_grey1);
 
   // leave names for now
   --themeBGColorMain: var(--themeColor4);
@@ -90,10 +76,8 @@
     "Droid Sans",
     "Helvetica Neue",
     sans-serif;
-
-  --ForkAwesome:  ForkAwesome, serif;
-  --SFMono-Regular: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
+  --ForkAwesome: ForkAwesome, serif;
+  --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
   // headers
   --h1: 3rem;
   --h2: 2.25rem;
@@ -101,19 +85,14 @@
   --h4: 1.25rem;
   // guess
   --h5: 1.1rem;
-
   // font sizes
   --fs-small: 0.75rem;
   --fs-normal: 1.05rem;
   --fs-large: 1.15rem;
-
-
-    // breakpoints
+  // breakpoints
   // sizes are max-width
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-
-
 }
