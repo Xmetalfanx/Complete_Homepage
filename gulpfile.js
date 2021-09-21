@@ -25,9 +25,9 @@ const
     minmax = require('postcss-media-minmax'),
     normalize = require('postcss-normalize'),
     sorting = require('postcss-sorting'),
+    colorConverter = require("postcss-color-converter")
     mediaVariables = require('postcss-media-variables'),
     cssVariables = require("postcss-css-variables");
-    
 
 
 // Image related
@@ -39,6 +39,7 @@ const
 const
   SitemapGenerator = require('advanced-sitemap-generator'),
   sourcemaps = require('gulp-sourcemaps');
+const { hsl } = require('chalk');
 
 // End Vars
 /////////////////////////////////////////////////////////////
@@ -73,9 +74,13 @@ exports.lintFixScss = lintFixScss;
 async function compileSCSSToCSS() {
   var plugins = [
     //doiuse({}),
-    mediaVariables({}),
-    cssVariables({}),
-    sorting({}),
+    // mediaVariables({}),
+    //cssVariables({}),
+    //sorting({}),
+    colorConverter({
+      outputColorFormat: 'hsl'
+
+    }),
     // colorguard({
     //   allowEquivalentNotation: true
     // })
@@ -94,12 +99,12 @@ async function compileSCSSToCSS() {
       //.pipe(gcmq())
     
       // 3 -      
-      .pipe(
-        gulpStylelint({
-          fix: true,
-          failAfterError: false,
-        })
-      )
+      //.pipe(
+      //  gulpStylelint({
+      //    fix: true,
+      //    failAfterError: false,
+      //  })
+      // )
 
       // create sourcemap
       .pipe(sourcemaps.write('../maps'))
