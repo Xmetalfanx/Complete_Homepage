@@ -2,6 +2,10 @@
 
 <footer>
   <div class="site-made">Site made with:
+    <!-- SASS -->
+
+      <i class="fa fa-sass" aria-hidden="true"></i>
+
     <!-- HTML 5-->
     <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" aria-label="Mozilla Developer Site for HTML5" target="_blank" rel="noopener">
     <img src="/graphics/simpleIcons/darkBG/html5.svg" alt="HTML5 SVG">
