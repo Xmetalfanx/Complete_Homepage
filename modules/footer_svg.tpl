@@ -2,7 +2,7 @@
   <div class="site-made">Site made with:
     <!-- SASS -->
     <a href="https://www.sass-lang.com/" target="_blank" aria-label="SASS Developer site" rel="noopener">
-      <img src="/graphics/simpleIcons/darkBG/html5.svg" alt="HTML5 SVG">
+      <img src="/graphics/simpleIcons/sass.svg" alt="HTML5 SVG">
       <span class="hiddenAccessLinkText">SASS Developer site</span></a>
 
 

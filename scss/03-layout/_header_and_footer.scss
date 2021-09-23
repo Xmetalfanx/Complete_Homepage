@@ -39,6 +39,11 @@ footer {
     outline: 1px dotted var(--themeColor1);
     text-decoration: none;
   }
+
+  // for Fork Awesome code
+  .fa {
+    margin: auto 0.25rem;
+  }
 }
 
 footer {
@@ -75,13 +80,13 @@ footer {
 
 header {
   @include darkBG;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px var(--black);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColor5);
   grid-area: header;
 
   .fa {
-    margin-right: 1rem;
+    padding: .25rem;
   }
 
   > * {
@@ -132,7 +137,7 @@ header {
       z-index: 10;
       left: 0;
       top: 0;
-      background: hsl(0, 0%, 20%);
+      background: var(--grey2);
       display: grid;
       text-align: center;
       justify-content: center;

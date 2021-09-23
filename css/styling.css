@@ -639,6 +639,11 @@ footer a:hover {
   text-decoration: none;
 }
 
+header .fa,
+footer .fa {
+  margin: auto 0.25rem;
+}
+
 footer {
   padding: 1.5rem;
   grid-area: footer;
@@ -676,7 +681,7 @@ footer .contacts {
 header {
   color: var(--themeColor1);
   background-color: var(--themeColor5);
-  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+  box-shadow: 2px 2px 5px var(--black);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColor5);
   grid-area: header;
@@ -685,7 +690,7 @@ header {
 }
 
 header .fa {
-  margin-right: 1rem;
+  padding: 0.25rem;
 }
 
 header > * {
@@ -737,7 +742,7 @@ header .topnav .icon {
     z-index: 10;
     left: 0;
     top: 0;
-    background: hsl(0, 0%, 20%);
+    background: var(--grey2);
     display: grid;
     text-align: center;
     justify-content: center;
