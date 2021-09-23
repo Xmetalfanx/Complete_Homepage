@@ -12,8 +12,7 @@ const
     gcmq = require('gulp-group-css-media-queries'),
     cssnano = require('cssnano'),
     rename = require("gulp-rename"),
-    doiuse = require('doiuse');
-
+    doiuse = require('doiuse'),
     // prettier = require("gulp-prettier"),
     gulpSassLint= require("gulp-sass-lint"),
     gulpStylelint = require('gulp-stylelint');
@@ -25,25 +24,23 @@ const
     minmax = require('postcss-media-minmax'),
     normalize = require('postcss-normalize'),
     sorting = require('postcss-sorting'),
-    colorConverter = require("postcss-color-converter")
+    colorConverter = require("postcss-color-converter"),
     mediaVariables = require('postcss-media-variables'),
     cssVariables = require("postcss-css-variables");
-
 
 // Image related
 const
     imagemin = require('gulp-imagemin');
 
-
 // Source Map related
 const
   SitemapGenerator = require('advanced-sitemap-generator'),
   sourcemaps = require('gulp-sourcemaps');
-const { hsl } = require('chalk');
+
+  const { hsl } = require('chalk');
 
 // End Vars
 /////////////////////////////////////////////////////////////
-
 
 // CSS paths
 const cssConfig = {
