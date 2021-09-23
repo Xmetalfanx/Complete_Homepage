@@ -1,0 +1,99 @@
+// breakpoints
+$breakpoint-sm: "max-width: 576px";
+$breakpoint-md: "max-width: 768px";
+$breakpoint-lg: "max-width: 992px";
+$breakpoint-xl: "max-width: 1200px";
+
+$colors: (
+  "black": hsl(0, 0%, 0%),
+  "tan_l": hsl(54, 100%, 90%),
+  "tan_d": hsl(54, 50%, 75%),
+  "white": hsl(0, 0%, 100%),
+  "white75": hsla(0, 0%, 100%, 0.75),
+  "white50": hsla(0, 0%, 100%, 0.5),
+  "grey1": hsl(0, 0%, 15%),
+  "grey2": hsl(0, 0%, 20%),
+  "grey3": hsl(0, 0%, 24%),
+  "grey4": hsl(0, 0%, 32%),
+  "navy": hsl(240, 100%, 25%),
+  "blue": hsl(240, 100%, 50%),
+  "midnight_blue": hsl(240, 64%, 27%),
+  "red": hsl(0, 100%, 50%),
+  "maroon": hsl(0, 100%, 20%),
+  "dark_red": hsl(0, 100%, 30%),
+  "green": hsl(120, 44%, 34%),
+  "forrest_green": hsl(120, 100%, 20%),
+  "dark_green": hsl(120, 100%, 12%),
+  "darkturquoise": hsl(187, 49%, 25%),
+  "turquoise30": hsl(174, 72%, 30%),
+  "turquoise40": hsl(174, 72%, 40%),
+  "turquoise60": hsl(174, 72%, 60%),
+  "test": hsl(160, 27%, 42%)
+);
+
+:root {
+  @each $key, $value in $colors {
+    --#{$key}: #{$value};
+  }
+
+  // color pallette
+  --themeColor1: hsl(0, 0%, 96%);
+  --themeColor2: var(--turquoise30);
+  --themeColor3: hsl(174, 80%, 27%);
+  --themeColor4: var(--grey4);
+  --themeColor5: var(--grey2);
+
+  // leave names for now
+  --themeBGColorMain: var(--themeColor4);
+  --themeBGColorAccent: var(--darkturquoise);
+
+  // End Colors
+  ///////////////////////////////////
+
+  ///////////////////////////////////
+  // Fonts
+  --Verdana: verdana, geneva, arial, helvetica, sans-serif;
+  --TNR: "Times New Roman", times, serif;
+  --Courier: "Courier New", courier, monospace;
+  --Helvetica: "Helvetica Neue", helvetica, sans-serif;
+  --MSSans: "MS Sans Serif", geneva, sans-serif;
+  --SegoeUI: "Segoe UI", arial, helvetica, sans-serif;
+  --Tahoma: tahoma, verdana, segoe, sans-serif;
+  --Arial: arial, helvetica, san-serif;
+  --Roboto:
+    "Roboto",
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    "Helvetica Neue",
+    arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --Ubuntu:
+    "Ubuntu",
+    -apple-system,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  --ForkAwesome: ForkAwesome, serif;
+  --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+  // headers
+  --h1: 3rem;
+  --h2: 2.25rem;
+  --h3: 1.5rem;
+  --h4: 1.25rem;
+  // guess
+  --h5: 1.1rem;
+  // font sizes
+  --fs-small: 0.75rem;
+  --fs-normal: 1.05rem;
+  --fs-large: 1.15rem;
+}

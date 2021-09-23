@@ -1,0 +1,12 @@
+@use "../01-abstracts/index" as *;
+
+/* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
+#GAOTD {
+  width: 50%;
+  padding-top: 3px;
+  margin: 0 auto;
+
+  @media ($breakpoint-md) {
+    width: 90%;
+  }
+}

@@ -1,0 +1,103 @@
+@use "../01-abstracts/index" as *;
+
+// For Distro and Desktop Frontpages on the LinuxHQ side of the site
+#linux-primary-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+
+  .card {
+    min-width: 300px;
+    border-radius: 0.75rem;
+    width: 40%;
+
+    @media (max-width: 880px) {
+      width: 90%;
+    }
+
+    .card__header {
+      display: flex;
+      justify-content: flex-start;
+      border-radius: 0.75rem 0.75rem 0 0;
+    }
+  }
+}
+
+// not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
+// location: techHQ frontpage
+.EducationalSites {
+  @include span2;
+  width: 65%;
+
+  @media ($breakpoint-md) {
+    width: 90%;
+    grid-column: auto;
+
+    // why? ... is this suppose to be outside the media query?
+    a {
+      display: block;
+    }
+  }
+
+  .card__body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    * {
+      margin: 0.25rem;
+    }
+  }
+}
+
+// For LinuxHQ distro section and eventually more
+#desktopSection {
+  .card {
+    box-shadow: none;
+    border: 1px dotted var(--themeColor5);
+
+    // putting this here since there is a max-height (still need to lookup why i did that) on the main primaryContent .card heigh
+    max-height: none;
+  }
+
+  // closes card
+}
+
+#linuxVersions {
+  // the top level of the column
+  .distroBaseTitle {
+    text-decoration: underline;
+    font-weight: 900;
+  }
+
+  // The Titles of the Distro/Versions
+  .versionTitle {
+    margin-right: 0.5rem;
+  }
+
+  // the actual version number
+  .version {
+    color: var(--themeBGColorAccent);
+  }
+}
+
+// Footer specially (for now?) in the TechHQ side of the site
+#techHQFooter {
+  // display: flex;
+  //flex-direction: row;
+  @include span2;
+  padding-left: 20px;
+
+  a {
+    color: inherit;
+    margin: 0 1rem;
+    font-weight: 500;
+  }
+
+  a:hover {
+    outline: 1px dotted black;
+    text-decoration: none;
+  }
+}

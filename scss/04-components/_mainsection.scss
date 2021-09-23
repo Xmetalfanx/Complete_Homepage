@@ -1,11 +1,11 @@
 /*********** Main Section in middle of page, between the header and footer *****/
 
 .main-section {
-  grid-area: main-section;
-  padding: 1.5rem;
   display: grid;
+  grid-area: main-section;
   grid-gap: 1.5rem;
   justify-items: stretch;
+  padding: 1.5rem;
 
   h1,
   h2,
@@ -16,31 +16,31 @@
 
     a {
       padding: 0.25rem;
+    }
 
-      &:hover {
-        outline: 1px solid var(--themeColor3);
-        text-decoration: none;
-      }
+    a:hover {
+      outline: 1px solid var(--themeColor3);
+      text-decoration: none;
     }
   }
 
   // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
   &--wide {
     @extend .main-section;
-    grid-template-columns: 1fr;
     grid-template-areas: "pContent";
+    grid-template-columns: 1fr;
   }
 
   &--left-wide {
     @extend .main-section;
-    grid-template-columns: auto 18%;
     grid-template-areas: "pContent sidebar";
+    grid-template-columns: auto 18%;
   }
 
   &--right-wide {
     @extend .main-section;
-    grid-template-columns: 18% auto;
     grid-template-areas: "sidebar pContent";
+    grid-template-columns: 18% auto;
   }
 
   /****** Sidebar *****/
@@ -90,10 +90,8 @@
     }
   }
 }
-
-/* Media query for center section under 794px wide */
-@media all and (max-width: 768px) {
-
+// should be md
+@media (max-width: var(--breakpoint-lg)) {
   // the main section between the nav top bar and the footer
   .main-section,
   .main-section--left-wide,
@@ -131,7 +129,7 @@
 
 // I forgot what this is for .
 // do i need it?
-// @media all and (max-width: 768px) {
+// @media all and (max-width: $breakpoint-md) {
 //   .sidebar {
 //     .card {
 //       margin-left: 0;
