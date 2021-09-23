@@ -1,27 +1,154 @@
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  -postcss-media-run: 1;
-}
-
-.jc-space-evenly {
-  justify-content: space-evenly;
-}
-
-.jc-space-around {
-  justify-content: space-around;
-}
-
-.jc-space-between {
-  justify-content: space-between;
-}
-
 :root {
-  /******************* Colors ********************/
-  test: #4e8875;
+  --black: hsl(0, 0%, 0%);
+  --tan_l: hsl(54, 100%, 90%);
+  --tan_d: hsl(54, 50%, 75%);
+  --white: hsl(0, 0%, 100%);
+  --white75: hsla(0, 0%, 100%, 0.75);
+  --white50: hsla(0, 0%, 100%, 0.5);
+  --grey1: hsl(0, 0%, 15%);
+  --grey2: hsl(0, 0%, 20%);
+  --grey3: hsl(0, 0%, 24%);
+  --grey4: hsl(0, 0%, 32%);
+  --navy: hsl(240, 100%, 25%);
+  --blue: hsl(240, 100%, 50%);
+  --midnight_blue: hsl(240, 64%, 27%);
+  --red: hsl(0, 100%, 50%);
+  --maroon: hsl(0, 100%, 20%);
+  --dark_red: hsl(0, 100%, 30%);
+  --green: hsl(120, 44%, 34%);
+  --forrest_green: hsl(120, 100%, 20%);
+  --dark_green: hsl(120, 100%, 12%);
+  --darkturquoise: hsl(187, 48%, 25%);
+  --turquoise30: hsl(174, 73%, 30%);
+  --turquoise40: hsl(174, 72%, 40%);
+  --turquoise60: hsl(174, 72%, 60%);
+  --test: hsl(160, 27%, 42%);
+  --themeColor1: hsl(0, 0%, 96%);
+  --themeColor2: var(--turquoise30);
+  --themeColor3: hsl(174, 80%, 27%);
+  --themeColor4: var(--grey4);
+  --themeColor5: var(--grey2);
+  --themeBGColorMain: var(--themeColor4);
+  --themeBGColorAccent: var(--darkturquoise);
+  --Verdana: verdana, geneva, arial, helvetica, sans-serif;
+  --TNR: "Times New Roman", times, serif;
+  --Courier: "Courier New", courier, monospace;
+  --Helvetica: "Helvetica Neue", helvetica, sans-serif;
+  --MSSans: "MS Sans Serif", geneva, sans-serif;
+  --SegoeUI: "Segoe UI", arial, helvetica, sans-serif;
+  --Tahoma: tahoma, verdana, segoe, sans-serif;
+  --Arial: arial, helvetica, san-serif;
+  --Roboto:
+    "Roboto",
+    -apple-system,
+    blinkmacsystemfont,
+    "Segoe UI",
+    roboto,
+    "Helvetica Neue",
+    arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --Ubuntu:
+    "Ubuntu",
+    -apple-system,
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  --ForkAwesome: forkawesome, serif;
+  --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+  --h1: 3rem;
+  --h2: 2.25rem;
+  --h3: 1.5rem;
+  --h4: 1.25rem;
+  --h5: 1.1rem;
+  --fs-small: 0.75rem;
+  --fs-normal: 1.05rem;
+  --fs-large: 1.15rem;
+}
+
+/* Source: https://piccalil.li/blog/a-modern-css-reset/
+YTer Kevin P. linked to this */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 *,
@@ -36,25 +163,13 @@ html {
 }
 
 body {
-  background-color: hsl(0, 0%, 96%);
-  color: hsl(0, 0%, 20%);
+  background-color: var(--themeColor1);
+  color: var(--themeColor5);
   display: grid;
-  font-family:
-    "Roboto",
-    -apple-system,
-    blinkmacsystemfont,
-    "Segoe UI",
-    roboto,
-    "Helvetica Neue",
-    arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-  font-size: 1.05rem;
+  font-family: var(--Roboto);
+  font-size: var(--fs-normal);
   font-weight: 400;
   grid-template-areas: "header" "main-section" "footer";
-  grid-template-rows: 1fr auto 1fr;
   line-height: 1.6;
   min-height: 100%;
   text-align: left;
@@ -68,55 +183,40 @@ h5 {
   font-weight: 800;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
+h1,
 .h1 {
-  font-size: 3rem;
+  font-size: var(--h1);
 }
 
-h2 {
-  font-size: 2.25rem;
-}
-
+h2,
 .h2 {
-  font-size: 2.25rem;
+  font-size: var(--h2);
 }
 
-h3 {
-  font-size: 1.5rem;
-}
-
+h3,
 .h3 {
-  font-size: 1.5rem;
+  font-size: var(--h3);
 }
 
-h4 {
-  font-size: 1.25rem;
-}
-
+h4,
 .h4 {
-  font-size: 1.25rem;
+  font-size: var(--h4);
 }
 
-h5 {
-  font-size: 1.1rem;
-}
-
+h5,
 .h5 {
-  font-size: 1.1rem;
+  font-size: var(--h5);
 }
 
 .card,
 .card--bordered {
-  box-shadow: 0 0.5rem 1rem rgba(145, 117, 117, 0.15);
+  box-shadow: 0 0.5rem 1rem var(--dark_grey1);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
 }
 
 .card--bordered {
-  border: 1px solid hsl(0, 0%, 20%);
+  border: 1px solid var(--themeColor5);
 }
 
 .card .card__body,
@@ -126,152 +226,47 @@ h5 {
   padding: 1rem;
 }
 
-.card .card__header {
-  align-items: center;
-  border-color: hsl(0, 0%, 20%);
-  background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 96%);
-  display: flex;
-  flex-direction: row;
-  font-weight: bold;
-  font-size: 1.25rem;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-
-.card .card__header--wide {
-  align-items: center;
-  border-color: hsl(0, 0%, 20%);
-  background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 96%);
-  display: flex;
-  flex-direction: row;
-  font-weight: bold;
-  font-size: 1.25rem;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-
-.card--bordered .card__header {
-  align-items: center;
-  border-color: hsl(0, 0%, 20%);
-  background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 96%);
-  display: flex;
-  flex-direction: row;
-  font-weight: bold;
-  font-size: 1.25rem;
-  justify-content: flex-start;
-  padding: 1rem;
-}
-
+.card .card__header,
+.card .card__header--wide,
+.card--bordered .card__header,
 .card--bordered .card__header--wide {
   align-items: center;
-  border-color: hsl(0, 0%, 20%);
-  background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 96%);
+  border-color: var(--themeColor5);
+  background-color: var(--themeColor5);
+  color: var(--themeColor1);
   display: flex;
   flex-direction: row;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: var(--h4);
   justify-content: flex-start;
   padding: 1rem;
 }
 
-.card .card__header h1 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header--wide h1 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header h1 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header--wide h1 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header h2 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header--wide h2 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header h2 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header--wide h2 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header h3 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header--wide h3 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header h3 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header--wide h3 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header h4 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header--wide h4 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header h4 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header--wide h4 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header h5 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header--wide h5 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header h5 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header--wide h5 {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header i {
-  color: hsl(0, 0%, 96%);
-}
-
-.card .card__header--wide i {
-  color: hsl(0, 0%, 96%);
-}
-
-.card--bordered .card__header i {
-  color: hsl(0, 0%, 96%);
-}
-
+.card .card__header h1,
+.card .card__header--wide h1,
+.card--bordered .card__header h1,
+.card--bordered .card__header--wide h1,
+.card .card__header h2,
+.card .card__header--wide h2,
+.card--bordered .card__header h2,
+.card--bordered .card__header--wide h2,
+.card .card__header h3,
+.card .card__header--wide h3,
+.card--bordered .card__header h3,
+.card--bordered .card__header--wide h3,
+.card .card__header h4,
+.card .card__header--wide h4,
+.card--bordered .card__header h4,
+.card--bordered .card__header--wide h4,
+.card .card__header h5,
+.card .card__header--wide h5,
+.card--bordered .card__header h5,
+.card--bordered .card__header--wide h5,
+.card .card__header i,
+.card .card__header--wide i,
+.card--bordered .card__header i,
 .card--bordered .card__header--wide i {
-  color: hsl(0, 0%, 96%);
+  color: var(--themeColor1);
 }
 
 .card .card__header a:link,
@@ -293,188 +288,45 @@ h5 {
 }
 
 a {
-  color: hsl(174, 80%, 27%);
+  color: var(--themeColor2);
   background-color: transparent;
   text-decoration: none;
 }
 
-/******************* Icon ********************/
-.icon,
-.icon--size48,
-.icon--size40,
-.icon--size32 {
-  display: inline-block;
-  margin-right: 1.1rem;
-}
-
-.icon a {
-  fill: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
-}
-
-.icon--size48 a {
-  fill: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
-}
-
-.icon--size40 a {
-  fill: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
-}
-
-.icon--size32 a {
-  fill: hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
-}
-
-.icon--size32 {
-  height: 32px;
-  width: 32px;
-}
-
-.icon--size40 {
-  height: 40px;
-  width: 40px;
-}
-
-.icon--size48 {
-  height: 48px;
-  width: 48px;
-}
-
-.thumbnails,
-.thumbnails--sm,
-.thumbnails--lg {
-  padding: 2rem;
-}
-
-.thumbnails--lg {
-  max-height: 450px;
-}
-
-.thumbnails--sm {
-  max-height: 350px;
-}
-
-.thumbnail-fluid,
-.thumbnail-fluid--lg,
-.thumbnail-fluid--sm {
-  max-width: 100%;
-  height: auto;
-}
-
-.thumbnail-fluid--sm {
-  max-height: 350px;
-  padding: 2rem;
-  max-width: 100%;
-  height: auto;
-}
-
-.thumbnail-fluid--lg {
-  max-height: 450px;
-  padding: 2rem;
-  max-width: 100%;
-  height: auto;
-}
-
-header {
-  display: flex;
-  color: hsl(0, 0%, 96%);
-  background-color: hsl(0, 0%, 20%);
-  font-weight: 900;
-  justify-content: space-between;
-  align-items: center;
-  max-height: 4.5rem;
-}
-
+header,
 footer {
   display: flex;
-  color: hsl(0, 0%, 96%);
-  background-color: hsl(0, 0%, 20%);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
   font-weight: 900;
   justify-content: space-between;
   align-items: center;
-  max-height: 4.5rem;
 }
 
-header h1 {
-  color: hsl(0, 0%, 96%);
-}
-
-header h2 {
-  color: hsl(0, 0%, 96%);
-}
-
-header h3 {
-  color: hsl(0, 0%, 96%);
-}
-
-header h4 {
-  color: hsl(0, 0%, 96%);
-}
-
-header h5 {
-  color: hsl(0, 0%, 96%);
-}
-
-footer h1 {
-  color: hsl(0, 0%, 96%);
-}
-
-footer h2 {
-  color: hsl(0, 0%, 96%);
-}
-
-footer h3 {
-  color: hsl(0, 0%, 96%);
-}
-
-footer h4 {
-  color: hsl(0, 0%, 96%);
-}
-
+header h1,
+header h2,
+header h3,
+header h4,
+header h5,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
 footer h5 {
-  color: hsl(0, 0%, 96%);
+  color: var(--themeColor1);
 }
 
-header h1 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-header h2 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-header h3 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-header h4 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-header h5 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-footer h1 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-footer h2 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-footer h3 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
-footer h4 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
-}
-
+header h1 > a,
+header h2 > a,
+header h3 > a,
+header h4 > a,
+header h5 > a,
+footer h1 > a,
+footer h2 > a,
+footer h3 > a,
+footer h4 > a,
 footer h5 > a {
-  outline: 1px solid hsl(0, 0%, 96%);
+  outline: 1px solid var(--themeColor1);
 }
 
 header a,
@@ -483,13 +335,9 @@ footer a {
   text-decoration: none;
 }
 
-header a:hover {
-  outline: 1px dotted hsl(0, 0%, 96%);
-  text-decoration: none;
-}
-
+header a:hover,
 footer a:hover {
-  outline: 1px dotted hsl(0, 0%, 96%);
+  outline: 1px dotted var(--themeColor1);
   text-decoration: none;
 }
 
@@ -499,9 +347,11 @@ footer {
 }
 
 footer img {
+  display: inline;
+  margin: 0.4rem;
   max-width: 32px;
   max-height: 32px;
-  margin: 0.4rem;
+  vertical-align: bottom;
 }
 
 footer .contacts,
@@ -509,45 +359,29 @@ footer .site-made {
   width: 50%;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-324-20e) {
-    footer .site-made {
-      display: none;
-    }
+@media (max-width: 992px) {
+  footer .site-made {
+    display: none;
   }
-  -pcs-mv-324-20e: 992px;
 }
 
 footer .contacts {
   text-align: right;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-332-20e) {
-    footer .contacts {
-      width: 100% !important;
-    }
+@media (max-width: 992px) {
+  footer .contacts {
+    width: 100% !important;
   }
-  -pcs-mv-332-20e: 992px;
 }
 
 header {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
   padding: 1rem;
-  text-shadow: 2px 5px hsl(0, 0%, 20%);
+  text-shadow: 2px 5px var(--themeColor5);
   grid-area: header;
-  color: hsl(0, 0%, 96%);
-  background-color: hsl(0, 0%, 20%);
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 }
@@ -566,7 +400,7 @@ header .topnav {
   flex-direction: row;
   justify-self: end;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: var(--h3);
   letter-spacing: 0.1rem;
 }
 
@@ -574,85 +408,58 @@ header .topnav a {
   margin: 0 1.2rem;
 }
 
-header .topnav a :active {
-  color: hsl(174, 72%, 40%);
-}
-
+header .topnav a :active,
 header .topnav a :hover {
-  color: hsl(174, 72%, 40%);
+  color: var(--turquoise40);
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-369-20e) {
-    header .topnav a {
-      display: none;
-    }
+@media (max-width: 992px) {
+  header .topnav a {
+    display: none;
   }
-  -pcs-mv-369-20e: 992px;
 }
 
 header .topnav .icon {
   display: none;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-377-20e) {
-    header .topnav .icon {
-      float: right;
-      display: block;
-      padding: 0;
-    }
+@media (max-width: 992px) {
+  header .topnav .icon {
+    float: right;
+    display: block;
+    padding: 0;
   }
-  -pcs-mv-377-20e: 992px;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-384-20e) {
-    header .topnav.responsive {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-      left: 0;
-      top: 0;
-      background: #333;
-      display: grid;
-      text-align: center;
-      justify-content: center;
-    }
-
-    header .topnav.responsive a {
-      display: block;
-      text-align: left;
-      align-self: center;
-    }
-
-    header .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      display: block;
-      z-index: 1;
-      margin: 17px 35px 0 0;
-      outline: inherit;
-      align-self: start;
-    }
+@media (max-width: 768px) {
+  header .topnav.responsive {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: hsl(0, 0%, 20%);
+    display: grid;
+    text-align: center;
+    justify-content: center;
   }
-  -pcs-mv-384-20e: 768px;
+
+  header .topnav.responsive a {
+    display: block;
+    text-align: left;
+    align-self: center;
+  }
+
+  header .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    display: block;
+    z-index: 1;
+    margin: 17px 35px 0 0;
+    outline: inherit;
+    align-self: start;
+  }
 }
 
 /*********** Main Section in middle of page, between the header and footer *****/
@@ -660,93 +467,36 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 .main-section--right-wide,
 .main-section--left-wide,
 .main-section--wide {
-  grid-area: main-section;
-  padding: 1.5rem;
   display: grid;
+  grid-area: main-section;
   grid-gap: 1.5rem;
   justify-items: stretch;
+  padding: 1.5rem;
 
   /****** Sidebar *****/
 }
 
-.main-section h1 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--right-wide h1 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--left-wide h1 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--wide h1 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section h2 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--right-wide h2 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--left-wide h2 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--wide h2 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section h3 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--right-wide h3 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--left-wide h3 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--wide h3 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section h4 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--right-wide h4 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--left-wide h4 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--wide h4 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section h5 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--right-wide h5 {
-  color: hsl(174, 80%, 27%);
-}
-
-.main-section--left-wide h5 {
-  color: hsl(174, 80%, 27%);
-}
-
+.main-section h1,
+.main-section--right-wide h1,
+.main-section--left-wide h1,
+.main-section--wide h1,
+.main-section h2,
+.main-section--right-wide h2,
+.main-section--left-wide h2,
+.main-section--wide h2,
+.main-section h3,
+.main-section--right-wide h3,
+.main-section--left-wide h3,
+.main-section--wide h3,
+.main-section h4,
+.main-section--right-wide h4,
+.main-section--left-wide h4,
+.main-section--wide h4,
+.main-section h5,
+.main-section--right-wide h5,
+.main-section--left-wide h5,
 .main-section--wide h5 {
-  color: hsl(174, 80%, 27%);
+  color: var(--themeColor3);
 }
 
 .main-section h1 a,
@@ -772,119 +522,43 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   padding: 0.25rem;
 }
 
-.main-section h1 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--right-wide h1 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--left-wide h1 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--wide h1 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section h2 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--right-wide h2 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--left-wide h2 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--wide h2 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section h3 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--right-wide h3 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--left-wide h3 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--wide h3 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section h4 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--right-wide h4 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--left-wide h4 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--wide h4 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section h5 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--right-wide h5 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
-.main-section--left-wide h5 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
-  text-decoration: none;
-}
-
+.main-section h1 a:hover,
+.main-section--right-wide h1 a:hover,
+.main-section--left-wide h1 a:hover,
+.main-section--wide h1 a:hover,
+.main-section h2 a:hover,
+.main-section--right-wide h2 a:hover,
+.main-section--left-wide h2 a:hover,
+.main-section--wide h2 a:hover,
+.main-section h3 a:hover,
+.main-section--right-wide h3 a:hover,
+.main-section--left-wide h3 a:hover,
+.main-section--wide h3 a:hover,
+.main-section h4 a:hover,
+.main-section--right-wide h4 a:hover,
+.main-section--left-wide h4 a:hover,
+.main-section--wide h4 a:hover,
+.main-section h5 a:hover,
+.main-section--right-wide h5 a:hover,
+.main-section--left-wide h5 a:hover,
 .main-section--wide h5 a:hover {
-  outline: 1px solid hsl(174, 80%, 27%);
+  outline: 1px solid var(--themeColor3);
   text-decoration: none;
 }
 
 .main-section--wide {
-  grid-template-columns: 1fr;
   grid-template-areas: "pContent";
+  grid-template-columns: 1fr;
 }
 
 .main-section--left-wide {
-  grid-template-columns: auto 18%;
   grid-template-areas: "pContent sidebar";
+  grid-template-columns: auto 18%;
 }
 
 .main-section--right-wide {
-  grid-template-columns: 18% auto;
   grid-template-areas: "sidebar pContent";
+  grid-template-columns: 18% auto;
 }
 
 .main-section .sidebar,
@@ -952,44 +626,102 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   max-width: 72ch;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-
-  @media (max-width: -pcs-mv-526-12e) {
-    .main-section .sidebar .card,
-    .main-section--wide .sidebar .card,
-    .main-section--left-wide .sidebar .card,
-    .main-section--right-wide .sidebar .card {
-      margin: 0 auto;
-    }
-
-    .main-section .sidebar .card .card__body a,
-    .main-section--wide .sidebar .card .card__body a,
-    .main-section--left-wide .sidebar .card .card__body a,
-    .main-section--right-wide .sidebar .card .card__body a {
-      display: inline-block;
-    }
-
-    .main-section .primary-content,
-    .main-section--wide .primary-content,
-    .main-section--left-wide .primary-content,
-    .main-section--right-wide .primary-content {
-      grid-area: pContent;
-      margin: 0 1rem;
-    }
-
-    .main-section--left-wide,
-    .main-section--right-wide {
-      grid-template-areas: "sidebar" "pContent";
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-    }
+@media (max-width: var(--breakpoint-lg)) {
+  .main-section .sidebar .card,
+  .main-section--wide .sidebar .card,
+  .main-section--left-wide .sidebar .card,
+  .main-section--right-wide .sidebar .card {
+    margin: 0 auto;
   }
-  -pcs-mv-526-12e: 992px;
+
+  .main-section .sidebar .card .card__body a,
+  .main-section--wide .sidebar .card .card__body a,
+  .main-section--left-wide .sidebar .card .card__body a,
+  .main-section--right-wide .sidebar .card .card__body a {
+    display: inline-block;
+  }
+
+  .main-section .primary-content,
+  .main-section--wide .primary-content,
+  .main-section--left-wide .primary-content,
+  .main-section--right-wide .primary-content {
+    grid-area: pContent;
+    margin: 0 1rem;
+  }
+
+  .main-section--left-wide,
+  .main-section--right-wide {
+    grid-template-areas: "sidebar" "pContent";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+}
+
+/******************* Icon ********************/
+.icon,
+.icon--size48,
+.icon--size40,
+.icon--size32 {
+  display: inline-block;
+  margin-right: 1.1rem;
+}
+
+.icon a,
+.icon--size48 a,
+.icon--size40 a,
+.icon--size32 a {
+  fill: var(--white);
+  color: var(--white);
+}
+
+.icon--size32 {
+  height: 32px;
+  width: 32px;
+}
+
+.icon--size40 {
+  height: 40px;
+  width: 40px;
+}
+
+.icon--size48 {
+  height: 48px;
+  width: 48px;
+}
+
+.thumbnails,
+.thumbnails--sm,
+.thumbnails--lg {
+  padding: 2rem;
+}
+
+.thumbnails--lg {
+  max-height: 450px;
+}
+
+.thumbnails--sm {
+  max-height: 350px;
+}
+
+.thumbnail-fluid,
+.thumbnail-fluid--lg,
+.thumbnail-fluid--sm {
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-fluid--sm {
+  max-height: 350px;
+  padding: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.thumbnail-fluid--lg {
+  max-height: 450px;
+  padding: 2rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .accordion input {
@@ -997,8 +729,8 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .accordion label {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 20%);
+  color: var(--white);
+  background-color: var(--themeColor5);
   display: block;
   padding: 8px 22px;
   margin: 0 0 1px 0;
@@ -1006,27 +738,27 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .accordion label::before {
-  font-family: ForkAwesome, serif;
+  font-family: var(--ForkAwesome);
   margin-right: 0.5rem;
   content: "\f105";
   font-weight: 900;
 }
 
 .accordion input:checked + label::before {
-  font-family: ForkAwesome, serif;
+  font-family: var(--ForkAwesome);
   margin-right: 0.5rem;
   content: "\f107";
   font-weight: 900;
 }
 
 .accordion label:hover {
-  background: hsl(174, 72%, 30%);
+  background: var(--themeColor2);
 }
 
 .accordion .content {
-  background: hsl(0, 0%, 100%);
+  background: var(--white);
   padding: 10px 25px;
-  border: 1px solid #a7a7a7;
+  border: 1px solid hsl(0, 0%, 65%);
   margin: 0 0 1px 0;
   border-radius: 3px;
 }
@@ -1041,7 +773,7 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 
 .accordion input:checked + label + .content {
   opacity: 1;
-  font-size: 1.05rem;
+  font-size: var(--fs-normal);
   padding: 8px 25px;
   height: auto;
   min-height: auto;
@@ -1052,26 +784,16 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   display: none;
 }
 
-.sidebar .accordion label {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 20%);
-  display: block;
-  padding: 8px 22px;
-  margin: 0;
-  border-radius: 0.75rem 0.75rem 0 0;
-  font-weight: 900;
-  font-size: 1.1rem;
-}
-
+.sidebar .accordion label,
 .fullpage .accordion label {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(0, 0%, 20%);
+  color: var(--white);
+  background-color: var(--themeColor5);
   display: block;
   padding: 8px 22px;
   margin: 0;
   border-radius: 0.75rem 0.75rem 0 0;
   font-weight: 900;
-  font-size: 1.1rem;
+  font-size: var(--h5);
 }
 
 .sidebar .accordion label::before,
@@ -1086,12 +808,9 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   margin-right: 0;
 }
 
-.sidebar .accordion label:hover {
-  background: hsl(174, 72%, 30%);
-}
-
+.sidebar .accordion label:hover,
 .fullpage .accordion label:hover {
-  background: hsl(174, 72%, 30%);
+  background: var(--turquoise30);
 }
 
 .sidebar .accordion .content,
@@ -1108,16 +827,10 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   display: block;
 }
 
-.sidebar .accordion input + label + .content {
-  opacity: 1;
-  font-size: 1.05rem;
-  transition: linear 0.8s;
-  height: auto;
-}
-
+.sidebar .accordion input + label + .content,
 .fullpage .accordion input + label + .content {
   opacity: 1;
-  font-size: 1.05rem;
+  font-size: var(--fs-normal);
   transition: linear 0.8s;
   height: auto;
 }
@@ -1131,55 +844,46 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   min-height: auto;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-
-  @media all and (max-width: -pcs-mv-656-20e) {
-    .sidebar .accordion input + label::before {
-      font-family: ForkAwesome, serif;
-      margin-right: 0.5rem;
-      content: "\f105";
-      font-weight: 900;
-    }
-
-    .sidebar .accordion input:checked + label::before {
-      font-family: ForkAwesome, serif;
-      margin-right: 0.5rem;
-      content: "\f107";
-      font-weight: 900;
-    }
-
-    .sidebar .accordion label:hover {
-      background: hsl(174, 72%, 30%);
-    }
-
-    .sidebar .accordion .content a,
-    .sidebar .accordion .content span {
-      display: inline-block;
-      margin-right: 3rem;
-    }
-
-    .sidebar .accordion input + label + .content {
-      opacity: 0;
-      font-size: 0;
-      padding: 8px 25px;
-      height: auto;
-      min-height: auto;
-    }
-
-    .sidebar .accordion input:checked + label + .content {
-      opacity: 1;
-      font-size: 1.05rem;
-      transition: linear 0.5s;
-      padding: 0 25px;
-      height: auto;
-    }
+@media (max-width: 768px) {
+  .sidebar .accordion input + label::before {
+    font-family: var(--ForkAwesome);
+    margin-right: 0.5rem;
+    content: "\f105";
+    font-weight: 900;
   }
-  -pcs-mv-656-20e: 768px;
+
+  .sidebar .accordion input:checked + label::before {
+    font-family: var(--ForkAwesome);
+    margin-right: 0.5rem;
+    content: "\f107";
+    font-weight: 900;
+  }
+
+  .sidebar .accordion label:hover {
+    background: var(--turquoise30);
+  }
+
+  .sidebar .accordion .content a,
+  .sidebar .accordion .content span {
+    display: inline-block;
+    margin-right: 3rem;
+  }
+
+  .sidebar .accordion input + label + .content {
+    opacity: 0;
+    font-size: 0;
+    padding: 8px 25px;
+    height: auto;
+    min-height: auto;
+  }
+
+  .sidebar .accordion input:checked + label + .content {
+    opacity: 1;
+    font-size: var(--fs-normal);
+    transition: linear 0.5s;
+    padding: 0 25px;
+    height: auto;
+  }
 }
 
 /************** Carousel BS way  *************/
@@ -1229,7 +933,7 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   border-radius: 50%;
   height: 15px;
   width: 15px;
-  background-color: hsl(174, 80%, 27%);
+  background-color: var(--themeColor3);
   margin: 0 10px;
 }
 
@@ -1247,29 +951,116 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .carousel .carousel__track-container {
-  background-color: lightblue;
+  background-color: hsl(195, 53%, 79%);
   padding: 10px;
   height: 100%;
 }
 
+#linux-primary-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#linux-primary-content .card {
+  min-width: 300px;
+  border-radius: 0.75rem;
+  width: 40%;
+}
+
+@media (max-width: 880px) {
+  #linux-primary-content .card {
+    width: 90%;
+  }
+}
+
+#linux-primary-content .card .card__header {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.EducationalSites {
+  grid-column: span 2;
+  width: 65%;
+}
+
+@media (max-width: 768px) {
+  .EducationalSites {
+    width: 90%;
+    grid-column: auto;
+  }
+
+  .EducationalSites a {
+    display: block;
+  }
+}
+
+.EducationalSites .card__body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.EducationalSites .card__body * {
+  margin: 0.25rem;
+}
+
+#desktopSection .card {
+  box-shadow: none;
+  border: 1px dotted var(--themeColor5);
+  max-height: none;
+}
+
+#linuxVersions .distroBaseTitle {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+#linuxVersions .versionTitle {
+  margin-right: 0.5rem;
+}
+
+#linuxVersions .version {
+  color: var(--themeBGColorAccent);
+}
+
+#techHQFooter {
+  grid-column: span 2;
+  padding-left: 20px;
+}
+
+#techHQFooter a {
+  color: inherit;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+#techHQFooter a:hover {
+  outline: 1px dotted hsl(0, 0%, 0%);
+  text-decoration: none;
+}
+
 .border {
-  border: 1px solid hsl(0, 0%, 96%);
+  border: 1px solid var(--themeColor1);
 }
 
 .border-top {
-  border-top: 1px solid hsl(0, 0%, 96%);
+  border-top: 1px solid var(--themeColor1);
 }
 
 .border-right {
-  border-right: 1px solid hsl(0, 0%, 96%);
+  border-right: 1px solid var(--themeColor1);
 }
 
 .border-bottom {
-  border-bottom: 1px solid hsl(0, 0%, 96%);
+  border-bottom: 1px solid var(--themeColor1);
 }
 
 .border-left {
-  border-left: 1px solid hsl(0, 0%, 96%);
+  border-left: 1px solid var(--themeColor1);
 }
 
 .border-0 {
@@ -1333,249 +1124,213 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   display: inline-flex;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
+@media all and (min-width: 576px) {
+  .d-sm-none {
+    display: none;
+  }
 
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
+  .d-sm-inline {
+    display: inline;
+  }
 
-  @media all and (min-width: 576px) {
-    .d-sm-none {
-      display: none;
-    }
+  .d-sm-inline-block {
+    display: inline-block;
+  }
 
-    .d-sm-inline {
-      display: inline;
-    }
+  .d-sm-block {
+    display: block;
+  }
 
-    .d-sm-inline-block {
-      display: inline-block;
-    }
+  .d-sm-table {
+    display: table;
+  }
 
-    .d-sm-block {
-      display: block;
-    }
+  .d-sm-table-row {
+    display: table-row;
+  }
 
-    .d-sm-table {
-      display: table;
-    }
+  .d-sm-table-cell {
+    display: table-cell;
+  }
 
-    .d-sm-table-row {
-      display: table-row;
-    }
+  .d-sm-flex {
+    display: box;
+    display: flexbox;
+    display: flex;
+  }
 
-    .d-sm-table-cell {
-      display: table-cell;
-    }
-
-    .d-sm-flex {
-      display: box;
-      display: flexbox;
-      display: flex;
-    }
-
-    .d-sm-inline-flex {
-      display: inline-box;
-      display: inline-flexbox;
-      display: inline-flex;
-    }
+  .d-sm-inline-flex {
+    display: inline-box;
+    display: inline-flexbox;
+    display: inline-flex;
   }
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
+@media all and (min-width: 768px) {
+  .d-md-none {
+    display: none;
+  }
 
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (min-width: 768px) {
-    .d-md-none {
-      display: none;
-    }
+  .d-md-inline {
+    display: inline;
+  }
 
-    .d-md-inline {
-      display: inline;
-    }
+  .d-md-inline-block {
+    display: inline-block;
+  }
 
-    .d-md-inline-block {
-      display: inline-block;
-    }
+  .d-md-block {
+    display: block;
+  }
 
-    .d-md-block {
-      display: block;
-    }
+  .d-md-table {
+    display: table;
+  }
 
-    .d-md-table {
-      display: table;
-    }
+  .d-md-table-row {
+    display: table-row;
+  }
 
-    .d-md-table-row {
-      display: table-row;
-    }
+  .d-md-table-cell {
+    display: table-cell;
+  }
 
-    .d-md-table-cell {
-      display: table-cell;
-    }
+  .d-md-flex {
+    display: box;
+    display: flexbox;
+    display: flex;
+  }
 
-    .d-md-flex {
-      display: box;
-      display: flexbox;
-      display: flex;
-    }
-
-    .d-md-inline-flex {
-      display: inline-box;
-      display: inline-flexbox;
-      display: inline-flex;
-    }
+  .d-md-inline-flex {
+    display: inline-box;
+    display: inline-flexbox;
+    display: inline-flex;
   }
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
+@media all and (min-width: 992px) {
+  .d-lg-none {
+    display: none;
+  }
 
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (min-width: 992px) {
-    .d-lg-none {
-      display: none;
-    }
+  .d-lg-inline {
+    display: inline;
+  }
 
-    .d-lg-inline {
-      display: inline;
-    }
+  .d-lg-inline-block {
+    display: inline-block;
+  }
 
-    .d-lg-inline-block {
-      display: inline-block;
-    }
+  .d-lg-block {
+    display: block;
+  }
 
-    .d-lg-block {
-      display: block;
-    }
+  .d-lg-table {
+    display: table;
+  }
 
-    .d-lg-table {
-      display: table;
-    }
+  .d-lg-table-row {
+    display: table-row;
+  }
 
-    .d-lg-table-row {
-      display: table-row;
-    }
+  .d-lg-table-cell {
+    display: table-cell;
+  }
 
-    .d-lg-table-cell {
-      display: table-cell;
-    }
+  .d-lg-flex {
+    display: box;
+    display: flexbox;
+    display: flex;
+  }
 
-    .d-lg-flex {
-      display: box;
-      display: flexbox;
-      display: flex;
-    }
-
-    .d-lg-inline-flex {
-      display: inline-box;
-      display: inline-flexbox;
-      display: inline-flex;
-    }
+  .d-lg-inline-flex {
+    display: inline-box;
+    display: inline-flexbox;
+    display: inline-flex;
   }
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
+@media all and (min-width: 1200px) {
+  .d-xl-none {
+    display: none;
+  }
 
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (min-width: 1200px) {
-    .d-xl-none {
-      display: none;
-    }
+  .d-xl-inline {
+    display: inline;
+  }
 
-    .d-xl-inline {
-      display: inline;
-    }
+  .d-xl-inline-block {
+    display: inline-block;
+  }
 
-    .d-xl-inline-block {
-      display: inline-block;
-    }
+  .d-xl-block {
+    display: block;
+  }
 
-    .d-xl-block {
-      display: block;
-    }
+  .d-xl-table {
+    display: table;
+  }
 
-    .d-xl-table {
-      display: table;
-    }
+  .d-xl-table-row {
+    display: table-row;
+  }
 
-    .d-xl-table-row {
-      display: table-row;
-    }
+  .d-xl-table-cell {
+    display: table-cell;
+  }
 
-    .d-xl-table-cell {
-      display: table-cell;
-    }
+  .d-xl-flex {
+    display: box;
+    display: flexbox;
+    display: flex;
+  }
 
-    .d-xl-flex {
-      display: box;
-      display: flexbox;
-      display: flex;
-    }
-
-    .d-xl-inline-flex {
-      display: inline-box;
-      display: inline-flexbox;
-      display: inline-flex;
-    }
+  .d-xl-inline-flex {
+    display: inline-box;
+    display: inline-flexbox;
+    display: inline-flex;
   }
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
+@media print {
+  .d-print-none {
+    display: none;
+  }
 
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media print {
-    .d-print-none {
-      display: none;
-    }
+  .d-print-inline {
+    display: inline;
+  }
 
-    .d-print-inline {
-      display: inline;
-    }
+  .d-print-inline-block {
+    display: inline-block;
+  }
 
-    .d-print-inline-block {
-      display: inline-block;
-    }
+  .d-print-block {
+    display: block;
+  }
 
-    .d-print-block {
-      display: block;
-    }
+  .d-print-table {
+    display: table;
+  }
 
-    .d-print-table {
-      display: table;
-    }
+  .d-print-table-row {
+    display: table-row;
+  }
 
-    .d-print-table-row {
-      display: table-row;
-    }
+  .d-print-table-cell {
+    display: table-cell;
+  }
 
-    .d-print-table-cell {
-      display: table-cell;
-    }
+  .d-print-flex {
+    display: box;
+    display: flexbox;
+    display: flex;
+  }
 
-    .d-print-flex {
-      display: box;
-      display: flexbox;
-      display: flex;
-    }
-
-    .d-print-inline-flex {
-      display: inline-box;
-      display: inline-flexbox;
-      display: inline-flex;
-    }
+  .d-print-inline-flex {
+    display: inline-box;
+    display: inline-flexbox;
+    display: inline-flex;
   }
 }
 
@@ -1900,7 +1655,7 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem hsla(0, 0%, 0%, 0.15);
 }
 
 .img-fluid {
@@ -1932,7 +1687,7 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .border--dark {
-  border-color: undefined;
+  border-color: var(--themeColor5);
 }
 
 .list-group {
@@ -1947,16 +1702,16 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #22262a;
+  color: hsl(210, 11%, 15%);
   text-decoration: none;
-  background-color: hsl(0, 0%, 100%);
-  border: 1px solid rgba(22, 14, 14, 0.125);
+  background-color: var(--white);
+  border: 1px solid hsla(0, 22%, 7%, 0.125);
 }
 
 .frontpage-title {
   margin: 1rem auto;
   font-weight: 900;
-  font-size: 2.25rem;
+  font-size: var(--h2);
 }
 
 .frontpage-section {
@@ -1974,19 +1729,11 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   justify-content: space-around;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-1427-20e) {
-    .frontpage-section .git-section,
-    .frontpage-section .site-section {
-      flex-wrap: wrap;
-    }
+@media (max-width: 768px) {
+  .frontpage-section .git-section,
+  .frontpage-section .site-section {
+    flex-wrap: wrap;
   }
-  -pcs-mv-1427-20e: 768px;
 }
 
 .frontpage-section .git-section a,
@@ -1994,14 +1741,9 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   margin-bottom: 0;
 }
 
-.frontpage-section .git-section a:hover {
-  outline: 2px solid hsl(187, 49%, 25%);
-  color: inherit;
-  text-decoration: none;
-}
-
+.frontpage-section .git-section a:hover,
 .frontpage-section .site-section a:hover {
-  outline: 2px solid hsl(187, 49%, 25%);
+  outline: 2px solid var(--themeBGColorAccent);
   color: inherit;
   text-decoration: none;
 }
@@ -2012,15 +1754,10 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   max-height: 500px;
 }
 
-.frontpage-section .git-section .card .card__header {
-  background-color: inherit;
-  color: hsl(187, 49%, 25%);
-  font-size: 1.6rem;
-}
-
+.frontpage-section .git-section .card .card__header,
 .frontpage-section .site-section .card .card__header {
   background-color: inherit;
-  color: hsl(187, 49%, 25%);
+  color: var(--themeBGColorAccent);
   font-size: 1.6rem;
 }
 
@@ -2054,7 +1791,7 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .frontpage-section .git-section .git-icons {
-  color: hsl(187, 49%, 25%);
+  color: var(--themeBGColorAccent);
   display: flex;
   justify-content: space-around;
   margin-bottom: 0.5rem;
@@ -2064,16 +1801,9 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   margin: auto 1rem;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: --breakpoint-lg) {
-    .frontpage-section .site-section figure {
-      display: none;
-    }
+@media (max-width: 992px) {
+  .frontpage-section .site-section figure {
+    display: none;
   }
 }
 
@@ -2083,20 +1813,13 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 .frontpage-section .site-section figure > figcaption {
-  font-size: undefined;
+  font-size: var(--small-text);
   padding-left: 2rem;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: --breakpoint-lg) {
-    .frontpage-section .site-section > div {
-      margin: 0 0.75rem;
-    }
+@media (max-width: 992px) {
+  .frontpage-section .site-section > div {
+    margin: 0 0.75rem;
   }
 }
 
@@ -2114,18 +1837,10 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
   padding: 2rem;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-1516-20e) {
-    .frontpage-section .site-section img {
-      max-width: 80%;
-    }
+@media (max-width: 768px) {
+  .frontpage-section .site-section img {
+    max-width: 80%;
   }
-  -pcs-mv-1516-20e: 768px;
 }
 
 .frontpage-section .site-section .card--bordered {
@@ -2191,8 +1906,20 @@ dl li {
   width: 100% !important;
 }
 
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
 .white-svg {
-  fill: hsl(0, 0%, 100%);
+  fill: var(--white);
 }
 
 .span2 {
@@ -2208,7 +1935,7 @@ dl li {
 /************** RSS Feed *************/
 .feed-item-title a {
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: var(--fs-normal);
   line-height: 1.4rem;
   display: inline-block;
   margin: 0 auto;
@@ -2225,109 +1952,7 @@ dl li {
 
 /*********** End RSS CSS **********/
 #outputSection a {
-  color: hsl(174, 80%, 27%);
-}
-
-#techHQFooter {
-  grid-column: span 2;
-  padding-left: 20px;
-}
-
-#techHQFooter a {
-  color: inherit;
-  margin: 0 1rem;
-  font-weight: 500;
-}
-
-#techHQFooter a:hover {
-  outline: 1px dotted black;
-  text-decoration: none;
-}
-
-#linux-primary-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-#linux-primary-content .card {
-  min-width: 300px;
-  border-radius: 0.75rem;
-  width: 40%;
-}
-
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media (max-width: 880px) {
-    #linux-primary-content .card {
-      width: 90%;
-    }
-  }
-}
-
-#linux-primary-content .card .card__header {
-  display: flex;
-  justify-content: flex-start;
-  border-radius: 0.75rem 0.75rem 0 0;
-}
-
-.EducationalSites {
-  grid-column: span 2;
-  width: 65%;
-}
-
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-1660-20e) {
-    .EducationalSites {
-      width: 90%;
-      grid-column: auto;
-    }
-
-    .EducationalSites a {
-      display: block;
-    }
-  }
-  -pcs-mv-1660-20e: 768px;
-}
-
-.EducationalSites .card__body {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.EducationalSites .card__body * {
-  margin: 0.25rem;
-}
-
-#desktopSection .card {
-  box-shadow: none;
-  border: undefined;
-  max-height: none;
-}
-
-#linuxVersions .distroBaseTitle {
-  text-decoration: underline;
-  font-weight: 900;
-}
-
-#linuxVersions .versionTitle {
-  margin-right: 0.5rem;
-}
-
-#linuxVersions .version {
-  color: hsl(187, 49%, 25%);
+  color: var(--themeColor3);
 }
 
 .hiddenAccessLinkText {
@@ -2340,17 +1965,17 @@ Please report here: https://github.com/WolfgangKluge/postcss-media-variables/iss
 }
 
 code {
-  color: hsl(0, 0%, 96%);
-  background-color: hsl(0, 0%, 20%);
+  color: var(--themeColor1);
+  background-color: var(--themeColor5);
   display: inline-block;
 }
 
 .greenText {
-  color: hsl(120, 100%, 30%);
+  color: var(--green);
 }
 
 .redText {
-  color: hsl(0, 100%, 50%);
+  color: var(--red);
 }
 
 #browserSection .card .card__header {
@@ -2358,7 +1983,7 @@ code {
 }
 
 .darkBG_svg {
-  fill: hsl(0, 0%, 100%);
+  fill: var(--white);
   display: inline;
 }
 
@@ -2375,13 +2000,13 @@ code {
 }
 
 .searchbarContainer button {
-  background: hsl(120, 100%, 20%);
-  border: 1px solid hsl(120, 100%, 20%);
-  box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
-  color: hsl(0, 0%, 100%);
+  background: var(--forrestGreen);
+  border: 1px solid var(--forrestGreen);
+  box-shadow: 0 2px 8px 0 hsla(120, 33%, 12%, 0.2);
+  color: var(--white);
   border-radius: 0.25rem;
   padding: 0.4em 0.875em;
-  font-size: 1.05rem;
+  font-size: var(--fs-normal);
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
@@ -2391,16 +2016,8 @@ code {
   margin: 0 auto;
 }
 
-::-postcss-media-variables {
-  /* If you can see this comment, you might have forgotten to add
-postcss-media-variables to the plugin list for a second time.
-
-Otherwise, it's a bug :) Sorry
-Please report here: https://github.com/WolfgangKluge/postcss-media-variables/issues */
-  @media all and (max-width: -pcs-mv-1753-20e) {
-    #GAOTD {
-      width: 90%;
-    }
+@media (max-width: 768px) {
+  #GAOTD {
+    width: 90%;
   }
-  -pcs-mv-1753-20e: 768px;
 }

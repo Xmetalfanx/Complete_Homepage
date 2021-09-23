@@ -13,7 +13,7 @@ const
     cssnano = require('cssnano'),
     rename = require("gulp-rename"),
     doiuse = require('doiuse');
-    
+
     // prettier = require("gulp-prettier"),
     gulpSassLint= require("gulp-sass-lint"),
     gulpStylelint = require('gulp-stylelint');
@@ -74,41 +74,38 @@ exports.lintFixScss = lintFixScss;
 async function compileSCSSToCSS() {
   var plugins = [
     //doiuse({}),
-    // mediaVariables({}),
-    //cssVariables({}),
-    //sorting({}),
+    sorting({}),
     colorConverter({
       outputColorFormat: 'hsl'
 
     }),
-    // colorguard({
+    // // colorguard({
     //   allowEquivalentNotation: true
     // })
   ];
 
   return (
     gulp
-      .src([cssConfig.scssPath])
+      .src('./scss/styling.scss')
 
       .pipe(sass.sync().on('error', sass.logError))
-      
-      // 1 - run postcss tasks 
+
+      // 1 - run postcss tasks
       .pipe(postcss(plugins))
-      
+
       // 2 - groups media queries
       //.pipe(gcmq())
-    
-      // 3 -      
-      //.pipe(
-      //  gulpStylelint({
-      //    fix: true,
-      //    failAfterError: false,
-      //  })
-      // )
+
+      .pipe(
+        gulpStylelint({
+          fix: true,
+          failAfterError: false,
+        })
+      )
 
       // create sourcemap
       .pipe(sourcemaps.write('../maps'))
-      .pipe(gulp.dest([cssConfig.cssPath]))
+      .pipe(gulp.dest('./css/'))
   );
 
 }

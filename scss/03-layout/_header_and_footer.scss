@@ -1,4 +1,5 @@
-@use "01-intial/index"as *;
+@use "../01-abstracts/index" as *;
+//@use "../05-fromBS/index" as *;
 
 header,
 footer {
@@ -15,7 +16,7 @@ footer {
   align-items: center;
 
   // This is a problem on mobile
-  max-height: 4.5rem;
+  // max-height: 4.5rem;
 
   h1,
   h2,
@@ -43,12 +44,13 @@ footer {
 footer {
   padding: 1.5rem;
   grid-area: footer;
-
   // I could slap other classes on each img tag, or do this ... sort of redundant CSS but it removes the need for extra css tags in the html
   img {
+    display: inline;
+    margin: 0.4rem;
     max-width: 32px;
     max-height: 32px;
-    margin: 0.4rem;
+    vertical-align: bottom;
   }
 
   .contacts,
@@ -57,7 +59,7 @@ footer {
   }
 
   .site-made {
-    @media all and (max-width: var(--breakpoint-lg)) {
+    @media ($breakpoint-lg) {
       display: none;
     }
   }
@@ -65,19 +67,18 @@ footer {
   .contacts {
     text-align: right;
 
-    @media all and (max-width: var(--breakpoint-lg)) {
+    @media ($breakpoint-lg) {
       width: 100% !important;
     }
   }
 }
 
 header {
+  @include darkBG;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColor5);
   grid-area: header;
-
-  @include darkBG;
 
   .fa {
     margin-right: 1rem;
@@ -105,7 +106,7 @@ header {
         color: var(--turquoise40);
       }
 
-      @media all and (max-width: var(--breakpoint-lg )) {
+      @media ($breakpoint-lg) {
         display: none;
       }
     }
@@ -114,7 +115,7 @@ header {
     .icon {
       display: none;
 
-      @media all and (max-width: var(--breakpoint-lg)) {
+      @media ($breakpoint-lg) {
         float: right;
         display: block;
         padding: 0;
@@ -123,7 +124,7 @@ header {
   }
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media all and (max-width: var(--breakpoint-md))  {
+  @media ($breakpoint-md) {
     .topnav.responsive {
       position: absolute;
       width: 100%;

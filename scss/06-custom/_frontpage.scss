@@ -1,3 +1,5 @@
+@use "../01-abstracts/index" as *;
+
 // Things specific to the landing page of the site
 
 .frontpage-title {
@@ -20,7 +22,7 @@
     display: inline-flex;
     justify-content: space-around;
 
-    @media all and (max-width: var(--breakpoint-md)) {
+    @media ($breakpoint-md) {
       flex-wrap: wrap;
     }
 
@@ -95,7 +97,7 @@
 
   .site-section {
     figure {
-      @media all and (max-width: (--breakpoint-lg)) {
+      @media ($breakpoint-lg) {
         display: none;
       }
 
@@ -110,7 +112,7 @@
       }
     }
 
-    @media all and (max-width: (--breakpoint-lg)) {
+    @media ($breakpoint-lg) {
       > div {
         margin: 0 0.75rem;
       }
@@ -130,11 +132,10 @@
       width: 600px;
       padding: 2rem;
 
-      @media all and (max-width: var(--breakpoint-md)) {
+      @media ($breakpoint-md) {
         max-width: 80%;
       }
     }
-
 
     // for bigger images to the side
     .card--bordered {

@@ -68,7 +68,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . ",
     "lint:fix": "eslint . --fix",
-    "fix-styles": "prettier-stylelint --write 'universalSCSS/**/*.{css,scss}' ",
+    "fix-scss": "prettier-stylelint --write 'scss/**/*.{css,scss}' ",
+    "compile-scss": "sass -c --verbose scss/styling.scss styling.css",
     "lint-md": "remark .",
     "minify-css": "postcss css/styling.css > css/styling-min.css"
   },
