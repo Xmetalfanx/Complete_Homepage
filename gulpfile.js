@@ -70,6 +70,7 @@ exports.lintFixScss = lintFixScss;
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
 async function compileSCSSToCSS() {
   var plugins = [
+    normalize({}),
     //doiuse({}),
     sorting({}),
     colorConverter({

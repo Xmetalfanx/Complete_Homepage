@@ -2,15 +2,15 @@
 
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
 #linux-primary-content {
+  align-content: flex-start;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
   justify-content: space-evenly;
   width: 100%;
 
   .card {
-    min-width: 300px;
     border-radius: 0.75rem;
+    min-width: 300px;
     width: 40%;
 
     @media (max-width: 880px) {
@@ -18,9 +18,9 @@
     }
 
     .card__header {
+      border-radius: 0.75rem 0.75rem 0 0;
       display: flex;
       justify-content: flex-start;
-      border-radius: 0.75rem 0.75rem 0 0;
     }
   }
 }
@@ -68,8 +68,8 @@
 #linuxVersions {
   // the top level of the column
   .distroBaseTitle {
-    text-decoration: underline;
     font-weight: 900;
+    text-decoration: underline;
   }
 
   // The Titles of the Distro/Versions
@@ -97,7 +97,7 @@
   }
 
   a:hover {
-    outline: 1px dotted black;
+    outline: 1px dotted var(--black);
     text-decoration: none;
   }
 }
