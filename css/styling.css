@@ -436,7 +436,7 @@ header .topnav .icon {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   header .topnav.responsive {
     position: absolute;
     width: 100%;
@@ -962,16 +962,16 @@ header .topnav .icon {
 }
 
 #linux-primary-content {
+  align-content: flex-start;
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
   justify-content: space-evenly;
   width: 100%;
 }
 
 #linux-primary-content .card {
-  min-width: 300px;
   border-radius: 0.75rem;
+  min-width: 300px;
   width: 40%;
 }
 
@@ -982,9 +982,9 @@ header .topnav .icon {
 }
 
 #linux-primary-content .card .card__header {
+  border-radius: 0.75rem 0.75rem 0 0;
   display: flex;
   justify-content: flex-start;
-  border-radius: 0.75rem 0.75rem 0 0;
 }
 
 .EducationalSites {
@@ -1020,8 +1020,8 @@ header .topnav .icon {
 }
 
 #linuxVersions .distroBaseTitle {
-  text-decoration: underline;
   font-weight: 900;
+  text-decoration: underline;
 }
 
 #linuxVersions .versionTitle {
@@ -1044,7 +1044,7 @@ header .topnav .icon {
 }
 
 #techHQFooter a:hover {
-  outline: 1px dotted hsl(0, 0%, 0%);
+  outline: 1px dotted var(--black);
   text-decoration: none;
 }
 

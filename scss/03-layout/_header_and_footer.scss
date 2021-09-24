@@ -129,7 +129,7 @@ header {
   }
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media ($breakpoint-md) {
+  @media ($breakpoint-lg) {
     .topnav.responsive {
       position: absolute;
       width: 100%;
