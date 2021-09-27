@@ -53,8 +53,6 @@
 
     /** cards in Sidebar, specifically ... i think any mainSection global .card stuff carries over ***/
     .card {
-      //width: 85%;
-
       .card__header {
         padding: 0.5rem 1rem;
       }
@@ -75,10 +73,26 @@
   .primary-content {
     grid-area: pContent;
 
+    // card everywhere else is flex... why grid here? ... shouldn't i just switch them all to flex?
+    // was there a need for grid? ...
     .card {
       .card__header {
+
+        ////////////////////////////////////////////////////////////////////
+        // css grid
+        /// justify content will put a space in between  columns left to right
+        // align items will align top to bottom
+
+        //align-items: center;
+        //display: grid;
+        //justify-content: space-between;
+
+        //////////////////////////////////////////////////////////////////////////
+
+        ///////////////////////////////////////////////////////////
+        // Flex
+        // display is already flex ... no need to repeat
         align-items: center;
-        display: grid;
         justify-content: space-between;
       }
     }

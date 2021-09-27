@@ -14,11 +14,6 @@
   justify-content: space-between;
 }
 
-// Test only for now
-.white-svg {
-  fill: var(--white);
-}
-
 // for display:grid, spans two columns
 .span2 {
   @include span2;
@@ -63,7 +58,7 @@
 
 /////////////////////////////////////////////
 
-// New idea for screen readers
+// For screen readers
 .hiddenAccessLinkText {
   clip: rect(1px, 1px, 1px, 1px);
   height: 1px;
@@ -73,7 +68,6 @@
   width: 1px;
 }
 
-// this seems like it should be in an earlier (01 or 02) level scss file
 code {
   @include darkBG;
   display: inline-block;
@@ -87,13 +81,6 @@ code {
 
 .redText {
   color: var(--red);
-}
-
-// thought i had this elsewhere
-#browserSection .card {
-  .card__header {
-    display: flex;
-  }
 }
 
 .darkBG_svg {
