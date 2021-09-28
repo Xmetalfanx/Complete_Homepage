@@ -1,7 +1,7 @@
 @use "../01-abstracts/index" as *;
-@use "../02-intial/index" as *;
+@use "../02-initial/index" as *;
 
-// moved here from 02-intial location ... not sure why it was there anyway
+// moved here from 02-initial location ... not sure why it was there anyway
 .jc-space-evenly {
   justify-content: space-evenly;
 }
@@ -73,7 +73,7 @@ code {
   display: inline-block;
 }
 
-// I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a btter way to do this
+// I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a better way to do this
 // The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something
 .greenText {
   color: var(--green);
