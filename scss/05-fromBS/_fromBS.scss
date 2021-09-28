@@ -28,7 +28,7 @@
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem var(--black);
 }
 
 .img-fluid {
@@ -67,7 +67,7 @@
 }
 
 /////////////////////////////////////////////////////////////////
-// Liste related
+// List related
 
 .list-group {
   display: flex;
@@ -84,5 +84,5 @@
   color: hsl(210, 11%, 15%);
   text-decoration: none;
   background-color: var(--white);
-  border: 1px solid hsla(0, 22%, 7%, 0.125);
+  border: 1px solid  var(--grey1);
 }

@@ -11,9 +11,7 @@ html {
 
 body {
   background-color: var(--themeColor1);
-
   display: grid;
-
   grid-template-areas:
     "header"
     "main-section"
@@ -21,7 +19,6 @@ body {
   //grid-template-rows: 1fr auto 1fr;
   min-height: 100%;
 }
-
 
 .card {
   box-shadow: 0 0.5rem 1rem var(--dark_grey1);

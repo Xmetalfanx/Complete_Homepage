@@ -7,6 +7,7 @@
   justify-items: stretch;
   padding: 1.5rem;
 
+  // is this REALLY needed?
   h1,
   h2,
   h3,
@@ -97,7 +98,7 @@
       }
     }
 
-    // the idea is for readability
+    // the idea is for readability as far as the ch unit
     p {
       margin: 1rem auto;
       max-width: 72ch;

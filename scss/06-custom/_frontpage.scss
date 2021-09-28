@@ -50,7 +50,8 @@
         color: var(--themeBGColorAccent);
 
         // padding: .5rem 1rem;
-        font-size: 1.6rem;
+        //font-size: 1.6rem;
+        font-size: var(--h3);
 
         a {
           background-color: inherit;
@@ -118,7 +119,8 @@
       }
     }
 
-    // why is this here? ... why change the font-size ?
+    // why is this here? ... why change the font-size ? why not use the h3 font size var?
+    // note that var is NOT 1.7rem
     .h3,
     a .h3 {
       display: block;

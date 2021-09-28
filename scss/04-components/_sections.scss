@@ -17,10 +17,9 @@
       width: 90%;
     }
 
+    // why? ... imaybe this should be in the base card__header sstyle
     .card__header {
       border-radius: 0.75rem 0.75rem 0 0;
-      display: flex;
-      justify-content: flex-start;
     }
   }
 }

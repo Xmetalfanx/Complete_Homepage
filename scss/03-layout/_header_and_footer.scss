@@ -49,6 +49,7 @@ footer {
 footer {
   padding: 1.5rem;
   grid-area: footer;
+
   // I could slap other classes on each img tag, or do this ... sort of redundant CSS but it removes the need for extra css tags in the html
   img {
     display: inline;
@@ -79,7 +80,6 @@ footer {
 }
 
 header {
-  @include darkBG;
   box-shadow: 2px 2px 5px var(--black);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColor5);
@@ -94,6 +94,7 @@ header {
     color: inherit;
   }
 
+  // the menu bar to the top right
   .topnav {
     display: flex;
     flex-direction: row;

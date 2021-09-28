@@ -4,8 +4,11 @@ $breakpoint-md: "max-width: 768px";
 $breakpoint-lg: "max-width: 992px";
 $breakpoint-xl: "max-width: 1200px";
 
+// not sure if black50 makes sense yet ... i mean is the black less intense? ... isn't there a grey for that instead?
+
 $colors: (
   "black": hsl(0, 0%, 0%),
+  "black50": rgba(0, 0, 0, 0.5),
   "tan_l": hsl(54, 100%, 90%),
   "tan_d": hsl(54, 50%, 75%),
   "white": hsl(0, 0%, 100%),
@@ -37,7 +40,7 @@ $colors: (
   }
 
   // color pallette
-  --themeColor1: hsl(0, 0%, 96%);
+  --themeColor1: hsl(--white);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
   --themeColor4: var(--grey4);
@@ -45,7 +48,7 @@ $colors: (
 
   // leave names for now
   --themeBGColorMain: var(--themeColor4);
-  --themeBGColorAccent: var(--darkturquoise);
+  --themeBGColorAccent: var(--themeColor2);
 
   // End Colors
   ///////////////////////////////////
@@ -85,15 +88,21 @@ $colors: (
     sans-serif;
   --ForkAwesome: ForkAwesome, serif;
   --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
-  // headers
+  ///////////////////////////////////////////////////////////////////////////////////
+  // font sizes
+  // i think the idea here (wait until webhost is back online to test this) is
+  // to consolidate font sizes instead of having CSS for all different sections that are
+  // slightly different sizes .. i may still have font-size: HOWEVER they will be one of these vars
+  // since i cant test this right now ... I am not sure what to use where though
+  --fs-small: 0.75rem;
+  --fs-normal: 1.05rem;
+  --fs-large: 1.15rem;
+  //////////////////////////////////////
+  // header font sizes
   --h1: 3rem;
   --h2: 2.25rem;
   --h3: 1.5rem;
   --h4: 1.25rem;
   // guess
   --h5: 1.1rem;
-  // font sizes
-  --fs-small: 0.75rem;
-  --fs-normal: 1.05rem;
-  --fs-large: 1.15rem;
 }
