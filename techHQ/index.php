@@ -2,10 +2,14 @@
 
   $pageTitle = "TechHQ Frontpage";
 
-  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-  include ($rootDir . '/templates/tech/open/baseTechMAIN.tpl');
+  $rootDir = getenv('DOCUMENT_ROOT');
+  $base = filter_var($rootDir, FILTER_SANITIZE_URL);
+  //echo $base;
+
+  include  ( $base . '/templates/tech/open/baseTechMAIN.tpl');
 
 ?>
+
 
 <div class="EducationalSites card">
   <div class="card__header">Educational Sites</div>
