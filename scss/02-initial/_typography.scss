@@ -42,3 +42,10 @@ h5,
 .h5 {
   font-size: var(--h5);
 }
+
+// this is a link color ON a whiteBG
+a {
+  color: var(--themeColor3);
+  background-color: transparent;
+  text-decoration: none;
+}

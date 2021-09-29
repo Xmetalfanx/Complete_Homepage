@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
   --black: hsl(0, 0%, 0%);
   --black50: hsla(0, 0%, 0%, 0.5);
@@ -24,13 +26,13 @@
   --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
   --test: hsl(160, 27%, 42%);
-  --themeColor1: hsl(0, 0%, 96%);
+  --themeColor1: hsl(--white);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
   --themeColor4: var(--grey4);
   --themeColor5: var(--grey2);
   --themeBGColorMain: var(--themeColor4);
-  --themeBGColorAccent: var(--darkturquoise);
+  --themeBGColorAccent: var(--themeColor2);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -64,14 +66,16 @@
     sans-serif;
   --ForkAwesome: forkawesome, serif;
   --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+  --fs-small: 0.75rem;
+  --fs-normal: 1.05rem;
+  --fs-large: 1.15rem;
   --h1: 3rem;
   --h2: 2.25rem;
   --h3: 1.5rem;
   --h4: 1.25rem;
   --h5: 1.1rem;
-  --fs-small: 0.75rem;
-  --fs-normal: 1.05rem;
-  --fs-large: 1.15rem;
+  --fa-arrow-right: "";
+  --fa-arrow-down: "";
 }
 
 /* Source: https://piccalil.li/blog/a-modern-css-reset/
@@ -194,6 +198,12 @@ h5,
   font-size: var(--h5);
 }
 
+a {
+  color: var(--themeColor3);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 *,
 body {
   box-sizing: border-box;
@@ -291,12 +301,6 @@ body {
   justify-content: space-between;
 }
 
-a {
-  color: var(--themeColor2);
-  background-color: transparent;
-  text-decoration: none;
-}
-
 header,
 footer {
   display: flex;
@@ -385,8 +389,6 @@ footer .contacts {
 }
 
 header {
-  color: var(--themeColor1);
-  background-color: var(--themeColor5);
   box-shadow: 2px 2px 5px var(--black);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColor5);
@@ -748,14 +750,14 @@ header .topnav .icon {
 .accordion label::before {
   font-family: var(--ForkAwesome);
   margin-right: 0.5rem;
-  content: "\f105";
+  content: var(--fa-arrow-right);
   font-weight: 900;
 }
 
 .accordion input:checked + label::before {
   font-family: var(--ForkAwesome);
   margin-right: 0.5rem;
-  content: "\f107";
+  content: var(--fa-arrow-down);
   font-weight: 900;
 }
 
@@ -856,14 +858,14 @@ header .topnav .icon {
   .sidebar .accordion input + label::before {
     font-family: var(--ForkAwesome);
     margin-right: 0.5rem;
-    content: "\f105";
+    content: var(--fa-arrow-right);
     font-weight: 900;
   }
 
   .sidebar .accordion input:checked + label::before {
     font-family: var(--ForkAwesome);
     margin-right: 0.5rem;
-    content: "\f107";
+    content: var(--fa-arrow-down);
     font-weight: 900;
   }
 
@@ -1694,7 +1696,7 @@ header .topnav .icon {
 .frontpage-section .site-section .card .card__header {
   background-color: inherit;
   color: var(--themeBGColorAccent);
-  font-size: 1.6rem;
+  font-size: var(--h3);
 }
 
 .frontpage-section .git-section .card .card__header a,
