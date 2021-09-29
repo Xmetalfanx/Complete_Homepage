@@ -19,7 +19,7 @@
     &::before {
       font-family: var(--ForkAwesome);
       margin-right: 0.5rem;
-      content: "\f105";
+      content: var(--fa-arrow-right);
       font-weight: 900;
     }
   }
@@ -28,7 +28,7 @@
   input:checked + label::before {
     font-family: var(--ForkAwesome);
     margin-right: 0.5rem;
-    content: "\f107";
+    content: var(--fa-arrow-down);
     font-weight: 900;
   }
 
@@ -144,15 +144,14 @@
       input + label::before {
         font-family: var(--ForkAwesome);
         margin-right: 0.5rem;
-        content: "\f105";
+        content: var(--fa-arrow-right);
         font-weight: 900;
       }
 
-      // f105 = right arrow
       input:checked + label::before {
         font-family: var(--ForkAwesome);
         margin-right: 0.5rem;
-        content: "\f107";
+        content: var(--fa-arrow-down);
         font-weight: 900;
       }
 
