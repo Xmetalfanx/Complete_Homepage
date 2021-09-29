@@ -26,12 +26,12 @@
   --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
   --test: hsl(160, 27%, 42%);
-  --themeColor1: hsl(--white);
+  --themeColor1: var(--white);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
   --themeColor4: var(--grey4);
   --themeColor5: var(--grey2);
-  --themeBGColorMain: var(--themeColor4);
+  --themeBGColorMain: var(--themeColor5);
   --themeBGColorAccent: var(--themeColor2);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
@@ -305,7 +305,7 @@ header,
 footer {
   display: flex;
   color: var(--themeColor1);
-  background-color: var(--themeColor5);
+  background-color: var(--themeBGColorMain);
   font-weight: 900;
   justify-content: space-between;
   align-items: center;
@@ -1900,7 +1900,7 @@ dl li {
 
 code {
   color: var(--themeColor1);
-  background-color: var(--themeColor5);
+  background-color: var(--themeBGColorMain);
   display: inline-block;
 }
 

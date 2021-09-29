@@ -40,14 +40,15 @@ $colors: (
   }
 
   // color pallette
-  --themeColor1: hsl(--white);
+  // consider: swapping 4 and 5 here
+  --themeColor1: var(--white);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
   --themeColor4: var(--grey4);
   --themeColor5: var(--grey2);
 
   // leave names for now
-  --themeBGColorMain: var(--themeColor4);
+  --themeBGColorMain: var(--themeColor5);
   --themeBGColorAccent: var(--themeColor2);
 
   // End Colors

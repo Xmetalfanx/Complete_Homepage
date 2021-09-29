@@ -1,7 +1,7 @@
 
 @mixin darkBG {
   color: var(--themeColor1);
-  background-color: var(--themeColor5);
+  background-color: var(--themeBGColorMain);
 }
 
 @mixin thumbnail--lg {
