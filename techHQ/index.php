@@ -2,11 +2,13 @@
 
   $pageTitle = "TechHQ Frontpage";
 
-  $rootDir = getenv('DOCUMENT_ROOT');
-  $base = filter_var($rootDir, FILTER_SANITIZE_URL);
-  //echo $base;
+  $rootDir = filter_var($_SERVER['DOCUMENT_ROOT'], FILTER_SANITIZE_URL);
+  $template = $rootDir . "/templates/tech/open/baseTechMAIN.tpl";
 
-  include  ( $base . '/templates/tech/open/baseTechMAIN.tpl');
+  echo "RootDir: $rootDir <br/>";
+  echo "Template Location: $template ";
+
+  include $template;
 
 ?>
 
