@@ -2,13 +2,19 @@
 
   $pageTitle = "TechHQ Frontpage";
 
-  $rootDir = filter_var($_SERVER['DOCUMENT_ROOT'], FILTER_SANITIZE_URL);
-  $template = $rootDir . "/templates/tech/open/baseTechMAIN.tpl";
+  switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
 
-  echo "RootDir: $rootDir <br/>";
-  echo "Template Location: $template ";
-
-  include $template;
+  include $siteRoot . "/templates/tech/open/baseTechMAIN.tpl";
 
 ?>
 
@@ -75,8 +81,8 @@
 </div> <!-- closes card -->
 
 
-<?php include $rootDir . '/techHQ/modules/GAOTD.tpl'; ?>
+<?php include $siteRoot . '/techHQ/modules/GAOTD.tpl'; ?>
 
 
 
-<?php include $rootDir . '/modules/tech/baseTechFooter.tpl'; ?>
+<?php include $siteRoot . '/modules/tech/baseTechFooter.tpl'; ?>
