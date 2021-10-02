@@ -100,14 +100,20 @@ code {
     height: 40px;
   }
 
+  #ddgSearch input {
+    padding: 0 .75rem;
+  }
+
   // submit button
+  // why the (minus alpha) so specific box shadow?
   button {
-    background: var(--forrestGreen);
-    border: 1px solid var(--forrestGreen);
+    background: var(--forrest_green);
+    border: 0;
+    border-radius: 0.25rem;
     box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
     color: var(--white);
-    border-radius: 0.25rem;
-    padding: 0.4em 0.875em;
     font-size: var(--fs-normal);
+    outline: 1px solid var(--forrest_green);
+    padding: 0.4em 0.875em;
   }
 }
