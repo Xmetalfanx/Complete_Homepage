@@ -2,8 +2,19 @@
 
 	$pageTitle = 'Linux Myths';
 	
-  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-  include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+  include $siteRoot . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 ?>
 
   <p>You have to be a &quot;programmer&quot; or &quot;computer expert&quot; to use and understand Linux </p>
@@ -21,4 +32,4 @@
   <p>IF YOU WANT to install the distribution  at that point, there is usually a &quot;Install &lt;distribution name here&gt;&quot;
    icon right on the desktop to get the install started.</p>
 
-<?php require $rootDir ."/modules/footer.tpl"; ?>
+<?php require $siteRoot ."/modules/footer.tpl"; ?>

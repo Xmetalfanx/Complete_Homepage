@@ -3,10 +3,21 @@
 	$pageTitle = 'Favorite Apps';
   
   #not sure why this is here 
-  #include $rootDir . '/templates/linux/massLinuxInclude.tpl';
+  #include $siteRoot . '/templates/linux/massLinuxInclude.tpl';
   
-  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-  include $rootDir . "/templates/linux/baseLinuxAPP.tpl";
+switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+  include $siteRoot . "/templates/linux/baseLinuxAPP.tpl";
 
 ?>
 
@@ -76,4 +87,4 @@
   </li>
 </ul>
 
-<?php require $rootDir ."/modules/footer.tpl"; ?>
+<?php require $siteRoot ."/modules/footer.tpl"; ?>

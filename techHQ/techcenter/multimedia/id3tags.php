@@ -2,8 +2,19 @@
 
 	$pageTitle = ' Id3 Tags';
 
-  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-  include $rootDir . "/templates/tech/open/baseTechCenter.tpl";
+switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+  include $siteRoot . "/templates/tech/open/baseTechCenter.tpl";
 ?>
 
 <h1>Introduction</h1>
@@ -43,4 +54,4 @@ A Cross Platform option, written in Python
 
 </div> <!-- closes main-section--right-wide -->
 <!-- include tech footer, than the startpage box and then the regular footer -->
-<?php include($rootDir . '/modules/tech/baseTechFooter.tpl'); ?>
+<?php include($siteRoot . '/modules/tech/baseTechFooter.tpl'); ?>

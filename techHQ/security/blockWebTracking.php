@@ -214,4 +214,4 @@ ul
 
 
 
-	<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>
+	<?php require $siteRoot . "/modules/tech/baseTechFooter.tpl"; ?>

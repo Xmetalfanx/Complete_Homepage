@@ -2,8 +2,19 @@
 
 	$pageTitle = 'Tutorial Index Page';
 
-  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-  include $rootDir . "/templates/linux/baseLinuxTutorials.tpl";
+switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+  include $siteRoot . "/templates/linux/baseLinuxTutorials.tpl";
 
   ?>
 
@@ -20,4 +31,4 @@ partition/how to partition" type tutorials ... at least that is my plan at the m
 </div> <!-- Closes second column -->
 </div> <!-- Closes the row ... what use to be mainBody in my CSS-->
 
-<?php require $rootDir ."/modules/footer.tpl"; ?>
+<?php require $siteRoot ."/modules/footer.tpl"; ?>

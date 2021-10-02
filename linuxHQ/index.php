@@ -3,12 +3,20 @@
     $sectionTitle='';
     $pageTitle="LinuxHQ Frontpage";
 
-    #$rootDir = dirname(__FILE__);
-    #echo "<p>The full path to this page is $rootDir </p>"
+    switch ($_SERVER['HTTP_HOST']) {
+      case 'xmetal.x10.mx':
+          $siteRoot = 'xmetal.x10.mx';
+          break;
+      case 'xmetal.awardspace.us':
+          $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+          break;
+      default:
+          $siteRoot = 'local.domain';
+          break;
+    }
 
-    $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
 
-    include ($rootDir . 'templates/linux/open/baseLinuxTemplateL.tpl');
+    include ($siteRoot . 'templates/linux/open/baseLinuxTemplateL.tpl');
 ?>
 
   <div class="primary-content">
@@ -48,16 +56,16 @@
 
 
     <!-- OMGUbuntu RSS feed/news -->
-    <?php include $rootDir . "/linuxHQ/modules/omgubuntu.tpl"; ?>
+    <?php include $siteRoot . "/linuxHQ/modules/omgubuntu.tpl"; ?>
 </div>
 
   <div class="sidebar d-none d-md-block">
     <!-- Distrowatch RSS Feed -->
-    <?php include $rootDir . "/linuxHQ/modules/distrowatch.tpl"; ?>
+    <?php include $siteRoot . "/linuxHQ/modules/distrowatch.tpl"; ?>
   </div>
 
 
 
 </div> <!-- Ends the mainSection div....flexContainer's div is closed IN the footer file below  -->
 
-<?php include $rootDir . "/modules/footer.tpl"; ?>
+<?php include $siteRoot . "/modules/footer.tpl"; ?>

@@ -2,8 +2,19 @@
 
 	 $pageTitle = 'Ad/Content Blocking - ';
 
-	 $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-	 include $rootDir . "/templates/tech/open/baseTechBrowser.tpl";
+	 switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+	 include $siteRoot . "/templates/tech/open/baseTechBrowser.tpl";
 
 ?>
 
@@ -27,4 +38,4 @@
 
 
 
-<?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>
+<?php require $siteRoot . "/modules/tech/baseTechFooter.tpl"; ?>

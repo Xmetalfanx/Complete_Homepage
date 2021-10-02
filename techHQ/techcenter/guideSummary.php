@@ -2,8 +2,19 @@
 
   $pageTitle ='Guide Summary';
   
-  $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-  include $rootDir . "/templates/tech/baseTechCenter.tpl";
+  switch ($_SERVER['HTTP_HOST']) {
+      case 'xmetal.x10.mx':
+          $siteRoot = 'xmetal.x10.mx';
+          break;
+      case 'xmetal.awardspace.us':
+          $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+          break;
+      default:
+          $siteRoot = 'local.domain';
+          break;
+    }
+
+  include $siteRoot . "/templates/tech/baseTechCenter.tpl";
 ?>
 
   <p>This is a short (hopefully) guide with the tips I list to the left, all in one location. This would be the steps I would take (assuming its not infected with
@@ -302,4 +313,4 @@
     <img src="../graphics/computer/ordinateur-47.gif" alt="Happy Computer" width="106" height="117" class="center" />
   </p>
 
-  <?php require $rootDir ."/modules/footer.tpl"; ?>
+  <?php require $siteRoot ."/modules/footer.tpl"; ?>

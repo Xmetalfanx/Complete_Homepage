@@ -4,7 +4,7 @@
   $title = 'Software Section - Drive Imaging and Partitioning';
 
   
-  include($rootDir . "/templates/tech/baseTechSoftware.tpl");
+  include($siteRoot . "/templates/tech/baseTechSoftware.tpl");
 
 ?>
 
@@ -25,4 +25,4 @@
     <p class="justify">Remember if you get a bootable CD with either <span class="redtext">PartImage</span> or <span class="redtext">GParted</span> on them ... YOU DON'T HAVE TO USE LINUX necessarily ... meaning you can adjust and change a bunch of NTFS partitions with a bootable copy of GParted, and install Windows only. ... Don't think &quot;I have to install full blown Linux to use either of these </p>
     <p class="justify">I hope to have a review of PartImage backing up Windows NTFS up soon, so you all can know if that's as good as I think it is. </p>
     </div>
-    <?php require $rootDir . "/modules/tech/baseTechFooter.tpl"; ?>
+    <?php require $siteRoot . "/modules/tech/baseTechFooter.tpl"; ?>

@@ -2,8 +2,19 @@
 
 	$pageTitle = 'Partitions... What are they?';
 	
-	$rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-	include $rootDir . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+	include $siteRoot . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
 ?>
 
 
@@ -25,4 +36,4 @@
 		*** THE POINT I WANT TO MAKE IS AS LONG AS YOU DO YOUR RESEARCH, AND DO NOT JUST &quot;BLINDLY CLICK&quot; THINGS WITHOUT READING WHAT YOU'RE DOING ... YOU WILL NOT HAVE ISSUES ... IT'S (IN MY OPINION) THE PEOPLE WHO DO NOT PAY ATTENTION AND JUST BLINDLY CLICK "NEXT" ALL THE TIME WHO RUN INTO PROBLEMS/HEADACHES</p>
 
 
-<?php require $rootDir ."/modules/footer.tpl"; ?>
+<?php require $siteRoot ."/modules/footer.tpl"; ?>

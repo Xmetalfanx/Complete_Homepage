@@ -1,8 +1,19 @@
 <?php
 		$pageTitle = 'Frontpage';
 		
-    $rootDir = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
-    include $rootDir . "/templates/linux/open/baseLinuxTIC.tpl";
+  switch ($_SERVER['HTTP_HOST']) {
+    case 'xmetal.x10.mx':
+        $siteRoot = 'xmetal.x10.mx';
+        break;
+    case 'xmetal.awardspace.us':
+        $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
+        break;
+    default:
+        $siteRoot = 'local.domain';
+        break;
+  }
+
+    include $siteRoot . "/templates/linux/open/baseLinuxTIC.tpl";
 ?>
 
 <img src="/linuxHQ/graphics/mac_win_lin.jpg" alt="Mac Windows and  Linux with Tux Graphic"/><br/>This section will contain Themes, Icon pack, and cursor information.
@@ -56,4 +67,4 @@
     </div>  <!-- Closes second col -->
     </div> <!-- Closes Row -->
     
-<?php require $rootDir ."/modules/footer.tpl"; ?>
+<?php require $siteRoot ."/modules/footer.tpl"; ?>

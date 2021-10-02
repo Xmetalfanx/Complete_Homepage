@@ -7,9 +7,9 @@
 </div>
 
 <!-- Include search box -->
-<?php include $rootDir . "/modules/ddg.tpl"; ?>
+<?php include $siteRoot . "/modules/ddg.tpl"; ?>
 
 <!-- Idea ending div -?? ends main section  -->
 </div>
 
-<?php require $rootDir ."/modules/footer.tpl"; ?>
+<?php require $siteRoot ."/modules/footer.tpl"; ?>
