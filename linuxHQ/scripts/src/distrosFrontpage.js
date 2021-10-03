@@ -37,8 +37,14 @@ function displayDistroOutput(
 
         <div class="card">
           <div class="card__header">
-            <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40">
-            <h4>${currentDistroTitle} </h4>
+            <div>
+              <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40">
+              <h4>${currentDistroTitle} </h4>
+            </div>
+            <!-- needed for CSS, even though it's an empty tag -->
+            <div>
+            </div>
+
           </div>
 
           <div class="card__body">
