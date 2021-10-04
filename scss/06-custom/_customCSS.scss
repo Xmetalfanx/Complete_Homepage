@@ -101,7 +101,7 @@ code {
   }
 
   #ddgSearch input {
-    padding: 0 .75rem;
+    padding: 0 0.75rem;
   }
 
   // submit button
@@ -116,4 +116,8 @@ code {
     outline: 1px solid var(--forrest_green);
     padding: 0.4em 0.875em;
   }
+}
+
+figcaption {
+  text-align: center;
 }

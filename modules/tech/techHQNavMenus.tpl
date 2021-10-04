@@ -1,7 +1,7 @@
 
 <header>
   <h2>
-    <a href+"/techHQ/index.php">
+    <a href="/techHQ/index.php">
     TechHQ
     </a>
   </h2>

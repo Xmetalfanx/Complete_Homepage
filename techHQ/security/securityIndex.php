@@ -1,7 +1,7 @@
 <?php
 	$pageTitle = ' Security Section Frontpage';
 
-switch ($_SERVER['HTTP_HOST']) {
+  switch ($_SERVER['HTTP_HOST']) {
     case 'xmetal.x10.mx':
         $siteRoot = '/home/xmetalx1/domains/xmetal.x10.mx/public_html';
         break;
@@ -17,15 +17,15 @@ switch ($_SERVER['HTTP_HOST']) {
 
 ?>
 
-<h1>Security Related Items</h1>
+<h2>Security Related Items</h2>
 <p>Remember - Just because your anti-virus or malware scanner says you:</p>
 <ul>
   <li>"Are infected" does not make it true, if it is a poor scanner</li>
   <li>"Are not infected" does not mean you are not, again ... if its a poor scanner</li>
 </ul>
 
-<h2>Overall Security Tips</h2>
 
+<h3>Overall Security Tips</h3>
 <div class="my-4 card w-80">
   <div class="card__header">COMMON SENSE</div>
   <div class="card__body">
@@ -54,5 +54,7 @@ switch ($_SERVER['HTTP_HOST']) {
 ?>
 
 </div>
-</div>
+<!-- </div> -->
 
+
+<?php include($siteRoot . '/modules/baseTechFooter.tpl'); ?>

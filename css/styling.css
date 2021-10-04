@@ -8,6 +8,7 @@
   --white: hsl(0, 0%, 100%);
   --white75: hsla(0, 0%, 100%, 0.75);
   --white50: hsla(0, 0%, 100%, 0.5);
+  --light_grey: hsla(0, 0%, 83%, 0.75);
   --grey1: hsl(0, 0%, 15%);
   --grey2: hsl(0, 0%, 20%);
   --grey3: hsl(0, 0%, 24%);
@@ -25,7 +26,6 @@
   --turquoise30: hsl(174, 73%, 30%);
   --turquoise40: hsl(174, 72%, 40%);
   --turquoise60: hsl(174, 72%, 60%);
-  --test: hsl(160, 27%, 42%);
   --themeColor1: var(--white);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
@@ -226,9 +226,11 @@ body {
 
 .card,
 .card--bordered {
-  box-shadow: 0 0.5rem 1rem var(--dark_grey1);
+  border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem 15px var(--light_grey);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
+  outline: 1px solid var(--light_grey);
 }
 
 .card--bordered {
@@ -247,8 +249,9 @@ body {
 .card--bordered .card__header,
 .card--bordered .card__header--wide {
   align-items: baseline;
-  border-color: var(--themeColor5);
   background-color: var(--themeColor5);
+  border-color: var(--themeColor5);
+  border-radius: 10px 10px 0 0;
   color: var(--themeColor1);
   display: flex;
   flex-direction: row;
@@ -256,33 +259,6 @@ body {
   font-size: var(--h4);
   justify-content: flex-start;
   padding: 1rem;
-}
-
-.card .card__header h1,
-.card .card__header--wide h1,
-.card--bordered .card__header h1,
-.card--bordered .card__header--wide h1,
-.card .card__header h2,
-.card .card__header--wide h2,
-.card--bordered .card__header h2,
-.card--bordered .card__header--wide h2,
-.card .card__header h3,
-.card .card__header--wide h3,
-.card--bordered .card__header h3,
-.card--bordered .card__header--wide h3,
-.card .card__header h4,
-.card .card__header--wide h4,
-.card--bordered .card__header h4,
-.card--bordered .card__header--wide h4,
-.card .card__header h5,
-.card .card__header--wide h5,
-.card--bordered .card__header h5,
-.card--bordered .card__header--wide h5,
-.card .card__header i,
-.card .card__header--wide i,
-.card--bordered .card__header i,
-.card--bordered .card__header--wide i {
-  color: var(--themeColor1);
 }
 
 .card .card__header a:link,
@@ -295,7 +271,6 @@ body {
 .card--bordered .card__header--wide a:visited {
   background-color: inherit;
   color: inherit;
-  text-decoration: none;
 }
 
 .card .card__header--wide,
@@ -341,14 +316,12 @@ footer h5 > a {
 
 header a,
 footer a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--themeColor1);
 }
 
 header a:hover,
 footer a:hover {
   outline: 1px dotted var(--themeColor1);
-  text-decoration: none;
 }
 
 header .fa,
@@ -634,7 +607,6 @@ header .topnav .icon {
 .main-section--wide .primary-content p,
 .main-section--left-wide .primary-content p,
 .main-section--right-wide .primary-content p {
-  margin: 1rem auto;
   max-width: 72ch;
 }
 
@@ -907,7 +879,6 @@ header .topnav .icon {
 }
 
 #linux-primary-content .card {
-  border-radius: 0.75rem;
   min-width: 300px;
   width: 40%;
 }
@@ -916,10 +887,6 @@ header .topnav .icon {
   #linux-primary-content .card {
     width: 90%;
   }
-}
-
-#linux-primary-content .card .card__header {
-  border-radius: 0.75rem 0.75rem 0 0;
 }
 
 .EducationalSites {
@@ -950,8 +917,6 @@ header .topnav .icon {
 
 #desktopSection .card {
   box-shadow: none;
-  border: 1px dotted var(--themeColor5);
-  max-height: none;
 }
 
 #linuxVersions .distroBaseTitle {
@@ -965,22 +930,6 @@ header .topnav .icon {
 
 #linuxVersions .version {
   color: var(--themeBGColorAccent);
-}
-
-#techHQFooter {
-  grid-column: span 2;
-  padding-left: 20px;
-}
-
-#techHQFooter a {
-  color: inherit;
-  margin: 0 1rem;
-  font-weight: 500;
-}
-
-#techHQFooter a:hover {
-  outline: 1px dotted var(--black);
-  text-decoration: none;
 }
 
 .border {
@@ -1946,11 +1895,15 @@ code {
   padding: 0.4em 0.875em;
 }
 
+figcaption {
+  text-align: center;
+}
+
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
 #GAOTD {
-  width: 50%;
+  width: 45%;
   padding-top: 3px;
-  margin: 0 auto;
+  margin: 1.5rem auto;
 }
 
 @media (max-width: 768px) {

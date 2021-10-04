@@ -63,6 +63,7 @@
 
 <div class="shadow card d-none d-md-block">
   <div class="card__header card__header--dark-bg">External Links</div>
+  <div class="card__body">
     <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
     <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link">
     </a>
@@ -77,4 +78,5 @@
     <br/>
 
   <a href="http://www.neowin.net/">NeoWin</a>
+  </div>
 </div>

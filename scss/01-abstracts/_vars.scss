@@ -14,6 +14,7 @@ $colors: (
   "white": hsl(0, 0%, 100%),
   "white75": hsla(0, 0%, 100%, 0.75),
   "white50": hsla(0, 0%, 100%, 0.5),
+  "light_grey": hsla(0, 0%, 83%, .75),
   "grey1": hsl(0, 0%, 15%),
   "grey2": hsl(0, 0%, 20%),
   "grey3": hsl(0, 0%, 24%),
@@ -31,7 +32,6 @@ $colors: (
   "turquoise30": hsl(174, 72%, 30%),
   "turquoise40": hsl(174, 72%, 40%),
   "turquoise60": hsl(174, 72%, 60%),
-  "test": hsl(160, 27%, 42%)
 );
 
 :root {

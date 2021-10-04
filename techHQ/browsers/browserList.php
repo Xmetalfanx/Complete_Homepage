@@ -14,7 +14,5 @@
         break;
   }
  
-  
-  
   include $siteRoot . "/templates/tech/baseTechBrowser.tpl";
 ?>

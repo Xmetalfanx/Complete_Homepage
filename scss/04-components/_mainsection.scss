@@ -99,8 +99,9 @@
     }
 
     // the idea is for readability as far as the ch unit
+    // WHY the margin? ... 
     p {
-      margin: 1rem auto;
+      // margin: 1rem auto;
       max-width: 72ch;
     }
   }

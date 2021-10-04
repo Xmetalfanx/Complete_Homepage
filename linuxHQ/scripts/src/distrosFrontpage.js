@@ -39,7 +39,7 @@ function displayDistroOutput(
           <div class="card__header">
             <div>
               <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size40">
-              <h4>${currentDistroTitle} </h4>
+              ${currentDistroTitle}
             </div>
             <!-- needed for CSS, even though it's an empty tag -->
             <div>

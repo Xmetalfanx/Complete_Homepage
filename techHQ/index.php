@@ -4,7 +4,7 @@
 
   switch ($_SERVER['HTTP_HOST']) {
     case 'xmetal.x10.mx':
-        $siteRoot = '/home/xmetalx1/domains/xmetal.x10.mx/public_html';
+        $siteRoot = '/home/xmetalx1/domains/xmetal.x10.mx/public_html/';
         break;
     case 'xmetal.awardspace.us':
         $siteRoot = '/srv/disk1/xmetalfanx/www/xmetal.awardspace.us/';
@@ -12,9 +12,9 @@
     default:
         $siteRoot = 'local.domain';
         break;
-  
+    }
 
-  include $siteRoot . "/templates/tech/open/baseTechMAIN.tpl";
+  include $siteRoot . "templates/tech/open/baseTechMAIN.tpl";
 
 ?>
 
@@ -38,7 +38,7 @@
 
     <figure>
       <a href="http://www.kristakingmath.com/" target="_blank" rel="noreferrer" aria-label="Link to Krista King's Math related site">
-        <img class="d-none d-md-block img-fluid" src="/graphics/kking_logo.png" alt="Krista King Math Site website graphics">
+        <img class="d-none d-md-block w-50" src="/graphics/kking_logo.png" alt="Krista King Math Site website graphics">
       <figcaption>Krista King Math Tutor</figcaption>
       </a>
     </figure>

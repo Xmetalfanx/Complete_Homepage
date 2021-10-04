@@ -22,9 +22,11 @@ body {
 }
 
 .card {
-  box-shadow: 0 0.5rem 1rem var(--dark_grey1);
+  border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem 15px var(--light_grey);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
+  outline: 1px solid var(--light_grey);
 
   &--bordered {
     @extend .card;
@@ -38,8 +40,9 @@ body {
 
   .card__header {
     align-items: baseline;
-    border-color: var(--themeColor5);
     background-color: var(--themeColor5);
+    border-color: var(--themeColor5);
+    border-radius: 10px 10px 0 0;
     color: var(--themeColor1);
     display: flex;
     flex-direction: row;
@@ -49,20 +52,20 @@ body {
     padding: 1rem;
 
     // i for fork awesome graphics
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    i {
-      color: var(--themeColor1);
-    }
+    // OCt 2021: do i need this ? 
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // i {
+    //   color: var(--themeColor1);
+    // }
 
     a:link,
     a:visited {
       background-color: inherit;
       color: inherit;
-      text-decoration: none;
       // maybe use outline here?
     }
 
