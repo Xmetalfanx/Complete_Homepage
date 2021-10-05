@@ -22,13 +22,14 @@
   --green: #317d31;
   --forrest_green: #060;
   --dark_green: #003d00;
-  --turquoise25: #21585f;
+  --turquoise25: #174f49;
   --turquoise30: #158479;
   --turquoise40: #1dafa1;
   --turquoise60: #50e2d4;
+  --oldThemeColor3: #0e7c71;
   --themeColor1: var(--white);
   --themeColor2: var(--turquoise30);
-  --themeColor3: hsl(174, 80%, 27%);
+  --themeColor3: var(--turquoise25);
   --themeColor4: var(--grey4);
   --themeColor5: var(--grey2);
   --themeColorMain: var(--themeColor5);
@@ -1714,8 +1715,6 @@ header .topnav .icon {
 
 .frontpage-section .git-section .card .card__header,
 .frontpage-section .site-section .card .card__header {
-  background-color: inherit;
-  color: var(--themeColorAccent);
   font-size: var(--h3);
 }
 

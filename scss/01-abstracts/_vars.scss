@@ -28,10 +28,11 @@ $colors: (
   "green": hsl(120, 44%, 34%),
   "forrest_green": hsl(120, 100%, 20%),
   "dark_green": hsl(120, 100%, 12%),
-  "turquoise25": hsl(187, 49%, 25%),
+  "turquoise25": hsl(174, 55%, 20%),
   "turquoise30": hsl(174, 72%, 30%),
   "turquoise40": hsl(174, 72%, 40%),
   "turquoise60": hsl(174, 72%, 60%),
+  "oldThemeColor3": hsl(174, 80%, 27%),
 );
 
 :root {
@@ -44,7 +45,7 @@ $colors: (
   // themeColor 3 is darker than 2
   --themeColor1: var(--white);
   --themeColor2: var(--turquoise30);
-  --themeColor3: hsl(174, 80%, 27%);
+  --themeColor3: var(--turquoise25);
   --themeColor4: var(--grey4);
   --themeColor5: var(--grey2);
 
