@@ -73,11 +73,11 @@ async function compileSCSSToCSS() {
     normalize({}),
     //doiuse({}),
     sorting({}),
-    colorConverter({
-      outputColorFormat: 'hsl'
-    }),
+    // colorConverter({
+    //   outputColorFormat: 'hsl'
+    // }),
     colorguard({
-        allowEquivalentNotation: true    
+        allowEquivalentNotation: true
     })
   ];
 
