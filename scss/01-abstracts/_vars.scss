@@ -22,13 +22,13 @@ $colors: (
   "navy": hsl(240, 100%, 25%),
   "blue": hsl(240, 100%, 50%),
   "midnight_blue": hsl(240, 64%, 27%),
-  "red": hsl(0, 100%, 50%),
   "maroon": hsl(0, 100%, 20%),
   "dark_red": hsl(0, 100%, 30%),
+  "red": hsl(0, 100%, 50%),
   "green": hsl(120, 44%, 34%),
   "forrest_green": hsl(120, 100%, 20%),
   "dark_green": hsl(120, 100%, 12%),
-  "darkturquoise": hsl(187, 49%, 25%),
+  "turquoise25": hsl(187, 49%, 25%),
   "turquoise30": hsl(174, 72%, 30%),
   "turquoise40": hsl(174, 72%, 40%),
   "turquoise60": hsl(174, 72%, 60%),
@@ -41,15 +41,19 @@ $colors: (
 
   // color pallette
   // consider: swapping 4 and 5 here
+  // themeColor 3 is darker than 2
   --themeColor1: var(--white);
   --themeColor2: var(--turquoise30);
   --themeColor3: hsl(174, 80%, 27%);
   --themeColor4: var(--grey4);
   --themeColor5: var(--grey2);
 
-  // leave names for now
-  --themeBGColorMain: var(--themeColor5);
-  --themeBGColorAccent: var(--themeColor2);
+  --themeColorMain: var(--themeColor5);
+  --themeColorAccent: var(--themeColor2);
+
+  // not sure about this var name @ this var name
+  --themeColorLight: var(--themeColor1);
+
 
   // End Colors
   ///////////////////////////////////
@@ -89,12 +93,12 @@ $colors: (
     sans-serif;
   --ForkAwesome: ForkAwesome, serif;
   --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
-  
+
   // this should be named better
   // this was snagged from OMGUbuntu's sit e
   --test: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
-  
-  
+
+
   ///////////////////////////////////////////////////////////////////////////////////
   // font sizes
   // i think the idea here (wait until webhost is back online to test this) is

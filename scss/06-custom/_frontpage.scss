@@ -30,7 +30,7 @@
       margin-bottom: 0;
 
       &:hover {
-        outline: 2px solid var(--themeBGColorAccent);
+        outline: 2px solid var(--themeColorAccent);
 
         // remove below items once the bootstrap CDN is removed
         color: inherit;
@@ -47,7 +47,7 @@
 
       .card__header {
         background-color: inherit;
-        color: var(--themeBGColorAccent);
+        color: var(--themeColorAccent);
 
         // padding: .5rem 1rem;
         //font-size: 1.6rem;
@@ -85,7 +85,7 @@
     }
 
     .git-icons {
-      color: var(--themeBGColorAccent);
+      color: var(--themeColorAccent);
       display: flex;
       justify-content: space-around;
       margin-bottom: 0.5rem;
