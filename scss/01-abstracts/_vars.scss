@@ -14,7 +14,7 @@ $colors: (
   "white": hsl(0, 0%, 100%),
   "white75": hsla(0, 0%, 100%, 0.75),
   "white50": hsla(0, 0%, 100%, 0.5),
-  "light_grey": hsla(0, 0%, 83%, .75),
+  "light_grey": hsla(0, 0%, 83%, 0.75),
   "grey1": hsl(0, 0%, 15%),
   "grey2": hsl(0, 0%, 20%),
   "grey3": hsl(0, 0%, 24%),
@@ -89,6 +89,12 @@ $colors: (
     sans-serif;
   --ForkAwesome: ForkAwesome, serif;
   --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
+  
+  // this should be named better
+  // this was snagged from OMGUbuntu's sit e
+  --test: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"
+  
+  
   ///////////////////////////////////////////////////////////////////////////////////
   // font sizes
   // i think the idea here (wait until webhost is back online to test this) is
