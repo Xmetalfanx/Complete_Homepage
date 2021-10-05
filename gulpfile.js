@@ -7,7 +7,7 @@ const sass = require('gulp-sass')(require('sass'));
 
 const
     autoprefixer = require('autoprefixer'),
-    cleanCSS = require('gulp-clean-css'),
+    //cleanCSS = require('gulp-clean-css'),
     pugLinter = require('gulp-pug-linter'),
     gcmq = require('gulp-group-css-media-queries'),
     cssnano = require('cssnano'),
@@ -75,11 +75,10 @@ async function compileSCSSToCSS() {
     sorting({}),
     colorConverter({
       outputColorFormat: 'hsl'
-
     }),
-    // // colorguard({
-    //   allowEquivalentNotation: true
-    // })
+    colorguard({
+        allowEquivalentNotation: true    
+    })
   ];
 
   return (
@@ -102,7 +101,7 @@ async function compileSCSSToCSS() {
       )
 
       // create sourcemap
-      .pipe(sourcemaps.write('../maps'))
+      //.pipe(sourcemaps.write('../maps'))
       .pipe(gulp.dest('./css/'))
   );
 
@@ -112,15 +111,16 @@ exports.compileSCSSToCSS = compileSCSSToCSS;
 
 async function minifyCSS() {
 
+  var plugins = [
+    cssnano({})
+  ];
+
   return gulp
     .src('./css/styling.css')
-    .pipe(
-      cleanCSS({
-        format: 'beautify'
-      })
-    )
-    .pipe(rename('./styling-min.css'));
-
+    .pipe(postcss(plugins))
+    .pipe(sourcemaps.write())
+    .pipe(rename('./styling-min.css'))
+    .pipe(gulp.dest('css'));
 }
 
 exports.minifyCSS = minifyCSS;
