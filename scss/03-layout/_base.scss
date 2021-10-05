@@ -40,8 +40,8 @@ body {
 
   .card__header {
     align-items: baseline;
-    background-color: var(--themeColor5);
-    border-color: var(--themeColor5);
+    background-color: var(--themeColorMain);
+    border-color: var(--themeColorMain);
     border-radius: 10px 10px 0 0;
     color: var(--themeColorLight);
     display: flex;
@@ -51,16 +51,33 @@ body {
     justify-content: flex-start;
     padding: 1rem;
 
+    // FOR ALL child divs of card__header
+    div {
+      align-items: baseline;
+      display: inherit;
+    }
+
+    // for a div .. does this make sense?
+    // for a div but only for the first div child
+    div:first-child {
+      justify-content: flex-start;
+
+    }
+
+    div:nth-of-type(2)
+    {
+     justify-content: flex-end;
+    }
+
     // i for fork awesome graphics
-    // OCt 2021: do i need this ?
-    // h1,
-    // h2,
-    // h3,
-    // h4,
-    // h5,
-    // i {
-    //   color: var(--themeColorLight);
-    // }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    i {
+      color: var(--themeColorLight);
+    }
 
     a:link,
     a:visited {
@@ -69,6 +86,7 @@ body {
       // maybe use outline here?
     }
 
+    // Oct 2021: what is this for?
     &--wide {
       @extend .card__header;
 

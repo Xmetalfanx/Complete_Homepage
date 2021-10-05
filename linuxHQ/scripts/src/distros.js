@@ -64,10 +64,13 @@ function displayDistroOutput(
         </div>
     `;
 
+  // Oct 2021: empty div needed for CSS alignment
   const currentDistoHeaderOutput = `
       <div class="card__header">
-        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
-        <h3>${currentDistroTitle}</h3>
+        <div>
+          <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
+          ${currentDistroTitle}
+        </div>
       </div>
   `;
 
