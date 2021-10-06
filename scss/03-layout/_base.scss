@@ -61,12 +61,10 @@ body {
     // for a div but only for the first div child
     div:first-child {
       justify-content: flex-start;
-
     }
 
-    div:nth-of-type(2)
-    {
-     justify-content: flex-end;
+    div:nth-of-type(2) {
+      justify-content: flex-end;
     }
 
     // i for fork awesome graphics
