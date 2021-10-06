@@ -68,24 +68,7 @@
     sans-serif;
   --ForkAwesome: forkawesome, serif;
   --SFMono-Regular: "SFMono-Regular", menlo, monaco, consolas, "Liberation Mono", "Courier New", monospace;
-  --test:
-    -apple-system,
-    blinkmacsystemfont,
-    "Segoe UI",
-    helvetica,
-    arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji"
-    ///////////////////////////////////////////////////////////////////////////////////
-  // font sizes
-  // i think the idea here (wait until webhost is back online to test this) is
-  // to consolidate font sizes instead of having css for all different sections that are
-  // slightly different sizes .. i may still have;
-  font-size:
-    however they will be one of these vars
-    // since i cant test this right now ... i am not sure what to use where though;
-
+  --test: -apple-system, blinkmacsystemfont, "Segoe UI", helvetica, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   --fs-small: 0.75rem;
   --fs-normal: 1.05rem;
   --fs-large: 1.15rem;
@@ -96,84 +79,6 @@
   --h5: 1.1rem;
   --fa-arrow-right: "";
   --fa-arrow-down: "";
-}
-
-/* Source: https://piccalil.li/blog/a-modern-css-reset/
-YTer Kevin P. linked to this */
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
-  list-style: none;
-}
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
 }
 
 body {
@@ -1668,144 +1573,139 @@ header .topnav .icon {
 }
 
 .frontpage-title {
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   font-weight: 900;
   font-size: var(--h2);
 }
 
-.frontpage-section {
+.git-section,
+.site-section {
   display: flex;
-  flex-flow: column wrap;
-}
-
-.frontpage-section p {
-  max-width: 72ch;
-}
-
-.frontpage-section .git-section,
-.frontpage-section .site-section {
-  display: inline-flex;
   justify-content: space-around;
 }
 
 @media (max-width: 768px) {
-  .frontpage-section .git-section,
-  .frontpage-section .site-section {
+  .git-section,
+  .site-section {
     flex-wrap: wrap;
   }
 }
 
-.frontpage-section .git-section a,
-.frontpage-section .site-section a {
+.git-section a,
+.site-section a {
   margin-bottom: 0;
 }
 
-.frontpage-section .git-section a:hover,
-.frontpage-section .site-section a:hover {
+.git-section a:hover,
+.site-section a:hover {
   outline: 2px solid var(--themeColorAccent);
   color: inherit;
   text-decoration: none;
 }
 
-.frontpage-section .git-section .card,
-.frontpage-section .site-section .card {
+.git-section p,
+.site-section p {
+  max-width: 75ch;
+}
+
+.git-section .card,
+.site-section .card {
   box-shadow: none;
   max-height: 500px;
 }
 
-.frontpage-section .git-section .card .card__header,
-.frontpage-section .site-section .card .card__header {
-  font-size: var(--h3);
+.git-section .card .card__header,
+.site-section .card .card__header {
+  justify-content: center;
 }
 
-.frontpage-section .git-section .card .card__header a,
-.frontpage-section .site-section .card .card__header a {
-  background-color: inherit;
-  color: inherit;
-}
-
-.frontpage-section .git-section .card .card__body,
-.frontpage-section .site-section .card .card__body {
+.git-section .card .card__body,
+.site-section .card .card__body {
   font-weight: 500;
 }
 
-.frontpage-section .git-section .card .card__body .img-fluid,
-.frontpage-section .site-section .card .card__body .img-fluid {
+.git-section .card .card__body .img-fluid,
+.site-section .card .card__body .img-fluid {
   height: auto;
   max-width: 80%;
 }
 
-.frontpage-section .git-section > * {
+@media (max-width: 992px) {
+  .git-section .card .card--bordered,
+  .site-section .card .card--bordered {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.git-section > * {
   flex-basis: 1;
 }
 
-.frontpage-section .git-section .card--bordered {
-  margin: 1rem 2rem;
+.git-section .card {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.frontpage-section .git-section .card--bordered .card__header {
-  text-align: center;
-}
-
-.frontpage-section .git-section .git-icons {
+.git-section .git-icons {
   color: var(--themeColorAccent);
   display: flex;
   justify-content: space-around;
   margin-bottom: 0.5rem;
 }
 
-.frontpage-section .git-section .git-icons a {
+.git-section .git-icons a {
   margin: auto 1rem;
 }
 
 @media (max-width: 992px) {
-  .frontpage-section .site-section figure {
+  .site-section figure {
     display: none;
   }
 }
 
-.frontpage-section .site-section figure > .figimg {
+.site-section figure > .figimg {
   padding-bottom: 0.5rem;
   display: inline-block;
 }
 
-.frontpage-section .site-section figure > figcaption {
+.site-section figure > figcaption {
   font-size: var(--small-text);
   padding-left: 2rem;
 }
 
 @media (max-width: 992px) {
-  .frontpage-section .site-section > div {
+  .site-section > div {
     margin: 0 0.75rem;
   }
 }
 
-.frontpage-section .site-section .h3,
-.frontpage-section .site-section a .h3 {
+.site-section .h3,
+.site-section a .h3 {
   display: block;
   margin: 1rem 0;
   font-weight: 900;
   font-size: 1.7rem;
 }
 
-.frontpage-section .site-section img {
+.site-section img {
   margin: 0 auto;
   width: 600px;
   padding: 2rem;
 }
 
 @media (max-width: 768px) {
-  .frontpage-section .site-section img {
+  .site-section img {
     max-width: 80%;
   }
 }
 
-.frontpage-section .site-section .card--bordered {
+.site-section .card--bordered {
   margin: 0 auto;
   width: 100%;
 }
 
-.frontpage-section .site-section .card--bordered .card__body p {
+.site-section .card--bordered .card__body p {
   margin: 10px 0;
 }
 
