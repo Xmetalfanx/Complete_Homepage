@@ -1582,13 +1582,7 @@ header .topnav .icon {
 .site-section {
   display: flex;
   justify-content: space-around;
-}
-
-@media (max-width: 768px) {
-  .git-section,
-  .site-section {
-    flex-wrap: wrap;
-  }
+  flex-direction: row;
 }
 
 .git-section a,
@@ -1608,43 +1602,49 @@ header .topnav .icon {
   max-width: 75ch;
 }
 
-.git-section .card,
-.site-section .card {
+.git-section .card--bordered,
+.site-section .card--bordered {
   box-shadow: none;
   max-height: 500px;
 }
 
-.git-section .card .card__header,
-.site-section .card .card__header {
+.git-section .card--bordered .card__header,
+.site-section .card--bordered .card__header {
   justify-content: center;
 }
 
-.git-section .card .card__body,
-.site-section .card .card__body {
+.git-section .card--bordered .card__body,
+.site-section .card--bordered .card__body {
   font-weight: 500;
 }
 
-.git-section .card .card__body .img-fluid,
-.site-section .card .card__body .img-fluid {
+.git-section .card--bordered .card__body .img-fluid,
+.site-section .card--bordered .card__body .img-fluid {
   height: auto;
   max-width: 80%;
 }
 
 @media (max-width: 992px) {
-  .git-section .card .card--bordered,
-  .site-section .card .card--bordered {
+  .git-section .card--bordered .card--bordered,
+  .site-section .card--bordered .card--bordered {
     width: 80%;
     margin: 0 auto;
   }
 }
 
-.git-section > * {
-  flex-basis: 1;
+@media (max-width: 768px) {
+  .git-section,
+  .site-section {
+    flex-direction: column;
+  }
+}
+
+.git-section {
+  gap: 2rem;
 }
 
 .git-section .card {
-  width: 80%;
-  margin: 0 auto;
+  margin: 0 2rem;
 }
 
 .git-section .git-icons {
@@ -1664,7 +1664,7 @@ header .topnav .icon {
   }
 }
 
-.site-section figure > .figimg {
+.site-section figure > img {
   padding-bottom: 0.5rem;
   display: inline-block;
 }
