@@ -13,6 +13,11 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  gap: 2rem;
+
+  @media ($breakpoint-md){
+    flex-direction: column;
+  }
 
   a {
     margin-bottom: 0;
@@ -32,7 +37,6 @@
 
   .card--bordered {
     box-shadow: none;
-    max-height: 500px;
 
     .card__header {
       justify-content: center;
@@ -48,21 +52,17 @@
       }
     }
 
-    @media ($breakpoint-lg) {
-      .card--bordered {
-        width: 80%;
-        margin: 0 auto;
-      }
-    }
+    // @media ($breakpoint-lg) {
+    //   .card--bordered {
+    //     width: 80%;
+    //     margin: 0 auto;
+    //   }
+    // }
   }
 
-  @media ($breakpoint-md) {
-    flex-direction: column;
-  }
 }
 
 .git-section {
-  gap: 2rem;
 
   .card {
     margin: 0 2rem;
@@ -81,6 +81,15 @@
 }
 
 .site-section {
+
+  > * {
+    flex: 1 1 33%;
+    max-width: 72ch;
+    //min-width: 350px;
+  }
+
+
+ 
   figure {
     @media ($breakpoint-lg) {
       display: none;

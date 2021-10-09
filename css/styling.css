@@ -1583,6 +1583,14 @@ header .topnav .icon {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .git-section,
+  .site-section {
+    flex-direction: column;
+  }
 }
 
 .git-section a,
@@ -1605,7 +1613,6 @@ header .topnav .icon {
 .git-section .card--bordered,
 .site-section .card--bordered {
   box-shadow: none;
-  max-height: 500px;
 }
 
 .git-section .card--bordered .card__header,
@@ -1624,25 +1631,6 @@ header .topnav .icon {
   max-width: 80%;
 }
 
-@media (max-width: 992px) {
-  .git-section .card--bordered .card--bordered,
-  .site-section .card--bordered .card--bordered {
-    width: 80%;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 768px) {
-  .git-section,
-  .site-section {
-    flex-direction: column;
-  }
-}
-
-.git-section {
-  gap: 2rem;
-}
-
 .git-section .card {
   margin: 0 2rem;
 }
@@ -1656,6 +1644,11 @@ header .topnav .icon {
 
 .git-section .git-icons a {
   margin: auto 1rem;
+}
+
+.site-section > * {
+  flex: 1 1 33%;
+  max-width: 72ch;
 }
 
 @media (max-width: 992px) {
