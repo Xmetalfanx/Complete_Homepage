@@ -8,7 +8,7 @@
 
     $mainTitle = 'Xmetal LinuxHQ Section - ';
 
-    global $sectiontitle;         // Allows the use of the $sectionTitle variable
+    global $sectionTitle;         // Allows the use of the $sectionTitle variable
 
     echo $mainTitle . $sectionTitle . $pageTitle;
     ?>

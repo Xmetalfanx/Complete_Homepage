@@ -71,6 +71,9 @@ function displayDistroOutput(
           <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
           ${currentDistroTitle}
         </div>
+
+        <div>
+        </div>
       </div>
   `;
 
