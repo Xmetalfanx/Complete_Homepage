@@ -9,7 +9,7 @@
   // the title of what was (in earlier trys) the button
   label {
     color: var(--white);
-    background-color: var(--themeColor5);
+    background-color: var(--themeColorMain);
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
@@ -33,7 +33,7 @@
   }
 
   label:hover {
-    background: var(--themeColor2);
+    background: var(--themeColorAccent);
   }
 
   .content {
@@ -68,7 +68,7 @@
 // the fullpage class is for pages that do not have sidebar and p(rimary)Content right and left section
 
 // this is for the desktop layout
-.sidebar,
+.themeColorMainsidebar,
 .fullpage {
   .accordion {
     input {
@@ -77,7 +77,7 @@
 
     label {
       color: var(--white);
-      background-color: var(--themeColor5);
+      background-color: var(--themeColorMain);
       display: block;
       padding: 8px 22px;
       margin: 0;

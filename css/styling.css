@@ -428,13 +428,25 @@ header .topnav .icon {
 .main-section--right-wide,
 .main-section--left-wide,
 .main-section--wide {
-  display: grid;
   grid-area: main-section;
-  grid-gap: 1.5rem;
-  justify-items: stretch;
   padding: 1.5rem;
+  display: flex;
 
   /****** Sidebar *****/
+}
+
+.main-section > .sidebar,
+.main-section--right-wide > .sidebar,
+.main-section--left-wide > .sidebar,
+.main-section--wide > .sidebar {
+  flex: 1 1 15%;
+}
+
+.main-section > .primary-content,
+.main-section--right-wide > .primary-content,
+.main-section--left-wide > .primary-content,
+.main-section--wide > .primary-content {
+  flex: 1 1 85%;
 }
 
 .main-section h1,

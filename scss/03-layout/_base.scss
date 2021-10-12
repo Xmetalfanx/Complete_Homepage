@@ -30,7 +30,7 @@ body {
 
   &--bordered {
     @extend .card;
-    border: 1px solid var(--themeColor5);
+    border: 1px solid var(--themeColorMain);
   }
 
   .card__body,
