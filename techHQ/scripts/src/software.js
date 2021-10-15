@@ -89,7 +89,7 @@ function softwareData(data) {
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
-                    <div class=\"card w-75\">
+                    <div class=\"card\">
                       <div class=\"card__header--wide\">
                         <div>
                             <img src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40  mr-1\" loading=\"lazy\" \>

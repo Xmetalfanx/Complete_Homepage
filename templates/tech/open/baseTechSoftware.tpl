@@ -7,7 +7,7 @@
 ?>
 
 <!-- why is this up here? -->
-<script src="/techHQ/scripts/software.js"></script>
+<script src="/techHQ/scripts/software-min.js"></script>
 
 <body onload="softwareData()">
 	<?php include($siteRoot . '/modules/tech/techHQNavMenus.tpl'); ?>

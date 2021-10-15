@@ -528,6 +528,13 @@ header .topnav .icon {
   /** cards in Sidebar, specifically ... i think any mainSection global .card stuff carries over ***/
 }
 
+.main-section .sidebar a,
+.main-section--wide .sidebar a,
+.main-section--left-wide .sidebar a,
+.main-section--right-wide .sidebar a {
+  display: block;
+}
+
 .main-section .sidebar img,
 .main-section--wide .sidebar img,
 .main-section--left-wide .sidebar img,
@@ -569,6 +576,13 @@ header .topnav .icon {
   grid-area: pContent;
 }
 
+.main-section .primary-content .card,
+.main-section--wide .primary-content .card,
+.main-section--left-wide .primary-content .card,
+.main-section--right-wide .primary-content .card {
+  width: 80%;
+}
+
 .main-section .primary-content .card .card__header,
 .main-section--wide .primary-content .card .card__header,
 .main-section--left-wide .primary-content .card .card__header,
@@ -584,7 +598,7 @@ header .topnav .icon {
   max-width: 72ch;
 }
 
-@media (max-width: var(--breakpoint-lg)) {
+@media (max-width: 768px) {
   .main-section .sidebar .card,
   .main-section--wide .sidebar .card,
   .main-section--left-wide .sidebar .card,
@@ -603,7 +617,6 @@ header .topnav .icon {
   .main-section--wide .primary-content,
   .main-section--left-wide .primary-content,
   .main-section--right-wide .primary-content {
-    grid-area: pContent;
     margin: 0 1rem;
   }
 
