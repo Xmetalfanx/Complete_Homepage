@@ -82,7 +82,7 @@
 }
 
 body {
-  color: var(--themeColor5);
+  color: var(--themeColorMain);
   font-family: var(--Roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
@@ -159,7 +159,7 @@ body {
 }
 
 .card--bordered {
-  border: 1px solid var(--themeColor5);
+  border: 1px solid var(--themeColorMain);
 }
 
 .card .card__body,
@@ -341,7 +341,7 @@ footer .contacts {
 header {
   box-shadow: 2px 2px 5px var(--black);
   padding: 1rem;
-  text-shadow: 2px 5px var(--themeColor5);
+  text-shadow: 2px 5px var(--themeColorMain);
   grid-area: header;
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -428,25 +428,12 @@ header .topnav .icon {
 .main-section--right-wide,
 .main-section--left-wide,
 .main-section--wide {
+  display: grid;
+  gap: 1.5rem;
   grid-area: main-section;
   padding: 1.5rem;
-  display: flex;
 
   /****** Sidebar *****/
-}
-
-.main-section > .sidebar,
-.main-section--right-wide > .sidebar,
-.main-section--left-wide > .sidebar,
-.main-section--wide > .sidebar {
-  flex: 1 1 15%;
-}
-
-.main-section > .primary-content,
-.main-section--right-wide > .primary-content,
-.main-section--left-wide > .primary-content,
-.main-section--wide > .primary-content {
-  flex: 1 1 85%;
 }
 
 .main-section h1,
@@ -701,7 +688,7 @@ header .topnav .icon {
 
 .accordion label {
   color: var(--white);
-  background-color: var(--themeColor5);
+  background-color: var(--themeColorMain);
   display: block;
   padding: 8px 22px;
   margin: 0 0 1px 0;
@@ -723,7 +710,7 @@ header .topnav .icon {
 }
 
 .accordion label:hover {
-  background: var(--themeColor2);
+  background: var(--themeColorAccent);
 }
 
 .accordion .content {
@@ -750,15 +737,15 @@ header .topnav .icon {
   min-height: auto;
 }
 
-.sidebar .accordion input,
+.themeColorMainsidebar .accordion input,
 .fullpage .accordion input {
   display: none;
 }
 
-.sidebar .accordion label,
+.themeColorMainsidebar .accordion label,
 .fullpage .accordion label {
   color: var(--white);
-  background-color: var(--themeColor5);
+  background-color: var(--themeColorMain);
   display: block;
   padding: 8px 22px;
   margin: 0;
@@ -767,38 +754,38 @@ header .topnav .icon {
   font-size: var(--h5);
 }
 
-.sidebar .accordion label::before,
+.themeColorMainsidebar .accordion label::before,
 .fullpage .accordion label::before {
   margin-right: 0;
   content: none;
 }
 
-.sidebar .accordion input:checked + label::before,
+.themeColorMainsidebar .accordion input:checked + label::before,
 .fullpage .accordion input:checked + label::before {
   content: none;
   margin-right: 0;
 }
 
-.sidebar .accordion label:hover,
+.themeColorMainsidebar .accordion label:hover,
 .fullpage .accordion label:hover {
   background: var(--turquoise30);
 }
 
-.sidebar .accordion .content,
+.themeColorMainsidebar .accordion .content,
 .fullpage .accordion .content {
   border-radius: 0 0 0.75rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
 }
 
-.sidebar .accordion .content a,
-.sidebar .accordion .content span,
+.themeColorMainsidebar .accordion .content a,
+.themeColorMainsidebar .accordion .content span,
 .fullpage .accordion .content a,
 .fullpage .accordion .content span {
   display: block;
 }
 
-.sidebar .accordion input + label + .content,
+.themeColorMainsidebar .accordion input + label + .content,
 .fullpage .accordion input + label + .content {
   opacity: 1;
   font-size: var(--fs-normal);
@@ -806,7 +793,7 @@ header .topnav .icon {
   height: auto;
 }
 
-.sidebar .accordion input:checked + label + .content,
+.themeColorMainsidebar .accordion input:checked + label + .content,
 .fullpage .accordion input:checked + label + .content {
   opacity: 0;
   height: 0;
@@ -1563,7 +1550,7 @@ header .topnav .icon {
 }
 
 .border--dark {
-  border-color: var(--themeColor5);
+  border-color: var(--themeColorMain);
 }
 
 .list-group {

@@ -2,10 +2,22 @@
 
 .main-section {
   display: grid;
+  gap: 1.5rem;
+
+  // for the grid above this
   grid-area: main-section;
-  grid-gap: 1.5rem;
-  justify-items: stretch;
   padding: 1.5rem;
+  // This needed? 
+  // justify-items: stretch;
+
+  // these no longer make sense if i use grid again 
+  // > .sidebar {
+  //   flex: 1 1 15%;
+  // }
+
+  // > .primary-content {
+  //   flex: 1 1 85%;
+  // }
 
   // is this REALLY needed?
   h1,
@@ -95,7 +107,7 @@
     }
   }
 }
-// should be md
+
 @media (max-width: var(--breakpoint-lg)) {
   // the main section between the nav top bar and the footer
   .main-section,
@@ -131,14 +143,3 @@
     grid-template-rows: auto;
   }
 }
-
-// I forgot what this is for .
-// do i need it?
-// @media all and (max-width: $breakpoint-md) {
-//   .sidebar {
-//     .card {
-//       margin-left: 0;
-//       margin-bottom: 1rem;
-//     }
-//   }
-// }
