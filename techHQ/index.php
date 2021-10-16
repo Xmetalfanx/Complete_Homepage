@@ -83,6 +83,4 @@
 
 <?php include $siteRoot . '/techHQ/modules/GAOTD.tpl'; ?>
 
-
-
 <?php include $siteRoot . '/modules/tech/baseTechFooter.tpl'; ?>
