@@ -1,10 +1,8 @@
 
 <header>
-  <h2>
-    <a href="/techHQ/index.php">
-    TechHQ
-    </a>
-  </h2>
+  <div class="h2">
+    <a href="/techHQ/index.php">TechHQ </a>
+  </div>
 
   <nav class="topnav" id="topnav">
     <a href="/techHQ/software/softwareIndex.php">Software</a>

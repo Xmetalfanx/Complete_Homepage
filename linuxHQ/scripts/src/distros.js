@@ -79,7 +79,7 @@ function displayDistroOutput(
 
   const currentDistroInfoOutput = `
 
-      <div class="card mx-auto w-90">${currentDistoHeaderOutput}
+      <div class="card">${currentDistoHeaderOutput}
         <div class="card__body">
 
             <!-- For both col's (so to speak) -->
