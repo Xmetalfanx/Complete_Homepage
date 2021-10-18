@@ -79,9 +79,6 @@ function displayDEOutput(
 
               <div class="col">
                   <div class="distroBaseTitle">Ubuntu </div>
-                  <span class="versionTitle">16.04 Xenial LTS: </span>
-                  <span class="version"> ${currentDE1604LTSVer}</span>
-                  <br/>
                   <span class="versionTitle">18.04 Bionic LTS: </span>
                   <span class="version">${currentDE1804LTSVer}</span>
                   <br/>
@@ -91,9 +88,6 @@ function displayDEOutput(
 
               <div class="col">
                   <div class="distroBaseTitle">Linux Mint </div>
-                  <span class="versionTitle">18: </span>
-                  <span class="version">${currentDEMint18Version}</span>
-                  <br/>
                   <span class="versionTitle">19: </span>
                   <span class="version">${currentDEMint19Version}</span>
                   <br />
