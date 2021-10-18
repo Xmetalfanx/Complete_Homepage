@@ -581,7 +581,7 @@ header .topnav .icon {
 .main-section--left-wide .primary-content .card,
 .main-section--right-wide .primary-content .card {
   width: 80%;
-  margin: none auto;
+  margin: 1.5rem auto;
 }
 
 .main-section .primary-content .card .card__header,
@@ -619,6 +619,13 @@ header .topnav .icon {
   .main-section--left-wide .primary-content,
   .main-section--right-wide .primary-content {
     margin: 0 1rem;
+  }
+
+  .main-section .primary-content .card,
+  .main-section--wide .primary-content .card,
+  .main-section--left-wide .primary-content .card,
+  .main-section--right-wide .primary-content .card {
+    width: unset;
   }
 
   .main-section--left-wide,

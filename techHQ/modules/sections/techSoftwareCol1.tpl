@@ -28,7 +28,7 @@
 
   <!-- the input ID and for="" have to be equal-->
   <input id="officeApps" type="checkbox">
-  <label for="officeApps">Office/Productivity</label>
+  <label for="officeApps">Office / Productivity</label>
   <div class="content">
     <a href="/techHQ/software/product/coding.php">Coding</a>
     <a href="/techHQ/software/product/office.php">Office Suites</a>
@@ -65,15 +65,15 @@
   <div class="card__header card__header--dark-bg">External Links</div>
   <div class="card__body">
     <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
-    <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link">
+    <img src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link" class="img-fluid" />
     </a>
 
     <a href="http://www.snapfiles.com" target="_blank" rel="noreferrer">
-    <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles graphic/link">
+    <img src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles graphic/link" class="img-fluid" />
     </a>
 
     <a href="http://www.softpedia.com" target="_blank" rel="noreferrer">
-    <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic/link" style="width: 175px; height: 32px;">
+    <img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic/link" class="img-fluid" />
     </a>
     <br/>
 

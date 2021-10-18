@@ -1,6 +1,5 @@
 @use "../01-abstracts/index" as *;
 
-
 /*********** Main Section in middle of page, between the header and footer *****/
 
 .main-section {
@@ -62,7 +61,7 @@
   /****** Sidebar *****/
   .sidebar {
 
-    // not sure about the placement here 
+    // not sure about the placement here
     a {
       display: block;
     }
@@ -94,13 +93,11 @@
   // the main sections of each side of the site
   .primary-content {
     grid-area: pContent;
-
     // card everywhere else is flex... why grid here? ... shouldn't i just switch them all to flex?
     // was there a need for grid? ...
     .card {
       width: 80%;
-      margin: none auto;
-      
+      margin: 1.5rem auto;
       .card__header {
         ///////////////////////////////////////////////////////////
         // Flex
@@ -120,8 +117,6 @@
 
   @media ($breakpoint-md) {
     .sidebar {
-
-
       .card {
         margin: 0 auto;
 
@@ -136,7 +131,10 @@
 
     .primary-content {
       margin: 0 1rem;
-      //width: min-content;
+
+      .card {
+        width: unset;
+      }
     }
 
     &--left-wide,
