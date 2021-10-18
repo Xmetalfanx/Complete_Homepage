@@ -914,6 +914,15 @@ header .topnav .icon {
   box-shadow: none;
 }
 
+#linuxVersions .row {
+  margin: 0.75rem 0;
+}
+
+#linuxVersions .row .col {
+  margin: 0 1.5rem;
+  word-wrap: break-word;
+}
+
 #linuxVersions .distroBaseTitle {
   font-weight: 900;
   text-decoration: underline;

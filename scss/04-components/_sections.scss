@@ -1,7 +1,7 @@
-@use "../01-abstracts/index" as *;
+@use '../01-abstracts/index' as *;
 
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
-// wait ... should this NOT be  on anything other than the frontpages ? 
+// wait ... should this NOT be  on anything other than the frontpages ?
 #linux-primary-content {
   align-content: flex-start;
   display: flex;
@@ -59,6 +59,19 @@
 }
 
 #linuxVersions {
+
+  // trial syntax for me
+  // this is for the version table that sometimes has long version info that collide with other tables
+  // also consider using css and removing the "tailwind like" syntax I have there for spacing
+  .row {
+    margin: 0.75rem 0;
+
+    .col {
+      margin: 0 1.5rem;
+      word-wrap: break-word;
+    }
+  }
+
   // the top level of the column
   .distroBaseTitle {
     font-weight: 900;

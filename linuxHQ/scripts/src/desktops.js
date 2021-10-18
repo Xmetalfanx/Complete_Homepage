@@ -45,7 +45,7 @@ function displayDEOutput(
                 <small> Last Updated: ${currentDEVerUpdated} </small>
             <br/>
 
-            <div class="row my-2">
+            <div class="row">
               <div class="col">
                   <span class="distroBaseTitle">Arch:</span>
                   <span class="version">${currentDEArchVersion}</span><br/>
@@ -71,7 +71,7 @@ function displayDEOutput(
               </div>
             </div>
 
-            <div class="row my-4">
+            <div class="row">
               <div class="col">
                   <div class="distroBaseTitle">Solus</div>
                   <span class="version">${currentDESolusVersion} </span>
@@ -179,7 +179,7 @@ function displayDEOutput(
                 </div>
                 <div class="card__body">
                     <div class="row">
-                        <div class="col">
+                        <div class="col px-3">
                           <span class="font-weight-bold">Homepage:</span>
                             <a href="${currentDEHomepage}" target="_blank"> ${currentDETitle}'s Homepage</a>
                           <br>
