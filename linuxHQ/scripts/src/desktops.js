@@ -17,15 +17,17 @@ function displayDEOutput(
   currentDEReqHDD,
   currentDEReqProc,
   currentDEArchVersion,
-  currentDEF32Version,
+  currentDEF33Version,
+  currentDEF34Version,
+  currentDEF35Version,
   currentDEFRWVersion,
-  currentDESuseL15Version,
+  currentDESuseL152Version,
+  currentDESuseL153Version,
   currentDESuseTWVersion,
   currentDESolusVersion,
-  currentDE1604LTSVer,
   currentDE1804LTSVer,
   currentDE2004LTSVer,
-  currentDEMint18Version,
+  currentDE2110Ver,
   currentDEMint19Version,
   currentDEMint20Version,
   currentDEarchInstall,
@@ -54,8 +56,12 @@ function displayDEOutput(
               <div class="col">
                   <span class="distroBaseTitle">Fedora</span>
                   <br/>
-                  <span class="versionTitle">32: </span>
-                  <span class="version">${currentDEF32Version}</span><br/>
+                  <span class="versionTitle">33: </span>
+                  <span class="version">${currentDEF33Version}</span><br/>
+                  <span class="versionTitle">34: </span>
+                  <span class="version">${currentDEF34Version}</span><br/>
+                  <span class="versionTitle">35: </span>
+                  <span class="version">${currentDEF35Version}</span><br/>
                   <span class="versionTitle">Rawhide: </span>
                   <span class="version"> ${currentDEFRWVersion}</span>
               </div>
@@ -63,8 +69,11 @@ function displayDEOutput(
               <div class="col">
                   <span class="distroBaseTitle">openSUSE</span>
                   <br/>
-                  <span class="versionTitle">15.0: </span>
-                  <span class="version"> ${currentDESuseL15Version}</span>
+                  <span class="versionTitle">15.2: </span>
+                  <span class="version"> ${currentDESuseL152Version}</span>
+                  <br/>
+                  <span class="versionTitle">15.3: </span>
+                  <span class="version"> ${currentDESuseL153Version}</span>
                   <br/>
                   <span class="versionTitle">Tumbleweed: </span>
                   <span class="version"> ${currentDESuseTWVersion}</span>
@@ -81,9 +90,12 @@ function displayDEOutput(
                   <div class="distroBaseTitle">Ubuntu </div>
                   <span class="versionTitle">18.04 Bionic LTS: </span>
                   <span class="version">${currentDE1804LTSVer}</span>
-                  <br/>
+                  <br />
                   <span class="versionTitle">20.04 Focal LTS: </span>
                   <span class="version">${currentDE2004LTSVer}</span>
+                  <br />
+                  <span class="versionTitle">21.10 Impish: </span>
+                  <span class="version">${currentDE2110Ver}</span>
               </div>
 
               <div class="col">
@@ -291,11 +303,14 @@ function getDesktopData(data, $localDEName) {
           var currentDEArchVersion = versionJSON.arch;
 
           // Fedora
-          var currentDEF32Version = versionJSON.fedora.f32;
+          var currentDEF33Version = versionJSON.fedora.f33;
+          var currentDEF34Version = versionJSON.fedora.f34;
+          var currentDEF35Version = versionJSON.fedora.f35;
           var currentDEFRWVersion = versionJSON.fedora.rawhide;
 
           // OpenSuse
-          var currentDESuseL15Version = versionJSON.opensuse.leap151;
+          var currentDESuseL152Version = versionJSON.opensuse.leap152;
+          var currentDESuseL153Version = versionJSON.opensuse.leap153;
           var currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
 
           // Solus
@@ -304,12 +319,11 @@ function getDesktopData(data, $localDEName) {
           var ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
 
           // Ubuntu LTS
-          var currentDE1604LTSVer = ubuntuVerJSON.xenial;
           var currentDE1804LTSVer = ubuntuVerJSON.bionic;
           var currentDE2004LTSVer = ubuntuVerJSON.focal;
+          var currentDE2110Ver = ubuntuVerJSON.impish;
 
           // Linux Mint
-          var currentDEMint18Version = ubuntuVerJSON.mint.mint18;
           var currentDEMint19Version = ubuntuVerJSON.mint.mint19;
           var currentDEMint20Version = ubuntuVerJSON.mint.mint20;
 
@@ -349,15 +363,17 @@ function getDesktopData(data, $localDEName) {
               currentDEReqHDD,
               currentDEReqProc,
               currentDEArchVersion,
-              currentDEF32Version,
+              currentDEF33Version,
+              currentDEF34Version,
+              currentDEF35Version,
               currentDEFRWVersion,
-              currentDESuseL15Version,
+              currentDESuseL152Version,
+              currentDESuseL153Version,
               currentDESuseTWVersion,
               currentDESolusVersion,
-              currentDE1604LTSVer,
               currentDE1804LTSVer,
               currentDE2004LTSVer,
-              currentDEMint18Version,
+              currentDE2110Ver,
               currentDEMint19Version,
               currentDEMint20Version,
               currentDEarchInstall,
