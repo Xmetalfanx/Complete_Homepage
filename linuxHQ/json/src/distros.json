@@ -1168,7 +1168,7 @@
       "distroName": "lxle",
       "distroTitle": "LXLE",
       "graphics": {
-        "iconURL": "lxle.png"
+        "iconURL": "lxle.jpg"
       },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
@@ -1180,9 +1180,9 @@
       },
       "screenshots": {
         "desktop": "",
-        "src": "lxle.png",
+        "src": "lxle.jpg",
         "theme": "",
-        "thumbnails": "lxle_tn.png"
+        "thumbnails": "lxle_tn.jpg"
       },
       "version": "",
       "website": {
