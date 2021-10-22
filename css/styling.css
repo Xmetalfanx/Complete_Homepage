@@ -152,7 +152,7 @@ body {
 .card,
 .card--bordered {
   border-radius: 10px;
-  box-shadow: 0.5rem 0.5rem 15px var(--light_grey);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
   outline: 1px solid var(--light_grey);
@@ -908,10 +908,6 @@ header .topnav .icon {
 
 .EducationalSites .card__body * {
   margin: 0.25rem;
-}
-
-#desktopSection .card {
-  box-shadow: none;
 }
 
 #linuxVersions .row {

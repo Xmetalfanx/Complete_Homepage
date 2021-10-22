@@ -47,17 +47,6 @@
 }
 
 // For LinuxHQ distro section and eventually more
-#desktopSection {
-  .card {
-    box-shadow: none;
-
-    // putting this here since there is a max-height (still need to lookup why i did that) on the main primaryContent .card heigh
-    //max-height: none;
-  }
-
-  // closes card
-}
-
 #linuxVersions {
 
   // trial syntax for me
