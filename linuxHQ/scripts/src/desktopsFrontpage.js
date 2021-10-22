@@ -15,12 +15,12 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
                 <figure>
                     <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
                         <img class="thumbnails--lg img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy">
-                    </a>
+                    
                     <figcaption>
                         <span class="font-weight-bold">Distro:</span> 
                         ${currentDESShotDistro}
                     </figcaption>
-
+                    </a>
                 </figure>
 
             </div>
