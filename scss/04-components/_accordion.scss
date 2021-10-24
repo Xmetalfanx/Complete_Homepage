@@ -19,7 +19,7 @@
     &::before {
       font-family: var(--ForkAwesome);
       margin-right: 0.5rem;
-      content: var(--fa-arrow-right);
+      content: var(--fa-arrow-down);
       font-weight: 900;
     }
   }
@@ -28,7 +28,7 @@
   input:checked + label::before {
     font-family: var(--ForkAwesome);
     margin-right: 0.5rem;
-    content: var(--fa-arrow-down);
+    content: var(--fa-arrow-right);
     font-weight: 900;
   }
 
@@ -45,7 +45,7 @@
   }
 
   // This is default ... UNexpanded
-  input + label + .content {
+  input:checked + label + .content {
     opacity: 0;
     height: 0;
     font-size: 0;
@@ -53,7 +53,8 @@
     padding: 0 25px;
   }
 
-  input:checked + label + .content {
+  // not default 
+  input + label + .content {
     opacity: 1;
     font-size: var(--fs-normal);
     padding: 8px 25px;

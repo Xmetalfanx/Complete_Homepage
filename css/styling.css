@@ -719,14 +719,14 @@ header .topnav .icon {
 .accordion label::before {
   font-family: var(--ForkAwesome);
   margin-right: 0.5rem;
-  content: var(--fa-arrow-right);
+  content: var(--fa-arrow-down);
   font-weight: 900;
 }
 
 .accordion input:checked + label::before {
   font-family: var(--ForkAwesome);
   margin-right: 0.5rem;
-  content: var(--fa-arrow-down);
+  content: var(--fa-arrow-right);
   font-weight: 900;
 }
 
@@ -742,7 +742,7 @@ header .topnav .icon {
   border-radius: 3px;
 }
 
-.accordion input + label + .content {
+.accordion input:checked + label + .content {
   opacity: 0;
   height: 0;
   font-size: 0;
@@ -750,7 +750,7 @@ header .topnav .icon {
   padding: 0 25px;
 }
 
-.accordion input:checked + label + .content {
+.accordion input + label + .content {
   opacity: 1;
   font-size: var(--fs-normal);
   padding: 8px 25px;
