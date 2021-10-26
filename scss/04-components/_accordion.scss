@@ -13,7 +13,7 @@
     display: block;
     padding: 8px 22px;
     margin: 0 0 1px 0;
-    border-radius: 3px;
+    border-radius: 10px 10px 0 0;
 
     // to the left of the label and it is not clicked (should be right arrow)
     &::before {
@@ -40,8 +40,8 @@
     background: var(--white);
     padding: 10px 25px;
     border: 1px solid #a7a7a7;
-    margin: 0 0 1px 0;
-    border-radius: 3px;
+    margin: 0 0 1rem 0;
+    border-radius: 0 0 10px 10px;
   }
 
   // This is default ... UNexpanded
@@ -143,6 +143,7 @@
   // Default: expanded on desktop layouts
   .sidebar {
     .accordion {
+
       input + label::before {
         font-family: var(--ForkAwesome);
         margin-right: 0.5rem;
@@ -157,11 +158,14 @@
         font-weight: 900;
       }
 
+
       label:hover {
         background: var(--turquoise30);
       }
 
       .content {
+        border-radius: 0 0 10px 10px;
+
         a,
         span {
           display: inline-block;
