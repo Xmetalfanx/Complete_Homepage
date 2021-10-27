@@ -61,7 +61,7 @@
 </div>
 
 
-<div class="shadow card d-none d-md-block">
+<div class="card d-none d-md-block">
   <div class="card__header card__header--dark-bg">External Links</div>
   <div class="card__body">
     <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
