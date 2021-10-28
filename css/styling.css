@@ -533,6 +533,16 @@ header .topnav .icon {
 .main-section--left-wide .sidebar a,
 .main-section--right-wide .sidebar a {
   display: block;
+  line-height: 1.75;
+  margin: 0.25rem 0;
+}
+
+.main-section .sidebar a:hover,
+.main-section--wide .sidebar a:hover,
+.main-section--left-wide .sidebar a:hover,
+.main-section--right-wide .sidebar a:hover {
+  color: var(--themeColorMain);
+  outline: 1px solid var(--themeColorMain);
 }
 
 .main-section .sidebar img,

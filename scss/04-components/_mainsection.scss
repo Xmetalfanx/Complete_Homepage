@@ -64,9 +64,20 @@
     // not sure about the placement here
     a {
       display: block;
+
+      // idea for better UX
+      line-height: 1.75;
+      margin: 0.25rem 0;
+
+      &:hover {
+        color: var(--themeColorMain);
+        outline: 1px solid var(--themeColorMain);
+      }
     }
 
     img {
+
+      // why the display: block ??
       display: block;
       margin: 1rem 0;
       padding: 0;
@@ -98,6 +109,7 @@
     .card {
       width: 80%;
       margin: 1.5rem auto;
+
       .card__header {
         ///////////////////////////////////////////////////////////
         // Flex
