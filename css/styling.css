@@ -1742,6 +1742,10 @@ dl li {
   justify-content: space-between;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .span2 {
   grid-column: span 2;
 }

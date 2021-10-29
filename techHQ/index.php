@@ -24,14 +24,14 @@
   <div class="card__body">
     <figure>
       <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
-        <img class="d-none d-md-block img-fluid" src="/techHQ/graphics/khan-academy.svg" alt="Khan Academy website Graphic" />
+        <img class="img-fluid" src="/techHQ/graphics/khan-academy.svg" alt="Khan Academy website Graphic" />
         <figcaption>Khan Academy</figcaption>
       </a>
     </figure>
 
     <figure>
       <a href="https://www.digitalocean.com/community/" target="_blank" rel="noreferrer" aria-label="Link to Digital Ocean">
-        <img class="d-none d-md-block img-fluid"  src="/techHQ/graphics/digitalOcean.png" alt="Digital Ocean website Graphic" />
+        <img class="img-fluid"  src="/techHQ/graphics/digitalOcean.png" alt="Digital Ocean website Graphic" />
         <figcaption>Digital Ocean</figcaption>
       </a>
     </figure>
@@ -61,18 +61,20 @@
   <div class="card__body">
     <h4 class="mb-3">Learning the Commandline</h4>
 
-    <div class="d-flex jc-space-around">
+    <div class="d-flex jc-space-around flex-wrap">
       <figure>
         <a href="https://linuxjourney.com/" target="_blank">
-          <img class="d-none d-md-block img-fluid w-50" src="../graphics/linux-journey.png" alt="Linux Journey website graphic" />
+          <img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png"
+          alt="Linux Journey website graphic" />
           <figcaption>Linux Journey</figcaption>
         </a>
       </figure>
 
       <figure>
-          <a href="http://www.explainshell.com" target="">
-          ExplainShell.com
-          </a>
+        <a href="http://www.explainshell.com" target="_blank">
+          <img src="../graphics/explainshell.png" alt="Explain Shell graphic" class="d-none d-md-block img-fluid" />
+          <figcaption>ExplainShell.com</figcaption>
+        </a>
       </figure>
     </div>
 
