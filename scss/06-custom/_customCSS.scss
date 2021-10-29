@@ -16,11 +16,6 @@
 }
 ///////////////////////////////////////////
 
-// for flexbox
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
 // for display:grid, spans two columns
 .span2 {
   @include span2;

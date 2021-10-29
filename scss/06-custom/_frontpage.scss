@@ -15,7 +15,7 @@
   flex-direction: row;
   gap: 2rem;
 
-  @media ($breakpoint-md){
+  @media ($breakpoint-md) {
     flex-direction: column;
   }
 
@@ -59,11 +59,9 @@
     //   }
     // }
   }
-
 }
 
 .git-section {
-
   .card {
     margin: 0 2rem;
   }
@@ -81,15 +79,12 @@
 }
 
 .site-section {
-
   > * {
     flex: 1 1 33%;
     max-width: 72ch;
     //min-width: 350px;
   }
 
-
- 
   figure {
     @media ($breakpoint-lg) {
       display: none;

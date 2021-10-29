@@ -33,12 +33,10 @@ footer {
 
   a {
     color: var(--themeColorLight);
-
   }
 
   a:hover {
     outline: 1px dotted var(--themeColorLight);
-
   }
 
   // for Fork Awesome code
@@ -87,7 +85,7 @@ header {
   grid-area: header;
 
   .fa {
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   > * {
