@@ -26,3 +26,9 @@
 @mixin span2 {
   grid-column: span 2;
 }
+
+// alpha is lightness .. L ... in HSL ... and a percent 
+@mixin color($hue: 0, $saturation: 100%, $alpha: 100%)
+{
+  color: hsl( $hue, $saturation, $alpha);
+}

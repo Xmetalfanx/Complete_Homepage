@@ -1,44 +1,39 @@
+@use "_colors" as *;
+
 // breakpoints
 $breakpoint-sm: "max-width: 576px";
 $breakpoint-md: "max-width: 768px";
 $breakpoint-lg: "max-width: 992px";
 $breakpoint-xl: "max-width: 1200px";
 
-// not sure if black50 makes sense yet ... i mean is the black less intense? ... isn't there a grey for that instead?
-
-$colors: (
-  "black": hsl(0, 0%, 0%),
-  "black50": rgba(0, 0, 0, 0.5),
-  "tan_l": hsl(54, 100%, 90%),
-  "tan_d": hsl(54, 50%, 75%),
-  "white": hsl(0, 0%, 100%),
-  "white75": hsla(0, 0%, 100%, 0.75),
-  "white50": hsla(0, 0%, 100%, 0.5),
-  "light_grey": hsla(0, 0%, 83%, 0.75),
-  "grey1": hsl(0, 0%, 15%),
-  "grey2": hsl(0, 0%, 20%),
-  "grey3": hsl(0, 0%, 24%),
-  "grey4": hsl(0, 0%, 32%),
-  "navy": hsl(240, 100%, 25%),
-  "blue": hsl(240, 100%, 50%),
-  "midnight_blue": hsl(240, 64%, 27%),
-  "maroon": hsl(0, 100%, 20%),
-  "dark_red": hsl(0, 100%, 30%),
-  "red": hsl(0, 100%, 50%),
-  "green": hsl(120, 44%, 34%),
-  "forrest_green": hsl(120, 100%, 20%),
-  "dark_green": hsl(120, 100%, 12%),
-  "turquoise25": hsl(174, 55%, 20%),
-  "turquoise30": hsl(174, 72%, 30%),
-  "turquoise40": hsl(174, 72%, 40%),
-  "turquoise60": hsl(174, 72%, 60%),
-  "oldThemeColor3": hsl(174, 80%, 27%),
-);
-
 :root {
-  @each $key, $value in $colors {
-    --#{$key}: #{$value};
-  }
+  
+  --black: hsl(0, 0%, 0%),
+  --black50: rgba(0, 0, 0, 0.5),
+  --tan_l: hsl(54, 100%, 90%),
+  --tan_d: hsl(54, 50%, 75%),
+  --white: hsl(0, 0%, 100%),
+  --white75: hsla(0, 0%, 100%, 0.75),
+  --white50: hsla(0, 0%, 100%, 0.5),
+  --light_grey: hsla(0, 0%, 83%, 0.75),
+  --grey1: hsl(0, 0%, 15%),
+  --grey2: hsl(0, 0%, 20%),
+  --grey3: hsl(0, 0%, 24%),
+  --grey4: hsl(0, 0%, 32%),
+  --navy: hsl(240, 100%, 25%),
+  --blue: hsl(240, 100%, 50%),
+  --midnight_blue: hsl(240, 64%, 27%),
+  --maroon: hsl(0, 100%, 20%),
+  --dark_red: hsl(0, 100%, 30%),
+  --red: hsl(0, 100%, 50%),
+  --green: hsl(120, 44%, 34%),
+  --forrest_green: hsl(120, 100%, 20%),
+  --dark_green: hsl(120, 100%, 12%),
+  --turquoise25: hsl(174, 55%, 20%),
+  --turquoise30: hsl(174, 72%, 30%),
+  --turquoise40: hsl(174, 72%, 40%),
+  --turquoise60: hsl(174, 72%, 60%),
+  --oldThemeColor3: hsl(174, 80%, 27%),
 
   // color pallette
   // consider: swapping 4 and 5 here
