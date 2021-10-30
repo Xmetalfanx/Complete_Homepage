@@ -609,7 +609,7 @@ header .topnav .icon {
   max-width: 72ch;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .main-section .sidebar .card,
   .main-section--wide .sidebar .card,
   .main-section--left-wide .sidebar .card,
