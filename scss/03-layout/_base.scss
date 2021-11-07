@@ -25,11 +25,10 @@ body {
 
 .card {
   border-radius: 10px;
-  //box-shadow: 0.5rem 0.5rem 15px var(--light_grey);
   @include boxshadow;
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
-  outline: 1px solid var(--light_grey);
+  outline: 1px solid var(--grey-l13);
 
   &--bordered {
     @extend .card;

@@ -1,3 +1,4 @@
+// probably going to need to innclude var file here
 
 @mixin darkBG {
   color: var(--themeColorLight);
@@ -27,8 +28,7 @@
   grid-column: span 2;
 }
 
-// alpha is lightness .. L ... in HSL ... and a percent 
-@mixin color($hue: 0, $saturation: 100%, $alpha: 100%)
-{
-  color: hsl( $hue, $saturation, $alpha);
-}
+// Guessing atm
+// @mixin adjustAlpha($colorVal, $alphaVal) {
+//   --#{$colorVal}-a50: adjust-color(${$colorVal}, alpha: $alphaVal)
+// }

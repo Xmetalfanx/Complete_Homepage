@@ -1,37 +1,54 @@
 @charset "UTF-8";
 
 :root {
-  --black: black;
-  --black50: rgba(0, 0, 0, 0.5);
-  --tan_l: #fffacc;
-  --tan_d: #dfd99f;
-  --white: white;
-  --white75: rgba(255, 255, 255, 0.75);
-  --white50: rgba(255, 255, 255, 0.5);
-  --light_grey: rgba(212, 212, 212, 0.75);
-  --grey1: #262626;
-  --grey2: #333;
-  --grey3: #3d3d3d;
-  --grey4: #525252;
-  --navy: navy;
-  --blue: blue;
-  --midnight_blue: #191971;
-  --maroon: #600;
-  --dark_red: #900;
-  --red: red;
-  --green: #317d31;
-  --forrest_green: #060;
-  --dark_green: #003d00;
-  --turquoise25: #174f49;
-  --turquoise30: #158479;
-  --turquoise40: #1dafa1;
-  --turquoise60: #50e2d4;
-  --oldThemeColor3: #0e7c71;
+  --black: hsla(0 0% 0%);
+  --black-a50: hsla(0 0% 0% / 0.5);
+  --black50: hsla(0 0 0 0.5);
+  --black50-a50: hsla(0 0 0 0.5 / 0.5);
+  --tan_l: hsla(54 100% 90%);
+  --tan_l-a50: hsla(54 100% 90% / 0.5);
+  --tan_d: hsla(54 50% 75%);
+  --tan_d-a50: hsla(54 50% 75% / 0.5);
+  --white: hsla(0 0% 100%);
+  --white-a50: hsla(0 0% 100% / 0.5);
+  --white75: hsla(0 0% 100% 0.75);
+  --white75-a50: hsla(0 0% 100% 0.75 / 0.5);
+  --white50: hsla(0 0% 100% 0.5);
+  --white50-a50: hsla(0 0% 100% 0.5 / 0.5);
+  --navy: hsla(240 100% 25%);
+  --navy-a50: hsla(240 100% 25% / 0.5);
+  --blue: hsla(240 100% 50%);
+  --blue-a50: hsla(240 100% 50% / 0.5);
+  --midnight_blue: hsla(240 64% 27%);
+  --midnight_blue-a50: hsla(240 64% 27% / 0.5);
+  --maroon: hsla(0 100% 20%);
+  --maroon-a50: hsla(0 100% 20% / 0.5);
+  --dark_red: hsla(0 100% 30%);
+  --dark_red-a50: hsla(0 100% 30% / 0.5);
+  --red: hsla(0 100% 50%);
+  --red-a50: hsla(0 100% 50% / 0.5);
+  --green: hsla(120 44% 34%);
+  --green-a50: hsla(120 44% 34% / 0.5);
+  --forrest_green: hsla(120 100% 20%);
+  --forrest_green-a50: hsla(120 100% 20% / 0.5);
+  --dark_green: hsla(120, 100% 12%);
+  --dark_green-a50: hsla(120, 100% 12% / 0.5);
+  --oldThemeColor3: hsla(174 80% 27%);
+  --oldThemeColor3-a50: hsla(174 80% 27% / 0.5);
+  --turquoise-l20: hsla(174 55% 20%);
+  --turquoise-l30: hsla(174 72% 30%);
+  --turquoise-l40: hsla(174 72% 40%);
+  --turquoise-l60: hsla(174 72% 60%);
+  --grey-l13: hsla(0 0% 13%);
+  --grey-l15: hsla(0 0% 15%);
+  --grey-l20: hsla(0 0% 20%);
+  --grey-l24: hsla(0 0% 24%);
+  --grey-l32: hsla(0 0% 32%);
   --themeColor1: var(--white);
-  --themeColor2: var(--turquoise30);
-  --themeColor3: var(--turquoise25);
-  --themeColor4: var(--grey4);
-  --themeColor5: var(--grey2);
+  --themeColor2: var(--turquoise-l30);
+  --themeColor3: var(--turquoise-l20);
+  --themeColor4: var(--grey-l32);
+  --themeColor5: var(--grey-l20);
   --themeColorMain: var(--themeColor5);
   --themeColorAccent: var(--themeColor2);
   --themeColorLight: var(--themeColor1);
@@ -155,7 +172,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
-  outline: 1px solid var(--light_grey);
+  outline: 1px solid var(--grey-l13);
 }
 
 .card--bordered {
@@ -400,7 +417,7 @@ header .topnav .icon {
     z-index: 10;
     left: 0;
     top: 0;
-    background: var(--grey2);
+    background: var(--grey-l20);
     display: grid;
     text-align: center;
     justify-content: center;
@@ -1543,7 +1560,7 @@ header .topnav .icon {
   color: #22262a;
   text-decoration: none;
   background-color: var(--white);
-  border: 1px solid var(--grey1);
+  border: 1px solid var(--grey-l15);
 }
 
 .frontpage-title {

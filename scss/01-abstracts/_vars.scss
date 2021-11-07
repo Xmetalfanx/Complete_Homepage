@@ -1,4 +1,4 @@
-@use "_colors" as *;
+@use "_mixins" as *;
 
 // breakpoints
 $breakpoint-sm: "max-width: 576px";
@@ -6,43 +6,81 @@ $breakpoint-md: "max-width: 768px";
 $breakpoint-lg: "max-width: 992px";
 $breakpoint-xl: "max-width: 1200px";
 
+$colors: (
+  "black": "0 0% 0%",
+  "black50": "0 0 0 0.5",
+  "tan_l": "54 100% 90%",
+  "tan_d": "54 50% 75%",
+  "white": "0 0% 100%",
+  "white75": "0 0% 100% 0.75",
+  "white50": "0 0% 100% 0.5",
+  "navy": "240 100% 25%",
+  "blue": "240 100% 50%",
+  "midnight_blue": "240 64% 27%",
+  "maroon": "0 100% 20%",
+  "dark_red": "0 100% 30%",
+  "red": "0 100% 50%",
+  "green": "120 44% 34%",
+  "forrest_green": "120 100% 20%",
+  "dark_green": "120, 100% 12%",
+  "oldThemeColor3": "174 80% 27%",
+
+);
+
+$colorsGrey: (
+  //"light_grey": "0 0% 83% 0.75",
+  // former "light-grey" ... same color but dark greay color
+  "grey-l13": "0 0% 13%",
+
+  //"grey1": "0 0% 15%",
+  "grey-l15": "0 0% 15%",
+
+  //"grey2": "0 0% 20%",
+  "grey-l20": "0 0% 20%",
+
+  //"grey3": "0 0% 24%",
+  "grey-l24": "0 0% 24%",
+
+  //"grey4": "0 0% 32%",
+  "grey-l32": "0 0% 32%",
+
+);
+
+$colorsTorquoise: (
+  //"turquoise": "174 72% 50%"
+
+  // DO NOT DELETE UNTIL YOU KNOW VALUES IN REPLACEMENT ARE CORRECT
+  "turquoise-l20": "174 55% 20%",
+  "turquoise-l30": "174 72% 30%",
+  "turquoise-l40": "174 72% 40%",
+  "turquoise-l60": "174 72% 60%",
+
+);
+
 :root {
-  
-  --black: hsl(0, 0%, 0%),
-  --black50: rgba(0, 0, 0, 0.5),
-  --tan_l: hsl(54, 100%, 90%),
-  --tan_d: hsl(54, 50%, 75%),
-  --white: hsl(0, 0%, 100%),
-  --white75: hsla(0, 0%, 100%, 0.75),
-  --white50: hsla(0, 0%, 100%, 0.5),
-  --light_grey: hsla(0, 0%, 83%, 0.75),
-  --grey1: hsl(0, 0%, 15%),
-  --grey2: hsl(0, 0%, 20%),
-  --grey3: hsl(0, 0%, 24%),
-  --grey4: hsl(0, 0%, 32%),
-  --navy: hsl(240, 100%, 25%),
-  --blue: hsl(240, 100%, 50%),
-  --midnight_blue: hsl(240, 64%, 27%),
-  --maroon: hsl(0, 100%, 20%),
-  --dark_red: hsl(0, 100%, 30%),
-  --red: hsl(0, 100%, 50%),
-  --green: hsl(120, 44%, 34%),
-  --forrest_green: hsl(120, 100%, 20%),
-  --dark_green: hsl(120, 100%, 12%),
-  --turquoise25: hsl(174, 55%, 20%),
-  --turquoise30: hsl(174, 72%, 30%),
-  --turquoise40: hsl(174, 72%, 40%),
-  --turquoise60: hsl(174, 72%, 60%),
-  --oldThemeColor3: hsl(174, 80%, 27%),
+  // for regular colors
+  @each $key, $value in $colors {
+    --#{$key}: hsla(#{$value});
+    --#{$key}-a50: hsla(#{$value} / .5);
+  }
+
+  @each $key, $value in $colorsTorquoise {
+    --#{$key}: hsla(#{$value});
+  }
+
+  @each $key, $value in $colorsGrey {
+    --#{$key}: hsla(#{$value});
+  }
+
 
   // color pallette
   // consider: swapping 4 and 5 here
   // themeColor 3 is darker than 2
   --themeColor1: var(--white);
-  --themeColor2: var(--turquoise30);
-  --themeColor3: var(--turquoise25);
-  --themeColor4: var(--grey4);
-  --themeColor5: var(--grey2);
+  --themeColor2: var(--turquoise-l30);
+  --themeColor3: var(--turquoise-l20);
+  --themeColor4: var(--grey-l32);
+  --themeColor5: var(--grey-l20);
   --themeColorMain: var(--themeColor5);
   --themeColorAccent: var(--themeColor2);
 
