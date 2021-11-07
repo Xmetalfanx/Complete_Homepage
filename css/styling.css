@@ -3,18 +3,8 @@
 :root {
   --black: hsla(0 0% 0%);
   --black-a50: hsla(0 0% 0% / 0.5);
-  --black50: hsla(0 0 0 0.5);
-  --black50-a50: hsla(0 0 0 0.5 / 0.5);
-  --tan_l: hsla(54 100% 90%);
-  --tan_l-a50: hsla(54 100% 90% / 0.5);
-  --tan_d: hsla(54 50% 75%);
-  --tan_d-a50: hsla(54 50% 75% / 0.5);
   --white: hsla(0 0% 100%);
   --white-a50: hsla(0 0% 100% / 0.5);
-  --white75: hsla(0 0% 100% 0.75);
-  --white75-a50: hsla(0 0% 100% 0.75 / 0.5);
-  --white50: hsla(0 0% 100% 0.5);
-  --white50-a50: hsla(0 0% 100% 0.5 / 0.5);
   --navy: hsla(240 100% 25%);
   --navy-a50: hsla(240 100% 25% / 0.5);
   --blue: hsla(240 100% 50%);
@@ -33,8 +23,6 @@
   --forrest_green-a50: hsla(120 100% 20% / 0.5);
   --dark_green: hsla(120, 100% 12%);
   --dark_green-a50: hsla(120, 100% 12% / 0.5);
-  --oldThemeColor3: hsla(174 80% 27%);
-  --oldThemeColor3-a50: hsla(174 80% 27% / 0.5);
   --turquoise-l20: hsla(174 55% 20%);
   --turquoise-l30: hsla(174 72% 30%);
   --turquoise-l40: hsla(174 72% 40%);
