@@ -10,6 +10,10 @@ body {
   text-align: left;
 }
 
+p {
+  color: var(--themeColor5);
+}
+
 h1,
 h2,
 h3,
@@ -45,7 +49,7 @@ h5,
 
 // this is a link color ON a whiteBG
 a {
-  color: var(--themeColor3);
+  color: var(--themeColor4);
   background-color: transparent;
   text-decoration: none;
 }

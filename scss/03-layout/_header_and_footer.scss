@@ -108,7 +108,8 @@ header {
       // just a test color
       :active,
       :hover {
-        color: var(--turquoise40);
+        color: var(--themeColor1);
+        background-color: var(--themeColor2);
       }
 
       @media ($breakpoint-lg) {

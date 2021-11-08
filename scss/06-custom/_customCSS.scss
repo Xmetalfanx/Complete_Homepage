@@ -78,11 +78,11 @@ code {
 // I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a better way to do this
 // The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something
 .greenText {
-  color: var(--green);
+  color: green;
 }
 
 .redText {
-  color: var(--red);
+  color: red;
 }
 
 .darkBG_svg {

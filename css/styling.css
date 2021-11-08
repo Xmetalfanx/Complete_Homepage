@@ -2,27 +2,38 @@
 
 :root {
   --black: hsla(0 0% 0%);
-  --black-a50: hsla(0 0% 0% / 0.5);
+  --black-l75: hsla(0 0% 0% / 0.75);
+  --black-l50: hsla(0 0% 0% / 0.5);
+  --black-l25: hsla(0 0% 0% / 0.25);
   --white: hsla(0 0% 100%);
-  --white-a50: hsla(0 0% 100% / 0.5);
-  --navy: hsla(240 100% 25%);
-  --navy-a50: hsla(240 100% 25% / 0.5);
+  --white-l75: hsla(0 0% 100% / 0.75);
+  --white-l50: hsla(0 0% 100% / 0.5);
+  --white-l25: hsla(0 0% 100% / 0.25);
   --blue: hsla(240 100% 50%);
-  --blue-a50: hsla(240 100% 50% / 0.5);
-  --midnight_blue: hsla(240 64% 27%);
-  --midnight_blue-a50: hsla(240 64% 27% / 0.5);
+  --blue-l75: hsla(240 100% 50% / 0.75);
+  --blue-l50: hsla(240 100% 50% / 0.5);
+  --blue-l25: hsla(240 100% 50% / 0.25);
   --maroon: hsla(0 100% 20%);
-  --maroon-a50: hsla(0 100% 20% / 0.5);
-  --dark_red: hsla(0 100% 30%);
-  --dark_red-a50: hsla(0 100% 30% / 0.5);
+  --maroon-l75: hsla(0 100% 20% / 0.75);
+  --maroon-l50: hsla(0 100% 20% / 0.5);
+  --maroon-l25: hsla(0 100% 20% / 0.25);
   --red: hsla(0 100% 50%);
-  --red-a50: hsla(0 100% 50% / 0.5);
+  --red-l75: hsla(0 100% 50% / 0.75);
+  --red-l50: hsla(0 100% 50% / 0.5);
+  --red-l25: hsla(0 100% 50% / 0.25);
+  --burntorange: hsla(17 100% 40%);
+  --burntorange-l75: hsla(17 100% 40% / 0.75);
+  --burntorange-l50: hsla(17 100% 40% / 0.5);
+  --burntorange-l25: hsla(17 100% 40% / 0.25);
   --green: hsla(120 44% 34%);
-  --green-a50: hsla(120 44% 34% / 0.5);
+  --green-l75: hsla(120 44% 34% / 0.75);
+  --green-l50: hsla(120 44% 34% / 0.5);
+  --green-l25: hsla(120 44% 34% / 0.25);
+  --greentest: hsla(120 100% 50%);
+  --greentest-l75: hsla(120 100% 50% / 0.75);
+  --greentest-l50: hsla(120 100% 50% / 0.5);
+  --greentest-l25: hsla(120 100% 50% / 0.25);
   --forrest_green: hsla(120 100% 20%);
-  --forrest_green-a50: hsla(120 100% 20% / 0.5);
-  --dark_green: hsla(120, 100% 12%);
-  --dark_green-a50: hsla(120, 100% 12% / 0.5);
   --turquoise-l20: hsla(174 55% 20%);
   --turquoise-l30: hsla(174 72% 30%);
   --turquoise-l40: hsla(174 72% 40%);
@@ -32,13 +43,13 @@
   --grey-l20: hsla(0 0% 20%);
   --grey-l24: hsla(0 0% 24%);
   --grey-l32: hsla(0 0% 32%);
-  --themeColor1: var(--white);
-  --themeColor2: var(--turquoise-l30);
-  --themeColor3: var(--turquoise-l20);
-  --themeColor4: var(--grey-l32);
+  --themeColor1: #f5f5f5;
+  --themeColor2: #ca5b16;
+  --themeColor3: #ac420d;
+  --themeColor4: #5a2e1e;
   --themeColor5: var(--grey-l20);
-  --themeColorMain: var(--themeColor5);
-  --themeColorAccent: var(--themeColor2);
+  --themeColorMain: var(--themeColor3);
+  --themeColorAccent: var(--themeColor4);
   --themeColorLight: var(--themeColor1);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
@@ -95,6 +106,10 @@ body {
   text-align: left;
 }
 
+p {
+  color: var(--themeColor5);
+}
+
 h1,
 h2,
 h3,
@@ -129,7 +144,7 @@ h5,
 }
 
 a {
-  color: var(--themeColor3);
+  color: var(--themeColor4);
   background-color: transparent;
   text-decoration: none;
 }
@@ -376,7 +391,8 @@ header .topnav a {
 
 header .topnav a :active,
 header .topnav a :hover {
-  color: var(--turquoise40);
+  color: var(--themeColor1);
+  background-color: var(--themeColor2);
 }
 
 @media (max-width: 992px) {
@@ -752,7 +768,7 @@ header .topnav .icon {
 .accordion .content {
   background: var(--white);
   padding: 10px 25px;
-  border: 1px solid #a7a7a7;
+  outline: 1px solid var(--themeColor2);
   margin: 0 0 1rem 0;
   border-radius: 0 0 10px 10px;
 }
@@ -1796,11 +1812,11 @@ code {
 }
 
 .greenText {
-  color: var(--green);
+  color: green;
 }
 
 .redText {
-  color: var(--red);
+  color: red;
 }
 
 .darkBG_svg {
