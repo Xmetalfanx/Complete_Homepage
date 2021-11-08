@@ -1,6 +1,6 @@
 <div class="frontpage-title">My Git Projects </div>
 <section class="git-section">
-  <div class="card--bordered">
+  <div class="card">
       <div class="card__header">Linux Setup</div>
       <div class="card__body">
         <div class="git-icons">
@@ -25,7 +25,7 @@
       </div>
   </div>
 
-  <div class="card--bordered">
+  <div class="card">
     <div class="card__header">Linux Theming</div>
       <div class="card__body">
         <div class="git-icons">
