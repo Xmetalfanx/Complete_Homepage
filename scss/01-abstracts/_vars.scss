@@ -46,9 +46,9 @@ $colorsTorquoise: (
 
 $novThemeColors: (
   //--themeColor1: #F5F5F5,
-  --themeColor1: #F6EDDF;
+  --themeColor1: #F6EDDF,
   //--themeColor2: #CA5B16,
-  --themeColor2: #00787A;
+  --themeColor2: #00787A,
   --themeColor3: #AC420D,
   --themeColor4: #5A2E1E,
   --themeColor5: var(--grey-l20),
@@ -56,8 +56,9 @@ $novThemeColors: (
   --themeColorMain: var(--themeColor3),
   --themeColorAccent: var(--themeColor4),
 
-  // not sure about this var name @ this var name
   --themeColorLight: var(--themeColor1),
+  --themeColorDark: var(--themeColor5),
+
 );
 
 // $defaultThemeColors: (

@@ -43,14 +43,15 @@
   --grey-l20: hsla(0 0% 20%);
   --grey-l24: hsla(0 0% 24%);
   --grey-l32: hsla(0 0% 32%);
-  --themeColor1: #f5f5f5;
-  --themeColor2: #ca5b16;
+  --themeColor1: #f6eddf;
+  --themeColor2: #00787a;
   --themeColor3: #ac420d;
   --themeColor4: #5a2e1e;
   --themeColor5: var(--grey-l20);
   --themeColorMain: var(--themeColor3);
   --themeColorAccent: var(--themeColor4);
   --themeColorLight: var(--themeColor1);
+  --themeColorDark: var(--themeColor5);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -187,6 +188,7 @@ body {
 .card .card__text,
 .card--bordered .card__text {
   padding: 1rem;
+  color: var(--themeColor5);
 }
 
 .card .card__header,
