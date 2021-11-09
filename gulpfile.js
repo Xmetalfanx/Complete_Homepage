@@ -24,7 +24,6 @@ const
     minmax = require('postcss-media-minmax'),
     normalize = require('postcss-normalize'),
     sorting = require('postcss-sorting'),
-    colorConverter = require("postcss-color-converter"),
     mediaVariables = require('postcss-media-variables'),
     cssVariables = require("postcss-css-variables");
 
@@ -73,9 +72,6 @@ async function compileSCSSToCSS() {
     normalize({}),
     //doiuse({}),
     sorting({}),
-    // colorConverter({
-    //   outputColorFormat: 'hsl'
-    // }),
     colorguard({
         allowEquivalentNotation: true
     })
