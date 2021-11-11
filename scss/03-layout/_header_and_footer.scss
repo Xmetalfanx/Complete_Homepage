@@ -108,8 +108,9 @@ header {
       // just a test color
       :active,
       :hover {
-        color: var(--themeColor1);
-        background-color: var(--themeColor2);
+        color: var(--themeColorLight);
+        background-color: var(--themeColor4);
+        text-shadow: none;
       }
 
       @media ($breakpoint-lg) {

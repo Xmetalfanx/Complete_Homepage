@@ -1,4 +1,4 @@
-@use "../01-abstracts/index" as *;
+@use '../01-abstracts/index' as *;
 
 // Things specific to the landing page of the site
 
@@ -6,6 +6,12 @@
   margin: 0.5rem auto;
   font-weight: 900;
   font-size: var(--h2);
+}
+
+.frontpage-section {
+  .frontpage-title {
+    color: var(--themeColorDark);
+  }
 }
 
 .git-section,
@@ -23,7 +29,7 @@
     margin-bottom: 0;
 
     &:hover {
-      outline: 2px solid var(--themeColorAccent);
+      outline: 2px solid var(--themeColorAccentL);
 
       // remove below items once the bootstrap CDN is removed
       color: inherit;
@@ -67,7 +73,7 @@
   }
 
   .git-icons {
-    color: var(--themeColorAccent);
+    color: var(--themeColorAccentD);
     display: flex;
     justify-content: space-around;
     margin-bottom: 0.5rem;

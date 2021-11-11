@@ -43,15 +43,16 @@
   --grey-l20: hsla(0 0% 20%);
   --grey-l24: hsla(0 0% 24%);
   --grey-l32: hsla(0 0% 32%);
-  --themeColor1: #f6eddf;
-  --themeColor2: #00787a;
-  --themeColor3: #ac420d;
-  --themeColor4: #5a2e1e;
-  --themeColor5: var(--grey-l20);
-  --themeColorMain: var(--themeColor3);
-  --themeColorAccent: var(--themeColor4);
+  --themeColor1: hsla(35, 60%, 96%);
+  --themeColor2: hsla(181, 100%, 20%);
+  --themeColor3: hsla(20, 86%, 36%);
+  --themeColor4: hsla(16, 50%, 24%);
+  --themeColor5: hsla(var(--grey-l20));
   --themeColorLight: var(--themeColor1);
   --themeColorDark: var(--themeColor5);
+  --themeColorAccentL: var(--themeColor2);
+  --themeColorAccentD: var(--themeColor3);
+  --themeColorMain: var(--themeColor3);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -108,7 +109,7 @@ body {
 }
 
 p {
-  color: var(--themeColor5);
+  color: var(--themeColorDark);
 }
 
 h1,
@@ -145,7 +146,7 @@ h5,
 }
 
 a {
-  color: var(--themeColor4);
+  color: var(--themeColorAccentL);
   background-color: transparent;
   text-decoration: none;
 }
@@ -163,6 +164,7 @@ html {
 
 body {
   background-color: var(--themeColorLight);
+  color: var(--themeColorDark);
   display: grid;
   grid-template-areas: "header" "main-section" "footer";
   grid-template-rows: 1fr auto 1fr;
@@ -188,7 +190,7 @@ body {
 .card .card__text,
 .card--bordered .card__text {
   padding: 1rem;
-  color: var(--themeColor5);
+  color: var(--themeColorDark);
 }
 
 .card .card__header,
@@ -393,8 +395,9 @@ header .topnav a {
 
 header .topnav a :active,
 header .topnav a :hover {
-  color: var(--themeColor1);
-  background-color: var(--themeColor2);
+  color: var(--themeColorLight);
+  background-color: var(--themeColor4);
+  text-shadow: none;
 }
 
 @media (max-width: 992px) {
@@ -764,7 +767,7 @@ header .topnav .icon {
 }
 
 .accordion label:hover {
-  background: var(--themeColorAccent);
+  background: var(--themeColorAccentL);
 }
 
 .accordion .content {
@@ -901,7 +904,7 @@ header .topnav .icon {
 }
 
 #linuxVersions .version {
-  color: var(--themeColorAccent);
+  color: var(--themeColorAccentD);
 }
 
 .border {
@@ -1575,6 +1578,10 @@ header .topnav .icon {
   font-size: var(--h2);
 }
 
+.frontpage-section .frontpage-title {
+  color: var(--themeColorDark);
+}
+
 .git-section,
 .site-section {
   display: flex;
@@ -1597,7 +1604,7 @@ header .topnav .icon {
 
 .git-section a:hover,
 .site-section a:hover {
-  outline: 2px solid var(--themeColorAccent);
+  outline: 2px solid var(--themeColorAccentL);
   color: inherit;
   text-decoration: none;
 }
@@ -1633,7 +1640,7 @@ header .topnav .icon {
 }
 
 .git-section .git-icons {
-  color: var(--themeColorAccent);
+  color: var(--themeColorAccentD);
   display: flex;
   justify-content: space-around;
   margin-bottom: 0.5rem;
@@ -1854,6 +1861,10 @@ code {
 }
 
 figcaption {
+  text-align: center;
+}
+
+.text-center {
   text-align: center;
 }
 

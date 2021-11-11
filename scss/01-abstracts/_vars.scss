@@ -45,35 +45,19 @@ $colorsTorquoise: (
 );
 
 $novThemeColors: (
+  // old theme colros
   //--themeColor1: #F5F5F5,
-  --themeColor1: #F6EDDF,
   //--themeColor2: #CA5B16,
-  --themeColor2: #00787A,
-  --themeColor3: #AC420D,
-  --themeColor4: #5A2E1E,
-  --themeColor5: var(--grey-l20),
 
-  --themeColorMain: var(--themeColor3),
-  --themeColorAccent: var(--themeColor4),
-
-  --themeColorLight: var(--themeColor1),
-  --themeColorDark: var(--themeColor5),
+  // current theme
+  "themeColor1": "35, 60%, 96%",
+  //--themeColor2: #00787A,
+  "themeColor2": "181, 100%, 20%",
+  "themeColor3": "20, 86%, 36%",
+  "themeColor4": "16, 50%, 24%",
+  "themeColor5": var(--grey-l20),
 
 );
-
-// $defaultThemeColors: (
-//   --themeColor1: var(--white),
-//   --themeColor2: var(--turquoise-l30),
-//   --themeColor3: var(--turquoise-l20),
-//   --themeColor4: var(--grey-l32),
-//   --themeColor5: var(--grey-l20),
-//   --themeColorMain: var(--themeColor5),
-//   --themeColorAccent: var(--themeColor2),
-
-//   // not sure about this var name @ this var name
-//   --themeColorLight: var(--themeColor1),
-// );
-
 
 :root {
   // for regular colors
@@ -101,9 +85,19 @@ $novThemeColors: (
   // Theme loop
   // no need for hsla here
   @each $key, $value in $novThemeColors {
-    #{$key}: #{$value};
+    --#{$key}: hsla(#{$value});
   }
 
+  --themeColorLight: var(--themeColor1);
+  --themeColorDark: var(--themeColor5);
+
+  // since TC 2 is lighter (different color sometimes besides shade) then TC 3
+  // lighter or darker  for L and D
+  --themeColorAccentL: var(--themeColor2);
+  --themeColorAccentD: var(--themeColor3);
+
+  // this should change based on the theme i want to go for
+  --themeColorMain: var(--themeColor3);
 
   // End Colors
   ///////////////////////////////////

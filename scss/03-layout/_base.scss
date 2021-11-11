@@ -13,6 +13,8 @@ html {
 
 body {
   background-color: var(--themeColorLight);
+  // for text 
+  color: var(--themeColorDark);
   display: grid;
   grid-template-areas:
     "header"
@@ -38,7 +40,7 @@ body {
   .card__body,
   .card__text {
     padding: 1rem;
-    color: var(--themeColor5);
+    color: var(--themeColorDark);
   }
 
   .card__header {
