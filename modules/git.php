@@ -1,4 +1,4 @@
-<div class="frontpage-title">My Git Projects </div>
+<div class="frontpage-title py-3">My Git Projects </div>
 <section class="git-section">
   <div class="card">
       <div class="card__header">Linux Setup</div>
