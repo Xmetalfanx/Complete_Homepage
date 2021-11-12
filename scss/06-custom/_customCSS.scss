@@ -127,3 +127,7 @@ figcaption {
 .text-center {
   text-align: center;
 }
+
+.foobar {
+  color: cale(var(--themeColorDark), .25);
+}

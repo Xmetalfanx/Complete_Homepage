@@ -28,7 +28,6 @@
   grid-column: span 2;
 }
 
-// Guessing atm
-// @mixin adjustAlpha($colorVal, $alphaVal) {
-//   --#{$colorVal}-a50: adjust-color(${$colorVal}, alpha: $alphaVal)
-// }
+@mixin defineColorHSL($color, $hue, $saturation, $lightness){
+  #{$color}: unquote("hsl(#{$hue}, #{$saturation}, #{$lightness})");#{$color}-h: #{$hue};#{$color}-s: #{$saturation};#{$color}-l: #{$lightness};
+}
