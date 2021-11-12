@@ -1868,6 +1868,10 @@ figcaption {
   text-align: center;
 }
 
+.foobar {
+  color: opacitycolor(var(--themeColorDark), 0.25);
+}
+
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
 #GAOTD {
   width: 45%;

@@ -34,15 +34,6 @@ $colorsGrey: (
 
 );
 
-$colorsTorquoise: (
-
-// DO NOT DELETE UNTIL YOU KNOW VALUES IN REPLACEMENT ARE CORRECT
-  "turquoise-l20": "174 55% 20%",
-  "turquoise-l30": "174 72% 30%",
-  "turquoise-l40": "174 72% 40%",
-  "turquoise-l60": "174 72% 60%",
-
-);
 
 $novThemeColors: (
   // old theme colros
@@ -71,10 +62,6 @@ $novThemeColors: (
   }
 
   @each $key, $value in $subColors {
-    --#{$key}: hsla(#{$value});
-  }
-
-  @each $key, $value in $colorsTorquoise {
     --#{$key}: hsla(#{$value});
   }
 
