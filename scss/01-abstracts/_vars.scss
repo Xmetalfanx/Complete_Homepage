@@ -6,20 +6,23 @@ $breakpoint-md: "max-width: 768px";
 $breakpoint-lg: "max-width: 992px";
 $breakpoint-xl: "max-width: 1200px";
 
+// note: the color variables are in HSL/HSLA format 
 $mainColors: (
   "black": "0 0% 0%",
   "white": "0 0% 100%",
-  "blue": "240 100% 50%",
-  "maroon": "0 100% 20%",
+ 
+
+  "forrest_green": "120 100% 20%",
+);
+
+
+// the idea are colors that I do not need shades of 
+$subColors: (
   "red": "0 100% 50%",
   "burntorange": "17 100% 40%",
   "green": "120 44% 34%",
-  "greentest": "120 100% 50%",
-);
-
-// idea: colors I dont need to change the L value of ... leading to more code
-$subColors: (
-  "forrest_green": "120 100% 20%",
+  //"blue": "240 100% 50%",
+  //"maroon": "0 100% 20%",
 );
 
 $colorsGrey: (
@@ -34,21 +37,23 @@ $colorsGrey: (
 
 );
 
-
 $novThemeColors: (
   // old theme colros
   //--themeColor1: #F5F5F5,
   //--themeColor2: #CA5B16,
 
   // current theme
-  "themeColor1": "35, 60%, 96%",
+  "themeColor1": "35 60% 96%",
   //--themeColor2: #00787A,
-  "themeColor2": "181, 100%, 20%",
-  "themeColor3": "20, 86%, 36%",
-  "themeColor4": "16, 50%, 24%",
-  "themeColor5": var(--grey-l20),
+  "themeColor2": "181, 100% 20%",
+  "themeColor3": "20 86% 36%",
+  "themeColor4": "16 50% 24%",
+  "themeColor5": "0 0% 20%",
 
 );
+
+// rename this later, perhaps 
+// $themeColorNames
 
 :root {
   // for regular colors
@@ -56,9 +61,9 @@ $novThemeColors: (
 
     // could i use a mixin for this?
     --#{$key}: hsla(#{$value});
-    --#{$key}-l75: hsla(#{$value} / .75);
-    --#{$key}-l50: hsla(#{$value} / .5);
-    --#{$key}-l25: hsla(#{$value} / .25);
+    --#{$key}-a75: hsla(#{$value} / .75);
+    --#{$key}-a50: hsla(#{$value} / .5);
+    --#{$key}-a25: hsla(#{$value} / .25);
   }
 
   @each $key, $value in $subColors {
@@ -72,7 +77,11 @@ $novThemeColors: (
   // Theme loop
   // no need for hsla here
   @each $key, $value in $novThemeColors {
-    --#{$key}: hsla(#{$value});
+      // could i use a mixin for this?
+      --#{$key}: hsla(#{$value});
+      --#{$key}-a75: hsla(#{$value} / .75);
+      --#{$key}-a50: hsla(#{$value} / .5);
+      --#{$key}-a25: hsla(#{$value} / .25);
   }
 
   --themeColorLight: var(--themeColor1);

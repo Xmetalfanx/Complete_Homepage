@@ -2,52 +2,45 @@
 
 :root {
   --black: hsla(0 0% 0%);
-  --black-l75: hsla(0 0% 0% / 0.75);
-  --black-l50: hsla(0 0% 0% / 0.5);
-  --black-l25: hsla(0 0% 0% / 0.25);
+  --black-a75: hsla(0 0% 0% / 0.75);
+  --black-a50: hsla(0 0% 0% / 0.5);
+  --black-a25: hsla(0 0% 0% / 0.25);
   --white: hsla(0 0% 100%);
-  --white-l75: hsla(0 0% 100% / 0.75);
-  --white-l50: hsla(0 0% 100% / 0.5);
-  --white-l25: hsla(0 0% 100% / 0.25);
-  --blue: hsla(240 100% 50%);
-  --blue-l75: hsla(240 100% 50% / 0.75);
-  --blue-l50: hsla(240 100% 50% / 0.5);
-  --blue-l25: hsla(240 100% 50% / 0.25);
-  --maroon: hsla(0 100% 20%);
-  --maroon-l75: hsla(0 100% 20% / 0.75);
-  --maroon-l50: hsla(0 100% 20% / 0.5);
-  --maroon-l25: hsla(0 100% 20% / 0.25);
-  --red: hsla(0 100% 50%);
-  --red-l75: hsla(0 100% 50% / 0.75);
-  --red-l50: hsla(0 100% 50% / 0.5);
-  --red-l25: hsla(0 100% 50% / 0.25);
-  --burntorange: hsla(17 100% 40%);
-  --burntorange-l75: hsla(17 100% 40% / 0.75);
-  --burntorange-l50: hsla(17 100% 40% / 0.5);
-  --burntorange-l25: hsla(17 100% 40% / 0.25);
-  --green: hsla(120 44% 34%);
-  --green-l75: hsla(120 44% 34% / 0.75);
-  --green-l50: hsla(120 44% 34% / 0.5);
-  --green-l25: hsla(120 44% 34% / 0.25);
-  --greentest: hsla(120 100% 50%);
-  --greentest-l75: hsla(120 100% 50% / 0.75);
-  --greentest-l50: hsla(120 100% 50% / 0.5);
-  --greentest-l25: hsla(120 100% 50% / 0.25);
+  --white-a75: hsla(0 0% 100% / 0.75);
+  --white-a50: hsla(0 0% 100% / 0.5);
+  --white-a25: hsla(0 0% 100% / 0.25);
   --forrest_green: hsla(120 100% 20%);
-  --turquoise-l20: hsla(174 55% 20%);
-  --turquoise-l30: hsla(174 72% 30%);
-  --turquoise-l40: hsla(174 72% 40%);
-  --turquoise-l60: hsla(174 72% 60%);
+  --forrest_green-a75: hsla(120 100% 20% / 0.75);
+  --forrest_green-a50: hsla(120 100% 20% / 0.5);
+  --forrest_green-a25: hsla(120 100% 20% / 0.25);
+  --red: hsla(0 100% 50%);
+  --burntorange: hsla(17 100% 40%);
+  --green: hsla(120 44% 34%);
   --grey-l13: hsla(0 0% 13%);
   --grey-l15: hsla(0 0% 15%);
   --grey-l20: hsla(0 0% 20%);
   --grey-l24: hsla(0 0% 24%);
   --grey-l32: hsla(0 0% 32%);
-  --themeColor1: hsla(35, 60%, 96%);
-  --themeColor2: hsla(181, 100%, 20%);
-  --themeColor3: hsla(20, 86%, 36%);
-  --themeColor4: hsla(16, 50%, 24%);
-  --themeColor5: hsla(var(--grey-l20));
+  --themeColor1: hsla(35 60% 96%);
+  --themeColor1-a75: hsla(35 60% 96% / 0.75);
+  --themeColor1-a50: hsla(35 60% 96% / 0.5);
+  --themeColor1-a25: hsla(35 60% 96% / 0.25);
+  --themeColor2: hsla(181, 100% 20%);
+  --themeColor2-a75: hsla(181, 100% 20% / 0.75);
+  --themeColor2-a50: hsla(181, 100% 20% / 0.5);
+  --themeColor2-a25: hsla(181, 100% 20% / 0.25);
+  --themeColor3: hsla(20 86% 36%);
+  --themeColor3-a75: hsla(20 86% 36% / 0.75);
+  --themeColor3-a50: hsla(20 86% 36% / 0.5);
+  --themeColor3-a25: hsla(20 86% 36% / 0.25);
+  --themeColor4: hsla(16 50% 24%);
+  --themeColor4-a75: hsla(16 50% 24% / 0.75);
+  --themeColor4-a50: hsla(16 50% 24% / 0.5);
+  --themeColor4-a25: hsla(16 50% 24% / 0.25);
+  --themeColor5: hsla(0 0% 20%);
+  --themeColor5-a75: hsla(0 0% 20% / 0.75);
+  --themeColor5-a50: hsla(0 0% 20% / 0.5);
+  --themeColor5-a25: hsla(0 0% 20% / 0.25);
   --themeColorLight: var(--themeColor1);
   --themeColorDark: var(--themeColor5);
   --themeColorAccentL: var(--themeColor2);
@@ -1869,7 +1862,7 @@ figcaption {
 }
 
 .foobar {
-  color: opacitycolor(var(--themeColorDark), 0.25);
+  color: cale(var(--themeColorDark), 0.25);
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
