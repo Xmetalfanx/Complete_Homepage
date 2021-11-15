@@ -1,5 +1,5 @@
-@use "../01-abstracts/index" as *;
-@use "../02-initial/index" as *;
+@use "../01-abstracts/index"as *;
+@use "../02-initial/index"as *;
 
 /////////////////////////////////////////////////////////////////
 // for Flex or grid
@@ -14,6 +14,7 @@
 .jc-space-between {
   justify-content: space-between;
 }
+
 ///////////////////////////////////////////
 
 // for display:grid, spans two columns
@@ -129,5 +130,13 @@ figcaption {
 }
 
 .foobar {
-  color: cale(var(--themeColorDark), .25);
+  color: colorOpacity(red, .3);
+}
+
+// .foobarVar {
+//   background-color: colorOpacity(#{var(--themeColor3)}, .25);
+// }
+
+.foobarBG {
+  background-color: colorOpacity(blue, .7);
 }

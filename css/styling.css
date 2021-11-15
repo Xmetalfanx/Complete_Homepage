@@ -21,31 +21,11 @@
   --grey-l20: hsla(0 0% 20%);
   --grey-l24: hsla(0 0% 24%);
   --grey-l32: hsla(0 0% 32%);
-  --themeColor1: hsla(35 60% 96%);
-  --themeColor1-a75: hsla(35 60% 96% / 0.75);
-  --themeColor1-a50: hsla(35 60% 96% / 0.5);
-  --themeColor1-a25: hsla(35 60% 96% / 0.25);
-  --themeColor2: hsla(181, 100% 20%);
-  --themeColor2-a75: hsla(181, 100% 20% / 0.75);
-  --themeColor2-a50: hsla(181, 100% 20% / 0.5);
-  --themeColor2-a25: hsla(181, 100% 20% / 0.25);
-  --themeColor3: hsla(20 86% 36%);
-  --themeColor3-a75: hsla(20 86% 36% / 0.75);
-  --themeColor3-a50: hsla(20 86% 36% / 0.5);
-  --themeColor3-a25: hsla(20 86% 36% / 0.25);
-  --themeColor4: hsla(16 50% 24%);
-  --themeColor4-a75: hsla(16 50% 24% / 0.75);
-  --themeColor4-a50: hsla(16 50% 24% / 0.5);
-  --themeColor4-a25: hsla(16 50% 24% / 0.25);
-  --themeColor5: hsla(0 0% 20%);
-  --themeColor5-a75: hsla(0 0% 20% / 0.75);
-  --themeColor5-a50: hsla(0 0% 20% / 0.5);
-  --themeColor5-a25: hsla(0 0% 20% / 0.25);
-  --themeColorLight: var(--themeColor1);
-  --themeColorDark: var(--themeColor5);
-  --themeColorAccentL: var(--themeColor2);
-  --themeColorAccentD: var(--themeColor3);
-  --themeColorMain: var(--themeColor3);
+  --themeColorL: hsla(35 60% 96%);
+  --themeColorAccentL: hsla(181 100% 20%);
+  --themeColorMain: hsla(20 86% 36%);
+  --themeColorAccentD: hsla(16 50% 24%);
+  --themeColorD: hsla(0 0% 20%);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -102,7 +82,7 @@ body {
 }
 
 p {
-  color: var(--themeColorDark);
+  color: var(--themeColorD);
 }
 
 h1,
@@ -156,8 +136,8 @@ html {
 }
 
 body {
-  background-color: var(--themeColorLight);
-  color: var(--themeColorDark);
+  background-color: var(--themeColorL);
+  color: var(--themeColorD);
   display: grid;
   grid-template-areas: "header" "main-section" "footer";
   grid-template-rows: 1fr auto 1fr;
@@ -183,7 +163,7 @@ body {
 .card .card__text,
 .card--bordered .card__text {
   padding: 1rem;
-  color: var(--themeColorDark);
+  color: var(--themeColorD);
 }
 
 .card .card__header,
@@ -194,7 +174,7 @@ body {
   background-color: var(--themeColorMain);
   border-color: var(--themeColorMain);
   border-radius: 10px 10px 0 0;
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
   display: flex;
   flex-direction: row;
   font-weight: bold;
@@ -249,7 +229,7 @@ body {
 .card .card__header--wide i,
 .card--bordered .card__header i,
 .card--bordered .card__header--wide i {
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
 }
 
 .card .card__header a:link,
@@ -272,7 +252,7 @@ body {
 header,
 footer {
   display: flex;
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
   background-color: var(--themeColorMain);
   font-family: var(--Helvetica);
   font-weight: 900;
@@ -290,7 +270,7 @@ footer h2,
 footer h3,
 footer h4,
 footer h5 {
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
 }
 
 header h1 > a,
@@ -303,17 +283,17 @@ footer h2 > a,
 footer h3 > a,
 footer h4 > a,
 footer h5 > a {
-  outline: 1px solid var(--themeColorLight);
+  outline: 1px solid var(--themeColorL);
 }
 
 header a,
 footer a {
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
 }
 
 header a:hover,
 footer a:hover {
-  outline: 1px dotted var(--themeColorLight);
+  outline: 1px dotted var(--themeColorL);
 }
 
 header .fa,
@@ -356,7 +336,7 @@ footer .contacts {
 }
 
 header {
-  box-shadow: 2px 2px 5px var(--black);
+  box-shadow: 2px 2px 5px var(--themeColorAccentD);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColorMain);
   grid-area: header;
@@ -388,7 +368,7 @@ header .topnav a {
 
 header .topnav a :active,
 header .topnav a :hover {
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
   background-color: var(--themeColor4);
   text-shadow: none;
 }
@@ -901,23 +881,23 @@ header .topnav .icon {
 }
 
 .border {
-  border: 1px solid var(--themeColorLight);
+  border: 1px solid var(--themeColorL);
 }
 
 .border-top {
-  border-top: 1px solid var(--themeColorLight);
+  border-top: 1px solid var(--themeColorL);
 }
 
 .border-right {
-  border-right: 1px solid var(--themeColorLight);
+  border-right: 1px solid var(--themeColorL);
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--themeColorLight);
+  border-bottom: 1px solid var(--themeColorL);
 }
 
 .border-left {
-  border-left: 1px solid var(--themeColorLight);
+  border-left: 1px solid var(--themeColorL);
 }
 
 .border-0 {
@@ -1572,7 +1552,7 @@ header .topnav .icon {
 }
 
 .frontpage-section .frontpage-title {
-  color: var(--themeColorDark);
+  color: var(--themeColorD);
 }
 
 .git-section,
@@ -1808,7 +1788,7 @@ dl li {
 }
 
 code {
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
   background-color: var(--themeColorMain);
   display: inline-block;
 }
@@ -1862,7 +1842,11 @@ figcaption {
 }
 
 .foobar {
-  color: cale(var(--themeColorDark), 0.25);
+  color: rgba(255, 0, 0, 0.3);
+}
+
+.foobarBG {
+  background-color: rgba(0, 0, 255, 0.7);
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */

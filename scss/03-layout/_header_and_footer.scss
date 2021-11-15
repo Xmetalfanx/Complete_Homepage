@@ -24,19 +24,19 @@ footer {
   h3,
   h4,
   h5 {
-    color: var(--themeColorLight);
+    color: var(--themeColorL);
 
     > a {
-      outline: 1px solid var(--themeColorLight);
+      outline: 1px solid var(--themeColorL);
     }
   }
 
   a {
-    color: var(--themeColorLight);
+    color: var(--themeColorL);
   }
 
   a:hover {
-    outline: 1px dotted var(--themeColorLight);
+    outline: 1px dotted var(--themeColorL);
   }
 
   // for Fork Awesome code
@@ -79,7 +79,7 @@ footer {
 }
 
 header {
-  box-shadow: 2px 2px 5px var(--black);
+  box-shadow: 2px 2px 5px var(--themeColorAccentD);
   padding: 1rem;
   text-shadow: 2px 5px var(--themeColorMain);
   grid-area: header;
@@ -108,7 +108,7 @@ header {
       // just a test color
       :active,
       :hover {
-        color: var(--themeColorLight);
+        color: var(--themeColorL);
         background-color: var(--themeColor4);
         text-shadow: none;
       }

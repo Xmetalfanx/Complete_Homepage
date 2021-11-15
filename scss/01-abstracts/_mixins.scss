@@ -1,7 +1,7 @@
 // probably going to need to innclude var file here
 
 @mixin darkBG {
-  color: var(--themeColorLight);
+  color: var(--themeColorL);
   background-color: var(--themeColorMain);
 }
 
@@ -28,6 +28,6 @@
   grid-column: span 2;
 }
 
-@mixin defineColorHSL($color, $hue, $saturation, $lightness){
-  #{$color}: unquote("hsl(#{$hue}, #{$saturation}, #{$lightness})");#{$color}-h: #{$hue};#{$color}-s: #{$saturation};#{$color}-l: #{$lightness};
+@mixin alphaColorChange($color, $alpha) {
+  color: ($color, $alpha);
 }

@@ -21,6 +21,7 @@
   <div class="primary-content">
 
     <div class="card">
+      <!-- what is this themeColor class here for? -->
       <div class="card__header themeColorAccent"> Introduction </div>
       <div class="card__body"> Hello, I'd like to give a little background about my  experience with Linux, before you start browsing my site, to get a sense for where I am coming from. For a number of years now , I have been using Linux to some degree, and  have been using it more and more, while using  Windows less and less.
 

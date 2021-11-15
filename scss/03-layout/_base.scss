@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  background-color: var(--themeColorLight);
+  background-color: var(--themeColorL);
   // for text 
-  color: var(--themeColorDark);
+  color: var(--themeColorD);
   display: grid;
   grid-template-areas:
     "header"
@@ -40,7 +40,7 @@ body {
   .card__body,
   .card__text {
     padding: 1rem;
-    color: var(--themeColorDark);
+    color: var(--themeColorD);
   }
 
   .card__header {
@@ -48,7 +48,7 @@ body {
     background-color: var(--themeColorMain);
     border-color: var(--themeColorMain);
     border-radius: 10px 10px 0 0;
-    color: var(--themeColorLight);
+    color: var(--themeColorL);
     display: flex;
     flex-direction: row;
     font-weight: bold;
@@ -79,7 +79,7 @@ body {
     h4,
     h5,
     i {
-      color: var(--themeColorLight);
+      color: var(--themeColorL);
     }
 
     a:link,
