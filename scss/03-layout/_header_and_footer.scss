@@ -1,4 +1,4 @@
-@use "../01-abstracts/index" as *;
+@use '../01-abstracts/index' as *;
 //@use "../05-fromBS/index" as *;
 
 header,
@@ -16,27 +16,24 @@ footer {
   // aligns content top vs bottom on the Y axis
   align-items: center;
 
-  // This is a problem on mobile
-  // max-height: 4.5rem;
-
   h1,
   h2,
   h3,
   h4,
   h5 {
     color: var(--themeColorL);
-
-    > a {
-      outline: 1px solid var(--themeColorL);
-    }
   }
 
+  // Default link color is a themeColorMain BG (medium orange right now) and an off white themeColorL (?? name) text color
   a {
     color: var(--themeColorL);
-  }
+    background-color: var(--themeColorMain);
 
-  a:hover {
-    outline: 1px dotted var(--themeColorL);
+    :hover,
+    :focus {
+      color: var(--themeColorAccentL);
+      outline: 1px dotted var(--themeColorAccentL);
+    }
   }
 
   // for Fork Awesome code
@@ -81,17 +78,18 @@ footer {
 header {
   box-shadow: 2px 2px 5px var(--themeColorAccentD);
   padding: 1rem;
-  text-shadow: 2px 5px var(--themeColorMain);
+  // text-shadow: 2px 5px var(--themeColorAccentD-a75);
   grid-area: header;
 
   .fa {
     padding: 0.25rem;
   }
 
-  > * {
-    background-color: inherit;
-    color: inherit;
-  }
+  // // what is this for ?
+  // > * {
+  //   background-color: inherit;
+  //   color: inherit;
+  // }
 
   // the menu bar to the top right
   .topnav {
@@ -104,14 +102,6 @@ header {
 
     a {
       margin: 0 1.2rem;
-
-      // just a test color
-      :active,
-      :hover {
-        color: var(--themeColorL);
-        background-color: var(--themeColor4);
-        text-shadow: none;
-      }
 
       @media ($breakpoint-lg) {
         display: none;

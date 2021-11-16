@@ -25,18 +25,18 @@
   --themeColorL-a75: hsla(35 60% 96% / 0.75);
   --themeColorL-a50: hsla(35 60% 96% / 0.5);
   --themeColorL-a25: hsla(35 60% 96% / 0.25);
-  --themeColorAccentL: hsla(181 100% 20%);
-  --themeColorAccentL-a75: hsla(181 100% 20% / 0.75);
-  --themeColorAccentL-a50: hsla(181 100% 20% / 0.5);
-  --themeColorAccentL-a25: hsla(181 100% 20% / 0.25);
-  --themeColorMain: hsla(20 86% 36%);
-  --themeColorMain-a75: hsla(20 86% 36% / 0.75);
-  --themeColorMain-a50: hsla(20 86% 36% / 0.5);
-  --themeColorMain-a25: hsla(20 86% 36% / 0.25);
-  --themeColorAccentD: hsla(16 50% 24%);
-  --themeColorAccentD-a75: hsla(16 50% 24% / 0.75);
-  --themeColorAccentD-a50: hsla(16 50% 24% / 0.5);
-  --themeColorAccentD-a25: hsla(16 50% 24% / 0.25);
+  --themeColorAccentL: hsla(181 60% 25%);
+  --themeColorAccentL-a75: hsla(181 60% 25% / 0.75);
+  --themeColorAccentL-a50: hsla(181 60% 25% / 0.5);
+  --themeColorAccentL-a25: hsla(181 60% 25% / 0.25);
+  --themeColorMain: hsla(20 86% 25%);
+  --themeColorMain-a75: hsla(20 86% 25% / 0.75);
+  --themeColorMain-a50: hsla(20 86% 25% / 0.5);
+  --themeColorMain-a25: hsla(20 86% 25% / 0.25);
+  --themeColorAccentD: hsla(16 80% 20%);
+  --themeColorAccentD-a75: hsla(16 80% 20% / 0.75);
+  --themeColorAccentD-a50: hsla(16 80% 20% / 0.5);
+  --themeColorAccentD-a25: hsla(16 80% 20% / 0.25);
   --themeColorD: hsla(0 0% 20%);
   --themeColorD-a75: hsla(0 0% 20% / 0.75);
   --themeColorD-a50: hsla(0 0% 20% / 0.5);
@@ -134,7 +134,7 @@ h5,
 }
 
 a {
-  color: var(--themeColorAccentL);
+  color: var(--themeColorAccentD);
   background-color: transparent;
   text-decoration: none;
 }
@@ -163,10 +163,10 @@ body {
 .card,
 .card--bordered {
   border-radius: 10px;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem var(--themeColorAccentD-a50);
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
-  outline: 1px solid var(--grey-l13);
+  outline: 1px solid var(--themeColorAccentD-a75);
 }
 
 .card--bordered {
@@ -288,27 +288,18 @@ footer h5 {
   color: var(--themeColorL);
 }
 
-header h1 > a,
-header h2 > a,
-header h3 > a,
-header h4 > a,
-header h5 > a,
-footer h1 > a,
-footer h2 > a,
-footer h3 > a,
-footer h4 > a,
-footer h5 > a {
-  outline: 1px solid var(--themeColorL);
-}
-
 header a,
 footer a {
   color: var(--themeColorL);
+  background-color: var(--themeColorMain);
 }
 
-header a:hover,
-footer a:hover {
-  outline: 1px dotted var(--themeColorL);
+header a :hover,
+header a :focus,
+footer a :hover,
+footer a :focus {
+  color: var(--themeColorAccentL);
+  outline: 1px dotted var(--themeColorAccentL);
 }
 
 header .fa,
@@ -353,7 +344,6 @@ footer .contacts {
 header {
   box-shadow: 2px 2px 5px var(--themeColorAccentD);
   padding: 1rem;
-  text-shadow: 2px 5px var(--themeColorMain);
   grid-area: header;
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -361,11 +351,6 @@ header {
 
 header .fa {
   padding: 0.25rem;
-}
-
-header > * {
-  background-color: inherit;
-  color: inherit;
 }
 
 header .topnav {
@@ -379,13 +364,6 @@ header .topnav {
 
 header .topnav a {
   margin: 0 1.2rem;
-}
-
-header .topnav a :active,
-header .topnav a :hover {
-  color: var(--themeColorL);
-  background-color: var(--themeColor4);
-  text-shadow: none;
 }
 
 @media (max-width: 992px) {
@@ -555,7 +533,7 @@ header .topnav .icon {
 .main-section--wide .sidebar a:hover,
 .main-section--left-wide .sidebar a:hover,
 .main-section--right-wide .sidebar a:hover {
-  color: var(--themeColorMain);
+  color: var(--themeColorAccentL);
   outline: 1px solid var(--themeColorMain);
 }
 
@@ -1566,6 +1544,15 @@ header .topnav .icon {
   font-size: var(--h2);
 }
 
+.frontpage-section a {
+  color: var(--themeColorAccentD);
+}
+
+.frontpage-section a :hover,
+.frontpage-section a :visited {
+  color: var(--themeColorAccentL-a75);
+}
+
 .frontpage-section .frontpage-title {
   color: var(--themeColorD);
 }
@@ -1583,18 +1570,6 @@ header .topnav .icon {
   .site-section {
     flex-direction: column;
   }
-}
-
-.git-section a,
-.site-section a {
-  margin-bottom: 0;
-}
-
-.git-section a:hover,
-.site-section a:hover {
-  outline: 2px solid var(--themeColorAccentL);
-  color: inherit;
-  text-decoration: none;
 }
 
 .git-section p,

@@ -7,17 +7,17 @@ $breakpoint-md: "max-width: 768px";
 $breakpoint-lg: "max-width: 992px";
 $breakpoint-xl: "max-width: 1200px";
 
-// note: the color variables are in HSL/HSLA format 
+// note: the color variables are in HSL/HSLA format
 $mainColors: (
   "black": "0 0% 0%",
   "white": "0 0% 100%",
- 
+
 
   "forrest_green": "120 100% 20%",
 );
 
 
-// the idea are colors that I do not need shades of 
+// the idea are colors that I do not need shades of
 $subColors: (
   "red": "0 100% 50%",
   "burntorange": "17 100% 40%",
@@ -40,12 +40,12 @@ $colorsGrey: (
 $novThemeColors: (
   // hsla(35 60% 96%)
   "themeColorL": "35 60% 96%",
-  // hsla(181 100% 20%)
-  "themeColorAccentL": "181 100% 20%",
-  // hsla(20 86% 36%)
-  "themeColorMain": "20 86% 36%",
-  // hsla(16 50% 24%)
-  "themeColorAccentD": "16 50% 24%",
+  // hsla(181 60% 25%)
+  "themeColorAccentL": "181 60% 25%",
+  // hsla(20 86% 30%)
+  "themeColorMain": "20 86% 25%",
+  // hsla(16 80% 25%)
+  "themeColorAccentD": "16 80% 20%",
   // hsla(0 0% 20%)
   "themeColorD": "0 0% 20%",
 );
@@ -78,12 +78,12 @@ $novThemeColors: (
       --#{$key}-a25: hsla(#{$value} / .25);
   }
 
-  // // old themeColor 1 
+  // // old themeColor 1
   // --themeColorL: hsla(35 60% 96%);
 
-  // // old themeColor 2 
+  // // old themeColor 2
   // --themeColorAccentL: hsla(181 100% 20%);
-  
+
   // // old themeColor 3
   // --themeColorMain: hsla(20 86% 36%);
 

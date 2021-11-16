@@ -13,7 +13,7 @@ html {
 
 body {
   background-color: var(--themeColorL);
-  // for text 
+  // for text
   color: var(--themeColorD);
   display: grid;
   grid-template-areas:
@@ -30,7 +30,7 @@ body {
   @include boxshadow;
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
-  outline: 1px solid var(--grey-l13);
+  outline: 1px solid var(--themeColorAccentD-a75);
 
   &--bordered {
     @extend .card;
