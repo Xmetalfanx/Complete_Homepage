@@ -20,10 +20,10 @@
   --themeColorL-a75: hsla(35 60% 96% / 0.75);
   --themeColorL-a50: hsla(35 60% 96% / 0.5);
   --themeColorL-a25: hsla(35 60% 96% / 0.25);
-  --themeColorAccentL: hsla(181 60% 25%);
-  --themeColorAccentL-a75: hsla(181 60% 25% / 0.75);
-  --themeColorAccentL-a50: hsla(181 60% 25% / 0.5);
-  --themeColorAccentL-a25: hsla(181 60% 25% / 0.25);
+  --themeColorAccentL: hsla(43, 100%, 45%);
+  --themeColorAccentL-a75: hsla(43, 100%, 45% / 0.75);
+  --themeColorAccentL-a50: hsla(43, 100%, 45% / 0.5);
+  --themeColorAccentL-a25: hsla(43, 100%, 45% / 0.25);
   --themeColorMain: hsla(20 86% 25%);
   --themeColorMain-a75: hsla(20 86% 25% / 0.75);
   --themeColorMain-a50: hsla(20 86% 25% / 0.5);

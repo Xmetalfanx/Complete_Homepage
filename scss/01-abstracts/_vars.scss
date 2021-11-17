@@ -41,13 +41,14 @@ $novThemeColors: (
   // hsla(35 60% 96%)
   "themeColorL": "35 60% 96%",
   // hsla(181 60% 25%)
-  "themeColorAccentL": "181 60% 25%",
+  //"themeColorAccentL": "181 60% 25%",
+  // hsla(43, 100%, 45%)
+    "themeColorAccentL": "43, 100%, 45%",
   // hsla(20 86% 30%)
   "themeColorMain": "20 86% 25%",
   // hsla(16 80% 25%)
   "themeColorAccentD": "16 80% 20%",
   // hsla(0 0% 20%)
-  "themeColorD": "0 0% 20%",
 );
 
 :root {
@@ -65,9 +66,9 @@ $novThemeColors: (
     --#{$key}: hsla(#{$value});
   }
 
-  @each $key, $value in $colorsGrey {
-    --#{$key}: hsla(#{$value});
-  }
+  // @each $key, $value in $colorsGrey {
+  //   --#{$key}: hsla(#{$value});
+  // }
 
   // Theme loop
   @each $key, $value in $novThemeColors {
