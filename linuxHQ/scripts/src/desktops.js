@@ -152,8 +152,6 @@ function displayDEOutput(
           <br />
 
           <ul>
-              <li class="font-weight-bold">Leap 15.0 </li>
-                  <code class="my-3 p-2">${currentDEopensuseLeap15Install}</code>
               <li class="font-weight-bold">Tumbleweed</li>
                   <code class="my-3 p-2">${currentDEopensuseTWInstall}</code>
           </ul>
@@ -185,7 +183,7 @@ function displayDEOutput(
   // Complete Header
   const deInfoCard = `
 
-            <div class="card mx-3 shadow">
+            <div class="card mx-3">
                 <div class="card__header">
                     <h3>${currentDETitle}</h3>
                 </div>
