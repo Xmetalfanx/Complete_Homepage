@@ -1,7 +1,10 @@
 <section class="site-section">
   <section>
     <figure class="d-none d-lg-inline">
-      <img class="img-fluid" src="/graphics/unsplash/city1.jpg" alt="unsplash city image">
+      <img class="img-fluid" src="/graphics/unsplash/jed-owen-NPBnWE1o07I-unsplash.jpg" alt="unsplash city image">
+      <figcaption>
+      Photo by <a href="https://unsplash.com/@jediahowen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jed Owen</a> on <a href="https://unsplash.com/s/photos/thanksgiving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </figcaption>
     </figure>
     <div class="h3 section-title">
       <a href="/linuxHQ/index.php">LinuxHQ Section </a>
@@ -16,9 +19,9 @@
     <p>Software suggestions and Web Browser/Browser Addon recommendations -Including cross-platform options for Windows and Linux , and Security tips to keep your computer secure</p>
 
     <figure class="d-none d-lg-inline">
-      <img class="img-fluid" src="/graphics/unsplash/eugene-chystiakov-v3KR1I_qMe0-unsplash.jpg" alt="unsplash lake image">
+      <img class="img-fluid" src="/graphics/unsplash/joseph-gonzalez-E-EEQSjDdck-unsplash.jpg" alt="unsplash lake image">
       <figcaption>
-        Photo by <a href="https://unsplash.com/@eugenechystiakov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Eugene Chystiakov</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      Photo by <a href="https://unsplash.com/@miracletwentyone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joseph Gonzalez</a> on <a href="https://unsplash.com/s/photos/thanksgiving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       </figcaption>
     </figure>
 
