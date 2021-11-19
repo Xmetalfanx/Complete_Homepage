@@ -85,13 +85,17 @@
       display: none;
     }
 
+    > * {
+      display: flex;
+      place-items: center;
+    }
+
     > img {
-      padding-bottom: 0.5rem;
-      display: inline-block;
+      padding-bottom: 0.1rem;
     }
 
     > figcaption {
-      font-size: var(--small-text);
+      font-size: var(--fs-small);
       padding-left: 2rem;
     }
   }
@@ -109,7 +113,8 @@
     display: block;
     margin: 1rem 0;
 
-    a:hover, a:focus { 
+    a:hover,
+    a:focus {
       color: var(--themeColorAccentL);
     }
   }

@@ -1618,13 +1618,17 @@ header .topnav .icon {
   }
 }
 
+.site-section figure > * {
+  display: flex;
+  place-items: center;
+}
+
 .site-section figure > img {
-  padding-bottom: 0.5rem;
-  display: inline-block;
+  padding-bottom: 0.1rem;
 }
 
 .site-section figure > figcaption {
-  font-size: var(--small-text);
+  font-size: var(--fs-small);
   padding-left: 2rem;
 }
 
