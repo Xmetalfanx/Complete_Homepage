@@ -9,16 +9,7 @@
 }
 
 .frontpage-section {
-  a {
-    color: var(--themeColorAccentD);
-
-    :hover,
-    :visited {
-      color: var(--themeColorAccentL-a75);
-      //outline: 1px solid var(--themeColorAccentD-a50);
-    }
-  }
-
+  // for the divider in the middle of the page
   .frontpage-title {
     color: var(--themeColorD);
   }
@@ -113,12 +104,14 @@
 
   // why is this here? ... why change the font-size ? why not use the h3 font size var?
   // note that var is NOT 1.7rem
-  .h3,
-  a .h3 {
+
+  .section-title {
     display: block;
     margin: 1rem 0;
-    font-weight: 900;
-    font-size: 1.7rem;
+
+    a:hover, a:focus { 
+      color: var(--themeColorAccentL);
+    }
   }
 
   img {

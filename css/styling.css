@@ -9,10 +9,10 @@
   --white-a75: hsla(0 0% 100% / 0.75);
   --white-a50: hsla(0 0% 100% / 0.5);
   --white-a25: hsla(0 0% 100% / 0.25);
-  --forrest_green: hsla(120 100% 20%);
-  --forrest_green-a75: hsla(120 100% 20% / 0.75);
-  --forrest_green-a50: hsla(120 100% 20% / 0.5);
-  --forrest_green-a25: hsla(120 100% 20% / 0.25);
+  --forest_green: hsla(120 100% 20%);
+  --forest_green-a75: hsla(120 100% 20% / 0.75);
+  --forest_green-a50: hsla(120 100% 20% / 0.5);
+  --forest_green-a25: hsla(120 100% 20% / 0.25);
   --red: hsla(0 100% 50%);
   --burntorange: hsla(17 100% 40%);
   --green: hsla(120 44% 34%);
@@ -96,10 +96,15 @@ p {
 }
 
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
-h5 {
+.h4,
+h5,
+.h5 {
   font-weight: 800;
 }
 
@@ -132,6 +137,11 @@ a {
   color: var(--themeColorAccentD);
   background-color: transparent;
   text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--themeColorAccentL-a75);
 }
 
 *,
@@ -1537,15 +1547,6 @@ header .topnav .icon {
   font-size: var(--h2);
 }
 
-.frontpage-section a {
-  color: var(--themeColorAccentD);
-}
-
-.frontpage-section a :hover,
-.frontpage-section a :visited {
-  color: var(--themeColorAccentL-a75);
-}
-
 .frontpage-section .frontpage-title {
   color: var(--themeColorD);
 }
@@ -1633,12 +1634,14 @@ header .topnav .icon {
   }
 }
 
-.site-section .h3,
-.site-section a .h3 {
+.site-section .section-title {
   display: block;
   margin: 1rem 0;
-  font-weight: 900;
-  font-size: 1.7rem;
+}
+
+.site-section .section-title a:hover,
+.site-section .section-title a:focus {
+  color: var(--themeColorAccentL);
 }
 
 .site-section img {
