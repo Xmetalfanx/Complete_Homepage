@@ -3,10 +3,11 @@
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
 // wait ... should this NOT be  on anything other than the frontpages ?
 #linux-primary-content {
-  align-content: flex-start;
+  //align-content: flex-start;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  //justify-content: space-evenly;
+  place-content: flex-start space-evenly;
   width: 100%;
 
   .card {

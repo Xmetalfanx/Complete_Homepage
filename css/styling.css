@@ -813,10 +813,9 @@ header .topnav .icon {
 }
 
 #linux-primary-content {
-  align-content: flex-start;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  place-content: flex-start space-evenly;
   width: 100%;
 }
 
