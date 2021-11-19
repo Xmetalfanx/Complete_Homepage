@@ -1,6 +1,6 @@
 extends:
   - stylelint-config-standard
-  - stylelint-config-recommended-scss
+  - stylelint-config-standard-scss
 ignoreFiles:
   - node_modules/**/*
 plugins:
@@ -17,12 +17,6 @@ rules:
   # Double-quotes are our convention throughout our codebase within (S)CSS. They also reflect how
   # attribute strings are normally quoted within the DOM.
   string-quotes: double
-
-  declaration-property-unit-allowed-list:
-    font-size:
-      - 'rem'
-      - 'px'
-      - '%'
 
   # The following prefix rules are enabled since we use autoprefixer
   at-rule-no-vendor-prefix: true
@@ -50,12 +44,7 @@ rules:
 
   # http://www.paulirish.com/2010/the-protocol-relative-url/
   function-url-no-scheme-relative: true
-  # TODO: and FIXME: warnings are super useful because they remind us that we should address these
-  # within our codebase
-  comment-word-disallowed-list:
-    - - /^TODO:/
-      - /^FIXME:/
-    - severity: warning
+
   number-leading-zero: always
 
   # Prevents unneeded nesting selectors
