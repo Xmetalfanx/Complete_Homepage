@@ -1,41 +1,41 @@
 @charset "UTF-8";
 
 :root {
-  --black: hsla(0 0% 0%);
-  --black-a75: hsla(0 0% 0% / 0.75);
-  --black-a50: hsla(0 0% 0% / 0.5);
-  --black-a25: hsla(0 0% 0% / 0.25);
-  --white: hsla(0 0% 100%);
-  --white-a75: hsla(0 0% 100% / 0.75);
-  --white-a50: hsla(0 0% 100% / 0.5);
-  --white-a25: hsla(0 0% 100% / 0.25);
-  --forest_green: hsla(120 100% 20%);
-  --forest_green-a75: hsla(120 100% 20% / 0.75);
-  --forest_green-a50: hsla(120 100% 20% / 0.5);
-  --forest_green-a25: hsla(120 100% 20% / 0.25);
-  --red: hsla(0 100% 50%);
-  --burntorange: hsla(17 100% 40%);
-  --green: hsla(120 44% 34%);
-  --themeColorL: hsla(35 60% 96%);
-  --themeColorL-a75: hsla(35 60% 96% / 0.75);
-  --themeColorL-a50: hsla(35 60% 96% / 0.5);
-  --themeColorL-a25: hsla(35 60% 96% / 0.25);
-  --themeColorAccentL: hsla(43, 100%, 45%);
-  --themeColorAccentL-a75: hsla(43, 100%, 45% / 0.75);
-  --themeColorAccentL-a50: hsla(43, 100%, 45% / 0.5);
-  --themeColorAccentL-a25: hsla(43, 100%, 45% / 0.25);
-  --themeColorMain: hsla(20 86% 25%);
-  --themeColorMain-a75: hsla(20 86% 25% / 0.75);
-  --themeColorMain-a50: hsla(20 86% 25% / 0.5);
-  --themeColorMain-a25: hsla(20 86% 25% / 0.25);
-  --themeColorAccentD: hsla(16 80% 20%);
-  --themeColorAccentD-a75: hsla(16 80% 20% / 0.75);
-  --themeColorAccentD-a50: hsla(16 80% 20% / 0.5);
-  --themeColorAccentD-a25: hsla(16 80% 20% / 0.25);
-  --themeColorD: hsla(0 0% 20%);
-  --themeColorD-a75: hsla(0 0% 20% / 0.75);
-  --themeColorD-a50: hsla(0 0% 20% / 0.5);
-  --themeColorD-a25: hsla(0 0% 20% / 0.25);
+  --black: hsla(0deg 0% 0%);
+  --black-a75: hsla(0deg 0% 0% / 75%);
+  --black-a50: hsla(0deg 0% 0% / 50%);
+  --black-a25: hsla(0deg 0% 0% / 25%);
+  --white: hsla(0deg 0% 100%);
+  --white-a75: hsla(0deg 0% 100% / 75%);
+  --white-a50: hsla(0deg 0% 100% / 50%);
+  --white-a25: hsla(0deg 0% 100% / 25%);
+  --forest_green: hsla(120deg 100% 20%);
+  --forest_green-a75: hsla(120deg 100% 20% / 75%);
+  --forest_green-a50: hsla(120deg 100% 20% / 50%);
+  --forest_green-a25: hsla(120deg 100% 20% / 25%);
+  --red: hsla(0deg 100% 50%);
+  --burntorange: hsla(17deg 100% 40%);
+  --green: hsla(120deg 44% 34%);
+  --themeColorL: hsla(35deg 60% 96%);
+  --themeColorL-a75: hsla(35deg 60% 96% / 75%);
+  --themeColorL-a50: hsla(35deg 60% 96% / 50%);
+  --themeColorL-a25: hsla(35deg 60% 96% / 25%);
+  --themeColorAccentL: hsl(43deg 100% 45%);
+  --themeColorAccentL-a75: hsl(43deg 100% 45% / 75%);
+  --themeColorAccentL-a50: hsl(43deg 100% 45% / 50%);
+  --themeColorAccentL-a25: hsl(43deg 100% 45% / 25%);
+  --themeColorMain: hsla(20deg 86% 25%);
+  --themeColorMain-a75: hsla(20deg 86% 25% / 75%);
+  --themeColorMain-a50: hsla(20deg 86% 25% / 50%);
+  --themeColorMain-a25: hsla(20deg 86% 25% / 25%);
+  --themeColorAccentD: hsla(16deg 80% 20%);
+  --themeColorAccentD-a75: hsla(16deg 80% 20% / 75%);
+  --themeColorAccentD-a50: hsla(16deg 80% 20% / 50%);
+  --themeColorAccentD-a25: hsla(16deg 80% 20% / 25%);
+  --themeColorD: hsla(0deg 0% 20%);
+  --themeColorD-a75: hsla(0deg 0% 20% / 75%);
+  --themeColorD-a50: hsla(0deg 0% 20% / 50%);
+  --themeColorD-a25: hsla(0deg 0% 20% / 25%);
   --Verdana: verdana, geneva, arial, helvetica, sans-serif;
   --TNR: "Times New Roman", times, serif;
   --Courier: "Courier New", courier, monospace;
@@ -184,7 +184,7 @@ body {
 .card--bordered {
   border-radius: 10px;
   box-shadow: 0 0.5rem 1rem var(--themeColorAccentD-a50);
-  margin: 0 auto 1.2rem auto;
+  margin: 0 auto 1.2rem;
   min-width: 8rem;
   outline: 1px solid var(--themeColorAccentD-a75);
 }
@@ -734,7 +734,7 @@ header .topnav .icon {
   background-color: var(--themeColorMain);
   display: block;
   padding: 8px 22px;
-  margin: 0 0 1px 0;
+  margin: 0 0 1px;
   border-radius: 10px 10px 0 0;
 }
 
@@ -761,12 +761,12 @@ header .topnav .icon {
   background: var(--white);
   padding: 10px 25px;
   outline: 1px solid var(--themeColorAccentD-a50);
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
   border-radius: 0 0 10px 10px;
 }
 
 .accordion input:checked + label + .content {
-  opacity: 0;
+  opacity: 0%;
   height: 0;
   font-size: 0;
   transition: linear 0.8s;
@@ -774,7 +774,7 @@ header .topnav .icon {
 }
 
 .accordion input + label + .content {
-  opacity: 1;
+  opacity: 100%;
   font-size: var(--fs-normal);
   padding: 8px 25px;
   height: auto;
@@ -811,7 +811,7 @@ header .topnav .icon {
   }
 
   .sidebar .accordion input + label + .content {
-    opacity: 0;
+    opacity: 0%;
     font-size: 0;
     padding: 8px 25px;
     height: auto;
@@ -819,7 +819,7 @@ header .topnav .icon {
   }
 
   .sidebar .accordion input:checked + label + .content {
-    opacity: 1;
+    opacity: 100%;
     font-size: var(--fs-normal);
     transition: linear 0.5s;
     padding: 0 25px;
@@ -1757,7 +1757,7 @@ dl li {
 .YTPlaylistsTN {
   width: 480px;
   height: 276px;
-  margin: 1rem 1rem;
+  margin: 1rem;
 }
 
 /************** RSS Feed *************/
@@ -1831,27 +1831,24 @@ code {
   background: var(--forrest_green);
   border: 0;
   border-radius: 0.25rem;
-  box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
+  box-shadow: 0 2px 8px 0 rgb(20 40 20 / 20%);
   color: var(--white);
   font-size: var(--fs-normal);
   outline: 1px solid var(--forrest_green);
   padding: 0.4em 0.875em;
 }
 
-figcaption {
-  text-align: center;
-}
-
+figcaption,
 .text-center {
   text-align: center;
 }
 
 .foobar {
-  color: rgba(255, 0, 0, 0.3);
+  color: rgb(255 0 0 / 30%);
 }
 
 .foobarBG {
-  background-color: rgba(0, 0, 255, 0.7);
+  background-color: rgb(0 0 255 / 70%);
 }
 
 /* All of the following is from GAOTD's site, .. with some updates for compliance checkers I ran   */
