@@ -129,14 +129,11 @@ figcaption {
   text-align: center;
 }
 
+// was for a test 
 .foobar {
-  color: colorOpacity(red, .3);
+  color: color-opacity(red, 0.3);
 }
 
-// .foobarVar {
-//   background-color: colorOpacity(#{var(--themeColor3)}, .25);
-// }
-
 .foobarBG {
-  background-color: colorOpacity(blue, .7);
+  background-color: color-opacity(blue, .7);
 }

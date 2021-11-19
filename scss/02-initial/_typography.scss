@@ -59,7 +59,8 @@ a {
   background-color: transparent;
   text-decoration: none;
 
-  &:hover, &:focus {
+  &:hover, 
+  &:focus {
     color: var(--themeColorAccentL-a75);
   }
 }
