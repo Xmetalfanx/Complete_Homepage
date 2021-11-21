@@ -57,12 +57,12 @@
   &--sm {
     @extend .thumbnail-fluid;
 
-    @include thumbnail--sm;
+    @include thumbnail-sm;
   }
 
   &--lg {
     @extend .thumbnail-fluid;
 
-    @include thumbnail--lg;
+    @include thumbnail-lg;
   }
 }

@@ -1,18 +1,17 @@
-// probably going to need to innclude var file here
 
-@mixin darkBG {
+@mixin dark-bg {
   color: var(--themeColorL);
   background-color: var(--themeColorMain);
 }
 
-@mixin thumbnail--lg {
+@mixin thumbnail-lg {
   max-height: 450px;
   padding: 2rem;
   max-width: 100%;
   height: auto;
 }
 
-@mixin thumbnail--sm {
+@mixin thumbnail-sm {
   max-height: 350px;
   padding: 2rem;
   max-width: 100%;

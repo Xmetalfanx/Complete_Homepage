@@ -164,4 +164,4 @@ async function siteMapGen() {
 }
 exports.siteMapGen = siteMapGen;
 
-exports.default = gulp.series(lintFixScss,compileSCSSToCSS,minifyCSS);
+exports.default = gulp.series(compileSCSSToCSS,minifyCSS);

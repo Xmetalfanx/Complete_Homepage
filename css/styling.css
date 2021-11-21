@@ -9,12 +9,12 @@
   --white-a75: hsla(0deg 0% 100% / 75%);
   --white-a50: hsla(0deg 0% 100% / 50%);
   --white-a25: hsla(0deg 0% 100% / 25%);
-  --forest_green: hsla(120deg 100% 20%);
-  --forest_green-a75: hsla(120deg 100% 20% / 75%);
-  --forest_green-a50: hsla(120deg 100% 20% / 50%);
-  --forest_green-a25: hsla(120deg 100% 20% / 25%);
+  --forest-green: hsla(120deg 100% 20%);
+  --forest-green-a75: hsla(120deg 100% 20% / 75%);
+  --forest-green-a50: hsla(120deg 100% 20% / 50%);
+  --forest-green-a25: hsla(120deg 100% 20% / 25%);
   --red: hsla(0deg 100% 50%);
-  --burntorange: hsla(17deg 100% 40%);
+  --burnt-orange: hsla(17deg 100% 40%);
   --green: hsla(120deg 44% 34%);
   --themeColorL: hsla(35deg 60% 96%);
   --themeColorL-a75: hsla(35deg 60% 96% / 75%);
@@ -36,15 +36,15 @@
   --themeColorD-a75: hsla(0deg 0% 20% / 75%);
   --themeColorD-a50: hsla(0deg 0% 20% / 50%);
   --themeColorD-a25: hsla(0deg 0% 20% / 25%);
-  --Verdana: verdana, geneva, arial, helvetica, sans-serif;
-  --TNR: "Times New Roman", times, serif;
-  --Courier: "Courier New", courier, monospace;
-  --Helvetica: "Helvetica Neue", helvetica, sans-serif;
-  --MSSans: "MS Sans Serif", geneva, sans-serif;
-  --SegoeUI: "Segoe UI", arial, helvetica, sans-serif;
-  --Tahoma: tahoma, verdana, segoe, sans-serif;
-  --Arial: arial, helvetica, san-serif;
-  --Roboto:
+  --ffamily-verdana: verdana, geneva, arial, helvetica, sans-serif;
+  --ffamily-times: "Times New Roman", times, serif;
+  --ffamily-courier: "Courier New", courier, monospace;
+  --ffamily-helvetica: "Helvetica Neue", helvetica, sans-serif;
+  --ffamily-ms-sansa: "MS Sans Serif", geneva, sans-serif;
+  --ffamily-segoeUI: "Segoe UI", arial, helvetica, sans-serif;
+  --ffamily-tahoma: tahoma, verdana, segoe, sans-serif;
+  --ffamily-arial: arial, helvetica, san-serif;
+  --ffamily-roboto:
     "Roboto",
     -apple-system,
     blinkmacsystemfont,
@@ -56,7 +56,7 @@
     "Apple Color Emoji",
     "Segoe UI Emoji",
     "Segoe UI Symbol";
-  --Ubuntu:
+  --ffamily-ubuntu:
     "Ubuntu",
     -apple-system,
     "Segoe UI",
@@ -67,8 +67,8 @@
     "Droid Sans",
     "Helvetica Neue",
     sans-serif;
-  --ForkAwesome: forkawesome, serif;
-  --SFMono-Regular:
+  --ffamily-fork-awesome: forkawesome, serif;
+  --ffamily-sfmono-regular:
     "SFMono-Regular",
     menlo,
     monaco,
@@ -95,11 +95,12 @@
   --h5: 1.1rem;
   --fa-arrow-right: "";
   --fa-arrow-down: "";
+  --link-color-lightBG: var(--themeColoarAccentD);
 }
 
 body {
   color: var(--themeColorMain);
-  font-family: var(--Roboto);
+  font-family: var(--ffamily-roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
   line-height: 1.6;
@@ -149,7 +150,7 @@ h5,
 }
 
 a {
-  color: var(--themeColorAccentD);
+  color: var(--link-color-lightBG);
   background-color: transparent;
   text-decoration: none;
 }
@@ -289,7 +290,7 @@ footer {
   display: flex;
   color: var(--themeColorL);
   background-color: var(--themeColorMain);
-  font-family: var(--Helvetica);
+  font-family: var(--ffamily-helvetica);
   font-weight: 900;
   justify-content: space-between;
   align-items: center;
@@ -739,14 +740,14 @@ header .topnav .icon {
 }
 
 .accordion label::before {
-  font-family: var(--ForkAwesome);
+  font-family: var(--ffamily-fork-awesome);
   margin-right: 0.5rem;
   content: var(--fa-arrow-down);
   font-weight: 900;
 }
 
 .accordion input:checked + label::before {
-  font-family: var(--ForkAwesome);
+  font-family: var(--ffamily-fork-awesome);
   margin-right: 0.5rem;
   content: var(--fa-arrow-right);
   font-weight: 900;
@@ -783,14 +784,14 @@ header .topnav .icon {
 
 @media (max-width: 768px) {
   .sidebar .accordion input + label::before {
-    font-family: var(--ForkAwesome);
+    font-family: var(--ffamily-fork-awesome);
     margin-right: 0.5rem;
     content: var(--fa-arrow-right);
     font-weight: 900;
   }
 
   .sidebar .accordion input:checked + label::before {
-    font-family: var(--ForkAwesome);
+    font-family: var(--ffamily-fork-awesome);
     margin-right: 0.5rem;
     content: var(--fa-arrow-down);
     font-weight: 900;

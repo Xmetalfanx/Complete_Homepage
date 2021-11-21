@@ -5,7 +5,7 @@ header,
 footer {
   display: flex;
 
-  @include darkBG;
+  @include dark-bg;
   font-family: var(--ffamily-helvetica);
   font-weight: 900;
 
