@@ -6,7 +6,7 @@ footer {
   display: flex;
 
   @include darkBG;
-  font-family: var(--Helvetica);
+  font-family: var(--ffamily-helvetica);
   font-weight: 900;
 
   // Aligns horizontally .. the left item all the way to the left, and the right div item
