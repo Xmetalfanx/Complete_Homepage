@@ -3,10 +3,11 @@
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
 // wait ... should this NOT be  on anything other than the frontpages ?
 #linux-primary-content {
-  //align-content: flex-start;
+  // align-content: flex-start;
   display: flex;
   flex-wrap: wrap;
-  //justify-content: space-evenly;
+
+  // justify-content: space-evenly;
   place-content: flex-start space-evenly;
   width: 100%;
 
@@ -22,8 +23,9 @@
 
 // not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
 // location: techHQ frontpage
-.EducationalSites {
+.educational-sites {
   @include span2;
+
   width: 65%;
 
   @media ($breakpoint-md) {
@@ -48,8 +50,7 @@
 }
 
 // For LinuxHQ distro section and eventually more
-#linuxVersions {
-
+#linux-versions {
   // trial syntax for me
   // this is for the version table that sometimes has long version info that collide with other tables
   // also consider using css and removing the "tailwind like" syntax I have there for spacing
@@ -75,7 +76,7 @@
 
   // the actual version number
   .version {
-    color: var(--themeColorAccentD);
+    color: var(--theme-color-accent-d);
   }
 }
 

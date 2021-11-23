@@ -43,7 +43,7 @@ function displayDEOutput(
   // used INSIDE the tabs below and not separately
   const deVersionsOutput = `
             <h3 class="font-weight-bold">Versions</h3>
-            <div id="linuxVersions">
+            <div id="linux-versions">
                 <small> Last Updated: ${currentDEVerUpdated} </small>
             <br/>
 

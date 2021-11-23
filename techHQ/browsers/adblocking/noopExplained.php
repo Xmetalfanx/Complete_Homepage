@@ -31,13 +31,13 @@
     
     <ul>
       <li>
-        <span class="greenText">Green</span>
+        <span class="green-text">Green</span>
         - ALLOW - Green Dynamic Filters allow the connection.  If the item is in one of the enabled blocklists (the Static filtering lists), this will allow the connection anyway... This is an alternative to for that page "turning Ublock Origin off completely", I suppose</li>
       <li>
         <span class="darkGreyText">Dark Grey</span>
         - Noop - This disables any dynamic filtering on that particular element but still allows static lists to block, IF the element is found in any of them.</li>
       <li>
-        <span class="redText">Red</span>
+        <span class="red-text">Red</span>
         - BLOCK - This blocks an element/connection "no matter what".</li>
     </ul>
   

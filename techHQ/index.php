@@ -19,7 +19,7 @@
 ?>
 
 
-<div class="EducationalSites card">
+<div class="educational-sites card">
   <div class="card__header">Educational Sites</div>
   <div class="card__body">
     <figure>

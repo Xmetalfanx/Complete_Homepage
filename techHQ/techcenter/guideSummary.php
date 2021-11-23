@@ -36,7 +36,7 @@
   other &quot;offers&quot; it's &quot;not even funny&quot;
   </p>
 
-  <p class="redtext">Programs I trust for One-Click Maintenance:
+  <p class="red-text">Programs I trust for One-Click Maintenance:
   </p>
   <ul>
     <li>
@@ -83,7 +83,7 @@
       <li>Clean Common Files/Folder/Registry Locations (including the history/cache/cookies of all web browsers)
       <ul>
         <li>
-        <span class="redtext">Program Choices:
+        <span class="red-text">Program Choices:
         </span>
         <ul>
           <li>CCleaner or BleachBit for common &quot;tracker&quot; removal :
@@ -97,7 +97,7 @@
       </li>
       <ul>
         <li>
-        <span class="redtext">Program Options:
+        <span class="red-text">Program Options:
         </span>
         <ul>
           <li>
@@ -138,7 +138,7 @@
       <li>*** NOT EVERY PROGRAM YOU MAY NOT KNOW IS AN INFECTION ** ... many programs have &quot;auto start when Windows boots up&quot; on by default and going into the program's settings and un-checking &quot;one box&quot; is a solution to this.
       </li>
       <li>
-      <span class="redtext">Program Choices:
+      <span class="red-text">Program Choices:
       </span>
       <ul>
         <li>&quot;MSConfig&quot; from the Start ~~&gt; Run menu ; '
@@ -165,7 +165,7 @@
       </li>
       <li>Like I implied in my first bullet here ... This is a system to system basis... results my vary  </li>
       <li>
-      <span class="redtext">   Many programs can now handle this, though I already recommended one of the main programs I use for this purpose, so I will
+      <span class="red-text">   Many programs can now handle this, though I already recommended one of the main programs I use for this purpose, so I will
       recommend it again here  </span>
       <ul>
         <li>
@@ -182,7 +182,7 @@
       <li>If you run two of these back to back, one is very likely to see that the other &quot;fragmented&quot; the drive.  I will give a few options and let you decide which one is best.  To not drive yourself crazy running these programs back to back to back (..etc )... they may &quot;defrag in different ways&quot; though they both are good.  There are other decent choices out there (many free)... these are just two of my favorite.
       </li>
       <li>
-      <span class="redtext">Program Choices
+      <span class="red-text">Program Choices
       </span>
       <ul>
         <li><a href="http://www.auslogics.com/en/software/disk-defrag" target="_blank">
@@ -221,7 +221,7 @@
     </ol>
     <ul>
       <li>
-      <span class="redtext"> Program Choices (just choices, I am not saying you even have to use more than one... One of these is plenty):
+      <span class="red-text"> Program Choices (just choices, I am not saying you even have to use more than one... One of these is plenty):
       </span>
       <ul>
         <li>
@@ -268,7 +268,7 @@
       </ul>
       </li>
       <li>
-      <span class="redtext">  Program Choices
+      <span class="red-text">  Program Choices
       </span>
       <ul>
         <li>
@@ -293,9 +293,9 @@
     <li>I would like you to notice that the same programs appear many times in different sections
     <ul>
       <li>Say
-      <span class="redtext">CCleaner
+      <span class="red-text">CCleaner
       </span>, and
-      <span class="redtext">Glary Utilities
+      <span class="red-text">Glary Utilities
       </span> can be downloaded and used for multiple different steps (that I list above) ...
       <ul>
         <li>Though (example)- CCleaner's Registry Cleaner is not as comprehensive as some of the other choices. it does work

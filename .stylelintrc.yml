@@ -7,34 +7,22 @@ plugins:
   - stylelint-scss
   - stylelint-order
 rules:
+  # ignored rules by setting them to null
   at-rule-no-unknown: null
   no-descending-specificity: null
+  selector-class-pattern: null
+  value-list-comma-newline-after: null
+  custom-property-pattern: null
+  scss/at-extend-no-missing-placeholder: null
 
-  # Follow best practices
   font-family-name-quotes: always-where-recommended
   # http://stackoverflow.com/questions/2168855/is-quoting-the-value-of-url-really-necessary
-
-  # Double-quotes are our convention throughout our codebase within (S)CSS. They also reflect how
-  # attribute strings are normally quoted within the DOM.
-  string-quotes: double
-
-  # The following prefix rules are enabled since we use autoprefixer
-  at-rule-no-vendor-prefix: true
-  media-feature-name-no-vendor-prefix: true
-  selector-no-vendor-prefix: true
-  value-no-vendor-prefix: true
 
   # Usually if you're nesting past 3 levels deep there's a problem
   max-nesting-depth:
     - 4
     - ignore:
         - 'blockless-at-rules'
-
-  # Extremely useful for typos, and anything emergent can be ignored by this rule
-  property-no-unknown:
-    - true
-    - ignoreProperties:
-        - contain
 
   # Qualifying types are not needed when using a naming system like BEM
   selector-no-qualifying-type: true
@@ -49,13 +37,7 @@ rules:
 
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
-  # Since leading underscores are not needed, they can be omitted
-  scss/at-import-no-partial-leading-underscore: true
   # Since mixins are explicit (`@include`) and parens are unnecessary for argumentless mixins, they
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
 
-  # For Codacy / custom by xmetal
-  declaration-empty-line-before: never
-  value-keyword-case: lower
-  block-no-empty: true

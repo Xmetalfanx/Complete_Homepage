@@ -1,6 +1,6 @@
 body {
   // text color
-  color: var(--themeColorMain);
+  color: var(--theme-color-main);
   font-family: var(--ffamily-roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  color: var(--themeColorD);
+  color: var(--theme-color-d);
 }
 
 h1,
@@ -60,6 +60,6 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--themeColorAccentL-a75);
+    color: var(--theme-color-accent-l-a75);
   }
 }

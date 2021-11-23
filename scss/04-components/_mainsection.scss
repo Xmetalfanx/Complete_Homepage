@@ -9,6 +9,7 @@
   // for the grid above this
   grid-area: main-section;
   padding: 1.5rem;
+
   // This needed?
   // justify-items: stretch;
 
@@ -42,25 +43,27 @@
   // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
   &--wide {
     @extend .main-section;
+
     grid-template-areas: "pContent";
     grid-template-columns: 1fr;
   }
 
   &--left-wide {
     @extend .main-section;
+
     grid-template-areas: "pContent sidebar";
     grid-template-columns: auto 18%;
   }
 
   &--right-wide {
     @extend .main-section;
+
     grid-template-areas: "sidebar pContent";
     grid-template-columns: 18% auto;
   }
 
   /****** Sidebar *****/
   .sidebar {
-
     // not sure about the placement here
     a {
       display: block;
@@ -70,13 +73,12 @@
       margin: 0.25rem 0;
 
       &:hover {
-        color: var(--themeColorAccentL);
-        outline: 1px solid var(--themeColorMain);
+        color: var(--theme-color-accent-l);
+        outline: 1px solid var(--theme-color-main);
       }
     }
 
     img {
-
       // why the display: block ??
       display: block;
       margin: 1rem 0;
@@ -104,6 +106,7 @@
   // the main sections of each side of the site
   .primary-content {
     grid-area: pContent;
+
     // card everywhere else is flex... why grid here? ... shouldn't i just switch them all to flex?
     // was there a need for grid? ...
     .card {
@@ -132,7 +135,8 @@
       .card {
         margin: 0 auto;
 
-        // why is this here? ... could i make this more generic and remove this? (move it to the higest level "card__body"
+        // why is this here? ...
+        // could i make this more generic andremove this? (move it to the higest level"card__body"
         .card__body {
           a {
             display: inline-block;

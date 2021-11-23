@@ -1,7 +1,7 @@
-<div class="searchbarContainer">
+<div class="searchbar-container">
   <img src="/graphics/dax-logo.svg" alt="DuckDuckGo icon" class="icon icon--size40"/>
 
- <form method="get" id="ddgSearch" action="https://duckduckgo.com/" target="_blank">
+ <form method="get" id="ddg-search" action="https://duckduckgo.com/" target="_blank">
     <input type="hidden" name="sites" value=""/>
     <input type="hidden" name="k7" value="#ffffff"/>
     <input type="hidden" name="k8" value="#222222"/>

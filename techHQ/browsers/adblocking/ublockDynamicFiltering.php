@@ -74,9 +74,9 @@
   </tr>
   <tr>
     <td class="pr-3 font-italic">Color</td>
-    <td class="greenText">Green</td>
+    <td class="green-text">Green</td>
     <td class="darkGreyText">Dark Grey</td>
-    <td class="redText">Red </td>
+    <td class="red-text">Red </td>
   </tr>
   <tr>
     <td class="pr-3 font-italics">Description</td>

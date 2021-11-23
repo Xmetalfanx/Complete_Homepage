@@ -12,9 +12,8 @@ html {
 }
 
 body {
-  background-color: var(--themeColorL);
-  // for text
-  color: var(--themeColorD);
+  background-color: var(--theme-color-l);
+  color: var(--theme-color-d);
   display: grid;
   grid-template-areas:
     "header"
@@ -27,29 +26,31 @@ body {
 
 .card {
   border-radius: 10px;
-  
+
   @include boxshadow;
+
   margin: 0 auto 1.2rem auto;
   min-width: 8rem;
-  outline: 1px solid var(--themeColorAccentD-a75);
+  outline: 1px solid var(--theme-color-accent-d-a75);
 
   &--bordered {
     @extend .card;
-    border: 1px solid var(--themeColorMain);
+
+    border: 1px solid var(--theme-color-main);
   }
 
   .card__body,
   .card__text {
     padding: 1rem;
-    color: var(--themeColorD);
+    color: var(--theme-color-d);
   }
 
   .card__header {
     align-items: baseline;
-    background-color: var(--themeColorMain);
-    border-color: var(--themeColorMain);
+    background-color: var(--theme-color-main);
+    border-color: var(--theme-color-main);
     border-radius: 10px 10px 0 0;
-    color: var(--themeColorL);
+    color: var(--theme-color-l);
     display: flex;
     flex-direction: row;
     font-weight: bold;
@@ -80,13 +81,14 @@ body {
     h4,
     h5,
     i {
-      color: var(--themeColorL);
+      color: var(--theme-color-l);
     }
 
     a:link,
     a:visited {
       background-color: inherit;
       color: inherit;
+
       // maybe use outline here?
     }
 

@@ -1,16 +1,19 @@
-@use '../01-abstracts/index' as *;
-//@use "../05-fromBS/index" as *;
+@use "../01-abstracts/index" as *;
+
+// @use "../05-fromBS/index" as *;
 
 header,
 footer {
   display: flex;
 
   @include dark-bg;
+
   font-family: var(--ffamily-helvetica);
   font-weight: 900;
 
-  // Aligns horizontally .. the left item all the way to the left, and the right div item
-  // (in a two div layout inside) all the way to the right
+  /* Aligns horizontally .. the left item all the way to the left, and the right div item
+  (in a two div layout inside) all the way to the right */
+
   justify-content: space-between;
 
   // aligns content top vs bottom on the Y axis
@@ -21,18 +24,19 @@ footer {
   h3,
   h4,
   h5 {
-    color: var(--themeColorL);
+    color: var(--theme-color-l);
   }
 
-  // Default link color is a themeColorMain BG (medium orange right now) and an off white themeColorL (?? name) text color
+  // Default link color is a theme-color-main BG (medium orange right now) and an
+  // off white theme-color-l (?? name) text color
   a {
-    color: var(--themeColorL);
-    background-color: var(--themeColorMain);
+    color: var(--theme-color-l);
+    background-color: var(--theme-color-main);
 
     :hover,
     :focus {
-      color: var(--themeColorAccentL);
-      outline: 1px dotted var(--themeColorAccentL);
+      color: var(--theme-color-accent-l);
+      outline: 1px dotted var(--theme-color-accent-l);
     }
   }
 
@@ -46,7 +50,8 @@ footer {
   padding: 1.5rem;
   grid-area: footer;
 
-  // I could slap other classes on each img tag, or do this ... sort of redundant CSS but it removes the need for extra css tags in the html
+  // I could slap other classes on each img tag, or do this ...
+  // sort of redundant CSS but it removes the need for extra css tags in the html
   img {
     display: inline;
     margin: 0.4rem;
@@ -76,9 +81,10 @@ footer {
 }
 
 header {
-  box-shadow: 2px 2px 5px var(--themeColorAccentD);
+  box-shadow: 2px 2px 5px var(--theme-color-accent-d);
   padding: 1rem;
-  // text-shadow: 2px 5px var(--themeColorAccentD-a75);
+
+  // text-shadow: 2px 5px var(--theme-color-accent-d-a75);
   grid-area: header;
 
   .fa {
@@ -120,7 +126,10 @@ header {
     }
   }
 
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  /* The "responsive" class is added to the topnav with JavaScript
+  when the user clicks on the icon. This class makes the topnav
+  look good on small screens (display the links vertically instead
+  of horizontally) */
   @media ($breakpoint-md) {
     .topnav.responsive {
       position: absolute;
@@ -129,7 +138,7 @@ header {
       z-index: 10;
       left: 0;
       top: 0;
-      background: var(--themeColorMain);
+      background: var(--theme-color-main);
       display: grid;
       text-align: center;
       justify-content: center;
@@ -144,6 +153,7 @@ header {
         position: absolute;
         right: 0;
         display: block;
+
         // idea: move menu icon over the menu in responsive mode
         z-index: 1;
         margin: 17px 35px 0 0;

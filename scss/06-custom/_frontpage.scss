@@ -11,7 +11,7 @@
 .frontpage-section {
   // for the divider in the middle of the page
   .frontpage-title {
-    color: var(--themeColorD);
+    color: var(--theme-color-d);
   }
 }
 
@@ -62,7 +62,7 @@
   }
 
   .git-icons {
-    color: var(--themeColorAccentD);
+    color: var(--theme-color-accent-d);
     display: flex;
     justify-content: space-around;
     margin-bottom: 0.5rem;
@@ -77,7 +77,8 @@
   > * {
     flex: 1 1 33%;
     max-width: 72ch;
-    //min-width: 350px;
+
+    // min-width: 350px;
   }
 
   figure {
@@ -115,7 +116,7 @@
 
     a:hover,
     a:focus {
-      color: var(--themeColorAccentL);
+      color: var(--theme-color-accent-l);
     }
   }
 

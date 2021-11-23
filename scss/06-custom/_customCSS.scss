@@ -22,10 +22,10 @@
   @include span2;
 }
 
-.YTPlaylistsTN {
+.YT-playlist-tn {
   width: 480px;
   height: 276px;
-  margin: 1rem 1rem;
+  margin: 1rem;
 }
 
 /************** RSS Feed *************/
@@ -37,6 +37,7 @@
     line-height: 1.4rem;
     display: inline-block;
     margin: 0 auto;
+
     // not sure why things started centering
     text-align: left;
     outline: none;
@@ -55,7 +56,7 @@
 /*********** End RSS CSS **********/
 
 // why is this CSS needed? ...
-#outputSection a {
+#output-section a {
   color: var(--themeColor3);
 }
 
@@ -73,16 +74,18 @@
 
 code {
   @include dark-bg;
+
   display: inline-block;
 }
 
-// I THINK the only real point to this below is the Ublock O. browser addon pages ... I need to figure out a better way to do this
+// I THINK the only real point to this below is the Ublock O. browser addon pages ...
+// I need to figure out a better way to do this
 // The IDEA was to use spans and class names below ... this seems silly or un-needed ... un-needed classes or something
-.greenText {
+.green-text {
   color: green;
 }
 
-.redText {
+.red-text {
   color: red;
 }
 
@@ -92,45 +95,37 @@ code {
 }
 
 /*** DuckDuckGo search ***/
-.searchbarContainer {
+.searchbar-container {
   align-items: center;
   display: flex;
 
   @include span2;
+
   justify-content: center;
 
   * {
     height: 40px;
   }
 
-  #ddgSearch input {
+  #ddg-search input {
     padding: 0 0.75rem;
   }
 
   // submit button
   // why the (minus alpha) so specific box shadow?
   button {
-    background: var(--forrest_green);
+    background: var(--forest-green);
     border: 0;
     border-radius: 0.25rem;
-    box-shadow: 0 2px 8px 0 rgba(20, 40, 20, 0.2);
+    box-shadow: 0 2px 8px 0 var(--forest-green);
     color: var(--white);
     font-size: var(--fs-normal);
-    outline: 1px solid var(--forrest_green);
+    outline: 1px solid var(--forest-green);
     padding: 0.4em 0.875em;
   }
 }
 
-figcaption, 
+figcaption,
 .text-center {
   text-align: center;
-}
-
-// was for a test 
-.foobar {
-  color: color-opacity(red, 0.3);
-}
-
-.foobarBG {
-  background-color: color-opacity(blue, .7);
 }
