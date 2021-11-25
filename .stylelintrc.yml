@@ -14,30 +14,21 @@ rules:
   value-list-comma-newline-after: null
   custom-property-pattern: null
   scss/at-extend-no-missing-placeholder: null
+  declaration-colon-newline-after: null
 
   font-family-name-quotes: always-where-recommended
-  # http://stackoverflow.com/questions/2168855/is-quoting-the-value-of-url-really-necessary
-
-  # Usually if you're nesting past 3 levels deep there's a problem
-  max-nesting-depth:
-    - 4
-    - ignore:
-        - 'blockless-at-rules'
 
   # Qualifying types are not needed when using a naming system like BEM
   selector-no-qualifying-type: true
 
-  # Styles for components should never need the universal selector.
-  selector-max-universal: 1
 
   # http://www.paulirish.com/2010/the-protocol-relative-url/
   function-url-no-scheme-relative: true
 
-  number-leading-zero: always
 
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
+  
   # Since mixins are explicit (`@include`) and parens are unnecessary for argumentless mixins, they
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
-
