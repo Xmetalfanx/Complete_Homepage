@@ -1,6 +1,6 @@
 /****** STARTPAGE Box related ******************/
 
-#SPSearch {
+#startpage-search {
   margin: 10px auto;
 
   @include span2;
@@ -10,7 +10,7 @@
     height: 35px;
   }
 
-  .SPSearchIcon {
+  .startpage-searchIcon {
     height: 33px;
     vertical-align: middle;
   }

@@ -1,5 +1,5 @@
 <!-- remember to remove BS specific stuff -->
-<div id="GAOTD" class="card">
+<div id="gaotd" class="card">
   <div class="card__header card__header--dark-bg"> GiveAwayOftheDay</div>
 
   <div class="card__body">

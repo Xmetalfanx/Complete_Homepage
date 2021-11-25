@@ -83,6 +83,6 @@
 </div> <!-- closes card -->
 
 
-<?php include $siteRoot . '/techHQ/modules/GAOTD.tpl'; ?>
+<?php include $siteRoot . '/techHQ/modules/gaotd.tpl'; ?>
 
 <?php include $siteRoot . '/modules/tech/baseTechFooter.tpl'; ?>
