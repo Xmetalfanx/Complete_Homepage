@@ -17,10 +17,9 @@ rules:
   declaration-colon-newline-after: null
 
   font-family-name-quotes: always-where-recommended
-
+  
   # Qualifying types are not needed when using a naming system like BEM
   selector-no-qualifying-type: true
-
 
   # http://www.paulirish.com/2010/the-protocol-relative-url/
   function-url-no-scheme-relative: true
