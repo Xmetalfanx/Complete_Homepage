@@ -20,14 +20,14 @@
   --theme-color-l-a75: hsla(35deg 60% 96% / 75%);
   --theme-color-l-a50: hsla(35deg 60% 96% / 50%);
   --theme-color-l-a25: hsla(35deg 60% 96% / 25%);
-  --theme-color-accent-l: hsla(0deg 100% 24%);
-  --theme-color-accent-l-a75: hsla(0deg 100% 24% / 75%);
-  --theme-color-accent-l-a50: hsla(0deg 100% 24% / 50%);
-  --theme-color-accent-l-a25: hsla(0deg 100% 24% / 25%);
-  --theme-color-accent-d: hsla(16deg 80% 20%);
-  --theme-color-accent-d-a75: hsla(16deg 80% 20% / 75%);
-  --theme-color-accent-d-a50: hsla(16deg 80% 20% / 50%);
-  --theme-color-accent-d-a25: hsla(16deg 80% 20% / 25%);
+  --theme-color-accent-l: hsla(120deg 60% 24%);
+  --theme-color-accent-l-a75: hsla(120deg 60% 24% / 75%);
+  --theme-color-accent-l-a50: hsla(120deg 60% 24% / 50%);
+  --theme-color-accent-l-a25: hsla(120deg 60% 24% / 25%);
+  --theme-color-accent-d: hsla(0deg 150% 24%);
+  --theme-color-accent-d-a75: hsla(0deg 150% 24% / 75%);
+  --theme-color-accent-d-a50: hsla(0deg 150% 24% / 50%);
+  --theme-color-accent-d-a25: hsla(0deg 150% 24% / 25%);
   --theme-color-main: hsl(120deg 60% 15%);
   --theme-color-main-a75: hsl(120deg 60% 15% / 75%);
   --theme-color-main-a50: hsl(120deg 60% 15% / 50%);
@@ -155,7 +155,7 @@ body {
   box-shadow: 0 0.5rem 1rem var(--theme-color-accent-d-a50);
   margin: 0 auto 1.2rem;
   min-width: 8rem;
-  outline: 1px solid var(--theme-color-accent-d-a75);
+  outline: 1px solid var(--theme-color-accent-l-a50);
 }
 
 .card--bordered {
@@ -334,7 +334,7 @@ footer .contacts {
 }
 
 header {
-  box-shadow: 2px 2px 5px var(--theme-color-accent-d);
+  box-shadow: 2px 2px 5px var(--theme-color-accent-l);
   padding: 1rem;
   grid-area: header;
 

@@ -41,14 +41,13 @@ $nov-theme-colors: (
   // hsla(0 0% 20%)
   "theme-color-d": "0 0% 20%"
 );
-
 $dec-theme-colors: (
   // hsla(35 60% 96%)
   "theme-color-l": "35 60% 96%",
+  // hsla(120, 60%, 24%)
+  "theme-color-accent-l": "120 60% 24%",
   // hsla(0 150% 24%)
-  "theme-color-accent-l": "0 100% 24%",
-  // hsla(0 150% 15%)
-  "theme-color-accent-d": "16 80% 20%",
+  "theme-color-accent-d": "0 150% 24%",
   // hsla(120, 60%, 15%)
   "theme-color-main": "120, 60%, 15%",
   // hsla(0 0% 15%)
