@@ -27,16 +27,15 @@ footer {
     color: var(--theme-color-l);
   }
 
-  // Default link color is a theme-color-main BG (medium orange right now) and an
-  // off white theme-color-l (?? name) text color
+
   a {
     color: var(--theme-color-l);
     background-color: var(--theme-color-main);
 
     :hover,
     :focus {
-      color: var(--theme-color-accent-l);
-      outline: 1px dotted var(--theme-color-accent-l);
+      color: var(--theme-color-accent-d);
+      outline: 1px dotted var(--theme-color-accent-d);
     }
   }
 
@@ -50,8 +49,6 @@ footer {
   padding: 1.5rem;
   grid-area: footer;
 
-  // I could slap other classes on each img tag, or do this ...
-  // sort of redundant CSS but it removes the need for extra css tags in the html
   img {
     display: inline;
     margin: 0.4rem;

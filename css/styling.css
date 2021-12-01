@@ -290,8 +290,8 @@ header a :hover,
 header a :focus,
 footer a :hover,
 footer a :focus {
-  color: var(--theme-color-accent-l);
-  outline: 1px dotted var(--theme-color-accent-l);
+  color: var(--theme-color-accent-d);
+  outline: 1px dotted var(--theme-color-accent-d);
 }
 
 header .fa,
@@ -1632,6 +1632,7 @@ header .topnav .icon {
 .site-section .section-title {
   display: block;
   margin: 1rem 0;
+  color: var(--theme-color-accent-d);
 }
 
 .site-section .section-title a:hover,
