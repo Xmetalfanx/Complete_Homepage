@@ -22,7 +22,6 @@
     "eslint-plugin-prettier": "^3.3.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^2.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-postcss": "^9.0.0",
@@ -95,5 +94,8 @@
     "plugins": [
       "remark-preset-lint-recommended"
     ]
+  },
+  "dependencies": {
+    "yarn-audit-fix": "^8.0.1"
   }
 }
