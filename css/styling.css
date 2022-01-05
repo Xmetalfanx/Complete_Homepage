@@ -149,6 +149,11 @@ body {
   min-height: 100%;
 }
 
+::selection {
+  background-color: var(--theme-color-main);
+  color: var(--theme-color-l);
+}
+
 .card,
 .card--bordered {
   border-radius: 10px;
