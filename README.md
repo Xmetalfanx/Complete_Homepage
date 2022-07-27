@@ -1,8 +1,10 @@
 # Xmetal's Homepage
 
-## Codacy Badge
+## Codacy Badges
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/a64d28a721af450194ce5d5be390cf40)](https://www.codacy.com/gh/Xmetalfanx/website/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xmetalfanx/website&amp;utm_campaign=Badge_Grade)
+
+[![CodeFactor](https://www.codefactor.io/repository/github/xmetalfanx/website/badge)](https://www.codefactor.io/repository/github/xmetalfanx/website)
 
 ## Thanks
 
