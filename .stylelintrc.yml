@@ -17,7 +17,7 @@ rules:
   declaration-colon-newline-after: null
 
   font-family-name-quotes: always-where-recommended
-  
+
   # Qualifying types are not needed when using a naming system like BEM
   selector-no-qualifying-type: true
 
@@ -27,7 +27,7 @@ rules:
 
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
-  
+
   # Since mixins are explicit (`@include`) and parens are unnecessary for argumentless mixins, they
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
