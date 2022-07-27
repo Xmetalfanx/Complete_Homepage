@@ -33,7 +33,6 @@ const
 
 // Source Map related
 const
-  SitemapGenerator = require('advanced-sitemap-generator'),
   sourcemaps = require('gulp-sourcemaps');
 
   const { hsl } = require('chalk');
@@ -145,23 +144,5 @@ async function lintPug() {
   gulp.src('./**/*.pug').pipe(pugLinter({ reporter: 'default' }));
 }
 exports.lintPug = lintPug;
-
-// site map generator
-async function siteMapGen() {
-  // create generator
-  const generator = SitemapGenerator('http://xmetal.x10.mx', {
-    stripQuerystring: false,
-    ignoreHreflang: true,
-  });
-
-  // register event listeners
-  generator.on('done', () => {
-    // sitemaps created
-  });
-
-  // start the crawler
-  generator.start();
-}
-exports.siteMapGen = siteMapGen;
 
 exports.default = gulp.series(compileSCSSToCSS,minifyCSS);
