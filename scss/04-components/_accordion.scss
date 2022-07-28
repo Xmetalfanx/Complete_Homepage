@@ -47,7 +47,7 @@
 
   // This is default ... UNexpanded
   input:checked + label + .content {
-    opacity: 0%;
+    opacity: 0;
     height: 0;
     font-size: 0;
     transition: linear 0.8s;
@@ -56,7 +56,7 @@
 
   // not default
   input + label + .content {
-    opacity: 100%;
+    opacity: 1;
     font-size: var(--fs-normal);
     padding: 8px 25px;
     height: auto;
@@ -174,7 +174,7 @@
 
       // Expanded (not default)
       input + label + .content {
-        opacity: 0%;
+        opacity: 0;
         font-size: 0;
         padding: 8px 25px;
         height: auto;
@@ -183,7 +183,7 @@
 
       // Checked, "closed" - Default for small layouts
       input:checked + label + .content {
-        opacity: 100%;
+        opacity: 1;
         font-size: var(--fs-normal);
         transition: linear 0.5s;
         padding: 0 25px;

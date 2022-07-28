@@ -1,41 +1,41 @@
 @charset "UTF-8";
 
 :root {
-  --black: hsla(0deg 0% 0%);
-  --black-a75: hsla(0deg 0% 0% / 75%);
-  --black-a50: hsla(0deg 0% 0% / 50%);
-  --black-a25: hsla(0deg 0% 0% / 25%);
-  --white: hsla(0deg 0% 100%);
-  --white-a75: hsla(0deg 0% 100% / 75%);
-  --white-a50: hsla(0deg 0% 100% / 50%);
-  --white-a25: hsla(0deg 0% 100% / 25%);
-  --forest-green: hsla(120deg 100% 20%);
-  --forest-green-a75: hsla(120deg 100% 20% / 75%);
-  --forest-green-a50: hsla(120deg 100% 20% / 50%);
-  --forest-green-a25: hsla(120deg 100% 20% / 25%);
-  --red: hsla(0deg 100% 50%);
-  --burnt-orange: hsla(17deg 100% 40%);
-  --green: hsla(120deg 44% 34%);
-  --theme-color-l: hsla(35deg 60% 96%);
-  --theme-color-l-a75: hsla(35deg 60% 96% / 75%);
-  --theme-color-l-a50: hsla(35deg 60% 96% / 50%);
-  --theme-color-l-a25: hsla(35deg 60% 96% / 25%);
-  --theme-color-accent-l: hsla(120deg 60% 24%);
-  --theme-color-accent-l-a75: hsla(120deg 60% 24% / 75%);
-  --theme-color-accent-l-a50: hsla(120deg 60% 24% / 50%);
-  --theme-color-accent-l-a25: hsla(120deg 60% 24% / 25%);
-  --theme-color-accent-d: hsla(0deg 150% 24%);
-  --theme-color-accent-d-a75: hsla(0deg 150% 24% / 75%);
-  --theme-color-accent-d-a50: hsla(0deg 150% 24% / 50%);
-  --theme-color-accent-d-a25: hsla(0deg 150% 24% / 25%);
+  --black: hsl(0deg 0% 0%);
+  --black-a75: hsl(0deg 0% 0% / 75%);
+  --black-a50: hsl(0deg 0% 0% / 50%);
+  --black-a25: hsl(0deg 0% 0% / 25%);
+  --white: hsl(0deg 0% 100%);
+  --white-a75: hsl(0deg 0% 100% / 75%);
+  --white-a50: hsl(0deg 0% 100% / 50%);
+  --white-a25: hsl(0deg 0% 100% / 25%);
+  --forest-green: hsl(120deg 100% 20%);
+  --forest-green-a75: hsl(120deg 100% 20% / 75%);
+  --forest-green-a50: hsl(120deg 100% 20% / 50%);
+  --forest-green-a25: hsl(120deg 100% 20% / 25%);
+  --red: hsl(0deg 100% 50%);
+  --burnt-orange: hsl(17deg 100% 40%);
+  --green: hsl(120deg 44% 34%);
+  --theme-color-l: hsl(35deg 60% 96%);
+  --theme-color-l-a75: hsl(35deg 60% 96% / 75%);
+  --theme-color-l-a50: hsl(35deg 60% 96% / 50%);
+  --theme-color-l-a25: hsl(35deg 60% 96% / 25%);
+  --theme-color-accent-l: hsl(120deg 60% 24%);
+  --theme-color-accent-l-a75: hsl(120deg 60% 24% / 75%);
+  --theme-color-accent-l-a50: hsl(120deg 60% 24% / 50%);
+  --theme-color-accent-l-a25: hsl(120deg 60% 24% / 25%);
+  --theme-color-accent-d: hsl(0deg 150% 24%);
+  --theme-color-accent-d-a75: hsl(0deg 150% 24% / 75%);
+  --theme-color-accent-d-a50: hsl(0deg 150% 24% / 50%);
+  --theme-color-accent-d-a25: hsl(0deg 150% 24% / 25%);
   --theme-color-main: hsl(120deg 60% 15%);
   --theme-color-main-a75: hsl(120deg 60% 15% / 75%);
   --theme-color-main-a50: hsl(120deg 60% 15% / 50%);
   --theme-color-main-a25: hsl(120deg 60% 15% / 25%);
-  --theme-color-d: hsla(0deg 0% 15%);
-  --theme-color-d-a75: hsla(0deg 0% 15% / 75%);
-  --theme-color-d-a50: hsla(0deg 0% 15% / 50%);
-  --theme-color-d-a25: hsla(0deg 0% 15% / 25%);
+  --theme-color-d: hsl(0deg 0% 15%);
+  --theme-color-d-a75: hsl(0deg 0% 15% / 75%);
+  --theme-color-d-a50: hsl(0deg 0% 15% / 50%);
+  --theme-color-d-a25: hsl(0deg 0% 15% / 25%);
   --ffamily-verdana: verdana, geneva, arial, helvetica, sans-serif;
   --ffamily-times: "Times New Roman", times, serif;
   --ffamily-courier: "Courier New", courier, monospace;
@@ -745,7 +745,7 @@ header .topnav .icon {
 }
 
 .accordion input:checked + label + .content {
-  opacity: 0%;
+  opacity: 0;
   height: 0;
   font-size: 0;
   transition: linear 0.8s;
@@ -753,7 +753,7 @@ header .topnav .icon {
 }
 
 .accordion input + label + .content {
-  opacity: 100%;
+  opacity: 1;
   font-size: var(--fs-normal);
   padding: 8px 25px;
   height: auto;
@@ -790,7 +790,7 @@ header .topnav .icon {
   }
 
   .sidebar .accordion input + label + .content {
-    opacity: 0%;
+    opacity: 0;
     font-size: 0;
     padding: 8px 25px;
     height: auto;
@@ -798,7 +798,7 @@ header .topnav .icon {
   }
 
   .sidebar .accordion input:checked + label + .content {
-    opacity: 100%;
+    opacity: 1;
     font-size: var(--fs-normal);
     transition: linear 0.5s;
     padding: 0 25px;

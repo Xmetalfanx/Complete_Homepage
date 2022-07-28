@@ -55,14 +55,14 @@ function browserAddonData(data) {
           let firefoxURL = addonURLs.firefoxURL;
 
           const firefoxAddon = `<a href="${firefoxURL}" target="_blank">
-              <img src=\"${firefoxIcon}\" alt=\"${addonTitle} Firefox icon\" class=\" icon icon--size40\" />
+              <img src="${firefoxIcon}" alt="${addonTitle} Firefox icon" class=" icon icon--size40" />
             </a>`;
 
           //idea: have something like the vivaldi icon here too
           const chromeAddon = `<a href="${chromeURL}" target="_blank">
-                <img src=\"${chromeIcon}\" alt=\"${addonTitle} Chrome icon\" class=\" icon icon--size40\" />
+                <img src="${chromeIcon}" alt="${addonTitle} Chrome icon" class=" icon icon--size40" />
 
-                <img src=\"${vivaldiIcon}\" alt=\"${addonTitle} Vivaldi icon\" class=\" icon icon--size40\" />
+                <img src="${vivaldiIcon}" alt="${addonTitle} Vivaldi icon" class=" icon icon--size40" />
 
             </a>`;
 
@@ -87,7 +87,8 @@ function browserAddonData(data) {
 
           const addonIconTitle = `
                 <div>
-                    <img src=\"${addonIconDir}${addonIcon}\" alt=\"${addonTitle} icon \" class="icon--size40" />${addonTitle}
+                    <img src="${addonIconDir}${addonIcon}" alt="${addonTitle} icon " class="icon--size40" />
+                    ${addonTitle}
                 </div>
                 `;
 

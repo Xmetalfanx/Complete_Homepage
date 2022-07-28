@@ -69,7 +69,7 @@ function softwareData(data) {
                 const linuxIcon =
                   '<img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon SVG" class="icon--size32" />';
                 const windowsIcon =
-                  '<img src="/graphics/simpleIcons/darkBG/windows.svg" alt="Windows Icon SVG" class="icon--size32"  />';
+                  '<img src="/graphics/simpleIcons/darkBG/windows.svg" alt="Windows Icon SVG" class="icon--size32" />';
 
                 const cpIcon = linuxIcon + windowsIcon;
 
@@ -89,15 +89,15 @@ function softwareData(data) {
                 //////////////////////////////////////////////
 
                 const headerDisplay = `
-                    <div class=\"card\">
-                      <div class=\"card__header--wide\">
+                    <div class="card">
+                      <div class="card__header--wide">
                         <div>
-                            <img src=\"${progIcon}\" alt=\"${progTitle} alt tag\" class=\"icon--size40  mr-1\" loading=\"lazy\" \>
-                            <a href=\"${homepage}\" target="_blank" rel="noreferrer">
+                            <img src="${progIcon}" alt="${progTitle} alt tag" class="icon--size40  mr-1" loading="lazy" >
+                            <a href="${homepage}" target="_blank" rel="noreferrer">
                               ${progTitle}
                             </a>
                         </div>
-                       
+
                         <div>
                           ${platformDisplay}
                         </div>
@@ -111,15 +111,15 @@ function softwareData(data) {
                   'beforeend',
                   headerDisplay +
                     '<div class="card__body"> ' +
-                    '<span class="font-weight-bold"> Project Status: </span>' + 
-                     progStatus + 
+                    '<span class="font-weight-bold"> Project Status: </span>' +
+                     progStatus +
                     '<br/><br/>' +
-                     description 
+                     description
                 );
                 // I think this is so it only shows the wine graphic IF IT works on wine
-                if (worksOnWine == true) {
+                if (worksOnWine === true) {
                   softwareOutput.insertAdjacentHTML('beforeend', wineIcon);
-                } else if (worksOnWine == false) {
+                } else if (worksOnWine === false) {
                   console.log("no WINE info/doesn't work on wine");
                 }
 
