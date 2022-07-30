@@ -20,22 +20,22 @@
   --theme-color-l-a75: hsl(35deg 60% 96% / 75%);
   --theme-color-l-a50: hsl(35deg 60% 96% / 50%);
   --theme-color-l-a25: hsl(35deg 60% 96% / 25%);
-  --theme-color-accent-l: hsl(120deg 60% 24%);
-  --theme-color-accent-l-a75: hsl(120deg 60% 24% / 75%);
-  --theme-color-accent-l-a50: hsl(120deg 60% 24% / 50%);
-  --theme-color-accent-l-a25: hsl(120deg 60% 24% / 25%);
-  --theme-color-accent-d: hsl(0deg 150% 24%);
-  --theme-color-accent-d-a75: hsl(0deg 150% 24% / 75%);
-  --theme-color-accent-d-a50: hsl(0deg 150% 24% / 50%);
-  --theme-color-accent-d-a25: hsl(0deg 150% 24% / 25%);
-  --theme-color-main: hsl(120deg 60% 15%);
-  --theme-color-main-a75: hsl(120deg 60% 15% / 75%);
-  --theme-color-main-a50: hsl(120deg 60% 15% / 50%);
-  --theme-color-main-a25: hsl(120deg 60% 15% / 25%);
-  --theme-color-d: hsl(0deg 0% 15%);
-  --theme-color-d-a75: hsl(0deg 0% 15% / 75%);
-  --theme-color-d-a50: hsl(0deg 0% 15% / 50%);
-  --theme-color-d-a25: hsl(0deg 0% 15% / 25%);
+  --theme-color-accent-l: hsl(181deg 100% 20%);
+  --theme-color-accent-l-a75: hsl(181deg 100% 20% / 75%);
+  --theme-color-accent-l-a50: hsl(181deg 100% 20% / 50%);
+  --theme-color-accent-l-a25: hsl(181deg 100% 20% / 25%);
+  --theme-color-main: hsl(20deg 86% 36%);
+  --theme-color-main-a75: hsl(20deg 86% 36% / 75%);
+  --theme-color-main-a50: hsl(20deg 86% 36% / 50%);
+  --theme-color-main-a25: hsl(20deg 86% 36% / 25%);
+  --theme-color-accent-d: hsl(16deg 50% 24%);
+  --theme-color-accent-d-a75: hsl(16deg 50% 24% / 75%);
+  --theme-color-accent-d-a50: hsl(16deg 50% 24% / 50%);
+  --theme-color-accent-d-a25: hsl(16deg 50% 24% / 25%);
+  --theme-color-d: hsl(0deg 0% 20%);
+  --theme-color-d-a75: hsl(0deg 0% 20% / 75%);
+  --theme-color-d-a50: hsl(0deg 0% 20% / 50%);
+  --theme-color-d-a25: hsl(0deg 0% 20% / 25%);
   --ffamily-verdana: verdana, geneva, arial, helvetica, sans-serif;
   --ffamily-times: "Times New Roman", times, serif;
   --ffamily-courier: "Courier New", courier, monospace;
@@ -50,7 +50,7 @@
   --ffamily-ubuntu: "Ubuntu", -apple-system, "Segoe UI", "Roboto", "Oxygen",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --ffamily-fork-awesome: forkawesome, serif;
-  --ffamily-sfmono-regular:"SFMono-Regular", menlo, monaco, consolas,
+  --ffamily-sfmono-regular: "SFMono-Regular", menlo, monaco, consolas,
     "Liberation Mono", "Courier New", monospace;
   --test: -apple-system, blinkmacsystemfont, "Segoe UI", helvetica, arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji";
@@ -145,7 +145,7 @@ body {
   color: var(--theme-color-d);
   display: grid;
   grid-template: 1fr auto 1fr/1fr;
-  grid-template-areas: "header" "main-section" "footer";
+  grid-template-areas: "header""main-section""footer";
   min-height: 100%;
 }
 
@@ -265,7 +265,6 @@ footer {
   background-color: var(--theme-color-main);
   font-family: var(--ffamily-helvetica);
   font-weight: 900;
-
   /* Aligns horizontally .. the left item all the way to the left, and the right div item
   (in a two div layout inside) all the way to the right */
   justify-content: space-between;
@@ -342,7 +341,6 @@ header {
   box-shadow: 2px 2px 5px var(--theme-color-accent-l);
   padding: 1rem;
   grid-area: header;
-
   /* The "responsive" class is added to the topnav with JavaScript
   when the user clicks on the icon. This class makes the topnav
   look good on small screens (display the links vertically instead
@@ -424,7 +422,6 @@ header .topnav .icon {
   gap: 1.5rem;
   grid-area: main-section;
   padding: 1.5rem;
-
   /****** Sidebar *****/
 }
 
@@ -602,6 +599,7 @@ header .topnav .icon {
 }
 
 @media (max-width: 992px) {
+
   .main-section .sidebar .card,
   .main-section--wide .sidebar .card,
   .main-section--left-wide .sidebar .card,
@@ -633,7 +631,7 @@ header .topnav .icon {
   .main-section--left-wide,
   .main-section--right-wide {
     grid-template: 1fr/1fr;
-    grid-template-areas: "sidebar" "pContent";
+    grid-template-areas: "sidebar""pContent";
   }
 }
 
@@ -724,7 +722,7 @@ header .topnav .icon {
   font-weight: 900;
 }
 
-.accordion input:checked + label::before {
+.accordion input:checked+label::before {
   font-family: var(--ffamily-fork-awesome);
   margin-right: 0.5rem;
   content: var(--fa-arrow-right);
@@ -744,7 +742,7 @@ header .topnav .icon {
   border-radius: 0 0 10px 10px;
 }
 
-.accordion input:checked + label + .content {
+.accordion input:checked+label+.content {
   opacity: 0;
   height: 0;
   font-size: 0;
@@ -752,7 +750,7 @@ header .topnav .icon {
   padding: 0 25px;
 }
 
-.accordion input + label + .content {
+.accordion input+label+.content {
   opacity: 1;
   font-size: var(--fs-normal);
   padding: 8px 25px;
@@ -761,14 +759,14 @@ header .topnav .icon {
 }
 
 @media (max-width: 768px) {
-  .sidebar .accordion input + label::before {
+  .sidebar .accordion input+label::before {
     font-family: var(--ffamily-fork-awesome);
     margin-right: 0.5rem;
     content: var(--fa-arrow-right);
     font-weight: 900;
   }
 
-  .sidebar .accordion input:checked + label::before {
+  .sidebar .accordion input:checked+label::before {
     font-family: var(--ffamily-fork-awesome);
     margin-right: 0.5rem;
     content: var(--fa-arrow-down);
@@ -789,7 +787,7 @@ header .topnav .icon {
     margin-right: 3rem;
   }
 
-  .sidebar .accordion input + label + .content {
+  .sidebar .accordion input+label+.content {
     opacity: 0;
     font-size: 0;
     padding: 8px 25px;
@@ -797,7 +795,7 @@ header .topnav .icon {
     min-height: auto;
   }
 
-  .sidebar .accordion input:checked + label + .content {
+  .sidebar .accordion input:checked+label+.content {
     opacity: 1;
     font-size: var(--fs-normal);
     transition: linear 0.5s;
@@ -1556,6 +1554,7 @@ header .topnav .icon {
 }
 
 @media (max-width: 768px) {
+
   .git-section,
   .site-section {
     flex-direction: column;
@@ -1603,7 +1602,7 @@ header .topnav .icon {
   margin: auto 1rem;
 }
 
-.site-section > * {
+.site-section>* {
   flex: 1 1 33%;
   max-width: 72ch;
 }
@@ -1614,22 +1613,22 @@ header .topnav .icon {
   }
 }
 
-.site-section figure > * {
+.site-section figure>* {
   display: flex;
   place-items: center;
 }
 
-.site-section figure > img {
+.site-section figure>img {
   padding-bottom: 0.1rem;
 }
 
-.site-section figure > figcaption {
+.site-section figure>figcaption {
   font-size: var(--fs-small);
   padding-left: 2rem;
 }
 
 @media (max-width: 992px) {
-  .site-section > div {
+  .site-section>div {
     margin: 0 0.75rem;
   }
 }
@@ -1836,3 +1835,5 @@ figcaption,
     width: 90%;
   }
 }
+
+/*# sourceMappingURL=styling.css.map */

@@ -56,6 +56,18 @@ $dec-theme-colors: (
   // hsl(0 0% 15%)
   "theme-color-d": "0deg 0% 15%"
 );
+$colortheme1: (
+  // hsl(35 60% 96%)
+  "theme-color-l":  "35deg 60% 96%",
+  // hsl(181 100% 20%)
+  "theme-color-accent-l": "181deg 100% 20%",
+  // hsl(20 66% 36%)
+  "theme-color-main": "20deg 66% 36%",
+  // hsl(16 50% 24%)
+  "theme-color-accent-d": "16deg 50% 24%",
+  // hsl(0 0% 20%)
+  "theme-color-d": "0deg 0% 20%"
+);
 
 :root {
   // for regular colors
@@ -75,29 +87,15 @@ $dec-theme-colors: (
   //   --#{$key}: hsl(#{$value});
   // }
 
+  /////////////////////////////////////////
   // Theme loop
-  @each $key, $value in $dec-theme-colors {
+  @each $key, $value in $colortheme1 {
     // could i use a mixin for this?
     --#{$key}: hsl(#{$value});
     --#{$key}-a75: hsl(#{$value} / 75%);
     --#{$key}-a50: hsl(#{$value} / 50%);
     --#{$key}-a25: hsl(#{$value} / 25%);
   }
-
-  // // old themeColor 1
-  // --theme-color-l: hsla(35 60% 96%);
-
-  // // old themeColor 2
-  // --theme-color-accent-l: hsla(181 100% 20%);
-
-  // // old themeColor 3
-  // --theme-color-main: hsla(20 86% 36%);
-
-  // // old themeColor 4
-  // --theme-color-accent-d: hsla(16 50% 24%);
-
-  // // old themeColor 5
-  // --theme-color-d: hsla(0 0% 20%);
 
   // End Colors
   ///////////////////////////////////
