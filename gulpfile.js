@@ -28,13 +28,14 @@ const
     cssVariables = require("postcss-css-variables");
 
 // Image related
-
+const
+    imagemin = import('gulp-imagemin');
 
 // Source Map related
 const
   sourcemaps = require('gulp-sourcemaps');
 
-  const { hsl } = require('chalk');
+  const { hsl } = import('chalk');
 
 // End Vars
 /////////////////////////////////////////////////////////////
@@ -106,7 +107,9 @@ exports.compileSCSSToCSS = compileSCSSToCSS;
 async function minifyCSS() {
 
   var plugins = [
-    cssnano({})
+    require('cssnano')({
+      preset: 'default',
+  }),
   ];
 
   return gulp
@@ -123,20 +126,20 @@ exports.minifyCSS = minifyCSS;
 /////////////////////////////////////////
 
 // this is not to be run all the time
-// async function imageLinuxScreenshotsMin() {
-//   gulp
-//     .src('linuxHQ/screenshots/**/*')
-//     .pipe(
-//       imagemin([
-//         imagemin.gifsicle({ interlaced: true }),
-//         imagemin.mozjpeg({ quality: 90, progressive: true }),
-//         imagemin.optipng({ optimizationLevel: 5 }),
-//       ])
-//     )
+async function imageLinuxScreenshotsMin() {
+  gulp
+    .src('linuxHQ/screenshots/**/*')
+    .pipe(
+      imagemin([
+        imagemin.gifsicle({ interlaced: true }),
+        imagemin.mozjpeg({ quality: 90, progressive: true }),
+        imagemin.optipng({ optimizationLevel: 5 }),
+      ])
+    )
 
-//     .pipe(gulp.dest('linuxHQ/optScreenshots'));
-// }
-// exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
+    .pipe(gulp.dest('linuxHQ/optScreenshots'));
+}
+exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 
 // linter for pug files
 // async function lintPug() {

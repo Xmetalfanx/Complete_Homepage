@@ -94,7 +94,6 @@
       "remark-preset-lint-recommended"
     ]
   },
-  "browserslist": "last 2 versions",
   "dependencies": {
     "yarn-audit-fix": "^9.3.3"
   }
