@@ -8,7 +8,7 @@
     "@babel/eslint-parser": "^7.16.3",
     "@popperjs/core": "^2.9.2",
     "autoprefixer": "^10.2.5",
-    "browserlist": "^1.0.1",
+    "browserslist": "^4.21.3",
     "chalk": "^5.0.1",
     "colorguard": "^1.2.1",
     "cssnano": "^5.0.8",
@@ -53,6 +53,7 @@
     "remark-preset-lint-recommended": "^6.1.2",
     "remark-stringify": "^10.0.2",
     "sass": "^1.43.4",
+    "stylelint": "^14.9.1",
     "stylelint-config-standard": "^26.0.0",
     "stylelint-config-standard-scss": "^5.0.0",
     "stylelint-order": "^5.0.0",
@@ -93,8 +94,8 @@
       "remark-preset-lint-recommended"
     ]
   },
+  "browserslist": "last 2 versions",
   "dependencies": {
-    "stylelint": "^14.9.1",
     "yarn-audit-fix": "^9.3.3"
   }
 }
