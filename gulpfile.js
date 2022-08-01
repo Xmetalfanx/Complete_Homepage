@@ -29,7 +29,7 @@ const
 
 // Image related
 const
-    imagemin = import('gulp-imagemin');
+  imagemin = import('gulp-imagemin');
 
 // Source Map related
 const
@@ -95,8 +95,8 @@ async function compileSCSSToCSS() {
         })
       )
 
-      // create sourcemap
-      //.pipe(sourcemaps.write('../maps'))
+      // create sourcemap for CSS (NOT website)
+      .pipe(sourcemaps.write('../maps'))
       .pipe(gulp.dest('./css/'))
   );
 
@@ -115,7 +115,7 @@ async function minifyCSS() {
   return gulp
     .src('./css/styling.css')
     .pipe(postcss(plugins))
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(rename('./styling-min.css'))
     .pipe(gulp.dest('css'));
 }
@@ -147,4 +147,4 @@ exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 // }
 // exports.lintPug = lintPug;
 
-exports.default = gulp.series(compileSCSSToCSS,minifyCSS);
+exports.default = gulp.series(lintFixScss,compileSCSSToCSS,minifyCSS);
