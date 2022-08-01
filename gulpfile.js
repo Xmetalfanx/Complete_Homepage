@@ -20,15 +20,12 @@ const
 
 // Post CSS related
 const
-    colorguard = require('colorguard'),
-    minmax = require('postcss-media-minmax'),
-    normalize = require('postcss-normalize'),
-    sorting = require('postcss-sorting'),
-    mediaVariables = require('postcss-media-variables'),
-    cssVariables = require("postcss-css-variables");
+  colorguard = require('colorguard'),
+  normalize = require('postcss-normalize'),
+  sorting = require('postcss-sorting'),
+  postcssPresetEnv = require('postcss-preset-env');
 
-// Image related
-const
+  // Image related
   imagemin = import('gulp-imagemin');
 
 // Source Map related
@@ -69,11 +66,12 @@ exports.lintFixScss = lintFixScss;
 async function compileSCSSToCSS() {
   var plugins = [
     normalize({}),
-    //doiuse({}),
+    doiuse({}),
     sorting({}),
     colorguard({
         allowEquivalentNotation: true
-    })
+    }),
+    postcssPresetEnv({}),
   ];
 
   return (
@@ -96,7 +94,8 @@ async function compileSCSSToCSS() {
       )
 
       // create sourcemap for CSS (NOT website)
-      .pipe(sourcemaps.write('../maps'))
+      .pipe(sourcemaps.write('/maps'))
+      // .pipe(sourcemaps.write('../maps'))
       .pipe(gulp.dest('./css/'))
   );
 
