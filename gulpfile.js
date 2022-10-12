@@ -14,7 +14,6 @@ const
     rename = require("gulp-rename"),
     doiuse = require('doiuse'),
     // prettier = require("gulp-prettier"),
-    gulpSassLint= require("gulp-sass-lint"),
     gulpStylelint = require('gulp-stylelint');
 
 
