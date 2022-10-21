@@ -674,6 +674,7 @@ header .topnav .icon {
   .main-section--wide .primary-content .card,
   .main-section--left-wide .primary-content .card,
   .main-section--right-wide .primary-content .card {
+    width: auto;
     width: initial;
   }
 
