@@ -14,7 +14,6 @@ const
     rename = require("gulp-rename"),
     doiuse = require('doiuse'),
     // prettier = require("gulp-prettier"),
-    gulpStylelint = require('gulp-stylelint');
 
 
 // Post CSS related
@@ -44,21 +43,6 @@ const cssConfig = {
 
 //////////////////////////////////////////////
 // Start of CSS related functions
-
-  // run stylelint and fixes fixable issues
-async function lintFixScss() {
-
-  return gulp
-    .src([cssConfig.scssPath])
-    .pipe(
-      gulpStylelint({
-        fix: true,
-        reporters: [{ formatter: 'string', console: true }],
-      })
-    .pipe(gulp.dest("./scss"))
-    );
-}
-exports.lintFixScss = lintFixScss;
 
 
 // Compiles sass/scss to css gulp option says it's obsolete and to be honest ... the vscode auto-compiler addon for scss works fine
