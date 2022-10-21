@@ -27,7 +27,6 @@ const
 
 // Source Map related
 const
-  sourcemaps = require('gulp-sourcemaps');
 
   const { hsl } = import('chalk');
 
@@ -72,9 +71,6 @@ async function compileSCSSToCSS() {
         })
       )
 
-      // create sourcemap for CSS (NOT website)
-      .pipe(sourcemaps.write('/maps'))
-      // .pipe(sourcemaps.write('../maps'))
       .pipe(gulp.dest('./css/'))
   );
 
