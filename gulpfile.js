@@ -9,7 +9,6 @@ const
     autoprefixer = require('autoprefixer'),
     //cleanCSS = require('gulp-clean-css'),
     pugLinter = require('gulp-pug-linter'),
-    gcmq = require('gulp-group-css-media-queries'),
     cssnano = require('cssnano'),
     rename = require("gulp-rename"),
     doiuse = require('doiuse'),
@@ -65,9 +64,6 @@ async function compileSCSSToCSS() {
 
       // 1 - run postcss tasks
       .pipe(postcss(plugins))
-
-      // 2 - groups media queries
-      //.pipe(gcmq())
 
       .pipe(
         gulpStylelint({
