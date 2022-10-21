@@ -96,7 +96,6 @@
     "anymatch": "^3.1.2",
     "glob-watcher": "^5.0.5",
     "micromatch": "^4.0.5",
-    "source-map-resolve": "^0.6.0",
     "stable": "^0.1.8",
     "yarn-audit-fix": "^9.3.3"
   }
