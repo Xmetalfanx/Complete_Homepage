@@ -10,16 +10,21 @@ const
     //cleanCSS = require('gulp-clean-css'),
     pugLinter = require('gulp-pug-linter'),
     cssnano = require('cssnano'),
-    rename = require("gulp-rename"),
     doiuse = require('doiuse'),
     // prettier = require("gulp-prettier"),
 
 
 // Post CSS related
 const
-  colorguard = require('colorguard'),
   normalize = require('postcss-normalize'),
   sorting = require('postcss-sorting'),
+  
+  // REMEMBER COMMAS AND ; AFTER ADJUSTMENTS
+  
+  // unknown if i should keep but not updated in some time 
+    colorguard = require('colorguard'),
+
+  // keeps
   postcssPresetEnv = require('postcss-preset-env');
 
   // Image related
@@ -78,23 +83,6 @@ async function compileSCSSToCSS() {
 
 exports.compileSCSSToCSS = compileSCSSToCSS;
 
-async function minifyCSS() {
-
-  var plugins = [
-    require('cssnano')({
-      preset: 'default',
-  }),
-  ];
-
-  return gulp
-    .src('./css/styling.css')
-    .pipe(postcss(plugins))
-    //.pipe(sourcemaps.write())
-    .pipe(rename('./styling-min.css'))
-    .pipe(gulp.dest('css'));
-}
-
-exports.minifyCSS = minifyCSS;
 
 // End of CSS related functions
 /////////////////////////////////////////
