@@ -6,28 +6,27 @@ var postcss = require('gulp-postcss');
 const sass = require('gulp-sass')(require('sass'));
 
 const
-    autoprefixer = require('autoprefixer'),
     //cleanCSS = require('gulp-clean-css'),
     pugLinter = require('gulp-pug-linter'),
-    cssnano = require('cssnano'),
-    doiuse = require('doiuse'),
     // prettier = require("gulp-prettier"),
 
-
-// Post CSS related
 const
-  normalize = require('postcss-normalize'),
-  sorting = require('postcss-sorting'),
+
   
+
   // REMEMBER COMMAS AND ; AFTER ADJUSTMENTS
-  
-  // unknown if i should keep but not updated in some time 
-    colorguard = require('colorguard'),
+  // unknown if i should keep but not updated in some time
+  colorguard = require('colorguard'),
+  doiuse = require('doiuse'),
 
   // keeps
   postcssPresetEnv = require('postcss-preset-env');
+  autoprefixer = require('autoprefixer'),
+  cssnano = require('cssnano'),
+  normalize = require('postcss-normalize'),
+  sorting = require('postcss-sorting'),
 
-  // Image related
+// Image related
   imagemin = import('gulp-imagemin');
 
 // Source Map related
@@ -109,4 +108,4 @@ exports.imageLinuxScreenshotsMin = imageLinuxScreenshotsMin;
 // }
 // exports.lintPug = lintPug;
 
-exports.default = gulp.series(lintFixScss,compileSCSSToCSS,minifyCSS);
+exports.default = gulp.series(lintFixScss,compileSCSSToCSS);
