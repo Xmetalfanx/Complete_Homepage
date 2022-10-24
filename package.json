@@ -12,6 +12,7 @@
     "chalk": "^5.0.1",
     "colorguard": "^1.2.1",
     "core-js": "^3.25.1",
+    "css": "^3.0.0",
     "cssnano": "^5.1.13",
     "doiuse": "^4.4.1",
     "eslint": "^8.23.0",
@@ -36,7 +37,7 @@
     "postcss-css-variables": "^0.18.0",
     "postcss-discard-empty": "^5.0.1",
     "postcss-normalize": "^10.0.1",
-    "postcss-preset-env": "^7.7.2",
+    "postcss-preset-env": "^7.8.2",
     "postcss-scss": "^4.0.4",
     "postcss-sorting": "^7.0.1",
     "prettier": "^2.7.1",
@@ -65,7 +66,8 @@
     "compile-scss": "sass -c --verbose scss/styling.scss styling.css",
     "lint-md": "remark .",
     "minify-css": "postcss css/styling.css > css/styling-min.css",
-    "imagemin": "imagemin graphics --out-dir=graphics_output"
+    "imagemin": "imagemin graphics --out-dir=graphics_output",
+    "postcss-nano": "postcss css/styling.css > css/styling.nano.css"
   },
   "repository": {
     "type": "git",
