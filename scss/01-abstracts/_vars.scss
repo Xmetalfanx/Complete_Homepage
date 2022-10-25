@@ -10,63 +10,63 @@ $breakpoint-xl: "max-width: 1200px";
 /////////////////////////////////////////////////////////////////////////////////////////
 // Colors
 $main-colors: (
-  "black": "0deg 0% 0%",
-  "white": "0deg 0% 100%",
-  "forest-green": "120deg 100% 20%",
+  "black": "0 0% 0%",
+  "white": "0 0% 100%",
+  "forest-green": "120 100% 20%",
 );
 
 // the idea are colors that I do not need shades of
 $sub-colors: (
-  "red": "0deg 100% 50%",
-  "burnt-orange": "17deg 100% 40%",
-  "green": "120deg 44% 34%",
+  "red": "0 100% 50%",
+  "burnt-orange": "17 100% 40%",
+  "green": "120 44% 34%",
   // "maroon": "0 100% 20%",
 );
 $colors-grey: (
   /* "light-grey": "0 0% 83% 0.75", former "light-grey" ... same color but dark grey color */
-  "grey-l13": "0deg 0% 13%",
-  "grey-l15": "0deg 0% 15%",
-  "grey-l20": "0deg 0% 20%",
-  "grey-l24": "0deg 0% 24%",
-  "grey-l32": "0deg 0% 32%"
+  "grey-l13": "0 0% 13%",
+  "grey-l15": "0 0% 15%",
+  "grey-l20": "0 0% 20%",
+  "grey-l24": "0 0% 24%",
+  "grey-l32": "0 0% 32%"
 );
 $nov-theme-colors: (
   // hsl(35 60% 96%)
-  "theme-color-l": "35deg 60% 96%",
+  "theme-color-l": "35 60% 96%",
   // hsl(181 60% 25%)
   // "theme-color-accent-l": "181 60% 25%",
   // hsl(43, 100%, 45%)
-  "theme-color-accent-l": "43deg, 100%, 45%",
+  "theme-color-accent-l": "43, 100%, 45%",
   // hsl(20 86% 30%)
-  "theme-color-main": "20deg 86% 25%",
+  "theme-color-main": "20 86% 25%",
   // hsl(16 80% 25%)
-  "theme-color-accent-d": "16deg 80% 20%",
+  "theme-color-accent-d": "16 80% 20%",
   // hsl(0 0% 20%)
-  "theme-color-d": "0deg 0% 20%"
+  "theme-color-d": "0 0% 20%"
 );
 $dec-theme-colors: (
   // hsl(35 60% 96%)
-  "theme-color-l": "35deg 60% 96%",
+  "theme-color-l": "35 60% 96%",
   // hsl(120, 60%, 24%)
-  "theme-color-accent-l": "120deg 60% 24%",
+  "theme-color-accent-l": "120 60% 24%",
   // hsl(0 150% 24%)
-  "theme-color-accent-d": "0deg 150% 24%",
+  "theme-color-accent-d": "0 150% 24%",
   // hsl(120, 60%, 15%)
-  "theme-color-main": "120deg 60%, 15%",
+  "theme-color-main": "120 60%, 15%",
   // hsl(0 0% 15%)
-  "theme-color-d": "0deg 0% 15%"
+  "theme-color-d": "0 0% 15%"
 );
 $colortheme1: (
   // hsl(35 60% 96%)
-  "theme-color-l":  "35deg 60% 96%",
+  "theme-color-l":  "35 60% 96%",
   // hsl(181 100% 20%)
-  "theme-color-accent-l": "181deg 100% 20%",
+  "theme-color-accent-l": "181 100% 20%",
   // hsl(20 66% 36%)
-  "theme-color-main": "20deg 66% 36%",
+  "theme-color-main": "20 66% 36%",
   // hsl(16 50% 24%)
-  "theme-color-accent-d": "16deg 50% 24%",
+  "theme-color-accent-d": "16 50% 24%",
   // hsl(0 0% 20%)
-  "theme-color-d": "0deg 0% 20%"
+  "theme-color-d": "0 0% 20%"
 );
 
 :root {
@@ -149,5 +149,6 @@ $colortheme1: (
   --fa-arrow-down: "\f107";
 
   // for the middle of the page with a lighter BG Color
+  // WHY is this here, AND NOT with colors? 
   --link-color-lightBG: var(--themeColoarAccentD);
 }
