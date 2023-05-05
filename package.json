@@ -23,9 +23,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
-    "gulp-prettier": "^4.0.0",
     "gulp-pug-linter": "^1.5.0",
-    "gulp-sass": "^5.1.0",
     "imagemin": "^8.0.1",
     "imagemin-cli": "^7.0.0",
     "imagemin-mozjpeg": "^10.0.0",
@@ -62,16 +60,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "fix:scss": "stylelint 'scss/**/*.{css,scss}' ",
+    "compile:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css",
+    "watch:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css --watch",
+    "minify:css": "postcss css/styling-postcss.css > css/styling-min.css",
+    "postcss:all": "postcss css/styling-raw.css -o css/styling-postcss.css",
     "lint": "eslint . ",
     "lint:fix": "eslint . --fix",
-    "fix-scss": "prettier-stylelint --write 'scss/**/*.{css,scss}' ",
-    "compile-scss": "sass -c --verbose scss/styling.scss css/styling.css",
     "lint-md": "remark .",
-    "minify-css": "postcss css/styling.postcss.css > css/styling-min.css",
-    "imagemin": "imagemin graphics --out-dir=graphics_output",
-    "postbuild": "postcss css/styling.css -u autoprefixer postcss-sorting cssnano -r --no-map",
-    "postcss": "postcss css/styling.css -o css/styling.postcss.css postcss-sorting",
-    "postcss:all": "postcss css/styling.css -o css/styling.postcss.css"
+    "imagemin": "imagemin graphics --out-dir=graphics_output"
   },
   "repository": {
     "type": "git",

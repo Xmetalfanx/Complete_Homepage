@@ -1,15 +1,16 @@
+const cssnano = require('cssnano')
+const doiuse = require('doiuse')
+// const postcssDiscardEmpty = require('postcss-discard-empty')
+//const postcssAutoreest = require('postcss-autoreset')
+const postcssPresetEnv = require('postcss-preset-env')
+const postcssSorting = require('postcss-sorting')
+
 module.exports = {
   plugins: [
-    // require("postcss-autoreset")({
-    //   reset: {
-    //     margin: 0,
-    //     padding: 0,
-    //     borderRadius: 0,
-    //   },
-    // }),
-    require('postcss-discard-empty'),
-    // //require('doiuse')(""),
+       // doiuse(""),
     require('postcss-preset-env')({stage: 2}),
-    require('cssnano')
+    cssnano({
+      preset: 'default',
+  }),
   ]
 }
