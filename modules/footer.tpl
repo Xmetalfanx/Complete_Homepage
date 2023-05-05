@@ -22,21 +22,32 @@
   <div class="contacts">
     <span class="pr-4 d-none d-md-inline-block">Xmetal/Xmetalfanx 2013-*</span>
 
+    <!-- Gitlab -->
     <a href="https://gitlab.com/Xmetal" aria-label="Xmetalfanx Gitlab Page" target="_blank" rel="noopener">
       <i class="fa fa-gitlab fa-2x" aria-hidden="true"></i>
       <span class="hiddenAccessLinkText">My Gitlab Page</span>
     </a>
 
+    <!-- Github -->
     <a href="https://github.com/Xmetalfanx" aria-label="Xmetalfanx Github Page" target="_blank" rel="noopener">
       <i class="fa fa-github fa-2x" aria-hidden="true"></i>
       <span class="hiddenAccessLinkText">My Github Page<br/></span>
     </a>
 
+    <!-- Bitbucket -->
     <a href="https://bitbucket.org/%7B1f3bbcd5-12ee-42d1-bdc4-cef9f90590b0%7D/" aria-label="Xmetalfanx Bitbucket Page" target="_blank" rel="noopener">
       <i class="fa fa-bitbucket fa-2x" aria-hidden="true"></i>
       <span class="hiddenAccessLinkText">My Bitbucket Page<br/></span>
     </a>
 
+
+    <!-- Mastodon -->
+    <a href="https://fosstodon.org/@Xmetal" aria-label="Xmetalfanx on Mastodon" target="_blank" rel="noopener">
+      <i class="fa fa-mastodon fa-2x"  aria-hidden="true"></i>
+      <span class="hiddenAccessLinkText">Find me on Mastodon<br/></span>
+    </a>
+
+    <!-- Twitter --> 
     <a href="https://twitter.com/Xmetalfanx" aria-label="Xmetalfanx on Twitter" target="_blank" rel="noopener">
       <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
       <span class="hiddenAccessLinkText">Find me on Twitter<br/></span>
