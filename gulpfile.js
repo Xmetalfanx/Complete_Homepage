@@ -1,15 +1,7 @@
-//////////////////////////////////////////////////////////////////
-// Variables
-
 var gulp = require('gulp');
-var postcss = require('gulp-postcss');
 
 // Image related
-  imagemin = import('gulp-imagemin');
-
-
-// End Vars
-
+imagemin = import('gulp-imagemin');
 
 // this is not to be run all the time
 async function imageLinuxScreenshotsMin() {

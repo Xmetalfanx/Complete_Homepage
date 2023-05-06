@@ -22,7 +22,6 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.2.1",
     "gulp": "^4.0.2",
-    "gulp-postcss": "^9.0.1",
     "gulp-pug-linter": "^1.5.0",
     "imagemin": "^8.0.1",
     "imagemin-cli": "^7.0.0",
@@ -60,11 +59,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "fix:scss": "stylelint 'scss/**/*.{css,scss}' ",
+    "fix:scss": "stylelint --fix 'scss/**/*.{css,scss}' ",
+    "fix:css": "stylelint --fix 'css/**/*.css' ",
     "compile:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css",
     "watch:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css --watch",
     "minify:css": "postcss css/styling-postcss.css > css/styling-min.css",
-    "postcss:all": "postcss css/styling-raw.css -o css/styling-postcss.css",
+    "postcss:all": "postcss --verbose css/styling-raw.css > css/styling-postcss.css",
     "lint": "eslint . ",
     "lint:fix": "eslint . --fix",
     "lint-md": "remark .",
@@ -97,7 +97,6 @@
   },
   "dependencies": {
     "anymatch": "^3.1.2",
-    "glob-watcher": "^5.0.5",
     "micromatch": "^4.0.5",
     "stable": "^0.1.8",
     "yarn-audit-fix": "^9.3.3"

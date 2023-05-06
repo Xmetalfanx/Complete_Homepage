@@ -1,17 +1,17 @@
 #!/bin/bash
 
 function userPrompt() {
-    read -p "Press any key to continue"
+    read -rp "Press any key to continue"
 }
 
 clear 
-echo "Running scss check"
-npm run fix:scss
+echo "Running scss check/fix THEN Compile Sass to a raw CSS file"
+npm run fix:scss && userPrompt && npm run compile:scss 
 userPrompt
 
-clear
-echo "Compiling Sass to a raw CSS file"
-npm run compile:scss 
+clear 
+echo "Fixing output CSS with Stylelint"
+npm run fix:css
 userPrompt
 
 clear 
@@ -20,7 +20,6 @@ npm run postcss:all
 userPrompt
 
 echo "COMPLETED"
-
 
 echo "Performing Cleanup"
 rm css/styling-raw*
