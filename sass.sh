@@ -1,27 +1,42 @@
 #!/bin/bash
 
+function cleanCSSFolder() {
+  clear && echo "Clearing out CSS folder"
+  rm css/*.css
+  rm css/*.css.map
+}
+
 function userPrompt() {
     read -rp "Press any key to continue"
 }
 
-clear 
-echo "Running scss check/fix THEN Compile Sass to a raw CSS file"
-npm run fix:scss && userPrompt && npm run compile:scss 
-userPrompt
+cleanCSSFolder
 
-clear 
-echo "Fixing output CSS with Stylelint"
-npm run fix:css
+clear && echo "Running scss check/fix THEN Compile Sass to a raw CSS file"
+npm run fix:scss
+#userPrompt
+npm run compile:scss
 userPrompt
+npm run fix:rawcss
 
-clear 
-echo "Running PostCSS on RAW CSS file, including Minifying"
+clear && echo "Running PostCSS on RAW CSS file"
 npm run postcss:all
 userPrompt
 
-echo "COMPLETED"
+clear && echo "Fixing output CSS with Stylelint"
+npm run fix:postcss
+userPrompt
 
+
+echo "Minifying CSS"
+npm run minify:css
+userPrompt
+
+echo "COMPLETED"
+userPrompt
+
+
+clear
 echo "Performing Cleanup"
-rm css/styling-raw*
-rm css/styling-postcss*
+rm css/styling-raw.css*
 echo "Cleanup complete"

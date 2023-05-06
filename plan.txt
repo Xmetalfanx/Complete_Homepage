@@ -1,0 +1,7 @@
+1. Check scss with stylelint, fixing possible problems
+2. compile scss to css  (output: -raw.css file)
+3. Run postcss on -raw.css file (output: -postcss.css file)
+4. Run stylelint scan on -postcss.css file and auto-fix it
+5. minify -postcss.css file to a -min.css file
+
+

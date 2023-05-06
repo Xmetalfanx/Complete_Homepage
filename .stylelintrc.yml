@@ -24,10 +24,12 @@ rules:
   # http://www.paulirish.com/2010/the-protocol-relative-url/
   function-url-no-scheme-relative: true
 
-
   # Prevents unneeded nesting selectors
   scss/selector-no-redundant-nesting-selector: true
 
   # Since mixins are explicit (`@include`) and parens are unnecessary for argumentless mixins, they
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
+
+  ## STYLELINT DEPRECIATED RULES
+  max-line-length: null

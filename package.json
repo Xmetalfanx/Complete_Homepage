@@ -14,6 +14,7 @@
     "core-js": "^3.25.1",
     "css": "^3.0.0",
     "cssnano": "^5.1.13",
+    "cssnano-cli": "^1.0.5",
     "doiuse": "^4.4.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.3.0",
@@ -60,10 +61,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix:scss": "stylelint --fix 'scss/**/*.{css,scss}' ",
-    "fix:css": "stylelint --fix 'css/**/*.css' ",
+    "fix:rawcss": "stylelint --fix 'css/styling-raw.css' ",
+    "fix:postcss": "stylelint --fix 'css/styling-postcss.css' ",
     "compile:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css",
     "watch:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css --watch",
-    "minify:css": "postcss css/styling-postcss.css > css/styling-min.css",
+    "minify:css": "cssnano css/styling-postcss.css css/styling-min.css",
     "postcss:all": "postcss --verbose css/styling-raw.css > css/styling-postcss.css",
     "lint": "eslint . ",
     "lint:fix": "eslint . --fix",
@@ -82,7 +84,8 @@
     "solus",
     "fedora",
     "opensuse",
-    "arch"
+    "arch",
+    "manjaro"
   ],
   "author": "Xmetalfanx",
   "license": "ISC",
