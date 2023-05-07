@@ -66,7 +66,7 @@
     "compile:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css",
     "watch:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css --watch",
     "minify:css": "cssnano css/styling-postcss.css css/styling-min.css",
-    "postcss:all": "postcss --verbose css/styling-raw.css > css/styling-postcss.css",
+    "postcss:all": "postcss --verbose css/styling-raw.css > css/styling-min.css",
     "lint": "eslint . ",
     "lint:fix": "eslint . --fix",
     "lint-md": "remark .",

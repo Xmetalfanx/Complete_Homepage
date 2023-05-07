@@ -23,18 +23,18 @@ clear && echo "Running PostCSS on RAW CSS file"
 npm run postcss:all
 #userPrompt
 
-clear && echo "Fixing output CSS with Stylelint"
-npm run fix:postcss
-#userPrompt
+# clear && echo "Fixing output CSS with Stylelint"
+# npm run fix:postcss
+# #userPrompt
 
-echo "Minifying CSS"
-npm run minify:css
+# echo "Minifying CSS"
+# npm run minify:css
 
 echo "COMPLETED"
 userPrompt
 
-clear
-echo "Performing Cleanup"
-rm css/styling-raw.css*
-rm css/styling-postcss.css*
-echo "Cleanup complete"
+# clear
+# echo "Performing Cleanup"
+# rm css/styling-raw.css*
+# rm css/styling-postcss.css*
+# echo "Cleanup complete"
