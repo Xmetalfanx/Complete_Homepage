@@ -35,7 +35,7 @@
   display: inline-flex;
 }
 
-@media all and (min-width: 576px) {
+@media (width >= 576px) {
   .d-sm-none {
     display: none;
   }
@@ -73,7 +73,7 @@
   }
 }
 
-@media all and (min-width: 768px) {
+@media (width >= 768px) {
   .d-md-none {
     display: none;
   }
@@ -111,7 +111,7 @@
   }
 }
 
-@media all and (min-width: 992px) {
+@media (width >= 992px) {
   .d-lg-none {
     display: none;
   }
@@ -149,7 +149,7 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media (width >= 1200px) {
   .d-xl-none {
     display: none;
   }
