@@ -1,6 +1,6 @@
 <?php
 
-	$pageTitle = 'Distribution Section -  Gentoo';
+  $pageTitle = 'Ubuntu Cinnamon';
 
 	switch ($_SERVER['HTTP_HOST']) {
     case 'xmetal.x10.mx':
@@ -13,11 +13,10 @@
         $siteRoot = 'local.domain';
         break;
   }
-
-  include $siteRoot . "/templates/linux/baseLinuxDistro.tpl";
+ include $siteRoot . "/templates/linux/baseLinuxDistro.tpl";
 
 ?>
 
 <script type="text/javascript">
-	var localDistroName = "gentoo";
+    var localDistroName = "ubuntucinnamon";
 </script>

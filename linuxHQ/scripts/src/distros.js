@@ -12,6 +12,8 @@ function displayDistroOutput(
   currentDistroName,
   currentDistroIcon,
   currentDistroTitle,
+  currentDistroSupportedVersions,
+  currentDistroLatestVersions,
   currentDistroHomepage,
   currentDistroDownload,
   currentDistroForum,
@@ -23,7 +25,8 @@ function displayDistroOutput(
   currentDistroSimilarDistros,
   currentDistroTargetAudience,
   currentDistroSoftwareType
-) {
+) 
+{
   let distroSShotPath = '/linuxHQ/screenshots/' + currentDistroFamily + '/';
   let distroSShotTNPath = distroSShotPath + 'thumbnails/';
 
@@ -105,8 +108,8 @@ function displayDistroOutput(
 
                 <div class="py-3">
                   <h4> Versions</h4>
-                  <span class="font-weight-bold">Latest Version: </span><br />
-                  <span class="font-weight-bold">Currently Supported Versions: </span><br />
+                  <span class="font-weight-bold">Latest Version:</span> ${currentDistroLatestVersions} <br />
+                  <span class="font-weight-bold">Currently Supported Versions: </span>${currentDistroSupportedVersions} <br />
                 </div>
 
 
@@ -129,7 +132,7 @@ function displayDistroOutput(
 
 // "main" function
 function getDistroData(data, $localDistroName) {
-  jsonURL = '/linuxHQ/json/distros.json';
+  jsonURL = '/linuxHQ/json/distros-min.json';
 
   // Get JSON Data
   $.getJSON(jsonURL, function (data) {
@@ -146,6 +149,10 @@ function getDistroData(data, $localDistroName) {
 
         // graphics
         let currentDistroIcon = value[distroFamily].graphics.iconURL;
+
+        // versions
+        let currentDistroSupportedVersions = value[distroFamily].versions.supportedVersions;
+        let currentDistroLatestVersions = value[distroFamily].versions.latestVersion;
 
         // moreInfo
         let currentDistroFeaturesDesktops =
@@ -172,6 +179,11 @@ function getDistroData(data, $localDistroName) {
         let currentDistroYTTipsPLaylist =
           value[distroFamily].youtube.tipsPlaylist;
 
+        console.log(currentDistroName);
+        console.log("latest version:" + value[distroFamily].versions.latestVersion);
+        console.log("supported Version:" + value[distroFamily].versions.supportedVersions);
+        console.log("");
+
         ////////////////////////////////////////////////////////////////////////////
 
         if (localDistroName == currentDistroName) {
@@ -180,6 +192,8 @@ function getDistroData(data, $localDistroName) {
             currentDistroName,
             currentDistroIcon,
             currentDistroTitle,
+            currentDistroSupportedVersions,
+            currentDistroLatestVersions,
             currentDistroHomepage,
             currentDistroDownload,
             currentDistroForum,
