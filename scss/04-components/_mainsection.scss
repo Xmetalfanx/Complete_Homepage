@@ -10,17 +10,6 @@
   grid-area: main-section;
   padding: 1.5rem;
 
-  // This needed?
-  // justify-items: stretch;
-
-  // these no longer make sense if i use grid again?
-  // > .sidebar {
-  //   flex: 1 1 15%;
-  // }
-
-  // > .primary-content {
-  //   flex: 1 1 85%;
-  // }
 
   // is this REALLY needed?
   h1,
@@ -106,6 +95,7 @@
   // the main sections of each side of the site
   .primary-content {
     grid-area: pContent;
+    margin-inline: auto;
 
     // card everywhere else is flex... why grid here? ... shouldn't i just switch them all to flex?
     // was there a need for grid? ...

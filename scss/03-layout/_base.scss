@@ -9,6 +9,14 @@ body {
 
 html {
   width: 100%;
+  color-scheme: light dark;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
 }
 
 body {
