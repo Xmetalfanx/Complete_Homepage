@@ -62,7 +62,7 @@ function displayDistroOutput(
 
 // "main" function
 function getDistroData(data, $localDistroName) {
-  jsonURL = '/linuxHQ/json/distros.json';
+  jsonURL = '/linuxHQ/json/distros-min.json';
 
   // Get JSON Data
   $.getJSON(jsonURL, function (data) {
