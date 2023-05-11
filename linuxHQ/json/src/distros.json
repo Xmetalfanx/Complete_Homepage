@@ -113,7 +113,7 @@
       },
       "moreinfo": {
         "desktops": "Cinnamon, Enlightenment, GNOME, KDE, LXDE, MATE, Xfce",
-        "featured": "yes",
+        "featured": "no",
         "releaseCycle": "",
         "similar": "(with the same DE..) Antergos or Arch",
         "target": "Any User"
@@ -1040,7 +1040,7 @@
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS)",
         "desktops": "Pantheon",
-        "featured": "yes",
+        "featured": "no",
         "releaseCycle": "Follows Ubuntu LTS releases",
         "similar": "",
         "target": "Any User/ New Use"
@@ -1423,7 +1423,7 @@
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "Budgie",
-        "featured": "",
+        "featured": "yes",
         "releaseCycle": "Follows Ubuntu's",
         "similar": "Solus (for Budgie), Ubuntu Mate/Xubuntu (for Ubuntu base)",
         "target": "Any Use"
@@ -1493,7 +1493,7 @@
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "Cinnamon",
-        "featured": "No",
+        "featured": "yes",
         "releaseCycle": "Follows Ubuntu's",
         "similar": "",
         "target": ""
@@ -1528,7 +1528,7 @@
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
         "desktops": "Unity",
-        "featured": "No",
+        "featured": "yes",
         "releaseCycle": "Follows Ubuntu's",
         "similar": "",
         "target": ""
