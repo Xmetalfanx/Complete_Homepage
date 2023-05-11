@@ -726,9 +726,9 @@
         "supportedVersions": ""
       },
       "website": {
-        "download": "",
-        "forum": "",
-        "homepage": "",
+        "download": "https://kaosx.us/download",
+        "forum": "http://forum.kaosx.us/",
+        "homepage": "https://kaosx.us/",
         "myPage": "http://xmetal.x10.mx/linuxHQ/distros/independent/kaOS.php"
       },
       "youtube": {
@@ -1429,10 +1429,10 @@
         "target": "Any Use"
       },
       "screenshots": {
-        "desktop": "",
-        "src": "",
+        "desktop": "budgie",
+        "src": "ubuntubudgie.jpg",
         "theme": "",
-        "thumbnails": ""
+        "thumbnails": "ubuntubudgie_tn.jpg"
       },
       "versions": {
         "latestVersion": "23.04",
@@ -1453,7 +1453,7 @@
       "distroName": "ubuntudde",
       "distroTitle": "Ubuntu DDE",
       "graphics": {
-        "iconURL": "ubuntudee.png"
+        "iconURL": "ubuntudde.png"
       },
       "moreinfo": {
         "base": "Ubuntu Long Term Support (LTS) and non-LTS",
@@ -1464,20 +1464,20 @@
         "target": ""
       },
       "screenshots": {
-        "desktop": "",
-        "src": "",
+        "desktop": "Deepin Desktop Envirnoment",
+        "src": "ubuntudde1.png",
         "theme": "",
-        "thumbnails": ""
+        "thumbnails": "ubuntudde1_tn.png"
       },
       "versions": {
         "latestVersion": "23.04",
         "supportedVersions": "20.04 LTS, 22.04 LTS, 23.04"
       },
       "website": {
-        "download": "",
-        "forum": "",
-        "homepage": "",
-        "myPage": "http://xmetal.x10.mx/linuxHQ/distros/ubuntu/"
+        "download": "https://ubuntudde.com/download/",
+        "forum": "https://discourse.ubuntudde.com/",
+        "homepage": "https://ubuntudde.com/",
+        "myPage": "http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntudde.php"
       },
       "youtube": {
         "reviewPlaylist": "",
@@ -1499,10 +1499,10 @@
         "target": ""
       },
       "screenshots": {
-        "desktop": "",
-        "src": "",
+        "desktop": "Cinnamon",
+        "src": "ubuntuCinnamon.png",
         "theme": "",
-        "thumbnails": ""
+        "thumbnails": "ubuntuCinnamon_tn.png"
       },
       "versions": {
         "latestVersion": "23.04",
@@ -1534,10 +1534,10 @@
         "target": ""
       },
       "screenshots": {
-        "desktop": "",
-        "src": "",
+        "desktop": "Unity",
+        "src": "ubuntuunity.png",
         "theme": "",
-        "thumbnails": ""
+        "thumbnails": "ubuntuunity_tn.png"
       },
       "versions": {
         "latestVersion": "23.04",
