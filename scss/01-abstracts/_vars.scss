@@ -2,10 +2,10 @@
 @use "_functions" as *;
 
 // breakpoints
-$breakpoint-sm: "max-width: 576px";
-$breakpoint-md: "max-width: 768px";
-$breakpoint-lg: "max-width: 992px";
-$breakpoint-xl: "max-width: 1200px";
+$breakpoint-sm: "width <= 576px";
+$breakpoint-md: "width <= 768px";
+$breakpoint-lg: "width <= 992px";
+$breakpoint-xl: "width <= 1200px";
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // Colors
