@@ -5,6 +5,16 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  // text color
+  color: var(--theme-color-main);
+  font-family: var(--ffamily-roboto);
+  font-size: var(--fs-normal);
+  font-weight: 400;
+  line-height: 1.6;
+
+  // is this needed?
+  text-align: left;
 }
 
 html {
