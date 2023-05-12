@@ -12,7 +12,6 @@
   <input id="systemRelated" type="checkbox">
   <label for="systemRelated">System Tools Related</label>
   <div class="content">
-    <a href="#"></a>Making Windows 7 look like Windows 10
     <a href="#">Routine Maintenance</a>
     <a href="/techHQ/techcenter/system/bad_uninstalls.php">Bad Uninstalls</a>
   </div>
