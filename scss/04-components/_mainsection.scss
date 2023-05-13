@@ -2,6 +2,7 @@
 
 /*********** Main Section in middle of page, between the header and footer *****/
 
+
 .main-section {
   display: grid;
   gap: 1.5rem;
@@ -10,6 +11,12 @@
   grid-area: main-section;
   padding: 1.5rem;
 
+  // text color
+  color: var(--theme-color-main);
+  font-family: var(--ffamily-roboto);
+  font-size: var(--fs-normal);
+  font-weight: 400;
+  line-height: 1.6;
 
   // is this REALLY needed?
   h1,
