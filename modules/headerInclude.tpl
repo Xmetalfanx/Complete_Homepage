@@ -11,8 +11,7 @@
 
 <link rel="stylesheet" href="/css/styling-min.css" >
 
-<script src="/scripts/nav.js" ></script>
-
+<script src="/scripts/topnav.js" ></script>
 
 <!-- Various Meta Tags-->
 <meta name="robots" content="index,follow,noodp">
