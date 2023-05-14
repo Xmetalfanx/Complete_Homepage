@@ -81,34 +81,16 @@
       padding: 0;
     }
 
-    /** cards in Sidebar, specifically ... i think any mainSection global .card stuff carries over ***/
-    .card {
-      .card__header {
-        padding: 0.5rem 1rem;
-      }
-
-      .card__body {
-        line-height: 1.4rem;
-
-        // removes the need for so many <br /> tags
-        a,
-        span {
-          margin: 0.4rem auto;
-        }
-      }
-    }
   }
 
   // the main sections of each side of the site
   .primary-content {
     grid-area: pContent;
-    margin-inline: auto;
 
     // card everywhere else is flex... why grid here? ... shouldn't i just switch them all to flex?
     // was there a need for grid? ...
     .card {
-      width: 80%;
-      margin: 1.5rem auto;
+      width: auto;
 
       .card__header {
         ///////////////////////////////////////////////////////////
@@ -130,7 +112,7 @@
   @media ($breakpoint-lg) {
     .sidebar {
       .card {
-        margin: 0 auto;
+        margin: 0 none;
 
         // why is this here? ...
         // could i make this more generic andremove this? (move it to the higest level"card__body"
@@ -144,10 +126,6 @@
 
     .primary-content {
       margin: 0 1rem;
-
-      .card {
-        width: unset;
-      }
     }
 
     &--left-wide,
