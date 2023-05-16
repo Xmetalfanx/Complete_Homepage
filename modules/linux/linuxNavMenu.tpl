@@ -1,10 +1,12 @@
 
 <header>
 
+<div class="section-header">
   <a href="/linuxHQ/index.php">
-    <i class="fa fa-3x fa-linux" aria-hidden="true"></i>
-    <h2 class="d-inline-block">LinuxHQ</h2>
+    <i class="fa fa-linux" aria-hidden="true"></i>
+    <div class="d-inline-block">LinuxHQ</div>
   </a>
+</div>
 
   <nav class="topnav" id="topnav">
       <a href="/linuxHQ/distros/distroHome.php">Distributions</a>

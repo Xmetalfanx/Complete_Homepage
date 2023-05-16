@@ -7,7 +7,7 @@ body {
   padding: 0;
 
   // is this needed?
-  //text-align: left;
+  // text-align: left;
 }
 
 html {
@@ -34,7 +34,16 @@ body {
     "main-section"
     "footer";
   min-height: 100%;
+
+  @media ($breakpoint-md) {
+      grid-template: auto 1fr / 1fr;
+      grid-template-areas:
+        "main-section"
+        "header";
+  }
 }
+
+
 
 ::selection {
   background-color: var(--theme-color-main);
@@ -118,3 +127,4 @@ body {
     }
   }
 }
+

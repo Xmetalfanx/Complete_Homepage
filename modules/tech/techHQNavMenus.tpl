@@ -1,6 +1,6 @@
 
 <header>
-  <div class="h2">
+  <div class="section-header">
     <a href="/techHQ/index.php">TechHQ </a>
   </div>
 
