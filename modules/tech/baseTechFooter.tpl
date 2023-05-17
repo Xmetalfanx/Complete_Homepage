@@ -8,7 +8,7 @@
 
 
 <!-- Include search box -->
-<?php include $siteRoot . "/modules/ddg.tpl"; ?>
+<!-- <?php include $siteRoot . "/modules/ddg.tpl"; ?> -->
 
 <!-- Idea ending div -?? ends main section  -->
 </div>
