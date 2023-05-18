@@ -45,7 +45,7 @@
 
     <figure>
       <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
-        <img class="d-none d-md-block img-fluid " src="/graphics/mathandscience.png" alt="Science and Math.com website graphics" loading="lazy">
+        <img class="d-none d-md-block w-50 img-fluid" src="/graphics/mathandscience.png" alt="Science and Math.com website graphics" loading="lazy">
         <figcaption>ScienceandMath.com</figcaption>
       </a>
   </figure>
