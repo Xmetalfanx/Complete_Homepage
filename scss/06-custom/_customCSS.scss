@@ -130,3 +130,14 @@ figcaption,
 .text-center {
   text-align: center;
 }
+
+// my idea is to make this like a card__header but not requiring the item to be a part of a .card syntax
+.header {
+  color: var(--white);
+  background-color: var(--theme-color-main);
+  border-radius: 10px 10px 0 0;
+  display: block;
+  font-weight: 700;
+  margin: 1rem; 
+  padding: 1rem; 
+}
