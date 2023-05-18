@@ -25,7 +25,7 @@ npm run postcss:all
 
 
 echo "COMPLETED"
-userPrompt
+#userPrompt
 
 # clear
 # echo "Performing Cleanup"

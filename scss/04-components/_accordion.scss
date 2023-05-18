@@ -1,124 +1,196 @@
 @use "../01-abstracts/index" as *;
 
-// This is the main accordion that would be in the primary-content section
-.accordion {
-  input {
-    display: none;
-  }
+// // This is the main accordion that would be in the primary-content section
+// .accordion {
+//   input {
+//     display: none;
+//   }
 
-  // the title of what was (in earlier trys) the button
+//   // the title
+//   label {
+//     color: var(--white);
+//     background-color: var(--theme-color-main);
+//     display: block;
+//     padding: 8px 22px;
+//     margin: 0 0 1px;
+//     border-radius: 10px 10px 0 0;
+
+//     // to the left of the label and it is not clicked (should be down arrow)
+//     &::before {
+//       font-family: var(--ffamily-fork-awesome);
+//       margin-right: 0.5rem;
+//       content: var(--fa-arrow-down);
+//       font-weight: 900;
+//     }
+//   }
+
+//   // to the left of the label and when clicked (right arrow)
+//   input:checked + label::before {
+//     font-family: var(--ffamily-fork-awesome);
+//     margin-right: 0.5rem;
+//     content: var(--fa-arrow-right);
+//     font-weight: 900;
+//   }
+
+//   label:hover {
+//     background: var(--theme-color-accent-l);
+//     color: var(--theme-color-d);
+//   }
+
+//   .content {
+//     background: var(--white);
+//     padding: 10px 25px;
+//     outline: 1px solid var(--theme-color-accent-d-a50);
+//     margin: 0 0 1rem;
+//     border-radius: 0 0 10px 10px;
+//   }
+
+//   // This is default ... UNexpanded
+//   input:checked + label + .content {
+//     opacity: 0;
+//     height: 0;
+//     font-size: 0;
+//     transition: linear 0.5s;
+//     padding: 0 25px;
+//   }
+
+//   // not default
+//   input + label + .content {
+//     opacity: 1;
+//     font-size: var(--fs-normal);
+//     padding: 8px 25px;
+//     height: auto;
+//     min-height: auto;
+//   }
+// }
+
+// ///////////////////////////////////////////////////
+// // for the sidebars
+// // Default: expanded on desktop layouts, collasped on smaller layouts
+// // the fullpage class is for pages that do not have sidebar and p(rimary)Content right and left section
+
+// // Accordion for Sidebar on smaller layouts
+// @media ($breakpoint-md) {
+//   // Default: expanded on desktop layouts
+//   .sidebar {
+
+//     .accordion {
+//       input + label::before {
+//         font-family: var(--ffamily-fork-awesome);
+//         margin-right: 0.5rem;
+//         content: var(--fa-arrow-right);
+//         font-weight: 900;
+//       }
+
+//       input:checked + label::before {
+//         font-family: var(--ffamily-fork-awesome);
+//         margin-right: 0.5rem;
+//         content: var(--fa-arrow-down);
+//         font-weight: 900;
+//       }
+
+//       label:hover {
+//         background: var(--turquoise30);
+//       }
+
+//       .content {
+//         border-radius: 0 0 10px 10px;
+
+//         a,
+//         span {
+//           display: inline-block;
+//           margin-right: 3rem;
+//         }
+//       }
+
+//       // Expanded (not default)
+//       input + label + .content {
+//         opacity: 0;
+//         font-size: 0;
+//         padding: 8px 25px;
+//         height: auto;
+//         min-height: auto;
+//       }
+
+//       // Checked, "closed" - Default for small layouts
+//       input:checked + label + .content {
+//         opacity: 1;
+//         font-size: var(--fs-normal);
+//         transition: linear 0.5s;
+//         padding: 0 25px;
+//         height: auto;
+//       }
+//     }
+//   }
+// }
+
+
+////////////////////////////////////////////////////////////////////////////
+// new way trial below
+// when this works the code above can be removed WHEN the menu files are switched over
+
+// hide the checkbox
+input { 
+  display: none;
+}
+
+// ?? is this too global now? 
+label {
+  background-color: var(--theme-color-main);
+  color: var(--white);
+  display: block;
+  font-weight: 700;
+  padding: 1rem;
+  position: relative;
+}
+
+.accordion-content {
+  display: block;
+  padding: 10px 25px;
+  outline: 1px solid var(--theme-color-accent-d-a50);
+  margin: 0 0 1rem;
+
+  // border-radius: 0 0 10px 10px;
+}
+
+@media ($breakpoint-lg) {
   label {
-    color: var(--white);
-    background-color: var(--theme-color-main);
-    display: block;
-    padding: 8px 22px;
-    margin: 0 0 1px;
-    border-radius: 10px 10px 0 0;
-
-    // to the left of the label and it is not clicked (should be right arrow)
     &::before {
       font-family: var(--ffamily-fork-awesome);
-      margin-right: 0.5rem;
-      content: var(--fa-arrow-down);
       font-weight: 900;
+      margin-right: 0.5rem;
     }
-  }
-
-  // to the left of the label and when clicked (Down arrow)
-  input:checked + label::before {
-    font-family: var(--ffamily-fork-awesome);
-    margin-right: 0.5rem;
-    content: var(--fa-arrow-right);
-    font-weight: 900;
   }
 
   label:hover {
-    background: var(--theme-color-accent-l);
-    color: var(--theme-color-d);
+    background-color: var(--theme-color-accent-l);
   }
 
-  .content {
-    background: var(--white);
-    padding: 10px 25px;
-    outline: 1px solid var(--theme-color-accent-d-a50);
-    margin: 0 0 1rem;
-    border-radius: 0 0 10px 10px;
+  // default on small screens
+  input + .accordion-label::before {
+      content: var(--fa-arrow-right);
   }
 
-  // This is default ... UNexpanded
-  input:checked + label + .content {
-    opacity: 0;
+  // down arrow
+  input:checked + .accordion-label::before {
+      content: var(--fa-arrow-down);
+  }
+
+
+  // default unchecked: hide menu
+  input ~ .accordion-content {
     height: 0;
-    font-size: 0;
-    transition: linear 0.5s;
-    padding: 0 25px;
+    transition: 0.8s;
+    overflow: hidden;
   }
 
-  // not default
-  input + label + .content {
-    opacity: 1;
-    font-size: var(--fs-normal);
-    padding: 8px 25px;
+  // checked: show menu
+  input:checked ~ .accordion-content {
     height: auto;
-    min-height: auto;
+    transition: .8s;
   }
+
 }
 
-///////////////////////////////////////////////////
-// for the sidebars
-// Default: expanded on desktop layouts, collasped on smaller layouts
-// the fullpage class is for pages that do not have sidebar and p(rimary)Content right and left section
 
-// Accordion for Sidebar on smaller layouts
-@media ($breakpoint-md) {
-  // Default: expanded on desktop layouts
-  .sidebar {
-    .accordion {
-      input + label::before {
-        font-family: var(--ffamily-fork-awesome);
-        margin-right: 0.5rem;
-        content: var(--fa-arrow-right);
-        font-weight: 900;
-      }
 
-      input:checked + label::before {
-        font-family: var(--ffamily-fork-awesome);
-        margin-right: 0.5rem;
-        content: var(--fa-arrow-down);
-        font-weight: 900;
-      }
-
-      label:hover {
-        background: var(--turquoise30);
-      }
-
-      .content {
-        border-radius: 0 0 10px 10px;
-
-        a,
-        span {
-          display: inline-block;
-          margin-right: 3rem;
-        }
-      }
-
-      // Expanded (not default)
-      input + label + .content {
-        opacity: 0;
-        font-size: 0;
-        padding: 8px 25px;
-        height: auto;
-        min-height: auto;
-      }
-
-      // Checked, "closed" - Default for small layouts
-      input:checked + label + .content {
-        opacity: 1;
-        font-size: var(--fs-normal);
-        transition: linear 0.5s;
-        padding: 0 25px;
-        height: auto;
-      }
-    }
-  }
-}

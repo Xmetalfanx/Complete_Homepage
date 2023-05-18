@@ -1,15 +1,14 @@
 .accordion
-  // the input ID and for, have to be equal
   input#browsers(type="checkbox")
   label(for="browsers") Browser
-  .content
+  .accordion-content
     a(href="/techHQ/browsers/browserList.php") Browser List
     a(href="/techHQ/browsers/addons/browserAddons.php") Browser Addons
 
-  // the input ID and for, have to be equal
+.accordion
   input#adblocking(type="checkbox")
   label(for="adblocking") Ad/Content Blocking
-  .content
+  .accordion-content
     h5 Basics
     a(href='/techHQ/browsers/adblocking/UblockTutorial.php') Ublock Tutorial
     br/

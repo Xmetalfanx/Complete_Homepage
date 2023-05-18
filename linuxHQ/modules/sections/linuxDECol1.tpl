@@ -1,8 +1,7 @@
 <div class="accordion">
-  <!-- the input ID and for="" have to be equal-->
   <input id="desktops" type="checkbox">
-  <label for="desktops">Desktops Environments</label>
-  <div class="content">
+  <label for="desktops">Desktops Environments/Window Managers</label>
+  <div class="accordion-content">
     <a href="/linuxHQ/desktops/budgie.php">Budgie-Desktop</a>
     <a href="/linuxHQ/desktops/cinnamon.php">Cinnamon</a>
     <a href="/linuxHQ/desktops/gnome.php">Gnome-shell</a>
@@ -13,13 +12,13 @@
     <a href="/linuxHQ/desktop/LXQT.php">LXQT</a>
     <a href="/linuxHQ/desktops/XFCE.php">XFCE</a>
   </div>
+</div>
 
-  <!-- the input ID and for="" have to be equal-->
+<div class="accordion">
   <input id="othersDesktop" type="checkbox">
   <label for="othersDesktop">Others</label>
-  <div class="content">
+  <div class="accordion-content">
     <a href="/linuxHQ/newUserHQ/DesktopE.php">Desktop Environment FAQs</a>
     <a href="/linuxHQ/newUserHQ/myRecommendedDistros.php">My Recommended Distros (Opinion)</a>
   </div>
-
 </div>
