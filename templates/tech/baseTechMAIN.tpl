@@ -14,7 +14,7 @@
 			<div class="sidebar">
 				<?php include($siteRoot . '/techHQ/modules/sections/techMainCol1.tpl'); ?>
 			</div>
-			<div class="primary-content" id="output-section">
+			<div class="primary-content">
 
 			</div>
 

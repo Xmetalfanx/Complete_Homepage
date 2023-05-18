@@ -16,7 +16,7 @@
 				</div>
 
 
-				<div id="output-section" class="primary-content">
+				<div class="primary-content">
 				</div>
 			</div>
 
