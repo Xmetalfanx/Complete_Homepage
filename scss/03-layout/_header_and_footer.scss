@@ -124,8 +124,13 @@ header {
     a {
       margin: 0 1.2rem;
 
-      @media ($breakpoint-lg) {
+      i 
+      {
         display: none;
+
+        @media ($breakpoint-lg) {
+          display: block;
+        }
       }
     }
 
