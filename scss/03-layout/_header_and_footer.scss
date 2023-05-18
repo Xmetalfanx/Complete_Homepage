@@ -61,6 +61,8 @@ footer {
     width: 50%;
   }
 
+  // hides the ENTIRE footer on lower than a md layout
+  // useful now that the top menus are at the bottom for UX, at these layouts
   @media ($breakpoint-md) {
     display: none;
   }

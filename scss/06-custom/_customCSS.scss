@@ -77,16 +77,17 @@ code {
 // The IDEA was to use spans and class names below ...
 // this seems silly or un-needed ... un-needed classes or something
 .green-text {
-  color: green;
+  color: var(--green);
 }
 
 .red-text {
-  color: red;
+  color: var(--red);
 }
 
 .darkBG_svg {
   fill: var(--white);
   display: inline;
+  color: var()
 }
 
 /*** DuckDuckGo search ***/
