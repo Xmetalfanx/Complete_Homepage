@@ -14,10 +14,10 @@ function displayDEOutput(currentDEName, currentDETitle, currentDEHomepage, curre
             <div class="card__body d-none d-md-inline-block">
                 <figure>
                     <a href="${screenshotDIR}${currentDEScreenshot}" target="_blank">
-                        <img class="thumbnails--lg img-fluid" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy">
-                    
+                    <img class="thumbnail-fluid--lg" src="${screenshotDIR}${currentDEScreenshotTN}" alt="{currentDETitle} Screenshot" loading="lazy">
+
                     <figcaption>
-                        <span class="font-weight-bold">Distro:</span> 
+                        <span class="font-weight-bold">Distro:</span>
                         ${currentDESShotDistro}
                     </figcaption>
                     </a>

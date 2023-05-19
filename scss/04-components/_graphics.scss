@@ -38,34 +38,34 @@
 // For Image "Thumbnailing" in various sections
 // Example - Screenshots on Linux Distro and Desktop homepages
 
-.thumbnails {
+.thumbnail {
   padding: 2rem;
 
   &--lg {
-    @extend .thumbnails;
+    @extend .thumbnail;
 
     max-height: 450px;
   }
 
   &--sm {
-    @extend .thumbnails;
+    @extend .thumbnail;
 
     max-height: 350px;
   }
 }
 
-// it looks like i forgot to paste the code from img-fluid here
+
 .thumbnail-fluid {
   max-width: 100%;
   height: auto;
 
   &--sm {
     @extend .thumbnail-fluid;
-    @include thumbnail-sm;
+    @extend .thumbnail--sm;
   }
 
   &--lg {
     @extend .thumbnail-fluid;
-    @include thumbnail-lg;
+    @extend .thumbnail--lg;
   }
 }

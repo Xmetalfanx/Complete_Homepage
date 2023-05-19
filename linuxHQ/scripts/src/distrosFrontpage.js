@@ -23,10 +23,8 @@ function displayDistroOutput(
 
   const currentDistroSShotOutput = `
 
-        <!-- can i put css from , img-fluid into "thumbnails" css i already have? -->
         <a href="${distroSShotPath}${currentDistroScreenshot}" target="_blank">
-            <img class="d-none d-md-block thumbnails--lg img-fluid" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" loading="lazy" >
-
+          <img class="d-none d-md-block thumbnail-fluid--lg" src="${distroSShotTNPath}${currentDistroScreenshotTN}" alt="${currentDistroTitle} Screenshot" loading="lazy" >
         </a>
 
         <span class="font-weight-bold">Desktop Environment: </span>${currentDistroSSDesktop}<br/><br />
