@@ -1,14 +1,14 @@
 @use "../01-abstracts/index" as *;
 
 // hide the checkbox
-input { 
+input {
   display: none;
 }
 
-// ?? is this too global now? 
+// ?? is this too global now?
 label {
-  background-color: var(--theme-color-main);
-  color: var(--white);
+  @include dark-bg;
+
   display: block;
   font-weight: 700;
   padding: 1rem;

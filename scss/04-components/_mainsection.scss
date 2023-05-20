@@ -93,11 +93,7 @@
       width: auto;
 
       .card__header {
-        ///////////////////////////////////////////////////////////
-        // Flex
-        // display is already flex ... no need to repeat
-        align-items: center;
-        justify-content: space-between;
+        @include alignItemsJustifyContent(center, space-between)
       }
     }
 

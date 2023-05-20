@@ -44,10 +44,9 @@ body {
 }
 
 
-
+// i totally forgot what this is for
 ::selection {
-  background-color: var(--theme-color-main);
-  color: var(--theme-color-l);
+  @include dark-bg;
 }
 
 .card {
@@ -72,16 +71,16 @@ body {
   }
 
   .card__header {
-    align-items: baseline;
-    background-color: var(--theme-color-main);
+    @include dark-bg;
+    @include alignItemsJustifyContent(baseline, flex-start)
     border-color: var(--theme-color-main);
+
     border-radius: 10px 10px 0 0;
-    color: var(--theme-color-l);
-    display: flex;
-    flex-direction: row;
+
+    @include flex(row);
+
     font-weight: bold;
     font-size: var(--h4);
-    justify-content: flex-start;
     padding: 1rem;
 
     // FOR ALL child divs of card__header

@@ -66,12 +66,6 @@
   width: 1px;
 }
 
-code {
-  @include dark-bg;
-
-  display: inline-block;
-}
-
 // I THINK the only real point to this below is the Ublock O. browser addon pages ...
 // I need to figure out a better way to do this
 // The IDEA was to use spans and class names below ...
@@ -92,12 +86,11 @@ code {
 
 /*** DuckDuckGo search ***/
 .searchbar-container {
-  align-items: center;
+  @include alignItemsJustifyContent(center, center);
+
   display: flex;
 
   @include span2;
-
-  justify-content: center;
 
   * {
     height: 40px;
@@ -126,15 +119,17 @@ figcaption,
   text-align: center;
 }
 
+
+// HOLD ON ... rename this ... i dont want to confuse the class .header and header (as in header and footer)
 // my idea is to make this like a card__header but not requiring the item to be a part of a .card syntax
 .header {
-  color: var(--white);
-  background-color: var(--theme-color-main);
+  @include dark-bg;
+
   border-radius: 10px 10px 0 0;
   display: block;
   font-weight: 700;
-  margin: 1rem; 
-  padding: 1rem; 
+  margin: 1rem;
+  padding: 1rem;
 }
 
 // for rss feeds and getting rid of duplicate "titles"

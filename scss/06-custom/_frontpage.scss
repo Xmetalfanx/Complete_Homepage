@@ -17,13 +17,13 @@
 
 .git-section,
 .site-section {
-  display: flex;
+  @include flex(row);
+
   justify-content: space-around;
-  flex-direction: row;
   gap: 2rem;
 
   @media ($breakpoint-md) {
-    flex-direction: column;
+    @include flex(column);
   }
 
   p {

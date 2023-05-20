@@ -11,6 +11,18 @@
   box-shadow: 0 0.5rem 1rem var(--theme-color-accent-d-a50);
 }
 
+
 @mixin span2 {
   grid-column: span 2;
+}
+
+@mixin flex($flex-direction) {
+  display: flex;
+  flex-direction: $flex-direction;
+}
+
+
+@mixin alignItemsJustifyContent($align-items, $justify-content) {
+  align-items: $align-items;
+  justify-content: $justify-content;
 }

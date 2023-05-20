@@ -11,13 +11,11 @@ footer {
   font-family: var(--ffamily-helvetica);
   font-weight: 900;
 
-  /* Aligns horizontally .. the left item all the way to the left, and the right div item
+  // AC - aligns content top vs bottom on the Y axis
+
+  /* JC - Aligns horizontally .. the left item all the way to the left, and the right div item
   (in a two div layout inside) all the way to the right */
-
-  justify-content: space-between;
-
-  // aligns content top vs bottom on the Y axis
-  align-items: center;
+  @include alignItemsJustifyContent(center, space-between)
 
   h1,
   h2,
@@ -28,8 +26,7 @@ footer {
   }
 
   a {
-    color: var(--theme-color-l);
-    background-color: var(--theme-color-main);
+    @include dark-bg;
 
     :hover,
     :focus {
@@ -91,7 +88,7 @@ footer {
       display: none;
     }
   }
-    
+
 }
 
 
@@ -126,7 +123,7 @@ header {
     a {
       margin: 0 1.2rem;
 
-      i 
+      i
       {
         display: none;
 
@@ -147,7 +144,7 @@ header {
     }
   }
 
-  
+
   @media ($breakpoint-lg) {
     /* The "responsive" class is added to the topnav with JavaScript
     when the user clicks on the icon. This class makes the topnav
@@ -188,8 +185,8 @@ header {
     .section-header {
       font-size: 1.40rem;
 
-      // only hides graphic 
-      i { 
+      // only hides graphic
+      i {
         display: none;
       }
     }
@@ -197,7 +194,7 @@ header {
   }
 
   @media ($breakpoint-md) {
-    // hides both graphic and text 
+    // hides both graphic and text
     .section-header {
       display: none;
     }

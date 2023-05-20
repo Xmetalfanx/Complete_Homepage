@@ -52,3 +52,9 @@ a {
     color: var(--theme-color-accent-l-a75);
   }
 }
+
+code {
+  @include dark-bg;
+
+  display: inline-block;
+}

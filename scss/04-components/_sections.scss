@@ -1,7 +1,7 @@
 @use "../01-abstracts/index" as *;
 
 
-// May 2023 note: is this hyper specific section needed? really? 
+// May 2023 note: is this hyper specific section needed? really?
 
 
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
@@ -49,8 +49,9 @@
   }
 
   .card__body {
-    display: flex;
-    flex-flow: row wrap;
+    @include flex(row);
+
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     * {
