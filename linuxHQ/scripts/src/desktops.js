@@ -17,23 +17,19 @@ function displayDEOutput(
   currentDEReqHDD,
   currentDEReqProc,
   currentDEArchVersion,
-  currentDEF33Version,
-  currentDEF34Version,
-  currentDEF35Version,
-  currentDEFRWVersion,
-  currentDESuseL152Version,
+  currentDEF37Version,
+  currentDEF38Version,
   currentDESuseL153Version,
   currentDESuseTWVersion,
   currentDESolusVersion,
-  currentDE1804LTSVer,
-  currentDE2004LTSVer,
-  currentDE2110Ver,
-  currentDEMint19Version,
+  currentDEUbuntu2004LTSVer,
+  currentDEUbuntu2204LTSVer,
+  currentDEUbuntu2304Ver,
   currentDEMint20Version,
   currentDEarchInstall,
   currentDEfedoraInstall,
   currentDEopensuseInstall,
-  currentDEopensuseLeap15Install,
+  currentDEopensuseLeap153Install,
   currentDEopensuseTWInstall,
   currentDEubuntuInstall,
   currentDEmintInstall
@@ -56,23 +52,17 @@ function displayDEOutput(
               <div class="col">
                   <span class="distroBaseTitle">Fedora</span>
                   <br/>
-                  <span class="versionTitle">33: </span>
-                  <span class="version">${currentDEF33Version}</span><br/>
-                  <span class="versionTitle">34: </span>
-                  <span class="version">${currentDEF34Version}</span><br/>
-                  <span class="versionTitle">35: </span>
-                  <span class="version">${currentDEF35Version}</span><br/>
-                  <span class="versionTitle">Rawhide: </span>
-                  <span class="version"> ${currentDEFRWVersion}</span>
+                  <span class="versionTitle">37: </span>
+                  <span class="version">${currentDEF37Version}</span><br/>
+                  <span class="versionTitle">38: </span>
+                  <span class="version">${currentDEF38Version}</span><br/>
+
+
               </div>
 
               <div class="col">
-                  <span class="distroBaseTitle">openSUSE</span>
-                  <br/>
-                  <span class="versionTitle">15.2: </span>
-                  <span class="version"> ${currentDESuseL152Version}</span>
-                  <br/>
-                  <span class="versionTitle">15.3: </span>
+                  <span class="distroBaseTitle">openSUSE</span><br />
+                  <span class="versionTitle">Leap 15.3: </span>
                   <span class="version"> ${currentDESuseL153Version}</span>
                   <br/>
                   <span class="versionTitle">Tumbleweed: </span>
@@ -88,22 +78,22 @@ function displayDEOutput(
 
               <div class="col">
                   <div class="distroBaseTitle">Ubuntu </div>
-                  <span class="versionTitle">18.04 Bionic LTS: </span>
-                  <span class="version">${currentDE1804LTSVer}</span>
-                  <br />
                   <span class="versionTitle">20.04 Focal LTS: </span>
-                  <span class="version">${currentDE2004LTSVer}</span>
+                  <span class="version">${currentDEUbuntu2004LTSVer}</span>
                   <br />
-                  <span class="versionTitle">21.10 Impish: </span>
-                  <span class="version">${currentDE2110Ver}</span>
+                  <span class="versionTitle">22.04 Jammy LTS: </span>
+                  <span class="version">${currentDEUbuntu2204LTSVer}</span>
+                  <br />
+                  <span class="versionTitle">23.04 Lunar: </span>
+                  <span class="version">${currentDEUbuntu2304Ver}</span>
               </div>
 
               <div class="col">
                   <div class="distroBaseTitle">Linux Mint </div>
-                  <span class="versionTitle">19: </span>
-                  <span class="version">${currentDEMint19Version}</span>
-                  <br />
                   <span class="versionTitle">20: </span>
+                  <span class="version">${currentDEMint20Version}</span>
+                  <br />
+                  <span class="versionTitle">21: </span>
                   <span class="version">${currentDEMint20Version}</span>
               </div>
             </div>
@@ -250,7 +240,7 @@ function displayDEOutput(
 // Where is "data" coming from?
 function getDesktopData(data, $localDEName) {
   $(document).ready(function () {
-    jsonURL = '/linuxHQ/json/desktops.json';
+    jsonURL = '/linuxHQ/json/desktops-min.json';
 
     // Get JSON Data
     $.getJSON(jsonURL, function (data) {
@@ -301,13 +291,10 @@ function getDesktopData(data, $localDEName) {
           var currentDEArchVersion = versionJSON.arch;
 
           // Fedora
-          var currentDEF33Version = versionJSON.fedora.f33;
-          var currentDEF34Version = versionJSON.fedora.f34;
-          var currentDEF35Version = versionJSON.fedora.f35;
-          var currentDEFRWVersion = versionJSON.fedora.rawhide;
+          var currentDEF37Version = versionJSON.fedora.f37;
+          var currentDEF38Version = versionJSON.fedora.f38;
 
           // OpenSuse
-          var currentDESuseL152Version = versionJSON.opensuse.leap152;
           var currentDESuseL153Version = versionJSON.opensuse.leap153;
           var currentDESuseTWVersion = versionJSON.opensuse.tumbleweed;
 
@@ -317,13 +304,15 @@ function getDesktopData(data, $localDEName) {
           var ubuntuVerJSON = value[subFrameworks].versions.ubuntu;
 
           // Ubuntu LTS
-          var currentDE1804LTSVer = ubuntuVerJSON.bionic;
-          var currentDE2004LTSVer = ubuntuVerJSON.focal;
-          var currentDE2110Ver = ubuntuVerJSON.impish;
+          var currentDEUbuntu2004LTSVer = ubuntuVerJSON.focal;
+          var currentDEUbuntu2204LTSVer = ubuntuVerJSON.jammy;
+
+          // Ubuntu non-LTS
+          var currentDEUbuntu2304Ver = ubuntuVerJSON.lunar;
 
           // Linux Mint
-          var currentDEMint19Version = ubuntuVerJSON.mint.mint19;
           var currentDEMint20Version = ubuntuVerJSON.mint.mint20;
+          var currentDEMint21Version = ubuntuVerJSON.mint.mint21;
 
           // End Version vars
           ///////////////////////////////////////////
@@ -361,19 +350,16 @@ function getDesktopData(data, $localDEName) {
               currentDEReqHDD,
               currentDEReqProc,
               currentDEArchVersion,
-              currentDEF33Version,
-              currentDEF34Version,
-              currentDEF35Version,
-              currentDEFRWVersion,
-              currentDESuseL152Version,
+              currentDEF37Version,
+              currentDEF38Version,
               currentDESuseL153Version,
               currentDESuseTWVersion,
               currentDESolusVersion,
-              currentDE1804LTSVer,
-              currentDE2004LTSVer,
-              currentDE2110Ver,
-              currentDEMint19Version,
+              currentDEUbuntu2004LTSVer,
+              currentDEUbuntu2204LTSVer,
+              currentDEUbuntu2304Ver,
               currentDEMint20Version,
+              currentDEMint21Version,
               currentDEarchInstall,
               currentDEfedoraInstall,
               currentDEopensuseInstall,

@@ -59,7 +59,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix:scss": "stylelint --fix 'scss/**/*.{css,scss}' ",
-    "fix:rawcss": "Pstylelint --fix 'css/styling-raw.css' ",
+    "fix:rawcss": "stylelint --fix 'css/styling-raw.css' ",
     "fix:postcss": "stylelint --fix 'css/styling-postcss.css' ",
     "compile:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css",
     "watch:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css --watch",
