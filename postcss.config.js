@@ -17,7 +17,9 @@ module.exports = {
       "fix": true
     }),
     cssnano({
-      preset: 'default',
+      preset: ['default', {
+        colormin: false,
+      }],      
     })
   ]
 }

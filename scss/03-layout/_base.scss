@@ -72,9 +72,9 @@ body {
 
   .card__header {
     @include dark-bg;
-    @include alignItemsJustifyContent(baseline, flex-start)
-    border-color: var(--theme-color-main);
+    @include align-items-justify-content(baseline, flex-start);
 
+    border-color: var(--theme-color-main);
     border-radius: 10px 10px 0 0;
 
     @include flex(row);

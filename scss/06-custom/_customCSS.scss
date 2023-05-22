@@ -86,7 +86,7 @@
 
 /*** DuckDuckGo search ***/
 .searchbar-container {
-  @include alignItemsJustifyContent(center, center);
+  @include align-items-justify-content(center, center);
 
   display: flex;
 

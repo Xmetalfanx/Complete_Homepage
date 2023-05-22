@@ -54,7 +54,7 @@ a {
 }
 
 code {
-  @include dark-bg;
-
+  background-color: var(--theme-color-main);
+  color: var(--theme-color-l);
   display: inline-block;
 }

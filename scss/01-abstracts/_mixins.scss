@@ -1,6 +1,5 @@
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
-// is this better as (? a function)
 @mixin dark-bg {
   color: var(--theme-color-l);
   background-color: var(--theme-color-main);
@@ -11,7 +10,6 @@
   box-shadow: 0 0.5rem 1rem var(--theme-color-accent-d-a50);
 }
 
-
 @mixin span2 {
   grid-column: span 2;
 }
@@ -21,8 +19,7 @@
   flex-direction: $flex-direction;
 }
 
-
-@mixin alignItemsJustifyContent($align-items, $justify-content) {
+@mixin align-items-justify-content($align-items, $justify-content) {
   align-items: $align-items;
   justify-content: $justify-content;
 }

@@ -15,7 +15,7 @@ footer {
 
   /* JC - Aligns horizontally .. the left item all the way to the left, and the right div item
   (in a two div layout inside) all the way to the right */
-  @include alignItemsJustifyContent(center, space-between)
+  @include align-items-justify-content(center, space-between);
 
   h1,
   h2,

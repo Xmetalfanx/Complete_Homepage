@@ -81,6 +81,20 @@
       padding: 0;
     }
 
+    @media ($breakpoint-lg) {
+      .card {
+        margin: 0 none; 
+
+        // why is this here? ...
+        // could i make this more generic andremove this? (move it to the higest level"card__body"
+        .card__body {
+          a {
+            display: inline-block;
+          }        
+        }
+      }      
+    }
+
   }
 
   // the main sections of each side of the site
@@ -93,7 +107,7 @@
       width: auto;
 
       .card__header {
-        @include alignItemsJustifyContent(center, space-between)
+        @include align-items-justify-content(center, space-between)
       }
     }
 
@@ -103,27 +117,13 @@
       // margin: 1rem auto;
       max-width: 72ch;
     }
+
+    @media ($breakpoint-lg) {
+        margin: 0 1rem;
+    }
   }
 
   @media ($breakpoint-lg) {
-    .sidebar {
-      .card {
-        margin: 0 none;
-
-        // why is this here? ...
-        // could i make this more generic andremove this? (move it to the higest level"card__body"
-        .card__body {
-          a {
-            display: inline-block;
-          }
-        }
-      }
-    }
-
-    .primary-content {
-      margin: 0 1rem;
-    }
-
     &--left-wide,
     &--right-wide {
       // rows / columns
