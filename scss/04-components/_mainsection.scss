@@ -7,24 +7,24 @@
   display: grid;
   gap: 1.5rem;
 
-  // for the grid above this
-  grid-area: main-section;
-  padding: 1.5rem;
-
-  // text color
-  color: var(--theme-color-main);
+  // color and font setup 
+  color: var(--theme-color-d);
   font-family: var(--ffamily-roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
-  line-height: 1.6;
 
-  // is this REALLY needed?
+  // for the grid above this
+  grid-area: main-section;
+  line-height: 1.6;
+  padding: 1.5rem;
+
+  // is this REALLY needed?  I have h stuff in typography.scss 
   h1,
   h2,
   h3,
   h4,
   h5 {
-    color: var(--themeColor3);
+    // color: var(--themeColor3);
 
     a {
       padding: 0.25rem;

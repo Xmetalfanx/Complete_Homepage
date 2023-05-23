@@ -61,13 +61,15 @@ $colortheme1: (
   // hsl(35, 60%, 96%)
   "theme-color-l":  "35deg 60% 96%",
   // hsl(181, 100%, 20%)
-  "theme-color-accent-l": "181deg 100% 20%",
+  // hsl(25, 89%, 25%)
+  // hsl(25, 89%, 60%)
+  "theme-color-accent-l": "25deg 89% 60%",
   // HSL(0, 0%, 45%)
   "theme-color-accent-d": "var(--grey-l15)",
-  // hsl(206, 55%, 11%)
-  "theme-color-main": "206deg 55% 11%",
+  // hsl(215, 48%, 18%)
+  // hsl(217, 100%, 8.6%)
+  "theme-color-main": "216deg 100% 9%",
   // not sure what this one directly below WAS for
-  // hsl(25, 89%, 25%)
   // hsl(0, 0%, 20%)
   "theme-color-d": "0deg 0% 20%"
 );
