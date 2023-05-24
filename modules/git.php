@@ -4,11 +4,11 @@
       <div class="card__header">Linux Setup</div>
       <div class="card__body">
         <div class="git-icons">
-          <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener" >
+          <a href="https://github.com/Xmetalfanx/linuxSetup" target="_blank" rel="noopener" aria-label="Link to Xmetal's Github page for LinuxSetup scripts">
             <i class="fa fa-3x fa-github" aria-hidden="true"></i>
           </a>
 
-          <a href="https://gitlab.com/Xmetal/linuxSetup" target="_blank" rel="noopener">
+          <a href="https://gitlab.com/Xmetal/linuxSetup" target="_blank" rel="noopener" aria-label="Link to Xmetal's Gitlab page for LinuxSetup scripts">
             <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
           </a>
 
@@ -29,21 +29,14 @@
     <div class="card__header">Linux Theming</div>
       <div class="card__body">
         <div class="git-icons">
-          <a
-              href="https://github.com/Xmetalfanx/linuxThemes"
-              target="_blank"
-              rel="noopener"
-            >
-            <i class="fa fa-3x fa-github" aria-hidden="true"></i>
-
+          <a href="https://github.com/Xmetalfanx/linuxThemes" target="_blank"
+            rel="noopener" aria-label="Link to Xmetal's Github page for Linux Theming scripts">
+              <i class="fa fa-3x fa-github" aria-hidden="true"></i>
             </a>
 
-            <a
-              href="https://gitlab.com/Xmetal/linuxThemes"
-              target="_blank"
-              rel="noopener"
-            >
-              <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
+            <a href="https://gitlab.com/Xmetal/linuxThemes"
+              target="_blank" rel="noopener" aria-label="Link to Xmetal's Gitlab page for Linux Theming scripts" >
+                <i class="fa fa-3x fa-gitlab" aria-hidden="true"></i>
             </a>
           </div>
           <p>
