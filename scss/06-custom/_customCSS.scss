@@ -136,3 +136,52 @@ figcaption,
 .feed-title {
   display: none;
 }
+
+.youtube_playlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  justify-content: space-evenly;
+
+}
+
+.youtuber_list {
+  margin: 0;
+
+  .header { margin: 0; }
+
+  // the actual list of Channels
+  .list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    .card {
+      @include box-shadow;
+      @include default-border;
+
+      margin: 1rem; 
+      width: 20%;
+
+      .card__body {
+        text-align: center;
+        
+        img { 
+          @include default-border-radius;
+
+          margin: .5rem auto; 
+          max-width: 150px;
+          height: 40%;
+          
+        }
+      }
+
+      }
+  }
+
+
+  @media ($breakpoint-md) {
+    display: none;
+    
+  }
+}

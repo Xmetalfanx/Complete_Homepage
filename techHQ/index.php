@@ -65,14 +65,14 @@
       <figure>
         <a href="https://linuxjourney.com/" target="_blank">
           <img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png"
-          alt="Linux Journey website graphic" />
+          alt="Graphic link to Linux Journey website" />
           <figcaption>Linux Journey</figcaption>
         </a>
       </figure>
 
       <figure>
         <a href="http://www.explainshell.com" target="_blank">
-          <img src="../graphics/explainshell.png" alt="Explain Shell graphic" class="d-none d-md-block img-fluid" />
+          <img src="../graphics/explainshell.png" alt="graphic link to Explain Shell.com website" class="d-none d-md-block img-fluid" />
           <figcaption>ExplainShell.com</figcaption>
         </a>
       </figure>
