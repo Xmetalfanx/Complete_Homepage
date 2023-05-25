@@ -60,18 +60,18 @@ $dec-theme-colors: (
 $colortheme1: (
   // hsl(35, 60%, 96%)
   "theme-color-l":  "35deg 60% 96%",
+  // hsl(0, 0%, 20%)
+  "theme-color-d": "0deg 0% 20%",
+  // hsl(25, 69%, 40%)
+  "theme-color-accent-l": "25deg 69% 40%",
+  // HSL(0, 0%, 20%)
+  // "theme-color-accent-d": "0deg, 0% 20",
+  // hsl(217, 100%, 9%)
+  "theme-color-main": "217deg 100% 9%",
+  // random colors i may want to use again
+  // hsl(215, 48%, 18%)
   // hsl(181, 100%, 20%)
   // hsl(25, 89%, 25%)
-  // hsl(25, 89%, 60%)
-  "theme-color-accent-l": "25deg 89% 60%",
-  // HSL(0, 0%, 45%)
-  "theme-color-accent-d": "var(--grey-l15)",
-  // hsl(215, 48%, 18%)
-  // hsl(217, 100%, 8.6%)
-  "theme-color-main": "216deg 100% 9%",
-  // not sure what this one directly below WAS for
-  // hsl(0, 0%, 20%)
-  "theme-color-d": "0deg 0% 20%"
 );
 
 :root {

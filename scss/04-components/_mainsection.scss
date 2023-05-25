@@ -62,6 +62,7 @@
   .sidebar {
     // not sure about the placement here
     a {
+      color: var(--theme-color-d);
       display: block;
 
       // idea for better UX
@@ -107,7 +108,10 @@
       width: auto;
 
       .card__header {
-        @include align-items-justify-content(center, space-between)
+        @include align-items-justify-content(center, space-between);
+
+        background-color: unset;
+        color: var(--theme-color-accent-l);
       }
     }
 

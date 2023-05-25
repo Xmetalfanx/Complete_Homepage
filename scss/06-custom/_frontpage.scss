@@ -62,7 +62,7 @@
   }
 
   .git-icons {
-    color: var(--theme-color-accent-d);
+    color: var(--theme-color-d);
     display: flex;
     justify-content: space-around;
     margin-bottom: 0.5rem;
@@ -113,7 +113,7 @@
   .section-title {
     display: block;
     margin: 1rem 0;
-    color: var(--theme-color-accent-d);
+    color: var(--theme-color-d);
 
     a:hover,
     a:focus {

@@ -30,8 +30,8 @@ footer {
 
     :hover,
     :focus {
-      color: var(--theme-color-accent-d);
-      outline: 1px dotted var(--theme-color-accent-d);
+      color: var(--theme-color-d);
+      outline: 1px dotted var(--theme-color-d);
     }
   }
 
@@ -93,10 +93,10 @@ footer {
 
 
 header {
-  box-shadow: 2px 2px 5px var(--theme-color-accent-l-a75);
+  box-shadow: 2px 2px 5px var(--theme-color-main-a50);
   padding: 1.75rem;
 
-  // text-shadow: 2px 5px var(--theme-color-accent-d-a75);
+  // text-shadow: 2px 5px var(--theme-color-d-a75);
   grid-area: header;
 
   .section-header {

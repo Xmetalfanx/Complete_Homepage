@@ -6,7 +6,7 @@
 }
 
 // because i am always forget the default values i use
-@mixin boxshadow {
+@mixin box-shadow {
   box-shadow: 0 0.5rem 1rem var(--theme-color-accent-d-a50);
 }
 
@@ -22,4 +22,12 @@
 @mixin align-items-justify-content($align-items, $justify-content) {
   align-items: $align-items;
   justify-content: $justify-content;
+}
+
+@mixin default-border {
+  border: 1px solid var(--theme-color-main);
+}
+
+@mixin default-border-radius {
+  border-radius: 20%;
 }

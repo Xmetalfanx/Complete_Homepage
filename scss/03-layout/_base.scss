@@ -52,11 +52,11 @@ body {
 .card {
   border-radius: 10px;
 
-  @include boxshadow;
+  // @include box-shadow;
 
   margin: 0 auto 1.2rem;
   min-width: 8rem;
-  outline: 1px solid var(--theme-color-accent-l-a50);
+  outline: 1px solid var(--theme-color-main-a50);
 
   &--bordered {
     @extend .card;
