@@ -55,6 +55,7 @@ label {
     height: 0;
     transition: 0.8s;
     overflow: hidden;
+    padding: 0;
   }
 
   // checked: show menu
@@ -63,7 +64,9 @@ label {
     transition: .8s;
   }
 
+
+  .accordion-content {
+    padding: 1rem 0;
+  }
+
 }
-
-
-

@@ -41,8 +41,9 @@
     justify-content: center;
 
     .carousel__indicator {
+      @include border-radius(50%);
+
       border: 0;
-      border-radius: 50%;
       height: 15px;
       width: 15px;
       background-color: var(--themeColor3);

@@ -50,80 +50,9 @@ body {
 }
 
 .card {
-  border-radius: 10px;
-
-  // @include box-shadow;
-
-  margin: 0 auto 1.2rem;
-  min-width: 8rem;
-  outline: 1px solid var(--theme-color-main-a50);
-
-  &--bordered {
-    @extend .card;
-
-    border: 1px solid var(--theme-color-main);
-  }
-
-  .card__body,
-  .card__text {
-    padding: 1rem;
-    color: var(--theme-color-d);
-  }
-
+  // min-width: 8rem;
+ 
   .card__header {
-    @include dark-bg;
     @include align-items-justify-content(baseline, flex-start);
-
-    border-color: var(--theme-color-main);
-    border-radius: 10px 10px 0 0;
-
-    @include flex(row);
-
-    font-weight: bold;
-    font-size: var(--h4);
-    padding: 1rem;
-
-    // FOR ALL child divs of card__header
-    div {
-      align-items: center;
-      display: inherit;
-    }
-
-    // for a div .. does this make sense?
-    // for a div but only for the first div child
-    div:first-child {
-      justify-content: flex-start;
-    }
-
-    div:nth-of-type(2) {
-      justify-content: flex-end;
-    }
-
-    // i for fork awesome graphics
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    i {
-      color: var(--theme-color-l);
-    }
-
-    a:link,
-    a:visited {
-      background-color: inherit;
-      color: inherit;
-
-      // maybe use outline here?
-    }
-
-    // Oct 2021: what is this for?
-    &--wide {
-      @extend .card__header;
-
-      // for flexbox
-      justify-content: space-between;
-    }
   }
 }
-

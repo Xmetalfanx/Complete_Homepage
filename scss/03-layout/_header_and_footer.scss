@@ -4,8 +4,7 @@
 
 header,
 footer {
-  display: flex;
-
+  @include flex;
   @include dark-bg;
 
   font-family: var(--ffamily-helvetica);
@@ -113,8 +112,8 @@ header {
 
   // the menu bar to the top right
   .topnav {
-    display: flex;
-    flex-direction: row;
+    @include flex;
+
     justify-self: end;
     font-weight: 500;
     font-size: var(--h3);
@@ -123,20 +122,23 @@ header {
     a {
       margin: 0 1.2rem;
 
-      i
-      {
-        display: none;
+      // for the graphic next to the section name, I think 
+      // i
+      // {
+      //   display: block;
 
-        @media ($breakpoint-lg) {
-          display: block;
-        }
-      }
+      //   @media ($breakpoint-lg) {
+      //     display: none;
+      //   }
+      // }
     }
 
     // for hamburger menu that should only display on mobile
     // this is on the link ("a" tag) that wraps around the fork awesome code
     .icon {
-      @media ($breakpoint-lg) {
+      display: none;
+
+      @media ($breakpoint-md) {
         float: right;
         display: block;
         padding: 0;
@@ -150,6 +152,7 @@ header {
     when the user clicks on the icon. This class makes the topnav
     look good on small screens (display the links vertically instead
     of horizontally) */
+    
     .topnav.responsive {
       position: relative;
       width: 100%;
@@ -201,6 +204,8 @@ header {
 
     .topnav {
       a {
+        display: none;
+
         .icon {
         position: absolute;
         right: 0;
@@ -208,13 +213,11 @@ header {
       }
     }
 
-
-
     .topnav.responsive {
+      @include flex(column);
+      
       position: relative;
       z-index: 10;
-      display: flex;
-      flex-direction: column;
       translate: 0 -105%;
 
       a {
