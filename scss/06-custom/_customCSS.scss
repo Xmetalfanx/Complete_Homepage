@@ -38,6 +38,10 @@
     padding: 0 !important;
     margin: .5rem 0 !important;
   }
+
+  @media ($breakpoint-lg) {
+    padding: 1rem;
+  }
 }
 
 // is this one JUST for GAOTD?
@@ -185,4 +189,26 @@ figcaption,
     display: none;
     
   }
+}
+
+// for custom hamburger (moving away from fork awesome) menu 
+// why is this here? ... should it be in header_and_footer.scss? 
+.hamburger-menu {
+  display: none;
+ 
+  .bar {
+      background-color: var(--white); 
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 3px auto;
+      transition: all 0.8s ease-in-out;
+    }
+
+  @media ($breakpoint-md) {
+    @include flex(column);
+
+    margin: 0 auto;
+  }
+
 }

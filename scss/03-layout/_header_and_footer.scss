@@ -98,19 +98,30 @@ header {
   // text-shadow: 2px 5px var(--theme-color-d-a75);
   grid-area: header;
 
+  // Xmetal Homepage, LinuxHQ or TechHQ title section 
   .section-header {
-    font-size: 1.75rem;
+    font-size: var(--h2);
 
     i {
         scale: 2.5;
+        margin-right: 2.5rem;
     }
+
+    @media ($breakpoint-lg) {
+      // only hides graphic
+      i {
+        display: none;
+      }
+    }
+
+    @media ($breakpoint-md) {
+      // hides both graphic and text
+      display: none;
+    }  
   }
 
-  .fa {
-    padding: 0.25rem;
-  }
+  // the menu bar to the top right - should be hidden unless on small screens
 
-  // the menu bar to the top right
   .topnav {
     @include flex;
 
@@ -121,16 +132,6 @@ header {
 
     a {
       margin: 0 1.2rem;
-
-      // for the graphic next to the section name, I think 
-      // i
-      // {
-      //   display: block;
-
-      //   @media ($breakpoint-lg) {
-      //     display: none;
-      //   }
-      // }
     }
 
     // for hamburger menu that should only display on mobile
@@ -139,100 +140,81 @@ header {
       display: none;
 
       @media ($breakpoint-md) {
-        float: right;
         display: block;
-        padding: 0;
-      }
-    }
-  }
+        width: 100%;
 
-
-  @media ($breakpoint-lg) {
-    /* The "responsive" class is added to the topnav with JavaScript
-    when the user clicks on the icon. This class makes the topnav
-    look good on small screens (display the links vertically instead
-    of horizontally) */
-    
-    .topnav.responsive {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-
-      // left: 0;
-      // top: 0;
-      background: var(--theme-color-main);
-
-      // display: grid;
-      text-align: center;
-
-      // justify-content: center;
-      transition: 400ms;
-
-
-      a {
-        display: block;
-        text-align: left;
-        align-self: center;
-      }
-
-      .icon {
-        align-self: end;
-      }
-
-      .content {
-        display: none;
+        //padding: 0;
       }
     }
 
-    .section-header {
-      font-size: 1.40rem;
-
-      // only hides graphic
-      i {
-        display: none;
-      }
-    }
-
-  }
-
-  @media ($breakpoint-md) {
-    // hides both graphic and text
-    .section-header {
-      display: none;
-    }
-
-    .topnav {
-      a {
-        display: none;
-
-        .icon {
-        position: absolute;
-        right: 0;
-        }
-      }
-    }
-
-    .topnav.responsive {
-      @include flex(column);
+    @media ($breakpoint-lg) {
+      /* The "responsive" class is added to the topnav with JavaScript
+      when the user clicks on the icon. This class makes the topnav
+      look good on small screens (display the links vertically instead
+      of horizontally) */
       
-      position: relative;
-      z-index: 10;
-      translate: 0 -105%;
+      &.responsive {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background: var(--theme-color-main);
+        text-align: center;
 
-      a {
-        line-height: 4rem;
-        margin: 0 2rem;
+        // justify-content: center;
+        transition: 400ms
+
+        a {
+          display: block;
+          align-self: center;
+        }
 
         .icon {
-          bottom: 0;
-          display: inherit;
-          outline: inherit;
-          position: absolute;
+          align-self: center;
+
+          // padding-top: 1.2rem;
+          translate: 0 -0.6rem;
+        }
+      }
+    }
+
+    @media ($breakpoint-md) {
+      width: 100%;
+
+      a {
+        display: none;
+
+        .icon {
+          justify-content: center;
+          display: flex
         }
       }
 
-    }
+      &.responsive {
+        @include flex(column);
+        
+        position: relative;
+        z-index: 10;
+        translate: 0 -18rem;
+  
+        .hamburger-menu {
+          translate: 0 2.6rem;
+        }
 
+        a {
+          line-height: 4rem;
+          margin: 0 2rem;
+          display: block;
+  
+          .icon {
+            bottom: 0;
+            display: inherit;
+            outline: inherit;
+            position: absolute;
+          }
+        }
+  
+      }
+    }
   }
 }

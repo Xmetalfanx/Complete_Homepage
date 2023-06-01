@@ -21,7 +21,7 @@ userPrompt
 
 echo "Fixing Raw CSS file, BEFORE postCSS"
 npm run fix:rawcss
-userPrompt
+#userPrompt
 
 clear && echo "Running PostCSS on RAW CSS file"
 npm run postcss:all
@@ -30,7 +30,7 @@ npm run postcss:all
 echo "COMPLETED"
 userPrompt
 
-clear
-echo "Performing Cleanup"
-rm css/styling-raw.css*
- echo "Cleanup complete"
+# clear
+# echo "Performing Cleanup"
+# rm css/styling-raw.css*
+# echo "Cleanup complete"
