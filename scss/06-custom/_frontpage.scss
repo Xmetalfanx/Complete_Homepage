@@ -2,16 +2,18 @@
 
 // Things specific to the landing page of the site
 
-.frontpage-title {
+.frontpage-header-title {
   margin: 0.5rem auto;
   font-weight: 900;
   font-size: var(--h2);
 }
 
 .frontpage-section {
-  // for the divider in the middle of the page
+  // for the divider in the middle of the page (for now)
   .frontpage-title {
-    color: var(--theme-color-d);
+    font-size: var(--h3);
+    font-weight: 600;
+    margin: 1rem .5rem;
   }
 }
 
@@ -19,6 +21,7 @@
 .site-section {
   @include flex(row);
 
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
 
@@ -73,32 +76,14 @@
   }
 }
 
+// this is above the git section on the main page ... 
+// site section and then git section under it is a part of "frontpage section" 
 .site-section {
   > * {
     flex: 1 1 33%;
     max-width: 72ch;
 
     // min-width: 350px;
-  }
-
-  figure {
-    @media ($breakpoint-lg) {
-      display: none;
-    }
-
-    > * {
-      display: flex;
-      place-items: center;
-    }
-
-    > img {
-      padding-bottom: 0.1rem;
-    }
-
-    > figcaption {
-      font-size: var(--fs-small);
-      padding-left: 2rem;
-    }
   }
 
   @media ($breakpoint-lg) {
@@ -110,15 +95,53 @@
   // why is this here? ... why change the font-size ? why not use the h3 font size var?
   // note that var is NOT 1.7rem
 
-  .section-title {
-    display: block;
-    margin: 1rem 0;
-    color: var(--theme-color-d);
 
-    a:hover,
-    a:focus {
-      color: var(--theme-color-accent-l);
+  section {
+    .section-title {
+      display: block;
+      margin: 1rem 0;
+      
+        a {
+          color: var(--theme-color-d);
+          font-size: var(--h3);
+          font-weight: 600;
+        }
+
+        a:hover,
+        a:focus {
+          color: var(--theme-color-accent-l);
+        }
     }
+
+    .section-body {
+      > * {
+        margin: 1rem 0;
+      }
+    }
+
+    figure {
+      display: inline-block;
+
+      @media ($breakpoint-md) {
+        display: none;
+      }
+  
+      > * {
+        display: flex;
+        place-items: center;
+      }
+  
+      > img {
+        padding-bottom: 0.1rem;
+      }
+  
+      > figcaption {
+        font-size: var(--fs-small);
+        padding-left: 2rem;
+      }
+    }
+ 
+
   }
 
   img {

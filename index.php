@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <div class="frontpage-title">Xmetal's Homepage</div>
+      <div class="frontpage-header-title">Xmetal's Homepage</div>
     </header>
 
 
