@@ -30,7 +30,7 @@ npm run postcss:all
 echo "COMPLETED"
 userPrompt
 
-# clear
-# echo "Performing Cleanup"
-# rm css/styling-raw.css*
-# echo "Cleanup complete"
+clear
+echo "Performing Cleanup"
+rm css/styling-raw.css*
+echo "Cleanup complete"
