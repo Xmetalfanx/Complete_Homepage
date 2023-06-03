@@ -220,9 +220,7 @@ function displayDEOutput(
 
                         ${deVersionsOutput}
 
-                        <br /><hr />
-
-                        ${deInstallOutput}
+                        <br />
 
                 </div> <!-- Closes card-text -->
             </div> <!-- Closes card -->
