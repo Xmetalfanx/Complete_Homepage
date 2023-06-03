@@ -7,5 +7,7 @@
 <div class="accordion">
   <input id="systemRelated" type="checkbox">
   <label for="systemRelated">System Tools Related</label>
-  <div class="accordion-content"><a href="#">Routine Maintenance</a><a href="/techHQ/techcenter/system/bad_uninstalls.php">Bad Uninstalls</a></div>
+  <div class="accordion-content">
+    <a href="#">Routine Maintenance</a>
+  </div>
 </div>

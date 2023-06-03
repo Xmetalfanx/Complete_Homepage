@@ -20,20 +20,27 @@ ol
   li Artist/Band
   li Albums Title
 
-
 div I also have a Misc. folder for anything left over... not to get too picky. This can also help you if you have a large collection and you have not really used ID3 tags before.
 
 hr/
 
+
+
 h1 Software
 
-h3
-  a(href="https://www.strawberrymusicplayer.org/" target="_blank") Strawberry Music Player (MusicBrainz)
+.card
+  .card__header
+    a(href="https://www.strawberrymusicplayer.org/" target="_blank") 
     img.icon--size40(src="/techHQ/progIcons/media/media_players/strawberry.png", alt="Strawberry Music Player icon")
-| The regularly updated fork of
-a(href="https://www.clementine-player.org/" target="_blank") link the Clemintine Music Player
+    | Strawberry Music Player (MusicBrainz)
+  .card__body
+    | The regularly updated fork of
+    a(href="https://www.clementine-player.org/" target="_blank") Clemintine Music Player
 
-h3
-  a(href="https://picard.musicbrainz.org/" target="_blank") MusicBrainz Picard
-    img.icon--40(src="/techHQ/progIcons/media/musicbrainz-picard.png" alt="Picard Icon")
-| A Cross Platform option, written in Python
+.card
+  .card__header
+    a(href="https://picard.musicbrainz.org/" target="_blank") 
+      img.icon--size40(src="/techHQ/progIcons/media/musicbrainz-picard.png" alt="Picard Icon")
+      | MusicBrainz Picard
+  .card__body
+    | A Cross Platform option, written in Python
