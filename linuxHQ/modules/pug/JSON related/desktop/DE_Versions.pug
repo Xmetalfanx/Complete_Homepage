@@ -1,69 +1,47 @@
 h3.font-weight-bold Versions
-.font-weight-bold Latest Version: ${currentDELatestVersion}
-br/
-small Last updated: ${currentDEVerUpdated}
-br/
-
-.row.my-2 
+#linux-versions
+  small Last Updated: ${currentDEVerUpdated} 
+  br
+  .row
     .col
-        span.font-weight-bold Arch: 
-        span.text-right ${currentDEArchVersion}
-        br/
-
+      span.distroBaseTitle Arch:
+      span.version ${currentDEArchVersion}
+      br
     .col
-        span.font-weight-bold Fedora
-        br/
-        span.font-italic Fedora 28: 
-        span.text-right ${currentDEF28Version}
-        br/
-        span.font-italic Fedora 29: 
-        span.text-right ${currentDEF29Version}
-        br/
-        span.font-italic Fedora Rawhide: 
-        span.text-right  ${currentDEFRWVersion}
-    
-
+      span.distroBaseTitle Fedora
+      br
+      span.versionTitle 37: 
+      span.version ${currentDEF37Version}
+      br
+      span.versionTitle 38: 
+      span.version ${currentDEF38Version}
+      br
     .col
-        span.font-weight-bold openSUSE
-        br/
-        span.font-italic OpenSUSE 42.3: 
-        span.text-right  ${currentDESuseL423Version}
-        br/
-        span.font-italic OpenSUSE 15: 
-        span.text-right  ${currentDESuseL15Version}
-        br/
-        span.font-italic OpenSUSE Tumbleweed:  
-        span.text-right  ${currentDESuseTWVersion}
-        
-.row.my-4
+      span.distroBaseTitle openSUSE
+      br
+      span.versionTitle Leap 15.3: 
+      span.version ${currentDESuseL153Version}
+      br
+      span.versionTitle Tumbleweed: 
+      span.version ${currentDESuseTWVersion}
+  .row
     .col
-        div.font-weight-bold Solus
-        span.text-right 
+      .distroBaseTitle Solus
+      span.version ${currentDESolusVersion} 
     .col
-        div.font-weight-bold Ubuntu 
-        
-        span.font-italic Ubuntu 16.04 LTS: 
-        span.text-right  ${currentDE1604LTSVer}
-        br/
-        span.font-italic Ubuntu 18.04 LTS: 
-        span.text-right ${currentDE1804LTSVer}
-        br/
-        span.font-italic Ubuntu 18.10:
-        span.text-right 
-
+      .distroBaseTitle Ubuntu
+      span.versionTitle 20.04 Focal LTS: 
+      span.version ${currentDEUbuntu2004LTSVer}
+      br
+      span.versionTitle 22.04 Jammy LTS: 
+      span.version ${currentDEUbuntu2204LTSVer}
+      br
+      span.versionTitle 23.04 Lunar: 
+      span.version ${currentDEUbuntu2304Ver}
     .col
-        div.font-weight-bold Linux Mint 
-        
-        span.font-italic Mint 17.3: 
-        span.text-right ${currentDEMint173Version}
-        br/
-        span.font-italic Mint 18: 
-        span.text-right ${currentDEMint18Version}
-        br/
-        span.font-italic Mint 19: 
-        span.text-right ${currentDEMint19Version}
-
-small 
-    div Disclaimer: I decided to list the versions currently in different distro/versions of that distro. This means the version of different Desktops that may have SHIPPED WITH the version of the distro listed, may not be the same as what I list. 
-
-    div If there are point releases, for example in Ubuntu with say 18.04.1 for example ... I THINK the version listed would be what is available in the latest POINT release (in the say of 18.04 LTS in my example there ... 18.04.1)
+      .distroBaseTitle Linux Mint
+      span.versionTitle 20: 
+      span.version ${currentDEMint20Version}
+      br
+      span.versionTitle 21:
+      span.version ${currentDEMint20Version}

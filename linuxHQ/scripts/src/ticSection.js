@@ -59,8 +59,8 @@ function displayTICOutput(
   const themeOutput = `
 
           <div class="card">
-            <div class="card-header bg-primary text-white font-weight-bold">${currentTICTitle}</div>
-            <div class="card-body">
+            <div class="card__header">${currentTICTitle}</div>
+            <div class="card__body">
               <div class="row">
                 <div class="col">
 
