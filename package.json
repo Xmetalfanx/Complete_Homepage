@@ -61,6 +61,7 @@
     "fix:scss": "stylelint --fix 'scss/**/*.{css,scss}' ",
     "fix:rawcss": "stylelint --fix 'css/styling-raw.css' ",
     "fix:postcss": "stylelint --fix 'css/styling-postcss.css' ",
+    "fix:mincss":"stylelint --fix 'css/styling-min.css' ",
     "compile:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css",
     "watch:scss": "sass -c --verbose scss/styling.scss css/styling-raw.css --watch",
     "postcss:all": "postcss --verbose css/styling-raw.css > css/styling-min.css",

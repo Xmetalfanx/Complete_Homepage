@@ -19,13 +19,18 @@ userPrompt
 npm run compile:scss
 userPrompt
 
-echo "Fixing Raw CSS file, BEFORE postCSS"
-npm run fix:rawcss
-#userPrompt
+# echo "Fixing Raw CSS file, BEFORE postCSS"
+# npm run fix:rawcss
+# userPrompt
 
 clear && echo "Running PostCSS on RAW CSS file"
 npm run postcss:all
 #userPrompt
+
+echo "Running Stylelint Fix on Minified CSS file"
+npm run fix:mincss
+# userPrompt
+
 
 echo "COMPLETED"
 userPrompt
