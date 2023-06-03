@@ -1,6 +1,6 @@
 <div class="accordion">
   <input id="desktops" type="checkbox">
-  <label for="desktops">Desktops Environments/Window Managers</label>
+  <label for="desktops">Desktops Environments/WMs</label>
   <div class="accordion-content">
     <a href="/linuxHQ/desktops/budgie.php">Budgie-Desktop</a>
     <a href="/linuxHQ/desktops/cinnamon.php">Cinnamon</a>
