@@ -16,21 +16,21 @@ clear && echo "Running scss check/fix THEN Compile Sass to a raw CSS file"
 npm run fix:scss
 userPrompt
 
+echo "Compiling Scss to CSS" 
 npm run compile:scss
-userPrompt
+#userPrompt
 
-# echo "Fixing Raw CSS file, BEFORE postCSS"
-# npm run fix:rawcss
-# userPrompt
+echo "Fixing Raw CSS file, BEFORE postCSS"
+npm run fix:rawcss
+userPrompt
 
 clear && echo "Running PostCSS on RAW CSS file"
 npm run postcss:all
 #userPrompt
 
-echo "Running Stylelint Fix on Minified CSS file"
+echo "Running Stylelint Fix on minified CSS file"
 npm run fix:mincss
-# userPrompt
-
+#userPrompt
 
 echo "COMPLETED"
 userPrompt

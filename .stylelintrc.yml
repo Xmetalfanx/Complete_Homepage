@@ -15,6 +15,12 @@ rules:
   custom-property-pattern: null
   scss/at-extend-no-missing-placeholder: null
   declaration-colon-newline-after: null
+  declaration-block-single-line-max-declarations: null
+
+  ## STYLELINT DEPRECIATED RULES
+  max-line-length: null
+
+
 
   font-family-name-quotes: always-where-recommended
 
@@ -30,6 +36,3 @@ rules:
   # Since mixins are explicit (`@include`) and parens are unnecessary for argumentless mixins, they
   # can be omitted.
   scss/at-mixin-argumentless-call-parentheses: never
-
-  ## STYLELINT DEPRECIATED RULES
-  max-line-length: null

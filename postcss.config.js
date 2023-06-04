@@ -6,6 +6,10 @@ const postcssPresetEnv = require('postcss-preset-env')
 const postcssSorting = require('postcss-sorting')
 const stylelint = require('stylelint')
 
+// is this "fs" needed? ... optimize-css-mq has it listed 
+// const fs = require("fs");
+const optmizemq = require("optimize-css-mq");
+
 module.exports = {
   plugins: [
     // doiuse(""),
@@ -16,10 +20,13 @@ module.exports = {
       /* your options */
       "fix": true
     }),
+    optmizemq({
+      sort: true,
+    }),
     cssnano({
       preset: ['default', {
         colormin: false,
       }],      
-    })
+    })    
   ]
 }
