@@ -95,7 +95,7 @@ function displayTICOutput(
 
 function getTICData(data, $localTICName) {
   $(document).ready(function () {
-    ticJSONURL = 'http://xmetal.x10.mx/linuxHQ/json/tic.json';
+    ticJSONURL = 'http://xmetal.x10.mx/linuxHQ/json/tic-min.json';
 
     $.getJSON(ticJSONURL, function (data) {
       // For Each key value

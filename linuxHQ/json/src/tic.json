@@ -3,9 +3,9 @@
     {
       "howToInstall": {
         "arch": "",
-        "fedora": "",
+        "fedora": "arc-theme, (if on KDE/Plasma5) arc-kde, ",
         "opensuse": "",
-        "ubuntu": ""
+        "ubuntu": "none in default repos"
       },
       "links": {
         "devartsURL": "",
@@ -22,10 +22,10 @@
     },
     {
       "howToInstall": {
-        "arch": "",
-        "fedora": "",
+        "arch": "(AUR needed - packages) mint-themes, (for Grub) grub-mint-theme mint-y-icons mint-x-icons ",
+        "fedora": "mint-themes mint-x-icons mint-y-icons mint-y-theme mint-themes-gtk3",
         "opensuse": "",
-        "ubuntu": ""
+        "ubuntu": "none in default repos"
       },
       "links": {
         "devartsURL": "N/A",
@@ -42,10 +42,10 @@
     },
     {
       "howToInstall": {
-        "arch": "",
-        "fedora": "",
+        "arch": "(Via AUR - packages needed) numix-folders-git numix-gtk-theme-git numix-icon-theme-git numix-circle-icon-theme-git",
+        "fedora": "numix-gtk-theme numix-icon-theme numix-icon-theme-circle numix-icon-theme-square",
         "opensuse": "gtk2-metatheme-numix gtk3-metatheme-numix",
-        "ubuntu": ""
+        "ubuntu": "numix-gtk-theme numix-icon-theme numix-icon-theme-circle"
       },
       "links": {
         "devartsURL": "N/A",
