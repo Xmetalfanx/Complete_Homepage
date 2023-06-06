@@ -14,9 +14,9 @@
   grid-column: span 2;
 }
 
-@mixin flex($flex-direction: row) {
+@mixin flex($flex-direction: row, $flex-wrap: nowrap) {
   display: flex;
-  flex-direction: $flex-direction;
+  flex-flow: $flex-direction $flex-wrap;
 }
 
 @mixin align-items-justify-content($align-items, $justify-content) {
@@ -31,3 +31,4 @@
 @mixin border-radius($border-radius: 20%) {
   border-radius: $border-radius;
 }
+

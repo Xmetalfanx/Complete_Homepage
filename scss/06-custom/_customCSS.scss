@@ -2,7 +2,7 @@
 @use "../02-initial/index"as *;
 
 /////////////////////////////////////////////////////////////////
-// for Flex or grid
+// for Flex or grid - is this a duplicate of say bs_flex.scss content? (this WAS here first)
 .jc-space-evenly {
   justify-content: space-evenly;
 }
@@ -209,6 +209,23 @@ figcaption,
     @include flex(column);
 
     margin: 0 auto;
+  }
+
+}
+
+// JUST an idea 
+.cardContainer {
+  @include flex(row, wrap);
+  justify-content: space-between;
+
+  > * {
+    // background-color: green;
+    margin: 1rem 2rem !important;
+
+
+    // i dont think i want to put a width on this here as some things that use
+    // cardContainer I may want to have different widths on
+
   }
 
 }
