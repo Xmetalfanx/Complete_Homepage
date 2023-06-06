@@ -72,18 +72,17 @@
         "distrosFeature": "Linux Mint, Fedora, Arch"
       },
       "install": {
-        "arch": "sudo pacman -S cinnamon",
+        "arch": "sudo pacman -S cinnamon (maybe cinnamon-desktop too... not sure if these two packages conflict with one another)",
         "fedora": "sudo dnf groupinstall cinnamon-desktop",
         "opensuse": {
           "opensuseInstall": "(See instructions for each branch, below)",
           "reference": "<a href=\"https://en.opensuse.org/Portal:Cinnamon\"target=\"_blank\"> Install Cinnamon on OpenSuse </a>",
-          "repoLeap15": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.0/X11:Cinnamon:Current.repo <br /> # zypper ref && zypper in -t pattern cinnamon",
-          "repoleap154": "# zypper ar -qry http://download.opensuse.org/repositories/X11:/Cinnamon:/Current/openSUSE_Leap_15.1/X11:Cinnamon:Current.repo <br /># zypper ref && zypper in -t pattern cinnamon",
+          "repoleap154": "N/A",
           "twRepo": "zypper ref && zypper in -y cinnamon cinnamon-screensaver"
         },
         "ubuntu": {
           "mintInstall": "sudo apt install mint-meta-cinnamon",
-          "ubuntuInstall": "PPA Needed - Info coming later"
+          "ubuntuInstall": "cinnamon-desktop-environment"
         }
       },
       "requirements": {
@@ -138,7 +137,7 @@
       },
       "install": {
         "arch": "sudo pacman -S budgie-desktop",
-        "fedora": "",
+        "fedora": "sudo dnf install budgie-desktop",
         "opensuse": {
           "opensuseInstall": "",
           "reference": "",
