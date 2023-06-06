@@ -50,6 +50,7 @@
 
   .card__body {
     @include flex(row, wrap);
+
     justify-content: space-evenly;
 
     * {

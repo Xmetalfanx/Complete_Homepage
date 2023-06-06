@@ -216,12 +216,15 @@ figcaption,
 // JUST an idea 
 .cardContainer {
   @include flex(row, wrap);
-  justify-content: space-between;
+
+  justify-content: space-evenly;
 
   > * {
-    // background-color: green;
     margin: 1rem 2rem !important;
 
+    @include flex;
+    
+    width: 100%;
 
     // i dont think i want to put a width on this here as some things that use
     // cardContainer I may want to have different widths on
