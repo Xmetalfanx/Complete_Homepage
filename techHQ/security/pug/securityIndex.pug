@@ -7,28 +7,32 @@ ul
 
 h3 Overall Security Tips
 
-.card.my-4.shadow
-  .card__header COMMON SENSE
-  .card__body
-    | While I'd never say "forget security software, just use common sense alone".... do not underestimate this.
+ol 
+  li 
+    strong COMMON SENSE
+    div While I'd never say "forget security software, just use common sense alone".... do not underestimate this.
     | Sure SOME products are "snake oil", but there are some trusted names in the fields of different sorts of security products
+  li
+    strong Use a Good Anti-Virus
+    div Here are two good, free options:
+    .row
+      .col 
+        ul
+          li 
+            a(href='https://support.kaspersky.com/us/kscloud' target='_blank')
+              img.icon--size32.mr-2(src='/techHQ/progIcons/security/AVs/kaspersky.png' alt='Kaspersky Security Cloud graphics')
+              | Kaspersky Security Cloud
+      .col
+        ul
+          li 
+            a(href='https://www.bitdefender.com/solutions/free.html' target='_blank')
+              img.icon--size32.mr-2(src='/techHQ/progIcons/security/AVs/bitDefender.png' alt='Bit Defender Free graphic')
+              | Bit Defender Free
 
-.card.my-4.shadow
-  .card__header Use a Good Anti-Virus
-  .card__body
-    | Here are two good, free options:
 
-    ul.list-group.list-group-flush
-        li.list-group-item
-          a(href='https://support.kaspersky.com/us/kscloud' target='_blank')
-            img.icon--size32.mr-2(src='/techHQ/progIcons/security/AVs/kaspersky.png' alt='Kaspersky Security Cloud graphics')
-            | Kaspersky Security Cloud
-        li.list-group-item
-          a(href='https://www.bitdefender.com/solutions/free.html' target='_blank')
-            img.icon--size32.mr-2(src='/techHQ/progIcons/security/AVs/bitDefender.png' alt='Bit Defender Free graphic')
-            | Bit Defender Free
 
-// ?php
-    include $rootDir . "/techHQ/security/sections/malwareScanners.php";
-    include $rootDir . "/techHQ/security/sections/specialityScanners.php";
-// ?
+
+//- <?php
+//-     include $rootDir . "/techHQ/security/sections/malwareScanners.php";
+//-     include $rootDir . "/techHQ/security/sections/specialityScanners.php";
+//- ?>
