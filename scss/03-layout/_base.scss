@@ -56,3 +56,12 @@ body {
     @include align-items-justify-content(baseline, flex-start);
   }
 }
+
+ul {
+  margin: 1rem 2rem;
+
+  > * {
+      margin: .25rem;
+  }
+
+}

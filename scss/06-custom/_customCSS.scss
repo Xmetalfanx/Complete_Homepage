@@ -220,15 +220,36 @@ figcaption,
   justify-content: space-evenly;
 
   > * {
-    margin: 1rem 2rem !important;
-
-    @include flex;
+    @include flex(column, nowrap);
     
-    width: 100%;
+    margin: 1rem 2rem !important;
+    width: fit-content;
+    height: fit-content;
 
     // i dont think i want to put a width on this here as some things that use
     // cardContainer I may want to have different widths on
 
   }
 
+}
+
+// putting this here for now 
+ul, ol {
+  li {
+    margin: 0 1rem;
+  }
+  
+  &.list-wide {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      margin: 1rem;
+      outline: 1px solid var(--theme-color-d);
+      padding: 1rem;
+    }
+
+  }
 }

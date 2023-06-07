@@ -15,6 +15,21 @@
     font-weight: 600;
     margin: 1rem .5rem;
   }
+
+
+  // why is this here?
+  ol,
+  ul,
+  dl {
+    margin-bottom: 1rem;
+    margin-top: 0;
+
+    li {
+      margin-left: 1.4rem;
+    }
+  }
+
+
 }
 
 .git-section,
@@ -167,14 +182,3 @@
   }
 }
 
-// why is this here?
-ol,
-ul,
-dl {
-  margin-bottom: 1rem;
-  margin-top: 0;
-
-  li {
-    margin-left: 1.4rem;
-  }
-}
