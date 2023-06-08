@@ -19,9 +19,9 @@
 ?>
 
 
-<div class="educational-sites card">
+<div class="card educational-sites">
   <div class="card__header">Educational Sites</div>
-  <div class="card__body">
+  <div class="card__body d-flex flex-wrap justify-content-center">
     <figure>
       <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
         <img class="img-fluid" src="/techHQ/graphics/khan-academy.svg" alt="Khan Academy website Graphic" />
@@ -31,21 +31,21 @@
 
     <figure>
       <a href="https://www.digitalocean.com/community/" target="_blank" rel="noreferrer" aria-label="Link to Digital Ocean">
-        <img class="img-fluid"  src="/techHQ/graphics/digitalOcean.png" alt="Digital Ocean website Graphic" />
+        <img class="img-fluid" src="/techHQ/graphics/digitalOcean.png" alt="Digital Ocean website Graphic" />
         <figcaption>Digital Ocean</figcaption>
       </a>
     </figure>
 
     <figure>
       <a href="http://www.kristakingmath.com/" target="_blank" rel="noreferrer" aria-label="Link to Krista King's Math related site">
-        <img class="d-none d-md-block w-50" src="/graphics/kking_logo.png" alt="Krista King Math Site website graphics">
+        <img class="d-none d-md-block" src="/graphics/kking_logo.png" alt="Krista King Math Site website graphics">
       <figcaption>Krista King Math Tutor</figcaption>
       </a>
     </figure>
 
     <figure>
       <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
-        <img class="d-none d-md-block w-50 img-fluid" src="/graphics/mathandscience.png" alt="Science and Math.com website graphics" loading="lazy">
+        <img class="d-none d-md-block img-fluid" src="/graphics/mathandscience.png" alt="Science and Math.com website graphics" loading="lazy">
         <figcaption>ScienceandMath.com</figcaption>
       </a>
   </figure>
