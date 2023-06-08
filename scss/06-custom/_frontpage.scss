@@ -98,6 +98,12 @@
     max-width: 72ch;
 
     // min-width: 350px;
+
+  img {
+      max-height: 600px;
+      object-fit: contain;
+  }
+
   }
 
   @media ($breakpoint-lg) {
