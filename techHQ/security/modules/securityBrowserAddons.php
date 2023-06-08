@@ -1,7 +1,7 @@
 
 <div class="header">Web Browser Addons</div>
 <div class="cardContainer">
-  <div class="card w-40 border--dark" id="httpsEverywhere">
+  <div class="card w-40" id="httpsEverywhere">
     <div class="card__header">
       <div><img class="icon--size40" src="/techHQ/browsers/addons/graphics/HTTPSEverywhere.svg" alt="HTTPS Everywhere icon ">
         <div>HTTPS Everywhere</div>
@@ -12,7 +12,7 @@
       <div>*(maybe depreciated with some https features coming to different browsers )</div>
     </div>
   </div>
-  <div class="card w-40 border--dark" id="privacyBadger">
+  <div class="card w-40" id="privacyBadger">
     <div class="card__header"> 
       <div><img class="icon--size40" src="/techHQ/browsers/addons/graphics/privacyBadger.svg" alt="Privacy Badger icon ">
         <div>Privacy Badger</div>
@@ -23,7 +23,7 @@
       <div>description here, perhaps</div>
     </div>
   </div>
-  <div class="card w-40 border--dark" id="ublockO">
+  <div class="card w-40" id="ublockO">
     <div class="card__header">
       <div><img class="icon--size40" src="/techHQ/browsers/addons/graphics/ublockOrigin.svg" alt="Ublock Origin icon ">
         <div>Ublock Origin</div>
@@ -34,7 +34,7 @@
       <div>description here, perhaps</div>
     </div>
   </div>
-  <div class="card w-40 border--dark" id="umatrix">
+  <div class="card w-40" id="umatrix">
     <div class="card__header">
       <div><img class="icon--size40" src="/techHQ/browsers/addons/graphics/umatrix.png" alt="Umatrix icon">
         <div>Umatrix</div>
