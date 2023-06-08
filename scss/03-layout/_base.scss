@@ -60,6 +60,10 @@ body {
 ul {
   margin: 1rem 2rem;
 
+  li {
+    list-style-position: inside;
+  }
+
   > * {
       margin: .25rem;
   }
