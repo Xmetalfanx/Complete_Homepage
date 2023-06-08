@@ -18,8 +18,8 @@
 
 ?>
 
-<div class="card w-95 mx-auto border">
-  <div class="card-header">Noop Filtering</div>
+<div class="card w-95 mx-auto">
+  <div class="card__header">Noop Filtering</div>
   <div class="card-text mx-auto p-3">
     <div>When using Dynamic (Ublock Origin Advanced Mode) and Static Filtering (the typical filter lists that most adblockers user); together, Dynamic filtering take priority.  For example, you could use a green (allow) filter on a site to ALLOW a connection that would have been blocked in the one of the filter lists.</div>
     <br/>

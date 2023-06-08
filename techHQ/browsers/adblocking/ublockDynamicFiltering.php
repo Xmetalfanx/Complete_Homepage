@@ -21,7 +21,7 @@
 
 <h2>Dynamic Filtering</h2>
 <div class="card">
-  <div class="card-header">Dynamic Filtering in Ublock Explained</div>
+  <div class="card__header">Dynamic Filtering in Ublock Explained</div>
   <div class="card-text">
     <ul>
       <li><a href="https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine">uBlock &quot;filtering chart&quot; wiki page</a></li>
@@ -31,7 +31,7 @@
 </div>
 <hr/>
 <div class="card">
-  <div class="card-header">Static filtering versus Dynamic Filtering </div>
+  <div class="card__header">Static filtering versus Dynamic Filtering </div>
   <div class="card-text"> </div>
   <ul>
     <li> 
@@ -43,7 +43,7 @@
 </div>
 <hr/>
 <div class="card">
-  <div class="card-header">Do I need to use Dynamic Filtering?</div>
+  <div class="card__header">Do I need to use Dynamic Filtering?</div>
   <div class="card-text">NO ... short answer ... NO ... it's more a thing "do you WANT to use it".  If the adblocker is on, it will still block things through the list files that can be updated automatically by default in Ublock Origin.  There is no reason to use dynamic filtering, if you do not want to.</div>
 </div><br/>
 <h4>Dynamic filtering notes on Ublock Origin</h4>
@@ -52,7 +52,7 @@
 <div>3.  There is N00P to consider (I will get to that later), but that is something else that you can use to filter content, THOUGH you have to sort of thing ahead when you hear explanations. </div>
 <hr/>
 <div class="card">
-  <div class="card-header">Ublock Origin Advanced mode - Global vs Local rules</div>
+  <div class="card__header">Ublock Origin Advanced mode - Global vs Local rules</div>
   <div class="card-text">I admit I am not 100% sure I am using the right phrasing but a LOCAL rule so to speak is one for the site you currently on ... a GLOBAL rule effects all sites you visit. ....<br/><br/>
     <div>For example</div>
     <ul>
