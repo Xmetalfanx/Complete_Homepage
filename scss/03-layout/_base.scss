@@ -58,11 +58,11 @@ body {
 
 
 
-// putting this here for now 
+// putting this here for now
 ul, ol {
   margin: 1rem 2rem;
 
-  // no need for both ... note to self: figure out which is not needed 
+  // no need for both ... note to self: figure out which is not needed
   li {
     margin: 0 1rem;
     list-style-position: inside;
@@ -70,10 +70,10 @@ ul, ol {
 
   > * {
     margin: .25rem;
-  } 
+  }
 
 
-  &.list-wide {
+  .list-wide {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
