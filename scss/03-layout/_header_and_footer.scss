@@ -34,10 +34,6 @@ footer {
     }
   }
 
-  // for Fork Awesome code
-  .fa {
-    margin: auto 0.25rem;
-  }
 }
 
 footer {
@@ -55,6 +51,12 @@ footer {
   .contacts,
   .site-made {
     width: 50%;
+
+    i {
+      scale: 2;
+      margin: 0 1rem;
+    }
+
   }
 
   // hides the ENTIRE footer on lower than a md layout
@@ -66,14 +68,6 @@ footer {
 
   .contacts {
     text-align: right;
-
-    a {
-      margin: 0 2rem;
-    }
-
-    i {
-      scale: 2;
-    }
 
     @media ($breakpoint-lg) {
       text-align: center;
@@ -98,7 +92,7 @@ header {
   // text-shadow: 2px 5px var(--theme-color-d-a75);
   grid-area: header;
 
-  // Xmetal Homepage, LinuxHQ or TechHQ title section 
+  // Xmetal Homepage, LinuxHQ or TechHQ title section
   .section-header {
     font-size: var(--h2);
     margin: 1rem;
@@ -119,7 +113,7 @@ header {
     @media ($breakpoint-md) {
       // hides both graphic and text
       display: none;
-    }  
+    }
   }
 
   // the menu bar to the top right - should be hidden unless on small screens
@@ -154,7 +148,7 @@ header {
       when the user clicks on the icon. This class makes the topnav
       look good on small screens (display the links vertically instead
       of horizontally) */
-      
+
       &.responsive {
         position: relative;
         width: 100%;
@@ -194,11 +188,11 @@ header {
 
       &.responsive {
         @include flex(column);
-        
+
         position: relative;
         z-index: 10;
         translate: 0 -18rem;
-  
+
         .hamburger-menu {
           translate: 0 2.6rem;
         }
@@ -207,7 +201,7 @@ header {
           line-height: 4rem;
           margin: 0 2rem;
           display: block;
-  
+
           .icon {
             bottom: 0;
             display: inherit;
@@ -215,7 +209,7 @@ header {
             position: absolute;
           }
         }
-  
+
       }
     }
   }
