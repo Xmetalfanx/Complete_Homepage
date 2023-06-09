@@ -1,0 +1,49 @@
+/****** STARTPAGE Box related ******************/
+
+#startpage-search {
+  margin: 10px auto;
+
+  @include span2;
+
+  // For the SP icon and input box
+  .SPHeightIconInput {
+    height: 35px;
+  }
+
+  .startpage-searchIcon {
+    height: 33px;
+    vertical-align: middle;
+  }
+}
+
+/*** DuckDuckGo search ***/
+.searchbar-container {
+  @include align-items-justify-content(center, center);
+
+  display: flex;
+
+  // ?? isn't this for grid, not flex? ... or is the mixin for both? 
+  @include span2;
+
+  > * {
+    height: 40px;
+  }
+
+  #ddg-search input {
+    padding: 0 0.75rem;
+  }
+
+  // submit button
+  // why the (minus alpha) so specific box shadow?
+  button {
+    @include border-radius(0.25rem);
+
+    background: var(--forest-green);
+    border: 0;
+    box-shadow: 0 2px 8px 0 var(--forest-green);
+    color: var(--white);
+    font-size: var(--fs-normal);
+    outline: 1px solid var(--forest-green);
+    padding: 0.4em 0.875em;
+  }
+}

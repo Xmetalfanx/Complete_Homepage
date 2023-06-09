@@ -21,7 +21,7 @@
 
 <div class="card educational-sites">
   <div class="card__header">Educational Sites</div>
-  <div class="card__body d-flex flex-wrap justify-content-center">
+  <div class="card__body d-flex flex-wrap jc-center">
     <figure>
       <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
         <img class="img-fluid" src="/techHQ/graphics/khan-academy.svg" alt="Khan Academy website Graphic" />

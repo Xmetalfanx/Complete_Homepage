@@ -18,7 +18,7 @@
 
 ?>
 
-<div class="card w-75 mx-auto border border-primary">
+<div class="card w-75 mx-auto border">
   <div class="card__header">Knowing if Ublock Origin is enabled or disabled</div>
   <div class="card-text mx-auto p-3">
     <ul>
@@ -33,7 +33,7 @@
 
 <br/><br/>
 
-<div class="card d-none d-lg-block w-75 mx-auto border border-primary">
+<div class="card d-none d-lg-block w-75 mx-auto border">
   <div class="card__header">Enable Advanced Mode in Ublock Origin</div>
   <div class="card-text mx-auto p-3">
     <img src="/techHQ/browsers/adblocking/screenshots/ublock/ublockDashSettingsAdvancedUser.jpg" class="w-80" alt="Ublock Disabled">

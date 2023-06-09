@@ -5,13 +5,13 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-  // is this needed?
-  // text-align: left;
 }
 
 html {
   width: 100%;
+
+  // here for now in case i do a light/dark theme later
+    // no point right now to be honest
   color-scheme: light dark;
 }
 
@@ -45,27 +45,46 @@ body {
 
 
 // i totally forgot what this is for
-::selection {
-  @include dark-bg;
-}
+// ::selection {
+//   @include dark-bg;
+// }
 
 .card {
-  // min-width: 8rem;
- 
   .card__header {
     @include align-items-justify-content(baseline, flex-start);
   }
 }
 
-ul {
+
+
+
+// putting this here for now 
+ul, ol {
   margin: 1rem 2rem;
 
+  // no need for both ... note to self: figure out which is not needed 
   li {
+    margin: 0 1rem;
     list-style-position: inside;
   }
 
   > * {
-      margin: .25rem;
+    margin: .25rem;
+  } 
+
+
+  &.list-wide {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      margin: 1rem;
+      outline: 1px solid var(--theme-color-d);
+      padding: 1rem;
+    }
+
   }
 
 }

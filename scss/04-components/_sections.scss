@@ -36,7 +36,9 @@
 .educational-sites {
   @include span2;
 
-  width: 75%;
+  // !important since the general card css with a width of "auto" takes over
+    // do i need a width on that? ...
+  width: 75% !important;
 
   @media ($breakpoint-md) {
     width: 90%;

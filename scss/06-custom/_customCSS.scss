@@ -1,20 +1,6 @@
 @use "../01-abstracts/index"as *;
 @use "../02-initial/index"as *;
 
-/////////////////////////////////////////////////////////////////
-// for Flex or grid - is this a duplicate of say bs_flex.scss content? (this WAS here first)
-.jc-space-evenly {
-  justify-content: space-evenly;
-}
-
-.jc-space-around {
-  justify-content: space-around;
-}
-
-.jc-space-between {
-  justify-content: space-between;
-}
-
 ///////////////////////////////////////////
 
 // for display:grid, spans two columns
@@ -92,36 +78,6 @@
   color: var()
 }
 
-/*** DuckDuckGo search ***/
-.searchbar-container {
-  @include align-items-justify-content(center, center);
-
-  display: flex;
-
-  @include span2;
-
-  * {
-    height: 40px;
-  }
-
-  #ddg-search input {
-    padding: 0 0.75rem;
-  }
-
-  // submit button
-  // why the (minus alpha) so specific box shadow?
-  button {
-    @include border-radius(0.25rem);
-
-    background: var(--forest-green);
-    border: 0;
-    box-shadow: 0 2px 8px 0 var(--forest-green);
-    color: var(--white);
-    font-size: var(--fs-normal);
-    outline: 1px solid var(--forest-green);
-    padding: 0.4em 0.875em;
-  }
-}
 
 figcaption,
 .text-center {
@@ -141,53 +97,6 @@ figcaption,
   padding: 1rem;
 }
 
-
-.youtube_playlist {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-  justify-content: space-evenly;
-
-}
-
-.youtuber_list {
-  margin: 0;
-
-  .header { margin: 0; }
-
-  // the actual list of Channels
-  .list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-
-    .card {
-      @include box-shadow;
-      @include border;
-
-      margin: 1rem; 
-      width: 20%;
-
-      .card__body {
-        text-align: center;
-        
-        img { 
-          @include border-radius;
-
-          margin: .5rem auto; 
-          max-width: 105px;
-          height: 40%;
-        }
-      }
-    }
-  }
-
-
-  @media ($breakpoint-md) {
-    display: none;
-    
-  }
-}
 
 // for custom hamburger (moving away from fork awesome) menu 
 // why is this here? ... should it be in header_and_footer.scss? 
@@ -231,23 +140,3 @@ figcaption,
 
 }
 
-// putting this here for now 
-ul, ol {
-  li {
-    margin: 0 1rem;
-  }
-  
-  &.list-wide {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-    li {
-      list-style: none;
-      margin: 1rem;
-      outline: 1px solid var(--theme-color-d);
-      padding: 1rem;
-    }
-
-  }
-}
