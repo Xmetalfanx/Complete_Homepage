@@ -90,8 +90,8 @@
   }
 }
 
-// this is above the git section on the main page ... 
-// site section and then git section under it is a part of "frontpage section" 
+// this is above the git section on the main page ...
+// site section and then git section under it is a part of "frontpage section"
 .site-section {
   > * {
     flex: 1 1 33%;
@@ -118,9 +118,15 @@
 
   section {
     .section-title {
+      background-color: hsl(33deg 100% 88%);
+      border-radius: 1rem;
       display: block;
       margin: 1rem 0;
-      
+      padding: .5rem 1rem;
+
+      // use mixin later
+      box-shadow: 2px 2px 10px var(--theme-color-d);
+
         a {
           color: var(--theme-color-d);
           font-size: var(--h3);
@@ -145,22 +151,22 @@
       @media ($breakpoint-md) {
         display: none;
       }
-  
+
       > * {
         display: flex;
         place-items: center;
       }
-  
+
       > img {
         padding-bottom: 0.1rem;
       }
-  
+
       > figcaption {
         font-size: var(--fs-small);
         padding-left: 2rem;
       }
     }
- 
+
 
   }
 
