@@ -74,14 +74,10 @@ function displayTICOutput(
                   ${howToInstall}
                 </div>
 
-
-
-                <div class="col">
-                  <div class="m-auto">
+                <div class="col d-none d-md-block m-auto">
                   <a href="${screenshotDIR}${currentTICScreenshot}" target="_blank" >
                     <img data-src="${screenshotDIR}${currentTICSSThumbnail}" alt="${currentTICTitle} Screenshot"  class="d-md-block d-none img-fluid" loading="lazy" />
                   </a>
-                  </div>
                 </div>
               </div>
             </div>
