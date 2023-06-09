@@ -25,7 +25,7 @@ $sub-colors: (
   "maroon": "0deg 100% 20%",
 );
 
-// grey-l20 IS #333333 in HSL form 
+// grey-l20 IS #333333 in HSL form
 $colors-grey: (
   "grey-l13": "0deg 0% 13%",
   "grey-l15": "0deg 0% 15%",
@@ -129,6 +129,9 @@ $colortheme1: (
 
   // --ffamily-sfmono-regular:"SFMono-Regular", menlo, monaco, consolas,
   //  "Liberation Mono", "Courier New", monospace;
+
+  // inspired by OMGUbuntu's Header fonts (June 2023)
+  --ffamily-omgubuntu: "Rubik", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
   // this should be named better
   // this was snagged from OMGUbuntu"s sit e

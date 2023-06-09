@@ -121,10 +121,9 @@ header {
   .topnav {
     @include flex;
 
-    justify-self: end;
-    font-weight: 500;
+    font-weight: bold;
     font-size: var(--h3);
-    letter-spacing: 0.1rem;
+    font-family: var(--ffamily-omgubuntu);
 
     a {
       margin: 0 1.2rem;
