@@ -1,26 +1,14 @@
 @use "../01-abstracts/index" as *;
 
-*,
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+// html {
+//   // is this needed?
+//   width: 100%;
 
-html {
-  width: 100%;
+//   // here for now in case i do a light/dark theme later
+//     // no point right now to be honest
+//   color-scheme: light dark;
+// }
 
-  // here for now in case i do a light/dark theme later
-    // no point right now to be honest
-  color-scheme: light dark;
-}
-
-img,
-svg,
-video {
-  max-width: 100%;
-  display: block;
-}
 
 body {
   background-color: var(--theme-color-l);
