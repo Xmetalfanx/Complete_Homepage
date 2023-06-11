@@ -1,3 +1,5 @@
+@use "../01-abstracts/index" as *;
+
 // here so when i remove bootstrap or at least have that option
 
 /*  this is sort of the catch-all file for stuff from Bootstrap
@@ -29,7 +31,7 @@
 }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem var(--black);
+  @include drop-shadow(0, 0.5rem, 1rem, var(--black));
 }
 
 .img-fluid {

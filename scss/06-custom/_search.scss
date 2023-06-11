@@ -37,10 +37,10 @@
   // why the (minus alpha) so specific box shadow?
   button {
     @include border-radius(0.25rem);
+    @include drop-shadow(0, 2px, 8px, 0, var(--forest-green));
 
     background: var(--forest-green);
     border: 0;
-    box-shadow: 0 2px 8px 0 var(--forest-green);
     color: var(--white);
     font-size: var(--fs-normal);
     outline: 1px solid var(--forest-green);

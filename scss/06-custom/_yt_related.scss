@@ -22,7 +22,7 @@
       justify-content: space-evenly;
   
       .card {
-        @include box-shadow;
+        @include drop-shadow;
         @include border;
   
         margin: 1rem; 

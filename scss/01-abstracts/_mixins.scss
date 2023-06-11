@@ -10,6 +10,10 @@
   box-shadow: 0 0.5rem 1rem var(--theme-color-accent-d-a50);
 }
 
+@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--theme-color-accent-d-a50)) {
+  filter: drop-shadow($xaxis $yaxis $blur $color);
+}
+
 @mixin span2 {
   grid-column: span 2;
 }

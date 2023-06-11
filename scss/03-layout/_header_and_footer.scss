@@ -86,7 +86,8 @@ footer {
 
 
 header {
-  box-shadow: 2px 2px 5px var(--theme-color-main-a50);
+  @include drop-shadow(2px 2px 5px var(--theme-color-main-a50));
+
   padding: 1.75rem;
 
   // text-shadow: 2px 5px var(--theme-color-d-a75);
