@@ -5,7 +5,11 @@
   background-color: var(--clr-theme-color-main);
 }
 
-// new "box-shadow" mixin
+// because i am always forget the default values i use
+@mixin box-shadow {
+  box-shadow: 0 0.5rem 1rem var(--theme-color-accent);
+}
+
 @mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-color-d)) {
   filter: drop-shadow($xaxis $yaxis $blur $color);
 }

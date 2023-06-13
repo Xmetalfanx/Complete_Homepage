@@ -47,93 +47,93 @@ function displayDistroOutput(
       </div>
     `;
 
-  const currentDistroYTOutput = `
+    const currentDistroYTOutput = `
+    <div class="yt-container">
+      <div class="header">Youtube Playlists</div>  
+      <div class="yt-playlist">   
+        <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
 
-        <div class="header">Youtube Playlists</div>
 
-          <div class="youtube_playlist">
-            <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-            <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-          </div>
-        
-
-        <div class="d-lg-none d-xs-block p-3">
-            <div>
-                <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
-            </div>
-            <div>
-                <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
-            </div>
+      <div class="d-lg-none d-xs-block p-3">
+        <div>
+            <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
         </div>
-
-          <div class="youtuber_list">
-            <div class="header"> Linux/Tech Youtubers </div> 
-            <div class="list">
-              <div class="card">
-                <div class="card__body">
-                  <a href="https://www.youtube.com/@destinationlinux" target="_blank">    
-                  <img src="/linuxHQ/graphics/yt/destinationLinux.jpg" alt="Destination Linux Channel Link" /> 
-                      Destination Linux
-                  </a>
-                </div>
-            </div>
-
-            <div class="card">
-              <div class="card__body">
-                  <a href="https://www.youtube.com/@EzeeLinux/" target="_blank">
-                    <img src="/linuxHQ/graphics/yt/joecollins.jpg" alt="Ezee Linux/Joe Collins Channel Link" />  
-                    Joe Collins
-                  </a>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card__body">
-                  <a href="https://www.youtube.com/@TheLinuxEXP" target="_blank">
-                  <img src="/linuxHQ/graphics/yt/theLinuxEXP.jpg" alt="" />
-                  TheLinuxEXP
-                  </a>
-              </div>
-            </div>
-
-          <div class="card">
-            <div class="card__body">
-                <a href="https://www.youtube.com/@InfinitelyGalactic" target="_blank">
-                  <img src="/linuxHQ/graphics/yt/IG.jpg" alt="InfinitelyGalactic Channel Link" />    
-                  IG
-                </a>
-            </div>
-          </div>
-
-          <div class="card">
-          <div class="card__body">
-              <a href="https://www.youtube.com/@BrodieRobertson" target="_blank">
-                <img src="/linuxHQ/graphics/yt/brodie.jpg" alt="Brodie Robertson Channel Link" />    
-                Brodie Robertson
-              </a>
-          </div>
+        <div>
+            <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
         </div>
+      </div>
+
+      <div class="header"> Linux/Tech Youtubers </div> 
+      <div class="yt-content-creators">
 
         <div class="card">
+          <div class="card__body">
+            <a href="https://www.youtube.com/@destinationlinux" target="_blank">    
+            <img src="/linuxHQ/graphics/yt/destinationLinux.jpg" alt="Destination Linux Channel Link" /> 
+                Destination Linux
+            </a>
+          </div>
+      </div>
+
+      <div class="card">
         <div class="card__body">
-            <a href="https://www.youtube.com/@TuxDigitalNetwork" target="_blank">
-              <img src="/linuxHQ/graphics/yt/tuxdigital.jpg" alt="https://www.youtube.com/@InfinitelyGalactic Channel Link" />    
-              Tux Digital 
+            <a href="https://www.youtube.com/@EzeeLinux/" target="_blank">
+              <img src="/linuxHQ/graphics/yt/joecollins.jpg" alt="Ezee Linux/Joe Collins Channel Link" />  
+              Joe Collins
             </a>
         </div>
       </div>
 
       <div class="card">
+        <div class="card__body">
+            <a href="https://www.youtube.com/@TheLinuxEXP" target="_blank">
+            <img src="/linuxHQ/graphics/yt/theLinuxEXP.jpg" alt="" />
+            TheLinuxEXP
+            </a>
+        </div>
+      </div>
+
+    <div class="card">
       <div class="card__body">
-          <a href="https://www.youtube.com/@TunnellVision" target="_blank">
-            <img src="/linuxHQ/graphics/yt/michaelTunnell.jpg" alt="https://www.youtube.com/@InfinitelyGalactic Channel Link" />    
-            Michael Tunnell
+          <a href="https://www.youtube.com/@InfinitelyGalactic" target="_blank">
+            <img src="/linuxHQ/graphics/yt/IG.jpg" alt="InfinitelyGalactic Channel Link" />    
+            IG
           </a>
       </div>
     </div>
 
+    <div class="card">
+      <div class="card__body">
+          <a href="https://www.youtube.com/@BrodieRobertson" target="_blank">
+            <img src="/linuxHQ/graphics/yt/brodie.jpg" alt="Brodie Robertson Channel Link" />    
+            Brodie Robertson
+          </a>
       </div>
+  </div>
 
+    <div class="card">
+      <div class="card__body">
+          <a href="https://www.youtube.com/@TuxDigitalNetwork" target="_blank">
+            <img src="/linuxHQ/graphics/yt/tuxdigital.jpg" alt="https://www.youtube.com/@InfinitelyGalactic Channel Link" />    
+            Tux Digital 
+          </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__body">
+        <a href="https://www.youtube.com/@TunnellVision" target="_blank">
+          <img src="/linuxHQ/graphics/yt/michaelTunnell.jpg" alt="https://www.youtube.com/@InfinitelyGalactic Channel Link" />    
+          Michael Tunnell
+        </a>
+      </div>
+    </div>
+
+ </div>
+  
+  
     `;
 
   // Oct 2021: empty div needed for CSS alignment
