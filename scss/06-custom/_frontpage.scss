@@ -79,7 +79,7 @@
   }
 
   .git-icons {
-    color: var(--theme-color-d);
+    color: var(--clr-theme-color-d);
     display: flex;
     justify-content: space-around;
     margin-bottom: 0.5rem;
@@ -124,17 +124,17 @@
       margin: 1rem 0;
       padding: .5rem 1rem;
 
-      @include drop-shadow(2px, 2px, 10px, var(--theme-color-d));
+      @include drop-shadow(2px, 2px, 10px, var(--clr-theme-color-d));
 
         a {
-          color: var(--theme-color-d);
+          color: var(--clr-theme-color-d);
           font-size: var(--h3);
           font-weight: 600;
         }
 
         a:hover,
         a:focus {
-          color: var(--theme-color-accent-l);
+          color: var(--clr-theme-color-accent-l);
         }
     }
 

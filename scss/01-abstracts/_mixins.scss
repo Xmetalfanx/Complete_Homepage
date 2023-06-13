@@ -1,16 +1,12 @@
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
 @mixin dark-bg {
-  color: var(--theme-color-l);
-  background-color: var(--theme-color-main);
+  color: var(--clr-theme-color-l);
+  background-color: var(--clr-theme-color-main);
 }
 
-// because i am always forget the default values i use
-@mixin box-shadow {
-  box-shadow: 0 0.5rem 1rem var(--theme-color-accent-d-a50);
-}
-
-@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--theme-color-accent-d-a50)) {
+// new "box-shadow" mixin
+@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-color-d)) {
   filter: drop-shadow($xaxis $yaxis $blur $color);
 }
 
@@ -28,11 +24,10 @@
   justify-content: $justify-content;
 }
 
-@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--theme-color-main)) {
+@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--clr-theme-color-main)) {
   border: $border-size $border-style $border-color;
 }
 
 @mixin border-radius($border-radius: 20%) {
   border-radius: $border-radius;
 }
-

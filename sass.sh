@@ -33,9 +33,9 @@ npm run fix:mincss
 #userPrompt
 
 echo "COMPLETED"
-userPrompt
+# userPrompt
 
-clear
-echo "Performing Cleanup"
-rm css/styling-raw.css*
-echo "Cleanup complete"
+# clear
+# echo "Performing Cleanup"
+# rm css/styling-raw.css*
+# echo "Cleanup complete"

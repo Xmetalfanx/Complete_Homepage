@@ -1,0 +1,60 @@
+@use "../01-abstracts/themes" as *;
+@use "../01-abstracts/mixins" as *;
+
+$theme-color-l: hsl(35deg 60% 96%);
+$theme-color-accent-l: hsl(25deg 69% 40%);
+$theme-color-d: hsl(0deg 0% 20%);
+
+// $theme-color-accent-d: 
+$theme-color-main: hsl(217deg 100% 9%);
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// Colors
+
+// random colors i may want to use again
+// hsl(215, 48%, 18%)
+// hsl(181, 100%, 20%)
+// hsl(25, 89%, 25%)
+
+// colors I'd want shades for 
+
+$shade-colors: (
+  "clr-black": "0, 0%, 0%",
+);
+$color-theme-2: (
+  "clr-theme-color-l":  "hsl(35, 60%, 96%)",
+  "clr-theme-color-d": "hsl(0, 0%, 20%)",
+  "clr-theme-color-accent-l": "hsl(25, 69%, 40%)",
+  // "clr-theme-color-accent-d": "hsl(0, 0%, 20%)",
+  "clr-theme-color-main": "hsl(217, 100%, 9%)",
+);
+
+:root {
+    --clr-white: hsl(0deg 0% 100%);
+    --clr-red: hsl(0deg 100% 50%);
+    --clr-maroon: hsl(0deg 100% 20%);
+    --clr-burnt-orange: hsl(17deg 100% 40%);
+    --clr-green: hsl(120deg 100% 25%);
+    --clr-forrest-green: hsl(120deg 100% 20%);
+
+    /* --clr-midnight-blue: hsl(196, 45%, 22%) */
+    --clr-rich-darkblue: hsl(206deg 55% 11%);
+
+  // Theme colors 
+  // idea: could this go in a mixin? 
+  @each $color-name, $color-value in $color-theme-2 {
+    --#{$color-name}: #{$color-value};
+  }
+
+  // For colors where i want .class shades on them
+  @each $color-name, $color-value in $shade-colors {
+    --#{$color-name}: hsl(#{$color-value});
+    --#{$color-name}-a75: hsl(#{$color-value} / 75%);
+    --#{$color-name}-a50: hsl(#{$color-value} / 50%);
+    --#{$color-name}-a25: hsl(#{$color-value} / 25%);
+    --#{$color-name}-a20: hsl(#{$color-value} / 20%);
+  }
+
+   // for the middle of the page with a lighter default background color
+   --link-color-lightBG: var(--clr-theme-color-d);
+}

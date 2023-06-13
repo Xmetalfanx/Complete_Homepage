@@ -7,7 +7,7 @@
   gap: 1.5rem;
 
   // color and font setup
-  color: var(--theme-color-d);
+  color: var(--clr-theme-color-d);
   font-family: var(--ffamily-roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
@@ -22,9 +22,10 @@
   // was there a need for grid? ...
   .card {
     @include border-radius(10px);
+    @include drop-shadow;
 
     margin: 0 auto 1.2rem;
-    outline: 1px solid var(--theme-color-main-a50);
+    outline: 1px solid var(--clr-theme-color-main);
 
     // @include drop-shadow;
 
@@ -33,7 +34,7 @@
     &--bordered {
       @extend .card;
 
-      border: 1px solid var(--theme-color-main);
+      border: 1px solid var(--clr-theme-color-main);
     }
 
     .card__header {
@@ -42,9 +43,9 @@
       @include flex(row);
 
       background-color: unset;
-      border-color: var(--theme-color-main);
+      border-color: var(--clr-theme-color-main);
       border-radius: 10px 10px 0 0;
-      color: var(--theme-color-accent-l);
+      color: var(--clr-theme-color-accent-l);
       font-weight: bold;
       font-size: var(--h4);
       padding: 1rem;
@@ -67,7 +68,7 @@
 
       // i for fork awesome graphics
       i {
-        color: var(--theme-color-l);
+        color: var(--clr-theme-color-l);
       }
 
 
@@ -83,7 +84,7 @@
     .card__body,
     .card__text {
       padding: 1rem;
-      color: var(--theme-color-d);
+      color: var(--clr-theme-color-d);
     }
   }
 
@@ -133,7 +134,7 @@
   .sidebar {
     // not sure about the placement here
     a {
-      color: var(--theme-color-d);
+      color: var(--clr-theme-color-d);
       display: block;
 
       // idea for better UX
@@ -141,8 +142,8 @@
       margin: 0.25rem 0 0.25rem 1.5rem;
 
       &:hover {
-        color: var(--theme-color-accent-l);
-        outline: 1px solid var(--theme-color-main);
+        color: var(--clr-theme-color-accent-l);
+        outline: 1px solid var(--clr-theme-color-main);
       }
     }
 

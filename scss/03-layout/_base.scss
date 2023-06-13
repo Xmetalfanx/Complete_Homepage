@@ -11,8 +11,8 @@
 
 
 body {
-  background-color: var(--theme-color-l);
-  color: var(--theme-color-d);
+  background-color: var(--clr-theme-color-l);
+  color: var(--clr-theme-color-d);
   display: grid;
 
   // grid-template: row / column
@@ -69,7 +69,7 @@ ul, ol {
     li {
       list-style: none;
       margin: 1rem;
-      outline: 1px solid var(--theme-color-d);
+      outline: 1px solid var(--clr-theme-color-d);
       padding: 1rem;
     }
 

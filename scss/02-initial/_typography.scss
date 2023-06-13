@@ -1,6 +1,6 @@
 
 p {
-  color: var(--theme-color-d);
+  color: var(--clr-theme-color-d);
 }
 
 h1,
@@ -49,12 +49,12 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--theme-color-accent-l-a75);
+    color: var(--clr-theme-color-accent-l);
   }
 }
 
 code {
-  background-color: var(--theme-color-main);
-  color: var(--theme-color-l);
+  background-color: var(--clr-theme-color-main);
+  color: var(--clr-theme-color-l);
   display: inline-block;
 }
