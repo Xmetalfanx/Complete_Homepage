@@ -22,12 +22,10 @@
   // was there a need for grid? ...
   .card {
     @include border-radius(10px);
-    @include drop-shadow;
+    @include box-shadow;
 
     margin: 0 auto 1.2rem;
     outline: 1px solid var(--clr-theme-color-main);
-
-    // @include drop-shadow;
 
     width: auto;
 
