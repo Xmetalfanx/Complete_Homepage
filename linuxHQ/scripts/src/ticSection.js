@@ -61,7 +61,7 @@ function displayTICOutput(
           <div class="card">
             <div class="card__header">${currentTICTitle}</div>
             <div class="card__body">
-              <div class="row">
+              <div class="d-flex jc-between">
                 <div class="col">
 
                   <span class="font-weight-bold">Theme has support for: </span>
