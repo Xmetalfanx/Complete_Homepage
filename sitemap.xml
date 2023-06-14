@@ -1,609 +1,532 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" >
-  <url>
-    <loc>http://xmetal.x10.mx/</loc>
-    <changefreq></changefreq>
-    <priority>1</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/index.php</loc>
-    <changefreq></changefreq>
-    <priority>0.9</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/index.php</loc>
-    <changefreq></changefreq>
-    <priority>0.9</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/distroHome.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/desktopsIndex.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/tutorialIndex.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tic/TICHome.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/softwareIndex.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/techcenter/techCenterIndex.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/browsers/browserIndex.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/security/securityIndex.php</loc>
-    <changefreq></changefreq>
-    <priority>0.8</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/archLinux.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/archBang.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/endeavouros.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/antix.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/crunchbangplusplus.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/deepn.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/makulu.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/solydxk.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/sparkylinux.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/elementaryOS.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/neon.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/kubuntu.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxLite.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxMint.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/LXLE.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/lubuntu.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/peppermint.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntu.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuBudgie.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuMate.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/xubuntu.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/zorin.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/fedora.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/gecko.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/openSuse.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/centOS.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/mageia.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/openMandriva.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/PCLinuxOS.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/ROSA.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/gentoo/calculate.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/gentoo/gentoo.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/gentoo/sabayon.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/independent/solus.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/distros/independent/puppyLinux.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/budgie.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/cinnamon.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/gnome.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/KDE.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/mate.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/openbox.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/LXDE.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/desktops/XFCE.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/WhatIsLinux.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/liveVersion.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/partitions.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/commonTerms.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/familiarSoftware.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/DesktopE.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/myRecommendedDistros.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/linuxPros.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/linuxCons.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/addingAURtoArch.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/optimizingPacman.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tutorials/upgradingDebianBranches.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tic/themes/arc.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tic/themes/minty.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/linuxHQ/tic/themes/numix.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/graphics/editors.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/graphics/optimizers.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/graphics/viewers.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/multimedia/media_players_audio.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/multimedia/media_players_video.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/multimedia/multimediaVarious.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/multimedia/videoEditing.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/product/coding.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/product/office.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/product/pdfRelated.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/product/txteditor.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/product/various.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/security/firewalls.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/sTools/archivers.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/sTools/burners.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/sTools/defrag.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/sTools/systemSuites.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/software/sTools/taskManagers.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/techcenter/multimedia/id3tags.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/browsers/browserList.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/browsers/addons/browserAddons.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/browsers/adblocking/UblockTutorial.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/browsers/adblocking/noopExplained.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/browsers/adblocking/exampleCases.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/security/internetProtection.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
-  <url>
-    <loc>http://xmetal.x10.mx/techHQ/security/infectionProtection.php</loc>
-    <changefreq></changefreq>
-    <priority>0.7</priority>
-    <lastmod>2021-07-05</lastmod>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://xmetal.x10.mx/</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/index.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/index.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/softwareIndex.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/techcenter/techCenterIndex.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/browsers/browserIndex.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/security/securityIndex.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/distroHome.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/desktopsIndex.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/tutorialIndex.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tic/TICHome.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/graphics/editors.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/graphics/optimizers.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/graphics/viewers.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/multimedia/media_players_audio.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/multimedia/media_players_video.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/multimedia/multimediaVarious.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/multimedia/videoEditing.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/product/coding.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/product/office.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/product/pdfRelated.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/product/txteditor.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/product/various.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/security/firewalls.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/sTools/archivers.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/sTools/burners.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/sTools/defrag.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/sTools/systemSuites.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/software/sTools/taskManagers.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/techcenter/multimedia/id3tags.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/browsers/browserList.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/browsers/addons/browserAddons.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/browsers/adblocking/UblockTutorial.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/browsers/adblocking/noopExplained.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/browsers/adblocking/exampleCases.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/security/internetProtection.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/techHQ/security/infectionProtection.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/archLinux.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/archBang.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/endeavouros.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/arch/manjaro.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/antix.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/bunsenlabs.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/crunchbangplusplus.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/debian.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/deepn.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/lmde.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/makulu.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/mxlinux.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/solydxk.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/debian/sparkylinux.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/elementaryOS.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/neon.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/kubuntu.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxLite.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/linuxMint.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/LXLE.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/lubuntu.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntu.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuBudgie.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuCinnamon.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuDDE.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuMate.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/ubuntuUnity.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/xubuntu.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/ubuntu/zorin.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/fedora.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/gecko.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/openSuse.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/centOS.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/mageia.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/openMandriva.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/PCLinuxOS.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/rpm/ROSA.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/gentoo/calculate.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/gentoo/gentoo.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/gentoo/sabayon.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/independent/solus.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/independent/kaOS.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/distros/independent/puppyLinux.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/budgie.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/cinnamon.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/gnome.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/KDE.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/mate.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/openbox.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/LXDE.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/desktops/XFCE.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/WhatIsLinux.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/liveVersion.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/partitions.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/commonTerms.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/familiarSoftware.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/DesktopE.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/myRecommendedDistros.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/LinuxVsWindows.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/linuxPros.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/newUserHQ/linuxCons.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/addingAURtoArch.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/optimizingPacman.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tutorials/upgradingDebianBranches.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tic/themes/arc.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tic/themes/minty.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://xmetal.x10.mx/linuxHQ/tic/themes/numix.php</loc>
+  <lastmod>2023-06-14T04:38:39+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
