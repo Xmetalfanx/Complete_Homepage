@@ -40,34 +40,37 @@ function displayDistroOutput(
     `;
 
   const currentDistroMoreInfoOutput = `
-      <div class="py-3">
-        <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}<br />
-        <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}<br />
-        <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}<br />
-      </div>
+    <div class="py-3">
+      <span class="font-weight-bold">Target Audience: </span>${currentDistroTargetAudience}<br />
+      <span class="font-weight-bold">Featured Desktops: </span>${currentDistroFeaturesDesktops}<br />
+      <span class="font-weight-bold">Similar Distros: </span>${currentDistroSimilarDistros}<br />
+    </div> 
+    
     `;
 
     const currentDistroYTOutput = `
-    <div class="yt-container">
-      <div class="header">Youtube Playlists</div>  
-      <div class="yt-playlist">   
-        <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-      </div>
-
-
-      <div class="d-lg-none d-xs-block p-3">
-        <div>
-            <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
+    
+      <div class="yt-container">
+        <div class="header">Youtube Playlists</div>  
+        <div class="yt-playlist">   
+          <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTReviewPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          
+          <iframe class="YT-playlist-tn" src="${YTPLEmbeddedBase}${currentDistroYTTipsPLaylist}" target="_blank" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        
+          <div class="d-xs-block d-lg-none p-3">
+            <div>
+                <a href="${YTPLBase}${currentDistroYTReviewPLaylist}" target="_blank" rel='noreferrer'>Youtube Review/Walkthrough/Comments Playlist </a>
+            </div>
+            <div>
+                <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
+            </div>
+          </div>
         </div>
-        <div>
-            <a href="${YTPLBase}${currentDistroYTTipsPLaylist}" target="_blank" rel='noreferrer'>Youtube Tips/Tricks/Tutorial Playlist</a>
-        </div>
-      </div>
 
+
+      
       <div class="header"> Linux/Tech Youtubers </div> 
-      <div class="yt-content-creators">
-
+      <div class="yt-content-creators d-xs-none d-md-block">
         <div class="card">
           <div class="card__body">
             <a href="https://www.youtube.com/@destinationlinux" target="_blank">    
@@ -137,61 +140,54 @@ function displayDistroOutput(
     `;
 
   // Oct 2021: empty div needed for CSS alignment
-  const currentDistoHeaderOutput = `
-      <div class="card__header">
-        <div>
-          <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
-          ${currentDistroTitle}
-        </div>
-
-        <div>
-        </div>
+    const currentDistoHeaderOutput = `
+    <div class="card__header">
+      <div>
+        <img src="${distroGraphics}${currentDistroIcon}" alt="${currentDistroTitle} icon" class="icon--size48">
+        ${currentDistroTitle}
       </div>
-  `;
+    </div>
+    `;
 
   const currentDistroInfoOutput = `
 
-      <div class="card">${currentDistoHeaderOutput}
-        <div class="card__body">
+    <div class="card">${currentDistoHeaderOutput}
+      <div class="card__body">
+        <!-- For both col's (so to speak) -->
+        <div class="d-flex jc-space-between">
+          <!-- for left hand col ... left of the screenshots -->
+          <div class="d-md-inline-block">
 
-            <!-- For both col's (so to speak) -->
-            <div class="d-flex jc-space-between">
+            <span class="font-weight-bold">Homepage: </span>
+            <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage
+            </a>
+            <br/>
 
-            <!-- for left hand col ... left of the screenshots -->
-            <div class="d-md-inline-block">
+            <span class="font-weight-bold">Download: </span>
+                <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page
+                </a><br/>
 
-                <span class="font-weight-bold">Homepage: </span>
-                    <a href="${currentDistroHomepage}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Homepage
-                    </a><br/>
+            <span class="font-weight-bold">Forums:</span>
+                <a href="${currentDistroForum}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Forum</a><br/>
 
-                <span class="font-weight-bold">Download: </span>
-                    <a href="${currentDistroDownload}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Download Page
-                    </a><br/>
-
-                <span class="font-weight-bold">Forums:</span>
-                    <a href="${currentDistroForum}" target="_blank" rel='noreferrer'>${currentDistroTitle}'s Forum</a><br/>
-
-                <span class="font-weight-bold">Distrowatch Page: </span>
-                    <a href="${DWPage}${currentDistroName}" blank="_blank" rel='noreferrer'>${currentDistroTitle} Distrowatch Link
+            <span class="font-weight-bold">Distrowatch Page: </span>
+                <a href="${DWPage}${currentDistroName}" blank="_blank" rel='noreferrer'>${currentDistroTitle} Distrowatch Link
                     </a>
 
-                <div class="py-3">
-                  <h4> Versions</h4>
-                  <span class="font-weight-bold">Latest Version:</span> ${currentDistroLatestVersions} <br />
-                  <span class="font-weight-bold">Currently Supported Versions: </span>${currentDistroSupportedVersions} <br />
-                </div>
+            <div class="py-3">
+              <h4> Versions</h4>
+              <span class="font-weight-bold">Latest Version:</span> ${currentDistroLatestVersions} <br />
+              <span class="font-weight-bold">Currently Supported Versions: </span>${currentDistroSupportedVersions} <br />
+            </div>
 
+            ${currentDistroMoreInfoOutput}
+            </div>
 
-                  ${currentDistroMoreInfoOutput}
+              <div> ${currentDistroSShotOutput}</div>
+            </div>
+                ${currentDistroYTOutput}
+
               </div>
-
-                    <div> ${currentDistroSShotOutput}</div>
-                </div>
-
-
-                    <hr /> ${currentDistroYTOutput}
-
-                </div>
             </div>
         </div>
         `;
