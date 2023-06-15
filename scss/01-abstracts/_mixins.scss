@@ -1,10 +1,5 @@
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
-@mixin dark-bg {
-  color: var(--clr-theme-color-l);
-  background-color: var(--clr-theme-color-main);
-}
-
 // because i am always forget the default values i use
 @mixin box-shadow {
   box-shadow: 0 0.5rem 1rem var(--theme-color-accent);
@@ -34,4 +29,11 @@
 
 @mixin border-radius($border-radius: 20%) {
   border-radius: $border-radius;
+}
+
+
+// Color mixins
+@mixin dark-bg {
+  color: var(--clr-theme-color-l);
+  background-color: var(--clr-theme-color-main);
 }
