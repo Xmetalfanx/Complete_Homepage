@@ -43,11 +43,11 @@
     .carousel__indicator {
       @include border-radius(50%);
 
+      background-color: var(--themeColor3);
       border: 0;
       height: 15px;
-      width: 15px;
-      background-color: var(--themeColor3);
       margin: 0 10px;
+      width: 15px;
     }
   }
 

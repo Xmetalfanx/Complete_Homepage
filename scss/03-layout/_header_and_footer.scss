@@ -5,15 +5,11 @@
 header,
 footer {
   @include flex;
-  @include dark-bg;
+  @include clr-bg-and-fg;
 
   font-family: var(--ffamily-helvetica);
   font-weight: 900;
 
-  // AC - aligns content top vs bottom on the Y axis
-
-  /* JC - Aligns horizontally .. the left item all the way to the left, and the right div item
-  (in a two div layout inside) all the way to the right */
   @include align-items-justify-content(center, space-between);
 
   h1,
@@ -25,7 +21,7 @@ footer {
   }
 
   a {
-    @include dark-bg;
+    @include clr-bg-and-fg;
 
     :hover,
     :focus {
@@ -180,13 +176,13 @@ header {
         display: none;
 
         .icon {
-          justify-content: center;
-          display: flex
+          // ... why a display of flex here?
+          @include flex(row, nowrap, center); 
         }
       }
 
       &.responsive {
-        @include flex(column);
+        @include flex(column, nowrap, normal);
 
         position: relative;
         z-index: 10;

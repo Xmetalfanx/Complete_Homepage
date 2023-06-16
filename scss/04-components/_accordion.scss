@@ -7,7 +7,7 @@ input {
 
 // ?? is this too global now?
 label {
-  @include dark-bg;
+  @include clr-bg-and-fg;
 
   display: block;
   font-weight: 700;

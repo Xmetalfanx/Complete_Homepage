@@ -14,15 +14,13 @@
 
 
 .yt-container {
-  @include flex(column, wrap);
+  @include flex(column, wrap, normal);
 
   .header { margin: 0; }
 
   .yt-playlist,
   .yt-content-creators {
-    @include flex(row, wrap);
-
-    justify-content: space-evenly;
+    @include flex(row, wrap, space-evenly);
   }
 
   .yt-playlist {

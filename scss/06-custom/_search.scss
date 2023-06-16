@@ -18,11 +18,11 @@
 
 /*** DuckDuckGo search ***/
 .searchbar-container {
-  @include align-items-justify-content(center, center);
+  @include flex(row, nowrap, center);
 
-  display: flex;
+  align-items: center
 
-  // ?? isn't this for grid, not flex? ... or is the mixin for both? 
+  /* ?? isn't this for grid, not flex? ... or is the mixin for both? */
   @include span2;
 
   > * {

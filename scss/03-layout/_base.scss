@@ -11,8 +11,8 @@
 
 
 body {
-  background-color: var(--clr-theme-color-l);
-  color: var(--clr-theme-color-d);
+  @include clr-bg-and-fg(var(--clr-theme-color-l), var(--clr-theme-color-d));
+  
   display: grid;
 
   // grid-template: row / column
@@ -34,7 +34,7 @@ body {
 
 // i totally forgot what this is for
 // ::selection {
-//   @include dark-bg;
+//   @include clr-bg-and-fg;
 // }
 
 .card {
@@ -62,9 +62,7 @@ ul, ol {
 
 
   .list-wide {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    @include flex(row, wrap, center);
 
     li {
       list-style: none;

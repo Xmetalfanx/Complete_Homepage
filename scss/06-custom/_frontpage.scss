@@ -34,13 +34,12 @@
 
 .git-section,
 .site-section {
-  @include flex(row, wrap);
+  @include flex(row, wrap, space-around);
 
-  justify-content: space-around;
   gap: 2rem;
 
   @media ($breakpoint-md) {
-    @include flex(column);
+    @include flex(column, nowrap, normal);
   }
 
   p {
@@ -79,9 +78,9 @@
   }
 
   .git-icons {
+    @include flex(row, nowrap, space-around);
+
     color: var(--clr-theme-color-d);
-    display: flex;
-    justify-content: space-around;
     margin-bottom: 0.5rem;
 
     a {
@@ -118,13 +117,14 @@
 
   section {
     .section-title {
-      background-color: hsl(33deg 100% 88%);
+      @include clr-bg-and-fg(transparent, hsl(33deg 100% 88%));
+      
       border-radius: 1rem;
       display: block;
       margin: 1rem 0;
       padding: .5rem 1rem;
 
-      @include drop-shadow(2px, 2px, 10px, var(--clr-theme-color-d));
+      @include drop-shadow(1px, 1px, 5px, var(--clr-theme-color-main) / 50%);
 
         a {
           color: var(--clr-theme-color-d);

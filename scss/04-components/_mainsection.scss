@@ -35,10 +35,10 @@
     }
 
     .card__header {
-      @include dark-bg;
-      @include align-items-justify-content(center, space-between);
-      @include flex(row);
+      @include clr-bg-and-fg;
+      @include flex(row, nowrap, space-between);
 
+      align-items: center;
       background-color: unset;
       border-color: var(--clr-theme-color-main);
       border-radius: 10px 10px 0 0;

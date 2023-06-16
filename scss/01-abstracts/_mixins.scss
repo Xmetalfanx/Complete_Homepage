@@ -13,14 +13,22 @@
   grid-column: span 2;
 }
 
-@mixin flex($flex-direction: row, $flex-wrap: nowrap) {
+@mixin flex($flex-direction: row, $flex-wrap: nowrap, $jc: normal) {
   display: flex;
   flex-flow: $flex-direction $flex-wrap;
+  justify-content: $jc;
 }
 
 @mixin align-items-justify-content($align-items, $justify-content) {
   align-items: $align-items;
   justify-content: $justify-content;
+}
+
+// shorthand for
+// align-content:  (aligns top to bottom on a "y" axis) and
+// justify-content which aligns along the "x-axis" 
+@mixin place-content($ac: normal, $jc: normal) {
+  place-content: $ac $jc;
 }
 
 @mixin border($border-size: 1px, $border-style: solid, $border-color: var(--clr-theme-color-main)) {
@@ -33,7 +41,7 @@
 
 
 // Color mixins
-@mixin dark-bg {
-  color: var(--clr-theme-color-l);
-  background-color: var(--clr-theme-color-main);
+@mixin clr-bg-and-fg($bg: var(--clr-theme-color-main), $color:var(--clr-theme-color-l) ) {
+  background-color:$bg ;
+  color: $color;
 }
