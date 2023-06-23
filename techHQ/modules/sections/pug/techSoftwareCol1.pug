@@ -55,10 +55,9 @@ a(href='/techHQ/software/softwareIndex.php') Software Home:
     a(href='/techHQ/software/sTools/taskManagers.php') Task Manager
 
 .accordion
-  .accordion-content
-    .card.d-none.d-md-block
-      .card__header.card__header--dark-bg External Links
-      .card__body
+  input#externalLinks(type="checkbox")
+  label(for="externalLinks") External Links
+      .accordion-content
         a(href='http://www.majorgeeks.com', target='_blank', rel="noreferrer")
           img.img-fluid(src='/techHQ/graphics/portals/mg_logo_trns.gif', alt='MajorGeek.com graphic/link')
         a(href='http://www.snapfiles.com', target='_blank', rel="noreferrer" )
