@@ -6,12 +6,6 @@
   display: grid;
   gap: 1.5rem;
 
-  // color and font setup
-  color: var(--clr-theme-color-d);
-  font-family: var(--ffamily-roboto);
-  font-size: var(--fs-normal);
-  font-weight: 400;
-
   // for the grid above this
   grid-area: main-section;
   line-height: 1.6;
@@ -31,23 +25,24 @@
     &--bordered {
       @extend .card;
 
-      border: 1px solid var(--clr-theme-color-main);
+      // should i change this to outline? 
+      @include border;
     }
 
     .card__header {
       @include clr-bg-and-fg;
       @include flex(row, nowrap, space-between);
+      @include clr-bg-and-fg(unset, var(--clr-theme-color-accent-l));
 
       align-items: center;
-      background-color: unset;
       border-color: var(--clr-theme-color-main);
       border-radius: 10px 10px 0 0;
-      color: var(--clr-theme-color-accent-l);
       font-weight: bold;
       font-size: var(--h4);
       padding: 1rem;
 
-      // FOR ALL child divs of ';card__header
+      // FOR ALL child divs of card__header
+      // June 2023 .... why div? .. could it be "> *" here?
       div {
         align-items: center;
         display: inherit;
@@ -92,8 +87,6 @@
   h3,
   h4,
   h5 {
-    // color: var(--themeColor3);
-
     a {
       padding: 0.25rem;
 
@@ -151,19 +144,19 @@
       padding: 0;
     }
 
-    @media ($breakpoint-lg) {
-      .card {
-        margin: 0 none;
+    // @media ($breakpoint-lg) {
+    //   .card {
+    //     margin: 0 none;
 
-        // why is this here? ...
-        // could i make this more generic andremove this? (move it to the higest level"card__body"
-        .card__body {
-          a {
-            display: inline-block;
-          }
-        }
-      }
-    }
+    //     // why is this here? ...
+    //     // could i make this more generic andremove this? (move it to the higest level"card__body"
+    //     .card__body {
+    //       a {
+    //         display: inline-block;
+    //       }
+    //     }
+    //   }
+    // }
 
   }
 

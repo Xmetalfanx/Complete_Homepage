@@ -41,7 +41,7 @@
 
 
 // Color mixins
-@mixin clr-bg-and-fg($bg: var(--clr-theme-color-main), $color:var(--clr-theme-color-l) ) {
-  background-color:$bg ;
-  color: $color;
+@mixin clr-bg-and-fg($bg: var(--clr-theme-color-main), $fg:var(--clr-theme-color-l) ) {
+  background-color:$bg;
+  color: $fg;
 }

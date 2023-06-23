@@ -23,6 +23,13 @@ body {
     "footer";
   min-height: 100%;
 
+  // color and font setup
+  color: var(--clr-theme-color-d);
+  font-family: var(--ffamily-roboto);
+  font-size: var(--fs-normal);
+  font-weight: 400;
+  
+
   @media ($breakpoint-md) {
       grid-template: auto 1fr / 1fr;
       grid-template-areas:
