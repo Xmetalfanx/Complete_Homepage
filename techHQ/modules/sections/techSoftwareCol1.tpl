@@ -49,8 +49,17 @@
     <a href="/techHQ/software/sTools/taskManagers.php">Task Manager</a>
   </div>
 </div>
-<div class="accordion">
+<div class="accordion d-none d-lg-block">
   <input id="externalLinks" type="checkbox">
   <label for="externalLinks">External Links</label>
-  <div class="accordion-content"><a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer"><img class="img-fluid" src="/techHQ/graphics/portals/mg_logo_trns.gif" alt="MajorGeek.com graphic/link"></a><a href="http://www.snapfiles.com" target="_blank" rel="noreferrer"><img class="img-fluid" src="/techHQ/graphics/portals/snapfiles_freedlani.gif" alt="Snapfiles graphic/link"></a><a href="http://www.softpedia.com" target="_blank" rel="noreferrer"><img src="/techHQ/graphics/portals/softpedia_logo.gif" alt="SoftPedia graphic/link"></a><br/><a href="http://www.neowin.net/">NeoWin</a></div>
+  <div class="accordion-content mx-auto">
+  <a href="http://www.majorgeeks.com" target="_blank" rel="noreferrer">
+    <img class="img-fluid" src="/techHQ/graphics/portals/MajorGeeks.png" alt="MajorGeek.com graphic/link"></a>
+  
+  <a href="http://www.snapfiles.com" target="_blank" rel="noreferrer">
+    <img class="img-fluid" src="/techHQ/graphics/portals/sflogo.png" alt="Snapfiles graphic/link"></a>
+  
+  <a href="http://www.softpedia.com" target="_blank" rel="noreferrer">
+    <img src="/techHQ/graphics/portals/softpedia.png" alt="SoftPedia graphic/link"></a><br/>
+  </div>
 </div>
