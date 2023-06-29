@@ -1,38 +1,24 @@
-h2 Security Related Items
+div.primary-content-h1 Overall Security Tips
 
-p Remember - Just because your anti-virus or malware scanner says you:
-ul
-  li "Are infected" does not make it true, if it is a poor scanner
-  li "Are not infected" does not mean you are not, again ... if its a poor scanner
+ol
+  li COMMON SENSE
+  li While I'd never say "forget security software, just use common sense alone".... do not underestimate this.
+  li Sure Some products are “snake-oil”, but there are trusted names in the field that are a different sort of security product
 
-h3 Overall Security Tips
+div.primary-content-h1 Use a Good Anti-virus
 
-ol 
-  li 
-    strong COMMON SENSE
-    div While I'd never say "forget security software, just use common sense alone".... do not underestimate this.
-    | Sure SOME products are "snake oil", but there are some trusted names in the fields of different sorts of security products
-  li
-    strong Use a Good Anti-Virus
-    div Here are two good, free options:
-    .row
-      .col 
-        ul
-          li 
-            a(href='https://support.kaspersky.com/us/kscloud' target='_blank')
-              img.icon--size32.mr-2(src='/techHQ/progIcons/security/AVs/kaspersky.png' alt='Kaspersky Security Cloud graphics')
-              | Kaspersky Security Cloud
-      .col
-        ul
-          li 
-            a(href='https://www.bitdefender.com/solutions/free.html' target='_blank')
-              img.icon--size32.mr-2(src='/techHQ/progIcons/security/AVs/bitDefender.png' alt='Bit Defender Free graphic')
-              | Bit Defender Free
+// I need to figure out a way to make these like the "buttons" in Figma, but not catching all say ul~>li's
+// idea: use a container?
+div.btn-container
+  ul
+    li Kaspersky Free
+    li Bit Defender Free
 
+div.primary-content-h1 Use a good "second opinion" Malware/Rootkit Scanner
 
-
-
-//- <?php
-//-     include $rootDir . "/techHQ/security/sections/malwareScanners.php";
-//-     include $rootDir . "/techHQ/security/sections/specialityScanners.php";
-//- ?>
+div.btn-container
+  ul
+    li Eminsoft Anti-Malware
+    li Zemana AntiMalware
+    li Hitman Pro
+    li Norton Power Eraser

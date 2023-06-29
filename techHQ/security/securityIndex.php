@@ -32,17 +32,13 @@
   </li>
   <li><strong>Use a Good Anti-Virus</strong>
     <div>Here are two good, free options:</div>
-    <div class="row">
-      <div class="col"> 
+    <div class="btn-container">
         <ul>
           <li> <a href="https://support.kaspersky.com/us/kscloud" target="_blank"><img class="icon--size32 mr-2" src="/techHQ/progIcons/security/AVs/kaspersky.png" alt="Kaspersky Security Cloud graphics">Kaspersky Security Cloud</a></li>
         </ul>
-      </div>
-      <div class="col">
         <ul>
           <li> <a href="https://www.bitdefender.com/solutions/free.html" target="_blank"><img class="icon--size32 mr-2" src="/techHQ/progIcons/security/AVs/bitDefender.png" alt="Bit Defender Free graphic">Bit Defender Free</a></li>
         </ul>
-      </div>
     </div>
   </li>
 </ol>
