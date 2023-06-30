@@ -1,8 +1,8 @@
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
 // because i am always forget the default values i use
-@mixin box-shadow {
-  box-shadow: 0 0.5rem 1rem var(--theme-color-accent);
+@mixin box-shadow($xaxis: 0. $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-main)) {
+  box-shadow: $xaxis $yaxis $blur $color;
 }
 
 @mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-color-d)) {
@@ -35,6 +35,7 @@
   border: $border-size $border-style $border-color;
 }
 
+// is this mixing even needed? ... i suppose because i keep forgetting the default that i like to use maybe 
 @mixin border-radius($border-radius: 20%) {
   border-radius: $border-radius;
 }

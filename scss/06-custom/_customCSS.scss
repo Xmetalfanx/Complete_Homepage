@@ -133,3 +133,32 @@ figcaption,
 
 }
 
+// note to self: redo with mixin's later
+section {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+
+  .section-title {
+    color: var(--clr-theme-color-accent-l);
+    font-size: var(--h3);
+    font-weight: 600;
+
+      a {
+        color: inherit;
+      }
+
+      a:hover,
+      a:focus {
+        color: var(--clr-theme-color-accent-d);
+      }
+  }
+
+  .section-body {
+    > * {
+      margin: 1rem 0;
+    }
+  }
+
+
+}
