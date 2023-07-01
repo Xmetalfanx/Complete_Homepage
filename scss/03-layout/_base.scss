@@ -11,7 +11,7 @@
 
 
 body {
-  @include clr-bg-and-fg(var(--clr-theme-color-l), var(--clr-theme-color-d));
+  @include clr-bg-and-fg(var(--clr-theme-l), var(--clr-theme-d));
   
   display: grid;
 
@@ -24,7 +24,7 @@ body {
   min-height: 100%;
 
   // color and font setup
-  color: var(--clr-theme-color-d);
+  color: var(--clr-theme-d);
   font-family: var(--ffamily-roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
@@ -74,7 +74,7 @@ ul, ol {
     li {
       list-style: none;
       margin: 1rem;
-      outline: 1px solid var(--clr-theme-color-d);
+      outline: 1px solid var(--clr-theme-d);
       padding: 1rem;
     }
 

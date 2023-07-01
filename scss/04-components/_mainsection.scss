@@ -19,7 +19,7 @@
     @include box-shadow;
 
     margin: 0 auto 1.2rem;
-    outline: 1px solid var(--clr-theme-color-main);
+    outline: 1px solid var(--clr-theme-main);
     width: auto;
 
     &--bordered {
@@ -32,10 +32,10 @@
     .card__header {
       @include clr-bg-and-fg;
       @include flex(row, nowrap, space-between);
-      @include clr-bg-and-fg(unset, var(--clr-theme-color-accent-l));
+      @include clr-bg-and-fg(unset, var(--clr-theme-accent-l));
 
       align-items: center;
-      border-color: var(--clr-theme-color-main);
+      border-color: var(--clr-theme-main);
       border-radius: 10px 10px 0 0;
       font-weight: bold;
       font-size: var(--h4);
@@ -60,7 +60,7 @@
 
       // i for fork awesome graphics
       i {
-        color: var(--clr-theme-color-l);
+        color: var(--clr-theme-l);
       }
 
 
@@ -76,7 +76,7 @@
     .card__body,
     .card__text {
       padding: 1rem;
-      color: var(--clr-theme-color-d);
+      color: var(--clr-theme-d);
     }
   }
 
@@ -117,7 +117,7 @@
       padding: 0.25rem;
 
       &:hover {
-        outline: 1px solid var(--clr-theme-color-accent-l);
+        outline: 1px solid var(--clr-theme-accent-l);
         text-decoration: none;
       }
     }
@@ -150,7 +150,7 @@
   .sidebar {
     // not sure about the placement here
     a {
-      color: var(--clr-theme-color-d);
+      color: var(--clr-theme-d);
       display: block;
 
       // idea for better UX
@@ -158,8 +158,8 @@
       margin: 0.25rem 0 0.25rem 1.5rem;
 
       &:hover {
-        color: var(--clr-theme-color-accent-l);
-        outline: 1px solid var(--clr-theme-color-main);
+        color: var(--clr-theme-accent-l);
+        outline: 1px solid var(--clr-theme-main);
       }
     }
 

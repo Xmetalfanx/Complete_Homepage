@@ -17,8 +17,8 @@ footer {
 
     :hover,
     :focus {
-      color: var(--clr-theme-color-d);
-      outline: 1px dotted var(--clr-theme-color-d);
+      color: var(--clr-theme-d);
+      outline: 1px dotted var(--clr-theme-d);
     }
   }
 
@@ -74,10 +74,10 @@ footer {
 
 
 header {
-  box-shadow: (2px 2px 5px var(--clr-theme-color-main));
+  box-shadow: (2px 2px 5px var(--clr-theme-main));
   padding: 1.75rem;
 
-  // text-shadow: 2px 5px var(--clr-theme-color-d);
+  // text-shadow: 2px 5px var(--clr-theme-d);
   grid-area: header;
 
   // Xmetal Homepage, LinuxHQ or TechHQ title section
@@ -141,7 +141,7 @@ header {
         width: 100%;
         height: 100%;
         z-index: 10;
-        background: var(--clr-theme-color-main);
+        background: var(--clr-theme-main);
         text-align: center;
 
         // justify-content: center;

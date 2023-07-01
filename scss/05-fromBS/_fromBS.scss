@@ -77,7 +77,7 @@
 
 /// not from bootstrap ... not sure why it's here
 .border--dark {
-  border-color: var(--clr-theme-color-main);
+  border-color: var(--clr-theme-main);
 }
 
 /////////////////////////////////////////////////////////////////
@@ -96,5 +96,5 @@
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  outline: 1px solid var(--clr-theme-color-accent-l);
+  outline: 1px solid var(--clr-theme-accent-l);
 }
