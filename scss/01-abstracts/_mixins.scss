@@ -1,7 +1,7 @@
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
 // because i am always forget the default values i use
-@mixin box-shadow($xaxis: 0. $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-main)) {
+@mixin box-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-main)) {
   box-shadow: $xaxis $yaxis $blur $color;
 }
 

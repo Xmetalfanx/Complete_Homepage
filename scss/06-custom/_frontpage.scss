@@ -2,194 +2,98 @@
 
 // Things specific to the landing page of the site
 
+// just for the main title on the frontpage only 
 .frontpage-header-title {
   margin: 0.5rem auto;
   font-weight: 900;
   font-size: var(--h2);
 }
 
+// Entire Frontpage between header and footer 
 .frontpage-section {
-  // for the divider in the middle of the page (for now)
-  .frontpage-title {
-    font-size: var(--h3);
-    font-weight: 600;
-    margin: 1rem .5rem;
-  }
+  display: grid;
+  grid-template-areas: 
+      "site-sections frontpage-graphic"
+      "git-section git-section"
+  ;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 
+  // this is the name of the parent div
+  .frontpage-graphic {
+    grid-area: frontpage-graphic;
 
-  // why is this here?
-  ol,
-  ul,
-  dl {
-    margin-bottom: 1rem;
-    margin-top: 0;
+    img {
+      margin: 0 auto;
+      width: min(650px, 80%);
+    }
 
-    li {
-      margin-left: 1.4rem;
+    @media ($breakpoint-lg) {
+      display: none;
     }
   }
 
-
-}
-
-.git-section,
-.site-section {
-  @include flex(row, wrap, space-around);
-
-  gap: 2rem;
-
-  @media ($breakpoint-md) {
-    @include flex(column, nowrap, normal);
-  }
-
-  p {
-    max-width: 75ch;
-  }
-
-  .card--bordered {
-    box-shadow: none;
-
-    .card__header {
-      justify-content: center;
+  .site-sections {
+    grid-area: site-sections;
+    
+    section {
+      @include box-shadow(2px, 2px, 5px, var(--clr-theme-color-main));  
     }
+  }
 
-    .card__body {
-      font-weight: 500;
+  .git-section {
+    grid-area: git-section;
 
-      // in case i remove Bootstrap
-      .img-fluid {
-        height: auto;
-        max-width: 80%;
+  
+    .git-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      @media ($breakpoint-lg) {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: unset;
+        gap: 2rem;
       }
     }
 
-    // @media ($breakpoint-lg) {
-    //   .card--bordered {
-    //     width: 80%;
-    //     margin: 0 auto;
-    //   }
-    // }
-  }
-}
+    // for the divider in the middle of the page (for now)
+    // should i move this into the git-section due to my new idea to use grid? 
+    .frontpage-title {
+      font-size: var(--h3);
+      font-weight: 600;
+      margin: 1rem auto;
+      text-align: center;
+    }
 
-.git-section {
-  .card {
-    margin: 0 2rem;
-  }
-
+    .card {
+      margin: 0 2rem;
+      max-width: 45%;
+    }
+  
   .git-icons {
-    @include flex(row, nowrap, space-around);
+      @include flex(row, nowrap, space-around);
 
-    color: var(--clr-theme-color-d);
-    margin-bottom: 0.5rem;
+      color: var(--clr-theme-color-d);
+      margin-bottom: 0.5rem;
 
-    a {
-      margin: auto 1rem;
+      a {
+        margin: auto 1rem;
+      }
     }
+  
+  @media ($breakpoint-md) {
+      @include flex(column, nowrap, normal);
+    }
+
   }
+
+  .site-sections section, .git-section .card {
+      max-width: 72ch;
+      margin: 0 auto;
+
+      @media ($breakpoint-lg) {
+        grid-column: span 2;
+      }
+  }
+
 }
-
-// this is above the git section on the main page ...
-// site section and then git section under it is a part of "frontpage section"
-.site-section {
-  > * {
-    flex: 1 1 33%;
-    max-width: 72ch;
-
-    // min-width: 350px;
-
-  img {
-      max-height: 600px;
-      object-fit: contain;
-  }
-
-  }
-
-  @media ($breakpoint-lg) {
-    > div {
-      margin: 0 0.75rem;
-    }
-  }
-
-  // why is this here? ... why change the font-size ? why not use the h3 font size var?
-  // note that var is NOT 1.7rem
-
-
-  section {
-    .section-title {
-      @include clr-bg-and-fg(transparent, hsl(33deg 100% 88%));
-      
-      border-radius: 1rem;
-      display: block;
-      margin: 1rem 0;
-      padding: .5rem 1rem;
-
-      @include drop-shadow(1px, 1px, 5px, var(--clr-theme-color-main) / 50%);
-
-        a {
-          color: var(--clr-theme-color-d);
-          font-size: var(--h3);
-          font-weight: 600;
-        }
-
-        a:hover,
-        a:focus {
-          color: var(--clr-theme-color-accent-l);
-        }
-    }
-
-    .section-body {
-      > * {
-        margin: 1rem 0;
-      }
-    }
-
-    figure {
-      display: inline-block;
-
-      @media ($breakpoint-md) {
-        display: none;
-      }
-
-      > * {
-        display: flex;
-        place-items: center;
-      }
-
-      > img {
-        padding-bottom: 0.1rem;
-      }
-
-      > figcaption {
-        font-size: var(--fs-small);
-        padding-left: 2rem;
-      }
-    }
-
-
-  }
-
-  img {
-    margin: 0 auto;
-    width: 600px;
-    padding: 2rem;
-
-    @media ($breakpoint-md) {
-      max-width: 80%;
-    }
-  }
-
-  // for bigger images to the side
-  .card--bordered {
-    // zero top and bottom and auto left and right
-    margin: 0 auto;
-    width: 100%;
-
-    .card__body {
-      p {
-        margin: 10px 0;
-      }
-    }
-  }
-}
-
