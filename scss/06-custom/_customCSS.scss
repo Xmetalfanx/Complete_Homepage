@@ -140,17 +140,17 @@ section {
   border-radius: 20px;
 
   .section-title {
-    color: var(--clr-theme-color-accent-l);
     font-size: var(--h3);
     font-weight: 600;
+    color: var(--clr-theme-main);
 
-      a {
-        color: inherit;
-      }
+    a {
+      color: var(--clr-theme-accent-l);
+    }
 
       a:hover,
       a:focus {
-        color: var(--clr-theme-color-accent-d);
+        color: var(--clr-theme-accent-d);
       }
   }
 

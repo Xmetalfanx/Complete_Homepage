@@ -37,23 +37,45 @@
     grid-area: site-sections;
     
     section {
-      @include box-shadow(2px, 2px, 5px, var(--clr-theme-color-main));  
+      @include box-shadow(2px, 2px, 5px, var(--clr-theme-main));  
+
+      .section-title {
+        text-align: center;
+        margin: 1.25rem 0;
+      }
     }
   }
 
   .git-section {
     grid-area: git-section;
 
-  
-    .git-cards {
+    .git-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      gap: 5rem;
 
+      .git-group {
+        @include border;
+        @include box-shadow;
+        @include border-radius(20px);
+
+        padding: 2rem;
+        margin: 0 auto;
+        width: clamp(50%, 80%, 72ch);
+        
+        .git-section-title { 
+          @include section-title;
+        }
+      }
+
+     
       @media ($breakpoint-lg) {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: unset;
         gap: 2rem;
       }
+
+ 
     }
 
     // for the divider in the middle of the page (for now)
@@ -64,16 +86,11 @@
       margin: 1rem auto;
       text-align: center;
     }
-
-    .card {
-      margin: 0 2rem;
-      max-width: 45%;
-    }
   
   .git-icons {
       @include flex(row, nowrap, space-around);
 
-      color: var(--clr-theme-color-d);
+      color: var(--clr-theme-d);
       margin-bottom: 0.5rem;
 
       a {

@@ -5,7 +5,7 @@
   box-shadow: $xaxis $yaxis $blur $color;
 }
 
-@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-color-d)) {
+@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-d)) {
   filter: drop-shadow($xaxis $yaxis $blur $color);
 }
 
@@ -31,7 +31,7 @@
   place-content: $ac $jc;
 }
 
-@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--clr-theme-color-main)) {
+@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--clr-theme-main)) {
   border: $border-size $border-style $border-color;
 }
 
@@ -42,7 +42,14 @@
 
 
 // Color mixins
-@mixin clr-bg-and-fg($bg: var(--clr-theme-color-main), $fg:var(--clr-theme-color-l) ) {
+@mixin clr-bg-and-fg($bg: var(--clr-theme-main), $fg:var(--clr-theme-l) ) {
   background-color:$bg;
   color: $fg;
+}
+
+// idea only: 
+@mixin section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 1rem auto;
 }
