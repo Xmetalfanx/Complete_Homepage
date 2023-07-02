@@ -19,6 +19,15 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 
+  .site-sections section {
+    max-width: 72ch;
+    margin: 0 auto;
+
+    @media ($breakpoint-lg) {
+      grid-column: span 2;
+    }
+  }
+
   // this is the name of the parent div
   .frontpage-graphic {
     grid-area: frontpage-graphic;
@@ -38,6 +47,9 @@
     
     section {
       @include box-shadow(2px, 2px, 5px, var(--clr-theme-main));  
+
+      background-color: var(--clr-white);
+      margin: 2rem auto !important; 
 
       .section-title {
         text-align: center;
@@ -59,6 +71,7 @@
         @include box-shadow;
         @include border-radius(20px);
 
+        background-color: var(--clr-white);
         padding: 2rem;
         margin: 0 auto;
         width: clamp(50%, 80%, 72ch);
@@ -66,6 +79,21 @@
         .git-section-title { 
           @include section-title;
         }
+
+  
+        .git-icons {
+          @include flex(row, nowrap, space-around);
+    
+          margin-bottom: 0.5rem;
+    
+          a {
+            color: var(--clr-theme-accent-l);
+            margin: auto 1rem;
+    
+            &:hover { color: var(--clr-theme-main);}
+          }
+        }
+
       }
 
      
@@ -74,43 +102,21 @@
         grid-template-columns: unset;
         gap: 2rem;
       }
-
- 
     }
 
     // for the divider in the middle of the page (for now)
     // should i move this into the git-section due to my new idea to use grid? 
-    .frontpage-title {
+   .frontpage-title {
       font-size: var(--h3);
       font-weight: 600;
       margin: 1rem auto;
       text-align: center;
     }
   
-  .git-icons {
-      @include flex(row, nowrap, space-around);
-
-      color: var(--clr-theme-d);
-      margin-bottom: 0.5rem;
-
-      a {
-        margin: auto 1rem;
-      }
-    }
-  
   @media ($breakpoint-md) {
       @include flex(column, nowrap, normal);
     }
 
-  }
-
-  .site-sections section, .git-section .card {
-      max-width: 72ch;
-      margin: 0 auto;
-
-      @media ($breakpoint-lg) {
-        grid-column: span 2;
-      }
   }
 
 }
