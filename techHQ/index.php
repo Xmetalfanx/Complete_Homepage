@@ -19,31 +19,49 @@
 ?>
 
 
-<div class="d-none d-md-flex flex-dir-columns jc-center">
-  <div class="h3 text-center">Educational Sites</div>
-  <div class="list-container">
-    <ul>
-      <li> 
-        <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
-          <img class="img-fluid" src="/techHQ/graphics/khan-academy.svg" alt="Khan Academy website Graphic"></a></li>
-      <li> 
-        <a href="https://www.digitalocean.com/community/" target="_blank" rel="noreferrer" aria-label="Link to Digital Ocean">
-          <img class="img-fluid" src="/techHQ/graphics/digitalOcean.png" alt="Digital Ocean website Graphic"></a></li>
-      <li> 
-        <a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com">
-          <img class="img-fluid" src="/graphics/mathandscience.png" alt="Science and Math.com website graphics" loading="lazy">
-        </a>
-      </li>
-    </ul>
+
+<div class="d-flex">
+  <div class="card">
+    <div class="card__header">Sections</div>
+    <div class="card__body">
+      <ul>
+        <li>Browser and Browser Add-on Suggestions</li>
+        <li>Software including Linux/Windows cross platform options</li>
+        <li>Security related suggestions to keep users safe and secure</li>
+        <li>A Tech Section with how-to’s and guides, to help people get the most out of their computer and have fun while doing it</li>
+      </ul>
+    </div>
   </div>
-  
-  <div class="h3 text-center">Learning Linux</div>
-  <div class="h4 text-center">Learning the Commandline</div>
-  <div class="list-container">
-    <ul>
-      <li> <a href="https://linuxjourney.com/" target="_blank"></a><img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png" alt="Graphic link to Linux Journey website"></li>
-      <li> <a href="http://www.explainshell.com" target="_blank"><img class="d-none d-md-block img-fluid" src="../graphics/explainshell.png" alt="graphic link to Explain Shell.com website"></a></li>
-    </ul>
+  <div>
+    <img class="thumbnail--lg mx-auto" src="/graphics/unsplash/landscape/city1.jpg"></div>
+</div>
+
+<div class="d-none d-md-flex flex-dir-columns jc-center">
+  <div class="card w-60">
+    <div class="card__header text-center">Educational Sites</div>
+    <div class="card__body">
+      <div class="list-container">
+        <ul>
+          <li><a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy"><img class="img-fluid" src="/techHQ/graphics/khan-academy.svg" alt="Khan Academy website Graphic"></a></li>
+          <li><a href="https://www.digitalocean.com/community/" target="_blank" rel="noreferrer" aria-label="Link to Digital Ocean"><img class="img-fluid" src="/techHQ/graphics/digitalOcean.png" alt="Digital Ocean website Graphic"></a></li>
+          <li><a href="http://www.scienceandmath.com/" target="_blank" rel="noreferrer" aria-label="Link to ScienceandMath.com"><img class="img-fluid" src="/graphics/mathandscience.png" alt="Science and Math.com website graphics" loading="lazy"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card"> 
+    <div class="card__header text-center">Learning Linux</div>
+    <div class="card__body"> 
+      <div class="h4 text-center">Learning the Commandline</div>
+      <div class="list-container">
+        <ul>
+          <li>
+            <a href="https://linuxjourney.com/" target="_blank"></a><img class="d-none d-md-block img-fluid" src="../graphics/linux-journey.png" alt="Graphic link to Linux Journey website"></li>
+          <li>
+            <a href="http://www.explainshell.com" target="_blank"><img class="d-none d-md-block img-fluid" src="../graphics/explainshell.png" alt="graphic link to Explain Shell.com website"></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 

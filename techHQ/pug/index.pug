@@ -1,26 +1,42 @@
+.d-flex
+  .card
+    .card__header Sections
+    .card__body
+      ul
+        li Browser and Browser Add-on Suggestions
+        li Software including Linux/Windows cross platform options
+        li Security related suggestions to keep users safe and secure
+        li A Tech Section with how-to’s and guides, to help people get the most out of their computer and have fun while doing it
+  div
+    img.thumbnail--lg.mx-auto(src='/graphics/unsplash/landscape/city1.jpg')
+
 .d-none.d-md-flex.flex-dir-columns.jc-center
-  .h3.text-center Educational Sites
+  .card.w-60
+    .card__header.text-center Educational Sites
+    .card__body
+      .list-container
+        ul
+          li
+            a(href='https://www.khanacademy.org/' target='_blank' rel='noreferrer' aria-label='Link to Khan Academy')
+              img.img-fluid(src='/techHQ/graphics/khan-academy.svg' alt='Khan Academy website Graphic')
+          li
+            a(href='https://www.digitalocean.com/community/' target='_blank' rel='noreferrer' aria-label='Link to Digital Ocean')
+              img.img-fluid(src='/techHQ/graphics/digitalOcean.png' alt='Digital Ocean website Graphic')
+          li
+            a(href='http://www.scienceandmath.com/' target='_blank' rel='noreferrer' aria-label='Link to ScienceandMath.com')
+              img.img-fluid(src='/graphics/mathandscience.png' alt='Science and Math.com website graphics' loading='lazy')
+  
 
-  .list-container
-    ul
-      li 
-        a(href='https://www.khanacademy.org/' target='_blank' rel='noreferrer' aria-label='Link to Khan Academy')
-          img.img-fluid(src='/techHQ/graphics/khan-academy.svg' alt='Khan Academy website Graphic')
-      li 
-        a(href='https://www.digitalocean.com/community/' target='_blank' rel='noreferrer' aria-label='Link to Digital Ocean')
-          img.img-fluid(src='/techHQ/graphics/digitalOcean.png' alt='Digital Ocean website Graphic')
-      li 
-        a(href='http://www.scienceandmath.com/' target='_blank' rel='noreferrer' aria-label='Link to ScienceandMath.com')
-          img.img-fluid(src='/graphics/mathandscience.png' alt='Science and Math.com website graphics' loading='lazy')
-
-  .h3.text-center Learning Linux
-  .h4.text-center Learning the Commandline
-
-  .list-container
-    ul
-      li  
-        a(href='https://linuxjourney.com/' target='_blank')
-        img.d-none.d-md-block.img-fluid(src='../graphics/linux-journey.png' alt='Graphic link to Linux Journey website')
-      li 
-        a(href='http://www.explainshell.com' target='_blank')
-          img.d-none.d-md-block.img-fluid(src='../graphics/explainshell.png' alt='graphic link to Explain Shell.com website')
+  .card 
+    .card__header.text-center Learning Linux
+    .card__body 
+      .h4.text-center Learning the Commandline
+  
+      .list-container
+        ul
+          li
+            a(href='https://linuxjourney.com/' target='_blank')
+            img.d-none.d-md-block.img-fluid(src='../graphics/linux-journey.png' alt='Graphic link to Linux Journey website')
+          li
+            a(href='http://www.explainshell.com' target='_blank')
+              img.d-none.d-md-block.img-fluid(src='../graphics/explainshell.png' alt='graphic link to Explain Shell.com website')
