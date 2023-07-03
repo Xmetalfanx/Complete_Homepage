@@ -11,7 +11,7 @@
 
 <link rel="stylesheet" href="/css/styling-min.css" >
 
-<link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>-->
 
 <script src="/scripts/topnav.js" ></script>
 
