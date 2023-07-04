@@ -19,13 +19,35 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 
-  .site-sections section {
-    max-width: 72ch;
-    margin: 0 auto;
+  @media ($breakpoint-lg) {
+    grid-template-areas: 
+      'site-sections'
+      'git-section'
+      ;    
+  };
+
+  .site-sections {
+      grid-area: site-sections;
 
     @media ($breakpoint-lg) {
       grid-column: span 2;
     }
+       
+    section {
+    @include box-shadow(2px, 2px, 5px, var(--clr-theme-main));  
+
+    background-color: var(--clr-white);
+    max-width: 72ch;
+    margin: 0 auto 2rem;
+    padding: 1rem 2rem;
+
+      .section-title {
+        text-align: center;
+        margin: 1.25rem 0;
+      }
+
+    }
+     
   }
 
   // this is the name of the parent div
@@ -42,29 +64,25 @@
     }
   }
 
-  .site-sections {
-    grid-area: site-sections;
-    
-    section {
-      @include box-shadow(2px, 2px, 5px, var(--clr-theme-main));  
-
-      background-color: var(--clr-white);
-      margin: 2rem auto !important; 
-
-      .section-title {
-        text-align: center;
-        margin: 1.25rem 0;
-      }
-    }
-  }
 
   .git-section {
     grid-area: git-section;
+
+    @media ($breakpoint-lg) {
+      grid-column: span 2;
+    }
 
     .git-container {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 5rem;
+
+
+      @media ($breakpoint-lg) {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: unset;
+        gap: 2rem;
+      }
 
       .git-group {
         @include border;
@@ -79,7 +97,6 @@
         .git-section-title { 
           @include section-title;
         }
-
   
         .git-icons {
           @include flex(row, nowrap, space-around);
@@ -94,14 +111,13 @@
           }
         }
 
+        @media ($breakpoint-md) {
+          height: fit-content;
+        }
+
       }
 
-     
-      @media ($breakpoint-lg) {
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: unset;
-        gap: 2rem;
-      }
+   
     }
 
     // for the divider in the middle of the page (for now)
@@ -113,10 +129,11 @@
       text-align: center;
     }
   
-  @media ($breakpoint-md) {
+    @media ($breakpoint-md) {
       @include flex(column, nowrap, normal);
     }
 
   }
+
 
 }
