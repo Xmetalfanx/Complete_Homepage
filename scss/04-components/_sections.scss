@@ -1,6 +1,5 @@
 @use "../01-abstracts/index" as *;
 
-
 // May 2023 note: is this hyper specific section needed? really?
 
 
@@ -27,34 +26,6 @@
 
     .card {
       min-width: unset;
-    }
-  }
-}
-
-// not sure i like how hyper specific this is but it does let me clean up bs css class calls in the html
-// location: techHQ frontpage
-.educational-sites {
-  @include span2;
-
-  // !important since the general card css with a width of "auto" takes over
-    // do i need a width on that? ...
-  width: 75% !important;
-
-  @media ($breakpoint-md) {
-    width: 90%;
-    grid-column: auto;
-
-    // why? ... is this suppose to be outside the media query?
-    a {
-      display: block;
-    }
-  }
-
-  .card__body {
-    @include flex(row, wrap, space-evenly);
-
-    * {
-      margin: 0.25rem;
     }
   }
 }
@@ -88,4 +59,80 @@
   .version {
     color: var(--clr-theme-d);
   }
+}
+
+#browser-frontpage {
+
+  h4 { color: var(--clr-theme-main); }
+
+  // useful in a few sections below 
+  .icon {
+    max-height: 32px;
+    max-width: 32px;
+  }
+
+  .btn {
+    border-radius: 20px;
+
+    @include border; 
+
+    padding: 1rem 2rem;
+    font-weight: 800;
+  }
+  
+  ul { 
+    @include flex(row, wrap, space-evenly);
+
+    li { list-style-type: none; }
+
+  }
+
+  #addons {
+    // display: flex;
+
+    .addon {
+      @include border;
+
+      border-radius: 20px;
+      padding: 3rem;
+      width: max(20%, 200px);
+
+
+      .icon {
+        display: block;
+        margin: 0 auto;
+        max-height: 128px;
+        max-width: 128px;
+
+      }
+
+      .addon-name, .addon-descript {
+        text-align: center;
+        margin: .5rem auto;
+      }
+
+      .addon-name {
+        font-weight: 800;
+      }
+
+      .addon-descript {
+        font-style: italic;
+      }
+
+      .browsers {
+        display: flex;
+
+        img {
+          max-height: 48px;
+          max-width: 48px;
+        }
+      }
+    }
+
+  }
+
+  #ytvideos {
+    display: flex;
+  }
+
 }
