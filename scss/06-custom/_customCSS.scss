@@ -3,12 +3,6 @@
 
 ///////////////////////////////////////////
 
-// for display:grid, spans two columns
-// July 2023: why is this here? ... seems like it'd be better with grid/flex stuff 
-.span2 {
-  @include span2;
-}
-
 
 /************** RSS Feed *************/
 // For gaotd too

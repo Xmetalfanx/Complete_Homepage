@@ -1,67 +1,76 @@
 #browser-frontpage
-    #browsers 
-        h3 Browsers 
-        div
-            h4 Chromium based - Blink Engine 
-            ul
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Google Chrome SVG Icon") 
-                    | Google Chrome
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/brave.png" alt="Brave Browser Icon")
-                    | Brave
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/vivaldi.svg" alt="Vivaldi Browser SVG Icon") 
-                    | Vivaldi
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/edge.png" alt="Microsoft Edge icon") 
-                    | Micrsoft Edge 
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/chromium.png" alt="Chromium/Ungoogle Chromium icon")
-                    | Ungoogled Chromium
+    #browsers
+        h3 Browsers
+        .d-flex.row-cols-2
+            div
+                h4 Chromium based - Blink Engine
+                ul
+                    li.btn
+                        a(href="https://www.google.com/chrome/index.html" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Google Chrome SVG Icon")
+                            | Google Chrome
+                    li.btn
+                        a(href="https://brave.com/" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/brave.png" alt="Brave Browser Icon")
+                            | Brave
+                    li.btn
+                        a(href="https://vivaldi.com/" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/vivaldi.svg" alt="Vivaldi Browser SVG Icon")
+                            | Vivaldi
+                    li.btn
+                        a(href="https://www.microsoft.com/en-us/edge/download?form=MA13FJ" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/edge.png" alt="Microsoft Edge icon")
+                            | Micrsoft Edge
+                    li.btn
+                        a(href="https://github.com/ungoogled-software/ungoogled-chromium" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/chromium.png" alt="Chromium/Ungoogle Chromium icon")
+                            | Ungoogled Chromium
 
-        div 
-            h4 Firefox Based - Geck Engine          
-            ul.d-flex 
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Firefox SVG icon") 
-                    | Firefox 
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers/librewolf.png" alt="LibreWolf Icon") 
-                    | LibreWolf 
+            div
+                h4 Firefox Based - Geck Engine
+                ul.d-flex
+                    li.btn
+                        a(href="https://www.mozilla.org/en-US/firefox/new/" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Firefox SVG icon")
+                            | Firefox
+                    li.btn
+                        a(href="https://librewolf.net/" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/librewolf.png" alt="LibreWolf Icon")
+                            | LibreWolf
 
-            h4 Firefox Based - Goanna Engine 
-            ul.d-flex
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers" alt="") 
-                    | Bassilik 
-                li.btn
-                    img.icon(src="/techHQ/progIcons/internet/browsers"  alt="") 
-                    | Pale Moon 
+                h4 Firefox Based - Goanna Engine
+                ul.d-flex
+                    li.btn
+                        a(href="https://www.basilisk-browser.org/" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/basilisk.png" alt="Basilisk icon")
+                            | Basilisk
+                    li.btn
+                        a(href="https://www.palemoon.org/" target="_blank")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/pm_logo.png" alt="Pale Moon Icon")
+                            | Pale Moon
     #addons
         h3 Browser Addons
-        ul.jc-start
-            li.addon
-                img.icon(src="/techHQ/browsers/addons/graphics/ublock-origin.svg" alt="Ublock Origin SVG Icon")
+        .jc-start
+            .addon
+                img.icon(src="/techHQ/browsers/graphics/icons/ublock-origin.svg" alt="Ublock Origin SVG Icon")
                 .addon-name Ublock Origin
                 .addon-descript Ad/Content Blocker
-                ul.browsers 
-                    li 
+                ul.browsers
+                    li
                         a(href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/")
                             img(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Ublock Origin Firefox")
-                    li 
+                    li
                         a(href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank")
                             img(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Ublock Origin Chrome Store")
                     li
                         a(href="https://github.com/gorhill/uBlock" target="_blank")
                             img(src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github")
-            
-            li.addon
-                img.icon(src="/techHQ/browsers/addons/graphics/bit-warden.svg" alt="Bit Warden SVG Icon")
-                .addon-name Bit Warden 
+            .addon
+                img.icon(src="/techHQ/browsers/graphics/icons/bit-warden.svg" alt="Bit Warden SVG Icon")
+                .addon-name Bit Warden
                 .addon-descript Open-Source Password Manager
-                ul.browsers 
-                    li 
+                ul.browsers
+                    li
                         a(href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/" target="_blank")
                             img(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Bit Warden Firefox")
                     li
@@ -71,12 +80,20 @@
                         a(href="https://github.com/bitwarden/clients" target="_blank")
                             img(src="/graphics/simpleIcons/github.svg" alt="Bit Warden Github")
 
-    #ytvideos 
-        h3 Youtube Videos 
+    #ytvideos
+        h3 Youtube Videos
         ul
-            li 
-            li 
             li
-            li 
+                iframe(width='560' height='315' src='https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJfqnRKGlfY-dPzJMd59HZ43' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen)
+            li
+            li
+            li
 
-    h3 Useful Browser Links
+    #usefulLinks
+        h3 Useful Browser Links
+
+        .d-flex
+            a(href="" target="_blank")
+                img(src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic")
+            a(href="" target="_blank")
+                img(src="/techHQ/graphics/privacytoolsio.png" alt="PrivacyTools.io graphic")
