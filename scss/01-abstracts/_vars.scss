@@ -2,9 +2,10 @@
 @use "_functions" as *;
 
 // breakpoints
+// consider moving sm to 480px
 $breakpoint-sm: "width <= 576px";
 $breakpoint-md: "width <= 768px";
-$breakpoint-lg: "width <= 992px";
+$breakpoint-lg: "width <= 1024px";
 $breakpoint-xl: "width <= 1200px";
 
 :root {
