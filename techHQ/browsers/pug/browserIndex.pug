@@ -1,7 +1,7 @@
 #browser-frontpage
     #browsers
         h3 Browsers
-        .d-flex.row-cols-2
+        .browserBTNs
             div
                 h4 Chromium based - Blink Engine
                 ul
@@ -28,7 +28,7 @@
 
             div
                 h4 Firefox Based - Geck Engine
-                ul.d-flex
+                ul
                     li.btn
                         a(href="https://www.mozilla.org/en-US/firefox/new/" target="_blank")
                             img.icon(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Firefox SVG icon")
@@ -39,7 +39,7 @@
                             | LibreWolf
 
                 h4 Firefox Based - Goanna Engine
-                ul.d-flex
+                ul
                     li.btn
                         a(href="https://www.basilisk-browser.org/" target="_blank")
                             img.icon(src="/techHQ/progIcons/internet/browsers/basilisk.png" alt="Basilisk icon")
@@ -67,6 +67,7 @@
                             img(src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github")
             .addon
                 img.icon(src="/techHQ/browsers/graphics/icons/bit-warden.svg" alt="Bit Warden SVG Icon")
+                
                 .addon-name Bit Warden
                 .addon-descript Open-Source Password Manager
                 ul.browsers
@@ -82,14 +83,14 @@
 
     #ytvideos
         h3 Youtube Videos
-        ul
+        ul.d-flex
             li
                 iframe(width='560' height='315' src='https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJfqnRKGlfY-dPzJMd59HZ43' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen)
             li
             li
             li
 
-    #usefulLinks
+    #useful-links
         h3 Useful Browser Links
 
         .d-flex

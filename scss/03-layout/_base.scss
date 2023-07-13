@@ -1,15 +1,5 @@
 @use "../01-abstracts/index" as *;
 
-// html {
-//   // is this needed?
-//   width: 100%;
-
-//   // here for now in case i do a light/dark theme later
-//     // no point right now to be honest
-//   color-scheme: light dark;
-// }
-
-
 body {
   @include clr-bg-and-fg(var(--clr-theme-l), var(--clr-theme-d));
   
