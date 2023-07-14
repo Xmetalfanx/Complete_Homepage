@@ -55,15 +55,15 @@
 // The IDEA was to use spans and class names below ...
 // this seems silly or un-needed ... un-needed classes or something
 .green-text {
-  color: var(--green);
+  color: var(--clr-green);
 }
 
 .red-text {
-  color: var(--red);
+  color: var(--clr-red);
 }
 
 .darkBG_svg {
-  fill: var(--white);
+  fill: var(--clr-white);
   display: inline;
   color: var()
 }
@@ -94,7 +94,7 @@ figcaption,
   display: none;
  
   .bar {
-      background-color: var(--white); 
+      background-color: var(--clr-white); 
       display: block;
       width: 25px;
       height: 3px;

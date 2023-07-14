@@ -37,13 +37,13 @@
   // why the (minus alpha) so specific box shadow?
   button {
     @include border-radius(0.25rem);
-    @include drop-shadow(0, 2px, 8px, 0, var(--forest-green));
+    @include drop-shadow(0, 2px, 8px, 0, var(--clr-forest-green));
 
-    background: var(--forest-green);
+    background: var(--clr-forest-green);
     border: 0;
-    color: var(--white);
+    color: var(--clr-white);
     font-size: var(--fs-normal);
-    outline: 1px solid var(--forest-green);
+    outline: 1px solid var(--clr-forest-green);
     padding: 0.4em 0.875em;
   }
 }
