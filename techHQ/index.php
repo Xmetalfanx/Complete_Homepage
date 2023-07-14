@@ -33,14 +33,13 @@
     </div>
   </div>
   <div>
-    <img class="thumbnail--lg mx-auto" src="/graphics/unsplash/landscape/city1.jpg" alt="cityscape graphic"></div>
+    <img class="d-none d-lg-block thumbnail--lg mx-auto" src="/graphics/unsplash/landscape/city1.jpg" alt="cityscape graphic"></div>
 </div>
 
 <div class="d-none d-md-flex flex-dir-columns jc-center">
   <div class="card w-60">
     <div class="card__header text-center">Educational Sites</div>
-    <div class="card__body">
-      <div class="list-container">
+    <div class="card__body list-container">
         <ul>
           <li>
             <a href="https://www.khanacademy.org/" target="_blank" rel="noreferrer" aria-label="Link to Khan Academy">
@@ -58,7 +57,6 @@
             </a>
           </li>
         </ul>
-      </div>
     </div>
   </div>
   <div class="card"> 

@@ -8,24 +8,23 @@
         li Security related suggestions to keep users safe and secure
         li A Tech Section with how-to’s and guides, to help people get the most out of their computer and have fun while doing it
   div
-    img.thumbnail--lg.mx-auto(src='/graphics/unsplash/landscape/city1.jpg', alt="cityscape graphic")
+    img.thumbnail--lg.mx-auto.d-none.d-lg-block(src='/graphics/unsplash/landscape/city1.jpg', alt="cityscape graphic")
 
 .d-none.d-md-flex.flex-dir-columns.jc-center
   .card.w-60
     .card__header.text-center Educational Sites
-    .card__body
-      .list-container
-        ul
-          li
-            a(href='https://www.khanacademy.org/' target='_blank' rel='noreferrer' aria-label='Link to Khan Academy')
-              img.img-fluid(src='/techHQ/graphics/khan-academy.svg' alt='Khan Academy website Graphic')
-          li
-            a(href='https://www.digitalocean.com/community/' target='_blank' rel='noreferrer' aria-label='Link to Digital Ocean')
-              img.img-fluid(src='/techHQ/graphics/digitalOcean.png' alt='Digital Ocean website Graphic')
-          li
-            a(href='http://www.scienceandmath.com/' target='_blank' rel='noreferrer' aria-label='Link to ScienceandMath.com')
-              img.img-fluid(src='/graphics/mathandscience.png' alt='Science and Math.com website graphics' loading='lazy')
-  
+    .card__body.list-container
+      ul
+        li
+          a(href='https://www.khanacademy.org/' target='_blank' rel='noreferrer' aria-label='Link to Khan Academy')
+            img.img-fluid(src='/techHQ/graphics/khan-academy.svg' alt='Khan Academy website Graphic')
+        li
+          a(href='https://www.digitalocean.com/community/' target='_blank' rel='noreferrer' aria-label='Link to Digital Ocean')
+            img.img-fluid(src='/techHQ/graphics/digitalOcean.png' alt='Digital Ocean website Graphic')
+        li
+          a(href='http://www.scienceandmath.com/' target='_blank' rel='noreferrer' aria-label='Link to ScienceandMath.com')
+            img.img-fluid(src='/graphics/mathandscience.png' alt='Science and Math.com website graphics' loading='lazy')
+
 
   .card 
     .card__header.text-center Learning Linux
