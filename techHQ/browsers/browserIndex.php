@@ -84,9 +84,9 @@
   <div id="useful-links">
     <h3>Useful Browser Links</h3>
     <div class="d-flex">
-      <a href="" target="_blank">
+      <a href="https://privacytests.org/" target="_blank">
         <img src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic"></a>
-      <a href="" target="_blank">
+      <a href="https://www.privacytools.io/" target="_blank">
         <img src="/techHQ/graphics/privacytoolsio.png" alt="PrivacyTools.io graphic"></a></div>
   </div>
 </div>
