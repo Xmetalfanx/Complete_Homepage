@@ -89,6 +89,10 @@
 
     li { list-style-type: none; }
 
+    @media ($breakpoint-lg) {
+      @include flex(row, wrap, flex-start);
+    }
+
   }
 
   #browsers {
@@ -107,6 +111,10 @@
       .btn a {
         padding: 1rem 2rem 0 0 ;
         white-space: nowrap;
+
+        @media ($breakpoint-md) {
+            white-space: wrap;
+          }
         }
 
       * > .btn:hover, * > .btn:focus {
@@ -182,7 +190,7 @@
 
   #useful-links {
     img {
-      max-width: 550px;
+      width: min(100%, 500px);
     }
 
   }
