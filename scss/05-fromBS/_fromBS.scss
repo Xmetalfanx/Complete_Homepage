@@ -81,15 +81,12 @@
 .list-group {
   @include flex(column, nowrap, normal);
 
-  padding-left: 0;
-  margin-bottom: 0;
-  border-radius: 0.25rem;
-}
+  .list-group-item {
+    list-style-type: none;
+    margin: 2rem;
+    outline: 1px solid var(--clr-theme-accent-l);
+    padding: 1.5rem;
+    text-decoration: none;    
+  }
 
-.list-group-item {
-  position: relative;
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  outline: 1px solid var(--clr-theme-accent-l);
 }
