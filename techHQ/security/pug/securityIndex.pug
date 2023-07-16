@@ -1,24 +1,7 @@
-div.primary-content-h1 Overall Security Tips
+div.primary-content-h3 Overall Security Tips
 
-ol
-  li COMMON SENSE
-  li While I'd never say "forget security software, just use common sense alone".... do not underestimate this.
-  li Sure Some products are “snake-oil”, but there are trusted names in the field that are a different sort of security product
-
-div.primary-content-h1 Use a Good Anti-virus
-
-// I need to figure out a way to make these like the "buttons" in Figma, but not catching all say ul~>li's
-// idea: use a container?
-div.btn-container
-  ul
-    li Kaspersky Free
-    li Bit Defender Free
-
-div.primary-content-h1 Use a good "second opinion" Malware/Rootkit Scanner
-
-div.btn-container
-  ul
-    li Eminsoft Anti-Malware
-    li Zemana AntiMalware
-    li Hitman Pro
-    li Norton Power Eraser
+<?php
+  include $siteRoot . "/techHQ/security/sections/freeAVScanners.php";
+  include $siteRoot . "/techHQ/security/sections/malwareScanners.php";
+  include $siteRoot . "/techHQ/security/sections/specialityScanners.php";
+?>

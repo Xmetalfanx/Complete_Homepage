@@ -18,8 +18,10 @@
     @include border-radius(10px);
     @include box-shadow;
 
-    margin: 0 auto 1.2rem;
+    margin: 1.2rem auto;
     outline: 1px solid var(--clr-theme-main);
+    
+    // is this width needed? ... auto = default? 
     width: auto;
 
     &--bordered {
@@ -98,10 +100,9 @@
       }
     } 
 
-  //  .btn {
-  //     // color is a test for now
-  //       // outline: 1px solid black;
-  //   }
+   .btn {
+      outline: 1px solid var(--clr-theme-d);
+    }
       
   }
 
