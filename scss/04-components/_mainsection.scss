@@ -16,10 +16,11 @@
   // was there a need for grid? ...
   .card {
     @include border-radius(10px);
-    @include box-shadow;
+    
+    box-shadow: var(--box-shadow-dark)
 
     margin: 1.2rem auto;
-    outline: 1px solid var(--clr-theme-main);
+    outline: 1pxP solid var(--clr-theme-main);
     
     // is this width needed? ... auto = default? 
     width: auto;
