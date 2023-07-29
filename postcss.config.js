@@ -5,6 +5,8 @@ const postcssDiscardEmpty = require('postcss-discard-empty')
 const postcssPresetEnv = require('postcss-preset-env')
 const postcssSorting = require('postcss-sorting')
 const stylelint = require('stylelint')
+const purgecss = require('@fullhuman/postcss-purgecss')
+
 
 // is this "fs" needed? ... optimize-css-mq has it listed 
 // const fs = require("fs");
@@ -23,10 +25,17 @@ module.exports = {
     optmizemq({
       sort: true,
     }),
+    purgecss({
+      content: [
+        './**/*.php', 
+        '**/*.tpl'
+    ],
+    rejectedCSS: true
+    }),
     cssnano({
       preset: ['default', {
         colormin: false,
       }],      
-    })    
+    }) 
   ]
 }

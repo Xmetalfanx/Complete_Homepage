@@ -17,10 +17,9 @@
   .card {
     @include border-radius(10px);
     
-    box-shadow: var(--box-shadow-dark)
-
+    box-shadow: var(--box-shadow-dark);
     margin: 1.2rem auto;
-    outline: 1pxP solid var(--clr-theme-main);
+    outline: 1px solid var(--clr-theme-main);
     
     // is this width needed? ... auto = default? 
     width: auto;
