@@ -8,7 +8,7 @@ const stylelint = require('stylelint')
 const purgecss = require('@fullhuman/postcss-purgecss')
 
 
-// is this "fs" needed? ... optimize-css-mq has it listed 
+// is this "fs" needed? ... optimize-css-mq has it listed
 // const fs = require("fs");
 const optmizemq = require("optimize-css-mq");
 
@@ -27,15 +27,16 @@ module.exports = {
     }),
     purgecss({
       content: [
-        './**/*.php', 
-        '**/*.tpl'
+        './**/*.php',
+        './**/*.tpl',
+        "./**/*.js"
     ],
     rejectedCSS: true
     }),
     cssnano({
       preset: ['default', {
         colormin: false,
-      }],      
-    }) 
+      }],
+    })
   ]
 }
