@@ -17,18 +17,17 @@
   .card {
     @include border-radius(10px);
     
-    box-shadow: var(--box-shadow-dark);
+    box-shadow: var(--box-shadow-light);
     margin: 1.2rem auto;
-    outline: 1px solid var(--clr-theme-main);
-    
+
     // is this width needed? ... auto = default? 
     width: auto;
 
-    &--bordered {
+    &--outline {
       @extend .card;
 
-      // should i change this to outline?
-      @include border;
+      outline: 1px solid var(--clr-theme-main);
+
     }
 
     .card__header {
