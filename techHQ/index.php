@@ -21,7 +21,7 @@
 
 
 <div class="d-flex">
-  <div class="card">
+  <div class="card--outline">
     <div class="card__header">Sections</div>
     <div class="card__body">
       <ul>
@@ -37,7 +37,7 @@
 </div>
 
 <div class="d-none d-md-flex flex-dir-columns jc-center">
-  <div class="card w-60">
+  <div class="card--outline w-60">
     <div class="card__header text-center">Educational Sites</div>
     <div class="card__body list-container">
         <ul>
@@ -59,7 +59,8 @@
         </ul>
     </div>
   </div>
-  <div class="card"> 
+  
+  <div class="card--outline"> 
     <div class="card__header text-center">Learning Linux</div>
     <div class="card__body"> 
       <div class="h4 text-center">Learning the Commandline</div>
