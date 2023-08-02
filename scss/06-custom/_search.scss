@@ -36,7 +36,7 @@
   // submit button
   // why the (minus alpha) so specific box shadow?
   button {
-    @include border-radius(0.25rem);
+    @include border-radius-single(0.25rem);
     @include drop-shadow(0, 2px, 8px, 0, var(--clr-forest-green));
 
     background: var(--clr-forest-green);

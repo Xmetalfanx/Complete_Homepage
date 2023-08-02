@@ -35,9 +35,13 @@
   border: $border-size $border-style $border-color;
 }
 
-// is this mixing even needed? ... i suppose because i keep forgetting the default that i like to use maybe 
-@mixin border-radius($border-radius: 20%) {
+@mixin border-radius-single($border-radius: 20%) {
   border-radius: $border-radius;
+}
+
+// tl: top left, tr: top right,  br: bottom right, bl: bottom left,
+@mixin border-radius($tl: 20%, $tr: 20%, $bl: 20%, $br: 20%) {
+  border-radius: $tl $tr $br $bl;
 }
 
 

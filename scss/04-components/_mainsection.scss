@@ -15,7 +15,7 @@
   // card everywhere else is flex... why grid here? ... shouldn't i just switch them all to flex?
   // was there a need for grid? ...
   .card {
-    @include border-radius(10px);
+    @include border-radius-single(10px);
     
     box-shadow: var(--box-shadow-light);
     margin: 1.2rem auto;
@@ -34,6 +34,7 @@
       @include clr-bg-and-fg;
       @include flex(row, nowrap, space-between);
       @include clr-bg-and-fg(unset, var(--clr-theme-accent-l));
+      @
 
       align-items: center;
       border-color: var(--clr-theme-main);
@@ -93,7 +94,7 @@
       @include flex(row, wrap, center);
 
       li {
-        @include border-radius(1rem);
+        @include border-radius-single(1rem);
 
         padding: 1.5rem;
       }

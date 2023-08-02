@@ -87,7 +87,7 @@
       .git-group {
         @include border;
         @include box-shadow;
-        @include border-radius(20px);
+        @include border-radius-single(20px);
 
         background-color: var(--clr-white);
         padding: 2rem;

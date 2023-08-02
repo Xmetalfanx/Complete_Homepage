@@ -75,9 +75,8 @@
   }
 
   .btn {
-    border-radius: 20px;
-
     @include border;
+    @include border-radius-single;
 
     margin: .5rem 0;
     padding: 1rem 2rem;
