@@ -10,7 +10,7 @@
   // THAT is why i am using "!important" here 
 .feed-item-title {
   a {
-    font-size: var(--fs-normal);
+    font-size: var(--fs-normal) !important;
     padding: 0 !important;
     margin: .5rem 0 !important;
   }
@@ -130,9 +130,10 @@ figcaption,
 
 // note to self: redo with mixin's later
 section {
+  @include border-radius-single;
+  
   padding: 1rem;
   margin: 1rem;
-  border-radius: 20px;
 
   .section-title {
     font-size: var(--h3);

@@ -31,7 +31,7 @@ module.exports = {
         './**/*.tpl',
         "./**/*.js"
     ],
-    rejectedCSS: true
+    safelist: ['feed-title','feed-item-title', 'feed-item-desc' ]
     }),
     cssnano({
       preset: ['default', {

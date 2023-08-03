@@ -34,7 +34,6 @@
       @include clr-bg-and-fg;
       @include flex(row, nowrap, space-between);
       @include clr-bg-and-fg(unset, var(--clr-theme-accent-l));
-      @
 
       align-items: center;
       border-color: var(--clr-theme-main);
