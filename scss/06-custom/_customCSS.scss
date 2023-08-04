@@ -130,7 +130,7 @@ figcaption,
 
 // note to self: redo with mixin's later
 section {
-  @include border-radius-single;
+  @include border-radius-single(20px);
   
   padding: 1rem;
   margin: 1rem;
