@@ -14,7 +14,7 @@ switch ($_SERVER['HTTP_HOST']) {
         break;
   }
 
-  include $siteRoot . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+  include $siteRoot . "/templates/linux/open/baseLinuxTutorBlank.tpl";
 ?>
 
   <p>You have to be a &quot;programmer&quot; or &quot;computer expert&quot; to use and understand Linux </p>

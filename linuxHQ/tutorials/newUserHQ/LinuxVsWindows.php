@@ -14,7 +14,7 @@
         break;
   }
 
-	include $siteRoot . "/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl";
+	include $siteRoot . "/templates/linux/open/baseLinuxTutorBlank.tpl";
 ?>
 
     <p><img src="../graphics/peguin/th.jpg" width="160" height="170"  alt="linux peguin clipart"/></p>

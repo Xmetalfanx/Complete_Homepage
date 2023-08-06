@@ -14,7 +14,7 @@
         break;
   }
 
-	include $siteRoot . '/templates/linux/blankTemplates/baseLinuxTutorBlank.tpl';
+	include $siteRoot . '/templates/linux/open/baseLinuxTutorBlank.tpl';
 ?>
 
 	<p>*** THESE ARE ALL BASED ON MY OPINIONS ... ** </p>

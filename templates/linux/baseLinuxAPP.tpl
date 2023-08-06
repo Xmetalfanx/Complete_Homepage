@@ -6,8 +6,6 @@
 ?>
 
 <body>
-
-
   <?php include $siteRoot . '/modules/linux/linuxNavMenu.tpl'; ?>
 
   <div class="mainSection">

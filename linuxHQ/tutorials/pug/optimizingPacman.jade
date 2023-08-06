@@ -16,100 +16,44 @@ hr
 
 h3 STEP 1 - BACKUP your mirrorlist first
 
-  p In case something goes wrong, you can simply restore the original list … though there ARE OTHER ways around the issue of a goofup.  Here is an example.
+p In case something goes wrong, you can simply restore the original list … though there ARE OTHER ways around the issue of a goofup.  Here is an example.
 
-  h4 To backup
+h4 To backup
 
-  kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist&nbsp;mirrorlist.backup
+kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist&nbsp;mirrorlist.backup
 
-  h4 To restore
+h4 To restore
 
-  kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist.backup&nbsp;mirrorlist
+kbd sudo&nbsp;cp&nbsp;/etc/pacman.d/mirrorlist.backup&nbsp;mirrorlist
 
 hr
 
 h3 Reflector - Examples for Arch
 
 ul
-  li
-    p The dollar-sign in the commands below ARE representative of the command prompt. DO NOT copy that dollar-sign IF YOU are copying and pasting any of these commands
+  li Filter the first 10 mirrors, sort them by download rate and save the results to /etc/pacman.d/mirrorlist:
 
-  li
-    p Filter the first 10 mirrors, sort them by download rate and save the results to /etc/pacman.d/mirrorlist:
+    kbd &nbsp;reflector&nbsp;--verbose&nbsp;-l&nbsp;10&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist`
 
-      kbd $&nbsp;reflector&nbsp;--verbose&nbsp;-l&nbsp;10&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist`
+  li Rate the 100 most recently synchronized HTTP servers, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
 
-  li
-    p Rate the 100 most recently synchronized HTTP servers, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:</p>
+    kbd &nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
 
+  li Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
 
-      kbd $&nbsp;reflector&nbsp;-l&nbsp;100&nbsp;-p&nbsp;http&nbsp;--sort&nbsp;rate&nbsp;--save&nbsp;/etc/pacman.d/mirrorlist
-
-
-  li
-    p Rate the 50 most recently synchronized HTTP servers located in the US, sort them by download rate, and save to the file /etc/pacman.d/mirrorlist:
-
-
-
-
-  pre.editor-colors.lang-text
-  | 		
-  .line
-    | 
-
-    span.text.plain
-      | 
-
-      span.meta.paragraph.text
-        | 
-
-
-        span $ reflector --country 'United States' -l 50 -p http --sort rate --save /etc/pacman.d/mirrorlist
-
-        | 
-
-      | 
-
-    | 
-
-  | 
-
-
-
+    kbd reflector --country 'United States' -l 50 -p http --sort rate --save /etc/pacman.d/mirrorlist
 
 hr
 
-
-
 h3 Manjaro
 
-  ul
-    li
-    p Running the <strong>pacman-mirrors -g</strong> Command to Update the Mirrorlist
-
-
-    kbd $&nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g
-
-
-
-
-    h3 Syncing your Pacman Database
-
-
-    ul
-      li
-
-    p The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD
-
-
+ul
+  li Update the Mirrorlist
+    kbd &nbsp;sudo&nbsp;pacman-mirrors&nbsp;-g
+  li
+    ul 
+      li Syncing your Pacman Database
+      li The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD
     kbd sudo&nbsp;pacman&nbsp;-Syy
 
-
-
-
   p <em>Updating via pacman is planned for an entirely other section, by the way
-
-
-
-
-<?php include $rootDir . "/modules/linux/linuxBaseFooter.tpl"; ?>

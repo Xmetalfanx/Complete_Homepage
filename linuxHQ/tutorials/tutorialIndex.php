@@ -18,7 +18,7 @@ switch ($_SERVER['HTTP_HOST']) {
 
   ?>
 
-<i class="fa fa-4x fa-linux text-dark" aria-hidden="true" /></i>
+<i class="fa fa-4x fa-linux" aria-hidden="true" /></i>
 
 <br />
 
