@@ -1,0 +1,71 @@
+
+h5 Graphical (GUI) Software Centers
+ul
+  li Gnome Software Center
+  li Linux Mint Software Manager
+  li Muon Discover
+
+h5 Graphical (GUI) Package Managers
+ul
+    li Muon Package Manager
+    li Synaptic Package Manager
+
+h5 CLI Package Managers
+
+ul
+  li.font-weight-bold Arch based
+    ul
+      span.font-style-italics Pacman
+      ul
+        li Searching
+          kbd sudo pacman -Ss <package>
+        li Installing
+          kbd sudo pacman -S <package>
+        li Updating
+          ul
+                li Regular Updating
+                  ul
+                    kbd sudo pacman -Syu
+                li Updating, forcing a refresh
+                  ul
+                    kbd sudo pacman -Syyu
+    
+  li.font-weight-bold Debian / Ubuntu Based
+  ul
+    li 
+      span.font-weight-bold apt
+      ul
+        li Searching
+          kbd sudo apt search <package>
+        li Installing
+          kbd sudo apt install <package>
+        li Updating (Repo/ &apos;Software List&apos;)
+          kbd sudo apt update
+        li
+              | Updating the software (typically done after updating the repo list)
+              | - &nbsp;This is what &ldquo;updater&rdquo; applets do
+              ul
+                li
+                  kbd sudo apt upgrade
+
+  li.font-weight-bold OpenSuse
+  ul
+    li 
+      span.font-weight-bold zypper
+      ul 
+        li Searching
+          kbd sudo zypper search <package>
+        li Installing
+          kbd sudo zypper install <package>
+
+  li.font-weight-bold Fedora
+  ul
+    span.font-style-italics dnf
+
+    ul 
+      li Searching
+        kbd sudo dnf search <package>
+      li Installing
+        kbd sudo dnf install <package>
+      li  Updating
+        kbd dnf update <package>

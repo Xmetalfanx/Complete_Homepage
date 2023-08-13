@@ -18,7 +18,7 @@
 
 ?>
 
-  <p class="col2SectionHeaders">Introduction</p>
+  <p>Introduction</p>
   <p>I am not going to go into any kind of details explaining things about Debian, though I will mention some points I want to clear up  </p>
   <ul>
     <li>There are four Debian branches (listed below) ...Packages or even just Package Versions filter down from the most &quot;bleeding edge, but maybe unstable branch&quot; to the &quot;stable&quot; branch ...

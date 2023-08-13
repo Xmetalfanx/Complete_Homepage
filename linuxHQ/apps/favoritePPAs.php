@@ -44,10 +44,10 @@ switch ($_SERVER['HTTP_HOST']) {
 
 
 
-<ul class="accordion-tabs-minimal">
-  <li class="tab-header-and-content">
-		<a href="#" class="tab-link"> </a>
-    <div class="tab-content">
+<ul>
+  <li>
+		<a href="#"> </a>
+    <div>
       <div class="card">
         <div class="card-block">
           <h4 class="card-title">Individual PPA List - Multimedia Apps</h4>
@@ -64,9 +64,9 @@ switch ($_SERVER['HTTP_HOST']) {
       </div>
     </div>
   </li>
-  <li class="tab-header-and-content">
-		<a href="#" class="tab-link"> </a>
-    <div class="tab-content">
+  <li >
+		<a href="#"> </a>
+    <div>
       <div class="card">
         <div class="card-block">
           <h4 class="card-title">Individual PPA List - Other Apps </h4>

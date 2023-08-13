@@ -50,7 +50,7 @@
       <li>The Pacman database has a list of installable packages and by syncing this database, you assure yourself that your system has the newest list of packages available TO DOWNLOAD</li>
     </ul><kbd>sudo&nbsp;pacman&nbsp;-Syy</kbd>
   </li>
-  <p><em>Updating via pacman is planned for an entirely other section, by the way</p>
+  <p>Updating via pacman is planned for an entirely other section, by the way</p>
 </ul>
 
 

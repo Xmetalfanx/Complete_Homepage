@@ -86,7 +86,7 @@ function browserData(data) {
 
                             <br /><br />
                             <span class="font-weight-bold">Description: </span>
-                            <span class="">${browserDescription}
+                            <span >${browserDescription}
                         </div>
                     </div>
                     `;

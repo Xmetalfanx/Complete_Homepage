@@ -17,38 +17,57 @@ switch ($_SERVER['HTTP_HOST']) {
   include $siteRoot . "/templates/linux/open/baseLinuxTutorBlank.tpl";
 ?>
 
-  <p><span class="boldUnderline">&quot;Versions,  Distributions, Code-names, ' oh my' &quot; </span></p>
-  <UL>
-    <LI>* I have decided to leave  		&ldquo;Desktop environments until later... I don't want to overload people and confuse them  		here... just so you know, I will cover this later... I am trying to  		do these guides as simple as possible, WHILE trying to have as much  		information as I can in them)
-    <li>A common place for new users to  	get tripped up is with all of these terms.</li>
-    </UL>
-			  <p class="boldUnderline">Summary</p>
-			  <p>Microsoft is the only company that  	makes &ldquo;Windows&rdquo;, while many companies/individual developers and coders, make their own &ldquo;flavored&rdquo;  	versions of Linux </p>
-			  <p>OK NOW...  </p>
-  <ul>
-    <li>A <span class="terms">distribution</span> is the big difference from &ldquo;this&rdquo;  	Linux to &ldquo;that Linux&rdquo;.... .</li>
 
-		<li>
-      <p>A <span class="terms">version</span> <span class="italics">(tied with code names in many cases)</span>
-      <span class="italicsUnderline">number</span>
-      is just a  version of that distribution of Linux &hellip; in the Microsoft world its like &ldquo;Windows 98 vs Windows XP -vs- Windows 8...etc &rdquo;</p>
-
-		  <p>The codename is nothing to be  concerned with.  Its like a person's nickname.  &
-      hellip; like &ldquo;Linux  Mint 10 Smiling Squirrel&rdquo; (the code name I just made up there)</p>
-      <ul>
-        <li>Linux Mint 10 = Version </li>
-        <li>&ldquo;Smiling Squirrel&rdquo; = codename.... no big deal
-        </li>
-      </ul>
+<div class="card"> 
+  <div class="card__header">Versions, Distributions, Code-names</div>
+  <div class="card__body">
+    <p class="font-italics">I have decided to leave  &ldquo;Desktop environments until later... I don't want to overload people and confuse them here... just so you know, I will cover this later... I am trying to  do these guides as simple as possible, WHILE trying to have as much information as I can in them)</p>
+    <p>A common place for new users to get tripped up is with all of these terms.</p>
+    <ul>
+      <li>
+        <h3>Metaphor/Summary</h3>
+        <p>Microsoft is the only company that makes &ldquo;Windows&rdquo;, while many companies/individual developers and coders, make their own &ldquo;flavored&rdquo;  versions of Linux</p>
+      </li>
+      <li> 
+        <h3>Distibution</h3>
+        <p>A Distribution is a difference between Windows and Linux.  There is not one company that makes this so called Linux thing.  There are different options.  The differerent options are the distributions and you can think of that as the "different 'companies' " in a sense.  </p>
+        <p>A Distrobution may be refered to by some as a "Distro" for short</p>
+      </li>
+    </ul>
+    <li>
+      <h3>Versions</h3>
+      <p>These are tied on SOME cases to what are called code names which I will get to later; however, these are easy to grasp from one distro's perspective.  All you have to do if your say, coming from Windows, is to think of Windows XP vs Windows 7 vs Windows 10 ... Still WINDOWS but different versions.</p>
     </li>
-  </ul>
-  <p class="boldUnderline">Metaphor </p>
-	  <ul>
-	    <li>The <span class="terms">Distribution</span> is a Family	Name (last name)</li>
-	    <li>The <span class="terms">Versions</span>. are different  people in that family with the same last name.</li>
-	    <li>The <span class="terms">code name </span>are like nicknames  for particular PEOPLE in the family &hellip; &ldquo;tied&rdquo; to the version  			(numbers)</li>
-	  </ul>
-
+    <li> 
+      <h3>Codenames</h3>
+      <p>Not all distros have code names though these I suppose are like nicknames in a way.</p>
+    </li>
+    <li> 
+      <h3>Metaphor (w / example) </h3>
+      <p>Person metaphor - Jane Doe
+        <ul>
+          <li>Sirname - Doe - Would be the DISTRO</li>
+          <li>First Name - Jane - Would be the VERSION </li>
+          <li>Codename - ?? "Shorty" for example - Would be the CODENAME.  </li>
+        </ul>
+      </p>
+      <p>If anything the Codename is the least important if you ask me, but to be honest there is a typical "Codename" and "Version" pairing .. </p>
+      <p>Remembering BOTH is what I mean by it not being important to always remembering the codename</p>
+      <p>Linux Metaphor - Linux Mint 20.x 
+        <ul> 
+          <li> 
+            <div class="text-primary">Distro </div>= Linux Mint
+          </li>
+          <li> 
+            <div class="text-primary">Version</div> = 20.x 
+          </li>
+          <li> 
+            <div class="text-primary">Codename</div> = Ulyana
+          </li>
+        </ul>
+      </p>
+    </li>
+  </div>
 </div>
 
 <?php require $siteRoot ."/modules/footer.tpl"; ?>

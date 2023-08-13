@@ -17,9 +17,9 @@
   include $siteRoot . "/templates/linux/baseLinuxTutorials.tpl";
 ?>
 
-  <span class="boldUnderline">What is Linux?</span>
+  <h3>What is Linux?</h3>
 
-  <p>Linux is an Operating System (the  &ldquo;Master Software&rdquo; that runs all the other software on your machine), which I
+  <p>Linux is an Operating System, which is
   responsible mainly for the way the user interacts with the computer's hardware ... so as far as the computer user and the hardware of
   the computer go, the Operating System is the &quot;middle-man&quot; thats in between the two.</p>
 
