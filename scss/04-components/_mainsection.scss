@@ -105,14 +105,7 @@
       
   }
 
-
-
-  // is this REALLY needed?  I have stuff in typography.scss
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5 {
+  :is(.h1, .h2, .h3, .h4, .h5) {
     a {
       padding: 0.25rem;
 
@@ -121,7 +114,6 @@
         text-decoration: none;
       }
     }
-
   }
 
   // This even make sense? ... with no "sidebar?"   maybe yes if i dont do grid-template-areas: in the parent class;
