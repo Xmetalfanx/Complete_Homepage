@@ -25,14 +25,14 @@ module.exports = {
     optmizemq({
       sort: true,
     }),
-    purgecss({
-      content: [
-        './**/*.php',
-        './**/*.tpl',
-        "./**/*.js"
-    ],
-    safelist: ['feed-title','feed-item-title', 'feed-item-desc' ]
-    }),
+    // purgecss({
+    //   content: [
+    //     './**/*.php',
+    //     './**/*.tpl',
+    //     "./**/*.js"
+    // ],
+    // safelist: ['feed-title','feed-item-title', 'feed-item-desc' ]
+    // }),
     cssnano({
       preset: ['default', {
         colormin: false,

@@ -50,6 +50,9 @@ ul, ol {
   // no need for both ... note to self: figure out which is not needed
   li {
     margin: 0 1rem;
+
+    // august 2023: why is this here?  i had a reason but it messes some things up 
+      // added https://github.com/Xmetalfanx/website/commit/a4eb1f6ec9d0bf0494a21292930d2f3f2ca4074a here 
     list-style-position: inside;
   }
 

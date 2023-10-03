@@ -1,22 +1,24 @@
 @use "../01-abstracts/index" as *;
 
-// p {
-//   color: var(--clr-theme-d);
+// h1,
+// .h1,
+// h2,
+// .h2,
+// h3,
+// .h3,
+// h4,
+// .h4,
+// h5,
+// .h5 {
+//   font-weight: 800;
+//   color: var(--clr-theme-accent-l);
 // }
 
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5 {
+:is(h1,.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 ) {
   font-weight: 800;
   color: var(--clr-theme-accent-l);
 }
+
 
 h1,
 .h1 {
