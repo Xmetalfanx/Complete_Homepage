@@ -57,3 +57,10 @@
   font-weight: 700;
   margin: 1rem auto;
 }
+
+@mixin iconVariant(height: 32px, width: 32px) {
+  @extend .icon;
+
+    height: $height;
+    width: $width;
+}
