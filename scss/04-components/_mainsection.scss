@@ -97,12 +97,11 @@
 
         padding: 1.5rem;
       }
-    } 
+    }
 
    .btn {
       outline: 1px solid var(--clr-theme-d);
     }
-      
   }
 
   :is(.h1, .h2, .h3, .h4, .h5) {
@@ -161,20 +160,6 @@
       margin: 1rem 0;
       padding: 0;
     }
-
-    // @media ($breakpoint-lg) {
-    //   .card {
-    //     margin: 0 none;
-
-    //     // why is this here? ...
-    //     // could i make this more generic andremove this? (move it to the higest level"card__body"
-    //     .card__body {
-    //       a {
-    //         display: inline-block;
-    //       }
-    //     }
-    //   }
-    // }
 
   }
 

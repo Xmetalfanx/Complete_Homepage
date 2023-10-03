@@ -1,6 +1,6 @@
 let browserResults = document.getElementById('browserSection');
 let browserIconDir = '/techHQ/progIcons/internet/browsers/';
-let addonIconDir = '/techHQ/browsers/addons/graphics/';
+let addonIconDir = '/techHQ/browsers/graphics/icons';
 
 // for Icons
 let firefoxIcon = browserIconDir + 'firefox.svg';

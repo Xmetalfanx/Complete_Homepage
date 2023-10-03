@@ -1,0 +1,106 @@
+{
+    "passwordManagement": [
+        {
+            "addonName": "bitwarden",
+            "addonTitle": "Bit Warden",
+            "addonURL": {
+                "chromeURL": "https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb?hl=en",
+                "firefoxURL": "https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/?src=homepage-collection-featured"
+            },
+            "iconURL": "bit-warden.svg",
+            "moreInfo": {
+                "addonPlatform": "crossBrowser",
+                "description": "Open Source Password manager",
+                "developer": "Bit Warden Inc"
+            }
+        }
+    ],
+    "security": [
+        {
+            "addonName": "httpseverwhere",
+            "addonTitle": "HTTPS Everywhere",
+            "addonURL": {
+                "chromeURL": "https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?utm_source=chrome-ntp-icon",
+                "firefoxURL": "https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/"
+            },
+            "iconURL": "HTTPSEverywhere.svg",
+            "moreInfo": {
+                "addonPlatform": "crossBrowser",
+                "description": "Enables encryption on the web, where available",
+                "developer": "EFF"
+            }
+        },
+        {
+            "addonName": "noscript",
+            "addonTitle": "NoScript Security Suite",
+            "addonURL": {
+                "chromeURL": "#",
+                "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/noscript/?src=cb-dl-users"
+            },
+            "iconURL": "noscript.png",
+            "moreInfo": {
+                "addonPlatform": "firefox",
+                "description": "",
+                "developer": "Giorgio Maone"
+            }
+        },
+        {
+            "addonName": "privacybadger",
+            "addonTitle": "Privacy Badger",
+            "addonURL": {
+                "chromeURL": "https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en-US",
+                "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/?src=search"
+            },
+            "iconURL": "privacyBadger.svg",
+            "moreInfo": {
+                "addonPlatform": "crossBrowser",
+                "description": "Tracker Blocker, from the EFF, Electronic Frontier Foundation",
+                "developer": "EFF"
+            }
+        },
+        {
+            "addonName": "privacysettings",
+            "addonTitle": "Privacy Settings",
+            "addonURL": {
+                "chromeURL": "",
+                "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/privacy-settings/?src=search"
+            },
+            "iconURL": "privacySettings.png",
+            "moreInfo": {
+                "addonPlatform": "firefox",
+                "description": "",
+                "developer": "Jeremy Schomery"
+            }
+        },
+        {
+            "addonName": "ublockorigin",
+            "addonTitle": "Ublock Origin",
+            "addonURL": {
+                "chromeURL": "https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?utm_source=chrome-ntp-icon",
+                "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/?src=search"
+            },
+            "catagory": "adblocker",
+            "iconURL": "ublock-origin.svg",
+            "moreInfo": {
+                "addonPlatform": "crossBrowser",
+                "description": "Ad/Tracker/Content blocker",
+                "developer": "Raymond Gorhill"
+            }
+        },
+        {
+            "addonName": "umatrix",
+            "addonTitle": "Umatrix",
+            "addonURL": {
+                "chromeURL": "https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?utm_source=chrome-ntp-icon",
+                "firefoxURL": "https://addons.mozilla.org/en-US/firefox/addon/umatrix/?src=search"
+            },
+            "catagory": "adblocker",
+            "iconURL": "umatrix.png",
+            "moreInfo": {
+                "addonPlatform": "crossBrowser",
+                "description": "",
+                "developer": "Raymond Gorhill"
+            }
+        }
+    ]
+}
