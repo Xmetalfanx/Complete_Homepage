@@ -34,7 +34,7 @@
     }
        
     section {
-    @include box-shadow(2px, 2px, 5px, var(--clr-theme-main));  
+    @include box-shadow(2px, 2px, 5px, var(--theme-clr-main));  
 
     background-color: var(--clr-white);
     max-width: 72ch;
@@ -104,10 +104,10 @@
           margin-bottom: 0.5rem;
     
           a {
-            color: var(--clr-theme-accent-l);
+            color: var(--theme-clr-accent-l);
             margin: auto 1rem;
     
-            &:hover { color: var(--clr-theme-main);}
+            &:hover { color: var(--theme-clr-main);}
           }
         }
 

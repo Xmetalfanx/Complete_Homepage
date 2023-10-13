@@ -11,12 +11,12 @@
 // h5,
 // .h5 {
 //   font-weight: 800;
-//   color: var(--clr-theme-accent-l);
+//   color: var(--theme-clr-accent-l);
 // }
 
 :is(h1,.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 ) {
   font-weight: 800;
-  color: var(--clr-theme-accent-l);
+  color: var(--theme-clr-accent-l);
 }
 
 
@@ -52,7 +52,7 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--clr-theme-accent-l);
+    color: var(--theme-clr-accent-l);
   }
 }
 

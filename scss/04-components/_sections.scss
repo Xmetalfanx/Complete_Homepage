@@ -57,16 +57,16 @@
 
   // the actual version number
   .version {
-    color: var(--clr-theme-d);
+    color: var(--theme-clr-d);
   }
 }
 
 #browser-frontpage {
   * > a {
-    color: var(--clr-theme-main);
+    color: var(--theme-clr-main);
   }
 
-  h4 { color: var(--clr-theme-main); }
+  h4 { color: var(--theme-clr-main); }
 
   // useful in a few sections below
   .icon {
@@ -117,11 +117,11 @@
         }
 
       * > .btn:hover, * > .btn:focus {
-        background: var(--clr-theme-accent-l);
+        background: var(--theme-clr-accent-l);
         transition: .25s;
 
         a:hover, a:focus {
-          // background-color: var(--clr-theme-accent-l);
+          // background-color: var(--theme-clr-accent-l);
           color: #FFF;
           transition: .25s;
         }

@@ -85,9 +85,10 @@ function browserAddonData(data) {
           const platform = `
                     <div> ${totalBrowserIcon} </div>`;
 
+          // for the left side the icon for the addon and it's name 
           const addonIconTitle = `
                 <div>
-                    <img src="${addonIconDir}${addonIcon}" alt="${addonTitle} icon " class="icon--size40" />
+                    <img src="${addonIconDir}${addonIcon}" alt="${addonTitle} icon" class="icon--size40" />
                     ${addonTitle}
                 </div>
                 `;
@@ -100,7 +101,7 @@ function browserAddonData(data) {
 
                     </div>
                     <div class="card__body">
-                    <div>${addonDesc}</div>
+                      <div>${addonDesc}</div>
                     </div>
                 </div>
                             `;

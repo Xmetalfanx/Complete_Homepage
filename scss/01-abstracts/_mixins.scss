@@ -1,11 +1,11 @@
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
 // because i am always forget the default values i use
-@mixin box-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-main)) {
+@mixin box-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--theme-clr-main)) {
   box-shadow: $xaxis $yaxis $blur $color;
 }
 
-@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--clr-theme-d)) {
+@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--theme-clr-d)) {
   filter: drop-shadow($xaxis $yaxis $blur $color);
 }
 
@@ -31,7 +31,7 @@
   place-content: $ac $jc;
 }
 
-@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--clr-theme-main)) {
+@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--theme-clr-main)) {
   border: $border-size $border-style $border-color;
 }
 
@@ -46,7 +46,7 @@
 
 
 // Color mixins
-@mixin clr-bg-and-fg($bg: var(--clr-theme-main), $fg:var(--clr-theme-l) ) {
+@mixin clr-bg-and-fg($bg: var(--theme-clr-main), $fg:var(--theme-clr-l) ) {
   background-color:$bg;
   color: $fg;
 }
