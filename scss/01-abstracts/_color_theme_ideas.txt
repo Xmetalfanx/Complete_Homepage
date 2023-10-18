@@ -81,3 +81,36 @@ christmas
 theme-color-accent: hsl(0, 100%, 30%)
 
 * /
+
+/////////////////////////////////////////////////////
+// leftovers from .scss that I dont want to remove totally but are moved here to clean up those files 
+
+//////////////////////////////////////////////////////////
+// Sass vars
+
+// hsl(0, 0%, 97%);
+// accent (below)
+// hsl(25, 69%, 40%);
+// -d below
+// hsl(0, 0%, 20%);
+
+// $theme-color-accent-d: 0deg, 0%, 20%;
+$theme-color-main: "217deg 100% 9%";
+$clr-white: "0deg, 0% 100%";
+$clr-tan: "43deg 62% 88%";
+$clr-red: "0deg 100% 50%";
+$clr-maroon: "0deg 100% 20%";
+$clr-burnt-orange: "17deg 100% 40%";
+$clr-green: "120deg 100% 25%";
+$clr-forrest-green: "120deg 100% 20%";
+$clr-rich-darkblue: "206deg 55% 11%";
+
+// end sass vars
+///////////////////////////////////////////
+
+// random colors i may want to use again
+// Oct 2023: keep for now 
+// hsl(215, 48%, 18%)
+// hsl(181, 100%, 20%)
+// hsl(25, 89%, 25%)
+

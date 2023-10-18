@@ -1,59 +1,14 @@
 @use "../01-abstracts/color-themes" as *;
 @use "../01-abstracts/mixins" as *;
 
-// random colors i may want to use again
-// hsl(215, 48%, 18%)
-// hsl(181, 100%, 20%)
-// hsl(25, 89%, 25%)
-
-//////////////////////////////////////////////////////////
-// Sass vars
-
-// $theme-color-l: "35deg 60% 96%";
-
-// #F7F7F7
-$theme-color-l: "0 0% 97%";
-$theme-color-accent-l: "25deg 69% 40%";
-$theme-color-d: "0deg 0% 20%";
-
-// $theme-color-accent-d: 0deg, 0%, 20%;
-$theme-color-main: "217deg 100% 9%";
-$clr-white: "0deg, 0% 100%";
-$clr-tan: "43deg 62% 88%";
-$clr-red: "0deg 100% 50%";
-$clr-maroon: "0deg 100% 20%";
-$clr-burnt-orange: "17deg 100% 40%";
-$clr-green: "120deg 100% 25%";
-$clr-forrest-green: "120deg 100% 20%";
-$clr-rich-darkblue: "206deg 55% 11%";
-
-// end sass vars
-///////////////////////////////////////////
 
 // colors I'd want shades for
+// oct 2023: what? ... i mean i get it but this all just seems over complicated... do i need this?
 $shade-colors: (
   "clr-black": "0, 0%, 0%",
 );
 
-
 :root {
-  --clr-white: hsl(#{$clr-white});
-  --clr-red: hsl(#{$clr-red});
-
-  // --clr-maroon: hsl(#{$clr-maroon});
-  // --clr-burnt-orange: hsl(#{$clr-burnt-orange});
-  --clr-green: hsl(#{$clr-green});
-  --clr-forrest-green: hsl(#{$clr-forrest-green});
-
-  // --clr-midnight-blue: hsl(196, 45%, 22%);
-  // --clr-rich-darkblue: hsl(#{$rich-darkblue});
-
-  // may become unneeded 
-  // --theme-clr-l: hsl(#{$theme-color-l});
-  // --theme-clr-accent-l: hsl(#{$theme-color-accent-l});
-  // --theme-clr-d: hsl(#{$theme-color-d});
-  // --theme-clr-main: hsl(#{$theme-color-main});
-
   // For colors where i want .class shades on them
   @each $color-name, $color-value in $shade-colors {
     --#{$color-name}: hsl(#{$color-value});
@@ -63,6 +18,4 @@ $shade-colors: (
     --#{$color-name}-a20: hsl(#{$color-value} / 20%);
   }
 
-   // for the middle of the page with a lighter default background color
-   --link-color-lightBG: $theme-clr-dark;
 }
