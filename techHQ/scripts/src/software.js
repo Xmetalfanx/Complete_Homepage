@@ -65,11 +65,15 @@ function softwareData(data) {
                 /////////////////////////////////////////////
 
                 // Platform Section
-                // TODO: change this to the svg over fork awesome
-                const linuxIcon =
-                  '<img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon SVG" class="icon--size32" />';
+                // const linuxIcon =
+                //   '<img src="/graphics/simpleIcons/darkBG/linux.svg" alt="Linux Icon SVG" class="icon--size32" />';
+                // const windowsIcon =
+                //   '<img src="/graphics/simpleIcons/darkBG/windows.svg" alt="Windows Icon SVG" class="icon--size32" />';
+                const linuxIcon = 
+                    '<i class="fa fa-2x fa-linux mr-4" aria-hidden="true"></i>';
                 const windowsIcon =
-                  '<img src="/graphics/simpleIcons/darkBG/windows.svg" alt="Windows Icon SVG" class="icon--size32" />';
+                    '<i class="fa fa-2x fa-windows" aria-hidden="true"></i>'
+
 
                 const cpIcon = linuxIcon + windowsIcon;
 
