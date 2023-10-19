@@ -3,7 +3,7 @@
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
 
-    //@include flex(row, wrap, normal);
+    // @include flex(row, wrap, normal);
 
     flex-flow: row wrap;
     justify-content: normal;

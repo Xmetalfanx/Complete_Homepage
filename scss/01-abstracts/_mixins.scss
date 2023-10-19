@@ -1,11 +1,13 @@
+@use "color-themes" as *;
+
 // Idea: mixins are better when output changes based on variables passed to the mixin
 
 // because i am always forget the default values i use
-@mixin box-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--theme-clr-main)) {
+@mixin box-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: $theme-clr-main) {
   box-shadow: $xaxis $yaxis $blur $color;
 }
 
-@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: var(--theme-clr-d)) {
+@mixin drop-shadow($xaxis: 0, $yaxis: 0.5rem, $blur: 1rem, $color: $theme-clr-dark) {
   filter: drop-shadow($xaxis $yaxis $blur $color);
 }
 
@@ -31,7 +33,7 @@
   place-content: $ac $jc;
 }
 
-@mixin border($border-size: 1px, $border-style: solid, $border-color: var(--theme-clr-main)) {
+@mixin border($border-size: 1px, $border-style: solid, $border-color: $theme-clr-main) {
   border: $border-size $border-style $border-color;
 }
 
@@ -46,19 +48,19 @@
 
 
 // Color mixins
-@mixin clr-bg-and-fg($bg: var(--theme-clr-main), $fg:var(--theme-clr-l) ) {
+@mixin clr-bg-and-fg($bg: $theme-clr-main, $fg:$theme-clr-light ) {
   background-color:$bg;
   color: $fg;
 }
 
 // idea only: 
-@mixin section-title {
+@mixin section-title() {
   font-size: 24px;
   font-weight: 700;
   margin: 1rem auto;
 }
 
-@mixin iconVariant(height: 32px, width: 32px) {
+@mixin icon-variant($height: 32px, $width: 32px) {
   @extend .icon;
 
     height: $height;

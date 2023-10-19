@@ -63,8 +63,14 @@ $breakpoint-xl: "width <= 1200px";
   --fa-arrow-right: "\f105";
   --fa-arrow-down: "\f107";
 
+// idea for later - fork awesome 
+$fork-awesome: (
+  left-arrow: "\f107",
+  right-arrow: "\f105",
+);
+
   // box shadow i saw that I like on Kaspersky's site in 2023 
   --box-shadow-light: 0 4px 24px rgb(29 29 27 / 16%);
-  --box-shadow-dark: 0 0.5rem 1rem var(--theme-clr-main); 
+  --box-shadow-dark: 0 0.5rem 1rem $theme-clr-main; 
 
 }

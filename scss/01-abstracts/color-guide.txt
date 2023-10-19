@@ -1,0 +1,15 @@
+
+Guide 
+
+- theme-color-l should be the lightest color, in the theme 
+  - used for backgrounds, if i recall 
+- theme-color-d should be the darkest color in the theme 
+  - i think i intended for this to be some variation of dark grey or black 
+- theme-color-accent-d
+  - unless i searched wrong, I am not seeing this used at all but ... "leave it for now and have it match the theme may be helpful 
+- theme-color-accent-l
+  - this is for say non-card headers (where theme-color-l is the background) 
+  - i need to lookup where else i have this 
+- theme-color-main
+  - used for things like the header and footer background color
+  - ... not sure about say card header backgrounds 

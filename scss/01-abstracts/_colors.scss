@@ -48,10 +48,11 @@ $shade-colors: (
   // --clr-midnight-blue: hsl(196, 45%, 22%);
   // --clr-rich-darkblue: hsl(#{$rich-darkblue});
 
-  --theme-clr-l: hsl(#{$theme-color-l});
-  --theme-clr-accent-l: hsl(#{$theme-color-accent-l});
-  --theme-clr-d: hsl(#{$theme-color-d});
-  --theme-clr-main: hsl(#{$theme-color-main});
+  // may become unneeded 
+  // --theme-clr-l: hsl(#{$theme-color-l});
+  // --theme-clr-accent-l: hsl(#{$theme-color-accent-l});
+  // --theme-clr-d: hsl(#{$theme-color-d});
+  // --theme-clr-main: hsl(#{$theme-color-main});
 
   // For colors where i want .class shades on them
   @each $color-name, $color-value in $shade-colors {
@@ -63,5 +64,5 @@ $shade-colors: (
   }
 
    // for the middle of the page with a lighter default background color
-   --link-color-lightBG: var(--theme-clr-d);
+   --link-color-lightBG: $theme-clr-dark;
 }

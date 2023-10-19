@@ -14,15 +14,15 @@
   }
 
   &--size32 {
-    @include iconVariant(32px 32px);
+    @include icon-variant(32px 32px);
   }
 
   &--size40 {
-    @include iconVariant(40px 40px);
+    @include icon-variant(40px 40px);
   }
 
   &--size48 {
-    @include iconVariant(48px 48px);
+    @include icon-variant(48px 48px);
   }
 }
 

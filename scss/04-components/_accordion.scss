@@ -24,7 +24,7 @@ label {
   margin: 0 0 1rem;
   padding: 10px 25px;
 
-  // outline: 1px solid var(--theme-clr-d);
+  // outline: 1px solid $theme-clr-dark;
 }
 
 @media ($breakpoint-lg) {
@@ -37,7 +37,7 @@ label {
   }
 
   label:hover {
-    background-color: var(--theme-clr-accent-l);
+    background-color: $theme-clr-accent;
   }
 
   // default on small screens

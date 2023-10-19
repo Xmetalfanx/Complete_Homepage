@@ -1,25 +1,38 @@
+@use "sass:map";
 
-$nov-theme-colors: (
-  // hsl(35, 60%, 96%)
-  "theme-color-l": "35deg 60% 96%",
-  // hsl(43, 100%, 45%)
-  "theme-color-accent-l": "43deg 100% 45%",
-  // hsl(20, 86%, 30%)
-  "theme-color-main": "20deg 86% 25%",
-  // hsl(16, 80%, 25%)
-  "theme-color-accent-d": "16deg 80% 20%",
-  // hsl(0, 0%, 20%)
-  "theme-color-d": "0deg 0% 20%"
+$oct-theme: (
+    main: hsl(18deg 80% 35%),
+    // accent: hsl(275deg 70% 25%),
+    accent: hsl(120, 50%, 20%),
+    light: hsl(0deg 0% 94%),
+    dark: hsl(120deg 30% 15%),
 );
-$dec-theme-colors: (
-  // hsl(35, 60%, 96%)
-  "theme-color-l": "35deg 60% 96%",
-  // hsl(120, 60%, 24%)
-  "theme-color-accent-l": "120deg 60% 24%",
-  // hsl(0, 150%, 24%)
-  "theme-color-accent-d": "0deg 150% 24%",
-  // hsl(120, 60%, 15%)
-  "theme-color-main": "120deg 60%, 15%",
-  // hsl(0, 0%, 15%)
-  "theme-color-d": "0deg 0% 15%"
+$nov-theme: (
+    // main: hsl(43deg 90% 45%),
+    main: hsl(29deg, 69%, 40%),
+    accent: hsl(20deg 86% 30%),
+    light: hsl(0deg 0% 94%),
+    dark: hsl(0deg 0% 20%),
 );
+$dec-theme: (
+    main: hsl(120deg 100% 20%),
+    accent: hsl(0deg 100% 25%),
+    light: hsl(0deg 0% 94%),
+    dark: hsl(0deg 0% 20%),
+);
+$tropical-theme1: (
+    main: hsl(40deg 80% 45%),
+    accent: hsl(225deg 73% 57%),
+    light: hsl(0deg 0% 94%),
+    dark: hsl(0deg 0% 20%),
+
+);
+
+// assign theme idea 
+$current-theme: $oct-theme;
+$theme-clr-main: map.get($current-theme, main);
+$theme-clr-accent: map.get($current-theme, accent);
+$theme-clr-light: map.get($current-theme, light);
+$theme-clr-dark: map.get($current-theme, dark);
+
+// things will have to move to map.get now

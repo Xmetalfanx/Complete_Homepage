@@ -1,25 +1,25 @@
+@use "../01-abstracts/index" as *;
+
 .border {
-  border: 1px solid var(--theme-clr-l);
+  border: 1px solid $theme-clr-accent;
 }
-
-
 
 
 /* 
 .border-top {
-  border-top: 1px solid var(--theme-clr-l);
+  border-top: 1px solid $theme-clr-accent;
 }
 
 .border-right {
-  border-right: 1px solid var(--theme-clr-l);
+  border-right: 1px solid $theme-clr-accent;
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--theme-clr-l);
+  border-bottom: 1px solid $theme-clr-accent;
 }
 
 .border-left {
-  border-left: 1px solid var(--theme-clr-l);
+  border-left: 1px solid $theme-clr-accent;
 }
  */
 

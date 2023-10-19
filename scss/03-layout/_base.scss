@@ -1,7 +1,7 @@
 @use "../01-abstracts/index" as *;
 
 body {
-  @include clr-bg-and-fg(var(--theme-clr-l), var(--theme-clr-d));
+  @include clr-bg-and-fg($theme-clr-light, $theme-clr-dark);
   
   display: grid;
 
@@ -14,7 +14,7 @@ body {
   min-height: 100%;
 
   // color and font setup
-  color: var(--theme-clr-d);
+  color: $theme-clr-dark;
   font-family: var(--ffamily-roboto);
   font-size: var(--fs-normal);
   font-weight: 400;
@@ -67,7 +67,7 @@ ul, ol {
     li {
       list-style: none;
       margin: 1rem;
-      outline: 1px solid var(--theme-clr-d);
+      outline: 1px solid $theme-clr-dark;
       padding: 1rem;
     }
 

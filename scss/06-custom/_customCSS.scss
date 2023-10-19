@@ -138,15 +138,15 @@ section {
   .section-title {
     font-size: var(--h3);
     font-weight: 600;
-    color: var(--theme-clr-main);
+    color: $theme-clr-main;
 
     a {
-      color: var(--theme-clr-accent-l);
+      color: $theme-clr-accent;
     }
 
       a:hover,
       a:focus {
-        color: var(--theme-clr-accent-d);
+        color: $theme-clr-dark;
       }
   }
 

@@ -58,7 +58,7 @@
   .list-group-item {
     list-style-type: none;
     margin: 2rem;
-    outline: 1px solid var(--theme-clr-accent-l);
+    outline: 1px solid $theme-clr-accent;
     padding: 1.5rem;
     text-decoration: none;    
   }

@@ -1,0 +1,83 @@
+
+// Oct theme idea
+
+theme-color-main: hsl(29, 91%, 53%);
+
+// idea for accents is ot to use both ... just seeing which one MAY work best
+theme-color-accent: hsl(100, 76%, 20%);
+theme-color-accent: hsl(282, 61%, 24%);
+
+theme-color-l: hsl(35, 60%, 96%);
+theme-color-d: hsl(0, 0%, 15%);
+
+
+
+/*
+
+IDEA can i make it where different items
+(theme-color-main from theme to theme OR theme-color-accent have the hue's change but the saturation and lum. (?) stays the same
+-- advantage: i can just change a few HUES and the theme would change
+
+idea 2: do i need "theme-color-accent-l" and "theme-color-accent-d" or can i just (think i am not using the -d one now anyway) combine that into "theme-color-accent" ?
+
+// Fall Theme  idea
+// theme-color-main: hsl(20, 86%, 25%)
+// theme-color-main: hsl(20, 68%, 25%)
+// theme-color-main: hsl(20, 75%, 25%)
+// theme-color-main: hsl(28, 86%, 25%)
+// theme-color-main: hsl(28, 86%, 30%)
+// theme-color-main: hsl(28, 86%, 35%)
+// theme-color-main: hsl(28, 86%, 40%)
+
+
+// theme-color-accent: hsl(38, 100%, 45%)
+
+
+// Christmas Theme
+// theme-color-main: hsl(120, 75%, 25%)
+// theme-color-accent: hsl(0, 100%, 30%)
+
+
+
+// similar between nov and dec theme
+// theme-color-l: hsl(35, 60%, 96%)
+// theme-color-l: hsl(35, 60%, 96%)
+// theme-color-d: hsl(0, 0%, 15%)
+// theme-color-d: hsl(0, 0%, 15%)
+
+Nov them
+
+theme-color-main: hsl(28, 86%, 30%)
+theme-color-main: hsl(29, 86%, 53%)
+
+theme-color-l: hsl(35, 60%, 96%)
+theme-color-d: hsl(0, 0%, 15%)
+
+I think text colors remaining in theme-color-d (in the main section of course) is the way to go .
+??? christmas theme too ?
+
+/////////////////////////////////////////////////////////////////////
+theme-color-main
+
+Oct Theme
+theme-color-main: hsl(30, 86%, 40%)
+
+
+// Nov ??
+// theme-color-main: hsl(28, 86%, 25%) // too brown for main thanksgiving theme but maybe an accent color idea
+// theme-color-main: hsl(29, 86%, 53%)
+// Christmas
+// theme-color-main: hsl(120, 86%, 25%)
+
+
+theme-color-accent
+oct ideas
+idea for accents is ot to use both ... just seeing which one MAY work best
+theme-color-accent: hsl(100, 76%, 24%)
+theme-color-accent: hsl(282, 76%, 24%)
+
+
+christmas
+theme-color-accent: hsl(0, 100%, 30%)
+
+* /

@@ -1,25 +1,14 @@
 @use "../01-abstracts/index" as *;
+@use "../01-abstracts/" as *;
 
-// h1,
-// .h1,
-// h2,
-// .h2,
-// h3,
-// .h3,
-// h4,
-// .h4,
-// h5,
-// .h5 {
-//   font-weight: 800;
-//   color: var(--theme-clr-accent-l);
-// }
 
 :is(h1,.h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 ) {
   font-weight: 800;
-  color: var(--theme-clr-accent-l);
+  color: $theme-clr-accent;
 }
 
-
+/////////////////////////////////////////////////////////////////////////////
+// Headers
 h1,
 .h1 {
   font-size: var(--h1);
@@ -45,6 +34,10 @@ h5,
   font-size: var(--h5);
 }
 
+// End Header 
+////////////////////////////////////////////////////////////////////////////
+
+
 // this is a link color ON a whiteBG or (at least mainsection)
 a {
   background-color: transparent;
@@ -52,7 +45,7 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--theme-clr-accent-l);
+    color: $theme-clr-accent;
   }
 }
 
