@@ -114,3 +114,13 @@ $clr-rich-darkblue: "206deg 55% 11%";
 // hsl(181, 100%, 20%)
 // hsl(25, 89%, 25%)
 
+// $basic-colors: (
+//   "white": "0deg 0% 100%",
+//   "red": "0deg 100% 50%",
+//   "maroon": "0deg 100% 20%",
+//   "burnt-orange": "17deg 100% 40%",
+//   "green": "120deg 100% 25%",
+//   "forrest-green": "120deg 100% 20%",
+//   "rich-darkblue": "206deg 55% 11%",
+// );
+

@@ -4,7 +4,8 @@
 
 
 // For Distro and Desktop Frontpages on the LinuxHQ side of the site
-// wait ... should this NOT be  on anything other than the frontpages ?
+// wait ... should this NOT be on anything other than the frontpages ?
+// ?? IS this id (forget the css) needed so the js knows where to place the content? - answer: based on prior comment i left:  YES 
 #linux-primary-content {
   @include flex(row, wrap, normal);
   @include place-content(flex-start, space-evenly);

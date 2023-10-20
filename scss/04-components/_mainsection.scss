@@ -18,7 +18,8 @@
     @include border-radius-single(10px);
     
     // i forgot if i have a mixin for this 
-    border: 1px solid $theme-clr-accent;
+    // border: 1px solid $theme-clr-accent;
+    
     box-shadow: var(--box-shadow-light);
     margin: 1.2rem auto;
 

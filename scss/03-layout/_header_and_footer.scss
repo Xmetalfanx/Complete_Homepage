@@ -15,10 +15,16 @@ footer {
   a {
     @include clr-bg-and-fg;
 
-    :hover,
-    :focus {
-      color: $theme-clr-dark;
-      outline: 1px dotted $theme-clr-dark;
+      margin: -.5rem;
+      padding: .5rem;
+
+    &:hover,
+    &:focus {
+      @include border-radius-single(10%);
+      @include clr-bg-and-fg($theme-clr-light, $theme-clr-accent);
+
+      outline: 1px dotted $theme-clr-light;
+
     }
   }
 
@@ -89,7 +95,6 @@ header {
     i {
         scale: 2;
         margin-right: 2.5rem;
-
     }
 
     @media ($breakpoint-lg) {
@@ -116,6 +121,10 @@ header {
 
     a {
       margin: 0 1.2rem;
+
+      :hover, :active {
+        @include clr-bg-and-fg($theme-clr-light, $theme-clr-main);
+      }
     }
 
     // for hamburger menu that should only display on mobile
