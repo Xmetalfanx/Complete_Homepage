@@ -32,7 +32,7 @@
           <li>Theming: Information on Linux Themes, Icon and Cursor packs to custom the look of your Linux desktop</li>
         </ul>
       </div>
-      <div class="d-none d-md-flex">
+      <div class="d-none d-md-flex flex-wrap">
         <img class="d-md-block mx-auto thumbnail-fluid--sm" src="/linuxHQ/screenshots/solus/thumbnails/solusbudgie_tn.png" alt="Solus Budgie slide" loading="lazy">
         <img class="d-md-block thumbnail-fluid--sm" src="/linuxHQ/screenshots/ubuntu/kubuntu.png" alt="Kubuntu 18.04 screenshot"></div>
     </div>
