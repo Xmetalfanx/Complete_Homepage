@@ -82,6 +82,10 @@
     margin: .5rem 0;
     padding: 1rem 2rem;
     font-weight: 800;
+
+    @media ($breakpoint-sm) {
+      max-width: 90%;
+    }
   }
 
   ul {
@@ -106,7 +110,15 @@
         }
       }
 
-      div { flex: 0 1 50%; }
+      // meant for everything down to small screens 
+      div { 
+        flex: 0 1 50%;
+
+
+        @media ($breakpoint-sm) {
+          flex: unset;
+        }
+      }
 
       .btn a {
         padding: 1rem 2rem 0 0 ;
@@ -146,12 +158,17 @@
       padding: 3rem;
       width: max(20%, 200px);
 
-      // major addon icon at the top of the "section
+      @media ($breakpoint-sm) {
+        margin: 1rem 2rem;
+        padding: 1rem 3rem;
+      }
+
+      // major addon icon at the top of the "section"
       .icon {
         display: block;
         margin: 0 auto;
-        max-height: 128px;
-        max-width: 128px;
+        max-height: 6rem;
+        max-width: 6rem;
 
       }
 
@@ -186,6 +203,10 @@
 
   #ytvideos {
     div { display: flex; }
+
+    @media ($breakpoint-sm) {
+      display: none;
+    }
   }
 
   #useful-links {

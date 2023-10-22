@@ -2,69 +2,75 @@
 
 // Things specific to the landing page of the site
 
-// just for the main title on the frontpage only 
+// just for the main title on the frontpage only
 .frontpage-header-title {
   margin: 0.5rem auto;
   font-weight: 900;
   font-size: var(--h2);
 }
 
-// Entire Frontpage between header and footer 
+// Entire Frontpage between header and footer
 .frontpage-section {
   display: grid;
-  grid-template-areas: 
-      "site-sections frontpage-graphic"
-      "git-section git-section"
+  grid-template-areas:
+      "site-sections"
+      "git-section"
   ;
-  grid-template-columns: repeat(2, 1fr);
+
+  // grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
 
   @media ($breakpoint-lg) {
-    grid-template-areas: 
+    grid-template-areas:
       'site-sections'
       'git-section'
-      ;    
+      ;
   };
 
+  .site-sections, .git-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  // main class, for both site sections 
   .site-sections {
       grid-area: site-sections;
 
-    @media ($breakpoint-lg) {
-      grid-column: span 2;
-    }
-       
-    section {
-    @include box-shadow(2px, 2px, 5px, $theme-clr-main);  
-
-    background-color: var(--clr-white);
-    max-width: 72ch;
-    margin: 0 auto 2rem;
-    padding: 1rem 2rem;
-
-      .section-title {
-        text-align: center;
-        margin: 1.25rem 0;
+      @media ($breakpoint-lg) {
+        grid-column: span 2;
       }
 
+    section {
+      outline: 1px solid $theme-clr-accent;
+      padding: 2rem;
+
+      // for the description AND the images .. a container 
+      .section-details {
+        display: flex;
+        justify-content: space-between;
+
+        .section-description {
+          max-width: 72ch;
+        }
+
+        img {
+          @include border-radius-single(10%);
+
+          object-fit: contain;
+          padding: 0 2rem;
+          width: 90%;
+
+          @media ($breakpoint-md) {
+            display: none;
+          }
+        }
+
+      }
     }
-     
+
   }
 
-  // this is the name of the parent div
-  .frontpage-graphic {
-    grid-area: frontpage-graphic;
-
-    img {
-      margin: 0 auto;
-      width: min(650px, 80%);
-    }
-
-    @media ($breakpoint-lg) {
-      display: none;
-    }
-  }
-
-
+  // git section, at the bottom
   .git-section {
     grid-area: git-section;
 
@@ -93,20 +99,20 @@
         padding: 2rem;
         margin: 0 auto;
         width: clamp(50%, 80%, 72ch);
-        
-        .git-section-title { 
+
+        .git-section-title {
           @include section-title;
         }
-  
+
         .git-icons {
           @include flex(row, nowrap, space-around);
-    
+
           margin-bottom: 0.5rem;
-    
+
           a {
             color: $theme-clr-accent;
             margin: auto 1rem;
-    
+
             &:hover { color: $theme-clr-main;}
           }
         }
@@ -117,18 +123,18 @@
 
       }
 
-   
+
     }
 
     // for the divider in the middle of the page (for now)
-    // should i move this into the git-section due to my new idea to use grid? 
+    // should i move this into the git-section due to my new idea to use grid?
    .frontpage-title {
       font-size: var(--h3);
       font-weight: 600;
       margin: 1rem auto;
       text-align: center;
     }
-  
+
     @media ($breakpoint-md) {
       @include flex(column, nowrap, normal);
     }
