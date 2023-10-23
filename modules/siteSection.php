@@ -13,7 +13,7 @@
         </ul>
       </div>
       <div class="section-image">
-        <img src="/graphics/frontpage/pumpkin.jpg" alt="Pumpkin image" class="img-fluid">
+        <img src="/graphics/frontpage/pumpkin.jpg" alt="Pumpkin image">
       </div>
     </div>
   </section>
@@ -23,7 +23,7 @@
     </div>
     <div class="section-details">
       <div class="section-image">
-        <img src="/graphics/frontpage/fall.jpg" alt="Autumn/Fall image" class="img-fluid">
+        <img src="/graphics/frontpage/fall.jpg" alt="Autumn/Fall image">
       </div>
       <div class="section-description">Software suggestions and Web Browser/Browser Addon  recommendations -Including cross-platform options for Windows and Linux, and Security tips to keep your computer secure.</div>
     </div>

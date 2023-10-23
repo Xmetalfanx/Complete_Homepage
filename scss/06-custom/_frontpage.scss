@@ -56,9 +56,8 @@
         img {
           @include border-radius-single(10%);
 
-          object-fit: contain;
           padding: 0 2rem;
-          width: 90%;
+          width: 60%;
 
           @media ($breakpoint-md) {
             display: none;
