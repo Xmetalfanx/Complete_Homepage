@@ -54,10 +54,12 @@
 }
 
 // idea only: 
-@mixin section-title() {
-  font-size: 24px;
-  font-weight: 700;
+@mixin section-title($font-size: 24px, $font-weight: 700, $color: $theme-clr-accent) {
+  color: $color;
+  font-size: $font-size;
+  font-weight: $font-weight;
   margin: 1rem auto;
+
 }
 
 @mixin icon-variant($height: 32px, $width: 32px) {

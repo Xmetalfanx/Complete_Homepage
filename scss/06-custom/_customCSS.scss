@@ -131,18 +131,13 @@ figcaption,
 // note to self: redo with mixin's later
 section {
   @include border-radius-single(20px);
-  
-  padding: 1rem;
+
+  outline: 1px solid $theme-clr-accent;
+  padding: 2rem;
   margin: 1rem;
 
-  .section-title {
-    font-size: var(--h3);
-    font-weight: 600;
-    color: $theme-clr-main;
-
-    a {
-      color: $theme-clr-accent;
-    }
+  .section-title a {
+    @include section-title(var(--h3), 600, $theme-clr-accent);
 
       a:hover,
       a:focus {
@@ -156,5 +151,26 @@ section {
     }
   }
 
+    // for the description AND the images .. a container 
+    .section-details {
+      display: flex;
+      justify-content: space-between;
+
+      .section-description {
+        max-width: 72ch;
+      }
+
+      img {
+        @include border-radius-single(10%);
+
+        padding: 0 2rem;
+        width: 60%;
+
+        @media ($breakpoint-md) {
+          display: none;
+        }
+      }
+
+    }
 
 }

@@ -39,34 +39,6 @@
       @media ($breakpoint-lg) {
         grid-column: span 2;
       }
-
-    section {
-      outline: 1px solid $theme-clr-accent;
-      padding: 2rem;
-
-      // for the description AND the images .. a container 
-      .section-details {
-        display: flex;
-        justify-content: space-between;
-
-        .section-description {
-          max-width: 72ch;
-        }
-
-        img {
-          @include border-radius-single(10%);
-
-          padding: 0 2rem;
-          width: 60%;
-
-          @media ($breakpoint-md) {
-            display: none;
-          }
-        }
-
-      }
-    }
-
   }
 
   // git section, at the bottom
