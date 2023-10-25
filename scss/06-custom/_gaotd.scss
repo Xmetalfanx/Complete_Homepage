@@ -6,6 +6,7 @@
   margin: 1.5rem auto;
 
   @media ($breakpoint-md) {
-    width: 90%;
+    // width: 90%;
+    display: none;
   }
 }

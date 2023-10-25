@@ -15,8 +15,11 @@ footer {
   a {
     @include clr-bg-and-fg;
 
-      margin: -.5rem;
-      padding: .5rem;
+      // Oct 2023 ... didn't i just add these for the mobile menu issue? 
+      // commit: https://github.com/Xmetalfanx/website/commit/3c525894078d4cc5d8fe22bcae5213e26dfc0790
+      // why? 
+      // margin: -.5rem;
+      // padding: .5rem;
 
     &:hover,
     &:focus {
@@ -111,7 +114,7 @@ header {
   }
 
   // the menu bar to the top right - should be hidden unless on small screens
-
+  // oct 2023 some more global borders broke the LEFT hand title .. 
   .topnav {
     @include flex;
 

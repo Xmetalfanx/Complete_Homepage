@@ -88,11 +88,12 @@ figcaption,
 
 // for custom hamburger (moving away from fork awesome) menu 
 // why is this here? ... should it be in header_and_footer.scss? 
+// Oct 2023: this is there too ... what did i do? 
 .hamburger-menu {
   display: none;
  
   .bar {
-      background-color: var(--clr-white); 
+      background-color: $theme-clr-light; 
       display: block;
       width: 25px;
       height: 3px;
@@ -104,6 +105,7 @@ figcaption,
     @include flex(column, nowrap, normal);
 
     margin: 0 auto;
+
   }
 
 }
