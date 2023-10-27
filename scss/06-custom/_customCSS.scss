@@ -145,19 +145,12 @@ section {
       }
   }
 
-  .section-body {
-    > * {
-      margin: 1rem 0;
-    }
-  }
-
     // for the description AND the images .. a container 
     .section-details {
-      display: flex;
-      justify-content: space-between;
+      @include flex(row, nowrap, space-between);
 
       .section-description {
-        max-width: 72ch;
+        flex-grow: 1;
       }
 
       img {
