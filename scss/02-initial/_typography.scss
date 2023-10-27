@@ -42,10 +42,11 @@ h5,
 a {
   background-color: transparent;
   text-decoration: none;
+  color: $theme-clr-accent;
 
   &:hover,
   &:focus {
-    color: $theme-clr-accent;
+    color: $theme-clr-dark;
   }
 }
 
