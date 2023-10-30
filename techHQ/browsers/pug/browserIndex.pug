@@ -1,7 +1,7 @@
 #browser-frontpage
     #browsers
         h3 Browsers
-        .browserBTNs
+        #browser-engines 
             div
                 h4 Chromium based - Blink Engine
                 ul
@@ -25,7 +25,6 @@
                         a(href="https://github.com/ungoogled-software/ungoogled-chromium" target="_blank")
                             img.icon(src="/techHQ/progIcons/internet/browsers/chromium.png" alt="Chromium/Ungoogle Chromium icon")
                             | Ungoogled Chromium
-
             div
                 h4 Firefox Based - Geck Engine
                 ul
@@ -37,20 +36,21 @@
                         a(href="https://librewolf.net/" target="_blank")
                             img.icon(src="/techHQ/progIcons/internet/browsers/librewolf.png" alt="LibreWolf Icon")
                             | LibreWolf
+            div 
+                    h4 Firefox Based - Goanna Engine
+                    ul
+                        li.btn
+                            a(href="https://www.basilisk-browser.org/" target="_blank")
+                                img.icon(src="/techHQ/progIcons/internet/browsers/basilisk.png" alt="Basilisk icon")
+                                | Basilisk
+                        li.btn
+                            a(href="https://www.palemoon.org/" target="_blank")
+                                img.icon(src="/techHQ/progIcons/internet/browsers/pm_logo.png" alt="Pale Moon Icon")
+                                | Pale Moon
 
-                h4 Firefox Based - Goanna Engine
-                ul
-                    li.btn
-                        a(href="https://www.basilisk-browser.org/" target="_blank")
-                            img.icon(src="/techHQ/progIcons/internet/browsers/basilisk.png" alt="Basilisk icon")
-                            | Basilisk
-                    li.btn
-                        a(href="https://www.palemoon.org/" target="_blank")
-                            img.icon(src="/techHQ/progIcons/internet/browsers/pm_logo.png" alt="Pale Moon Icon")
-                            | Pale Moon
-    #addons
+    #total-addons
         h3 Browser Addons
-        .jc-start
+        .d-flex.jc-start
             .addon
                 img.icon(src="/techHQ/browsers/graphics/icons/ublock-origin.svg" alt="Ublock Origin SVG Icon")
                 .addon-name Ublock Origin
@@ -58,13 +58,13 @@
                 ul.browsers
                     li
                         a(href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/")
-                            img(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Ublock Origin Firefox")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Ublock Origin Firefox")
                     li
                         a(href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank")
-                            img(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Ublock Origin Chrome Store")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Ublock Origin Chrome Store")
                     li
                         a(href="https://github.com/gorhill/uBlock" target="_blank")
-                            img(src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github")
+                            img.icon(src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github")
             .addon
                 img.icon(src="/techHQ/browsers/graphics/icons/bit-warden.svg" alt="Bit Warden SVG Icon")
                 
@@ -73,22 +73,19 @@
                 ul.browsers
                     li
                         a(href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/" target="_blank")
-                            img(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Bit Warden Firefox")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Bit Warden Firefox")
                     li
                         a(href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb" target="_blank")
-                            img(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Bit Warden Chrome Store")
+                            img.icon(src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Bit Warden Chrome Store")
                     li
                         a(href="https://github.com/bitwarden/clients" target="_blank")
-                            img(src="/graphics/simpleIcons/github.svg" alt="Bit Warden Github")
+                            img.icon(src="/graphics/simpleIcons/github.svg" alt="Bit Warden Github")
 
     #ytvideos
         h3 Youtube Videos
-        ul.d-flex
+        ul.w-fitcontent
             li
                 iframe(width='560' height='315' src='https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJfqnRKGlfY-dPzJMd59HZ43' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen)
-            li
-            li
-            li
 
     #useful-links
         h3 Useful Browser Links

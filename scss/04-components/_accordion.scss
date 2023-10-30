@@ -1,5 +1,7 @@
 @use "../01-abstracts/index" as *;
 
+
+
 // hide the checkbox
 input {
   display: none;
@@ -27,6 +29,7 @@ label {
   // outline: 1px solid $theme-clr-dark;
 }
 
+// why do i have things broken out like this? ... 
 @media ($breakpoint-lg) {
   label {
     &::before {
@@ -74,4 +77,10 @@ label {
     padding: 1rem 0;
   }
 
+}
+
+@media ($breakpoint-md) {
+  .accordion {
+    max-width: 90vw;
+  }
 }

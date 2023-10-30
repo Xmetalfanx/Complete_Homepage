@@ -33,6 +33,10 @@
   place-content: $ac $jc;
 }
 
+@mixin outline($outline-size: 1px, $outline-style: solid, $outline-color: $theme-clr-main) {
+  outline: $outline-size $outline-style $outline-color;
+}
+
 @mixin border($border-size: 1px, $border-style: solid, $border-color: $theme-clr-main) {
   border: $border-size $border-style $border-color;
 }
