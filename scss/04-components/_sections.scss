@@ -64,10 +64,13 @@
 
 
 #browser-frontpage {
-  // why is this here? .. why do i need this?
+  max-width: 100vw;
+  
   * > a {
     color: $theme-clr-dark;
   }
+
+  h3 { margin: 1rem 0; }
 
   h4 { color: $theme-clr-main; }
 
@@ -75,12 +78,6 @@
   .icon {
     max-height: 32px;
     max-width: 32px;
-  }
-
-  .btn {
-    @media ($breakpoint-sm) {
-      max-width: 90%;
-    }
   }
 
   ul {
@@ -92,8 +89,6 @@
       list-style-type: none;
       margin: .5rem 0;
       padding: 1rem 2rem;
-
-      
     }
 
     @media ($breakpoint-lg) {
@@ -102,53 +97,43 @@
 
   }
 
-  #browsers {
-    #browser-engines
-    {
-      @include flex(row, wrap, flex-start);
+  #browser-engines-container {
+    @include flex(row, wrap, flex-start);
 
-      @media ($breakpoint-md) {
-        ul {
-          flex-direction: column;
-          margin: 0;
-        }
-      
-        .btn a {
-          white-space: normal;
-        }
-
-
+    div {
+      flex: 1 0 50%;
     }
 
-    // meant for everything down to small screens
-      div {
-        flex: 0 1 50%;
-        padding: 0 1rem;
+    @media ($breakpoint-md) {
+      flex-flow: column nowrap;
 
+      ul {
+        // flex-direction: column;
+        margin: 0;
       }
 
+  }
 
-      .btn a {
-        padding: 1rem 2rem 0 0 ;
-        white-space: nowrap;
+    .btn a {
+      padding: 1rem 2rem 0 0 ;
+      white-space: nowrap;
 
-        @media ($breakpoint-md) {
-            white-space: wrap;
-          }
+      @media ($breakpoint-md) {
+          white-space: wrap;
         }
+      }
 
-      // ... what?
-      * > .btn:hover, * > .btn:focus {
-        background: $theme-clr-accent;
+    // ... what?
+    * > .btn:hover, * > .btn:focus {
+      background: $theme-clr-accent;
+      transition: .25s;
+
+      a:hover, a:focus {
+        // background-color: $theme-clr-accent;
+        color: $theme-clr-light;
         transition: .25s;
-
-        a:hover, a:focus {
-          // background-color: $theme-clr-accent;
-          color: $theme-clr-light;
-          transition: .25s;
-        }
-
       }
+
     }
   }
 
@@ -158,48 +143,51 @@
     //   @include flex(row, wrap, flex-start);
     // }
 
-    // the class for EACH addon
-    .addon {
-      @include border;
+    #addons-container {
+      @include flex(row, wrap, flex-start);
 
-      border-radius: 20px;
-      margin: 0 2rem;
-      padding: 3rem 1rem;
+      // the class for EACH addon
+      .addon {
+        @include outline;
 
-      // width: max(20%, 200px);
-      width: fit-content;
+        border-radius: 20px;
+        margin: 0 2rem;
+        padding: 3rem 1rem;
+        width: max(20%, 200px);
 
-      @media ($breakpoint-sm) {
-        margin: 1rem 2rem;
-        padding: 1rem 3rem;
+        @media ($breakpoint-sm) {
+          margin: 1rem 2rem;
+          padding: 1rem 3rem;
+        }
+
+        // major addon icon at the top of the "section"
+        .icon {
+          @include icon-variant;
+
+          display: block;
+          margin: 0 auto;
+
+        }
+
+        .addon-name, .addon-descript {
+          text-align: center;
+          margin: .5rem auto;
+        }
+
+        .addon-name {
+          font-weight: 800;
+        }
+
+        .addon-descript {
+          font-style: italic;
+        }
+
+        // // for row of browsers and their links
+        // .browsers {
+        
+        // }
       }
 
-      // major addon icon at the top of the "section"
-      .icon {
-        display: block;
-        margin: 0 auto;
-        height: 32px;
-        width: 32px;
-
-      }
-
-      .addon-name, .addon-descript {
-        text-align: center;
-        margin: .5rem auto;
-      }
-
-      .addon-name {
-        font-weight: 800;
-      }
-
-      .addon-descript {
-        font-style: italic;
-      }
-
-      // // for row of browsers and their links
-      // .browsers {
-      
-      // }
     }
 
   }

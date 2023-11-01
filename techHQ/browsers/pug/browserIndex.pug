@@ -1,7 +1,7 @@
 #browser-frontpage
     #browsers
         h3 Browsers
-        #browser-engines 
+        #browser-engines-container
             div
                 h4 Chromium based - Blink Engine
                 ul
@@ -36,7 +36,7 @@
                         a(href="https://librewolf.net/" target="_blank")
                             img.icon(src="/techHQ/progIcons/internet/browsers/librewolf.png" alt="LibreWolf Icon")
                             | LibreWolf
-            div 
+            div
                     h4 Firefox Based - Goanna Engine
                     ul
                         li.btn
@@ -50,7 +50,7 @@
 
     #total-addons
         h3 Browser Addons
-        .d-flex.jc-start
+        #addons-container
             .addon
                 img.icon(src="/techHQ/browsers/graphics/icons/ublock-origin.svg" alt="Ublock Origin SVG Icon")
                 .addon-name Ublock Origin
@@ -67,7 +67,7 @@
                             img.icon(src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github")
             .addon
                 img.icon(src="/techHQ/browsers/graphics/icons/bit-warden.svg" alt="Bit Warden SVG Icon")
-                
+
                 .addon-name Bit Warden
                 .addon-descript Open-Source Password Manager
                 ul.browsers
@@ -90,7 +90,7 @@
     #useful-links
         h3 Useful Browser Links
 
-        .d-flex
+        .links-container
             a(href="https://privacytests.org/" target="_blank")
                 img(src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic")
             a(href="https://www.privacytools.io/" target="_blank")

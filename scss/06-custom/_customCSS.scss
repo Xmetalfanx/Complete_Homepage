@@ -132,16 +132,18 @@ figcaption,
 section {
   @include border-radius-single(20px);
 
-  outline: 1px solid $theme-clr-accent;
-  padding: 2rem;
   margin: 1rem;
+  outline: 1px solid $theme-clr-accent;
+  padding: .5rem 0;
 
-  .section-title a {
+  .section-title {
     @include section-title(var(--h3), 600, $theme-clr-accent);
+
+    text-align: center;
 
       a:hover,
       a:focus {
-        color: $theme-clr-dark;
+        color: $theme-clr-main;
       }
   }
 

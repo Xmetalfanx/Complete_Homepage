@@ -22,8 +22,7 @@
 <div id="browser-frontpage">
   <div id="browsers">
     <h3>Browsers</h3>
-  <div id="browser-engines">
-      
+    <div id="browser-engines-container">
       <div>
         <h4>Chromium based - Blink Engine</h4>
         <ul>
@@ -41,7 +40,7 @@
           <li class="btn"><a href="https://librewolf.net/" target="_blank"><img class="icon" src="/techHQ/progIcons/internet/browsers/librewolf.png" alt="LibreWolf Icon">LibreWolf</a></li>
         </ul>
       </div>
-      <div> 
+      <div>
         <h4>Firefox Based - Goanna Engine</h4>
         <ul>
           <li class="btn"><a href="https://www.basilisk-browser.org/" target="_blank"><img class="icon" src="/techHQ/progIcons/internet/browsers/basilisk.png" alt="Basilisk icon">Basilisk</a></li>
@@ -52,45 +51,30 @@
   </div>
   <div id="total-addons">
     <h3>Browser Addons</h3>
-    <div class="d-flex jc-start">
+    <div id="addons-container">
       <div class="addon">
         <img class="icon" src="/techHQ/browsers/graphics/icons/ublock-origin.svg" alt="Ublock Origin SVG Icon">
         <div class="addon-name">Ublock Origin</div>
         <div class="addon-descript">Ad/Content Blocker</div>
         <ul class="browsers">
-          <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">
-            <img class="icon" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Ublock Origin Firefox"></a>
-        </li>
-          <li><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank">
-            <img class="icon" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Ublock Origin Chrome Store"></a>
-        </li>
-          <li>
-            <a href="https://github.com/gorhill/uBlock" target="_blank">
-            <img class="icon" src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github"></a>
-        </li>
+          <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"><img class="icon" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Ublock Origin Firefox"></a></li>
+          <li><a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm" target="_blank"><img class="icon" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Ublock Origin Chrome Store"></a></li>
+          <li><a href="https://github.com/gorhill/uBlock" target="_blank"><img class="icon" src="/graphics/simpleIcons/github.svg" alt="Ublock Origin Github"></a></li>
         </ul>
       </div>
-      
       <div class="addon">
         <img class="icon" src="/techHQ/browsers/graphics/icons/bit-warden.svg" alt="Bit Warden SVG Icon">
         <div class="addon-name">Bit Warden</div>
         <div class="addon-descript">Open-Source Password Manager</div>
         <ul class="browsers">
-          <li>
-            <a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/" target="_blank">
-            <img class="icon" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Bit Warden Firefox"></a>
-          </li>
-          <li>
-            <a href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb" target="_blank">
-            <img class="icon" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Bit Warden Chrome Store"></a>
-        </li>
-          <li><a href="https://github.com/bitwarden/clients" target="_blank">
-            <img class="icon" src="/graphics/simpleIcons/github.svg" alt="Bit Warden Github"></a>
-        </li>
+          <li><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/" target="_blank"><img class="icon" src="/techHQ/progIcons/internet/browsers/firefox.svg" alt="Bit Warden Firefox"></a></li>
+          <li><a href="https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb" target="_blank"><img class="icon" src="/techHQ/progIcons/internet/browsers/chrome.svg" alt="Bit Warden Chrome Store"></a></li>
+          <li><a href="https://github.com/bitwarden/clients" target="_blank"><img class="icon" src="/graphics/simpleIcons/github.svg" alt="Bit Warden Github"></a></li>
         </ul>
       </div>
     </div>
   </div>
+  
   <div id="ytvideos">
     <h3>Youtube Videos</h3>
     <ul class="w-fitcontent">
@@ -99,19 +83,12 @@
       </li>
     </ul>
   </div>
+  
   <div id="useful-links">
     <h3>Useful Browser Links</h3>
-    <div class="d-flex">
-      <a href="https://privacytests.org/" target="_blank">
-        <img src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic">
-      </a>
-      <a href="https://www.privacytools.io/" target="_blank">
-          <img src="/techHQ/graphics/privacytoolsio.png" alt="PrivacyTools.io graphic">
-        </a>
-    </div>
+    <div class="links-container"><a href="https://privacytests.org/" target="_blank"><img src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic"></a><a href="https://www.privacytools.io/" target="_blank"><img src="/techHQ/graphics/privacytoolsio.png" alt="PrivacyTools.io graphic"></a></div>
   </div>
 </div>
-
 
 <!-- why are these here? -->
 </div>

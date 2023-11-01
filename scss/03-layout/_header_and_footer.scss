@@ -84,6 +84,7 @@ footer {
 
 header {
   @include box-shadow(2px, 2px, 5px, $theme-clr-accent);
+
   padding: 1.75rem;
 
   // text-shadow: 2px 5px $theme-clr-dark;
