@@ -138,26 +138,34 @@
   }
 
   #total-addons {
-    // like a container class for all the addons
-    // div {
-    //   @include flex(row, wrap, flex-start);
-    // }
-
     #addons-container {
-      @include flex(row, wrap, flex-start);
+      @include flex(row, wrap, space-around);
 
       // the class for EACH addon
       .addon {
         @include outline;
 
+        gap: 2rem;
         border-radius: 20px;
         margin: 0 2rem;
         padding: 3rem 1rem;
-        width: max(20%, 200px);
+
+        // width: max(20%, 200px);
+        width: fit-content;
 
         @media ($breakpoint-sm) {
           margin: 1rem 2rem;
           padding: 1rem 3rem;
+          width: 100%;
+
+          ul {
+            flex-flow: column nowrap;
+
+            li {
+              margin: 2rem 0;
+              padding: unset;
+            }
+          }
         }
 
         // major addon icon at the top of the "section"
@@ -166,7 +174,6 @@
 
           display: block;
           margin: 0 auto;
-
         }
 
         .addon-name, .addon-descript {
@@ -174,18 +181,10 @@
           margin: .5rem auto;
         }
 
-        .addon-name {
-          font-weight: 800;
-        }
+        .addon-name { font-weight: 800; }
 
-        .addon-descript {
-          font-style: italic;
-        }
+        .addon-descript { font-style: italic; }
 
-        // // for row of browsers and their links
-        // .browsers {
-        
-        // }
       }
 
     }
@@ -193,7 +192,16 @@
   }
 
   #ytvideos {
-    div { display: flex; }
+    #yt-video-container {
+      margin: 0 auto;
+      width: fit-content;
+
+      // ul > li {
+      //   margin: 0 auto;
+      // }
+    }
+
+
 
     @media ($breakpoint-sm) {
       display: none;
@@ -201,9 +209,24 @@
   }
 
   #useful-links {
-    img {
-      width: min(100%, 500px);
+    .link-container {
+      display: flex;
+      justify-content: space-evenly;
+
+      @media ($breakpoint-md) {
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+      }
     }
+
+
+    // img {
+
+    //   @media ($breakpoint-sm) {
+    //     margin: 3rem 0;
+    //   }
+    // }
 
   }
 

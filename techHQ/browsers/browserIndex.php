@@ -74,19 +74,29 @@
       </div>
     </div>
   </div>
-  
+
   <div id="ytvideos">
     <h3>Youtube Videos</h3>
-    <ul class="w-fitcontent">
-      <li>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJfqnRKGlfY-dPzJMd59HZ43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </li>
-    </ul>
+    <div id="yt-video-container">
+      <ul>
+        <li>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLrh2y86lvcJfqnRKGlfY-dPzJMd59HZ43" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </li>
+      </ul>
+    </div>
   </div>
-  
+
   <div id="useful-links">
     <h3>Useful Browser Links</h3>
-    <div class="links-container"><a href="https://privacytests.org/" target="_blank"><img src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic"></a><a href="https://www.privacytools.io/" target="_blank"><img src="/techHQ/graphics/privacytoolsio.png" alt="PrivacyTools.io graphic"></a></div>
+    <div class="link-container">
+      <a href="https://privacytests.org/" target="_blank">
+        <img img="imgfluid" src="/techHQ/graphics/privacytests.png" alt="Privacy Tests.org graphic">
+      </a>
+
+      <a href="https://www.privacytools.io/" target="_blank">
+        <img class="imgfluid" src="/techHQ/graphics/privacytoolsio.png" alt="PrivacyTools.io graphic">
+      </a>
+    </div>
   </div>
 </div>
 

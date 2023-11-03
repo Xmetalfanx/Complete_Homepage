@@ -16,14 +16,14 @@
   // was there a need for grid? ...
   .card {
     @include border-radius-single(10px);
-    
-    // i forgot if i have a mixin for this 
+
+    // i forgot if i have a mixin for this
     // border: 1px solid $theme-clr-accent;
-    
+
     box-shadow: var(--box-shadow-light);
     margin: 1.2rem auto;
 
-    // is this width needed? ... auto = default? 
+    // is this width needed? ... auto = default?
     width: auto;
 
     &--outline {
@@ -177,9 +177,9 @@
       max-width: 72ch;
     }
 
-    @media ($breakpoint-lg) {
-      margin: 0 1rem;
-    }
+    // @media ($breakpoint-lg) {
+    //   margin: 0 .5rem;
+    // }
   }
 
   @media ($breakpoint-lg) {
