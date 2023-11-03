@@ -151,6 +151,8 @@ section {
     .section-details {
       @include flex(row, nowrap, space-between);
 
+      padding: 2rem;
+
       .section-description {
         flex-grow: 1;
       }
