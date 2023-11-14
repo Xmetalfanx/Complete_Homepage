@@ -175,7 +175,7 @@ function displayDEOutput(
 
             <div class="card mx-3">
                 <div class="card__header">
-                    <h3>${currentDETitle}</h3>
+                    ${currentDETitle}
                 </div>
                 <div class="card__body">
                     <div class="row">

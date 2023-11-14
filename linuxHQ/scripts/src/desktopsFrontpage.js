@@ -41,7 +41,7 @@ function getDesktopData(data) {
 
     $(document).ready(function() {
 
-        jsonURL = "/linuxHQ/json/desktops.json";
+        jsonURL = "/linuxHQ/json/desktops-min.json";
 
         // Get JSON Data
         $.getJSON(jsonURL, function(data) {
