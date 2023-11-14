@@ -16,8 +16,14 @@
   .card {
     min-width: 300px;
     max-width: 92%;
-    margin: 0 1rem;
   }
+
+  // i know i can simplify this 
+  :nth-child(1 of .card), :nth-child(2 of .card) {
+    margin: 0 1rem;
+    background-color: yellowgreen;
+  }
+
 
   @media ($breakpoint-md) {
     display: unset;
