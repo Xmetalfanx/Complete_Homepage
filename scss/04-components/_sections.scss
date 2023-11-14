@@ -38,6 +38,7 @@
   // also consider using css and removing the "tailwind like" syntax I have there for spacing
   .row {
     margin: 0.75rem 0;
+    display: flex;
 
     .col {
       margin: 0 1.5rem;
