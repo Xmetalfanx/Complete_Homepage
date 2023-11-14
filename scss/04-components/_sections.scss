@@ -10,11 +10,13 @@
   @include flex(row, wrap, normal);
   @include place-content(flex-start, space-evenly);
 
+  // Nov 2023: is this width needed? ... something seems off
   width: 100%;
 
   .card {
     min-width: 300px;
     max-width: 92%;
+    margin: 0 1rem;
   }
 
   @media ($breakpoint-md) {
