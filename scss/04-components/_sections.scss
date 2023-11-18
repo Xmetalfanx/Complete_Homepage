@@ -18,13 +18,6 @@
     max-width: 92%;
   }
 
-  // i know i can simplify this 
-  :nth-child(1 of .card), :nth-child(2 of .card) {
-    margin: 0 1rem;
-    background-color: yellowgreen;
-  }
-
-
   @media ($breakpoint-md) {
     display: unset;
     flex-wrap: unset;

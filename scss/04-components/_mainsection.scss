@@ -168,7 +168,8 @@
   .primary-content {
     grid-area: pContent;
 
-    .card:first-child {
+    // idea
+    .card:nth-child(-n + 2 of .card) {
       margin-top: 0;
     }
 
