@@ -6,7 +6,7 @@ const postcssPresetEnv = require('postcss-preset-env')
 const postcssSorting = require('postcss-sorting')
 const stylelint = require('stylelint')
 const purgecss = require('@fullhuman/postcss-purgecss')
-
+const combineSelectors = require('postcss-combine-duplicated-selectors')
 
 // is this "fs" needed? ... optimize-css-mq has it listed
 // const fs = require("fs");
@@ -21,6 +21,9 @@ module.exports = {
     stylelint({
       /* your options */
       "fix": true
+    }),
+    combineSelectors({
+      removeDuplicatedProperties: true
     }),
     optmizemq({
       sort: true,

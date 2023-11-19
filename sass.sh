@@ -28,8 +28,9 @@ clear && echo "Running PostCSS on RAW CSS file"
 npm run postcss:all
 #userPrompt
 
-echo "Running Stylelint Fix on minified CSS file"
-npm run fix:mincss
+# not sure if this makes sense ... 
+# echo "Running Stylelint Fix on minified CSS file"
+# npm run fix:mincss
 #userPrompt
 
 echo "COMPLETED"
