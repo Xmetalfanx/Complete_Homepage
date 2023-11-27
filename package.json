@@ -109,6 +109,6 @@
     "micromatch": "^4.0.5",
     "purgecss": "^5.0.0",
     "stable": "^0.1.8",
-    "yarn-audit-fix": "^10.0.5"
+    "yarn-audit-fix": "^10.0.7"
   }
 }
