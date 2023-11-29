@@ -856,6 +856,14 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
+"@xmetal/optimize-css-mq@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@xmetal/optimize-css-mq/-/optimize-css-mq-1.1.2.tgz#5df0c0e8b15840afdd9459046ef34c11ab50d2fb"
+  integrity sha512-UjLtHUZ+bW8eIz+A+pwd11UsAej1bTq5tPBQMnDLGPyl3g90iyPMU8g0v8mZmVQeFYjGaM9kTCOK2/3cFFat9g==
+  dependencies:
+    minimist "1.2.6"
+    postcss "7.0.32"
+
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
   resolved "https://registry.npmjs.org/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz"
@@ -5122,10 +5130,10 @@ minimist-options@4.1.0:
     is-plain-obj "^1.1.0"
     kind-of "^6.0.3"
 
-minimist@1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+minimist@1.2.6:
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 minimist@^1.0.0, minimist@^1.1.3, minimist@^1.2.0, minimist@^1.2.6:
   version "1.2.8"
@@ -5398,14 +5406,6 @@ open@^9.1.0:
     define-lazy-prop "^3.0.0"
     is-inside-container "^1.0.0"
     is-wsl "^2.2.0"
-
-optimize-css-mq@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/optimize-css-mq/-/optimize-css-mq-1.1.1.tgz"
-  integrity sha512-CI3b0eIr/OQWzpn3g/iZWbL5n3/IgHCviFgh3QDHLNTctgd2O3GPzKQm5Y44cxKxAb2PNVkPthjuC9jkBVXx4g==
-  dependencies:
-    minimist "1.2.5"
-    postcss "7.0.32"
 
 optionator@^0.9.3:
   version "0.9.3"

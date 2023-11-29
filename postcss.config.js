@@ -10,7 +10,7 @@ const combineSelectors = require('postcss-combine-duplicated-selectors')
 
 // is this "fs" needed? ... optimize-css-mq has it listed
 // const fs = require("fs");
-const optmizemq = require("optimize-css-mq");
+const optmizemq = require("@xmetal/optimize-css-mq");
 
 module.exports = {
   plugins: [
