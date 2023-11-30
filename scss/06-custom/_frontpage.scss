@@ -71,8 +71,8 @@
         margin: 0 auto;
         width: clamp(50%, 80%, 72ch);
 
-        .git-section-title {
-          @include section-title;
+        .git-section--title {
+          @include section--title;
         }
 
         .git-icons {
