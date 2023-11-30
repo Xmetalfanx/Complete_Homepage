@@ -77,9 +77,10 @@
       </div>
     </div>
   </div>
+  <?php include $siteRoot . '/techHQ/modules/gaotd.tpl'; ?>
+
 </div>
 
 
-<?php include $siteRoot . '/techHQ/modules/gaotd.tpl'; ?>
 
 <?php include $siteRoot . '/modules/tech/baseTechFooter.tpl'; ?>
