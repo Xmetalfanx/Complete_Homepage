@@ -15,6 +15,8 @@ footer {
   a {
     @include clr-bg-and-fg;
 
+    padding: 1.5rem;
+
       // Oct 2023 ... didn't i just add these for the mobile menu issue? 
       // commit: https://github.com/Xmetalfanx/website/commit/3c525894078d4cc5d8fe22bcae5213e26dfc0790
       // why? 
@@ -27,6 +29,7 @@ footer {
       @include clr-bg-and-fg($theme-clr-light, $theme-clr-accent);
 
       outline: 1px dotted $theme-clr-light;
+     
 
     }
   }
@@ -124,7 +127,7 @@ header {
     font-family: var(--ffamily-omgubuntu);
 
     a {
-      margin: 0 1.2rem;
+      margin: 0 .8rem;
 
       :hover, :active {
         @include clr-bg-and-fg($theme-clr-light, $theme-clr-main);
