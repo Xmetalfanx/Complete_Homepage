@@ -27,7 +27,7 @@
     "jshint": "^2.13.5",
     "jslint": "^0.12.1",
     "mqpacker": "^7.0.0",
-    "postcss": "^8.4.31",
+    "postcss": "^8.4.33",
     "postcss-autoreset": "^3.0.4",
     "postcss-cli": "^10.0.0",
     "postcss-combine-duplicated-selectors": "^10.0.3",
