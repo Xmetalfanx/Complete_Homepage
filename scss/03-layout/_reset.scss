@@ -16,3 +16,8 @@ svg {
     display: block;
     max-width: 100%;
 }
+
+p, div 
+{
+    text-wrap: pretty;
+}

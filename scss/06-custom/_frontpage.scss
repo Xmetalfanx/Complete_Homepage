@@ -35,6 +35,7 @@
   // main class, for both site sections 
   .site-sections {
       grid-area: site-sections;
+      width: 70%;
 
       @media ($breakpoint-lg) {
         grid-column: span 2;
@@ -44,6 +45,7 @@
   // git section, at the bottom
   .git-section {
     grid-area: git-section;
+    width: 90%;
 
     @media ($breakpoint-lg) {
       grid-column: span 2;
