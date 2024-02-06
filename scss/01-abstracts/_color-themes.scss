@@ -1,10 +1,8 @@
 @use "sass:map";
 
-// for future Christmas theme idea
+
 $amazon-main-darker-green: hsl(174deg 100% 14%);
-$amzon-sub-lighter-green: hsl(173deg 56% 22%); 
-
-
+$amzon-sub-lighter-green: hsl(173deg 56% 22%);
 $oct-theme: (
     main: hsl(18deg 80% 35%),
     // accent: hsl(120, 50%, 20%),
@@ -26,15 +24,15 @@ $dec-theme: (
     dark: hsl(0deg 0% 20%),
 );
 $tropical-theme1: (
-    main: hsl(40deg 80% 45%),
-    accent: hsl(225deg 73% 57%),
+    main: hsl(34deg 100% 38%),
+    accent: hsl(160deg 100% 25%),
     light: hsl(0deg 0% 94%),
     dark: hsl(0deg 0% 20%),
 
 );
 
 // assign theme idea 
-$current-theme: $dec-theme;
+$current-theme: $tropical-theme1;
 $theme-clr-main: map.get($current-theme, main);
 $theme-clr-accent: map.get($current-theme, accent);
 $theme-clr-light: map.get($current-theme, light);
