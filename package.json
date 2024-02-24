@@ -14,7 +14,7 @@
     "browserslist": "^4.22.3",
     "chalk": "^5.0.1",
     "colorguard": "^1.2.1",
-    "core-js": "^3.35.1",
+    "core-js": "^3.36.0",
     "css": "^3.0.0",
     "cssnano": "^6.0.1",
     "doiuse": "^6.0.2",
