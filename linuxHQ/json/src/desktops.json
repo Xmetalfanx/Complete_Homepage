@@ -34,17 +34,18 @@
       "versions": {
         "arch": "0.99.2-3",
         "debian": {
+          "busterVersion": "10",
           "bullseyeVersion": "11",
           "bookwormVersion": "11"
         },
         "fedora": {
           "f38": "0.99.2-22",
-          "f37": "0.99.2-19"
+          "f39": "0.99.2-23"
         },
         "latestVersion": "0.99.2",
         "opensuse": {
-          "leap154": "Can't find info as of November 2023",
           "leap155": "Can't find info as of November 2023",
+          "leap156": "Can't find info as of November 2023",
           "tumbleweed": "Can't find info as of November 2023"
         },
         "solus": "N/A",
@@ -53,12 +54,18 @@
           "jammy": "11",
           "lunar": "11",
           "mint": {
+            "mint20": "N/A",
+            "mint201": "N/A",
+            "mint202": "N/A",
+            "mint203": "N/A",
             "mint21": "N/A",
-            "mint20": "N/A"
+            "mint211": "N/A",
+            "mint212": "N/A",
+            "mint213": "N/A"
           },
           "neonversion": "N/A"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     }
   ],
@@ -99,20 +106,20 @@
         "thumbnail": "ubuntu/thumbnails/cinnamonMint_tn.png"
       },
       "versions": {
-        "arch": "5.8.4-2",
+        "arch": "6.0.4-1",
         "debian": {
           "bullseye": "4.8.6-2",
           "bookworm": "5.6.8-1"
         },
         "fedora": {
-          "f38": "5.8.4-5",
-          "f37": "5.6.8-2"
+          "f38": "6.0.4-1",
+          "f39": "6.0.4-1"
         },
-        "latestVersion": "5.8.4",
+        "latestVersion": "6.0.4",
         "opensuse": {
-          "leap154": "4.6.7-lp154.1.17",
-          "leap155": "4.6.7-lp155.2.8", 
-          "tumbleweed": "5.8.4-1.1"
+          "leap155": "4.6.7",
+          "leap156": "4.6.7",
+          "tumbleweed": "6.0.0-1.2"
         },
         "solus": "N/A",
         "ubuntu": {
@@ -120,12 +127,18 @@
           "jammy": "5.2.7-4",
           "lunar": "5.6.7-1",
           "mint": {
-            "mint21": "5.8.4+victoria",
-            "mint20": "5.0.7+uma"
+            "mint20": "4.6.7",
+            "mint201": "4.8.6",
+            "mint202": "5.0.7",
+            "mint203": "5.0.7",
+            "mint21": "5.4.12",
+            "mint211": "5.6.8",
+            "mint212": "5.8.4",
+            "mint213": "6.0.4"
           },
           "neonversion": "n/a"
         },
-        "updated": "Nov 12, 2023"
+        "updated": "March 1, 2024"
       }
     },
     {
@@ -162,20 +175,20 @@
         "thumbnail": "solus/thumbnails/solusbudgie_tn.png"
       },
       "versions": {
-        "arch": "10.8.2-2",
+        "arch": "10.9.1-1",
         "debian": {
           "bullseye": "10.5.2-4",
           "bookworm": "10.7.1-1"
         },
         "fedora": {
           "f38": "10.8.2-1",
-          "f37": "10.8.2-1"
+          "f39": "10.9.1-2"
         },
-        "latestVersion": "10.8.2",
+        "latestVersion": "10.9.1",
         "opensuse": {
-          "leap154": "10.6+4-bp154.1.109",
-          "leap155": "10.6+4-bp155.2.16",
-          "tumbleweed": "10.8+0-1.2"
+          "leap155": "10.6+4",
+          "leap156": "10.6+4",
+          "tumbleweed": "10.9+2-2.1"
         },
         "solus": "4.4 ISO: 10.7.2",
         "ubuntu": {
@@ -183,12 +196,18 @@
           "jammy": "10.6.1-1",
           "lunar": "10.7.1-1.3",
           "mint": {
-            "mint21": "N/A",
-            "mint20": "N/A"
+            "mint20": "4.6.7",
+            "mint201": "4.8.6",
+            "mint202": "5.0.7",
+            "mint203": "5.2.7",
+            "mint21": "5.4.12",
+            "mint211": "5.6.8",
+            "mint212": "5.8.4",
+            "mint213": "6.0.4"
           },
           "neonversion": "N/A"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     },
     {
@@ -225,18 +244,19 @@
       "versions": {
         "arch": "1.26.2-1",
         "debian": {
+          "busterVersion": "1.20.0+5",
           "bullseyeVersion": "1.24.0+4",
           "bookwormVersion": "1.26.0+1"
         },
         "fedora": {
           "f38": "1.26.2-1",
-          "f37": "1.26.2-1"
+          "f39": "1.26.2-1"
         },
-        "latestVersion": "1.27.1",
+        "latestVersion": "1.26.x",
         "opensuse": {
-          "leap154": "1.26.0-bp154.1.197",
-          "leap155": "1.26.0-bp155.2.17", 
-          "tumbleweed": "1.26.1-1.3"
+          "leap155": "1.26.0",
+          "leap156": "1.26.0",
+          "tumbleweed": "1.26.2-1"
         },
         "solus": "4.4 ISO: 1.27.1",
         "ubuntu": {
@@ -244,12 +264,18 @@
           "jammy": "1.26.0-1",
           "lunar": "1.26.0-1.1",
           "mint": {
+            "mint20": "",
+            "mint201": "",
+            "mint202": "",
+            "mint203": "",
             "mint21": "",
-            "mint20": ""
+            "mint211": "",
+            "mint212": "",
+            "mint213": ""
           },
           "neonversion": "N/A"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     },
     {
@@ -286,18 +312,19 @@
       "versions": {
         "arch": "44.0-1",
         "debian": {
+          "busterVersion": "3.30+1",
           "bullseyeVersion": "3.38+3",
           "bookwormVersion": "43+1"
         },
         "fedora": {
-          "f38": "44.6-1",
-          "f37": "43.9-1"
+          "f38": "44.9-1",
+          "f39": "45.4-1"
         },
         "latestVersion": "45",
         "opensuse": {
-          "leap154": "Not listed on OBS",
-          "leap155": "Not listed on OBS",
-          "tumbleweed": "44.0"
+          "leap155": "41.9",
+          "leap156": "41.9",
+          "tumbleweed": "45.3-3.1"
         },
         "solus": "4.4 ISO: 43.5",
         "ubuntu": {
@@ -305,12 +332,18 @@
           "jammy": "42.0-1.1",
           "lunar": "44.0-1",
           "mint": {
+            "mint20": "N/A",
+            "mint201": "N/A",
+            "mint202": "N/A",
+            "mint203": "N/A",
             "mint21": "N/A",
-            "mint20": "N/A"
+            "mint211": "N/A",
+            "mint212": "N/A",
+            "mint213": "N/A"
           },
           "neonversion": "N/A"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     },
     {
@@ -346,20 +379,21 @@
         "thumbnail": "ubuntu/thumbnails/linuxlite_tn.png"
       },
       "versions": {
-        "arch": "4.18.4-1",
+        "arch": "4.18.0-2",
         "debian": {
+          "busterVersion": "4.12.5-1",
           "bullseyeVersion": "4.16.1-1",
           "bookwormVersion": "4.18.0-1"
         },
         "fedora": {
           "f38": "4.18.0-2",
-          "f37": "4.16.1-6"
+          "f39": "4.18.0-3"
         },
         "latestVersion": "4.18",
         "opensuse": {
-          "leap154": "4.16.1-bp154.1.62",
-          "leap155": "4.18.0-bp155.1.6", 
-          "tumbleweed": "4.18.0-1.5"
+          "leap155": "4.18.0",
+          "leap156": "4.18.0",
+          "tumbleweed": "4.18.0"
         },
         "solus": "N/A (yet) - Soon Solus is replacing their Mate version with an XFCE Version",
         "ubuntu": {
@@ -367,12 +401,18 @@
           "jammy": "4.16.1-1",
           "lunar": "4.18.0-1",
           "mint": {
+            "mint20": "",
+            "mint201": "",
+            "mint202": "",
+            "mint203": "",
             "mint21": "",
-            "mint20": ""
+            "mint211": "",
+            "mint212": "",
+            "mint213": ""
           },
           "neonversion": "N/A"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     }
   ],
@@ -408,20 +448,21 @@
         "thumbnail": "ubuntu/thumbnails/kubuntu_tn.png"
       },
       "versions": {
-        "arch": "5.27.9-1",
+        "arch": "5.27.10-1",
         "debian": {
-          "bullseyeVersion": "5.20.5-4",
+          "busterVersion": "5.14.5.1-1",
+          "bullseyeVersion": "5.20.5-4+deb11u1",
           "bookwormVersion": "5.27.5-2"
         },
         "fedora": {
-          "f38": "5.27.8-1",
-          "f37": "5.27.8-1"
+          "f38": "5.27.10-1",
+          "f39": "5.27.10-1"
         },
         "latestVersion": "5.27",
         "opensuse": {
-          "leap154": "5.24.4-bp154.1.21",
-          "leap155": "5.27.4-bp155.1.7", 
-          "tumbleweed": "5.27.9-1.1"
+          "leap155": "5.27.4",
+          "leap156": "5.27.4",
+          "tumbleweed": "5.27.10-1.2"
         },
         "solus": "4.4 ISO: Plasma Desktop 5.27.5, KDE Frameworks 5.106.0, and QT 5.15.9",
         "ubuntu": {
@@ -429,12 +470,18 @@
           "jammy": "5.24.4-0.1",
           "lunar": "5.27.4-0.1",
           "mint": {
+            "mint20": "N/A",
+            "mint201": "N/A",
+            "mint202": "N/A",
+            "mint203": "N/A",
             "mint21": "N/A",
-            "mint20": "N/A"
+            "mint211": "N/A",
+            "mint212": "N/A",
+            "mint213": "N/A"
           },
           "neonversion": "5.10.4"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     },
     {
@@ -468,18 +515,19 @@
       "versions": {
         "arch": "1.4.0-1",
         "debian": {
+          "busterVersion": "29",
           "bookwormVersion": "31",
           "bullseyeVersion": "30"
         },
         "fedora": {
           "f38": "1.2.0-2",
-          "f37": "1.1.0-2"
+          "f39": "1.3.0-1"
         },
         "latestVersion": "1.4.0",
         "opensuse": {
-          "leap154": "1.0.0-bp154.1.155",
-          "leap155": "1.2.0-bp155.1.6",
-          "tumbleweed": "1.4.0-1.1"
+          "leap155": "1.2.0",
+          "leap156": "1.2.0",
+          "tumbleweed": "1.4.0-2.2"
         },
         "solus": "N/A",
         "ubuntu": {
@@ -487,11 +535,17 @@
           "jammy": "30.1",
           "lunar": "30.2",
           "mint": {
-            "mint21": "",
-            "mint20": ""
+            "mint20": "N/A",
+            "mint201": "N/A",
+            "mint202": "N/A",
+            "mint203": "N/A",
+            "mint21": "N/A",
+            "mint211": "N/A",
+            "mint212": "N/A",
+            "mint213": "N/A"
           }
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     }
   ],
@@ -524,18 +578,19 @@
       "versions": {
         "arch": "3.6.1-10",
         "debian": {
+          "busterVersion": "3.6.1-8",
           "bullseyeVersion": "3.6.1-9",
           "bookwormVersion": "3.6.1-10"
         },
         "fedora": {
           "f38": "3.6.1.22",
-          "f37": "3.6.1.20"
+          "f39": "3.6.1.24"
         },
         "latestVersion": "3.6.x",
         "opensuse": {
-          "leap154": "3.6.1-bp154.1.194",
-          "leap155": "3.6.1-bp155.2.19", 
-          "tumbleweed": "3.6.1-4.3"
+          "leap155": "3.6.1",
+          "leap156": "3.6.1",
+          "tumbleweed": "3.6.1"
         },
         "solus": "N/A",
         "ubuntu": {
@@ -548,7 +603,7 @@
           },
           "neonversion": "N/A"
         },
-        "updated": "November 12, 2023"
+        "updated": "March 1, 2024"
       }
     }
   ]
