@@ -4234,12 +4234,12 @@ postcss-attribute-case-insensitive@^6.0.2:
   dependencies:
     postcss-selector-parser "^6.0.10"
 
-postcss-autoreset@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/postcss-autoreset/-/postcss-autoreset-3.0.4.tgz#eadc25c282ec12f3d566aeb6096698737065f5c3"
-  integrity sha512-2u1of1Gx5NHhEN2hi69HkkZt9X5hJTS1EN1Nk7WXW+EFaxFneaQm7OT5tZihru/u6zwIxBqCNdG/WQx/0EATqA==
+postcss-autoreset@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/postcss-autoreset/-/postcss-autoreset-3.1.0.tgz#b531d7181849473b6e4e07509318e5aea3bb0e31"
+  integrity sha512-TKiB0/KJtGKVu/LoURGYik856JRzEVcRBpHRoM0tTclpL4KUj3yURSbXre2DMneZwZlDru2tfqmKkJEsOK0JWg==
   dependencies:
-    postcss-js "^3.0.1"
+    postcss-js "^4.0.1"
 
 postcss-browser-comments@^4:
   version "4.0.0"
@@ -4433,15 +4433,7 @@ postcss-image-set-function@^6.0.1:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-js@^3.0.1:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-3.0.3.tgz#2f0bd370a2e8599d45439f6970403b5873abda33"
-  integrity sha512-gWnoWQXKFw65Hk/mi2+WTQTHdPD5UJdDXZmX073EY/B3BWnYjO4F4t0VneTCnCGQ5E5GsCdMkzPaTXwl3r5dJw==
-  dependencies:
-    camelcase-css "^2.0.1"
-    postcss "^8.1.6"
-
-postcss-js@^4.0.0:
+postcss-js@^4.0.0, postcss-js@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-4.0.1.tgz#61598186f3703bab052f1c4f7d805f3991bee9d2"
   integrity sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==
@@ -4832,7 +4824,7 @@ postcss@^7.0.0:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.6, postcss@^8.4.21, postcss@^8.4.28, postcss@^8.4.32, postcss@^8.4.35, postcss@^8.4.4:
+postcss@^8.4.21, postcss@^8.4.28, postcss@^8.4.32, postcss@^8.4.35, postcss@^8.4.4:
   version "8.4.35"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.35.tgz#60997775689ce09011edf083a549cea44aabe2f7"
   integrity sha512-u5U8qYpBCpN13BsiEB0CbR1Hhh4Gc0zLFuedrHJKMctHCHAGrMdG0PRM/KErzAL3CU6/eckEtmHNB3x6e3c0vA==
