@@ -4429,10 +4429,10 @@ postcss-discard-duplicates@^6.0.1:
   resolved "https://registry.yarnpkg.com/postcss-discard-duplicates/-/postcss-discard-duplicates-6.0.1.tgz#112b1a95948e69b3484fdd43584dda6930977939"
   integrity sha512-1hvUs76HLYR8zkScbwyJ8oJEugfPV+WchpnA+26fpJ7Smzs51CzGBHC32RS03psuX/2l0l0UKh2StzNxOrKCYg==
 
-postcss-discard-empty@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-discard-empty/-/postcss-discard-empty-6.0.1.tgz#b34cb45ec891246da4506b53e352390fdef126c4"
-  integrity sha512-yitcmKwmVWtNsrrRqGJ7/C0YRy53i0mjexBDQ9zYxDwTWVBgbU4+C9jIZLmQlTDT9zhml+u0OMFJh8+31krmOg==
+postcss-discard-empty@^6.0.1, postcss-discard-empty@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-discard-empty/-/postcss-discard-empty-6.0.2.tgz#9c4ca61f949dede0f7a1dfe3959e1003d0454500"
+  integrity sha512-rj6pVC2dVCJrP0Y2RkYTQEbYaCf4HEm+R/2StQgJqGHxAa3+KcYslNQhcRqjLHtl/4wpzipJluaJLqBj6d5eDQ==
 
 postcss-discard-overridden@^6.0.1:
   version "6.0.1"
